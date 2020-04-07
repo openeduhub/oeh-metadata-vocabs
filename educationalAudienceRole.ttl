@@ -18,7 +18,11 @@ audRole: a skos:ConceptScheme;
   
 audRole:administrator a skos:Concept;
   skos:prefLabel "administrator"@en-US;
+  skos:prefLabel "administrator"@de;
+  skos:altLabel "admin"@en-US;
+  skos:altLabel "admin"@de;
   skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
+  skos:definition "Ein Trainer oder Pädagoge mit administrativer Autorität und Verantwortung."@de;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
