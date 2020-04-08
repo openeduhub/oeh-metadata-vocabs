@@ -1,0 +1,219 @@
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/discipline/#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<scheme> a skos:ConceptScheme ;
+    dct:title "Discipline"@en ;
+    dct:description "EAF thesaurus."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-04-08"^^xsd:date ;
+    dct:modified "2020-04-08"^^xsd:date ;
+    dct:issued "2020-04-08"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <020>, <040>, <060>, <080>,
+        <100>, <120>, <140>, <160>, <180>,
+        <200>, <220>, <240>, <260>, <280>,
+        <320>, <340>, <360>, <380>,
+        <400>, <420>, <440>, <450>, <460>, <480>,
+        <500>, <510>, <520>, <540>, <560>, <580>,
+        <600>, <620>, <640>, <660>, <680>,
+        <700>, <720> .
+
+<020> a skos:Concept ;
+    skos:prefLabel "Career education"@en ;
+    skos:prefLabel "Arbeitslehre"@de ;
+    skos:topConceptOf <scheme> .
+
+<040> a skos:Concept ;
+    skos:prefLabel "Vocational education"@en ;
+    skos:prefLabel "Berufliche Bildung"@de ;
+    skos:altLabel "Berufsausbildung"@de ;
+    skos:topConceptOf <scheme> .
+
+<060> a skos:Concept ;
+    skos:prefLabel "Art education"@en ;
+    skos:prefLabel "Bildende Kunst"@de ;
+    skos:altLabel "Kunsterziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<080> a skos:Concept ;
+    skos:prefLabel "Biology"@en ;
+    skos:prefLabel "Biologie"@de ;
+    skos:topConceptOf <scheme> .
+
+<100> a skos:Concept ;
+    skos:prefLabel "Chemistry"@en ;
+    skos:prefLabel "Chemie"@de ;
+    skos:topConceptOf <scheme> .
+
+<120> a skos:Concept ;
+    skos:prefLabel "Mother tongue"@en ;
+    skos:prefLabel "Deutsch"@de ;
+    skos:altLabel "Muttersprache"@de ;
+    skos:topConceptOf <scheme> .
+
+<140> a skos:Concept ;
+    skos:prefLabel "Preschool education"@en ;
+    skos:prefLabel "Elementarbereich"@de ;
+    skos:altLabel "Vorschulerziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<160> a skos:Concept ;
+    skos:prefLabel "Ethics"@en ;
+    skos:prefLabel "Ethik"@de ;
+    skos:topConceptOf <scheme> .
+
+<180> a skos:Concept ;
+    skos:prefLabel "Leisure"@en ;
+    skos:prefLabel "Freizeit"@de ;
+    skos:topConceptOf <scheme> .
+
+<200> a skos:Concept ;
+    skos:prefLabel "Foreign languages"@en ;
+    skos:prefLabel "Fremdsprachen"@de ;
+    skos:topConceptOf <scheme> .
+
+<220> a skos:Concept ;
+    skos:prefLabel "Geography"@en ;
+    skos:prefLabel "Geografie"@de ;
+    skos:topConceptOf <scheme> .
+
+<240> a skos:Concept ;
+    skos:prefLabel "History"@en ;
+    skos:prefLabel "Geschichte"@de ;
+    skos:topConceptOf <scheme> .
+
+<260> a skos:Concept ;
+    skos:prefLabel "Health education"@en ;
+    skos:prefLabel "Gesundheit"@de ;
+    skos:altLabel "Gesundheitserziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<280> a skos:Concept ;
+    skos:prefLabel "Primary school"@en ;
+    skos:prefLabel "Grundschule"@de ;
+    skos:topConceptOf <scheme> .
+
+<320> a skos:Concept ;
+    skos:prefLabel "ICT"@en ;
+    skos:prefLabel "Informationstechnische Bildung"@de ;
+    skos:altLabel "Informations- und Kommunikationstechnologie"@de ;
+    skos:topConceptOf <scheme> .
+
+<340> a skos:Concept ;
+    skos:prefLabel "Intercultural education"@en ;
+    skos:prefLabel "Interkulturelle Bildung"@de ;
+    skos:topConceptOf <scheme> .
+
+<360> a skos:Concept ;
+    skos:prefLabel "Child and youth education"@en ;
+    skos:prefLabel "Kinder- und Jugendbildung"@de ;
+    skos:topConceptOf <scheme> .
+
+<380> a skos:Concept ;
+    skos:prefLabel "Mathematics"@en ;
+    skos:prefLabel "Mathematik"@de ;
+    skos:topConceptOf <scheme> .
+
+<400> a skos:Concept ;
+    skos:prefLabel "Media education"@en ;
+    skos:prefLabel "Medienpädagogik"@de ;
+    skos:altLabel "Medienerziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<420> a skos:Concept ;
+    skos:prefLabel "Music"@en ;
+    skos:prefLabel "Musik"@de ;
+    skos:topConceptOf <scheme> .
+
+<440> a skos:Concept ;
+    skos:prefLabel "Pedagogy"@en ;
+    skos:prefLabel "Pädagogik"@de ;
+    skos:altLabel "Erziehungswissenschaften"@de ;
+    skos:topConceptOf <scheme> .
+
+<450> a skos:Concept ;
+    skos:prefLabel "Philosophy"@en ;
+    skos:prefLabel "Philosophie"@de ;
+    skos:topConceptOf <scheme> .
+
+<460> a skos:Concept ;
+    skos:prefLabel "Physics"@en ;
+    skos:prefLabel "Physik"@de ;
+    skos:topConceptOf <scheme> .
+
+<480> a skos:Concept ;
+    skos:prefLabel "Politics"@en ;
+    skos:prefLabel "Politische Bildung"@de ;
+    skos:altLabel "Politik"@de ;
+    skos:topConceptOf <scheme> .
+
+<500> a skos:Concept ;
+    skos:prefLabel "Practice-oriented subjects"@en ;
+    skos:prefLabel "Praxisorientierte Fächer"@de ;
+    skos:topConceptOf <scheme> .
+
+<510> a skos:Concept ;
+    skos:prefLabel "Psychology"@en ;
+    skos:prefLabel "Psychologie"@de ;
+    skos:topConceptOf <scheme> .
+
+<520> a skos:Concept ;
+    skos:prefLabel "Religious education"@en ;
+    skos:prefLabel "Religion"@de ;
+    skos:altLabel "Religionsunterricht"@de ;
+    skos:topConceptOf <scheme> .
+
+<540> a skos:Concept ;
+    skos:prefLabel "Rescue, first aid, secure"@en ;
+    skos:prefLabel "Retten, helfen, schützen"@de ;
+    skos:topConceptOf <scheme> .
+
+<560> a skos:Concept ;
+    skos:prefLabel "Sex education"@en ;
+    skos:prefLabel "Sexualerziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<580> a skos:Concept ;
+    skos:prefLabel "Feature film and documentary"@en ;
+    skos:prefLabel "Spiel- und Dokumentarfilm"@de ;
+    skos:topConceptOf <scheme> .
+
+<600> a skos:Concept ;
+    skos:prefLabel "Physical education"@en ;
+    skos:prefLabel "Sport"@de ;
+    skos:altLabel "Sportunterricht"@de ;
+    skos:topConceptOf <scheme> .
+
+<620> a skos:Concept ;
+    skos:prefLabel "Addiction and prevention"@en ;
+    skos:prefLabel "Sucht und Prävention"@de ;
+    skos:topConceptOf <scheme> .
+
+<640> a skos:Concept ;
+    skos:prefLabel "Environmental education"@en ;
+    skos:prefLabel "Umweltgefährdung, Umweltschutz"@de ;
+    skos:altLabel "Umwelterziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<660> a skos:Concept ;
+    skos:prefLabel "Road safety education"@en ;
+    skos:prefLabel "Verkehrserziehung"@de ;
+    skos:topConceptOf <scheme> .
+
+<680> a skos:Concept ;
+    skos:prefLabel "Further education"@en ;
+    skos:prefLabel "Weiterbildung"@de ;
+    skos:topConceptOf <scheme> .
+
+<700> a skos:Concept ;
+    skos:prefLabel "Economics"@en ;
+    skos:prefLabel "Wirtschaftskunde"@de ;
+    skos:altLabel "Wirtschaftswissenschaften"@de ;
+    skos:topConceptOf <scheme> .
+
+<720> a skos:Concept ;
+    skos:prefLabel "Interdisciplinary media"@en ;
+    skos:prefLabel "Sachgebietsübergreifende Medien"@de ;
+    skos:topConceptOf <scheme> .
