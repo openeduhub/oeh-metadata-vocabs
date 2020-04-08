@@ -10,54 +10,79 @@
 
 audRole: a skos:ConceptScheme;
   dc:title "LRMI Educational Audience Role Vocabulary" ;
-  dc:creator "LRMI Task Group (DCMI)"@en-US ;
+  dc:creator "LRMI Task Group (DCMI)"@en;
   dct:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
   dct:created "2017-03-01"^^xsd:date ;
-  dct:modified "2017-12-20"^^xsd:date ;  
+  dct:modified "2020-04-08"^^xsd:date ;  
   dct:license <http://creativecommons.org/licenses/by/4.0/> .  
   
 audRole:administrator a skos:Concept;
-  skos:prefLabel "administrator"@en-US;
+  skos:prefLabel "administrator"@en;
   skos:prefLabel "administrator"@de;
-  skos:altLabel "admin"@en-US;
+  skos:altLabel "admin"@en;
   skos:altLabel "admin"@de;
+  skos:altLabel "admins"@de;
   skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
   skos:definition "Ein Trainer oder Pädagoge mit administrativer Autorität und Verantwortung."@de;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en-US;  
-  skos:definition "The public at large."@en-US;
+  skos:prefLabel "general public"@en;
+  skos:prefLabel "allgemeine Öffentlichkeit"@de;
+  skos:altLabel "Öffentlichkeit"@de;
+  skos:definition "The public at large."@en;
   skos:inScheme audRole: .
   
 audRole:mentor a skos:Concept;
-  skos:prefLabel "mentor"@en-US;  
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
+  skos:prefLabel "mentor"@en;  
+  skos:prefLabel "Mentor"@de;
+  skos:altLabel "Ratgeber"@de;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en;
   skos:inScheme audRole: .  
 
 audRole:parent a skos:Concept;
-  skos:prefLabel "parent"@en-US;  
-  skos:definition "A father, mother, or legal guardian."@en-US;
+  skos:prefLabel "parent"@en;
+  skos:prefLabel "Eltern"@de;
+  skos:altLabel "Elter"@de;
+  skos:altLabel "Elternteil"@de;
+  skos:altLabel "Erziehungsberechtigter"@de;
+  skos:altLabel "Sorgeberechtigter"@de;
+  skos:definition "A father, mother, or legal guardian."@en;
   skos:inScheme audRole: .
   
 audRole:peerTutor a skos:Concept;
-  skos:prefLabel "peer tutor"@en-US;   
-  skos:definition "The peer learner serving as tutor of another learner."@en-US;
+  skos:prefLabel "peer tutor"@en;
+  skos:prefLabel "Nachhilfe"@de;
+  skos:altLabel "Nachhilfelehrerin"@de;
+  skos:altLabel "Nachhilfelehrer"@de;
+  skos:definition "The peer learner serving as tutor of another learner."@en;
   skos:broader audRole:student;
-  skos:inScheme audRole: .  
-       
+  skos:inScheme audRole: .
+
 audRole:professional a skos:Concept;
-  skos:prefLabel "professional"@en-US;  
-  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
+  skos:prefLabel "professional"@en;
+  skos:prefLabel "Profi"@de;
+  skos:altLabel "Fachfrau"@de;
+  skos:altLabel "Fachmann"@de;
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en;
   skos:inScheme audRole: .
        
 audRole:student a skos:Concept;
-  skos:prefLabel "student"@en-US;   
-  skos:definition "The learner or trainee."@en-US;
+  skos:prefLabel "student"@en;
+  skos:prefLabel "Schüler"@de;
+  skos:altLabel "Schülerin"@de;
+  skos:altLabel "Lernende"@de;
+  skos:altLabel "Lernender"@de;
+  skos:altLabel "students"@en;
+  skos:definition "The learner or trainee."@en;
   skos:narrower audRole:peerTutor;
   skos:inScheme audRole: .
        
 audRole:teacher a skos:Concept;
-  skos:prefLabel "teacher"@en-US;  
-  skos:definition "A person who has been trained to implement educational methods and practices."@en-US ;
+  skos:prefLabel "teacher"@en;
+  skos:prefLabel "Lehrer"@de;
+  skos:altLabel "Lehrerin"@de;
+  skos:altLabel "Lehrende"@de;
+  skos:altLabel "Lehrender"@de;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en ;
   skos:inScheme audRole: .            
