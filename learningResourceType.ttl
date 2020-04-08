@@ -14,7 +14,7 @@ LRT: a skos:ConceptScheme;
     skos:hasTopConcept LRT:application, LRT:assessment, LRT:audiovisual_medium, LRT:broadcast, LRT:case_study, LRT:course, LRT:demonstration, LRT:drill_and_practice, LRT:educational_game, LRT:enquiry_oriented_activity, LRT:experiment, LRT:exploration, LRT:glossary, LRT:guide, LRT:audio, LRT:data, LRT:image, LRT:map, LRT:model, LRT:photograph, LRT:text, LRT:video, LRT:other_asset_type, LRT:lesson_plan, LRT:open_activity, LRT:presentation, LRT:project, LRT:reference, LRT:role_play, LRT:simulation, LRT:tool, LRT:weblog, LRT:web_page, LRT:wiki, LRT:other_web_resource, LRT:other, LRT:worksheet .
 
 LRT:application a skos:Concept;
-    skos:prefLabel "Anwednung/Software"@de;
+    skos:prefLabel "Anwendnung/Software"@de;
     skos:prefLabel "application"@en;
     skos:topConceptOf LRT: .
 
