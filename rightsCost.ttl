@@ -1,0 +1,24 @@
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/rightsCost/#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<scheme> a skos:ConceptScheme ;
+  dct:title "Rights Cost"@en ;
+  dct:description "Whether use of this learning object requires payment."@en ;
+  dct:creator "<https://wirlernenonline.de>" ;
+  dct:created "2020-04-08"^^xsd:date ;
+  dct:modified "2020-04-08"^^xsd:date ; 
+  dct:issued "2020-04-08"^^xsd:date ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  skos:hasTopConcept <yes>, <no> .  
+  
+<yes> a skos:Concept ;  
+  skos:prefLabel "yes"@en ;
+  skos:prefLabel "ja"@de ;
+  skos:topConceptOf <scheme> .
+
+<no> a skos:Concept ;  
+  skos:prefLabel "no"@en ;
+  skos:prefLabel "nein"@de ;
+  skos:topConceptOf <scheme> .
