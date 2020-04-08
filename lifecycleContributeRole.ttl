@@ -4,89 +4,89 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <scheme> a skos:ConceptScheme ;
-  dct:title "Lifecycle Contribute Role"@en ;
-  dct:description "Kind of contribution."@en ;
-  dct:creator "<https://wirlernenonline.de>" ;
-  dct:created "2020-04-08"^^xsd:date ;
-  dct:modified "2020-04-08"^^xsd:date ; 
-  dct:issued "2020-04-08"^^xsd:date ;
-  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-  skos:hasTopConcept <author>, <publisher>, <unknown>, <initiator>, <terminator>, 
-    <validator>, <editor>, <graphical_designer>, <technical_implementer>, 
-    <content_provider>, <technical_validator>, <educational_validator>, 
-    <script_writer>, <instructional_designer>, <subject_matter_expert> .  
-  
-<author> a skos:Concept ;  
-  skos:prefLabel "author"@en ;
-  skos:prefLabel "Autor"@de ;
-  skos:topConceptOf <scheme> .
+    dct:title "Lifecycle Contribute Role"@en ;
+    dct:description "Kind of contribution."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-04-08"^^xsd:date ;
+    dct:modified "2020-04-08"^^xsd:date ;
+    dct:issued "2020-04-08"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <author>, <publisher>, <unknown>, <initiator>, <terminator>,
+        <validator>, <editor>, <graphical_designer>, <technical_implementer>,
+        <content_provider>, <technical_validator>, <educational_validator>,
+        <script_writer>, <instructional_designer>, <subject_matter_expert> .
 
-<publisher> a skos:Concept ;  
-  skos:prefLabel "publisher"@en ;
-  skos:prefLabel "Herausgeber"@de ;
-  skos:topConceptOf <scheme> .
+<author> a skos:Concept ;
+    skos:prefLabel "author"@en ;
+    skos:prefLabel "Autor"@de ;
+    skos:topConceptOf <scheme> .
 
-<unknown> a skos:Concept ;  
-  skos:prefLabel "unknown"@en ;
-  skos:prefLabel "Herausgeber"@de ;
-  skos:topConceptOf <scheme> .
+<publisher> a skos:Concept ;
+    skos:prefLabel "publisher"@en ;
+    skos:prefLabel "Herausgeber"@de ;
+    skos:topConceptOf <scheme> .
 
-<initiator> a skos:Concept ;  
-  skos:prefLabel "initiator"@en ;
-  skos:prefLabel "Initiator"@de ;
-  skos:topConceptOf <scheme> .
+<unknown> a skos:Concept ;
+    skos:prefLabel "unknown"@en ;
+    skos:prefLabel "Herausgeber"@de ;
+    skos:topConceptOf <scheme> .
 
-<terminator> a skos:Concept ;  
-  skos:prefLabel "terminator"@en ;
-  skos:prefLabel "Beendung der Verfügbarkeit"@de ;
-  skos:topConceptOf <scheme> .
+<initiator> a skos:Concept ;
+    skos:prefLabel "initiator"@en ;
+    skos:prefLabel "Initiator"@de ;
+    skos:topConceptOf <scheme> .
 
-<validator> a skos:Concept ;  
-  skos:prefLabel "validator"@en ;
-  skos:prefLabel "Abnahme"@de ;
-  skos:topConceptOf <scheme> .
+<terminator> a skos:Concept ;
+    skos:prefLabel "terminator"@en ;
+    skos:prefLabel "Beendung der Verfügbarkeit"@de ;
+    skos:topConceptOf <scheme> .
 
-<editor> a skos:Concept ;  
-  skos:prefLabel "editor"@en ;
-  skos:prefLabel "Redaktion"@de ;
-  skos:topConceptOf <scheme> .
+<validator> a skos:Concept ;
+    skos:prefLabel "validator"@en ;
+    skos:prefLabel "Abnahme"@de ;
+    skos:topConceptOf <scheme> .
 
-<graphical_designer> a skos:Concept ;  
-  skos:prefLabel "graphical designer"@en ;
-  skos:prefLabel "grafisches Design"@de ;
-  skos:topConceptOf <scheme> .  
+<editor> a skos:Concept ;
+    skos:prefLabel "editor"@en ;
+    skos:prefLabel "Redaktion"@de ;
+    skos:topConceptOf <scheme> .
 
-<technical_implementer> a skos:Concept ;  
-  skos:prefLabel "technical implementer"@en ;
-  skos:prefLabel "Programmierung"@de ;
-  skos:topConceptOf <scheme> .    
+<graphical_designer> a skos:Concept ;
+    skos:prefLabel "graphical designer"@en ;
+    skos:prefLabel "grafisches Design"@de ;
+    skos:topConceptOf <scheme> .
 
-<content_provider> a skos:Concept ;  
-  skos:prefLabel "content provider"@en ;
-  skos:prefLabel "Materialbereitstellung"@de ;
-  skos:topConceptOf <scheme> .    
+<technical_implementer> a skos:Concept ;
+    skos:prefLabel "technical implementer"@en ;
+    skos:prefLabel "Programmierung"@de ;
+    skos:topConceptOf <scheme> .
 
-<technical_validator> a skos:Concept ;  
-  skos:prefLabel "technical validator"@en ;
-  skos:prefLabel "technische Prüfung"@de ;
-  skos:topConceptOf <scheme> .    
+<content_provider> a skos:Concept ;
+    skos:prefLabel "content provider"@en ;
+    skos:prefLabel "Materialbereitstellung"@de ;
+    skos:topConceptOf <scheme> .
 
-<educational_validator> a skos:Concept ;  
-  skos:prefLabel "educational validator"@en ;
-  skos:prefLabel "pädagogische Prüfung"@de ;
-  skos:topConceptOf <scheme> .    
+<technical_validator> a skos:Concept ;
+    skos:prefLabel "technical validator"@en ;
+    skos:prefLabel "technische Prüfung"@de ;
+    skos:topConceptOf <scheme> .
 
-<script_writer> a skos:Concept ;  
-  skos:prefLabel "script writer"@en ;
-  skos:prefLabel "Skript/Drehbuch"@de ;
-  skos:topConceptOf <scheme> .    
+<educational_validator> a skos:Concept ;
+    skos:prefLabel "educational validator"@en ;
+    skos:prefLabel "pädagogische Prüfung"@de ;
+    skos:topConceptOf <scheme> .
 
-<instructional_designer> a skos:Concept ;  
-  skos:prefLabel "instructional designer"@en ;
-  skos:prefLabel "pädagogisches Konzept"@de ;
-  skos:topConceptOf <scheme> .    
+<script_writer> a skos:Concept ;
+    skos:prefLabel "script writer"@en ;
+    skos:prefLabel "Skript/Drehbuch"@de ;
+    skos:topConceptOf <scheme> .
 
-<subject_matter_expert> a skos:Concept ;  
-  skos:prefLabel "subject matter expert"@en ;
-  skos:prefLabel "Fachberatung"@de ;
-  skos:topConceptOf <scheme> .    
+<instructional_designer> a skos:Concept ;
+    skos:prefLabel "instructional designer"@en ;
+    skos:prefLabel "pädagogisches Konzept"@de ;
+    skos:topConceptOf <scheme> .
+
+<subject_matter_expert> a skos:Concept ;
+    skos:prefLabel "subject matter expert"@en ;
+    skos:prefLabel "Fachberatung"@de ;
+    skos:topConceptOf <scheme> .
