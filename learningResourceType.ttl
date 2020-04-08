@@ -7,8 +7,8 @@ LRT: a skos:ConceptScheme;
     dct:title "Learning Resource Type School"@en;
     dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des OpenEduHub."@de;
     dct:publisher "Steffen Rörtgen";
-    dct:created "2017-03-01"^^xsd:date;
-    dct:modified "2017-12-20"^^xsd:date; 
+    dct:created "2020-04-08"^^xsd:date;
+    dct:modified "2020-04-08"^^xsd:date; 
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept "application", "assessment", "audiovisual_medium", "broadcast", "case_study", "course", "demonstration", "drill_and_practice", "educational_game", "enquiry_oriented_activity", "experiment", "exploration", "glossary", "guide", "audio", "data", "image", "map", "model", "photograph", "text", "video", "other_asset_type", "lesson_plan", "open_activity", "presentation", "project", "reference", "role_play", "simulation", "tool", "weblog", "web_page", "wiki", "other_web_resource", "other", "worksheet" .
