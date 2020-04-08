@@ -1,4 +1,4 @@
-@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/learningResourceType> .
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/learningResourceType.ttl> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -11,7 +11,14 @@
     dct:modified "2020-04-08"^^xsd:date; 
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <application>, <assessment>, <audiovisual_medium>, <broadcast>, <case_study>, <course>, <demonstration>, <drill_and_practice>, <educational_game>, <enquiry_oriented_activity>, <experiment>, <exploration>, <glossary>, <guide>, <audio>, <data>, <image>, <map>, <model>, <photograph>, <text>, <video>, <other_asset_type>, <lesson_plan>, <open_activity>, <presentation>, <project>, <reference>, <role_play>, <simulation>, <tool>, <weblog>, <web_page>, <wiki>, <other_web_resource>, <other>, <worksheet> .
+    skos:hasTopConcept <application>, <assessment>, <audiovisual_medium>, 
+            <broadcast>, <case_study>, <course>, <demonstration>, <drill_and_practice>, 
+            <educational_game>, <enquiry_oriented_activity>, <experiment>, 
+            <exploration>, <glossary>, <guide>, <audio>, <data>, <image>, 
+            <map>, <model>, <photograph>, <text>, <video>, <other_asset_type>, 
+            <lesson_plan>, <open_activity>, <presentation>, <project>, <reference>, 
+            <role_play>, <simulation>, <tool>, <weblog>, <web_page>, <wiki>, 
+            <other_web_resource>, <other>, <worksheet> .
 
 <application> a skos:Concept ;
     skos:prefLabel "Anwendnung/Software"@de ;
