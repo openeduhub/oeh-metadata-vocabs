@@ -1,0 +1,49 @@
+@prefix intEndUserRole: <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/intendedEndUserRole.ttl> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+intEndUserRole: a skos:ConceptScheme;
+    dct:title "Intended End User Role School"@en;
+    dct:description "Eine Werteliste für Rollen, für die die Ressource erstellt wurde. Entstanden im Kontext des OpenEduHub."@de;
+    dct:publisher "Steffen Rörtgen";
+    dct:created "2020-04-08"^^xsd:date;
+    dct:modified "2020-04-08"^^xsd:date; 
+    dct:issued "2020-04-08"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept intEndUserRole:author, intEndUserRole:counsellor, intEndUserRole:learner, intEndUserRole:manager, intEndUserRole:parent, intEndUserRole:teacher, intEndUserRole:other.
+
+intEndUserRole:author a skos:Concept;
+  skos:prefLabel "Autor"@de;
+  skos:prefLabel "author"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:counsellor a skos:Concept;
+  skos:prefLabel "Berater/in"@de;
+  skos:prefLabel "counsellor"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:learner a skos:Concept;
+  skos:prefLabel "Lerner/in"@de;
+  skos:prefLabel "learner"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:manager a skos:Concept;
+  skos:prefLabel "Verwaltung"@de;
+  skos:prefLabel "manager"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:parent a skos:Concept;
+  skos:prefLabel "Eltern"@de;
+  skos:prefLabel "parent"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:teacher a skos:Concept;
+  skos:prefLabel "Lehrer/in"@de;
+  skos:prefLabel "teacher"@en;
+  skos:topConceptOf intEndUserRole: .
+
+intEndUserRole:other a skos:Concept;
+  skos:prefLabel "andere"@de;
+  skos:prefLabel "other"@en;
+  skos:topConceptOf intEndUserRole: .
