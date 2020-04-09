@@ -4,9 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <scheme> a skos:ConceptScheme;
-    dct:title "Learning Resource Type School"@en;
+    dct:title "Typ der Ressource"@de;
+    dct:title "Learning Resource Type"@en;
     dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des OpenEduHub."@de;
-    dct:publisher "Steffen Rörtgen";
+    dct:description "A value list for Learning Resource Type. Developed in Context of OpenEduHub."@en;
+    dct:creator "<https://wirlernenonline.de>";
     dct:created "2020-04-08"^^xsd:date;
     dct:modified "2020-04-08"^^xsd:date; 
     dct:issued "2020-04-08"^^xsd:date;

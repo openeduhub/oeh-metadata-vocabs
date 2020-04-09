@@ -4,9 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <scheme> a skos:ConceptScheme;
-    dct:title "Intended End User Role School"@en ;
+    dct:title "Zielgruppe"@de ;
+    dct:title "Intended End User Role"@en ;
     dct:description "Eine Werteliste für Rollen, für die die Ressource erstellt wurde. Entstanden im Kontext des OpenEduHub."@de ;
-    dct:publisher "Steffen Rörtgen" ;
+    dct:description "A value list for role of principal user for which the learning object was designed for. Developed in context of OpenEduHub."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date ;
     dct:modified "2020-04-08"^^xsd:date ; 
     dct:issued "2020-04-08"^^xsd:date ;
