@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<scheme> a skos:ConceptScheme ;
+<> a skos:ConceptScheme ;
     dct:title "Rights Cost"@en ;
     dct:description "Whether use of this learning object requires payment."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
@@ -16,9 +16,9 @@
 <yes> a skos:Concept ;
     skos:prefLabel "yes"@en ;
     skos:prefLabel "ja"@de ;
-    skos:topConceptOf <scheme> .
+    skos:topConceptOf <> .
 
 <no> a skos:Concept ;
     skos:prefLabel "no"@en ;
     skos:prefLabel "nein"@de ;
-    skos:topConceptOf <scheme> .
+    skos:topConceptOf <> .
