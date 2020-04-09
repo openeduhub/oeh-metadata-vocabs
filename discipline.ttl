@@ -15,7 +15,10 @@
         <20001>, <220>, <160>, <20002>, <240>, <28010>, <320>, <060>,
         <20005>, <380>, <400>, <420>, <450>, <460>, <480>, <510>,
         <04013>, <520>, <20006>, <44006>, <44007>, <20007>, <600>, 
-        <04012>, <700> .
+        <700>, <020>, <040>, <04001>, <04002>, <04003>, <04005>, <04006>, 
+        <04007>, <04008>, <04009>, <04010>, <04011>, <04012>, <04014>, 
+        <20003>, <20004>, <20008>, <20009>, <20090>, <20090>, <260>, 
+        <440>, <46014>, <50001>, <50005>, <560>, <640>, <660>, <680> .
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -107,7 +110,7 @@
 
 <480> a skos:Concept ;
     skos:prefLabel "Politics"@en, "Politik"@de ;
-    skos:altLabel "Sowi"@de ;
+    skos:altLabel "Politische Bildung"@de ;
     skos:topConceptOf <> .
 
 <510> a skos:Concept ;
@@ -145,11 +148,132 @@
     skos:altLabel "Sportunterricht"@de ;
     skos:topConceptOf <> .
 
+<700> a skos:Concept ;
+    skos:prefLabel "Economics"@en, "Wirtschaftskunde"@de ;
+    skos:altLabel "Wirtschaftswissenschaften"@de ;
+    skos:topConceptOf <> .
+
+<020> a skos:Concept ;
+    skos:prefLabel "Career education"@en, "Arbeitslehre"@de ;
+    skos:topConceptOf <> .
+
+<040> a skos:Concept ;
+    skos:prefLabel "Vocational education"@en, "Berufliche Bildung"@de ;
+    skos:altLabel "Berufsausbildung"@de ;
+    skos:topConceptOf <> .
+
+<04001> a skos:Concept ;
+    skos:prefLabel "Agricultural economics"@en, "Agrarwirtschaft"@de ;
+    skos:topConceptOf <> .
+
+<04002> a skos:Concept ;
+    skos:prefLabel "Construction engineering"@en, "Bautechnik"@de ;
+    skos:topConceptOf <> .
+
+<04003> a skos:Concept ;
+    skos:prefLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
+    skos:altLabel "Drucktechnik"@de ;
+    skos:topConceptOf <> .
+
+<04005> a skos:Concept ;
+    skos:prefLabel "Electrical engineering"@en, "Eletrotechnik"@de ;
+    skos:topConceptOf <> .
+
+<04006> a skos:Concept ;
+    skos:prefLabel "Nutrition and home economics"@en, "Ernährung und Hauswirtschaft"@de ;
+    skos:topConceptOf <> .
+
+<04007> a skos:Concept ;
+    skos:prefLabel "Color technology and interior design"@en, "Farbtechnik und Raumgestaltung"@de ;
+    skos:topConceptOf <> .
+
+<04008> a skos:Concept ;
+    skos:prefLabel "Health care"@en, "Gesundheit"@de ;
+    skos:topConceptOf <> .
+
+<04009> a skos:Concept ;
+    skos:prefLabel "Wood engineering"@en, "Holztechnik"@de ;
+    skos:topConceptOf <> .
+
+<04010> a skos:Concept ;
+    skos:prefLabel "Body care"@en, "Körperpflege"@de ;
+    skos:topConceptOf <> .
+
+<04011> a skos:Concept ;
+    skos:prefLabel "Metal engineering"@en, "Metalltechnik"@de ;
+    skos:topConceptOf <> .
+
 <04012> a skos:Concept ;
     skos:prefLabel "Textile technology and clothing"@en, "Textiltechnik und Bekleidung"@de ;
     skos:topConceptOf <> .
 
-<700> a skos:Concept ;
-    skos:prefLabel "Economics"@en, "Wirtschaftskunde"@de ;
-    skos:altLabel "Wirtschaftswissenschaften"@de ;
+<04014> a skos:Concept ;
+    skos:prefLabel "Work safety"@en, "Arbeitssicherheit"@de ;
+    skos:topConceptOf <> .
+
+<20003> a skos:Concept ;
+    skos:prefLabel "Ancient Greek"@en, "Alt-Griechisch"@de ;
+    skos:topConceptOf <> .
+
+<20004> a skos:Concept ;
+    skos:prefLabel "Italian"@en, "Italienisch"@de ;
+    skos:topConceptOf <> .
+
+<20008> a skos:Concept ;
+    skos:prefLabel "Turkish"@en, "Türkisch"@de ;
+    skos:topConceptOf <> .
+
+<20009> a skos:Concept ;
+    skos:prefLabel "Sorbian"@en, "Sorbisch"@de ;
+    skos:topConceptOf <> .
+
+<20090> a skos:Concept ;
+    skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
+    skos:topConceptOf <> .
+
+<20090> a skos:Concept ;
+    skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
+    skos:topConceptOf <> .
+
+<260> a skos:Concept ;
+    skos:prefLabel "Health education"@en, "Gesundheit"@de ;
+    skos:altLabel "Gesundheitserziehung"@de ;
+    skos:topConceptOf <> .
+
+<440> a skos:Concept ;
+    skos:prefLabel "Pedagogy"@en, "Pädagogik"@de ;
+    skos:altLabel "Erziehungswissenschaften"@de ;
+    skos:topConceptOf <> .
+
+<46014> a skos:Concept ;
+    skos:prefLabel "Astronomy"@en, "Astronomie"@de ;
+    skos:topConceptOf <> .
+
+<50001> a skos:Concept ;
+    skos:prefLabel "Home economics"@en, "Hauswirtschaft"@de ;
+    skos:topConceptOf <> .
+
+<50005> a skos:Concept ;
+    skos:prefLabel "Handicraft"@en, "Werken"@de ;
+    skos:topConceptOf <> .
+
+<560> a skos:Concept ;
+    skos:prefLabel "Sex education"@en ;
+    skos:prefLabel "Sexualerziehung"@de ;
+    skos:topConceptOf <> .
+
+<640> a skos:Concept ;
+    skos:prefLabel "Environmental education"@en ;
+    skos:prefLabel "Umweltgefährdung, Umweltschutz"@de ;
+    skos:altLabel "Umwelterziehung"@de ;
+    skos:topConceptOf <> .
+
+<660> a skos:Concept ;
+    skos:prefLabel "Road safety education"@en ;
+    skos:prefLabel "Verkehrserziehung"@de ;
+    skos:topConceptOf <> .
+
+<680> a skos:Concept ;
+    skos:prefLabel "Further education"@en ;
+    skos:prefLabel "Weiterbildung"@de ;
     skos:topConceptOf <> .
