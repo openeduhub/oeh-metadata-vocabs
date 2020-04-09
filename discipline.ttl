@@ -14,8 +14,8 @@
     skos:hasTopConcept <720>, <080>, <100>, <28002>, <12002>, <120>,
         <20001>, <220>, <160>, <20002>, <240>, <28010>, <320>, <060>,
         <20005>, <380>, <400>, <420>, <450>, <460>, <480>, <510>,
-        <04013>, <520>, <20006>, <28010>, <44006>, <44007>, <20007>,
-        <600>, <04012>, <700> .
+        <04013>, <520>, <20006>, <44006>, <44007>, <20007>, <600>, 
+        <04012>, <700> .
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -67,6 +67,7 @@
 
 <28010> a skos:Concept ;
     skos:prefLabel "Homeland lessons"@en, "Heimatunterricht"@de ;
+    skos:altLabel "Sachunterricht"@de ;
     skos:topConceptOf <scheme> .
 
 <320> a skos:Concept ;
@@ -124,11 +125,6 @@
 
 <20006> a skos:Concept ;
     skos:prefLabel "Russian"@en, "Russisch"@de ;
-    skos:topConceptOf <scheme> .
-
-<28010> a skos:Concept ;
-    skos:prefLabel "Local history and geography"@en, "Sachunterricht"@de ;
-    skos:altLabel "Sachkunde"@de ;
     skos:topConceptOf <scheme> .
 
 <44006> a skos:Concept ;
