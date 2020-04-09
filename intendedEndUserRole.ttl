@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<scheme> a skos:ConceptScheme;
+<> a skos:ConceptScheme;
     dct:title "Zielgruppe"@de ;
     dct:title "Intended End User Role"@en ;
     dct:description "Eine Werteliste für Rollen, für die die Ressource erstellt wurde. Entstanden im Kontext des OpenEduHub."@de ;
@@ -19,34 +19,34 @@
 <author> a skos:Concept ;
   skos:prefLabel "Autor"@de ;
   skos:prefLabel "author"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <counsellor> a skos:Concept ;
   skos:prefLabel "Berater/in"@de ;
   skos:prefLabel "counsellor"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <learner> a skos:Concept ;
   skos:prefLabel "Lerner/in"@de ;
   skos:prefLabel "learner"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <manager> a skos:Concept ;
   skos:prefLabel "Verwaltung"@de ;
   skos:prefLabel "manager"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <parent> a skos:Concept ;
   skos:prefLabel "Eltern"@de ;
   skos:prefLabel "parent"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <teacher> a skos:Concept ;
   skos:prefLabel "Lehrer/in"@de ;
   skos:prefLabel "teacher"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
 
 <other> a skos:Concept ;
   skos:prefLabel "andere"@de ;
   skos:prefLabel "other"@en ;
-  skos:topConceptOf <scheme> .
+  skos:topConceptOf <> .
