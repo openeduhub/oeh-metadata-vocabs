@@ -19,16 +19,25 @@
 <author> a skos:Concept ;
   skos:prefLabel "Autor"@de ;
   skos:prefLabel "author"@en ;
+  skos:altLabel "Autorin"@de ;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en;
   skos:topConceptOf <> .
 
 <counsellor> a skos:Concept ;
   skos:prefLabel "Berater/in"@de ;
   skos:prefLabel "counsellor"@en ;
+  skos:altLabel "Ratgeber/in"@de ;
   skos:topConceptOf <> .
 
 <learner> a skos:Concept ;
   skos:prefLabel "Lerner/in"@de ;
   skos:prefLabel "learner"@en ;
+  skos:altLabel "Schüler"@de ;
+  skos:altLabel "Schülerin"@de ;
+  skos:altLabel "Lernende"@de ;
+  skos:altLabel "Lernender"@de ;
+  skos:altLabel "students"@en ;
+  skos:definition "The learner or trainee."@en ;
   skos:topConceptOf <> .
 
 <manager> a skos:Concept ;
@@ -39,11 +48,20 @@
 <parent> a skos:Concept ;
   skos:prefLabel "Eltern"@de ;
   skos:prefLabel "parent"@en ;
+  skos:altLabel "Elter"@de ;
+  skos:altLabel "Elternteil"@de ;
+  skos:altLabel "Erziehungsberechtigter"@de ;
+  skos:altLabel "Sorgeberechtigter"@de ;
+  skos:definition "A father, mother, or legal guardian."@en ;
   skos:topConceptOf <> .
 
 <teacher> a skos:Concept ;
   skos:prefLabel "Lehrer/in"@de ;
   skos:prefLabel "teacher"@en ;
+  skos:altLabel "Lehrerin"@de ;
+  skos:altLabel "Lehrende"@de ;
+  skos:altLabel "Lehrender"@de ;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en ;
   skos:topConceptOf <> .
 
 <other> a skos:Concept ;
