@@ -1,0 +1,158 @@
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/category/#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Category"@en ;
+    dct:description "Category thesaurus."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-04-08"^^xsd:date ;
+    dct:modified "2020-04-08"^^xsd:date ;
+    dct:issued "2020-04-08"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <1701>, <1059>, <1055>, <1529>, <1060>, <1156>,
+        <1146>, <1138>, <1194>, <1450>, <1453>, <1455>, <1281>, <1457>,
+        <1220>, <1274>, <1162>, <1452>, <1153>, <1071>, <1171>, <1696>,
+        <1198>, <1296>, <1530>, <1061>, <1454>, <1614>, <1626>, <1456>,
+        <1545>, <1470>, <1159>, <1064>, <1451> .
+
+<1701> a skos:Concept ;
+    skos:prefLabel "Instructions and tutorials"@en, "Anleitungen und Tutorials"@de ;
+    skos:topConceptOf <> .
+
+<1059> a skos:Concept ;
+    skos:prefLabel "apps"@en, "Apps"@de ;
+    skos:topConceptOf <> .
+
+<1055> a skos:Concept ;
+    skos:prefLabel "Article"@en, "Artikel"@de ;
+    skos:topConceptOf <> .
+
+<1529> a skos:Concept ;
+    skos:prefLabel "Augmented & Virtual Reality"@en, "Augmented & Virtual Reality"@de ;
+    skos:topConceptOf <> .
+
+<1060> a skos:Concept ;
+    skos:prefLabel "Blogs"@en, "Blogs"@de ;
+    skos:topConceptOf <> .
+
+<1156> a skos:Concept ;
+    skos:prefLabel "Corona support"@en, "Corona Unterstützung"@de ;
+    skos:topConceptOf <> .
+
+<1146> a skos:Concept ;
+    skos:prefLabel "Digital tools"@en, "Digitale Tools"@de ;
+    skos:topConceptOf <> .
+
+<1138> a skos:Concept ;
+    skos:prefLabel "E-learning support"@en, "E-learning support"@de ;
+    skos:topConceptOf <> .
+
+<1194> a skos:Concept ;
+    skos:prefLabel "Entertainment"@en, "Entertainment / Unterhaltung"@de ;
+    skos:topConceptOf <> .
+
+<1450> a skos:Concept ;
+    skos:prefLabel "Learning video clips"@en, "Erklärvideos"@de ;
+    skos:topConceptOf <> .
+
+<1453> a skos:Concept ;
+    skos:prefLabel "Feedback & evaluation"@en, "Feedback & Evaluation"@de ;
+    skos:topConceptOf <> .
+
+<1455> a skos:Concept ;
+    skos:prefLabel "TV tipps"@en, "Fernsehtipps"@de ;
+    skos:topConceptOf <> .
+
+<1281> a skos:Concept ;
+    skos:prefLabel "File-sharing"@en, "File-Sharing / Datenaustausch"@de ;
+    skos:topConceptOf <> .
+
+<1457> a skos:Concept ;
+    skos:prefLabel "Gamification"@en, "Gamification / Spielend lernen"@de ;
+    skos:topConceptOf <> .
+
+<1220> a skos:Concept ;
+    skos:prefLabel "Hardware-, Software- & Cloud solutions"@en, "Hardware-, Software- & Cloudlösungen"@de ;
+    skos:topConceptOf <> .
+
+<1274> a skos:Concept ;
+    skos:prefLabel "Collaboration & cooperation"@en, "Kollaboration & Kooperation"@de ;
+    skos:topConceptOf <> .
+
+<1162> a skos:Concept ;
+    skos:prefLabel "Communication"@en, "Kommunikation"@de ;
+    skos:topConceptOf <> .
+
+<1452> a skos:Concept ;
+    skos:prefLabel "Creativity"@en, "Kreativität"@de ;
+    skos:topConceptOf <> .
+
+<1153> a skos:Concept ;
+    skos:prefLabel "Education and training for teachers"@en, "Lehrerfort- & Weiterbildung"@de ;
+    skos:topConceptOf <> .
+
+<1071> a skos:Concept ;
+    skos:prefLabel "Link collections"@en, "Linksammlungen"@de ;
+    skos:topConceptOf <> .
+
+<1171> a skos:Concept ;
+    skos:prefLabel "Media and content collections"@en, "Medien- & Materialsammlung"@de ;
+    skos:topConceptOf <> .
+
+<1696> a skos:Concept ;
+    skos:prefLabel "Media education"@en, "Medienbildung"@de ;
+    skos:topConceptOf <> .
+
+<1198> a skos:Concept ;
+    skos:prefLabel "Tutoring & Self-learning tasks"@en, "Nachhilfe & Selbstlernaufgaben"@de ;
+    skos:topConceptOf <> .
+
+<1296> a skos:Concept ;
+    skos:prefLabel "Networks and networking"@en, "Netzwerke & Networking"@de ;
+    skos:topConceptOf <> .
+
+<1530> a skos:Concept ;
+    skos:prefLabel "Open source & OER"@en, "Open Source & OER"@de ;
+    skos:topConceptOf <> .
+
+<1061> a skos:Concept ;
+    skos:prefLabel "Playlists"@en, "Playlists"@de ;
+    skos:topConceptOf <> .
+
+<1454> a skos:Concept ;
+    skos:prefLabel "Podcasts and broadcast"@en, "Podcasts & Rundfunk"@de ;
+    skos:topConceptOf <> .
+
+<1614> a skos:Concept ;
+    skos:prefLabel "Presentation"@en, "Präsentation"@de ;
+    skos:topConceptOf <> .
+
+<1626> a skos:Concept ;
+    skos:prefLabel "Exams"@en, "Prüfungen"@de ;
+    skos:topConceptOf <> .
+
+<1456> a skos:Concept ;
+    skos:prefLabel "Quiz applications"@en, "Quizanwendungen"@de ;
+    skos:topConceptOf <> .
+
+<1545> a skos:Concept ;
+    skos:prefLabel "Search"@en, "Recherche & Suche"@de ;
+    skos:topConceptOf <> .
+
+<1470> a skos:Concept ;
+    skos:prefLabel "Regional offers"@en, "Regionale Angebote"@de ;
+    skos:topConceptOf <> .
+
+<1159> a skos:Concept ;
+    skos:prefLabel "School administration & lesson organization"@en, "Schulverwaltung & Unterrichtsorganisation"@de ;
+    skos:topConceptOf <> .
+
+<1064> a skos:Concept ;
+    skos:prefLabel "Others"@en, "Sonstiges"@de ;
+    skos:topConceptOf <> .
+
+<1451> a skos:Concept ;
+    skos:prefLabel "Teaching ideas & projects"@en, "Unterrichtsideen & -projekte"@de ;
+    skos:topConceptOf <> .
