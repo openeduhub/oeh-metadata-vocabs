@@ -1,0 +1,42 @@
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/educationalContext/#> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Educational Context"@en;
+    dct:title "Bildungsstufe"@de;
+    dct:description "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Entstanden im Kontext des OpenEduHub."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-04-08"^^xsd:date;
+    dct:modified "2020-04-08"^^xsd:date; 
+    dct:issued "2020-04-08"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <grundschule>, <sekundarstufe_1>, <sekundarstufe_2>,
+        <berufliche_bildung>, <erwachsenenbildung> .
+
+<grundschule> a skos:Concept ;
+    skos:prefLabel "Grundschule"@de ;
+    skos:altLabel "Primarstufe"@de ;
+    skos:topConceptOf <> .
+
+<sekundarstufe_1> a skos:Concept ;
+    skos:prefLabel "Sekundarstufe I"@de ;
+    skos:altLabel "Sekundarstufe 1"@de ;
+    skos:topConceptOf <> .
+
+<sekundarstufe_2> a skos:Concept ;
+    skos:prefLabel "Sekundarstufe II"@de ;
+    skos:altLabel "Sekundarstufe 2"@de ;
+    skos:topConceptOf <> .
+
+<berufliche_bildung> a skos:Concept ;
+    skos:prefLabel "Berufliche Bildung"@de ;
+    skos:prefLabel "vocational education"@en ;
+    skos:topConceptOf <> .
+
+<erwachsenenbildung> a skos:Concept ;
+    skos:prefLabel "Erwachsenenbildung"@de ;
+    skos:prefLabel "continuing education"@en ;
+    skos:topConceptOf <> .
+
