@@ -18,6 +18,11 @@
     skos:prefLabel "ja"@de ;
     skos:topConceptOf <> .
 
+<yes_for_additional> a skos:Concept ;
+    skos:prefLabel "additional content / features purchasable"@en ;
+    skos:prefLabel "zusätzliche Inhalte / Features per Kauf möglich"@de ;
+    skos:topConceptOf <> .
+
 <no> a skos:Concept ;
     skos:prefLabel "no"@en ;
     skos:prefLabel "nein"@de ;
