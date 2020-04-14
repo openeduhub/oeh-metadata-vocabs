@@ -11,7 +11,7 @@
     dct:modified "2020-04-08"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <yes>, <no> .
+    skos:hasTopConcept <yes>, <yes_for_additional>, <no> .
 
 <yes> a skos:Concept ;
     skos:prefLabel "yes"@en ;
