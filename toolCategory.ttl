@@ -1,0 +1,127 @@
+@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/toolCategory/#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Tool Category"@en ;
+    dct:description "A catalog of tool categories"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-04-14"^^xsd:date ;
+    dct:modified "2020-04-14"^^xsd:date ;
+    dct:issued "2020-04-14"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <evaluation>, <image_editor>, <blog>, <conferencing>,
+        <cms>, <file_storage>, <database>, <portfolio>, <formula_editor>,
+        <interactive>, <index_cards>, <communication>, <lms>, <mindmapping>,
+        <music_editor>, <note>, <presentation>, <role_play>, <simulation>, 
+        <spreadsheet>, <scheduling>, <text_editor>, <polling>, <visualization>,
+        <vocab_trainer>, <whiteboard>, <wiki> .
+
+<evaluation> a skos:Concept ;
+    skos:prefLabel "Auswertungsprogramm"@de ;
+    skos:topConceptOf <> .
+
+<image_editor> a skos:Concept ;
+    skos:prefLabel "Bildbearbeitung"@de ;
+    skos:topConceptOf <> .
+
+<blog> a skos:Concept ;
+    skos:prefLabel "Blog"@de ;
+    skos:topConceptOf <> .
+
+<conferencing> a skos:Concept ;
+    skos:prefLabel "Conferencing"@de ;
+    skos:topConceptOf <> .
+
+<cms> a skos:Concept ;
+    skos:prefLabel "Content Management System"@de ;
+    skos:topConceptOf <> .
+
+<file_storage> a skos:Concept ;
+    skos:prefLabel "Dateiablage"@de ;
+    skos:topConceptOf <> .
+
+<database> a skos:Concept ;
+    skos:prefLabel "Datenbank-System"@de ;
+    skos:topConceptOf <> .
+
+<portfolio> a skos:Concept ;
+    skos:prefLabel "E-Portfolio"@de ;
+    skos:topConceptOf <> .
+
+<formula_editor> a skos:Concept ;
+    skos:prefLabel "Formel-Editoren"@de ;
+    skos:topConceptOf <> .
+
+<interactive> a skos:Concept ;
+    skos:prefLabel "Interaktives Material"@de ;
+    skos:topConceptOf <> .
+
+<index_cards> a skos:Concept ;
+    skos:prefLabel "Karteikarten"@de ;
+    skos:topConceptOf <> .
+
+<communication> a skos:Concept ;
+    skos:prefLabel "Kommunikations-Tool"@de ;
+    skos:topConceptOf <> .
+
+<lms> a skos:Concept ;
+    skos:prefLabel "Learning-Management-System"@de ;
+    skos:topConceptOf <> .
+
+<mindmapping> a skos:Concept ;
+    skos:prefLabel "Mindmapping"@de ;
+    skos:topConceptOf <> .
+
+<music_editor> a skos:Concept ;
+    skos:prefLabel "Musik-Editor"@de ;
+    skos:topConceptOf <> .
+
+<note> a skos:Concept ;
+    skos:prefLabel "Notizzettel"@de ;
+    skos:topConceptOf <> .
+
+<presentation> a skos:Concept ;
+    skos:prefLabel "Präsentationssoftware"@de ;
+    skos:topConceptOf <> .
+
+<role_play> a skos:Concept ;
+    skos:prefLabel "Rollenspiele"@de ;
+    skos:topConceptOf <> .
+
+<simulation> a skos:Concept ;
+    skos:prefLabel "Simulationssoftware"@de ;
+    skos:topConceptOf <> .
+
+<spreadsheet> a skos:Concept ;
+    skos:prefLabel "Tabellenkalkulation"@de ;
+    skos:topConceptOf <> .
+
+<scheduling> a skos:Concept ;
+    skos:prefLabel "Terminplanung"@de ;
+    skos:topConceptOf <> .
+
+<text_editor> a skos:Concept ;
+    skos:prefLabel "Text-Editor"@de ;
+    skos:topConceptOf <> .
+
+<polling> a skos:Concept ;
+    skos:prefLabel "Umfrage-Tool"@de ;
+    skos:topConceptOf <> .
+
+<visualization> a skos:Concept ;
+    skos:prefLabel "Visualisierungs-Software"@de ;
+    skos:topConceptOf <> .
+
+<vocab_trainer> a skos:Concept ;
+    skos:prefLabel "Vokabel-Trainer"@de ;
+    skos:topConceptOf <> .
+
+<whiteboard> a skos:Concept ;
+    skos:prefLabel "Whiteboard"@de ;
+    skos:topConceptOf <> .
+
+<wiki> a skos:Concept ;
+    skos:prefLabel "Wiki"@de ;
+    skos:topConceptOf <> .
