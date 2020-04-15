@@ -89,6 +89,8 @@
 
 <380> a skos:Concept ;
     skos:prefLabel "Mathematics"@en, "Mathematik"@de ;
+    skos:altLabel "Mathe"@de ;
+    skos:altLabel "Math"@en ;
     skos:topConceptOf <> .
 
 <400> a skos:Concept ;
