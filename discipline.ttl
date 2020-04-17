@@ -36,6 +36,7 @@
 <28002> a skos:Concept ;
     skos:prefLabel "German as second language"@en, "Deutsch als Zweitsprache"@de ;
     skos:altLabel "DaZ"@de ;
+    skos:altLabel "Deutsch als Zweit- / Fremdsprache"@de ;
     skos:topConceptOf <> .
 
 <12002> a skos:Concept ;
@@ -45,6 +46,7 @@
 <120> a skos:Concept ;
     skos:prefLabel "Mother tongue"@en, "Deutsch"@de ;
     skos:altLabel "Muttersprache"@de ;
+    skos:altLabel "german"@en ;
     skos:topConceptOf <> .
 
 <20001> a skos:Concept ;
@@ -89,6 +91,8 @@
 
 <380> a skos:Concept ;
     skos:prefLabel "Mathematics"@en, "Mathematik"@de ;
+    skos:altLabel "Mathe"@de ;
+    skos:altLabel "Math"@en ;
     skos:topConceptOf <> .
 
 <400> a skos:Concept ;
