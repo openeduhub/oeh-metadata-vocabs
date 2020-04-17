@@ -172,7 +172,8 @@
 
 <04003> a skos:Concept ;
     skos:prefLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
-    skos:altLabel "Drucktechnik"@de ;
+    skos:altLabel "Naturwissenschaften"@de ;
+    skos:altLabel "MINT"@de ;
     skos:topConceptOf <> .
 
 <04005> a skos:Concept ;
