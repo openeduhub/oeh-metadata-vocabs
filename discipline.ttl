@@ -18,7 +18,7 @@
         <040>, <04001>, <04002>, <04003>, <04005>, <04006>, <04007>,
         <04009>, <04010>, <04011>, <04012>, <04014>, <20003>, <20004>,
         <20008>, <20009>, <20090>, <260>, <440>, <46014>, <50001>, <50005>,
-        <560>, <640>, <660>, <680>, <340> .
+        <560>, <640>, <660>, <680>, <340>, <niederdeutsch>, <48005> .
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -179,9 +179,10 @@
     skos:topConceptOf <> .
 
 <04003> a skos:Concept ;
-    skos:prefLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
+    skos:prefLabel "MINT"@de, "MINT"@en ;
+    skos:altLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
     skos:altLabel "Naturwissenschaften"@de ;
-    skos:altLabel "MINT"@de ;
+    skos:related <100>, <080>, <460>, <320> ;
     skos:topConceptOf <> .
 
 <04005> a skos:Concept ;
@@ -277,4 +278,14 @@
 <680> a skos:Concept ;
     skos:prefLabel "Further education"@en ;
     skos:prefLabel "Weiterbildung"@de ;
+    skos:topConceptOf <> .
+
+<niederdeutsch> a skos:Concept ;
+    skos:prefLabel "Niederdeutsch"@de ;
+    skos:altLabel "Platt"@de ;
+    skos:topConceptOf <> .
+
+<48005> a skos:Concept ;
+    skos:prefLabel "Gesellschaftskunde"@de ;
+    skos:altLabel "Gesellschaftspolitische Gegenwartsfragen"@de ;
     skos:topConceptOf <> .
