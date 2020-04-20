@@ -18,7 +18,7 @@
         <040>, <04001>, <04002>, <04003>, <04005>, <04006>, <04007>,
         <04009>, <04010>, <04011>, <04012>, <04014>, <20003>, <20004>,
         <20008>, <20009>, <20090>, <260>, <440>, <46014>, <50001>, <50005>,
-        <560>, <640>, <660>, <680> .
+        <560>, <640>, <660>, <680>, <340> .
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -78,6 +78,10 @@
 <320> a skos:Concept ;
     skos:prefLabel "ICT"@en, "Informatik"@de ;
     skos:altLabel "Informations- und Kommunikationstechnologie"@de ;
+    skos:topConceptOf <> .
+
+<340> a skos:Concept ;
+    skos:prefLabel "Intercultural Education"@en, "Interkulturelle Bildung"@de ;
     skos:topConceptOf <> .
 
 <060> a skos:Concept ;
