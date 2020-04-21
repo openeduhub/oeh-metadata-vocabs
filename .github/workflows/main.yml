@@ -3,7 +3,7 @@ name: Build /public and delpoy to gh-pages with docker container
 on:
   push:
     branches:
-      - docker
+      - master
 
 jobs:
   build:
