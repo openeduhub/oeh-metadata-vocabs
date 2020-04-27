@@ -1,4 +1,4 @@
-@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/learningResourceType/#> .
+@base <https://w3id.org/openeduhub/vocabs/learningResourceType/#> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -170,6 +170,12 @@
 <simulation> a skos:Concept ;
     skos:prefLabel "Simulation"@de ;
     skos:prefLabel "simulation"@en ;
+    skos:topConceptOf <> .
+
+<teaching_module> a skos:Concept ;
+    skos:prefLabel "Unterrichtsbaustein"@de ;
+    skos:prefLabel "teaching module"@en ;
+    skos:altLabel "teaching-module"@en ;
     skos:topConceptOf <> .
 
 <tool> a skos:Concept ;

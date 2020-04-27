@@ -1,4 +1,4 @@
-@base <https://raw.githubusercontent.com/sroertgen/oer-metadata-hub-vocab/master/discipline/#> .
+@base <https://w3id.org/openeduhub/vocabs/discipline/#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -97,7 +97,14 @@
     skos:prefLabel "Mathematics"@en, "Mathematik"@de ;
     skos:altLabel "Mathe"@de ;
     skos:altLabel "Math"@en ;
+    skos:narrower <3801> ;
     skos:topConceptOf <> .
+
+<3801> a skos:Concept ;
+    skos:prefLabel "Zahlen, Algebra"@de ;
+    skos:altLabel "Arithmetik"@de ;
+    skos:broader <380> ;
+    skos:inScheme <> .
 
 <400> a skos:Concept ;
     skos:prefLabel "Media education"@en, "Mediendidaktik"@de ;
