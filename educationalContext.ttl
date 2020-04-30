@@ -13,7 +13,12 @@
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <grundschule>, <sekundarstufe_1>, <sekundarstufe_2>,
-        <berufliche_bildung>, <erwachsenenbildung> .
+        <berufliche_bildung>, <erwachsenenbildung>, <allgemeinbildende_schule> .
+
+<allgemeinbildende_schule> a skos:Concept ;
+    skos:prefLabel "Allgemeinbildende Schule"@de ;
+    skos:prefLabel "compulsory education"@en ;
+    skos:topConceptOf <> .
 
 <grundschule> a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
