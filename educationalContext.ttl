@@ -28,11 +28,13 @@
 <sekundarstufe_1> a skos:Concept ;
     skos:prefLabel "Sekundarstufe I"@de ;
     skos:altLabel "Sekundarstufe 1"@de ;
+    skos:altLabel "lower secondary school"@en ;
     skos:topConceptOf <> .
 
 <sekundarstufe_2> a skos:Concept ;
     skos:prefLabel "Sekundarstufe II"@de ;
     skos:altLabel "Sekundarstufe 2"@de ;
+    skos:altLabel "upper secondary school"@en ;
     skos:topConceptOf <> .
 
 <berufliche_bildung> a skos:Concept ;
