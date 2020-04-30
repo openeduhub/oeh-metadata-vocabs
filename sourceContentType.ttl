@@ -11,7 +11,8 @@
     dct:modified "2020-04-08"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <001>, <002>, <003>, <004>, <005>, <006>, <007>, <008>, <009> .
+    skos:hasTopConcept <001>, <002>, <003>, <004>, <005>, <006>, 
+        <007>, <008>, <009> , <010>, <011> .
 
 <001> a skos:Concept ;
     skos:prefLabel "Bilder-Datenbank"@de ;
