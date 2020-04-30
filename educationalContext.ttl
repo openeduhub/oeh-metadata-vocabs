@@ -22,6 +22,8 @@
 
 <grundschule> a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
+    skos:prefLabel "primary school"@en ;
+    skos:altLabel "elementary school"@en ;
     skos:altLabel "Primarstufe"@de ;
     skos:topConceptOf <> .
 
