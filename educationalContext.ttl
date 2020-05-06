@@ -13,7 +13,8 @@
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <grundschule>, <sekundarstufe_1>, <sekundarstufe_2>,
-        <berufliche_bildung>, <erwachsenenbildung>, <allgemeinbildende_schule> .
+        <berufliche_bildung>, <erwachsenenbildung>, <allgemeinbildende_schule>,
+        <foerderschule> .
 
 <allgemeinbildende_schule> a skos:Concept ;
     skos:prefLabel "Allgemeinbildende Schule"@de ;
@@ -47,5 +48,11 @@
 <erwachsenenbildung> a skos:Concept ;
     skos:prefLabel "Erwachsenenbildung"@de ;
     skos:prefLabel "continuing education"@en ;
+    skos:topConceptOf <> .
+
+<foerderschule> a skos:Concept ;
+    skos:prefLabel "Förderschule"@de ;
+    skos:altLabel "Sonderpädagogische Förderung"@de ;
+    skos:prefLabel "special education"@en ;
     skos:topConceptOf <> .
 
