@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Niederdeutsch"
   },
+  "altLabel": {
+    "de": "Platt"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
@@ -50,6 +53,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

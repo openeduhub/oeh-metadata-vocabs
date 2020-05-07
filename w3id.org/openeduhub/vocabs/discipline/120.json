@@ -7,6 +7,10 @@
     "en": "Mother tongue",
     "de": "Deutsch"
   },
+  "altLabel": {
+    "en": "german",
+    "de": "Muttersprache"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
@@ -51,6 +55,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

@@ -7,6 +7,9 @@
     "en": "counsellor",
     "de": "Berater/in"
   },
+  "altLabel": {
+    "de": "Ratgeber/in"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/intendedEndUserRole/",
     "title": {
@@ -52,6 +55,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

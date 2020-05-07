@@ -6,11 +6,18 @@
   "prefLabel": {
     "de": "Zahlen, Algebra"
   },
+  "altLabel": {
+    "de": "Arithmetik"
+  },
   "broader": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/380",
     "prefLabel": {
       "en": "Mathematics",
       "de": "Mathematik"
+    },
+    "altLabel": {
+      "en": "Math",
+      "de": "Mathe"
     }
   },
   "inScheme": {
@@ -54,6 +61,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

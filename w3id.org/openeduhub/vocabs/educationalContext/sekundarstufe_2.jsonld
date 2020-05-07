@@ -6,6 +6,10 @@
   "prefLabel": {
     "de": "Sekundarstufe II"
   },
+  "altLabel": {
+    "en": "upper secondary school",
+    "de": "Sekundarstufe 2"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/educationalContext/",
     "title": {
@@ -51,6 +55,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

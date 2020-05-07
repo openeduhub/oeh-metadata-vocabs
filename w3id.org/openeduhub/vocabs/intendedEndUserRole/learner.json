@@ -7,6 +7,9 @@
     "en": "learner",
     "de": "Lerner/in"
   },
+  "altLabel": {
+    "en": "students"
+  },
   "definition": {
     "en": "The learner or trainee."
   },
@@ -55,6 +58,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

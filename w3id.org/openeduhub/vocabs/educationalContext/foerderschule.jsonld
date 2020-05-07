@@ -7,6 +7,9 @@
     "en": "special education",
     "de": "Förderschule"
   },
+  "altLabel": {
+    "de": "Sonderpädagogische Förderung"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/educationalContext/",
     "title": {
@@ -52,6 +55,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

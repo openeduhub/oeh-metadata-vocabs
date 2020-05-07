@@ -7,6 +7,9 @@
     "en": "teaching module",
     "de": "Unterrichtsbaustein"
   },
+  "altLabel": {
+    "en": "teaching-module"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
@@ -52,6 +55,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

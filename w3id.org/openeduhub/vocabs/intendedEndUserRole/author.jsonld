@@ -7,6 +7,9 @@
     "en": "author",
     "de": "Autor"
   },
+  "altLabel": {
+    "de": "Autorin"
+  },
   "definition": {
     "en": "Someone who advises, trains, supports, and/or guides."
   },
@@ -55,6 +58,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {

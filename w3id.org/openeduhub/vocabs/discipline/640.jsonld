@@ -7,6 +7,9 @@
     "en": "Environmental education",
     "de": "Umweltgefährdung, Umweltschutz"
   },
+  "altLabel": {
+    "de": "Umwelterziehung"
+  },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
@@ -51,6 +54,9 @@
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
     "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
       "@container": "@language"
     },
     "definition": {
