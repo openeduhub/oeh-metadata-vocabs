@@ -4,7 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Lifecycle Contribute Role"@en ;
+    dct:title "Rolle einer Autor*in"@de ;
+    dct:title "Role of an author"@en ;
     dct:description "Kind of contribution. Adapted from LOMv1.0 with German expressions from LOM-DEv1.0"@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date ;

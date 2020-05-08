@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Urherberrecht"@de ;
     dct:title "Rights Copyright and Other Restrictions"@en ;
     dct:description "Whether copyright or other restrictions apply to the use of this learning object."@en ;
     dct:creator "<https://wirlernenonline.de>" ;

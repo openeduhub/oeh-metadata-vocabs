@@ -4,7 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Category"@en ;
+    dct:title "Kategorien (von ich lerneonline.de)"@de ;
+    dct:title "Categories (von ichlerneonline.de)"@en ;
     dct:description "Category thesaurus."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date ;

@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Tool Kategorien"@de ;
     dct:title "Tool Category"@en ;
     dct:description "A catalog of tool categories"@en ;
     dct:creator "<https://wirlernenonline.de>" ;

@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Schnittstellen eines Tools"@de ;
     dct:title "Interfaces of a tool"@en ;
     dct:description "Describes interfaces of tool."@en ;
     dct:creator "<https://wirlernenonline.de>" ;

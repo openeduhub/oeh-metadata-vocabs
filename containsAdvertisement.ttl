@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Enthält Werbung"@de ;
     dct:title "Contains Advertisement"@en ;
     dct:description "Describes if the object contains advertisement."@en ;
     dct:creator "<https://wirlernenonline.de>" ;

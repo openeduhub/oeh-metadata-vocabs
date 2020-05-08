@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Kosten"@de ;
     dct:title "Rights Cost"@en ;
     dct:description "Whether use of this learning object requires payment."@en ;
     dct:creator "<https://wirlernenonline.de>" ;

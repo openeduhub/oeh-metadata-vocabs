@@ -4,7 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Conditions of Access"@en ;
+    dct:title "Zugangsbedinungen (Login)"@de ;
+    dct:title "Conditions of Access (login)"@en ;
     dct:description "Describes conditions of access to an object."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-14"^^xsd:date ;

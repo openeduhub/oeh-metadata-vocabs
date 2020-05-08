@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
+    dct:title "Art der Quelle"@de ;
     dct:title "Source Content Type"@en ;
     dct:description "Source Content Type."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
