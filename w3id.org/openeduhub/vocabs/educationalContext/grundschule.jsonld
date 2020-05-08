@@ -4,22 +4,22 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalContext%2Fgrundschule",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalContext%2Fgrundschule",
   "prefLabel": {
-    "en": "primary school",
-    "de": "Grundschule"
+    "de": "Grundschule",
+    "en": "primary school"
   },
   "altLabel": {
-    "en": [
-      "elementary school"
-    ],
     "de": [
       "Primarstufe"
+    ],
+    "en": [
+      "elementary school"
     ]
   },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/educationalContext/",
     "title": {
-      "en": "Educational Context",
-      "de": "Bildungsstufe"
+      "de": "Bildungsstufe",
+      "en": "Educational Context"
     }
   },
   "topConceptOf": {

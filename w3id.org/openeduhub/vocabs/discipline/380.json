@@ -4,15 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F380",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F380",
   "prefLabel": {
-    "en": "Mathematics",
-    "de": "Mathematik"
+    "de": "Mathematik",
+    "en": "Mathematics"
   },
   "altLabel": {
-    "en": [
-      "Math"
-    ],
     "de": [
       "Mathe"
+    ],
+    "en": [
+      "Math"
     ]
   },
   "narrower": [
@@ -31,8 +31,8 @@
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
-      "en": "Discipline",
-      "de": "Schulfächer"
+      "de": "Schulfächer",
+      "en": "Discipline"
     }
   },
   "topConceptOf": {

@@ -4,18 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Flearner",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Flearner",
   "prefLabel": {
-    "en": "learner",
-    "de": "Lerner/in"
+    "de": "Lerner/in",
+    "en": "learner"
   },
   "altLabel": {
-    "en": [
-      "students"
-    ],
     "de": [
       "Schüler",
       "Schülerin",
       "Lernende",
       "Lernender"
+    ],
+    "en": [
+      "students"
     ]
   },
   "definition": {
@@ -24,8 +24,8 @@
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/intendedEndUserRole/",
     "title": {
-      "en": "Intended End User Role",
-      "de": "Zielgruppe"
+      "de": "Zielgruppe",
+      "en": "Intended End User Role"
     }
   },
   "topConceptOf": {

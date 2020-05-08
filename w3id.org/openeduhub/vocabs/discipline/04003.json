@@ -4,23 +4,23 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F04003",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F04003",
   "prefLabel": {
-    "en": "MINT",
-    "de": "MINT"
+    "de": "MINT",
+    "en": "MINT"
   },
   "altLabel": {
-    "en": [
-      "Chemistry, Physics, Biology"
-    ],
     "de": [
       "Chemie, Physik, Biologie",
       "Naturwissenschaften"
+    ],
+    "en": [
+      "Chemistry, Physics, Biology"
     ]
   },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
-      "en": "Discipline",
-      "de": "Schulfächer"
+      "de": "Schulfächer",
+      "en": "Discipline"
     }
   },
   "topConceptOf": {
