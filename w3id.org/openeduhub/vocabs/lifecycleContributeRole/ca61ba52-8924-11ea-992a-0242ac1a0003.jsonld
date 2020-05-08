@@ -1,0 +1,170 @@
+{
+  "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61ba52-8924-11ea-992a-0242ac1a0003",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlifecycleContributeRole%2Fca61ba52-8924-11ea-992a-0242ac1a0003",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlifecycleContributeRole%2Fca61ba52-8924-11ea-992a-0242ac1a0003",
+  "prefLabel": {
+    "de": "Mittelschule"
+  },
+  "definition": {
+    "de": "Mittelschule"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61bdea-8924-11ea-9904-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 1: Natürliche Zahlen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61c95c-8924-11ea-9cad-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 2: Ganze Zahlen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61cd08-8924-11ea-8366-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 3: Geometrische Figuren und Lagebeziehungen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61d0a0-8924-11ea-b65e-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 4: Flächeninhalt – Rechtecke "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61d438-8924-11ea-be31-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 5: Größen im Alltag "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61d8ca-8924-11ea-841b-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 6: Daten "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61dc80-8924-11ea-ad38-0242ac1a0003",
+      "prefLabel": {
+        "de": "M5 Lernbereich 7: Gleichungen und Formeln "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61e090-8924-11ea-b612-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 1: Bruchzahlen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61ec02-8924-11ea-9928-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 2: Rationale Zahlen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61f6ca-8924-11ea-a0b9-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 3: Geometrische Figuren, Körper und Lagebeziehungen "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61fa62-8924-11ea-81a2-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 4: Flächeninhalt – Oberflächeninhalt von Quadern "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca61feae-8924-11ea-b2b5-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 5: Rauminhalt – Quader "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca6202be-8924-11ea-bc4e-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 6: Daten "
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca620660-8924-11ea-87f1-0242ac1a0003",
+      "prefLabel": {
+        "de": "M6 Lernbereich 7: Gleichungen und Formeln "
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/openeduhub/vocabs/lifecycleContributeRole/ca60e2d0-8924-11ea-8f40-0242ac1a0003",
+    "title": {
+      "de": "Mathematik-Test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}
