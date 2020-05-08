@@ -12,10 +12,11 @@
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <001>, <002>, <003>, <004>, <005>, <006>, 
-        <007>, <008>, <009> , <010>, <011> .
+        <007>, <008>, <009> , <010>, <011> , <012> .
 
 <001> a skos:Concept ;
     skos:prefLabel "Bilder-Datenbank"@de ;
+    skos:definition "Hierunter verstehen wir eine Quelle, die hauptsächlich Bilder anbietet"@de ;
     skos:topConceptOf <> .
 
 <002> a skos:Concept ;
@@ -56,4 +57,8 @@
 
 <011> a skos:Concept ;
     skos:prefLabel "Hardware"@de ;
+    skos:topConceptOf <> .
+
+<012> a skos:Concept ;
+    skos:prefLabel "Test-Item"@de ;
     skos:topConceptOf <> .
