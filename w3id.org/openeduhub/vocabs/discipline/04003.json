@@ -8,7 +8,13 @@
     "de": "MINT"
   },
   "altLabel": {
-    "en": "Chemistry, Physics, Biology"
+    "en": [
+      "Chemistry, Physics, Biology"
+    ],
+    "de": [
+      "Chemie, Physik, Biologie",
+      "Naturwissenschaften"
+    ]
   },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/discipline/",
@@ -21,6 +27,7 @@
     "id": "https://w3id.org/openeduhub/vocabs/discipline/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -58,7 +65,10 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"

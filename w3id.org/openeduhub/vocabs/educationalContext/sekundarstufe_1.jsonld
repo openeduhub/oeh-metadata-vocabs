@@ -7,8 +7,12 @@
     "de": "Sekundarstufe I"
   },
   "altLabel": {
-    "en": "lower secondary school",
-    "de": "Sekundarstufe 1"
+    "en": [
+      "lower secondary school"
+    ],
+    "de": [
+      "Sekundarstufe 1"
+    ]
   },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/educationalContext/",
@@ -21,6 +25,7 @@
     "id": "https://w3id.org/openeduhub/vocabs/educationalContext/"
   },
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -58,7 +63,10 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
