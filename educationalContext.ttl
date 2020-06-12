@@ -23,7 +23,9 @@
 
 <elementarbereich> a skos:Concept ;
     skos:prefLabel "Elementarbereich"@de ;
+    skos:altLabel "Elementarstufe"@de ;
     skos:prefLabel "elementary level"@en ;
+    skos:altLabel "elementary school"@en ;
     skos:topConceptOf <> .
 
 <grundschule> a skos:Concept ;
