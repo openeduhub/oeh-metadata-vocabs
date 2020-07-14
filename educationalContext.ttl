@@ -14,7 +14,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <grundschule>, <elementarbereich>, <sekundarstufe_1>, <sekundarstufe_2>,
         <berufliche_bildung>, <erwachsenenbildung>, <allgemeinbildende_schule>,
-        <foerderschule> , <mittelschule>.
+        <foerderschule> .
 
 <allgemeinbildende_schule> a skos:Concept ;
     skos:prefLabel "Allgemeinbildende Schule"@de ;
@@ -63,7 +63,4 @@
     skos:prefLabel "special education"@en ;
     skos:topConceptOf <> .
 
-<mittelschule> a skos:Concept ;
-    skos:prefLabel "Mittelschule"@de ;
-    skos:topConceptOf <> .
 
