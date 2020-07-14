@@ -1,17 +1,37 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/6",
+  "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/mittelstufe",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2F6",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2F6",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2Fmittelstufe",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2Fmittelstufe",
   "prefLabel": {
-    "de": "6"
+    "de": "Mittelstufe"
   },
-  "broader": {
-    "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/erprobungsstufe",
-    "prefLabel": {
-      "de": "Erprobungsstufe"
+  "narrower": [
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/7",
+      "prefLabel": {
+        "de": "7"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/8",
+      "prefLabel": {
+        "de": "8"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/9",
+      "prefLabel": {
+        "de": "9"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/10",
+      "prefLabel": {
+        "de": "10"
+      }
     }
-  },
+  ],
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/",
     "title": {
