@@ -15,7 +15,8 @@
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>,
         <7>, <8>,  <9>, <10>,  <11>, <12>, <13>, <ef>,
         <q1>, <q2>, <bs_avj> , <bs_bfs_1>, <bs_bfs_2>,
-        <bs_1>, <bs_2>, <bs_3> .
+        <bs_1>, <bs_2>, <bs_3>, <erprobungsstufe>,
+        <mittelstufe>, <oberstufe> .
 
 <1> a skos:Concept ;
     skos:prefLabel "1"@de ;
@@ -35,43 +36,53 @@
 
 <5> a skos:Concept ;
     skos:prefLabel "5"@de ;
+    skos:broader <erprobungsstufe> ;
     skos:topConceptOf <> .
 
 <6> a skos:Concept ;
     skos:prefLabel "6"@de ;
+    skos:broader <erprobungsstufe> ;
     skos:topConceptOf <> .
 
 <7> a skos:Concept ;
     skos:prefLabel "7"@de ;
+    skos:broader <mittelstufe> ;
     skos:topConceptOf <> .
 
 <8> a skos:Concept ;
     skos:prefLabel "8"@de ;
+    skos:broader <mittelstufe> ;
     skos:topConceptOf <> .
 
 <9> a skos:Concept ;
     skos:prefLabel "9"@de ;
+    skos:broader <mittelstufe> ;
     skos:topConceptOf <> .
 
 <10> a skos:Concept ;
     skos:prefLabel "10"@de ;
+    skos:broader <mittelstufe> ;
+    skos:broader <oberstufe> ;
     skos:broader <ef> ;
     skos:topConceptOf <> .
 
 <11> a skos:Concept ;
     skos:prefLabel "11"@de ;
     skos:broader <ef> ;
+    skos:broader <oberstufe> ;
     skos:broader <q1> ;
     skos:topConceptOf <> .
 
 <12> a skos:Concept ;
     skos:prefLabel "12"@de ;
+    skos:broader <oberstufe> ;
     skos:broader <q1> ;
     skos:broader <q2> ;
     skos:topConceptOf <> .
 
 <13> a skos:Concept ;
     skos:prefLabel "13"@de ;
+    skos:broader <oberstufe> ;
     skos:broader <q2> ;
     skos:topConceptOf <> .
 
@@ -112,4 +123,19 @@
 
 <bs_3>  a skos:Concept ;
     skos:prefLabel "BS: Lernjahr 3"@de ;
+    skos:topConceptOf <> .
+
+<erprobungsstufe> a skos:Concept ;
+    skos:prefLabel "Erprobungsstufe"@de ;
+    skos:narrower <5>, <6> ;
+    skos:topConceptOf <> .
+
+<mittelstufe> a skos:Concept ;
+    skos:prefLabel "Mittelstufe"@de ;
+    skos:narrower <7>, <8>, <9>, <10> ;
+    skos:topConceptOf <> .
+
+<oberstufe> a skos:Concept ;
+    skos:prefLabel "Oberstufe"@de ;
+    skos:narrower <10>, <11>, <12>, <13> ;
     skos:topConceptOf <> .
