@@ -7,6 +7,29 @@
     "de": "Video",
     "en": "video"
   },
+  "narrower": [
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/film",
+      "prefLabel": {
+        "de": "Film",
+        "en": "movie"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/tv_report",
+      "prefLabel": {
+        "de": "TV-Beitrag",
+        "en": "tv report"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/explainer_video",
+      "prefLabel": {
+        "de": "Erklärvideo",
+        "en": "explainer video"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {

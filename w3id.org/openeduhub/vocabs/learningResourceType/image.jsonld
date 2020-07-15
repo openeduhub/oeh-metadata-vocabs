@@ -7,6 +7,30 @@
     "de": "Bild",
     "en": "image"
   },
+  "narrower": [
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/photograph",
+      "prefLabel": {
+        "de": "Foto",
+        "en": "Photograph"
+      }
+    },
+    {
+      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/graphic",
+      "prefLabel": {
+        "de": "Grafik",
+        "en": "graphic"
+      },
+      "altLabel": {
+        "de": [
+          "Illustration"
+        ],
+        "en": [
+          "illustration"
+        ]
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {

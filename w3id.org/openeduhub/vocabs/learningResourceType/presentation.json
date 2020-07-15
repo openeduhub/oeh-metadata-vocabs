@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fpresentation",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fpresentation",
   "prefLabel": {
-    "de": "Präsentation",
-    "en": "presentation"
+    "de": "Präsentation/Tafelbild",
+    "en": "presentation/blackboard"
+  },
+  "altLabel": {
+    "de": [
+      "Präsentation",
+      "Tafelbild",
+      "Smartboard"
+    ],
+    "en": [
+      "presentation",
+      "blackboard",
+      "smartboard"
+    ]
   },
   "inScheme": {
     "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
