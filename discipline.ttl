@@ -290,10 +290,12 @@
 
 <niederdeutsch> a skos:Concept ;
     skos:prefLabel "Niederdeutsch"@de ;
+    skos:prefLabel "Platt German"@en ;
     skos:altLabel "Platt"@de ;
     skos:topConceptOf <> .
 
 <48005> a skos:Concept ;
     skos:prefLabel "Gesellschaftskunde"@de ;
+    skos:prefLabel "social studies"@en ;
     skos:altLabel "Gesellschaftspolitische Gegenwartsfragen"@de ;
     skos:topConceptOf <> .

@@ -12,14 +12,9 @@
     dct:modified "2020-04-08"^^xsd:date;
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <grundschule>, <elementarbereich>, <sekundarstufe_1>, <sekundarstufe_2>,
-        <berufliche_bildung>, <erwachsenenbildung>, <allgemeinbildende_schule>,
+    skos:hasTopConcept <grundschule>, <elementarbereich>, <sekundarstufe_1>,
+        <sekundarstufe_2>, <berufliche_bildung>, <erwachsenenbildung>,
         <foerderschule> .
-
-<allgemeinbildende_schule> a skos:Concept ;
-    skos:prefLabel "Allgemeinbildende Schule"@de ;
-    skos:prefLabel "compulsory education"@en ;
-    skos:topConceptOf <> .
 
 <elementarbereich> a skos:Concept ;
     skos:prefLabel "Elementarbereich"@de ;
@@ -37,12 +32,14 @@
 
 <sekundarstufe_1> a skos:Concept ;
     skos:prefLabel "Sekundarstufe I"@de ;
+    skos:prefLabel "Secondary I"@en ;
     skos:altLabel "Sekundarstufe 1"@de ;
     skos:altLabel "lower secondary school"@en ;
     skos:topConceptOf <> .
 
 <sekundarstufe_2> a skos:Concept ;
     skos:prefLabel "Sekundarstufe II"@de ;
+    skos:prefLabel "Secondary II"@en ;
     skos:altLabel "Sekundarstufe 2"@de ;
     skos:altLabel "upper secondary school"@en ;
     skos:topConceptOf <> .
