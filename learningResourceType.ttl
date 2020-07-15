@@ -253,4 +253,5 @@
 <teacher_training> a skos:Concept ;
     skos:prefLabel "Lehrer:innenfortbildung"@de ;
     skos:prefLabel "teacher training"@en ;
+    skos:altLabel "Lehrerfortbildung"@de, "Lehrerinnenfortbildung"@de, "Lehrer*innenfortbildung"@de ;
     skos:topConceptOf <> .
