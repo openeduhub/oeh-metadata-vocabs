@@ -21,7 +21,7 @@
         <lesson_plan>, <presentation>,
         <simulation>, <tool>, <other>, <worksheet>,
         <special_education_material>, <text_book>, <craft_template>,
-        <cheatsheet> .
+        <cheatsheet>, <teacher_training> .
 
 <assessment> a skos:Concept ;
     skos:prefLabel "Lernkontrolle"@de ;
@@ -249,4 +249,8 @@
     skos:altLabel "Merkblatt"@de, "Poster"@de ;
     skos:altLabel "cheatsheet"@en, "poster"@en ;
     skos:topConceptOf <> .
-    
+
+<teacher_training> a skos:Concept ;
+    skos:prefLabel "Lehrer:innenfortbildung"@de ;
+    skos:prefLabel "teacher training"@en ;
+    skos:topConceptOf <> .
