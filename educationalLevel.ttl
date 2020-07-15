@@ -13,7 +13,7 @@
     dct:issued "2020-07-14"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>,
-        <7>, <8>,  <9>, <10>,  <11>, <12>, <13>, <ef>,
+        <7>, <8>,  <9>, <10>,  <ef>,
         <q1>, <q2>, <bs_avj> , <bs_bfs_1>, <bs_bfs_2>,
         <bs_1>, <bs_2>, <bs_3>, <erprobungsstufe>,
         <mittelstufe>, <oberstufe> .
@@ -71,20 +71,20 @@
     skos:broader <ef> ;
     skos:broader <oberstufe> ;
     skos:broader <q1> ;
-    skos:topConceptOf <> .
+    skos:inScheme <> .
 
 <12> a skos:Concept ;
     skos:prefLabel "12"@de ;
     skos:broader <oberstufe> ;
     skos:broader <q1> ;
     skos:broader <q2> ;
-    skos:topConceptOf <> .
+    skos:inScheme <> .
 
 <13> a skos:Concept ;
     skos:prefLabel "13"@de ;
     skos:broader <oberstufe> ;
     skos:broader <q2> ;
-    skos:topConceptOf <> .
+    skos:inScheme <> .
 
 <ef>  a skos:Concept ;
     skos:prefLabel "EF (10./11. Jhg.)"@de ;
