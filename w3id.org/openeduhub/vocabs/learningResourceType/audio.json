@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/audio",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/audio",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Faudio",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Faudio",
@@ -9,7 +9,7 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/podcast_radio",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/podcast_radio",
       "prefLabel": {
         "de": "Podcast/Radio-Beitrag",
         "en": "Podcast/Broadcast"
@@ -26,14 +26,14 @@
       }
     },
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/audio_sample",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/audio_sample",
       "prefLabel": {
         "de": "Hörbeispiel",
         "en": "audio sample"
       }
     },
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/music",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/music",
       "prefLabel": {
         "de": "Musik",
         "en": "music"
@@ -41,14 +41,14 @@
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/"
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/"
   },
   "@context": {
     "@version": 1.1,

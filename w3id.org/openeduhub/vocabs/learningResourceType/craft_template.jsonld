@@ -1,10 +1,11 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/craft_template",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/craft_template",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fcraft_template",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fcraft_template",
   "prefLabel": {
-    "de": "Mal- und Bastelvorlage"
+    "de": "Mal- und Bastelvorlage",
+    "en": "coloring and craft template"
   },
   "altLabel": {
     "de": [
@@ -17,14 +18,14 @@
     ]
   },
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/"
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/"
   },
   "@context": {
     "@version": 1.1,

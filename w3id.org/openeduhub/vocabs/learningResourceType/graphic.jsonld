@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/graphic",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/graphic",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fgraphic",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fgraphic",
@@ -16,14 +16,14 @@
     ]
   },
   "broader": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/image",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/image",
     "prefLabel": {
       "de": "Bild",
       "en": "image"
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"

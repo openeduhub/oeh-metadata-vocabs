@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/film",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/film",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Ffilm",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Ffilm",
@@ -8,14 +8,14 @@
     "en": "movie"
   },
   "broader": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/video",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/video",
     "prefLabel": {
       "de": "Video",
       "en": "video"
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"

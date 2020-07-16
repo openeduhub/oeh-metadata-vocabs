@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fteaching_module",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fteaching_module",
@@ -18,7 +18,7 @@
     ]
   },
   "broader": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan",
     "prefLabel": {
       "de": "Unterrichtsplanung",
       "en": "lesson plan"
@@ -32,7 +32,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"

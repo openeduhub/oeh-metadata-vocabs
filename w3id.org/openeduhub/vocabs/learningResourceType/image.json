@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/image",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/image",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fimage",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Fimage",
@@ -9,14 +9,14 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/photograph",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/photograph",
       "prefLabel": {
         "de": "Foto",
         "en": "Photograph"
       }
     },
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/graphic",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/graphic",
       "prefLabel": {
         "de": "Grafik",
         "en": "graphic"
@@ -32,14 +32,14 @@
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/"
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/"
   },
   "@context": {
     "@version": 1.1,

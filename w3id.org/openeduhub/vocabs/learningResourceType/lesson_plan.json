@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan",
+  "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Flesson_plan",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlearningResourceType%2Flesson_plan",
@@ -16,7 +16,7 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module",
       "prefLabel": {
         "de": "Unterrichtsbaustein",
         "en": "teaching module"
@@ -33,7 +33,7 @@
       }
     },
     {
-      "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/teaching_idea",
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_idea",
       "prefLabel": {
         "de": "Unterrichtsidee",
         "en": "teaching idea"
@@ -47,14 +47,14 @@
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/",
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
       "de": "Typ der Lernressource",
       "en": "Learning Resource Type"
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/openeduhub/vocabs/learningResourceType/"
+    "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/"
   },
   "@context": {
     "@version": 1.1,

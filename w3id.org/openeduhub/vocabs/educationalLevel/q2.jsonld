@@ -1,5 +1,5 @@
 {
-  "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/q2",
+  "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/q2",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2Fq2",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2Fq2",
@@ -8,27 +8,27 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/12",
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/12",
       "prefLabel": {
         "de": "12"
       }
     },
     {
-      "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/13",
+      "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/13",
       "prefLabel": {
         "de": "13"
       }
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/",
+    "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
     "title": {
       "de": "Klassenstufe",
       "en": "Educational Level"
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/openeduhub/vocabs/educationalLevel/"
+    "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/"
   },
   "@context": {
     "@version": 1.1,
