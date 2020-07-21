@@ -10,65 +10,52 @@
     dct:description "A value list for Learning Resource Type. Developed in Context of OpenEduHub."@en;
     dct:creator "<https://wirlernenonline.de>";
     dct:created "2020-04-08"^^xsd:date;
-    dct:modified "2020-04-08"^^xsd:date;
+    dct:modified "2020-04-08"^^xsd:date; 
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <assessment>,
-        <course>, <drill_and_practice>,
-        <educational_game>, <experiment>,
-        <glossary>, <audio>, <data>, <image>,
-        <map>, <text>, <video>,
-        <lesson_plan>, <presentation>,
-        <simulation>, <tool>, <other>, <worksheet>,
-        <special_education_material>, <text_book>, <craft_template>,
-        <cheatsheet>, <teacher_training> .
+    skos:hasTopConcept <application>, <assessment>, <audiovisual_medium>, 
+            <broadcast>, <case_study>, <course>, <demonstration>, <drill_and_practice>, 
+            <educational_game>, <enquiry_oriented_activity>, <experiment>, 
+            <exploration>, <glossary>, <guide>, <audio>, <data>, <image>, 
+            <map>, <model>, <photograph>, <text>, <video>, <other_asset_type>, 
+            <lesson_plan>, <open_activity>, <presentation>, <project>, <reference>, 
+            <role_play>, <simulation>, <teaching_module>, <tool>, <weblog>, <web_page>, <wiki>, 
+            <other_web_resource>, <other>, <worksheet> .
+
+<application> a skos:Concept ;
+    skos:prefLabel "Anwendung/Software"@de ;
+    skos:prefLabel "application"@en ;
+    skos:editorialNote "Original LOMv1.0" ;
+    skos:topConceptOf <> .
 
 <assessment> a skos:Concept ;
     skos:prefLabel "Lernkontrolle"@de ;
     skos:prefLabel "assessment"@en ;
-    skos:narrower <exam>, <test>, <oral_exam>, <final_exam>, <evaluation_sheet> ;
     skos:topConceptOf <> .
 
-<exam> a skos:Concept ;
-    skos:prefLabel "Klassenarbeit"@de ;
-    skos:prefLabel "class test"@en ;
-    skos:altLabel "Klausur"@de, "Lernkontrolle"@de, "Schulaufgabe"@de ;
-    skos:broader <assessment> ;
-    skos:inScheme <> .
+<audiovisual_medium> a skos:Concept ;
+    skos:prefLabel "Audiovisuelles Medium"@de ;
+    skos:prefLabel "audiovisual medium"@en ;
+    skos:topConceptOf <> .
 
-<test> a skos:Concept ;
-    skos:prefLabel "Test"@de ;
-    skos:prefLabel "test"@en ;
-    skos:broader <assessment> ;
-    skos:inScheme <> .
+<broadcast> a skos:Concept ;
+    skos:prefLabel "Radio/TV"@de ;
+    skos:prefLabel "broadcast"@en ;
+    skos:topConceptOf <> .
 
-<oral_exam> a skos:Concept ;
-    skos:prefLabel "Mündliche Prüfung"@de ;
-    skos:prefLabel "oral exam"@en ;
-    skos:broader <assessment> ;
-    skos:inScheme <> .
-
-<final_exam> a skos:Concept ;
-    skos:prefLabel "Abschlussprüfung"@de ;
-    skos:prefLabel "final exam"@en ;
-    skos:broader <assessment> ;
-    skos:inScheme <> .
-
-<evaluation_sheet> a skos:Concept ;
-    skos:prefLabel "Erwartungshorizont"@de ;
-    skos:prefLabel "evaluation sheet"@en ;
-    skos:altLabel "Bewertungsbogen"@de ;
-    skos:broader <assessment> ;
-    skos:inScheme <> .
-
-<data> a skos:Concept ;
-    skos:prefLabel "Daten"@de ;
-    skos:prefLabel "data"@en ;
+<case_study> a skos:Concept ;
+    skos:prefLabel "Fallstudie"@de ;
+    skos:prefLabel "case_study"@en ;
     skos:topConceptOf <> .
 
 <course> a skos:Concept ;
     skos:prefLabel "Kurs"@de ;
     skos:prefLabel "course"@en ;
+    skos:topConceptOf <> .
+
+<demonstration> a skos:Concept ;
+    skos:prefLabel "Veranschaulichung"@de ;
+    skos:prefLabel "demonstration"@en ;
     skos:topConceptOf <> .
 
 <drill_and_practice> a skos:Concept ;
@@ -81,67 +68,59 @@
     skos:prefLabel "educational Game"@en ;
     skos:topConceptOf <> .
 
+<enquiry_oriented_activity> a skos:Concept ;
+    skos:prefLabel "Recherche-Auftrag"@de ;
+    skos:prefLabel "enquiry-oriented activity"@en ;
+    skos:topConceptOf <> .
+
 <experiment> a skos:Concept ;
     skos:prefLabel "Experiment"@de ;
     skos:prefLabel "experiment"@en ;
     skos:topConceptOf <> .
 
+<exploration> a skos:Concept ;
+    skos:prefLabel "Entdeckendes Lernen"@de ;
+    skos:prefLabel "exploration"@en ;
+    skos:topConceptOf <> .
+
 <glossary> a skos:Concept ;
-    skos:prefLabel "Glossar/Wiki"@de ;
-    skos:prefLabel "glossary/wiki"@en ;
-    skos:altLabel "Wiki"@de, "Glossar"@de ;
-    skos:altLabel "wiki"@en, "glossary"@en ;
+    skos:prefLabel "Glossar"@de ;
+    skos:prefLabel "glossary"@en ;
+    skos:topConceptOf <> .
+
+<guide> a skos:Concept ;
+    skos:prefLabel "Handbuch"@de ;
+    skos:prefLabel "guide"@en ;
     skos:topConceptOf <> .
 
 <audio> a skos:Concept ;
     skos:prefLabel "Audio"@de ;
     skos:prefLabel "audio"@en ;
-    skos:narrower <podcast_radio>, <audio_sample>, <music> ;
     skos:topConceptOf <> .
 
-<podcast_radio> a skos:Concept ;
-    skos:prefLabel "Podcast/Radio-Beitrag"@de ;
-    skos:prefLabel "Podcast/Broadcast"@en ;
-    skos:altLabel "Podcast"@de, "Radio"@de ;
-    skos:altLabel "podcast"@en, "radio"@en ;
-    skos:broader <audio> ;
-    skos:inScheme <> .
-
-<audio_sample> a skos:Concept ;
-    skos:prefLabel "Hörbeispiel"@de ;
-    skos:prefLabel "audio sample"@en ;
-    skos:broader <audio> ;
-    skos:inScheme <> .
-
-<music> a skos:Concept ;
-    skos:prefLabel "Musik"@de ;
-    skos:prefLabel "music"@en ;
-    skos:broader <audio> ;
-    skos:inScheme <> .
+<data> a skos:Concept ;
+    skos:prefLabel "Daten"@de ;
+    skos:prefLabel "data"@en ;
+    skos:topConceptOf <> .
 
 <image> a skos:Concept ;
     skos:prefLabel "Bild"@de ;
     skos:prefLabel "image"@en ;
-    skos:narrower <photograph>, <graphic> ;
+    skos:topConceptOf <> .
+
+<map> a skos:Concept ;
+    skos:prefLabel "Karte"@de ;
+    skos:prefLabel "map"@en ;
+    skos:topConceptOf <> .
+
+<model> a skos:Concept ;
+    skos:prefLabel "Modell"@de ;
+    skos:prefLabel "model"@en ;
     skos:topConceptOf <> .
 
 <photograph> a skos:Concept ;
     skos:prefLabel "Foto"@de ;
     skos:prefLabel "Photograph"@en ;
-    skos:broader <image> ;
-    skos:inScheme <> .
-
-<graphic> a skos:Concept ;
-    skos:prefLabel "Grafik"@de ;
-    skos:prefLabel "graphic"@en ;
-    skos:altLabel "Illustration"@de ;
-    skos:altLabel "illustration"@en ;
-    skos:broader <image> ;
-    skos:inScheme <> .
-
-<map> a skos:Concept ;
-    skos:prefLabel "Karte"@de ;
-    skos:prefLabel "map"@en ;
     skos:topConceptOf <> .
 
 <text> a skos:Concept ;
@@ -152,66 +131,77 @@
 <video> a skos:Concept ;
     skos:prefLabel "Video"@de ;
     skos:prefLabel "video"@en ;
-    skos:narrower <film>, <tv_report>, <explainer_video> ;
     skos:topConceptOf <> .
 
-<film> a skos:Concept ;
-    skos:prefLabel "Film"@de ;
-    skos:prefLabel "movie"@en ;
-    skos:broader <video> ;
-    skos:inScheme <> .
-
-<tv_report> a skos:Concept ;
-    skos:prefLabel "TV-Beitrag"@de ;
-    skos:prefLabel "tv report"@en ;
-    skos:broader <video> ;
-    skos:inScheme <> .
-
-<explainer_video> a skos:Concept ;
-    skos:prefLabel "Erklärvideo"@de ;
-    skos:prefLabel "explainer video"@en ;
-    skos:broader <video> ;
-    skos:inScheme <> .
+<other_asset_type> a skos:Concept ;
+    skos:prefLabel "Anderes Material"@de ;
+    skos:prefLabel "other asset type"@en ;
+    skos:topConceptOf <> .
 
 <lesson_plan> a skos:Concept ;
     skos:prefLabel "Unterrichtsplanung"@de ;
     skos:prefLabel "lesson plan"@en ;
-    skos:altLabel "Stundeverlaufsplan"@de, "Unterrichtsentwurf"@de, "Unterrichtskonzept"@de ;
-    skos:narrower <teaching_module>, <teaching_idea> ;
+    skos:topConceptOf <> .
+
+<open_activity> a skos:Concept ;
+    skos:prefLabel "Offene Aktivität"@de ;
+    skos:prefLabel "open activity"@en ;
+    skos:topConceptOf <> .
+
+<presentation> a skos:Concept ;
+    skos:prefLabel "Präsentation"@de ;
+    skos:prefLabel "presentation"@en ;
+    skos:topConceptOf <> .
+
+<project> a skos:Concept ;
+    skos:prefLabel "Projekt"@de ;
+    skos:prefLabel "project"@en ;
+    skos:topConceptOf <> .
+
+<reference> a skos:Concept ;
+    skos:prefLabel "Primärmaterial/Quelle"@de ;
+    skos:prefLabel "reference"@en ;
+    skos:topConceptOf <> .
+
+<role_play> a skos:Concept ;
+    skos:prefLabel "Rollenspiel"@de ;
+    skos:prefLabel "role play"@en ;
+    skos:topConceptOf <> .
+
+<simulation> a skos:Concept ;
+    skos:prefLabel "Simulation"@de ;
+    skos:prefLabel "simulation"@en ;
     skos:topConceptOf <> .
 
 <teaching_module> a skos:Concept ;
     skos:prefLabel "Unterrichtsbaustein"@de ;
     skos:prefLabel "teaching module"@en ;
-    skos:altLabel "Unterrichtseinheit"@de, "Unterrichtssequenz"@de, "Unterrichtsreihe"@de ;
     skos:altLabel "teaching-module"@en ;
-    skos:broader <lesson_plan> ;
-    skos:inScheme <> .
-
-<teaching_idea> a skos:Concept ;
-    skos:prefLabel "Unterrichtsidee"@de ;
-    skos:prefLabel "teaching idea"@en ;
-    skos:altLabel "Unterrichtsprojekt"@de, "Projekt"@de ;
-    skos:broader <lesson_plan> ;
-    skos:inScheme <> .
-
-<presentation> a skos:Concept ;
-    skos:prefLabel "Präsentation/Tafelbild"@de ;
-    skos:prefLabel "presentation/blackboard"@en ;
-    skos:altLabel "Präsentation"@de, "Tafelbild"@de, "Smartboard"@de ;
-    skos:altLabel "presentation"@en, "blackboard"@en, "smartboard"@en ;
-    skos:topConceptOf <> .
-
-<simulation> a skos:Concept ;
-    skos:prefLabel "Animation/Simulation"@de ;
-    skos:prefLabel "simulation"@en ;
-    skos:altLabel "Simulation"@de, "Animation"@de ;
-    skos:altLabel "simulation"@en, "animation"@en ;
     skos:topConceptOf <> .
 
 <tool> a skos:Concept ;
     skos:prefLabel "Werkzeug"@de ;
     skos:prefLabel "tool"@en ;
+    skos:topConceptOf <> .
+
+<weblog> a skos:Concept ;
+    skos:prefLabel "Weblog"@de ;
+    skos:prefLabel "weblog"@en ;
+    skos:topConceptOf <> .
+
+<web_page> a skos:Concept ;
+    skos:prefLabel "Website"@de ;
+    skos:prefLabel "web page"@en ;
+    skos:topConceptOf <> .
+
+<wiki> a skos:Concept ;
+    skos:prefLabel "Wiki"@de ;
+    skos:prefLabel "wiki"@en ;
+    skos:topConceptOf <> .
+
+<other_web_resource> a skos:Concept ;
+    skos:prefLabel "Andere Web Ressource"@de ;
+    skos:prefLabel "other web resource"@en ;
     skos:topConceptOf <> .
 
 <other> a skos:Concept ;
@@ -222,36 +212,4 @@
 <worksheet> a skos:Concept ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:prefLabel "worksheet"@en ;
-    skos:altLabel "Aufgabenkarte"@de ;
-    skos:topConceptOf <> .
-
-<special_education_material> a skos:Concept ;
-    skos:prefLabel "Fördermaterial/Inklusion"@de ;
-    skos:prefLabel "special education material"@en ;
-    skos:altLabel "Fördermaterial"@de, "Inklusion"@de ;
-    skos:topConceptOf <> .
-
-<text_book> a skos:Concept ;
-    skos:prefLabel "Schulbuch/Lehrwerk"@de ;
-    skos:prefLabel "textbook"@en ;
-    skos:topConceptOf <> .
-
-<craft_template> a skos:Concept ;
-    skos:prefLabel "Mal- und Bastelvorlage"@de ;
-    skos:prefLabel "coloring and craft template"@en ;
-    skos:altLabel "Malvorlage"@de, "Bastelvorlage"@de ;
-    skos:altLabel "coloring template"@en, "craft template"@en ;
-    skos:topConceptOf <> .
-
-<cheatsheet> a skos:Concept ;
-    skos:prefLabel "Merkblatt/Poster"@de ;
-    skos:prefLabel "Cheatsheet/Poster"@en ;
-    skos:altLabel "Merkblatt"@de, "Poster"@de ;
-    skos:altLabel "cheatsheet"@en, "poster"@en ;
-    skos:topConceptOf <> .
-
-<teacher_training> a skos:Concept ;
-    skos:prefLabel "Lehrer:innenfortbildung"@de ;
-    skos:prefLabel "teacher training"@en ;
-    skos:altLabel "Lehrerfortbildung"@de, "Lehrerinnenfortbildung"@de, "Lehrer*innenfortbildung"@de ;
     skos:topConceptOf <> .
