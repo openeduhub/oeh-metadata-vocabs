@@ -7,55 +7,6 @@
     "de": "Lernkontrolle",
     "en": "assessment"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/exam",
-      "prefLabel": {
-        "de": "Klassenarbeit",
-        "en": "class test"
-      },
-      "altLabel": {
-        "de": [
-          "Klausur",
-          "Lernkontrolle",
-          "Schulaufgabe"
-        ]
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/test",
-      "prefLabel": {
-        "de": "Test",
-        "en": "test"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/oral_exam",
-      "prefLabel": {
-        "de": "Mündliche Prüfung",
-        "en": "oral exam"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/final_exam",
-      "prefLabel": {
-        "de": "Abschlussprüfung",
-        "en": "final exam"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/evaluation_sheet",
-      "prefLabel": {
-        "de": "Erwartungshorizont",
-        "en": "evaluation sheet"
-      },
-      "altLabel": {
-        "de": [
-          "Bewertungsbogen"
-        ]
-      }
-    }
-  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {

@@ -7,45 +7,6 @@
     "de": "Unterrichtsplanung",
     "en": "lesson plan"
   },
-  "altLabel": {
-    "de": [
-      "Stundeverlaufsplan",
-      "Unterrichtsentwurf",
-      "Unterrichtskonzept"
-    ]
-  },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module",
-      "prefLabel": {
-        "de": "Unterrichtsbaustein",
-        "en": "teaching module"
-      },
-      "altLabel": {
-        "de": [
-          "Unterrichtseinheit",
-          "Unterrichtssequenz",
-          "Unterrichtsreihe"
-        ],
-        "en": [
-          "teaching-module"
-        ]
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_idea",
-      "prefLabel": {
-        "de": "Unterrichtsidee",
-        "en": "teaching idea"
-      },
-      "altLabel": {
-        "de": [
-          "Unterrichtsprojekt",
-          "Projekt"
-        ]
-      }
-    }
-  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/",
     "title": {
