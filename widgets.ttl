@@ -1,0 +1,100 @@
+@base <http://w3id.org/openeduhub/vocabs/widgets/#> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<> a skos:ConceptScheme;
+    dct:title "Open Edu Hub Widgets"@de;
+    dct:title "Open Edu Hub Widgets"@en;
+    dct:description "Eine Wertelliste für Typen von Widget-Typen, entstanden im Kontext des OpenEduHub."@de;
+    dct:creator "<https://wirlernenonline.de>";
+    dct:created "2020-07-27"^^xsd:date;
+    dct:modified "2020-07-27"^^xsd:date;
+    dct:issued "2020-07-27"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <materialien>, <tools> .
+
+
+<materialien> a skos:Concept ;
+    skos:prefLabel "Materialien / Inhalte"@de ;
+    skos:narrower <erklaervideo>, <tv_report>, <audio_sample>,
+        <podcast_radio>, <augmented_reality>, <graphic>,
+        <worksheet>, <test>, <exam>, <drill_and_practice>,
+        <course>, <simulation>, <glossary>, <book> ;
+    skos:topConceptOf <> .
+
+<erklaervideo> a skos:Concept ;
+    skos:prefLabel "Erklärvideo"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<tv_report> a skos:Concept ;
+    skos:prefLabel "TV-Beitrag"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<audio_sample> a skos:Concept ;
+    skos:prefLabel "Hörbeispiel"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<podcast_radio> a skos:Concept ;
+    skos:prefLabel "Radio, Podcast"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<augmented_reality> a skos:Concept ;
+    skos:prefLabel "Augmented Reality"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<graphic> a skos:Concept ;
+    skos:prefLabel "Grafik"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<worksheet> a skos:Concept ;
+    skos:prefLabel "Arbeitsblatt"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<test> a skos:Concept ;
+    skos:prefLabel "Testaufgaben"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<exam> a skos:Concept ;
+    skos:prefLabel "Klausuren"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<drill_and_practice> a skos:Concept ;
+    skos:prefLabel "Übung"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<course> a skos:Concept ;
+    skos:prefLabel "Kurs / Lernportal"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<simulation> a skos:Concept ;
+    skos:prefLabel "Animation / Simulation"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<glossary> a skos:Concept ;
+    skos:prefLabel "Begriffe / Glossar"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<book> a skos:Concept ;
+    skos:prefLabel "Buch"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<tools> a skos:Concept ;
+    skos:prefLabel "Tools / Apps"@de ;
+    skos:topConceptOf <> .
+    
