@@ -129,7 +129,7 @@
     skos:prefLabel "Methodisches & Unterrichtsbausteine"@de ;
     skos:narrower <teaching_learning_methods>, <teaching_modules>,
         <go_and_teach>, <tool_scenario>, <teaching_idea>,
-        <teacher_training> ;
+        <teacher_training>, <curriculum> ;
     skos:topConceptOf <> .
 
 <teaching_learning_methods> a skos:Concept ;
@@ -159,6 +159,11 @@
 
 <teacher_training> a skos:Concept ;
     skos:prefLabel "Fortbildungsangebote"@de ;
+    skos:broader <methods> ;
+    skos:inScheme <> .
+
+<curriculum> a skos:Concept ;
+    skos:prefLabel "Referenz zu Lehrplan"@de ;
     skos:broader <methods> ;
     skos:inScheme <> .
 
