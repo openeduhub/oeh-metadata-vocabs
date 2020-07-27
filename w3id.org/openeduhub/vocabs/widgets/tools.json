@@ -4,8 +4,40 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
   "prefLabel": {
-    "de": "Tools / Apps"
+    "de": "Software / Tools"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/learning_tools",
+      "prefLabel": {
+        "de": "Lerntools / Apps"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/methodical_tools",
+      "prefLabel": {
+        "de": "Methodische Tools"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/editors",
+      "prefLabel": {
+        "de": "Editoren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/educational_games",
+      "prefLabel": {
+        "de": "Lernspiele"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/hardware",
+      "prefLabel": {
+        "de": "Hardware"
+      }
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/widgets/",
     "title": {
