@@ -1,64 +1,23 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/widgets/methods",
+  "id": "http://w3id.org/openeduhub/vocabs/widgets/curriculum",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmethods",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmethods",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fcurriculum",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fcurriculum",
   "prefLabel": {
-    "de": "Methodisches & Unterrichtsbausteine"
+    "de": "Referenz zu Lehrplan"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_learning_methods",
-      "prefLabel": {
-        "de": "Lehr- und Lernmethoden"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules",
-      "prefLabel": {
-        "de": "Unterrichtsbausteine"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/go_and_teach",
-      "prefLabel": {
-        "de": "Go & Teach"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/tool_scenario",
-      "prefLabel": {
-        "de": "Tool-Einsatzszenario"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_idea",
-      "prefLabel": {
-        "de": "Unterrichtsidee"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teacher_training",
-      "prefLabel": {
-        "de": "Fortbildungsangebote"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/curriculum",
-      "prefLabel": {
-        "de": "Referenz zu Lehrplan"
-      }
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/widgets/methods",
+    "prefLabel": {
+      "de": "Methodisches & Unterrichtsbausteine"
     }
-  ],
+  },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/widgets/",
     "title": {
       "de": "Open Edu Hub Widgets",
       "en": "Open Edu Hub Widgets"
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/widgets/"
   },
   "@context": {
     "@version": 1.1,
