@@ -16,7 +16,7 @@
     skos:hasTopConcept <activity>, <lesson>, <unit>, <module>, <course> .
 
 <activity> a skos:Concept ;
-    skos:prefLabel "Unterrichtsbaustein"@de ;
+    skos:prefLabel "Unterrichtsbaustein (Aktivitäten in einer Stunde)"@de ;
     skos:prefLabel "activity"@en ;
     skos:topConceptOf <> .
 
@@ -26,12 +26,12 @@
     skos:topConceptOf <> .
 
 <unit> a skos:Concept ;
-    skos:prefLabel "Unterrichtseinheit"@de ;
+    skos:prefLabel "Unterrichtseinheit (mehrere Unterrichtsstunden)"@de ;
     skos:prefLabel "Unit"@en ;
     skos:topConceptOf <> .
 
 <module> a skos:Concept ;
-    skos:prefLabel "Unterrichtsreihe"@de ;
+    skos:prefLabel "Unterrichtsreihe (6-8 Wochen)"@de ;
     skos:prefLabel "Module"@en ;
     skos:topConceptOf <> .
 
