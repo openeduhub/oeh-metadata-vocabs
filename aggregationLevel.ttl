@@ -1,28 +1,32 @@
-@base <http://w3id.org/openeduhub/vocabs/learningComponent/#> .
+@base <http://w3id.org/openeduhub/vocabs/aggregationLevel/#> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 <> a skos:ConceptScheme;
-    dct:title "Open Edu Hub learning component values"@de;
-    dct:title "Open Edu Hub learning componenet values"@en;
-    dct:description "Eine Wertelliste für Einordnungen in Unterrichtsplanung, entstanden im Kontext des OpenEduHub."@de;
+    dct:title "Open Edu Hub Werte für Aggregationslevel zur Lerneinheiten"@de;
+    dct:title "Open Edu Hub values"@en;
+    dct:description "Eine Wertelliste für Einordnungen in Unterrichtsplanung, entstanden im Kontext des OpenEduHub. Erweiterung von LOMv1.0"@de;
     dct:creator "<https://wirlernenonline.de>";
     dct:created "2020-07-28"^^xsd:date;
     dct:modified "2020-07-28"^^xsd:date;
     dct:issued "2020-07-28"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <activity>, <lesson>, <unit>, <module>, <course> .
+    skos:hasTopConcept <1>, <2>, <unit>, <module>, <3>, <4> .
 
-<activity> a skos:Concept ;
+<1> a skos:Concept ;
     skos:prefLabel "Unterrichtsbaustein (Aktivitäten in einer Stunde)"@de ;
     skos:prefLabel "activity"@en ;
+    skos:altLabel "1"@de ;
+    skos:editorialNote "LOMv1.0; relates to oerschema:activity"@en ;
     skos:topConceptOf <> .
 
-<lesson> a skos:Concept ;
+<2> a skos:Concept ;
     skos:prefLabel "Unterrichtsstunde"@de ;
     skos:prefLabel "Lesson"@en ;
+    skos:altLabel "2"@de ;
+    skos:editorialNote "LOMv1.0; relates to oerschema:lesson"@en ;
     skos:topConceptOf <> .
 
 <unit> a skos:Concept ;
@@ -35,8 +39,17 @@
     skos:prefLabel "Module"@en ;
     skos:topConceptOf <> .
 
-<course> a skos:Concept ;
+<3> a skos:Concept ;
     skos:prefLabel "Kurs (Halbjahr oder Schuljahr)"@de ;
     skos:prefLabel "Course"@en ;
+    skos:altLabel "3"@de ;
+    skos:editorialNote "LOMv1.0; relates to oerschema:course / schema.org/Course"@en ;
     skos:topConceptOf <> .
 
+<4> a skos:Concept ;
+    skos:prefLabel "Kursreihe"@de ;
+    skos:prefLabel "set of courses"@en ;
+    skos:altLabel "4"@de ;
+    skos:definition "Eine Reihe von Kursen, das zu einem Zertifikat führt"@de ;
+    skos:editorialNote "LOMv1.0"@de ;
+    skos:topConceptOf <> .
