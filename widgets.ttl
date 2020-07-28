@@ -139,7 +139,8 @@
     skos:narrower <erklaervideo>, <tv_report>, <audio_sample>,
         <podcast_radio>, <augmented_reality>, <graphic>,
         <worksheet>, <test>, <exam>, <drill_and_practice>,
-        <course>, <simulation>, <glossary>, <book> ;
+        <course>, <simulation>, <glossary>, <book>, <music>,
+        <video_for_language_learning>, <textbook>, <map>, <photograph> ;
     skos:topConceptOf <> .
 
 <erklaervideo> a skos:Concept ;
@@ -212,11 +213,36 @@
     skos:broader <materialien> ;
     skos:inScheme <> .
 
+<music> a skos:Concept ;
+    skos:prefLabel "Musikstück"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<video_for_language_learning> a skos:Concept ;
+    skos:prefLabel "Sprachlernvideo"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<textbook> a skos:Concept ;
+    skos:prefLabel "Schulbuch"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<map> a skos:Concept ;
+    skos:prefLabel "Karte"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<photograph> a skos:Concept ;
+    skos:prefLabel "Foto"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
 
 <tools> a skos:Concept ;
     skos:prefLabel "Software / Tools"@de ;
     skos:narrower <learning_tools>, <methodical_tools>, <editors>,
-        <educational_games>, <hardware> ;
+        <educational_games>, <hardware>, <platform> ;
     skos:topConceptOf <> .
 
 <learning_tools> a skos:Concept ;
@@ -244,3 +270,7 @@
     skos:broader <tools> ;
     skos:inScheme <> .
 
+<platform> a skos:Concept ;
+    skos:prefLabel "Plattformen / Infrastrukturen"@de ;
+    skos:broader <tools> ;
+    skos:inScheme <> .
