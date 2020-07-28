@@ -1,0 +1,42 @@
+@base <http://w3id.org/openeduhub/vocabs/learningComponent/#> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<> a skos:ConceptScheme;
+    dct:title "Open Edu Hub learning component values"@de;
+    dct:title "Open Edu Hub learning componenet values"@en;
+    dct:description "Eine Wertelliste für Einordnungen in Unterrichtsplanung, entstanden im Kontext des OpenEduHub."@de;
+    dct:creator "<https://wirlernenonline.de>";
+    dct:created "2020-07-28"^^xsd:date;
+    dct:modified "2020-07-28"^^xsd:date;
+    dct:issued "2020-07-28"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <activity>, <lesson>, <unit>, <module>, <course> .
+
+<activity> a skos:Concept ;
+    skos:prefLabel "Unterrichtsbaustein"@de ;
+    skos:prefLabel "activity"@en ;
+    skos:topConceptOf <> .
+
+<lesson> a skos:Concept ;
+    skos:prefLabel "Unterrichtsstunde"@de ;
+    skos:prefLabel "Lesson"@en ;
+    skos:topConceptOf <> .
+
+<unit> a skos:Concept ;
+    skos:prefLabel "Unterrichtseinheit"@de ;
+    skos:prefLabel "Unit"@en ;
+    skos:topConceptOf <> .
+
+<module> a skos:Concept ;
+    skos:prefLabel "Unterrichtsreihe"@de ;
+    skos:prefLabel "Module"@en ;
+    skos:topConceptOf <> .
+
+<course> a skos:Concept ;
+    skos:prefLabel "Kurs (Halbjahr oder Schuljahr)"@de ;
+    skos:prefLabel "Course"@en ;
+    skos:topConceptOf <> .
+
