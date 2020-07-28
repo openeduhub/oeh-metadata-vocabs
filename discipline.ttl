@@ -299,3 +299,9 @@
     skos:prefLabel "social studies"@en ;
     skos:altLabel "Gesellschaftspolitische Gegenwartsfragen"@de ;
     skos:topConceptOf <> .
+
+<900> a skos:Concept ;
+    skos:prefLabel "Medienbildung"@de ;
+    skos:prefLabel "media education"@en ;
+    skos:topConceptOf <> .
+    
