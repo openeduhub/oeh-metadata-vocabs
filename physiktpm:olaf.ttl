@@ -1,0 +1,2062 @@
+@base <http://w3id.org/openeduhub/vocabs/physiktpm:olaf/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<abbildungen> a skos:Concept ;
+    skos:altLabel "Abbildung"@de,
+        "Abbildungen"@de,
+        "Funktion"@de,
+        "Funktion (Mathematik)"@de,
+        "Funktion in der Mathematik"@de,
+        "Funktionen"@de,
+        "Funktionen (Mathematik)"@de,
+        "Funktionen in der Mathematik"@de,
+        "f(x)"@de,
+        "mathematische Funktion"@de,
+        "mathematische Funktionen"@de,
+        "application"@en,
+        "f(x)"@en,
+        "function (mathematics)"@en,
+        "function in mathematics"@en,
+        "functions"@en,
+        "functions (mathematics)"@en,
+        "functions in mathematics"@en,
+        "map"@en,
+        "mapping"@en,
+        "mathematical function"@en,
+        "mathematical functions"@en,
+        "single-valued function"@en,
+        "total function"@en ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel "Bildweite"@de,
+        "Gegenstandsweite"@de,
+        "reelles Bild"@de,
+        "virtuelles Bild"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11348"@de ;
+    skos:prefLabel "Abbildungen"@de .
+
+<addition&zerlegung> a skos:Concept ;
+    skos:broader <kraefte> ;
+    skos:hiddenLabel "Kraftvektor"@de,
+        "Kräftedreieck"@de,
+        "Kräftegleichgewicht"@de,
+        "Kräfteparallelogramm"@de,
+        "Parallelverschiebung eines Kraftvektors"@de,
+        "resultierende Kraft"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Addition & Zerlegung"@de .
+
+<aktuelleprojekte> a skos:Concept ;
+    skos:broader <geschichte_ausblick> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "aktuelle Projekte"@de .
+
+<allgemeinerelativitaetstheorieart> a skos:Concept ;
+    skos:broader <relativitaetstheorie> ;
+    skos:hiddenLabel "Albert Einstein"@de,
+        "Die ART beschreibt die Wechselwirkung zwischen Materie (einschließlich Feldern) einerseits"@de,
+        "E=mc²"@de,
+        "Einstein"@de,
+        "Raum-Zeit"@de,
+        "Raumzeit"@de,
+        "allgemeine Relativitätstheorie"@de,
+        "sowie Raum und Zeit andererseits. Sie deutet Gravitation als geometrische Eigenschaft der gekrümmten vierdimensionalen Raumzeit"@de,
+        "vierdimensional"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Allgemeine Relativitätstheorie (ART)"@de .
+
+<allgemeinesgasgesetz> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Gesetz von AMONTONS"@de,
+        "Gesetz von BOYLE und MARIOTTE"@de,
+        "Gesetz von GAY-LUSSAC"@de,
+        "allgemeinen Gasgleichung"@de,
+        "isobar"@de,
+        "isochor"@de,
+        "isotherm"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Allgemeines Gasgesetz"@de .
+
+<arbeit,leistung,wirkungsgrad> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Arbeit pro Zeit"@de,
+        "Beschleunigungsarbeit"@de,
+        "Energieänderung"@de,
+        "Hubarbeit"@de,
+        "Reibarbeit"@de,
+        "Spannarbeit"@de,
+        "Watt"@de,
+        "Wirkungsgrad"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Arbeit, Leistung, Wirkungsgrad"@de .
+
+<arten> a skos:Concept ;
+    skos:broader <kraefte> ;
+    skos:hiddenLabel "Abgeleitete Kraft"@de,
+        "Abgeleitete Kräfte"@de,
+        "Auftriebskraft"@de,
+        "Federkraft"@de,
+        "Fundamentale Kraft"@de,
+        "Fundemantale Kräfte"@de,
+        "Gravitationskraft"@de,
+        "Reibungskraft"@de,
+        "elektrische Kraft"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Arten"@de .
+
+<ausbreitung> a skos:Concept ;
+    skos:altLabel "Ausbreitungsgeschwindigkeit"@de,
+        "Ausbreitungskoeffizient"@de,
+        "Gestörte Ausbreitung"@de ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel "Lichtbündel und Lichtstrahlen"@de,
+        "Lichtgeschwindigkeit"@de,
+        "Lochkamera"@de,
+        "Sehvorgang"@de,
+        "Stoffverhalten"@de,
+        "Strahlensatz"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1758425"@de ;
+    skos:prefLabel "Ausbreitung"@de .
+
+<ausdehnung> a skos:Concept ;
+    skos:altLabel "Ausweitung"@de,
+        "Flächenausdehnung"@de,
+        "Längenausdehnung"@de,
+        "Längsausdehnung"@de,
+        "Raumausdehnung"@de,
+        "Räumliche Ausdehnung"@de,
+        "Streckenausdehnung"@de,
+        "Volumenausdehnung"@de ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Anomalie des Wassers"@de,
+        "Längenausdehnungskoeffizienten"@de,
+        "Längenänderung"@de,
+        "Volumenänderung"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q778301"@de ;
+    skos:prefLabel "Ausdehnung"@de .
+
+<beschleuniger> a skos:Concept ;
+    skos:altLabel "Beschleuniger"@de,
+        "Bierrutsche"@de,
+        "Bierstürzer"@de,
+        "Saufmaschine"@de,
+        "Teilchenbeschleuniger"@de,
+        "Trichter"@de,
+        "atom smasher"@en ;
+    skos:broader <teilchenphysik> ;
+    skos:hiddenLabel "CERN"@de,
+        "DESY"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q130825"@de,
+        "http://www.wikidata.org/entity/Q857772"@de ;
+    skos:prefLabel "Beschleuniger"@de .
+
+<beschleunigt> a skos:Concept ;
+    skos:broader <bewegungen> ;
+    skos:hiddenLabel "Beschleunigung"@de,
+        "Beschleunigungsvorgang"@de,
+        "Bremsvorgang"@de,
+        "Freier Fall"@de,
+        "Mittlere Geschwindigkeit"@de,
+        "Momentangeschwindigkeit"@de,
+        "Senkrechter Wurf"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Beschleunigt"@de .
+
+<beugung> a skos:Concept ;
+    skos:altLabel "Beugung"@de,
+        "Beugungsphänomen"@de,
+        "Biegung"@de,
+        "Diffraktion"@de,
+        "Flektieren"@de,
+        "Fraunhoferbeugung"@de,
+        "Lichtbeugung"@de,
+        "Schallbeugung"@de,
+        "Wellenbeugung"@de,
+        "accidence"@en,
+        "inflexion"@en ;
+    skos:broader <wellenoptik> ;
+    skos:hiddenLabel "Beugung ist die Ablenkung einer Welle an einem Hindernis."@de,
+        "Beugungsbild"@de,
+        "Doppelspalt"@de,
+        "Huygensschen Prinzip"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q133900"@de,
+        "http://www.wikidata.org/entity/Q207857"@de ;
+    skos:prefLabel "Beugung"@de .
+
+<brechung> a skos:Concept ;
+    skos:altLabel "Atmosphärische Brechung"@de,
+        "Atmosphärische Lichtbrechung"@de,
+        "Lichtbrechung"@de,
+        "Refraktion"@de,
+        "Strahlenbrechung"@de,
+        "Wellenbrechung"@de ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel """
+Übergang zwischen zwei Medien"""@de,
+        "Grenzfläche"@de,
+        "Grenzwinkel der Totalreflexion"@de,
+        "Lichtbrechung"@de,
+        "Medien unterschiedlicher optischer Dichte"@de,
+        "Strahl wird gebrochen"@de,
+        "Totalreflexion"@de,
+        "optisch dichter"@de,
+        "optisch dünner"@de,
+        "reflektiert"@de,
+        "vom Lot weg gebrochen"@de,
+        "zum Lot hin gebrochen"@de,
+        "Übergang vom optisch dichteren zum optisch dünneren Medium"@de,
+        "Übergang vom optisch dünneren zum optisch dichteren Medium"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q72277"@de ;
+    skos:prefLabel "Brechung"@de .
+
+<deterministischeschaos> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Chaotheorie"@de,
+        "Determinismus"@de,
+        "Doppelpendel"@de,
+        "Grenzen der NEWTONschen Mechanik"@de,
+        "Kausalität"@de,
+        "Kausalitätsprinzip"@de,
+        "Lorenz-Attraktor"@de,
+        "Rückkopplung"@de,
+        "Schmetterlingseffekt"@de,
+        "gekoppelte Systeme"@de,
+        "seltsamer Attraktor"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Deterministisches Chaos"@de .
+
+<dokumentieren> a skos:Concept ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel "Experimente machen"@de,
+        "Protokoll"@de,
+        "Versuch"@de,
+        "Versuche anstellen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Dokumentieren"@de .
+
+<druck&auftrieb> a skos:Concept ;
+    skos:broader <masse,volumen,dichte> ;
+    skos:hiddenLabel "Auftrieb"@de,
+        "Flaschenteufel"@de,
+        "Kraft pro Fläche"@de,
+        "Luftdruck"@de,
+        "Pascal"@de,
+        "Schweben"@de,
+        "Schweredruck"@de,
+        "Schwimmen"@de,
+        "Sinken"@de,
+        "Steigen"@de,
+        "Wasserteufel oder Drehteufel"@de,
+        "bar"@de,
+        "cartesischer Taucher"@de,
+        "kartesianischer Tanzteufel"@de,
+        "kartesischer Taucher"@de,
+        "mPa"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Druck & Auftrieb"@de .
+
+<einfachemaschinen> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Flaschenzug"@de,
+        "Hebel"@de,
+        "Hydraulische Systeme"@de,
+        "Kraftwandler"@de,
+        "Wellrad"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Einfache Maschinen"@de .
+
+<einfachestromkreise> a skos:Concept ;
+    skos:broader <grundlagene-lehre> ;
+    skos:hiddenLabel "Atomare Vorstellungen der Elektrizität"@de,
+        "Einfache Stromkreise"@de,
+        "Elektrische Leiter"@de,
+        "Nichtleiter"@de,
+        "Parallelschaltung von Widerständen"@de,
+        "Reihenschaltung von Widerständen"@de,
+        "Schaltplan"@de,
+        "Stromkreiselemente"@de,
+        "Stromkreismodelle"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Einfache Stromkreise"@de .
+
+<einfuehrung_grundlagen> a skos:Concept ;
+    skos:broader <astronomie> ;
+    skos:hiddenLabel "Bewegung der Himmelskörper"@de,
+        "Die Himmelskörper ruhen nicht"@de,
+        "Himmel"@de,
+        "Himmelskörper"@de,
+        "Jahreszeiten"@de,
+        "Monat"@de,
+        "Mond"@de,
+        "Mondfinsternis"@de,
+        "Mondphasen"@de,
+        "Sonne"@de,
+        "Sonnenfinsternis"@de,
+        "Sterne"@de,
+        "sondern sie befinden sich in einer oder mehreren Drehbewegungen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Einführung / Grundlagen"@de .
+
+<elektrischegrundgroeßen> a skos:Concept ;
+    skos:broader <grundlagene-lehre> ;
+    skos:hiddenLabel "Ampere"@de,
+        "Coulomb"@de,
+        "Elektrische Feldlinien"@de,
+        "Elektrische Kraft"@de,
+        "Elektrische Ladung"@de,
+        "Elektrische Spannung"@de,
+        "Elektrische Stromstärke"@de,
+        "Homogenes elektrisches Feld"@de,
+        "Innenwiderstand"@de,
+        "Ladungseigenschaften"@de,
+        "OHMsches Gesetz"@de,
+        "Ohm"@de,
+        "Potential"@de,
+        "Potenzial"@de,
+        "Strom"@de,
+        "Volt"@de,
+        "Watt"@de,
+        "Widerstand"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektrische Grundgrößen"@de .
+
+<elektrischesfeld> a skos:Concept ;
+    skos:broader <bewegteladungen_felder> ;
+    skos:hiddenLabel "Elektrischen Querfeld"@de,
+        "Elektrisches Längsfeld"@de,
+        "Elektronenkanone"@de,
+        "Elektronenquelle"@de,
+        "Elektronenstrahlablenkröhre"@de,
+        "Elektronenstrahlsystem"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektrisches Feld"@de .
+
+<elektromagnetischesspektrum> a skos:Concept ;
+    skos:broader <wellenoptik> ;
+    skos:hiddenLabel "Gammastrahlung"@de,
+        "Infrarot"@de,
+        "Mikrowellen"@de,
+        "Radiowellen"@de,
+        "Röntgenstrahlung"@de,
+        "Sichtbares Licht"@de,
+        "Ultraviolett"@de,
+        "sichtbare Licht"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektromagnetisches Spektrum"@de .
+
+<elektromagnetischewellens.wellenoptik> a skos:Concept ;
+    skos:broader <schwingungenundwellen> ;
+    skos:hiddenLabel "Ausbreitung Elektromagnetischer Wellen"@de,
+        "Dipolstrahlung"@de,
+        "Elektromagnetische Wellen"@de,
+        "Licht"@de,
+        "Transversalwellen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektromagnetische Wellen (s. Wellenoptik)"@de .
+
+<elektromagnetismus> a skos:Concept ;
+    skos:broader <grundlagenmagnetismus> ;
+    skos:hiddenLabel "LORENTZ-Kraft"@de,
+        "Magnetfeld einer Zylinderspule"@de,
+        "Magnetfeld eines geraden Leiters"@de,
+        "Magnetisches Feld einer Spule"@de,
+        "Rechten-Faust-Regel"@de,
+        "magnetische Kraft"@de,
+        "magnetischen Wirkung"@de,
+        "magnetisches Feld"@de,
+        "ØRSTED-Versuch"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektromagnetismus"@de .
+
+<elektronen> a skos:Concept ;
+    skos:broader <quantenphysik> ;
+    skos:hiddenLabel "Beugung und Interferenz von Quantenobjekten"@de,
+        "De Broglie Wellenlänge"@de,
+        "Interferenz von Quantenobjekten"@de,
+        "Quantenobjekte"@de,
+        "Statistische Deutung"@de,
+        "Unschärferelation"@de,
+        "Welle - Teilchen - Dualismus"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Elektronen"@de .
+
+<elektrostatik> a skos:Concept ;
+    skos:altLabel "Elektrische Anziehung"@de,
+        "Elektrostatisch"@de,
+        "Elektrostatische Anziehung"@de,
+        "Elektrostatische Kraft"@de,
+        "Statische Aufladung"@de,
+        "Statische Elektrizität"@de ;
+    skos:broader <grundlagene-lehre> ;
+    skos:hiddenLabel "Bandgenerator"@de,
+        "Bernstein"@de,
+        "COULOMB-Gesetz"@de,
+        "Elektrisches Feld"@de,
+        "Ladungsverteilungen"@de,
+        "Reibungselektrizität"@de,
+        "coulombschen Gesetz"@de,
+        "ruhenden elektrischen Ladungen"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q26336"@de ;
+    skos:prefLabel "Elektrostatik"@de .
+
+<elementarteilchen> a skos:Concept ;
+    skos:altLabel "Elementarteilchenfamilie"@de,
+        "Elementarteilchenfamilien"@de,
+        "Fundamentalteilchen"@de,
+        "Les Particules élémentaires"@de,
+        "Subatomare Elementarteilchen"@de,
+        "Urteilchen"@de,
+        "The Elementary Particles"@en,
+        "elementary particle (non-composite)"@en,
+        "fundamental particle"@en,
+        "non-composite quantum particle"@en ;
+    skos:broader <teilchenphysik> ;
+    skos:hiddenLabel "Antiteilchen"@de,
+        "Austauschteilchen"@de,
+        "Baryonen"@de,
+        "Gluon"@de,
+        "Leptonen: Hadronen"@de,
+        "Mesonen"@de,
+        "Quark"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q43116"@de,
+        "http://www.wikidata.org/entity/Q5605534"@de,
+        "http://www.wikidata.org/entity/Q700483"@de ;
+    skos:prefLabel "Elementarteilchen"@de .
+
+<energieformen> a skos:Concept ;
+    skos:broader <energie> ;
+    skos:hiddenLabel "Atomenergie"@de,
+        "Bewegungsenergie"@de,
+        "Chemische Energie"@de,
+        "Elektrische Energie"@de,
+        "Kernenergie"@de,
+        "Lageenergie"@de,
+        "Sonnenenergie"@de,
+        "Strahlungsenergie"@de,
+        "Wärmeenergie"@de,
+        "kinetische Energie"@de,
+        "potentielle Energie"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Energieformen"@de .
+
+<energiespeicher> a skos:Concept ;
+    skos:altLabel "storage capacity"@en ;
+    skos:broader <energie> ;
+    skos:hiddenLabel "Akkumulator"@de,
+        "Batterie"@de,
+        "Batterie-Speicherkraftwerk"@de,
+        "Druckluftspeicherkraftwerk"@de,
+        "Fernwärmespeicher"@de,
+        "Hubspeicherkraftwerk"@de,
+        "Kondensator"@de,
+        "Latentwärmespeicher"@de,
+        "Pumpspeicherkraftwerk"@de,
+        "Redox-Flow-Batterie"@de,
+        "Schwungradspeicher"@de,
+        "Supraleitender Magnetischer Energiespeicher"@de,
+        "Thermochemische Wärmespeicher"@de,
+        "Wärmespeicher"@de,
+        "galvanische Zelle"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q837718"@de ;
+    skos:prefLabel "Energiespeicher"@de .
+
+<energieumwandlung> a skos:Concept ;
+    skos:altLabel "Energiewandler"@de,
+        "Energiewandlung"@de,
+        "conversion"@en,
+        "energy conversion"@en ;
+    skos:broader <energie> ;
+    skos:hiddenLabel "Energieerhaltungssatz"@de,
+        "Energieflussdiagrammen"@de,
+        "Energierhaltung"@de,
+        "Erhaltungssatz der Energie"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11271324"@de ;
+    skos:prefLabel "Energieumwandlung"@de .
+
+<entropie> a skos:Concept ;
+    skos:altLabel "Informationsdichte"@de,
+        "Maximale Entropie"@de,
+        "Maximalentropie"@de,
+        "Shannon-Entropie"@de,
+        "Shannonentropie"@de,
+        "ΔS"@de,
+        "Shannon entropy"@en,
+        "entropy"@en,
+        "entropy (classical thermodynamics)"@en,
+        "thermodynamic entropy"@en ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Maß der Unordnung"@de,
+        "Zweiter Hauptsatz"@de,
+        "irreversibler Prozess"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q204570"@de,
+        "http://www.wikidata.org/entity/Q45003"@de,
+        "http://www.wikidata.org/entity/Q5380792"@de ;
+    skos:prefLabel "Entropie"@de .
+
+<experimentieren> a skos:Concept ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel "Experiment"@de,
+        "Experimente"@de,
+        "Experimente machen"@de,
+        "Untersuchung"@de,
+        "Versuch"@de,
+        "Versuche anstellen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Experimentieren"@de .
+
+<fadenpendel> a skos:Concept ;
+    skos:altLabel "Fadenpendel"@de,
+        "mathematisches Pendel"@de ;
+    skos:broader <mechanischeschwingungen> ;
+    skos:hiddenLabel "Faden der Länge l"@de,
+        "Fadenpendel"@de,
+        "Mathematisches Pendel"@de,
+        "Pendel"@de,
+        "Perpendikel"@de,
+        "Physikalisches Pendel"@de,
+        "Schwerependel"@de,
+        "kleinen Auslenkungen"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q829360"@de ;
+    skos:prefLabel "Fadenpendel"@de .
+
+<farben> a skos:Concept ;
+    skos:altLabel "Color"@de,
+        "Farbe"@de,
+        "Farben"@de,
+        "Vereinsfarben"@de,
+        "colors"@en,
+        "colour"@en,
+        "colours"@en,
+        "has color"@en,
+        "has colour"@en ;
+    skos:broader <optik> ;
+    skos:hiddenLabel "Elektromagnetisches Spektrum"@de,
+        "Prisma"@de,
+        "Spektralfarben"@de,
+        "Subtraktive Farbmischung"@de,
+        "Weißes Licht"@de,
+        "Zerlegung von Sonnenlicht"@de,
+        "additiven Farbmischung"@de,
+        "lichtempfindlichen Zapfen"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/P462"@de,
+        "http://www.wikidata.org/entity/Q1075"@de,
+        "http://www.wikidata.org/entity/Q1396291"@de,
+        "http://www.wikidata.org/entity/Q1794704"@de ;
+    skos:prefLabel "Farben"@de .
+
+<federpendel> a skos:Concept ;
+    skos:altLabel "Federschwinger"@de,
+        "Federschwingung"@de ;
+    skos:broader <mechanischeschwingungen> ;
+    skos:hiddenLabel "Feder-Schwere-Pendel"@de,
+        "Federkonstante"@de,
+        "Federpendel"@de,
+        "Federpendel angeregt"@de,
+        "Federpendel gedämpft"@de,
+        "Gekoppelte Pendel"@de,
+        "Pendelkörper"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1400667"@de ;
+    skos:prefLabel "Federpendel"@de .
+
+<festkoerperphysik> a skos:Concept ;
+    skos:altLabel "a34"@de,
+        "solid state physics"@en ;
+    skos:broader <atomarerenergieaustausch> ;
+    skos:hiddenLabel "Gitterschwingung"@de,
+        "Hochtemperatursupraleiter"@de,
+        "Kondensierte Materie"@de,
+        "Kristallgitter"@de,
+        "Kristallographie"@de,
+        "Quasikristalle"@de,
+        "Supraleiter"@de,
+        "Supraleitung"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q715396"@de ;
+    skos:prefLabel "Festkörperphysik"@de .
+
+<geschichtederphysik> a skos:Concept ;
+    skos:broader <geschichte_ausblick> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Geschichte der Physik"@de .
+
+<gleichfoermigebewegung> a skos:Concept ;
+    skos:broader <bewegungen> ;
+    skos:hiddenLabel "geradlinige Bewegung"@de,
+        "konstante Geschwindigkeit"@de,
+        "unbeschleunigte Bewegung"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Gleichförmige Bewegung"@de .
+
+<gluehelektrischereffekt> a skos:Concept ;
+    skos:altLabel "Edison-Effekt"@de,
+        "Edison-Richardson-Effekt"@de,
+        "Glühelektrischer Effekt"@de,
+        "Glühemission"@de,
+        "Richardson-Effekt"@de,
+        "Thermische Emission"@de,
+        "Edison effect"@en ;
+    skos:broader <bewegteladungen_felder> ;
+    skos:hiddenLabel "EDISON-Effekt"@de,
+        "Elektronenemission"@de,
+        "Glühelektrischer Effekt"@de,
+        "Glühwedel"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q215259"@de ;
+    skos:prefLabel "Glühelektrischer Effekt"@de .
+
+<grundgleichungdermechanik> a skos:Concept ;
+    skos:broader <newtonschegesetze> ;
+    skos:hiddenLabel "Aktionsprinzip"@de,
+        "Grundgleichung der Mechanik"@de,
+        "lex secunda"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Grundgleichung der Mechanik"@de .
+
+<halbleiterphysik> a skos:Concept ;
+    skos:altLabel "Elementhalbleiter"@de,
+        "Halbleiter"@de,
+        "Halbleiterphysik"@de,
+        "Intrinsischer Halbleiter"@de,
+        "Semikonduktor"@de,
+        "Shockley-Diode"@de,
+        "Verbindungshalbleiter"@de,
+        "semiconductor material"@en ;
+    skos:broader <atomarerenergieaustausch> ;
+    skos:hiddenLabel "Bandlücke"@de,
+        "Dotierung"@de,
+        "Halbleiter"@de,
+        "Halbleiterdiode"@de,
+        "Leuchtdioden"@de,
+        "Löcherleitung"@de,
+        "Transistor"@de,
+        "p-n-Übergang"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11456"@de ;
+    skos:prefLabel "Halbleiterphysik"@de .
+
+<historischeatommodelle> a skos:Concept ;
+    skos:broader <atomphysik> ;
+    skos:hiddenLabel "Bohrsches Atommodell"@de,
+        "Rosinenkuchenmodell"@de,
+        "Rutherfordsches Modell"@de,
+        "Tröpfchenmodell"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Historische Atommodelle"@de .
+
+<hookschesgesetz> a skos:Concept ;
+    skos:broader <kraefte> ;
+    skos:hiddenLabel "Elastizität"@de,
+        "Feder"@de,
+        "Federhärte"@de,
+        "Federkonstante"@de,
+        "Federwaage"@de,
+        "Kraftwirkung auf elastische Körper"@de,
+        "Wirkung einer Kraft auf elastische Körper"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Hooksches Gesetz"@de .
+
+<impuls> a skos:Concept ;
+    skos:altLabel "linear momentum"@en,
+        "translational momentum"@en ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Impulserhaltung"@de,
+        "Impulserhaltungssatz"@de,
+        "Kraftstoß"@de,
+        "Raketengleichung"@de,
+        "Raketengrundgleichung"@de,
+        "Raketenphysik"@de,
+        "Rückstoß"@de,
+        "elastischen Stoß"@de,
+        "unelastischen Stoß"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q41273"@de ;
+    skos:prefLabel "Impuls"@de .
+
+<induktion> a skos:Concept ;
+    skos:altLabel "Induktion"@de,
+        "Induktion im Film"@de,
+        "Induktionsanfang"@de,
+        "Induktionsbehauptung"@de,
+        "Induktionsbeweis"@de,
+        "Induktionsprinzip"@de,
+        "Induktionsschluss"@de,
+        "Induktionsschritt"@de,
+        "Induktionsvoraussetzung"@de,
+        "Induktiv"@de,
+        "Induzieren"@de,
+        "induction"@en,
+        "inductive logic"@en,
+        "inductive reasoning"@en,
+        "natural number induction"@en,
+        "proof by induction"@en ;
+    skos:broader <vertiefunge-lehre> ;
+    skos:hiddenLabel "Elektromagnetische Induktion"@de,
+        "Induktionserscheinung"@de,
+        "Induktionsgesetz"@de,
+        "Induktionsvorgang"@de,
+        "Induktivität"@de,
+        "Magnetischer Fluss"@de,
+        "RL-Kreis"@de,
+        "Regel von LENZ"@de,
+        "Selbstinduktion"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1661871"@de,
+        "http://www.wikidata.org/entity/Q178377"@de,
+        "http://www.wikidata.org/entity/Q211504"@de,
+        "http://www.wikidata.org/entity/Q484511"@de ;
+    skos:prefLabel "Induktion"@de .
+
+<innereenergie_waermekapazitaet> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Hauptsatz der Wärmelehre"@de,
+        "Phasenübergänge"@de,
+        "Schmelzwärme"@de,
+        "Temperaturänderung"@de,
+        "Verdampfungswärme"@de,
+        "fest"@de,
+        "flüssig"@de,
+        "gasförmig"@de,
+        "spezifische Wärmekapazität"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "innere Energie / Wärmekapazität"@de .
+
+<interferenz> a skos:Concept ;
+    skos:altLabel "Dünnschichtinterferenz"@de,
+        "Interferenz-Abbildung"@de,
+        "Interferenzmaximum"@de,
+        "Interferenzminimum"@de,
+        "Interferenzmuster"@de,
+        "Signalinterferenz"@de,
+        "Streuverhalten"@de,
+        "Störungsmuster"@de,
+        "L1 interference"@en,
+        "crosslinguistic influence"@en,
+        "linguistic interference"@en ;
+    skos:broader <wellenoptik> ;
+    skos:hiddenLabel "BRAGG-Reflexion"@de,
+        "Beugungsgitter"@de,
+        "Destruktive Interferenz"@de,
+        "Einzelspalt"@de,
+        "Gangunterschied"@de,
+        "Konstruktive Interferenz"@de,
+        "Vielfachspalt"@de,
+        "Zwei-Quellen-Interferenz"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q136980"@de,
+        "http://www.wikidata.org/entity/Q1501364"@de,
+        "http://www.wikidata.org/entity/Q55230454"@de ;
+    skos:prefLabel "Interferenz"@de .
+
+<kernfusion> a skos:Concept ;
+    skos:altLabel "nuclear fusion reaction"@en ;
+    skos:broader <kernphysik> ;
+    skos:hiddenLabel "Fusionsreaktion"@de,
+        "Fusionsreaktor"@de,
+        "Kernfusionsreaktor"@de,
+        "Plasmaphysik"@de,
+        "Sterne"@de,
+        "starke Wechselwirkung"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q13082"@de ;
+    skos:prefLabel "Kernfusion"@de .
+
+<kernmodelle> a skos:Concept ;
+    skos:broader <kernphysik> ;
+    skos:hiddenLabel "Neutronen"@de,
+        "Nukleonen"@de,
+        "Protonen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kernmodelle"@de .
+
+<kernreaktionen> a skos:Concept ;
+    skos:broader <kernphysik> ;
+    skos:hiddenLabel "E=mc²"@de,
+        "Energiebilanz bei Kernreaktionen"@de,
+        "Kernmasse"@de,
+        "Massendefekt"@de,
+        "Nuklidmasse"@de,
+        "Zusammenhang von Atom- und Kernmassen"@de,
+        "mittlere Bindungsenergie pro Nukleon"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kernreaktionen"@de .
+
+<kernspaltung> a skos:Concept ;
+    skos:altLabel "Atomkernspaltung"@de,
+        "Atomspaltung"@de,
+        "Kernfission"@de,
+        "Spaltbares Material"@de,
+        "fission"@en ;
+    skos:broader <kernphysik> ;
+    skos:hiddenLabel "Atomenergie"@de,
+        "Kernspaltung"@de,
+        "Kettenreaktion"@de,
+        "Neutronenbeschuss"@de,
+        "Spaltreaktion"@de,
+        "Uran-235"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11429"@de ;
+    skos:prefLabel "Kernspaltung"@de .
+
+<kinetischegastheorie> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "ideales Gas"@de,
+        "pV=nRT"@de,
+        "universelle Gasgleichung"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kinetische Gastheorie"@de .
+
+<komplexeschaltkreise> a skos:Concept ;
+    skos:broader <vertiefunge-lehre> ;
+    skos:hiddenLabel "Berechnung von Schaltungen"@de,
+        "Effektivwerte"@de,
+        "KIRCHHOFFsche Gesetze"@de,
+        "Komplexer Widerstand"@de,
+        "Schaltung von Messgeräten"@de,
+        "Wechselstromtechnik"@de,
+        "Wechselstromwiderstände"@de,
+        "Zeigerdiagramm"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Komplexe Schaltkreise"@de .
+
+<kondensator_kapazitaet> a skos:Concept ;
+    skos:broader <vertiefunge-lehre> ;
+    skos:hiddenLabel "Elektrische Energie im geladenen Kondensator"@de,
+        "Entladekurve"@de,
+        "Kapazität"@de,
+        "Kondensator"@de,
+        "Ladekurve"@de,
+        "Plattenkondensator"@de,
+        "RC-Kreis"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kondensator / Kapazität"@de .
+
+<kosmologie> a skos:Concept ;
+    skos:altLabel "Astronomie"@de,
+        "Astrophysik"@de,
+        "Kosmologie"@de,
+        "Kosmologien"@de,
+        "Weltraumforschung"@de,
+        "physikalische Kosmologie"@de,
+        "cosmologies"@en,
+        "physical cosmologies"@en,
+        "physical cosmology"@en ;
+    skos:broader <astronomie> ;
+    skos:hiddenLabel "Ausdehnung"@de,
+        "Ausdehnung des Kosmos"@de,
+        "Big Bang"@de,
+        "Doppler"@de,
+        "Doppler-Effekt"@de,
+        "Dunkle Energie"@de,
+        "Dunkle Materie"@de,
+        "Edwin Hubble"@de,
+        "Entfernungsbestimmung mit Cepheiden"@de,
+        "Expansion"@de,
+        "HST"@de,
+        "Hubble"@de,
+        "Hubble Space Telescope"@de,
+        "Hubble-Gesetz"@de,
+        "Kosmische Hintergrundstrahlung"@de,
+        "Kosmologie"@de,
+        "Kosmologie und Standardmodell"@de,
+        "Kosmologische Rotverschiebung"@de,
+        "Rotverschiebung"@de,
+        "Standardmodell"@de,
+        """Universum
+"""@de,
+        "Urknall"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q18346"@de,
+        "http://www.wikidata.org/entity/Q338"@de,
+        "http://www.wikidata.org/entity/Q57610673"@de ;
+    skos:prefLabel "Kosmologie"@de .
+
+<kraftaufleiter> a skos:Concept ;
+    skos:broader <bewegteladungen_felder> ;
+    skos:hiddenLabel "E-motor"@de,
+        "Elektromotor"@de,
+        "Kraft auf Stromleiter"@de,
+        "LORENTZ-Kraft"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kraft auf Leiter"@de .
+
+<kreis-_drehbewegungen> a skos:Concept ;
+    skos:broader <bewegungen> ;
+    skos:hiddenLabel "Bahngeschwindigkeit"@de,
+        "Drehimpuls"@de,
+        "Drehmoment"@de,
+        "Kreisbahn"@de,
+        "Kreisbewegung"@de,
+        "Rotationsenergie"@de,
+        "Umlaufdauer"@de,
+        "Winkelgeschwindigkeit"@de,
+        "Zentripetalbeschleunigung"@de,
+        "Zentripetalkraft"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kreis- / Drehbewegungen"@de .
+
+<laser> a skos:Concept ;
+    skos:altLabel "Farbzentrenlaser"@de,
+        "Laser 4.7"@de,
+        "Laser radial"@de,
+        "Laserklassen"@de,
+        "Lasern"@de,
+        "Laserphysik"@de,
+        "Laserschutz"@de,
+        "Laserschutzklasse"@de,
+        "Laserstrahlung"@de,
+        "Lasertechnik"@de,
+        "Lichtverstärker"@de,
+        "Light Amplification by Stimulated Emission of Radiation"@de,
+        "International Laser Class sailboat"@en,
+        "Laser One"@en,
+        "Laser Standard"@en,
+        "lasers"@en,
+        "lasing"@en,
+        "light amplification by stimulated emission of radiation"@en ;
+    skos:broader <atomarerenergieaustausch> ;
+    skos:hiddenLabel " Laserresonator"@de,
+        "Dauerstrichlaser"@de,
+        "Helium-Neon-Laser"@de,
+        "Laserdiode"@de,
+        "Lasermedien"@de,
+        "Licht-Verstärkung durch stimulierte Emission von Strahlung"@de,
+        "Stimulierte Emission"@de,
+        "light amplification by stimulated emission of radiation"@de,
+        "optisches Punkten"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q38867"@de,
+        "http://www.wikidata.org/entity/Q840659"@de ;
+    skos:prefLabel "Laser"@de .
+
+<lichtundschatten> a skos:Concept ;
+    skos:altLabel "Licht und Schatten"@de,
+        "Tatort: Licht und Schatten"@de,
+        "Ombre et Lumière"@en,
+        "Ombre et lumiere"@en,
+        "Shadow and Light"@en ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel "Grenzstrahlen"@de,
+        "Halbschatten"@de,
+        "Kernschatten"@de,
+        "Schatten"@de,
+        "Schatten werfen"@de,
+        "Schattenbereich"@de,
+        "Schattenbereiche"@de,
+        "Schattengrenze"@de,
+        "Schlagschatten"@de,
+        "Vollschatten"@de,
+        "lichtfreier Bereich hinter einem Gegenstand"@de,
+        "unbeleuchtete Fläche"@de,
+        "Übergangsschatten"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q18334406"@de,
+        "http://www.wikidata.org/entity/Q7089932"@de ;
+    skos:prefLabel "Licht und Schatten"@de .
+
+<linsen_optischegeraete> a skos:Concept ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel "Bildentstehung bei Linsenabbildungen"@de,
+        "Brennpunkt"@de,
+        "Camera Obscura"@de,
+        "Diaprojektor"@de,
+        "Fernrohr"@de,
+        "Fotoapparat"@de,
+        "Galilei-Fernrohr"@de,
+        "Kepler-Fernrohr"@de,
+        "Konkavlinsen"@de,
+        "Konstruktionsstrahlen bei der Linsenabbildung"@de,
+        "Konvexlinsen"@de,
+        "Linsenabbildung"@de,
+        "Linsenformen"@de,
+        "Linsengleichung"@de,
+        "Linsengleichungen"@de,
+        "Lupe"@de,
+        "Mikroskop"@de,
+        "Optische Geräte"@de,
+        "Overhead"@de,
+        "Sammellinsen"@de,
+        "Sphärische Linsen"@de,
+        "Zerstreuungslinsen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Linsen / optische Geräte"@de .
+
+<magnetfeld> a skos:Concept ;
+    skos:altLabel "magnetisches Feld"@de ;
+    skos:broader <bewegteladungen_felder> ;
+    skos:hiddenLabel "Fadenstrahlrohr"@de,
+        "HALL-Effekt"@de,
+        "Magnetischen Querfeld"@de,
+        "Magnetisches Längsfeld"@de,
+        "WIENsches Geschwindigkeitsfilter"@de,
+        "Wienfilter"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11408"@de ;
+    skos:prefLabel "Magnetfeld"@de .
+
+<mathematik> a skos:Concept ;
+    skos:altLabel "Mathe"@de,
+        "Mathematik"@de,
+        "Portal:Mathematik"@de,
+        "Zahlenkunde"@de,
+        "math"@en,
+        "maths"@en ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel "Bruchrechnung"@de,
+        "Formeln"@de,
+        "Integralrechnung"@de,
+        "Potenzschreibweise"@de,
+        "Rechnen"@de,
+        "Termumformung"@de,
+        "Umformen"@de,
+        "Umstellen"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q395"@de,
+        "http://www.wikidata.org/entity/Q7778173"@de ;
+    skos:prefLabel "Mathematik"@de .
+
+<mechanischeenergie> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Goldene Regel der Mechanik"@de,
+        "Kinetische Energie"@de,
+        "Potentielle Energie"@de,
+        "Spannenergie"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Mechanische Energie"@de .
+
+<mechanischewellen> a skos:Concept ;
+    skos:broader <schwingungenundwellen> ;
+    skos:hiddenLabel "Ausbreitungsgeschwindigkeit"@de,
+        "Energietransport"@de,
+        "Schallwellen"@de,
+        "Stehende Welle"@de,
+        "Wasserwelle"@de,
+        "Wellenfront"@de,
+        "Wellenfunktion"@de,
+        "Wellennormale"@de,
+        "Wellenwanne"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Mechanische Wellen"@de .
+
+<menschl.stimme&gehoers.biologie> a skos:Concept ;
+    skos:broader <akustik> ;
+    skos:hiddenLabel ""@de,
+        "Amboss"@de,
+        "Auditive Wahrnehmung"@de,
+        "Außenohr"@de,
+        "Basilarmembran"@de,
+        "Corti-Organ"@de,
+        "Frequenz-Orts-Transformation"@de,
+        "Gehörgang"@de,
+        "Gehörknöchelchen"@de,
+        "Hammer"@de,
+        "Hörschnecke"@de,
+        "Impedanzanpassung"@de,
+        "Innenohr"@de,
+        "Kehlkopf "@de,
+        "Mittelohr"@de,
+        "Ohrmuschel"@de,
+        "Stapediusreflex"@de,
+        "Steigbügel"@de,
+        "Stimmlippen"@de,
+        "Wanderwelle"@de,
+        "menschliche Stimme"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "menschl. Stimme & Gehör (s. Biologie)"@de .
+
+<menschlichesauge> a skos:Concept ;
+    skos:broader <optik> ;
+    skos:hiddenLabel "Akkomodation"@de,
+        "Augenlinse"@de,
+        "Iris"@de,
+        "Linse mit veränderbarer Brennweite"@de,
+        "Netzhaut"@de,
+        "Pupille"@de,
+        "Sehfehler"@de,
+        "lichtempfindlichen Zapfen"@de,
+        "scharfes Sehen"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Menschliches Auge"@de .
+
+<modellieren> a skos:Concept ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel "Abstraktion"@de,
+        "Modell"@de,
+        "Teilaspekte"@de,
+        "Vereinfachung"@de,
+        "phänomenologische Beschreibung"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Modellieren"@de .
+
+<permanentmagnetismus> a skos:Concept ;
+    skos:broader <grundlagenmagnetismus> ;
+    skos:hiddenLabel "Dauermagnet"@de,
+        "Elementarmagnete"@de,
+        "Entmagnetisieren"@de,
+        "Ferromagnetismus"@de,
+        "Magnetfeld"@de,
+        "Magnetische Feldlinien"@de,
+        "Magnetische Influenz"@de,
+        "Magnetisieren"@de,
+        "Magnetpole"@de,
+        "Nordpol"@de,
+        "Permanentmagnet"@de,
+        "Permanentmagnetismus"@de,
+        "Südpol"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Permanentmagnetismus"@de .
+
+<persoenlichkeitenderphysik> a skos:Concept ;
+    skos:broader <geschichte_ausblick> ;
+    skos:hiddenLabel "Physiker"@de,
+        "Physikerin"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Persönlichkeiten der Physik"@de .
+
+<phaenomene> a skos:Concept ;
+    skos:broader <akustik> ;
+    skos:hiddenLabel "Doppler-Effekt"@de,
+        "Interferenz"@de,
+        "Obertöne"@de,
+        "Schwebung"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Phänomene"@de .
+
+<photonen> a skos:Concept ;
+    skos:broader <quantenphysik> ;
+    skos:hiddenLabel "COMPTON-Effekt"@de,
+        "EINSTEINs Theorie des Lichts"@de,
+        "Energie-Impuls-Beziehung beim Photon"@de,
+        "Lichtteilchen"@de,
+        "Photoeffekt"@de,
+        "Photon"@de,
+        "Photonenimpuls"@de,
+        "Photonenmodell"@de,
+        "lichtelektrischer Effekt"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Photonen"@de .
+
+<physikalischekonstanten> a skos:Concept ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel "Atomare Masseneinheit"@de,
+        "Avogadrozahl"@de,
+        "Boltzmannkonstante"@de,
+        "Elektrische Feldkonstante"@de,
+        "Elementarladung"@de,
+        "Energieäquivalent"@de,
+        "Fallbeschleunigung"@de,
+        "Faraday Konstante"@de,
+        "Gaskonstante"@de,
+        "Gravitationskonstante"@de,
+        "Hubble-Konstante"@de,
+        "Konstanten"@de,
+        "Lichtgeschwindigkeit"@de,
+        "Magnetische"@de,
+        "Naturkonstante"@de,
+        "Planck Konstante"@de,
+        "Rydberg-Konstante"@de,
+        "Stefan-Boltzmann-Konstante"@de,
+        "Wien-Verschiebungskonstante"@de,
+        "physikalische Konstante"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Physikalische Konstanten"@de .
+
+<planetensystem> a skos:Concept ;
+    skos:altLabel "Sternensystem"@de,
+        "star system"@en ;
+    skos:broader <astronomie> ;
+    skos:hiddenLabel " KEPLERsche Gesetze"@de,
+        "Astronomische Daten unseres Sonnensystems"@de,
+        "Bahnen im Gravitationsfeld"@de,
+        "Brahe"@de,
+        "Drittes KEPLERsches Gesetz"@de,
+        "Energie im Gravitationsfeld"@de,
+        "Entfernungsbestimmung in Planetensystemen"@de,
+        "Erstes KEPLERsches Gesetz"@de,
+        "Johannes Kepler"@de,
+        "Kepler"@de,
+        "Siderische und synodische Umlaufzeit"@de,
+        "Tycho Brahe"@de,
+        "Zweites KEPLERsches Gesetz"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q206717"@de ;
+    skos:prefLabel "Planetensystem"@de .
+
+<polarisation> a skos:Concept ;
+    skos:altLabel "Dielektrische Polarisation"@de,
+        "Dielektrische Polarisierung"@de,
+        "Elektrische Polarisation"@de,
+        "Elektronenpolarisation"@de,
+        "Elektrostatische Polarisation"@de,
+        "Polarisationsebene"@de,
+        "Polarisationsweiche"@de,
+        "Zirkularpolarisation"@de,
+        "elliptisch polarisiert"@de,
+        "elliptische Polarisation"@de,
+        "lineare Polarisation"@de,
+        "polarisierte Strahlung"@de,
+        "polarisiertes Licht"@de,
+        "zirkular polarisiert"@de,
+        "zirkulare Polarisation"@de,
+        "electric polarization"@en,
+        "polarisation"@en ;
+    skos:broader <wellenoptik> ;
+    skos:hiddenLabel "BREWSTER-Winkel"@de,
+        "Gesetz von MALUS"@de,
+        "Polarisationsachsen"@de,
+        "Polarisationsfilter"@de,
+        "Schwingungsrichtung einer Transversalwelle"@de,
+        "polarisiertes Licht"@de,
+        "unpolarisiertes Licht"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1050425"@de,
+        "http://www.wikidata.org/entity/Q193760"@de ;
+    skos:prefLabel "Polarisation"@de .
+
+<quantenmechanischesatommodell> a skos:Concept ;
+    skos:broader <atomphysik> ;
+    skos:hiddenLabel "Elektronenkonfigurationen"@de,
+        "Hauptquantenzahl"@de,
+        "Linearer Potentialtopf"@de,
+        "Nebenquantenzahl"@de,
+        "Orbitalmodell"@de,
+        "Pauli-Prinzip"@de,
+        "Potentialtopf"@de,
+        "Quantenzahlen"@de,
+        "Spin-Quantenzahl"@de,
+        "Wahrscheinlichkeitsverteilungen beim H-Atom"@de,
+        "Wahrscheinlichkeitsverteilungen beim Wasserstoffatom"@de,
+        "magnetische Quantenzahl"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Quantenmechanisches Atommodell"@de .
+
+<quellen&empfaenger> a skos:Concept ;
+    skos:broader <akustischeschwingungen&wellen> ;
+    skos:hiddenLabel "Empfänger"@de,
+        "Lautsprecher"@de,
+        "Mikrofon"@de,
+        "Quelle"@de,
+        "Schallempfänger"@de,
+        "Schallquellen"@de,
+        "Sender"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Quellen & Empfänger"@de .
+
+<radioaktivitaet> a skos:Concept ;
+    skos:altLabel "Aktivitätsgesetz"@de,
+        "Atomstrahlung"@de,
+        "Atomzerfall"@de,
+        "Kernstrahlung"@de,
+        "Kernzerfall"@de,
+        "Radioaktiv"@de,
+        "Radioaktive Stoffe"@de,
+        "Radioaktive Strahlung"@de,
+        "Radioaktiver Stoff"@de,
+        "Zerfallsmodus"@de,
+        "nuclear decay"@en,
+        "radioactive decay"@en ;
+    skos:broader <kernphysik> ;
+    skos:hiddenLabel "Alphastrahlung"@de,
+        "Alphazerfall"@de,
+        "Beta-Minus-Strahlung"@de,
+        "Beta-Minus-Zerfall"@de,
+        "Beta-Plus-Zerfall"@de,
+        "GEIGER-MÜLLER-Zählrohr"@de,
+        "Gammastrahlung"@de,
+        "Gammaübergang"@de,
+        "Halbwertsdicke"@de,
+        "Halbwertszeit"@de,
+        "Ionisierende Strahlung"@de,
+        "Ionisierung durch Strahlung"@de,
+        "Strahlenschutz"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q11448"@de ;
+    skos:prefLabel "Radioaktivität"@de .
+
+<reflexion> a skos:Concept ;
+    skos:altLabel "Ausfallswinkel"@de,
+        "Introspektion"@de,
+        "Partielle Reflexion"@de,
+        "Reflection"@de,
+        "Rückwurf"@de,
+        "Selbstbespiegelung"@de,
+        "Selbstreflexion"@de,
+        "mirroring"@en,
+        "reflect"@en,
+        "reflexion"@en ;
+    skos:broader <geometrischeoptik> ;
+    skos:hiddenLabel "Ausfallswinkel"@de,
+        "Einfallslot"@de,
+        "Einfallswinkel"@de,
+        "Reflexionsgesetz"@de,
+        "Spiegel"@de,
+        "einfallende Strahl"@de,
+        "reflektierter Strahl"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1056451"@de,
+        "http://www.wikidata.org/entity/Q165939"@de,
+        "http://www.wikidata.org/entity/Q1780478"@de ;
+    skos:prefLabel "Reflexion"@de .
+
+<reibung> a skos:Concept ;
+    skos:altLabel "Friktionskraft"@de,
+        "Reibpaar"@de,
+        "Reibungskraft"@de,
+        "Reibungskräfte"@de,
+        "Reibungswärme"@de,
+        "friction force"@en,
+        "frictional force"@en ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q82580"@de ;
+    skos:prefLabel "Reibung"@de .
+
+<roentgen-strahlung> a skos:Concept ;
+    skos:altLabel "Röntgen-Strahlen"@de,
+        "Röntgen-Strahlung"@de,
+        "Röntgenbestrahlung"@de,
+        "Röntgenstrahl"@de,
+        "Röntgenstrahlen"@de,
+        "Röntgenstrahlung"@de,
+        "X-Rays"@de,
+        "X-Strahlen"@de,
+        "X-radiation"@en ;
+    skos:broader <atomphysik> ;
+    skos:hiddenLabel "Bremsstrahlung"@de,
+        "Gesetz von Moseley"@de,
+        "Röntgen-Spektroskopie"@de,
+        "Röntgenbilder"@de,
+        "Röntgenröhren"@de,
+        "Röntgenspektroskopie"@de,
+        "Röntgenspektrum"@de,
+        "Röntgenstrahlung"@de,
+        "Strahlenbelastung"@de,
+        "X-Ray"@de,
+        "X-Strahlen"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q34777"@de ;
+    skos:prefLabel "Röntgen-Strahlung"@de .
+
+<schallgeschwindigkeit> a skos:Concept ;
+    skos:altLabel "Schallausbreitungsgeschwindigkeit"@de,
+        "sound speed"@en ;
+    skos:broader <akustik> ;
+    skos:hiddenLabel "Alexander von Humboldt"@de,
+        "Arago"@de,
+        "Ausbreitungsgeschwindigkeit"@de,
+        "Die Schallgeschwindigkeit ist die Geschwindigkeit"@de,
+        "Gay-Lussac"@de,
+        "Gewitter"@de,
+        "Laufzeitmessungen"@de,
+        "Messung der Schallgeschwindigkeit"@de,
+        "Schallgeschwindigkeit"@de,
+        "mit der sich Schallwellen in einem Medium fortpflanzen. Ihre SI-Einheit ist Meter pro Sekunde (m/s)."@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/P2075"@de,
+        "http://www.wikidata.org/entity/Q124003"@de ;
+    skos:prefLabel "Schallgeschwindigkeit"@de .
+
+<schwingkreiss.e-lehre> a skos:Concept ;
+    skos:broader <elektromagnetischeschwingungen> ;
+    skos:hiddenLabel "Elektromagnetischer Schwingkreis"@de,
+        "LC-Schwingkreis"@de,
+        "Resonanzkreis"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Schwingkreis (s. E-Lehre)"@de .
+
+<si-einheiten> a skos:Concept ;
+    skos:broader <methoden> ;
+    skos:hiddenLabel " Basiseinheit"@de,
+        "Ampere"@de,
+        "Candela"@de,
+        "Internationales Einheitensystem"@de,
+        "Kelvin"@de,
+        "Kilogramm"@de,
+        "Lichtstärke"@de,
+        "Länge"@de,
+        "Masse"@de,
+        "Meter"@de,
+        "Mol"@de,
+        "SI"@de,
+        "Sekunde"@de,
+        "Stoffmenge"@de,
+        "Stromstärke"@de,
+        "Système international d’unités"@de,
+        """Thermodynamische
+Temperatur"""@de,
+        "Zeit"@de,
+        "metrisches Einheitensystem"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "SI-Einheiten"@de .
+
+<sonne_fixsterne> a skos:Concept ;
+    skos:broader <astronomie> ;
+    skos:hiddenLabel "Absolute Sternhelligkeit"@de,
+        "Aufbau der Sonne"@de,
+        "Energie der Sonne"@de,
+        "Entwicklung der Sonne"@de,
+        "Entwicklung schwerer Sterne"@de,
+        "Fixstern"@de,
+        "Fraunhofer"@de,
+        "Fraunhofer Linien"@de,
+        "HERTZSPRUNG-RUSSELL-Diagramm"@de,
+        "Hauptreihenstadium"@de,
+        "Jährliche Sternbewegung"@de,
+        "Masse-Leuchtkraft-Beziehung"@de,
+        "Scheinbare Sternhelligkeit"@de,
+        "Solarkonstante und Strahlungsleistung"@de,
+        "Sonne"@de,
+        "Sonnenspektrum"@de,
+        "Spektralklassen"@de,
+        "Stern"@de,
+        "Sterngeburt"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Sonne / Fixsterne"@de .
+
+<speziellerelativitaetstheoriesrt> a skos:Concept ;
+    skos:broader <relativitaetstheorie> ;
+    skos:hiddenLabel "Albert Einstein"@de,
+        "Effekte"@de,
+        "Einstein"@de,
+        "Einsteins Postulate"@de,
+        "Energie-Impuls-Beziehung"@de,
+        "Geschwindigkeitsbetrachtung"@de,
+        "Gleichzeitigkeit"@de,
+        "Grundaussagen der speziellen Relativitätstheorie"@de,
+        "Inertialsystem"@de,
+        "Längenkontraktion"@de,
+        "Längenänderung"@de,
+        "Paradoxien"@de,
+        "Raum-Zeit"@de,
+        "Raumzeit"@de,
+        "Relativistische Energie"@de,
+        "Relativistische Masse und Impuls"@de,
+        "Spezielle Relativitätstheorie"@de,
+        "Zeit"@de,
+        "Zeitdehnung"@de,
+        "Zeitdilatation"@de,
+        "kürzer"@de,
+        "länger"@de,
+        "relativ"@de,
+        "spezielle Relativitätstheorie"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Spezielle Relativitätstheorie (SRT)"@de .
+
+<spule> a skos:Concept ;
+    skos:altLabel "Drossel"@de,
+        "Drosselspule"@de,
+        "Garnrolle"@de,
+        "Kabelrolle"@de,
+        "Kabeltrommel"@de,
+        "Leitungsroller"@de,
+        "Spule"@de,
+        "electromagnetic coil"@en,
+        "passive two terminal"@en,
+        "spool"@en ;
+    skos:broader <vertiefunge-lehre> ;
+    skos:hiddenLabel "Bandpass"@de,
+        "HELMHOLTZ-Spule"@de,
+        "Hochpass"@de,
+        "LC-Schwingkreis"@de,
+        "Tiefpass"@de,
+        "Zylinderspule"@de,
+        "langgestreckten Spule"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q1420806"@de,
+        "http://www.wikidata.org/entity/Q1572168"@de,
+        "http://www.wikidata.org/entity/Q2981904"@de,
+        "http://www.wikidata.org/entity/Q5325"@de ;
+    skos:prefLabel "Spule"@de .
+
+<standardmodell> a skos:Concept ;
+    skos:altLabel "SM"@de,
+        "Standardmodell der Elementarteilchenphysik"@de,
+        "Core Theory"@en,
+        "Standard Model of Particle Physics"@en ;
+    skos:broader <teilchenphysik> ;
+    skos:hiddenLabel "Antimaterie"@de,
+        "Drei Generationen"@de,
+        "Higgs Teilchen"@de,
+        "SUSY"@de,
+        "Teilchenzoo"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q18338"@de ;
+    skos:prefLabel "Standardmodell"@de .
+
+<sternbeobachtung> a skos:Concept ;
+    skos:broader <astronomie> ;
+    skos:hiddenLabel "Fernrohr"@de,
+        "Hemisphäre"@de,
+        "Himmelskugel"@de,
+        "Lauf der Gestirne"@de,
+        "Nordstern"@de,
+        "Orientierung"@de,
+        "Orientierung mit Hilfe des Polarsterns"@de,
+        "Polarstern"@de,
+        "Sternbilder"@de,
+        "Teleskop"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Sternbeobachtung"@de .
+
+<stromwirkung> a skos:Concept ;
+    skos:broader <grundlagene-lehre> ;
+    skos:hiddenLabel "Chemische Wirkung des elektrischen Stroms"@de,
+        "Leuchtwirkung des elektrischen Stroms"@de,
+        "Magnetische Wirkung des elektrischen Stroms"@de,
+        "Wirkungen des elektrischen Stroms"@de,
+        "Wärmewirkung des elektrischen Stroms"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Stromwirkung"@de .
+
+<temperaturimteilchenmodell> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Absolute Temperatur"@de,
+        "CELSIUS-Skala;BROWNsche Bewegung"@de,
+        "Innere Energie"@de,
+        "Kelvin"@de,
+        "Temperaturdifferenz"@de,
+        "Temperaturskala"@de,
+        "Temperaturumrechnung"@de,
+        "absolute Nullpunkt"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Temperatur im Teilchenmodell"@de .
+
+<traegheitsprinzip> a skos:Concept ;
+    skos:broader <newtonschegesetze> ;
+    skos:hiddenLabel "Inertialgesetz"@de,
+        "Trägheitsgesetz"@de,
+        "Trägheitsprinzip"@de,
+        "lex prima"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Trägheitsprinzip"@de .
+
+<transformatorgeneratormotor> a skos:Concept ;
+    skos:broader <vertiefunge-lehre> ;
+    skos:hiddenLabel "Elektrischer Generator"@de,
+        "Elektromotor"@de,
+        "Energieübertragung durch Hochspannung"@de,
+        "Generatorprinzip"@de,
+        "Hochspannungsleitung"@de,
+        "Motorprinzip"@de,
+        "Primärspule"@de,
+        "Sekundärspule"@de,
+        "Stator"@de,
+        "Transformator"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Transformator Generator Motor"@de .
+
+<waermekraftmaschinen> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Benzinmotor"@de,
+        "Dampfmaschine"@de,
+        "Dieselmotor"@de,
+        "Gebiet niedrigerer Temperatur"@de,
+        "Kältemaschine"@de,
+        "Kühlschrank"@de,
+        "Ottomotor"@de,
+        "Reservoir höherer Temperatur"@de,
+        "Stirlingmotor"@de,
+        "Wirkungsgrad"@de,
+        "Wärmekraftmaschine"@de,
+        "Wärmepumpe"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Wärmekraftmaschinen"@de .
+
+<waermetransport> a skos:Concept ;
+    skos:altLabel "Diathermisch"@de,
+        "Wärmeausbreitung"@de,
+        "Wärmeausgleich"@de,
+        "Wärmeaustausch"@de,
+        "Wärmetransport"@de,
+        "Wärmeübergang"@de,
+        "Wärmeübertragung"@de,
+        "heat exchange"@en ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Konvektion"@de,
+        "Temperaturstrahlung"@de,
+        "Wärmeleitung"@de,
+        "Wärmemitführung"@de,
+        "Wärmestrahlung"@de,
+        "Wärmeströmung"@de,
+        "Wärmetransport"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q179635"@de ;
+    skos:prefLabel "Wärmetransport"@de .
+
+<wechselwirkungsprinzip> a skos:Concept ;
+    skos:altLabel "Actio est Reactio"@de,
+        "Actio und Reactio"@de,
+        "Actio und reactio"@de,
+        "Aktion und Reaktion"@de,
+        "Gegenwirkungsprinzip"@de,
+        "Kraft und Gegenkraft"@de,
+        "Wechselwirkungsprinzip"@de,
+        "drittes newtonsches Axiom"@de,
+        "drittes newtonsches Gesetz"@de ;
+    skos:broader <newtonschegesetze> ;
+    skos:hiddenLabel "Gegenwirkungsprinzip"@de,
+        "Reaktionsprinzip"@de,
+        "Wechselwirkung"@de,
+        "Wechselwirkungsprinzip"@de,
+        "lex tertia"@de ;
+    skos:inScheme <> ;
+    skos:note "http://www.wikidata.org/entity/Q3235565"@de ;
+    skos:prefLabel "Wechselwirkungsprinzip"@de .
+
+<wetter_klima> a skos:Concept ;
+    skos:broader <waermelehre_thermodynamik> ;
+    skos:hiddenLabel "Gletscherschmelze"@de,
+        "Klimaschutz"@de,
+        "Klimawandel"@de,
+        "Ozonloch"@de,
+        "Strahlungshaushalt"@de,
+        "Treibhauseffekt"@de,
+        "Wasserkreislauf"@de,
+        "Wetterkarte"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Wetter / Klima"@de .
+
+<akustischeschwingungen&wellen> a skos:Concept ;
+    skos:broader <akustik> ;
+    skos:hiddenLabel "Doppler-Effekt"@de,
+        "Eigenschwingungen"@de,
+        "Flöte"@de,
+        "Gangunterschied"@de,
+        "Gangunterschied bei zwei Quellen"@de,
+        "Interferenz"@de,
+        "Interferenz von Schallwellen"@de,
+        "Luftsäule"@de,
+        "Pfeife"@de,
+        "Resonanz"@de,
+        "Saite"@de,
+        "Saitenschwingung"@de,
+        "Schall"@de,
+        "Schallwellen"@de,
+        "Schwebung"@de,
+        "Schwingungen der Luftsäule in Pfeifen"@de,
+        "Stehende Wellen"@de,
+        "Töne"@de ;
+    skos:inScheme <> ;
+    skos:narrower <quellen&empfaenger> ;
+    skos:prefLabel "Akustische Schwingungen & Wellen"@de .
+
+<elektromagnetischeschwingungen> a skos:Concept ;
+    skos:broader <schwingungenundwellen> ;
+    skos:hiddenLabel "Dipolschwingung"@de,
+        "Hertzscher Dipol"@de,
+        "MEISSNER'sche Rückkopplungsschaltung"@de,
+        "Stabdipol"@de ;
+    skos:inScheme <> ;
+    skos:narrower <schwingkreiss.e-lehre> ;
+    skos:prefLabel "Elektromagnetische Schwingungen"@de .
+
+<grundlagen> a skos:Concept ;
+    skos:broader <kernphysik>,
+        <quantenphysik> ;
+    skos:hiddenLabel "Fähigkeit zur Interferenz"@de,
+        "Isotope"@de,
+        "Komplementarität"@de,
+        "Nuklide"@de,
+        "Quantenobjekten"@de,
+        "Statistische Vorhersagbarkeit"@de,
+        "Streuexperiment"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Grundlagen"@de .
+
+<masse,volumen,dichte> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Flächeneinheit"@de,
+        "Flächeneinheiten"@de,
+        "Masse pro Volumen"@de,
+        "Massendichte"@de,
+        "Quotient aus Masse und Volumen"@de,
+        "Umrechnungszahl"@de,
+        "Volumeneinheit"@de,
+        "Volumeneinheiten"@de ;
+    skos:inScheme <> ;
+    skos:narrower <druck&auftrieb> ;
+    skos:prefLabel "Masse, Volumen, Dichte"@de .
+
+<grundlagenmagnetismus> a skos:Concept ;
+    skos:broader <elektrizitaetslehre_magnetismus> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <elektromagnetismus>,
+        <permanentmagnetismus> ;
+    skos:prefLabel "Grundlagen Magnetismus"@de .
+
+<mechanischeschwingungen> a skos:Concept ;
+    skos:broader <schwingungenundwellen> ;
+    skos:hiddenLabel "Harmonische Schwingung"@de,
+        "Harmonischer Oszillator"@de,
+        "Periodendauer"@de,
+        "Schwingungsdauer"@de,
+        "lineares Kraftgesetz"@de,
+        "periodischen Bewegung"@de ;
+    skos:inScheme <> ;
+    skos:narrower <fadenpendel>,
+        <federpendel> ;
+    skos:prefLabel "Mechanische Schwingungen"@de .
+
+<relativitaetstheorie> a skos:Concept ;
+    skos:altLabel "Einsteinsche Kausalität"@de,
+        "Relativistisch"@de,
+        "Relativistische Mechanik"@de,
+        "Relativistische Physik"@de,
+        "relativity"@en ;
+    skos:hiddenLabel "Albert Einsteins Relativitätstheorien"@de ;
+    skos:inScheme <> ;
+    skos:narrower <allgemeinerelativitaetstheorieart>,
+        <speziellerelativitaetstheoriesrt> ;
+    skos:note "http://www.wikidata.org/entity/Q43514"@de ;
+    skos:prefLabel "Relativitätstheorie"@de ;
+    skos:topConceptOf <> .
+
+<atomarerenergieaustausch> a skos:Concept ;
+    skos:broader <atomphysik> ;
+    skos:hiddenLabel "Absorptionsspektrum"@de,
+        "Atomares Spektrum"@de,
+        "Emissionsspektrum"@de,
+        "Linienspektren"@de,
+        "Photonenabsorbtion"@de,
+        "Photonenemission"@de,
+        "Stoßionisation"@de,
+        "diskrete Energieniveaus"@de,
+        "diskrete Energiezustände"@de ;
+    skos:inScheme <> ;
+    skos:narrower <festkoerperphysik>,
+        <halbleiterphysik>,
+        <laser> ;
+    skos:prefLabel "Atomarer Energieaustausch"@de .
+
+<bewegungen> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Zeit-Geschwindigkeits-Diagramm"@de,
+        "Zeit-Orts-Diagramm"@de,
+        "t-s-Diagramm"@de,
+        "t-v-Diagrammen"@de ;
+    skos:inScheme <> ;
+    skos:narrower <beschleunigt>,
+        <gleichfoermigebewegung>,
+        <kreis-_drehbewegungen> ;
+    skos:prefLabel "Bewegungen"@de .
+
+<energie> a skos:Concept ;
+    skos:hiddenLabel "Eine fundamentale physikalische Größe"@de,
+        "Erhaltungsgröße"@de ;
+    skos:inScheme <> ;
+    skos:narrower <energieformen>,
+        <energiespeicher>,
+        <energieumwandlung> ;
+    skos:prefLabel "Energie"@de ;
+    skos:topConceptOf <> .
+
+<geschichte_ausblick> a skos:Concept ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <aktuelleprojekte>,
+        <geschichtederphysik>,
+        <persoenlichkeitenderphysik> ;
+    skos:prefLabel "Geschichte / Ausblick"@de ;
+    skos:topConceptOf <> .
+
+<kraefte> a skos:Concept ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Abbremsen"@de,
+        "Physikalische Kräfte haben Wirkungen wie Beschleunigen"@de,
+        "Ändern einer Bewegungsrichtung oder ein Verformen"@de ;
+    skos:inScheme <> ;
+    skos:narrower <addition&zerlegung>,
+        <arten>,
+        <hookschesgesetz> ;
+    skos:prefLabel "Kräfte"@de .
+
+<newtonschegesetze> a skos:Concept ;
+    skos:altLabel "Axiomata sive leges motus"@de,
+        "Grundgesetz der Mechanik"@de,
+        "Grundgesetze der Bewegung"@de,
+        "Newton-Axiome"@de,
+        "Newtons Axiome"@de,
+        "Newtons Gesetz"@de,
+        "Newtonsche Axiome"@de,
+        "Newtonsche Prinzipien"@de,
+        "Newtonsches Axiom"@de,
+        "Newtonsches Gesetz"@de,
+        "Newton's law"@en,
+        "Newton's laws"@en,
+        "Newtonian mechanics"@en,
+        "laws of motion"@en ;
+    skos:broader <mechanik> ;
+    skos:hiddenLabel "Gesetze der Bewegung"@de,
+        "Grundsätze der Bewegung"@de ;
+    skos:inScheme <> ;
+    skos:narrower <grundgleichungdermechanik>,
+        <traegheitsprinzip>,
+        <wechselwirkungsprinzip> ;
+    skos:note "http://www.wikidata.org/entity/Q38433"@de ;
+    skos:prefLabel "Newtonsche Gesetze"@de .
+
+<quantenphysik> a skos:Concept ;
+    skos:altLabel "Quantenfotonik"@de,
+        "Quantenhypothese"@de,
+        "Quantensystem"@de,
+        "Quantentheorie"@de ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <elektronen>,
+        <grundlagen>,
+        <photonen> ;
+    skos:note "http://www.wikidata.org/entity/Q1144457"@de ;
+    skos:prefLabel "Quantenphysik"@de ;
+    skos:topConceptOf <> .
+
+<teilchenphysik> a skos:Concept ;
+    skos:altLabel "subatomic physics"@en ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <beschleuniger>,
+        <elementarteilchen>,
+        <standardmodell> ;
+    skos:note "http://www.wikidata.org/entity/Q18334"@de ;
+    skos:prefLabel "Teilchenphysik"@de ;
+    skos:topConceptOf <> .
+
+<akustik> a skos:Concept ;
+    skos:altLabel "Akustisch"@de,
+        "Physik schwingender Körper"@de ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <akustischeschwingungen&wellen>,
+        <menschl.stimme&gehoers.biologie>,
+        <phaenomene>,
+        <schallgeschwindigkeit> ;
+    skos:note "http://www.wikidata.org/entity/Q82811"@de ;
+    skos:prefLabel "Akustik"@de ;
+    skos:topConceptOf <> .
+
+<atomphysik> a skos:Concept ;
+    skos:altLabel "Atomphysiker"@de,
+        "Atomphysikerin"@de ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <atomarerenergieaustausch>,
+        <historischeatommodelle>,
+        <quantenmechanischesatommodell>,
+        <roentgen-strahlung> ;
+    skos:note "http://www.wikidata.org/entity/Q26383"@de ;
+    skos:prefLabel "Atomphysik"@de ;
+    skos:topConceptOf <> .
+
+<bewegteladungen_felder> a skos:Concept ;
+    skos:broader <elektrizitaetslehre_magnetismus> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <elektrischesfeld>,
+        <gluehelektrischereffekt>,
+        <kraftaufleiter>,
+        <magnetfeld> ;
+    skos:prefLabel "Bewegte Ladungen / Felder"@de .
+
+<elektrizitaetslehre_magnetismus> a skos:Concept ;
+    skos:hiddenLabel "Die vielfältigen Beziehungen zwischen Magnetismus und elektrischen Phänomenen"@de ;
+    skos:inScheme <> ;
+    skos:narrower <bewegteladungen_felder>,
+        <grundlagene-lehre>,
+        <grundlagenmagnetismus>,
+        <vertiefunge-lehre> ;
+    skos:prefLabel "Elektrizitätslehre / Magnetismus"@de ;
+    skos:topConceptOf <> .
+
+<grundlagene-lehre> a skos:Concept ;
+    skos:broader <elektrizitaetslehre_magnetismus> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <einfachestromkreise>,
+        <elektrischegrundgroeßen>,
+        <elektrostatik>,
+        <stromwirkung> ;
+    skos:prefLabel "Grundlagen E-Lehre"@de .
+
+<optik> a skos:Concept ;
+    skos:hiddenLabel "Die Lehre vom Licht."@de ;
+    skos:inScheme <> ;
+    skos:narrower <farben>,
+        <geometrischeoptik>,
+        <menschlichesauge>,
+        <wellenoptik> ;
+    skos:prefLabel "Optik"@de ;
+    skos:topConceptOf <> .
+
+<schwingungenundwellen> a skos:Concept ;
+    skos:hiddenLabel """In der Natur und in technischen Anwendungen treten häufig zeitlich
+periodische Vorgänge auf."""@de ;
+    skos:inScheme <> ;
+    skos:narrower <elektromagnetischeschwingungen>,
+        <elektromagnetischewellens.wellenoptik>,
+        <mechanischeschwingungen>,
+        <mechanischewellen> ;
+    skos:prefLabel "Schwingungen und Wellen"@de ;
+    skos:topConceptOf <> .
+
+<wellenoptik> a skos:Concept ;
+    skos:altLabel "Physikalische Optik"@de,
+        "Undulationstheorie"@de,
+        "Wellentheorie des Lichts"@de,
+        "wave optics"@en ;
+    skos:broader <optik> ;
+    skos:hiddenLabel "Als Wellenoptik wird der Bereich der Optik bezeichnet"@de,
+        "Wellenmodell des Lichts"@de,
+        "der von der Wellennatur des Lichts handelt."@de ;
+    skos:inScheme <> ;
+    skos:narrower <beugung>,
+        <elektromagnetischesspektrum>,
+        <interferenz>,
+        <polarisation> ;
+    skos:note "http://www.wikidata.org/entity/Q942347"@de ;
+    skos:prefLabel "Wellenoptik"@de .
+
+<astronomie> a skos:Concept ;
+    skos:altLabel "Astronomie"@de,
+        "Astrophysik"@de,
+        "Kosmologie"@de,
+        "Weltraumforschung"@de,
+        "Weltraumwissenschaften"@de,
+        "Astronomy"@en ;
+    skos:hiddenLabel "Astrophysik"@de ;
+    skos:inScheme <> ;
+    skos:narrower <einfuehrung_grundlagen>,
+        <kosmologie>,
+        <planetensystem>,
+        <sonne_fixsterne>,
+        <sternbeobachtung> ;
+    skos:note "http://www.wikidata.org/entity/Q333"@de,
+        "http://www.wikidata.org/entity/Q57610673"@de ;
+    skos:prefLabel "Astronomie"@de ;
+    skos:topConceptOf <> .
+
+<vertiefunge-lehre> a skos:Concept ;
+    skos:broader <elektrizitaetslehre_magnetismus> ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <induktion>,
+        <komplexeschaltkreise>,
+        <kondensator_kapazitaet>,
+        <spule>,
+        <transformatorgeneratormotor> ;
+    skos:prefLabel "Vertiefung E-Lehre"@de .
+
+<geometrischeoptik> a skos:Concept ;
+    skos:altLabel "Lichtstrahl"@de,
+        "Lichtstrahlen"@de,
+        "Strahlenoptik"@de ;
+    skos:broader <optik> ;
+    skos:hiddenLabel "In der geometrischen Optik wird Licht durch idealisierte Strahlen angenähert."@de ;
+    skos:inScheme <> ;
+    skos:narrower <abbildungen>,
+        <ausbreitung>,
+        <brechung>,
+        <lichtundschatten>,
+        <linsen_optischegeraete>,
+        <reflexion> ;
+    skos:note "http://www.wikidata.org/entity/Q467980"@de ;
+    skos:prefLabel "Geometrische Optik"@de .
+
+<kernphysik> a skos:Concept ;
+    skos:altLabel "Atomwissenschaft"@de,
+        "Kernforschung"@de ;
+    skos:hiddenLabel ""@de ;
+    skos:inScheme <> ;
+    skos:narrower <grundlagen>,
+        <kernfusion>,
+        <kernmodelle>,
+        <kernreaktionen>,
+        <kernspaltung>,
+        <radioaktivitaet> ;
+    skos:note "http://www.wikidata.org/entity/Q81197"@de ;
+    skos:prefLabel "Kernphysik"@de ;
+    skos:topConceptOf <> .
+
+<methoden> a skos:Concept ;
+    skos:hiddenLabel "Methoden und Werkzeuge der Physik"@de ;
+    skos:inScheme <> ;
+    skos:narrower <dokumentieren>,
+        <experimentieren>,
+        <mathematik>,
+        <modellieren>,
+        <physikalischekonstanten>,
+        <si-einheiten> ;
+    skos:prefLabel "Methoden"@de ;
+    skos:topConceptOf <> .
+
+<mechanik> a skos:Concept ;
+    skos:altLabel "Mechanisch"@de ;
+    skos:hiddenLabel "Klassische Mechanik oder Newtonsche Mechanik ist das Teilgebiet der Physik"@de,
+        "das die Bewegung von festen"@de,
+        "flüssigen oder gasförmigen Körpern unter dem Einfluss von Kräften beschreibt."@de ;
+    skos:inScheme <> ;
+    skos:narrower <arbeit,leistung,wirkungsgrad>,
+        <bewegungen>,
+        <einfachemaschinen>,
+        <impuls>,
+        <kraefte>,
+        <masse,volumen,dichte>,
+        <mechanischeenergie>,
+        <newtonschegesetze>,
+        <reibung> ;
+    skos:note "http://www.wikidata.org/entity/Q41217"@de ;
+    skos:prefLabel "Mechanik"@de ;
+    skos:topConceptOf <> .
+
+<waermelehre_thermodynamik> a skos:Concept ;
+    skos:hiddenLabel "Hat ihren Ursprung im Studium der Dampfmaschinen und ging der Frage nach"@de,
+        "wie man Wärme in mechanische Arbeit umwandeln kann."@de ;
+    skos:inScheme <> ;
+    skos:narrower <allgemeinesgasgesetz>,
+        <ausdehnung>,
+        <deterministischeschaos>,
+        <entropie>,
+        <innereenergie_waermekapazitaet>,
+        <kinetischegastheorie>,
+        <temperaturimteilchenmodell>,
+        <waermekraftmaschinen>,
+        <waermetransport>,
+        <wetter_klima> ;
+    skos:prefLabel "Wärmelehre / Thermodynamik"@de ;
+    skos:topConceptOf <> .
+
+<> a skos:ConceptScheme ;
+    dct:creator "www.wirlernenonline.de" ;
+    dct:description "Eine Sammlung von Lehrplanthemen zum Thema Physik (TPM: Olaf). Entstanden im Rahmen des OpenEduHub-Projektes"@de ;
+    dct:title "TEST: physiktpm:olaf"@de ;
+    skos:hasTopConcept <akustik>,
+        <astronomie>,
+        <atomphysik>,
+        <elektrizitaetslehre_magnetismus>,
+        <energie>,
+        <geschichte_ausblick>,
+        <kernphysik>,
+        <mechanik>,
+        <methoden>,
+        <optik>,
+        <quantenphysik>,
+        <relativitaetstheorie>,
+        <schwingungenundwellen>,
+        <teilchenphysik>,
+        <waermelehre_thermodynamik> .
+
