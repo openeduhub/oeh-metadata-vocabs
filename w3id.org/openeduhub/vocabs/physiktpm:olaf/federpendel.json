@@ -12,6 +12,17 @@
       "Federschwingung"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Feder-Schwere-Pendel",
+      "Federkonstante",
+      "Federpendel",
+      "Federpendel angeregt",
+      "Federpendel gedämpft",
+      "Gekoppelte Pendel",
+      "Pendelkörper"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q1400667"
   },
@@ -64,6 +75,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

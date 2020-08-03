@@ -22,6 +22,17 @@
       "non-composite quantum particle"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Antiteilchen",
+      "Austauschteilchen",
+      "Baryonen",
+      "Gluon",
+      "Leptonen: Hadronen",
+      "Mesonen",
+      "Quark"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/teilchenphysik",
     "prefLabel": {
@@ -76,6 +87,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

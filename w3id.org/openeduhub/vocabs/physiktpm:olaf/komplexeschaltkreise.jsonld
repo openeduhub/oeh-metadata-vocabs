@@ -6,6 +6,18 @@
   "prefLabel": {
     "de": "Komplexe Schaltkreise"
   },
+  "hiddenLabel": {
+    "de": [
+      "Berechnung von Schaltungen",
+      "Effektivwerte",
+      "KIRCHHOFFsche Gesetze",
+      "Komplexer Widerstand",
+      "Schaltung von Messgeräten",
+      "Wechselstromtechnik",
+      "Wechselstromwiderstände",
+      "Zeigerdiagramm"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/vertiefunge-lehre",
     "prefLabel": {
@@ -55,6 +67,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -22,6 +22,17 @@
       "reflexion"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Ausfallswinkel",
+      "Einfallslot",
+      "Einfallswinkel",
+      "Reflexionsgesetz",
+      "Spiegel",
+      "einfallende Strahl",
+      "reflektierter Strahl"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/geometrischeoptik",
     "prefLabel": {
@@ -78,6 +89,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

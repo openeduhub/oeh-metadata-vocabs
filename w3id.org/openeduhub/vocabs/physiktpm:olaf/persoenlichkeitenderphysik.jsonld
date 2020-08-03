@@ -6,6 +6,12 @@
   "prefLabel": {
     "de": "Persönlichkeiten der Physik"
   },
+  "hiddenLabel": {
+    "de": [
+      "Physiker",
+      "Physikerin"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/geschichte_ausblick",
     "prefLabel": {
@@ -55,6 +61,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

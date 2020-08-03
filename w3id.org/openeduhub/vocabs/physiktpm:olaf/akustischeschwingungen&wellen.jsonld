@@ -6,6 +6,28 @@
   "prefLabel": {
     "de": "Akustische Schwingungen & Wellen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Doppler-Effekt",
+      "Eigenschwingungen",
+      "Flöte",
+      "Gangunterschied",
+      "Gangunterschied bei zwei Quellen",
+      "Interferenz",
+      "Interferenz von Schallwellen",
+      "Luftsäule",
+      "Pfeife",
+      "Resonanz",
+      "Saite",
+      "Saitenschwingung",
+      "Schall",
+      "Schallwellen",
+      "Schwebung",
+      "Schwingungen der Luftsäule in Pfeifen",
+      "Stehende Wellen",
+      "Töne"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/quellen&empfaenger",
@@ -69,6 +91,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

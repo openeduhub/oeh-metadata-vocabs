@@ -21,6 +21,21 @@
       "X-radiation"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Bremsstrahlung",
+      "Gesetz von Moseley",
+      "Röntgen-Spektroskopie",
+      "Röntgenbilder",
+      "Röntgenröhren",
+      "Röntgenspektroskopie",
+      "Röntgenspektrum",
+      "Röntgenstrahlung",
+      "Strahlenbelastung",
+      "X-Ray",
+      "X-Strahlen"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q34777"
   },
@@ -79,6 +94,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

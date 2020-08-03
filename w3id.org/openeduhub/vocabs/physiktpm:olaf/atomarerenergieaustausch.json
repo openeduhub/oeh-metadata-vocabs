@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Atomarer Energieaustausch"
   },
+  "hiddenLabel": {
+    "de": [
+      "Absorptionsspektrum",
+      "Atomares Spektrum",
+      "Emissionsspektrum",
+      "Linienspektren",
+      "Photonenabsorbtion",
+      "Photonenemission",
+      "Stoßionisation",
+      "diskrete Energieniveaus",
+      "diskrete Energiezustände"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/festkoerperphysik",
@@ -127,6 +140,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

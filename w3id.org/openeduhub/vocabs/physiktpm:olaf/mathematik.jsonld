@@ -18,6 +18,18 @@
       "maths"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Bruchrechnung",
+      "Formeln",
+      "Integralrechnung",
+      "Potenzschreibweise",
+      "Rechnen",
+      "Termumformung",
+      "Umformen",
+      "Umstellen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/methoden",
     "prefLabel": {
@@ -67,6 +79,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

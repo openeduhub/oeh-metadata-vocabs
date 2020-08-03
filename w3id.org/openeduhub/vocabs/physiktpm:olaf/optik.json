@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "Optik"
   },
+  "hiddenLabel": {
+    "de": [
+      "Die Lehre vom Licht."
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/farben",
@@ -110,6 +115,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -17,6 +17,23 @@
       "Shadow and Light"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Grenzstrahlen",
+      "Halbschatten",
+      "Kernschatten",
+      "Schatten",
+      "Schatten werfen",
+      "Schattenbereich",
+      "Schattenbereiche",
+      "Schattengrenze",
+      "Schlagschatten",
+      "Vollschatten",
+      "lichtfreier Bereich hinter einem Gegenstand",
+      "unbeleuchtete Fläche",
+      "Übergangsschatten"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/geometrischeoptik",
     "prefLabel": {
@@ -73,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

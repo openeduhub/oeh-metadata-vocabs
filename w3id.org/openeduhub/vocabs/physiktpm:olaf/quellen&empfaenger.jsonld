@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Quellen & Empfänger"
   },
+  "hiddenLabel": {
+    "de": [
+      "Empfänger",
+      "Lautsprecher",
+      "Mikrofon",
+      "Quelle",
+      "Schallempfänger",
+      "Schallquellen",
+      "Sender"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/akustischeschwingungen&wellen",
     "prefLabel": {
@@ -55,6 +66,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

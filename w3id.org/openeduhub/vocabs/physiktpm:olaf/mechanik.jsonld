@@ -11,6 +11,13 @@
       "Mechanisch"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Klassische Mechanik oder Newtonsche Mechanik ist das Teilgebiet der Physik",
+      "das die Bewegung von festen",
+      "flüssigen oder gasförmigen Körpern unter dem Einfluss von Kräften beschreibt."
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q41217"
   },
@@ -155,6 +162,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

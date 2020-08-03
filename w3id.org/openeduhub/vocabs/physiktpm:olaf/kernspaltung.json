@@ -17,6 +17,16 @@
       "fission"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Atomenergie",
+      "Kernspaltung",
+      "Kettenreaktion",
+      "Neutronenbeschuss",
+      "Spaltreaktion",
+      "Uran-235"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q11429"
   },
@@ -75,6 +85,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

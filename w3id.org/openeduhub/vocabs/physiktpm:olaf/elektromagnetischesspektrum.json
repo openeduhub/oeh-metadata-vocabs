@@ -6,6 +6,18 @@
   "prefLabel": {
     "de": "Elektromagnetisches Spektrum"
   },
+  "hiddenLabel": {
+    "de": [
+      "Gammastrahlung",
+      "Infrarot",
+      "Mikrowellen",
+      "Radiowellen",
+      "Röntgenstrahlung",
+      "Sichtbares Licht",
+      "Ultraviolett",
+      "sichtbare Licht"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/wellenoptik",
     "prefLabel": {
@@ -65,6 +77,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

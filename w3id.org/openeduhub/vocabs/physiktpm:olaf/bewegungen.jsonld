@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Bewegungen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Zeit-Geschwindigkeits-Diagramm",
+      "Zeit-Orts-Diagramm",
+      "t-s-Diagramm",
+      "t-v-Diagrammen"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/beschleunigt",
@@ -80,6 +88,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

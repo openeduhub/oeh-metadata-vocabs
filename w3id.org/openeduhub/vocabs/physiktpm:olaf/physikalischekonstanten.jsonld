@@ -6,6 +6,30 @@
   "prefLabel": {
     "de": "Physikalische Konstanten"
   },
+  "hiddenLabel": {
+    "de": [
+      "Atomare Masseneinheit",
+      "Avogadrozahl",
+      "Boltzmannkonstante",
+      "Elektrische Feldkonstante",
+      "Elementarladung",
+      "Energieäquivalent",
+      "Fallbeschleunigung",
+      "Faraday Konstante",
+      "Gaskonstante",
+      "Gravitationskonstante",
+      "Hubble-Konstante",
+      "Konstanten",
+      "Lichtgeschwindigkeit",
+      "Magnetische",
+      "Naturkonstante",
+      "Planck Konstante",
+      "Rydberg-Konstante",
+      "Stefan-Boltzmann-Konstante",
+      "Wien-Verschiebungskonstante",
+      "physikalische Konstante"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/methoden",
     "prefLabel": {
@@ -55,6 +79,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

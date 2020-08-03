@@ -13,6 +13,16 @@
       "Gestörte Ausbreitung"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Lichtbündel und Lichtstrahlen",
+      "Lichtgeschwindigkeit",
+      "Lochkamera",
+      "Sehvorgang",
+      "Stoffverhalten",
+      "Strahlensatz"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q1758425"
   },
@@ -72,6 +82,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

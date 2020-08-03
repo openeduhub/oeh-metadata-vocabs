@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Photonen"
   },
+  "hiddenLabel": {
+    "de": [
+      "COMPTON-Effekt",
+      "EINSTEINs Theorie des Lichts",
+      "Energie-Impuls-Beziehung beim Photon",
+      "Lichtteilchen",
+      "Photoeffekt",
+      "Photon",
+      "Photonenimpuls",
+      "Photonenmodell",
+      "lichtelektrischer Effekt"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/quantenphysik",
     "prefLabel": {
@@ -63,6 +76,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

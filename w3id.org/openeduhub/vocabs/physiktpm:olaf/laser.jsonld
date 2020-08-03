@@ -30,6 +30,19 @@
       "light amplification by stimulated emission of radiation"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      " Laserresonator",
+      "Dauerstrichlaser",
+      "Helium-Neon-Laser",
+      "Laserdiode",
+      "Lasermedien",
+      "Licht-Verstärkung durch stimulierte Emission von Strahlung",
+      "Stimulierte Emission",
+      "light amplification by stimulated emission of radiation",
+      "optisches Punkten"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/atomarerenergieaustausch",
     "prefLabel": {
@@ -79,6 +92,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

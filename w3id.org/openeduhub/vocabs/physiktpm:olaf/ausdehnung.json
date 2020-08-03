@@ -18,6 +18,14 @@
       "Volumenausdehnung"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Anomalie des Wassers",
+      "Längenausdehnungskoeffizienten",
+      "Längenänderung",
+      "Volumenänderung"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q778301"
   },
@@ -70,6 +78,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

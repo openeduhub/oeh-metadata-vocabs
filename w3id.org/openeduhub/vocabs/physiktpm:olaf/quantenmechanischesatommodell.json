@@ -6,6 +6,22 @@
   "prefLabel": {
     "de": "Quantenmechanisches Atommodell"
   },
+  "hiddenLabel": {
+    "de": [
+      "Elektronenkonfigurationen",
+      "Hauptquantenzahl",
+      "Linearer Potentialtopf",
+      "Nebenquantenzahl",
+      "Orbitalmodell",
+      "Pauli-Prinzip",
+      "Potentialtopf",
+      "Quantenzahlen",
+      "Spin-Quantenzahl",
+      "Wahrscheinlichkeitsverteilungen beim H-Atom",
+      "Wahrscheinlichkeitsverteilungen beim Wasserstoffatom",
+      "magnetische Quantenzahl"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/atomphysik",
     "prefLabel": {
@@ -61,6 +77,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

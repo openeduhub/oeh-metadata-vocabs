@@ -11,6 +11,16 @@
       "magnetisches Feld"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Fadenstrahlrohr",
+      "HALL-Effekt",
+      "Magnetischen Querfeld",
+      "Magnetisches Längsfeld",
+      "WIENsches Geschwindigkeitsfilter",
+      "Wienfilter"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q11408"
   },
@@ -63,6 +73,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,15 @@
   "prefLabel": {
     "de": "Stromwirkung"
   },
+  "hiddenLabel": {
+    "de": [
+      "Chemische Wirkung des elektrischen Stroms",
+      "Leuchtwirkung des elektrischen Stroms",
+      "Magnetische Wirkung des elektrischen Stroms",
+      "Wirkungen des elektrischen Stroms",
+      "Wärmewirkung des elektrischen Stroms"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/grundlagene-lehre",
     "prefLabel": {
@@ -55,6 +64,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

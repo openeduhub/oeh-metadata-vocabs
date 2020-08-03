@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Kernreaktionen"
   },
+  "hiddenLabel": {
+    "de": [
+      "E=mc²",
+      "Energiebilanz bei Kernreaktionen",
+      "Kernmasse",
+      "Massendefekt",
+      "Nuklidmasse",
+      "Zusammenhang von Atom- und Kernmassen",
+      "mittlere Bindungsenergie pro Nukleon"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/kernphysik",
     "prefLabel": {
@@ -61,6 +72,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

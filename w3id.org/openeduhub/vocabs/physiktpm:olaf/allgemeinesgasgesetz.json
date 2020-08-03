@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Allgemeines Gasgesetz"
   },
+  "hiddenLabel": {
+    "de": [
+      "Gesetz von AMONTONS",
+      "Gesetz von BOYLE und MARIOTTE",
+      "Gesetz von GAY-LUSSAC",
+      "allgemeinen Gasgleichung",
+      "isobar",
+      "isochor",
+      "isotherm"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/waermelehre_thermodynamik",
     "prefLabel": {
@@ -55,6 +66,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

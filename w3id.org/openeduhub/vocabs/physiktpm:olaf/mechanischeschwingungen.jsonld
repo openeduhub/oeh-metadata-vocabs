@@ -6,6 +6,16 @@
   "prefLabel": {
     "de": "Mechanische Schwingungen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Harmonische Schwingung",
+      "Harmonischer Oszillator",
+      "Periodendauer",
+      "Schwingungsdauer",
+      "lineares Kraftgesetz",
+      "periodischen Bewegung"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/fadenpendel",
@@ -81,6 +91,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

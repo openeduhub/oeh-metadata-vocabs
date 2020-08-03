@@ -6,6 +6,29 @@
   "prefLabel": {
     "de": "Sonne / Fixsterne"
   },
+  "hiddenLabel": {
+    "de": [
+      "Absolute Sternhelligkeit",
+      "Aufbau der Sonne",
+      "Energie der Sonne",
+      "Entwicklung der Sonne",
+      "Entwicklung schwerer Sterne",
+      "Fixstern",
+      "Fraunhofer",
+      "Fraunhofer Linien",
+      "HERTZSPRUNG-RUSSELL-Diagramm",
+      "Hauptreihenstadium",
+      "Jährliche Sternbewegung",
+      "Masse-Leuchtkraft-Beziehung",
+      "Scheinbare Sternhelligkeit",
+      "Solarkonstante und Strahlungsleistung",
+      "Sonne",
+      "Sonnenspektrum",
+      "Spektralklassen",
+      "Stern",
+      "Sterngeburt"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/astronomie",
     "prefLabel": {
@@ -67,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

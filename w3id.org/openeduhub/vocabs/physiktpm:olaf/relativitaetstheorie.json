@@ -17,6 +17,11 @@
       "relativity"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Albert Einsteins Relativitätstheorien"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q43514"
   },
@@ -80,6 +85,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

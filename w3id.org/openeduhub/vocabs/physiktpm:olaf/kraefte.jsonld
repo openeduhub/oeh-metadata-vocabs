@@ -6,6 +6,13 @@
   "prefLabel": {
     "de": "Kräfte"
   },
+  "hiddenLabel": {
+    "de": [
+      "Abbremsen",
+      "Physikalische Kräfte haben Wirkungen wie Beschleunigen",
+      "Ändern einer Bewegungsrichtung oder ein Verformen"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/addition&zerlegung",
@@ -80,6 +87,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

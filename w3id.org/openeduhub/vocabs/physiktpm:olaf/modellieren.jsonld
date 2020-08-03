@@ -6,6 +6,15 @@
   "prefLabel": {
     "de": "Modellieren"
   },
+  "hiddenLabel": {
+    "de": [
+      "Abstraktion",
+      "Modell",
+      "Teilaspekte",
+      "Vereinfachung",
+      "phänomenologische Beschreibung"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/methoden",
     "prefLabel": {
@@ -55,6 +64,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

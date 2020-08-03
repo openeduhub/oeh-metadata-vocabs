@@ -18,6 +18,11 @@
       "Astronomy"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Astrophysik"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/einfuehrung_grundlagen",
@@ -119,6 +124,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

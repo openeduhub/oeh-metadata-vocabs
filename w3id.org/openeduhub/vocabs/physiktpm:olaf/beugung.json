@@ -23,6 +23,14 @@
       "inflexion"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Beugung ist die Ablenkung einer Welle an einem Hindernis.",
+      "Beugungsbild",
+      "Doppelspalt",
+      "Huygensschen Prinzip"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/wellenoptik",
     "prefLabel": {
@@ -82,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

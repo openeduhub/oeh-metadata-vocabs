@@ -19,6 +19,14 @@
       "Edison effect"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "EDISON-Effekt",
+      "Elektronenemission",
+      "Glühelektrischer Effekt",
+      "Glühwedel"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q215259"
   },
@@ -71,6 +79,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

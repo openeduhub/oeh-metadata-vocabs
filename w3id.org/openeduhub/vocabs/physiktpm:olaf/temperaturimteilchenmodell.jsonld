@@ -6,6 +6,18 @@
   "prefLabel": {
     "de": "Temperatur im Teilchenmodell"
   },
+  "hiddenLabel": {
+    "de": [
+      "Absolute Temperatur",
+      "CELSIUS-Skala;BROWNsche Bewegung",
+      "Innere Energie",
+      "Kelvin",
+      "Temperaturdifferenz",
+      "Temperaturskala",
+      "Temperaturumrechnung",
+      "absolute Nullpunkt"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/waermelehre_thermodynamik",
     "prefLabel": {
@@ -55,6 +67,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

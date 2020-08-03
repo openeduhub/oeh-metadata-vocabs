@@ -11,6 +11,16 @@
       "nuclear fusion reaction"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Fusionsreaktion",
+      "Fusionsreaktor",
+      "Kernfusionsreaktor",
+      "Plasmaphysik",
+      "Sterne",
+      "starke Wechselwirkung"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q13082"
   },
@@ -69,6 +79,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

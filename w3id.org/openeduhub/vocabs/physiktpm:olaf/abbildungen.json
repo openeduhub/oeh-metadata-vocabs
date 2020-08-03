@@ -36,6 +36,14 @@
       "total function"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Bildweite",
+      "Gegenstandsweite",
+      "reelles Bild",
+      "virtuelles Bild"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q11348"
   },
@@ -95,6 +103,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

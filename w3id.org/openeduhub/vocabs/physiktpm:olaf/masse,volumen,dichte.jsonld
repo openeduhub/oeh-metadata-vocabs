@@ -6,6 +6,18 @@
   "prefLabel": {
     "de": "Masse, Volumen, Dichte"
   },
+  "hiddenLabel": {
+    "de": [
+      "Flächeneinheit",
+      "Flächeneinheiten",
+      "Masse pro Volumen",
+      "Massendichte",
+      "Quotient aus Masse und Volumen",
+      "Umrechnungszahl",
+      "Volumeneinheit",
+      "Volumeneinheiten"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/druck&auftrieb",
@@ -68,6 +80,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

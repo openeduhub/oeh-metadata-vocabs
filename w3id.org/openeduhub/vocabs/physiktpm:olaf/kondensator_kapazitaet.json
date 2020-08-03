@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Kondensator / Kapazität"
   },
+  "hiddenLabel": {
+    "de": [
+      "Elektrische Energie im geladenen Kondensator",
+      "Entladekurve",
+      "Kapazität",
+      "Kondensator",
+      "Ladekurve",
+      "Plattenkondensator",
+      "RC-Kreis"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/vertiefunge-lehre",
     "prefLabel": {
@@ -55,6 +66,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

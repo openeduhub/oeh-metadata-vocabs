@@ -23,6 +23,18 @@
       "linguistic interference"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "BRAGG-Reflexion",
+      "Beugungsgitter",
+      "Destruktive Interferenz",
+      "Einzelspalt",
+      "Gangunterschied",
+      "Konstruktive Interferenz",
+      "Vielfachspalt",
+      "Zwei-Quellen-Interferenz"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/wellenoptik",
     "prefLabel": {
@@ -82,6 +94,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

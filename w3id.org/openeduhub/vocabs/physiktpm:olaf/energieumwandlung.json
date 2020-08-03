@@ -16,6 +16,14 @@
       "energy conversion"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Energieerhaltungssatz",
+      "Energieflussdiagrammen",
+      "Energierhaltung",
+      "Erhaltungssatz der Energie"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q11271324"
   },
@@ -68,6 +76,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

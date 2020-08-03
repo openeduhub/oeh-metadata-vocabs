@@ -6,6 +6,29 @@
   "prefLabel": {
     "de": "SI-Einheiten"
   },
+  "hiddenLabel": {
+    "de": [
+      " Basiseinheit",
+      "Ampere",
+      "Candela",
+      "Internationales Einheitensystem",
+      "Kelvin",
+      "Kilogramm",
+      "Lichtstärke",
+      "Länge",
+      "Masse",
+      "Meter",
+      "Mol",
+      "SI",
+      "Sekunde",
+      "Stoffmenge",
+      "Stromstärke",
+      "Système international d’unités",
+      "Thermodynamische\nTemperatur",
+      "Zeit",
+      "metrisches Einheitensystem"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/methoden",
     "prefLabel": {
@@ -55,6 +78,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Phänomene"
   },
+  "hiddenLabel": {
+    "de": [
+      "Doppler-Effekt",
+      "Interferenz",
+      "Obertöne",
+      "Schwebung"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/akustik",
     "prefLabel": {
@@ -61,6 +69,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,21 @@
   "prefLabel": {
     "de": "Deterministisches Chaos"
   },
+  "hiddenLabel": {
+    "de": [
+      "Chaotheorie",
+      "Determinismus",
+      "Doppelpendel",
+      "Grenzen der NEWTONschen Mechanik",
+      "Kausalität",
+      "Kausalitätsprinzip",
+      "Lorenz-Attraktor",
+      "Rückkopplung",
+      "Schmetterlingseffekt",
+      "gekoppelte Systeme",
+      "seltsamer Attraktor"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/waermelehre_thermodynamik",
     "prefLabel": {
@@ -55,6 +70,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

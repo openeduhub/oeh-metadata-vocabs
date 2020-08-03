@@ -19,6 +19,15 @@
       "drittes newtonsches Gesetz"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Gegenwirkungsprinzip",
+      "Reaktionsprinzip",
+      "Wechselwirkung",
+      "Wechselwirkungsprinzip",
+      "lex tertia"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q3235565"
   },
@@ -91,6 +100,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

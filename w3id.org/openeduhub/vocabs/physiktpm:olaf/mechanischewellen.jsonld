@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Mechanische Wellen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Ausbreitungsgeschwindigkeit",
+      "Energietransport",
+      "Schallwellen",
+      "Stehende Welle",
+      "Wasserwelle",
+      "Wellenfront",
+      "Wellenfunktion",
+      "Wellennormale",
+      "Wellenwanne"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/schwingungenundwellen",
     "prefLabel": {
@@ -55,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

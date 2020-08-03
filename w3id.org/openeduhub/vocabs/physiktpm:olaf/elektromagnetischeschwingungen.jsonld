@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Elektromagnetische Schwingungen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Dipolschwingung",
+      "Hertzscher Dipol",
+      "MEISSNER'sche Rückkopplungsschaltung",
+      "Stabdipol"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/schwingkreiss.e-lehre",
@@ -63,6 +71,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -16,6 +16,13 @@
       "wave optics"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Als Wellenoptik wird der Bereich der Optik bezeichnet",
+      "Wellenmodell des Lichts",
+      "der von der Wellennatur des Lichts handelt."
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q942347"
   },
@@ -151,6 +158,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

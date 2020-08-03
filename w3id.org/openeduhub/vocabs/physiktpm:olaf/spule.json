@@ -22,6 +22,17 @@
       "spool"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Bandpass",
+      "HELMHOLTZ-Spule",
+      "Hochpass",
+      "LC-Schwingkreis",
+      "Tiefpass",
+      "Zylinderspule",
+      "langgestreckten Spule"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/vertiefunge-lehre",
     "prefLabel": {
@@ -71,6 +82,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -26,6 +26,12 @@
       "laws of motion"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Gesetze der Bewegung",
+      "Grundsätze der Bewegung"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q38433"
   },
@@ -116,6 +122,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

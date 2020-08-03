@@ -20,6 +20,17 @@
       "heat exchange"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Konvektion",
+      "Temperaturstrahlung",
+      "Wärmeleitung",
+      "Wärmemitführung",
+      "Wärmestrahlung",
+      "Wärmeströmung",
+      "Wärmetransport"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q179635"
   },
@@ -72,6 +83,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

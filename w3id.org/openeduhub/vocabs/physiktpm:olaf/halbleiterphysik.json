@@ -20,6 +20,18 @@
       "semiconductor material"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Bandlücke",
+      "Dotierung",
+      "Halbleiter",
+      "Halbleiterdiode",
+      "Leuchtdioden",
+      "Löcherleitung",
+      "Transistor",
+      "p-n-Übergang"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q11456"
   },
@@ -72,6 +84,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

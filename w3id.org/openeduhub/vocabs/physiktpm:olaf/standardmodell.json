@@ -16,6 +16,15 @@
       "Standard Model of Particle Physics"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Antimaterie",
+      "Drei Generationen",
+      "Higgs Teilchen",
+      "SUSY",
+      "Teilchenzoo"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q18338"
   },
@@ -73,6 +82,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

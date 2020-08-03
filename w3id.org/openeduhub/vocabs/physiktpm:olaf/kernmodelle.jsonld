@@ -6,6 +6,13 @@
   "prefLabel": {
     "de": "Kernmodelle"
   },
+  "hiddenLabel": {
+    "de": [
+      "Neutronen",
+      "Nukleonen",
+      "Protonen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/kernphysik",
     "prefLabel": {
@@ -61,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

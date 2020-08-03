@@ -6,6 +6,16 @@
   "prefLabel": {
     "de": "Elektrisches Feld"
   },
+  "hiddenLabel": {
+    "de": [
+      "Elektrischen Querfeld",
+      "Elektrisches Längsfeld",
+      "Elektronenkanone",
+      "Elektronenquelle",
+      "Elektronenstrahlablenkröhre",
+      "Elektronenstrahlsystem"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/bewegteladungen_felder",
     "prefLabel": {
@@ -55,6 +65,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

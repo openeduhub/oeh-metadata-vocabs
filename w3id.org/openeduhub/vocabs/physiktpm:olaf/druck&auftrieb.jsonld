@@ -6,6 +6,26 @@
   "prefLabel": {
     "de": "Druck & Auftrieb"
   },
+  "hiddenLabel": {
+    "de": [
+      "Auftrieb",
+      "Flaschenteufel",
+      "Kraft pro Fläche",
+      "Luftdruck",
+      "Pascal",
+      "Schweben",
+      "Schweredruck",
+      "Schwimmen",
+      "Sinken",
+      "Steigen",
+      "Wasserteufel oder Drehteufel",
+      "bar",
+      "cartesischer Taucher",
+      "kartesianischer Tanzteufel",
+      "kartesischer Taucher",
+      "mPa"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/masse,volumen,dichte",
     "prefLabel": {
@@ -55,6 +75,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

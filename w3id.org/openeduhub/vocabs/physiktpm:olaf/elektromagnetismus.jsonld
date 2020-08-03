@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Elektromagnetismus"
   },
+  "hiddenLabel": {
+    "de": [
+      "LORENTZ-Kraft",
+      "Magnetfeld einer Zylinderspule",
+      "Magnetfeld eines geraden Leiters",
+      "Magnetisches Feld einer Spule",
+      "Rechten-Faust-Regel",
+      "magnetische Kraft",
+      "magnetischen Wirkung",
+      "magnetisches Feld",
+      "ØRSTED-Versuch"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/grundlagenmagnetismus",
     "prefLabel": {
@@ -55,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

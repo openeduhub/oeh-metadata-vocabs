@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Elektronen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Beugung und Interferenz von Quantenobjekten",
+      "De Broglie Wellenlänge",
+      "Interferenz von Quantenobjekten",
+      "Quantenobjekte",
+      "Statistische Deutung",
+      "Unschärferelation",
+      "Welle - Teilchen - Dualismus"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/quantenphysik",
     "prefLabel": {
@@ -63,6 +74,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

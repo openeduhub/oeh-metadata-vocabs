@@ -13,6 +13,11 @@
       "Strahlenoptik"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "In der geometrischen Optik wird Licht durch idealisierte Strahlen angenähert."
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q467980"
   },
@@ -177,6 +182,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

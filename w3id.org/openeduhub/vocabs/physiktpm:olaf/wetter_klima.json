@@ -6,6 +6,18 @@
   "prefLabel": {
     "de": "Wetter / Klima"
   },
+  "hiddenLabel": {
+    "de": [
+      "Gletscherschmelze",
+      "Klimaschutz",
+      "Klimawandel",
+      "Ozonloch",
+      "Strahlungshaushalt",
+      "Treibhauseffekt",
+      "Wasserkreislauf",
+      "Wetterkarte"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/waermelehre_thermodynamik",
     "prefLabel": {
@@ -55,6 +67,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

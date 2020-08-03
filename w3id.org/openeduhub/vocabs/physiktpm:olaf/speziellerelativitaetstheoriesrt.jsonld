@@ -6,6 +6,34 @@
   "prefLabel": {
     "de": "Spezielle Relativitätstheorie (SRT)"
   },
+  "hiddenLabel": {
+    "de": [
+      "Albert Einstein",
+      "Effekte",
+      "Einstein",
+      "Einsteins Postulate",
+      "Energie-Impuls-Beziehung",
+      "Geschwindigkeitsbetrachtung",
+      "Gleichzeitigkeit",
+      "Grundaussagen der speziellen Relativitätstheorie",
+      "Inertialsystem",
+      "Längenkontraktion",
+      "Längenänderung",
+      "Paradoxien",
+      "Raum-Zeit",
+      "Raumzeit",
+      "Relativistische Energie",
+      "Relativistische Masse und Impuls",
+      "Spezielle Relativitätstheorie",
+      "Zeit",
+      "Zeitdehnung",
+      "Zeitdilatation",
+      "kürzer",
+      "länger",
+      "relativ",
+      "spezielle Relativitätstheorie"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/relativitaetstheorie",
     "prefLabel": {
@@ -66,6 +94,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

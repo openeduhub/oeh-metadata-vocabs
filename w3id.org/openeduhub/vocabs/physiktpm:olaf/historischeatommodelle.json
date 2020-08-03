@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Historische Atommodelle"
   },
+  "hiddenLabel": {
+    "de": [
+      "Bohrsches Atommodell",
+      "Rosinenkuchenmodell",
+      "Rutherfordsches Modell",
+      "Tröpfchenmodell"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/atomphysik",
     "prefLabel": {
@@ -61,6 +69,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

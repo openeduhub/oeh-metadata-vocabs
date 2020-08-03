@@ -6,6 +6,23 @@
   "prefLabel": {
     "de": "Permanentmagnetismus"
   },
+  "hiddenLabel": {
+    "de": [
+      "Dauermagnet",
+      "Elementarmagnete",
+      "Entmagnetisieren",
+      "Ferromagnetismus",
+      "Magnetfeld",
+      "Magnetische Feldlinien",
+      "Magnetische Influenz",
+      "Magnetisieren",
+      "Magnetpole",
+      "Nordpol",
+      "Permanentmagnet",
+      "Permanentmagnetismus",
+      "Südpol"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/grundlagenmagnetismus",
     "prefLabel": {
@@ -55,6 +72,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

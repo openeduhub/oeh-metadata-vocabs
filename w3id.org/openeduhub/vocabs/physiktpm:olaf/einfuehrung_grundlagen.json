@@ -6,6 +6,23 @@
   "prefLabel": {
     "de": "Einführung / Grundlagen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Bewegung der Himmelskörper",
+      "Die Himmelskörper ruhen nicht",
+      "Himmel",
+      "Himmelskörper",
+      "Jahreszeiten",
+      "Monat",
+      "Mond",
+      "Mondfinsternis",
+      "Mondphasen",
+      "Sonne",
+      "Sonnenfinsternis",
+      "Sterne",
+      "sondern sie befinden sich in einer oder mehreren Drehbewegungen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/astronomie",
     "prefLabel": {
@@ -67,6 +84,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

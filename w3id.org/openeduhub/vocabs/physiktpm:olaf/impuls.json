@@ -12,6 +12,19 @@
       "translational momentum"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Impulserhaltung",
+      "Impulserhaltungssatz",
+      "Kraftstoß",
+      "Raketengleichung",
+      "Raketengrundgleichung",
+      "Raketenphysik",
+      "Rückstoß",
+      "elastischen Stoß",
+      "unelastischen Stoß"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q41273"
   },
@@ -69,6 +82,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

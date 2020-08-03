@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "innere Energie / Wärmekapazität"
   },
+  "hiddenLabel": {
+    "de": [
+      "Hauptsatz der Wärmelehre",
+      "Phasenübergänge",
+      "Schmelzwärme",
+      "Temperaturänderung",
+      "Verdampfungswärme",
+      "fest",
+      "flüssig",
+      "gasförmig",
+      "spezifische Wärmekapazität"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/waermelehre_thermodynamik",
     "prefLabel": {
@@ -55,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

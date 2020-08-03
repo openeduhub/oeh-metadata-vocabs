@@ -28,6 +28,19 @@
       "proof by induction"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Elektromagnetische Induktion",
+      "Induktionserscheinung",
+      "Induktionsgesetz",
+      "Induktionsvorgang",
+      "Induktivität",
+      "Magnetischer Fluss",
+      "RL-Kreis",
+      "Regel von LENZ",
+      "Selbstinduktion"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/vertiefunge-lehre",
     "prefLabel": {
@@ -77,6 +90,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Grundlagen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Fähigkeit zur Interferenz",
+      "Isotope",
+      "Komplementarität",
+      "Nuklide",
+      "Quantenobjekten",
+      "Statistische Vorhersagbarkeit",
+      "Streuexperiment"
+    ]
+  },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/",
     "title": {
@@ -49,6 +60,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

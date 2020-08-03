@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "Methoden"
   },
+  "hiddenLabel": {
+    "de": [
+      "Methoden und Werkzeuge der Physik"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/dokumentieren",
@@ -102,6 +107,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

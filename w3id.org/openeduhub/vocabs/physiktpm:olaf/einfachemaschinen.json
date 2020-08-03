@@ -6,6 +6,15 @@
   "prefLabel": {
     "de": "Einfache Maschinen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Flaschenzug",
+      "Hebel",
+      "Hydraulische Systeme",
+      "Kraftwandler",
+      "Wellrad"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/mechanik",
     "prefLabel": {
@@ -60,6 +69,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

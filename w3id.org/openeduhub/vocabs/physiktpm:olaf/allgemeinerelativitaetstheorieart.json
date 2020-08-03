@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Allgemeine Relativitätstheorie (ART)"
   },
+  "hiddenLabel": {
+    "de": [
+      "Albert Einstein",
+      "Die ART beschreibt die Wechselwirkung zwischen Materie (einschließlich Feldern) einerseits",
+      "E=mc²",
+      "Einstein",
+      "Raum-Zeit",
+      "Raumzeit",
+      "allgemeine Relativitätstheorie",
+      "sowie Raum und Zeit andererseits. Sie deutet Gravitation als geometrische Eigenschaft der gekrümmten vierdimensionalen Raumzeit",
+      "vierdimensional"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/relativitaetstheorie",
     "prefLabel": {
@@ -66,6 +79,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,21 @@
   "prefLabel": {
     "de": "Energieformen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Atomenergie",
+      "Bewegungsenergie",
+      "Chemische Energie",
+      "Elektrische Energie",
+      "Kernenergie",
+      "Lageenergie",
+      "Sonnenenergie",
+      "Strahlungsenergie",
+      "Wärmeenergie",
+      "kinetische Energie",
+      "potentielle Energie"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/energie",
     "prefLabel": {
@@ -55,6 +70,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

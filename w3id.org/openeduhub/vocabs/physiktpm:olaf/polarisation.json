@@ -29,6 +29,17 @@
       "polarisation"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "BREWSTER-Winkel",
+      "Gesetz von MALUS",
+      "Polarisationsachsen",
+      "Polarisationsfilter",
+      "Schwingungsrichtung einer Transversalwelle",
+      "polarisiertes Licht",
+      "unpolarisiertes Licht"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/wellenoptik",
     "prefLabel": {
@@ -88,6 +99,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

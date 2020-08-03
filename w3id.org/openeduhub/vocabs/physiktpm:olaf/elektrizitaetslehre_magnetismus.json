@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "Elektrizitätslehre / Magnetismus"
   },
+  "hiddenLabel": {
+    "de": [
+      "Die vielfältigen Beziehungen zwischen Magnetismus und elektrischen Phänomenen"
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/bewegteladungen_felder",
@@ -78,6 +83,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

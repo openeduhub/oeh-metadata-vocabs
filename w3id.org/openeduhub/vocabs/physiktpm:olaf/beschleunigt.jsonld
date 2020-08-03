@@ -6,6 +6,17 @@
   "prefLabel": {
     "de": "Beschleunigt"
   },
+  "hiddenLabel": {
+    "de": [
+      "Beschleunigung",
+      "Beschleunigungsvorgang",
+      "Bremsvorgang",
+      "Freier Fall",
+      "Mittlere Geschwindigkeit",
+      "Momentangeschwindigkeit",
+      "Senkrechter Wurf"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/bewegungen",
     "prefLabel": {
@@ -55,6 +66,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

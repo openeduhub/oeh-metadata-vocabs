@@ -6,6 +6,20 @@
   "prefLabel": {
     "de": "Sternbeobachtung"
   },
+  "hiddenLabel": {
+    "de": [
+      "Fernrohr",
+      "Hemisphäre",
+      "Himmelskugel",
+      "Lauf der Gestirne",
+      "Nordstern",
+      "Orientierung",
+      "Orientierung mit Hilfe des Polarsterns",
+      "Polarstern",
+      "Sternbilder",
+      "Teleskop"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/astronomie",
     "prefLabel": {
@@ -67,6 +81,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

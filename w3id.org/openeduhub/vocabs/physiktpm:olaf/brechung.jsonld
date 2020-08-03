@@ -16,6 +16,24 @@
       "Wellenbrechung"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "\nÜbergang zwischen zwei Medien",
+      "Grenzfläche",
+      "Grenzwinkel der Totalreflexion",
+      "Lichtbrechung",
+      "Medien unterschiedlicher optischer Dichte",
+      "Strahl wird gebrochen",
+      "Totalreflexion",
+      "optisch dichter",
+      "optisch dünner",
+      "reflektiert",
+      "vom Lot weg gebrochen",
+      "zum Lot hin gebrochen",
+      "Übergang vom optisch dichteren zum optisch dünneren Medium",
+      "Übergang vom optisch dünneren zum optisch dichteren Medium"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q72277"
   },
@@ -75,6 +93,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -6,6 +6,28 @@
   "prefLabel": {
     "de": "Elektrische Grundgrößen"
   },
+  "hiddenLabel": {
+    "de": [
+      "Ampere",
+      "Coulomb",
+      "Elektrische Feldlinien",
+      "Elektrische Kraft",
+      "Elektrische Ladung",
+      "Elektrische Spannung",
+      "Elektrische Stromstärke",
+      "Homogenes elektrisches Feld",
+      "Innenwiderstand",
+      "Ladungseigenschaften",
+      "OHMsches Gesetz",
+      "Ohm",
+      "Potential",
+      "Potenzial",
+      "Strom",
+      "Volt",
+      "Watt",
+      "Widerstand"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/grundlagene-lehre",
     "prefLabel": {
@@ -55,6 +77,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

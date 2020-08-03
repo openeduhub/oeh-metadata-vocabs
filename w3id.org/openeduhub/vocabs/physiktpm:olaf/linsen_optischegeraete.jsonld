@@ -6,6 +6,32 @@
   "prefLabel": {
     "de": "Linsen / optische Geräte"
   },
+  "hiddenLabel": {
+    "de": [
+      "Bildentstehung bei Linsenabbildungen",
+      "Brennpunkt",
+      "Camera Obscura",
+      "Diaprojektor",
+      "Fernrohr",
+      "Fotoapparat",
+      "Galilei-Fernrohr",
+      "Kepler-Fernrohr",
+      "Konkavlinsen",
+      "Konstruktionsstrahlen bei der Linsenabbildung",
+      "Konvexlinsen",
+      "Linsenabbildung",
+      "Linsenformen",
+      "Linsengleichung",
+      "Linsengleichungen",
+      "Lupe",
+      "Mikroskop",
+      "Optische Geräte",
+      "Overhead",
+      "Sammellinsen",
+      "Sphärische Linsen",
+      "Zerstreuungslinsen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/geometrischeoptik",
     "prefLabel": {
@@ -62,6 +88,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

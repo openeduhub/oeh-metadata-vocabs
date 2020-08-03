@@ -6,6 +6,16 @@
   "prefLabel": {
     "de": "Experimentieren"
   },
+  "hiddenLabel": {
+    "de": [
+      "Experiment",
+      "Experimente",
+      "Experimente machen",
+      "Untersuchung",
+      "Versuch",
+      "Versuche anstellen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/methoden",
     "prefLabel": {
@@ -55,6 +65,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

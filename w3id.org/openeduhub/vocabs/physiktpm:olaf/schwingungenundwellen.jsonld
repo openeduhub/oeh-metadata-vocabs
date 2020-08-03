@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "Schwingungen und Wellen"
   },
+  "hiddenLabel": {
+    "de": [
+      "In der Natur und in technischen Anwendungen treten häufig zeitlich\nperiodische Vorgänge auf."
+    ]
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/elektromagnetischeschwingungen",
@@ -78,6 +83,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

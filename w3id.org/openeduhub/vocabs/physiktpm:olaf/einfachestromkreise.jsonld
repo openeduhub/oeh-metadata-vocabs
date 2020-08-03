@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Einfache Stromkreise"
   },
+  "hiddenLabel": {
+    "de": [
+      "Atomare Vorstellungen der Elektrizität",
+      "Einfache Stromkreise",
+      "Elektrische Leiter",
+      "Nichtleiter",
+      "Parallelschaltung von Widerständen",
+      "Reihenschaltung von Widerständen",
+      "Schaltplan",
+      "Stromkreiselemente",
+      "Stromkreismodelle"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/grundlagene-lehre",
     "prefLabel": {
@@ -55,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

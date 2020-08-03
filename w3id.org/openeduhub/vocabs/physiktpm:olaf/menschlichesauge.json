@@ -6,6 +6,19 @@
   "prefLabel": {
     "de": "Menschliches Auge"
   },
+  "hiddenLabel": {
+    "de": [
+      "Akkomodation",
+      "Augenlinse",
+      "Iris",
+      "Linse mit veränderbarer Brennweite",
+      "Netzhaut",
+      "Pupille",
+      "Sehfehler",
+      "lichtempfindlichen Zapfen",
+      "scharfes Sehen"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/optik",
     "prefLabel": {
@@ -55,6 +68,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

@@ -21,6 +21,32 @@
       "physical cosmology"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Ausdehnung",
+      "Ausdehnung des Kosmos",
+      "Big Bang",
+      "Doppler",
+      "Doppler-Effekt",
+      "Dunkle Energie",
+      "Dunkle Materie",
+      "Edwin Hubble",
+      "Entfernungsbestimmung mit Cepheiden",
+      "Expansion",
+      "HST",
+      "Hubble",
+      "Hubble Space Telescope",
+      "Hubble-Gesetz",
+      "Kosmische Hintergrundstrahlung",
+      "Kosmologie",
+      "Kosmologie und Standardmodell",
+      "Kosmologische Rotverschiebung",
+      "Rotverschiebung",
+      "Standardmodell",
+      "Universum\n",
+      "Urknall"
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/astronomie",
     "prefLabel": {
@@ -82,6 +108,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

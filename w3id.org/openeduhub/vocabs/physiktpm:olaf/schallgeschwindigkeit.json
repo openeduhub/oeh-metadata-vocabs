@@ -14,6 +14,20 @@
       "sound speed"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Alexander von Humboldt",
+      "Arago",
+      "Ausbreitungsgeschwindigkeit",
+      "Die Schallgeschwindigkeit ist die Geschwindigkeit",
+      "Gay-Lussac",
+      "Gewitter",
+      "Laufzeitmessungen",
+      "Messung der Schallgeschwindigkeit",
+      "Schallgeschwindigkeit",
+      "mit der sich Schallwellen in einem Medium fortpflanzen. Ihre SI-Einheit ist Meter pro Sekunde (m/s)."
+    ]
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/physiktpm:olaf/akustik",
     "prefLabel": {
@@ -69,6 +83,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [

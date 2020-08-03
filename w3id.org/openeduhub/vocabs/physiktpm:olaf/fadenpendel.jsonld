@@ -12,6 +12,18 @@
       "mathematisches Pendel"
     ]
   },
+  "hiddenLabel": {
+    "de": [
+      "Faden der Länge l",
+      "Fadenpendel",
+      "Mathematisches Pendel",
+      "Pendel",
+      "Perpendikel",
+      "Physikalisches Pendel",
+      "Schwerependel",
+      "kleinen Auslenkungen"
+    ]
+  },
   "note": {
     "de": "http://www.wikidata.org/entity/Q829360"
   },
@@ -64,6 +76,12 @@
     "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "altLabel": {
       "@container": [
