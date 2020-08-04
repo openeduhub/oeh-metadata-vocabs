@@ -4,50 +4,85 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
-    dct:title "Sprachlevel"@de;
-    dct:title "Language Level"@en;
-    dct:description "Eine Wertelliste für Schultypen im deutschen Schulsystem. Entstanden im Kontext des OpenEduHub."@de;
+    dct:title "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER"@de;
+    dct:title "Common European Framework of Reference for Languages, CEFR"@en;
+    dct:description "Eine Werteliste der Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen."@de;
     dct:creator "<https://wirlernenonline.de>" ;
-    dct:created "2020-07-14"^^xsd:date;
-    dct:modified "2020-07-14"^^xsd:date;
-    dct:issued "2020-07-14"^^xsd:date;
+    dct:created "2020-08-04"^^xsd:date;
+    dct:modified "2020-08-04"^^xsd:date;
+    dct:issued "2020-08-04"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>, <7> .
+    skos:hasTopConcept <A>, <B>, <C> .
 
-
-
-<1> a skos:Concept ;
-    skos:prefLabel "1. Lernjahr"@de ;
-    skos:prefLabel "1st year of learning"@en ;
+<A> a skos:Concept ;
+    skos:prefLabel "Elementare Sprachverwendung"@de ;
+    skos:prefLabel "Basic User"@en ;
+    skos:narrower <A1>, <A2> ;
     skos:topConceptOf <> .
 
-<2> a skos:Concept ;
-    skos:prefLabel "2. Lernjahr"@de ;
-    skos:prefLabel "2nd year of learning"@en ;
+
+<A1> a skos:Concept ;
+    skos:prefLabel "A1"@de ;
+    skos:prefLabel "A1"@en ;
+    skos:altLabel "Einstieg"@de ;
+    skos:altLabel "Beginner"@en ;
+    skos:definition "Kann vertraute, alltägliche Ausdrücke und ganz einfache Sätze verstehen und verwenden, die auf die Befriedigung konkreter Bedürfnisse zielen. Kann sich und andere vorstellen und anderen Leuten Fragen zu ihrer Person stellen - z. B. wo sie wohnen, was für Leute sie kennen oder was für Dinge sie haben - und kann auf Fragen dieser Art Antwort geben. Kann sich auf einfache Art verständigen, wenn die Gesprächspartnerinnen oder Gesprächspartner langsam und deutlich sprechen und bereit sind zu helfen."@de ;
+    skos:broader <A> ;
+    skos:inScheme <> .
+
+<A2> a skos:Concept ;
+    skos:prefLabel "A2"@de ;
+    skos:prefLabel "A2"@en ;
+    skos:altLabel "Grundlagen"@de ;
+    skos:altLabel "Elementary"@en ;
+    skos:definition "Kann Sätze und häufig gebrauchte Ausdrücke verstehen, die mit Bereichen von ganz unmittelbarer Bedeutung zusammenhängen (z. B. Informationen zur Person und zur Familie, Einkaufen, Arbeit, nähere Umgebung). Kann sich in einfachen, routinemäßigen Situationen verständigen, in denen es um einen einfachen und direkten Austausch von Informationen über vertraute und geläufige Dinge geht. Kann mit einfachen Mitteln die eigene Herkunft und Ausbildung, die direkte Umgebung und Dinge im Zusammenhang mit unmittelbaren Bedürfnissen beschreiben."@de ;
+    skos:broader <A> ;
+    skos:inScheme <> .
+
+<B> a skos:Concept ;
+    skos:prefLabel "Selbstständige Sprachverwendung"@de ;
+    skos:prefLabel "Independent User"@en ;
+    skos:narrower <B1>, <B2> ;
     skos:topConceptOf <> .
 
-<3> a skos:Concept ;
-    skos:prefLabel "3. Lernjahr"@de ;
-    skos:prefLabel "3rd year of learning"@en ;
+<B1> a skos:Concept ;
+    skos:prefLabel "B1"@de ;
+    skos:prefLabel "B1"@en ;
+    skos:altLabel "Mittelstufe"@de ;
+    skos:altLabel "Intermediate"@en ;
+    skos:definition "Kann die Hauptpunkte verstehen, wenn klare Standardsprache verwendet wird und wenn es um vertraute Dinge aus Arbeit, Schule, Freizeit usw. geht. Kann die meisten Situationen bewältigen, denen man auf Reisen im Sprachgebiet begegnet. Kann sich einfach und zusammenhängend über vertraute Themen und persönliche Interessengebiete äußern. Kann über Erfahrungen und Ereignisse berichten, Träume, Hoffnungen und Ziele beschreiben und zu Plänen und Ansichten kurze Begründungen oder Erklärungen geben."@de ;
+    skos:broader <B> ;
+    skos:inScheme <> .
+
+<B2> a skos:Concept ;
+    skos:prefLabel "B2"@de ;
+    skos:prefLabel "B2"@en ;
+    skos:altLabel "gute Mittelstufe"@de ;
+    skos:altLabel "Upper Intermediate"@en ;
+    skos:definition "Kann die Hauptinhalte komplexer Texte zu konkreten und abstrakten Themen verstehen; versteht im eigenen Spezialgebiet auch Fachdiskussionen. Kann sich so spontan und fließend verständigen, dass ein normales Gespräch mit Muttersprachlern ohne grössere Anstrengung auf beiden Seiten gut möglich ist. Kann sich zu einem breiten Themenspektrum klar und detailliert ausdrücken, einen Standpunkt zu einer aktuellen Frage erläutern und die Vor- und Nachteile verschiedener Möglichkeiten angeben."@de ;
+    skos:broader <B> ;
+    skos:inScheme <> .
+
+<C> a skos:Concept ;
+    skos:prefLabel "Kompetente Sprachverwendung"@de ;
+    skos:prefLabel "Proficient User"@en ;
+    skos:narrower <C1>, <C2> ;
     skos:topConceptOf <> .
 
-<4> a skos:Concept ;
-    skos:prefLabel "4. Lernjahr"@de ;
-    skos:prefLabel "4th year of learning"@en ;
-    skos:topConceptOf <> .
+<C1> a skos:Concept ;
+    skos:prefLabel "C1"@de ;
+    skos:prefLabel "C1"@en ;
+    skos:altLabel "fortgeschrittene Kenntnisse"@de ;
+    skos:altLabel "Advanced"@en ;
+    skos:definition "Kann ein breites Spektrum anspruchsvoller, längerer Texte verstehen und auch implizite Bedeutungen erfassen. Kann sich spontan und fließend ausdrücken, ohne öfter deutlich erkennbar nach Worten suchen zu müssen. Kann die Sprache im gesellschaftlichen und beruflichen Leben oder in Ausbildung und Studium wirksam und flexibel gebrauchen. Kann sich klar, strukturiert und ausführlich zu komplexen Sachverhalten äußern und dabei verschiedene Mittel zur Textverknüpfung angemessen verwenden."@de ;
+    skos:broader <C> ;
+    skos:inScheme <> .
 
-<5> a skos:Concept ;
-    skos:prefLabel "5. Lernjahr"@de ;
-    skos:prefLabel "5th year of learning"@en ;
-    skos:topConceptOf <> .
-
-<6> a skos:Concept ;
-    skos:prefLabel "6. Lernjahr"@de ;
-    skos:prefLabel "6th year of learning"@en ;
-    skos:topConceptOf <> .
-
-<7> a skos:Concept ;
-    skos:prefLabel "7. Lernjahr"@de ;
-    skos:prefLabel "7th year of learning"@en ;
-    skos:topConceptOf <> .
-
+<C2> a skos:Concept ;
+    skos:prefLabel "C2"@de ;
+    skos:prefLabel "C2"@en ;
+    skos:altLabel "exzellente Kenntnisse"@de ;
+    skos:altLabel "Proficiency"@en ;
+    skos:definition "Kann praktisch alles, was er / sie liest oder hört, mühelos verstehen. Kann Informationen aus verschiedenen schriftlichen und mündlichen Quellen zusammenfassen und dabei Begründungen und Erklärungen in einer zusammenhängenden Darstellung wiedergeben. Kann sich spontan, sehr flüssig und genau ausdrücken und auch bei komplexeren Sachverhalten feinere Bedeutungsnuancen deutlich machen."@de ;
+    skos:broader <C> ;
+    skos:inScheme <> .
