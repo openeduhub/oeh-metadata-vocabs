@@ -21,7 +21,7 @@
     skos:narrower <topic_related_news>, <events>, <society_related>,
         <extracurricular>, <news>, <goody_and_fun>, <job_related>,
         <compliance>, <educational_news>, <intercultural>, <everyday_life_related>,
-        <person_of_interest> ;
+        <person_of_interest>, <blog>, <topic_website>;
     skos:topConceptOf <> .
 
 <topic_related_news> a skos:Concept ;
@@ -84,6 +84,18 @@
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
+<blog> a skos:Concept ;
+    skos:prefLabel "Blog"@de ;
+    skos:definition "z.B. Lehrerblogs, die über innovative Unterrichsideen / -konzepte berichten"@de ;
+    skos:broader <good_to_know> ;
+    skos:inScheme <> .
+
+<topic_website> a skos:Concept ;
+    skos:prefLabel "Fachseite /-portal"@de ;
+    skos:definition "fachliche Informationsseiten"@de ;
+    skos:broader <good_to_know> ;
+    skos:inScheme <> .
+
 
 <methods> a skos:Concept ;
     skos:prefLabel "Methodisches & Unterrichtsbausteine"@de ;
@@ -140,7 +152,8 @@
         <podcast_radio>, <augmented_reality>, <graphic>,
         <worksheet>, <test>, <exam>, <drill_and_practice>,
         <course>, <simulation>, <glossary>, <book>, <music>,
-        <video_for_language_learning>, <textbook>, <map>, <photograph> ;
+        <video_for_language_learning>, <textbook>, <map>, <photograph>,
+        <vocab_list> ;
     skos:topConceptOf <> .
 
 <erklaervideo> a skos:Concept ;
@@ -238,11 +251,16 @@
     skos:broader <materialien> ;
     skos:inScheme <> .
 
+<vocab_list> a skos:Concept ;
+    skos:prefLabel "Wort- und Vokabellisten"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
 
 <tools> a skos:Concept ;
     skos:prefLabel "Software / Tools"@de ;
     skos:narrower <learning_tools>, <methodical_tools>, <editors>,
-        <educational_games>, <hardware>, <platform> ;
+        <educational_games>, <hardware>, <platform>, <dictionaries> ;
     skos:topConceptOf <> .
 
 <learning_tools> a skos:Concept ;
@@ -272,5 +290,11 @@
 
 <platform> a skos:Concept ;
     skos:prefLabel "Plattformen / Infrastrukturen"@de ;
+    skos:broader <tools> ;
+    skos:inScheme <> .
+
+<dictionaries> a skos:Concept ;
+    skos:prefLabel "Wörterbücher"@de ;
+    skos:definition "z.B. Duden, Pons"@de ;
     skos:broader <tools> ;
     skos:inScheme <> .
