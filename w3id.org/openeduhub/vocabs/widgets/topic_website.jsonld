@@ -1,64 +1,26 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/widgets/tools",
+  "id": "http://w3id.org/openeduhub/vocabs/widgets/topic_website",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftopic_website",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftopic_website",
   "prefLabel": {
-    "de": "Software / Tools"
+    "de": "Fachseite /-portal"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/learning_tools",
-      "prefLabel": {
-        "de": "Lerntools / Apps"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/methodical_tools",
-      "prefLabel": {
-        "de": "Methodische Tools"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/editors",
-      "prefLabel": {
-        "de": "Editoren"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/educational_games",
-      "prefLabel": {
-        "de": "Lernspiele"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/hardware",
-      "prefLabel": {
-        "de": "Hardware"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/platform",
-      "prefLabel": {
-        "de": "Plattformen / Infrastrukturen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/dictionaries",
-      "prefLabel": {
-        "de": "Wörterbücher"
-      }
+  "definition": {
+    "de": "fachliche Informationsseiten"
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/widgets/good_to_know",
+    "prefLabel": {
+      "de": "Gut zu wissen"
     }
-  ],
+  },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/widgets/",
     "title": {
       "de": "Open Edu Hub Widgets",
       "en": "Open Edu Hub Widgets"
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/widgets/"
   },
   "@context": {
     "@version": 1.1,
