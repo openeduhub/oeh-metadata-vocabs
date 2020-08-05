@@ -4,7 +4,13 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Feducational_games",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Feducational_games",
   "prefLabel": {
-    "de": "Lernspiele"
+    "de": "Lernspiele (Online)"
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/widgets/tools",
+    "prefLabel": {
+      "de": "Software / Tools"
+    }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/widgets/",
