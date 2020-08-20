@@ -153,7 +153,7 @@
         <worksheet>, <test>, <exam>, <drill_and_practice>,
         <course>, <simulation>, <glossary>, <book>, <music>,
         <video_for_language_learning>, <textbook>, <map>, <photograph>,
-        <vocab_list>, <educational_games_offline> ;
+        <vocab_list>, <educational_games_offline>, <experiment> ;
     skos:topConceptOf <> .
 
 <erklaervideo> a skos:Concept ;
@@ -258,6 +258,11 @@
 
 <educational_games_offline> a skos:Concept ;
     skos:prefLabel "Lernspiele (offline)"@de ;
+    skos:broader <materialien> ;
+    skos:inScheme <> .
+
+<experiment> a skos:Concept ;
+    skos:prefLabel "Experimente"@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
