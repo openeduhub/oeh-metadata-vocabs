@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/160",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F160",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F160",
+  "prefLabel": {
+    "de": "ETHIK"
+  },
+  "note": {
+    "de": [
+      "Ethik",
+      "Ethikunterricht"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16001",
+      "prefLabel": {
+        "de": "Konflikte und Konfliktregelung"
+      },
+      "note": {
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Konflikte",
+          "Konfliktregelung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16002",
+      "prefLabel": {
+        "de": "Soziale Bindungen"
+      },
+      "note": {
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Soziale Bindungen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16003",
+      "prefLabel": {
+        "de": "Werte und Normen"
+      },
+      "note": {
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Werte und Normen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16005",
+      "prefLabel": {
+        "de": "Anthropologie"
+      },
+      "note": {
+        "de": [
+          "Anthropologie",
+          "Ethik",
+          "Ethikunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16006",
+      "prefLabel": {
+        "de": "Religionen, Weltanschauungen"
+      },
+      "note": {
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Religionen",
+          "Weltanschauungen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/16080",
+      "prefLabel": {
+        "de": "Bilingualer Unterricht"
+      },
+      "note": {
+        "de": [
+          "Bilingualer Ethikunterricht",
+          "Ethik"
+        ]
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/"
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/280",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F280",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F280",
+  "prefLabel": {
+    "de": "GRUNDSCHULE"
+  },
+  "note": {
+    "de": [
+      "Grundschule",
+      "Grundschulunterricht",
+      "Primarunterricht"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28001",
+      "prefLabel": {
+        "de": "Deutsch"
+      },
+      "note": {
+        "de": [
+          "Deutsch",
+          "Deutsch in der Grundschule",
+          "Deutschunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28002",
+      "prefLabel": {
+        "de": "Deutsch für Kinder anderer Muttersprache"
+      },
+      "note": {
+        "de": [
+          "Deutsch für Kinder anderer Muttersprache",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28003",
+      "prefLabel": {
+        "de": "Medienerziehung"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Medienerziehung",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28004",
+      "prefLabel": {
+        "de": "Ethik"
+      },
+      "note": {
+        "de": [
+          "Ethik",
+          "Ethikunterricht",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28005",
+      "prefLabel": {
+        "de": "Fremdsprachen"
+      },
+      "note": {
+        "de": [
+          "Fremdsprachen",
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28006",
+      "prefLabel": {
+        "de": "Kunst, Werken, Textiles Gestalten"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Kunst",
+          "Primarunterricht",
+          "Textiles Gestalten",
+          "Werken"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28007",
+      "prefLabel": {
+        "de": "Mathematik"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Mathematik",
+          "Mathematikunterricht",
+          "Matheunterricht",
+          "Primarunterricht",
+          "Rechnen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28008",
+      "prefLabel": {
+        "de": "Musik"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Musik",
+          "Musikunterricht",
+          "Primarunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28009",
+      "prefLabel": {
+        "de": "Religion"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Religion",
+          "Religionsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28010",
+      "prefLabel": {
+        "de": "Sachkunde"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sachkunde",
+          "Sachkundeunterricht",
+          "Sachunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/28011",
+      "prefLabel": {
+        "de": "Sport"
+      },
+      "note": {
+        "de": [
+          "Grundschule",
+          "Grundschulunterricht",
+          "Primarunterricht",
+          "Sport",
+          "Sportunterricht"
+        ]
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/"
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/08006",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F08006",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F08006",
+  "prefLabel": {
+    "de": "Menschenkunde"
+  },
+  "note": {
+    "de": [
+      "Biologie",
+      "Biologieunterricht",
+      "Menschenkunde"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800601",
+      "prefLabel": {
+        "de": "Körperbau"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Körperbau des Menschen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800602",
+      "prefLabel": {
+        "de": "Stoffwechsel, Innere Organe"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Innere Organe",
+          "Stoffwechsel"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800603",
+      "prefLabel": {
+        "de": "Sinnesorgane, Nervensystem"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Nervensystem",
+          "Sinnesorgane"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800604",
+      "prefLabel": {
+        "de": "Fortpflanzung und Entwicklung"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Fortpflanzung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800605",
+      "prefLabel": {
+        "de": "Genetik, Evolution"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Evolution",
+          "Genetik"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800606",
+      "prefLabel": {
+        "de": "Krankheiten und Vorbeugung"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Krankheiten",
+          "Prävention"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0800607",
+      "prefLabel": {
+        "de": "Verhalten"
+      },
+      "note": {
+        "de": [
+          "Biologie",
+          "Biologieunterricht",
+          "Verhalten",
+          "Verhalten des Menschen",
+          "Verhaltensbiologie"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/080",
+    "prefLabel": {
+      "de": "BIOLOGIE"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

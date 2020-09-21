@@ -1,0 +1,175 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0400101",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F0400101",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F0400101",
+  "prefLabel": {
+    "de": "Pflanzliche Produktion"
+  },
+  "note": {
+    "de": [
+      "Pflanzliche Produktion"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010101",
+      "prefLabel": {
+        "de": "Acker- und Pflanzenbau"
+      },
+      "note": {
+        "de": [
+          "Ackerbau",
+          "Pflanzenbau",
+          "Pflanzenproduktion"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010102",
+      "prefLabel": {
+        "de": "Pflanzenzüchtung"
+      },
+      "note": {
+        "de": [
+          "Pflanzenzüchtung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010103",
+      "prefLabel": {
+        "de": "Pflanzenernährung"
+      },
+      "note": {
+        "de": [
+          "Pflanzenernährung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010104",
+      "prefLabel": {
+        "de": "Pflanzenschutz"
+      },
+      "note": {
+        "de": [
+          "Pflanzenschutz",
+          "Phytomedizin"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010105",
+      "prefLabel": {
+        "de": "Grünland"
+      },
+      "note": {
+        "de": [
+          "Grünland"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/040010106",
+      "prefLabel": {
+        "de": "Sonderkulturen"
+      },
+      "note": {
+        "de": [
+          "Sonderkultur"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/04001",
+    "prefLabel": {
+      "de": "Gartenbau und Landwirtschaft, Natur und Umwelt"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

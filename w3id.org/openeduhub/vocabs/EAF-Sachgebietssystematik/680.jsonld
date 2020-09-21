@@ -1,0 +1,227 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/680",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F680",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F680",
+  "prefLabel": {
+    "de": "WEITERBILDUNG"
+  },
+  "note": {
+    "de": [
+      "Weiterbildung"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68001",
+      "prefLabel": {
+        "de": "Grundlagen der Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "NaN"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68002",
+      "prefLabel": {
+        "de": "Politische Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Politische Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68003",
+      "prefLabel": {
+        "de": "Kulturelle Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Kulturelle Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68004",
+      "prefLabel": {
+        "de": "Kreative Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Kreative Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68005",
+      "prefLabel": {
+        "de": "Elternbildung, Familienbildung"
+      },
+      "note": {
+        "de": [
+          "Elternbildung",
+          "Familienbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68006",
+      "prefLabel": {
+        "de": "Wirtschaftliche Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Wirtschaftliche Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68007",
+      "prefLabel": {
+        "de": "Mathematisch-naturwissenschaftliche Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Mathematisch-naturwissenschaftliche Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68008",
+      "prefLabel": {
+        "de": "Sprachliche Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Sprachliche Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68009",
+      "prefLabel": {
+        "de": "Gesundheitliche und sportliche Weiterbildung"
+      },
+      "note": {
+        "de": [
+          "Gesundheitliche Weiterbildung",
+          "sportliche Weiterbildung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68010",
+      "prefLabel": {
+        "de": "Schulische Weiterbildung, Zweiter Bildungsweg"
+      },
+      "note": {
+        "de": [
+          "Schulische Weiterbildung",
+          "Zweiter Bildungsweg"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/68011",
+      "prefLabel": {
+        "de": "Zielgruppenangebot"
+      },
+      "note": {
+        "de": [
+          "NaN"
+        ]
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/"
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

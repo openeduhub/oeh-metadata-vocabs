@@ -1,0 +1,165 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0600311",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F0600311",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F0600311",
+  "note": {
+    "de": [
+      "Jahrhundert",
+      "Kunst",
+      "Kunst der Moderne",
+      "Kunstunterricht"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/060031101",
+      "prefLabel": {
+        "de": "Kunst bis 1945"
+      },
+      "note": {
+        "de": [
+          "Bauhaus",
+          "Cubismus",
+          "Dada",
+          "Expressionismus",
+          "Fauvismus",
+          "Futurismus",
+          "Konstruktivismus",
+          "Kunst",
+          "Kunst bis 1945",
+          "Kunst vor 1945",
+          "Kunstunterricht",
+          "Neue Sachlichkeit",
+          "Surrealismus"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/060031102",
+      "prefLabel": {
+        "de": "Kunst bis 1980"
+      },
+      "note": {
+        "de": [
+          "Action-painting",
+          "Kunst",
+          "Kunst bis 1980",
+          "Kunst nach 1945",
+          "Kunstunterricht",
+          "Minimal art",
+          "Op-art",
+          "Pop-art",
+          "Tachismus",
+          "abstrakter Expressionismus"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/060031103",
+      "prefLabel": {
+        "de": "Kunst der Gegenwart"
+      },
+      "note": {
+        "de": [
+          "Gegenwartskunst",
+          "Kunst",
+          "Kunst der Gegenwart",
+          "Kunstunterricht",
+          "Videokunst",
+          "Zeitgenössische Kunst"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/06003",
+    "prefLabel": {
+      "de": "Kunstgeschichte"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}
