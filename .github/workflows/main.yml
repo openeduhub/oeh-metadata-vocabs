@@ -5,6 +5,14 @@ on:
     branches:
       - master
       - gh-pages
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
 
 jobs:
   build:
@@ -25,7 +33,7 @@ jobs:
       - run: git clone https://github.com/openeduhub/oeh-metadata-vocabs.git data/
 
       - name: build public dir with docker image
-        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/openeduhub-skohub-vocabs:docker
+        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/skohub-vocabs:oeh-metadata-vocabs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
