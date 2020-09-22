@@ -17,7 +17,10 @@
     ]
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0600311"
+    "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/0600311",
+    "prefLabel": {
+      "de": "20./21. Jahrhundert"
+    }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/EAF-Sachgebietssystematik/",
@@ -34,6 +37,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -101,6 +106,8 @@
     },
     "broaderTransitive": {
       "@container": "@set"
-    }
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
   }
 }

@@ -3,6 +3,9 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F12005010208",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FEAF-Sachgebietssystematik%2F12005010208",
+  "prefLabel": {
+    "de": "Grammatik/Systematisierung"
+  },
   "note": {
     "de": [
       "DAF",
@@ -34,6 +37,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -101,6 +106,8 @@
     },
     "broaderTransitive": {
       "@container": "@set"
-    }
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
   }
 }
