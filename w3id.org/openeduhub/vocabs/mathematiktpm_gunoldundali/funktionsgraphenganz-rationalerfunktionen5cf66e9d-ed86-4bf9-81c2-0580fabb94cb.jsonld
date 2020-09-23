@@ -1,0 +1,200 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/funktionsgraphenganz-rationalerfunktionen5cf66e9d-ed86-4bf9-81c2-0580fabb94cb",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fmathematiktpm_gunoldundali%2Ffunktionsgraphenganz-rationalerfunktionen5cf66e9d-ed86-4bf9-81c2-0580fabb94cb",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fmathematiktpm_gunoldundali%2Ffunktionsgraphenganz-rationalerfunktionen5cf66e9d-ed86-4bf9-81c2-0580fabb94cb",
+  "prefLabel": {
+    "de": "Funktionsgraphen ganz-rationaler Funktionen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/nullstellendb2af66b-38b6-4feb-9051-d280c8873395",
+      "prefLabel": {
+        "de": "Nullstellen"
+      },
+      "note": {
+        "de": [
+          "Koordinate eines Schnittpunktes mit der x-Achse ist Null."
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/skizzierenganz-rationalerfunktionen3748bd09-5932-4019-a5f5-b3e7e40f3d73",
+      "prefLabel": {
+        "de": "Skizzieren ganz-rationaler Funktionen"
+      },
+      "note": {
+        "de": [
+          "Achsenschnittpunkte",
+          "Wertetabelle"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/spiegelungvonfunktionen2df61f39-993d-41d6-aa67-c73fff6f5b35",
+      "prefLabel": {
+        "de": "Spiegelung von Funktionen"
+      },
+      "note": {
+        "de": [
+          "Graphen spiegeln",
+          "Spiegelung an der x-achse",
+          "Spiegelung an der y-achse"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/streckenundstauchenvonfunktionen0e4649fa-6bed-4779-a7b4-e2aed009d67b",
+      "prefLabel": {
+        "de": "Strecken und Stauchen von Funktionen"
+      },
+      "note": {
+        "de": [
+          "Graph",
+          "Streckfaktor",
+          "stauchen",
+          "strecken"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/symmetrie893cdbfb-ddbd-48f7-8095-111ebf79c5de",
+      "prefLabel": {
+        "de": "Symmetrie"
+      },
+      "altLabel": {
+        "de": [
+          "Symmetrieelement",
+          "Symmetrieoperation",
+          "Symmetrietransformation",
+          "Symmetrisch"
+        ],
+        "en": [
+          "invariance (physics)",
+          "lack of asymmetry",
+          "physical symmetry",
+          "symmetry (physical system)",
+          "symmetry (physics)"
+        ]
+      },
+      "note": {
+        "de": [
+          "Achsensymmetrie (Symmetrieverhalten)",
+          "Punktsymmetrie (Standardsymmetrie)"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/verschiebungvonfunktionen24d0adeb-0ce1-4b56-b3a2-a473ee9309ac",
+      "prefLabel": {
+        "de": "Verschiebung von Funktionen"
+      },
+      "note": {
+        "de": [
+          "Verschiebung nach oben und unten",
+          "Verschiebung nach rechts oder links"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/mathematiktpm_gunoldundali/analysis5099b278-aecb-4213-bcef-87ee38da9c6d",
+    "prefLabel": {
+      "de": "Analysis"
+    },
+    "altLabel": {
+      "en": [
+        "Mathematical analysis",
+        "analysis"
+      ]
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

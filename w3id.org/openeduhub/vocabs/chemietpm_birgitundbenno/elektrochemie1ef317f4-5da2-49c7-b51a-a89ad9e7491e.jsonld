@@ -1,0 +1,305 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/elektrochemie1ef317f4-5da2-49c7-b51a-a89ad9e7491e",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fchemietpm_birgitundbenno%2Felektrochemie1ef317f4-5da2-49c7-b51a-a89ad9e7491e",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fchemietpm_birgitundbenno%2Felektrochemie1ef317f4-5da2-49c7-b51a-a89ad9e7491e",
+  "prefLabel": {
+    "de": "Elektrochemie"
+  },
+  "hiddenLabel": {
+    "de": [
+      "Akku,",
+      "Batterie",
+      "Elektrochemie"
+    ]
+  },
+  "note": {
+    "de": [
+      "Akku,",
+      "Batterie",
+      "Elektrochemie"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/akkumulatorena5e1e96e-7aa8-4efe-a74c-51bc5da2b28f",
+      "prefLabel": {
+        "de": "Akkumulatoren"
+      },
+      "note": {
+        "de": [
+          "Autobatterie",
+          "Bleiakku",
+          "Elektrolyse,",
+          "Lithium Ionen Akku",
+          "Sekundärzelle"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/batterietypen1426d468-bec6-438c-af1f-0de7894f6725",
+      "prefLabel": {
+        "de": "Batterietypen"
+      },
+      "note": {
+        "de": [
+          "Alkali-Mangan-Batterie",
+          "Brennstoffzelle",
+          "Leclanché-Element",
+          "Nassbatterie",
+          "Nickel-Cadmium-Akku",
+          "Primärelement",
+          "Redoxflow,",
+          "Zink-Kohle-Batterie"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/elektrolyse52e7b26d-6b5a-45e4-a347-d3f2dd1009f0",
+      "prefLabel": {
+        "de": "Elektrolyse"
+      },
+      "note": {
+        "de": [
+          "Hofmannscher Apparat,",
+          "Kupferchlorid",
+          "Wasserstoff-Elektrolyse",
+          "Wasserstoff-Gewinnung",
+          "Zinkchlorid"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/galvanischeselementd1507c38-0b17-40d9-bbcb-a0a098cbe89c",
+      "prefLabel": {
+        "de": "Galvanisches Element"
+      },
+      "note": {
+        "de": [
+          "Anode",
+          "Anodische Oxidation",
+          "Apfel Batterie",
+          "Cola Batterie",
+          "Daniell-Element",
+          "Elektrode",
+          "Elektronenleiter",
+          "Halbzelle",
+          "Ionenleiter",
+          "Kathode",
+          "Kathodische Reduktion",
+          "Salzbrücke",
+          "Zitronenbatterie"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/geschichtlicheentwicklungderelektrochemieedd68316-f9c7-49fd-b367-a8d11ac857a0",
+      "prefLabel": {
+        "de": "Geschichtliche Entwicklung der Elektrochemie"
+      },
+      "note": {
+        "de": [
+          "Bagdad von Batterie,",
+          "Davy",
+          "Froschschenkel",
+          "Galvani",
+          "Volta",
+          "Volta'sche Säule",
+          "Voltasche Säule"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/korrosionundkorrosionsschutzb26696c4-9dbc-4a5a-856e-890544c62729",
+      "prefLabel": {
+        "de": "Korrosion und Korrosionsschutz"
+      },
+      "note": {
+        "de": [
+          "Blechdose",
+          "Chrom",
+          "Feuerverzinken",
+          "Opferanode",
+          "Passivierung",
+          "Zink",
+          "Zinküberzug,",
+          "Zinn",
+          "Zinnüberzug",
+          "kathodischer Korrosionsschutz",
+          "unedlere Metalle",
+          "verchromen",
+          "vergolden",
+          "verzinken",
+          "verzinkt"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/redoxreaktionen05d19ad6-e018-484d-82a6-0a0f1f926b6f",
+      "prefLabel": {
+        "de": "Redoxreaktionen"
+      },
+      "note": {
+        "de": [
+          "Elektronenabgabe",
+          "Elektronenaufnahme",
+          "Oxidation",
+          "Oxidationsmittel",
+          "Oxidationsstufe",
+          "Oxidationszahl",
+          "Reduktion",
+          "Reduktionsmittel"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/spannungsreihe42094ebd-7525-44bf-8466-30edc7ce158c",
+      "prefLabel": {
+        "de": "Spannungsreihe"
+      },
+      "note": {
+        "de": [
+          "Edelmetall",
+          "Elektrochemische Spannungsreihe",
+          "Gold",
+          "edel",
+          "edle Metalle",
+          "unedel,",
+          "unedle Metalle"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/standardpotential0ccb82f1-3284-4952-8219-bb4582816a68",
+      "prefLabel": {
+        "de": "Standardpotential"
+      },
+      "note": {
+        "de": [
+          "Faraday Konstante",
+          "Gibbs Energie,",
+          "Halbzelle",
+          "Nernst Gleichung",
+          "Normal-Wasserstoffelektrode",
+          "Redoxpaar",
+          "Spannung",
+          "elektrochemische Spannungsreihe"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/technischeverfahren88ed8bc2-23c9-4e16-93f3-5320d2389fbc",
+      "prefLabel": {
+        "de": "Technische Verfahren"
+      },
+      "note": {
+        "de": [
+          "Amalgamverfahren",
+          "Chlor-Alkali-Elektrolyse",
+          "Chloralkalielektrolyse",
+          "Diaphragmaverfahren",
+          "Eloxal,",
+          "Eloxalverfahren",
+          "Galvanisieren",
+          "Galvanotechnik",
+          "Kupferelektrolyse",
+          "Membranverfahren"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/chemietpm_birgitundbenno/anorganischechemiecc297758-da1d-4f3d-b25a-204d4c104ddd",
+    "prefLabel": {
+      "de": "Anorganische Chemie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

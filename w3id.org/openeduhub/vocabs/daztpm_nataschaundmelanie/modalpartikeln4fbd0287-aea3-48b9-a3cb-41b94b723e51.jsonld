@@ -1,0 +1,125 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/modalpartikeln4fbd0287-aea3-48b9-a3cb-41b94b723e51",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdaztpm_nataschaundmelanie%2Fmodalpartikeln4fbd0287-aea3-48b9-a3cb-41b94b723e51",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdaztpm_nataschaundmelanie%2Fmodalpartikeln4fbd0287-aea3-48b9-a3cb-41b94b723e51",
+  "prefLabel": {
+    "de": "Modalpartikeln"
+  },
+  "altLabel": {
+    "de": [
+      "Abtönungspartikel",
+      "Füllwort",
+      "Modalpartikel",
+      "Modalpartikeln"
+    ]
+  },
+  "hiddenLabel": {
+    "de": [
+      "Abtönungspartikeln",
+      "Abtönungswörter",
+      "Modalpartikel"
+    ]
+  },
+  "note": {
+    "de": [
+      "Abtönungspartikeln",
+      "Abtönungswörter",
+      "Modalpartikel"
+    ]
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/saetzeundsatzverbindungen2f86a8c3-81e4-4365-bc52-7a8a4c3fca41",
+    "prefLabel": {
+      "de": "Sätze und Satzverbindungen"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

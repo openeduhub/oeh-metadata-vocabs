@@ -1,0 +1,281 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/wortschatzundwortkundec63264ae-0484-40b4-b0f6-7a8e2f4229d3",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdeutschtpm_tinaundpia%2Fwortschatzundwortkundec63264ae-0484-40b4-b0f6-7a8e2f4229d3",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdeutschtpm_tinaundpia%2Fwortschatzundwortkundec63264ae-0484-40b4-b0f6-7a8e2f4229d3",
+  "prefLabel": {
+    "de": "Wortschatz und Wortkunde"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/anglizismen90205b83-335a-4b22-be47-a55edad653dd",
+      "prefLabel": {
+        "de": "Anglizismen"
+      },
+      "altLabel": {
+        "de": [
+          "Amerikanismen",
+          "Anglicismus",
+          "Anglisieren",
+          "Anglizismen",
+          "Anglizismus",
+          "Anglizistisch"
+        ]
+      },
+      "note": {
+        "de": [
+          "Anglizismus des Jahres",
+          "Denglisch",
+          "Englisch"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/dialekt43e2770a-5cc5-4d52-b97c-04bf2f34e254",
+      "prefLabel": {
+        "de": "Dialekt"
+      },
+      "altLabel": {
+        "de": [
+          "Dialekte",
+          "Mundart",
+          "Mundarten",
+          "dialektal"
+        ],
+        "en": [
+          "dialects"
+        ]
+      },
+      "note": {
+        "de": [
+          "Akzent ",
+          "Bayrisch",
+          "Mundart",
+          "Schwäbisch",
+          "regionale Sprachvarietät"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/erb-undlehnwoerterab71eacd-728f-4e2c-bab2-76e07d395f9c",
+      "prefLabel": {
+        "de": "Erb- und Lehnwörter"
+      },
+      "note": {
+        "de": [
+          "Anlehnung",
+          "Etymologie",
+          "Sprachentwicklung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/fachwoerter5f9cd5c9-8793-498d-af9b-89c23b01bcd3",
+      "prefLabel": {
+        "de": "Fachwörter"
+      },
+      "note": {
+        "de": [
+          "Fachsprache ",
+          "Fachtermini"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/fremdwoerterbf065fb6-78f8-437a-8e4f-1425df798624",
+      "prefLabel": {
+        "de": "Fremdwörter"
+      },
+      "altLabel": {
+        "de": [
+          "Fremdwort",
+          "Fremdwörter",
+          "Xenologismus"
+        ],
+        "en": [
+          "Fremdwort",
+          "loanword"
+        ]
+      },
+      "note": {
+        "de": [
+          "Fremdsprachen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/jugendsprache227cbac4-e376-47e9-90d7-3fbb4b3f4b95",
+      "prefLabel": {
+        "de": "Jugendsprache"
+      },
+      "altLabel": {
+        "de": [
+          "Jugendkommunikation"
+        ],
+        "en": [
+          "youth slang"
+        ]
+      },
+      "note": {
+        "de": [
+          "Ausdrücke",
+          "Hochdeutsch",
+          "Jargons",
+          "Jugendwort",
+          "Sprachverfall",
+          "Sprachwandel"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/nominal-undverbalstil76670a6b-524b-4275-b794-89b813c1a11e",
+      "prefLabel": {
+        "de": "Nominal- und Verbalstil"
+      },
+      "note": {
+        "de": [
+          "Nominalisierung",
+          "sachlich "
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/redewendungen59a68689-f2a7-4085-ac38-918d3e02fcd2",
+      "prefLabel": {
+        "de": "Redewendungen"
+      },
+      "note": {
+        "de": [
+          "Idiom",
+          "Redensart",
+          "Sprichwörter",
+          "Traditionen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/sprachlichebildera48c0bf8-9183-479a-b3a8-7b4824ae3379",
+      "prefLabel": {
+        "de": "Sprachliche Bilder"
+      },
+      "note": {
+        "de": [
+          "Metapher",
+          "Verbildlichung",
+          "rhetorisches Stilmittel",
+          "sprachliches Mittel",
+          "Übertragung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/synonymeundantonymedab6f573-3255-487b-98c5-948eee182da9",
+      "prefLabel": {
+        "de": "Synonyme und Antonyme"
+      },
+      "note": {
+        "de": [
+          "Bedeutungsgleiches Wort",
+          "Gegensatz",
+          "Gegenteil ",
+          "Homöonym",
+          "sinnverwandt"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/grammatikundspracheuntersuchend03b1b51-a90c-4fa9-967e-f99849d884eb",
+    "prefLabel": {
+      "de": "Grammatik und Sprache untersuchen"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

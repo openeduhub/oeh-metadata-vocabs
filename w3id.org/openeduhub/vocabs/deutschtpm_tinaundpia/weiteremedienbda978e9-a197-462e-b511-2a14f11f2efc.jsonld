@@ -1,0 +1,219 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/weiteremedienbda978e9-a197-462e-b511-2a14f11f2efc",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdeutschtpm_tinaundpia%2Fweiteremedienbda978e9-a197-462e-b511-2a14f11f2efc",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdeutschtpm_tinaundpia%2Fweiteremedienbda978e9-a197-462e-b511-2a14f11f2efc",
+  "prefLabel": {
+    "de": "Weitere Medien"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/comicsundfotostorys4069f72e-5752-41d7-a936-300358fa0ef9",
+      "prefLabel": {
+        "de": "Comics und Fotostorys"
+      },
+      "note": {
+        "de": [
+          "Bilder",
+          "Cartoons",
+          "Gedankenblasen",
+          "Sprechblasen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/diagrammeundschaubilder3efb9e9c-dd96-4480-ad5d-ec1db07119e4",
+      "prefLabel": {
+        "de": "Diagramme und Schaubilder"
+      },
+      "note": {
+        "de": [
+          "Auswerten",
+          "Balkendiagramm",
+          "Kreisdiagramm",
+          "Legende",
+          "Säulendiagramm"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/filmundfilmischedarstellungsmittela65425f8-6992-4375-9125-05260b21db29",
+      "prefLabel": {
+        "de": "Film und filmische Darstellungsmittel"
+      },
+      "note": {
+        "de": [
+          "Buch-Film Vergleich",
+          "Filmanalyse",
+          "Kameraeinstellungen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/hoerbuecherundhoerspiele55c1b220-eed0-4662-8ba5-25746404e168",
+      "prefLabel": {
+        "de": "Hörbücher und Hörspiele"
+      },
+      "note": {
+        "de": [
+          "Geräusch",
+          "Hörkrimis ",
+          "Hörverstehen",
+          "Lesung",
+          "Sprecherrolle"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/karikaturen2f17f671-b695-4234-bca3-67754b76c82d",
+      "prefLabel": {
+        "de": "Karikaturen"
+      },
+      "note": {
+        "de": [
+          "Politik",
+          "komische Darstellung",
+          "Übertreibung",
+          "Überzeichnung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/podcastsda3ef5f9-063e-47c3-b7b3-a9c9ba4191fc",
+      "prefLabel": {
+        "de": "Podcasts"
+      },
+      "note": {
+        "de": [
+          "Audio-Datei",
+          "Radiobeitrag"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/poetrys4d88aab8-824d-4138-8708-2f071f7c89c4",
+      "prefLabel": {
+        "de": "Poetrys"
+      },
+      "note": {
+        "de": [
+          "Gedichte",
+          "Julia Engelmann",
+          "Poetry-Slam",
+          "Reime",
+          "Vortrag",
+          "freie Texte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/werbeanzeigenabfba584-1973-4213-8fa5-95bdc2748b46",
+      "prefLabel": {
+        "de": "Werbeanzeigen"
+      },
+      "note": {
+        "de": [
+          "AIDA-Prinzip",
+          "Geschlechterklischees",
+          "Online-Marketing",
+          "Online-Werbung",
+          "Werbung"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/deutschtpm_tinaundpia/lesen-mittextenundmedienumgehend89bf36a-cc95-4319-8206-4382d17717d1",
+    "prefLabel": {
+      "de": "Lesen - mit Texten und Medien umgehen"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
