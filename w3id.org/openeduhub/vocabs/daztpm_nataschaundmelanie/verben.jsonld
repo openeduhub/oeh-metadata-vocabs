@@ -1,0 +1,366 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/verben",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fdaztpm_nataschaundmelanie%2Fverben",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fdaztpm_nataschaundmelanie%2Fverben",
+  "prefLabel": {
+    "de": "Verben"
+  },
+  "hiddenLabel": {
+    "de": [
+      "Tuwörter",
+      "Tätigkeitswörter",
+      "Verben",
+      "Zeitwörter"
+    ]
+  },
+  "note": {
+    "de": [
+      "Tuwörter",
+      "Tätigkeitswörter",
+      "Verben",
+      "Zeitwörter"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/haben",
+      "prefLabel": {
+        "de": "Haben"
+      },
+      "altLabel": {
+        "de": [
+          "Haben Tesfai",
+          "Habesha"
+        ]
+      },
+      "note": {
+        "de": [
+          "Auxiliarverben",
+          "Hilfstätigkeitswörter",
+          "Hilfsverb",
+          "Hilfszeitwörter",
+          "Vollverb",
+          "haben"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/intransitiveverben",
+      "prefLabel": {
+        "de": "(In)transitive Verben"
+      },
+      "note": {
+        "de": [
+          "Akkusativobjekt als Ergänzung",
+          "intransitive Verben",
+          "kein Akkusativobjekt",
+          "transitive Verben"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/konjunktiv1",
+      "prefLabel": {
+        "de": "Konjunktiv 1"
+      },
+      "altLabel": {
+        "de": [
+          "Konjunktiv 1",
+          "Konjunktiv I"
+        ]
+      },
+      "note": {
+        "de": [
+          "Konjunktiv 1",
+          "Konjunktiv 1 der Gegenwart",
+          "Konjunktiv 1 der Vergangenheit,indirekte Rede",
+          "Konjunktiv I"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/konjunktiv2",
+      "prefLabel": {
+        "de": "Konjunktiv 2"
+      },
+      "altLabel": {
+        "de": [
+          "Irrealis",
+          "Konjunktiv 2",
+          "Konjunktiv II"
+        ]
+      },
+      "note": {
+        "de": [
+          "Konjunkitv II",
+          "Konjunktiv 2",
+          "Konjunktiv 2 der Gegenwart",
+          "Konjunktiv 2 der Vergangenheit "
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/modalverben",
+      "prefLabel": {
+        "de": "Modalverben"
+      },
+      "altLabel": {
+        "de": [
+          "Modalverb",
+          "Modalverben"
+        ]
+      },
+      "note": {
+        "de": [
+          "Mittelwort",
+          "Modalverben",
+          "dürfen",
+          "können",
+          "modale Hilfsverben",
+          "mögen",
+          "müssen",
+          "sollen",
+          "wollen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/partizip1",
+      "prefLabel": {
+        "de": "Partizip 1 "
+      },
+      "note": {
+        "de": [
+          "Gleiczeitigkeit",
+          "Partizip 1",
+          "Partizip I",
+          "Partizip Präsens"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/partizip2",
+      "prefLabel": {
+        "de": "Partizip 2"
+      },
+      "altLabel": {
+        "de": [
+          "Mittelwort der Vergangenheit",
+          "Partizip 2",
+          "Partizip II",
+          "Partizip Perfekt",
+          "Partizip der Vergangenheit"
+        ]
+      },
+      "note": {
+        "de": [
+          "Mittelwort",
+          "Partizip 2",
+          "Partizip II",
+          "Partizip Perfekt",
+          "passive Handlung"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/passiv",
+      "prefLabel": {
+        "de": "Passiv"
+      },
+      "altLabel": {
+        "de": [
+          "Passivität",
+          "Passivum"
+        ],
+        "en": [
+          "receptive partner"
+        ]
+      },
+      "note": {
+        "de": [
+          "\nPassiv",
+          " nicht passivfähige Verben",
+          "Passiversatzformen",
+          "Vorgangspassiv",
+          "Zustandspassiv",
+          "sein-Passiv",
+          "werden-Passiv"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/reflexiveverben",
+      "prefLabel": {
+        "de": "Reflexive Verben"
+      },
+      "note": {
+        "de": [
+          "echte reflexive Verben",
+          "reflexive Verben",
+          "rückbezügliche Verben",
+          "unechte reflexive Verben"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/sein",
+      "prefLabel": {
+        "de": "Sein"
+      },
+      "altLabel": {
+        "de": [
+          "Das Seiende",
+          "Gegebenes",
+          "Seiendes"
+        ]
+      },
+      "note": {
+        "de": [
+          "Auxiliarverben",
+          "Hilfstätigkeitswörter",
+          "Hilfsverb",
+          "Hilfszeitwörter",
+          "Vollverb",
+          "sein",
+          "unrgelmäßiges Verb"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/untrennbareverben",
+      "prefLabel": {
+        "de": "(Un)trennbare Verben"
+      },
+      "note": {
+        "de": [
+          "Präfixe",
+          "Vorsilben",
+          "trennbare Verben",
+          "untrennbare Verben"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/werden",
+      "prefLabel": {
+        "de": "Werden"
+      },
+      "altLabel": {
+        "de": [
+          "Essen-Werden",
+          "Verdainė",
+          "Werden",
+          "Werden, Essen"
+        ],
+        "en": [
+          "Essen-Werden"
+        ]
+      },
+      "note": {
+        "de": [
+          "Auxiliarverben",
+          "Hilfstätigkeitswörter",
+          "Hilfsverb",
+          "Hilfszeitwörter",
+          "Vollverb",
+          "werden"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/daztpm_nataschaundmelanie/grammatik",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/spanischfpm_natascha/interkulturelles",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fspanischfpm_natascha%2Finterkulturelles",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fspanischfpm_natascha%2Finterkulturelles",
+  "prefLabel": {
+    "de": "Interkulturelles"
+  },
+  "hiddenLabel": {
+    "de": [
+      "Geographie Spanien Hispanoamerika",
+      "Geschichte Spanien Hispanoamerika",
+      "Kultur Spanien Hispanoamerika",
+      "Peninsula",
+      "Soziales Spanien Hispanoamerika",
+      "Werte Spanien Hispanoamerika",
+      "soziokulturelles Orientierungswissen"
+    ]
+  },
+  "note": {
+    "de": [
+      "Geographie Spanien Hispanoamerika",
+      "Geschichte Spanien Hispanoamerika",
+      "Kultur Spanien Hispanoamerika",
+      "Peninsula",
+      "Soziales Spanien Hispanoamerika",
+      "Werte Spanien Hispanoamerika",
+      "soziokulturelles Orientierungswissen"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/spanischfpm_natascha/geschichtespaniensundhispanoamerikas",
+      "prefLabel": {
+        "de": "Geschichte Spaniens und Hispanoamerikas"
+      },
+      "note": {
+        "de": [
+          "historia de España",
+          "historia de Hispanoamérica"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/spanischfpm_natascha/laenderundleute",
+      "prefLabel": {
+        "de": "Länder und Leute"
+      },
+      "note": {
+        "de": [
+          "Argentina ELE",
+          "Bolivia ELE",
+          "Chile ELE",
+          "Colombia ELE",
+          "Costa Rica ELE",
+          "Cuba ELE",
+          "Ecuador ELE",
+          "El Salvador ELE",
+          "España ELE",
+          "Guatemala ELE",
+          "Honduras ELE",
+          "México ELE,",
+          "Nicaragua ELE",
+          "Panamá ELE",
+          "Paraguay ELE",
+          "Perú ELE",
+          "Puerto Rico ELE",
+          "República Dominicana ELE",
+          "Uruguay ELE",
+          "Venezuela ELE",
+          "países ELE"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/spanischfpm_natascha/spanischinderwelt",
+      "prefLabel": {
+        "de": "Spanisch in der Welt"
+      },
+      "note": {
+        "de": [
+          "Varietäten des Spanischen",
+          "variedades del español"
+        ]
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/allSchoolTopics/",
+    "title": {
+      "de": "all topics test"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
