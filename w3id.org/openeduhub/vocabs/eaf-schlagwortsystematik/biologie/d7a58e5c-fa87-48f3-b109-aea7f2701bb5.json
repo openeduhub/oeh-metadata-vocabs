@@ -1,0 +1,189 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/d7a58e5c-fa87-48f3-b109-aea7f2701bb5",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fd7a58e5c-fa87-48f3-b109-aea7f2701bb5",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fd7a58e5c-fa87-48f3-b109-aea7f2701bb5",
+  "prefLabel": {
+    "de": "Säugetiere"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/0f40b40a-b61c-4b03-ba32-d490b59909a3",
+      "prefLabel": {
+        "de": "Nagetiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/1220fc57-a9b9-4a21-8d29-ccd1a2934381",
+      "prefLabel": {
+        "de": "Meeressäuger"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/4ab4950b-9267-42a7-b85c-86dadc73f2bc",
+      "prefLabel": {
+        "de": "Rüsseltiere)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/4e4fdf93-7da1-41f4-8ab3-ab462271a772",
+      "prefLabel": {
+        "de": "Gürteltiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/608e1063-434e-43c3-a87a-f9bc3d5d6d8a",
+      "prefLabel": {
+        "de": "Insektenfresser"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/8678e13a-0533-4122-bd17-cbc8f331ce6e",
+      "prefLabel": {
+        "de": "Hasenartige)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/9fbbda8a-27f9-4dab-80cf-09791506709f",
+      "prefLabel": {
+        "de": "Primaten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/ac12aa63-f8a5-47d4-9d84-0c8e5af98ebd",
+      "prefLabel": {
+        "de": "Huftiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/b4393671-c35f-42e9-94c6-086e57caacfb",
+      "prefLabel": {
+        "de": "Beuteltiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/bb2e37e8-1ac7-4164-a1e2-3fcc6f5e5077",
+      "prefLabel": {
+        "de": "Flattertiere)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/d2b7db3d-89f3-41f8-ac46-402a3b44f65e",
+      "prefLabel": {
+        "de": "Zahnarme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/e116c0d1-84d0-4a65-83d5-45d62777629e",
+      "prefLabel": {
+        "de": "Schnabeltiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/e9d56a3f-b9ae-4f09-aa04-b0df5b1abecf",
+      "prefLabel": {
+        "de": "Raubtiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/ffd40445-2a29-449d-bc9a-16055b95c7e7",
+      "prefLabel": {
+        "de": "Sohlengänger"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/a14a5a24-6364-4c49-aa16-a581d825e39e",
+    "prefLabel": {
+      "de": "Wirbeltiere"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

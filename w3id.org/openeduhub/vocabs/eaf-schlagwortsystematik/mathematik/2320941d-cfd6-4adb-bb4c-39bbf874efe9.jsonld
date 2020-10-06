@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/2320941d-cfd6-4adb-bb4c-39bbf874efe9",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmathematik%2F2320941d-cfd6-4adb-bb4c-39bbf874efe9",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmathematik%2F2320941d-cfd6-4adb-bb4c-39bbf874efe9",
+  "prefLabel": {
+    "de": "Geometrie"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/1e43db55-bd54-4f82-85cd-f6e5308b8016",
+      "prefLabel": {
+        "de": "Rauminhalt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/1fe1f804-bd4b-48d5-ab1b-649bae7faf08",
+      "prefLabel": {
+        "de": "Gerade (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/38545ece-8ba2-4643-8f3b-ac2ecdbedc0a",
+      "prefLabel": {
+        "de": "Fraktalgeometrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/50fb99a4-cd04-40b4-9afe-723e74e14a1d",
+      "prefLabel": {
+        "de": "Senkrechte (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/52f0b76f-a779-4515-b5b1-76a4ee940dfc",
+      "prefLabel": {
+        "de": "Ellipse (Gemetrie)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/5b7858fe-3258-44f9-8914-351a1b9e8be7",
+      "prefLabel": {
+        "de": "Symmetrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/6bdb16e5-c217-4187-8dd0-2abe8843b00d",
+      "prefLabel": {
+        "de": "Koordinate"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/72b6b196-a2ec-462f-880c-98dce870cbac",
+      "prefLabel": {
+        "de": "Oberfläche (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/78ecb4d5-2a6c-4fb0-bd19-9746472670c1",
+      "prefLabel": {
+        "de": "Winkel (Geometrie)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/a39a91fb-4660-4548-b0b1-3aaa13497252",
+      "prefLabel": {
+        "de": "Flächeninhalt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/d1879d4a-5f76-4bc8-928b-cd4aed20c62a",
+      "prefLabel": {
+        "de": "Geometrische Figur "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/d1f73d64-e027-4d1e-bcfb-6b35cea3e52e",
+      "prefLabel": {
+        "de": "Pythagoras"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/d3130ad6-5441-4f61-9fff-fe893cd42e60",
+      "prefLabel": {
+        "de": "Parabel (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/d94669d4-ff55-4fff-8b06-6c88969279d0",
+      "prefLabel": {
+        "de": "Projektion (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/ebde7f16-2ead-4ed1-a968-f5608aa5c490",
+      "prefLabel": {
+        "de": "Kegelschnitt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/f4c16ea1-b972-48a6-bdbc-75707b644bd5",
+      "prefLabel": {
+        "de": "Diagramm"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/3a78376f-ad09-452d-9ba9-39b071a6fa11",
+    "prefLabel": {
+      "de": "Mathematik"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
