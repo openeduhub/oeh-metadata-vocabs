@@ -1,0 +1,147 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/11cfee3c-2867-4d3e-a081-9195a6d85778",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F11cfee3c-2867-4d3e-a081-9195a6d85778",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F11cfee3c-2867-4d3e-a081-9195a6d85778",
+  "prefLabel": {
+    "de": "Nordafrika"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/03ee3b71-9880-4614-8975-d3bf03ad1244",
+      "prefLabel": {
+        "de": "Mali"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/26aac6b8-6eeb-4ece-8eea-e7f737127c6a",
+      "prefLabel": {
+        "de": "Tunesien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/27f9bc0a-1381-41db-b4dd-d231de4280f6",
+      "prefLabel": {
+        "de": "Ägypten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/86a03864-af60-468e-880f-b845322380be",
+      "prefLabel": {
+        "de": "Sudan"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/9836d787-1183-43d5-b220-5d8c6013937e",
+      "prefLabel": {
+        "de": "Libyen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/9abd9385-6d80-49db-8ff3-df4627c09a12",
+      "prefLabel": {
+        "de": "Marokko"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/d5148584-0c32-4f82-afd9-d62815554ad5",
+      "prefLabel": {
+        "de": "Algerien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/6a4c8d62-7556-4f42-b64e-dba0c60921c2",
+    "prefLabel": {
+      "de": "Afrika"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

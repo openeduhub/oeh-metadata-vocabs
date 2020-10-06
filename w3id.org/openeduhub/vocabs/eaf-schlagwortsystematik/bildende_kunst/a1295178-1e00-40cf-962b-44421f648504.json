@@ -1,0 +1,129 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/a1295178-1e00-40cf-962b-44421f648504",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbildende_kunst%2Fa1295178-1e00-40cf-962b-44421f648504",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbildende_kunst%2Fa1295178-1e00-40cf-962b-44421f648504",
+  "prefLabel": {
+    "de": "Ballett"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/3b47fe31-f243-4056-a011-53e159fdffbd",
+      "prefLabel": {
+        "de": "Fonteyn, Margot"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/8c9f8f19-e4a5-497a-a184-93789dbbaeea",
+      "prefLabel": {
+        "de": "Acosta, Carlos"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/e7a55f04-113f-4c59-9590-d7b9552cb940",
+      "prefLabel": {
+        "de": "Nurejew, Rudolf"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/ebf56d97-f4b1-438a-81bf-9de3918a3d5e",
+      "prefLabel": {
+        "de": "Keil, Birgit"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/1454eaf7-1998-4c12-9535-84ffb067e8f2",
+    "prefLabel": {
+      "de": "Theater"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

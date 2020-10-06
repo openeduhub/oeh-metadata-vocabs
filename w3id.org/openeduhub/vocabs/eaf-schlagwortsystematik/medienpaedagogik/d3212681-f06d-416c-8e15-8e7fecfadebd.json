@@ -1,0 +1,165 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/d3212681-f06d-416c-8e15-8e7fecfadebd",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmedienpaedagogik%2Fd3212681-f06d-416c-8e15-8e7fecfadebd",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmedienpaedagogik%2Fd3212681-f06d-416c-8e15-8e7fecfadebd",
+  "prefLabel": {
+    "de": "Fernsehen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/1a34e566-6404-4629-8f63-57538b403840",
+      "prefLabel": {
+        "de": "Fernsehen (östliche Bundesländer)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/41daac6d-2af3-4d30-9186-a69bcc5a3ce0",
+      "prefLabel": {
+        "de": "Bluebox"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/4d46929e-2f15-436d-b296-db050e3e89fa",
+      "prefLabel": {
+        "de": "Fernsehproduktion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/628dbbe0-fc22-465d-ba41-09c7dddf9076",
+      "prefLabel": {
+        "de": "Castingshow"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/7c617d82-1816-49e2-89b2-c16bb907596d",
+      "prefLabel": {
+        "de": "Fernsehübertragung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/82456df2-c0c8-404e-b8d2-006912c83577",
+      "prefLabel": {
+        "de": "Fernsehserie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/93420df7-3823-4023-8084-50f93496b584",
+      "prefLabel": {
+        "de": "Fernsehfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/d25324f0-b846-4216-8642-e0bd394fefe6",
+      "prefLabel": {
+        "de": "Unterhaltungssendung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/f647ae5d-3099-49ea-9bb7-a020de1f500c",
+      "prefLabel": {
+        "de": "Fernsehkonsum"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/f894acd0-01b6-43f4-8cb4-25ad7147b0cd",
+      "prefLabel": {
+        "de": "Play-back"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/1690b675-27d2-4e0a-bbf2-a0ce1d64de83",
+    "prefLabel": {
+      "de": "Massenmedien"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

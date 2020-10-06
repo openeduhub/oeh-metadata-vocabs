@@ -1,0 +1,159 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/b97ef3fe-790a-4192-b60c-4d4dd015c904",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fphysik%2Fb97ef3fe-790a-4192-b60c-4d4dd015c904",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fphysik%2Fb97ef3fe-790a-4192-b60c-4d4dd015c904",
+  "prefLabel": {
+    "de": "Planet"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/1b511f99-6a43-4f55-b111-29432c7481c4",
+      "prefLabel": {
+        "de": "Mars (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/1e2b8a7a-a15a-49fe-90db-6c8b174f2edb",
+      "prefLabel": {
+        "de": "Venus (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/866ea89f-a62e-489a-a0eb-580522fb56cd",
+      "prefLabel": {
+        "de": "Merkur (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/89ccdaa0-0dbc-436d-9137-05035277d646",
+      "prefLabel": {
+        "de": "Uranus (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/93992b9a-8583-4b12-b47f-b78277c7b04b",
+      "prefLabel": {
+        "de": "Jupiter (Planat)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/a0466aa1-c7ce-4004-89a0-a535863e59ed",
+      "prefLabel": {
+        "de": "Saturn (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/a33cd9de-e17a-4866-a9e3-9cca0c38eae3",
+      "prefLabel": {
+        "de": "Erde"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/bc52e81b-06ec-4621-bf13-0fdd0a36ccc3",
+      "prefLabel": {
+        "de": "Neptun (Planet)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/d5324af2-53ee-4da2-b41f-4bf74bada90d",
+      "prefLabel": {
+        "de": "Pluto (PLanat)"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/physik/5d73168b-ce26-4017-a30e-91e95daf134b",
+    "prefLabel": {
+      "de": "Weltall"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/8168379b-2dc9-48fd-b069-01441ee99cf9",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F8168379b-2dc9-48fd-b069-01441ee99cf9",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F8168379b-2dc9-48fd-b069-01441ee99cf9",
+  "prefLabel": {
+    "de": "Klima"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/0c4abdfe-17fe-408c-9c5f-f457b0c5232d",
+      "prefLabel": {
+        "de": "Klimafaktor"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/37c371a7-e93c-4d54-a9c7-f69be9545f3a",
+      "prefLabel": {
+        "de": "Klimazone"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/38f0b42a-6bc2-44fa-b6af-883b04ac91b0",
+      "prefLabel": {
+        "de": "Sonnenstrahlung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/453d08cb-8450-4740-9172-5ff64a5a5b3b",
+      "prefLabel": {
+        "de": "Klimadiagramm"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/454cdb17-c417-4c12-8ef6-314d2a36f5c6",
+      "prefLabel": {
+        "de": "Kohlenstoffkreislauf"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/7ecfd0c8-0591-4dc9-aea2-71b026e54bd3",
+      "prefLabel": {
+        "de": "Klimaveränderung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/8e450dd0-16b3-4848-acaa-f3e1aac34d9b",
+      "prefLabel": {
+        "de": "Klimaschwankung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/fd702007-2016-4c14-a5b3-104e16f48e8e",
+      "prefLabel": {
+        "de": "Globale Erwärmung"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/26409d68-e610-41ce-9705-36054cbdfe6f",
+    "prefLabel": {
+      "de": "Klimageographie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

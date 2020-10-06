@@ -1,0 +1,288 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/24004",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F24004",
+  "prefLabel": {
+    "de": "Geschichtliche Überblicke und thematische Querschnitte"
+  },
+  "note": {
+    "de": [
+      "Geschichte",
+      "Geschichtsunterricht"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400401",
+      "prefLabel": {
+        "de": "Alltag"
+      },
+      "note": {
+        "de": [
+          "Alltagsgeschichte",
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400402",
+      "prefLabel": {
+        "de": "Arbeit, Handwerk"
+      },
+      "note": {
+        "de": [
+          "Arbeit im Wandel der Zeit",
+          "Geschichte",
+          "Geschichte des Handwerks",
+          "Geschichtsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400403",
+      "prefLabel": {
+        "de": "Bildung und Wissenschaft"
+      },
+      "note": {
+        "de": [
+          "Bildungsgeschichte",
+          "Geschichte",
+          "Geschichte der Wissenschaft",
+          "Geschichtsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400404",
+      "prefLabel": {
+        "de": "Formen der Weltauffassung, Religion"
+      },
+      "note": {
+        "de": [
+          "Formen der Weltauffassung",
+          "Geschichte",
+          "Geschichte der Religion",
+          "Geschichtsunterricht",
+          "Weltanschauungen und ihre Geschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400405",
+      "prefLabel": {
+        "de": "Gesellschaft"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichte der Gesellschaft",
+          "Geschichtsunterricht",
+          "Gesellschaft im Wandel der Zeit"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400406",
+      "prefLabel": {
+        "de": "Staat, Herrschaftsformen"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichte eines Staates",
+          "Geschichtsunterricht",
+          "Herrschaftsformen in der Geschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400407",
+      "prefLabel": {
+        "de": "Kriegs- und Wehrwesen"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichte des Kriegs- und Wehrwesens",
+          "Geschichtsunterricht",
+          "Kriegswesen"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400408",
+      "prefLabel": {
+        "de": "Kultur"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Kultur und Geschichte",
+          "Kulturgeschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400409",
+      "prefLabel": {
+        "de": "Recht"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichte des Rechts",
+          "Geschichtsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400410",
+      "prefLabel": {
+        "de": "Siedlungsformen"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Siedlungsgeschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400411",
+      "prefLabel": {
+        "de": "Technik, Verkehr"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Technikgeschichte",
+          "Verkehrsgeschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400412",
+      "prefLabel": {
+        "de": "Wirtschaft"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht",
+          "Wirtschaftsgeschichte"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/2400413",
+      "prefLabel": {
+        "de": "Allgemeine Längs- und Querschnitte"
+      },
+      "note": {
+        "de": [
+          "Geschichte",
+          "Geschichtsunterricht"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/240",
+    "prefLabel": {
+      "de": "GESCHICHTE"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik-adapted"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/c97d9e1e-841d-4a63-90a7-112486867e1f",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fc97d9e1e-841d-4a63-90a7-112486867e1f",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fc97d9e1e-841d-4a63-90a7-112486867e1f",
+  "prefLabel": {
+    "de": "Anatomie (Tier)"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/0035641c-bad2-424b-a7a0-a7c21436f79e",
+      "prefLabel": {
+        "de": "Organ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/00ea9bad-0f17-4ec5-8769-812dfc4ee926",
+      "prefLabel": {
+        "de": "Kehlkopf"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/17dbd3cd-f2d2-4b40-a6f0-64fe0f7547f6",
+      "prefLabel": {
+        "de": "Fell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/42c73531-ccfe-4390-a7b7-027bb81aad67",
+      "prefLabel": {
+        "de": "Schleimhaut"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/48ee20bc-2ca2-4ce7-a727-81c01c0049f6",
+      "prefLabel": {
+        "de": "Skelett"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/4fd43563-b061-47ec-944a-357fca6edb3b",
+      "prefLabel": {
+        "de": "Nagel (Anatomie)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/57cc6450-e6df-4086-b021-0b9c9d1d390e",
+      "prefLabel": {
+        "de": "Immunsystem"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/6a3777ec-4264-4fbb-85a2-41fba863610d",
+      "prefLabel": {
+        "de": "Lymphsystem"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/6c345666-7fb3-4835-a6a5-78139b93c4b0",
+      "prefLabel": {
+        "de": "Feder (Gefieder)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/92c4280f-dc1d-4036-a884-b21c59ca2264",
+      "prefLabel": {
+        "de": "Bewegungssystem"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/9991b082-87ff-420a-8292-f867b109417f",
+      "prefLabel": {
+        "de": "Blutkreislauf"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/d2673da1-41eb-478e-981e-594139f55570",
+      "prefLabel": {
+        "de": "Rudiment"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/e0cdf5d8-58fe-49c1-b926-a4c109a9c8ee",
+      "prefLabel": {
+        "de": "Drüse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/e638917b-0530-4ede-9da8-be261e1f7a4b",
+      "prefLabel": {
+        "de": "Gebiss"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

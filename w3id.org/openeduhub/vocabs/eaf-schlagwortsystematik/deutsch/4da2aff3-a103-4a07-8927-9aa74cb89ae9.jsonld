@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/4da2aff3-a103-4a07-8927-9aa74cb89ae9",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fdeutsch%2F4da2aff3-a103-4a07-8927-9aa74cb89ae9",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fdeutsch%2F4da2aff3-a103-4a07-8927-9aa74cb89ae9",
+  "prefLabel": {
+    "de": "Literatur"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/066f8247-00e2-4b01-98e3-0f5edb105862",
+      "prefLabel": {
+        "de": "Trivialliteratur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/0917f85d-ea94-4664-b838-957d73f924c4",
+      "prefLabel": {
+        "de": "Dichtung (Literatur)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/15b0c0ed-cc94-4ee4-8c91-3f146b611940",
+      "prefLabel": {
+        "de": "Perspektive (Literatur)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/1cd8ce90-a7db-4a23-a2fd-81898b599878",
+      "prefLabel": {
+        "de": "Monolog"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/21650cc3-a15a-4f15-bd09-9bf825467ad7",
+      "prefLabel": {
+        "de": "Singspiel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/2795f5aa-4b4b-420b-904b-8b465fb0748f",
+      "prefLabel": {
+        "de": "Reportage"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/4bad2078-a470-47a4-8dbc-0934cbb23ff8",
+      "prefLabel": {
+        "de": "Utopie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/652ea7d2-12c1-47ac-b798-847b601f4a33",
+      "prefLabel": {
+        "de": "Literatursoziologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/6bbc0eed-0944-44bc-b5f1-54cd5ddcdd26",
+      "prefLabel": {
+        "de": "Satire"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/79a4f9c4-cd39-4ebe-ae28-04bde473029b",
+      "prefLabel": {
+        "de": "Comic"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/9e02ff2f-f6a2-4a28-ade8-782194cfe643",
+      "prefLabel": {
+        "de": "Sketch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/d0124e20-0f90-41a9-898a-184df7ff3c1a",
+      "prefLabel": {
+        "de": "Kinder und Jugendliteratur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/f3faa930-3a84-4689-b0db-2ac89f1381d7",
+      "prefLabel": {
+        "de": "Parodie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/deutsch/f69e39b8-9118-49ce-af7d-c6e1df74f86c",
+      "prefLabel": {
+        "de": "Rezeption (Literatur)"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

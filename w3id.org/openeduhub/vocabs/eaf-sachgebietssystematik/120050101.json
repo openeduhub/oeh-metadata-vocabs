@@ -1,0 +1,175 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/120050101",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050101",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F120050101",
+  "prefLabel": {
+    "de": "Szenarien- bzw. dialogbezogene Ordnung"
+  },
+  "note": {
+    "de": [
+      "DAF",
+      "DAZ",
+      "Deutsch als Fremdsprache",
+      "Deutsch als Zweitsprache",
+      "Szenarienbezogene Ordnung",
+      "dialogbezogene Ordnung"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010101",
+      "prefLabel": {
+        "de": "Einwirkende Interaktion"
+      },
+      "note": {
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Einwirkende Interaktion"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010102",
+      "prefLabel": {
+        "de": "Informationsaustausch"
+      },
+      "note": {
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Informationsaustausch"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010103",
+      "prefLabel": {
+        "de": "Meinungsaustausch"
+      },
+      "note": {
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Meinungsaustausch"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/12005010104",
+      "prefLabel": {
+        "de": "Soziale Kontakte"
+      },
+      "note": {
+        "de": [
+          "DAF",
+          "DAZ",
+          "Deutsch als Fremdsprache",
+          "Deutsch als Zweitsprache",
+          "Soziale Kontakte"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/1200501",
+    "prefLabel": {
+      "de": "Sprachliche Fertigkeiten"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik-adapted"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

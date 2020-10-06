@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/653d75f1-b813-419b-84a2-4260468f1616",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F653d75f1-b813-419b-84a2-4260468f1616",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeographie%2F653d75f1-b813-419b-84a2-4260468f1616",
+  "prefLabel": {
+    "de": "Wirtschaftsgeographie)"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/0f6523e6-bfd7-40f0-a538-a3b82c857ab1",
+      "prefLabel": {
+        "de": "Selbstversorgungswirtschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/4708fba3-9016-4e4a-b153-ae8fd29ef81c",
+      "prefLabel": {
+        "de": "Großgrundbesitzer"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/7a28c07f-bf68-4db2-9d81-b0c2d02948e3",
+      "prefLabel": {
+        "de": "Raumordnung (Geographie)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/84593ed1-86dc-4973-9c7f-0498fe54fa23",
+      "prefLabel": {
+        "de": "Handelsweg"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/922b6c04-5c2b-49be-951b-cd49f9313ec1",
+      "prefLabel": {
+        "de": "Rohstoff"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/9454ace2-263c-4648-8f30-dcf25b73efdb",
+      "prefLabel": {
+        "de": "Umschlagplatz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/a04bacb5-960c-4484-9c85-97c2ce4ded7f",
+      "prefLabel": {
+        "de": "Wirtschaftsstruktur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/a7adbb2a-0560-4b17-a5cb-d572f77e7491",
+      "prefLabel": {
+        "de": "Versorgung (Grunddaseinsfunktion)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/ae6309b4-4483-407e-93e7-fab81551b3a2",
+      "prefLabel": {
+        "de": "Wirtschaftliche Entwicklung "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/b79fa4d9-62d9-4a86-bb5f-9b72f822f79e",
+      "prefLabel": {
+        "de": "Kraftwerk"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/bec29655-3488-4219-a263-0402dbdc315a",
+      "prefLabel": {
+        "de": "Welternährung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/c48b24dc-006c-4c83-a828-3d40c13e11fa",
+      "prefLabel": {
+        "de": "Einzugsbereich"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/cd10a3df-320d-4298-ba46-333a16895417",
+      "prefLabel": {
+        "de": "Strukturwandel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/d36bd075-0aba-4a90-82b6-59671ae0eb92",
+      "prefLabel": {
+        "de": "Industrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/e4f0aa04-b158-4cc1-b2db-ed62bd34537d",
+      "prefLabel": {
+        "de": "Transportgut"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/ee94e208-7e35-4d30-a990-72eb79581e3b",
+      "prefLabel": {
+        "de": "Regionalentwicklung"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geographie/e25b1dfa-c87d-4125-aa69-e4e2b13042c6",
+    "prefLabel": {
+      "de": "Geographie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

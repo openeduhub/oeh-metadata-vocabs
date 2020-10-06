@@ -1,0 +1,189 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/8a521af0-f6a5-4f0f-937b-47318bd018c0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Finformationstechnische_bildung%2F8a521af0-f6a5-4f0f-937b-47318bd018c0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Finformationstechnische_bildung%2F8a521af0-f6a5-4f0f-937b-47318bd018c0",
+  "prefLabel": {
+    "de": "Internet"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/079c4546-0000-4fc8-905b-1eb54574302a",
+      "prefLabel": {
+        "de": "Darknet"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/30b38906-6da6-4d15-a532-98e98666138a",
+      "prefLabel": {
+        "de": "Influencer"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/404ea862-1344-4f7d-b6ea-63dcc933821e",
+      "prefLabel": {
+        "de": "Wikipedia"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/409cf29a-8d9e-4d66-8241-b5079f4bb826",
+      "prefLabel": {
+        "de": "Blogger"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/4d9bd867-7ab6-494e-b38a-3e66c9ff3bdd",
+      "prefLabel": {
+        "de": "Phishing"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/83dd6b9f-d3d1-433d-83f3-7f406966061e",
+      "prefLabel": {
+        "de": "Web 2.0"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/8ac5bfb3-7023-46f4-b63b-06fa5916bc62",
+      "prefLabel": {
+        "de": "Deep Web"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/8d227413-9e8b-4c43-a8f8-a421735f5f5a",
+      "prefLabel": {
+        "de": "Cybermobbing"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/8e777364-2f52-492c-b112-31cdcd1f8403",
+      "prefLabel": {
+        "de": "World Wide Web"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/974f6e96-0282-4fca-8b45-fc020087dc14",
+      "prefLabel": {
+        "de": "Soziales Netzwerk"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/b049a4fa-c0e8-4515-ba23-0a2698a66dbd",
+      "prefLabel": {
+        "de": "Abofalle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/c4b0fa9d-a80a-4da2-9e37-9ba0a25a5611",
+      "prefLabel": {
+        "de": "WLAN"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/dd70be9a-28fb-4879-91c2-7671be0f4e0d",
+      "prefLabel": {
+        "de": "Blog"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/f70b0040-94f2-4136-8c77-d7a426ec9b07",
+      "prefLabel": {
+        "de": "Videoportal"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/informationstechnische_bildung/bae0670d-9e97-401a-88cf-f72adb363ccf",
+    "prefLabel": {
+      "de": "Telekommunikation"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

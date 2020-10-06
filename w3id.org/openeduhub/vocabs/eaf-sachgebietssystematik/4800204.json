@@ -1,0 +1,180 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/4800204",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800204",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F4800204",
+  "prefLabel": {
+    "de": "Politische Ordnung des Bundes"
+  },
+  "note": {
+    "de": [
+      "Gesellschaftslehre",
+      "Politik",
+      "Politikwissenschaft",
+      "Politische Bildung",
+      "Politische Ordnung des Bundes",
+      "Sozialkunde"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020401",
+      "prefLabel": {
+        "de": "Bundestagswahl"
+      },
+      "note": {
+        "de": [
+          "Bundestagswahl",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020402",
+      "prefLabel": {
+        "de": "Parlamentarisches Regierungssystem"
+      },
+      "note": {
+        "de": [
+          "Gesellschaftslehre",
+          "Parlamentarisches Regierungssystem",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Regierung",
+          "Sozialkunde"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020403",
+      "prefLabel": {
+        "de": "Bundesgesetzgebung"
+      },
+      "note": {
+        "de": [
+          "Bundesgesetzgebung",
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/480020404",
+      "prefLabel": {
+        "de": "Zusammenwirken von Bund und Ländern"
+      },
+      "note": {
+        "de": [
+          "Gesellschaftslehre",
+          "Politik",
+          "Politikwissenschaft",
+          "Politische Bildung",
+          "Sozialkunde",
+          "Zusammenwirken von Bund und Ländern"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/48002",
+    "prefLabel": {
+      "de": "Politisches System der Bundesrepublik Deutschland"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik-adapted"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

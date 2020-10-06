@@ -1,0 +1,202 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/52004",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-sachgebietssystematik%2F52004",
+  "prefLabel": {
+    "de": "Kult und Frömmigkeit"
+  },
+  "note": {
+    "de": [
+      "Kult und Frömmigkeit",
+      "Religion",
+      "Religionslehre",
+      "Religionsunterricht"
+    ]
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200401",
+      "prefLabel": {
+        "de": "Kirchenjahr"
+      },
+      "note": {
+        "de": [
+          "Advent",
+          "Kirchenjahr",
+          "Ostern",
+          "Passion",
+          "Pfingsten",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Weihnachten"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200402",
+      "prefLabel": {
+        "de": "Gottesdienst"
+      },
+      "note": {
+        "de": [
+          "Gottesdienst",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200403",
+      "prefLabel": {
+        "de": "Gebet"
+      },
+      "note": {
+        "de": [
+          "Gebet",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200404",
+      "prefLabel": {
+        "de": "Meditation"
+      },
+      "note": {
+        "de": [
+          "Meditation",
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200405",
+      "prefLabel": {
+        "de": "Sakramente"
+      },
+      "note": {
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Sakramente"
+        ]
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/5200406",
+      "prefLabel": {
+        "de": "Religiöses Brauchtum"
+      },
+      "note": {
+        "de": [
+          "Religion",
+          "Religionslehre",
+          "Religionsunterricht",
+          "Religiöses Brauchtum"
+        ]
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/520",
+    "prefLabel": {
+      "de": "RELIGION"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-sachgebietssystematik/",
+    "title": {
+      "de": "EAF-Sachgebietssystematik-adapted"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

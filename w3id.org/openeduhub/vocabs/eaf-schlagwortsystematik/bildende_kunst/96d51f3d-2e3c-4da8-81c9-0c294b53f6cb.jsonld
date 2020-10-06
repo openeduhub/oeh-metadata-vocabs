@@ -1,0 +1,159 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/96d51f3d-2e3c-4da8-81c9-0c294b53f6cb",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbildende_kunst%2F96d51f3d-2e3c-4da8-81c9-0c294b53f6cb",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbildende_kunst%2F96d51f3d-2e3c-4da8-81c9-0c294b53f6cb",
+  "prefLabel": {
+    "de": "Moderne Malerei"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/0cf17264-886a-48a5-abac-e36cb2a5bba3",
+      "prefLabel": {
+        "de": "Expressionismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/22887be8-d540-403c-8d8f-902ff0c6e87e",
+      "prefLabel": {
+        "de": "Kubismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/3e8aa352-eb33-4d15-a70b-e2e600cf5976",
+      "prefLabel": {
+        "de": "Abstrakte Malerei"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/42eca7b9-ea87-4b20-aeaf-04c590a0ff86",
+      "prefLabel": {
+        "de": "Fauvismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/54b7d2f2-116e-47aa-b37c-cc1ff2cdd248",
+      "prefLabel": {
+        "de": "Stijl, De"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/9cd9bd1c-87d5-42d9-88d3-5ed1f71e75ed",
+      "prefLabel": {
+        "de": "Art brut"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/9d518478-de16-43a7-b7e2-c20591c81fb8",
+      "prefLabel": {
+        "de": "Neue Sachlichkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/b1a96672-35d5-4dfc-b701-1cbddb55e906",
+      "prefLabel": {
+        "de": "Surrealismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/e8b27ab7-7f5a-45c2-a19e-e0ed3d21f56b",
+      "prefLabel": {
+        "de": "Neue Wilde"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/bildende_kunst/6813c406-f49f-4935-ba9d-e43d2c10a324",
+    "prefLabel": {
+      "de": "Malerei"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
