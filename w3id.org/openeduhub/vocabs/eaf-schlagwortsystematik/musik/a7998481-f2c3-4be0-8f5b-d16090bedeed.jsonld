@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/a7998481-f2c3-4be0-8f5b-d16090bedeed",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmusik%2Fa7998481-f2c3-4be0-8f5b-d16090bedeed",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmusik%2Fa7998481-f2c3-4be0-8f5b-d16090bedeed",
+  "prefLabel": {
+    "de": "Lied"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/2cda7fca-c214-4389-bfd2-fbcaed066156",
+      "prefLabel": {
+        "de": "Ballade"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/43048b2c-ba83-4f0f-8531-52aaa31aa1ef",
+      "prefLabel": {
+        "de": "Motette"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/44a196ca-9118-476f-83f9-4f8525ec3e76",
+      "prefLabel": {
+        "de": "Kantate"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/48e596ee-9308-4785-8570-56ba6a0f5b87",
+      "prefLabel": {
+        "de": "Rezitativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/4be63770-fb71-48e9-9091-3b0a0ac78a4a",
+      "prefLabel": {
+        "de": "Schlager"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/60e60f02-4f23-4da6-8233-d32cecc6b332",
+      "prefLabel": {
+        "de": "Nationalhymne"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/6ffc6ec7-9a75-44ab-bf8e-8a5876813c04",
+      "prefLabel": {
+        "de": "Kunstlied"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/87cc6ee9-0a42-408a-95f9-ca2af0a06e6b",
+      "prefLabel": {
+        "de": "Chanson"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/9585688b-e619-4e5b-b06d-0aea8b82ec73",
+      "prefLabel": {
+        "de": "Madrigal (Musik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/ad538e93-ea61-424c-a350-9759d4ce4f85",
+      "prefLabel": {
+        "de": "Kinderlied"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/af0ed078-bc96-4a93-8735-215e1461626c",
+      "prefLabel": {
+        "de": "Choral (evangelisches Kirchenlied)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/c9e1ebc7-47e0-4cbe-b903-0c33da229dd1",
+      "prefLabel": {
+        "de": "Volkslied"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/f66651a0-9450-45e1-b677-56c00b052b8c",
+      "prefLabel": {
+        "de": "Gospel"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/7744df83-eb34-408f-8b8f-df48cdd912b2",
+    "prefLabel": {
+      "de": "Musik"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

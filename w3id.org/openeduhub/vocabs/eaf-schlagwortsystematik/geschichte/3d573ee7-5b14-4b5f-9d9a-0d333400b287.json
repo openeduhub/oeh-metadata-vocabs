@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/3d573ee7-5b14-4b5f-9d9a-0d333400b287",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeschichte%2F3d573ee7-5b14-4b5f-9d9a-0d333400b287",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeschichte%2F3d573ee7-5b14-4b5f-9d9a-0d333400b287",
+  "prefLabel": {
+    "de": "Drittes Reich (1933-45)"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/0a29b889-df77-4d24-b498-33f66c70820f",
+      "prefLabel": {
+        "de": "Reichstagsbrand"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/0d4fa25a-aaa8-4c6d-ae51-67bc2e2f39a5",
+      "prefLabel": {
+        "de": "Todesmarsch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/115b608c-990f-410b-b18b-80c762bbe861",
+      "prefLabel": {
+        "de": "Zweiter Weltkrieg"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/1a9293da-5e0c-4efa-aa9b-5bcb4909fa85",
+      "prefLabel": {
+        "de": "Ermächtigungsgesetz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/2ec82ecd-858d-40e3-9ffe-0cee8a5059b2",
+      "prefLabel": {
+        "de": "Berlin (193345)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/33e13bcf-7def-43bd-97de-99c8c2616dce",
+      "prefLabel": {
+        "de": "Konzentrationslager"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/4b4b2381-b13f-421b-9293-50e3dde6cc76",
+      "prefLabel": {
+        "de": "Nationalsozialismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/4d2055e5-ec7a-430b-a580-b2103c01c603",
+      "prefLabel": {
+        "de": "Wehrmacht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/59652c74-56a1-472c-9022-f2a2f08f0688",
+      "prefLabel": {
+        "de": "Hitlerjugend"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/696dc76a-1e23-48f4-8d24-a3531234e390",
+      "prefLabel": {
+        "de": "Reichskristallnacht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/754684c4-924c-4d30-a9c2-a629d64febfd",
+      "prefLabel": {
+        "de": "Widerstand gegen Hitler"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/80bbd986-21f7-46d5-a222-5353bee6a4e0",
+      "prefLabel": {
+        "de": "Sudetenland"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/a1357df3-8664-43d1-ab83-dc99d1159825",
+      "prefLabel": {
+        "de": "Volksgerichtshof"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/b14f9c8a-0e3e-478b-aafa-d7c1c8692d57",
+      "prefLabel": {
+        "de": "Saarabstimmung 1935"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/c3b949a9-5d0b-4625-975f-eadd543089d3",
+      "prefLabel": {
+        "de": "Machtergreifung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/db054192-d090-4e6f-911b-b067ad03acaf",
+      "prefLabel": {
+        "de": "Nationalsozialistische Rassenhygiene"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/f17ab104-8ad3-4c26-9398-475bbae02033",
+      "prefLabel": {
+        "de": "Judenverfolgung"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

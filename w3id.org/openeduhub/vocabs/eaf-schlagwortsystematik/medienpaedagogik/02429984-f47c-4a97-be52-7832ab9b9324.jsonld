@@ -1,0 +1,171 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/02429984-f47c-4a97-be52-7832ab9b9324",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmedienpaedagogik%2F02429984-f47c-4a97-be52-7832ab9b9324",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmedienpaedagogik%2F02429984-f47c-4a97-be52-7832ab9b9324",
+  "prefLabel": {
+    "de": "Medienpädagogik"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/0bea5d24-233d-4ec7-997b-477ae3bb7f17",
+      "prefLabel": {
+        "de": "Unterrichtsfilm"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/42026647-72db-4a7e-baa3-80e91684817a",
+      "prefLabel": {
+        "de": "Printmedium"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/6cb1a701-a17b-4f64-84d2-78fb1274da84",
+      "prefLabel": {
+        "de": "Medienkonsum"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/96e1d5e4-8317-4e51-9ea7-960049a8574e",
+      "prefLabel": {
+        "de": "Massenmedien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/9a127fc2-509a-446f-bfc2-3aa9b4701ff9",
+      "prefLabel": {
+        "de": "Neue Medien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/9fd32077-c01b-4b85-8c43-8d9b2ffe4ba0",
+      "prefLabel": {
+        "de": "Medienzentrum"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/a1a93535-c566-4896-9593-53a55142c347",
+      "prefLabel": {
+        "de": "Montage (Medien)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/b109d699-65a6-48e7-bd94-e7f24e946aaf",
+      "prefLabel": {
+        "de": "Kulturtechnik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/bca027d7-b4a9-4da2-b771-5b5cfa56e674",
+      "prefLabel": {
+        "de": "Medienwirklichkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/c1e7f36a-9f72-4353-8236-b443087c0da1",
+      "prefLabel": {
+        "de": "Medienwirkung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/e9d6dc02-9cf4-4b74-b0ee-3dd865adc9cf",
+      "prefLabel": {
+        "de": "Tonstudio"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/medienpaedagogik/f49a228e-6f6d-44bb-8a84-e3a540b148c3",
+      "prefLabel": {
+        "de": "Fotografieren"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/bd8e3d36-d0e4-45ab-9ef5-e1bd304e1b5c",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fpolitik%2Fbd8e3d36-d0e4-45ab-9ef5-e1bd304e1b5c",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fpolitik%2Fbd8e3d36-d0e4-45ab-9ef5-e1bd304e1b5c",
+  "prefLabel": {
+    "de": "Herrschaftsform"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/14cf6ce0-5726-4148-b7e5-387acbe17479",
+      "prefLabel": {
+        "de": "Marxismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/235d0502-6edd-4fd7-a1fe-f33790f70266",
+      "prefLabel": {
+        "de": "Totalitarismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/25f658db-391b-4889-b46f-bd594fe08f00",
+      "prefLabel": {
+        "de": "Militarismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/400d13e9-5fff-422f-8b25-b0757ca8e029",
+      "prefLabel": {
+        "de": "Liberalismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/4d8cd6f5-9fba-4f88-86c3-ae9b92f70186",
+      "prefLabel": {
+        "de": "Parlamentarismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/57eaa1df-52d7-4cbc-9710-e8b9bc48d60e",
+      "prefLabel": {
+        "de": "Demagogie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/741a03fe-5fcc-4fb3-937e-3bae060294cb",
+      "prefLabel": {
+        "de": "Diktatur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/7780a205-c03c-4d10-b78a-51e7b15d825d",
+      "prefLabel": {
+        "de": "Rechtsstaat"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/97ea3db5-46b0-4962-82f7-d2259be6ed32",
+      "prefLabel": {
+        "de": "Demokratie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/adc32c4f-5d98-44be-baf0-43ee716be43a",
+      "prefLabel": {
+        "de": "Föderalismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/c6606c44-e481-4915-ad0f-517c2d02e1a6",
+      "prefLabel": {
+        "de": "Gleichschaltung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/e9c73411-33ea-4b23-bff1-698603795c44",
+      "prefLabel": {
+        "de": "Kommunismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/ec6666ea-d923-49f8-ad21-2f873e2bfc07",
+      "prefLabel": {
+        "de": "Monarchie"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/politik/881f332b-7a8d-481d-a991-7df63fb1a88c",
+    "prefLabel": {
+      "de": "Politik"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
