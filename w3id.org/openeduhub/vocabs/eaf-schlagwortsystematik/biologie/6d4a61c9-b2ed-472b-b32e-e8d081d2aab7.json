@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/6d4a61c9-b2ed-472b-b32e-e8d081d2aab7",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2F6d4a61c9-b2ed-472b-b32e-e8d081d2aab7",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2F6d4a61c9-b2ed-472b-b32e-e8d081d2aab7",
+  "prefLabel": {
+    "de": "Vögel"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/2d66818a-0cf0-40bf-9b6d-6bbc39650d2f",
+      "prefLabel": {
+        "de": "Segler (Vögel)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/2fc66db7-e749-4eaa-bd9c-8e8733a5c9d0",
+      "prefLabel": {
+        "de": "Laufvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/33372eb3-92f5-43cc-84c0-16f14ce843c7",
+      "prefLabel": {
+        "de": "Stelzvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/3aa4265e-83bd-409f-b626-ebcc98d1fb37",
+      "prefLabel": {
+        "de": "Schwarmvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/42a804e9-922f-4a97-a51a-1802376a4b41",
+      "prefLabel": {
+        "de": "Eulenvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/4cbfd202-7a55-42cf-997d-79ac29e309f8",
+      "prefLabel": {
+        "de": "Singvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/50c80081-8d87-4926-8231-cdc6d3721ef3",
+      "prefLabel": {
+        "de": "Zugvogel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/628c02a9-8256-44a9-a30b-fe82971af044",
+      "prefLabel": {
+        "de": "Spechte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/643e7339-f65f-4809-abf5-6c14e6591c17",
+      "prefLabel": {
+        "de": "Entenvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/6442bd79-80a8-423f-a340-31d12ded8c47",
+      "prefLabel": {
+        "de": "Hühnervögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/78d602db-7f15-4831-a40d-493f42766c0a",
+      "prefLabel": {
+        "de": "Watvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/7e7c13c6-0d77-477b-b1cc-a84b5beca613",
+      "prefLabel": {
+        "de": "Ziegenmelker"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/97374db9-c79b-4372-afc1-b0a8929b25c6",
+      "prefLabel": {
+        "de": "Wasservogel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/9dcadc59-b62e-4e56-b8ec-9512f385c731",
+      "prefLabel": {
+        "de": "Greifvögel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/ba36af86-f8e8-49da-9743-95cfae01194d",
+      "prefLabel": {
+        "de": "Kuckucke"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/db3a2805-f27d-4eed-8e77-75f45f62511e",
+      "prefLabel": {
+        "de": "Papageien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/f1765ed9-a337-4127-8ae1-2f97279989ba",
+    "prefLabel": {
+      "de": "Wirbeltiere"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

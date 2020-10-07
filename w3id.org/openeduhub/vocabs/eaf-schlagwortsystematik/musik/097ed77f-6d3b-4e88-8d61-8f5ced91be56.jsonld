@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/097ed77f-6d3b-4e88-8d61-8f5ced91be56",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmusik%2F097ed77f-6d3b-4e88-8d61-8f5ced91be56",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmusik%2F097ed77f-6d3b-4e88-8d61-8f5ced91be56",
+  "prefLabel": {
+    "de": "Dirigent"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/1d6b5c23-2969-4ef4-b71f-f46433bf2f87",
+      "prefLabel": {
+        "de": "Sorti, Georg Sir"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/2424c7bb-45ad-4fd6-be05-058650e2f658",
+      "prefLabel": {
+        "de": "Bruch, Max"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/35aa194b-6e92-44f7-90f3-1aa8f4670e53",
+      "prefLabel": {
+        "de": "Ochs, Siegfried"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/3ce5c2bd-fd55-4a76-8b24-685f3d232938",
+      "prefLabel": {
+        "de": "Masur, Kurt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/3f78ae47-b911-474a-8c48-2b7c40a5619f",
+      "prefLabel": {
+        "de": "Kagel, Mauricio"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/46a84da6-810d-47fb-a884-f547e36d5ae0",
+      "prefLabel": {
+        "de": "Boulez, Pierre"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/901fb21c-a1cb-40e4-87b6-83398f08af46",
+      "prefLabel": {
+        "de": "Fricsay, Ferenc"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/b25c75d3-1345-4182-93b7-3026d452525a",
+      "prefLabel": {
+        "de": "Bernstein, Leonard"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/b68ed882-51d1-4939-814e-7f1910b0f532",
+      "prefLabel": {
+        "de": "Nagano, Kent"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/bd35c392-f339-43a9-a56b-ce1ebfafb458",
+      "prefLabel": {
+        "de": "Deodato, Eumir"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/cb6f4791-2285-4acc-bbf4-ea0f357f8bc0",
+      "prefLabel": {
+        "de": "Farberman, Harold"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/d18cf2ba-d2f8-4eeb-80fb-d62a8449fe01",
+      "prefLabel": {
+        "de": "Böhm, Karl"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/dfa4b69f-0c25-49df-8c02-26bf99487f52",
+      "prefLabel": {
+        "de": "Karajan, Herbert von"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/musik/efb3afb0-ef71-45c0-9072-92b6cf0e8fcc",
+      "prefLabel": {
+        "de": "Mahler, Gustav"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
