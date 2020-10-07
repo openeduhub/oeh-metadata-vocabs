@@ -1,0 +1,195 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/d85ae189-88ac-467e-9d99-ccf02a8df8c6",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fd85ae189-88ac-467e-9d99-ccf02a8df8c6",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fbiologie%2Fd85ae189-88ac-467e-9d99-ccf02a8df8c6",
+  "prefLabel": {
+    "de": "Mensch"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/00f52f41-5c93-4c80-ad92-5c0790a76577",
+      "prefLabel": {
+        "de": "Intelligenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/0785788c-1879-405a-81a7-5b622008077d",
+      "prefLabel": {
+        "de": "Denken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/0852ed73-8b98-4788-a213-ea4a57ab5c0c",
+      "prefLabel": {
+        "de": "Körperbau (Mensch)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/7b4e4dee-db19-4b84-a2ef-6b1dd5811f31",
+      "prefLabel": {
+        "de": "Frau"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/7da1156b-88be-449c-a044-08abdbd644b0",
+      "prefLabel": {
+        "de": "Junge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/7ffbfef7-f409-441c-a50a-7b2da0020b22",
+      "prefLabel": {
+        "de": "Reifungsprozess (Mensch)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/a302431e-5a1f-4fcf-8db4-502ebf619302",
+      "prefLabel": {
+        "de": "Mädchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/a82be6d6-6769-48d0-bdc3-a76ea88abca6",
+      "prefLabel": {
+        "de": "Jugendlicher"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/a83dbaac-f30d-49ae-8530-e5c97e6499ae",
+      "prefLabel": {
+        "de": "Mann"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/b0426ff5-5da6-42b2-a3b0-031501ae4464",
+      "prefLabel": {
+        "de": "Sexualität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/bb244990-21e8-45b5-83ba-259292a02fac",
+      "prefLabel": {
+        "de": "Sprachentwicklung (Kind)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/be5edf27-cc54-4618-82ef-95e4e8e56094",
+      "prefLabel": {
+        "de": "Gesicht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/beca0663-87ca-427c-b4b7-ae701664c1fa",
+      "prefLabel": {
+        "de": "Wahrnehmung (Sinnesorgan)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/e9808d2e-bb14-42a8-aa71-bb74502ac6ac",
+      "prefLabel": {
+        "de": "Kind"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/f64db129-c012-4050-8461-c3301f5e374e",
+      "prefLabel": {
+        "de": "Zwillinge (Biologie)"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/biologie/60272fe2-bb8c-4e67-96d6-133c2f27426e",
+    "prefLabel": {
+      "de": "Verhaltensforschung"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

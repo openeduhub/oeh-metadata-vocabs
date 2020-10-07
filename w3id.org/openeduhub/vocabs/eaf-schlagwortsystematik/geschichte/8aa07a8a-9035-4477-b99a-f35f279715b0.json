@@ -1,0 +1,189 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/8aa07a8a-9035-4477-b99a-f35f279715b0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeschichte%2F8aa07a8a-9035-4477-b99a-f35f279715b0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fgeschichte%2F8aa07a8a-9035-4477-b99a-f35f279715b0",
+  "prefLabel": {
+    "de": "Landesgeschichte"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/0b58719e-bc09-4fe2-b6bd-f7e9c4aaeeb1",
+      "prefLabel": {
+        "de": "Landesgeschichte (Sachsen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/23cc7dde-8bf5-4db4-bf79-5000aca2add1",
+      "prefLabel": {
+        "de": "Landesgeschichte (Hessen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/32675a1d-1db3-4cf3-a1a9-0f648aa174aa",
+      "prefLabel": {
+        "de": "Landesgeschichte (SchleswigHolstein)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/589cdb3c-0349-4212-9801-4c57ffcfbb73",
+      "prefLabel": {
+        "de": "Landesgeschichte (Brandenburg)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/624a9f5b-75c4-47ee-87bf-04fc42e74b45",
+      "prefLabel": {
+        "de": "Landesgeschichte (RheinlandPfalz)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/7238a479-8c78-45a8-824c-038d74a26aa4",
+      "prefLabel": {
+        "de": "Landesgeschichte (Hamburg)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/8b8b62ff-3f1c-4fba-bfd0-3df534f33868",
+      "prefLabel": {
+        "de": "Landesgeschichte (Saarland)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/98079468-8617-40f1-9c8c-1a4ccb5b5688",
+      "prefLabel": {
+        "de": "Landesgeschichte (Thüringen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/a7468c9d-4d4d-4566-95d0-894099fc4f19",
+      "prefLabel": {
+        "de": "Landesgeschichte (Bayern)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/aa0fb48e-14cc-41b2-b731-7d7a2b1fed30",
+      "prefLabel": {
+        "de": "Landesgeschichte (MecklenburgVorpommern)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/acf8b619-dcee-4957-ae6e-d6ac48e8698a",
+      "prefLabel": {
+        "de": "Landesgeschichte (Bremen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/dfcf5b79-708f-4949-a0a8-997d2c3aecba",
+      "prefLabel": {
+        "de": "Landesgeschichte (NordrheinWestfalen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/e34a32e2-141d-46ec-81e8-fc26d5c0ecc8",
+      "prefLabel": {
+        "de": "Landesgeschichte (BadenWürttemberg)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/e42be964-e37c-49cd-9b28-2b2ebb5fed9f",
+      "prefLabel": {
+        "de": "Landesgeschichte (Niedersachsen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/geschichte/f095a2be-768f-490e-ba09-510804aa3647",
+      "prefLabel": {
+        "de": "Landesgeschichte (SachsenAnhalt)"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

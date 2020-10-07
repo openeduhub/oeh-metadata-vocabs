@@ -1,0 +1,177 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/684c16c5-9380-4129-b98c-777d88f45df0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmathematik%2F684c16c5-9380-4129-b98c-777d88f45df0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Feaf-schlagwortsystematik%2Fmathematik%2F684c16c5-9380-4129-b98c-777d88f45df0",
+  "prefLabel": {
+    "de": "Mathematik"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/0695b1de-821f-49bd-a235-3139868b618d",
+      "prefLabel": {
+        "de": "Kopfrechnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/1af7a67d-4361-46aa-968f-e053d5213af3",
+      "prefLabel": {
+        "de": "Analysis"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/2c78571e-020c-49d2-a270-2b6bb7e494be",
+      "prefLabel": {
+        "de": "Wahrscheinlichkeit (Mathematik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/5cc55df2-edcb-4956-a5e7-c3f680ba9f90",
+      "prefLabel": {
+        "de": "Algebra"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/77b65a5a-a55f-43b0-94a9-de0b72eb607d",
+      "prefLabel": {
+        "de": "Größe (Mathematik/Physik)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/7b267680-bb41-4b37-af84-7588e1f4e9ca",
+      "prefLabel": {
+        "de": "Algorithmus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/870c0297-d329-457e-bc65-cec55007000f",
+      "prefLabel": {
+        "de": "Tabellenkalkulation"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/9a513175-71a9-4950-afee-90422a1db906",
+      "prefLabel": {
+        "de": "Statistik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/ad364a31-b497-4880-90d3-ae5d0abfca5c",
+      "prefLabel": {
+        "de": "Geometrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/b7c1b31a-08ce-4798-8186-7b7c6e268ac4",
+      "prefLabel": {
+        "de": "Chaostheorie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/bccdb5b4-39c3-437c-b560-c0ec4edf8f78",
+      "prefLabel": {
+        "de": "Rechenstab"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/d8307e74-c9ca-4374-8f6a-50c0563aa029",
+      "prefLabel": {
+        "de": "Zahl"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/mathematik/f41eddb7-81e1-4e1f-8055-2637eeee191f",
+      "prefLabel": {
+        "de": "Formel (Mathematik)"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/eaf-schlagwortsystematik/",
+    "title": {
+      "de": "EAF-Schlagwortsystematik"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
