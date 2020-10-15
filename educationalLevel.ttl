@@ -13,129 +13,69 @@
     dct:issued "2020-07-14"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>,
-        <7>, <8>,  <9>, <10>,  <ef>,
-        <q1>, <q2>, <bs_avj> , <bs_bfs_1>, <bs_bfs_2>,
-        <bs_1>, <bs_2>, <bs_3>, <erprobungsstufe>,
-        <mittelstufe>, <oberstufe> .
+        <7>, <8>,  <9>, <10>, <11>, <12>, <13> .
 
 <1> a skos:Concept ;
     skos:prefLabel "1"@de ;
+    skos:prefLabel "1"@en ;
     skos:topConceptOf <> .
 
 <2> a skos:Concept ;
     skos:prefLabel "2"@de;
+    skos:prefLabel "2"ene;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
     skos:prefLabel "3"@de ;
+    skos:prefLabel "3"@en ;
     skos:topConceptOf <> .
 
 <4> a skos:Concept ;
     skos:prefLabel "4"@de ;
+    skos:prefLabel "4"@en ;
     skos:topConceptOf <> .
 
 <5> a skos:Concept ;
     skos:prefLabel "5"@de ;
-    skos:broader <erprobungsstufe> ;
+    skos:prefLabel "5"@en ;
     skos:topConceptOf <> .
 
 <6> a skos:Concept ;
     skos:prefLabel "6"@de ;
-    skos:broader <erprobungsstufe> ;
+    skos:prefLabel "6"@en ;
     skos:topConceptOf <> .
 
 <7> a skos:Concept ;
     skos:prefLabel "7"@de ;
-    skos:broader <mittelstufe> ;
+    skos:prefLabel "7"@en ;
     skos:topConceptOf <> .
 
 <8> a skos:Concept ;
     skos:prefLabel "8"@de ;
-    skos:broader <mittelstufe> ;
+    skos:prefLabel "8"@en ;
     skos:topConceptOf <> .
 
 <9> a skos:Concept ;
     skos:prefLabel "9"@de ;
-    skos:broader <mittelstufe> ;
+    skos:prefLabel "9"@en ;
     skos:topConceptOf <> .
 
 <10> a skos:Concept ;
     skos:prefLabel "10"@de ;
-    skos:broader <mittelstufe> ;
-    skos:broader <oberstufe> ;
-    skos:broader <ef> ;
+    skos:prefLabel "10"@en ;
     skos:topConceptOf <> .
 
 <11> a skos:Concept ;
     skos:prefLabel "11"@de ;
-    skos:broader <ef> ;
-    skos:broader <oberstufe> ;
-    skos:broader <q1> ;
-    skos:inScheme <> .
+    skos:prefLabel "11"@en ;
+    skos:topConceptOf <> .
 
 <12> a skos:Concept ;
     skos:prefLabel "12"@de ;
-    skos:broader <oberstufe> ;
-    skos:broader <q1> ;
-    skos:broader <q2> ;
-    skos:inScheme <> .
+    skos:prefLabel "12"@en ;
+    skos:topConceptOf <> .
 
 <13> a skos:Concept ;
     skos:prefLabel "13"@de ;
-    skos:broader <oberstufe> ;
-    skos:broader <q2> ;
-    skos:inScheme <> .
-
-<ef>  a skos:Concept ;
-    skos:prefLabel "EF (10./11. Jhg.)"@de ;
-    skos:narrower <10>, <11> ;
-    skos:topConceptOf <> .
-
-<q1>  a skos:Concept ;
-    skos:prefLabel "Q1 (11./12. Jhg.)"@de ;
-    skos:narrower <11>, <12> ;
-    skos:topConceptOf <> .
-
-<q2>  a skos:Concept ;
-    skos:prefLabel "Q2 (12./13. Jhg.)"@de ;
-    skos:narrower <12>, <13> ;
-    skos:topConceptOf <> .
-
-<bs_avj> a skos:Concept ;
-    skos:prefLabel "BS: AVJ"@de ;
-    skos:topConceptOf <> .
-
-<bs_bfs_1>  a skos:Concept ;
-    skos:prefLabel "BS: BFS I"@de ;
-    skos:topConceptOf <> .
-
-<bs_bfs_2>  a skos:Concept ;
-    skos:prefLabel "BS: BFS II"@de ;
-    skos:topConceptOf <> .
-
-<bs_1>  a skos:Concept ;
-    skos:prefLabel "BS: Lernjahr 1"@de ;
-    skos:topConceptOf <> .
-
-<bs_2>  a skos:Concept ;
-    skos:prefLabel "BS: Lernjahr 2"@de ;
-    skos:topConceptOf <> .
-
-<bs_3>  a skos:Concept ;
-    skos:prefLabel "BS: Lernjahr 3"@de ;
-    skos:topConceptOf <> .
-
-<erprobungsstufe> a skos:Concept ;
-    skos:prefLabel "Erprobungsstufe"@de ;
-    skos:narrower <5>, <6> ;
-    skos:topConceptOf <> .
-
-<mittelstufe> a skos:Concept ;
-    skos:prefLabel "Mittelstufe"@de ;
-    skos:narrower <7>, <8>, <9>, <10> ;
-    skos:topConceptOf <> .
-
-<oberstufe> a skos:Concept ;
-    skos:prefLabel "Oberstufe"@de ;
-    skos:narrower <10>, <11>, <12>, <13> ;
+    skos:prefLabel "13"@en ;
     skos:topConceptOf <> .
