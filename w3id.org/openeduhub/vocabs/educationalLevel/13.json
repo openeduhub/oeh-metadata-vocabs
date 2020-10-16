@@ -4,7 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2F13",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FeducationalLevel%2F13",
   "prefLabel": {
-    "de": "13"
+    "de": "13",
+    "en": "13"
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
@@ -12,6 +13,9 @@
       "de": "Klassenstufe",
       "en": "Educational Level"
     }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/educationalLevel/"
   },
   "@context": {
     "@version": 1.1,
