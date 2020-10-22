@@ -3,6 +3,7 @@ name: Build /public and delpoy to gh-pages with docker container
 on:
   push:
     branches:
+      - main
       - master
       - gh-pages
   workflow_dispatch:
