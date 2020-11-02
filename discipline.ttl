@@ -41,7 +41,7 @@
     skos:topConceptOf <> .
 
 <12002> a skos:Concept ;
-    skos:prefLabel "Form and representation"@en, "Darstellen & Gestalten"@de ;
+    skos:prefLabel "Performing game"@en, "Darstellendes Spiel"@de ;
     skos:topConceptOf <> .
 
 <120> a skos:Concept ;
@@ -278,7 +278,15 @@
     skos:prefLabel "Environmental education"@en ;
     skos:prefLabel "Umweltgefährdung, Umweltschutz"@de ;
     skos:altLabel "Umwelterziehung"@de ;
+    skos:narrower <64018> ;
     skos:topConceptOf <> .
+
+<64018> a skos:Concept ;
+    skos:prefLabel "Sustainability"@en ;
+    skos:prefLabel "Nachhaltigkeit"@de ;
+    skos:editorialNote "Ergänzung durch OEH. Nicht in original EAF vorhanden"@de ;
+    skos:broader <640> ;
+    skos:inScheme <> .
 
 <660> a skos:Concept ;
     skos:prefLabel "Road safety education"@en ;
@@ -306,4 +314,3 @@
     skos:prefLabel "Medienbildung"@de ;
     skos:prefLabel "media education"@en ;
     skos:topConceptOf <> .
-    
