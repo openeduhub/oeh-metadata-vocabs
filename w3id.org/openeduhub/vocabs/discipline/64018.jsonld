@@ -7,24 +7,15 @@
     "de": "Nachhaltigkeit",
     "en": "Sustainability"
   },
-  "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/discipline/640",
-    "prefLabel": {
-      "de": "Umweltgefährdung, Umweltschutz",
-      "en": "Environmental education"
-    },
-    "altLabel": {
-      "de": [
-        "Umwelterziehung"
-      ]
-    }
-  },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
       "de": "Schulfächer",
       "en": "Discipline"
     }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/discipline/"
   },
   "@context": {
     "@version": 1.1,
