@@ -1,0 +1,25 @@
+@base <http://w3id.org/openeduhub/vocabs/dataProtectionConformity/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Konformität zu Datenschutzgrundverodnungen"@de ;
+    dct:title "Conformity to data regulation policies"@en ;
+    dct:description "Conformity to data regulation policies."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-11-16"^^xsd:date ;
+    dct:modified "2020-11-16"^^xsd:date ;
+    dct:issued "2020-11-16"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <generalDataProtectionRgulation>, <noGeneralDataProtectionRgulation> .
+
+<generalDataProtectionRgulation> a skos:Concept ;
+    skos:prefLabel "Nicht geprüft"@de ;
+    skos:prefLabel "Not tested"@en ;
+    skos:topConceptOf <> .
+
+<noGeneralDataProtectionRgulation> a skos:Concept ;
+    skos:prefLabel "A (am niedrigsten)"@de ;
+    skos:prefLabel "A (lowest)"@en ;
+    skos:topConceptOf <> .

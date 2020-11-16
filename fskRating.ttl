@@ -1,0 +1,40 @@
+@base <http://w3id.org/openeduhub/vocabs/fskRating/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "FSK"@de ;
+    dct:title "FSK"@en ;
+    dct:description "Value list of FSK criteria."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2020-11-16"^^xsd:date ;
+    dct:modified "2020-11-16"^^xsd:date ;
+    dct:issued "2020-11-16"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <6>, <12>, <16>, <18> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "0"@de ;
+    skos:prefLabel "0"@en ;
+    skos:topConceptOf <> .
+
+<6> a skos:Concept ;
+    skos:prefLabel "6"@de ;
+    skos:prefLabel "6"@en ;
+    skos:topConceptOf <> .
+
+<12> a skos:Concept ;
+    skos:prefLabel "12"@de ;
+    skos:prefLabel "12"@en ;
+    skos:topConceptOf <> .
+
+<16> a skos:Concept ;
+    skos:prefLabel "16"@de ;
+    skos:prefLabel "16"@en ;
+    skos:topConceptOf <> .
+
+<18> a skos:Concept ;
+    skos:prefLabel "18"@de ;
+    skos:prefLabel "18"@en ;
+    skos:topConceptOf <> .
