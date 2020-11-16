@@ -12,14 +12,14 @@
     dct:modified "2020-11-16"^^xsd:date ;
     dct:issued "2020-11-16"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <generalDataProtectionRgulation>, <noGeneralDataProtectionRgulation> .
+    skos:hasTopConcept <generalDataProtectionRegulation>, <noGeneralDataProtectionRegulation> .
 
-<generalDataProtectionRgulation> a skos:Concept ;
-    skos:prefLabel "Nicht geprüft"@de ;
-    skos:prefLabel "Not tested"@en ;
+<generalDataProtectionRegulation> a skos:Concept ;
+    skos:prefLabel "DSGVO konform"@de ;
+    skos:prefLabel "GDPR compliant"@en ;
     skos:topConceptOf <> .
 
-<noGeneralDataProtectionRgulation> a skos:Concept ;
-    skos:prefLabel "A (am niedrigsten)"@de ;
-    skos:prefLabel "A (lowest)"@en ;
+<noGeneralDataProtectionRegulation> a skos:Concept ;
+    skos:prefLabel "Nicht DSGVO konform"@de ;
+    skos:prefLabel "Not GDPR compliant"@en ;
     skos:topConceptOf <> .
