@@ -31,6 +31,7 @@
 
 <events> a skos:Concept ;
     skos:prefLabel "Termine / Events"@de ;
+    skos:definition "Informationen zu regelmäßig oder einmalig stattfindende Veranstaltungen."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
@@ -41,6 +42,7 @@
 
 <extracurricular> a skos:Concept ;
     skos:prefLabel "Außerschulische Angebote"@de ;
+    skos:definition "Angebote von externen Bildungsinstitutionen und außerschulischen Lernorten."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
@@ -51,21 +53,25 @@
 
 <goody_and_fun> a skos:Concept ;
     skos:prefLabel "Goody & Fun"@de ;
+    skos:definition "Material, das neu im Internet entdeckt wurde und entweder besonders für das Fach geeignet ist und ggf. einen spielerischen Ansatz hat."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
 <job_related> a skos:Concept ;
     skos:prefLabel "Relevanz im Beruf"@de ;
+    skos:definition "Material, das einen Mehrwert für die berufliche Weiterbildung hat und Spezialinhalte vermittelt."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
 <compliance> a skos:Concept ;
     skos:prefLabel "Compliance"@de ;
+    skos:definition "Rechtliche Aspekte rund um den Unterricht."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
 <educational_news> a skos:Concept ;
     skos:prefLabel "Pädagogische News"@de ;
+    skos:definition "Neuigkeiten aus Forschung und Politik zum Fach."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
@@ -81,18 +87,19 @@
 
 <person_of_interest> a skos:Concept ;
     skos:prefLabel "Bekannte Persönlichkeit"@de ;
+    skos:definition "Persönlichkeiten, die für ein bestimmtes Fach wichtig sind, eventuell mit biografischen Ansatz"@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
 <blog> a skos:Concept ;
     skos:prefLabel "Blog"@de ;
-    skos:definition "z.B. Lehrerblogs, die über innovative Unterrichsideen / -konzepte berichten"@de ;
+    skos:definition "Tagebuchartig geführte, öffentlich zugängliche Webseite, die ständig um Kommentare oder Notizen zu einem bestimmten Thema ergänzt wird."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
 <topic_website> a skos:Concept ;
     skos:prefLabel "Fachseite /-portal"@de ;
-    skos:definition "fachliche Informationsseiten"@de ;
+    skos:definition "Redaktionell betreute, fachspezifische Sammlungen."@de ;
     skos:broader <good_to_know> ;
     skos:inScheme <> .
 
@@ -111,21 +118,25 @@
 
 <teaching_modules> a skos:Concept ;
     skos:prefLabel "Unterrichtsbausteine"@de ;
+    skos:definition "Kompetenzorientierte Unterrichtsidee mit ausformulierten Lernzielen, Materialen und Hinweisen."@de ;
     skos:broader <methods> ;
     skos:inScheme <> .
 
 <go_and_teach> a skos:Concept ;
     skos:prefLabel "Go & Teach"@de ;
+    skos:definition "Komplette Unterrichtseinheit (Sammlung: Stundenplanung, Materialien, Links, ggf. Lernzielkontrolle, ggf. Phasierung, ggf. methodisch-didaktischer Kommentar)."@de ;
     skos:broader <methods> ;
     skos:inScheme <> .
 
 <tool_scenario> a skos:Concept ;
     skos:prefLabel "Tool-Einsatzszenario"@de ;
+    skos:definition "Theoretische und praktische Einsatzszenarien für ausgewählte Tools im Unterricht und Anleitung zur Funktionsweise."@de ;
     skos:broader <methods> ;
     skos:inScheme <> .
 
 <teaching_idea> a skos:Concept ;
     skos:prefLabel "Unterrichtsidee"@de ;
+    skos:definition "Best-Practice-Ideen von Kollegen, Verlagen und Institutionen."@de ;
     skos:broader <methods> ;
     skos:inScheme <> .
 
@@ -158,6 +169,7 @@
 
 <erklaervideo> a skos:Concept ;
     skos:prefLabel "Erklärvideo"@de ;
+    skos:definition "Lerngegenstand, der anschaulich und bildgestützt erklärt wird."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -188,6 +200,7 @@
 
 <worksheet> a skos:Concept ;
     skos:prefLabel "Arbeitsblatt"@de ;
+    skos:definition "(Editierbares) Dokument oder PDF mit Übungen und Aufgaben."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -198,16 +211,20 @@
 
 <exam> a skos:Concept ;
     skos:prefLabel "Klausuren"@de ;
+    skos:definition "Schriftliche Lernzielkontrollen oder Aufgabenformate, die auf Klausuren und spezielle Prüfungen (DELE, telc, toefl) vorbereiten."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
 <drill_and_practice> a skos:Concept ;
     skos:prefLabel "Übung"@de ;
+    skos:definition "Materialarten zum Wiederholen, Festigen, Trainieren, zur Selbstkontrolle (analog oder digital und interaktiv); 'Übung' kann mit verschiedenen Materialarten erreicht werden."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
 <course> a skos:Concept ;
     skos:prefLabel "Kurs / Lernportal"@de ;
+    skos:definition "Kurs: Eine abgeschlossene Lerneinheit, die Teil eines Lernportals sein kann. Lernportal: Ein Internetportal, das eine Materialsammlung bietet und Lernmaterial zur Verfügung stellt."@de ;
+    skos:editorialNote "Soll gesplittet werden."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -218,6 +235,7 @@
 
 <glossary> a skos:Concept ;
     skos:prefLabel "Begriffe / Glossar"@de ;
+    skos:definition "Auflistung von relevanten Definitionen und Kategorien, die für das jeweilige Fach wichtig sind."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -238,11 +256,13 @@
 
 <textbook> a skos:Concept ;
     skos:prefLabel "Schulbuch"@de ;
+    skos:definition "Digitale Aufbereitung und Umsetzung eines Lehrwerks."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
 <map> a skos:Concept ;
     skos:prefLabel "Karte"@de ;
+    skos:definition "Landkarte mit und ohne Interaktivität."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -253,16 +273,19 @@
 
 <vocab_list> a skos:Concept ;
     skos:prefLabel "Wort- und Vokabellisten"@de ;
+    skos:definition "Nach semantischen Feldern sortierte Listen (Spezialwortschatz, Vokabelliste)."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
 <educational_games_offline> a skos:Concept ;
     skos:prefLabel "Lernspiele (offline)"@de ;
+    skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
 <experiment> a skos:Concept ;
     skos:prefLabel "Experimente"@de ;
+    skos:definition "Ein naturwissenschaftliches Experiment ist eine Frage an die Natur: eine methodisch angelegte Untersuchung zur empirischen Gewinnung von Information."@de ;
     skos:broader <materialien> ;
     skos:inScheme <> .
 
@@ -275,6 +298,7 @@
 
 <learning_tools> a skos:Concept ;
     skos:prefLabel "Lerntools / Apps"@de ;
+    skos:definition "Eine App oder ein Tool, die spezielle, didaktische Lernkonzepte verfolgt."@de ;
     skos:broader <tools> ;
     skos:inScheme <> .
 
@@ -285,11 +309,13 @@
 
 <editors> a skos:Concept ;
     skos:prefLabel "Editoren"@de ;
+    skos:definition "Software mit der Texte, Audio-, Bild- oder Videodateien bearbeitet werden können."@de ;
     skos:broader <tools> ;
     skos:inScheme <> .
 
 <educational_games> a skos:Concept ;
     skos:prefLabel "Lernspiele (Online)"@de ;
+    skos:definition "Digitale Spiele, die Wissen und Inhalte zu einem Thema oder Fach vermitteln."@de ;
     skos:broader <tools>;
     skos:inScheme <> .
 
@@ -300,11 +326,12 @@
 
 <platform> a skos:Concept ;
     skos:prefLabel "Plattformen / Infrastrukturen"@de ;
+    skos:definition "Kommunikations- und Kollaborationsmöglichkeiten."@de ;
     skos:broader <tools> ;
     skos:inScheme <> .
 
 <dictionaries> a skos:Concept ;
     skos:prefLabel "Wörterbücher"@de ;
-    skos:definition "z.B. Duden, Pons"@de ;
+    skos:definition "Eine Liste, welche verschiedene Wortpaare in Beziehung setzt. Nachschlagewerke für die Schreibweise, Aussprache, Bedeutung, Grammatik, Geschichte und/oder Übersetzung von Wörtern."@de ;
     skos:broader <tools> ;
     skos:inScheme <> .
