@@ -14,14 +14,14 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <0>, <1>, <2> .
 
-<1> a skos:Concept ;
+<0> a skos:Concept ;
     skos:prefLabel "alles OER"@de, "all OER"@en ;
     skos:topConceptOf <> .
 
-<2> a skos:Concept ;
+<1> a skos:Concept ;
     skos:prefLabel "teils OER"@de, "partly OER"@en ;
     skos:topConceptOf <> .
 
-<3> a skos:Concept ;
+<2> a skos:Concept ;
     skos:prefLabel "kein OER"@de, "no OER"@en ;
     skos:topConceptOf <> .
