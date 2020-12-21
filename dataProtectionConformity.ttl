@@ -15,11 +15,11 @@
     skos:hasTopConcept <generalDataProtectionRegulation>, <noGeneralDataProtectionRegulation> .
 
 <generalDataProtectionRegulation> a skos:Concept ;
-    skos:prefLabel "DSGVO konform"@de ;
-    skos:prefLabel "GDPR compliant"@en ;
+    skos:prefLabel "Datensparsam"@de ;
+    skos:prefLabel "Sensible data collection"@en ;
     skos:topConceptOf <> .
 
 <noGeneralDataProtectionRegulation> a skos:Concept ;
-    skos:prefLabel "Nicht DSGVO konform"@de ;
-    skos:prefLabel "Not GDPR compliant"@en ;
+    skos:prefLabel "Nicht DSGVO geprüft"@de ;
+    skos:prefLabel "Not GDPR checked"@en ;
     skos:topConceptOf <> .
