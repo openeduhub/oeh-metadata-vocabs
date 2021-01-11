@@ -8,10 +8,10 @@
 <> a skos:ConceptScheme ;
     dct:title "Schulfächer"@de ;
     dct:title "Discipline"@en ;
-    dct:description "EAF thesaurus."@en ;
+    dct:description "EAF thesaurus with extensions."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date ;
-    dct:modified "2020-04-08"^^xsd:date ;
+    dct:modified "2020-11-01"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <720>, <080>, <100>, <28002>, <12002>, <120>,
@@ -21,7 +21,8 @@
         <040>, <04001>, <04002>, <04003>, <04005>, <04006>, <04007>,
         <04009>, <04010>, <04011>, <04012>, <04014>, <20003>, <20004>,
         <20008>, <20009>, <20090>, <260>, <440>, <46014>, <50001>, <50005>,
-        <560>, <640>, <64018>, <660>, <680>, <340>, <niederdeutsch>, <48005>, <900> .
+        <560>, <640>, <64018>, <660>, <680>, <340>, <niederdeutsch>, <48005>,
+        <900>, <44099>.
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -399,3 +400,12 @@
     skos:prefLabel "media education"@en ;
     skos:editorialNote "Überbegriff für Mediendidaktik und Medienerziehung"@de ;
     skos:topConceptOf <> .
+
+<44099> a skos:Concept ;
+    skos:prefLabel "Open Educational Resources"@de ;
+    skos:prefLabel "Open Educational Resources"@en ;
+    skos:altLabel "OER"@de ;
+    skos:altLabel "OER"@en ;
+    skos:editorialNote "Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden"@de ;
+    skos:topConceptOf <> .
+
