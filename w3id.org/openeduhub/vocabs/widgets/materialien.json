@@ -4,43 +4,13 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmaterialien",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmaterialien",
   "prefLabel": {
-    "de": "Materialien / Inhalte"
+    "de": "Materialtyp"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/erklaervideo",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/simulation",
       "prefLabel": {
-        "de": "Erklärvideo"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/tv_report",
-      "prefLabel": {
-        "de": "TV-Beitrag"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/audio_sample",
-      "prefLabel": {
-        "de": "Hörbeispiel"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/podcast_radio",
-      "prefLabel": {
-        "de": "Radio, Podcast"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/augmented_reality",
-      "prefLabel": {
-        "de": "Augmented Reality / Virtual Reality"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/graphic",
-      "prefLabel": {
-        "de": "Grafik"
+        "de": "Animation / Simulation"
       }
     },
     {
@@ -50,39 +20,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/test",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/audio",
       "prefLabel": {
-        "de": "Testaufgaben"
+        "de": "Audio"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/exam",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/augmented_reality",
       "prefLabel": {
-        "de": "Klausuren"
+        "de": "Augmented Reality / Virtual Reality"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/drill_and_practice",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/photograph",
       "prefLabel": {
-        "de": "Übung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/course",
-      "prefLabel": {
-        "de": "Kurs / Lernportal"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/simulation",
-      "prefLabel": {
-        "de": "Animation / Simulation"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/glossary",
-      "prefLabel": {
-        "de": "Begriffe / Glossar"
+        "de": "Bild"
       }
     },
     {
@@ -92,21 +44,39 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/music",
-      "prefLabel": {
-        "de": "Musikstück"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/video_for_language_learning",
-      "prefLabel": {
-        "de": "Sprachlernvideo"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/textbook",
       "prefLabel": {
-        "de": "Schulbuch"
+        "de": "Digitales Schulbuch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/erklaervideo",
+      "prefLabel": {
+        "de": "Erklärvideo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/experiment",
+      "prefLabel": {
+        "de": "Experiment"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/glossary",
+      "prefLabel": {
+        "de": "Glossar"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/graphic",
+      "prefLabel": {
+        "de": "Grafik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/audio_sample",
+      "prefLabel": {
+        "de": "Hörbeispiel"
       }
     },
     {
@@ -116,15 +86,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/photograph",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/exam",
       "prefLabel": {
-        "de": "Foto"
+        "de": "Klausur, Klassenarbeit, Test"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/vocab_list",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/course",
       "prefLabel": {
-        "de": "Wort- und Vokabellisten"
+        "de": "Kurs"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/portal",
+      "prefLabel": {
+        "de": "Lernportal"
       }
     },
     {
@@ -134,9 +110,45 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/experiment",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/music",
       "prefLabel": {
-        "de": "Experimente"
+        "de": "Musik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/podcast_radio",
+      "prefLabel": {
+        "de": "Radio / Podcast"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/video_for_language_learning",
+      "prefLabel": {
+        "de": "Sprachlernvideo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/test",
+      "prefLabel": {
+        "de": "Testaufgabe"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/tv_report",
+      "prefLabel": {
+        "de": "TV-Beitrag"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/drill_and_practice",
+      "prefLabel": {
+        "de": "Übung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/vocab_list",
+      "prefLabel": {
+        "de": "Wort- und Vokabellisten"
       }
     }
   ],

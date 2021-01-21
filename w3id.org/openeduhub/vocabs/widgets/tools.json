@@ -4,31 +4,13 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Ftools",
   "prefLabel": {
-    "de": "Software / Tools"
+    "de": "Software und Tools"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/learning_tools",
-      "prefLabel": {
-        "de": "Lerntools / Apps"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/methodical_tools",
-      "prefLabel": {
-        "de": "Methodische Tools"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/editors",
       "prefLabel": {
-        "de": "Editoren"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/educational_games",
-      "prefLabel": {
-        "de": "Lernspiele (Online)"
+        "de": "Editor"
       }
     },
     {
@@ -40,13 +22,31 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/platform",
       "prefLabel": {
-        "de": "Plattformen / Infrastrukturen"
+        "de": "Lernplattform"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/learning_tools",
+      "prefLabel": {
+        "de": "Lerntool"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/educational_games",
+      "prefLabel": {
+        "de": "Lernspiel (Online)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/methodical_tools",
+      "prefLabel": {
+        "de": "Methodisches Tool"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/dictionaries",
       "prefLabel": {
-        "de": "Wörterbücher"
+        "de": "Online-Wörterbuch"
       }
     }
   ],

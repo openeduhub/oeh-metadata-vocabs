@@ -4,12 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fteacher_training",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fteacher_training",
   "prefLabel": {
-    "de": "Fortbildungsangebote"
+    "de": "Fortbildungsangebot"
+  },
+  "definition": {
+    "de": "Informationen zu regelmäßig, einmalig oder online stattfindenden Fortbildungen."
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/widgets/methods",
+    "id": "http://w3id.org/openeduhub/vocabs/widgets/good_to_know",
     "prefLabel": {
-      "de": "Methodisches & Unterrichtsbausteine"
+      "de": "Gut zu wissen"
     }
   },
   "inScheme": {

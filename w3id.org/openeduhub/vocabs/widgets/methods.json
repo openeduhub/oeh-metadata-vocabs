@@ -4,31 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmethods",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fwidgets%2Fmethods",
   "prefLabel": {
-    "de": "Methodisches & Unterrichtsbausteine"
+    "de": "Unterrichtsplanung"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_learning_methods",
       "prefLabel": {
-        "de": "Lehr- und Lernmethoden"
+        "de": "Lehr- und Lernmethode"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/curriculum",
       "prefLabel": {
-        "de": "Unterrichtsbausteine"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/go_and_teach",
-      "prefLabel": {
-        "de": "Go & Teach"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/tool_scenario",
-      "prefLabel": {
-        "de": "Tool-Einsatzszenario"
+        "de": "Referenz zu Lehrplan"
       }
     },
     {
@@ -38,15 +26,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teacher_training",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules",
       "prefLabel": {
-        "de": "Fortbildungsangebote"
+        "de": "Unterrichtsbaustein"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/curriculum",
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/go_and_teach",
       "prefLabel": {
-        "de": "Referenz zu Lehrplan"
+        "de": "Unterrichtseinheit (komplett)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/tool_scenario",
+      "prefLabel": {
+        "de": "Tool-Einsatzszenario"
       }
     },
     {
