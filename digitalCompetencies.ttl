@@ -1,0 +1,635 @@
+@base <http://w3id.org/openeduhub/vocabs/digitalCompetencies/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Kompetenzen in der digitalen Welt (KMK)"@de ;
+    dct:description "Abbildung der Kompetenzen in der digitalen Welt"@de ;
+    skos:hasTopConcept <ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3>,
+        <5490EF24-A2EE-4A93-8F06-D4E535A5667D>,
+        <F427CBE5-3444-405B-B3ED-31392C5AD548>,
+        <4183F865-E001-47C1-B0C9-FE6EB5660ABE>,
+        <3A80F194-4CA1-43A1-B67A-E815B16BEFE5>,
+        <98BD185D-919B-4E7F-BFBB-A4DB2020CE1E> ;
+    .
+
+<ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3> a skos:Concept ;
+    skos:prefLabel "1. Suchen, Verarbeiten und Aufbewahren"@de ;
+    skos:narrower <01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF>,
+        <4A5FE9E6-13FB-4A90-8034-5689D6EA804C> ,
+        <89FA9D2B-484B-4D7E-AC43-B0100C3D0D0E> ;
+    skos:topConceptOf <> ;
+    .
+
+<01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF> a skos:Concept ;
+    skos:prefLabel "1.1. Suchen und Filtern"@de ;
+    skos:broader <ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3> ;
+    skos:narrower <A2364094-DE21-4367-A79F-44FF27A1B9B8>,
+        <C605B54F-AC2C-4EC6-8A37-280105E82275>,
+        <C15F878A-C6FA-489F-8136-6FCFA195DD1A>,
+        <CDB1F735-52F5-4ABE-A059-F07D5863108D> ;
+    skos:inScheme <> ;
+    .
+
+<A2364094-DE21-4367-A79F-44FF27A1B9B8> a skos:Concept ;
+    skos:prefLabel "1.1.1. Arbeits- und Suchinteressen klären und festlegen"@de ;
+    skos:broader <01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF> ;
+    skos:inScheme <> ;
+    .
+
+<C605B54F-AC2C-4EC6-8A37-280105E82275> a skos:Concept ;
+    skos:prefLabel "1.1.2. Suchstrategien nutzen und weiterentwickeln"@de ;
+    skos:broader <01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF> ;
+    skos:inScheme <> ;
+    .
+<C15F878A-C6FA-489F-8136-6FCFA195DD1A> a skos:Concept ;
+    skos:prefLabel "1.1.3. In verschiedenen digitalen Umgebungen suchen"@de ;
+    skos:broader <01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF> ;
+    skos:inScheme <> ;
+    .
+
+<CDB1F735-52F5-4ABE-A059-F07D5863108D> a skos:Concept ;
+    skos:prefLabel "1.1.4. Relevante Quellen identifizieren und zusammenführen"@de ;
+    skos:broader <01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF> ;
+    skos:inScheme <> ;
+    .
+
+<4A5FE9E6-13FB-4A90-8034-5689D6EA804C> a skos:Concept ;
+    skos:prefLabel "1.2. Auswerten und Bewerten"@de ;
+    skos:broader <ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3> ;
+    skos:narrower <F9B03D28-DBAE-4414-A3DC-19021AB827CB>,
+        <104B23E8-18E7-4D1C-B814-239403DCE6D9> ;
+    skos:inScheme <> ;
+    .
+
+<F9B03D28-DBAE-4414-A3DC-19021AB827CB> a skos:Concept ;
+    skos:prefLabel "1.2.1. Informationen und Daten analysieren, interpretieren und kritisch bewerten"@de ;
+    skos:broader <4A5FE9E6-13FB-4A90-8034-5689D6EA804C> ;
+    skos:inScheme <> ;
+    .
+
+<104B23E8-18E7-4D1C-B814-239403DCE6D9> a skos:Concept ;
+    skos:prefLabel "1.2.2. Informationsquellen analysieren und kritisch bewerten"@de ;
+    skos:broader <4A5FE9E6-13FB-4A90-8034-5689D6EA804C> ;
+    skos:inScheme <> ;
+    .
+
+<89FA9D2B-484B-4D7E-AC43-B0100C3D0D0E> a skos:Concept ;
+    skos:prefLabel "1.3. Speichern und Abrufen"@de ;
+    skos:broader <ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3> ;
+    skos:narrower <A44B1A87-940C-42B6-9695-FD67874217B0>,
+        <D308E815-D384-4339-A741-F564E6DF9385> ;
+    skos:inScheme <> ;
+    .
+
+<A44B1A87-940C-42B6-9695-FD67874217B0> a skos:Concept ;
+    skos:prefLabel "1.3.1. Informationen und Daten sicher speichern, wiederfinden und von verschiedenen Orten abrufen"@de ;
+    skos:broader <89FA9D2B-484B-4D7E-AC43-B0100C3D0D0E> ;
+    skos:inScheme <> ;
+    .
+
+<D308E815-D384-4339-A741-F564E6DF9385> a skos:Concept ;
+    skos:prefLabel "1.3.2. Informationen und Daten zusammenfassen, organisieren und strukturiert aufbewahren"@de ;
+    skos:broader <89FA9D2B-484B-4D7E-AC43-B0100C3D0D0E> ;
+    skos:inScheme <> ;
+    .
+
+<5490EF24-A2EE-4A93-8F06-D4E535A5667D> a skos:Concept ;
+    skos:prefLabel "2. Kommunizieren und Kooperieren"@de ;
+    skos:narrower <86F6AEFE-EA4D-42D3-8131-A514B78C904A>,
+        <3A7AB032-812D-464C-A834-3A7F6824B61B>,
+        <108097E8-A762-477A-8389-5FC1908E7EAB>,
+        <91DB462E-1B30-47AE-A149-3E61B91F4512>,
+        <89C99EB8-C56F-4A77-844C-C5C74DEAA5B0> ;
+    skos:topConceptOf <> ;
+    .
+
+<86F6AEFE-EA4D-42D3-8131-A514B78C904A> a skos:Concept ;
+    skos:prefLabel "2.1. Interagieren"@de ;
+    skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
+    skos:narrower <E819AC9F-1498-44F7-BCDF-924EA89A7623>,
+        <A5BC1AA6-96B4-4F45-89A9-24A30F066912> ;
+    skos:inScheme <> ;
+    .
+
+<E819AC9F-1498-44F7-BCDF-924EA89A7623> a skos:Concept ;
+    skos:prefLabel "2.1.1. Mit Hilfe verschiedener digitaler Kommunikationsmöglichkeiten kommunizieren"@de ;
+    skos:broader <86F6AEFE-EA4D-42D3-8131-A514B78C904A> ;
+    skos:inScheme <> ;
+    .
+
+<A5BC1AA6-96B4-4F45-89A9-24A30F066912> a skos:Concept ;
+    skos:prefLabel "2.1.2. Digitale Kommunikationsmöglichkeiten zielgerichtet- und situationsgerecht auswählen"@de ;
+    skos:broader <86F6AEFE-EA4D-42D3-8131-A514B78C904A> ;
+    skos:inScheme <> ;
+    .
+
+<3A7AB032-812D-464C-A834-3A7F6824B61B> a skos:Concept ;
+    skos:prefLabel "2.2. Teilen"@de ;
+    skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
+    skos:narrower <68673305-1281-4B6C-80CB-644F35006FFE>,
+        <CA1C5B3B-CBEF-4D08-9B62-D5FA996058A0> ;
+    skos:inScheme <> ;
+    .
+
+<68673305-1281-4B6C-80CB-644F35006FFE> a skos:Concept ;
+    skos:prefLabel "2.2.1. Dateien, Informationen und Links teilen"@de ;
+    skos:broader <3A7AB032-812D-464C-A834-3A7F6824B61B> ;
+    skos:inScheme <> ;
+    .
+
+<CA1C5B3B-CBEF-4D08-9B62-D5FA996058A0> a skos:Concept ;
+    skos:prefLabel "2.2.2. Referenzierungspraxis beherrschen (Quellenangaben)"@de ;
+    skos:broader <3A7AB032-812D-464C-A834-3A7F6824B61B> ;
+    skos:inScheme <> ;
+    .
+
+<108097E8-A762-477A-8389-5FC1908E7EAB> a skos:Concept ;
+    skos:prefLabel "2.2. Zusammenarbeiten"@de ;
+    skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
+    skos:narrower <632CFA45-8F42-4561-BE41-A29FE8217293>,
+        <C36FCDCD-D849-40FE-8A41-FB4CC54CADB6> ;
+    skos:inScheme <> ;
+    .
+
+<632CFA45-8F42-4561-BE41-A29FE8217293> a skos:Concept ;
+    skos:prefLabel "2.3.1. Digitale Werkzeuge für die Zusammenarbeit bei der Zusammenführung von Informationen, Daten und Ressourcen nutzen"@de ;
+    skos:broader <108097E8-A762-477A-8389-5FC1908E7EAB> ;
+    skos:inScheme <> ;
+    .
+
+<C36FCDCD-D849-40FE-8A41-FB4CC54CADB6> a skos:Concept ;
+    skos:prefLabel "2.3.2. Digitale Werkzeuge bei der gemeinsamen Erarbeitung von Dokumenten nutzen"@de ;
+    skos:broader <108097E8-A762-477A-8389-5FC1908E7EAB> ;
+    skos:inScheme <> ;
+    .
+
+<91DB462E-1B30-47AE-A149-3E61B91F4512> a skos:Concept ;
+    skos:prefLabel "2.4. Umgangsregeln kennen und einhalten (Netiquette)"@de ;
+    skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
+    skos:narrower <F820983A-3FB8-43C7-8C6C-9FF8B08AD2EC>,
+        <B612B3B4-4F02-4ED5-AF31-7CD5433F5B59>,
+        <A1FA8E56-68F2-473F-852C-8199261D87BD>,
+        <309B4EAB-648E-4406-B2CB-01116572A061> ;
+    skos:inScheme <> ;
+    .
+
+<F820983A-3FB8-43C7-8C6C-9FF8B08AD2EC> a skos:Concept ;
+    skos:prefLabel "2.4.1. Verhaltensregeln bei digitaler Interaktion und Kooperation kennen und anwenden"@de ;
+    skos:broader <91DB462E-1B30-47AE-A149-3E61B91F4512> ;
+    skos:inScheme <> ;
+    .
+
+<B612B3B4-4F02-4ED5-AF31-7CD5433F5B59> a skos:Concept ;
+    skos:prefLabel "2.4.2. Kommunikation der jeweiligen Umgebung anpassen"@de ;
+    skos:broader <91DB462E-1B30-47AE-A149-3E61B91F4512> ;
+    skos:inScheme <> ;
+    .
+
+<A1FA8E56-68F2-473F-852C-8199261D87BD> a skos:Concept ;
+    skos:prefLabel "2.4.3. Ethische Prinzipien bei der Kommunikation kennen und berücksichtigen"@de ;
+    skos:broader <91DB462E-1B30-47AE-A149-3E61B91F4512> ;
+    skos:inScheme <> ;
+    .
+
+<309B4EAB-648E-4406-B2CB-01116572A061> a skos:Concept ;
+    skos:prefLabel "2.4.4. Kulturelle Vielfalt in digitalen Umgebungen berücksichtigen"@de ;
+    skos:broader <91DB462E-1B30-47AE-A149-3E61B91F4512> ;
+    skos:inScheme <> ;
+    .
+
+<89C99EB8-C56F-4A77-844C-C5C74DEAA5B0> a skos:Concept ;
+    skos:prefLabel "2.5. An der Gesellschaft aktiv teilhaben"@de ;
+    skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
+    skos:narrower <7CDB7AF6-7424-4C81-A5D2-E5AFD4430AB6>,
+        <9A0CCB59-BD3F-44E1-A6FE-E80CC45B98E7>,
+        <E1F6B5E8-41FB-4633-89EC-E4D1C9600DDD> ;
+    skos:inScheme <> ;
+    .
+
+<7CDB7AF6-7424-4C81-A5D2-E5AFD4430AB6> a skos:Concept ;
+    skos:prefLabel "2.5.1. Öffentliche und private Dienste nutzen"@de ;
+    skos:broader <89C99EB8-C56F-4A77-844C-C5C74DEAA5B0> ;
+    skos:inScheme <> ;
+    .
+
+<9A0CCB59-BD3F-44E1-A6FE-E80CC45B98E7> a skos:Concept ;
+    skos:prefLabel "2.5.2. Medienerfahrungen weitergeben und in kommunikatibe Prozesse einbringen"@de ;
+    skos:broader <89C99EB8-C56F-4A77-844C-C5C74DEAA5B0> ;
+    skos:inScheme <> ;
+    .
+
+<E1F6B5E8-41FB-4633-89EC-E4D1C9600DDD> a skos:Concept ;
+    skos:prefLabel "2.5.3. Als selbstbesimmter Bürger aktiv an der Gesellschaft teilhaben"@de ;
+    skos:broader <89C99EB8-C56F-4A77-844C-C5C74DEAA5B0> ;
+    skos:inScheme <> ;
+    .
+
+### 3 Produzieren und Präsentieren ###
+
+<F427CBE5-3444-405B-B3ED-31392C5AD548> a skos:Concept ;
+    skos:prefLabel "3. Produzieren und Präsentieren"@de ;
+    skos:narrower <535100C8-B6CB-44B3-925A-781B61CA1273>,
+        <A3D4CB50-54AF-48EA-B97D-2CC92A579CC4>,
+        <ACFF453C-4B8B-466F-B2EA-2D308CB43D7A> ;
+    skos:topConceptOf <> ;
+    .
+
+<535100C8-B6CB-44B3-925A-781B61CA1273> a skos:Concept ;
+    skos:prefLabel "3.1. Entwickeln und Produzieren"@de ;
+    skos:broader <F427CBE5-3444-405B-B3ED-31392C5AD548> ;
+    skos:narrower <1BDC7D01-DF22-431A-B44B-E8CE1A390EDA>,
+        <BF623466-AF3C-40F8-9789-05DA8A8F8853>;
+    skos:inScheme <> ;
+    .
+
+<1BDC7D01-DF22-431A-B44B-E8CE1A390EDA> a skos:Concept ;
+    skos:prefLabel "3.1.1. Mehrere technische Bearbeitungswerkzeuge kennen und anwenden"@de ;
+    skos:broader <535100C8-B6CB-44B3-925A-781B61CA1273> ;
+    skos:inScheme <> ;
+    .
+
+<BF623466-AF3C-40F8-9789-05DA8A8F8853> a skos:Concept ;
+    skos:prefLabel "3.1.2. Eine Produktion planen und in verschiedenen Formaten gestalten, präsentieren, veröffentlichen oder teilen"@de ;
+    skos:broader <535100C8-B6CB-44B3-925A-781B61CA1273> ;
+    skos:inScheme <> ;
+    .
+
+<A3D4CB50-54AF-48EA-B97D-2CC92A579CC4> a skos:Concept ;
+    skos:prefLabel "3.2. Weiterverarbeiten und Integrieren"@de ;
+    skos:broader <F427CBE5-3444-405B-B3ED-31392C5AD548> ;
+    skos:narrower <61CCC9B1-C16E-4AE3-ABD1-A017F0BA7AF3>,
+        <3B2E4217-4626-4A8C-BC59-895B7A8D3C98>;
+    skos:inScheme <> ;
+    .
+
+<61CCC9B1-C16E-4AE3-ABD1-A017F0BA7AF3> a skos:Concept ;
+    skos:prefLabel "3.2.1. Inhalte in verschieden Formaten bearbeiten, zusammenführen, präsentieren und veröfffentlichen oder teilen"@de ;
+    skos:broader <A3D4CB50-54AF-48EA-B97D-2CC92A579CC4> ;
+    skos:inScheme <> ;
+    .
+
+<3B2E4217-4626-4A8C-BC59-895B7A8D3C98> a skos:Concept ;
+    skos:prefLabel "3.2.2. Informationen, Inhalte und vorhandene digitale Produkte weiterverarbeiten und in bestehendes Wissen integrieren"@de ;
+    skos:broader <A3D4CB50-54AF-48EA-B97D-2CC92A579CC4> ;
+    skos:inScheme <> ;
+    .
+
+<ACFF453C-4B8B-466F-B2EA-2D308CB43D7A> a skos:Concept ;
+    skos:prefLabel "3.3. Rechtliche Vorgaben beachten"@de ;
+    skos:broader <F427CBE5-3444-405B-B3ED-31392C5AD548> ;
+    skos:narrower <2EE8DA61-509D-4018-A148-297FEC67B895>,
+        <7FDDE6D6-790A-4478-9877-3A6E47F207B8>,
+        <811BF793-18A9-4832-B782-E0B7A7DB2BC5> ;
+    skos:inScheme <> ;
+    .
+
+<2EE8DA61-509D-4018-A148-297FEC67B895> a skos:Concept ;
+    skos:prefLabel "3.3.1. Bedeutung von Urheberrecht und geistigem Eigentum kennen"@de ;
+    skos:broader <ACFF453C-4B8B-466F-B2EA-2D308CB43D7A> ;
+    skos:inScheme <> ;
+    .
+
+<7FDDE6D6-790A-4478-9877-3A6E47F207B8> a skos:Concept ;
+    skos:prefLabel "3.3.2. Urheber- und Nutzungsreche (Lizenzen) bei eigenen und fremden Werken berücksichtigen"@de ;
+    skos:broader <ACFF453C-4B8B-466F-B2EA-2D308CB43D7A> ;
+    skos:inScheme <> ;
+    .
+
+<811BF793-18A9-4832-B782-E0B7A7DB2BC5> a skos:Concept ;
+    skos:prefLabel "3.3.3. Persönlichkeitsrechte beachten"@de ;
+    skos:broader <ACFF453C-4B8B-466F-B2EA-2D308CB43D7A> ;
+    skos:inScheme <> ;
+    .
+
+#### 4 Schützen und sicher agieren ####
+
+<4183F865-E001-47C1-B0C9-FE6EB5660ABE> a skos:Concept ;
+    skos:prefLabel "4. Schützen und sicher Agieren"@de ;
+    skos:narrower <D812DABA-BF00-453B-B4EE-7098174FB085>,
+        <975C9AFF-0F15-48AB-8238-24E72A614E68>,
+        <84C60310-25DF-4FB7-BCD0-1E4075619AEA>,
+        <2D8E0507-682A-4C2F-9B28-D7722382D29E> ;
+    skos:topConceptOf <> ;
+    .
+
+<D812DABA-BF00-453B-B4EE-7098174FB085> a skos:Concept ;
+    skos:prefLabel "4.1. Sicher in digitalen Umgebungen agieren"@de ;
+    skos:broader <4183F865-E001-47C1-B0C9-FE6EB5660ABE> ;
+    skos:narrower <A1A49BE0-DB4C-467A-A566-CC915A4A56A9>,
+        <85D319FD-B33D-45BF-9376-AA874AD87A62> ;
+    skos:inScheme <> ;
+    .
+
+<A1A49BE0-DB4C-467A-A566-CC915A4A56A9> a skos:Concept ;
+    skos:prefLabel "4.1.1. Risiken uns Gefahren in digitalen Umgebungen kennen, reflektieren und berücksichtigen"@de ;
+    skos:broader <D812DABA-BF00-453B-B4EE-7098174FB085> ;
+    skos:inScheme <> ;
+    .
+
+<85D319FD-B33D-45BF-9376-AA874AD87A62> a skos:Concept ;
+    skos:prefLabel "4.1.2. Strategien zum Schutz entwickeln und anwenden"@de ;
+    skos:broader <D812DABA-BF00-453B-B4EE-7098174FB085> ;
+    skos:inScheme <> ;
+    .
+
+<975C9AFF-0F15-48AB-8238-24E72A614E68> a skos:Concept ;
+    skos:prefLabel "4.2. Persönliche Daten und Privatspähre schützen"@de ;
+    skos:broader <4183F865-E001-47C1-B0C9-FE6EB5660ABE> ;
+    skos:narrower <52CF6472-FE18-4B74-9EF2-A18C28B30068>,
+        <0CAB3A2C-47F5-48B1-AD33-0245C77284F2>,
+        <78326259-4504-43CF-BDC7-47F764E1C855>,
+        <64F1F6D7-84BD-4760-96E3-E7713502F895>;
+    skos:inScheme <> ;
+    .
+
+<52CF6472-FE18-4B74-9EF2-A18C28B30068> a skos:Concept ;
+    skos:prefLabel "4.2.1. Maßnahmen für Datensicherheit und gegen Datenmissbrauch berücksichtigen"@de ;
+    skos:broader <975C9AFF-0F15-48AB-8238-24E72A614E68> ;
+    skos:inScheme <> ;
+    .
+
+<0CAB3A2C-47F5-48B1-AD33-0245C77284F2> a skos:Concept ;
+    skos:prefLabel "4.2.2. Privatsphäre in digitalen Umgebungen durch geeignete Maßnahmen schützen"@de ;
+    skos:broader <975C9AFF-0F15-48AB-8238-24E72A614E68> ;
+    skos:inScheme <> ;
+    .
+
+<78326259-4504-43CF-BDC7-47F764E1C855> a skos:Concept ;
+    skos:prefLabel "4.2.3. Sicherheitseinstellungen ständig aktualisieren"@de ;
+    skos:broader <975C9AFF-0F15-48AB-8238-24E72A614E68> ;
+    skos:inScheme <> ;
+    .
+
+<64F1F6D7-84BD-4760-96E3-E7713502F895> a skos:Concept ;
+    skos:prefLabel "4.2.4. Jugendschutz- und Verbraucherschutzmaßnahmen berücksichtigen"@de ;
+    skos:broader <975C9AFF-0F15-48AB-8238-24E72A614E68> ;
+    skos:inScheme <> ;
+    .
+
+
+
+<84C60310-25DF-4FB7-BCD0-1E4075619AEA> a skos:Concept ;
+    skos:prefLabel "4.3. Gesundheit schützen"@de ;
+    skos:broader <4183F865-E001-47C1-B0C9-FE6EB5660ABE> ;
+    skos:narrower <2AD9AD1D-D0F0-4AD6-BAC3-C51439218587>,
+        <D46ED466-3D3E-4195-A195-6E9067570736>,
+        <8F53454E-E4CA-4F0D-BF61-D2EB12E6DCEB>;
+    skos:inScheme <> ;
+    .
+
+<2AD9AD1D-D0F0-4AD6-BAC3-C51439218587> a skos:Concept ;
+    skos:prefLabel "4.3.1. Suchtgefahrten vermeiden, sich Selbst und andere vormöglichen Gefahren schützen"@de ;
+    skos:broader <84C60310-25DF-4FB7-BCD0-1E4075619AEA> ;
+    skos:inScheme <> ;
+    .
+
+<D46ED466-3D3E-4195-A195-6E9067570736> a skos:Concept ;
+    skos:prefLabel "4.3.2. Digitale Technologien gesundheitsbewusst nutzen"@de ;
+    skos:broader <84C60310-25DF-4FB7-BCD0-1E4075619AEA> ;
+    skos:inScheme <> ;
+    .
+
+<8F53454E-E4CA-4F0D-BF61-D2EB12E6DCEB> a skos:Concept ;
+    skos:prefLabel "4.3.3. Digitale Technologien für soziales Wohlergehen und Eingliederung nutzen"@de ;
+    skos:broader <84C60310-25DF-4FB7-BCD0-1E4075619AEA> ;
+    skos:inScheme <> ;
+    .
+
+<2D8E0507-682A-4C2F-9B28-D7722382D29E> a skos:Concept ;
+    skos:prefLabel "4.4. Natur und Umwelt schützen"@de ;
+    skos:broader <4183F865-E001-47C1-B0C9-FE6EB5660ABE> ;
+    skos:narrower <3C638851-D9E1-47CF-9B00-75BF24893731> ;
+    skos:inScheme <> ;
+    .
+
+<3C638851-D9E1-47CF-9B00-75BF24893731> a skos:Concept ;
+    skos:prefLabel "4.4.1. Umweltauswirkungen digitaler Technologien berücksichtigen Problemlösen und Handeln"@de ;
+    skos:broader <2D8E0507-682A-4C2F-9B28-D7722382D29E> ;
+    skos:inScheme <> ;
+    .
+
+#### 5 Problemlösen und Handeln ###ä
+
+<3A80F194-4CA1-43A1-B67A-E815B16BEFE5> a skos:Concept ;
+    skos:prefLabel "5. Problemlösen und Handeln"@de ;
+    skos:narrower <76A5E561-DFA2-4073-A4F6-0E29EC0B26B6>,
+        <FB52C6CD-834C-4694-B093-C5333534F900>,
+        <7E3ABDA4-5E3F-46AA-9B94-19DD0784CAB5>,
+        <A8063FA9-882C-44A6-9E91-DF85C781B6FB>,
+        <262679FB-D967-4FEC-B2E9-559D29038E6A> ;
+    skos:topConceptOf <> ;
+    .
+
+<76A5E561-DFA2-4073-A4F6-0E29EC0B26B6> a skos:Concept ;
+    skos:prefLabel "5.1. Technische Probleme lösen"@de ;
+    skos:broader <3A80F194-4CA1-43A1-B67A-E815B16BEFE5> ;
+    skos:narrower <4E719615-723B-43FF-AEBB-8E2974F9A92C>,
+        <A2A33EF5-13F2-4631-B37D-211276B683B3>,
+        <598E80C9-ECC8-44DC-B758-5D41212F6638> ;
+    skos:inScheme <> ;
+    .
+
+<4E719615-723B-43FF-AEBB-8E2974F9A92C> a skos:Concept ;
+    skos:prefLabel "5.1.1. Anforderungen an digialte Umgebungen formulieren"@de ;
+    skos:broader <76A5E561-DFA2-4073-A4F6-0E29EC0B26B6> ;
+    skos:inScheme <> ;
+    .
+
+<A2A33EF5-13F2-4631-B37D-211276B683B3> a skos:Concept ;
+    skos:prefLabel "5.1.2. Technische Probleme identifizieren"@de ;
+    skos:broader <76A5E561-DFA2-4073-A4F6-0E29EC0B26B6> ;
+    skos:inScheme <> ;
+    .
+
+<598E80C9-ECC8-44DC-B758-5D41212F6638> a skos:Concept ;
+    skos:prefLabel "5.1.3. Bedarfe für Lösungen ermitteln und Lösungen finden bzw. Lösungsstrategien entwickeln"@de ;
+    skos:broader <76A5E561-DFA2-4073-A4F6-0E29EC0B26B6> ;
+    skos:inScheme <> ;
+    .
+
+<FB52C6CD-834C-4694-B093-C5333534F900> a skos:Concept ;
+    skos:prefLabel "5.2. Werkzeuge bedardsgerecht einsetzen"@de ;
+    skos:broader <3A80F194-4CA1-43A1-B67A-E815B16BEFE5> ;
+    skos:narrower <A3DFAF9C-4AF2-42E5-92C6-8DC9BA9704F8>,
+        <9A93A0D2-6845-4B5B-BE15-77C60FEFF08A>,
+        <F561FA09-D206-46F9-AE18-B94B46622EAE>,
+        <C8DE2124-6D7D-4C01-8B0B-49EA65A6A907>;
+    skos:inScheme <> ;
+    .
+
+<A3DFAF9C-4AF2-42E5-92C6-8DC9BA9704F8> a skos:Concept ;
+    skos:prefLabel "5.2.1. Eine Vielzahl von digitalen Werkzeugen kennen und kreativ anwenden"@de ;
+    skos:broader <FB52C6CD-834C-4694-B093-C5333534F900> ;
+    skos:inScheme <> ;
+    .
+
+<9A93A0D2-6845-4B5B-BE15-77C60FEFF08A> a skos:Concept ;
+    skos:prefLabel "5.2.2. Anforderungen an digitale Werkzeuge formulieren"@de ;
+    skos:broader <FB52C6CD-834C-4694-B093-C5333534F900> ;
+    skos:inScheme <> ;
+    .
+
+<F561FA09-D206-46F9-AE18-B94B46622EAE> a skos:Concept ;
+    skos:prefLabel "5.2.3. Passende Werkzeuge zur Lösung identifizieren"@de ;
+    skos:broader <FB52C6CD-834C-4694-B093-C5333534F900> ;
+    skos:inScheme <> ;
+    .
+
+<C8DE2124-6D7D-4C01-8B0B-49EA65A6A907> a skos:Concept ;
+    skos:prefLabel "5.2.4. Digitale Umgebungen und Werkzeuge zum persönlichen Gebrauch anpassen"@de ;
+    skos:broader <FB52C6CD-834C-4694-B093-C5333534F900> ;
+    skos:inScheme <> ;
+    .
+
+<7E3ABDA4-5E3F-46AA-9B94-19DD0784CAB5> a skos:Concept ;
+    skos:prefLabel "5.3. Eigene Defizite ermitteln und nach Lösungen suchen"@de ;
+    skos:broader <3A80F194-4CA1-43A1-B67A-E815B16BEFE5> ;
+    skos:narrower <C55FD672-7077-42BE-995A-51DD3F60477C>,
+        <394F0F9D-C69C-4946-9FEE-DC0F875B506B>;
+    skos:inScheme <> ;
+    .
+
+<C55FD672-7077-42BE-995A-51DD3F60477C> a skos:Concept ;
+    skos:prefLabel "5.3.1. Eigene Defizite bei der Nutzung digitaler Werkzeuge erkennen und Strategien zur Beseitigung entwickeln"@de ;
+    skos:broader <7E3ABDA4-5E3F-46AA-9B94-19DD0784CAB5> ;
+    skos:inScheme <> ;
+    .
+
+<394F0F9D-C69C-4946-9FEE-DC0F875B506B> a skos:Concept ;
+    skos:prefLabel "5.3.2. Eigene Strategien zur Problemlösung mit anderen teilen"@de ;
+    skos:broader <7E3ABDA4-5E3F-46AA-9B94-19DD0784CAB5> ;
+    skos:inScheme <> ;
+    .
+
+<A8063FA9-882C-44A6-9E91-DF85C781B6FB> a skos:Concept ;
+    skos:prefLabel "5.4. Digitale Werkzeuge und Medien zum Lernen, Arbeiten und Problemlösen nutzen"@de ;
+    skos:broader <3A80F194-4CA1-43A1-B67A-E815B16BEFE5> ;
+    skos:narrower <129EE303-928D-44FB-B374-D7C6D61FC099>,
+        <79CA2484-463D-4F47-BBB5-A6AC51B39239> ;
+    skos:inScheme <> ;
+    .
+
+<129EE303-928D-44FB-B374-D7C6D61FC099> a skos:Concept ;
+    skos:prefLabel "5.4.1. Effektive digitale Lernmöglichkeiten finden, bewerten und nutzen"@de ;
+    skos:broader <A8063FA9-882C-44A6-9E91-DF85C781B6FB> ;
+    skos:inScheme <> ;
+    .
+
+<79CA2484-463D-4F47-BBB5-A6AC51B39239> a skos:Concept ;
+    skos:prefLabel "5.4.2. Persönliches System von vernetzen Lernressourcen selbst organisieren können"@de ;
+    skos:broader <A8063FA9-882C-44A6-9E91-DF85C781B6FB> ;
+    skos:inScheme <> ;
+    .
+
+<262679FB-D967-4FEC-B2E9-559D29038E6A> a skos:Concept ;
+    skos:prefLabel "5.5. Algorithmen erkennen und formulieren"@de ;
+    skos:broader <3A80F194-4CA1-43A1-B67A-E815B16BEFE5> ;
+    skos:narrower <59A93980-F744-4A43-8AA1-485C9AB68C5F>,
+        <FBB20399-B88B-4E83-936B-8D6EF398E2F1>,
+        <5174CA86-EA58-4D3A-AF1D-02D2459A5D89> ;
+    skos:inScheme <> ;
+    .
+
+<59A93980-F744-4A43-8AA1-485C9AB68C5F> a skos:Concept ;
+    skos:prefLabel "5.5.1. Funktionsweisen und grundlegende Prinzipien der digitalen Welt kennen und verstehen"@de ;
+    skos:broader <262679FB-D967-4FEC-B2E9-559D29038E6A> ;
+    skos:inScheme <> ;
+    .
+
+<FBB20399-B88B-4E83-936B-8D6EF398E2F1> a skos:Concept ;
+    skos:prefLabel "5.5.2. Algorithmische Strukturen in genutzen digitalen Tools erkennen und fomulieren"@de ;
+    skos:broader <262679FB-D967-4FEC-B2E9-559D29038E6A> ;
+    skos:inScheme <> ;
+    .
+
+<5174CA86-EA58-4D3A-AF1D-02D2459A5D89> a skos:Concept ;
+    skos:prefLabel "5.5.3. Eine strukturierte, algorithmische Sequenz zur Lösung eines Problems planen und verwenden"@de ;
+    skos:broader <262679FB-D967-4FEC-B2E9-559D29038E6A> ;
+    skos:inScheme <> ;
+    .
+
+#### 6 Analysieren und Reflektieren ####
+
+<98BD185D-919B-4E7F-BFBB-A4DB2020CE1E> a skos:Concept ;
+    skos:prefLabel "6. Analysieren und Reflektieren"@de ;
+    skos:narrower <C95DBED2-0BDB-49E3-8590-764779708C05>,
+        <2C455193-6E3B-4532-98B4-80494E5684A0>;
+    skos:topConceptOf <> ;
+    .
+
+<C95DBED2-0BDB-49E3-8590-764779708C05> a skos:Concept ;
+    skos:prefLabel "6.1. Algorithmen erkennen und formulieren"@de ;
+    skos:broader <98BD185D-919B-4E7F-BFBB-A4DB2020CE1E> ;
+    skos:narrower <F90D7B23-D6CA-4EE8-8CB6-2474F876F0F4>,
+        <C37DF8BD-4822-4A6F-83EB-4D2C84222201>,
+        <2CB82A2C-008E-42FE-8724-E99A7E35154A> ;
+    skos:inScheme <> ;
+    .
+
+<F90D7B23-D6CA-4EE8-8CB6-2474F876F0F4> a skos:Concept ;
+    skos:prefLabel "6.1.1. Gestaltungsmittel von digitalen Medienangeboten kennen und bewerten"@de ;
+    skos:broader <C95DBED2-0BDB-49E3-8590-764779708C05> ;
+    skos:inScheme <> ;
+    .
+
+<C37DF8BD-4822-4A6F-83EB-4D2C84222201> a skos:Concept ;
+    skos:prefLabel "6.1.2. Interessengeleitete Setzung, Verbreitung und Dominanz von Themen in digitalen Umgebungen erkennen und beruteilen"@de ;
+    skos:broader <C95DBED2-0BDB-49E3-8590-764779708C05> ;
+    skos:inScheme <> ;
+    .
+
+<2CB82A2C-008E-42FE-8724-E99A7E35154A> a skos:Concept ;
+    skos:prefLabel "6.1.3. Wirkungen von Medien in der digitalen Welt (z.B. mediale Konstrukte, Stars, Idole, Computerspiele, mediale Gewaltdarstellugen) analysieren und konstruktiv damit umgehen"@de ;
+    skos:broader <C95DBED2-0BDB-49E3-8590-764779708C05> ;
+    skos:inScheme <> ;
+    .
+
+<2C455193-6E3B-4532-98B4-80494E5684A0> a skos:Concept ;
+    skos:prefLabel "6.2. Medien in der digitalen Welt verstehen und reflektieren"@de ;
+    skos:broader <98BD185D-919B-4E7F-BFBB-A4DB2020CE1E> ;
+    skos:narrower <94FBCE7E-268E-4D16-B780-457764B68DB2>,
+        <4A19EF92-5E68-4B69-937A-B15FC19B7804>,
+        <9ACDA1DF-860E-4882-BB6B-552D9713A821>,
+        <F17150BD-7D87-443C-932B-D314D1201776>,
+        <0ECB0609-D0EB-4D7A-8425-85CC91132C0E>,
+        <F7D9AD75-7E30-454E-B97A-6625B3620DAD> ;
+    skos:inScheme <> ;
+    .
+
+<94FBCE7E-268E-4D16-B780-457764B68DB2> a skos:Concept ;
+    skos:prefLabel "6.2.1 Vielfalt in der digitalen Medienlandschaft kennen"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
+
+<4A19EF92-5E68-4B69-937A-B15FC19B7804> a skos:Concept ;
+    skos:prefLabel "6.2.2. Chancen und Riskien des Mediengebrauchs in unterschiedentlichen Lebensbereichen erkennen, eigenen Mediengebrauch reflektieren und ggf. modifizieren"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
+
+<9ACDA1DF-860E-4882-BB6B-552D9713A821> a skos:Concept ;
+    skos:prefLabel "6.2.3. Vorteile und Risiken von Geschäftsaktivitäten und Services im Internet analysieren und beurteilen"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
+
+<F17150BD-7D87-443C-932B-D314D1201776> a skos:Concept ;
+    skos:prefLabel "6.2.4. Wirtschaftliche Bedeutung der digitalen Medien und digitaler Technologien kennen und sie für eigene Geschäftsideen nutzen"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
+
+<0ECB0609-D0EB-4D7A-8425-85CC91132C0E> a skos:Concept ;
+    skos:prefLabel "6.2.5. Die Bedeutung von digitalen Medien für die politische Meinungsbildung und Entscheidungsfindung kennen und nutzen"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
+
+<F7D9AD75-7E30-454E-B97A-6625B3620DAD> a skos:Concept ;
+    skos:prefLabel "6.2.6. Potenziale der Digitalisierung im Sinne sozialer Integration und sozialer teilhabe erkennen, analysieren und reflektieren"@de ;
+    skos:broader <2C455193-6E3B-4532-98B4-80494E5684A0> ;
+    skos:inScheme <> ;
+    .
