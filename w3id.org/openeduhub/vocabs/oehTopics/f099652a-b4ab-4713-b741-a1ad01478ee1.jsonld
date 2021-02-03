@@ -1,0 +1,153 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f099652a-b4ab-4713-b741-a1ad01478ee1",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff099652a-b4ab-4713-b741-a1ad01478ee1",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff099652a-b4ab-4713-b741-a1ad01478ee1",
+  "prefLabel": {
+    "de": "Beschreiben, Berichten und Informieren"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/60ae3bf4-b5c2-4ba2-b82e-946353544332",
+      "prefLabel": {
+        "de": "Rezension"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/71143b09-3617-4f55-9e28-4c591bcb56c2",
+      "prefLabel": {
+        "de": "Unfallbericht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/74c9bf56-01d8-4b1f-ba51-4abb7d207126",
+      "prefLabel": {
+        "de": "Bild- oder Personenbeschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/83791c9e-5dcc-446a-9955-7f114dfeb758",
+      "prefLabel": {
+        "de": "Bericht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a74771e4-3cca-4b55-a024-3dc0dceecac3",
+      "prefLabel": {
+        "de": "Vorgangs- oder Wegbeschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e050afa5-72ef-41ef-8717-cd5c0b3ffdea",
+      "prefLabel": {
+        "de": "Informationstext verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e7e05e0e-ec0b-4bb4-80d9-4dc6dbc82965",
+      "prefLabel": {
+        "de": "Ortsbeschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f8dde32f-e530-4ca2-82c6-bb3c5779caf7",
+      "prefLabel": {
+        "de": "Materialgestütztes Informieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/38154eec-b4d4-4889-b33e-9a66a2b2c81d",
+    "prefLabel": {
+      "de": "Schreiben "
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

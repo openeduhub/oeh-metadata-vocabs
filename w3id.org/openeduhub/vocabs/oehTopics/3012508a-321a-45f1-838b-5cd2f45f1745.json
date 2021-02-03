@@ -1,0 +1,123 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3012508a-321a-45f1-838b-5cd2f45f1745",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3012508a-321a-45f1-838b-5cd2f45f1745",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3012508a-321a-45f1-838b-5cd2f45f1745",
+  "prefLabel": {
+    "de": "Film"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0ebbc42-1a2e-4b1e-93c1-759b87b37365",
+      "prefLabel": {
+        "de": "Plansequenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c7abf72b-584f-4038-aa7b-9deb2f152068",
+      "prefLabel": {
+        "de": "Storyboard"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d9a6dcc7-8684-42c6-bc0d-5e34da589d25",
+      "prefLabel": {
+        "de": "Trickfilm"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9a2b18e0-4330-45c2-8d58-7b963edb08d0",
+    "prefLabel": {
+      "de": "Mediale Kunst"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

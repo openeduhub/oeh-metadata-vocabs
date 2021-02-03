@@ -1,0 +1,165 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f3089575-2c0c-4538-bc80-dcdfd4592d92",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff3089575-2c0c-4538-bc80-dcdfd4592d92",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff3089575-2c0c-4538-bc80-dcdfd4592d92",
+  "prefLabel": {
+    "de": "Wortschatz und Wortkunde"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/29d9556c-988a-409e-8cdb-2041df7d845a",
+      "prefLabel": {
+        "de": "Erb- und Lehnwörter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6f72d90c-ace1-4735-b455-4f3cd04ca628",
+      "prefLabel": {
+        "de": "Anglizismen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8acc3a8c-f614-46e2-acd9-3179c60804cb",
+      "prefLabel": {
+        "de": "Redewendungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/965ddb79-039f-4484-ab7e-0801dad72dc5",
+      "prefLabel": {
+        "de": "Jugendsprache"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ade4a7f2-8bee-4117-95bc-c5c54fa08a74",
+      "prefLabel": {
+        "de": "Sprachliche Bilder"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/af2997b7-c268-428e-a3be-9998093816cb",
+      "prefLabel": {
+        "de": "Fachwörter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b3e6e602-8233-4f2e-9279-ec69ad837b8b",
+      "prefLabel": {
+        "de": "Nominal- und Verbalstil"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ba770fff-9c07-4825-9f33-7786d248feaf",
+      "prefLabel": {
+        "de": "Synonyme und Antonyme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f86f41a8-6153-4fc2-99e2-b103d43fe0f8",
+      "prefLabel": {
+        "de": "Fremdwörter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fc4c9df3-ec2f-4166-9a9f-ed2f54cb3f9d",
+      "prefLabel": {
+        "de": "Dialekt"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cffaadfb-5c07-4e9c-919c-0a53b862c89b",
+    "prefLabel": {
+      "de": "Grammatik und Sprache untersuchen"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0266720-79f7-4921-8eb7-c42adbb46de9",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fb0266720-79f7-4921-8eb7-c42adbb46de9",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fb0266720-79f7-4921-8eb7-c42adbb46de9",
+  "prefLabel": {
+    "de": "Alltag"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0b0a9878-1a6d-4cf0-9540-2c2d8adfcbfb",
+      "prefLabel": {
+        "de": "Verkehrsmittel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3546c5d8-1627-40cd-a219-c3b5bff6ffe7",
+      "prefLabel": {
+        "de": "Freizeit und Hobbies"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5d41cd3a-7a26-41cf-bde6-f3f09f6d222b",
+      "prefLabel": {
+        "de": "Ernährung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6d890340-8add-47bd-a8aa-c10900973afb",
+      "prefLabel": {
+        "de": "Einkaufen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf",
+      "prefLabel": {
+        "de": "Reisen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ead640c9-55f9-4d6b-adc5-8e05157ba99a",
+      "prefLabel": {
+        "de": "Routinen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/350a0734-a52d-4d1e-9249-5e19f216da2f",
+    "prefLabel": {
+      "de": "Themen und Wortschatz"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

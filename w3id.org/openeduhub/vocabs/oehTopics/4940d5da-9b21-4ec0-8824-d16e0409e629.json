@@ -1,0 +1,135 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4940d5da-9b21-4ec0-8824-d16e0409e629",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4940d5da-9b21-4ec0-8824-d16e0409e629",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4940d5da-9b21-4ec0-8824-d16e0409e629",
+  "prefLabel": {
+    "de": "Chemie"
+  },
+  "definition": {
+    "de": "Bild-Quelle und -Lizenz: Bild von deepakrit auf Pixabay"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0f98878d-4bf8-4ed5-933b-c0ad0d36263e",
+      "prefLabel": {
+        "de": "Chemie und Umwelt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3c18febc-4513-47c4-b2bc-ca8af0494964",
+      "prefLabel": {
+        "de": "Die Anorganische Chemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/52de12fa-79ad-455c-95ae-d191f8e897d8",
+      "prefLabel": {
+        "de": "Die Organische Chemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9b25b69f-ad8c-4473-8cb3-3b3d47434380",
+      "prefLabel": {
+        "de": "Einführung in das Fach Chemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ad145fb5-c13d-43ee-b45b-436f1e5aaa08",
+      "prefLabel": {
+        "de": "Allgemeine Chemie"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

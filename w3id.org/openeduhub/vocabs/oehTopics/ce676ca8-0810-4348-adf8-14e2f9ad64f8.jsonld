@@ -1,0 +1,132 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fce676ca8-0810-4348-adf8-14e2f9ad64f8",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fce676ca8-0810-4348-adf8-14e2f9ad64f8",
+  "prefLabel": {
+    "de": "Typen von Bindungen"
+  },
+  "definition": {
+    "de": "Bindungen beschreiben, wie Atome in Verbindungen zusammenhalten. Aus dem Typ der Bindung lässt sich meist recht genau erklären, warum ein Stoff bestimmte Eigenschaften hat.\nIn den Unterthemen gibt es jeweils Material zu einem der speziellen Bindungstypen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/035c1ccd-e6ad-4080-b04b-fd6ce9671db0",
+      "prefLabel": {
+        "de": "Der Bindungstyp Komplexbindung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4821b916-5622-4e99-907f-ba424ea19168",
+      "prefLabel": {
+        "de": "Der Bindungstyp Atombindung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/88d2f312-db86-492c-bfb4-1b72d55b7d81",
+      "prefLabel": {
+        "de": "Der Bindungstyp Ionenbindung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e41b1252-784d-4115-b7fd-8a3a6745ddcb",
+      "prefLabel": {
+        "de": "Der Bindungstyp Metallbindung"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ad145fb5-c13d-43ee-b45b-436f1e5aaa08",
+    "prefLabel": {
+      "de": "Allgemeine Chemie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

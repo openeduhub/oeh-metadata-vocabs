@@ -1,0 +1,150 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "prefLabel": {
+    "de": "Verschiedene Atommodelle in der Chemie"
+  },
+  "definition": {
+    "de": "Man lernt im Chemie-Unterricht nach und nach genauere Atommodelle kennen, um immer mehr Phänomene erklären zu können.\n\nIn diesem Abschnitt sind die Materialien zu den einzelnen Atommodell-Varianten getrennt aufgeführt.\n\nDas Thema \"Periodensystem\" wird im Abschnitt \"Anorganische Chemie\" genauer betrachtet, auch wenn die Grundlage für dessen Aufbau die Atommodelle sind."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/23532975-3b46-43dd-bc0b-a5543f04de78",
+      "prefLabel": {
+        "de": "Atommodell nach Rutherford / Kern-Hülle-Modell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2de6649f-55f8-42db-a0e3-8c114d599660",
+      "prefLabel": {
+        "de": "Atommodell nach Thomson / Rosinenkuchenmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/41570c2d-02e4-4436-a1cb-bff4101b0d54",
+      "prefLabel": {
+        "de": "Atommodell nach Bohr / Schalenmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6d7530c5-64b2-4e55-8729-192a62ed247d",
+      "prefLabel": {
+        "de": "Atommodell nach Dalton"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/aa70b690-e7fc-4792-9688-eeb8b2dffa2b",
+      "prefLabel": {
+        "de": "Historische Entwicklung der Atommodelle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c05aee97-fddf-41a3-acc7-cacc1e4a7e3f",
+      "prefLabel": {
+        "de": "Atommodell nach Kimball / Kugelwolkenmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/eb7e165b-31ee-4d0f-8077-eadf73251019",
+      "prefLabel": {
+        "de": "Einführung in das Orbitalmodell"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ad145fb5-c13d-43ee-b45b-436f1e5aaa08",
+    "prefLabel": {
+      "de": "Allgemeine Chemie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

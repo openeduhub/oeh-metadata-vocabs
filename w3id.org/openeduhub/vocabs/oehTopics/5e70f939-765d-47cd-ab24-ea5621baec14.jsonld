@@ -1,0 +1,168 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e70f939-765d-47cd-ab24-ea5621baec14",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5e70f939-765d-47cd-ab24-ea5621baec14",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5e70f939-765d-47cd-ab24-ea5621baec14",
+  "prefLabel": {
+    "de": "Metalle und die Gewinnung aus Erzen"
+  },
+  "definition": {
+    "de": "Metalle liegen selten elementar vor, daher müssen sie aus Salzen und Erzen mit Hilfe von chemischen Reaktionen gewonnen werden.\n\nIn den Unterthemen werden verschiedene Aspekte und Metalle genauer betrachtet."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/013cf7f0-1069-49dc-8d91-295064386e86",
+      "prefLabel": {
+        "de": "Gewinnung und Abbau von Erzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0e752c8b-f126-48f6-b105-53ed2037201e",
+      "prefLabel": {
+        "de": "Die Halbmetalle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/54ab3216-d165-4ff7-b97c-c7c0e32f52d9",
+      "prefLabel": {
+        "de": "Herstellung von Kupfer und seine Anwendung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6533ced9-1e1d-4143-9685-b4be560537c4",
+      "prefLabel": {
+        "de": "Die Leichtmetalle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/909edb30-4f0b-4dba-b933-92a950f97385",
+      "prefLabel": {
+        "de": "Elektrolyseverfahren zur Herstellung von Metallen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9e74c69a-2dd6-450c-b5d8-d44f9cab7be5",
+      "prefLabel": {
+        "de": "Redoxreaktionen in Verfahren der Metallgewinnung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a0a508ed-2068-45d9-8ec1-e6586d148045",
+      "prefLabel": {
+        "de": "Gewinnung von Metallen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bb8bc391-f159-4810-a24a-a4f0fba87269",
+      "prefLabel": {
+        "de": "Die Eigenschaften der Metalle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bc7711d9-1381-426c-8d87-6a6ba3d014e6",
+      "prefLabel": {
+        "de": "Herstellung von Eisen und seine Anwendung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e0eefd37-cb11-449b-b7a4-c4f02104c5be",
+      "prefLabel": {
+        "de": "Betrachtung von wichtigen Legierungen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3c18febc-4513-47c4-b2bc-ca8af0494964",
+    "prefLabel": {
+      "de": "Die Anorganische Chemie"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

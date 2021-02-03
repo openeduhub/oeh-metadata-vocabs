@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/155d7cf3-41e8-4ba1-bc73-0d594a181372",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F155d7cf3-41e8-4ba1-bc73-0d594a181372",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F155d7cf3-41e8-4ba1-bc73-0d594a181372",
+  "prefLabel": {
+    "de": "Sporttheorie"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1ba93105-8fd9-4d93-bea7-83282959d603",
+      "prefLabel": {
+        "de": "Trainings- und Bewegungslehre"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/36ba0cc8-dfd6-4a7b-90ad-64baca0b5282",
+      "prefLabel": {
+        "de": "Sportpsychologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3fb12b96-b927-4b71-a4ac-e8a3850451c8",
+      "prefLabel": {
+        "de": "Gesundheit und Ernährung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/44f2bb8a-70b6-45c1-9337-7a54f79daa16",
+      "prefLabel": {
+        "de": "Orientierung und Sicherheit "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/50b644a4-f2cb-4031-877a-cec92d40de21",
+      "prefLabel": {
+        "de": "Geschlechterrollen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/50e23e69-7d83-478a-86ba-e1f4918c4c2a",
+      "prefLabel": {
+        "de": "Sportwissenschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/92830f49-2c44-48bc-af26-432095e161f0",
+      "prefLabel": {
+        "de": "Verhaltensregeln "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9299e80b-b52e-46cb-814c-5624ffc528a5",
+      "prefLabel": {
+        "de": "Peer-Feedback"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9cdfb1fe-4bf4-49f8-a386-193e7199f6d9",
+      "prefLabel": {
+        "de": "Sportsoziologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a08fdcdf-938f-4f81-9b2d-d9f8f79e516c",
+      "prefLabel": {
+        "de": "Sportmedizin"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cd612822-3d8d-4d85-907f-962f26a2d4ed",
+      "prefLabel": {
+        "de": "Inklusion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/db2dc3db-e5a4-40ee-a54a-37e47b91f3ac",
+      "prefLabel": {
+        "de": "Digitalisierung und E-Sport"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f4a41dbb-e7b6-4a05-b971-e58a970f6423",
+      "prefLabel": {
+        "de": "Sportgeschichte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ea776a48-b3f4-446c-b871-19f84b31d280",
+    "prefLabel": {
+      "de": "Sport"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}

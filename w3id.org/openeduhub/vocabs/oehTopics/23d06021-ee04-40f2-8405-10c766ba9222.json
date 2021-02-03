@@ -1,0 +1,153 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/23d06021-ee04-40f2-8405-10c766ba9222",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F23d06021-ee04-40f2-8405-10c766ba9222",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F23d06021-ee04-40f2-8405-10c766ba9222",
+  "prefLabel": {
+    "de": "Präpositonen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01ee3851-864f-4989-a572-877072f5ec31",
+      "prefLabel": {
+        "de": "Präpositionen mit Dativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/03a4cefe-096a-4e16-b0d2-e400184dfb05",
+      "prefLabel": {
+        "de": "Präpositionen mit Akkusativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/294101d7-c02b-4e6b-90a8-f3c2d0e26995",
+      "prefLabel": {
+        "de": "Modale Präpositionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/47ec0049-15b8-4127-8220-a42a9d7732d2",
+      "prefLabel": {
+        "de": "Kausale Präpositionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4da50948-46cd-4344-8c7a-54c6ae21cd5a",
+      "prefLabel": {
+        "de": "Wechselpräpositonen "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/945b436d-8d97-47b3-8d9d-19f2ec092fe3",
+      "prefLabel": {
+        "de": "Lokale Präpositionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a6728c1a-6b41-4fc8-8687-3fe42727421c",
+      "prefLabel": {
+        "de": "Präpositionen mit Genitiv"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f96c0dd9-0542-4546-9408-6bd127e9babf",
+      "prefLabel": {
+        "de": "Temporale Präpositionen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Main-Collection (All)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox"
+  }
+}
