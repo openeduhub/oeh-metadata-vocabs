@@ -15,7 +15,7 @@
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <720>, <20003>, <04001>, <020>, <04014>, <46014>,
-        <04002>, <040>, <080>, <100>, <12002>, <120>, <28002>, <04005>,
+        <04002>, <040>, <080>, <100>, <20041>, <12002>, <120>, <28002>, <04005>,
         <04006>, <20001>, <440>, <20090>, <160>, <04007>, <20002>, <220>,
         <240>, <48005>, <260>, <50001>, <04009>, <320>, <340>, <20004>,
         <060>, <04010>, <20005>, <380>, <3801>, <900>, <400>, <04011>,
@@ -79,6 +79,10 @@
     skos:prefLabel "Chemistry"@en, "Chemie"@de ;
     skos:related eafkey:chemie ;
     skos:related eafsys:100 ;
+    skos:topConceptOf <> .
+
+<20041> a skos:Concept ;
+    skos:prefLabel "Chinese"@en, "Chinesisch"@de ;
     skos:topConceptOf <> .
 
 <12002> a skos:Concept ;
