@@ -14,19 +14,59 @@
     dct:modified "2020-11-01"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <720>, <080>, <100>, <28002>, <12002>, <120>,
-        <20001>, <220>, <160>, <20002>, <240>, <28010>, <320>, <060>,
-        <20005>, <380>, <400>, <420>, <450>, <460>, <480>, <510>, <04013>,
-        <520>, <20006>, <44006>, <44007>, <20007>, <600>, <700>, <020>,
-        <040>, <04001>, <04002>, <04003>, <04005>, <04006>, <04007>,
-        <04009>, <04010>, <04011>, <04012>, <04014>, <20003>, <20004>,
-        <20008>, <20009>, <20090>, <260>, <440>, <46014>, <50001>, <50005>,
-        <560>, <640>, <64018>, <660>, <680>, <340>, <niederdeutsch>, <48005>,
-        <900>, <44099>.
+    skos:hasTopConcept <720>, <20003>, <04001>, <020>, <04014>, <46014>,
+        <04002>, <040>, <080>, <100>, <12002>, <120>, <28002>, <04005>,
+        <04006>, <20001>, <440>, <20090>, <160>, <04007>, <20002>, <220>,
+        <240>, <48005>, <260>, <50001>, <04009>, <320>, <340>, <20004>,
+        <060>, <04010>, <20005>, <380>, <3801>, <900>, <400>, <04011>,
+        <04003>, <420>, <64018>, <niederdeutsch>, <44099>, <450>, <460>,
+        <480>, <510>, <520>, <20006>, <28010>, <560>, <44006>, <20009>,
+        <44007>, <20007>, <600>, <04012>, <20008>, <04013>, <700>, <640>,
+        <660>, <680>, <50005>, <999>
+        .
+
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
     skos:altLabel "Sonstiges"@de ;
+    skos:topConceptOf <> .
+
+<20003> a skos:Concept ;
+    skos:prefLabel "Ancient Greek"@en, "Alt-Griechisch"@de ;
+    skos:related eafsys:20003 ;
+    skos:topConceptOf <> .
+
+<04001> a skos:Concept ;
+    skos:prefLabel "Agricultural economics"@en, "Agrarwirtschaft"@de ;
+    skos:related eafsys:04001 ;
+    skos:topConceptOf <> .
+
+<020> a skos:Concept ;
+    skos:prefLabel "Career education"@en, "Arbeitslehre"@de ;
+    skos:related eafkey:arbeitslehre ;
+    skos:related eafsys:020 ;
+    skos:topConceptOf <> .
+
+<04014> a skos:Concept ;
+    skos:prefLabel "Work safety"@en, "Arbeitssicherheit"@de ;
+    skos:related eafsys:04014 ;
+    skos:topConceptOf <> .
+
+<46014> a skos:Concept ;
+    skos:prefLabel "Astronomy"@en, "Astronomie"@de ;
+    skos:related eafsys:46014 ;
+    skos:topConceptOf <> .
+
+<04002> a skos:Concept ;
+    skos:prefLabel "Construction engineering"@en, "Bautechnik"@de ;
+    skos:related eafsys:04002 ;
+    skos:topConceptOf <> .
+
+<040> a skos:Concept ;
+    skos:prefLabel "Vocational education"@en, "Berufliche Bildung"@de ;
+    skos:altLabel "Berufsausbildung"@de ;
+    skos:related eafkey:beruflichebildung ;
+    skos:related eafsys:040 ;
     skos:topConceptOf <> .
 
 <080> a skos:Concept ;
@@ -39,16 +79,6 @@
     skos:prefLabel "Chemistry"@en, "Chemie"@de ;
     skos:related eafkey:chemie ;
     skos:related eafsys:100 ;
-    skos:topConceptOf <> .
-
-<28002> a skos:Concept ;
-    skos:prefLabel "German as second language"@en, "Deutsch als Zweitsprache"@de ;
-    skos:altLabel "DaZ"@de ;
-    skos:altLabel "DaF"@de ;
-    skos:altLabel "Deutsch als Zweit- / Fremdsprache"@de ;
-    skos:altLabel "Deutsch als Fremdsprache"@de ;
-    skos:related eafsys:12005 ;
-    skos:editorialNote "Die momentane ID 28002 verweist in der EAF-Sachgebietssystematik auf einen falschen Eintrag. Es müsste 12005 sein."@de ;
     skos:topConceptOf <> .
 
 <12002> a skos:Concept ;
@@ -65,9 +95,57 @@
     skos:related eafsys:120 ;
     skos:topConceptOf <> .
 
+<28002> a skos:Concept ;
+    skos:prefLabel "German as second language"@en, "Deutsch als Zweitsprache"@de ;
+    skos:altLabel "DaZ"@de ;
+    skos:altLabel "DaF"@de ;
+    skos:altLabel "Deutsch als Zweit- / Fremdsprache"@de ;
+    skos:altLabel "Deutsch als Fremdsprache"@de ;
+    skos:related eafsys:12005 ;
+    skos:editorialNote "Die momentane ID 28002 verweist in der EAF-Sachgebietssystematik auf einen falschen Eintrag. Es müsste 12005 sein."@de ;
+    skos:topConceptOf <> .
+
+<04005> a skos:Concept ;
+    skos:prefLabel "Electrical engineering"@en, "Eletrotechnik"@de ;
+    skos:related eafsys:04005 ;
+    skos:topConceptOf <> .
+
+<04006> a skos:Concept ;
+    skos:prefLabel "Nutrition and home economics"@en, "Ernährung und Hauswirtschaft"@de ;
+    skos:related eafsys:04006 ;
+    skos:topConceptOf <> .
+
 <20001> a skos:Concept ;
     skos:prefLabel "English"@en, "Englisch"@de ;
     skos:related eafsys:20001 ;
+    skos:topConceptOf <> .
+
+<440> a skos:Concept ;
+    skos:prefLabel "Pedagogy"@en, "Pädagogik"@de ;
+    skos:altLabel "Erziehungswissenschaften"@de ;
+    skos:related eafkey:pädagogik ;
+    skos:related eafsys:440 ;
+    skos:topConceptOf <> .
+
+<20090> a skos:Concept ;
+    skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
+    skos:related eafsys:20090 ;
+    skos:topConceptOf <> .
+
+<160> a skos:Concept ;
+    skos:prefLabel "Ethics"@en, "Ethik"@de ;
+    skos:related eafkey:ethik ;
+    skos:related eafsys:160 ;
+    skos:topConceptOf <> .
+
+<04007> a skos:Concept ;
+    skos:prefLabel "Color technology and interior design"@en, "Farbtechnik und Raumgestaltung"@de ;
+    skos:related eafsys:04007 ;
+    skos:topConceptOf <> .
+
+<20002> a skos:Concept ;
+    skos:prefLabel "French"@en, "Französisch"@de ;
+    skos:related eafsys:20002 ;
     skos:topConceptOf <> .
 
 <220> a skos:Concept ;
@@ -78,27 +156,34 @@
     skos:related eafsys:220 ;
     skos:topConceptOf <> .
 
-<160> a skos:Concept ;
-    skos:prefLabel "Ethics"@en, "Ethik"@de ;
-    skos:related eafkey:ethik ;
-    skos:related eafsys:160 ;
-    skos:topConceptOf <> .
-
-<20002> a skos:Concept ;
-    skos:prefLabel "French"@en, "Französisch"@de ;
-    skos:related eafsys:20002 ;
-    skos:topConceptOf <> .
-
 <240> a skos:Concept ;
     skos:prefLabel "History"@en, "Geschichte"@de ;
     skos:related eafkey:geschichte ;
     skos:related eafsys:20002 ;
     skos:topConceptOf <> .
 
-<28010> a skos:Concept ;
-    skos:prefLabel "Homeland lessons"@en, "Sachunterricht"@de ;
-    skos:altLabel "Heimatunterricht"@de ;
-    skos:related eafsys:28010 ;
+<48005> a skos:Concept ;
+    skos:prefLabel "Gesellschaftskunde"@de ;
+    skos:prefLabel "social studies"@en ;
+    skos:altLabel "Gesellschaftspolitische Gegenwartsfragen"@de ;
+    skos:related eafsys:48005 ;
+    skos:topConceptOf <> .
+
+<260> a skos:Concept ;
+    skos:prefLabel "Health education"@en, "Gesundheit"@de ;
+    skos:altLabel "Gesundheitserziehung"@de ;
+    skos:related eafkey:gesundheit ;
+    skos:related eafsys:260 ;
+    skos:topConceptOf <> .
+
+<50001> a skos:Concept ;
+    skos:prefLabel "Home economics"@en, "Hauswirtschaft"@de ;
+    skos:related eafsys:50001 ;
+    skos:topConceptOf <> .
+
+<04009> a skos:Concept ;
+    skos:prefLabel "Wood engineering"@en, "Holztechnik"@de ;
+    skos:related eafsys:04009 ;
     skos:topConceptOf <> .
 
 <320> a skos:Concept ;
@@ -114,11 +199,21 @@
     skos:related eafsys:340 ;
     skos:topConceptOf <> .
 
+<20004> a skos:Concept ;
+    skos:prefLabel "Italian"@en, "Italienisch"@de ;
+    skos:related eafsys:20004 ;
+    skos:topConceptOf <> .
+
 <060> a skos:Concept ;
     skos:prefLabel "Art education"@en, "Kunst"@de ;
     skos:altLabel "Kunsterziehung"@de ;
     skos:related eafkey:bildendekunst ;
     skos:related eafsys:060 ;
+    skos:topConceptOf <> .
+
+<04010> a skos:Concept ;
+    skos:prefLabel "Body care"@en, "Körperpflege"@de ;
+    skos:related eafsys:04010 ;
     skos:topConceptOf <> .
 
 <20005> a skos:Concept ;
@@ -141,6 +236,12 @@
     skos:broader <380> ;
     skos:inScheme <> .
 
+<900> a skos:Concept ;
+    skos:prefLabel "Medienbildung"@de ;
+    skos:prefLabel "media education"@en ;
+    skos:editorialNote "Überbegriff für Mediendidaktik und Medienerziehung"@de ;
+    skos:topConceptOf <> .
+
 <400> a skos:Concept ;
     skos:prefLabel "Media education"@en, "Mediendidaktik"@de ;
     skos:altLabel "Medienerziehung"@de ;
@@ -150,10 +251,42 @@
     skos:editorialNote "Auf EAF-Sachgebietssystematik 'Medienpädagogik'(400) gemapped."@de ;
     skos:topConceptOf <> .
 
+<04011> a skos:Concept ;
+    skos:prefLabel "Metal engineering"@en, "Metalltechnik"@de ;
+    skos:related eafsys:04011 ;
+    skos:topConceptOf <> .
+
+<04003> a skos:Concept ;
+    skos:prefLabel "MINT"@de, "MINT"@en ;
+    skos:altLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
+    skos:altLabel "Naturwissenschaften"@de ;
+    skos:related <100>, <080>, <460>, <320> ;
+    skos:topConceptOf <> .
+
 <420> a skos:Concept ;
     skos:prefLabel "Music"@en, "Musik"@de ;
     skos:related eafkey:musik ;
     skos:related eafsys:420 ;
+    skos:topConceptOf <> .
+
+<64018> a skos:Concept ;
+    skos:prefLabel "Sustainability"@en ;
+    skos:prefLabel "Nachhaltigkeit"@de ;
+    skos:editorialNote "Ergänzung durch OEH. Nicht in original EAF vorhanden"@de ;
+    skos:topConceptOf <> .
+
+<niederdeutsch> a skos:Concept ;
+    skos:prefLabel "Niederdeutsch"@de ;
+    skos:prefLabel "Platt German"@en ;
+    skos:altLabel "Platt"@de ;
+    skos:topConceptOf <> .
+
+<44099> a skos:Concept ;
+    skos:prefLabel "Open Educational Resources"@de ;
+    skos:prefLabel "Open Educational Resources"@en ;
+    skos:altLabel "OER"@de ;
+    skos:altLabel "OER"@en ;
+    skos:editorialNote "Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden"@de ;
     skos:topConceptOf <> .
 
 <450> a skos:Concept ;
@@ -180,11 +313,6 @@
     skos:editorialNote "Keine Referenz zu EAFkey vorhanden"@de ;
     skos:topConceptOf <> .
 
-<04013> a skos:Concept ;
-    skos:prefLabel "Business and administration"@en, "Wirtschaft und Verwaltung"@de ;
-    skos:related eafsys:04013 ;
-    skos:topConceptOf <> .
-
 <520> a skos:Concept ;
     skos:prefLabel "Religious education"@en, "Religion"@de ;
     skos:altLabel "Religionsunterricht"@de ;
@@ -197,8 +325,26 @@
     skos:related eafsys:20006 ;
     skos:topConceptOf <> .
 
+<28010> a skos:Concept ;
+    skos:prefLabel "Homeland lessons"@en, "Sachunterricht"@de ;
+    skos:altLabel "Heimatunterricht"@de ;
+    skos:related eafsys:28010 ;
+    skos:topConceptOf <> .
+
+<560> a skos:Concept ;
+    skos:prefLabel "Sex education"@en ;
+    skos:prefLabel "Sexualerziehung"@de ;
+    skos:related eafkey:sexualerziehung ;
+    skos:related eafsys:560 ;
+    skos:topConceptOf <> .
+
 <44006> a skos:Concept ;
     skos:prefLabel "Special needs eduation"@en, "Sonderpädagogik"@de ;
+    skos:topConceptOf <> .
+
+<20009> a skos:Concept ;
+    skos:prefLabel "Sorbian"@en, "Sorbisch"@de ;
+    skos:related eafsys:20009 ;
     skos:topConceptOf <> .
 
 <44007> a skos:Concept ;
@@ -218,91 +364,9 @@
     skos:related eafsys:600 ;
     skos:topConceptOf <> .
 
-<700> a skos:Concept ;
-    skos:prefLabel "Economics"@en, "Wirtschaftskunde"@de ;
-    skos:altLabel "Wirtschaftswissenschaften"@de ;
-    skos:related eafkey:wirtschaftskunde ;
-    skos:related eafsys:700 ;
-    skos:topConceptOf <> .
-
-<020> a skos:Concept ;
-    skos:prefLabel "Career education"@en, "Arbeitslehre"@de ;
-    skos:related eafkey:arbeitslehre ;
-    skos:related eafsys:020 ;
-    skos:topConceptOf <> .
-
-<040> a skos:Concept ;
-    skos:prefLabel "Vocational education"@en, "Berufliche Bildung"@de ;
-    skos:altLabel "Berufsausbildung"@de ;
-    skos:related eafkey:beruflichebildung ;
-    skos:related eafsys:040 ;
-    skos:topConceptOf <> .
-
-<04001> a skos:Concept ;
-    skos:prefLabel "Agricultural economics"@en, "Agrarwirtschaft"@de ;
-    skos:related eafsys:04001 ;
-    skos:topConceptOf <> .
-
-<04002> a skos:Concept ;
-    skos:prefLabel "Construction engineering"@en, "Bautechnik"@de ;
-    skos:related eafsys:04002 ;
-    skos:topConceptOf <> .
-
-<04003> a skos:Concept ;
-    skos:prefLabel "MINT"@de, "MINT"@en ;
-    skos:altLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
-    skos:altLabel "Naturwissenschaften"@de ;
-    skos:related <100>, <080>, <460>, <320> ;
-    skos:topConceptOf <> .
-
-<04005> a skos:Concept ;
-    skos:prefLabel "Electrical engineering"@en, "Eletrotechnik"@de ;
-    skos:related eafsys:04005 ;
-    skos:topConceptOf <> .
-
-<04006> a skos:Concept ;
-    skos:prefLabel "Nutrition and home economics"@en, "Ernährung und Hauswirtschaft"@de ;
-    skos:related eafsys:04006 ;
-    skos:topConceptOf <> .
-
-<04007> a skos:Concept ;
-    skos:prefLabel "Color technology and interior design"@en, "Farbtechnik und Raumgestaltung"@de ;
-    skos:related eafsys:04007 ;
-    skos:topConceptOf <> .
-
-<04009> a skos:Concept ;
-    skos:prefLabel "Wood engineering"@en, "Holztechnik"@de ;
-    skos:related eafsys:04009 ;
-    skos:topConceptOf <> .
-
-<04010> a skos:Concept ;
-    skos:prefLabel "Body care"@en, "Körperpflege"@de ;
-    skos:related eafsys:04010 ;
-    skos:topConceptOf <> .
-
-<04011> a skos:Concept ;
-    skos:prefLabel "Metal engineering"@en, "Metalltechnik"@de ;
-    skos:related eafsys:04011 ;
-    skos:topConceptOf <> .
-
 <04012> a skos:Concept ;
     skos:prefLabel "Textile technology and clothing"@en, "Textiltechnik und Bekleidung"@de ;
     skos:related eafsys:04012 ;
-    skos:topConceptOf <> .
-
-<04014> a skos:Concept ;
-    skos:prefLabel "Work safety"@en, "Arbeitssicherheit"@de ;
-    skos:related eafsys:04014 ;
-    skos:topConceptOf <> .
-
-<20003> a skos:Concept ;
-    skos:prefLabel "Ancient Greek"@en, "Alt-Griechisch"@de ;
-    skos:related eafsys:20003 ;
-    skos:topConceptOf <> .
-
-<20004> a skos:Concept ;
-    skos:prefLabel "Italian"@en, "Italienisch"@de ;
-    skos:related eafsys:20004 ;
     skos:topConceptOf <> .
 
 <20008> a skos:Concept ;
@@ -310,50 +374,16 @@
     skos:related eafsys:20008 ;
     skos:topConceptOf <> .
 
-<20009> a skos:Concept ;
-    skos:prefLabel "Sorbian"@en, "Sorbisch"@de ;
-    skos:related eafsys:20009 ;
+<04013> a skos:Concept ;
+    skos:prefLabel "Business and administration"@en, "Wirtschaft und Verwaltung"@de ;
+    skos:related eafsys:04013 ;
     skos:topConceptOf <> .
 
-<20090> a skos:Concept ;
-    skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
-    skos:related eafsys:20090 ;
-    skos:topConceptOf <> .
-
-<260> a skos:Concept ;
-    skos:prefLabel "Health education"@en, "Gesundheit"@de ;
-    skos:altLabel "Gesundheitserziehung"@de ;
-    skos:related eafkey:gesundheit ;
-    skos:related eafsys:260 ;
-    skos:topConceptOf <> .
-
-<440> a skos:Concept ;
-    skos:prefLabel "Pedagogy"@en, "Pädagogik"@de ;
-    skos:altLabel "Erziehungswissenschaften"@de ;
-    skos:related eafkey:pädagogik ;
-    skos:related eafsys:440 ;
-    skos:topConceptOf <> .
-
-<46014> a skos:Concept ;
-    skos:prefLabel "Astronomy"@en, "Astronomie"@de ;
-    skos:related eafsys:46014 ;
-    skos:topConceptOf <> .
-
-<50001> a skos:Concept ;
-    skos:prefLabel "Home economics"@en, "Hauswirtschaft"@de ;
-    skos:related eafsys:50001 ;
-    skos:topConceptOf <> .
-
-<50005> a skos:Concept ;
-    skos:prefLabel "Handicraft"@en, "Werken"@de ;
-    skos:related eafsys:50005 ;
-    skos:topConceptOf <> .
-
-<560> a skos:Concept ;
-    skos:prefLabel "Sex education"@en ;
-    skos:prefLabel "Sexualerziehung"@de ;
-    skos:related eafkey:sexualerziehung ;
-    skos:related eafsys:560 ;
+<700> a skos:Concept ;
+    skos:prefLabel "Economics"@en, "Wirtschaftskunde"@de ;
+    skos:altLabel "Wirtschaftswissenschaften"@de ;
+    skos:related eafkey:wirtschaftskunde ;
+    skos:related eafsys:700 ;
     skos:topConceptOf <> .
 
 <640> a skos:Concept ;
@@ -362,12 +392,6 @@
     skos:altLabel "Umwelterziehung"@de ;
     skos:related eafkey:umweltgefährdungumweltschutz ;
     skos:related eafsys:640 ;
-    skos:topConceptOf <> .
-
-<64018> a skos:Concept ;
-    skos:prefLabel "Sustainability"@en ;
-    skos:prefLabel "Nachhaltigkeit"@de ;
-    skos:editorialNote "Ergänzung durch OEH. Nicht in original EAF vorhanden"@de ;
     skos:topConceptOf <> .
 
 <660> a skos:Concept ;
@@ -382,30 +406,13 @@
     skos:related eafsys:680 ;
     skos:topConceptOf <> .
 
-<niederdeutsch> a skos:Concept ;
-    skos:prefLabel "Niederdeutsch"@de ;
-    skos:prefLabel "Platt German"@en ;
-    skos:altLabel "Platt"@de ;
+<50005> a skos:Concept ;
+    skos:prefLabel "Handicraft"@en, "Werken"@de ;
+    skos:related eafsys:50005 ;
     skos:topConceptOf <> .
 
-<48005> a skos:Concept ;
-    skos:prefLabel "Gesellschaftskunde"@de ;
-    skos:prefLabel "social studies"@en ;
-    skos:altLabel "Gesellschaftspolitische Gegenwartsfragen"@de ;
-    skos:related eafsys:48005 ;
-    skos:topConceptOf <> .
-
-<900> a skos:Concept ;
-    skos:prefLabel "Medienbildung"@de ;
-    skos:prefLabel "media education"@en ;
-    skos:editorialNote "Überbegriff für Mediendidaktik und Medienerziehung"@de ;
-    skos:topConceptOf <> .
-
-<44099> a skos:Concept ;
-    skos:prefLabel "Open Educational Resources"@de ;
-    skos:prefLabel "Open Educational Resources"@en ;
-    skos:altLabel "OER"@de ;
-    skos:altLabel "OER"@en ;
+<999> a skos:Concept ;
+    skos:prefLabel "Sonstiges"@de ;
+    skos:prefLabel "Other"@en ;
     skos:editorialNote "Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden"@de ;
     skos:topConceptOf <> .
-
