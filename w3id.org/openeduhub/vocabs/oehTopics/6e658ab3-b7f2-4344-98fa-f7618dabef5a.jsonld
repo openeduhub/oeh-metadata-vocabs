@@ -4,13 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F6e658ab3-b7f2-4344-98fa-f7618dabef5a",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F6e658ab3-b7f2-4344-98fa-f7618dabef5a",
   "prefLabel": {
-    "de": "soziale Gerechtigkeit "
+    "de": "Soziale Gerechtigkeit"
+  },
+  "definition": {
+    "de": "Ungleichverteilungen von Ressourcen und Chancen finden sich in allen Gesellschaften. Diese sozialen Ungerechtigkeiten sind fortlaufend Gegenstand politischer Auseinandersetzungen: Wen grenzen wir als Gesellschaft aus? Wer trägt die Lasten und wer profitiert? In dieser Sammlung bündeln wir Materialien zu verschiedenen Facetten sozialer Gerechtigkeit."
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8ffb6420-4236-40a4-a768-014e34565ec1",
       "prefLabel": {
-        "de": "soziale Sicherung "
+        "de": "Soziale Sicherung"
       }
     },
     {
@@ -41,7 +44,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

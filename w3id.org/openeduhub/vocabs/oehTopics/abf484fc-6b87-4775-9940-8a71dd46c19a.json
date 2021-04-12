@@ -4,28 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fabf484fc-6b87-4775-9940-8a71dd46c19a",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fabf484fc-6b87-4775-9940-8a71dd46c19a",
   "prefLabel": {
-    "de": "Schreibprozess (Planen, Formulieren, Überarbeiten)"
+    "de": "Schreibprozess"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1dbc0447-023e-4b01-94bb-853a7b6c32c9",
-      "prefLabel": {
-        "de": "Überarbeitungsstrategien"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3d449e4a-d687-444a-b2f2-51e125f279bd",
-      "prefLabel": {
-        "de": "Schreibplan / Gliederung "
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6413b6c0-78f4-4903-a3df-3be10066e5a7",
-      "prefLabel": {
-        "de": "Stoffsammlung"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/38154eec-b4d4-4889-b33e-9a66a2b2c81d",
     "prefLabel": {
@@ -35,7 +15,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

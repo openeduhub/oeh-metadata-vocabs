@@ -6,20 +6,6 @@
   "prefLabel": {
     "de": "Museen"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1de0b583-aab6-4c20-860a-d8bc10dc7e2e",
-      "prefLabel": {
-        "de": "virtuelle Besuche"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cf7f43f7-dd74-4272-b0cd-cc736e071ada",
-      "prefLabel": {
-        "de": "pädagogisches Material"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6a3f5881-cce0-4e8d-b123-26392b3f1c19",
     "prefLabel": {
@@ -29,7 +15,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

@@ -4,21 +4,35 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4821b916-5622-4e99-907f-ba424ea19168",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4821b916-5622-4e99-907f-ba424ea19168",
   "prefLabel": {
-    "de": "Der Bindungstyp Atombindung"
+    "de": "Die Atombindung"
   },
   "definition": {
-    "de": "Als Atombindung bezeichnet man Bindungen, bei denen sich Atome Elektronen zur gemeinsamen Nutzung zur Verfügung stellen, um den Edelgaszustand zu erreichen.\nDie Themen wie \"Dipole\" und \"Wasserstoffbrückenbdinungen\" sind Unterabschnitte im Thema \"Allgemeine Chemie\"."
+    "de": "Aus energetischen Gründen sind die allermeisten Atome bestrebt, eine vollbesetzte äußere Elektronenschale zu erhalten. Eine Möglichkeit, diesen auch als Edelgaskonfiguration bezeichneten Zustand zu erreichen, ist das Teilen von Elektronen zwischen zwei Atomen. Dadurch sind diese Atome über eine Atombindung, die oft auch als kovalente Bindung oder Elektronenpaarbindung bezeichnet wird, verbunden. Und natürlich ist es auch denkbar, dass Atome sich mehrere Elektronen teilen. So entstehen Doppel- und Dreifachbindungen."
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a189c2aa-3073-4931-bfcd-f449947e25ed",
+      "prefLabel": {
+        "de": "Abbildungen von Molekülen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/dff1f83c-97c4-46fd-aee0-d55370f4c164",
+      "prefLabel": {
+        "de": "Polare Atombindung"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",
     "prefLabel": {
-      "de": "Typen von Bindungen"
+      "de": "Bindungstypen"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

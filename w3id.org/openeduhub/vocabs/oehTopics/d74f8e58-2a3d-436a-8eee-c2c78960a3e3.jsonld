@@ -4,56 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd74f8e58-2a3d-436a-8eee-c2c78960a3e3",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd74f8e58-2a3d-436a-8eee-c2c78960a3e3",
   "prefLabel": {
-    "de": "Kurvendiskussion"
+    "de": "vollständige Kurvendiskussion"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/213d037b-6cf2-4704-9386-f05c6eaac3e4",
-      "prefLabel": {
-        "de": "Skizzieren ganz-rationaler Funktionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2533ae28-b6bc-413d-a70a-e32de3c30aae",
-      "prefLabel": {
-        "de": "Extremwerte"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/52b9e724-d1bd-4123-b69c-73b985b3d712",
-      "prefLabel": {
-        "de": "Grenzwerte von Funktionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8fef32ea-3378-4736-9f79-7a6c33538ba9",
-      "prefLabel": {
-        "de": "Gebrochen-rationale Funktionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9f58e63b-1fe9-4dc9-b6cc-3dbcecdbac0a",
-      "prefLabel": {
-        "de": "Nullstellen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fe587b12-a3a3-413e-bb3a-8bf711688e77",
-      "prefLabel": {
-        "de": "Wendepunkte"
-      }
-    }
-  ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d6479851-c1a9-4435-845b-331580dac6db",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e6b5ba75-0fb0-443d-9ce6-145a97f52b89",
     "prefLabel": {
-      "de": "Analysis"
+      "de": "Ganzrationale Funktionen"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

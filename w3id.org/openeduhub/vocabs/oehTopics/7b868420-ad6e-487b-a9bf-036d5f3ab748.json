@@ -6,54 +6,57 @@
   "prefLabel": {
     "de": "Hauptsätze und Satzreihen"
   },
+  "definition": {
+    "de": "Hier findest du alles zu Hauptsätzen und Satzreihen, darunter Aussagesätze, direkte Fragesätze, Ausrufesätze, Aufforderungssätze sowie Wunschsätze."
+  },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/19b175b3-126e-40d9-9e03-baccb47765af",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0d944788-5b47-48b7-838c-31af4deb309f",
       "prefLabel": {
-        "de": "Wunschsätze"
+        "de": "Aussagesätze"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6a15aea9-e2ea-4c59-a80a-a6340270ab32",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/18e16183-59d7-4600-8816-5b4d2d8cd943",
       "prefLabel": {
         "de": "Aufforderungssätze"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6b18eb4f-b4a9-42d0-a1b4-2476de1aa3be",
-      "prefLabel": {
-        "de": "Direkte Fragesätze"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/886c183d-6560-4afb-909c-6a15c952b787",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/20d6ddd2-22bd-44bc-832c-48bf69f81825",
       "prefLabel": {
         "de": "Satzreihen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8b8756cf-f89e-49da-8e76-bd329a97d333",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/873249b5-775b-4d83-92ad-571adb2fa02a",
+      "prefLabel": {
+        "de": "direkte Fragesätze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c7d36570-3c5a-4183-8b26-56cb213dff5b",
       "prefLabel": {
         "de": "Ausrufesätze"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c5b8ef43-e67f-46f7-b68e-916bce920bb4",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f346e513-ddab-4c62-a5fc-84221a5ec259",
       "prefLabel": {
-        "de": "Aussagesätze"
+        "de": "Wunschsätze"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0f7d4094-0ebb-4df9-b79e-ed62d4ec197a",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
     "prefLabel": {
-      "de": "Satzbau"
+      "de": "Grammatik"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

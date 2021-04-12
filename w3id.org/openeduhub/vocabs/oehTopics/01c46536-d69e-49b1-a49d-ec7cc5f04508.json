@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Interkulturelles"
   },
+  "definition": {
+    "de": "Zur deutschen Sprache gehören auch die Menschen und ihre Kultur. In Europa lebt der Großteil der Muttersprachler:innen in Deutschland, Österreich und in der Schweiz. Die Abkürzung für diesen Sprachraum ist D-A-CH. Aber auch in anderen Ländern wird Deutsch mit offiziellem Status gesprochen. Darunter sind Liechtenstein, Belgien und Luxemburg. Jedes dieser Länder hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier viele tolle Inhalte, die dir die deutschsprachige Welt noch näher bringen."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/501fd767-c5cf-4eb8-856d-3069578e6bec",
@@ -20,6 +23,18 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/642221d2-714e-43c8-b35e-bb48838e7c00",
+      "prefLabel": {
+        "de": "Landesküchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/64f0b3d1-91a2-4053-ba05-7768b6f92a95",
+      "prefLabel": {
+        "de": "Literatur und Film"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7d3c8cd3-6b17-4554-b854-c33a045a153b",
       "prefLabel": {
         "de": "Geschichte"
@@ -29,6 +44,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b50cce16-e178-468f-be93-143542b9aa3f",
       "prefLabel": {
         "de": "Länder und Leute"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bb3588cf-cd74-43d3-be2d-91d7856962ae",
+      "prefLabel": {
+        "de": "Musik und Liedgut"
       }
     },
     {
@@ -47,7 +68,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

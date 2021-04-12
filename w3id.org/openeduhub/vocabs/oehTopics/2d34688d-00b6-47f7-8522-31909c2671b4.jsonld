@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F2d34688d-00b6-47f7-8522-31909c2671b4",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F2d34688d-00b6-47f7-8522-31909c2671b4",
   "prefLabel": {
-    "de": "Arithmetik"
+    "de": "Algebra"
   },
   "definition": {
     "de": "Früher wurde Arithmetik als \"Rechenkunst\" aufgefasst. Wir fassen darunter diejenigen Gebiete zum Rechnen mit Zahlen, die üblicherweise in der Sekundarstufe I gelernt werden. Im Sinne der Kernlehrpläne geht es hier vor allem - aber nicht nur - um mathematisches Operieren."
@@ -13,25 +13,37 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/00da2fcc-64b5-4db7-9b9b-d41e7381aca9",
       "prefLabel": {
-        "de": "Potenzen, Logarithmen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/07238f71-8db8-498e-bdcd-32ebf58d6ebf",
-      "prefLabel": {
-        "de": "Vertiefung der Grundrechenarten"
+        "de": "Potenzen & Logarithmen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0a62a10e-374a-46e2-a7d6-0c6954e755c0",
       "prefLabel": {
-        "de": "Prozente und Zinsen"
+        "de": "Prozente & Zinsen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/216afeb6-e115-4405-a3bf-815abd7713fe",
+      "prefLabel": {
+        "de": "Gleichungen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7fccdc6c-dc31-40c4-8a4b-6cf0b55b433c",
       "prefLabel": {
         "de": "Negative Zahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ba0dda9d-8c4c-42ab-b28b-4bc673086b98",
+      "prefLabel": {
+        "de": "Grundrechenarten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bf9543bb-2999-4efc-b9c7-e0e852af5c7e",
+      "prefLabel": {
+        "de": "Terme"
       }
     },
     {
@@ -59,6 +71,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d074eb41-bb3d-4ce2-b71b-6fce18cdd36a",
+      "prefLabel": {
+        "de": "Zahlenmengen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d6c88b81-b639-4b89-94d7-c0507a3e90be",
       "prefLabel": {
         "de": "Bruchrechnung"
@@ -80,7 +98,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

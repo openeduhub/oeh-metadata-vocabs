@@ -4,21 +4,21 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F20163f83-7c85-4b36-96b7-e244b83db23d",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F20163f83-7c85-4b36-96b7-e244b83db23d",
   "prefLabel": {
-    "de": "Zusammenhang und Abgrenzung Entropie und Enthalpie"
+    "de": "Entropie und Enthalpie"
   },
   "definition": {
-    "de": "Entropie und Enthalpie sind Maße für bestimmte Zustandsgrößen in der Thermodynamik. Große Bedeutung hat die Enthalpie, die man auch als \"Energie\" bezeichnen kann.\n\nMit der Entropie lassen sich dagegen Reaktionen erklären, die eigentlich nicht stattfinden sollten."
+    "de": "Entropie und Enthalpie sind thermodynamische Größen, mit denen sich Aussagen darüber treffen lassen, ob eine chemische Reaktion freiwillig abläuft - oder nicht. Die Enthalpie ist die bei konstantem Umgebungsdruck mit der Umgebung ausgetauschte Energie, während die Entropie ein Maß für die Unordnung eines Systems ist. Beide Größen zusammen werden oft über die Gibbs-Helmholtz-Gleichung zur freien Enthalpie zusammengefasst."
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/37e52144-ac0f-4622-b03c-9cea7749d8a5",
     "prefLabel": {
-      "de": "Die Thermodynamik"
+      "de": "Thermodynamik"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

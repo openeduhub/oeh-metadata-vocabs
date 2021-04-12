@@ -6,16 +6,36 @@
   "prefLabel": {
     "de": "Lineare Funktionen"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/25ec3458-96ec-4a6b-baf4-c17de14b38c9",
+      "prefLabel": {
+        "de": "Funktionsgleichung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/643e4d4c-2ceb-424b-9aa9-216fe0f49c61",
+      "prefLabel": {
+        "de": "Steigungsdreieck"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e88fce2e-a044-4be5-865d-f0a325ac3d26",
+      "prefLabel": {
+        "de": "Berechnen der Nullstelle"
+      }
+    }
+  ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/44c952b2-5397-40f7-b9d8-19432fa58eee",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d6479851-c1a9-4435-845b-331580dac6db",
     "prefLabel": {
-      "de": "Zuordnungen, Funktionen"
+      "de": "Analysis"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

@@ -4,70 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Feb96991f-a7ae-48ab-a22a-b039702aafb8",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Feb96991f-a7ae-48ab-a22a-b039702aafb8",
   "prefLabel": {
-    "de": "Sportspiele"
+    "de": "Spiele"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3c97a723-8ae4-4b50-a832-6d7dd789c20d",
-      "prefLabel": {
-        "de": "Boccia"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5d72d24b-2947-4d7a-8432-eb9b379433c1",
-      "prefLabel": {
-        "de": "Sitzball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6649adf5-47cf-446e-a6dd-0678b3a2d124",
-      "prefLabel": {
-        "de": "Völkerball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/88b78359-1aab-4a03-913c-4012eb9972a9",
-      "prefLabel": {
-        "de": "Kleine Spiele"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/995a6f41-75ee-4dce-8d3c-9c58d7317eae",
-      "prefLabel": {
-        "de": "Raufball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ab221b4c-6d55-4d27-81ec-19bb477c18f1",
-      "prefLabel": {
-        "de": "Faustball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c8c99090-3474-4fb2-85e8-be4843955e77",
-      "prefLabel": {
-        "de": "Brennball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cf04ca93-65f8-42fa-95d6-2115cc3d7142",
-      "prefLabel": {
-        "de": "Netzball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d85f0273-02bd-444a-bc67-73a3e001285c",
-      "prefLabel": {
-        "de": "Dodgeball"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/eaa9a3e8-4dcd-427a-ad0f-c46df297fffb",
-      "prefLabel": {
-        "de": "Korbball"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ea776a48-b3f4-446c-b871-19f84b31d280",
     "prefLabel": {
@@ -77,7 +15,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

@@ -4,38 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ffe116741-e33a-45ad-8b21-2320f93306e5",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ffe116741-e33a-45ad-8b21-2320f93306e5",
   "prefLabel": {
-    "de": "Gespräche gestalten"
+    "de": "Gesprächskultur"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/078f0e16-82d6-46e8-a95f-7404961eae97",
-      "prefLabel": {
-        "de": "Vorlesen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2d4191f9-b286-4ab0-8422-a01144aadbd0",
-      "prefLabel": {
-        "de": "Szenisches Spiel"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9bd0843b-afaf-4a31-890b-f971f9789136",
-      "prefLabel": {
-        "de": "Gedichtvortrag"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f244026d-aceb-4d24-abd6-60d9d4c91b4c",
     "prefLabel": {
-      "de": "Sprechen und Zuhören"
+      "de": "Kommunikation"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

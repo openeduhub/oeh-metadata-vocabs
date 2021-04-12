@@ -4,40 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F97e2fa84-ca92-4ba2-911c-7e318c635c69",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F97e2fa84-ca92-4ba2-911c-7e318c635c69",
   "prefLabel": {
-    "de": "Kommasetzung"
+    "de": "Komma"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0f14bedc-89f7-4d97-b995-86f502a2597c",
-      "prefLabel": {
-        "de": "Nebensätze "
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2fe7ddc6-d5a5-437b-9670-f13a60c580fd",
-      "prefLabel": {
-        "de": "Aufzählungen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/40792e9e-5c32-4e3d-947b-daa602a77fb8",
-      "prefLabel": {
-        "de": "Appositionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/55d82aeb-b8b9-4c6b-a29c-c9b3665c418a",
-      "prefLabel": {
-        "de": "Satzreihen und Satzgefüge "
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c4ae5405-facb-4f4d-8c3b-19364b81aff7",
-      "prefLabel": {
-        "de": "Infinitive"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/69756a85-a71e-4790-8ed0-6c11bb56aa1d",
     "prefLabel": {
@@ -47,7 +15,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

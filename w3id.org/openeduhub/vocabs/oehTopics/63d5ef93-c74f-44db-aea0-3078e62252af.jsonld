@@ -4,73 +4,85 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F63d5ef93-c74f-44db-aea0-3078e62252af",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F63d5ef93-c74f-44db-aea0-3078e62252af",
   "prefLabel": {
-    "de": "Indicativo"
+    "de": "Zeiten im Indicativo"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/43aa6c45-5829-4118-8360-549e2168193a",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/08c4abc5-c91b-4c94-9411-73a4629874e2",
       "prefLabel": {
-        "de": "Pluscuamperfecto"
+        "de": "Condicional simple"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/574ba19d-73c8-4dcb-bd93-911af74afdce",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/43aa6c45-5829-4118-8360-549e2168193a",
       "prefLabel": {
-        "de": "Condicional "
+        "de": "Pretérito pluscuamperfecto de indicativo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/62a16ebe-d314-4cb6-a101-7f903169f2be",
       "prefLabel": {
-        "de": "Indefinido"
+        "de": "Pretérito indefinido"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/671f3334-aff0-46e3-886b-861c20c7282e",
+      "prefLabel": {
+        "de": "Condicional compuesto"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7fd80257-73e7-4b53-9512-a5cc3fe09e92",
       "prefLabel": {
-        "de": "Presente"
+        "de": "Presente de indicativo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/83d6b960-8f86-4b8d-a842-10662e06248b",
       "prefLabel": {
-        "de": "Futuro"
+        "de": "Futuro simple de indicativo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/99f776d8-6ae6-48ce-b531-b073f647caf6",
       "prefLabel": {
-        "de": "Futuro Próximo"
+        "de": "Futuro próximo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a6a3b5a7-d7dd-4a90-907a-13b586cfd856",
+      "prefLabel": {
+        "de": "Futuro compuesto"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b544bee1-adda-420a-9a13-f87eb7689c80",
       "prefLabel": {
-        "de": "Pasado Inmediato"
+        "de": "Pasado inmediato"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c6818dda-f9de-4690-b16d-873ff7759987",
       "prefLabel": {
-        "de": "Perfecto"
+        "de": "Pretérito perfecto de indicativo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e5371881-c03a-46b5-965c-8c380e8b23f8",
       "prefLabel": {
-        "de": "Pretérito Anterior"
+        "de": "Pretérito anterior - en desuso"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f6254953-552b-4257-a4f8-dd04740c3b3e",
       "prefLabel": {
-        "de": "Presente Continuo"
+        "de": "Presente continuo"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fb38181f-d092-4e2d-83f7-ce2391e92391",
       "prefLabel": {
-        "de": "Imperfecto"
+        "de": "Pretérito imperfecto de indicativo"
       }
     }
   ],
@@ -83,7 +95,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

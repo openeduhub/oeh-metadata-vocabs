@@ -6,16 +6,36 @@
   "prefLabel": {
     "de": "Negative Zahlen"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1303794b-2d57-4c9d-bcfc-011727e7f606",
+      "prefLabel": {
+        "de": "Einführung der negativen Zahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2e86dceb-602c-40e8-b192-ad9c7ce30ab1",
+      "prefLabel": {
+        "de": "Addition & Subtraktion negativer Zahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/79cabc0c-7614-4ba5-b7fe-b7dcb09d2827",
+      "prefLabel": {
+        "de": "Multiplikation & Division negativer Zahlen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2d34688d-00b6-47f7-8522-31909c2671b4",
     "prefLabel": {
-      "de": "Arithmetik"
+      "de": "Algebra"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

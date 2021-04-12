@@ -14,9 +14,33 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1709dc07-b126-488f-a040-51be3c513cfc",
+      "prefLabel": {
+        "de": "schriftliche Addition"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/374cb1a6-ca80-4ead-9c77-7e8f9a29bcc3",
+      "prefLabel": {
+        "de": "schriftliche Multiplikation"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4441b15b-bbae-46bf-8311-b966f51cc957",
       "prefLabel": {
         "de": "Zahlen zerlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/479c3c32-d2d5-4ed5-8109-4246aac046e0",
+      "prefLabel": {
+        "de": "Rechengesetze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/66835c9b-d835-4c3c-9b49-0bb2ad90595d",
+      "prefLabel": {
+        "de": "schriftliche Subtraktion"
       }
     },
     {
@@ -32,9 +56,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8753d1b0-c985-4b63-98b3-93d90805bc07",
+      "prefLabel": {
+        "de": "Sachaufgaben zur Vertiefung der Grundrechenarten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8f73479d-b9bc-4033-8f3d-249a83c3fc87",
+      "prefLabel": {
+        "de": "Rechenvorteile"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c4bd25a6-78be-44e0-9fef-b53bb9ff4708",
+      "prefLabel": {
+        "de": "schriftliche Division"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c6f4b917-7506-4f4f-9145-bfe6659bfad7",
       "prefLabel": {
-        "de": "Zahlenvergleich"
+        "de": "Zahlen vergleichen"
       }
     },
     {
@@ -57,15 +99,15 @@
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bd8be6d5-0fbe-4534-a4b3-773154ba6abc",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2d34688d-00b6-47f7-8522-31909c2671b4",
     "prefLabel": {
-      "de": "Mathematik"
+      "de": "Algebra"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

@@ -6,17 +6,44 @@
   "prefLabel": {
     "de": "Rechtschreibung"
   },
+  "definition": {
+    "de": "Die deutsche Rechtschreibung hat manchmal so ihre Tücken. Auch Muttersprachler:innen sind sich nicht immer sicher, ob ein Wort mit ss, s oder ß geschrieben wird, zusammen oder getrennt oder groß oder klein. Manchmal gelten verschiedene Schreibweisen als korrekt, obwohl Velage wie Duden oder Wahrig Empfehlungen dazu geben. Auch die Zeichensetzung lässt eine gewisse Flexibilität zu. Dennoch gibt es jede Menge Regeln, die dir dabei helfen zu entscheiden, wann zum Beispiel ein Komma zwingend notwendig ist und wann nicht. Alles das kannst du hier mit zahlreichen Übungen und Erklärungen trainieren."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2f617292-f21e-4ce0-8d15-059229ab25fa",
       "prefLabel": {
-        "de": "Zeichensetzung"
+        "de": "Vokale, Umlaute und Konsonanten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/52b73d13-f0b2-4ec9-8d1a-08f9b2842fa2",
+      "prefLabel": {
+        "de": "Fremdwörter schreiben"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/89298846-0029-4b5c-bc12-f27efdf3ed28",
       "prefLabel": {
         "de": "Großschreibung und Kleinschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8ec77263-4fdd-45c3-873d-96b5e87a6c8a",
+      "prefLabel": {
+        "de": "Zeichensetzung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/94fae7c5-134f-4e5c-b330-50be85ca264c",
+      "prefLabel": {
+        "de": "Zusammen- oder Getrenntschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c54d4635-7cb2-4b6c-b6c3-49ba32e6efaa",
+      "prefLabel": {
+        "de": "s, ss und ß"
       }
     }
   ],
@@ -29,7 +56,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

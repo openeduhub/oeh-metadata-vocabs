@@ -4,22 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F37e52144-ac0f-4622-b03c-9cea7749d8a5",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F37e52144-ac0f-4622-b03c-9cea7749d8a5",
   "prefLabel": {
-    "de": "Die Thermodynamik"
+    "de": "Thermodynamik"
   },
   "definition": {
-    "de": "Die Thermodynamik ist ein Teilgebiet der Physik und der physikalischen Chemie. Sie beschreibt den Zustand und Änderungen von stofflichen Systemen unter Betrachtung der Energie und weiterer Zustandsgrößen.\nHier geht es auch um die Berechnung von Energieumsätzen bei chemischen Reaktionen, wodurch man Vorhersagen über den Ablauf machen kann. \n\nDas Thema wird ansatzweise im Rahmen der Einführung bei chemischen Reaktionen im Bereich \"Einführung in das Fach Chemie\" betrachtet. Genauer aber erst in der Oberstufe."
+    "de": "Sowohl die Physik als auch die Chemie befassen sich mit der Thermodynamik. Sie beschreibt den Zustand und Änderungen von stofflichen Systemen unter Betrachtung der Energie und weiterer Zustandsgrößen. Durch entsprechende Rechnungen lassen sich Energieumsätze bei chemischen Reaktionen bestimmen, wodurch Vorhersagen über den Ablauf chemischer Reaktionen möglich werden. Grundlagen wie endotherme und exotherme Reaktionen werden oft bereits im Einführungsunterricht besprochen. Entsprechende Materialien sind dem entsprechend auch dort zu finden."
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/20163f83-7c85-4b36-96b7-e244b83db23d",
       "prefLabel": {
-        "de": "Zusammenhang und Abgrenzung Entropie und Enthalpie"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8a0ffddf-b0ee-4bc3-b323-203bd58a4f48",
-      "prefLabel": {
-        "de": "Betrachtung der Reaktionsgeschwindigkeit"
+        "de": "Entropie und Enthalpie"
       }
     },
     {
@@ -37,7 +31,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ce4728c2-fabf-4acd-b42a-8c96d9d7d301",
       "prefLabel": {
-        "de": "Der Begriff und Bedeutung der Energie"
+        "de": "Der Begriff der Energie"
       }
     }
   ],
@@ -50,7 +44,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

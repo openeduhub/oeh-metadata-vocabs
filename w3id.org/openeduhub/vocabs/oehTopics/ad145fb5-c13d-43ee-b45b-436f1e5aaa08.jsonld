@@ -7,13 +7,19 @@
     "de": "Allgemeine Chemie"
   },
   "definition": {
-    "de": "Zur allgemeinen Chemie gehören Themen, die sowohl die Anorganik als auch die Organik betreffen."
+    "de": "Viele Themen der Chemie sind in praktisch allen Teilgebieten der Chemie wichtig. Diese “Grundlagen der Chemie” bilden die allgemeine Chemie. Es geht in der allgemeinen Chemie um zentrale Begriffe und Konzepte wie Atommodelle oder die verschiedenen Arten chemischer Bindungen und zwischenmolekularer Wechselwirkungen. Außerdem beschäftigt sich die allgemeine Chemie mit der Kinetik und Thermodynamik chemischer Reaktionen, also der Frage wie schnell und unter welchen Energieumwandlungen chemische Reaktionen ablaufen."
   },
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2745ffb4-7c40-4a44-bf28-c9cc2f45b10d",
+      "prefLabel": {
+        "de": "Kinetik"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/37e52144-ac0f-4622-b03c-9cea7749d8a5",
       "prefLabel": {
-        "de": "Die Thermodynamik"
+        "de": "Thermodynamik"
       }
     },
     {
@@ -25,19 +31,19 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/63daf3d9-b673-4da0-b1ba-0fad4a58d335",
       "prefLabel": {
-        "de": "Verschiedene Atommodelle in der Chemie"
+        "de": "Atommodelle in der Chemie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/66925fc0-0c09-493b-b526-cae9b94575de",
       "prefLabel": {
-        "de": "Die zwischenmolekulare Kräfte bei Molekülen"
+        "de": "Zwischenmolekulare Kräfte"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",
       "prefLabel": {
-        "de": "Typen von Bindungen"
+        "de": "Bindungstypen"
       }
     }
   ],
@@ -50,7 +56,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

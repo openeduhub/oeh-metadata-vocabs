@@ -8,6 +8,12 @@
   },
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/85863f71-cb77-4afb-ad26-4f3a078c7224",
+      "prefLabel": {
+        "de": "Genre / Bildgattungen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8cc3ea73-00ea-4177-9de8-c800daa9758e",
       "prefLabel": {
         "de": "Zeitstrahl"
@@ -16,7 +22,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a4df00f4-f8d8-4217-8ee9-7eb0bc5160c0",
       "prefLabel": {
-        "de": "Künstler*innen"
+        "de": "Künstler:innen"
       }
     },
     {
@@ -26,28 +32,22 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d6a37ea5-7208-4306-8692-880881b1df8b",
-      "prefLabel": {
-        "de": "Weltkunst"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e85946cc-f1be-40e4-816c-f3af053665d2",
       "prefLabel": {
-        "de": "Epochen"
+        "de": "Epochen und Stile"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6a3f5881-cce0-4e8d-b123-26392b3f1c19",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a6b3eefa-5b9f-401d-8130-0fd148d2ccc9",
     "prefLabel": {
-      "de": "Kunst"
+      "de": "Kunst verstehen"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

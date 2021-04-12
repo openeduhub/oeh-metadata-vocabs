@@ -6,13 +6,10 @@
   "prefLabel": {
     "de": "Grammatik"
   },
+  "definition": {
+    "de": "Wer die deutsche Sprache richtig gut sprechen möchte, muss auch die Grammatik und ihre Regeln beherrschen. So gibt es im Deutschen drei Geschlechter für ein Nomen. Welcher Artikel ist da der passende? Der, die oder das? Außerdem gibt es die vier Fälle, den Nominativ, Akkusativ, Dativ und Genitiv. Zugegeben, das mag sich zu Beginn etwas kompliziert anhören; aber mal ehrlich, jede Fremdsprache hat doch ihre grammatischen Besonderheiten, die schwerer oder leichter fallen. Hier findest du alle Inhalte, die dir dabei helfen, deine Kenntnisse der deutschen Grammatik zu vertiefen und verbessern."
+  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0f7d4094-0ebb-4df9-b79e-ed62d4ec197a",
-      "prefLabel": {
-        "de": "Satzbau"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1f3efb19-d5ca-4453-a636-20dc63ecbebf",
       "prefLabel": {
@@ -38,9 +35,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/49fdf463-7213-4b97-87c0-694d9ab7546b",
+      "prefLabel": {
+        "de": "Satzglieder"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7b868420-ad6e-487b-a9bf-036d5f3ab748",
+      "prefLabel": {
+        "de": "Hauptsätze und Satzreihen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/852d7756-a3d2-4e82-8b14-1b9348ebb1c7",
       "prefLabel": {
         "de": "Artikel und Begleiter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8892e486-49b5-4262-82aa-db50a19a8c80",
+      "prefLabel": {
+        "de": "Verneinung"
       }
     },
     {
@@ -74,6 +89,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ac6ed6da-9d05-4c42-ac0f-d7eefa3f066f",
+      "prefLabel": {
+        "de": "Nebensätze"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b7bca233-dca9-44a2-8a4c-6236659f8926",
       "prefLabel": {
         "de": "Adverbien"
@@ -95,7 +116,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

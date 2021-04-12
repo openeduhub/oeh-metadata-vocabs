@@ -16,7 +16,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/05e67c0d-2239-43cb-84b3-abc17c605dc0",
       "prefLabel": {
-        "de": "Inkreis, Umkreis, Schwerpunkt, Höhen"
+        "de": "Inkreis & Umkreis"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1d55ee54-6a27-4a48-9f55-312db04aaa8b",
+      "prefLabel": {
+        "de": "Symmetrie"
       }
     },
     {
@@ -34,13 +40,19 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/51ba2b6a-95dc-4dbc-85e4-fb3a5156e2f2",
       "prefLabel": {
-        "de": "Ähnlichkeit, Strahlensätze"
+        "de": "Strahlensätze"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5a376d0e-a7a9-4f2e-ade8-cb2913182ff3",
       "prefLabel": {
         "de": "Senkrechte und Parallelen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/703fee62-9a7e-4ba4-8c04-c62a79f8dad2",
+      "prefLabel": {
+        "de": "Figuren kennenlernen"
       }
     },
     {
@@ -56,9 +68,21 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/aa0ecc77-04b4-44e6-a1e0-1517b7638a02",
+      "prefLabel": {
+        "de": "Dreiecke"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bdac8950-7b4d-4388-b33a-7766a6569c92",
       "prefLabel": {
         "de": "Winkelsummen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ebdd08b9-345d-46b9-96d5-8d7c39d53dc1",
+      "prefLabel": {
+        "de": "Rechtecke"
       }
     },
     {
@@ -71,13 +95,13 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/90c6411f-eadc-4478-b668-866ed6eb9012",
     "prefLabel": {
-      "de": "Räumliche und ebene Geometrie"
+      "de": "Geometrie"
     }
   },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

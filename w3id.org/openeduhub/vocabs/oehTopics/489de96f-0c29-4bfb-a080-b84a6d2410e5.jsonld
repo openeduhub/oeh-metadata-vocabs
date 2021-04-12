@@ -4,13 +4,22 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F489de96f-0c29-4bfb-a080-b84a6d2410e5",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F489de96f-0c29-4bfb-a080-b84a6d2410e5",
   "prefLabel": {
-    "de": "Globalisierung und internationale Politik "
+    "de": "Globalisierung und internationale Politik"
+  },
+  "definition": {
+    "de": "Die Frage ist nicht <b>ob</b>, sondern <b>wie</b> es uns betrifft, wenn in China der sprichwörtliche „Sack Reis umfällt“.\nDas Thema Globalisierung ist nicht ausschließlich ein Thema des 21. Jahrhunderts, aber in den letzten Jahrzehnten hat die Rasanz, Wucht und Wirksamkeit dieses Prozesses alle gesellschaftlichen Bereiche gleichermaßen erreicht. Hier finden sich daher Ideen, Sichtweisen und Ansatzpunkte, um das Thema aus verschiedenen Perspektiven sinnvoll und interessant behandeln zu können."
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/59917461-de90-4ed4-b141-6d63e763f3fb",
       "prefLabel": {
         "de": "Theorien internationaler Politik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/61112663-e55a-4463-8681-54d08d021ac4",
+      "prefLabel": {
+        "de": "Welthandel"
       }
     },
     {
@@ -40,7 +49,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f64e78e3-f04d-41d7-8813-9d1fa2fa95ea",
       "prefLabel": {
-        "de": "Migration "
+        "de": "Migration und Flucht"
       }
     }
   ],
@@ -53,7 +62,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {

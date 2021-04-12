@@ -6,11 +6,20 @@
   "prefLabel": {
     "de": "Methodisches"
   },
+  "definition": {
+    "de": "Wie recherchierst du richtig und wie kannst du es dann am besten präsentieren? Wer heute Deutsch als Zweitsprache lernt, braucht nicht nur die verschiedensten Arbeitstechniken und (Sprach-)Lernstrategien, sondern muss auch wissen, wie man sicher, kreativ und verantwortungsvoll mit den unterschiedlichsten digitalen Medien umgeht und ergebnisorientiert damit arbeitet, je nach Zielsetzung oder Aufgabenstellung. Hier bekommst du neben konkreten Unterrichtsbeispielen zur Mediennutzung, vielen Impulsen und Ideen auch Werkzeuge vorgestellt, die dich beim Sprachen lernen und lehren unterstützen."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7fca8c06-4b79-43f7-8004-9431fb8298ab",
       "prefLabel": {
         "de": "Sprachlernstrategien, Lern- und Arbeitstechniken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b36f20b3-2c16-430b-82a3-d241f955f2c6",
+      "prefLabel": {
+        "de": "Mediennutzung und Medienkompetenz"
       }
     }
   ],
@@ -23,7 +32,7 @@
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Main-Collection (All)"
     }
   },
   "@context": {
