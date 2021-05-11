@@ -144,6 +144,7 @@
 
 <04007> a skos:Concept ;
     skos:prefLabel "Color technology and interior design"@en, "Farbtechnik und Raumgestaltung"@de ;
+    skos:altLabel "Raumgestaltung"@de ;
     skos:related eafsys:04007 ;
     skos:topConceptOf <> .
 
@@ -193,6 +194,7 @@
 <320> a skos:Concept ;
     skos:prefLabel "ICT"@en, "Informatik"@de ;
     skos:altLabel "Informations- und Kommunikationstechnologie"@de ;
+    skos:altLabel "Computer Science"@en ;
     skos:related eafkey:informationstechnischebildung ;
     skos:related eafsys:320 ;
     skos:topConceptOf <> .
@@ -210,6 +212,7 @@
 
 <060> a skos:Concept ;
     skos:prefLabel "Art education"@en, "Kunst"@de ;
+    skos:altLabel "Art"@en ;
     skos:altLabel "Kunsterziehung"@de ;
     skos:related eafkey:bildendekunst ;
     skos:related eafsys:060 ;
@@ -264,6 +267,7 @@
     skos:prefLabel "MINT"@de, "MINT"@en ;
     skos:altLabel "Chemistry, Physics, Biology"@en, "Chemie, Physik, Biologie"@de ;
     skos:altLabel "Naturwissenschaften"@de ;
+    skos:altLabel "Natural Sciences"@en ;
     skos:related <100>, <080>, <460>, <320> ;
     skos:topConceptOf <> .
 
@@ -385,6 +389,7 @@
 
 <700> a skos:Concept ;
     skos:prefLabel "Economics"@en, "Wirtschaftskunde"@de ;
+    skos:altLabel "Economy"@en ;
     skos:altLabel "Wirtschaftswissenschaften"@de ;
     skos:related eafkey:wirtschaftskunde ;
     skos:related eafsys:700 ;
