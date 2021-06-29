@@ -22,7 +22,7 @@
         <04003>, <420>, <64018>, <niederdeutsch>, <44099>, <450>, <460>,
         <480>, <510>, <520>, <20006>, <28010>, <560>, <44006>, <20009>,
         <44007>, <20007>, <600>, <04012>, <20008>, <04013>, <700>, <640>,
-        <660>, <680>, <50005>, <999>
+        <660>, <680>, <50005>, <72001>, <999>
         .
 
 
@@ -418,6 +418,10 @@
 <50005> a skos:Concept ;
     skos:prefLabel "Handicraft"@en, "Werken"@de ;
     skos:related eafsys:50005 ;
+    skos:topConceptOf <> .
+
+<72001> a skos:Concept ;
+    skos:prefLabel "Zeitgemäße Bildung"@de, "Modern education"@en ;
     skos:topConceptOf <> .
 
 <999> a skos:Concept ;
