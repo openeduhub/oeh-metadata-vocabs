@@ -17,9 +17,9 @@
         <manager>, <parent>, <teacher>, <other> .
 
 <author> a skos:Concept ;
-  skos:prefLabel "Autor"@de ;
+  skos:prefLabel "Autor/in"@de ;
   skos:prefLabel "author"@en ;
-  skos:altLabel "Autorin"@de ;
+  skos:altLabel "Autorin"@de, "Autor"@de ;
   skos:definition "Someone who advises, trains, supports, and/or guides."@en;
   skos:topConceptOf <> .
 
