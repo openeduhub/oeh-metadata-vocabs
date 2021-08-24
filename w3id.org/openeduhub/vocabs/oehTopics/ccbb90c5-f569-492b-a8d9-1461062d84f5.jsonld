@@ -18,8 +18,12 @@
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/12002"
+    }
+  ],
   "@context": {
-    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -27,8 +31,6 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -58,32 +60,17 @@
     "prefLabel": {
       "@container": "@language"
     },
-    "hiddenLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
     "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "definition": {
       "@container": "@language"
     },
     "scopeNote": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "note": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"
@@ -91,13 +78,14 @@
     "narrower": {
       "@container": "@set"
     },
+    "relatedMatch": {
+      "@container": "@set"
+    },
     "narrowerTransitive": {
       "@container": "@set"
     },
     "broaderTransitive": {
       "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox"
+    }
   }
 }

@@ -1,17 +1,19 @@
 {
-  "id": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4",
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4",
   "type": "Service",
   "name": "Nominalisierungen",
   "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6f6568546f706963732f30353632643031312d353863642d343262612d623134302d383635646632666237346134",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F0562d011-58cd-42ba-b140-865df2fb74a4",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F0562d011-58cd-42ba-b140-865df2fb74a4",
   "publicKey": {
-    "id": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4#main-key",
-    "owner": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4",
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/0562d011-58cd-42ba-b140-865df2fb74a4",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
-  },
-  "@context": [
-    "https://www.w3.org/ns/activitystreams",
-    "https://w3id.org/security/v1"
-  ]
+  }
 }

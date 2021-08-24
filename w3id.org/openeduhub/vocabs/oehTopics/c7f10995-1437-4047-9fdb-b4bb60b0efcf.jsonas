@@ -1,17 +1,19 @@
 {
-  "id": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf",
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf",
   "type": "Service",
   "name": "Reisen",
   "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6f6568546f706963732f63376631303939352d313433372d343034372d396664622d623462623630623065666366",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fc7f10995-1437-4047-9fdb-b4bb60b0efcf",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fc7f10995-1437-4047-9fdb-b4bb60b0efcf",
   "publicKey": {
-    "id": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf#main-key",
-    "owner": "https://test.skohub.io/w3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf",
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/c7f10995-1437-4047-9fdb-b4bb60b0efcf",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
-  },
-  "@context": [
-    "https://www.w3.org/ns/activitystreams",
-    "https://w3id.org/security/v1"
-  ]
+  }
 }
