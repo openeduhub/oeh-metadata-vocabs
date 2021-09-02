@@ -1,0 +1,48 @@
+@base <http://w3id.org/openeduhub/vocabs/learningResourceTypeCombined/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Lernressourcen Combined"@de;
+    dct:title "Learning Resource Type Combined"@en;
+    dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des OpenEduHub."@de;
+    dct:description "A value list for Learning Resource Type. Developed in Context of OpenEduHub."@en;
+    dct:creator "<https://wirlernenonline.de>";
+    dct:created "2020-04-08"^^xsd:date;
+    dct:modified "2020-04-08"^^xsd:date; 
+    dct:issued "2020-04-08"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "Arbeitsblätter"@de ;
+    skos:relatedMatch lrt:worksheet ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "Videos"@de ;
+    skos:relatedMatch lrt:video ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "Audio"@de ;
+    skos:relatedMatch lrt:audio ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "Bild"@de ;
+    skos:relatedMatch lrt:image ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "Übung"@de ;
+    skos:relatedMatch lrt:drill_and_practice ;
+    skos:topConceptOf <> .
+
+<6> a skos:Concept ;
+    skos:prefLabel "Unterrichtsplanung"@de ;
+    skos:relatedMatch lrt:lesson_plan ;
+    skos:topConceptOf <> .
+
