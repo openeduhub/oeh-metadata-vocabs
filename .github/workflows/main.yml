@@ -34,7 +34,7 @@ jobs:
       - run: git clone https://github.com/openeduhub/oeh-metadata-vocabs.git data/
 
       - name: build public dir with docker image
-        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/openeduhub-skohub-vocabs:docker
+        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/openeduhub-skohub-vocabs:relatedMatch
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
