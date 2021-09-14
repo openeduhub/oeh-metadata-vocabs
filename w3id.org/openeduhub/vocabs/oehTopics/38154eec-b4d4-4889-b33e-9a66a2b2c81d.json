@@ -4,15 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F38154eec-b4d4-4889-b33e-9a66a2b2c81d",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F38154eec-b4d4-4889-b33e-9a66a2b2c81d",
   "prefLabel": {
-    "de": "Schreiben "
+    "de": "Texte schreiben"
+  },
+  "definition": {
+    "de": "Es ist wichtig zu unterscheiden, welche Bausteine man für formelle und informelle Texte verwendet. Diese Sammlung hilft dir, den Unterschied zwischen diesen Texttypen zu entschlüsseln und diese verschiedenen Texttypen zu üben. Diese Sammlung hat außerdem Materialien zur Erstellung eines Lebenslaufs und Information darüber, wie man sich bei einem Vorstellungsgespräch verhält."
   },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2defd71f-3bf0-4dac-9303-720c602f0b20",
-      "prefLabel": {
-        "de": "Buchstaben schreiben "
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/56cd6ac3-849e-4540-8701-afba2ef0bdaf",
       "prefLabel": {
@@ -22,13 +19,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5d86eba1-bf6f-487d-a73d-783ab166bc02",
       "prefLabel": {
-        "de": "Formelle Texte"
+        "de": "Formelle und informelle Texte"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8fe04278-c880-43c6-813a-36d25a0ecbdf",
       "prefLabel": {
-        "de": "Zusammenfassen "
+        "de": "Zusammenfassen"
       }
     },
     {
@@ -40,7 +37,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b02a62fb-73f5-471b-9f75-205d71b3cf8a",
       "prefLabel": {
-        "de": "Argumentieren "
+        "de": "Argumentieren"
       }
     },
     {
@@ -57,7 +54,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

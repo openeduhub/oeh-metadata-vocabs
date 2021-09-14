@@ -1,0 +1,166 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bdbbe18e-3f52-487a-8f3a-21d819f7018c",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fbdbbe18e-3f52-487a-8f3a-21d819f7018c",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fbdbbe18e-3f52-487a-8f3a-21d819f7018c",
+  "prefLabel": {
+    "de": "Fachportalseite Politische Bildung"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2378573b-2aed-4e44-a95e-6f362fa3ac82",
+      "prefLabel": {
+        "de": "Startseite PB - Fachseiten und Portale"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/296a4479-6276-473c-9429-1d9eed9c340d",
+      "prefLabel": {
+        "de": "Fußball-EM"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/487158ac-a4a5-4419-91ef-58e191ca4e02",
+      "prefLabel": {
+        "de": "Startseite PB - Ideen für Projektunterricht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/586da91c-6631-43bb-97f0-a203529c108f",
+      "prefLabel": {
+        "de": "Startseite PB - Material zu aktuellen Themen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9206496c-43b1-4653-84bf-926be6b3201b",
+      "prefLabel": {
+        "de": "Startseite PB - Methodik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/94eef583-7fd8-45b5-b580-98411536825c",
+      "prefLabel": {
+        "de": "Startseite PB - Vereine & Politische Bewegungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/98c64ffd-7567-4671-9ea6-ac72067e34ad",
+      "prefLabel": {
+        "de": "Tag des Grundgesetzes"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ac7ea167-5db1-4b3f-88ab-44b8397b5b6d",
+      "prefLabel": {
+        "de": "Startseite PB - Inhalt des Monats"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e5360fa0-bfe1-4964-ad46-b2a55d4dda97",
+      "prefLabel": {
+        "de": "Startseite PB - Aktuelle Videos zu… Grundfragen, Digitalisierung, Methoden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f62df9d3-6e7e-460e-88f0-21b768b73f1f",
+      "prefLabel": {
+        "de": "Startseite PB - Initiativen, Wettbewerbe und Events"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f689de43-07a0-4fc6-aeae-8927daede858",
+      "prefLabel": {
+        "de": "Startseite PB - Wahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f8fe8d05-c541-4dbb-b168-1569df2f09a1",
+      "prefLabel": {
+        "de": "Zeitgemäße politische Bildung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ff90ade6-94d1-4941-8733-fd8fa47a365f",
+      "prefLabel": {
+        "de": "Weltflüchtlingstag"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ffd298b5-3a04-4d13-9d26-ddd5d3b5cedc",
+    "prefLabel": {
+      "de": "Politische Bildung"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

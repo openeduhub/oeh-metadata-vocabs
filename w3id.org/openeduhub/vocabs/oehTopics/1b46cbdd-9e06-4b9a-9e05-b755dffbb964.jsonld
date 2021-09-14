@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Demonstrativpronomen"
   },
+  "definition": {
+    "de": "Demonstrativpronomen sind Pronomen, die auf etwas im Satz hinweisen. Sie können im Singular oder Plural stehen: that, those oder this, these."
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9da8a7bd-faf1-466f-94a0-4d446ad4084d",
     "prefLabel": {
@@ -13,16 +16,11 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/20001"
-    }
-  ],
   "@context": {
     "id": "@id",
     "type": "@type",

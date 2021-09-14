@@ -1,0 +1,120 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9acb9147-e37f-4ed5-aae9-6013f8e41a15",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9acb9147-e37f-4ed5-aae9-6013f8e41a15",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9acb9147-e37f-4ed5-aae9-6013f8e41a15",
+  "prefLabel": {
+    "de": "Absolutismus und Aufklärung"
+  },
+  "definition": {
+    "de": "Hier reist du zurück in die Zeit des Absolutismus, eine Form der Herrschaft, in der eine Person alles entscheidet und so schillernde Sonnenkönige wie Ludwig hervorbringt, aber auch eine Gegenbewegung."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/004c9a82-3194-403d-8000-9f6ace74618d",
+      "prefLabel": {
+        "de": "Aufklärung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0247a4cb-6b2c-4587-9a71-9d2a17d5938f",
+      "prefLabel": {
+        "de": "Absolutismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/774f200d-f7e6-4c61-bc6c-0357d121e48d",
+      "prefLabel": {
+        "de": "Ludwig XIV."
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ac21ef31-32d4-44cf-9d92-580acc715496",
+      "prefLabel": {
+        "de": "Preußische Reformen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bb62b9ad-e405-4336-b7b7-79bcf35197a8",
+    "prefLabel": {
+      "de": "Frühe Neuzeit"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

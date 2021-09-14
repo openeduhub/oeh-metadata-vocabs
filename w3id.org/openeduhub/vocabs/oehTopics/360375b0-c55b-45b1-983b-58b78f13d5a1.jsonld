@@ -1,0 +1,126 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/360375b0-c55b-45b1-983b-58b78f13d5a1",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F360375b0-c55b-45b1-983b-58b78f13d5a1",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F360375b0-c55b-45b1-983b-58b78f13d5a1",
+  "prefLabel": {
+    "de": "DDR ab 1945"
+  },
+  "definition": {
+    "de": "Hier reist du zurück in die Deutsche Demokratische Republik, in ein Land, das eine Mauer um sich zog und das sich durch die friedliche Revolution seiner Bürger:innen schließlich selbst auflöste."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7b62cb1e-9e13-437d-b02b-d8f2a403ecd8",
+      "prefLabel": {
+        "de": "Mauerbau"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9316b001-5d20-4f23-9160-01e693b551eb",
+      "prefLabel": {
+        "de": "Wirtschaft in der DDR"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a46a95e8-0bb0-4560-808d-d9dab827ad3d",
+      "prefLabel": {
+        "de": "DDR unter Honecker"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ade156b9-0f8f-46d5-8303-4828269ffffa",
+      "prefLabel": {
+        "de": "17. Juni 1953"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d2ae5220-d340-4309-a434-aca4ef25c025",
+      "prefLabel": {
+        "de": "Alltag in der DDR"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
+    "prefLabel": {
+      "de": "20. Jahrhundert"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/55795bf3-80e2-4dd0-a855-857a43c0fdd3",
+  "type": "Service",
+  "name": "UploadAthon",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6f6568546f706963732f35353739356266332d383065322d346464302d613835352d383537613433633066646433",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F55795bf3-80e2-4dd0-a855-857a43c0fdd3",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F55795bf3-80e2-4dd0-a855-857a43c0fdd3",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/55795bf3-80e2-4dd0-a855-857a43c0fdd3#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/oehTopics/55795bf3-80e2-4dd0-a855-857a43c0fdd3",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

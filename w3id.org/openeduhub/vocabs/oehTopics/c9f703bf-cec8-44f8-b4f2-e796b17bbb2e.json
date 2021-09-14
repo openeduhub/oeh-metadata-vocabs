@@ -1,0 +1,150 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c9f703bf-cec8-44f8-b4f2-e796b17bbb2e",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fc9f703bf-cec8-44f8-b4f2-e796b17bbb2e",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fc9f703bf-cec8-44f8-b4f2-e796b17bbb2e",
+  "prefLabel": {
+    "de": "Fachportalseite Deutsch"
+  },
+  "definition": {
+    "de": "Beschreibungstext"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01879756-10f7-4fcb-90d1-d7d7772544f0",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Abiturvorbereitungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/05ba0df1-96d0-4f50-a9fa-7d88690bed7c",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Deutsch studieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/36bcf9a2-2c67-4908-9bfd-aa970d8c0950",
+      "prefLabel": {
+        "de": "Startseite Deutsch - I-Tüpfelchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/49598dfe-02c3-4348-b920-99fe7ac6ab9a",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Innovative Unterrichtsideen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/817cd76a-3d05-4e0f-bfb6-3ece2f54db3a",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Mediathek für die digitale Deutschstunde"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/85c1c67e-f5a1-44dc-956d-9eac74fa41f5",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Spannende Internetseiten für Lehrkräfte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/abeb0e03-85f7-490e-8e9a-053d4c302f09",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Termine & Wettbewerbe"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/dc589b41-04b4-4c8d-8854-bbac6936213c",
+      "prefLabel": {
+        "de": "Startseite Deutsch - Apps & Tools"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e9d862b9-abfc-47e9-8535-d875f0d36c24",
+      "prefLabel": {
+        "de": "Lektüreempfehlungen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/69f9ff64-93da-4d68-b849-ebdf9fbdcc77",
+    "prefLabel": {
+      "de": "Deutsch"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

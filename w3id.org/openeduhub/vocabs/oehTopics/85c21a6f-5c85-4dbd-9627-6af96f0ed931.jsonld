@@ -4,16 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F85c21a6f-5c85-4dbd-9627-6af96f0ed931",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F85c21a6f-5c85-4dbd-9627-6af96f0ed931",
   "prefLabel": {
-    "de": "Mixed Media"
+    "de": "Collage / Mixed Media"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5728c7d5-1b78-4b07-8637-e2b0c9d9eb8f",
-      "prefLabel": {
-        "de": "Collage"
-      }
-    }
-  ],
+  "definition": {
+    "de": "Künstler*innen vereinen in ihren Kunstwerken Malerei und Zeichnung, unterschiedliche Texturen und Materialien zwei- oder auch dreidimensional. Techniken der Kunstgattung Mixed Media begleiten dich im Kunstunterricht schon seit frühester Kindheit, als du Collagen gestaltet oder Fundstücke mit gemalten Bildern kombiniert hast."
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b782e351-6450-4c29-bf69-07dd4fea06fb",
     "prefLabel": {
@@ -21,7 +16,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

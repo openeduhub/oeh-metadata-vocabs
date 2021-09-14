@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Algorithmen erkennen"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/86c75c85-2859-4e61-9b55-44c6f312b173",
+      "prefLabel": {
+        "de": "Temp"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9353dbac-4cd3-46ca-89e8-feac1817ec9a",
     "prefLabel": {
@@ -13,7 +21,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

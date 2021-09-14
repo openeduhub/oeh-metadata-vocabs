@@ -1,0 +1,114 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d9209042-17fa-43e4-8897-7e81d36c037c",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd9209042-17fa-43e4-8897-7e81d36c037c",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd9209042-17fa-43e4-8897-7e81d36c037c",
+  "prefLabel": {
+    "de": "Französische Revolution"
+  },
+  "definition": {
+    "de": "Hier reist du zurück zur Französischen Revolution, zu einer Bewegung, die die komplette Gesellschaft auf den Kopf gestellt hat, die vielen Menschen das Leben gekostet, aber auch den Weg zur Demokratie geebnet hat."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/325788c2-25d9-4cdd-8ef5-ec25e57bcb69",
+      "prefLabel": {
+        "de": "Radikalisierung der  Revolution & jakobinischer Terror"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7592e832-cd78-47be-a3a4-343f99e8923b",
+      "prefLabel": {
+        "de": "Erklärung der Menschen- und Bürgerrechte 1789 "
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/add7ff55-9181-482c-926b-98c5974ad816",
+      "prefLabel": {
+        "de": "Kaiser Napoleon I."
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fba9ac83-27c7-42aa-b770-665c7e969411",
+    "prefLabel": {
+      "de": "19. Jahrhundert"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

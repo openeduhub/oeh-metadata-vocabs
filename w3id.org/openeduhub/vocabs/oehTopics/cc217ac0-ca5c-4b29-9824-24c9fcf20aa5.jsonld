@@ -4,7 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fcc217ac0-ca5c-4b29-9824-24c9fcf20aa5",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fcc217ac0-ca5c-4b29-9824-24c9fcf20aa5",
   "prefLabel": {
-    "de": "Erzählende Texte "
+    "de": "Erzählende Texte"
+  },
+  "definition": {
+    "de": "Unter erzählende oder narrative Texte, Erzähltexte oder auch Erzählungen fallen alle Texte, die von einer Erzählinstanz präsentiert werden. Sie sind in der Regel in Prosa geschrieben und grenzen sich so von der Versstruktur der Lyrik und der Dialogstruktur der Dramen ab. Erzählungen sind zum Beispiel Romane, Kurzgeschichten oder Novellen. Erzählungen können danach betrachtet werden, was sie präsentieren, die Histoire, oder wie präsentiert wird, der Discours. Die Forschung, die sich mit Erzähltexten beschäftigt, nennt sich Narrationstheorie."
   },
   "narrower": [
     {
@@ -38,18 +41,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7b79abe6-d7fc-492c-ab02-c00b1b0e3674",
-      "prefLabel": {
-        "de": "Figurenrede"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a1d2d978-190e-4322-857a-a8834042b942",
-      "prefLabel": {
-        "de": "Lügen- und Schelmengeschichten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b667f7a7-aae6-486e-b810-eb00cd93c3fe",
       "prefLabel": {
         "de": "Kurzgeschichte"
@@ -63,7 +54,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

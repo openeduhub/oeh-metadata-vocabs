@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Präpositonen"
   },
+  "definition": {
+    "de": "Präpositionen (Verhältniswörter) beschreiben das Verhältnis von Dingen und/oder Personen zueinander. Beispiele für Präpositionen sind AN, IN, MIT, OHNE, WEGEN, ZU. Im Satz „Das Bild hängt an der Wand.“ beschreibt AN das Verhältnis von Bild und Wand. Nach einer Präposition steht immer ein bestimmter Fall: entweder der Genitiv, Dativ oder Akkusativ."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01ee3851-864f-4989-a572-877072f5ec31",
@@ -20,39 +23,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/294101d7-c02b-4e6b-90a8-f3c2d0e26995",
-      "prefLabel": {
-        "de": "modale Präpositionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/47ec0049-15b8-4127-8220-a42a9d7732d2",
-      "prefLabel": {
-        "de": "kausale Präpositionen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4da50948-46cd-4344-8c7a-54c6ae21cd5a",
       "prefLabel": {
-        "de": "Wechselpräpositonen "
+        "de": "Wechselpräpositonen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/945b436d-8d97-47b3-8d9d-19f2ec092fe3",
       "prefLabel": {
-        "de": "lokale Präpositionen"
+        "de": "TeKaMoLo Präpositionen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a6728c1a-6b41-4fc8-8687-3fe42727421c",
       "prefLabel": {
         "de": "Präpositionen mit Genitiv"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f96c0dd9-0542-4546-9408-6bd127e9babf",
-      "prefLabel": {
-        "de": "temporale Präpositionen"
       }
     }
   ],
@@ -63,7 +48,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

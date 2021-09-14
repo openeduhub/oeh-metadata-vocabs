@@ -6,7 +6,16 @@
   "prefLabel": {
     "de": "Medienbildung"
   },
+  "definition": {
+    "de": "Hier findest du ausgewählte Materialien, Hinweise auf Portale, Tools und Apps sowie Hintergrundartikel zum Thema Medienbildung und Mediendidaktik sowie Medientheorie für das Lernen und Lehren mit und über Medien. Der Aufbau orientiert sich am Kompetenzrahmen der KMK „Bildung in der digitalen Welt“, der auch – mit Anpassungen – in den Bundesländern übernommen wurde."
+  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3b132f1c-2779-44de-8dcb-699349369cd5",
+      "prefLabel": {
+        "de": "Zeitgemäße Medienbildung"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4e972329-8d73-4ea8-aaf9-bf40dbb111ad",
       "prefLabel": {
@@ -26,6 +35,18 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7fffc280-60f7-4cbe-a1aa-b49360115d95",
+      "prefLabel": {
+        "de": "(Unsichtbar) Mediendidaktik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/88f412b5-1beb-4e9e-83be-87043b950fca",
+      "prefLabel": {
+        "de": "Maker-Education"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9083a870-fe5c-4feb-87a1-bf9e78530430",
       "prefLabel": {
         "de": "Kommunizieren und Kooperieren"
@@ -38,6 +59,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/be072621-92d6-4afa-8635-0de5349abfea",
+      "prefLabel": {
+        "de": "Startseite Medienbildung"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d56bc198-e56e-41cb-b418-8cf290005c25",
       "prefLabel": {
         "de": "Bedienen und Anwenden"
@@ -45,13 +72,13 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
   },
   "relatedMatch": [
     {

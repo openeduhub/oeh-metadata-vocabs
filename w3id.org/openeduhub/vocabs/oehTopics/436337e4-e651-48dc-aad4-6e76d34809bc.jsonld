@@ -4,18 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F436337e4-e651-48dc-aad4-6e76d34809bc",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F436337e4-e651-48dc-aad4-6e76d34809bc",
   "prefLabel": {
-    "de": "Stöchiometrie"
+    "de": "Chemisches Rechnen"
   },
   "definition": {
     "de": "Die Stöchiometrie ermöglicht es, anhand von Reaktionsgleichungen Aussagen zu Mengen aller an einer chemischen Reaktion beteiligten Stoffe zu machen. Diese Rechnungen sind wichtig, um Experimente zu planen - oder in der chemischen Industrie die Ausbeute bei einzelnen Produktionsprozessen zu erhöhen."
   },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1369c836-91d9-4551-9c94-a0b6bc80b195",
-      "prefLabel": {
-        "de": "Berechnungen zur Dichte"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3e9877db-44ab-45fc-92a7-a703f1bdf7dc",
       "prefLabel": {
@@ -29,12 +23,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7c6e046a-0b48-42f1-b91c-60a60469856f",
-      "prefLabel": {
-        "de": "Massenverhältnisse in Reaktionsgleichungen berechnen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bf47dbfd-5094-4d20-a2b8-dba6c6d192f8",
       "prefLabel": {
         "de": "Die Stoffmenge und das Mol"
@@ -42,13 +30,13 @@
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ad145fb5-c13d-43ee-b45b-436f1e5aaa08",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9f8724da-b043-40e5-9802-cd7a306d8fd7",
     "prefLabel": {
-      "de": "Allgemeine Chemie"
+      "de": "Fachmethoden und Reflexion"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

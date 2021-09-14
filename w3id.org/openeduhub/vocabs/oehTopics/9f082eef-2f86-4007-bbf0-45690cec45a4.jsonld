@@ -4,28 +4,28 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9f082eef-2f86-4007-bbf0-45690cec45a4",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9f082eef-2f86-4007-bbf0-45690cec45a4",
   "prefLabel": {
-    "de": "Säuren, Basen und Laugen"
+    "de": "Säuren und Basen"
   },
   "definition": {
-    "de": "Säuren und Basen/Laugen finden in vielen Bereichen des Lebenalltags der Lernenden Verwendung. Die Definition von Säuren und Basen/Laugen beruhen auf den Sinneseindrücken, welche sie erzeugen. Dahinter stecken aber klar definierte chemische Eigenschaften. \n\nIn diesem Themengebiet werden bereits behandelte Teilgebiete der Chemie wieder aufgegriffen, wie zum Beispiel die Salze. \n\nEin großes Augenmerk liegt auf der Vermittlung der Säure-Base-Reaktion, der Neutralisation. Dazu wird der pH-Wert und Indikatoren zur Hilfe genommen und näher beleutet."
+    "de": "Säuren und Basen finden in vielen Bereichen des alltäglichen Lebens. Säuren sind oftmals sauer, Basen eher seifig. Die Gemeinsamkeit aller Säuren sowie aller Basen hat historisch gesehen immer wieder zu genaueren und umfassenderen Definitionen des Säure-Base-Begriffs geführt. Heute gehen Chemiker meist vom Brönstedt-Konzept aus: Basen sind Protonenakzeptoren, Säuren sind Protonendonatoren. Gibt man in dieser Sichtweise Säuren in Wasser, so entstehen saure Lösungen. Basen bilden in Wasser alkalische Lösungen oder Laugen."
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/190e487b-b71d-4e87-a499-f1e1f8c96378",
       "prefLabel": {
-        "de": "Neutralisationsreaktionen und Salzbildung"
+        "de": "Neutralisationsreaktionen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2ed5e61a-3f75-4d02-a4b9-0c4f3dd8be32",
       "prefLabel": {
-        "de": "Berechnungen von pH - Werten"
+        "de": "pH-Wert-Berechnungen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/395864a0-732d-434e-b6d1-c6a865bfb651",
       "prefLabel": {
-        "de": "Eigenschaften von Säuren und Basen/Laugen"
+        "de": "Eigenschaften von Säuren und Basen"
       }
     },
     {
@@ -37,31 +37,31 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8e5d25b2-4390-4d72-addf-78856f9c3ecf",
       "prefLabel": {
-        "de": "Betrachtung von Puffersystemen"
+        "de": "Puffersysteme"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a1b690be-1681-4d37-acfb-70de358e2adf",
       "prefLabel": {
-        "de": "Reaktionen von Säuren und Basen/Laugen"
+        "de": "Reaktionen von Säuren und Basen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a3b49414-8436-48f2-ae7d-009de9a4f3af",
       "prefLabel": {
-        "de": "Die Autoprotolyse als Eigenschaften von Wasser"
+        "de": "Die Autoprotolyse als Eigenschaft von Wasser"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c1a2fc50-b3eb-4ef2-a173-78678c160c04",
       "prefLabel": {
-        "de": "Definitionen von Säuren und Basen/Laugen"
+        "de": "Säure-Basen-Konzepte"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/da05d816-bc80-4d64-b201-f61dd017a21c",
       "prefLabel": {
-        "de": "Verwendung von Säuren und Basen/Laugen"
+        "de": "Verwendung von Säuren und Basen"
       }
     },
     {
@@ -73,18 +73,18 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ef241076-d889-4725-8c0e-badd5cf869bf",
       "prefLabel": {
-        "de": "Herstellung von Säuren und Laugen"
+        "de": "Herstellung von sauren und alkalischen Lösungen"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3c18febc-4513-47c4-b2bc-ca8af0494964",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4940d5da-9b21-4ec0-8824-d16e0409e629",
     "prefLabel": {
-      "de": "Anorganische Chemie"
+      "de": "Chemie"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

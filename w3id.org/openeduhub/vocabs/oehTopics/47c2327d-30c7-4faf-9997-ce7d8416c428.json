@@ -8,27 +8,21 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1e620f8c-d9a8-429b-afa7-bf3e22721040",
-      "prefLabel": {
-        "de": "wichtige Ereignisse"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/20516656-4d63-43af-9217-e2f5a6288b86",
       "prefLabel": {
         "de": "Geschichte der USA"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6cb3e878-ec7a-4fdc-ba9b-4f17d153fe76",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/255feaf7-1c29-49f6-90fc-d261927afcbf",
       "prefLabel": {
-        "de": "Erfinder und Erfindungen"
+        "de": "wichtige Personen und Ereignisse"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/77b02815-7f66-4082-b538-30a01265f9df",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6cb3e878-ec7a-4fdc-ba9b-4f17d153fe76",
       "prefLabel": {
-        "de": "wichtige Personen"
+        "de": "Erfinder und Erfindungen"
       }
     },
     {
@@ -42,6 +36,12 @@
       "prefLabel": {
         "de": "Geschichte des Vereinigten Königreichs"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c034a078-77eb-4a64-b30c-f22cf6db2efe",
+      "prefLabel": {
+        "de": "Geschichte weiterer anglophoner Länder"
+      }
     }
   ],
   "broader": {
@@ -51,7 +51,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

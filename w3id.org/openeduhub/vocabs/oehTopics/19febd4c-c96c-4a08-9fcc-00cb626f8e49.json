@@ -7,9 +7,15 @@
     "de": "Wortschatz"
   },
   "definition": {
-    "de": "Die deutsche Wortschatz umfasst nach Schätzungen des Duden zwischen 300.000 und 500.000 Wörter. Aber keine Sorge, Muttersprachler:innen benutzen nur zwischen 12.000 bis 16.000 davon aktiv. Dennoch gilt: Je mehr Wörter auch du aktiv beherrschst, desto besser kannst du sprechen, schreiben und lesen. Deshalb haben wir dir hier wichtigen Grund- und Aufbauwortschatz nach Themenbereichen zusammengestellt. Mit abwechslungsreichen Inhalten kannst du deinen Wortschatz wiederholen, festigen und erweitern. Egal, ob online oder offline."
+    "de": "Die deutsche Wortschatz umfasst nach Schätzungen des Duden zwischen 300.000 und 500.000 Wörter. Aber keine Sorge, Muttersprachler*innen benutzen nur zwischen 12.000 bis 16.000 davon aktiv. Dennoch gilt: Je mehr Wörter auch du aktiv beherrschst, desto besser kannst du sprechen, schreiben und lesen. Deshalb haben wir dir hier wichtigen Grund- und Aufbauwortschatz nach Themenbereichen zusammengestellt. Mit abwechslungsreichen Inhalten kannst du deinen Wortschatz wiederholen, festigen und erweitern. Egal, ob online oder offline."
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/02a2009d-2958-4a2b-8dc8-9720f29f6d89",
+      "prefLabel": {
+        "de": "Urlaub und Reisen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/24847eeb-e4cf-464f-af10-5a0f8739ce79",
       "prefLabel": {
@@ -89,6 +95,18 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a35df500-1633-4fed-aeae-c8b0da892437",
+      "prefLabel": {
+        "de": "Vorstellung und persönliche Informationen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a3b2e4f2-a063-4c32-b39a-98a36e3f7b4c",
+      "prefLabel": {
+        "de": "Aussehen und Charakter"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c93fb1ef-8663-4007-9ad4-66cfe4d52018",
       "prefLabel": {
         "de": "Essen und Trinken"
@@ -115,13 +133,19 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e48f527b-e8c1-4505-9a1d-324f616d5196",
       "prefLabel": {
-        "de": "Arbeit und Beruf"
+        "de": "Ausbildung, Arbeit und Beruf"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e75a9243-2a8e-4782-8091-3ca23edc8247",
       "prefLabel": {
         "de": "Wetter, Klima und Jahreszeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ef6a3593-4eec-4af5-b602-1b477716fada",
+      "prefLabel": {
+        "de": "Wegbeschreibung"
       }
     },
     {
@@ -138,7 +162,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

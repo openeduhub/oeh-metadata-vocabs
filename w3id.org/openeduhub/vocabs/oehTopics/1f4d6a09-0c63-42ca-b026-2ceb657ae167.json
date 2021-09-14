@@ -1,0 +1,141 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1f4d6a09-0c63-42ca-b026-2ceb657ae167",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F1f4d6a09-0c63-42ca-b026-2ceb657ae167",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F1f4d6a09-0c63-42ca-b026-2ceb657ae167",
+  "prefLabel": {
+    "de": "Startseite Geschichte"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/072373bd-ea5e-4bf1-9dd6-f542fab33a28",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Deine Unterrichtsideen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4ebe1fd4-9143-452f-bf77-41536f963f40",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Aktuelle Termine"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/711a8dbd-1377-46d5-a20b-bb34d2b8e7c2",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Unsere Mediathek für den digitalen Geschichtsunterricht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/73e024df-fff1-4ca8-a268-f8e1daa6a772",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Eure Portale"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a755f196-bc14-49be-8516-25225fd2f37d",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Die andere Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0ba2ae7-3a09-4e7c-8dfe-4fc816bf4b6c",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Virtuelle Ausstellungen & Museen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c99bc5c5-c8d1-4fa8-9f1d-dac20209753a",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Eure Arbeitsblätter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e83ef8c2-6f60-4abe-b0f0-71a3baed68be",
+      "prefLabel": {
+        "de": "Startseite Geschichte - Unsere liebsten Podcasts"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/324f24e3-6687-4e89-b8dd-2bd0e20ff733",
+    "prefLabel": {
+      "de": "Geschichte"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a75152ec-3291-4ad2-9484-38fd5c9caf97",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa75152ec-3291-4ad2-9484-38fd5c9caf97",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa75152ec-3291-4ad2-9484-38fd5c9caf97",
+  "prefLabel": {
+    "de": "Die Europäische Union"
+  },
+  "definition": {
+    "de": "Hier reist du in die Europäische Union, du reist zurück in die Mitte des 20. Jahrhunderts, als eine Handvoll Länder auf dem Kontinent sich zu einer ersten Gemeinschaft zusammenfanden, eine gemeinsame Währung einführten und nach und nach immer mehr Länder in die Gemeinschaft aufnahmen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/39286d34-fb67-4a31-8154-21e2874622b5",
+      "prefLabel": {
+        "de": "Montanunion und Römische Verträge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d7337e46-ae76-4a25-b217-aa083367cc8f",
+      "prefLabel": {
+        "de": "Der Euro"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e11a6e7b-ade6-4821-bedb-5ead7c485809",
+      "prefLabel": {
+        "de": "Osterweiterung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/eeb1cdc2-1302-4363-b1b8-774d7d5ff1c1",
+      "prefLabel": {
+        "de": "Vertrag Europäische Union"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
+    "prefLabel": {
+      "de": "20. Jahrhundert"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

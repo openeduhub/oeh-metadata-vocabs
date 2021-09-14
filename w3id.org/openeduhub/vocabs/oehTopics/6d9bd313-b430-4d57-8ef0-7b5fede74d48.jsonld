@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F6d9bd313-b430-4d57-8ef0-7b5fede74d48",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F6d9bd313-b430-4d57-8ef0-7b5fede74d48",
   "prefLabel": {
-    "de": "Sätze "
+    "de": "Sätze"
   },
   "definition": {
     "de": "Die Stellung der einzelnen Satzglieder im Spanischen unterscheidet sich vom Deutschen. Hier findest du alles, was du über Sätze und ihre Bildungen wissen musst."
@@ -41,9 +41,15 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c69fd7e6-06d9-4fb7-91bd-616b995b37bb",
+      "prefLabel": {
+        "de": "Konjunktionalsätze"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d3278ba3-03e9-48d4-897f-949ea2c9d374",
       "prefLabel": {
-        "de": "Verneinung im Satz"
+        "de": "Verneinung und Bejahung im Satz"
       }
     },
     {
@@ -66,7 +72,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

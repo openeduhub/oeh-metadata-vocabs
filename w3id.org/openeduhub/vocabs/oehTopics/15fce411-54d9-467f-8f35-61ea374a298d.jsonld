@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Biologie"
   },
+  "definition": {
+    "de": "Sammlung von Lern- und Lehrmaterialien für das Fach Biologie über alle Bildungsstufen hinweg"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1556b4de-fdbb-4576-a68e-2c12ab053a29",
@@ -56,6 +59,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9602fca1-b02d-4f12-bfcc-0df8ef39a06d",
+      "prefLabel": {
+        "de": "Fachportalseite Biologie"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d55d6139-982a-472b-ad78-ded266ce8a25",
       "prefLabel": {
         "de": "allgemeine Biologie"
@@ -75,13 +84,13 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
   },
   "relatedMatch": [
     {

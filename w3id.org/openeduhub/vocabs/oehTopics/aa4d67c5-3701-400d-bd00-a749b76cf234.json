@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faa4d67c5-3701-400d-bd00-a749b76cf234",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faa4d67c5-3701-400d-bd00-a749b76cf234",
   "prefLabel": {
-    "de": "Einführung in die Symbolschreibweise"
+    "de": "Die Symbolschreibweise"
   },
   "definition": {
     "de": "Formeln sind typisch für die Chemie. Damit beschreiben Chemiker den Aufbau der kleinsten Teilchen der Stoffe und auch chemische Reaktionen. In diesem Abschnitt stehen Materialien für die Einführung in das Thema und einfache Übungen zur Verfügung."
@@ -23,32 +23,20 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bf34a17b-b472-401c-967a-452a52143a10",
-      "prefLabel": {
-        "de": "Grundlagen zu den Elementsymbolen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d3e122c9-dc74-428b-851f-ae0bae1db3ea",
       "prefLabel": {
         "de": "Formeln mit Symbolschreibweise"
       }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fca660ba-8bb3-4553-91ad-3a821d39a6f6",
-      "prefLabel": {
-        "de": "Geschichtliche Entwicklung der Elementsymbole"
-      }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9b25b69f-ad8c-4473-8cb3-3b3d47434380",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9f8724da-b043-40e5-9802-cd7a306d8fd7",
     "prefLabel": {
-      "de": "Einführung in das Fach Chemie"
+      "de": "Fachmethoden und Reflexion"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

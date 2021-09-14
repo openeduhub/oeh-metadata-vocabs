@@ -4,28 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faff78d4c-97ff-4564-82da-2142a7bcc1de",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faff78d4c-97ff-4564-82da-2142a7bcc1de",
   "prefLabel": {
-    "de": "Laufen, Springen, Werfen"
+    "de": "Leichtathletik"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0e40b64-75c1-4c25-9b28-801b767d0012",
-      "prefLabel": {
-        "de": "Werfen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d5411548-99ef-4dff-8fe8-74de06b3d250",
-      "prefLabel": {
-        "de": "Springen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f5a8f159-99ba-4201-982b-0c631a0b2773",
-      "prefLabel": {
-        "de": "Laufen"
-      }
-    }
-  ],
+  "definition": {
+    "de": "Die Leichtathletik umfasst das Bewegungsfeld Laufen, Springen, Werfen. Diese beinhalten viele verschiedene Disziplin, die in der Halle oder draußen ausgeübt werden. Das Feld Laufen bezieht sich auf die Disziplinen Sprint, Mittel- und Langstreckenlauf, Staffellauf, Hürdenlauf, Orientierungslauf usw.. Beim Springen geht es beispielsweise um Hoch- und Weitsprung; beim Werfen um den Speerwurf, den Diskuswurf sowie den Kugelstoß. Die Leichtathletik ist das Herzstück der Olympischen Sommerspiele."
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ea776a48-b3f4-446c-b871-19f84b31d280",
     "prefLabel": {
@@ -33,7 +16,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

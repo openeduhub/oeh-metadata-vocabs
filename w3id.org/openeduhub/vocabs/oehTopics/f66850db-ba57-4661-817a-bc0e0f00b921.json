@@ -1,0 +1,130 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f66850db-ba57-4661-817a-bc0e0f00b921",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff66850db-ba57-4661-817a-bc0e0f00b921",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff66850db-ba57-4661-817a-bc0e0f00b921",
+  "prefLabel": {
+    "de": "Startseite Englisch"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/231b38cf-acf3-4374-a0b4-cc400aa49b5c",
+      "prefLabel": {
+        "de": "Startseite Englisch - Lesson Plans"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/575c0399-85db-407b-9368-48e53cba2b3b",
+      "prefLabel": {
+        "de": "Startseite Englisch - News and Events for English Teachers"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/727c4645-d6ac-40a6-b5a8-5a5b9017551a",
+      "prefLabel": {
+        "de": "Startseite Englisch - Games and Warm-Ups"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7cb7daea-18a4-4f45-a325-785957f53d0e",
+      "prefLabel": {
+        "de": "Englisch Startseite - News and Current Events"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cbba670d-1af5-4901-b377-9add897efb70",
+      "prefLabel": {
+        "de": "Wunschbox"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d2fb8c86-1592-4dc2-a5ef-032ecfa47c7c",
+      "prefLabel": {
+        "de": "Startseite Englisch - Media Library"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e287c01e-0ce0-4cd4-bae3-ddeb3e2c0c45",
+      "prefLabel": {
+        "de": "Englisch Startseite - Online Dictionaries and Translators"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/15dbd166-fd31-4e01-aabd-524cfa4d2783",
+    "prefLabel": {
+      "de": "Englisch"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

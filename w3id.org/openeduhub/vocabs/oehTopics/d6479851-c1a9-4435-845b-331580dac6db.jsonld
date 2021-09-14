@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Analysis"
   },
+  "definition": {
+    "de": "Als der Deutsche Gottfried Wilhelm Leibniz und der Engländer Isaac Newton unabhängig voneinander die sogenannte \"Infinitesimalrechnung\" entwickelten, führte das zu einem großen Streit zwischen deutschen und englischen Mathematikern,  weil jede Seite glaubte, der andere hätte vom Vertreter der eigenen Seite abgeschrieben. Inzwischen weiß man, dass die beiden  dieses Teilgebiet der Mathematik tatsächlich unabhängig voneinander entwickelt haben. Zentrale Begiffe sind Funktion, Grenzwert und vor allem das Differenzieren und Integrieren. Ohne die Analysis wären der heutige Stand der Natur-, Ingenieur- und Wirtschaftswissenschaften undenkbar."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0f0b213f-52f3-4da9-8a59-0d3f1182e9fd",
@@ -23,6 +26,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3976774a-b3fb-4bc3-91f9-0475b70a6de1",
       "prefLabel": {
         "de": "Quadratische Funktionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4e87747e-45a5-4f15-8810-6eebb8f7a108",
+      "prefLabel": {
+        "de": "Abituraufgaben"
       }
     },
     {
@@ -99,7 +108,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

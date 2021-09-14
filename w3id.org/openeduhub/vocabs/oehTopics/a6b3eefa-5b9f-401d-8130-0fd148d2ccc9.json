@@ -6,17 +6,44 @@
   "prefLabel": {
     "de": "Kunst verstehen"
   },
+  "definition": {
+    "de": "Wir wählen Inhalte aus, die dich in die Geheimnisse der Kunstgeschichte einweihen. Dabei reisen wir von den früheren Hochkulturen zur zeitgenössischen Kunst, betrachten verschiedene Genres und die Architektur. Wir sammeln kostenlose Inhalte, die von der Bildbeschreibung bis zur Wahrnehmungsschulung alles vermitteln, was du brauchst."
+  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/39f11a8e-7c84-4ccc-abb5-875a59f5efb4",
-      "prefLabel": {
-        "de": "Kunstgeschichte"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5d33d6e3-9497-409f-909d-fb67ec5425dd",
       "prefLabel": {
         "de": "Analyse / Werkbetrachtung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/85863f71-cb77-4afb-ad26-4f3a078c7224",
+      "prefLabel": {
+        "de": "Genre / Bildgattungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8cc3ea73-00ea-4177-9de8-c800daa9758e",
+      "prefLabel": {
+        "de": "Zeitstrahl"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a4df00f4-f8d8-4217-8ee9-7eb0bc5160c0",
+      "prefLabel": {
+        "de": "Künstler*innen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a7cfef1f-38eb-46b0-b35b-888aa1322373",
+      "prefLabel": {
+        "de": "Kunstwerke"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e85946cc-f1be-40e4-816c-f3af053665d2",
+      "prefLabel": {
+        "de": "Epochen und Stile"
       }
     }
   ],
@@ -27,7 +54,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Sporttheorie"
   },
+  "definition": {
+    "de": "Sporttheorie\nbeinhaltet den didaktischen Wissenstransfer aus den Disziplinen der Sportwissenschaft \nin schulisches Lehren und Lernen. Die Wissensgebiete des Sports werden in Sportpädagogik, \nTrainings- und Bewegungslehre, Sportpsychologie, Sportbiologie, Fitness und Gesundheit unterschieden. \n„Sport und Gesellschaft“ thematisiert soziologische und historische Erkenntnisse.\nLehrer und Schüler können die (sportwissenschaftliche) Theorie in ihrem Sportunterricht gebrauchen: beim Planen von Unterrichtsthemen („Wie verbessere ich meine Ausdauer“ , „Warum ist der Fosbury Flop die beste Technik für hohe Sprünge?“), für eine reflektierte Sportpraxis, zur Diagnose und Verbesserung sportmotorischer und psychologischer Leistungsfaktoren im wissenschaftspropädeutischen Lernen der Sekundarstufe II, ..."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1ba93105-8fd9-4d93-bea7-83282959d603",
@@ -34,25 +37,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9cdfb1fe-4bf4-49f8-a386-193e7199f6d9",
       "prefLabel": {
-        "de": "Sportsoziologie"
+        "de": "Sport und Gesellschaft"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a08fdcdf-938f-4f81-9b2d-d9f8f79e516c",
       "prefLabel": {
-        "de": "Sportmedizin"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b6a95743-4706-48f3-bc6f-b60e8ae8afdc",
-      "prefLabel": {
-        "de": "Ernährung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f4a41dbb-e7b6-4a05-b971-e58a970f6423",
-      "prefLabel": {
-        "de": "Sportgeschichte"
+        "de": "Sportbiologie"
       }
     }
   ],
@@ -63,7 +54,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

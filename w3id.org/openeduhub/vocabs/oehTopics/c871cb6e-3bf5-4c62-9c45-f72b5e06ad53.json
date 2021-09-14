@@ -7,13 +7,25 @@
     "de": "Software, Tools und Prozesse"
   },
   "definition": {
-    "de": "06. Software, Tools und Prozesse ___________________________________ Materialien, Praxisbeispiele, Konzepte zu OER-förderlichen Infrastrukturen, Softwarewerkzeugen und Prozessen. ___________________________________ \n\nBeispiele: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien, Referatorien, Metadaten, Lizenzassistent, Bildungsbereich-übergreifende IT-Vernetzungslösungen\n\n\"App Store icon\" by BasBoerman is licensed under CC BY-NC 2.0"
+    "de": "Materialien, Praxisbeispiele, Konzepte zu OER-förderlichen Infrastrukturen, Softwarewerkzeugen und Prozessen.\n\nBeispiele: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien, Referatorien, Metadaten, Lizenzassistent, Bildungsbereich-übergreifende IT-Vernetzungslösungen"
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/206d833d-14ce-4b4d-a652-dca1f0ff483d",
+      "prefLabel": {
+        "de": "Tools und Services für OER"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0e2d58a-08c5-409f-b800-3c7769e31566",
       "prefLabel": {
         "de": "Metadaten im Edu-Bereich"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f1715b64-75e5-438a-b196-5f4781e08e07",
+      "prefLabel": {
+        "de": "IT, Software & Infratsruktur"
       }
     }
   ],
@@ -24,7 +36,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

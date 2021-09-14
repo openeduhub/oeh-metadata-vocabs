@@ -7,7 +7,7 @@
     "de": "Kernchemie"
   },
   "definition": {
-    "de": "Die Kernchemie ist ein Grenzgebiet zur Physik und befasst sich mit Vorgängen, bei denen sich die Atomkerne verändern. \nDazu werden die verschiedenen Strahlungsarten, die alpha-, beta- und gamma-Strahlung näher betrachtet.\nDiese Vorgänge können erst verstanden werden, wenn das Kern-Hülle-Modell bereits bekannt ist."
+    "de": "Die Kernchemie ist ein Grenzgebiet zur Physik und befasst sich mit Vorgängen, bei denen sich die Atomkerne verändern. Die Kernchemie befasst sich also mit dem Aufbau der Atomkerne, der Umwandlung durch radioaktiven Zerfall, die Spaltung von Atomkernen durch Neutronen in Atombomben und Kernreaktoren sowie die Kernfusion. Die Abgrenzung von Kernphysik und Kernchemie ist fließend!"
   },
   "narrower": [
     {
@@ -27,16 +27,22 @@
       "prefLabel": {
         "de": "Radioaktivität und Zerfallsarten"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ef0e8907-474e-4bd9-9350-17f69675ec5c",
+      "prefLabel": {
+        "de": "Kernmodelle"
+      }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3c18febc-4513-47c4-b2bc-ca8af0494964",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/77caf20c-36cc-481e-a842-67fc7c56697a",
     "prefLabel": {
-      "de": "Anorganische Chemie"
+      "de": "Atombau und PSE"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

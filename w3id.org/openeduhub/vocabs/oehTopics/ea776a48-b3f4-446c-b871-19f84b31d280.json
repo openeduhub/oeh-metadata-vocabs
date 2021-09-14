@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Sport"
   },
+  "definition": {
+    "de": "Beschreibungstext"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/155d7cf3-41e8-4ba1-bc73-0d594a181372",
@@ -14,15 +17,21 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/17c960de-9509-4b22-96b6-2d5a36768105",
+      "prefLabel": {
+        "de": "Sport - Fachportalstartseite"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/25bbf20d-2ed9-41ac-9c64-2b9c6e293a00",
       "prefLabel": {
-        "de": "Kämpfen"
+        "de": "Ringen und Kämpfen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/425be0a1-de9c-4f0f-adf9-08924b35ccb6",
       "prefLabel": {
-        "de": "Gerätturnen"
+        "de": "Turnen"
       }
     },
     {
@@ -40,19 +49,19 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/80f700c3-0603-4092-89b5-2f3af7358222",
       "prefLabel": {
-        "de": "Tanz und Gymnastik"
+        "de": "Gymnastik, Tanz, Bewegungskünste"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9054b1b6-4ad7-4247-a4a2-c6e7f97d31a0",
       "prefLabel": {
-        "de": "Ballsport"
+        "de": "Spielen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/aff78d4c-97ff-4564-82da-2142a7bcc1de",
       "prefLabel": {
-        "de": "Laufen, Springen, Werfen"
+        "de": "Leichtathletik"
       }
     },
     {
@@ -62,26 +71,20 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/eb96991f-a7ae-48ab-a22a-b039702aafb8",
-      "prefLabel": {
-        "de": "Spiele"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f6d2f1fe-349d-460e-b66f-1e551492a243",
       "prefLabel": {
-        "de": "Erlebnis-, Trendsport und Bewegungskünste"
+        "de": "Erlebnis- und Trendsport"
       }
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
   },
   "relatedMatch": [
     {

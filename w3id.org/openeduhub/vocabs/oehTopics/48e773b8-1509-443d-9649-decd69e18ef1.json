@@ -1,0 +1,130 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/48e773b8-1509-443d-9649-decd69e18ef1",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F48e773b8-1509-443d-9649-decd69e18ef1",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F48e773b8-1509-443d-9649-decd69e18ef1",
+  "prefLabel": {
+    "de": "Startseite Türkisch"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4a2c27d0-cc79-4f8c-95ec-d356ec344b4b",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Türkische Sprichwörter und Redewendungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/60d9ab5f-ea70-4377-bb0d-6fc0fcb7321b",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Seiten für den Türkisch-Unterricht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/89cdbba5-4449-40f7-8866-5e469c9dad2e",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Lernportale zum Türkischlernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8be9ec2f-bec4-4a93-bfa6-8e7b1da80a00",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Beste Materialien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9aa7424b-3aff-48f6-b117-34c831a0ee37",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Türkisch mit allen Sinnen: Sehen, Hören"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c8c4c7b1-edff-4286-9d6d-fce1518e23e0",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Wörterbücher & Übersetzungstools"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/dd529cae-c622-4328-81de-f52a39edd5b7",
+      "prefLabel": {
+        "de": "Startseite Türkisch - Ilginç! … Interessant"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/26105802-9039-4add-bf21-07a0f89f6e70",
+    "prefLabel": {
+      "de": "Türkisch"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    }
+  }
+}

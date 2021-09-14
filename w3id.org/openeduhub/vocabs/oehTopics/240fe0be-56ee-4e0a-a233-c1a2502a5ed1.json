@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Schreiben"
   },
+  "definition": {
+    "de": "Hier findest du Materialien, die Lernenden helfen, besser Texte zu formulieren, egal, ob es kreative oder argumentative Texte sind, E-Mails oder Blogposts. Außerdem findest du Blätter mit hilfreichen Verbindungswörtern oder -sätzen."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4c5ec36c-d8e1-454e-aa41-9a97081cc6b1",
@@ -32,6 +35,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/978d54b1-6260-4595-8b91-9ccae78708ca",
+      "prefLabel": {
+        "de": "Berichte"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a5897482-b952-4bd4-b22a-9ab90f15a5c5",
       "prefLabel": {
         "de": "kommunikatives Schreiben"
@@ -40,7 +49,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e800af8d-e357-4e4d-9cf2-a05515758f06",
       "prefLabel": {
-        "de": "Zusammenfassungen & Berichte"
+        "de": "Zusammenfassungen"
       }
     }
   ],
@@ -51,7 +60,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

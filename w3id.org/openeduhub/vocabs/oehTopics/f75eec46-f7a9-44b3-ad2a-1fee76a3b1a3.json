@@ -4,45 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff75eec46-f7a9-44b3-ad2a-1fee76a3b1a3",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff75eec46-f7a9-44b3-ad2a-1fee76a3b1a3",
   "prefLabel": {
-    "de": "Einführung in das Teilchenmodell"
+    "de": "Das Teilchenmodell"
   },
   "definition": {
-    "de": "In Chemie nähert man sich den Vorgängen auf atomarer Ebene oft zunächst durch Betrachtung eines einfachen Teilchenmodells. Hier findest du Bilder, Arbeitsblätter und Infos zu dem Thema."
+    "de": "In der Chemie nähert man sich den Vorgängen auf atomarer Ebene oft zunächst durch Betrachtung eines einfachen Teilchenmodells. Dieses kann genutzt werden, um die Funktionsweise von Trennverfahren, die Aggregatzustände und Phänomene wie die Volumenkontraktion beim Mischen zweier Flüssigkeiten zu erklären."
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/226944ba-4f7d-42fe-a4c7-753caf131056",
-      "prefLabel": {
-        "de": "Grundlagen und Historische Entwicklung des Teilchenmodells"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/602824ec-acbe-434e-b9a7-72931cf703d2",
-      "prefLabel": {
-        "de": "Gemische und Trennverfahren im Teilchenmodell"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cea38aa4-f1b4-41be-abe7-8eb6ba2a2692",
-      "prefLabel": {
-        "de": "Atom und Molekül / Element und Verbindung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ee4c1732-562c-47d1-aae3-a6039d3457c0",
-      "prefLabel": {
-        "de": "Aggregatzustände im Teilchenmodell"
-      }
-    }
-  ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9b25b69f-ad8c-4473-8cb3-3b3d47434380",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/63daf3d9-b673-4da0-b1ba-0fad4a58d335",
     "prefLabel": {
-      "de": "Einführung in das Fach Chemie"
+      "de": "Atommodelle in der Chemie"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Musik und Liedgut"
   },
+  "definition": {
+    "de": "Musik verbindet, denn man kann mit anderen singen oder Musik machen. Und wenn jemand die gleiche Musik mag wie du, habt ihr ein Gesprächsthema. Mit Musik kannst du aber auch super Deutsch lernen! Wenn dir ein Song gefällt, möchtest du bestimmt auch den Text verstehen, oder? Dann kannst du laut mitsingen. Dabei kannst du auch deine Aussprache verbessern, wenn du genau hinhörst, wie die Wörter gesungen werden. Fast nebenbei bekommst du ein Gefühl für die Betonung von Wörtern und Sätzen. Schau mal, ob du hier etwas findest, was du magst. Und dann sing mit!"
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01c46536-d69e-49b1-a49d-ec7cc5f04508",
     "prefLabel": {
@@ -13,11 +16,16 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
+    }
+  ],
   "@context": {
     "id": "@id",
     "type": "@type",

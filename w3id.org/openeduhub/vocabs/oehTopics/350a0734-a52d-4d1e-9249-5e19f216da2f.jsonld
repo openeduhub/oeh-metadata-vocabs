@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Themen und Wortschatz"
   },
+  "definition": {
+    "de": "Hier findet ihr umfangreiches Material zu allen die angelsächsische Welt betreffenden Themenbereichen mit entsprechendem Wortschatz und Übungen"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01bf8638-752f-4389-aab7-9bd2206c7737",
@@ -111,7 +114,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
@@ -119,6 +122,9 @@
   "relatedMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20001"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/340"
     }
   ],
   "@context": {

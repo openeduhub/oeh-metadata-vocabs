@@ -11,6 +11,12 @@
   },
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/27b0333c-7cfe-4be4-a648-e199ac950467",
+      "prefLabel": {
+        "de": "Kunst und Architektur"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/501fd767-c5cf-4eb8-856d-3069578e6bec",
       "prefLabel": {
         "de": "Varietäten des Deutschen"
@@ -31,7 +37,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/64f0b3d1-91a2-4053-ba05-7768b6f92a95",
       "prefLabel": {
-        "de": "Literatur und Film"
+        "de": "Literatur, Film und Theater"
       }
     },
     {
@@ -57,6 +63,12 @@
       "prefLabel": {
         "de": "Feste, Bräuche und Traditionen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f0753267-c699-4b2f-92af-92c0be2b9fcb",
+      "prefLabel": {
+        "de": "Sport"
+      }
     }
   ],
   "broader": {
@@ -66,7 +78,7 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }

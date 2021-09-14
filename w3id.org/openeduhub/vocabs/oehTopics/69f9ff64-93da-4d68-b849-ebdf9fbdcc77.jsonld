@@ -6,11 +6,14 @@
   "prefLabel": {
     "de": "Deutsch"
   },
+  "definition": {
+    "de": "Beschreibungstext"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/38154eec-b4d4-4889-b33e-9a66a2b2c81d",
       "prefLabel": {
-        "de": "Schreiben "
+        "de": "Texte schreiben"
       }
     },
     {
@@ -23,6 +26,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a24eff1e-d4d1-48b7-b67c-a642d14b49b2",
       "prefLabel": {
         "de": "Rechtschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b4fbadd8-4d18-4053-b560-65c22779ee15",
+      "prefLabel": {
+        "de": "Tauschsammlung für DaZ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c9f703bf-cec8-44f8-b4f2-e796b17bbb2e",
+      "prefLabel": {
+        "de": "Fachportalseite Deutsch"
       }
     },
     {
@@ -45,13 +60,13 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
   },
   "relatedMatch": [
     {
