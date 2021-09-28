@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Individuum"
   },
+  "definition": {
+    "de": "hier geht es v.a. um die persönliche Bewerbung bei Arbeitgebern mit u.a. dem EuroPASS oder dem ProfilPASS (für Erwachsene) und wie du mit deinen Stärken und Schwächen im Bewerbungsprozess am besten umgehen kannst"
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0124fdba-f9e2-4d8e-b1fd-a3555726e019",
     "prefLabel": {
@@ -19,6 +22,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/040"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/700"
     }

@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Berufsorientierung"
   },
+  "definition": {
+    "de": "diese Sammlung umfasst alles rundum die berufliche Orientierung in der Schule mit Praktika, die eigentliche duale Berufsausbildung in Schule und Betrieb mit einem Überblick zu unterschiedlichen Berufsfeldern sowie rechtliche Bestimmungen"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/26889dbc-d0c1-4e19-bb82-0532c8c666fe",
@@ -51,6 +54,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/040"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/700"
     }
