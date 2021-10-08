@@ -43,6 +43,7 @@
 
 <020> a skos:Concept ;
     skos:prefLabel "Career education"@en, "Arbeitslehre"@de ;
+    skos:altLabel "Arbeit, Wirtschaft, Technik"@de, "Polytechnischer Unterricht"@de, "Polytechnik"@de ;
     skos:related eafkey:arbeitslehre ;
     skos:related eafsys:020 ;
     skos:topConceptOf <> .
@@ -183,6 +184,7 @@
 
 <50001> a skos:Concept ;
     skos:prefLabel "Home economics"@en, "Hauswirtschaft"@de ;
+    skos:altLabel "Verbraucherbildung"@de ;
     skos:related eafsys:50001 ;
     skos:topConceptOf <> .
 
