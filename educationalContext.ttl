@@ -13,8 +13,8 @@
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <elementarbereich>, <grundschule>, <sekundarstufe_1>,
-        <sekundarstufe_2>, <berufliche_bildung>, <erwachsenenbildung>,
-        <foerderschule> .
+        <sekundarstufe_2>, <hochschule>, <berufliche_bildung>, <fortbildung>,
+        <erwachsenenbildung>, <foerderschule>, <fernunterricht> .
 
 <elementarbereich> a skos:Concept ;
     skos:prefLabel "Elementarbereich"@de ;
@@ -44,9 +44,17 @@
     skos:altLabel "upper secondary school"@en ;
     skos:topConceptOf <> .
 
+<hochschule> a skos:Concept ;
+    skos:prefLabel "Hochschule"@de, "Higher Education"@en ;
+    skos:topConceptOf <> .
+
 <berufliche_bildung> a skos:Concept ;
     skos:prefLabel "Berufliche Bildung"@de ;
     skos:prefLabel "vocational education"@en ;
+    skos:topConceptOf <> .
+
+<fortbildung> a skos:Concept ;
+    skos:prefLabel "Fortbildung"@de, "Further Education"@en ;
     skos:topConceptOf <> .
 
 <erwachsenenbildung> a skos:Concept ;
@@ -60,4 +68,6 @@
     skos:prefLabel "special education"@en ;
     skos:topConceptOf <> .
 
-
+<fernunterricht> a skos:Concept ;
+    skos:prefLabel "Fernunterricht"@de, "Distance Learning"@en ;
+    skos:topConceptOf <> .
