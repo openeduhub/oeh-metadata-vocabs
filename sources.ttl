@@ -1,0 +1,242 @@
+@base <http://w3id.org/openeduhub/vocabs/sources/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<0abd53e8-0ef4-40bc-b8bf-77bf982e2e87> a skos:Concept ;
+    skos:notation "ginkgomaps_spider"^^xsd:string ;
+    skos:prefLabel "Ginkgomaps"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://ginkgomaps.com/> .
+
+<0cca74f3-cc7a-4f93-9ef9-0e12f42324a5> a skos:Concept ;
+    skos:notation "irights_spider"^^xsd:string ;
+    skos:prefLabel "iRights"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://irights.info/> .
+
+<10940dc6-b5e3-4d20-a8ef-04f10cc13a56> a skos:Concept ;
+    skos:notation "learning_apps_spider"^^xsd:string ;
+    skos:prefLabel "Learning Apps"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://learningapps.org/> .
+
+<13781e3f-77a0-44dd-a688-5cb2a42ea57c> a skos:Concept ;
+    skos:notation "planet_schule_spider"^^xsd:string ;
+    skos:prefLabel "Planet Schule"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.planet-schule.de/> .
+
+<19f7e0c3-6e49-4d8d-af11-5ab49677867c> a skos:Concept ;
+    skos:notation "F3_kollektiv #digital_global"^^xsd:string ;
+    skos:prefLabel "F3_kollektiv #digital_global"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.digital-global.net/> .
+
+<21c70ee4-de10-4045-9e54-55c5bd871c4d> a skos:Concept ;
+    skos:notation "ddb"^^xsd:string ;
+    skos:prefLabel "Deutsch Digitale Bibliothek"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.deutsche-digitale-bibliothek.de/> .
+
+<24be14de-dc3d-4b40-8635-6ca853aac5c8> a skos:Concept ;
+    skos:notation "niedersachsen_abi_spider"^^xsd:string ;
+    skos:prefLabel "Niedersachsen Abituraufgaben"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://za-aufgaben.nibis.de> .
+
+<2ebeaf42-c2e5-4c38-be59-3b132e3aeeb7> a skos:Concept ;
+    skos:notation "zum_dwu_spider"^^xsd:string ;
+    skos:prefLabel "dwu-Unterrichtsmaterialien"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://www.zum.de/dwu/> .
+
+<2f2ca292-3340-4bf8-bf3d-9412908d2a09> a skos:Concept ;
+    skos:notation "rlp_spider"^^xsd:string ;
+    skos:prefLabel "Schulcampus RLP"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.schulcampus-rlp.de/dashboard> .
+
+<385ac43b-3b16-4bab-a3a4-ca2545aa4cce> a skos:Concept ;
+    skos:notation "bpb_spider"^^xsd:string ;
+    skos:prefLabel "Bundeszentrale für politische Bildung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.bpb.de/> .
+
+<3b083a1d-3205-4850-95ed-9ee0a62dc6ef> a skos:Concept ;
+    skos:notation "zum_spider"^^xsd:string ;
+    skos:prefLabel "ZUM-Unterrichten"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://unterrichten.zum.de/wiki/Hauptseite> .
+
+<3fdd4b6c-c9a3-4967-9a75-77e3f7fdcc20> a skos:Concept ;
+    skos:notation "tutory_spider"^^xsd:string ;
+    skos:prefLabel "Tutory"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.tutory.de/> .
+
+<42ea10fa-2000-4c6f-8f1f-c57ae1bc1525> a skos:Concept ;
+    skos:notation "segu_spider"^^xsd:string ;
+    skos:prefLabel "segu"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://segu-geschichte.de/> .
+
+<432c9be5-eabd-4f50-9359-0a6afbc2e0d8> a skos:Concept ;
+    skos:notation "biologie_lernprogramme_spider"^^xsd:string ;
+    skos:prefLabel "Biologie Lernprogramme"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://biologie-lernprogramme.de/> .
+
+<57eb5a26-a73a-421b-8e66-eaa8500dd6d5> a skos:Concept ;
+    skos:notation "wirlernenonline_spider"^^xsd:string ;
+    skos:prefLabel "WirLernenOnline"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://wirlernenonline.de> .
+
+<5da75aca-f8f0-4114-af33-6fddf62c7245> a skos:Concept ;
+    skos:notation "schule_im_aufbruch_spider"^^xsd:string ;
+    skos:prefLabel "Schule im Aufbruch"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://schule-im-aufbruch.de/> .
+
+<78efeac9-340a-400b-8bc7-3b9bb0a2178a> a skos:Concept ;
+    skos:notation "geogebra_spider"^^xsd:string ;
+    skos:prefLabel "Geogebra"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.geogebra.org/> .
+
+<7c0a64d5-a736-4a06-bdcd-43717eedb87c> a skos:Concept ;
+    skos:notation "kindoergarten_spider"^^xsd:string ;
+    skos:prefLabel "kindOERgarten"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://kindoergarten.wordpress.com/> .
+
+<7c988a60-3cb8-48df-8b11-93ea043997a4> a skos:Concept ;
+    skos:notation "kmap_spider"^^xsd:string ;
+    skos:prefLabel "KMap"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://kmap.eu/> .
+
+<7d22f062-1718-4f8d-b2c0-32751bc6f24c> a skos:Concept ;
+    skos:notation "digitallearninglab_spider"^^xsd:string ;
+    skos:prefLabel "Digital Learning Lab"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://digitallearninglab.de/> .
+
+<808e5f3f-0635-4d86-a3aa-47297cb2fa92> a skos:Concept ;
+    skos:notation "fobizz_spider"^^xsd:string ;
+    skos:prefLabel "Fobizz"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://fobizz.com/> .
+
+<85399c78-bd24-4f4c-94f7-49689a7799b3> a skos:Concept ;
+    skos:notation "zum_klexikin_spider"^^xsd:string ;
+    skos:prefLabel "Klexikon"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://klexikon.zum.de/> .
+
+<86cf251d-2b20-459c-aa90-cdef38a684f1> a skos:Concept ;
+    skos:notation "zum_deutschlernen_spider"^^xsd:string ;
+    skos:prefLabel "ZUM Deutsch Lernen"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://deutsch-lernen.zum.de/wiki/Hauptseite> .
+
+<9338dc1b-705a-45a5-aa31-c84efe62e95c> a skos:Concept ;
+    skos:notation "zdf_rss_spider"^^xsd:string ;
+    skos:prefLabel "ZDF"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.zdf.de/> .
+
+<993c409c-b1f8-406d-9b93-d5b573f537c3> a skos:Concept ;
+    skos:notation "irights_spider"^^xsd:string ;
+    skos:prefLabel "Quizdidaktik"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://quizdidaktik.de/> .
+
+<9ac89a88-d426-403e-bb5b-df1652789960> a skos:Concept ;
+    skos:notation "chemie_lernprogramme_spider"^^xsd:string ;
+    skos:prefLabel "Chemie Lernprogramme"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://chemie-lernprogramme.de/> .
+
+<b7f06ad9-3855-4900-a3c1-25b992ec04d6> a skos:Concept ;
+    skos:notation "Serlo"^^xsd:string ;
+    skos:prefLabel "Serlo"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://de.serlo.org/> .
+
+<be6522d7-08c8-4d6e-9e32-423da2faf706> a skos:Concept ;
+    skos:notation "memucho_spider"^^xsd:string ;
+    skos:prefLabel "Memucho"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://memucho.de/Alle-Themen/1> .
+
+<c29d7aa9-9602-49ab-af74-c88042598c1a> a skos:Concept ;
+    skos:notation "leifi_spider"^^xsd:string ;
+    skos:prefLabel "LEIFI Physik"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.leifiphysik.de/> .
+
+<e9e95fa0-af34-437a-a60f-c8c91fd55860> a skos:Concept ;
+    skos:notation "oai_sodis_spider"^^xsd:string ;
+    skos:prefLabel "Sodis"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://sodis.de/cp/> .
+
+<f49b5e5c-429a-41b5-b438-5c8b1da2ab90> a skos:Concept ;
+    skos:notation "br_rss_spider"^^xsd:string ;
+    skos:prefLabel "Bayerischer Rundfunk"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.br.de/index.html> .
+
+<f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
+    skos:notation "youtube_spider"^^xsd:string ;
+    skos:prefLabel "Youtube"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.youtube.com/> .
+
+<f9c3b75e-5845-4a0b-8708-da98083351e6> a skos:Concept ;
+    skos:notation "rpi_virtuell_spider"^^xsd:string ;
+    skos:prefLabel "RPI-Virtuell"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://www.rpi-virtuell.de/> .
+
+<> a skos:ConceptScheme ;
+    dct:creator <https://www.wirlernenonline.de> ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dct:title "Liste von Quellen im Openeduhub"@de ;
+    skos:hasTopConcept <0abd53e8-0ef4-40bc-b8bf-77bf982e2e87>,
+        <0cca74f3-cc7a-4f93-9ef9-0e12f42324a5>,
+        <10940dc6-b5e3-4d20-a8ef-04f10cc13a56>,
+        <13781e3f-77a0-44dd-a688-5cb2a42ea57c>,
+        <19f7e0c3-6e49-4d8d-af11-5ab49677867c>,
+        <21c70ee4-de10-4045-9e54-55c5bd871c4d>,
+        <24be14de-dc3d-4b40-8635-6ca853aac5c8>,
+        <2ebeaf42-c2e5-4c38-be59-3b132e3aeeb7>,
+        <2f2ca292-3340-4bf8-bf3d-9412908d2a09>,
+        <385ac43b-3b16-4bab-a3a4-ca2545aa4cce>,
+        <3b083a1d-3205-4850-95ed-9ee0a62dc6ef>,
+        <3fdd4b6c-c9a3-4967-9a75-77e3f7fdcc20>,
+        <42ea10fa-2000-4c6f-8f1f-c57ae1bc1525>,
+        <432c9be5-eabd-4f50-9359-0a6afbc2e0d8>,
+        <57eb5a26-a73a-421b-8e66-eaa8500dd6d5>,
+        <5da75aca-f8f0-4114-af33-6fddf62c7245>,
+        <78efeac9-340a-400b-8bc7-3b9bb0a2178a>,
+        <7c0a64d5-a736-4a06-bdcd-43717eedb87c>,
+        <7c988a60-3cb8-48df-8b11-93ea043997a4>,
+        <7d22f062-1718-4f8d-b2c0-32751bc6f24c>,
+        <808e5f3f-0635-4d86-a3aa-47297cb2fa92>,
+        <85399c78-bd24-4f4c-94f7-49689a7799b3>,
+        <86cf251d-2b20-459c-aa90-cdef38a684f1>,
+        <9338dc1b-705a-45a5-aa31-c84efe62e95c>,
+        <993c409c-b1f8-406d-9b93-d5b573f537c3>,
+        <9ac89a88-d426-403e-bb5b-df1652789960>,
+        <b7f06ad9-3855-4900-a3c1-25b992ec04d6>,
+        <be6522d7-08c8-4d6e-9e32-423da2faf706>,
+        <c29d7aa9-9602-49ab-af74-c88042598c1a>,
+        <e9e95fa0-af34-437a-a60f-c8c91fd55860>,
+        <f49b5e5c-429a-41b5-b438-5c8b1da2ab90>,
+        <f5da1c8f-094a-4914-a9a6-4fb123d598c5>,
+        <f9c3b75e-5845-4a0b-8708-da98083351e6> .
+
