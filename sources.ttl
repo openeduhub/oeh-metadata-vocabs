@@ -202,6 +202,12 @@
     skos:topConceptOf <> ;
     sdo:url <http://www.rpi-virtuell.de/> .
 
+<9AC8B0BD-4C71-49D1-8280-F428864AA24D> a skos:Concept ;
+    skos:notation "umwelt_im_unterricht_spider"^^xsd:string ;
+    skos:prefLabel "Umwelt im Unterricht"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.umwelt-im-unterricht.de/> .
+
 <> a skos:ConceptScheme ;
     dct:creator <https://www.wirlernenonline.de> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -238,5 +244,6 @@
         <e9e95fa0-af34-437a-a60f-c8c91fd55860>,
         <f49b5e5c-429a-41b5-b438-5c8b1da2ab90>,
         <f5da1c8f-094a-4914-a9a6-4fb123d598c5>,
-        <f9c3b75e-5845-4a0b-8708-da98083351e6> .
+        <f9c3b75e-5845-4a0b-8708-da98083351e6>,
+        <9AC8B0BD-4C71-49D1-8280-F428864AA24D> .
 
