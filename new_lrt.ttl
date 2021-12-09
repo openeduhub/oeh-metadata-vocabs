@@ -1,12 +1,15 @@
 @base <http://w3id.org/openeduhub/vocabs/new_lrt/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
+@prefix widgets: <http://w3id.org/openeduhub/vocabs/widgets/> .
 
 <01551356-a6a3-44fc-9662-7d366d7af0ac> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:definition "Buch oder E-Book, AUSSER Schulbücher oder ähnliche umfassende Grundlagenwerke"@de ;
     skos:inScheme <> ;
     skos:prefLabel "sonstiges Buch und E-Book"@de .
+    skos:relatedMatch widgets:textbook;
 
 <04693b11-8b39-42aa-964f-578be063a851> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
