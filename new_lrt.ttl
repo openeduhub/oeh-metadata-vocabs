@@ -96,12 +96,14 @@
 <1cac68e6-dafe-4ce4-a52f-f33cde26da59> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:enquiry_oriented_activity ;
     skos:prefLabel "Recherche- und Lernauftrag"@de .
 
 <1dc4ed81-718c-4b76-86cb-947a86875973> a skos:Concept ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:definition "Konzepte darstellender Abbildung, z.B. Organigramme, Prozessdarstellungen, Concept Maps"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:demonstration ;
     skos:prefLabel "Veranschaulichung, Schaubild und Tafelbild"@de .
 
 <1dd5f4f8-904f-4887-aac6-75b6a22d9887> a skos:Concept ;
@@ -123,6 +125,7 @@
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:definition "im Sinne einer pädagogische Zusammenstellung (z.B. Schul-/Studienprojektaktivität)"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:project ;
     skos:prefLabel "Projekt (Lehr- und Lernmaterial)"@de .
 
 <2311a549-743c-4061-983b-629d4c4ac30b> a skos:Concept ;
@@ -156,6 +159,7 @@
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
     skos:definition "Ein Medium, dass einen Sachverhalt interaktiv erfahrbar macht, bspw. indem Eingabewerte der Nutzenden in ihrer Wirkung auf ein System gezeigt werden."@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:simulation ;
     skos:prefLabel "Simulation"@de .
 
 <2e67ce4e-49ce-468b-bd94-96a74e4832aa> a skos:Concept ;
@@ -178,6 +182,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
 <345cba59-9fa0-4ec8-ba93-2c75f4a40003> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:data ;
     skos:prefLabel "Daten"@de .
 
 <3616febb-8cf8-4503-8f80-ebc552d85506> a skos:Concept ;
@@ -189,6 +194,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
 <36e68792-6159-481d-a97b-2c00901f4f78> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:worksheet ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:scopeNote "eine Stunde oder kleiner"@de .
 
@@ -229,6 +235,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <4735c61a-429b-4909-9f3c-cbf975e2aa0e> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:experiment ;
     skos:prefLabel "Experiment (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "Stunde(n)"@de .
 
@@ -242,6 +249,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition """Größere Einheit - eher über Wochen, die i.d.R. mit einem Zertifikat/Abschluss endet
 (z.B. Physik ein Schuljahr oder ein Fachsemester im Studium)"""@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:course ;
     skos:prefLabel "Kurs"@de ;
     skos:scopeNote "Monate"@de .
 
@@ -260,6 +268,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
     skos:definition "Ein Konzept für eine pädagogische Einheit undefinierter Größe / Länge."@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:teaching_module ;
     skos:prefLabel "Unterrichtsbaustein"@de ;
     skos:scopeNote "unbestimmt"@de .
 
@@ -284,6 +293,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:definition "Seite mit News- u.a. Beiträgen Bildungszwecke die oft ergänzt werden."@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:weblog ;
     skos:prefLabel "Webblog (dynamisch)"@de .
 
 <5585a490-36a7-4053-8beb-aeff219d6003> a skos:Concept ;
@@ -384,6 +394,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <6b9748e4-fb3b-4082-ae08-c7a11c717256> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:wiki ;
     skos:prefLabel "Wiki (dynamisch)"@de .
 
 <6c82f612-2661-43fb-90a4-5e3ceb6f7f85> a skos:Concept ;
@@ -395,6 +406,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
     skos:definition "Eine Radio- oder Podcast-Sendung, die ein oder mehrere Themen im journalistischen Stil aufarbeitet."@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:broadcast ;
     skos:prefLabel "Radio, Podcast und Interview"@de .
 
 <6eb493be-e072-4afc-a5b4-aea34beeca70> a skos:Concept ;
@@ -420,6 +432,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <776652a6-de35-4d2f-817e-6130dd2fa248> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:guide ;
     skos:prefLabel "Handbuch, Dokumentation und Regularien"@de .
 
 <78cc5a71-5ae2-4fa3-be5f-5cef40c23328> a skos:Concept ;
@@ -483,6 +496,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:definition "Lehr-/Lernthema an einem Fall dargestellt - bspw. alle Projektmanagementmethoden an einem Beispielprojekt"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:case_study ;
     skos:prefLabel "Fallstudie"@de .
 
 <89f00268-4219-48f4-be37-9c2c2f197280> a skos:Concept ;
@@ -503,6 +517,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <92c7a50c-6243-45d9-8b11-e79cbbda6305> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:presentation ;
     skos:prefLabel "Präsentation"@de .
 
 <92dcc3ec-fe94-451c-95ac-ea305e0e7597> a skos:Concept ;
@@ -542,6 +557,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <9a86beb5-1a65-48ca-99c8-e8c789cfe2f8> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:exploration ;
     skos:prefLabel "Entdeckendes Lernen (Lehr- und Lernmaterial)"@de .
 
 <9c23511c-73d0-407b-b443-c93e36364de2> a skos:Concept ;
@@ -558,6 +574,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <9cf3c183-f37c-4b6b-8beb-65f530595dff> a skos:Concept ;
     skos:broader <cd625d33-5d7b-4a86-a54a-9a897ded729f> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:assessment ;
     skos:prefLabel "Klausur, Klassenarbeit und Test"@de .
 
 <9d33119a-ada2-4022-b78b-17537b0fcbbf> a skos:Concept ;
@@ -596,6 +613,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:definition "Material für Übungen"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:drill_and_practice ;
     skos:prefLabel "Übungsmaterial"@de ;
     skos:scopeNote "divers"@de .
 
@@ -628,6 +646,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <ab5b99ea-551c-42f3-995b-e4b5f469ad7e> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:reference ;
     skos:prefLabel "Primärmaterial und Quelle"@de .
 
 <abfd1f4c-c649-4086-a985-5d5567d0980f> a skos:Concept ;
@@ -644,6 +663,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <ac82dc13-3be1-464d-9cdc-88e608d99c39> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:role_play ;
     skos:prefLabel "Rollenspiel (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "Stunde(n)"@de .
 
@@ -664,6 +684,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird."@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:educational_game ;
     skos:prefLabel "Lernspiel"@de .
 
 <b1075505-364d-4e69-90a3-8ad463cfb587> a skos:Concept ;
@@ -676,6 +697,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition """Eine grafische Landkartenübersicht.
 Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:map ;
     skos:prefLabel "Karte"@de .
 
 <b84255b1-f760-4420-a8f5-b0b608a53cd9> a skos:Concept ;
@@ -698,6 +720,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <c022c920-c236-4234-bae1-e264a3e2bdf6> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:glossary ;
     skos:prefLabel "Nachschlagewerk und Glossar"@de .
 
 <c04f9445-180d-4402-ab27-61918a888a47> a skos:Concept ;
@@ -760,6 +783,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:definition "Webseite oder Portal, das relativ stabile Inhalte für Bildungszwecke anbietet (im Gegensatz zu Blog und Wiki, die oft aktualisiert werden)"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:web_page,
+        lrt:other_web_resource ;
     skos:prefLabel "Webseite und Portal (stabil)"@de .
 
 <dd9e02fa-0501-4779-aeb2-6f50c4d0d502> a skos:Concept ;
@@ -870,7 +895,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <f4e21a45-46c7-48a7-a23e-243660ea2e8c> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Modell und 3-D-Druck"@de .
+    skos:exactMatch lrt:model ;
+    skos:prefLabel "Modell und 3D-Druck"@de .
 
 <f55cb96b-b51f-4493-957b-fd1707bfedbd> a skos:Concept ;
     skos:broader <f6f27241-86e0-44e8-a17b-5b563e61a4c8> ;
@@ -892,6 +918,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:definition "Eine fotographische Aufnahme der Realität"@de ;
     skos:inScheme <> ;
+    skos:exactMatch lrt:photo ;
     skos:prefLabel "Foto"@de .
 
 <fa0c53f3-699c-482a-89c4-c69e986d8495> a skos:Concept ;
@@ -921,6 +948,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 (Kreative) Aufgabe; Spiele ohne feste Rahmenbedingung"""@de ;
     skos:inScheme <> ;
     skos:narrower <ee738203-44af-4150-986f-ef01fb883f00> ;
+    skos:exactMatch lrt:open_activity ;
     skos:prefLabel "offene und kreative Aktivität (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "kleiner Stunde"@de .
 
@@ -997,6 +1025,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <94222751-6c90-4623-9c7e-09e21d885599>,
         <962560fe-d8d0-43e2-ad60-97f070b935c6>,
         <ef58097d-c1de-4e6a-b4da-6f10e3716d3d> ;
+    skos:exactMatch lrt:lesson_plan ;
     skos:prefLabel "Unterrichtsplanung"@de .
 
 <7a6e9608-2554-4981-95dc-47ab9ba924de> a skos:Concept ;
@@ -1007,6 +1036,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <62a09b63-320e-4f4d-9da6-8cab9cdef55b>,
         <a0218a48-a008-4975-a62a-27b1a83d454f>,
         <facc2239-a827-462a-b2d2-bbab6cfb1178> ;
+    skos:exactMatch lrt:video ;
     skos:prefLabel "Video (Material)"@de .
 
 <ef1fd35b-1c05-45a2-9f41-bf98b6541dd0> a skos:Concept ;
@@ -1038,6 +1068,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <b1075505-364d-4e69-90a3-8ad463cfb587>,
         <dc5763ab-6f47-4aa3-9ff3-1303efbeef6e>,
         <f4e21a45-46c7-48a7-a23e-243660ea2e8c> ;
+    skos:exactMatch lrt:other_asset_type,
+        lrt:other ;
     skos:prefLabel "Weiteres Material"@de .
 
 <955590ae-5f06-4513-98e9-91dfa8d5a05e> a skos:Concept ;
@@ -1108,6 +1140,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <ef1fd35b-1c05-45a2-9f41-bf98b6541dd0>,
         <fd0b97e1-25ba-4477-b769-b41e9623cf65> ;
     skos:prefLabel "Tool"@de ;
+    skos:exactMatch lrt:application,
+        lrt:tool ;
     skos:topConceptOf <> .
 
 <ec2682af-08a9-4ab1-a324-9dca5151e99f> a skos:Concept ;
@@ -1120,6 +1154,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <9c23511c-73d0-407b-b443-c93e36364de2>,
         <e3ca3de5-faf2-4584-bc25-d5f9e784b2b4>,
         <ed4f4834-c098-4b05-b27d-a9d9fbd31307> ;
+    skos:exactMatch lrt:audiovisual_medium, 
+        lrt:audio ;
     skos:prefLabel "Audio"@de .
 
 <fd0b97e1-25ba-4477-b769-b41e9623cf65> a skos:Concept ;
@@ -1189,6 +1225,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e3ddae8a-d94c-40d8-b7f7-9bdaf0cb8325>,
         <f7228fb5-105d-4313-afea-66dd59b1b6f8>,
         <f9630e1c-2247-42ed-87b0-b1e18e4ec02b> ;
+    skos:exactMatch lrt:image ;
     skos:prefLabel "Bild (Material)"@de .
 
 <1846d876-d8fd-476a-b540-b8ffd713fedb> a skos:Concept ;
@@ -1236,6 +1273,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <c022c920-c236-4234-bae1-e264a3e2bdf6>,
         <d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9>,
         <f7e92628-4132-4985-bcf5-93c285e300a8> ;
+    skos:exactMatch lrt:text ;
     skos:prefLabel "Dokumente und textbasierte Inhalte"@de .
 
 <588efe4f-976f-48eb-84aa-8bcb45679f85> a skos:Concept ;
