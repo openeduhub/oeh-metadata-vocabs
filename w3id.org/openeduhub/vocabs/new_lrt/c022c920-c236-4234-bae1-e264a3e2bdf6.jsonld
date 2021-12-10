@@ -18,6 +18,11 @@
       "de": "Liste von Ressourcentypen im Openeduhub"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/glossary"
+    }
+  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -75,6 +80,9 @@
       "@container": "@set"
     },
     "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {

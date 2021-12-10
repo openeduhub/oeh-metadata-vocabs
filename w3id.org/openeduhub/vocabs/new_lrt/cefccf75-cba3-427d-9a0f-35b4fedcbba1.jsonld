@@ -62,6 +62,14 @@
   "topConceptOf": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/application"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/tool"
+    }
+  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -119,6 +127,9 @@
       "@container": "@set"
     },
     "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {

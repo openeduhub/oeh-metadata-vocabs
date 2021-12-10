@@ -21,6 +21,14 @@
       "de": "Liste von Ressourcentypen im Openeduhub"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/web_page"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/other_web_resource"
+    }
+  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -78,6 +86,9 @@
       "@container": "@set"
     },
     "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
