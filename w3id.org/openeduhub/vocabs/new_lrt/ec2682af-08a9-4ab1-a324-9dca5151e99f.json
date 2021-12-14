@@ -56,10 +56,12 @@
       "de": "Material"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/audiovisual_medium"
-    },
+    }
+  ],
+  "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/audio"
     }
