@@ -15,6 +15,11 @@
       "de": "Bild (Material)"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/image"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
     "title": {
@@ -77,6 +82,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -87,6 +95,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }

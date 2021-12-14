@@ -44,17 +44,17 @@
       "de": "Grundlagen"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/320"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
       "de": "Taxonomie von Lehrplanthemen"
     }
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/320"
-    }
-  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -111,6 +111,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -121,6 +124,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }

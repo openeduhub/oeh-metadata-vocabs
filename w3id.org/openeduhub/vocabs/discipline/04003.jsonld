@@ -7,6 +7,36 @@
     "de": "MINT",
     "en": "MINT"
   },
+  "related": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/100",
+      "prefLabel": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/080",
+      "prefLabel": {
+        "de": "Biologie",
+        "en": "Biology"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/460",
+      "prefLabel": {
+        "de": "Physik",
+        "en": "Physics"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/320",
+      "prefLabel": {
+        "de": "Informatik",
+        "en": "ICT"
+      }
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/discipline/",
     "title": {
@@ -73,6 +103,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -83,6 +116,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }

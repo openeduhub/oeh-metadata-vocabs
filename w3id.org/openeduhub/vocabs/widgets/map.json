@@ -15,6 +15,11 @@
       "de": "Materialtyp"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/map"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/widgets/",
     "title": {
@@ -22,11 +27,6 @@
       "en": "Open Edu Hub Widgets"
     }
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/map"
-    }
-  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -83,6 +83,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -93,6 +96,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }

@@ -94,6 +94,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -104,6 +107,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }

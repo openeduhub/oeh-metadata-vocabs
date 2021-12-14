@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "Bild"
   },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/image"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/learningResourceTypeCombined/",
     "title": {
@@ -16,11 +21,6 @@
   "topConceptOf": {
     "id": "http://w3id.org/openeduhub/vocabs/learningResourceTypeCombined/"
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/image"
-    }
-  ],
   "@context": {
     "id": "@id",
     "type": "@type",
@@ -77,6 +77,9 @@
     "narrower": {
       "@container": "@set"
     },
+    "related": {
+      "@container": "@set"
+    },
     "relatedMatch": {
       "@container": "@set"
     },
@@ -87,6 +90,20 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
     }
   }
