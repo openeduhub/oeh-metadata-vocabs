@@ -1337,8 +1337,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <9c23511c-73d0-407b-b443-c93e36364de2>,
         <e3ca3de5-faf2-4584-bc25-d5f9e784b2b4>,
         <ed4f4834-c098-4b05-b27d-a9d9fbd31307> ;
-    skos:exactMatch lrt:audiovisual_medium, 
-        lrt:audio ;
+    skos:exactMatch lrt:audio ; 
+    skos:closeMatch lrt:audiovisual_medium ;
     skos:prefLabel "Audio"@de .
 
 <fd0b97e1-25ba-4477-b769-b41e9623cf65> a skos:Concept ;
