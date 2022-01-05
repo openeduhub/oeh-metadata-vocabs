@@ -397,7 +397,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Ein Internetportal das zu einem Thema informiert und Inhalte anbietet."@de ;
     skos:inScheme <> ;
-    skos:relatedMatch: sct:007 ;
+    skos:relatedMatch sct:007 ;
     skos:prefLabel "Portal"@de .
 
 <5d3959ea-ede0-4d8e-828c-e8bbf5e95166> a skos:Concept ;
