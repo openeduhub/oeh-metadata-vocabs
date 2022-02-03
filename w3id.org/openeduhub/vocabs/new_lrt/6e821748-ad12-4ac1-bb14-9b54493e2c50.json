@@ -15,11 +15,6 @@
       "de": "Audio"
     }
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/podcast_radio"
-    }
-  ],
   "broadMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/audio"
@@ -28,6 +23,9 @@
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/broadcast"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/podcast_radio"
     }
   ],
   "inScheme": {

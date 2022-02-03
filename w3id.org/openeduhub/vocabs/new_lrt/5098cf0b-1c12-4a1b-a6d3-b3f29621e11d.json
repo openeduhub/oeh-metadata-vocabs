@@ -18,11 +18,6 @@
       "de": "Unterrichtsplanung"
     }
   },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules"
-    }
-  ],
   "broadMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan"
@@ -31,6 +26,9 @@
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/teaching_module"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules"
     }
   ],
   "inScheme": {
