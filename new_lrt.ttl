@@ -35,7 +35,7 @@
 <098e3d34-dd41-4c55-943d-640917577b16> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
     skos:broadMatch lrt:other ;
-    skos:relatedMatch widgets:person_of_interest ;
+    skos:exactMatch widgets:person_of_interest ;
     skos:inScheme <> ;
     skos:prefLabel "bekannte Persönlichkeit"@de .
 
@@ -59,6 +59,7 @@
     skos:definition "Neuigkeiten aus Forschung und Politik zum Fach."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:other ;
+    skos:exactMatch widgets:topic_related_news ;
     skos:prefLabel "Fachliche News"@de .
 
 <1008b9eb-4aa8-4b2f-bf35-55c0012eb2df> a skos:Concept ;
@@ -199,6 +200,7 @@
     skos:definition "Ein Medium, dass einen Sachverhalt interaktiv erfahrbar macht, bspw. indem Eingabewerte der Nutzenden in ihrer Wirkung auf ein System gezeigt werden."@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:simulation ;
+    skos:relatedMatch widgets:simulation ;
     skos:prefLabel "Simulation"@de .
 
 <2e67ce4e-49ce-468b-bd94-96a74e4832aa> a skos:Concept ;
@@ -206,6 +208,7 @@
     skos:definition """Ein Medium, das einen Sachverhalt bspw. im Zeitablauf erfahrbar macht.
 Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:inScheme <> ;
+    skos:relatedMatch widgets:simulation ;
     skos:prefLabel "Animation"@de .
 
 <32e8367c-9e96-44ac-8a17-ca36056d92ff> a skos:Concept ;
@@ -238,7 +241,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:worksheet ;
-    skos:relatedMatch widgets:worksheet ;
+    skos:exactMatch widgets:worksheet ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:scopeNote "eine Stunde oder kleiner"@de .
 
@@ -283,8 +286,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <4735c61a-429b-4909-9f3c-cbf975e2aa0e> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:experiment ;
-    skos:relatedMatch widgets:experiment ;
+    skos:exactMatch lrt:experiment,
+        widgets:experiment ;
     skos:prefLabel "Experiment (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "Stunde(n)"@de .
 
@@ -292,6 +295,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <dc5763ab-6f47-4aa3-9ff3-1303efbeef6e> ;
     skos:inScheme <> ;
     skos:broadMatch lrt:other ;
+    skos:exactMatch widgets:news ;
     skos:prefLabel "Alltags News"@de .
 
 <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> a skos:Concept ;
@@ -299,8 +303,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition """Größere Einheit - eher über Wochen, die i.d.R. mit einem Zertifikat/Abschluss endet
 (z.B. Physik ein Schuljahr oder ein Fachsemester im Studium)"""@de ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:course ;
-    skos:relatedMatch widgets:course ;
+    skos:exactMatch lrt:course,
+        widgets:course ;
     skos:prefLabel "Kurs"@de ;
     skos:scopeNote "Monate"@de .
 
@@ -315,16 +319,16 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:definition "z.B. Angebote der Volkshochschule"@de ;
     skos:inScheme <> ;
-    skos:relatedMatch widgets:teacher_training ;
-    skos:prefLabel "Fortbilungsangebot"@de .
+    skos:exactMatch widgets:teacher_training ;
+    skos:prefLabel "Fortbildungsangebot"@de .
 
 <5098cf0b-1c12-4a1b-a6d3-b3f29621e11d> a skos:Concept ;
     skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
     skos:definition "Ein Konzept für eine pädagogische Einheit undefinierter Größe / Länge."@de ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:teaching_module ;
+    skos:exactMatch lrt:teaching_module,
+        widgets:teaching_modules ;
     skos:broadMatch lrt:lesson_plan ;
-    skos:relatedMatch widgets:teaching_modules ;
     skos:prefLabel "Unterrichtsbaustein"@de ;
     skos:scopeNote "unbestimmt"@de .
 
@@ -338,7 +342,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
     skos:definition "Ein interaktives Medium, das virtuelle Inhalte in die Realität einblendet."@de ;
     skos:inScheme <> ;
-    skos:relatedMatch widgets:augmented_reality ;
+    skos:exactMatch widgets:augmented_reality ;
     skos:prefLabel "Augmented Reality"@de .
 
 <51c863b8-323d-4c16-bc86-ff1bbed584bb> a skos:Concept ;
@@ -367,6 +371,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <55e55bef-c93f-462f-9163-7731e130a94d> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
+    skos:closeMatch lrt:exploration ;
     skos:prefLabel "Entdeckendes Lernen"@de .
 
 <58bb5be8-301d-488d-a0b1-b74ac9435209> a skos:Concept ;
@@ -489,9 +494,9 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
     skos:definition "Eine Radio- oder Podcast-Sendung, die ein oder mehrere Themen im journalistischen Stil aufarbeitet."@de ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:broadcast ;
+    skos:exactMatch lrt:broadcast,
+        widgets:podcast_radio ;
     skos:broadMatch lrt:audio ;
-    skos:relatedMatch widgets:podcast_radio ;
     skos:prefLabel "Radio, Podcast und Interview"@de .
 
 <6eb493be-e072-4afc-a5b4-aea34beeca70> a skos:Concept ;
@@ -585,6 +590,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <85b94e6e-3246-4371-a0dc-36f309901625> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
+    skos:closeMatch lrt:project ;
     skos:prefLabel "Projekt"@de .
 
 <88823c13-aba8-45d4-80a1-cc34897e6abc> a skos:Concept ;
@@ -632,7 +638,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <92dcc3ec-fe94-451c-95ac-ea305e0e7597> a skos:Concept ;
     skos:broader <955590ae-5f06-4513-98e9-91dfa8d5a05e> ;
     skos:inScheme <> ;
-    skos:relatedMatch widgets:extracurricular ;
+    skos:exactMatch widgets:extracurricular ;
     skos:prefLabel "außerschulische Angebot"@de .
 
 <933ceef8-c7ae-4af3-9229-4bd86334dfea> a skos:Concept ;
@@ -646,7 +652,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Unterrichtsbausteine wie Good Practice-Beispiele, die konkrete Unterrichtssituationen im schulischen Fachunterricht beschreiben,"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:lesson_plan ;
-    skos:relatedMatch widgets:teaching_idea ;
+    skos:exactMatch widgets:teaching_idea ;
     skos:prefLabel "Unterrichtsidee"@de ;
     skos:scopeNote "unbestimmt"@de .
 
@@ -654,7 +660,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
     skos:broadMatch lrt:text ;
-    skos:relatedMatch widgets:vocab_list ;
+    skos:exactMatch widgets:vocab_list ;
     skos:prefLabel "Wort- und Vokabellisten"@de .
 
 <962560fe-d8d0-43e2-ad60-97f070b935c6> a skos:Concept ;
@@ -670,6 +676,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch: widgets:educational_games ;
     skos:prefLabel "Lernspiel-Umgebung"@de .
 
 <9a86beb5-1a65-48ca-99c8-e8c789cfe2f8> a skos:Concept ;
@@ -683,7 +690,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Musik oder Musikalische Audiosequenz"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio ;
-    skos:relatedMatch widgets:music ;
+    skos:exactMatch widgets:music ;
     skos:prefLabel "Musik"@de .
 
 <9c47bca7-fa9d-4c3e-b64c-a32e4b654e2b> a skos:Concept ;
@@ -696,8 +703,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <9cf3c183-f37c-4b6b-8beb-65f530595dff> a skos:Concept ;
     skos:broader <cd625d33-5d7b-4a86-a54a-9a897ded729f> ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:assessment ;
-    skos:relatedMatch widgets:exam ;
+    skos:exactMatch lrt:assessment,
+        widgets:exam ;
     skos:prefLabel "Klausur, Klassenarbeit und Test"@de .
 
 <9d33119a-ada2-4022-b78b-17537b0fcbbf> a skos:Concept ;
@@ -731,7 +738,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Ein Video, das einen bestimmten Sachverhalt erklärt"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video ;
-    skos:relatedMatch widgets:erklaervideo ;
+    skos:exactMatch widgets:erklaervideo ;
     skos:prefLabel "Erklärvideo und gefilmtes Experiment"@de .
 
 <a05f4ecd-0bc9-4338-b9a7-a2f59887b2a7> a skos:Concept ;
@@ -794,6 +801,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <abfd1f4c-c649-4086-a985-5d5567d0980f> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
+    skos:closeMatch lrt:role_play ;
     skos:prefLabel "Rollenspiel"@de .
 
 <ac0ad1e8-d1a2-42f2-961e-5aa9b8157fa5> a skos:Concept ;
@@ -814,6 +822,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition """Eine längere i.d.R. digitale Themeneinheit
 (mittelgroße Unterrichtseinheit - eher Stunden, Tage, mit einzelnen Lernschritten, die in individueller Geschwindigkeit zu vergleichbaren, überprüfbaren Lernergebnissen führen). Ein Lernpfad ist eine Unterrichtseinheit mit einzelnen Lernschritten, die die Lernenden im eigenen Tempo online selbstständig bearbeiten. Die Lernenden bearbeiten die Lernschritte in der vorgegebenen Reihenfolge, dokumentieren ihren Lernzuwachs nach jedem Schritt und können am Schluss auf vergleichbare Ergebnisse zurückgreifen."""@de ;
     skos:inScheme <> ;
+    skos:closeMatch widgets:teaching_modules ;
     skos:prefLabel "Unterrichtsbaustein, Lernobjekt und Lernpfad"@de ;
     skos:scopeNote "Wochen"@de .
 
@@ -841,9 +850,9 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition """Eine grafische Landkartenübersicht.
 Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:map ;
+    skos:exactMatch lrt:map,
+        widgets:map ;
     skos:broadMatch lrt:image ;
-    skos:relatedMatch widgets:map ;
     skos:prefLabel "Karte"@de .
 
 <b84255b1-f760-4420-a8f5-b0b608a53cd9> a skos:Concept ;
@@ -862,6 +871,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <bd471374-c6f3-4c1b-905b-1b369a6fe63b> a skos:Concept ;
     skos:broader <955590ae-5f06-4513-98e9-91dfa8d5a05e> ;
     skos:inScheme <> ;
+    skos:relatedMatch: widgets:teacher_training ;
     skos:prefLabel "Fortbildungsangebot (Termin)"@de .
 
 <c022c920-c236-4234-bae1-e264a3e2bdf6> a skos:Concept ;
@@ -870,6 +880,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:exactMatch lrt:glossary ;
     skos:broadMatch lrt:text ;
     skos:relatedMatch widgets:glossary ;
+    skos:closeMatch sct:006 ;
     skos:prefLabel "Nachschlagewerk und Glossar"@de .
 
 <c04f9445-180d-4402-ab27-61918a888a47> a skos:Concept ;
@@ -914,6 +925,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <c903a62a-17b0-4646-b2b8-a1a02a84e8cc> a skos:Concept ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:inScheme <> ;
+    skos:relatedMatch widgets:extracurricular ;
     skos:prefLabel "außerschulische Angebot (Bildungsangebot)"@de .
 
 <ce6c29f7-7bfd-4b84-a676-ac51e8601969> a skos:Concept ;
@@ -987,6 +999,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <dc5763ab-6f47-4aa3-9ff3-1303efbeef6e> ;
     skos:inScheme <> ;
     skos:broadMatch lrt:other ;
+    skos:exactMatch widgets:educational_news ;
     skos:prefLabel "Pädagogische News"@de .
 
 <e1b7864c-5205-4fa2-aff9-d039ebfd9f8d> a skos:Concept ;
@@ -1054,7 +1067,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio ;
-    skos:relatedMatch widgets:audio ;
+    skos:relatedMatch widgets:audio,
+        widgets:audio_sample ;
     skos:prefLabel "Hörverstehen"@de .
 
 <ee1790c4-7d42-452c-800d-e03ea3a26ce1> a skos:Concept ;
@@ -1137,6 +1151,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <fe298cb9-fe5e-400e-8319-9b5b2e77352e> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
+    skos:closeMatch lrt:experiment ;
     skos:prefLabel "Experiment"@de .
 
 <ffff857b-e450-49b2-882b-5820bada2a42> a skos:Concept ;
@@ -1218,7 +1233,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <f6f27241-86e0-44e8-a17b-5b563e61a4c8> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
-    skos:relatedMatch widgets:editors ;
+    skos:exactMatch widgets:editors ;
     skos:prefLabel "Editoren"@de .
 
 <cd625d33-5d7b-4a86-a54a-9a897ded729f> a skos:Concept ;
@@ -1238,7 +1253,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <94222751-6c90-4623-9c7e-09e21d885599>,
         <962560fe-d8d0-43e2-ad60-97f070b935c6>,
         <ef58097d-c1de-4e6a-b4da-6f10e3716d3d> ;
-    skos:exactMatch lrt:lesson_plan ;
+    skos:exactMatch lrt:lesson_plan,
+        widgets:methods ;
     skos:prefLabel "Unterrichtsplanung"@de .
 
 <7a6e9608-2554-4981-95dc-47ab9ba924de> a skos:Concept ;
@@ -1296,7 +1312,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e0f073ae-9c5d-453c-89eb-dbad42f3ec7a>,
         <e9dc6f6b-5e9d-44da-8701-74212b75eb31>,
         <ffff857b-e450-49b2-882b-5820bada2a42> ;
-    skos:relatedMatch widgets:events ;
+    skos:exactMatch widgets:events ;
     skos:prefLabel "Termin, Event und Veranstaltung"@de ;
     skos:topConceptOf <> .
 
@@ -1478,6 +1494,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9>,
         <cd625d33-5d7b-4a86-a54a-9a897ded729f>,
         <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
+    skos:exactMatch: widgets:materialien ;
     skos:prefLabel "Material"@de ;
     skos:topConceptOf <> .
 
