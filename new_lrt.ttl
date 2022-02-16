@@ -13,6 +13,19 @@
     skos:inScheme <> ;
     skos:prefLabel "sonstiges Buch und E-Book"@de .
 
+<44868358-7b1f-42e4-a6b9-c3889d9d2623> a skos:Concept ;
+    skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
+    skos:definition "Eine Liste mit einzelnen Aufgabenpunkten zum Abhaken, z.B. als Unterstützung beim Durchgehen technischer Sicherheitseinstellungen"@de ;
+    skos:broadMatch lrt:text ;
+    skos:inScheme <> ;
+    skos:prefLabel "Checkliste"@de .
+
+<f61c6708-0427-4f0d-9c33-cec4253d2cad> a skos:Concept ;
+    skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
+    skos:definition "Eine Bedien- oder Gebrauchsanweisung, z.B. ein Dokument, welches die Bedienung eines Software-Tools erklärt"@de ;
+    skos:broadMatch lrt:text ;
+    skos:inScheme <> ;
+    skos:prefLabel "Gebrauchsanweisung"@de .
 
 <04693b11-8b39-42aa-964f-578be063a851> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
