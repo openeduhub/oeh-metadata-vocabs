@@ -22,10 +22,10 @@
 
 <f61c6708-0427-4f0d-9c33-cec4253d2cad> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
-    skos:definition "Eine Bedien- oder Gebrauchsanweisung, z.B. ein Dokument, welches die Bedienung eines Software-Tools erklärt"@de ;
+    skos:definition "Eine Anleitung zur Verwendung oder Bedienung, z.B. ein Dokument, welches die Bedienung eines Software-Tools erklärt"@de ;
     skos:broadMatch lrt:text ;
     skos:inScheme <> ;
-    skos:prefLabel "Gebrauchsanweisung"@de .
+    skos:prefLabel "Anleitung"@de .
 
 <04693b11-8b39-42aa-964f-578be063a851> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
@@ -459,11 +459,6 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:image ;
     skos:prefLabel "Cartoon, Comic"@de .
-
-<66e41a39-baba-4449-95f8-b74c2ff8fc30> a skos:Concept ;
-    skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Manuell migrieren"@de .
 
 <6a15628c-0e59-43e3-9fc5-9a7f7fa261c4> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -1517,7 +1512,6 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:narrower <04693b11-8b39-42aa-964f-578be063a851>,
         <5176beb5-147b-446a-8baf-a2ae693431ec>,
         <5bc29626-4b74-47d3-9428-f3baff9fc9ee>,
-        <66e41a39-baba-4449-95f8-b74c2ff8fc30>,
         <834969d7-c70d-4685-94a4-17cebf0dec7d>,
         <9f40cd56-8def-46cc-a21b-63d9557dc93d>,
         <ac0ad1e8-d1a2-42f2-961e-5aa9b8157fa5>,
