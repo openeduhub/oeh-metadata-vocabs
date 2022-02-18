@@ -678,6 +678,13 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broadMatch lrt:lesson_plan ;
     skos:prefLabel "Unterrichtsreihe"@de ;
     skos:scopeNote "Wochen"@de .
+    
+<6ed79b37-c27c-4f53-9921-fb1a96da7160> a skos:Concept ;
+    skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
+    skos:definition "Eine komplett ausgearbeitete Unterrichts- bzw. Themen-Einheit"@de ;
+    skos:inScheme <> ;
+    skos:broadMatch lrt:lesson_plan ;
+    skos:prefLabel "Go & Teach"@de .
 
 <975e6e9c-807d-4cc5-93eb-d4d7cb9eedef> a skos:Concept ;
     skos:broader <a120ce77-59f5-4564-8d49-73f4a0de1594> ;
@@ -831,7 +838,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 (mittelgroße Unterrichtseinheit - eher Stunden, Tage, mit einzelnen Lernschritten, die in individueller Geschwindigkeit zu vergleichbaren, überprüfbaren Lernergebnissen führen). Ein Lernpfad ist eine Unterrichtseinheit mit einzelnen Lernschritten, die die Lernenden im eigenen Tempo online selbstständig bearbeiten. Die Lernenden bearbeiten die Lernschritte in der vorgegebenen Reihenfolge, dokumentieren ihren Lernzuwachs nach jedem Schritt und können am Schluss auf vergleichbare Ergebnisse zurückgreifen."""@de ;
     skos:inScheme <> ;
     skos:closeMatch widgets:teaching_modules ;
-    skos:prefLabel "Unterrichtsbaustein, Lernobjekt und Lernpfad"@de ;
+    skos:prefLabel "Lernpfad, Lernobjekt"@de ;
     skos:scopeNote "Wochen"@de .
 
 <affb1113-d4a0-417a-b809-575048fb358e> a skos:Concept ;
@@ -976,6 +983,12 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:relatedMatch widgets:tool_scenario ;
     skos:prefLabel "Tool-Einsatzszenarien"@de .
+
+<67b7cd56-d98b-4731-baec-465fb03703e7> a skos:Concept ;
+    skos:broader <0a79a1d0-583b-47ce-86a7-517ab352d796> ;
+    skos:definition "Beschreibt die Struktur des Unterrichts, keine tatsächliche Unterrichtsdurchführung"@de ;
+    skos:inScheme <> ;
+    skos:prefLabel "Unterrichtsgerüst (edu-pattern)"@de .
 
 <df4bbf3a-c5e2-40e4-8361-747d97850a3f> a skos:Concept ;
     skos:broader <1d8386f6-7cd7-4651-b293-96a330c3ecfb> ;
@@ -1179,6 +1192,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <0a79a1d0-583b-47ce-86a7-517ab352d796> a skos:Concept ;
     skos:narrower <477115fd-5042-4174-ac39-7c05f8a24766>,
+        <67b7cd56-d98b-4731-baec-465fb03703e7>,
         <dd9e02fa-0501-4779-aeb2-6f50c4d0d502> ;
     skos:relatedMatch sct:008 ;
     skos:prefLabel "Methode"@de ;
@@ -1260,6 +1274,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <5098cf0b-1c12-4a1b-a6d3-b3f29621e11d>,
         <94222751-6c90-4623-9c7e-09e21d885599>,
         <962560fe-d8d0-43e2-ad60-97f070b935c6>,
+        <6ed79b37-c27c-4f53-9921-fb1a96da7160>,
         <ef58097d-c1de-4e6a-b4da-6f10e3716d3d> ;
     skos:exactMatch lrt:lesson_plan,
         widgets:methods ;
@@ -1456,7 +1471,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:relatedMatch widgets:teaching_learning_methods,
         widgets:subject_didactics,
         widgets:social_interaction ;
-    skos:prefLabel "Pädagogische Methode, Konzept und Muster"@de .
+    skos:prefLabel "Pädagogische Methode, Konzept"@de .
 
 <a120ce77-59f5-4564-8d49-73f4a0de1594> a skos:Concept ;
     skos:broader <cefccf75-cba3-427d-9a0f-35b4fedcbba1> ;
