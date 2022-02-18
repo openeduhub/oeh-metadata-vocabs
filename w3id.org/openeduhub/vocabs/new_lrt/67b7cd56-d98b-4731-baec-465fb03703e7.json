@@ -1,28 +1,20 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/ad9b9299-0913-40fb-8ad3-50c5fd367b6a",
+  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/67b7cd56-d98b-4731-baec-465fb03703e7",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fad9b9299-0913-40fb-8ad3-50c5fd367b6a",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fad9b9299-0913-40fb-8ad3-50c5fd367b6a",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F67b7cd56-d98b-4731-baec-465fb03703e7",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F67b7cd56-d98b-4731-baec-465fb03703e7",
   "prefLabel": {
-    "de": "Lernpfad, Lernobjekt"
+    "de": "Unterrichtsgerüst (edu-pattern)"
   },
   "definition": {
-    "de": "Eine längere i.d.R. digitale Themeneinheit\n(mittelgroße Unterrichtseinheit - eher Stunden, Tage, mit einzelnen Lernschritten, die in individueller Geschwindigkeit zu vergleichbaren, überprüfbaren Lernergebnissen führen). Ein Lernpfad ist eine Unterrichtseinheit mit einzelnen Lernschritten, die die Lernenden im eigenen Tempo online selbstständig bearbeiten. Die Lernenden bearbeiten die Lernschritte in der vorgegebenen Reihenfolge, dokumentieren ihren Lernzuwachs nach jedem Schritt und können am Schluss auf vergleichbare Ergebnisse zurückgreifen."
-  },
-  "scopeNote": {
-    "de": "Wochen"
+    "de": "Beschreibt die Struktur des Unterrichts, keine tatsächliche Unterrichtsdurchführung"
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/588efe4f-976f-48eb-84aa-8bcb45679f85",
+    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0a79a1d0-583b-47ce-86a7-517ab352d796",
     "prefLabel": {
-      "de": "Lehr- und Lernmaterial"
+      "de": "Methode"
     }
   },
-  "closeMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules"
-    }
-  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
     "title": {

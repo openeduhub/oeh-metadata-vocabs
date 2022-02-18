@@ -1,26 +1,23 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/ad9b9299-0913-40fb-8ad3-50c5fd367b6a",
+  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/6ed79b37-c27c-4f53-9921-fb1a96da7160",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fad9b9299-0913-40fb-8ad3-50c5fd367b6a",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fad9b9299-0913-40fb-8ad3-50c5fd367b6a",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F6ed79b37-c27c-4f53-9921-fb1a96da7160",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F6ed79b37-c27c-4f53-9921-fb1a96da7160",
   "prefLabel": {
-    "de": "Lernpfad, Lernobjekt"
+    "de": "Go & Teach"
   },
   "definition": {
-    "de": "Eine längere i.d.R. digitale Themeneinheit\n(mittelgroße Unterrichtseinheit - eher Stunden, Tage, mit einzelnen Lernschritten, die in individueller Geschwindigkeit zu vergleichbaren, überprüfbaren Lernergebnissen führen). Ein Lernpfad ist eine Unterrichtseinheit mit einzelnen Lernschritten, die die Lernenden im eigenen Tempo online selbstständig bearbeiten. Die Lernenden bearbeiten die Lernschritte in der vorgegebenen Reihenfolge, dokumentieren ihren Lernzuwachs nach jedem Schritt und können am Schluss auf vergleichbare Ergebnisse zurückgreifen."
-  },
-  "scopeNote": {
-    "de": "Wochen"
+    "de": "Eine komplett ausgearbeitete Unterrichts- bzw. Themen-Einheit"
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/588efe4f-976f-48eb-84aa-8bcb45679f85",
+    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7381f17f-50a6-4ce1-b3a0-9d85a482eec0",
     "prefLabel": {
-      "de": "Lehr- und Lernmaterial"
+      "de": "Unterrichtsplanung"
     }
   },
-  "closeMatch": [
+  "broadMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/widgets/teaching_modules"
+      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/lesson_plan"
     }
   ],
   "inScheme": {
