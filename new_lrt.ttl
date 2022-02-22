@@ -4,6 +4,8 @@
 @prefix lrt: <http://w3id.org/openeduhub/vocabs/learningResourceType/> .
 @prefix widgets: <http://w3id.org/openeduhub/vocabs/widgets/> .
 @prefix sct: <http://w3id.org/openeduhub/vocabs/sourceContentType/> .
+@prefix tool: <http://w3id.org/openeduhub/vocabs/toolCategory/> .
+@prefix agg: <http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/> .
 
 <01551356-a6a3-44fc-9662-7d366d7af0ac> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -141,7 +143,8 @@
     skos:definition "Konzepte darstellender Abbildung, z.B. Organigramme, Prozessdarstellungen, Concept Maps"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:demonstration ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Veranschaulichung, Schaubild und Tafelbild"@de .
 
 <1dd5f4f8-904f-4887-aac6-75b6a22d9887> a skos:Concept ;
@@ -275,7 +278,8 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:definition """Ein Bildmedium, das zum Bearbeiten einlädt.
 Beispiele: Bild zum Ausmalen und Ergänzen."""@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Mal- und Bastelvorlagen"@de .
 
 <3b8045af-8fc6-45b5-a352-db46893f7918> a skos:Concept ;
@@ -283,7 +287,8 @@ Beispiele: Bild zum Ausmalen und Ergänzen."""@de ;
     skos:definition """Ein Bildmedium, das zu Gestaltungszwecken genutzt wird.
 Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Cliparts, Pictogramme und Icons"@de .
 
 <3e0501ce-980f-4898-8ba4-cde0e47d15b2> a skos:Concept ;
@@ -457,7 +462,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:definition "Eine Karikatur"@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Cartoon, Comic"@de .
 
 <6a15628c-0e59-43e3-9fc5-9a7f7fa261c4> a skos:Concept ;
@@ -867,7 +873,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:map,
         widgets:map ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Karte"@de .
 
 <b84255b1-f760-4420-a8f5-b0b608a53cd9> a skos:Concept ;
@@ -910,7 +917,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:definition "Ein großformatiges Bildmedium"@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Poster und Plakat"@de .
 
 <c4768d67-9d76-4606-bfd5-3c7b81c4acb7> a skos:Concept ;
@@ -1054,7 +1062,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <e3ddae8a-d94c-40d8-b7f7-9bdaf0cb8325> a skos:Concept ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Gemälde, Kunstwerke und Zeichnungen"@de .
 
 <e5ed8ec2-2c7e-4f46-aba9-e67148ef6656> a skos:Concept ;
@@ -1138,7 +1147,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
     skos:definition "Eine mathematische Darstellung"@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Graph, Diagramm und Charts"@de .
 
 <f7e92628-4132-4985-bcf5-93c285e300a8> a skos:Concept ;
@@ -1152,7 +1162,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Eine fotographische Aufnahme der Realität"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:photograph ;
-    skos:broadMatch lrt:image ;
+    skos:broadMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Foto"@de .
 
 <fa0c53f3-699c-482a-89c4-c69e986d8495> a skos:Concept ;
@@ -1501,7 +1512,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e3ddae8a-d94c-40d8-b7f7-9bdaf0cb8325>,
         <f7228fb5-105d-4313-afea-66dd59b1b6f8>,
         <f9630e1c-2247-42ed-87b0-b1e18e4ec02b> ;
-    skos:exactMatch lrt:image ;
+    skos:exactMatch lrt:image,
+        agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:relatedMatch widgets:photograph,
         widgets:graphic ;
     skos:relatedMatch sct:001 ;
