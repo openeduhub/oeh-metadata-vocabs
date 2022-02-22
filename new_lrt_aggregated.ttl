@@ -4,6 +4,5 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed> a skos:Concept ;
+    skos:prefLabel "Bild"@de ;
     skos:topConceptOf <> .
-    skos:inScheme <> ;
-    skos:prefLabel "Bild"@de .
