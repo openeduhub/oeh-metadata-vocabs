@@ -310,7 +310,8 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:broader <1d8386f6-7cd7-4651-b293-96a330c3ecfb> ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
-        lrt:tool, ;
+        lrt:tool,
+        agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
     skos:relatedMatch tool:mindmapping ;
     skos:prefLabel "Mindmap"@de .
 
