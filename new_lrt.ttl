@@ -59,6 +59,7 @@
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:presentation ;    
     skos:prefLabel "Präsentations-Software"@de .
 
 <0d23ff13-9d92-4944-92fa-2b5fe1dde80b> a skos:Concept ;
@@ -89,6 +90,7 @@
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:cms ;
     skos:prefLabel "Web-Content-Managment"@de .
 
 <11408883-904a-467e-8697-6a899f89f793> a skos:Concept ;
@@ -96,6 +98,7 @@
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:portfolio ;
     skos:prefLabel "E-Portfolio, Personal Learning Environment (PLE)"@de .
 
 <11cd7e41-1d65-4de9-9ab8-de9530cac19e> a skos:Concept ;
@@ -180,6 +183,7 @@
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:simulation ;
     skos:prefLabel "Simulationen (Editor für)"@de .
 
 <233d0527-7945-4acb-a174-5c23d24513a3> a skos:Concept ;
@@ -195,6 +199,7 @@
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:spreadsheet ;
     skos:prefLabel "Tabellenkalkulation"@de .
 
 <29f0d682-38c6-4a64-a1fa-04e673c28128> a skos:Concept ;
@@ -271,6 +276,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:mindmapping ;
     skos:prefLabel "Mindmap"@de .
 
 <39db0dbd-cb6f-4153-910f-9f11177b48f2> a skos:Concept ;
@@ -384,6 +390,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:music_editor ;
     skos:prefLabel "Audio-Editor (Tonschnitt-Software, Ton-Editor, Musik-Editor)"@de .
 
 <55e55bef-c93f-462f-9163-7731e130a94d> a skos:Concept ;
@@ -530,6 +537,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:image_editor ;
     skos:prefLabel "Fotos und Rastergrafiken (Editor für)"@de .
 
 <74a7c3cb-82db-4e63-8c0d-1726e2fe53b4> a skos:Concept ;
@@ -633,7 +641,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
-    skos:relatedMatch widgets:platform ;
+    skos:relatedMatch widgets:platform,
+        tool:lms ;
     skos:prefLabel "Lernplattform und Kursorganisation"@de .
 
 <91d21425-d229-489b-9c13-baa4e76f8cc9> a skos:Concept ;
@@ -740,6 +749,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:file_storage ;
     skos:prefLabel "Dateiablage"@de .
 
 <9f40cd56-8def-46cc-a21b-63d9557dc93d> a skos:Concept ;
@@ -767,6 +777,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:visualization ;
     skos:prefLabel "Visualisierungs-Software"@de .
 
 <a33ef73d-9210-4305-97f9-7357bbf43486> a skos:Concept ;
@@ -798,6 +809,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:formula_editor ;       
     skos:prefLabel "Formeleditor"@de .
 
 <aa7b0bde-b41e-4e75-944b-bfd6ccbe359c> a skos:Concept ;
@@ -962,6 +974,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:text_editor ;
     skos:prefLabel "Texteditor"@de .
 
 <d2a406f2-4bf4-495d-a456-21d032edbb60> a skos:Concept ;
@@ -1043,6 +1056,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:index_cards,
+        tool:vocab_trainer ;
     skos:prefLabel "Vokabel-Trainer und Karteikarten-Lernen"@de .
 
 <e34026bf-eddf-4b7f-b240-cd8bc04b3fcc> a skos:Concept ;
@@ -1171,6 +1186,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:database ;
     skos:prefLabel "Datenbank-System"@de .
 
 <facc2239-a827-462a-b2d2-bbab6cfb1178> a skos:Concept ;
@@ -1361,6 +1377,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <f55cb96b-b51f-4493-957b-fd1707bfedbd> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:polling ;
     skos:prefLabel "Bildungsinhalte-Formate (Editor)"@de .
 
 <405081ee-9005-4d02-a7d2-351a034e565a> a skos:Concept ;
@@ -1449,6 +1466,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <a7b216cb-6582-4396-b046-072cda3b7da5> ;
     skos:broadMatch lrt:application,
         lrt:tool ;
+    skos:relatedMatch tool:communication ;    
     skos:prefLabel "Kommunikation und Feedback"@de .
 
 <26383370-f3f5-44f2-b66c-435ac0b44bdf> a skos:Concept ;
