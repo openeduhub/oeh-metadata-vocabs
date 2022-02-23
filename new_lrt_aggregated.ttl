@@ -7,9 +7,13 @@
     skos:prefLabel "Bild"@de ;
     skos:topConceptOf <> .
 
+<38774279-af36-4ec2-8e70-811d5a51a6a1> a skos:Concept ;
+    skos:prefLabel "Video"@de ;
+    skos:topConceptOf <> .
+
 <> a skos:ConceptScheme ;
     dct:creator <https://www.wirlernenonline.de> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:title "Liste von Ressourcentypen im Openeduhub (aggregiert)"@de ;
-    skos:hasTopConcept <b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed> .
-    
+    skos:hasTopConcept <b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed>,
+        <38774279-af36-4ec2-8e70-811d5a51a6a1> .
