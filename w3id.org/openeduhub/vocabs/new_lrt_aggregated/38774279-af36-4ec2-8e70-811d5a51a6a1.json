@@ -1,67 +1,19 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7a6e9608-2554-4981-95dc-47ab9ba924de",
+  "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/38774279-af36-4ec2-8e70-811d5a51a6a1",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F7a6e9608-2554-4981-95dc-47ab9ba924de",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F7a6e9608-2554-4981-95dc-47ab9ba924de",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F38774279-af36-4ec2-8e70-811d5a51a6a1",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F38774279-af36-4ec2-8e70-811d5a51a6a1",
   "prefLabel": {
-    "de": "Video (Material)"
+    "de": "Video"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/233d0527-7945-4acb-a174-5c23d24513a3",
-      "prefLabel": {
-        "de": "Schul- und Bildungssendung (Material)"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/3616febb-8cf8-4503-8f80-ebc552d85506",
-      "prefLabel": {
-        "de": "TV-Sendung und Video-Podcast"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/62a09b63-320e-4f4d-9da6-8cab9cdef55b",
-      "prefLabel": {
-        "de": "Lern- und Übungsvideo"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/a0218a48-a008-4975-a62a-27b1a83d454f",
-      "prefLabel": {
-        "de": "Erklärvideo und gefilmtes Experiment"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/facc2239-a827-462a-b2d2-bbab6cfb1178",
-      "prefLabel": {
-        "de": "Vortrags- und Unterrichtsaufzeichnung"
-      }
-    }
-  ],
-  "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/1846d876-d8fd-476a-b540-b8ffd713fedb",
-    "prefLabel": {
-      "de": "Material"
-    }
-  },
-  "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/002"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/video"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/38774279-af36-4ec2-8e70-811d5a51a6a1"
-    }
-  ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+    "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/",
     "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+      "de": "Liste von Ressourcentypen im Openeduhub (aggregiert)"
     }
+  },
+  "topConceptOf": {
+    "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/"
   },
   "@context": {
     "id": "@id",
