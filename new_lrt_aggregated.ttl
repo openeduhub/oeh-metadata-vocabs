@@ -11,9 +11,45 @@
     skos:prefLabel "Video"@de ;
     skos:topConceptOf <> .
 
+<39197d6f-dfb1-4e82-92e5-79f906e9d2a9> a skos:Concept ;
+    skos:prefLabel "Audio"@de ;
+    skos:topConceptOf <> .
+
+<05aa0f49-7e1b-498b-a7d5-c5fc8e73b2e2> a skos:Concept ;
+    skos:prefLabel "Interaktives Medium"@de ;
+    skos:topConceptOf <> .
+
+<11f438d7-cb11-49c2-8e67-2dd7df677092> a skos:Concept ;
+    skos:prefLabel "Unterrichtsidee"@de ;
+    skos:topConceptOf <> .
+
+<8526273b-2b21-46f2-ac8d-bbf362c8a690> a skos:Concept ;
+    skos:prefLabel "Unterrichtsplan"@de ;
+    skos:topConceptOf <> .
+
+<f1341358-3f91-449b-b6eb-f58636f756a0> a skos:Concept ;
+    skos:prefLabel "Unterrichtsbaustein/-reihe"@de ;
+    skos:topConceptOf <> .
+
+<101c0c66-5202-4eba-9ebf-79f4903752b9> a skos:Concept ;
+    skos:prefLabel "Methoden"@de ;
+    skos:topConceptOf <> .
+
+<02bfd0fe-96ab-4dd6-a306-ec362ec25ea0> a skos:Concept ;
+    skos:prefLabel "Tests / Fragebögen"@de ;
+    skos:topConceptOf <> .
+   
+
 <> a skos:ConceptScheme ;
     dct:creator <https://www.wirlernenonline.de> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:title "Liste von Ressourcentypen im Openeduhub (aggregiert)"@de ;
     skos:hasTopConcept <b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed>,
-        <38774279-af36-4ec2-8e70-811d5a51a6a1> .
+        <38774279-af36-4ec2-8e70-811d5a51a6a1>,
+        <39197d6f-dfb1-4e82-92e5-79f906e9d2a9>,
+        <05aa0f49-7e1b-498b-a7d5-c5fc8e73b2e2>,
+        <11f438d7-cb11-49c2-8e67-2dd7df677092>,
+        <8526273b-2b21-46f2-ac8d-bbf362c8a690>,
+        <f1341358-3f91-449b-b6eb-f58636f756a0>,
+        <101c0c66-5202-4eba-9ebf-79f4903752b9>,
+        <02bfd0fe-96ab-4dd6-a306-ec362ec25ea0> .
