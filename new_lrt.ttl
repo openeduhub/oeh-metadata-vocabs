@@ -143,6 +143,7 @@
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:enquiry_oriented_activity ;
+    skos:relatedMatch agg:90a082d8-ee5f-4b33-bd5c-f1738262c47d ;
     skos:prefLabel "Recherche- und Lernauftrag"@de .
 
 <1dc4ed81-718c-4b76-86cb-947a86875973> a skos:Concept ;
@@ -180,6 +181,7 @@
     skos:definition "im Sinne einer pädagogische Zusammenstellung (z.B. Schul-/Studienprojektaktivität)"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:project ;
+    skos:relatedMatch agg:71c71f72-fc8d-4263-902f-abf1366a73ca ;
     skos:prefLabel "Projekt (Lehr- und Lernmaterial)"@de .
 
 <2311a549-743c-4061-983b-629d4c4ac30b> a skos:Concept ;
@@ -270,8 +272,9 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
 <36e68792-6159-481d-a97b-2c00901f4f78> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:worksheet ;
-    skos:exactMatch widgets:worksheet ;
+    skos:exactMatch lrt:worksheet,
+        widgets:worksheet ;
+    skos:relatedMatch agg:c8e52242-361b-4a2a-b95d-25e516b28b45 ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:scopeNote "eine Stunde oder kleiner"@de .
 
@@ -322,6 +325,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:experiment,
         widgets:experiment ;
+    skos:relatedMatch agg:ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d ;
     skos:prefLabel "Experiment (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "Stunde(n)"@de .
 
@@ -339,6 +343,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:course,
         widgets:course ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
     skos:prefLabel "Kurs"@de ;
     skos:scopeNote "Monate"@de .
 
@@ -409,6 +414,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
     skos:closeMatch lrt:exploration ;
+    skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
     skos:prefLabel "Entdeckendes Lernen"@de .
 
 <58bb5be8-301d-488d-a0b1-b74ac9435209> a skos:Concept ;
@@ -677,6 +683,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:presentation ;
+    skos:relatedMatch agg:1e300ea3-a687-45a3-b215-9c240c1666dc ;
     skos:prefLabel "Präsentation"@de .
 
 <92dcc3ec-fe94-451c-95ac-ea305e0e7597> a skos:Concept ;
@@ -737,7 +744,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:exploration ;
-    skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:relatedMatch agg:ec402e87-c623-47e2-8d2e-1c4ea6923409 ;
     skos:prefLabel "Entdeckendes Lernen (Lehr- und Lernmaterial)"@de .
 
 <9c23511c-73d0-407b-b443-c93e36364de2> a skos:Concept ;
@@ -813,7 +820,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Material für Übungen"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:drill_and_practice ;
-    skos:relatedMatch widgets:drill_and_practice ;
+    skos:relatedMatch widgets:drill_and_practice,
+        agg:0b2d7dec-8eb1-4a28-9cf2-4f3a4f5a511b ;
     skos:prefLabel "Übungsmaterial"@de ;
     skos:scopeNote "divers"@de .
 
@@ -885,6 +893,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 (mittelgroße Unterrichtseinheit - eher Stunden, Tage, mit einzelnen Lernschritten, die in individueller Geschwindigkeit zu vergleichbaren, überprüfbaren Lernergebnissen führen). Ein Lernpfad ist eine Unterrichtseinheit mit einzelnen Lernschritten, die die Lernenden im eigenen Tempo online selbstständig bearbeiten. Die Lernenden bearbeiten die Lernschritte in der vorgegebenen Reihenfolge, dokumentieren ihren Lernzuwachs nach jedem Schritt und können am Schluss auf vergleichbare Ergebnisse zurückgreifen."""@de ;
     skos:inScheme <> ;
     skos:closeMatch widgets:teaching_modules ;
+    skos:relatedMatch agg:3469a5e7-86d1-4376-bd3d-1f2b183ed94a ;
     skos:prefLabel "Lernpfad, Lernobjekt"@de ;
     skos:scopeNote "Wochen"@de .
 
@@ -898,7 +907,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird."@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:educational_game ;
-    skos:relatedMatch widgets:educational_games_offline ;
+    skos:relatedMatch widgets:educational_games_offline,
+        agg:ded96854-280a-45ac-ad3a-f5b9b8dd0a03 ;
     skos:prefLabel "Lernspiel"@de .
 
 <b1075505-364d-4e69-90a3-8ad463cfb587> a skos:Concept ;
@@ -1160,6 +1170,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <ee738203-44af-4150-986f-ef01fb883f00> a skos:Concept ;
     skos:broader <68a43516-889e-4ce9-8e03-248307bd99ff> ;
     skos:inScheme <> ;
+    skos:broadMatch agg:57bfc743-4c94-4bdd-bdfa-c638a062d151 ;
     skos:prefLabel "Stationenlernen"@de .
 
 <ef58097d-c1de-4e6a-b4da-6f10e3716d3d> a skos:Concept ;
@@ -1251,6 +1262,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:narrower <ee738203-44af-4150-986f-ef01fb883f00> ;
     skos:exactMatch lrt:open_activity ;
+    skos:relatedMatch agg:57bfc743-4c94-4bdd-bdfa-c638a062d151 ;
     skos:prefLabel "offene und kreative Aktivität (Lehr- und Lernmaterial)"@de ;
     skos:scopeNote "kleiner Stunde"@de .
 

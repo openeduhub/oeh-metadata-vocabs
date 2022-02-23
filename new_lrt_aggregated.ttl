@@ -38,7 +38,50 @@
 <02bfd0fe-96ab-4dd6-a306-ec362ec25ea0> a skos:Concept ;
     skos:prefLabel "Tests / Fragebögen"@de ;
     skos:topConceptOf <> .
-   
+
+<e10e9add-700e-4b57-a9c5-8f1088bb0545> a skos:Concept ;
+   skos:prefLabel "Kurs"@de ;
+   skos:topConceptOf <> .
+
+<3469a5e7-86d1-4376-bd3d-1f2b183ed94a> a skos:Concept ;
+   skos:prefLabel "Lernobjekt / -pfad"@de ;
+   skos:topConceptOf <> .
+
+<1e300ea3-a687-45a3-b215-9c240c1666dc> a skos:Concept ;
+   skos:prefLabel "Präsentation"@de ;
+   skos:topConceptOf <> .
+
+<ded96854-280a-45ac-ad3a-f5b9b8dd0a03> a skos:Concept ;
+   skos:prefLabel "Lernspiel"@de ;
+   skos:topConceptOf <> .
+
+<c8e52242-361b-4a2a-b95d-25e516b28b45> a skos:Concept ;
+   skos:prefLabel "Arbeitsblatt"@de ;
+   skos:topConceptOf <> .
+
+<0b2d7dec-8eb1-4a28-9cf2-4f3a4f5a511b> a skos:Concept ;
+   skos:prefLabel "Übungsmaterial"@de ;
+   skos:topConceptOf <> .
+
+<90a082d8-ee5f-4b33-bd5c-f1738262c47d> a skos:Concept ;
+   skos:prefLabel "Recherche, Lernauftrag"@de ;
+   skos:topConceptOf <> .
+
+<ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d> a skos:Concept ;
+   skos:prefLabel "Experiment"@de ;
+   skos:topConceptOf <> .
+
+<71c71f72-fc8d-4263-902f-abf1366a73ca> a skos:Concept ;
+   skos:prefLabel "Projekt-Material"@de ;
+   skos:topConceptOf <> .
+
+<57bfc743-4c94-4bdd-bdfa-c638a062d151> a skos:Concept ;
+   skos:prefLabel "Kreative, offene Aktivität"@de ;
+   skos:topConceptOf <> .
+
+<ec402e87-c623-47e2-8d2e-1c4ea6923409> a skos:Concept ;
+   skos:prefLabel "Entdeckendes Lernen"@de ;
+   skos:topConceptOf <> .
 
 <> a skos:ConceptScheme ;
     dct:creator <https://www.wirlernenonline.de> ;
@@ -52,4 +95,15 @@
         <8526273b-2b21-46f2-ac8d-bbf362c8a690>,
         <f1341358-3f91-449b-b6eb-f58636f756a0>,
         <101c0c66-5202-4eba-9ebf-79f4903752b9>,
-        <02bfd0fe-96ab-4dd6-a306-ec362ec25ea0> .
+        <02bfd0fe-96ab-4dd6-a306-ec362ec25ea0> ,
+		<e10e9add-700e-4b57-a9c5-8f1088bb0545> ,
+		<3469a5e7-86d1-4376-bd3d-1f2b183ed94a> ,
+		<1e300ea3-a687-45a3-b215-9c240c1666dc> ,
+		<ded96854-280a-45ac-ad3a-f5b9b8dd0a03> ,
+		<c8e52242-361b-4a2a-b95d-25e516b28b45> ,
+		<0b2d7dec-8eb1-4a28-9cf2-4f3a4f5a511b> ,
+		<90a082d8-ee5f-4b33-bd5c-f1738262c47d> ,
+		<ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d> ,
+		<71c71f72-fc8d-4263-902f-abf1366a73ca> ,
+		<57bfc743-4c94-4bdd-bdfa-c638a062d151> ,
+		<ec402e87-c623-47e2-8d2e-1c4ea6923409> .
