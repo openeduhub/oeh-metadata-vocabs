@@ -48,7 +48,7 @@
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
     skos:definition "Ein Audio, das einen bestimmten Sachverhalt erklärt."@de ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:inScheme <> ;
     skos:prefLabel "Erklär-Audio"@de .
 
@@ -498,7 +498,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Ein Audio zum Lernen, Wiederholen oder Üben (z.B. Listen & Repeat)."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:prefLabel "Sprach- und Lernaudio"@de .
 
 <61462395-8303-44bf-95a4-6a4297013283> a skos:Concept ;
@@ -584,7 +584,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:exactMatch lrt:broadcast,
         widgets:podcast_radio ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:prefLabel "Radio, Podcast und Interview"@de .
 
 <6eb493be-e072-4afc-a5b4-aea34beeca70> a skos:Concept ;
@@ -630,7 +630,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Ein Audiomedium, das Klänge, Geräusche enthält, die nicht explizit ein Hörbeispiel im Sinne eines Lern-Audios sind."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ; ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ; ;
     skos:prefLabel "Klang und Tonaufnahme"@de .
 
 <7c236821-bfae-4eeb-bc79-590bf8ea1d96> a skos:Concept ;
@@ -816,7 +816,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Musik oder Musikalische Audiosequenz"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:exactMatch widgets:music ;
     skos:prefLabel "Musik"@de .
 
@@ -1215,7 +1215,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Eine Audioaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten wäre es ein Erklär-Audio)."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:prefLabel "Vortrag (Audio-Aufzeichnung / Lesung)"@de .
 
 <e3ddae8a-d94c-40d8-b7f7-9bdaf0cb8325> a skos:Concept ;
@@ -1260,7 +1260,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren."@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:relatedMatch widgets:audio,
         widgets:audio_sample ;
     skos:prefLabel "Hörverstehen"@de .
@@ -1626,7 +1626,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e3ca3de5-faf2-4584-bc25-d5f9e784b2b4>,
         <ed4f4834-c098-4b05-b27d-a9d9fbd31307> ;
     skos:exactMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a91 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:closeMatch lrt:audiovisual_medium ;
     skos:relatedMatch widgets:audio,
         sct:003 ;
