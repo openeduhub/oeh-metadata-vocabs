@@ -4,65 +4,61 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<000fb7b6-54de-4ea8-a0df-7acd221ee1fa> a skos:Concept ;
+<003d68a3-1417-44eb-809c-dada652cbb05> a skos:Concept ;
+    skos:prefLabel "DLRG"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://espanol.lingolia.com/es/> .
+    sdo:url <https://www.dlrg.de/> .
 
-<0075273e-2f04-41e8-98b1-5d03b1683a55> a skos:Concept ;
+<00cdf271-2616-43ee-bca7-73fe71dc8d33> a skos:Concept ;
+    skos:prefLabel "Bildung.digital"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.schlaukopf.de/> .
+    sdo:url <http://www.bildung.digital/> .
 
-<0184fbe2-0844-4566-a72b-27c749fd628f> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "MrWissen2go"@de ;
-    sdo:url <https://www.youtube.com/channel/UCZHpIFMfoJJ_1QxNGLJTzyA/featured> .
-
-<0219f038-36e7-477d-acbd-ed1e65478ab2> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "The Great War"@de ;
-    sdo:url <https://www.youtube.com/channel/UCUcyEsEjhPEDf69RRVhRh4A/featured> .
-
-<0233befe-ee27-4cbc-8e94-01852b2fd302> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Alina Sonnenschein"@de ;
-    sdo:url <https://www.youtube.com/channel/UCPSc634TPhvYc18_QyahKMQ/featured> .
-
-<033a6101-77fc-4b35-88a2-d7c9f262192f> a skos:Concept ;
+<01552276-8943-4f57-93ec-0cac1370f579> a skos:Concept ;
+    skos:prefLabel "Wandel vernetzt denken"@de ;
     skos:topConceptOf <> ;
-    sdo:url <http://swim-performance.de/> .
+    sdo:url <https://www.wandelvernetztdenken.de/> .
 
-<0457cf8f-acac-4c1b-b904-a5d8e4f5ef6e> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Museum im Kulturspeicher"@de ;
-    sdo:url <https://www.youtube.com/channel/UClt8eDAJGh-z0F5YnssHSvw/featured> .
-
-<05fd66c9-b1ec-49c5-8c9c-be55cb6107a8> a skos:Concept ;
+<01d8c1c2-df2a-4af6-b4e5-bce4307f1551> a skos:Concept ;
+    skos:prefLabel "Niedersächsisches Kultusministerium"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.9levels.de/> .
+    sdo:url <https://za-aufgaben.nibis.de> .
 
-<0683747b-d18d-4c8b-9915-4244977368c4> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Sportkunde Online"@de ;
-    sdo:url <https://www.youtube.com/channel/UC9K6m29pOxYU6F2qLrCcIBQ/featured> .
-
-<07781164-0d02-401c-9ce7-43b1823effaa> a skos:Concept ;
+<0221387a-347e-4c47-824b-6a2fc1e8049c> a skos:Concept ;
+    skos:prefLabel "Universität Bremen"@de ;
     skos:topConceptOf <> ;
-    sdo:url <http://vobamooc.de/de> .
+    sdo:url <http://www.chemiedidaktik.uni-bremen.de/> .
 
-<0a006fc0-4450-4bf0-bd0f-4afb2a6a500b> a skos:Concept ;
+<0349750a-8c78-41e8-937c-97c2edf2ba00> a skos:Concept ;
+    skos:prefLabel "Netzwerk Digitale Bildung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.netzwerk-digitale-bildung.de/> .
+
+<03eb1124-8506-415e-9ebe-c84f4a1e5306> a skos:Concept ;
+    skos:prefLabel "BBC"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.bbc.com/> .
+
+<04becbf9-0f72-4c86-8b83-943d49939b72> a skos:Concept ;
+    skos:prefLabel "Schulewirtschaft"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.schulewirtschaft.de/> .
+
+<062ced52-8be3-412d-972b-d306a3cf3d73> a skos:Concept ;
+    skos:prefLabel "Education Group"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.edugroup.at/> .
+
+<0a0030fb-aaba-4471-8ffb-8595a32568a8> a skos:Concept ;
+    skos:prefLabel "VideoEle"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://videoele.com/> .
+
+<0a27ef7c-1f88-4021-87cd-e39b155d9e5b> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
     skos:prefLabel "Lernkiste - Mathematik"@de ;
     sdo:url <https://www.youtube.com/channel/UCHCip3cKoCIkpfeYDV7-aLg/featured> .
-
-<0a9c33aa-9750-44c3-b599-d8d4d80b27e3> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://iderblog.eu/portalstart-1> .
 
 <0abd53e8-0ef4-40bc-b8bf-77bf982e2e87> a skos:Concept ;
     skos:notation "ginkgomaps_spider"^^xsd:string ;
@@ -70,15 +66,11 @@
     skos:topConceptOf <> ;
     sdo:url <http://ginkgomaps.com/> .
 
-<0b56bbe8-60ec-410f-a812-cda3de33dfed> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.netzwerk-digitale-bildung.de/> .
-
-<0c97ad6d-7e9a-4acf-ae58-da7bbae39647> a skos:Concept ;
+<0b96a426-eac4-4c24-845f-85eeb74fd41a> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Sven Sommer - Chemie und Physik-Experimente"@de ;
-    sdo:url <https://www.youtube.com/channel/UC0Cn3gS4xpfU_6KxtwFPOmg/featured> .
+    skos:prefLabel "Jule Sommersberg"@de ;
+    sdo:url <https://www.youtube.com/channel/UCNOsl2b57wNgN7l13TOzNJQ/featured> .
 
 <0cca74f3-cc7a-4f93-9ef9-0e12f42324a5> a skos:Concept ;
     skos:notation "irights_spider"^^xsd:string ;
@@ -86,15 +78,16 @@
     skos:topConceptOf <> ;
     sdo:url <https://irights.info/> .
 
-<0d445084-de22-4285-a3c0-baf52d4f105c> a skos:Concept ;
+<0ec70d4d-d1f3-4dba-8dda-d0ca9fa8c05f> a skos:Concept ;
+    skos:prefLabel "Abi.de"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://abi.de/> .
+
+<10562ca4-ba0e-4fa7-8689-7a05bed7982c> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Scobel"@de ;
-    sdo:url <https://www.youtube.com/channel/UCHnmeuSOn1Hscizw6otqWrA/featured> .
-
-<0f2ac330-fd23-4384-9c91-9950a1c0babc> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.profilpass.de/> .
+    skos:prefLabel "schoolseasy "@de ;
+    sdo:url <https://www.youtube.com/channel/UCLil9BlNCu-hZWKKBbcXtMA/featured> .
 
 <10940dc6-b5e3-4d20-a8ef-04f10cc13a56> a skos:Concept ;
     skos:notation "learning_apps_spider"^^xsd:string ;
@@ -102,15 +95,21 @@
     skos:topConceptOf <> ;
     sdo:url <https://learningapps.org/> .
 
-<1120e174-17d3-4cf1-b99c-7ec38d9c6aac> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.planet-wissen.de/index.html> .
-
-<12221b45-55ed-4a60-955d-707111e02753> a skos:Concept ;
+<10ff8a39-a050-4d9b-9bfb-ac4416ea0045> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Entropy - Wissenschaft schnell erklärt"@de ;
-    sdo:url <https://www.youtube.com/channel/UC5dBZm6ztKizdUnN7Puz3QQ/featured> .
+    skos:prefLabel "Digitalisierung der Lehre"@de ;
+    sdo:url <https://www.youtube.com/channel/UChfQ0jgQYSVTGP6ofkYxEPA/featured> .
+
+<113ae39a-4d67-40b1-a9e4-afe9f747cb52> a skos:Concept ;
+    skos:prefLabel "Medien im Geschichtsunterricht"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://memucho.de/Globales-Wiki/1> .
+
+<12fd83e6-fa37-48a2-8493-9e7044ca0352> a skos:Concept ;
+    skos:prefLabel "DELE Ahora"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://deleahora.com/> .
 
 <13781e3f-77a0-44dd-a688-5cb2a42ea57c> a skos:Concept ;
     skos:notation "planet_schule_spider"^^xsd:string ;
@@ -118,21 +117,37 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.planet-schule.de/> .
 
-<145c66a4-fbf4-40ee-ad59-5008b1acc80d> a skos:Concept ;
+<13eece17-d97e-4050-8d45-ed10fc836f34> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "musstewissen Deutsch"@de ;
-    sdo:url <https://www.youtube.com/channel/UCzOHLoNwbebvEkn7y6x-EWA/featured> .
+    skos:prefLabel "Periodic Videos zu einzelnen Elementen"@de ;
+    sdo:url <https://www.youtube.com/channel/UCtESv1e7ntJaLJYKIO1FoYw/featured> .
 
-<14a26a66-3b8c-48e5-a4ca-1086a9f00dca> a skos:Concept ;
+<1665a098-55ce-46a3-a2e7-3555f84bf835> a skos:Concept ;
+    skos:prefLabel "Bundesministerium für Bildung und Forschung (BMBF)"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.bayern-innovativ.de/> .
+    sdo:url <https://www.bmbf.de/bmbf/de/home/home_node.html> .
 
-<17e836fe-de81-455f-b582-7e0c14367ad0> a skos:Concept ;
+<179e9875-bccf-40f2-ad15-29cf6d6060d9> a skos:Concept ;
+    skos:prefLabel "Begabungslotse"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.begabungslotse.de/> .
+
+<17eb7d5e-b510-4d9c-bb1b-5a004b132ac1> a skos:Concept ;
+    skos:prefLabel "AIL Madrid"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.ailmadrid.com/en/> .
+
+<1925fec7-949a-4f6e-a4e6-faad43cf0f08> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "YoungBusinessSchool"@de ;
-    sdo:url <https://www.youtube.com/channel/UCJWn5X9X50U0kcNCgBou7EA/featured> .
+    skos:prefLabel "Webinare Deutsches Lehrkräfteforum"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLFhPjADeGDodbVSSL8LE00SNjQIPiyamr> .
+
+<19ab26a4-49d4-458b-9f3d-67a88086b72d> a skos:Concept ;
+    skos:prefLabel "LeMo - Lebendiges Museum Online"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.dhm.de/lemo> .
 
 <19f7e0c3-6e49-4d8d-af11-5ab49677867c> a skos:Concept ;
     skos:notation "F3_kollektiv #digital_global"^^xsd:string ;
@@ -140,37 +155,21 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.digital-global.net/> .
 
-<1a2e88b7-25c2-4044-beaa-52b8ca49345f> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Deutsch lernen mit der DW"@de ;
-    sdo:url <https://www.youtube.com/channel/UCxUWIEL-USsiPak0Qy6_vVg/featured> .
-
-<1bce111b-6625-457a-9513-78d473e219c0> a skos:Concept ;
+<1be1b3e8-8741-4f3d-bd56-f7f5866e37d4> a skos:Concept ;
+    skos:prefLabel "Rhön-Gymnasium Bad Neustadt a. d. Saale"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://dgphil.de/studienportal/> .
+    sdo:url <https://www.rhoengymnasium.de/> .
 
-<1d5ce7cc-cac4-46e2-88ac-63904f52f32d> a skos:Concept ;
+<1e082e17-db8b-40f1-a3ab-76971139320a> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Angewandte Theaterforschung"@de ;
-    sdo:url <https://www.youtube.com/channel/UCR0VS7_wuJBzLJ-ZR_nbipg/featured> .
+    skos:prefLabel "The Virtual Linguistics Campus"@de ;
+    sdo:url <https://www.youtube.com/channel/UCaMpov1PPVXGcKYgwHjXB3g/featured> .
 
-<1daf2328-5b79-4674-8cfb-8f70bbd04787> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kunstmuseum Wolfsburg"@de ;
-    sdo:url <https://www.youtube.com/channel/UC9qz57b7zwZ42IfTYwM2xNA/featured> .
-
-<20113492-12db-43a7-b97c-e556140bc9e3> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "musstewissen Mathematik"@de ;
-    sdo:url <https://www.youtube.com/channel/UCaxX8488TqU6bZdcKpxPVvQ/featured> .
-
-<20cf0a7f-3aad-499d-ab71-86b81b3465a5> a skos:Concept ;
+<1fe6f87f-c49b-4814-a52b-6b80168c4204> a skos:Concept ;
+    skos:prefLabel "Spanish Unicorn"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://zkm.de/de> .
+    sdo:url <https://www.spanishunicorn.com/> .
 
 <21c70ee4-de10-4045-9e54-55c5bd871c4d> a skos:Concept ;
     skos:notation "ddb"^^xsd:string ;
@@ -178,23 +177,11 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.deutsche-digitale-bibliothek.de/> .
 
-<221463dd-4307-4756-bcc0-7440f429bd6f> a skos:Concept ;
+<2259db45-0112-46ec-8c0e-331845811ef9> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Cornelsen"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLEvJmBfh19TyIDb8PsxSPIwRJnRbM4oZc> .
-
-<23b4b3bf-526b-4113-a5e7-6868b84056fb> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Alba Berlin"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PL9H8VPpyaFzOU7WShhUg25QyoIQrt7MSx> .
-
-<24a28da3-7975-4b17-83c8-bfa542d77636> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Forsche mit uns! NaWi mit GUB e.V."@de ;
-    sdo:url <https://www.youtube.com/channel/UCotQdo7hOWcKl_hNMvuL79A> .
+    skos:prefLabel "Sven Sommer - Chemie und Physik-Experimente"@de ;
+    sdo:url <https://www.youtube.com/channel/UC0Cn3gS4xpfU_6KxtwFPOmg/featured> .
 
 <24be14de-dc3d-4b40-8635-6ca853aac5c8> a skos:Concept ;
     skos:notation "niedersachsen_abi_spider"^^xsd:string ;
@@ -202,49 +189,25 @@
     skos:topConceptOf <> ;
     sdo:url <https://za-aufgaben.nibis.de> .
 
-<24f400eb-fcb8-4ce8-9211-9fadc1739622> a skos:Concept ;
+<25890b31-c87e-4ece-a18a-fabe35e94a58> a skos:Concept ;
+    skos:prefLabel "Sportunterricht.de"@de ;
     skos:topConceptOf <> ;
-    sdo:url <http://www.sportpaedagogik-online.de/> .
+    sdo:url <https://www.dosb.de/> .
 
-<255e53a3-33dc-4fdc-a106-73c0d3c44810> a skos:Concept ;
+<2746f85d-cf48-454a-a034-ae5200e4a86e> a skos:Concept ;
+    skos:prefLabel "WDR"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www1.wdr.de/index.html> .
+
+<281b46ab-624b-41be-8021-79c46a3abe4e> a skos:Concept ;
+    skos:prefLabel "Arbeitswelt Portal"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://www.arbeitswelt-portal.de/> .
 
-<268578ed-ee70-4577-9d69-cb22d00b26db> a skos:Concept ;
+<2d426963-9661-4275-b397-94b4530f3d9d> a skos:Concept ;
+    skos:prefLabel "Twillo"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://abi.de/> .
-
-<28fd370e-51bc-4ac5-8213-dd16a47ab111> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.oecd.org/> .
-
-<29ddddfb-1c0a-4849-aedc-775bacec5935> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://toolbox.edu.tum.de/> .
-
-<2a9189a1-810a-4608-88e8-9e8ff6e95bfa> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kunst mit Teachanies"@de ;
-    sdo:url <https://www.youtube.com/channel/UCs7cxycjh7vKIBluSka0I8A/featured> .
-
-<2ac0d7d5-c914-4a33-8930-f915ef3a37e8> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://planet-beruf.de/schuelerinnen> .
-
-<2df1a274-3b73-46ab-9fda-10ffc99c2224> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Einfach Geschichte"@de ;
-    sdo:url <https://www.youtube.com/channel/UCNZobzDT5tde8FCOMto-kIg/featured> .
-
-<2e48cac0-6392-40f3-9491-bb529846fa0a> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.dlr.de/DE/Home/home_node.html> .
-
-<2e88a68f-a968-465c-9e2a-ac20f6bbccb8> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://videoele.com/> .
+    sdo:url <https://www.twillo.de/oer/web/> .
 
 <2ebeaf42-c2e5-4c38-be59-3b132e3aeeb7> a skos:Concept ;
     skos:notation "zum_dwu_spider"^^xsd:string ;
@@ -252,53 +215,66 @@
     skos:topConceptOf <> ;
     sdo:url <http://www.zum.de/dwu/> .
 
-<2ec87170-86f1-4917-a2ce-f90b88136a33> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.begabungslotse.de/> .
-
 <2f2ca292-3340-4bf8-bf3d-9412908d2a09> a skos:Concept ;
     skos:notation "rlp_spider"^^xsd:string ;
     skos:prefLabel "Schulcampus RLP"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://www.schulcampus-rlp.de/dashboard> .
 
-<2f7d4e27-6d08-4255-8bb8-93190ee14136> a skos:Concept ;
+<30463049-c2ce-4908-94fd-4c2c2a7f1a66> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "SciShow   "@de ;
-    sdo:url <https://www.youtube.com/channel/UCrMePiHCWG4Vwqv3t7W9EFg> .
+    skos:prefLabel "Ecole Science"@de ;
+    sdo:url <https://www.youtube.com/channel/UC1a400owZ_Qa-3Ood22cMKg> .
 
-<3069374e-1444-4c23-a376-c440e9031f79> a skos:Concept ;
+<30927dc2-1e39-4c7d-9fb5-33fa1250df39> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Digitalisierung der Lehre"@de ;
-    sdo:url <https://www.youtube.com/channel/UChfQ0jgQYSVTGP6ofkYxEPA/featured> .
+    skos:prefLabel "Scobel"@de ;
+    sdo:url <https://www.youtube.com/channel/UCHnmeuSOn1Hscizw6otqWrA/featured> .
 
-<30f758b8-93d3-46c1-8601-f62f275c46cd> a skos:Concept ;
+<319eaf6f-0921-4868-9bdb-8de34449ab2d> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Die Merkhilfe"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLjwHRoOuF25R7lVaqkqfQbjB7W_y-m4hE> .
+    skos:prefLabel "MrWissen2go Geschichte"@de ;
+    sdo:url <https://www.youtube.com/channel/UCsVWpmoRsNAWZb59b6Pt9Kg/featured> .
 
-<314ae451-0cf2-4211-b76b-8ec8d2f1204d> a skos:Concept ;
+<3238d412-ae55-426c-bbbd-d597b0c31aa0> a skos:Concept ;
+    skos:prefLabel "Talention"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.schulewirtschaft.de/> .
+    sdo:url <https://www.talention.de/> .
 
-<328a1f5d-4c1e-41b7-be2d-26c2100b248d> a skos:Concept ;
+<3350e496-0a9b-4f9d-a9cd-ea2328751838> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Dr.Klawonn - Chemie und Physik-Experimente"@de ;
+    sdo:url <https://www.youtube.com/channel/UCXk20kJsFzBE1XS5qaf_RXg/featured> .
+
+<3379de5d-dfc4-48ba-89fa-11a2d453957e> a skos:Concept ;
+    skos:prefLabel "Schulen der Zukunft "@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.schule-bw.de/> .
+    sdo:url <https://www.schulen-der-zukunft.org/> .
 
-<335f8a75-de1b-45fd-84db-aa8257fd36ba> a skos:Concept ;
+<34a7f725-7115-4947-b29e-11dd8837340d> a skos:Concept ;
+    skos:prefLabel "TeachSam"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://teachsam.de> .
+
+<34f77339-1fae-464a-ba0f-b2e781561add> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Sommers Weltliteratur to go"@de ;
-    sdo:url <https://www.youtube.com/channel/UCSa4RnmvfBbLgkEwqCUNGXQ/featured> .
+    skos:prefLabel "musstewissen Chemie"@de ;
+    sdo:url <https://www.youtube.com/channel/UC146qqkUMTrn4nfSSOTNwiA/featured> .
 
-<3404cf38-2ba2-4eee-9d9a-7632f5f5e959> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Pass the Sound"@de ;
-    sdo:url <https://www.youtube.com/channel/UCVYe_JtNP8w4iF5IELjq4Kw/featured> .
+<36856885-6fa6-4fd2-8062-3442dc3e8778> a skos:Concept ;
+    skos:prefLabel "Routenplaner Digitale Bildung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://routenplaner-digitale-bildung.de/> .
+
+<37812604-c236-4ef2-9eb8-a349415f78df> a skos:Concept ;
+    skos:prefLabel "Ruhr-Universität Bochum"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.zfw.rub.de/hd/> .
 
 <385ac43b-3b16-4bab-a3a4-ca2545aa4cce> a skos:Concept ;
     skos:notation "bpb_spider"^^xsd:string ;
@@ -306,15 +282,11 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.bpb.de/> .
 
-<38fbf941-794a-4718-8e31-31dc4f676241> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.charta-der-vielfalt.de/> .
-
-<39f3993e-3a7a-437a-ac0f-66643a017c87> a skos:Concept ;
+<3a4066fe-4e76-481c-b3e4-49a3607188cc> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "StrandMathe"@de ;
-    sdo:url <https://www.youtube.com/channel/UCMU8r31Zm_QJ7ddd12gpOjw/featured> .
+    skos:prefLabel "Dinge erklärt - Kurzgesagt"@de ;
+    sdo:url <https://www.youtube.com/channel/UCwRH985XgMYXQ6NxXDo8npw> .
 
 <3b083a1d-3205-4850-95ed-9ee0a62dc6ef> a skos:Concept ;
     skos:notation "zum_spider"^^xsd:string ;
@@ -322,27 +294,28 @@
     skos:topConceptOf <> ;
     sdo:url <https://unterrichten.zum.de/wiki/Hauptseite> .
 
-<3b37e1b2-a57d-40a1-a2f0-dceceee8f74f> a skos:Concept ;
+<3ba07860-edd8-48c1-9025-dda0a9d5aa3e> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "The Virtual Linguistics Campus"@de ;
-    sdo:url <https://www.youtube.com/channel/UCaMpov1PPVXGcKYgwHjXB3g/featured> .
+    skos:prefLabel "Physik digital.de"@de ;
+    sdo:url <https://www.youtube.com/channel/UCLFQOEC-dUaC5Qk6ccnHlcA> .
 
-<3bfa300b-682b-407d-a575-47950ba45f10> a skos:Concept ;
+<3c00120c-59fb-430e-995e-dcbb2abb1b46> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Mathe by Daniel Jung"@de ;
-    sdo:url <https://www.youtube.com/channel/UCPtUzxTfdaxAmr4ie9bXZVA/featured> .
+    skos:prefLabel "Pass the Sound"@de ;
+    sdo:url <https://www.youtube.com/channel/UCVYe_JtNP8w4iF5IELjq4Kw/featured> .
 
-<3da3a537-fc3f-42b7-9f15-22a0f9419089> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "einfachMathe - Erklärvideos bis zum Abi"@de ;
-    sdo:url <https://www.youtube.com/channel/UC_AOOUYuJvHwEbgoe4DS6bw/featured> .
-
-<3fc5e042-25b0-4b0b-aa19-49d932de6126> a skos:Concept ;
+<3c2bf930-cf7a-4604-8fb8-7c79da704ee0> a skos:Concept ;
+    skos:prefLabel "Startup Teens"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.bmbf.de/bmbf/de/home/home_node.html> .
+    sdo:url <https://www.startupteens.de/> .
+
+<3cbb2f4d-edaf-4471-955f-ecbaf4a41c00> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kunst mit Simi"@de ;
+    sdo:url <https://www.youtube.com/channel/UCwZ3pAKr_nXgdGWZVpDPT_A/featured> .
 
 <3fdd4b6c-c9a3-4967-9a75-77e3f7fdcc20> a skos:Concept ;
     skos:notation "tutory_spider"^^xsd:string ;
@@ -350,13 +323,27 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.tutory.de/> .
 
-<428132af-ada7-4785-9cfb-3be921eef540> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://deleahora.com/> .
+<41168d58-6781-485d-baf5-aa6d41c305c1> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "German as a Foreign Language"@de ;
+    sdo:url <https://www.youtube.com/channel/UComfd9z6KFVP3nggiME6-7w/featured> .
 
-<42d4b012-0097-4f47-8582-8698e49b438a> a skos:Concept ;
+<41280d5f-7065-478e-ab34-a56c24e6a3cc> a skos:Concept ;
+    skos:prefLabel "IderBlog "@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://chemiedidaktik.uni-wuppertal.de/> .
+    sdo:url <https://iderblog.eu/portalstart-1> .
+
+<41771b6c-12ab-4e07-9f96-0322a68aec4d> a skos:Concept ;
+    skos:prefLabel "OECD"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.oecd.org/> .
+
+<4188a12e-b6a4-4571-bea4-b85aac87aaa3> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "YoungBusinessSchool"@de ;
+    sdo:url <https://www.youtube.com/channel/UCJWn5X9X50U0kcNCgBou7EA/featured> .
 
 <42ea10fa-2000-4c6f-8f1f-c57ae1bc1525> a skos:Concept ;
     skos:notation "segu_spider"^^xsd:string ;
@@ -364,77 +351,86 @@
     skos:topConceptOf <> ;
     sdo:url <https://segu-geschichte.de/> .
 
-<430ab30d-baa6-453a-a5f8-8569d763748a> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "100 Sekunden Physik"@de ;
-    sdo:url <https://www.youtube.com/channel/UCEJDM_70A2EiRqZ41l6bZlg/featured> .
-
 <432c9be5-eabd-4f50-9359-0a6afbc2e0d8> a skos:Concept ;
     skos:notation "biologie_lernprogramme_spider"^^xsd:string ;
     skos:prefLabel "Biologie Lernprogramme"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://biologie-lernprogramme.de/> .
 
-<44deabe6-62c7-49aa-a8a8-b2392c7efb29> a skos:Concept ;
+<44560992-11ad-4e9e-9c64-8430d21c9e50> a skos:Concept ;
+    skos:prefLabel "Flipclass.eu"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.wandelvernetztdenken.de/> .
+    sdo:url <https://www.flipclass.eu/> .
 
-<450ed080-7b94-4e63-8585-915264cedc6c> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.dlrg.de/> .
-
-<47296f1b-b1f9-418e-aa1c-d80aadfc316d> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://de.wikipedia.org/wiki/Wikipedia:Hauptseite> .
-
-<495f0da3-9fa3-4399-9df1-99ba65ea0190> a skos:Concept ;
+<45010f98-4df1-4f4b-bc9f-6636dc1f4f88> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "DorFuchs"@de ;
+    skos:prefLabel "Kunst + Unterricht"@de ;
+    sdo:url <https://www.youtube.com/channel/UCPxqEoyZI89LDAB5nQ5Cg3Q/featured> .
+
+<452af93f-e392-48db-86b3-8938746f2a35> a skos:Concept ;
+    skos:prefLabel "Planet Wissen "@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.planet-wissen.de/index.html> .
+
+<454d8b5c-127c-4ea3-944c-a1763c524444> a skos:Concept ;
+    skos:prefLabel "ProfeDeELE"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.profedeele.es/> .
+
+<46c3fd2f-66cc-4218-b583-2c723f3db7c4> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "mailab"@de ;
     sdo:url <https://www.youtube.com/channel/UC97dp7op_ZjSCNp3DRLGymQ/featured> .
 
-<4b81726f-ff29-41b8-9da9-2286a74748ec> a skos:Concept ;
+<4bd18b64-b947-4293-bba6-195417b31874> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kunst mit Teachanies"@de ;
+    sdo:url <https://www.youtube.com/channel/UCs7cxycjh7vKIBluSka0I8A/featured> .
+
+<4c1116db-aa97-45ff-b3e5-2737c6ff65f0> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Alina Sonnenschein"@de ;
+    sdo:url <https://www.youtube.com/channel/UCPSc634TPhvYc18_QyahKMQ/featured> .
+
+<4c92c565-19db-41e9-a1f9-0afbe6f4069b> a skos:Concept ;
+    skos:prefLabel "Lernen aus der Geschichte"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.dosb.de/> .
+    sdo:url <http://lernen-aus-der-geschichte.de> .
 
-<4da9838b-238b-4ce0-9953-5a168b61c283> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Periodic Videos zu einzelnen Elementen"@de ;
-    sdo:url <https://www.youtube.com/channel/UCtESv1e7ntJaLJYKIO1FoYw/featured> .
-
-<4dfeab40-f38e-4da9-9ec6-11ca2bbac4e2> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Andreas Lorson"@de ;
-    sdo:url <https://www.youtube.com/channel/UCuxAhTPMCzQGFBQp_804Lzg> .
-
-<4e4f79ca-fd67-4b87-b83a-ad9b61f8a647> a skos:Concept ;
+<4d1a14e8-cf3b-4f55-8ae4-d69fddca5b11> a skos:Concept ;
+    skos:prefLabel "Lingolia Español"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://video.uni-mainz.de/> .
+    sdo:url <https://espanol.lingolia.com/es/> .
 
-<4f892656-7dc3-4eaf-8886-e905c85e0c7d> a skos:Concept ;
+<4f8fc9d0-03d4-4e75-b5bb-c9151665920f> a skos:Concept ;
+    skos:prefLabel "9 Levels"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.lncu.de/> .
+    sdo:url <https://www.9levels.de/> .
 
-<53148a21-d4fa-4d87-9f8c-1b9c9f4a26fe> a skos:Concept ;
+<513bc514-8901-4821-b365-57e31349c500> a skos:Concept ;
+    skos:prefLabel "Lerntool"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://lerntool.ch/> .
+
+<5661c16e-50c2-4c53-a350-c23a2c54fcba> a skos:Concept ;
+    skos:prefLabel "ProSieben"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.prosieben.de/tv/galileo> .
+
+<5788b725-7649-4028-abc6-d0f6b032a8f8> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Chemie Experimente"@de ;
-    sdo:url <https://www.youtube.com/channel/UCiK7vUKWvTTn0Mt2Dx5cn4Q/featured> .
+    skos:prefLabel "Rijks Creative"@de ;
+    sdo:url <https://www.youtube.com/channel/UCVYe_JtNP8w4iF5IELjq4Kw/featured> .
 
-<5753528d-5581-4e04-ae2f-2ec9da557777> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "seguGeschichte"@de ;
-    sdo:url <https://www.youtube.com/channel/UCV9AcuxBK-W3ejgsDm35W1w/feed> .
-
-<57cc7a20-8179-4478-8cfc-20424b41287b> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Jule Sommersberg"@de ;
-    sdo:url <https://www.youtube.com/channel/UCNOsl2b57wNgN7l13TOzNJQ/featured> .
+<57dde5e2-709f-4114-8fe7-f61afc0071ab> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule Zürich"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://phzh.ch/de/> .
 
 <57eb5a26-a73a-421b-8e66-eaa8500dd6d5> a skos:Concept ;
     skos:notation "wirlernenonline_spider"^^xsd:string ;
@@ -442,19 +438,17 @@
     skos:topConceptOf <> ;
     sdo:url <https://wirlernenonline.de> .
 
-<5c600956-3685-4e98-80ca-2bb7742ccab6> a skos:Concept ;
+<58205496-9878-4ac8-83b9-f6810ebaf649> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Chemistry Kicksass"@de ;
-    sdo:url <https://www.youtube.com/channel/UCk0aUAhu9RxfOX1iMXAJ-2g> .
+    skos:prefLabel "einfachMathe - Erklärvideos bis zum Abi"@de ;
+    sdo:url <https://www.youtube.com/channel/UC_AOOUYuJvHwEbgoe4DS6bw/featured> .
 
-<5c9b94fd-6216-4b0e-b9b0-6e5452e18f36> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www1.wdr.de/index.html> .
-
-<5d1be660-5c5e-4674-a661-d6521395058e> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.profedeele.es/> .
+<5d693d03-d52f-4c9e-a2f0-11c08d8f4f3c> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Arizona State University"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLNrrxHpJhC8mNXjrAL3Ey1Q6iI35cymzl> .
 
 <5da75aca-f8f0-4114-af33-6fddf62c7245> a skos:Concept ;
     skos:notation "schule_im_aufbruch_spider"^^xsd:string ;
@@ -462,125 +456,109 @@
     skos:topConceptOf <> ;
     sdo:url <http://schule-im-aufbruch.de/> .
 
-<5fe44b8e-3c95-4a43-a1e4-dab08060e2fd> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://frauschuetze.de> .
+<5e827435-25f6-45c9-a57e-8273455a8841> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "The Great War"@de ;
+    sdo:url <https://www.youtube.com/channel/UCUcyEsEjhPEDf69RRVhRh4A/featured> .
 
-<5ff70030-9207-428c-a86b-28e12f6346a4> a skos:Concept ;
+<5f41781f-503b-4e3f-b5b7-5f127980f447> a skos:Concept ;
+    skos:prefLabel "Mein-deutschbuch.de"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://mein-deutschbuch.de/startseite.html> .
+
+<601625b6-951d-4cb3-b3f1-538784f1a4d6> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Nele Hirsch"@de ;
+    sdo:url <https://www.youtube.com/channel/UCZF4IKRZQJUCwl-0O64Y_KQ/featured> .
+
+<616284a9-bc67-42f9-8b7f-4a02ddc60270> a skos:Concept ;
+    skos:prefLabel "ClipCoach"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://www.bewegungskompetenzen.at/2020/> .
+
+<66d8cb68-0f02-4181-8e78-6bf09b56eed2> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Learn English with EnglishClass101.com"@de ;
+    sdo:url <https://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg/featured> .
+
+<67088b6c-5d29-4c24-b373-b15ebf002326> a skos:Concept ;
+    skos:prefLabel "ColorELE"@de ;
     skos:topConceptOf <> ;
     sdo:url <http://colorele.es/> .
 
-<605deb07-4517-48d9-b1db-b1fd66ef5d2a> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.dhm.de/lemo> .
-
-<612cae74-a4b4-4733-9400-ac3cdae8b501> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://pruefungskultur.de/> .
-
-<6248a85a-f2fd-41ad-8a6c-3dcff6800c8c> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.standardsicherung.schulministerium.nrw.de/cms/zentralabitur-gost/uebersicht/uebersicht-abi-gost.php> .
-
-<639c3ce6-834e-4679-97d5-22f747af3121> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.kinderzeitmaschine.de/> .
-
-<64296098-0416-490d-8d7d-662cbe320926> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.dosb.de/> .
-
-<6437de0c-634e-4ad4-9f25-2f3b112c9274> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Educational Robotics"@de ;
-    sdo:url <https://www.youtube.com/channel/UC7mZyCH5ppdYdJrHuxjJtkw/featured> .
-
-<64747198-fc4a-45d8-9d18-95348e14e253> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.flipclass.eu/> .
-
-<64af78b6-6c41-4b19-a37c-e852e672a9ca> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kunst + Unterricht"@de ;
-    sdo:url <https://www.youtube.com/channel/UCPxqEoyZI89LDAB5nQ5Cg3Q/featured> .
-
-<65088ea1-a3cb-4439-acd8-560d28995e54> a skos:Concept ;
+<696fd4e0-1048-401e-b0de-7efb0049caa4> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
     skos:prefLabel "Einfach Englisch"@de ;
     sdo:url <https://www.youtube.com/channel/UCTUMMgOW9UJoodX5j0mequA/featured> .
 
-<66de8f27-dd02-4312-b612-dabc181306c3> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.startupteens.de/> .
-
-<68103fd5-e17d-41e0-bd29-1793fd5fc98b> a skos:Concept ;
+<69e62e66-d0c2-4f6d-aede-b484e993e207> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Rijks Creative"@de ;
-    sdo:url <https://www.youtube.com/channel/UCVYe_JtNP8w4iF5IELjq4Kw/featured> .
+    skos:prefLabel "Cornelsen"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLEvJmBfh19TyIDb8PsxSPIwRJnRbM4oZc> .
 
-<68d1ce8d-52e6-4101-8466-83b7538cb14f> a skos:Concept ;
+<6f3a762f-5dde-487a-9202-7da8e66eeda2> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Entropy - Wissenschaft schnell erklärt"@de ;
+    sdo:url <https://www.youtube.com/channel/UC5dBZm6ztKizdUnN7Puz3QQ/featured> .
+
+<6f3bd254-a6c5-40c6-9c5b-75d216283e48> a skos:Concept ;
+    skos:prefLabel "Bildungsportal NRW"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.standardsicherung.schulministerium.nrw.de/cms/zentralabitur-gost/uebersicht/uebersicht-abi-gost.php> .
+
+<72b1d4cc-60f3-4d52-a5b4-ec2bdfceba1a> a skos:Concept ;
+    skos:prefLabel "Bayern innovativ"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.bayern-innovativ.de/> .
+
+<747cf7a8-67dd-407c-ab3d-8c8d6751c6d2> a skos:Concept ;
+    skos:prefLabel "Frau Schütze"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://frauschuetze.de> .
+
+<75b57944-52c4-4f98-8cd0-da74ed946ab4> a skos:Concept ;
+    skos:prefLabel "ARD Audiothek"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.ardaudiothek.de> .
+
+<7606bb93-4786-45df-aacf-b11e93379436> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Alba Berlin"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PL9H8VPpyaFzOU7WShhUg25QyoIQrt7MSx> .
+
+<7617f91a-7a76-4ce1-acc1-cafecb08234e> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "DorFuchs"@de ;
+    sdo:url <https://www.youtube.com/channel/UC97dp7op_ZjSCNp3DRLGymQ/featured> .
+
+<76526a53-68d2-4402-be04-c4f09dbe2470> a skos:Concept ;
+    skos:prefLabel "Universität Duisburg Essen"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.uni-due.de/> .
+
+<77ba3313-6fbd-4b77-9644-ac69e6b6ecf8> a skos:Concept ;
+    skos:prefLabel "Methodenwürfel RITA"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.methodenwuerfel.ch/> .
+
+<78690635-b859-48b1-8ceb-31a6f36dcfe8> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Hui"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PL25spyP49IXaL7wsV-W4hvrYymByjVkL_> .
+
+<78ac0b5a-aacb-4771-8682-741885a76cac> a skos:Concept ;
+    skos:prefLabel "Goethe Institut"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://www.goethe.de/de/index.html> .
-
-<6a9ec7d9-ee8b-4ea7-a8ee-89098f1c71f1> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.twillo.de/oer/web/> .
-
-<6e295205-6766-4a70-a341-b8bd0991b96f> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Anna Schirmer"@de ;
-    sdo:url <https://www.youtube.com/channel/UCb3JeLUzhZH1i5dafCn7pOQ/featured> .
-
-<6f12e286-9330-4aaa-bb59-a478d6db8553> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Geographie Plus"@de ;
-    sdo:url <https://www.youtube.com/channel/UC8j-JA7KgqTbVrLkm2FfrXg/featuredhttps%3A> .
-
-<6f6ba19e-4d46-48ba-a249-c8b922db6b71> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://mein-deutschbuch.de/startseite.html> .
-
-<70558d8b-6a73-4db5-a7ad-2f490e0a8f51> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://rockalingua.com/> .
-
-<727a04c1-7acf-4a6a-9754-9e769f0924b8> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kunstmuseum Moritzburg Halle (Saale)"@de ;
-    sdo:url <https://www.youtube.com/channel/UCLKfBeCr5QAaIuO89ax4-EA/featured> .
-
-<7414b6bb-8639-48c4-8f2a-6f63e3c22acc> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://phzh.ch/de/> .
-
-<755670bd-7653-4c23-a2b0-af1891507dff> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://herrlarbig.de/> .
-
-<755cb6ca-6495-4100-b49a-415e368573da> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Terra X"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLHrmwJ40hoSpO6aL3owpzdhUzf1TTfPz9> .
-
-<76e8a85b-d27c-46fc-be9b-2d4e162a4796> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "DigiFernunterricht"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLC9D2mzTyJeXYa6E1y_d0fc_7-V7BJnSq> .
-
-<77ab5e6c-59c0-40be-b6bd-f42c2cefdb47> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Chemie - simpleclub"@de ;
-    sdo:url <https://www.youtube.com/channel/UCWNvo3l-K-X6CPSBcP9NCNg> .
 
 <78efeac9-340a-400b-8bc7-3b9bb0a2178a> a skos:Concept ;
     skos:notation "geogebra_spider"^^xsd:string ;
@@ -594,11 +572,17 @@
     skos:topConceptOf <> ;
     sdo:url <https://kindoergarten.wordpress.com/> .
 
-<7c946e4d-c464-4f5f-a10b-fd6b9d158c7f> a skos:Concept ;
+<7c0e2d19-05d5-466d-ad33-eda111464325> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Drama Menu"@de ;
-    sdo:url <https://www.youtube.com/channel/UChFbmxYZ8VVThe_mcD1vo_A/featured> .
+    skos:prefLabel "Der Kunsterklärer"@de ;
+    sdo:url <https://www.youtube.com/channel/UCFt8Sh8cbg-K5hZs3hhKbmA/featured> .
+
+<7c37e904-0202-469c-934c-ebd0aad2435e> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "musstewissen Mathematik"@de ;
+    sdo:url <https://www.youtube.com/channel/UCaxX8488TqU6bZdcKpxPVvQ/featured> .
 
 <7c988a60-3cb8-48df-8b11-93ea043997a4> a skos:Concept ;
     skos:notation "kmap_spider"^^xsd:string ;
@@ -606,21 +590,11 @@
     skos:topConceptOf <> ;
     sdo:url <https://kmap.eu/> .
 
-<7cb7cefe-dd80-43e6-9f6e-f6f773aeee06> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.zfw.rub.de/hd/> .
-
 <7d22f062-1718-4f8d-b2c0-32751bc6f24c> a skos:Concept ;
     skos:notation "digitallearninglab_spider"^^xsd:string ;
     skos:prefLabel "Digital Learning Lab"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://digitallearninglab.de/> .
-
-<7d441299-812e-413b-b9a9-f8ca727349db> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Bernd-H. Brand"@de ;
-    sdo:url <https://www.youtube.com/channel/UCekU1TP424ZV9DnNjdivaDQ> .
 
 <808e5f3f-0635-4d86-a3aa-47297cb2fa92> a skos:Concept ;
     skos:notation "fobizz_spider"^^xsd:string ;
@@ -628,35 +602,21 @@
     skos:topConceptOf <> ;
     sdo:url <https://fobizz.com/> .
 
-<810f1a62-75bc-4680-b108-a15d4a0e16e4> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "ObachtMathe"@de ;
-    sdo:url <https://www.youtube.com/channel/UCPVQdTsc9O0VM41vAhdlVLw/featured> .
-
-<81d1d670-7c43-4ab3-91e6-0677806c8834> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.uni-leipzig.de/> .
-
-<82a20a7a-5a1c-4ba7-9efd-d8650b0a9efe> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.stepstone.de/e-recruiting/podcast/> .
-
-<83b9cc5a-cfd5-40ef-a0a7-4fe5f1f0d984> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Ecole Science"@de ;
-    sdo:url <https://www.youtube.com/channel/UC1a400owZ_Qa-3Ood22cMKg> .
-
-<840a843f-118b-4b3b-b70f-8684c779bacb> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kunst mit Simi"@de ;
-    sdo:url <https://www.youtube.com/channel/UCwZ3pAKr_nXgdGWZVpDPT_A/featured> .
-
-<84e155ed-4b4a-4430-8225-e5f0ca629ca5> a skos:Concept ;
+<812b1b89-3c57-4081-8ab8-760f2ac29e8a> a skos:Concept ;
+    skos:prefLabel "Joachim Herz Stiftung"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://www.joachim-herz-stiftung.de/> .
+
+<81eda5a2-eaf5-4959-8f80-e7209b226206> a skos:Concept ;
+    skos:prefLabel "Forum Bildung Digitalisierung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.forumbd.de/> .
+
+<8211b3fe-d717-4085-a5be-774086a604dd> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "LEIFIphysik"@de ;
+    sdo:url <https://www.youtube.com/channel/UCIntY47wLCbBNItj7-2FwXQ> .
 
 <85399c78-bd24-4f4c-94f7-49689a7799b3> a skos:Concept ;
     skos:notation "zum_klexikin_spider"^^xsd:string ;
@@ -670,39 +630,85 @@
     skos:topConceptOf <> ;
     sdo:url <https://deutsch-lernen.zum.de/wiki/Hauptseite> .
 
-<86ee54c3-9ac6-4fa2-a85d-1798607a5068> a skos:Concept ;
+<8795a064-fdc0-42f8-bf7f-0f8a9c81aa31> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Der Kunsterklärer"@de ;
-    sdo:url <https://www.youtube.com/channel/UCFt8Sh8cbg-K5hZs3hhKbmA/featured> .
+    skos:prefLabel "Die Merkhilfe"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLjwHRoOuF25R7lVaqkqfQbjB7W_y-m4hE> .
 
-<8a0ecb0b-e2d3-493c-833f-7d486969e473> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://za-aufgaben.nibis.de> .
-
-<8be99d9e-24c8-4ece-b570-388162add342> a skos:Concept ;
+<88ce9a67-bacc-4864-89ea-094c1437a6ba> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Frau Schimpf"@de ;
-    sdo:url <https://www.youtube.com/channel/UCPAfRcqYTpbQxC-i9C6HK_g> .
+    skos:prefLabel "Chemistry Kicksass"@de ;
+    sdo:url <https://www.youtube.com/channel/UCk0aUAhu9RxfOX1iMXAJ-2g> .
 
-<8eda6e15-6173-461b-8fa4-71c23f4d93cc> a skos:Concept ;
+<8a3b7252-9a66-4f9d-94fe-8b8c39e004cd> a skos:Concept ;
+    skos:prefLabel "Durchblick Philosophie"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://lehrerfortbildung-bw.de/> .
+    sdo:url <https://durchblick-philosophie.de> .
 
-<8f5be899-c512-4478-8a8c-2dfd243ebe48> a skos:Concept ;
+<8a9af7ba-7f6a-418c-899e-749869c38268> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Primartorium"@de ;
-    sdo:url <https://www.youtube.com/channel/UCO7ksLK-11tVxalfPKf7BTQ/featured> .
+    skos:prefLabel "Sommers Weltliteratur to go"@de ;
+    sdo:url <https://www.youtube.com/channel/UCSa4RnmvfBbLgkEwqCUNGXQ/featured> .
 
-<91841b1c-624c-47c2-85c9-51f960e2a1f4> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.methodenwuerfel.ch/> .
+<8b63d93c-b544-4d0b-8967-fd6e21cc047b> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Explainity"@de ;
+    sdo:url <https://www.youtube.com/channel/UCYUZr-O3UdDdm_mF4XA_TbA/featured> .
 
-<91ccb57f-494b-4f28-b09f-8620439f916d> a skos:Concept ;
+<8bed26e1-fb5a-4e64-82cf-907338444fe8> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "CrashCourse  "@de ;
+    sdo:url <https://www.youtube.com/channel/UCRFIPG2u1DxKLNuE3y2SjHA> .
+
+<8c5139ca-1c2d-4d2d-979e-c9bd1dd5e4d6> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Kunstmuseum Moritzburg Halle (Saale)"@de ;
+    sdo:url <https://www.youtube.com/channel/UCLKfBeCr5QAaIuO89ax4-EA/featured> .
+
+<8caa8833-5589-45a7-b31f-f3f9ff809e8a> a skos:Concept ;
+    skos:prefLabel "StudyCheck"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.bbc.com/> .
+    sdo:url <https://www.studycheck.de/> .
+
+<8e2947f8-3acb-4083-ae06-8e4dbd4553ec> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Forsche mit uns! NaWi mit GUB e.V."@de ;
+    sdo:url <https://www.youtube.com/channel/UCotQdo7hOWcKl_hNMvuL79A> .
+
+<8e7ca6dc-18ee-4fd7-90ac-1add6814355b> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Chemie und Bio in der Schule"@de ;
+    sdo:url <https://www.youtube.com/channel/UCFSS2FtaFNKMei4jGQOVL3w> .
+
+<8e9a3ce6-2a1a-4961-b281-e5f4b740ce96> a skos:Concept ;
+    skos:prefLabel "ProfilPASS"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.profilpass.de/> .
+
+<90eec559-3020-41b0-a4f1-3b9d485318f5> a skos:Concept ;
+    skos:prefLabel "Edu labs"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://edulabs.de/> .
+
+<9234c5b6-dd4f-477a-8e10-31ec10ef0561> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Anna Schirmer"@de ;
+    sdo:url <https://www.youtube.com/channel/UCb3JeLUzhZH1i5dafCn7pOQ/featured> .
+
+<92e4f68f-16c7-44be-92ff-94425dc08050> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "JGS Feuchtwangen"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLn_RXXE1fMmMIpf0qMuEQLRyDh1MN2oQY> .
 
 <9338dc1b-705a-45a5-aa31-c84efe62e95c> a skos:Concept ;
     skos:notation "zdf_rss_spider"^^xsd:string ;
@@ -710,37 +716,23 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.zdf.de/> .
 
-<937af476-6fdd-446f-bd02-c997542d8205> a skos:Concept ;
+<952aaeef-aa59-46da-8ea1-145240c158ba> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Learn English with EnglishClass101.com"@de ;
-    sdo:url <https://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg/featured> .
+    skos:prefLabel "Bernd-H. Brand"@de ;
+    sdo:url <https://www.youtube.com/channel/UCekU1TP424ZV9DnNjdivaDQ> .
 
-<96051546-a7f2-4a7a-8782-4bcba5e831cf> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://bayernedu.net/> .
-
-<96b03765-68f6-4d22-a9e5-d338723025a6> a skos:Concept ;
+<977dfbc8-ec19-4618-9bf0-ae96eee5509d> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "LEIFIphysik"@de ;
-    sdo:url <https://www.youtube.com/channel/UCIntY47wLCbBNItj7-2FwXQ> .
+    skos:prefLabel "Drama Menu"@de ;
+    sdo:url <https://www.youtube.com/channel/UChFbmxYZ8VVThe_mcD1vo_A/featured> .
 
-<970a8e4c-26f8-478d-8772-c4d1d78f7123> a skos:Concept ;
+<98308727-2647-46f6-8536-76ad05974e95> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Hui"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PL25spyP49IXaL7wsV-W4hvrYymByjVkL_> .
-
-<9734f267-2cdc-499c-ad81-1afbbc5fe619> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://lerntool.ch/> .
-
-<9912bd85-7c29-47fe-9ac6-c73326ec62f2> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Physik digital.de"@de ;
-    sdo:url <https://www.youtube.com/channel/UCLFQOEC-dUaC5Qk6ccnHlcA> .
+    skos:prefLabel "Sportkunde Online"@de ;
+    sdo:url <https://www.youtube.com/channel/UC9K6m29pOxYU6F2qLrCcIBQ/featured> .
 
 <993c409c-b1f8-406d-9b93-d5b573f537c3> a skos:Concept ;
     skos:notation "irights_spider"^^xsd:string ;
@@ -748,19 +740,17 @@
     skos:topConceptOf <> ;
     sdo:url <https://quizdidaktik.de/> .
 
+<99d1bf3f-281e-48ff-a716-2fb237fd0ea9> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "the artinspector"@de ;
+    sdo:url <https://www.youtube.com/channel/UC5EyFAt0bLnC6YzBvEXgF8A> .
+
 <9AC8B0BD-4C71-49D1-8280-F428864AA24D> a skos:Concept ;
     skos:notation "umwelt_im_unterricht_spider"^^xsd:string ;
     skos:prefLabel "Umwelt im Unterricht"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://www.umwelt-im-unterricht.de/> .
-
-<9ab10557-7e22-429e-94a9-bf38ad579169> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.leifichemie.de/> .
-
-<9ab70190-01a8-4dfb-a9ce-59afe0cfa8ac> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <http://www.bewegungskompetenzen.at/2020/> .
 
 <9ac89a88-d426-403e-bb5b-df1652789960> a skos:Concept ;
     skos:notation "chemie_lernprogramme_spider"^^xsd:string ;
@@ -768,97 +758,125 @@
     skos:topConceptOf <> ;
     sdo:url <https://chemie-lernprogramme.de/> .
 
-<9d06224a-4fa1-4820-9a20-3bf4c6ae31b5> a skos:Concept ;
+<9ce5d4fe-62b8-4547-bb02-107786c1bda9> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "brainfaqk"@de ;
+    sdo:url <https://www.youtube.com/channel/UCyHDQ5C6z1NDmJ4g6SerW8g/featured> .
+
+<9d1f6bf6-bae1-43eb-9366-925da4fe1d55> a skos:Concept ;
+    skos:prefLabel "Deutschen Zentrum für Luft- und Raumfahrt (DLR)"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.dlr.de/DE/Home/home_node.html> .
+
+<9ea704de-6b7e-4240-a606-52677a076da2> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Sebastian Schmidt"@de ;
+    sdo:url <https://www.youtube.com/channel/UC5fmHcYneeEzpAjORhgHrnQ/featured> .
+
+<9f13a0bc-d9bd-4047-9366-5a0d5daadc24> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "ObachtMathe"@de ;
+    sdo:url <https://www.youtube.com/channel/UCPVQdTsc9O0VM41vAhdlVLw/featured> .
+
+<a1839df0-c0e5-4516-b7b5-6a31ec43897b> a skos:Concept ;
+    skos:prefLabel "Deutsche Gesellschaft für Philosophie e. V."@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://dgphil.de/studienportal/> .
+
+<a309da33-0dfa-4e2a-bb4e-cb3f10961efc> a skos:Concept ;
+    skos:prefLabel "Toolbox Lehrerbildung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://toolbox.edu.tum.de/> .
+
+<a31b4c10-4247-4885-becb-0e7b54cf5398> a skos:Concept ;
+    skos:prefLabel "CodoELE"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.todoele.net/> .
+
+<a32dc2d3-9dca-4188-8159-79c5ed7d5084> a skos:Concept ;
+    skos:prefLabel "Bergische Universität Wuppertal"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://chemiedidaktik.uni-wuppertal.de/> .
+
+<a631fa44-7df1-4db1-a28b-ecbd8488bae2> a skos:Concept ;
+    skos:prefLabel "Übungskönig"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.uebungskoenig.de/> .
+
+<a77f686a-473e-45dd-97e9-164aa8716326> a skos:Concept ;
+    skos:prefLabel "Swim Performance"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://swim-performance.de/> .
+
+<a898c00a-0760-4ade-a8fe-4f04f9b2a8d8> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Museum im Kulturspeicher"@de ;
+    sdo:url <https://www.youtube.com/channel/UClt8eDAJGh-z0F5YnssHSvw/featured> .
+
+<a8f471c3-032a-404f-a090-cbb48144eb28> a skos:Concept ;
+    skos:prefLabel "British Council"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.britishcouncil.de/> .
+
+<abdba320-0e1c-4812-a10b-e5462cc38f61> a skos:Concept ;
+    skos:prefLabel "PHET-Simulationen"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://phet.colorado.edu/de/> .
+
+<acc3594b-85bf-4d99-83bf-a274cb46aea4> a skos:Concept ;
+    skos:prefLabel "RockAlingua"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://rockalingua.com/> .
+
+<ad639d01-294b-447d-b506-5a8fa8023bc1> a skos:Concept ;
+    skos:prefLabel "Kinderzeitmaschine"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.kinderzeitmaschine.de/> .
+
+<adae4285-3998-488e-94cc-b1de5c24d363> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
     skos:prefLabel "Kanal Scobel"@de ;
     sdo:url <https://www.youtube.com/channel/UCHnmeuSOn1Hscizw6otqWrA> .
 
-<9d259128-a664-4498-bdb9-697c4e9dafb4> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "the artinspector"@de ;
-    sdo:url <https://www.youtube.com/channel/UC5EyFAt0bLnC6YzBvEXgF8A> .
-
-<9d5e18ed-7ad9-4ef5-b362-94e5ffb54704> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "musstewissen Chemie"@de ;
-    sdo:url <https://www.youtube.com/channel/UC146qqkUMTrn4nfSSOTNwiA/featured> .
-
-<a4db30f6-5e62-4e0b-aa5b-cf254a8baf08> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Webinare Deutsches Lehrkräfteforum"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLFhPjADeGDodbVSSL8LE00SNjQIPiyamr> .
-
-<a519095e-88e6-4e5d-994f-39056983eb99> a skos:Concept ;
+<af925382-a783-4258-aefc-71ac2d6c63ea> a skos:Concept ;
+    skos:prefLabel "ZUM - Grundschul Lernportal"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.schulen-der-zukunft.org/> .
+    sdo:url <https://grundschullernportal.zum.de/wiki/Hauptseite> .
 
-<a6390d0e-9d00-466b-b0bd-94e90b4d6487> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Lehrerschmidt "@de ;
-    sdo:url <https://www.youtube.com/channel/UCy0FxMgGUlRnkxCoNZUNRQQ/featured> .
-
-<aa751eba-239e-435d-a893-68b34f1f39cc> a skos:Concept ;
+<b043a8cf-e7e4-4e41-b7de-99d6f325fc3f> a skos:Concept ;
+    skos:prefLabel "Wikipedia"@de ;
     skos:topConceptOf <> ;
-    sdo:url <-> .
+    sdo:url <https://de.wikipedia.org/wiki/Wikipedia:Hauptseite> .
 
-<aa7f5475-4d32-44ef-afa2-e68952a0412c> a skos:Concept ;
+<b0b40e34-bbb3-4396-9bbc-c1f5340ff885> a skos:Concept ;
+    skos:prefLabel "Lehrerinnenfortbildung Baden-Württemberg"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.forumbd.de/> .
+    sdo:url <https://lehrerfortbildung-bw.de/> .
 
-<abaab5d1-a838-4260-809d-720ef73e976e> a skos:Concept ;
+<b0ca64ed-924d-45f5-9b73-6aa1f7917235> a skos:Concept ;
+    skos:prefLabel "Kompetenznetzwerk Sportunterricht"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.britishcouncil.de/> .
+    sdo:url <https://www.knsu.de/> .
 
-<ac93b038-0ef4-4ac9-8c29-6edcae76cf5e> a skos:Concept ;
+<b1e22022-da91-4aa0-bfc1-871de6005c07> a skos:Concept ;
+    skos:prefLabel "Sportpädagogik-Online"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://memucho.de/Globales-Wiki/1> .
+    sdo:url <http://www.sportpaedagogik-online.de/> .
 
-<afdb233e-d527-4916-a562-b4814cccc11d> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Der Kunstklärer"@de ;
-    sdo:url <https://www.youtube.com/channel/UCFt8Sh8cbg-K5hZs3hhKbmA/featured> .
-
-<b024c6d7-7878-4eb8-b72c-ce1e5004da65> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "mailab"@de ;
-    sdo:url <https://www.youtube.com/channel/UC97dp7op_ZjSCNp3DRLGymQ/featured> .
-
-<b0acd1ec-7323-4980-a423-a97efd6280c8> a skos:Concept ;
+<b224f84d-52b5-4444-a743-1edfbfb3d3da> a skos:Concept ;
+    skos:prefLabel "Schule im Aufbruch"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://schule-im-aufbruch.de/> .
 
-<b0ee58fe-81bf-4eb8-8131-510761c8159e> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.uebungskoenig.de/> .
-
-<b17bf8b0-9f9c-46c1-86dc-7c25f8db092e> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <http://teachsam.de> .
-
-<b67205a9-1c30-4fbc-859f-5841f9c5eacc> a skos:Concept ;
+<b733fd1b-0ccb-4dce-8c9a-169ca7f4bc1e> a skos:Concept ;
+    skos:prefLabel "Whatchado Education"@de ;
     skos:topConceptOf <> ;
     sdo:url <https://education.whatchado.com/> .
-
-<b6b572a6-a30b-4e04-bbc2-3758aca2ddc6> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://apps.zum.de> .
-
-<b6ba76b0-10c4-4aa2-beaf-54ec98acf603> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Nele Hirsch"@de ;
-    sdo:url <https://www.youtube.com/channel/UCZF4IKRZQJUCwl-0O64Y_KQ/featured> .
-
-<b7649853-3726-4c3e-a1c4-be585fb86f91> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.qms.at/> .
 
 <b7f06ad9-3855-4900-a3c1-25b992ec04d6> a skos:Concept ;
     skos:notation "serlo_spider"^^xsd:string ;
@@ -866,13 +884,43 @@
     skos:topConceptOf <> ;
     sdo:url <https://de.serlo.org/> .
 
-<bc1f8ff7-1c79-4f6e-85cc-3e7813d89820> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.knsu.de/> .
+<b861e5f0-b7f7-469f-8d19-6da823448907> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Andreas Lorson"@de ;
+    sdo:url <https://www.youtube.com/channel/UCuxAhTPMCzQGFBQp_804Lzg> .
 
-<bc3f3b5c-eba8-4385-88bb-58c22dee94fb> a skos:Concept ;
+<b8e7647f-5863-413a-94af-8df54b67cad8> a skos:Concept ;
+    skos:prefLabel "Schlaukopf.de"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.rhoengymnasium.de/> .
+    sdo:url <https://www.schlaukopf.de/> .
+
+<ba316a74-df12-4b6e-9c66-bf946a4c4570> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "musstewissen Deutsch"@de ;
+    sdo:url <https://www.youtube.com/channel/UCzOHLoNwbebvEkn7y6x-EWA/featured> .
+
+<ba853330-c19c-4cbd-979a-0bca629d9b52> a skos:Concept ;
+    skos:prefLabel "Institut für zeitgemäße Prüfungskultur"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://pruefungskultur.de/> .
+
+<bb1b6f19-4a75-476d-8141-abcf3a1c4aa0> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Angewandte Theaterforschung"@de ;
+    sdo:url <https://www.youtube.com/channel/UCR0VS7_wuJBzLJ-ZR_nbipg/featured> .
+
+<bda7865d-771d-4dee-a28f-00e2f262dfa7> a skos:Concept ;
+    skos:prefLabel "Fachverband Philosophie"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://fv-philosophie.de> .
+
+<be09c877-5ced-48ff-b40d-1578fe09521f> a skos:Concept ;
+    skos:prefLabel "Sportunterricht.ch"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.sportunterricht.ch/> .
 
 <be6522d7-08c8-4d6e-9e32-423da2faf706> a skos:Concept ;
     skos:notation "memucho_spider"^^xsd:string ;
@@ -880,31 +928,17 @@
     skos:topConceptOf <> ;
     sdo:url <https://memucho.de/Alle-Themen/1> .
 
-<bf1f3063-c41e-4dd2-834a-f85e3eb321c8> a skos:Concept ;
+<c00e429d-8616-4c99-a83e-a1cfad495947> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Sebastian Schmidt"@de ;
-    sdo:url <https://www.youtube.com/channel/UC5fmHcYneeEzpAjORhgHrnQ/featured> .
+    skos:prefLabel "Yggis Kosmos - Sterne, Weltall und Raumfahrt"@de ;
+    sdo:url <https://www.youtube.com/channel/UCEI2CJCaMKZVEtrUKzubaSA/featured> .
 
-<c0074743-40ea-49f6-844e-94f5cfed5a16> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.rechtschreibrat.com/> .
-
-<c0cd0802-1e4d-442b-a377-b994bfbe25e5> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://phet.colorado.edu/de/> .
-
-<c0efa8e6-10a3-4da9-90e4-62829aa500a6> a skos:Concept ;
+<c02801c6-3b5d-4f91-ad26-99c21d2b847b> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "schoolseasy "@de ;
-    sdo:url <https://www.youtube.com/channel/UCLil9BlNCu-hZWKKBbcXtMA/featured> .
-
-<c2983377-cb98-4c14-adaa-57e2eb7a5f63> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "JGS Feuchtwangen"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLn_RXXE1fMmMIpf0qMuEQLRyDh1MN2oQY> .
+    skos:prefLabel "Terra X"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLHrmwJ40hoSpO6aL3owpzdhUzf1TTfPz9> .
 
 <c29d7aa9-9602-49ab-af74-c88042598c1a> a skos:Concept ;
     skos:notation "leifi_spider"^^xsd:string ;
@@ -912,139 +946,156 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.leifiphysik.de/> .
 
-<c33ee25e-e554-4806-9258-dc5621f6d9ca> a skos:Concept ;
+<c343f92f-b0b7-4bc9-8ca4-45d61495eebd> a skos:Concept ;
+    skos:prefLabel "Mobilesport.ch"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://durchblick-philosophie.de> .
+    sdo:url <https://www.mobilesport.ch/de/> .
 
-<c59b68a9-071d-47e9-a218-105e97b30f55> a skos:Concept ;
+<c5339375-2b02-4075-a324-a06088e6f54e> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Dr.Klawonn - Chemie und Physik-Experimente"@de ;
-    sdo:url <https://www.youtube.com/channel/UCXk20kJsFzBE1XS5qaf_RXg/featured> .
+    skos:prefLabel "DigiFernunterricht"@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PLC9D2mzTyJeXYa6E1y_d0fc_7-V7BJnSq> .
 
-<c8ada60f-baf2-45c4-a3fe-bc08bf1a1872> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <http://www.chemiedidaktik.uni-bremen.de/> .
-
-<cb150bc2-2121-4ef0-8923-d3c0cbfaa28a> a skos:Concept ;
+<c7853d3a-dda5-458f-9b33-d0bcd8386414> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Explainity"@de ;
-    sdo:url <https://www.youtube.com/channel/UCYUZr-O3UdDdm_mF4XA_TbA/featured> .
+    skos:prefLabel "Mathe by Daniel Jung"@de ;
+    sdo:url <https://www.youtube.com/channel/UCPtUzxTfdaxAmr4ie9bXZVA/featured> .
 
-<cb1a3601-cf72-4ddc-abc3-9c0f0c2675c6> a skos:Concept ;
+<c9032778-1406-4499-9c1b-6b93f113da3d> a skos:Concept ;
+    skos:prefLabel "Planet-beruf.de"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://planet-beruf.de/schuelerinnen> .
+
+<c93c4b53-9995-495e-baba-4b9c7d565a9a> a skos:Concept ;
+    skos:prefLabel "Zentrum für Kunst und Medien Karlsruhe (ZKM)"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://zkm.de/de> .
+
+<c9a9aee9-bc39-44e7-9874-3918b23dd511> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "CrashCourse "@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PL8dPuuaLjXtPlnUoPa11EoTZbWZLsQVMs> .
+    skos:prefLabel "Einfach Geschichte"@de ;
+    sdo:url <https://www.youtube.com/channel/UCNZobzDT5tde8FCOMto-kIg/featured> .
 
-<cb41f115-0627-4ca7-b513-dc03043cf12b> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://grundschullernportal.zum.de/wiki/Hauptseite> .
+<cf2731ee-07dc-4080-b7c4-4c54f6f52a8f> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Geographie Plus"@de ;
+    sdo:url <https://www.youtube.com/channel/UC8j-JA7KgqTbVrLkm2FfrXg/featuredhttps%3A> .
 
-<cbee96e0-4f26-4112-a18b-f77a3bb4b1d2> a skos:Concept ;
+<d027caef-993c-43d8-8ba5-a56d114a33ae> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
     skos:prefLabel "RLScience"@de ;
     sdo:url <https://www.youtube.com/channel/UCuo4TZpgNCAzEU2IAUFJBeg/featured> .
 
-<ccee23ad-ef1b-4317-a898-aa9715293011> a skos:Concept ;
+<d08fae99-82f6-4140-adfb-3a62b4969f1c> a skos:Concept ;
+    skos:prefLabel "Volleyball-Trainer MOOC"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <http://vobamooc.de/de> .
+
+<d09f0029-8e7c-494a-9f27-6d81a6f647a1> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Yggis Kosmos - Sterne, Weltall und Raumfahrt"@de ;
-    sdo:url <https://www.youtube.com/channel/UCEI2CJCaMKZVEtrUKzubaSA/featured> .
+    skos:prefLabel "StrandMathe"@de ;
+    sdo:url <https://www.youtube.com/channel/UCMU8r31Zm_QJ7ddd12gpOjw/featured> .
 
-<cd81ecfb-6982-447f-9acd-a9969136b35b> a skos:Concept ;
+<d0e64701-2024-433b-a01e-5165882ef02f> a skos:Concept ;
+    skos:prefLabel "Deutscher Olympischer Sportbund (DOSB)"@de ;
     skos:topConceptOf <> ;
-    sdo:url <http://lernen-aus-der-geschichte.de> .
+    sdo:url <https://www.dosb.de/> .
 
-<cf6238e4-3962-48bc-a5c3-0288be33020c> a skos:Concept ;
+<d154ec1e-eb9e-48b6-b114-37f00b679e03> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "German as a Foreign Language"@de ;
-    sdo:url <https://www.youtube.com/channel/UComfd9z6KFVP3nggiME6-7w/featured> .
+    skos:prefLabel "CrashCourse "@de ;
+    sdo:url <https://www.youtube.com/playlist?list=PL8dPuuaLjXtPlnUoPa11EoTZbWZLsQVMs> .
 
-<d0ad4a74-4c77-4ea3-a45f-a9954df4d0b5> a skos:Concept ;
+<d2e5c825-4645-4d14-b33d-524b8d24621f> a skos:Concept ;
+    skos:prefLabel "BayernEdu"@de ;
     skos:topConceptOf <> ;
-    sdo:url <http://www.bildung.digital/> .
+    sdo:url <https://bayernedu.net/> .
 
-<d2ae08bf-35ba-40ae-b0f9-8f1358b4baf0> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.edugroup.at/> .
-
-<d310c2ae-c40c-4554-a7f5-f5d052906834> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Akademie für Lerncoaching"@de ;
-    sdo:url <https://www.youtube.com/channel/UCKjJ1nCoMFTHzQlUtHHBBsw> .
-
-<d3cd841a-f56b-4ade-9b03-4ab42357858f> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.talention.de/> .
-
-<d619dfa0-9ec1-44c9-a15f-2b40624a804d> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "MrWissen2go Geschichte"@de ;
-    sdo:url <https://www.youtube.com/channel/UCsVWpmoRsNAWZb59b6Pt9Kg/featured> .
-
-<d791aee4-94fc-4447-8601-3557b68dccbb> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.ardaudiothek.de> .
-
-<d83b67a8-cb7d-4f1a-b20a-56bb6d2986c4> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://edulabs.de/> .
-
-<d9516e07-2cd9-4498-8252-5445c474bd04> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "CrashCourse  "@de ;
-    sdo:url <https://www.youtube.com/channel/UCRFIPG2u1DxKLNuE3y2SjHA> .
-
-<d99fdb40-9849-48fc-a046-35308dc094ec> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.todoele.net/> .
-
-<ddfde609-727e-4bbd-b132-51c5a8c9e822> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Dinge erklärt - Kurzgesagt"@de ;
-    sdo:url <https://www.youtube.com/channel/UCwRH985XgMYXQ6NxXDo8npw> .
-
-<e1d6e088-ede1-430d-8572-6bcedf8bde24> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.mobilesport.ch/de/> .
-
-<e311877b-5e2b-41c2-b5df-a3acf8d14617> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.studycheck.de/> .
-
-<e34bf3dc-7e9a-4bfa-97bd-e758ba3ebc95> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.ailmadrid.com/en/> .
-
-<e3747c8b-a985-4fb0-848c-b4a6bfd6861c> a skos:Concept ;
-    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Chemie und Bio in der Schule"@de ;
-    sdo:url <https://www.youtube.com/channel/UCFSS2FtaFNKMei4jGQOVL3w> .
-
-<e4a14567-d05b-4943-9d5a-52d78f188d44> a skos:Concept ;
+<d422a3c9-1b62-46a5-be7a-7c42a72f530e> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
     skos:prefLabel "musstewissen Physik"@de ;
     sdo:url <https://www.youtube.com/channel/UC9RSWjfMU3qMixhigyHjEgw/featured> .
 
-<e5b09299-3098-4af7-adeb-8c7157b26af0> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://routenplaner-digitale-bildung.de/> .
-
-<e68873e9-1843-44cb-82dd-dc1b2f3dd715> a skos:Concept ;
+<d43783a3-f841-44a0-a1aa-f5e8aef6a1bd> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "brainfaqk"@de ;
-    sdo:url <https://www.youtube.com/channel/UCyHDQ5C6z1NDmJ4g6SerW8g/featured> .
+    skos:prefLabel "Primartorium"@de ;
+    sdo:url <https://www.youtube.com/channel/UCO7ksLK-11tVxalfPKf7BTQ/featured> .
+
+<d48bde47-e820-49bc-91e5-6b4167226ba2> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "MrWissen2go"@de ;
+    sdo:url <https://www.youtube.com/channel/UCZHpIFMfoJJ_1QxNGLJTzyA/featured> .
+
+<d4f657a9-38df-4de4-aefb-e67c66d563f4> a skos:Concept ;
+    skos:prefLabel "Herrlabrig"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://herrlarbig.de/> .
+
+<d6022b0b-1617-4629-985e-9ba31a4d3749> a skos:Concept ;
+    skos:prefLabel "StepStone"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.stepstone.de/e-recruiting/podcast/> .
+
+<d88d40dc-627d-4f05-bdd7-286cf735ed5a> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Breaking Lab"@de ;
+    sdo:url <https://www.youtube.com/channel/UCE2hJ9CYR57BYhk3TjGVG6w/featured> .
+
+<d935cda6-b577-438a-af5b-640c05702719> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Deutsch lernen mit der DW"@de ;
+    sdo:url <https://www.youtube.com/channel/UCxUWIEL-USsiPak0Qy6_vVg/featured> .
+
+<e0c56a2b-a519-48db-924c-33b2dee5ecbf> a skos:Concept ;
+    skos:prefLabel "LEIFIchemie"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.leifichemie.de/> .
+
+<e33b9705-e069-45dd-8f25-2b45f487c9cf> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Akademie für Lerncoaching"@de ;
+    sdo:url <https://www.youtube.com/channel/UCKjJ1nCoMFTHzQlUtHHBBsw> .
+
+<e46f1d43-d795-49b6-b46a-b3da3b67bbbb> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Educational Robotics"@de ;
+    sdo:url <https://www.youtube.com/channel/UC7mZyCH5ppdYdJrHuxjJtkw/featured> .
+
+<e5eeffc3-8470-4365-92d4-a5ba1a5578ac> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Chemie Experimente"@de ;
+    sdo:url <https://www.youtube.com/channel/UCiK7vUKWvTTn0Mt2Dx5cn4Q/featured> .
+
+<e614b4df-49a1-44fb-8fa2-dd3d72ce794b> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Der Kunstklärer"@de ;
+    sdo:url <https://www.youtube.com/channel/UCFt8Sh8cbg-K5hZs3hhKbmA/featured> .
+
+<e78f12e5-40a2-4ab8-9a58-c582a1aa2fa2> a skos:Concept ;
+    skos:prefLabel "Lebensnaher Chemieunterricht (LNCU)"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.lncu.de/> .
+
+<e997a272-71c8-4636-84a0-550cc90135a8> a skos:Concept ;
+    skos:prefLabel "Rat für deutsche Rechtschreibung"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.rechtschreibrat.com/> .
 
 <e9e95fa0-af34-437a-a60f-c8c91fd55860> a skos:Concept ;
     skos:notation "oai_sodis_spider"^^xsd:string ;
@@ -1052,33 +1103,44 @@
     skos:topConceptOf <> ;
     sdo:url <https://sodis.de/cp/> .
 
-<eacee60e-e418-497e-84ac-eaa92b41e010> a skos:Concept ;
+<eba03f18-7c1f-434f-9e8f-76bf17286c21> a skos:Concept ;
+    skos:prefLabel "Johannes Gutenberg Universität Mainz"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.spanishunicorn.com/> .
+    sdo:url <https://video.uni-mainz.de/> .
 
-<ebd09169-7865-49c1-ad75-86a1701cf071> a skos:Concept ;
+<ec923c57-2ac3-4245-8cc1-30fe8c5216e3> a skos:Concept ;
+    skos:prefLabel "ZUM - Apps"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.prosieben.de/tv/galileo> .
+    sdo:url <https://apps.zum.de> .
 
-<ebf61e7a-ee5e-490e-b19b-beff1591fce4> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://www.sportunterricht.ch/> .
-
-<ed3dce96-36dd-4f81-b25b-22b605a5152a> a skos:Concept ;
+<ed919645-0d62-47d2-9463-c1f1eed96cf9> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Der Erste Weltkrieg"@de ;
-    sdo:url <https://www.youtube.com/channel/UCYFALneN2AnPt3ZUMYmBZAA/featured> .
+    skos:prefLabel "Frau Schimpf"@de ;
+    sdo:url <https://www.youtube.com/channel/UCPAfRcqYTpbQxC-i9C6HK_g> .
 
-<ed8734d2-7924-4501-a7ad-d7cda3055054> a skos:Concept ;
-    skos:topConceptOf <> ;
-    sdo:url <https://fv-philosophie.de> .
-
-<f120e368-8495-4cda-bf82-cc6dd5174fa8> a skos:Concept ;
+<ee052568-24c9-4d87-aa7a-3fd80b1392c7> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Breaking Lab"@de ;
-    sdo:url <https://www.youtube.com/channel/UCE2hJ9CYR57BYhk3TjGVG6w/featured> .
+    skos:prefLabel "Kunstmuseum Wolfsburg"@de ;
+    sdo:url <https://www.youtube.com/channel/UC9qz57b7zwZ42IfTYwM2xNA/featured> .
+
+<efaec4c8-4838-445f-9cfc-ce121c67e458> a skos:Concept ;
+    skos:prefLabel "Universität Leipzig"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.uni-leipzig.de/> .
+
+<f03120a6-d902-4df9-9cb0-d7925fc18b9c> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Chemie - simpleclub"@de ;
+    sdo:url <https://www.youtube.com/channel/UCWNvo3l-K-X6CPSBcP9NCNg> .
+
+<f0a70879-e16c-4904-a3b1-9410feb290f5> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Lehrerschmidt "@de ;
+    sdo:url <https://www.youtube.com/channel/UCy0FxMgGUlRnkxCoNZUNRQQ/featured> .
 
 <f49b5e5c-429a-41b5-b438-5c8b1da2ab90> a skos:Concept ;
     skos:notation "br_rss_spider"^^xsd:string ;
@@ -1086,15 +1148,32 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.br.de/index.html> .
 
-<f5fa701a-93a3-499e-8084-2ec5c2279a43> a skos:Concept ;
+<f4e7685b-e0fb-40f2-b28d-f4f93bd5a499> a skos:Concept ;
     skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
     skos:inScheme <> ;
-    skos:prefLabel "Arizona State University"@de ;
-    sdo:url <https://www.youtube.com/playlist?list=PLNrrxHpJhC8mNXjrAL3Ey1Q6iI35cymzl> .
+    skos:prefLabel "seguGeschichte"@de ;
+    sdo:url <https://www.youtube.com/channel/UCV9AcuxBK-W3ejgsDm35W1w/feed> .
 
-<f883be29-e388-445c-99e2-de6bd5035320> a skos:Concept ;
+<f713ca48-a3ab-41cb-80f2-616a1586641d> a skos:Concept ;
+    skos:prefLabel "Charta der Vielfalt"@de ;
     skos:topConceptOf <> ;
-    sdo:url <https://www.uni-due.de/> .
+    sdo:url <https://www.charta-der-vielfalt.de/> .
+
+<f8ed302e-2e20-476e-8590-01150ae5ebe8> a skos:Concept ;
+    skos:prefLabel "Qualitätsmanagement System für Schulen (QMS)"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.qms.at/> .
+
+<f912d15a-59c9-4239-bcd7-03e7f37ba3ef> a skos:Concept ;
+    skos:prefLabel "Landesbildungsserver Baden-Württemberg"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.schule-bw.de/> .
+
+<f97dfbf0-6860-4ca0-b988-b83edde675ba> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "Der Erste Weltkrieg"@de ;
+    sdo:url <https://www.youtube.com/channel/UCYFALneN2AnPt3ZUMYmBZAA/featured> .
 
 <f9c3b75e-5845-4a0b-8708-da98083351e6> a skos:Concept ;
     skos:notation "rpi_virtuell_spider"^^xsd:string ;
@@ -1102,93 +1181,110 @@
     skos:topConceptOf <> ;
     sdo:url <http://www.rpi-virtuell.de/> .
 
+<fe0bd244-4d6e-48ea-9602-4cc20dc7cc29> a skos:Concept ;
+    skos:prefLabel "Moodle Bande"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <-> .
+
+<ffb692fb-5f79-4093-b249-ec3d3817da4e> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "100 Sekunden Physik"@de ;
+    sdo:url <https://www.youtube.com/channel/UCEJDM_70A2EiRqZ41l6bZlg/featured> .
+
+<ffd88a83-1009-4160-b03f-45171ed6b4da> a skos:Concept ;
+    skos:broader <f5da1c8f-094a-4914-a9a6-4fb123d598c5> ;
+    skos:inScheme <> ;
+    skos:prefLabel "SciShow   "@de ;
+    sdo:url <https://www.youtube.com/channel/UCrMePiHCWG4Vwqv3t7W9EFg> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
-    skos:narrower <0184fbe2-0844-4566-a72b-27c749fd628f>,
-        <0219f038-36e7-477d-acbd-ed1e65478ab2>,
-        <0233befe-ee27-4cbc-8e94-01852b2fd302>,
-        <0457cf8f-acac-4c1b-b904-a5d8e4f5ef6e>,
-        <0683747b-d18d-4c8b-9915-4244977368c4>,
-        <0a006fc0-4450-4bf0-bd0f-4afb2a6a500b>,
-        <0c97ad6d-7e9a-4acf-ae58-da7bbae39647>,
-        <0d445084-de22-4285-a3c0-baf52d4f105c>,
-        <12221b45-55ed-4a60-955d-707111e02753>,
-        <145c66a4-fbf4-40ee-ad59-5008b1acc80d>,
-        <17e836fe-de81-455f-b582-7e0c14367ad0>,
-        <1a2e88b7-25c2-4044-beaa-52b8ca49345f>,
-        <1d5ce7cc-cac4-46e2-88ac-63904f52f32d>,
-        <1daf2328-5b79-4674-8cfb-8f70bbd04787>,
-        <20113492-12db-43a7-b97c-e556140bc9e3>,
-        <221463dd-4307-4756-bcc0-7440f429bd6f>,
-        <23b4b3bf-526b-4113-a5e7-6868b84056fb>,
-        <24a28da3-7975-4b17-83c8-bfa542d77636>,
-        <2a9189a1-810a-4608-88e8-9e8ff6e95bfa>,
-        <2df1a274-3b73-46ab-9fda-10ffc99c2224>,
-        <2f7d4e27-6d08-4255-8bb8-93190ee14136>,
-        <3069374e-1444-4c23-a376-c440e9031f79>,
-        <30f758b8-93d3-46c1-8601-f62f275c46cd>,
-        <335f8a75-de1b-45fd-84db-aa8257fd36ba>,
-        <3404cf38-2ba2-4eee-9d9a-7632f5f5e959>,
-        <39f3993e-3a7a-437a-ac0f-66643a017c87>,
-        <3b37e1b2-a57d-40a1-a2f0-dceceee8f74f>,
-        <3bfa300b-682b-407d-a575-47950ba45f10>,
-        <3da3a537-fc3f-42b7-9f15-22a0f9419089>,
-        <430ab30d-baa6-453a-a5f8-8569d763748a>,
-        <495f0da3-9fa3-4399-9df1-99ba65ea0190>,
-        <4da9838b-238b-4ce0-9953-5a168b61c283>,
-        <4dfeab40-f38e-4da9-9ec6-11ca2bbac4e2>,
-        <53148a21-d4fa-4d87-9f8c-1b9c9f4a26fe>,
-        <5753528d-5581-4e04-ae2f-2ec9da557777>,
-        <57cc7a20-8179-4478-8cfc-20424b41287b>,
-        <5c600956-3685-4e98-80ca-2bb7742ccab6>,
-        <6437de0c-634e-4ad4-9f25-2f3b112c9274>,
-        <64af78b6-6c41-4b19-a37c-e852e672a9ca>,
-        <65088ea1-a3cb-4439-acd8-560d28995e54>,
-        <68103fd5-e17d-41e0-bd29-1793fd5fc98b>,
-        <6e295205-6766-4a70-a341-b8bd0991b96f>,
-        <6f12e286-9330-4aaa-bb59-a478d6db8553>,
-        <727a04c1-7acf-4a6a-9754-9e769f0924b8>,
-        <755cb6ca-6495-4100-b49a-415e368573da>,
-        <76e8a85b-d27c-46fc-be9b-2d4e162a4796>,
-        <77ab5e6c-59c0-40be-b6bd-f42c2cefdb47>,
-        <7c946e4d-c464-4f5f-a10b-fd6b9d158c7f>,
-        <7d441299-812e-413b-b9a9-f8ca727349db>,
-        <810f1a62-75bc-4680-b108-a15d4a0e16e4>,
-        <83b9cc5a-cfd5-40ef-a0a7-4fe5f1f0d984>,
-        <840a843f-118b-4b3b-b70f-8684c779bacb>,
-        <86ee54c3-9ac6-4fa2-a85d-1798607a5068>,
-        <8be99d9e-24c8-4ece-b570-388162add342>,
-        <8f5be899-c512-4478-8a8c-2dfd243ebe48>,
-        <937af476-6fdd-446f-bd02-c997542d8205>,
-        <96b03765-68f6-4d22-a9e5-d338723025a6>,
-        <970a8e4c-26f8-478d-8772-c4d1d78f7123>,
-        <9912bd85-7c29-47fe-9ac6-c73326ec62f2>,
-        <9d06224a-4fa1-4820-9a20-3bf4c6ae31b5>,
-        <9d259128-a664-4498-bdb9-697c4e9dafb4>,
-        <9d5e18ed-7ad9-4ef5-b362-94e5ffb54704>,
-        <a4db30f6-5e62-4e0b-aa5b-cf254a8baf08>,
-        <a6390d0e-9d00-466b-b0bd-94e90b4d6487>,
-        <afdb233e-d527-4916-a562-b4814cccc11d>,
-        <b024c6d7-7878-4eb8-b72c-ce1e5004da65>,
-        <b6ba76b0-10c4-4aa2-beaf-54ec98acf603>,
-        <bf1f3063-c41e-4dd2-834a-f85e3eb321c8>,
-        <c0efa8e6-10a3-4da9-90e4-62829aa500a6>,
-        <c2983377-cb98-4c14-adaa-57e2eb7a5f63>,
-        <c59b68a9-071d-47e9-a218-105e97b30f55>,
-        <cb150bc2-2121-4ef0-8923-d3c0cbfaa28a>,
-        <cb1a3601-cf72-4ddc-abc3-9c0f0c2675c6>,
-        <cbee96e0-4f26-4112-a18b-f77a3bb4b1d2>,
-        <ccee23ad-ef1b-4317-a898-aa9715293011>,
-        <cf6238e4-3962-48bc-a5c3-0288be33020c>,
-        <d310c2ae-c40c-4554-a7f5-f5d052906834>,
-        <d619dfa0-9ec1-44c9-a15f-2b40624a804d>,
-        <d9516e07-2cd9-4498-8252-5445c474bd04>,
-        <ddfde609-727e-4bbd-b132-51c5a8c9e822>,
-        <e3747c8b-a985-4fb0-848c-b4a6bfd6861c>,
-        <e4a14567-d05b-4943-9d5a-52d78f188d44>,
-        <e68873e9-1843-44cb-82dd-dc1b2f3dd715>,
-        <ed3dce96-36dd-4f81-b25b-22b605a5152a>,
-        <f120e368-8495-4cda-bf82-cc6dd5174fa8>,
-        <f5fa701a-93a3-499e-8084-2ec5c2279a43> ;
+    skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
+        <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
+        <10562ca4-ba0e-4fa7-8689-7a05bed7982c>,
+        <10ff8a39-a050-4d9b-9bfb-ac4416ea0045>,
+        <13eece17-d97e-4050-8d45-ed10fc836f34>,
+        <1925fec7-949a-4f6e-a4e6-faad43cf0f08>,
+        <1e082e17-db8b-40f1-a3ab-76971139320a>,
+        <2259db45-0112-46ec-8c0e-331845811ef9>,
+        <30463049-c2ce-4908-94fd-4c2c2a7f1a66>,
+        <30927dc2-1e39-4c7d-9fb5-33fa1250df39>,
+        <319eaf6f-0921-4868-9bdb-8de34449ab2d>,
+        <3350e496-0a9b-4f9d-a9cd-ea2328751838>,
+        <34f77339-1fae-464a-ba0f-b2e781561add>,
+        <3a4066fe-4e76-481c-b3e4-49a3607188cc>,
+        <3ba07860-edd8-48c1-9025-dda0a9d5aa3e>,
+        <3c00120c-59fb-430e-995e-dcbb2abb1b46>,
+        <3cbb2f4d-edaf-4471-955f-ecbaf4a41c00>,
+        <41168d58-6781-485d-baf5-aa6d41c305c1>,
+        <4188a12e-b6a4-4571-bea4-b85aac87aaa3>,
+        <45010f98-4df1-4f4b-bc9f-6636dc1f4f88>,
+        <46c3fd2f-66cc-4218-b583-2c723f3db7c4>,
+        <4bd18b64-b947-4293-bba6-195417b31874>,
+        <4c1116db-aa97-45ff-b3e5-2737c6ff65f0>,
+        <5788b725-7649-4028-abc6-d0f6b032a8f8>,
+        <58205496-9878-4ac8-83b9-f6810ebaf649>,
+        <5d693d03-d52f-4c9e-a2f0-11c08d8f4f3c>,
+        <5e827435-25f6-45c9-a57e-8273455a8841>,
+        <601625b6-951d-4cb3-b3f1-538784f1a4d6>,
+        <66d8cb68-0f02-4181-8e78-6bf09b56eed2>,
+        <696fd4e0-1048-401e-b0de-7efb0049caa4>,
+        <69e62e66-d0c2-4f6d-aede-b484e993e207>,
+        <6f3a762f-5dde-487a-9202-7da8e66eeda2>,
+        <7606bb93-4786-45df-aacf-b11e93379436>,
+        <7617f91a-7a76-4ce1-acc1-cafecb08234e>,
+        <78690635-b859-48b1-8ceb-31a6f36dcfe8>,
+        <7c0e2d19-05d5-466d-ad33-eda111464325>,
+        <7c37e904-0202-469c-934c-ebd0aad2435e>,
+        <8211b3fe-d717-4085-a5be-774086a604dd>,
+        <8795a064-fdc0-42f8-bf7f-0f8a9c81aa31>,
+        <88ce9a67-bacc-4864-89ea-094c1437a6ba>,
+        <8a9af7ba-7f6a-418c-899e-749869c38268>,
+        <8b63d93c-b544-4d0b-8967-fd6e21cc047b>,
+        <8bed26e1-fb5a-4e64-82cf-907338444fe8>,
+        <8c5139ca-1c2d-4d2d-979e-c9bd1dd5e4d6>,
+        <8e2947f8-3acb-4083-ae06-8e4dbd4553ec>,
+        <8e7ca6dc-18ee-4fd7-90ac-1add6814355b>,
+        <9234c5b6-dd4f-477a-8e10-31ec10ef0561>,
+        <92e4f68f-16c7-44be-92ff-94425dc08050>,
+        <952aaeef-aa59-46da-8ea1-145240c158ba>,
+        <977dfbc8-ec19-4618-9bf0-ae96eee5509d>,
+        <98308727-2647-46f6-8536-76ad05974e95>,
+        <99d1bf3f-281e-48ff-a716-2fb237fd0ea9>,
+        <9ce5d4fe-62b8-4547-bb02-107786c1bda9>,
+        <9ea704de-6b7e-4240-a606-52677a076da2>,
+        <9f13a0bc-d9bd-4047-9366-5a0d5daadc24>,
+        <a898c00a-0760-4ade-a8fe-4f04f9b2a8d8>,
+        <adae4285-3998-488e-94cc-b1de5c24d363>,
+        <b861e5f0-b7f7-469f-8d19-6da823448907>,
+        <ba316a74-df12-4b6e-9c66-bf946a4c4570>,
+        <bb1b6f19-4a75-476d-8141-abcf3a1c4aa0>,
+        <c00e429d-8616-4c99-a83e-a1cfad495947>,
+        <c02801c6-3b5d-4f91-ad26-99c21d2b847b>,
+        <c5339375-2b02-4075-a324-a06088e6f54e>,
+        <c7853d3a-dda5-458f-9b33-d0bcd8386414>,
+        <c9a9aee9-bc39-44e7-9874-3918b23dd511>,
+        <cf2731ee-07dc-4080-b7c4-4c54f6f52a8f>,
+        <d027caef-993c-43d8-8ba5-a56d114a33ae>,
+        <d09f0029-8e7c-494a-9f27-6d81a6f647a1>,
+        <d154ec1e-eb9e-48b6-b114-37f00b679e03>,
+        <d422a3c9-1b62-46a5-be7a-7c42a72f530e>,
+        <d43783a3-f841-44a0-a1aa-f5e8aef6a1bd>,
+        <d48bde47-e820-49bc-91e5-6b4167226ba2>,
+        <d88d40dc-627d-4f05-bdd7-286cf735ed5a>,
+        <d935cda6-b577-438a-af5b-640c05702719>,
+        <e33b9705-e069-45dd-8f25-2b45f487c9cf>,
+        <e46f1d43-d795-49b6-b46a-b3da3b67bbbb>,
+        <e5eeffc3-8470-4365-92d4-a5ba1a5578ac>,
+        <e614b4df-49a1-44fb-8fa2-dd3d72ce794b>,
+        <ed919645-0d62-47d2-9463-c1f1eed96cf9>,
+        <ee052568-24c9-4d87-aa7a-3fd80b1392c7>,
+        <f03120a6-d902-4df9-9cb0-d7925fc18b9c>,
+        <f0a70879-e16c-4904-a3b1-9410feb290f5>,
+        <f4e7685b-e0fb-40f2-b28d-f4f93bd5a499>,
+        <f97dfbf0-6860-4ca0-b988-b83edde675ba>,
+        <ffb692fb-5f79-4093-b249-ec3d3817da4e>,
+        <ffd88a83-1009-4160-b03f-45171ed6b4da> ;
     skos:notation "youtube_spider"^^xsd:string ;
     skos:prefLabel "Youtube"@de ;
     skos:topConceptOf <> ;
@@ -1198,134 +1294,134 @@
     dct:creator <https://www.wirlernenonline.de> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:title "Liste von Quellen im Openeduhub"@de ;
-    skos:hasTopConcept <000fb7b6-54de-4ea8-a0df-7acd221ee1fa>,
-        <0075273e-2f04-41e8-98b1-5d03b1683a55>,
-        <033a6101-77fc-4b35-88a2-d7c9f262192f>,
-        <05fd66c9-b1ec-49c5-8c9c-be55cb6107a8>,
-        <07781164-0d02-401c-9ce7-43b1823effaa>,
-        <0a9c33aa-9750-44c3-b599-d8d4d80b27e3>,
+    skos:hasTopConcept <003d68a3-1417-44eb-809c-dada652cbb05>,
+        <00cdf271-2616-43ee-bca7-73fe71dc8d33>,
+        <01552276-8943-4f57-93ec-0cac1370f579>,
+        <01d8c1c2-df2a-4af6-b4e5-bce4307f1551>,
+        <0221387a-347e-4c47-824b-6a2fc1e8049c>,
+        <0349750a-8c78-41e8-937c-97c2edf2ba00>,
+        <03eb1124-8506-415e-9ebe-c84f4a1e5306>,
+        <04becbf9-0f72-4c86-8b83-943d49939b72>,
+        <062ced52-8be3-412d-972b-d306a3cf3d73>,
+        <0a0030fb-aaba-4471-8ffb-8595a32568a8>,
         <0abd53e8-0ef4-40bc-b8bf-77bf982e2e87>,
-        <0b56bbe8-60ec-410f-a812-cda3de33dfed>,
         <0cca74f3-cc7a-4f93-9ef9-0e12f42324a5>,
-        <0f2ac330-fd23-4384-9c91-9950a1c0babc>,
+        <0ec70d4d-d1f3-4dba-8dda-d0ca9fa8c05f>,
         <10940dc6-b5e3-4d20-a8ef-04f10cc13a56>,
-        <1120e174-17d3-4cf1-b99c-7ec38d9c6aac>,
+        <113ae39a-4d67-40b1-a9e4-afe9f747cb52>,
+        <12fd83e6-fa37-48a2-8493-9e7044ca0352>,
         <13781e3f-77a0-44dd-a688-5cb2a42ea57c>,
-        <14a26a66-3b8c-48e5-a4ca-1086a9f00dca>,
+        <1665a098-55ce-46a3-a2e7-3555f84bf835>,
+        <179e9875-bccf-40f2-ad15-29cf6d6060d9>,
+        <17eb7d5e-b510-4d9c-bb1b-5a004b132ac1>,
+        <19ab26a4-49d4-458b-9f3d-67a88086b72d>,
         <19f7e0c3-6e49-4d8d-af11-5ab49677867c>,
-        <1bce111b-6625-457a-9513-78d473e219c0>,
-        <20cf0a7f-3aad-499d-ab71-86b81b3465a5>,
+        <1be1b3e8-8741-4f3d-bd56-f7f5866e37d4>,
+        <1fe6f87f-c49b-4814-a52b-6b80168c4204>,
         <21c70ee4-de10-4045-9e54-55c5bd871c4d>,
         <24be14de-dc3d-4b40-8635-6ca853aac5c8>,
-        <24f400eb-fcb8-4ce8-9211-9fadc1739622>,
-        <255e53a3-33dc-4fdc-a106-73c0d3c44810>,
-        <268578ed-ee70-4577-9d69-cb22d00b26db>,
-        <28fd370e-51bc-4ac5-8213-dd16a47ab111>,
-        <29ddddfb-1c0a-4849-aedc-775bacec5935>,
-        <2ac0d7d5-c914-4a33-8930-f915ef3a37e8>,
-        <2e48cac0-6392-40f3-9491-bb529846fa0a>,
-        <2e88a68f-a968-465c-9e2a-ac20f6bbccb8>,
+        <25890b31-c87e-4ece-a18a-fabe35e94a58>,
+        <2746f85d-cf48-454a-a034-ae5200e4a86e>,
+        <281b46ab-624b-41be-8021-79c46a3abe4e>,
+        <2d426963-9661-4275-b397-94b4530f3d9d>,
         <2ebeaf42-c2e5-4c38-be59-3b132e3aeeb7>,
-        <2ec87170-86f1-4917-a2ce-f90b88136a33>,
         <2f2ca292-3340-4bf8-bf3d-9412908d2a09>,
-        <314ae451-0cf2-4211-b76b-8ec8d2f1204d>,
-        <328a1f5d-4c1e-41b7-be2d-26c2100b248d>,
+        <3238d412-ae55-426c-bbbd-d597b0c31aa0>,
+        <3379de5d-dfc4-48ba-89fa-11a2d453957e>,
+        <34a7f725-7115-4947-b29e-11dd8837340d>,
+        <36856885-6fa6-4fd2-8062-3442dc3e8778>,
+        <37812604-c236-4ef2-9eb8-a349415f78df>,
         <385ac43b-3b16-4bab-a3a4-ca2545aa4cce>,
-        <38fbf941-794a-4718-8e31-31dc4f676241>,
         <3b083a1d-3205-4850-95ed-9ee0a62dc6ef>,
-        <3fc5e042-25b0-4b0b-aa19-49d932de6126>,
+        <3c2bf930-cf7a-4604-8fb8-7c79da704ee0>,
         <3fdd4b6c-c9a3-4967-9a75-77e3f7fdcc20>,
-        <428132af-ada7-4785-9cfb-3be921eef540>,
-        <42d4b012-0097-4f47-8582-8698e49b438a>,
+        <41280d5f-7065-478e-ab34-a56c24e6a3cc>,
+        <41771b6c-12ab-4e07-9f96-0322a68aec4d>,
         <42ea10fa-2000-4c6f-8f1f-c57ae1bc1525>,
         <432c9be5-eabd-4f50-9359-0a6afbc2e0d8>,
-        <44deabe6-62c7-49aa-a8a8-b2392c7efb29>,
-        <450ed080-7b94-4e63-8585-915264cedc6c>,
-        <47296f1b-b1f9-418e-aa1c-d80aadfc316d>,
-        <4b81726f-ff29-41b8-9da9-2286a74748ec>,
-        <4e4f79ca-fd67-4b87-b83a-ad9b61f8a647>,
-        <4f892656-7dc3-4eaf-8886-e905c85e0c7d>,
+        <44560992-11ad-4e9e-9c64-8430d21c9e50>,
+        <452af93f-e392-48db-86b3-8938746f2a35>,
+        <454d8b5c-127c-4ea3-944c-a1763c524444>,
+        <4c92c565-19db-41e9-a1f9-0afbe6f4069b>,
+        <4d1a14e8-cf3b-4f55-8ae4-d69fddca5b11>,
+        <4f8fc9d0-03d4-4e75-b5bb-c9151665920f>,
+        <513bc514-8901-4821-b365-57e31349c500>,
+        <5661c16e-50c2-4c53-a350-c23a2c54fcba>,
+        <57dde5e2-709f-4114-8fe7-f61afc0071ab>,
         <57eb5a26-a73a-421b-8e66-eaa8500dd6d5>,
-        <5c9b94fd-6216-4b0e-b9b0-6e5452e18f36>,
-        <5d1be660-5c5e-4674-a661-d6521395058e>,
         <5da75aca-f8f0-4114-af33-6fddf62c7245>,
-        <5fe44b8e-3c95-4a43-a1e4-dab08060e2fd>,
-        <5ff70030-9207-428c-a86b-28e12f6346a4>,
-        <605deb07-4517-48d9-b1db-b1fd66ef5d2a>,
-        <612cae74-a4b4-4733-9400-ac3cdae8b501>,
-        <6248a85a-f2fd-41ad-8a6c-3dcff6800c8c>,
-        <639c3ce6-834e-4679-97d5-22f747af3121>,
-        <64296098-0416-490d-8d7d-662cbe320926>,
-        <64747198-fc4a-45d8-9d18-95348e14e253>,
-        <66de8f27-dd02-4312-b612-dabc181306c3>,
-        <68d1ce8d-52e6-4101-8466-83b7538cb14f>,
-        <6a9ec7d9-ee8b-4ea7-a8ee-89098f1c71f1>,
-        <6f6ba19e-4d46-48ba-a249-c8b922db6b71>,
-        <70558d8b-6a73-4db5-a7ad-2f490e0a8f51>,
-        <7414b6bb-8639-48c4-8f2a-6f63e3c22acc>,
-        <755670bd-7653-4c23-a2b0-af1891507dff>,
+        <5f41781f-503b-4e3f-b5b7-5f127980f447>,
+        <616284a9-bc67-42f9-8b7f-4a02ddc60270>,
+        <67088b6c-5d29-4c24-b373-b15ebf002326>,
+        <6f3bd254-a6c5-40c6-9c5b-75d216283e48>,
+        <72b1d4cc-60f3-4d52-a5b4-ec2bdfceba1a>,
+        <747cf7a8-67dd-407c-ab3d-8c8d6751c6d2>,
+        <75b57944-52c4-4f98-8cd0-da74ed946ab4>,
+        <76526a53-68d2-4402-be04-c4f09dbe2470>,
+        <77ba3313-6fbd-4b77-9644-ac69e6b6ecf8>,
+        <78ac0b5a-aacb-4771-8682-741885a76cac>,
         <78efeac9-340a-400b-8bc7-3b9bb0a2178a>,
         <7c0a64d5-a736-4a06-bdcd-43717eedb87c>,
         <7c988a60-3cb8-48df-8b11-93ea043997a4>,
-        <7cb7cefe-dd80-43e6-9f6e-f6f773aeee06>,
         <7d22f062-1718-4f8d-b2c0-32751bc6f24c>,
         <808e5f3f-0635-4d86-a3aa-47297cb2fa92>,
-        <81d1d670-7c43-4ab3-91e6-0677806c8834>,
-        <82a20a7a-5a1c-4ba7-9efd-d8650b0a9efe>,
-        <84e155ed-4b4a-4430-8225-e5f0ca629ca5>,
+        <812b1b89-3c57-4081-8ab8-760f2ac29e8a>,
+        <81eda5a2-eaf5-4959-8f80-e7209b226206>,
         <85399c78-bd24-4f4c-94f7-49689a7799b3>,
         <86cf251d-2b20-459c-aa90-cdef38a684f1>,
-        <8a0ecb0b-e2d3-493c-833f-7d486969e473>,
-        <8eda6e15-6173-461b-8fa4-71c23f4d93cc>,
-        <91841b1c-624c-47c2-85c9-51f960e2a1f4>,
-        <91ccb57f-494b-4f28-b09f-8620439f916d>,
+        <8a3b7252-9a66-4f9d-94fe-8b8c39e004cd>,
+        <8caa8833-5589-45a7-b31f-f3f9ff809e8a>,
+        <8e9a3ce6-2a1a-4961-b281-e5f4b740ce96>,
+        <90eec559-3020-41b0-a4f1-3b9d485318f5>,
         <9338dc1b-705a-45a5-aa31-c84efe62e95c>,
-        <96051546-a7f2-4a7a-8782-4bcba5e831cf>,
-        <9734f267-2cdc-499c-ad81-1afbbc5fe619>,
         <993c409c-b1f8-406d-9b93-d5b573f537c3>,
         <9AC8B0BD-4C71-49D1-8280-F428864AA24D>,
-        <9ab10557-7e22-429e-94a9-bf38ad579169>,
-        <9ab70190-01a8-4dfb-a9ce-59afe0cfa8ac>,
         <9ac89a88-d426-403e-bb5b-df1652789960>,
-        <a519095e-88e6-4e5d-994f-39056983eb99>,
-        <aa751eba-239e-435d-a893-68b34f1f39cc>,
-        <aa7f5475-4d32-44ef-afa2-e68952a0412c>,
-        <abaab5d1-a838-4260-809d-720ef73e976e>,
-        <ac93b038-0ef4-4ac9-8c29-6edcae76cf5e>,
-        <b0acd1ec-7323-4980-a423-a97efd6280c8>,
-        <b0ee58fe-81bf-4eb8-8131-510761c8159e>,
-        <b17bf8b0-9f9c-46c1-86dc-7c25f8db092e>,
-        <b67205a9-1c30-4fbc-859f-5841f9c5eacc>,
-        <b6b572a6-a30b-4e04-bbc2-3758aca2ddc6>,
-        <b7649853-3726-4c3e-a1c4-be585fb86f91>,
+        <9d1f6bf6-bae1-43eb-9366-925da4fe1d55>,
+        <a1839df0-c0e5-4516-b7b5-6a31ec43897b>,
+        <a309da33-0dfa-4e2a-bb4e-cb3f10961efc>,
+        <a31b4c10-4247-4885-becb-0e7b54cf5398>,
+        <a32dc2d3-9dca-4188-8159-79c5ed7d5084>,
+        <a631fa44-7df1-4db1-a28b-ecbd8488bae2>,
+        <a77f686a-473e-45dd-97e9-164aa8716326>,
+        <a8f471c3-032a-404f-a090-cbb48144eb28>,
+        <abdba320-0e1c-4812-a10b-e5462cc38f61>,
+        <acc3594b-85bf-4d99-83bf-a274cb46aea4>,
+        <ad639d01-294b-447d-b506-5a8fa8023bc1>,
+        <af925382-a783-4258-aefc-71ac2d6c63ea>,
+        <b043a8cf-e7e4-4e41-b7de-99d6f325fc3f>,
+        <b0b40e34-bbb3-4396-9bbc-c1f5340ff885>,
+        <b0ca64ed-924d-45f5-9b73-6aa1f7917235>,
+        <b1e22022-da91-4aa0-bfc1-871de6005c07>,
+        <b224f84d-52b5-4444-a743-1edfbfb3d3da>,
+        <b733fd1b-0ccb-4dce-8c9a-169ca7f4bc1e>,
         <b7f06ad9-3855-4900-a3c1-25b992ec04d6>,
-        <bc1f8ff7-1c79-4f6e-85cc-3e7813d89820>,
-        <bc3f3b5c-eba8-4385-88bb-58c22dee94fb>,
+        <b8e7647f-5863-413a-94af-8df54b67cad8>,
+        <ba853330-c19c-4cbd-979a-0bca629d9b52>,
+        <bda7865d-771d-4dee-a28f-00e2f262dfa7>,
+        <be09c877-5ced-48ff-b40d-1578fe09521f>,
         <be6522d7-08c8-4d6e-9e32-423da2faf706>,
-        <c0074743-40ea-49f6-844e-94f5cfed5a16>,
-        <c0cd0802-1e4d-442b-a377-b994bfbe25e5>,
         <c29d7aa9-9602-49ab-af74-c88042598c1a>,
-        <c33ee25e-e554-4806-9258-dc5621f6d9ca>,
-        <c8ada60f-baf2-45c4-a3fe-bc08bf1a1872>,
-        <cb41f115-0627-4ca7-b513-dc03043cf12b>,
-        <cd81ecfb-6982-447f-9acd-a9969136b35b>,
-        <d0ad4a74-4c77-4ea3-a45f-a9954df4d0b5>,
-        <d2ae08bf-35ba-40ae-b0f9-8f1358b4baf0>,
-        <d3cd841a-f56b-4ade-9b03-4ab42357858f>,
-        <d791aee4-94fc-4447-8601-3557b68dccbb>,
-        <d83b67a8-cb7d-4f1a-b20a-56bb6d2986c4>,
-        <d99fdb40-9849-48fc-a046-35308dc094ec>,
-        <e1d6e088-ede1-430d-8572-6bcedf8bde24>,
-        <e311877b-5e2b-41c2-b5df-a3acf8d14617>,
-        <e34bf3dc-7e9a-4bfa-97bd-e758ba3ebc95>,
-        <e5b09299-3098-4af7-adeb-8c7157b26af0>,
+        <c343f92f-b0b7-4bc9-8ca4-45d61495eebd>,
+        <c9032778-1406-4499-9c1b-6b93f113da3d>,
+        <c93c4b53-9995-495e-baba-4b9c7d565a9a>,
+        <d08fae99-82f6-4140-adfb-3a62b4969f1c>,
+        <d0e64701-2024-433b-a01e-5165882ef02f>,
+        <d2e5c825-4645-4d14-b33d-524b8d24621f>,
+        <d4f657a9-38df-4de4-aefb-e67c66d563f4>,
+        <d6022b0b-1617-4629-985e-9ba31a4d3749>,
+        <e0c56a2b-a519-48db-924c-33b2dee5ecbf>,
+        <e78f12e5-40a2-4ab8-9a58-c582a1aa2fa2>,
+        <e997a272-71c8-4636-84a0-550cc90135a8>,
         <e9e95fa0-af34-437a-a60f-c8c91fd55860>,
-        <eacee60e-e418-497e-84ac-eaa92b41e010>,
-        <ebd09169-7865-49c1-ad75-86a1701cf071>,
-        <ebf61e7a-ee5e-490e-b19b-beff1591fce4>,
-        <ed8734d2-7924-4501-a7ad-d7cda3055054>,
+        <eba03f18-7c1f-434f-9e8f-76bf17286c21>,
+        <ec923c57-2ac3-4245-8cc1-30fe8c5216e3>,
+        <efaec4c8-4838-445f-9cfc-ce121c67e458>,
         <f49b5e5c-429a-41b5-b438-5c8b1da2ab90>,
         <f5da1c8f-094a-4914-a9a6-4fb123d598c5>,
-        <f883be29-e388-445c-99e2-de6bd5035320>,
-        <f9c3b75e-5845-4a0b-8708-da98083351e6> .
+        <f713ca48-a3ab-41cb-80f2-616a1586641d>,
+        <f8ed302e-2e20-476e-8590-01150ae5ebe8>,
+        <f912d15a-59c9-4239-bcd7-03e7f37ba3ef>,
+        <f9c3b75e-5845-4a0b-8708-da98083351e6>,
+        <fe0bd244-4d6e-48ea-9602-4cc20dc7cc29> .
 
