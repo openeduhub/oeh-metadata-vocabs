@@ -868,11 +868,6 @@
     skos:topConceptOf <> ;
     sdo:url <http://www.sportpaedagogik-online.de/> .
 
-<b224f84d-52b5-4444-a743-1edfbfb3d3da> a skos:Concept ;
-    skos:prefLabel "Schule im Aufbruch"@de ;
-    skos:topConceptOf <> ;
-    sdo:url <https://schule-im-aufbruch.de/> .
-
 <b733fd1b-0ccb-4dce-8c9a-169ca7f4bc1e> a skos:Concept ;
     skos:prefLabel "Whatchado Education"@de ;
     skos:topConceptOf <> ;
@@ -1216,12 +1211,6 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.schulportal-thueringen.de/> .
 
-<3ad7a3ed-6ee5-4594-8b1c-2b6939fe6dd9> a skos:Concept ;
-    skos:notation "schule_im_aufbruch_spider"^^xsd:string ;
-    skos:prefLabel "Schule im Aufbruch"@de ;
-    skos:topConceptOf <> ;
-    sdo:url <https://schule-im-aufbruch.de> .
-
 <9a965778-aea7-4e8d-a846-e81aa564bfd5> a skos:Concept ;
     skos:notation "zum_mathe_apps_spider"^^xsd:string ;
     skos:prefLabel "ZUM Mathe Apps"@de ;
@@ -1429,7 +1418,6 @@
         <b0b40e34-bbb3-4396-9bbc-c1f5340ff885>,
         <b0ca64ed-924d-45f5-9b73-6aa1f7917235>,
         <b1e22022-da91-4aa0-bfc1-871de6005c07>,
-        <b224f84d-52b5-4444-a743-1edfbfb3d3da>,
         <b733fd1b-0ccb-4dce-8c9a-169ca7f4bc1e>,
         <b7f06ad9-3855-4900-a3c1-25b992ec04d6>,
         <b8e7647f-5863-413a-94af-8df54b67cad8>,
@@ -1463,7 +1451,6 @@
         <31b18e77-657e-4d9b-b8ce-10168f0979ff>,
         <b25abeb5-d594-45d8-b7e5-518e81a8f6e5>,
         <32c3ba3b-5243-40d2-a305-696f5bd1d9df>,
-        <3ad7a3ed-6ee5-4594-8b1c-2b6939fe6dd9>,
         <9a965778-aea7-4e8d-a846-e81aa564bfd5>,
         <49174af1-e864-41a4-8eda-c5e6de7fed33> .
 
