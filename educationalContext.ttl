@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix isced97: <https://w3id.org/isced/1997/> .
 @prefix isced2011: <https://w3id.org/isced/2011/> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
 
@@ -23,6 +24,7 @@
     skos:altLabel "Elementarstufe"@de ;
     skos:prefLabel "elementary level"@en ;
     skos:altLabel "elementary school"@en ;
+    skos:narrowMatch isced97:level0 ;
     skos:exactMatch isced2011:level0 ;
     skos:exactMatch eduLevel:level_0 ;
     skos:topConceptOf <> .
@@ -32,6 +34,7 @@
     skos:prefLabel "primary school"@en ;
     skos:altLabel "elementary school"@en ;
     skos:altLabel "Grundschule"@de ;
+    skos:exactMatch isced97:level1 ;
     skos:exactMatch isced2011:level1 ;
     skos:exactMatch eduLevel:level_1 ;
     skos:topConceptOf <> .
@@ -41,6 +44,7 @@
     skos:prefLabel "Secondary I"@en ;
     skos:altLabel "Sekundarstufe 1"@de ;
     skos:altLabel "lower secondary school"@en ;
+    skos:exactMatch isced97:level2 ;
     skos:exactMatch isced2011:level2 ;
     skos:exactMatch eduLevel:level_2 ;
     skos:topConceptOf <> .
@@ -50,6 +54,7 @@
     skos:prefLabel "Secondary II"@en ;
     skos:altLabel "Sekundarstufe 2"@de ;
     skos:altLabel "upper secondary school"@en ;
+    skos:exactMatch isced97:level3 ;
     skos:exactMatch isced2011:level3 ;
     skos:exactMatch eduLevel:level_3 ;
     skos:topConceptOf <> .
@@ -60,6 +65,8 @@
     skos:narrowMatch eduLevel:level_6 ;
     skos:narrowMatch eduLevel:level_7 ;
     skos:narrowMatch eduLevel:level_8 ;
+    skos:narrowMatch isced97:level5 ;
+    skos:narrowMatch isced97:level6 ;
     skos:narrowMatch isced2011:level6 ;
     skos:narrowMatch isced2011:level7 ;
     skos:narrowMatch isced2011:level8 ;
@@ -68,6 +75,7 @@
 <berufliche_bildung> a skos:Concept ;
     skos:prefLabel "Berufliche Bildung"@de ;
     skos:prefLabel "vocational education"@en ;
+    skos:exactMatch isced97:level4 ;
     skos:closeMatch isced2011:level4 ;
     skos:closeMatch eduLevel:level_4 ;
     skos:topConceptOf <> .
