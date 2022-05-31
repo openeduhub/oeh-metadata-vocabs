@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F353f60f4-5022-4906-b8bf-53573cd4cfb2",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F353f60f4-5022-4906-b8bf-53573cd4cfb2",
   "prefLabel": {
-    "de": "die Philosophien Indiens"
+    "de": "Die Philosophien Indiens"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f11acc66-f302-4ebe-ab1d-e3f2ab691489",
     "prefLabel": {
-      "de": "fernöstliche Philosopien"
+      "de": "Fernöstliche Philosophien"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

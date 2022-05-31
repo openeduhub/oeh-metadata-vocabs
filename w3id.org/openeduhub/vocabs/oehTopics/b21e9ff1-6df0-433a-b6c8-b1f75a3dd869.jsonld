@@ -4,12 +4,29 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fb21e9ff1-6df0-433a-b6c8-b1f75a3dd869",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fb21e9ff1-6df0-433a-b6c8-b1f75a3dd869",
   "prefLabel": {
-    "de": "Bakterien"
+    "de": "Atombau und chemische Bindungen"
   },
+  "definition": {
+    "de": "In dieser Untersammlung finden sich Informationen und Unterrichtsmaterialien zum Aombau und den wichtigsten chemischen Bindungen, die für das Verständnis der Biologie und der biologischen Abläufe wichtig sind."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/17c43ae5-8560-4b5b-8eb4-a649339fe4fd",
+      "prefLabel": {
+        "de": "Grundlagen für chemische Bindungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/884c7999-ce87-4fd9-8a8d-da5207f15ccf",
+      "prefLabel": {
+        "de": "Bindungstypen und -kräfte"
+      }
+    }
+  ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/220f48a8-4b53-4179-919d-7cd238ed567e",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c6e3cdd4-b184-4b3a-a279-3187fca6404c",
     "prefLabel": {
-      "de": "Mikrobiologie und Pilze"
+      "de": "Chemische Begriffe in der Biologie"
     }
   },
   "relatedMatch": [

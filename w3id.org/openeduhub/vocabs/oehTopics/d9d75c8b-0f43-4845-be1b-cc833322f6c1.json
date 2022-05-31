@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd9d75c8b-0f43-4845-be1b-cc833322f6c1",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd9d75c8b-0f43-4845-be1b-cc833322f6c1",
   "prefLabel": {
-    "de": "die Philosophie der Hermeneutik"
+    "de": "Die Philosophie der Hermeneutik"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1fbba233-e176-406f-901f-636e8a99d60f",
     "prefLabel": {
-      "de": "die Philosophie des 20. Jahrhunderts"
+      "de": "Die Philosophie des 20. Jahrhunderts"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

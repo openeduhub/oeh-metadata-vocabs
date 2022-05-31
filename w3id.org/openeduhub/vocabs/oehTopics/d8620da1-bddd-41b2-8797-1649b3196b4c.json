@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Staaten der EU"
   },
+  "definition": {
+    "de": "hier ist das Thema die Mitgliedstaaten der EU sowie das Bruttoinlandsprodukt (BIP) der Europäischen Union"
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7322a839-3fcd-4937-99a0-1860d1b4a858",
     "prefLabel": {
@@ -13,6 +16,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/480"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/700"
     }

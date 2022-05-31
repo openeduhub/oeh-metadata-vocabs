@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff70b82b2-4111-43e3-bcce-b84d712c6b7e",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff70b82b2-4111-43e3-bcce-b84d712c6b7e",
   "prefLabel": {
-    "de": "die Philosophie der Wissenschaft in der Renaissance"
+    "de": "Die Philosophie der Wissenschaft in der Renaissance"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/27b3d6e3-59ba-4554-b597-b81bd1314ed2",
     "prefLabel": {
-      "de": "die Philosophie in der Renaissance"
+      "de": "Die Philosophie in der Renaissance"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

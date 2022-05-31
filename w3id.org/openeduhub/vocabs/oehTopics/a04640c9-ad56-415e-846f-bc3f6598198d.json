@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa04640c9-ad56-415e-846f-bc3f6598198d",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa04640c9-ad56-415e-846f-bc3f6598198d",
   "prefLabel": {
-    "de": "die Philosophie von Marx und Engels"
+    "de": "Die Philosophie von Marx und Engels"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0a6c6dd-5ec4-49bb-b606-3b1a5736de51",
     "prefLabel": {
-      "de": "die Philosophie des 19. Jahrhunderts"
+      "de": "Die Philosophie des 19. Jahrhunderts"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

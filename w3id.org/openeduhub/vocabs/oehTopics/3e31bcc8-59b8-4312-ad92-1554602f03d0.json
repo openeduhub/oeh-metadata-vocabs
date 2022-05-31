@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3e31bcc8-59b8-4312-ad92-1554602f03d0",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3e31bcc8-59b8-4312-ad92-1554602f03d0",
   "prefLabel": {
-    "de": "analytische Philosophie des 20. Jahrhunderts"
+    "de": "Analytische Philosophie des 20. Jahrhunderts"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1fbba233-e176-406f-901f-636e8a99d60f",
     "prefLabel": {
-      "de": "die Philosophie des 20. Jahrhunderts"
+      "de": "Die Philosophie des 20. Jahrhunderts"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

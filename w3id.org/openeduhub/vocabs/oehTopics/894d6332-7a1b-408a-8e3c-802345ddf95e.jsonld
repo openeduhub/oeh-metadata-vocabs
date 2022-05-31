@@ -4,10 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F894d6332-7a1b-408a-8e3c-802345ddf95e",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F894d6332-7a1b-408a-8e3c-802345ddf95e",
   "prefLabel": {
-    "de": "Methodik (Arbeitstechniken / Arbeitsweisen)"
-  },
-  "definition": {
-    "de": "Geographie ist vom Grund her ein sehr methoden- und medienintensives Unterrichtsfach. Gerade die fachspezifischen Methoden machen den Reiz und die Vielfalt des Faches aus. In diesem Bereich findest du verschiedene geographische Methoden und die passenden Materialien dazu."
+    "de": "Methodik & Didaktik"
   },
   "narrower": [
     {
@@ -23,21 +20,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/2fd78cb0-57ce-4cc7-82e1-5f741746deca",
-      "prefLabel": {
-        "de": "Globales Lernen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7f527ba5-37e2-4133-8396-bd32edd3cd1d",
       "prefLabel": {
         "de": "Kartenarbeit und Atlas"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8ac04cec-1754-412d-a6fb-881a36a7bfb5",
-      "prefLabel": {
-        "de": "außerschulisches Lernen"
       }
     },
     {
@@ -59,12 +44,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d3ba8c52-8c7c-4e51-ac60-a3d076141d82",
-      "prefLabel": {
-        "de": "Syndromansatz"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d81e1e8b-6b35-48aa-bca2-33505b9c09ae",
       "prefLabel": {
         "de": "Information gewinnen und auswerten"
@@ -80,7 +59,7 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f1049950-bdda-45f5-9c73-38b51ea66c74",
     "prefLabel": {
-      "de": "Geografie"
+      "de": "Geographie"
     }
   },
   "relatedMatch": [

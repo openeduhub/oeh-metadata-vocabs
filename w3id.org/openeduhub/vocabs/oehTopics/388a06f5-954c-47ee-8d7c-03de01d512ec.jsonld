@@ -4,35 +4,38 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F388a06f5-954c-47ee-8d7c-03de01d512ec",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F388a06f5-954c-47ee-8d7c-03de01d512ec",
   "prefLabel": {
-    "de": "Philsophen des Mittelalter"
+    "de": "Philosophen des Mittelalters"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/64dd5e0d-af8f-422d-a580-979701343a70",
       "prefLabel": {
-        "de": "die Philosophie der Patristik"
+        "de": "Die Philosophie der Patristik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cd184b60-8343-43b6-afc9-18c2e8e554dd",
       "prefLabel": {
-        "de": "die Philosophie von Dante"
+        "de": "Die Philosophie von Dante"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f6068eca-71a3-4a64-a7d8-149a7e6dd671",
       "prefLabel": {
-        "de": "die Philosophie der Scholastik"
+        "de": "Die Philosophie der Scholastik"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
     "prefLabel": {
-      "de": "Kerngedanken und Orginalwerke einzelner Philosophen"
+      "de": "Kerngedanken und Originalwerke einzelner Philosophen"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

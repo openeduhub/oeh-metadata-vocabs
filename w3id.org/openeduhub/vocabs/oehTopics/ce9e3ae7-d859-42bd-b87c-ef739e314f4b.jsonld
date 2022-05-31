@@ -6,20 +6,6 @@
   "prefLabel": {
     "de": "Wahrheit und Lüge in der Kommunikation"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/97c8f32a-395b-4bfa-bc69-823447a6501b",
-      "prefLabel": {
-        "de": "Cyberbobbing - Aspekte, Entstehung und Hilfe"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b019d68b-71ee-442b-b33f-0515c7fa5964",
-      "prefLabel": {
-        "de": "Manipulation mit Wörtern, Bildern und Zeichen"
-      }
-    }
-  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8deca2a0-5d05-49e6-b49f-75d1fdb1a1e2",
     "prefLabel": {
@@ -27,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

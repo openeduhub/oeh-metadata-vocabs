@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff63e5600-f323-45a1-bba9-b5e63355316f",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff63e5600-f323-45a1-bba9-b5e63355316f",
   "prefLabel": {
-    "de": "der Mensch und seine belebte Umwelt"
+    "de": "Der Mensch und seine belebte Umwelt"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/7e15bd2b-e6a1-4d31-a317-2e7b8a0e7b3a",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

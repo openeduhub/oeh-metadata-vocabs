@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F198b91a7-eef2-4cff-b601-46d4ffc327da",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F198b91a7-eef2-4cff-b601-46d4ffc327da",
   "prefLabel": {
-    "de": "moralische Gottesbeweise"
+    "de": "Moralische Gottesbeweise"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f3c38a2c-5622-4b20-9885-a1fa17bf3d24",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

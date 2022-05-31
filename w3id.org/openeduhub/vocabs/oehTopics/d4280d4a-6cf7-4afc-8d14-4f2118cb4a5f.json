@@ -4,19 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd4280d4a-6cf7-4afc-8d14-4f2118cb4a5f",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd4280d4a-6cf7-4afc-8d14-4f2118cb4a5f",
   "prefLabel": {
-    "de": "philosophische Theorien von Gerechtigkeit"
+    "de": "Philosophische Theorien von Gerechtigkeit"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/47858917-7ce0-4f5a-bf40-c0c4131003a6",
       "prefLabel": {
-        "de": "Aristoteles These"
+        "de": "Aristoteles' These"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/47ce4897-8d87-4a6b-9413-34b6fbffc3e5",
       "prefLabel": {
-        "de": "Michale Walzer Theorie"
+        "de": "Michael Walzers Theorie"
       }
     },
     {
@@ -35,10 +35,13 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/df670f45-69b7-41f7-b369-1bddf4fb9426",
     "prefLabel": {
-      "de": "Recht und Gerechtigkeit in der Philosophie"
+      "de": "Recht und Gerechtigkeit in Philosophie & Ethik"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

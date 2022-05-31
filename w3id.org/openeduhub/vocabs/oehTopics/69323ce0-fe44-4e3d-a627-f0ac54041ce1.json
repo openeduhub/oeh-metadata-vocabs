@@ -4,15 +4,21 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F69323ce0-fe44-4e3d-a627-f0ac54041ce1",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F69323ce0-fe44-4e3d-a627-f0ac54041ce1",
   "prefLabel": {
-    "de": "die Philosophie der Stoa"
+    "de": "Die Stoa"
+  },
+  "definition": {
+    "de": "Überblick über die stoische Schule in Griechenland und in Rom"
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3a9b7ac1-1418-41e4-a10c-f20f13252fff",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fc171dea-c37f-4617-8685-8abbd7ba79ed",
     "prefLabel": {
-      "de": "Philosophen der Antike"
+      "de": "Die Philosophie der klassischen Periode"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }
