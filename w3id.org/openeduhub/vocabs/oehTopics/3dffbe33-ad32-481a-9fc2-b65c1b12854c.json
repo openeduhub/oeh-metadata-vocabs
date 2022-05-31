@@ -6,14 +6,17 @@
   "prefLabel": {
     "de": "Molekulargenetik"
   },
-  "definition": {
-    "de": "In dieser Untersammlung werden Unterrichtsmaterialien zu allen Themen der Molekulargenetik, z.B. Meiose und Proteinbiosynthese, zusammengestellt."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/41df8200-1bec-4765-8c77-44c3584c8477",
+      "prefLabel": {
+        "de": "Mutationen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5a0741b8-d62b-4335-ab75-e8920ca7c501",
       "prefLabel": {
-        "de": "Chromosomen und DNA"
+        "de": "Erbsubstanz"
       }
     },
     {
@@ -25,7 +28,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b5b0907d-92aa-43d8-bfec-d10d7bef786d",
       "prefLabel": {
-        "de": "Genregulation und -expression"
+        "de": "Genregulation"
       }
     },
     {
@@ -38,7 +41,7 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/6a7e03c7-c71a-4e7d-a271-11a3831ee364",
     "prefLabel": {
-      "de": "Genetik und Vererbung"
+      "de": "Vererbung"
     }
   },
   "relatedMatch": [

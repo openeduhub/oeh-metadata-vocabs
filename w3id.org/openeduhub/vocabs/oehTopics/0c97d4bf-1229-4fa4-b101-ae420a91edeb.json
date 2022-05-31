@@ -6,21 +6,30 @@
   "prefLabel": {
     "de": "Säugetiere"
   },
-  "definition": {
-    "de": "In dieser Untersammlung finden sich Materialien zu einer Gruppe der Wirbeltiere: Den Säugetieren."
-  },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/dd41301d-4f93-4820-be90-280df6b01093",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/83632af4-61e9-4c84-8674-e5cac43131f2",
       "prefLabel": {
-        "de": "Mensch"
+        "de": "Katze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d9346909-c145-433a-9821-17885a189a24",
+      "prefLabel": {
+        "de": "Hund"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e04cc8c6-8ed3-4269-9903-9af3a263e01d",
+      "prefLabel": {
+        "de": "Wolf"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/e215aa7f-4ce3-4703-9b01-445bb4aedcad",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1556b4de-fdbb-4576-a68e-2c12ab053a29",
     "prefLabel": {
-      "de": "Wirbeltiere"
+      "de": "Tiere"
     }
   },
   "relatedMatch": [

@@ -4,22 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9d364fd0-4374-40b4-a153-3c722b9cda35",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9d364fd0-4374-40b4-a153-3c722b9cda35",
   "prefLabel": {
-    "de": "Philosophie & Ethik"
-  },
-  "definition": {
-    "de": "Informationen, Unterrichtsmaterialien und mehr zu den Fächern Philosophie und Ethik"
+    "de": "Philosophie"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/074488f0-4af3-46f0-9390-e00d2d294916",
       "prefLabel": {
-        "de": "Der Mensch im Umgang mit Kultur und Natur"
+        "de": "der Mensch im Umgang mit Kultur und Natur"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0afd15fa-c5d9-45db-aae7-97953618f0bb",
       "prefLabel": {
-        "de": "Philosophische Vorstellungen vom Ursprung der Dinge und vom Tod"
+        "de": "Philosophische Vorstellungen von Ursprung der Dinge und vom Tod"
       }
     },
     {
@@ -85,13 +82,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
       "prefLabel": {
-        "de": "Kerngedanken und Originalwerke einzelner Philosophen"
+        "de": "Kerngedanken und Orginalwerke einzelner Philosophen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/df670f45-69b7-41f7-b369-1bddf4fb9426",
       "prefLabel": {
-        "de": "Recht und Gerechtigkeit in Philosophie & Ethik"
+        "de": "Recht und Gerechtigkeit in der Philosophie"
       }
     },
     {
@@ -102,9 +99,6 @@
     }
   ],
   "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

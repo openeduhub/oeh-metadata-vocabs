@@ -6,13 +6,30 @@
   "prefLabel": {
     "de": "Methoden"
   },
-  "definition": {
-    "de": "Hier finden sich verschiedene Methoden, die  Schüler*innen sämtlicher Jahrgangsstufen im Biologieunterricht erlernen sollen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/532398c8-2c22-4d0a-be5c-e215dd51da37",
+      "prefLabel": {
+        "de": "Chromatographie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9f952445-9a60-46ae-9eaf-4fcd25ccb758",
+      "prefLabel": {
+        "de": "Methoden in der Genetik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ae5748a9-b50a-485a-ae76-193c0349eb2a",
+      "prefLabel": {
+        "de": "Mikroskopieren\n\n"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d55d6139-982a-472b-ad78-ded266ce8a25",
     "prefLabel": {
-      "de": "Fachdidaktik"
+      "de": "allgemeine Biologie"
     }
   },
   "relatedMatch": [

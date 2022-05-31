@@ -4,35 +4,32 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fdf670f45-69b7-41f7-b369-1bddf4fb9426",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fdf670f45-69b7-41f7-b369-1bddf4fb9426",
   "prefLabel": {
-    "de": "Recht und Gerechtigkeit in Philosophie & Ethik"
+    "de": "Recht und Gerechtigkeit in der Philosophie"
   },
   "definition": {
-    "de": "Wie ist Gerechtigkeit definiert? Wie wird über Recht und Unrecht bestimmt und gibt es überhaupt ein Recht für alle? Kann es einen universal gültigen Rechtsbegriff geben? Wie könnte ein Staat aussehen?"
+    "de": "Wie ist Gerechtigkeit definiert? Wie wird über Recht und Unrecht bestimmt und gibt es überhaupt ein Recht für alle? Kann es einen universal gültigen Rechtsbegriff geben? Wie könnte ein Staat aussehen? "
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f",
       "prefLabel": {
-        "de": "Philosophische Theorien von Gerechtigkeit"
+        "de": "philosophische Theorien von Gerechtigkeit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d8ee1dfc-e845-4b9a-8f16-a10730094987",
       "prefLabel": {
-        "de": "Politische Ethik"
+        "de": "politische Ethik"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9d364fd0-4374-40b4-a153-3c722b9cda35",
     "prefLabel": {
-      "de": "Philosophie & Ethik"
+      "de": "Philosophie"
     }
   },
   "relatedMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

@@ -4,12 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F69756a85-a71e-4790-8ed0-6c11bb56aa1d",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F69756a85-a71e-4790-8ed0-6c11bb56aa1d",
   "prefLabel": {
-    "de": "Zeichen setzen"
+    "de": "Zeichensetzung"
   },
   "definition": {
     "de": "Die Zeichensetzung wird auch Interpunktion genannt und thematisiert das Setzen bestimmter Satzzeichen in Sätzen (z.B. Komma oder Doppelpunkt), um syntaktische Strukturen zu veranschaulichen. Auch das Setzen von Wortzeichen in Wörtern (z.B. Apostroph), um die morphologischen Strukturen zu verdeutlichen, wird dazugezählt. \nDiese Grenz- und Gliederungszeichen helfen, einen Text übersichtlich zu gestalten. In dieser Sammlung findest du viele tolle Materialien, mit denen das Thema Zeichensetzung gut gelehrt und gelernt werden kann."
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/284f0e15-9f4e-4039-ad5d-83fcb8398d58",
+      "prefLabel": {
+        "de": "Zitieren"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3324512a-dabe-4a9e-a2d6-4bb0bceaac1a",
       "prefLabel": {
@@ -37,7 +43,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b1117a88-226d-416a-a6b9-4e4982823bf0",
       "prefLabel": {
-        "de": "Direkte und indirekte Rede"
+        "de": "Wörtliche Rede"
       }
     },
     {
