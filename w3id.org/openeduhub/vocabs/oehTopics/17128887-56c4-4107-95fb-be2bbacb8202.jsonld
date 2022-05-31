@@ -6,17 +6,20 @@
   "prefLabel": {
     "de": "Technische Informatik"
   },
+  "definition": {
+    "de": "Die Technische Informatik befasst sich mit den hardwareseitigen Grundlagen der Informatik, wie etwa Mikroprozessortechnik, Robotik, Rechnerarchitektur und Rechnernetzen. Auch systemnahen Software, sowie den hierfür entwickelten Modellierungs- und Bewertungsmethoden gehören dazu.\nHier finden sich entsprechen nicht nur die physikalischen und logischen Grundlagen, sondern auch technische Anwendungen und viele Materialien aus dem Bereich Kodierung."
+  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/0e4aa7d8-bee6-433a-86d7-26e393483ffe",
+      "prefLabel": {
+        "de": "Mikrocontroller"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/82ac77be-ca58-4898-95ba-6a1f5e62764f",
       "prefLabel": {
         "de": "Kodierung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8bca47fe-20e0-4186-9bca-1e41e11fede7",
-      "prefLabel": {
-        "de": "Prozessoren"
       }
     },
     {
@@ -26,21 +29,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/bfaa7443-0ac0-4367-9850-4ac5d4fe7a98",
-      "prefLabel": {
-        "de": "Speicher"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d37dad2f-8838-4143-8667-08b5d082a8c7",
       "prefLabel": {
         "de": "Netzwerke / OSI"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f52ae292-8778-4f02-a73c-447eb63c9763",
-      "prefLabel": {
-        "de": "Informationsübertragung"
       }
     },
     {

@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa83ba0ae-d3d1-4c03-9c83-0bbe6e630c71",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fa83ba0ae-d3d1-4c03-9c83-0bbe6e630c71",
   "prefLabel": {
-    "de": "gesellschaftliche Perspektive auf freies Leben"
+    "de": "Gesellschaftliche Perspektive auf freies Leben"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3f1ba46b-08c0-4829-bfb1-b8e1bcf1ee05",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3d43355d-c2d1-4710-bd42-e4c8edb336d0",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3d43355d-c2d1-4710-bd42-e4c8edb336d0",
   "prefLabel": {
-    "de": "die Philosophie der skepsis und Ekletik"
+    "de": "Die Philosophie der Skepsis und Ekletik"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3a9b7ac1-1418-41e4-a10c-f20f13252fff",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

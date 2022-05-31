@@ -4,7 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fec46508b-dae7-43ac-aab5-f32a2873870c",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fec46508b-dae7-43ac-aab5-f32a2873870c",
   "prefLabel": {
-    "de": "teleologische Gottesbeweise"
+    "de": "Teleologische Gottesbeweise"
+  },
+  "definition": {
+    "de": "Schluss von der Zweckhaftigkeit und Ordnung der Dinge auf die Existenz eines obersten Werkmeisters: das Kunstwerk der Welt verweist auf einen obersten Künstler."
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f3c38a2c-5622-4b20-9885-a1fa17bf3d24",
@@ -14,7 +17,13 @@
   },
   "relatedMatch": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/520"
     }
   ],
   "inScheme": {

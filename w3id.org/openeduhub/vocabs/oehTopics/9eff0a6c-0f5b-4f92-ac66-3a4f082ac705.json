@@ -6,23 +6,26 @@
   "prefLabel": {
     "de": "Zelltypen"
   },
+  "definition": {
+    "de": "In dieser Untersammlung werden Materialien der verschiedenen Zelltypen zusammengestellt."
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/20f042ef-8e54-4d4c-bf0a-f65c794de91b",
       "prefLabel": {
-        "de": "Prokaryoten"
+        "de": "Prokaryotische Zelle (Archaea und Bacteria)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/8d49837a-e33a-4aff-84b5-2f4f4432c6b3",
       "prefLabel": {
-        "de": "Eukaryoten"
+        "de": "Eukaryotische Zelle"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f60bbeb0-649b-431b-9638-248a90900a8b",
       "prefLabel": {
-        "de": "Zelldifferenzierung"
+        "de": "Viren"
       }
     }
   ],

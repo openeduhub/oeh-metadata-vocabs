@@ -4,47 +4,50 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faba245d5-4d01-4fa6-bad1-b8f9cf9aea98",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Faba245d5-4d01-4fa6-bad1-b8f9cf9aea98",
   "prefLabel": {
-    "de": "die Philosophie des deutschen Idealismus"
+    "de": "Die Philosophie des deutschen Idealismus"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/16b5398a-6b8f-4a50-b074-24136dc2ad5b",
       "prefLabel": {
-        "de": "die Philosophie von Schelling"
+        "de": "Die Philosophie von Schelling"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9c9fc31b-a938-41e9-8305-4c9b313b4903",
       "prefLabel": {
-        "de": "die Philosophie von Schleiermacher"
+        "de": "Die Philosophie von Schleiermacher"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c1e0906b-0b33-4856-a718-21aae5e20961",
       "prefLabel": {
-        "de": "die Philosophie von Fichte"
+        "de": "Die Philosophie von Fichte"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cbd805da-a2b4-4b98-aa3d-a959055facba",
       "prefLabel": {
-        "de": "die Philosophie von Hegel"
+        "de": "Die Philosophie von Hegel"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc35afb-2a35-4915-87e3-7a5d4abcecd8",
       "prefLabel": {
-        "de": "die Philosophie von Kant"
+        "de": "Die Philosophie von Kant"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
     "prefLabel": {
-      "de": "Kerngedanken und Orginalwerke einzelner Philosophen"
+      "de": "Kerngedanken und Originalwerke einzelner Philosophen"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

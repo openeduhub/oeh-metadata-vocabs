@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fe067f886-5add-4797-821d-0e44562d8a69",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fe067f886-5add-4797-821d-0e44562d8a69",
   "prefLabel": {
-    "de": "globale Friedensordnung"
+    "de": "Globale Friedensordnung"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d8ee1dfc-e845-4b9a-8f16-a10730094987",
     "prefLabel": {
-      "de": "politische Ethik"
+      "de": "Politische Ethik"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

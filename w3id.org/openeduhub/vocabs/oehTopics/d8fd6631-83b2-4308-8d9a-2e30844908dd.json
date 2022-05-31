@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd8fd6631-83b2-4308-8d9a-2e30844908dd",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fd8fd6631-83b2-4308-8d9a-2e30844908dd",
   "prefLabel": {
-    "de": "die hellenistische Philosophie"
+    "de": "Die hellenistische Philosophie"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3a9b7ac1-1418-41e4-a10c-f20f13252fff",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

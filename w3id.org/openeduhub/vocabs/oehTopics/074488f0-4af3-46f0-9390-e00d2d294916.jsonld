@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F074488f0-4af3-46f0-9390-e00d2d294916",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F074488f0-4af3-46f0-9390-e00d2d294916",
   "prefLabel": {
-    "de": "der Mensch im Umgang mit Kultur und Natur"
+    "de": "Der Mensch im Umgang mit Kultur und Natur"
   },
   "narrower": [
     {
@@ -23,10 +23,13 @@
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/9d364fd0-4374-40b4-a153-3c722b9cda35",
     "prefLabel": {
-      "de": "Philosophie"
+      "de": "Philosophie & Ethik"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

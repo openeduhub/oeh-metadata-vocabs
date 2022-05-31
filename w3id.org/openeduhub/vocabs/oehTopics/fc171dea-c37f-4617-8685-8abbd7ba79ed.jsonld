@@ -4,8 +4,40 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ffc171dea-c37f-4617-8685-8abbd7ba79ed",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ffc171dea-c37f-4617-8685-8abbd7ba79ed",
   "prefLabel": {
-    "de": "die Philosophie der klassischen Periode"
+    "de": "Die Philosophie der klassischen Periode"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/277fd3bd-6684-4c24-b664-69bf9ad46f38",
+      "prefLabel": {
+        "de": "Epikur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/69323ce0-fe44-4e3d-a627-f0ac54041ce1",
+      "prefLabel": {
+        "de": "Die Stoa"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cd1edc00-677f-41ae-946d-d6c0538723f9",
+      "prefLabel": {
+        "de": "Platon"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d6c01bf0-97ba-4467-bdef-80388ce41ecd",
+      "prefLabel": {
+        "de": "Sokrates"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f7e0a858-f457-407d-ad68-acf4217baf32",
+      "prefLabel": {
+        "de": "Aristoteles"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3a9b7ac1-1418-41e4-a10c-f20f13252fff",
     "prefLabel": {
@@ -13,6 +45,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

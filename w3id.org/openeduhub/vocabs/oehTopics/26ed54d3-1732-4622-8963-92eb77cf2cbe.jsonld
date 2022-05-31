@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F26ed54d3-1732-4622-8963-92eb77cf2cbe",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F26ed54d3-1732-4622-8963-92eb77cf2cbe",
   "prefLabel": {
-    "de": "die Philosophie des Empirismus"
+    "de": "Die Philosophie des Empirismus"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/26beee37-c456-455c-9a75-8584e396da79",
     "prefLabel": {
-      "de": "die Philosophie der Aufklärung"
+      "de": "Die Philosophie der Aufklärung"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

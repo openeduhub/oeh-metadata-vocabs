@@ -4,35 +4,38 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F26beee37-c456-455c-9a75-8584e396da79",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F26beee37-c456-455c-9a75-8584e396da79",
   "prefLabel": {
-    "de": "die Philosophie der Aufklärung"
+    "de": "Die Philosophie der Aufklärung"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/26ed54d3-1732-4622-8963-92eb77cf2cbe",
       "prefLabel": {
-        "de": "die Philosophie des Empirismus"
+        "de": "Die Philosophie des Empirismus"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/50e51aca-40fe-4704-9496-f0fe5bc6061e",
       "prefLabel": {
-        "de": "die Philosophie des Rationalismus"
+        "de": "Die Philosophie des Rationalismus"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cdae1cd9-c3d5-4806-9fcf-7c69f2bbcccd",
       "prefLabel": {
-        "de": "die Philosophie der französischen Aufklärung"
+        "de": "Die Philosophie der französischen Aufklärung"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
     "prefLabel": {
-      "de": "Kerngedanken und Orginalwerke einzelner Philosophen"
+      "de": "Kerngedanken und Originalwerke einzelner Philosophen"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

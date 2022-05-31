@@ -4,7 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4ead9e5f-02d3-47d3-a9b0-f257fbf4bcb7",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F4ead9e5f-02d3-47d3-a9b0-f257fbf4bcb7",
   "prefLabel": {
-    "de": "kosmologische Gottesbeweise"
+    "de": "Kosmologische Gottesbeweise"
+  },
+  "definition": {
+    "de": "Diese Beweisführung folgert aus der Unvollkommenheit des Seins auf ein allervollkommenstes Sein"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f3c38a2c-5622-4b20-9885-a1fa17bf3d24",
@@ -13,6 +16,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

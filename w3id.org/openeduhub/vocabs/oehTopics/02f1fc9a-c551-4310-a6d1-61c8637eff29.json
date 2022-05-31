@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F02f1fc9a-c551-4310-a6d1-61c8637eff29",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F02f1fc9a-c551-4310-a6d1-61c8637eff29",
   "prefLabel": {
-    "de": "Erkenntnigsewinnung in der Naturwissenschaft"
+    "de": "Erkenntnisgewinnung in der Naturwissenschaft"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5bcd124a-49cd-4bc4-ab3c-21449b1d9126",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

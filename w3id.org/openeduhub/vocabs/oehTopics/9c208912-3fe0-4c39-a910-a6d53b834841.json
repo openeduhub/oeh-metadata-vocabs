@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9c208912-3fe0-4c39-a910-a6d53b834841",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F9c208912-3fe0-4c39-a910-a6d53b834841",
   "prefLabel": {
-    "de": "philosophische Kritik der Freiheits-Determinations-Debatte"
+    "de": "Philosophische Kritik der Freiheits-Determinations-Debatte"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/aa9af959-3a8f-4ca0-a43f-e3213e09fba0",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

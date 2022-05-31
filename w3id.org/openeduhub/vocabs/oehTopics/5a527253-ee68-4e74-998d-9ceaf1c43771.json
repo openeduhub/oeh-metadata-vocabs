@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5a527253-ee68-4e74-998d-9ceaf1c43771",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5a527253-ee68-4e74-998d-9ceaf1c43771",
   "prefLabel": {
-    "de": "philosophische Ideen über glückliches Leben"
+    "de": "Philosophische Ideen über glückliches Leben"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/c8a04a63-741e-48e3-a3ef-7d5443417d9d",
@@ -13,6 +13,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

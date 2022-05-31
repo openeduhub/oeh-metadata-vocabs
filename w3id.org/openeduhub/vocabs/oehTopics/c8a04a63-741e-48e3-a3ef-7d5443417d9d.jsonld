@@ -6,23 +6,26 @@
   "prefLabel": {
     "de": "Vorstellungen von einem glücklichen Leben"
   },
+  "definition": {
+    "de": "Was ist Glück? Gedanken hierzu in Philosophie & Ethik, von den alten Griechen, über Aristoteles und Epikur, bis zu einem Fußballer der Gegenwart"
+  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5a527253-ee68-4e74-998d-9ceaf1c43771",
       "prefLabel": {
-        "de": "philosophische Ideen über glückliches Leben"
+        "de": "Philosophische Ideen über glückliches Leben"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/dab05411-560a-43ee-bd72-4c754d32fe98",
       "prefLabel": {
-        "de": "persönliche Vorstellung vom glücklichem Leben"
+        "de": "Persönliche Vorstellung vom glücklichem Leben"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ea1b50ea-54f6-43ca-97ba-b06668ab587a",
       "prefLabel": {
-        "de": "gesellschaftliche Vorbilder für glückliches Leben"
+        "de": "Gesellschaftliche Vorbilder für glückliches Leben"
       }
     }
   ],
@@ -33,6 +36,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff6068eca-71a3-4a64-a7d8-149a7e6dd671",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Ff6068eca-71a3-4a64-a7d8-149a7e6dd671",
   "prefLabel": {
-    "de": "die Philosophie der Scholastik"
+    "de": "Die Philosophie der Scholastik"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/388a06f5-954c-47ee-8d7c-03de01d512ec",
     "prefLabel": {
-      "de": "Philsophen des Mittelalter"
+      "de": "Philosophen des Mittelalters"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }

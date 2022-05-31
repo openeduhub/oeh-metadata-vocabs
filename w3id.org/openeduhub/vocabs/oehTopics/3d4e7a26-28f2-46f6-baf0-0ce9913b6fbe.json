@@ -4,15 +4,18 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3d4e7a26-28f2-46f6-baf0-0ce9913b6fbe",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3d4e7a26-28f2-46f6-baf0-0ce9913b6fbe",
   "prefLabel": {
-    "de": "die Philosophie des Linkshegelianismus"
+    "de": "Die Philosophie des Linkshegelianismus"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0a6c6dd-5ec4-49bb-b606-3b1a5736de51",
     "prefLabel": {
-      "de": "die Philosophie des 19. Jahrhunderts"
+      "de": "Die Philosophie des 19. Jahrhunderts"
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }
