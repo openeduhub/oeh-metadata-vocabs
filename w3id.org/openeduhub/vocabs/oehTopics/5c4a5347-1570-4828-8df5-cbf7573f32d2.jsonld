@@ -1,26 +1,29 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cd184b60-8343-43b6-afc9-18c2e8e554dd",
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5c4a5347-1570-4828-8df5-cbf7573f32d2",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fcd184b60-8343-43b6-afc9-18c2e8e554dd",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fcd184b60-8343-43b6-afc9-18c2e8e554dd",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5c4a5347-1570-4828-8df5-cbf7573f32d2",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F5c4a5347-1570-4828-8df5-cbf7573f32d2",
   "prefLabel": {
-    "de": "Die Philosophie von Dante"
+    "de": "Videobearbeitung"
+  },
+  "definition": {
+    "de": "Hier findest du Materialien rund um Programme für die Videobearbeitung."
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/388a06f5-954c-47ee-8d7c-03de01d512ec"
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/54d3176e-84e0-49da-bb08-00aaae3eaeb5",
+    "prefLabel": {
+      "de": "Filme"
+    }
   },
   "relatedMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/900"
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {
