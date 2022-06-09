@@ -1,0 +1,147 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oehTopics/23d06021-ee04-40f2-8405-10c766ba9222",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F23d06021-ee04-40f2-8405-10c766ba9222",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F23d06021-ee04-40f2-8405-10c766ba9222",
+  "prefLabel": {
+    "de": "Präpositonen"
+  },
+  "definition": {
+    "de": "Präpositionen (Verhältniswörter) beschreiben das Verhältnis von Dingen und/oder Personen zueinander. Beispiele für Präpositionen sind AN, IN, MIT, OHNE, WEGEN, ZU. Im Satz „Das Bild hängt an der Wand.“ beschreibt AN das Verhältnis von Bild und Wand. Nach einer Präposition steht immer ein bestimmter Fall: entweder der Genitiv, Dativ oder Akkusativ."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/01ee3851-864f-4989-a572-877072f5ec31",
+      "prefLabel": {
+        "de": "Präpositionen mit Dativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/03a4cefe-096a-4e16-b0d2-e400184dfb05",
+      "prefLabel": {
+        "de": "Präpositionen mit Akkusativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/4da50948-46cd-4344-8c7a-54c6ae21cd5a",
+      "prefLabel": {
+        "de": "Wechselpräpositonen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/945b436d-8d97-47b3-8d9d-19f2ec092fe3",
+      "prefLabel": {
+        "de": "TeKaMoLo Präpositionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a6728c1a-6b41-4fc8-8687-3fe42727421c",
+      "prefLabel": {
+        "de": "Präpositionen mit Genitiv"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
