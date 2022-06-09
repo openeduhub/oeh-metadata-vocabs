@@ -18339,6 +18339,16 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
         "trennbare Verben"@de,
         "untrennbare Verben"@de .
 
+<9eed3b28-4aba-4316-a50a-56d5b594bb40> a skos:Concept ;
+    skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
+    skos:definition "In dieser Sammlung haben wir dir Materialien rund um das Thema Ernährung zusammengestellt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Ernährung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Ernährung"@de,
+        "Mensch"@de,
+        "Verdauung"@de .
+
 <9ef29ffc-0fbf-4eb4-a2d1-1bb188c794df> a skos:Concept ;
     skos:broader <0e13faba-076c-450d-bbdc-61f0a8c79e44> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -37619,32 +37629,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     sdo:keywords "Hat ihren Ursprung im Studium der Dampfmaschinen und ging der Frage nach"@de,
         "wie man Wärme in mechanische Arbeit umwandeln kann."@de .
 
-<dd41301d-4f93-4820-be90-280df6b01093> a skos:Concept ;
-    skos:broader <0c97d4bf-1229-4fa4-b101-ae420a91edeb> ;
-    skos:definition "In dieser Gruppe gibt es umfangreiche Materialien zu einer Gruppe der Säugetiere: Dem Menschen"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <2037bc75-91e0-40aa-b5a5-6c78c1631b97>,
-        <2feeecd8-7daf-43fa-9046-023732e2d03e>,
-        <417b0cfa-ea48-4bb8-a0b2-f4ef7ad247f0>,
-        <5053692f-3e7e-4632-9979-7748d7431c5b>,
-        <572efa1f-e22a-40e8-af2e-a9dbff6963a1>,
-        <59a239ec-ada8-4450-8733-d6499e4219f8>,
-        <796babee-9eaf-4cac-9ac8-cc50d08bb1f8>,
-        <caf27971-c9af-484c-b558-ef243d7ffb45>,
-        <e0ec903c-765a-4a9b-a002-5525cdc51339>,
-        <fc7bad1b-9bd7-45cc-91e8-027b8b9f5246> ;
-    skos:prefLabel "Mensch"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Eukaryoten"@de,
-        "Evolution"@de,
-        "Humanbiologie"@de,
-        "Mammalia"@de,
-        "Mensch"@de,
-        "Säugetiere"@de,
-        "Vertebrata"@de,
-        "Wirbeltiere"@de,
-        "Zoologie"@de .
-
 <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
     skos:definition "Ethik & Philosophie unter dem Blickwinkel einzelner Personen und ihrer Werke"@de ;
@@ -37916,6 +37900,33 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Kalk"@de,
         "Wein"@de,
         "Zitrone"@de .
+
+<dd41301d-4f93-4820-be90-280df6b01093> a skos:Concept ;
+    skos:broader <0c97d4bf-1229-4fa4-b101-ae420a91edeb> ;
+    skos:definition "In dieser Gruppe gibt es umfangreiche Materialien zu einer Gruppe der Säugetiere: Dem Menschen"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <2037bc75-91e0-40aa-b5a5-6c78c1631b97>,
+        <2feeecd8-7daf-43fa-9046-023732e2d03e>,
+        <417b0cfa-ea48-4bb8-a0b2-f4ef7ad247f0>,
+        <5053692f-3e7e-4632-9979-7748d7431c5b>,
+        <572efa1f-e22a-40e8-af2e-a9dbff6963a1>,
+        <59a239ec-ada8-4450-8733-d6499e4219f8>,
+        <796babee-9eaf-4cac-9ac8-cc50d08bb1f8>,
+        <9eed3b28-4aba-4316-a50a-56d5b594bb40>,
+        <caf27971-c9af-484c-b558-ef243d7ffb45>,
+        <e0ec903c-765a-4a9b-a002-5525cdc51339>,
+        <fc7bad1b-9bd7-45cc-91e8-027b8b9f5246> ;
+    skos:prefLabel "Mensch"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Eukaryoten"@de,
+        "Evolution"@de,
+        "Humanbiologie"@de,
+        "Mammalia"@de,
+        "Mensch"@de,
+        "Säugetiere"@de,
+        "Vertebrata"@de,
+        "Wirbeltiere"@de,
+        "Zoologie"@de .
 
 <4940d5da-9b21-4ec0-8824-d16e0409e629> a skos:Concept ;
     skos:definition "Bild-Quelle und -Lizenz: Bild von deepakrit auf Pixabay"@de ;
