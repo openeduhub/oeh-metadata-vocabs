@@ -4,32 +4,32 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F388a06f5-954c-47ee-8d7c-03de01d512ec",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F388a06f5-954c-47ee-8d7c-03de01d512ec",
   "prefLabel": {
-    "de": "Philosophen des Mittelalters"
+    "de": "Mittelalter"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/64dd5e0d-af8f-422d-a580-979701343a70",
       "prefLabel": {
-        "de": "Die Philosophie der Patristik"
+        "de": "Patristik"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/cd184b60-8343-43b6-afc9-18c2e8e554dd",
+      "id": "http://w3id.org/openeduhub/vocabs/oehTopics/a83adb70-dd45-48f0-95ba-9941703a0402",
       "prefLabel": {
-        "de": "Die Philosophie von Dante"
+        "de": "Thomas von Aquin"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/f6068eca-71a3-4a64-a7d8-149a7e6dd671",
       "prefLabel": {
-        "de": "Die Philosophie der Scholastik"
+        "de": "Scholastik"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
     "prefLabel": {
-      "de": "Kerngedanken und Originalwerke einzelner Philosophen"
+      "de": "Personen und Werke"
     }
   },
   "relatedMatch": [
@@ -41,9 +41,9 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {

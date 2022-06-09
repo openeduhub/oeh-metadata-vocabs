@@ -4,7 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F0afd15fa-c5d9-45db-aae7-97953618f0bb",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F0afd15fa-c5d9-45db-aae7-97953618f0bb",
   "prefLabel": {
-    "de": "Philosophische Vorstellungen vom Ursprung der Dinge und vom Tod"
+    "de": "Ursprung und Tod"
+  },
+  "definition": {
+    "de": "Welche Vorstellungen vom Ursprung der Dinge und vom Tod haben die Menschen entwickelt? Welche Antworten auf Fragen hierzu gibt es in Ethik & Philosophie?"
   },
   "narrower": [
     {
@@ -41,9 +44,9 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {

@@ -4,12 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F358f0e2c-3cea-49f6-801c-4664a4bee4a4",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F358f0e2c-3cea-49f6-801c-4664a4bee4a4",
   "prefLabel": {
-    "de": "Die Philosophie von Nietzsche"
+    "de": "Friedrich Nietzsche"
+  },
+  "definition": {
+    "de": "Friedrich Wilhelm Nietzsche (1844 - 1900 ) war ein deutscher klassischer Philologe und Philosoph. Nietzsche verfasste auch Dichtungen und musikalische Kompositionen. Als Philosoph sprengte mit seinem eigenwilligen Stil bis dahin gängige Schreib- und Denkmuster. Friedrich Nietzsche verweigerte sich den geschlossenen Denksystemen der deutschen Universitätsphilosophie und bevorzugte fragmentarisches und essayistisches Schreiben."
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0a6c6dd-5ec4-49bb-b606-3b1a5736de51",
     "prefLabel": {
-      "de": "Die Philosophie des 19. Jahrhunderts"
+      "de": "19. Jahrhundert"
     }
   },
   "relatedMatch": [
@@ -21,9 +24,9 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {

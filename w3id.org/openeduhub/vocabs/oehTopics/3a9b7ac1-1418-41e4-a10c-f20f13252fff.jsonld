@@ -4,50 +4,53 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3a9b7ac1-1418-41e4-a10c-f20f13252fff",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2F3a9b7ac1-1418-41e4-a10c-f20f13252fff",
   "prefLabel": {
-    "de": "Philosophen der Antike"
+    "de": "Antike"
+  },
+  "definition": {
+    "de": "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3d43355d-c2d1-4710-bd42-e4c8edb336d0",
       "prefLabel": {
-        "de": "Die Philosophie der Skepsis und Ekletik"
+        "de": "Skepsis und Ekletik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/906e474d-3e65-443f-93a5-02560116acee",
       "prefLabel": {
-        "de": "Die Philosophie der Vorsokratiker"
+        "de": "Vorsokratiker"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/90a2fada-93a1-447e-85fe-117e1fe8b11d",
       "prefLabel": {
-        "de": "Die Philosophie der Sophistik"
+        "de": "Sophistik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b3a90cd7-d086-43ce-ba85-cb5b7cca3a49",
       "prefLabel": {
-        "de": "Die Philosophie des Neuplatonismus"
+        "de": "Neuplatonismus"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/d8fd6631-83b2-4308-8d9a-2e30844908dd",
       "prefLabel": {
-        "de": "Die hellenistische Philosophie"
+        "de": "Hellenistische Philosophie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/fc171dea-c37f-4617-8685-8abbd7ba79ed",
       "prefLabel": {
-        "de": "Die Philosophie der klassischen Periode"
+        "de": "Klassische Periode"
       }
     }
   ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oehTopics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
     "prefLabel": {
-      "de": "Kerngedanken und Originalwerke einzelner Philosophen"
+      "de": "Personen und Werke"
     }
   },
   "relatedMatch": [
@@ -59,9 +62,9 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {

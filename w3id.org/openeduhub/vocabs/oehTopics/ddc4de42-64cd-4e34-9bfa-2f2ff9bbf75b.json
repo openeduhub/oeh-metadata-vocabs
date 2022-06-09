@@ -4,46 +4,46 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FoehTopics%2Fddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",
   "prefLabel": {
-    "de": "Kerngedanken und Originalwerke einzelner Philosophen"
+    "de": "Personen und Werke"
   },
   "definition": {
-    "de": "Philosophie unter dem Blickwinkel einzelner Philosoph*innen und ihrer Werke"
+    "de": "Ethik & Philosophie unter dem Blickwinkel einzelner Personen und ihrer Werke"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/04963274-65a2-4ce0-91a0-d919bebd7ab8",
       "prefLabel": {
-        "de": "Die Philosophie der Moderne / des 21. Jahrhunderts"
+        "de": "Moderne / 21. Jahrhundert"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/1fbba233-e176-406f-901f-636e8a99d60f",
       "prefLabel": {
-        "de": "Die Philosophie des 20. Jahrhunderts"
+        "de": "20. Jahrhundert"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/26beee37-c456-455c-9a75-8584e396da79",
       "prefLabel": {
-        "de": "Die Philosophie der Aufklärung"
+        "de": "Aufklärung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/27b3d6e3-59ba-4554-b597-b81bd1314ed2",
       "prefLabel": {
-        "de": "Die Philosophie in der Renaissance"
+        "de": "Renaissance"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/388a06f5-954c-47ee-8d7c-03de01d512ec",
       "prefLabel": {
-        "de": "Philosophen des Mittelalters"
+        "de": "Mittelalter"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/3a9b7ac1-1418-41e4-a10c-f20f13252fff",
       "prefLabel": {
-        "de": "Philosophen der Antike"
+        "de": "Antike"
       }
     },
     {
@@ -55,13 +55,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/aba245d5-4d01-4fa6-bad1-b8f9cf9aea98",
       "prefLabel": {
-        "de": "Die Philosophie des deutschen Idealismus"
+        "de": "Deutscher Idealismus"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oehTopics/b0a6c6dd-5ec4-49bb-b606-3b1a5736de51",
       "prefLabel": {
-        "de": "Die Philosophie des 19. Jahrhunderts"
+        "de": "19. Jahrhundert"
       }
     },
     {
@@ -86,9 +86,9 @@
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "id": "http://w3id.org/openeduhub/vocabs/oehTopics/5e40e372-735c-4b17-bbf7-e827a5702b57",
     "title": {
-      "de": "Taxonomie von Lehrplanthemen"
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
     }
   },
   "@context": {
