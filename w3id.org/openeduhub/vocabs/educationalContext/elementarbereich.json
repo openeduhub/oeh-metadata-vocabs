@@ -11,6 +11,19 @@
     "de": "Elementarstufe",
     "en": "elementary school"
   },
+  "narrowMatch": [
+    {
+      "id": "https://w3id.org/kim/isced-1997/level0"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/kim/isced-2011/level0"
+    },
+    {
+      "id": "http://w3id.org/kim/educationalLevel/level_0"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/educationalContext/",
     "title": {

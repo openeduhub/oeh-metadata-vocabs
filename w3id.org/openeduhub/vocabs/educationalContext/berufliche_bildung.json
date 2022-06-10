@@ -7,6 +7,19 @@
     "de": "Berufliche Bildung",
     "en": "vocational education"
   },
+  "closeMatch": [
+    {
+      "id": "https://w3id.org/kim/isced-2011/level4"
+    },
+    {
+      "id": "http://w3id.org/kim/educationalLevel/level_4"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/kim/isced-1997/level4"
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/educationalContext/",
     "title": {
