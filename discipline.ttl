@@ -14,7 +14,7 @@
     dct:modified "2020-11-01"^^xsd:date ;
     dct:issued "2020-04-08"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <720>, <20003>, <04001>, <020>, <04014>, <46014>,
+    skos:hasTopConcept <720>, <20003>, <04001>, <oeh01>, <020>, <04014>, <46014>,
         <04002>, <040>, <080>, <100>, <20041>, <12002>, <120>, <28002>, <04005>,
         <04006>, <20001>, <440>, <20090>, <160>, <04007>, <20002>, <220>,
         <240>, <48005>, <260>, <50001>, <04009>, <320>, <340>, <20004>,
@@ -39,6 +39,10 @@
 <04001> a skos:Concept ;
     skos:prefLabel "Agricultural economics"@en, "Agrarwirtschaft"@de ;
     skos:related eafsys:04001 ;
+    skos:topConceptOf <> .
+
+<oeh01> a skos:Concept ;
+    skos:prefLabel "Arbeit, Ernährung, Soziales"@de ;
     skos:topConceptOf <> .
 
 <020> a skos:Concept ;
