@@ -1,0 +1,129 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a15dfea6-22b6-4fd2-af69-3094c167bd86",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fa15dfea6-22b6-4fd2-af69-3094c167bd86",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fa15dfea6-22b6-4fd2-af69-3094c167bd86",
+  "prefLabel": {
+    "de": "Energie und Strom"
+  },
+  "definition": {
+    "de": "<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zu den Themen Strom und Energie.</b> \n\n<p>Was hat Energie und Strom mit dem Klimawandel und Nachhaltigkeit zu tun? Welche Auswirkungen hat mein persönlicher Stromverbrauch auf die Umwelt? Die Unterrichtsmaterialien auf dieser Seite befassen sich mit diesen und vielen weiteren Fragen rund um nachhaltige Energiegewinnung, Energiewende und sparsamen Energieverbrauch.\n\n<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href=\"https://wirlernenonline.de/mitmachen/\">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/29680bfc-1a7f-4141-b5a1-0c8878fd06c0",
+      "prefLabel": {
+        "de": "Fossile und Radioaktive Energie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/89ebdb1c-f05d-49fc-a09b-638ba8995295",
+      "prefLabel": {
+        "de": "Erneuerbare Energien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d0ed50e6-a49f-4566-8f3b-c545cdf75067",
+    "prefLabel": {
+      "de": "Nachhaltigkeit"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/64018"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
