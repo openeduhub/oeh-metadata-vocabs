@@ -526,7 +526,7 @@
     skos:broader <a24eff1e-d4d1-48b7-b67c-a642d14b49b2> ;
     skos:definition "Die Unterscheidung von “das” und “dass” gilt als besonders fehleranfällig. Die beiden Wörter klingen gleich, haben aber unterschiedliche Funktionen: Während das “das” als Artikel, Relativum (“Er liest das Buch, das er so gerne mag.”) oder Demonstrativum (“Mir gefällt das.”) fungieren kann, tritt das “dass” lediglich als Subjunktion (“Sie kocht so gut, dass sich alle freuen.”) auf. Es gibt verschiedene Herangehensweisen, um die das- / dass- Schreibung zu üben. Hier kannst du stöbern."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "das- / dass- Schreibung"@de ;
+    skos:prefLabel "das-/dass-Schreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
     sdo:keywords "das"@de,
         "dass"@de .
@@ -1398,11 +1398,9 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
 <0dd0501b-4ca5-4910-9cce-fa2a979f770a> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Schopenhauer"@de ;
+    skos:prefLabel "Arthur Schopenhauer"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Arthur Schopenhauer"@de,
-        "Schopenhauer"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <0dde2d25-d5dc-472d-b010-699b13e11f63> a skos:Concept ;
     skos:broader <7360c245-0613-4369-a0ed-079b7843af46> ;
@@ -2814,6 +2812,14 @@ Lerne hier noch mehr über die Aufforderungssätze!"""@de ;
         "Promille Grenze"@de,
         "Sucht"@de .
 
+<1b52e630-567c-420f-869b-1b31822fa620> a skos:Concept ;
+    skos:broader <e5f2fbcf-0609-49fc-9025-b882a06e72ef> ;
+    skos:definition "Die Sommerferien stehen vor der Tür und die Sonne scheint schon jetzt bis in das Klassenzimmer hinein? Bringe das Thema Sommer in den Deutschunterricht deiner Klasse."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Sommer"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Sommer"@de .
+
 <1ba93105-8fd9-4d93-bea7-83282959d603> a skos:Concept ;
     skos:broader <155d7cf3-41e8-4ba1-bc73-0d594a181372> ;
     skos:definition "Körperliche Bewegung (Fähigkeiten und Fertigkeiten) und sportmotorische Leistung (höher, schneller, weiter) sind Inhalte der Trainings- und Bewegungslehre. Hier kommen Ergebnisse sportwissenschaftlicher Forschung zur sportpraktischen Anwendung. Erkenntnisse aus der Medizin, Biologie, Physik und  Psychologie werden genutzt zur Analyse sportlicher Bewegungen (z.B. Wurfbewegungen), zum Lernen von sportartspezifischen Fertigkeiten (z.B. Fosbury Flop im Hochsprung) und zum Trainieren physischer (z.B. Kraftfähigkeiten), und psychischer Leistungsfaktoren (z.B. Leistungsmotivation). Ziel ist die Leistungssteigerung im Sport durch optimierte Bewegung und systematisches Training in Wettkampf-, Breiten- und Gesundheitssport."@de ;
@@ -3096,7 +3102,7 @@ Lerne hier noch mehr über die Aufforderungssätze!"""@de ;
 <1e68f970-c1f0-4e19-a36d-93de26a54a85> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie der Phänomenologie"@de ;
+    skos:prefLabel "Phänomenologie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "E. Husserl"@de,
@@ -3365,10 +3371,9 @@ Lerne hier noch mehr über die Aufforderungssätze!"""@de ;
 <2123bb6c-b02e-49d0-bc6c-2db0e2b4bd8c> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Comte"@de ;
+    skos:prefLabel "August Comte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "August Comte"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <21243fc8-c464-459b-bbe7-277d738271ca> a skos:Concept ;
     skos:broader <779fca4d-9172-4a6b-9626-e46e6e6cb99c> ;
@@ -3569,10 +3574,9 @@ Lerne hier noch mehr über die Aufforderungssätze!"""@de ;
 <221080c8-7832-4193-adf3-61e52489af00> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Kierkegaard"@de ;
+    skos:prefLabel "Søren Kierkegaard"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Kierkegaard"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <2218496a-9e32-4c1d-afdb-71106a2b9acf> a skos:Concept ;
     skos:broader <8f258de2-21df-4dd5-ac37-20eda953cad9> ;
@@ -4280,14 +4284,17 @@ comprensión ELE"""@de,
 
 <277fd3bd-6684-4c24-b664-69bf9ad46f38> a skos:Concept ;
     skos:broader <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
-    skos:definition "Lustorientierung, Lust oder Pflicht, Gegensatz zur Stoa, Atomismus, Garten des Epikur, Hedonismus"@de ;
+    skos:definition """Die Philosophie des Epikur wird allgemein als Gegensatz zur Philosophie der Stoiker gesehen:  
+Lust oder Pflicht, Philosophieren in der Öffentlichkeit (Stoa) oder im Verborgenen (Garten des Epikur),  Atomismus oder Logos?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Epikur"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Atomismus"@de,
         "Demokrit"@de,
         "Garten des Epikur"@de,
-        "Hedonismus"@de .
+        "Hedonismus"@de,
+        "Lustorientierung"@de .
 
 <2784b12c-99ff-4ce8-98b5-135aa9085a5d> a skos:Concept ;
     skos:broader <26e4da5f-f2ed-41c9-81bb-8bfad2c02b81> ;
@@ -4919,7 +4926,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 <2d80cdd9-2771-4513-b4a9-7faaa2d6f60e> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Lebensphilosophie des 20. Jahrhunderts"@de ;
+    skos:prefLabel "Lebensphilosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "G. Simmel"@de,
@@ -5114,7 +5121,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 <2ee432c3-5c45-4686-8cb6-8feefcb815ac> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Aristoteles' Eudaimonie"@de ;
+    skos:prefLabel "Aristoteles' Lehre vom Glück"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Antike"@de,
@@ -5898,11 +5905,22 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 
 <353f60f4-5022-4906-b8bf-53573cd4cfb2> a skos:Concept ;
     skos:broader <f11acc66-f302-4ebe-ab1d-e3f2ab691489> ;
+    skos:definition "Die  meisten philosophischen und religiösen Richtungen haben diese Gemeinsamkeiten: die Vorstellung vom Kreislauf der Wiedergeburt (Samsara), das Gesetz der Tat bzw. von Ursache und Wirkung (Karma),  die Vorstellung einer ethisch verpflichtenden, kosmologischen Instanz (Dharma), die Befreiung aus dem Kreislauf der Wiedergeburten und des damit einhergehenden Stillstands der karmischen Wirksamkeit,  der Begriff der „Unwissenheit\" über die wahre Natur der Dinge (Avidya)."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Die Philosophien Indiens"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Indische Philosophie"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Buddhismus"@de,
+        "Dharma"@de,
+        "Hinduismus"@de,
+        "Indische Philosophie"@de,
+        "Jainismus"@de,
+        "Karma"@de,
+        "Kreislauf"@de,
+        "Samsara"@de,
+        "Veden"@de,
+        "Wiedergeburt"@de .
 
 <358f0e2c-3cea-49f6-801c-4664a4bee4a4> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
@@ -6018,7 +6036,7 @@ woher wissen Lehrer, ob ihre Schüler zu wenig, zu viel oder gerade richtig ausg
 <37764cf1-5b6b-411d-a064-84e61438cecd> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie der Anthropologie"@de ;
+    skos:prefLabel "Anthropologie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Arnold Gehlen"@de,
@@ -6444,13 +6462,16 @@ Hier findest du viele Materialien zum Üben dazu."""@de ;
 
 <3ab7fa15-4505-460c-8992-eef36090b73e> a skos:Concept ;
     skos:broader <0f254b88-55db-4960-8693-5671b568b1ba> ;
+    skos:definition """Utopien entwerfen mögliche, zukünftige Lebensformen oder Gesellschaftsordnungen.
+Der Begriff bedeutet so viel wie „Nicht-Ort“. Utopische Gesellschaftsordnungen können als positive Gegenentwürfe zur zeitgenössischen Gesellschaftsform gelesen werden. Thomas Morus gilt als Begründer des Genres (16. Jh.) Der Begriff Dystopie bezeichnet demgegenüber die pessimistische Beschreibung einer  negativen Gesellschaftsordnung."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Utopien und Dystopien eines zukünftigen Gesellschaftssystems"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "1874"@de,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Aldous Huxley"@de,
         "Dystopie"@de,
-        "Thomas Huxley"@de,
+        "Gesellschaftsentwurf"@de,
         "Thomas Morus"@de,
         "Utopie"@de,
         "Weltvorstellung"@de,
@@ -6700,7 +6721,7 @@ Hier findest du viele Materialien zum Üben dazu."""@de ;
 <3e31bcc8-59b8-4312-ad92-1554602f03d0> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Analytische Philosophie des 20. Jahrhunderts"@de ;
+    skos:prefLabel "Analytische Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Bertrand Arthur William Russel"@de,
@@ -10624,10 +10645,9 @@ Spielfähigkeit."""@de ;
 <5ff02988-c5ea-4e11-b5b9-077d9c4beaf7> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Peirce"@de ;
+    skos:prefLabel "Charles Sanders Peirce"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Charles Sanders Peirce"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <60117d82-1bd8-4777-9c37-118cb438e886> a skos:Concept ;
     skos:broader <ea556fb2-30d5-41e1-90af-a1aef6d42694> ;
@@ -10710,8 +10730,12 @@ Leistungen auf den Spielpositionen."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ludwig Feuerbach"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Ludwig Feuerbach"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/240>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Projektion"@de,
+        "Religionskritik"@de .
 
 <60e467ad-e17a-41c2-a943-a5a62fdf3d5b> a skos:Concept ;
     skos:broader <bae10924-5e0e-4650-abc6-1236fd8a6bbf> ;
@@ -11872,7 +11896,7 @@ In diesem Abschnitt werden nur einfache Aspekte betrachtet. Genauer wird das The
 <68cc6430-2d34-4bdb-b87d-ce964a24ad14> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Gesellschaftsphilosophie des 20. Jahrhunderts"@de ;
+    skos:prefLabel "Gesellschaftsphilosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "E. Bloch"@de,
@@ -12412,11 +12436,19 @@ Spielfähigkeit."""@de ;
 
 <6f0a9ff3-6cba-4ef3-a510-36cdf8b3e9b1> a skos:Concept ;
     skos:broader <f11acc66-f302-4ebe-ab1d-e3f2ab691489> ;
+    skos:definition "Der Zen-Buddhismus ist eine Strömung des Buddhismus und gehört zu dessen Hauptrichtung Mahayana. Das Höchste im Zen-Buddhismus ist das Erleben des gegenwärtigen Augenblicks durch  Meditation."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie des Zen-Buddhismus"@de ;
+    skos:prefLabel "Zen-Buddhismus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Zen-Buddhismus"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Japan"@de,
+        "Koan"@de,
+        "Leere"@de,
+        "Meditation"@de,
+        "Versenkung"@de,
+        "Zazen"@de,
+        "Zen"@de .
 
 <6f1663a7-6566-487e-83ec-96ff18c1257b> a skos:Concept ;
     skos:broader <3dc91d84-3e5c-4bb6-b119-d5f46e9aca28> ;
@@ -12887,12 +12919,13 @@ Spielfähigkeit."""@de ;
 <72cca9b0-6579-494f-bdbe-f5286f0ba48b> a skos:Concept ;
     skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Auffassungen zur Staatstheorie"@de ;
+    skos:prefLabel "Staatstheorie und Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Gesellschaftsvertrag"@de,
         "Gottesgnadentum"@de,
         "John Locke"@de,
+        "John Rawls"@de,
         "Leviathan"@de,
         "Rosseau"@de,
         "Staates bei Hobbes"@de,
@@ -13081,10 +13114,9 @@ Spielfähigkeit."""@de ;
 <75961ba2-0b26-435d-aadd-884c2ea922f7> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Dilthey"@de ;
+    skos:prefLabel "Wilhelm Dilthey"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Wilhelm Dilthey"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <759c3eeb-e7cc-4c11-b90d-65f2772ecd1a> a skos:Concept ;
     skos:broader <0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e> ;
@@ -13132,7 +13164,8 @@ Spielfähigkeit."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "John Stuart Mill"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
     sdo:keywords "Charakterbildung"@de,
         "Glück der Allgemeinheit"@de,
         "John Stuart Mill"@de,
@@ -15870,7 +15903,7 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 <8d8a257a-f256-45d3-8786-cbd787a1f970> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Viktor Emil Frankl"@de ;
+    skos:prefLabel "Viktor Emil Frankl"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Selbsttranszendenz"@de,
@@ -16060,7 +16093,7 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 <8f0c6ce9-3384-4e7e-80b1-99d88231ff11> a skos:Concept ;
     skos:broader <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Naturrecht und Rechtspositivismus"@de ;
+    skos:prefLabel "Naturrecht und Positives Recht"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Cicero"@de,
@@ -16314,9 +16347,11 @@ Dabei hat die Textilproduktion und somit unsere täglichen Modeentscheidungen ei
 
 <906e474d-3e65-443f-93a5-02560116acee> a skos:Concept ;
     skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
+    skos:definition "Unter „Vorsokratikern” versteht man jene Philosophen und Naturforscher, welche sich mit der Frage nach den Grundelementen und Kräften der materiellen und spirituellen Welt auseinandersetzten. Dazu werden gerechnet: Heraklit, Demokrit, Thales, Pythagoras, Empedokles u.a."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Vorsokratiker"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/240>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Anaxadoras"@de,
         "Anaximander"@de,
@@ -16331,10 +16366,14 @@ Dabei hat die Textilproduktion und somit unsere täglichen Modeentscheidungen ei
 
 <90a2fada-93a1-447e-85fe-117e1fe8b11d> a skos:Concept ;
     skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
+    skos:definition "Als Sophisten wird eine Gruppe von Männern aus der griechischen Antike bezeichnet, die über besondere Kenntnisse auf theoretischem (Mathematik und Geometrie) oder praktischem Gebiet (Handwerk, Musik, Dichtung) verfügten, im engeren Sinne vor allem Didaktiker und Rhetoriker, die mit dem Vermitteln ihrer Kenntnisse ihren Lebensunterhalt verdienten. Sie wirkten von etwa 450 v. Chr. bis etwa 380 v. Chr."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sophistik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Pädagogik"@de,
+        "Redekunst"@de,
+        "Rhetorik"@de .
 
 <90cc8f9a-4b6a-4dfd-87f5-7bf86ca1fadc> a skos:Concept ;
     skos:broader <9375d38b-1add-4f12-94c5-6979a01ff945> ;
@@ -18514,11 +18553,9 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
 <a04640c9-ad56-415e-846f-bc3f6598198d> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Marx und Engels"@de ;
+    skos:prefLabel "Karl Marx und Friedrich Engels"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Friedrich Engels"@de,
-        "Karl Marx"@de .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
 <a084979c-d3c3-4aad-be15-3d4676ddeb62> a skos:Concept ;
     skos:broader <3dd93c5a-13e8-4e0b-931d-7cd78ebc7f70> ;
@@ -19515,7 +19552,10 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Thomas von Aquin"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Gottesbeweis"@de,
+        "Scholastik"@de .
 
 <a84480af-e9e2-4a9d-832e-1c893123e601> a skos:Concept ;
     skos:broader <6e692239-52be-4083-8093-936a6872714e> ;
@@ -20535,7 +20575,7 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
 <b0fbdce5-cde1-4261-90ec-778876bffeff> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie der Stoiker"@de ;
+    skos:prefLabel "Die Stoiker"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/240>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
@@ -20788,10 +20828,16 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
 
 <b2e8ad76-2e3d-411a-95d8-1cf3b584ba70> a skos:Concept ;
     skos:broader <d0fd5dcc-49d8-40a3-b072-58c306296bd3> ;
+    skos:definition """Niemand ist zu jung oder zu alt, um etwas für die Gesundheit seiner Seele zu tun. 
+Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Motivation für das Philosophieren"@de ;
+    skos:prefLabel "Philosophieren - Warum?"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "philosophische Fragen stellen"@de,
+    sdo:keywords "Persönliche Lebensgestaltung"@de,
+        "Philosophieren in der Grundschule"@de,
+        "Philosophieren mit Kindern"@de,
+        "Seelenruhe"@de,
+        "philosophische Fragen stellen"@de,
         "philosophisches Denken"@de,
         "warum philosophieren"@de .
 
@@ -22581,7 +22627,11 @@ Wir haben für dich Material gesammelt, dass zeigt wie sich z.B. Künstler*innen
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Fichte"@de,
-        "Johann Gottlieb Fichte"@de .
+        "Johann Gottlieb Fichte"@de,
+        "Reden an die deutsche Nation"@de,
+        "Subjekt und Objekt"@de,
+        "Wissenschaftslehre"@de,
+        "absolutes Ich"@de .
 
 <c1f6af28-8c59-47e5-858a-97a47359a5cf> a skos:Concept ;
     skos:broader <3acd5e27-451d-4795-a6ec-ade3ef975f4a> ;
@@ -23937,11 +23987,15 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 <cbd805da-a2b4-4b98-aa3d-a959055facba> a skos:Concept ;
     skos:broader <aba245d5-4d01-4fa6-bad1-b8f9cf9aea98> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Georg Wilhelm Friedrich Hegel"@de ;
+    skos:prefLabel "Georg Friedrich Wilhelm Hegel"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Georg Wilhelm Friedrich Hegel"@de,
-        "Hegel"@de .
+    sdo:keywords "Aufhebung"@de,
+        "Dialektik"@de,
+        "Entfremdung"@de,
+        "Georg Wilhelm Friedrich Hegel"@de,
+        "Hegel"@de,
+        "Weltgeist"@de .
 
 <cbe590dd-422e-4b07-9f04-f41b57d38833> a skos:Concept ;
     skos:broader <b341e056-1a78-41c0-b42c-489c91159edd> ;
@@ -24078,10 +24132,17 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 
 <cd1edc00-677f-41ae-946d-d6c0538723f9> a skos:Concept ;
     skos:broader <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
+    skos:definition "Platon (427 - 347 v. Chr.)  begründete in Athen eine Philosophenschule. Seine Schriften befassen sich mit Staatsphilosophie, Ethik und Erkenntnistheorie. Diese sind in Dialogen verfasst, in denen Sokrates im Gespräch mit Anhängern und Gegnern diese zu philosophischen Erkenntnissen und Wahrheiten führt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Platon"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Höhlengleichnis"@de,
+        "Idee"@de,
+        "Seelenlehre"@de,
+        "Staatstheorie"@de,
+        "Tugendlehre"@de .
 
 <cdae1cd9-c3d5-4806-9fcf-7c69f2bbcccd> a skos:Concept ;
     skos:broader <26beee37-c456-455c-9a75-8584e396da79> ;
@@ -24523,6 +24584,7 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Rollenbild und Identität"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/44007>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Bedürfnisse"@de,
         "Castoriadis‘ Autonomiebegriff"@de,
@@ -25259,10 +25321,17 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
 
 <d6c01bf0-97ba-4467-bdef-80388ce41ecd> a skos:Concept ;
     skos:broader <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
+    skos:definition """Sokrates ( 469 - 399 v. Chr.) war ein für das abendländische Denken grundlegender griechischer Philosoph, der in Athen zur Zeit der Attischen Demokratie lebte und wirkte. Zur Erlangung von Menschenkenntnis, ethischen Grundsätzen und Weltverstehen entwickelte er eine Verfahrensweise des Dialogs, die er Maieutik („Hebammenkunst“) nannte.
+Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens und Denkens beruht hauptsächlich auf Schriften seiner Schüler Platon und Xenophon. Sokrates wurde 399 v. Chr. in einem öffentlichen Prozess zum Tod durch den Giftbecher verurteilt."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sokrates"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Dämon"@de,
+        "Gewissen"@de,
+        "Hebammenkunst"@de,
+        "Mäeutik"@de,
+        "innere Stimme"@de .
 
 <d7465314-d409-4f2e-a964-3818bc42da11> a skos:Concept ;
     skos:broader <4460f820-634b-415c-a404-2889f17c7aca> ;
@@ -25520,8 +25589,16 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Hellenistische Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/240>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Epikur"@de,
+    sdo:keywords "Aristoteles"@de,
+        "Epikur"@de,
+        "Kyniker"@de,
+        "Marc Aurel"@de,
+        "Peripatetiker"@de,
+        "Platon"@de,
+        "Seneca"@de,
+        "Sokrates"@de,
         "Stoa"@de .
 
 <d92f9cea-6503-40d1-a2e1-3c28b4984210> a skos:Concept ;
@@ -25569,7 +25646,7 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
 <d9d75c8b-0f43-4845-be1b-cc833322f6c1> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie der Hermeneutik"@de ;
+    skos:prefLabel "Hermeneutik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "H.-G. Gadamer"@de,
@@ -26041,8 +26118,13 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
     skos:prefLabel "Immanuel Kant"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Immanuel Kant"@de,
-        "Kant"@de .
+    sdo:keywords "Aufklärung"@de,
+        "Immanuel Kant"@de,
+        "Kant"@de,
+        "Kategorischer Imperativ"@de,
+        "Kopernikanische Wende"@de,
+        "Religionskritik"@de,
+        "praktische und reine Vernunft"@de .
 
 <ddcb52c7-5ae3-4ff7-9cf4-8dfdc14c647d> a skos:Concept ;
     skos:broader <0b3a729c-b006-499c-8da9-251657fbe52b> ;
@@ -26549,6 +26631,16 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
     sdo:keywords "Possessivpronomen"@de,
         "besitzanzeigende Fürwörter"@de .
 
+<e24e6a6e-2aa4-47f6-803e-d78067e2c61c> a skos:Concept ;
+    skos:broader <2d8658f5-4fe7-4de7-85c6-ae8164777be0> ;
+    skos:definition """<p><b>Wie schaffen wir es die Gemeinschaftsverpflegung nachhaltiger zu gestalten? </b> 
+<p> Die sorgfältig ausgewählten Materialien zeigen das hohe Potenzial der Kita-und Schulverpflegung für den Klimaschutz. Auch aus gesundheitlichen Gründen lohnt sich eine Wende in der Gemeinschaftsverpflegung hin zu mehr frischer, pflanzlicher Kost.
+
+<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href="https://wirlernenonline.de/mitmachen/">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"""@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Schul- und Kitaverpflegung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> .
+
 <e268ff6b-f8be-445a-aa2c-a57b021d9515> a skos:Concept ;
     skos:broader <65b390bf-5255-4045-9165-2f588479f529> ;
     skos:definition "Das Dehnungs-h oder auch silbenschließendes h ist stumm und dient als Dehnungszeichen zur (zusätzlichen) Verdeutlichung des langen/gedehnten Vokals in einer offenen Silbe. Oft stehen nach dem Dehnungs-h die Konsonanten l,m,n oder r (z.B. “wohnen”). In der Schule werden diese Wörter oft als Merkwörter thematisiert. Hier findest du viele hilfreiche Materialien zu dem Thema."@de ;
@@ -26876,7 +26968,7 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
 <e505a230-c57c-4f26-a515-2a09397d3c75> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Weitere kommunikationspsychologische Ansätze der Philosophie"@de ;
+    skos:prefLabel "Weitere kommunikationspsychologische Ansätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Berne"@de,
@@ -27975,6 +28067,13 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
     sdo:keywords "Marktformen"@de,
         "Polypol, Oligopol, Monopol"@de .
 
+<ef081a2c-ea06-40cc-a409-8dcd80c5df00> a skos:Concept ;
+    skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Platons Idee der Lebensgestaltung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+
 <ef0e8907-474e-4bd9-9350-17f69675ec5c> a skos:Concept ;
     skos:broader <502ab680-af31-4c76-8b74-b493e8d918fb> ;
     skos:definition "Atomkerne lassen sich durch unterschiedliche Modelle beschreiben. Grundlegend für die Entdeckung des Atomkerns war zunächst der Rutherford-Versuch, der zu einem einfachen Kern-Hülle-Modell führte. Für die meisten Anwendungen der Schulphysik hat sich das Tropfenmodell bewährt. In diesem Modell bestehen Atomkerne aus Protonen und Neutronen. Die Elektronen in der Atomhülle sind für kernphysikalische Prozesse in der Regel nicht relevant. Neben diesem eher einfachen Kernmodell lässt sich der Atomkern auch quantenphysikalisch zum Beispiel mit Hilfe eines linearen Potentialtopf-Modells beschreiben."@de ;
@@ -28798,6 +28897,7 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
 
 <f6068eca-71a3-4a64-a7d8-149a7e6dd671> a skos:Concept ;
     skos:broader <388a06f5-954c-47ee-8d7c-03de01d512ec> ;
+    skos:definition "Scholastik ist die Denkweise und Methode der Beweisführung, die in der lateinischs prachigen Gelehrtenwelt des Mittelalters entwickelt wurde. (zit. nach Wikipedia)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Scholastik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -29148,10 +29248,13 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
 
 <f7b8a713-f247-4741-8f6e-c893875e4b44> a skos:Concept ;
     skos:broader <f11acc66-f302-4ebe-ab1d-e3f2ab691489> ;
+    skos:definition """Konfuzius (551-479 v. Chr.) war ein Gelehrter, der von Hof zu Hof zog und bei verschiedenen Fürsten als Ratgeber tätig war. Der Kern seiner Lehre ist Herstellung und Erhalt von Harmonie in Familie, im Dorf, im Reich und schließlich im Kosmos.
+Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehren“."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Konfuzius und der Konfuzianismus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
     sdo:keywords "China"@de,
         "Familie"@de,
         "Harmonie"@de,
@@ -29159,10 +29262,18 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
 
 <f7e0a858-f457-407d-ad68-acf4217baf32> a skos:Concept ;
     skos:broader <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
+    skos:definition "Aristoteles (384 - 322 v.Chr.) gründete in Athen die „Peripatetische Schule” (genannt nach dem Wandelgang, in dem er lehrte). Er war der Erzieher von Alexander dem Großen und gilt als einer wirkungsmächtigste aller antiken Philosophen. Seine Werke beschäftigen sich mit Logik, Naturwissenschaft, Staatstheorie und Ethik."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Aristoteles"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Eudamonia"@de,
+        "Glück"@de,
+        "Logik"@de,
+        "Nikomachische Ethik"@de,
+        "Staatslehre"@de,
+        "Tugendlehre"@de .
 
 <f8206f74-3eb9-4c9a-b6e2-7c89cdae1583> a skos:Concept ;
     skos:broader <9cd0e0f9-1642-4eb4-92d9-a815e4133ad1> ;
@@ -29387,7 +29498,7 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
 <f983a532-6008-458e-b8a5-39cd5344cd9d> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Die Philosophie von Albert Camus"@de ;
+    skos:prefLabel "Albert Camus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Sinn im Angesicht von Absurdität"@de,
@@ -31467,19 +31578,6 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
         "Nachhaltigkeit"@de,
         "Umweltschutz"@de .
 
-<e5f2fbcf-0609-49fc-9025-b882a06e72ef> a skos:Concept ;
-    skos:broader <8b3b171d-11be-4a50-9042-b435ee50251e> ;
-    skos:definition "Tolle Materialien zu den Jahreszeiten gesucht? Vor allem zum Herbst wirst du hier fündig. Gern kannst du uns auch passendes Material von dir einsenden, um unsere Sammlung zu erweitern."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <8dfb199e-af0c-46df-9798-a6755603cab7>,
-        <da684986-4dbc-42ff-87e5-e3d724e26cb1> ;
-    skos:prefLabel "Jahreszeiten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
-    sdo:keywords "Frühling"@de,
-        "Herbst"@de,
-        "Sommer"@de,
-        "Winter"@de .
-
 <e68627d7-5cb8-45b4-a2ff-e65d258ddbdd> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
     skos:definition "Das Wurzelziehen ist die Umkehrung des Potenzierens. Wurzeln können sowohl aus Zahlen als auch aus Termen gezogen werden. Im reellen Bereich existiert die Wurzel einer Zahl genau dann, wenn diese Zahl positiv ist. Für negative Zahlen existieren Wurzeln nur im imaginären Zahlenbereich. Für die Rechnung mit Wurzeln wurden Wurzelgesetze aufgestellt."@de ;
@@ -31650,16 +31748,6 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
     skos:prefLabel "Klangfarbe & Sound"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> .
 
-<2111ef85-dc9e-4ac1-b7a5-f46693d17021> a skos:Concept ;
-    skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <2ee432c3-5c45-4686-8cb6-8feefcb815ac>,
-        <b0fbdce5-cde1-4261-90ec-778876bffeff>,
-        <d009b338-a253-417d-b5c0-4a53d0fc512f> ;
-    skos:prefLabel "Der Sinn des Lebens und die wichtigsten Philosophen(schulen) der Antike"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
-
 <23d2bb8e-9a82-4cf0-be64-6baa09ffbca0> a skos:Concept ;
     skos:broader <f15f727c-9a5a-4f20-b1be-483c15477648> ;
     skos:definition "Lagebeziehungen kennzeichnen die Beziehungen zwischen geometrischen Objekten wie Punkten, Geraden und Ebenen. Um die Lage solcher Objekte zu bestimmen, werden lineare Gleichungssysteme zur Hilfe genommen. Diese Beziehungen werden auch meist im Anwendungskontext für Kollisions- und Schattenaufgaben verwendet."@de ;
@@ -31672,13 +31760,23 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <26beee37-c456-455c-9a75-8584e396da79> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Aufklärung ist eine Kultur- und Geistesbewegung des 17. und 18. Jahrhunderts mit dem Ziel, Anschauungen, die auf religiöser oder politischer Autorität beruhen, durch solche zu ersetzen, die sich aus der Betätigung der menschlichen Vernunft ergeben"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <26ed54d3-1732-4622-8963-92eb77cf2cbe>,
         <50e51aca-40fe-4704-9496-f0fe5bc6061e>,
         <cdae1cd9-c3d5-4806-9fcf-7c69f2bbcccd> ;
     skos:prefLabel "Aufklärung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/240>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Diderot"@de,
+        "Erziehung"@de,
+        "G.E. Lessing"@de,
+        "Immanuel Kant"@de,
+        "J.J.Rousseau"@de,
+        "Montesquieu"@de,
+        "Religionskritik"@de .
 
 <26e4da5f-f2ed-41c9-81bb-8bfad2c02b81> a skos:Concept ;
     skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
@@ -32980,6 +33078,20 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         "Verfügbarkeit"@de,
         "Vorkommen"@de .
 
+<e5f2fbcf-0609-49fc-9025-b882a06e72ef> a skos:Concept ;
+    skos:broader <8b3b171d-11be-4a50-9042-b435ee50251e> ;
+    skos:definition "Tolle Materialien zu den Jahreszeiten gesucht? Vor allem zum Herbst wirst du hier fündig. Gern kannst du uns auch passendes Material von dir einsenden, um unsere Sammlung zu erweitern."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <1b52e630-567c-420f-869b-1b31822fa620>,
+        <8dfb199e-af0c-46df-9798-a6755603cab7>,
+        <da684986-4dbc-42ff-87e5-e3d724e26cb1> ;
+    skos:prefLabel "Jahreszeiten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Frühling"@de,
+        "Herbst"@de,
+        "Sommer"@de,
+        "Winter"@de .
+
 <e67d03cd-9408-45de-9894-d6a47705fc38> a skos:Concept ;
     skos:broader <65652844-fe24-4ab0-9374-02af5a0b63e3> ;
     skos:definition "Atome sind in der Lage, Strahlungsenergie zu absorbieren und zu emitieren. Anders als makroskopische Gegenstände erfolgt diese Absorption und Emission jedoch nicht in beliebigen Portionsgrößen. Vielmehr sind Atome nur in der Lage, Photonen mit ganz bestimmter Energie aufzunehmen oder abzugeben. Dieses Verhalten der Atome lässt sich mit Mitteln der Quantenphysik genauer erklären - und führt zu einer Vielzahl technischer Anwendungen: Der Laser basiert genauso auf dieser grundlegenden Eigenschaft eines Atoms wie sämtliche Halbleiterbauelemente."@de ;
@@ -33050,13 +33162,24 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
 
 <f11acc66-f302-4ebe-ab1d-e3f2ab691489> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Zu den 'asiatischen' Philosophien können gezählt werden: Der Brahmanismus, der Buddhismus, der Konfuzianismus, der Taoismus. Im Vergleich zur 'europäischen' Philosophie ist die 'asiatische' Philosophie stärker auf die Frage, wie der Mensch sein Leben führen soll, gerichtet."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <353f60f4-5022-4906-b8bf-53573cd4cfb2>,
         <6f0a9ff3-6cba-4ef3-a510-36cdf8b3e9b1>,
         <f7b8a713-f247-4741-8f6e-c893875e4b44> ;
     skos:prefLabel "Fernöstliche Philosophien"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Buddhismus"@de,
+        "Dharma"@de,
+        "Hinduismus"@de,
+        "Jainismus"@de,
+        "Karma"@de,
+        "Konfuzius"@de,
+        "Lebensführung"@de,
+        "Samsara"@de,
+        "Zen"@de .
 
 <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> a skos:Concept ;
     skos:broader <f7ad1451-6310-4710-8032-56552efbf98f> ;
@@ -33196,6 +33319,17 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
     skos:prefLabel "Zusammenleben mit anderen Religionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
 
+<2111ef85-dc9e-4ac1-b7a5-f46693d17021> a skos:Concept ;
+    skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <2ee432c3-5c45-4686-8cb6-8feefcb815ac>,
+        <b0fbdce5-cde1-4261-90ec-778876bffeff>,
+        <d009b338-a253-417d-b5c0-4a53d0fc512f>,
+        <ef081a2c-ea06-40cc-a409-8dcd80c5df00> ;
+    skos:prefLabel "Der Sinn des Lebens und die wichtigsten Philosophen(schulen) der Antike"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+
 <216afeb6-e115-4405-a3bf-815abd7713fe> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
     skos:definition "Als Gleichung bezeichnet man einen mathematischen Ausdruck, der zwei Terme durch ein Gleichheitszeichen verbindet. Gleichungen ohne Variablen sind entweder wahre oder falsche Aussagen. Sofern mindestens eine Variable in der Gleichung vorhanden ist, wird eine Gleichung zu einer Aussageform, die durch das Einsetzen konkreter Werte wahr oder falsch wird."@de ;
@@ -33207,38 +33341,6 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
     skos:prefLabel "Gleichungen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> ;
     sdo:keywords "Ungleichungen"@de .
-
-<2d8658f5-4fe7-4de7-85c6-ae8164777be0> a skos:Concept ;
-    skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
-    skos:definition """<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zu den Themen Ernährung.</b> 
-<p> Was hat mein Mittagessen mit dem Klimawandel zu tun? Welche Auswirkungen haben der konventionelle Anbau und die Verschwendung von Lebensmittel auf unseren Planeten? Eine nachhaltige und gesunde Ernährung versucht alle Aspekte der Gesundheit und des Wohlbefindens einer Person zu fördern, wenig Umweltbelastung zu verursachen und verfügbar, bezahlbar, sicher und fair zu sein.
-
-<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href="https://wirlernenonline.de/mitmachen/">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"""@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <3752e010-e2d0-4bde-aef8-d15a4f4d2cf3>,
-        <60f1d172-c443-4e6b-9464-c7154b5e8d15>,
-        <719c3670-d44e-4f37-ac69-2b20f03d13d8>,
-        <eb4181cd-aa5e-4443-b0e2-1390417fd8b6> ;
-    skos:prefLabel "Nachhaltige Ernährung"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> ;
-    sdo:keywords "Artgerechte Haltung"@de,
-        "Bio"@de,
-        "Ernährung"@de,
-        "Fleischkonsum"@de,
-        "Futtermittel"@de,
-        "Kochen"@de,
-        "Landwirtschaft"@de,
-        "Lebensmittel"@de,
-        "Lebensmittelverschwendung"@de,
-        "Massentierhaltung"@de,
-        "Regional "@de,
-        "Rezepte"@de,
-        "Saisonal "@de,
-        "Tiere"@de,
-        "fair"@de,
-        "fairer Handel"@de,
-        "unverpackt"@de,
-        "ökologische Landwirtschaft"@de .
 
 <2eda0065-f69b-46c8-ae09-d258c8226a5e> a skos:Concept ;
     skos:narrower <3e719a77-fdcd-450f-b00d-aacc9fc0b13c>,
@@ -34486,6 +34588,39 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> .
 
+<2d8658f5-4fe7-4de7-85c6-ae8164777be0> a skos:Concept ;
+    skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
+    skos:definition """<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zu den Themen Ernährung.</b> 
+<p> Was hat mein Mittagessen mit dem Klimawandel zu tun? Welche Auswirkungen haben der konventionelle Anbau und die Verschwendung von Lebensmittel auf unseren Planeten? Eine nachhaltige und gesunde Ernährung versucht alle Aspekte der Gesundheit und des Wohlbefindens einer Person zu fördern, wenig Umweltbelastung zu verursachen und verfügbar, bezahlbar, sicher und fair zu sein.
+
+<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href="https://wirlernenonline.de/mitmachen/">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"""@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <3752e010-e2d0-4bde-aef8-d15a4f4d2cf3>,
+        <60f1d172-c443-4e6b-9464-c7154b5e8d15>,
+        <719c3670-d44e-4f37-ac69-2b20f03d13d8>,
+        <e24e6a6e-2aa4-47f6-803e-d78067e2c61c>,
+        <eb4181cd-aa5e-4443-b0e2-1390417fd8b6> ;
+    skos:prefLabel "Nachhaltige Ernährung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> ;
+    sdo:keywords "Artgerechte Haltung"@de,
+        "Bio"@de,
+        "Ernährung"@de,
+        "Fleischkonsum"@de,
+        "Futtermittel"@de,
+        "Kochen"@de,
+        "Landwirtschaft"@de,
+        "Lebensmittel"@de,
+        "Lebensmittelverschwendung"@de,
+        "Massentierhaltung"@de,
+        "Regional "@de,
+        "Rezepte"@de,
+        "Saisonal "@de,
+        "Tiere"@de,
+        "fair"@de,
+        "fairer Handel"@de,
+        "unverpackt"@de,
+        "ökologische Landwirtschaft"@de .
+
 <2e674483-0eae-4088-b51a-c4f4bbf86bcc> a skos:Concept ;
     skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
     skos:definition "In dieser Untersammlung werden Materialien zu dem Thema Evolution zusammengestellt."@de ;
@@ -35303,6 +35438,7 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
 
 <fc171dea-c37f-4617-8685-8abbd7ba79ed> a skos:Concept ;
     skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
+    skos:definition "Aristoteles und die Peripatetiker, Platon und Sokrates, Zenon und die Stoa, Epikur und die gemäßigte Lust"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <277fd3bd-6684-4c24-b664-69bf9ad46f38>,
         <69323ce0-fe44-4e3d-a627-f0ac54041ce1>,
@@ -35313,8 +35449,10 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Aristoteles"@de,
+        "Epikur"@de,
         "Platon"@de,
-        "Sokrates"@de .
+        "Sokrates"@de,
+        "Stoa"@de .
 
 <00ba6d4c-0d97-4bb4-a182-149daedb9589> a skos:Concept ;
     skos:broader <dcc76bcf-0c92-402c-aea2-db3f1595379f> ;
@@ -38895,7 +39033,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-06-09" ;
+    dct:modified "2022-06-16" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
