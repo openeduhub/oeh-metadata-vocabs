@@ -8841,6 +8841,7 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
 
 <522da44f-fcfd-42a5-8aae-f13c5de2ef60> a skos:Concept ;
     skos:broader <d0fd5dcc-49d8-40a3-b072-58c306296bd3> ;
+    skos:definition "Als Anfänge der abendländischen Philosophie werden im Allgemeinen die Gedanken und Forschungen der Vorsokratiker gesehen. Deren Anliegen bestand darin, das durch Mythos und Götterkult geprägte Weltbild der griechischen Gesellschaft durch rationale Überlegungen und Forschungen zu überwinden. Im Zentrum dieser Bemühungen steht die Elementenlehre und die Frage nach dem Urgrund allen Seins."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Anfänge der Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
@@ -32835,13 +32836,21 @@ Hier gibt es allgemeine Materialien zur Sicherheit im Labor und bei der Nutzung 
 
 <c3cd2a3f-5a9f-434e-a1d4-1c5039083d79> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
+    skos:definition "„Erkenne dich selbst!” stand über dem Eingang des Apollo-Tempels in Delphi.Der Vorsokratiker Thales soll diesen Spruch geprägt haben. Selbsterkenntnis zielt auf die Eigenart und Bedingtheit des „Ich”, seine Anlagen, Fähigkeiten, Schwächen und Grenzen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <3994cf1c-abcf-4446-a5fe-2da890f8c8a7>,
         <6769ce5e-5e66-4293-ac30-bd482f4c306f>,
         <956d4eaf-a03c-4337-ad22-c60df0a5b1a5> ;
     skos:prefLabel "Der Mensch und die Frage nach dem Selbst"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Bedingtheit"@de,
+        "Gemeinschaft"@de,
+        "Grenzen"@de,
+        "Ich"@de,
+        "Lebensweltbezug"@de,
+        "Potenziale"@de,
+        "Selbsterkenntnis"@de .
 
 <c6de9e8a-1595-4cb5-9f3f-bf8d2acd6e9f> a skos:Concept ;
     skos:broader <4dc04d83-824a-4b20-bc5d-d7402e385ae1> ;
