@@ -5120,6 +5120,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 
 <2ee432c3-5c45-4686-8cb6-8feefcb815ac> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
+    skos:definition "Aristoteles entwickelt seine Glückslehre in der Schrift „Nikomachische Ethik”. Glückseligkeit (eudaimonia) entsteht, wenn der Mensch gemäß seiner Tugend tätig sein kann. Der Staat, das Gemeinwesen, muss dafür die Voraussetzungen schaffen, darin besteht sein Wesenszweck."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Aristoteles' Lehre vom Glück"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -5129,6 +5130,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "Glück"@de,
         "Glückseligkeit"@de,
         "Haltung"@de,
+        "Tugendlehre"@de,
         "hexis"@de,
         "menschliches Tätigsein"@de,
         "theoria"@de .
@@ -20574,6 +20576,7 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
 
 <b0fbdce5-cde1-4261-90ec-778876bffeff> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
+    skos:definition "Die Philosophie der Stoiker von Zenon bis zum römischen Kaiser Marc Aurel keist um die Begriffe Pflicht und Logos. Der Mensch hat demnach die Pflicht, der in der Natur herrschenden Vernunft (Logos) zum Durchbruch zu verhelfen, darf dafür aber keinen Dank erwarten, sondern sich in Gelassenheit und innerer Ruhe zu üben."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Die Stoiker"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -24477,6 +24480,7 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 
 <d009b338-a253-417d-b5c0-4a53d0fc512f> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
+    skos:definition "Die philosophische Schule des Epikur - auch der 'Garten des Epikur' genannt - ist eine der wichtigen philosophischen Richtungen der Antike und zu verstehen als Gegenentwurf zum Pflicht-Denken der Stoa. Als Naturphilosoph steht Epikur dem Atomismus Demokrits nahe, lebensphilosophisch befürwortet der Epikuräismus ein ruhiges und ausgeglichenes Leben jenseits der großen gesellschaftlichen Aufgeregheiten und politischen Ereignisse."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Epikur und die Philosophie des Hedonismus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -28069,10 +28073,17 @@ Dazu gibt es hier Bilder, Arbeitsblätter, Erklärvideos und Videos von Experime
 
 <ef081a2c-ea06-40cc-a409-8dcd80c5df00> a skos:Concept ;
     skos:broader <2111ef85-dc9e-4ac1-b7a5-f46693d17021> ;
+    skos:definition """In seinem Werk Politeia verwendet Platon das Höhlengleichnis zur Klärung der Frage: Was bedeutet Bildung und wie kann sie ermöglicht werden. 
+Damit einher geht die Möglichkeit der freiheitlichen Lebensgestaltung und eine Hinwendung zu Wissen und Erkenntnis. 
+Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit Lebenskunst. Platon bezeichnete die Philosophie auch als „Fürsorge für die Seele“."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Platons Idee der Lebensgestaltung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Bildung"@de,
+        "Höhlengleichnis"@de,
+        "Paideia"@de,
+        "Politeia"@de .
 
 <ef0e8907-474e-4bd9-9350-17f69675ec5c> a skos:Concept ;
     skos:broader <502ab680-af31-4c76-8b74-b493e8d918fb> ;
@@ -33321,6 +33332,7 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
 
 <2111ef85-dc9e-4ac1-b7a5-f46693d17021> a skos:Concept ;
     skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
+    skos:definition "Was ein glückliches Leben ausmache, ist die Frage, der sich die wichtigsten griechischen Philosophen und Philosophenschulen gewidmet haben: Platon und seine Schüler, Aristoteles und die Peripatetiker, Epikur in seinem Garten, Zenon und die Stoiker, auch Diogenes und die Kyniker."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <2ee432c3-5c45-4686-8cb6-8feefcb815ac>,
         <b0fbdce5-cde1-4261-90ec-778876bffeff>,
@@ -33328,7 +33340,13 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         <ef081a2c-ea06-40cc-a409-8dcd80c5df00> ;
     skos:prefLabel "Der Sinn des Lebens und die wichtigsten Philosophen(schulen) der Antike"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Glückseligkeit"@de,
+        "Hedonismus"@de,
+        "Logos"@de,
+        "Lust und Askese"@de,
+        "Pflicht"@de,
+        "eudaimonia"@de .
 
 <216afeb6-e115-4405-a3bf-815abd7713fe> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
