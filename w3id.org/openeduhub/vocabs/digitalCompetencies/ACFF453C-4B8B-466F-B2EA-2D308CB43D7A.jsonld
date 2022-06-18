@@ -1,0 +1,127 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/ACFF453C-4B8B-466F-B2EA-2D308CB43D7A",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FdigitalCompetencies%2FACFF453C-4B8B-466F-B2EA-2D308CB43D7A",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FdigitalCompetencies%2FACFF453C-4B8B-466F-B2EA-2D308CB43D7A",
+  "prefLabel": {
+    "de": "3.3. Rechtliche Vorgaben beachten"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/2EE8DA61-509D-4018-A148-297FEC67B895",
+      "prefLabel": {
+        "de": "3.3.1. Bedeutung von Urheberrecht und geistigem Eigentum kennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/7FDDE6D6-790A-4478-9877-3A6E47F207B8",
+      "prefLabel": {
+        "de": "3.3.2. Urheber- und Nutzungsreche (Lizenzen) bei eigenen und fremden Werken berücksichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/811BF793-18A9-4832-B782-E0B7A7DB2BC5",
+      "prefLabel": {
+        "de": "3.3.3. Persönlichkeitsrechte beachten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/F427CBE5-3444-405B-B3ED-31392C5AD548",
+    "prefLabel": {
+      "de": "3. Produzieren und Präsentieren"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/",
+    "title": {
+      "de": "Kompetenzen in der digitalen Welt (KMK)"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

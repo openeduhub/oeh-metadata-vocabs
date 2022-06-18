@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
+  "prefLabel": {
+    "de": "Grammatik"
+  },
+  "definition": {
+    "de": "An dieser Stelle finden sich die wichtigsten Themen aus der türkischen Grammatik."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12667089-2a9e-426a-9022-3cd41ff2eb53",
+      "prefLabel": {
+        "de": "Verbaladverbien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2f5dcaf4-75b3-4e3f-991c-717b8f58d1fb",
+      "prefLabel": {
+        "de": "Zahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2fe4df41-cc0b-4ae5-a14f-c805dc5e6588",
+      "prefLabel": {
+        "de": "Satzbau"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/37691013-3065-42dd-af75-a9aeaaef23f8",
+      "prefLabel": {
+        "de": "Vokalharmonie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/391a7476-3284-44e7-a0a7-f27ebf5f997e",
+      "prefLabel": {
+        "de": "grammatisches Geschlecht und Artikellosigkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7ca1c7fa-28fb-4363-8686-dac35629f2ed",
+      "prefLabel": {
+        "de": "Adjektive und Adverbien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/81d6938d-5216-4fbe-b1d6-2979765751fd",
+      "prefLabel": {
+        "de": "Interjektionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/86b09fdf-f638-496a-8089-c3e2f7a42930",
+      "prefLabel": {
+        "de": "Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/97c3cbbf-8436-4d75-912b-60a01aa10102",
+      "prefLabel": {
+        "de": "Pronomen und Begleiter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b16e4817-928d-4755-a4d6-508aaa1051de",
+      "prefLabel": {
+        "de": "Konjunktionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c636ed83-adf3-407a-99dd-38e098f55c8f",
+      "prefLabel": {
+        "de": "Agglutination"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cc1c2373-cbb1-4aa4-a23f-5d5f727155d2",
+      "prefLabel": {
+        "de": "Postpositionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ced8958b-967f-4d85-90d5-ea4486432c40",
+      "prefLabel": {
+        "de": "Verbalnomina"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d155f98b-ecf8-420b-a97b-e6cddbc1366f",
+      "prefLabel": {
+        "de": "Nomen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/26105802-9039-4add-bf21-07a0f89f6e70",
+    "prefLabel": {
+      "de": "Türkisch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20008"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

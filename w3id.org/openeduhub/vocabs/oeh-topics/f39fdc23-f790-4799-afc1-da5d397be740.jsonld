@@ -1,0 +1,189 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f39fdc23-f790-4799-afc1-da5d397be740",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff39fdc23-f790-4799-afc1-da5d397be740",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff39fdc23-f790-4799-afc1-da5d397be740",
+  "prefLabel": {
+    "de": "Informatik & Gesellschaft"
+  },
+  "definition": {
+    "de": "Informatik und Gesellschaft (IuG) erforscht in einer interdisziplinären Herangehensweise die Rolle der Informatik auf dem Weg zur Informationsgesellschaft. Ausgehend von historischen, sozialen, kulturellen Fragen betrifft dies ökonomische, politische, ökologische, ethische, didaktische und selbstverständlich technische Aspekte. \nSicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbstbestimmung. Du findest hier aber auch Material zu wichtigen Persönlichkeiten und etwas zur Geschichte der Informatik."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0674ba75-6297-4c4a-a2eb-7e917a397cbd",
+      "prefLabel": {
+        "de": "Persönlichkeiten der Informatik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2c8136f7-da1a-46bf-8046-d08fa6641001",
+      "prefLabel": {
+        "de": "OER"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2e21b6df-22ea-4669-8f2b-804b24403eaa",
+      "prefLabel": {
+        "de": "Informationelle Selbstbestimmung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3321013a-7fb8-4a87-b9da-10e99f253714",
+      "prefLabel": {
+        "de": "Grand Challenges"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3a7f858d-b929-42a8-af32-67cfdfe1edf8",
+      "prefLabel": {
+        "de": "Geschichte der Informatik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3b5c327d-dd67-4677-b4ef-d33cef82ce7d",
+      "prefLabel": {
+        "de": "Soziale Netzwerke"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6d473eee-7dfe-4b95-98d2-ce6b456d6109",
+      "prefLabel": {
+        "de": "Big Data"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/840bedc5-f0fe-4d09-9cfb-dd7d3a60bee0",
+      "prefLabel": {
+        "de": "Sicherheit im Netz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8aa30233-8e6c-4cab-8238-f90dc73a5947",
+      "prefLabel": {
+        "de": "Open Data und Open Source"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/946e4e87-b5f7-4ca9-9436-3ea7f20d824d",
+      "prefLabel": {
+        "de": "Authentifikation und Verlässlichkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c0f4e17b-c6a6-4e4f-b7ae-86819b4e5787",
+      "prefLabel": {
+        "de": "Datenschutz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d8f04a52-70b8-4718-b176-4a1a212b2910",
+      "prefLabel": {
+        "de": "Datensicherheit"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/742d8c87-e5a3-4658-86f9-419c2cea6574",
+    "prefLabel": {
+      "de": "Informatik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/320"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

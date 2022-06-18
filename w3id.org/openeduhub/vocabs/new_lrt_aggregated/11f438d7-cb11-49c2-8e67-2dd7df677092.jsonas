@@ -1,0 +1,19 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+  "type": "Service",
+  "name": "Unterrichtsidee",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6e65775f6c72745f616767726567617465642f31316634333864372d636231312d343963322d386536372d326464376466363737303932",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F11f438d7-cb11-49c2-8e67-2dd7df677092",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F11f438d7-cb11-49c2-8e67-2dd7df677092",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}
