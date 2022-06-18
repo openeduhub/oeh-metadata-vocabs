@@ -2592,6 +2592,8 @@ Lerne hier noch mehr über die Aufforderungssätze!"""@de ;
 
 <192c4560-0422-4bbc-933b-dfc62112f521> a skos:Concept ;
     skos:broader <956d4eaf-a03c-4337-ad22-c60df0a5b1a5> ;
+    skos:definition """Wann ist ein Mann ein Mann,
+Wann ist ein Mann ein Mensch?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Geschlechteridentität und Geschlechterrollen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -24586,6 +24588,13 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 
 <d0cccdf7-3da1-428a-a826-21781c1b6bc7> a skos:Concept ;
     skos:broader <956d4eaf-a03c-4337-ad22-c60df0a5b1a5> ;
+    skos:definition """„Die ganze Welt ist Bühne
+und alle Fraun und Männer bloße Spieler.
+Sie treten auf und gehen wieder ab,
+sein Leben lang spielt einer manche Rollen,
+durch sieben Akte hin."
+ 
+("All the world´s a stage..." Shakespeare: As you like it, II,7)"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Rollenbild und Identität"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
