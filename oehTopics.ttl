@@ -7510,12 +7510,16 @@ Beim Turnen spielen vor allem folgende Geräte eine wichtige Rolle: Sprunggerät
 
 <43b2310d-b6a9-412e-9e35-6fa1ad455d20> a skos:Concept ;
     skos:broader <7e15bd2b-e6a1-4d31-a317-2e7b8a0e7b3a> ;
-    skos:definition "Was und wie ist Sprache?"@de ;
+    skos:definition """Was ist und wie funktioniert Sprache?
+Was heißt: sich verstehen?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Eigenschaften von Sprache"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Eigenheiten der Sprache"@de,
+        "Kommunikation"@de,
+        "Kommunikationsmodell"@de,
+        "Verstehen"@de,
         "sprachsensibel"@de .
 
 <440cc4b4-44ba-40d5-add3-db130164009d> a skos:Concept ;
@@ -16097,6 +16101,8 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 
 <8f0c6ce9-3384-4e7e-80b1-99d88231ff11> a skos:Concept ;
     skos:broader <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> ;
+    skos:definition """Im Naturrecht werden Normen aus der „Natur des Menschen“ oder dem „Naturzustand“ hergeleitet.
+Positives Recht wird dasjenige Recht geheißen, das sich eine Gemeinschaft oder ein Staat setzt, um den konfliktfreien Verkehr seiner Staatsbürger zu regeln und zu gewährleisten."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Naturrecht und Positives Recht"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -22536,6 +22542,7 @@ Wir haben für dich Material gesammelt, dass zeigt wie sich z.B. Künstler*innen
 
 <c1143896-2de5-4fa1-a318-88b342a52369> a skos:Concept ;
     skos:broader <4d43c053-cfe9-4f6b-a5eb-22b769bc7b08> ;
+    skos:definition "Warum gibt es das Übel in der Welt? Was hat es mit 'Gott' zu tun? Wie lässt sich Gott rechtfertigen hinsichtlich des von ihm zugelassenen Übels? Brauchen wir eine andere Vorstellung von 'Gott'?"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Theodizee - Rechtfertigung Gottes"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -24691,7 +24698,7 @@ durch sieben Akte hin."
 
 <d1819784-f2f1-40ee-9aa8-af3d62a006c4> a skos:Concept ;
     skos:broader <4d43c053-cfe9-4f6b-a5eb-22b769bc7b08> ;
-    skos:definition "Religionskritik von Ludwig Feuerbach, Karl Marx, Sigmund Freud u.a."@de ;
+    skos:definition "Wichtige Kritiker des Christentums oder von Religion überhaupt sind Ludwig Feuerbach, Karl Marx, Sigmund Freud u.a."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Religionskritik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -24702,6 +24709,7 @@ durch sieben Akte hin."
         "J. Habermas"@de,
         "Küng"@de,
         "Materialismus"@de,
+        "Projektion"@de,
         "Religionenkritische Auseinandersetzung mit Weltanschauungen"@de,
         "Religionskritik"@de,
         "Taylor"@de,
@@ -25212,11 +25220,15 @@ Gender Mainstreaming, Gender Studies und Sexualpädagogik."""@de ;
 
 <d51b111b-d377-445d-bfbb-30d671175157> a skos:Concept ;
     skos:broader <7e15bd2b-e6a1-4d31-a317-2e7b8a0e7b3a> ;
+    skos:definition """Können wir unseren Augen noch trauen? Können wir unseren Mitmenschen trauen? Können wir den Mächtigen in der Gesellschaft trauen?
+Wo ist Gewissheit und wie wird sie erlangt?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Täuschungen der Sinne und bewusste Manipulationen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Instagram"@de,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/48005> ;
+    sdo:keywords "Fakenews"@de,
+        "Instagram"@de,
         "Internet"@de,
         "Snapchat"@de,
         "Täuschung"@de,
@@ -25903,15 +25915,17 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
 
 <dbd3e775-276e-47e6-9351-be623d3e1348> a skos:Concept ;
     skos:broader <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> ;
+    skos:definition "John Rawls entwickelt seine Theorie der Gerechtigkeit aus der Frage: Welche Regeln würden Menschen sich geben, wenn sie die Chance hätten oder gezwungen wären;  voraussetzungslos  von vorne anzufangen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "John Rawls Theorie"@de ;
+    skos:prefLabel "John Rawls"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Differenzprinzip"@de,
-        "Fairnesse"@de,
+        "Fairness"@de,
         "Gerechtigkeitsgrundsätze"@de,
         "Rawl"@de,
-        "Schleier des Nichtwissens"@de .
+        "Schleier des Nichtwissens"@de,
+        "Urzustand"@de .
 
 <dc0005ab-6026-48b2-9c86-68125165c72b> a skos:Concept ;
     skos:broader <d55d6139-982a-472b-ad78-ded266ce8a25> ;
@@ -32977,6 +32991,7 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
 
 <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> a skos:Concept ;
     skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
+    skos:definition "Gerechtigkeit ist die Summe aller Tugenden, sie betrifft das rechte Verhalten zu den Mitmenschen, denen es gerecht zu werden gilt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <47ce4897-8d87-4a6b-9413-34b6fbffc3e5>,
         <8f0c6ce9-3384-4e7e-80b1-99d88231ff11>,
@@ -32994,6 +33009,7 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         "Naturrecht"@de,
         "Prävention"@de,
         "Strafrechtstheorien"@de,
+        "Tugendlehre"@de,
         "Weber"@de .
 
 <d47b7df4-db95-4942-8554-2cc54d935e72> a skos:Concept ;
