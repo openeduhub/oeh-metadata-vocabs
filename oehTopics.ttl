@@ -34457,6 +34457,7 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
 
 <f7ad1451-6310-4710-8032-56552efbf98f> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
+    skos:definition "Die Unterscheidung zwischen Philosophie und Wissenschaften erfolgt geschichtlich recht spät, nämlich in der Neuzeit (17. – 19. Jh). Der zentrale Unterschied ist, dass die Philosophie ihre Thesen empirisch nicht „beweisen“ kann und auch nicht Erkenntnisse oder Wissen auf experimentalem Wege anstrebt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <5bcd124a-49cd-4bc4-ab3c-21449b1d9126>,
         <7caea65d-d0c2-4144-b5ee-427a65136a33>,
@@ -34464,7 +34465,13 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> ;
     skos:prefLabel "Philosophie und Wissenschaft"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Einzeldisziplinen"@de,
+        "Empirie"@de,
+        "Experiment"@de,
+        "Gesamtschau"@de,
+        "Objektivität"@de,
+        "Technik"@de .
 
 <fc8f070d-de34-435f-8614-510a45d5f8e1> a skos:Concept ;
     skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
