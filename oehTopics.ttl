@@ -20925,14 +20925,6 @@ Epikur"""@de ;
         "soziale Medien Spanisch"@de,
         "vigilar"@de .
 
-<b3a90cd7-d086-43ce-ba85-cb5b7cca3a49> a skos:Concept ;
-    skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Neuplatonismus"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Plotin"@de .
-
 <b3b51243-2f06-4ab6-af54-ecf95c88576e> a skos:Concept ;
     skos:broader <510f80d2-4a1f-4f5b-87fc-642c2f2f03f4> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -34735,6 +34727,26 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
     skos:prefLabel "Dokumentenbeschreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
 
+<3a9b7ac1-1418-41e4-a10c-f20f13252fff> a skos:Concept ;
+    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <3d43355d-c2d1-4710-bd42-e4c8edb336d0>,
+        <906e474d-3e65-443f-93a5-02560116acee>,
+        <90a2fada-93a1-447e-85fe-117e1fe8b11d>,
+        <d8fd6631-83b2-4308-8d9a-2e30844908dd>,
+        <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
+    skos:prefLabel "Antike"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Aristoteles"@de,
+        "Epikur"@de,
+        "Platon"@de,
+        "Sokrates"@de,
+        "Sophistik"@de,
+        "Stoa"@de,
+        "Vorsokratiker"@de .
+
 <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
     skos:definition "Welche Grundprinzipien von Gemeinschaft haben die Menschen entwickelt? Wie gehen sie  mit Konflikten und Diversität um?"@de ;
@@ -34844,7 +34856,8 @@ So vielseitig, wie wir es sind, ist es das Theater auch. Hier findest Du die unt
         <f3c38a2c-5622-4b20-9885-a1fa17bf3d24> ;
     skos:prefLabel "Philosophie und Religion"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
     sdo:keywords "Gottesbild"@de,
         "Metaphysik"@de,
         "Religionskritik"@de,
@@ -35625,27 +35638,6 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
     sdo:keywords "Fachportalstartseite"@de,
         "Wirtschaft"@de .
-
-<3a9b7ac1-1418-41e4-a10c-f20f13252fff> a skos:Concept ;
-    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
-    skos:definition "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <3d43355d-c2d1-4710-bd42-e4c8edb336d0>,
-        <906e474d-3e65-443f-93a5-02560116acee>,
-        <90a2fada-93a1-447e-85fe-117e1fe8b11d>,
-        <b3a90cd7-d086-43ce-ba85-cb5b7cca3a49>,
-        <d8fd6631-83b2-4308-8d9a-2e30844908dd>,
-        <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
-    skos:prefLabel "Antike"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Aristoteles"@de,
-        "Epikur"@de,
-        "Platon"@de,
-        "Sokrates"@de,
-        "Sophistik"@de,
-        "Stoa"@de,
-        "Vorsokratiker"@de .
 
 <4eb61065-adc0-4a98-857a-e0c898e9f718> a skos:Concept ;
     skos:broader <2e8b863e-9e71-4c96-b281-e50c431815c3> ;
