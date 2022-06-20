@@ -10651,13 +10651,6 @@ Spielfähigkeit."""@de ;
         "le conditionnel"@de,
         "le conditionnel présent"@de .
 
-<5ff02988-c5ea-4e11-b5b9-077d9c4beaf7> a skos:Concept ;
-    skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Charles Sanders Peirce"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
-
 <60117d82-1bd8-4777-9c37-118cb438e886> a skos:Concept ;
     skos:broader <ea556fb2-30d5-41e1-90af-a1aef6d42694> ;
     skos:definition "In dieser Untersammlung finden sich Materialien rund um die Eiweiße / Proteine, wie sie im Rahmen des Biologieunterrichts wichtig sind, um die grundlegenden Hintergründe zu verstehen: Aufbau und Funktion von Proteinen, Nachweisreaktionen und vieles  mehr."@de ;
@@ -10738,7 +10731,8 @@ Leistungen auf den Spielpositionen."""@de ;
 
 <60c58c6a-48c3-4c15-acd4-1f5fc1a7f01d> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
-    skos:definition "Ludwig Andreas Feuerbach (1804 - 1872) war ein deutscher Philosoph und Anthropologe, dessen Religions- und Idealismuskritik bedeutenden Einfluss auf die Bewegung des Vormärz hatte."@de ;
+    skos:definition """Ludwig Andreas Feuerbach (1804 - 1872) war ein deutscher Philosoph und Anthropologe, dessen Religions- und Idealismuskritik bedeutenden Einfluss auf die Bewegung des Vormärz hatte. 
+Feuerbach übte wichtigen Einfluss auf die Herausbildung der Marxschen Philosophie aus."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ludwig Feuerbach"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -10747,6 +10741,7 @@ Leistungen auf den Spielpositionen."""@de ;
         <http://w3id.org/openeduhub/vocabs/discipline/480>,
         <http://w3id.org/openeduhub/vocabs/discipline/520> ;
     sdo:keywords "Kritik des Christentums"@de,
+        "Materialismus"@de,
         "Projektion"@de,
         "Religionskritik"@de,
         "homo homini deus est"@de .
@@ -18573,10 +18568,20 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
 
 <a04640c9-ad56-415e-846f-bc3f6598198d> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition "Karl Marx und Friedrich Engels gelten als Begründer des 'Historischen Materialismus' als einem Gegenentwurf zum 'Deutschen Idealismus'. Nicht das Bewusstsein bestimmt danach das Sein, sondern das materielle Sein bestimmt das Bewusstsein."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Karl Marx und Friedrich Engels"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Das Kapital"@de,
+        "Dialektik"@de,
+        "Entfremdung"@de,
+        "Geschichtstheorie"@de,
+        "Historischer Materialismus"@de,
+        "Klassentheorie"@de,
+        "Kommunismus"@de,
+        "Kommunistisches Manifest"@de,
+        "Sozialismus"@de .
 
 <a084979c-d3c3-4aad-be15-3d4676ddeb62> a skos:Concept ;
     skos:broader <3dd93c5a-13e8-4e0b-931d-7cd78ebc7f70> ;
@@ -37232,6 +37237,22 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
     skos:prefLabel "Notation"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> .
 
+<b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> a skos:Concept ;
+    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <0dd0501b-4ca5-4910-9cce-fa2a979f770a>,
+        <2123bb6c-b02e-49d0-bc6c-2db0e2b4bd8c>,
+        <221080c8-7832-4193-adf3-61e52489af00>,
+        <358f0e2c-3cea-49f6-801c-4664a4bee4a4>,
+        <60c58c6a-48c3-4c15-acd4-1f5fc1a7f01d>,
+        <75961ba2-0b26-435d-aadd-884c2ea922f7>,
+        <75ea9bde-a66a-43bf-aeae-ee06995c84af>,
+        <a04640c9-ad56-415e-846f-bc3f6598198d> ;
+    skos:prefLabel "19. Jahrhundert"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "19. Jahrhundert"@de .
+
 <bd8be6d5-0fbe-4534-a4b3-773154ba6abc> a skos:Concept ;
     skos:narrower <2d34688d-00b6-47f7-8522-31909c2671b4>,
         <3faa2935-ee4b-46b3-b88b-e493922b69d0>,
@@ -37481,23 +37502,6 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
         "Nature of Science"@de,
         "NdN"@de,
         "NoS"@de .
-
-<b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> a skos:Concept ;
-    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <0dd0501b-4ca5-4910-9cce-fa2a979f770a>,
-        <2123bb6c-b02e-49d0-bc6c-2db0e2b4bd8c>,
-        <221080c8-7832-4193-adf3-61e52489af00>,
-        <358f0e2c-3cea-49f6-801c-4664a4bee4a4>,
-        <5ff02988-c5ea-4e11-b5b9-077d9c4beaf7>,
-        <60c58c6a-48c3-4c15-acd4-1f5fc1a7f01d>,
-        <75961ba2-0b26-435d-aadd-884c2ea922f7>,
-        <75ea9bde-a66a-43bf-aeae-ee06995c84af>,
-        <a04640c9-ad56-415e-846f-bc3f6598198d> ;
-    skos:prefLabel "19. Jahrhundert"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "19. Jahrhundert"@de .
 
 <bae10924-5e0e-4650-abc6-1236fd8a6bbf> a skos:Concept ;
     skos:broader <d6479851-c1a9-4435-845b-331580dac6db> ;
