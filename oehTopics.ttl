@@ -10738,6 +10738,7 @@ Leistungen auf den Spielpositionen."""@de ;
 
 <60c58c6a-48c3-4c15-acd4-1f5fc1a7f01d> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition "Ludwig Andreas Feuerbach (1804 - 1872) war ein deutscher Philosoph und Anthropologe, dessen Religions- und Idealismuskritik bedeutenden Einfluss auf die Bewegung des Vormärz hatte."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ludwig Feuerbach"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -10745,8 +10746,10 @@ Leistungen auf den Spielpositionen."""@de ;
         <http://w3id.org/openeduhub/vocabs/discipline/450>,
         <http://w3id.org/openeduhub/vocabs/discipline/480>,
         <http://w3id.org/openeduhub/vocabs/discipline/520> ;
-    sdo:keywords "Projektion"@de,
-        "Religionskritik"@de .
+    sdo:keywords "Kritik des Christentums"@de,
+        "Projektion"@de,
+        "Religionskritik"@de,
+        "homo homini deus est"@de .
 
 <60e467ad-e17a-41c2-a943-a5a62fdf3d5b> a skos:Concept ;
     skos:broader <bae10924-5e0e-4650-abc6-1236fd8a6bbf> ;
@@ -13172,6 +13175,7 @@ Spielfähigkeit."""@de ;
 
 <75ea9bde-a66a-43bf-aeae-ee06995c84af> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition "John Stuart Mill (1806-1873) war ein britischer Philosoph, Politiker und Ökonom, einer der einflussreichsten liberalen Denker des 19. Jahrhunderts . Er war ein wichtiger Vertreter des Utilitarismus,wobei sich seine  Überlegungen besonders mit den qualitativen Aspekten des 'größten Glücks der größten Zahl' beschäftigen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "John Stuart Mill"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -15913,12 +15917,16 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 
 <8d8a257a-f256-45d3-8786-cbd787a1f970> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
+    skos:definition "Viktor Emil Frankl (1905 - 1997) war ein österreichischer Neurologe und Psychiater. Er begründete die Logotherapie und Existenzanalyse, die vielfach auch als die „Dritte Wiener Schule der Psychotherapie“ bezeichnet wird. Eines seiner bekanntesten Werke ist das im Jahr 1946 erschienene „… trotzdem Ja zum Leben sagen: Ein Psychologe erlebt das Konzentrationslager”, in dem Frankl seine Erlebnisse und Erfahrungen in vier verschiedenen Konzentrationslagern während des Zweiten Weltkriegs schildert. (Wikipedia.de)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Viktor Emil Frankl"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Selbsttranszendenz"@de,
-        "Sinnsetzung als aktiver Prozess"@de .
+    sdo:keywords "Existenzanalyse"@de,
+        "Logotherapie"@de,
+        "Selbsttranszendenz"@de,
+        "Sinnsetzung als aktiver Prozess"@de,
+        "paradoxe Intention"@de .
 
 <8dab81d5-ec42-4229-a019-ff4c195502f5> a skos:Concept ;
     skos:broader <ac6ed6da-9d05-4c42-ac0f-d7eefa3f066f> ;
