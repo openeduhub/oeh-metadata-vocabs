@@ -34635,6 +34635,7 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
 
 <27b3d6e3-59ba-4554-b597-b81bd1314ed2> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Die Renaissance  umfasst die Zeit vom 13. bis zum 16. Jahrhundert. Mit der „Wiedergeburt” des klassischen Altertums entsteht ein Lebensgefühl, das sich der Antike verwandt fühlt und sich von dem mittelalterlichen Weltbild der sündhaften Welt abwendet."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <60a1d29d-448b-4941-9685-f2718d7117ab>,
         <73a20cb3-1136-4f49-ad84-32779b0dc2f9>,
@@ -34643,7 +34644,14 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
         <f70b82b2-4111-43e3-bcce-b84d712c6b7e> ;
     skos:prefLabel "Renaissance"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Diesseitskultur"@de,
+        "Galileo Galilei"@de,
+        "Giordano Bruno"@de,
+        "Italien"@de,
+        "Leonardo da Vinci"@de,
+        "Machiavelli"@de,
+        "Naturwissenschaften"@de .
 
 <2d8658f5-4fe7-4de7-85c6-ae8164777be0> a skos:Concept ;
     skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
