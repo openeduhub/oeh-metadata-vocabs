@@ -10725,6 +10725,7 @@ Leistungen auf den Spielpositionen."""@de ;
 
 <60a1d29d-448b-4941-9685-f2718d7117ab> a skos:Concept ;
     skos:broader <27b3d6e3-59ba-4554-b597-b81bd1314ed2> ;
+    skos:definition "Die Reformation („Wiederherstellung, Erneuerung“) war eine kirchliche Erneuerungsbewegung, die zur Spaltung des westlichen Christentums in verschiedene Konfessionen (katholisch, lutherisch, reformiert) führte. Die Reformation ging von Wittenberg und Zürich aus. Ihr Beginn wird traditionell auf 1517 datiert, als Martin Luther seine 95 Thesen an die Tür der Schlosskirche zu Wittenberg geschlagen haben soll."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Reformation"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -10732,6 +10733,7 @@ Leistungen auf den Spielpositionen."""@de ;
     sdo:keywords "Calvin"@de,
         "Luther"@de,
         "Melanchthon"@de,
+        "Thomas Münzer"@de,
         "Zwingli"@de .
 
 <60c58c6a-48c3-4c15-acd4-1f5fc1a7f01d> a skos:Concept ;
@@ -19036,10 +19038,12 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
 
 <a3df7e31-59ae-451d-a50f-0a190f6f698c> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
+    skos:definition "Abraham Harold Maslows (1908 - 1970)  Bedürfnispyramide beschreibt eine sozialpsychologische Theorie zur Hierarchisierung menschlicher Bedürfnisse und Motivationen. Ihr zufolge können höheren Bedürfnisstufen nur erreicht werden, sofern darunterliegende bereits erfüllt sind."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Die Maslowsche Bedürfnishierarchie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/510> ;
     sdo:keywords "5 Kategorien"@de,
         "Bedürfnishierachie"@de,
         "Grundbedürfnisse"@de,
@@ -28930,7 +28934,7 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f6068eca-71a3-4a64-a7d8-149a7e6dd671> a skos:Concept ;
     skos:broader <388a06f5-954c-47ee-8d7c-03de01d512ec> ;
-    skos:definition "Scholastik ist die Denkweise und Methode der Beweisführung, die in der lateinischs prachigen Gelehrtenwelt des Mittelalters entwickelt wurde. (zit. nach Wikipedia)"@de ;
+    skos:definition "Scholastik ist die Denkweise und Methode der Beweisführung, die in der lateinischsprachigen Gelehrtenwelt des Mittelalters entwickelt wurde. (zit. nach Wikipedia)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Scholastik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -31923,13 +31927,19 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <388a06f5-954c-47ee-8d7c-03de01d512ec> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Die Philosophie des Mittelalters (9. - 15. Jahrhundert) wird von der Scholastik bestimmt. Wissenschaft und Philosophie gründeten in den christlichen und in Dogmen niedergelegten Wahrheiten."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <64dd5e0d-af8f-422d-a580-979701343a70>,
         <a83adb70-dd45-48f0-95ba-9941703a0402>,
         <f6068eca-71a3-4a64-a7d8-149a7e6dd671> ;
     skos:prefLabel "Mittelalter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/520> ;
+    sdo:keywords "Albertus Magnus"@de,
+        "Aristoteles"@de,
+        "Duns Scotus"@de,
+        "Thomas von Aquin"@de .
 
 <3c8fc744-c6f0-4e51-a507-982d211ef6d6> a skos:Concept ;
     skos:broader <92e85862-e36e-476c-a593-6831c5098dcc> ;
