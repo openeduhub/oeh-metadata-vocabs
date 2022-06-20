@@ -29534,11 +29534,15 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
 
 <f983a532-6008-458e-b8a5-39cd5344cd9d> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
+    skos:definition "Für Albert Camus (1913 - 1960) befindet sich der Mensch in einer absurden Situation. Das Absurde besteht in dem Spannungsverhältnis zwischen der Sinnwidrigkeit der Welt einerseits und der Sehnsucht des Menschen nach einem Sinn bzw. sinnvollem Handeln."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Albert Camus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Sinn im Angesicht von Absurdität"@de,
+    sdo:keywords "Das Absurde"@de,
+        "Die Pest"@de,
+        "Revolte"@de,
+        "Sinn im Angesicht von Absurdität"@de,
         "Sisyphos-Mythos"@de .
 
 <f9867ff0-8ac4-43dc-8d77-87f91f19a7a4> a skos:Concept ;
