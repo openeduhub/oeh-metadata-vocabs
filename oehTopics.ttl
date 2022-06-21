@@ -1397,13 +1397,16 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
 
 <0dd0501b-4ca5-4910-9cce-fa2a979f770a> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
-    skos:definition """Arthur Schopenhauer (* 22. Februar 1788 in Danzig; † 21. September 1860 in Frankfurt am Main) war ein deutscher Philosoph und Hochschullehrer.
-
-Schopenhauer entwarf eine Lehre, die gleichermaßen Erkenntnistheorie, Metaphysik, Ästhetik und Ethik umfasst. Er sah sich selbst als Schüler und Vollender Immanuel Kants, dessen Philosophie er als Vorbereitung seiner eigenen Lehre auffasste. Weitere Anregungen bezog er aus der Ideenlehre Platons und aus Vorstellungen östlicher Philosophien. Innerhalb der Philosophie des 19. Jahrhunderts entwickelte er eine eigene Position des subjektiven Idealismus und vertrat als einer der ersten Philosophen im deutschsprachigen Raum die Überzeugung, dass der Welt kein rationales Prinzip zugrunde liegt."""@de ;
+    skos:definition "Arthur Schopenhauer (1788 - 1860) war ein deutscher Philosoph, der kurzzeitig in Berlin als Hochschullehrer tätig war, im Wesentlichen jedoch eine Existenz als Privatgelehrter führte. Schopenhauers Lehre umfasst gleichermaßen Erkenntnistheorie, Metaphysik, Ästhetik und Ethik. Er sah sich selbst als Schüler und Vollender Immanuel Kants und bezog weitere Anregungen aus der Ideenlehre Platons und aus Vorstellungen östlicher Philosophien. Er vertrat als einer der ersten Philosophen im deutschsprachigen Raum die Überzeugung, dass der Welt kein rationales Prinzip zugrunde liegt. Der Titel seines Hauptwerkes lautet: „Die Welt als Wille und Vorstellung”."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Arthur Schopenhauer"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Leiden"@de,
+        "Mitleid"@de,
+        "Mitleidsethik"@de,
+        "Weltwille"@de,
+        "Wille"@de .
 
 <0dde2d25-d5dc-472d-b010-699b13e11f63> a skos:Concept ;
     skos:broader <7360c245-0613-4369-a0ed-079b7843af46> ;
