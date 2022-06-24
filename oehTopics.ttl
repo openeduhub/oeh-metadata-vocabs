@@ -855,6 +855,17 @@
         "Welternährung"@de,
         "blaue Revolution"@de .
 
+<07d2f0e8-3df8-4fad-bce6-dc612a94aa70> a skos:Concept ;
+    skos:broader <d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> ;
+    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zum dem Thema der Meiose, der Reifeteilung, zusammengestellt"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Meiose (Reifeteilung)"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Meiose"@de,
+        "Reifeteilung"@de,
+        "diploider Chromosomensatz"@de,
+        "haploider Chromosomensatz"@de .
+
 <07f02390-7b5b-4bba-9d38-02a429014f73> a skos:Concept ;
     skos:broader <5560a33a-e514-404f-be8a-bb5b3bee0235> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -19271,19 +19282,6 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
         "adjetivos"@de,
         "gramática ELE"@de .
 
-<a526a1f9-930f-4b9f-8ee6-b66944841832> a skos:Concept ;
-    skos:broader <c1893399-8b3c-4e62-9de6-1dddf864c88c> ;
-    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über den Zellzyklus, die sogenannte Mitose."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Zellzyklus (Mitose)"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Interphase"@de,
-        "Mitose"@de,
-        "Tochterzellen"@de,
-        "Zellbiologie"@de,
-        "Zelle"@de,
-        "Zellzyklus"@de .
-
 <a53348c1-0233-4a40-bf2a-4fe4baab449d> a skos:Concept ;
     skos:broader <0a62a10e-374a-46e2-a7d6-0c6954e755c0> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -30815,23 +30813,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:prefLabel "OER finden"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
 
-<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
-    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
-    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <74b946d0-6790-477f-93c8-84167c8c1107> ;
-    skos:prefLabel "Mitose und Meiose"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Genetik"@de,
-        "Meiose"@de,
-        "Mitose"@de,
-        "Prozess der Zellteilung"@de,
-        "Reifeteilung"@de,
-        "Vererbung"@de,
-        "Vererbungslehre"@de,
-        "Zellteilung"@de,
-        "geschlechtliche Fortpflanzung"@de .
-
 <e2630d04-d7df-478f-88e9-eacfa52dd919> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -31586,6 +31567,24 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
         "Was ist der Mensch"@de,
         "Was kann ich wissen"@de,
         "Was soll ich tun"@de .
+
+<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
+    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
+    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <07d2f0e8-3df8-4fad-bce6-dc612a94aa70>,
+        <74b946d0-6790-477f-93c8-84167c8c1107> ;
+    skos:prefLabel "Mitose und Meiose"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Genetik"@de,
+        "Meiose"@de,
+        "Mitose"@de,
+        "Prozess der Zellteilung"@de,
+        "Reifeteilung"@de,
+        "Vererbung"@de,
+        "Vererbungslehre"@de,
+        "Zellteilung"@de,
+        "geschlechtliche Fortpflanzung"@de .
 
 <d67013eb-039e-4d89-b451-f0883bc61ba3> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
@@ -32906,6 +32905,23 @@ Beispiele: Fallstudien, Praxisberichte und Lernkurven von OER-Akteuren, Vorlagen
     skos:prefLabel "Terme"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
 
+<c1893399-8b3c-4e62-9de6-1dddf864c88c> a skos:Concept ;
+    skos:broader <5780f825-0d8d-4473-903f-6fe4eec137f8> ;
+    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zu den verschiedenen Vorgängen in den Zellen (z.B. Stofftransport, Tellatmung und Photosynthese) zusammengestellt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <7fa64b5a-650b-4750-b4e7-140ed6e98b57>,
+        <ac37db61-55c8-4df8-8f47-93776f8a8c63>,
+        <d38101c1-9a43-414b-a51f-e2dcff0add44> ;
+    skos:prefLabel "Vorgänge in der Zelle"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Photosynthese"@de,
+        "Stofftransport"@de,
+        "Zellatmung"@de,
+        "Zellbiologie"@de,
+        "Zelle"@de,
+        "Zelluläre Kommunikation"@de,
+        "Zellzyklus"@de .
+
 <c2681cb6-356c-4888-8e61-1e7edfe65d85> a skos:Concept ;
     skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
     skos:definition """Das Thema Sicherheit ist für jeden Chemie-Lehrer eine Selbstverständlichkeit. Nicht zu Unrecht muss das Thema sogar inzwischen zweimal im Schuljahr mit den Schülern:innen besprochen werden.
@@ -34203,24 +34219,6 @@ periodische Vorgänge auf."""@de .
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
     sdo:keywords "PSE"@de,
         "Periodensystem"@de .
-
-<c1893399-8b3c-4e62-9de6-1dddf864c88c> a skos:Concept ;
-    skos:broader <5780f825-0d8d-4473-903f-6fe4eec137f8> ;
-    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zu den verschiedenen Vorgängen in den Zellen (z.B. Stofftransport, Tellatmung und Photosynthese) zusammengestellt."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <7fa64b5a-650b-4750-b4e7-140ed6e98b57>,
-        <a526a1f9-930f-4b9f-8ee6-b66944841832>,
-        <ac37db61-55c8-4df8-8f47-93776f8a8c63>,
-        <d38101c1-9a43-414b-a51f-e2dcff0add44> ;
-    skos:prefLabel "Vorgänge in der Zelle"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Photosynthese"@de,
-        "Stofftransport"@de,
-        "Zellatmung"@de,
-        "Zellbiologie"@de,
-        "Zelle"@de,
-        "Zelluläre Kommunikation"@de,
-        "Zellzyklus"@de .
 
 <c19add4b-0086-47f3-977a-bd30268fbac2> a skos:Concept ;
     skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
