@@ -5650,6 +5650,16 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "liberté"@de,
         "égalité"@de .
 
+<32fbab15-75f1-424d-a17f-dfa73e48fa60> a skos:Concept ;
+    skos:broader <a806de60-8abc-4859-9444-8930f9462180> ;
+    skos:definition "In dieser Untersammlung finden sich Tipps für den Draußenunterricht: Möglichkeiten, Themengebiete, Ideen für den eigenen Unterricht, Websites zur Recherche."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Draußenschule: Tipps für den Unterricht"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Draußenschule"@de,
+        "Draußenunterricht"@de,
+        "draußen lernen"@de .
+
 <32fd8373-f9dc-416e-8536-4d3f88fc8de8> a skos:Concept ;
     skos:broader <6259b9d1-6cc0-4aa1-a6a4-e8222930d994> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -9934,6 +9944,15 @@ Spielfähigkeit."""@de ;
         "Stadtentwicklung"@de,
         "Urbanisierung"@de .
 
+<5a290ae5-5979-4bc0-96ad-3df460155c13> a skos:Concept ;
+    skos:broader <a806de60-8abc-4859-9444-8930f9462180> ;
+    skos:definition "In dieser Untersammlung sind Hintergründe und Informationen zu dem Konzept der Draußenschule zusammengestellt worden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Hintergrundinformationen zur Draußenschule"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Draußenschule"@de,
+        "draußen lernen"@de .
+
 <5a376d0e-a7a9-4f2e-ade8-cb2913182ff3> a skos:Concept ;
     skos:broader <8a752bc4-e616-4f70-a1b6-60099d43cd2a> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -13022,6 +13041,16 @@ Spielfähigkeit."""@de ;
     sdo:keywords "Doppelpunkt"@de,
         "Semikolon"@de,
         "Strichpunkt"@de .
+
+<74b946d0-6790-477f-93c8-84167c8c1107> a skos:Concept ;
+    skos:broader <d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> ;
+    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien rund um das Thema der Mitose, der Zellteilung, zusammengestellt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Mitose (Zellteilung)"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Mitose"@de,
+        "Prozess der Zellteilung"@de,
+        "Zellteilung"@de .
 
 <74b95053-76b2-4295-8029-71c8eb4af283> a skos:Concept ;
     skos:broader <f1e9fb1a-dc1d-4e6f-a023-5e9d8c3e9a84> ;
@@ -21217,6 +21246,15 @@ Epikur"""@de ;
         "görülen geçmiş zaman"@de,
         "türkische Vergangenheitsform"@de .
 
+<b56c45a4-df04-4dd6-bfbd-aee8c284bcc2> a skos:Concept ;
+    skos:broader <a806de60-8abc-4859-9444-8930f9462180> ;
+    skos:definition "In dieser Untersammlung sind wissenschaftliche Studien zum Konzept der Draußenschule und des Lernens in der Natur zusammengestellt worden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Draußenschule: Wissenschaftliche Studien"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Draußenschule"@de,
+        "draußen lernen"@de .
+
 <b5703956-44e6-413a-995a-4144cd553476> a skos:Concept ;
     skos:broader <4eb61065-adc0-4a98-857a-e0c898e9f718> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -24762,19 +24800,6 @@ durch sieben Akte hin."
     sdo:keywords "John Scofield"@de,
         "Marc A. Turnage"@de,
         "World Trade Center"@de .
-
-<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
-    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
-    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Meiose und die Vorgänge, die dabei stattfinden."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Meiose"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Genetik"@de,
-        "Meiose"@de,
-        "Reifeteilung"@de,
-        "Vererbung"@de,
-        "Vererbungslehre"@de,
-        "geschlechtliche Fortpflanzung"@de .
 
 <d205a053-3ad5-45c8-b5a0-a956ee41c954> a skos:Concept ;
     skos:broader <0afd15fa-c5d9-45db-aae7-97953618f0bb> ;
@@ -30790,6 +30815,23 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:prefLabel "OER finden"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
 
+<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
+    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
+    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <74b946d0-6790-477f-93c8-84167c8c1107> ;
+    skos:prefLabel "Mitose und Meiose"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Genetik"@de,
+        "Meiose"@de,
+        "Mitose"@de,
+        "Prozess der Zellteilung"@de,
+        "Reifeteilung"@de,
+        "Vererbung"@de,
+        "Vererbungslehre"@de,
+        "Zellteilung"@de,
+        "geschlechtliche Fortpflanzung"@de .
+
 <e2630d04-d7df-478f-88e9-eacfa52dd919> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -32649,6 +32691,18 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
         "Teilchen"@de,
         "chemisches Rechnen"@de .
 
+<a806de60-8abc-4859-9444-8930f9462180> a skos:Concept ;
+    skos:broader <d55d6139-982a-472b-ad78-ded266ce8a25> ;
+    skos:definition "In dieser Untersammlungen werden einmal Hintergrundinformationen zu dem Konzept der Draußenschule zur Verfügung gestellt. Außerdem gibt es Tipps für einen Unterricht in der Natur als auch wissenschaftliche Studien, die sich mit diesem Thema auseinandersetzen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <32fbab15-75f1-424d-a17f-dfa73e48fa60>,
+        <5a290ae5-5979-4bc0-96ad-3df460155c13>,
+        <b56c45a4-df04-4dd6-bfbd-aee8c284bcc2> ;
+    skos:prefLabel "Draußenschule"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Draußenschule"@de,
+        "draußen lernen"@de .
+
 <a87c092d-e3b5-43ef-81db-757ab1967646> a skos:Concept ;
     skos:narrower <9375d38b-1add-4f12-94c5-6979a01ff945>,
         <a73ca325-a598-4cc0-b515-6410f0fdbf41>,
@@ -33070,19 +33124,6 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         "Klimawandel"@de,
         "Ozon"@de,
         "Ozonloch"@de .
-
-<d55d6139-982a-472b-ad78-ded266ce8a25> a skos:Concept ;
-    skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
-    skos:definition "In dieser Sammlung finden sich grundlegende biologische Fakten, Methoden (die an die Schüler*innen im Biologieunterricht weitergegeben werden sollen) und verschiedene Möglichkeiten, anhand derer Schüler*innen Bewertungsstrategien entwickeln können."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <26d59a4b-d9fc-45fc-841f-a0cf86db2361>,
-        <8402f24f-81ae-458a-a696-b809e6e1eb69>,
-        <dc0005ab-6026-48b2-9c86-68125165c72b> ;
-    skos:prefLabel "Fachdidaktik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Biologie"@de,
-        "Biologiedidaktik"@de,
-        "Fachdidaktik"@de .
 
 <d56bc198-e56e-41cb-b418-8cf290005c25> a skos:Concept ;
     skos:broader <eef047a3-58ba-419c-ab7d-3d0cfd04bb4e> ;
@@ -34347,6 +34388,20 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <a304c1ff-0959-4157-bb8e-ef5dc41b693b> ;
     skos:prefLabel "Nachfolge"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
+
+<d55d6139-982a-472b-ad78-ded266ce8a25> a skos:Concept ;
+    skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
+    skos:definition "In dieser Sammlung finden sich grundlegende biologische Fakten, Methoden (die an die Schüler*innen im Biologieunterricht weitergegeben werden sollen) und verschiedene Möglichkeiten, anhand derer Schüler*innen Bewertungsstrategien entwickeln können."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <26d59a4b-d9fc-45fc-841f-a0cf86db2361>,
+        <8402f24f-81ae-458a-a696-b809e6e1eb69>,
+        <a806de60-8abc-4859-9444-8930f9462180>,
+        <dc0005ab-6026-48b2-9c86-68125165c72b> ;
+    skos:prefLabel "Fachdidaktik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Biologie"@de,
+        "Biologiedidaktik"@de,
+        "Fachdidaktik"@de .
 
 <d59e0c8f-a6c3-4eca-96da-63e41e85f00a> a skos:Concept ;
     skos:broader <c5e37ac5-6a50-4f08-a9fa-61412ba7f474> ;
@@ -39131,7 +39186,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-06-21" ;
+    dct:modified "2022-06-24" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
