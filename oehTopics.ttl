@@ -855,17 +855,6 @@
         "Welternährung"@de,
         "blaue Revolution"@de .
 
-<07d2f0e8-3df8-4fad-bce6-dc612a94aa70> a skos:Concept ;
-    skos:broader <d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> ;
-    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zum dem Thema der Meiose, der Reifeteilung, zusammengestellt"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Meiose (Reifeteilung)"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Meiose"@de,
-        "Reifeteilung"@de,
-        "diploider Chromosomensatz"@de,
-        "haploider Chromosomensatz"@de .
-
 <07f02390-7b5b-4bba-9d38-02a429014f73> a skos:Concept ;
     skos:broader <5560a33a-e514-404f-be8a-bb5b3bee0235> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -13053,16 +13042,6 @@ Spielfähigkeit."""@de ;
         "Semikolon"@de,
         "Strichpunkt"@de .
 
-<74b946d0-6790-477f-93c8-84167c8c1107> a skos:Concept ;
-    skos:broader <d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> ;
-    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien rund um das Thema der Mitose, der Zellteilung, zusammengestellt."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Mitose (Zellteilung)"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Mitose"@de,
-        "Prozess der Zellteilung"@de,
-        "Zellteilung"@de .
-
 <74b95053-76b2-4295-8029-71c8eb4af283> a skos:Concept ;
     skos:broader <f1e9fb1a-dc1d-4e6f-a023-5e9d8c3e9a84> ;
     skos:definition "In dieser Untersammlung werden Materialien zum Stamm der Annelida, der Ringelwürmer, wozu beispielsweise auch der Regenwürm gehört, gesammelt und bereitgestellt."@de ;
@@ -24799,6 +24778,22 @@ durch sieben Akte hin."
         "Marc A. Turnage"@de,
         "World Trade Center"@de .
 
+<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
+    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
+    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Mitose und Meiose"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Genetik"@de,
+        "Meiose"@de,
+        "Mitose"@de,
+        "Prozess der Zellteilung"@de,
+        "Reifeteilung"@de,
+        "Vererbung"@de,
+        "Vererbungslehre"@de,
+        "Zellteilung"@de,
+        "geschlechtliche Fortpflanzung"@de .
+
 <d205a053-3ad5-45c8-b5a0-a956ee41c954> a skos:Concept ;
     skos:broader <0afd15fa-c5d9-45db-aae7-97953618f0bb> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -31567,24 +31562,6 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
         "Was ist der Mensch"@de,
         "Was kann ich wissen"@de,
         "Was soll ich tun"@de .
-
-<d1fcd6f4-3c60-4d19-84b2-d5024bd1cef1> a skos:Concept ;
-    skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
-    skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <07d2f0e8-3df8-4fad-bce6-dc612a94aa70>,
-        <74b946d0-6790-477f-93c8-84167c8c1107> ;
-    skos:prefLabel "Mitose und Meiose"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Genetik"@de,
-        "Meiose"@de,
-        "Mitose"@de,
-        "Prozess der Zellteilung"@de,
-        "Reifeteilung"@de,
-        "Vererbung"@de,
-        "Vererbungslehre"@de,
-        "Zellteilung"@de,
-        "geschlechtliche Fortpflanzung"@de .
 
 <d67013eb-039e-4d89-b451-f0883bc61ba3> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
