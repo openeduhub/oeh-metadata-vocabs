@@ -4,11 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd1fcd6f4-3c60-4d19-84b2-d5024bd1cef1",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd1fcd6f4-3c60-4d19-84b2-d5024bd1cef1",
   "prefLabel": {
-    "de": "Meiose"
+    "de": "Mitose und Meiose"
   },
   "definition": {
-    "de": "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Meiose und die Vorgänge, die dabei stattfinden."
+    "de": "In dieser Untersammlung finden sich Unterrichtsmaterialien über die Mitose und die Meiose und die jeweiligen Vorgänge, die dabei stattfinden."
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/74b946d0-6790-477f-93c8-84167c8c1107",
+      "prefLabel": {
+        "de": "Mitose (Zellteilung)"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3dffbe33-ad32-481a-9fc2-b65c1b12854c",
     "prefLabel": {
