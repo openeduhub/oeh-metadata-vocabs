@@ -1,0 +1,20 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/812b1b89-3c57-4081-8ab8-760f2ac29e8a",
+  "url": "https://www.joachim-herz-stiftung.de/",
+  "type": "Service",
+  "name": "Joachim Herz Stiftung",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f736f75726365732f38313262316238392d336335372d343038312d386162382d373630663261633239653861",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F812b1b89-3c57-4081-8ab8-760f2ac29e8a",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F812b1b89-3c57-4081-8ab8-760f2ac29e8a",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/812b1b89-3c57-4081-8ab8-760f2ac29e8a#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/812b1b89-3c57-4081-8ab8-760f2ac29e8a",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

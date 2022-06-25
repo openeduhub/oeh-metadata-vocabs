@@ -1,0 +1,20 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/d027caef-993c-43d8-8ba5-a56d114a33ae",
+  "url": "https://www.youtube.com/channel/UCuo4TZpgNCAzEU2IAUFJBeg/featured",
+  "type": "Service",
+  "name": "RLScience",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f736f75726365732f64303237636165662d393933632d343364382d386261352d613536643131346133336165",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2Fd027caef-993c-43d8-8ba5-a56d114a33ae",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2Fd027caef-993c-43d8-8ba5-a56d114a33ae",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/d027caef-993c-43d8-8ba5-a56d114a33ae#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/d027caef-993c-43d8-8ba5-a56d114a33ae",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

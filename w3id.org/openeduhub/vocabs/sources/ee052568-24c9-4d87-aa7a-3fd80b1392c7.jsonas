@@ -1,0 +1,20 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/ee052568-24c9-4d87-aa7a-3fd80b1392c7",
+  "url": "https://www.youtube.com/channel/UC9qz57b7zwZ42IfTYwM2xNA/featured",
+  "type": "Service",
+  "name": "Kunstmuseum Wolfsburg",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f736f75726365732f65653035323536382d323463392d346438372d616137612d336664383062313339326337",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2Fee052568-24c9-4d87-aa7a-3fd80b1392c7",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2Fee052568-24c9-4d87-aa7a-3fd80b1392c7",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/ee052568-24c9-4d87-aa7a-3fd80b1392c7#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/sources/ee052568-24c9-4d87-aa7a-3fd80b1392c7",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

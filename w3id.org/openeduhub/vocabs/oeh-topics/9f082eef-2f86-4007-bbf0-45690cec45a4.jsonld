@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9f082eef-2f86-4007-bbf0-45690cec45a4",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F9f082eef-2f86-4007-bbf0-45690cec45a4",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F9f082eef-2f86-4007-bbf0-45690cec45a4",
+  "prefLabel": {
+    "de": "Säuren und Basen"
+  },
+  "definition": {
+    "de": "Säuren und Basen finden in vielen Bereichen des alltäglichen Lebens. Säuren sind oftmals sauer, Basen eher seifig. Die Gemeinsamkeit aller Säuren sowie aller Basen hat historisch gesehen immer wieder zu genaueren und umfassenderen Definitionen des Säure-Base-Begriffs geführt. Heute gehen Chemiker meist vom Brönstedt-Konzept aus: Basen sind Protonenakzeptoren, Säuren sind Protonendonatoren. Gibt man in dieser Sichtweise Säuren in Wasser, so entstehen saure Lösungen. Basen bilden in Wasser alkalische Lösungen oder Laugen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/190e487b-b71d-4e87-a499-f1e1f8c96378",
+      "prefLabel": {
+        "de": "Neutralisationsreaktionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2ed5e61a-3f75-4d02-a4b9-0c4f3dd8be32",
+      "prefLabel": {
+        "de": "pH-Wert-Berechnungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/395864a0-732d-434e-b6d1-c6a865bfb651",
+      "prefLabel": {
+        "de": "Eigenschaften von Säuren und Basen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6394a486-9d3e-456d-b2d7-3e14ef47908a",
+      "prefLabel": {
+        "de": "Säure-Base-Titration - Ein analytisches Verfahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8e5d25b2-4390-4d72-addf-78856f9c3ecf",
+      "prefLabel": {
+        "de": "Puffersysteme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1b690be-1681-4d37-acfb-70de358e2adf",
+      "prefLabel": {
+        "de": "Reaktionen von Säuren und Basen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a3b49414-8436-48f2-ae7d-009de9a4f3af",
+      "prefLabel": {
+        "de": "Die Autoprotolyse als Eigenschaft von Wasser"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c1a2fc50-b3eb-4ef2-a173-78678c160c04",
+      "prefLabel": {
+        "de": "Säure-Basen-Konzepte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/da05d816-bc80-4d64-b201-f61dd017a21c",
+      "prefLabel": {
+        "de": "Verwendung von Säuren und Basen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e61e9c39-4a20-42fb-a786-2c3bd001ed29",
+      "prefLabel": {
+        "de": "Der pH-Wert als Eigenschaften von Lösungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ef241076-d889-4725-8c0e-badd5cf869bf",
+      "prefLabel": {
+        "de": "Herstellung von sauren und alkalischen Lösungen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4940d5da-9b21-4ec0-8824-d16e0409e629",
+    "prefLabel": {
+      "de": "Chemie"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/100"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/71e38f98-b123-4f31-8609-f9736168daf0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F71e38f98-b123-4f31-8609-f9736168daf0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F71e38f98-b123-4f31-8609-f9736168daf0",
+  "prefLabel": {
+    "de": "Die Elektrochemie"
+  },
+  "definition": {
+    "de": "Wie funktionieren Batterien in der Taschenlampe und Akkus im Smartphone? Wie kann man Kupfer aus Kupfererzen herstellen? Und warum rostet ein Fahrrad? Diese auf den ersten Blick unterschiedlichen Vorgänge haben auf den zweiten Blick vieles gemeinsam: Bei all diesen Vorgängen werden im Verlauf chemischer Reaktionen Elektronen übertragen. Mit diesen Elektronenübertragungsprozessen befasst sich die Elektrochemie."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2a729306-135b-4625-8001-7f3454addfd0",
+      "prefLabel": {
+        "de": "RedOx-Reaktionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e3526e1-f943-49e6-8408-e496738665ad",
+      "prefLabel": {
+        "de": "Standardpotential und Nernst'sche Gleichung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e93c0a3-4ce6-411b-b7f7-27567dee0a74",
+      "prefLabel": {
+        "de": "Batterien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a744e16d-9b76-43d8-afc3-4401039e23eb",
+      "prefLabel": {
+        "de": "Korrosion und Korrosionsschutz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b5feeefd-408d-487c-96a7-dedc19598d57",
+      "prefLabel": {
+        "de": "Akkumulatoren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c4f3cd1a-33db-4c74-9d76-43c53b7d716e",
+      "prefLabel": {
+        "de": "Die Spannungsreihe der Metalle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d2d2ee96-9535-4691-8036-ad6e753eb4e3",
+      "prefLabel": {
+        "de": "Galvanische Elemente"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f101598c-ea14-4983-b685-74a75f87ba88",
+      "prefLabel": {
+        "de": "Elektrolyse"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4940d5da-9b21-4ec0-8824-d16e0409e629",
+    "prefLabel": {
+      "de": "Chemie"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/100"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
