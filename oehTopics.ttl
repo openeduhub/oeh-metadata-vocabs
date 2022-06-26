@@ -5475,6 +5475,17 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "türk davranış tarzları"@de,
         "türkische Umgangsformen"@de .
 
+<31936972-8ef7-4dc0-89ce-f461bd158b95> a skos:Concept ;
+    skos:broader <08b845eb-823a-41e2-8c08-0779c9afb491> ;
+    skos:definition "Die Filtration dient der Abtrennung von Feststoffen aus wässrigen Lösungsmitteln. Das Prinzip der Filtration beruht auf der unterschiedlichen Partikelgröße und darauf angepassten Poren im Filter."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Filtration"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Filter"@de,
+        "Filtrat"@de,
+        "Filtration"@de,
+        "Porengröße"@de .
+
 <31cd5ed4-4452-46c8-a031-95d01f291b6b> a skos:Concept ;
     skos:broader <3dd93c5a-13e8-4e0b-931d-7cd78ebc7f70> ;
     skos:definition "Ein Energieumsatz ist ein typisches Kennzeichen einer chemischen Reaktion. In der Chemie spielt daher die Betrachtung der chemischen Energie von Stoffen eine große Rolle. Meist wird die chemischen Energie bereits im Einführungsunterricht behandelt, entsprechende Materialien sind deshalb auch dort zu finden. Allerdings gibt es auch viele vertiefende Aspekte, um die es oft erst in der gymnasialen Oberstufe geht."@de ;
@@ -13417,6 +13428,15 @@ In dieser Sammlung findest du Materialien um diese Zeitformen zu lernen und zu �
         "Körper"@de,
         "Volumen"@de .
 
+<78315e28-0e1f-4644-834d-e514d00d2cc8> a skos:Concept ;
+    skos:broader <08b845eb-823a-41e2-8c08-0779c9afb491> ;
+    skos:definition "Durch das Eindampfen einer wässrigen Lösung entfernt man das Lösungsmittel. Zurück bleibt der gelöste Stoff."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Eindampfen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Eindampfen"@de,
+        "Rückstand"@de .
+
 <78788797-4a7b-4feb-b731-0f4f29ccad8a> a skos:Concept ;
     skos:broader <788e258c-5b3f-48d0-8458-ebd97a0f1a9e> ;
     skos:definition """Hier werden OER Schritt für Schritt erklärt – mit vertiefenden Informationen und Übungen.
@@ -19279,6 +19299,16 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:prefLabel "Audiobearbeitung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
     sdo:keywords "Audacity"@de .
+
+<a5b20ba8-b865-43f3-83c9-2fcd6e39b50c> a skos:Concept ;
+    skos:broader <08b845eb-823a-41e2-8c08-0779c9afb491> ;
+    skos:definition "Das Trennen von Stoffen ist eine häufige Aufgabe der Chemie. Meist werden hierzu unterschiedliche Stoffeigenschaften der zu trennenden Stoffe ausgenutzt. Hierzu existieren eine Vielzahl von Verfahren."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Weitere Trennverfahren"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Aussalzen"@de,
+        "Ausschütteln"@de,
+        "Extraktion"@de .
 
 <a5c10394-481e-46be-93c0-86dcdeb61f3d> a skos:Concept ;
     skos:broader <cf970b67-09b5-4e95-99f3-021940f98972> ;
@@ -27308,6 +27338,18 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "vocabulaire coiffure"@de,
         "vocabulaire soins de beauté"@de .
 
+<e8b08560-fd99-4fe7-b61e-203a716e7fe5> a skos:Concept ;
+    skos:broader <08b845eb-823a-41e2-8c08-0779c9afb491> ;
+    skos:definition "Bei der Destillation werden Substanzen aufgrund ihrer unterschiedlichen Siedepunkte voneinander getrennt. Technisch bedeutsame Beispiele sind die Destillation von Alkohol und die fraktionierte Destillation on Erdöl."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Destillation"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Alkohol"@de,
+        "Destillation"@de,
+        "Destillationskolonne"@de,
+        "Gegenstromkühlung"@de,
+        "fraktionierte Destillation"@de .
+
 <e8b9a721-b30f-4709-8c22-9df7eaf9b000> a skos:Concept ;
     skos:broader <42add866-db90-45dc-af15-2eae12eca7bb> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -30446,44 +30488,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:narrower <ab1894ef-e326-4214-8ca0-586f6f9e860c> ;
     skos:prefLabel "OER Kompetenzentwicklung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
-
-<08b845eb-823a-41e2-8c08-0779c9afb491> a skos:Concept ;
-    skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
-    skos:definition """Mit Hilfe der Stoffeigenschaften kann man Gemische auftrennen. Je nach Gemischkomponenten nutzt man verschiedene Trennmethoden.
-Hier findest du zudem Informationen zur Anwendung der Trennverfahren im Alltag.
-
-Die Trennverfahren basieren in der Regel auf unterschiedlichen Eigenschaften der zu trennenden Stoffe. Materialien zu den Stoffeigenschaften findest du in der Sammlung <a href="https://wirlernenonline.de/portal/chemie-stoffe-und-stoffeigenschaften/#">Stoffeigenschaften im Anfangsunterricht</a> auf dem Chemieportal von WirLernenOnline."""@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <8ae5943e-dea0-447a-83b3-81b3a320752d> ;
-    skos:prefLabel "Trennverfahren und Gemische"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
-    sdo:keywords "Abdampfen"@de,
-        "Chromatographie"@de,
-        "Destillation"@de,
-        "Eindampfen"@de,
-        "Einengen"@de,
-        "Extraktion"@de,
-        "Extraktionsmittel"@de,
-        "Filter"@de,
-        "Filterpapier"@de,
-        "Filtration"@de,
-        "Kaffee"@de,
-        "Meersalz"@de,
-        "Rotwein"@de,
-        "Scheidetrichter"@de,
-        "Sediment"@de,
-        "Sedimentation"@de,
-        "Sieb"@de,
-        "Sieben"@de,
-        "Steinsalz"@de,
-        "Tee"@de,
-        "Trennverfahren"@de,
-        "Verdampfen"@de,
-        "Wasserreinigung"@de,
-        "destillieren"@de,
-        "extrahieren"@de,
-        "filtiereren"@de,
-        "sedimentieren"@de .
 
 <0c97d4bf-1229-4fa4-b101-ae420a91edeb> a skos:Concept ;
     skos:broader <e215aa7f-4ce3-4703-9b01-445bb4aedcad> ;
@@ -34595,6 +34599,48 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <e10ad95c-2fdb-440c-a955-f5a654d24d6a> ;
     skos:prefLabel "Potenzen & Logarithmen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
+
+<08b845eb-823a-41e2-8c08-0779c9afb491> a skos:Concept ;
+    skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
+    skos:definition """Mit Hilfe der Stoffeigenschaften kann man Gemische auftrennen. Je nach Gemischkomponenten nutzt man verschiedene Trennmethoden.
+Hier findest du zudem Informationen zur Anwendung der Trennverfahren im Alltag.
+
+Die Trennverfahren basieren in der Regel auf unterschiedlichen Eigenschaften der zu trennenden Stoffe. Materialien zu den Stoffeigenschaften findest du in der Sammlung <a href="https://wirlernenonline.de/portal/chemie-stoffe-und-stoffeigenschaften/#">Stoffeigenschaften im Anfangsunterricht</a> auf dem Chemieportal von WirLernenOnline."""@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <31936972-8ef7-4dc0-89ce-f461bd158b95>,
+        <78315e28-0e1f-4644-834d-e514d00d2cc8>,
+        <8ae5943e-dea0-447a-83b3-81b3a320752d>,
+        <a5b20ba8-b865-43f3-83c9-2fcd6e39b50c>,
+        <e8b08560-fd99-4fe7-b61e-203a716e7fe5> ;
+    skos:prefLabel "Trennverfahren und Gemische"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Abdampfen"@de,
+        "Chromatographie"@de,
+        "Destillation"@de,
+        "Eindampfen"@de,
+        "Einengen"@de,
+        "Extraktion"@de,
+        "Extraktionsmittel"@de,
+        "Filter"@de,
+        "Filterpapier"@de,
+        "Filtration"@de,
+        "Kaffee"@de,
+        "Meersalz"@de,
+        "Rotwein"@de,
+        "Scheidetrichter"@de,
+        "Sediment"@de,
+        "Sedimentation"@de,
+        "Sieb"@de,
+        "Sieben"@de,
+        "Steinsalz"@de,
+        "Tee"@de,
+        "Trennverfahren"@de,
+        "Verdampfen"@de,
+        "Wasserreinigung"@de,
+        "destillieren"@de,
+        "extrahieren"@de,
+        "filtiereren"@de,
+        "sedimentieren"@de .
 
 <0e13faba-076c-450d-bbdc-61f0a8c79e44> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
