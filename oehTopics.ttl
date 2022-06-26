@@ -902,43 +902,6 @@
         "Nominativ"@de,
         "Wer-Fall"@de .
 
-<08b845eb-823a-41e2-8c08-0779c9afb491> a skos:Concept ;
-    skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
-    skos:definition """Mit Hilfe der Stoffeigenschaften kann man Gemische auftrennen. Je nach Gemischkomponenten nutzt man verschiedene Trennmethoden.
-Hier findest du zudem Informationen zur Anwendung der Trennverfahren im Alltag.
-
-Die Trennverfahren basieren in der Regel auf unterschiedlichen Eigenschaften der zu trennenden Stoffe. Materialien zu den Stoffeigenschaften findest du in der Sammlung <a href="https://wirlernenonline.de/portal/chemie-stoffe-und-stoffeigenschaften/#">Stoffeigenschaften im Anfangsunterricht</a> auf dem Chemieportal von WirLernenOnline."""@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Trennverfahren und Gemische"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
-    sdo:keywords "Abdampfen"@de,
-        "Chromatographie"@de,
-        "Destillation"@de,
-        "Eindampfen"@de,
-        "Einengen"@de,
-        "Extraktion"@de,
-        "Extraktionsmittel"@de,
-        "Filter"@de,
-        "Filterpapier"@de,
-        "Filtration"@de,
-        "Kaffee"@de,
-        "Meersalz"@de,
-        "Rotwein"@de,
-        "Scheidetrichter"@de,
-        "Sediment"@de,
-        "Sedimentation"@de,
-        "Sieb"@de,
-        "Sieben"@de,
-        "Steinsalz"@de,
-        "Tee"@de,
-        "Trennverfahren"@de,
-        "Verdampfen"@de,
-        "Wasserreinigung"@de,
-        "destillieren"@de,
-        "extrahieren"@de,
-        "filtiereren"@de,
-        "sedimentieren"@de .
-
 <08c4abc5-c91b-4c94-9411-73a4629874e2> a skos:Concept ;
     skos:broader <63d5ef93-c74f-44db-aea0-3078e62252af> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -15631,6 +15594,17 @@ Abiturprüfung, Niedersachsen 2016-2020, Baden-Württemberg 2007"""@de ;
     skos:prefLabel "alternative Wirtschaftsformen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
     sdo:keywords "alternative Wirtschaftsformen"@de .
+
+<8ae5943e-dea0-447a-83b3-81b3a320752d> a skos:Concept ;
+    skos:broader <08b845eb-823a-41e2-8c08-0779c9afb491> ;
+    skos:definition "Chromatographische Verfahren wie die klassische Papierchromatographie, die Säukenchromatographie oder die Gaschromatographie dienen dem Auftrennen komplexer Stoffgemische. So lassen sich teilweise Reinstoffe gewinnen - oder zumindest die Bestandteile eines komplexen Stoffgemisches identifizieren und ihre Menge quantifizieren."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Chromatographie"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Chromatographie"@de,
+        "Gaschromatograph"@de,
+        "Gaschromatographie"@de,
+        "Papierchromatographie"@de .
 
 <8af28342-37d8-465a-b6a3-e4b5c4946499> a skos:Concept ;
     skos:broader <09dc6bd8-03dd-4bb4-864c-c224f86740af> ;
@@ -30472,6 +30446,44 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:narrower <ab1894ef-e326-4214-8ca0-586f6f9e860c> ;
     skos:prefLabel "OER Kompetenzentwicklung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
+
+<08b845eb-823a-41e2-8c08-0779c9afb491> a skos:Concept ;
+    skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
+    skos:definition """Mit Hilfe der Stoffeigenschaften kann man Gemische auftrennen. Je nach Gemischkomponenten nutzt man verschiedene Trennmethoden.
+Hier findest du zudem Informationen zur Anwendung der Trennverfahren im Alltag.
+
+Die Trennverfahren basieren in der Regel auf unterschiedlichen Eigenschaften der zu trennenden Stoffe. Materialien zu den Stoffeigenschaften findest du in der Sammlung <a href="https://wirlernenonline.de/portal/chemie-stoffe-und-stoffeigenschaften/#">Stoffeigenschaften im Anfangsunterricht</a> auf dem Chemieportal von WirLernenOnline."""@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <8ae5943e-dea0-447a-83b3-81b3a320752d> ;
+    skos:prefLabel "Trennverfahren und Gemische"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
+    sdo:keywords "Abdampfen"@de,
+        "Chromatographie"@de,
+        "Destillation"@de,
+        "Eindampfen"@de,
+        "Einengen"@de,
+        "Extraktion"@de,
+        "Extraktionsmittel"@de,
+        "Filter"@de,
+        "Filterpapier"@de,
+        "Filtration"@de,
+        "Kaffee"@de,
+        "Meersalz"@de,
+        "Rotwein"@de,
+        "Scheidetrichter"@de,
+        "Sediment"@de,
+        "Sedimentation"@de,
+        "Sieb"@de,
+        "Sieben"@de,
+        "Steinsalz"@de,
+        "Tee"@de,
+        "Trennverfahren"@de,
+        "Verdampfen"@de,
+        "Wasserreinigung"@de,
+        "destillieren"@de,
+        "extrahieren"@de,
+        "filtiereren"@de,
+        "sedimentieren"@de .
 
 <0c97d4bf-1229-4fa4-b101-ae420a91edeb> a skos:Concept ;
     skos:broader <e215aa7f-4ce3-4703-9b01-445bb4aedcad> ;
