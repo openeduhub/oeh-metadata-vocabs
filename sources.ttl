@@ -1223,6 +1223,18 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.zum.de/ma/fendt/phde/> .
 
+<611c3830-c18a-47b8-a2f4-f503c62d532f> a skos:Concept ;
+   skos:notation "edulabs_spider"^^xsd:string ;
+   skos:prefLabel "edulabs"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://edulabs.de/oer/> .
+
+<011766b1-07f8-4cbe-bef1-3316458ed7cb> a skos:Concept ;
+   skos:notation "dilertube_spider"^^xsd:string ;
+   skos:prefLabel "DiLerTube"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://www.dilertube.de> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1452,5 +1464,6 @@
         <b25abeb5-d594-45d8-b7e5-518e81a8f6e5>,
         <32c3ba3b-5243-40d2-a305-696f5bd1d9df>,
         <9a965778-aea7-4e8d-a846-e81aa564bfd5>,
-        <49174af1-e864-41a4-8eda-c5e6de7fed33> .
-
+        <49174af1-e864-41a4-8eda-c5e6de7fed33> ,
+		<611c3830-c18a-47b8-a2f4-f503c62d532f> ,
+		<011766b1-07f8-4cbe-bef1-3316458ed7cb> .
