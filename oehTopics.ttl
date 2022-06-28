@@ -23062,6 +23062,20 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "Klimazonen"@de,
         "Wetter"@de .
 
+<c49e1e95-7ed9-432f-80f0-a6bef4e3ad14> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Frauen in der spanischsprachigen Welt"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "Día Internacional de la Mujer"@de,
+        "España"@de,
+        "Hispanoamérica ELE"@de,
+        "mujeres"@de,
+        "mujeres en el mundo hispano"@de,
+        "mujeres escritoras"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de .
+
 <c4b89185-d3f8-4c60-8692-b3d771681fcd> a skos:Concept ;
     skos:broader <3757117d-15a3-4a6f-bf8b-92bff1c4e345> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -37839,62 +37853,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Silbenansatz"@de,
         "Wortansatz"@de .
 
-<66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
-    skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
-    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <57286ea3-4a6f-40c0-9725-25ff7885ca05>,
-        <5cd5f199-3639-43c5-8ab6-6ed5aad30493>,
-        <6f30e5db-9ea5-4c00-83a2-2b65e5096b29>,
-        <78ccb153-8a8e-4ff4-92b6-36aa4abe311a>,
-        <9f535d31-3d07-40cf-8f51-d372640f3876>,
-        <a2f28fb9-a7be-4daa-abac-d915f7fefae6>,
-        <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
-        <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
-        <fab7ae6a-2a05-4b78-9267-a1bffa683c6c>,
-        <fb12bfc5-aa98-4126-a883-27a441459a24> ;
-    skos:prefLabel "Interkulturelles"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords " Navidad ELE"@de,
-        " Sanfermines ELE"@de,
-        " Varietäten des Spanischen"@de,
-        " habla juvenil"@de,
-        " indigene Sprachen Einfluss Spanisch"@de,
-        " lenguas indígenas ELE"@de,
-        " lunfardo Argentina ELE"@de,
-        " peninsulares Spanisch"@de,
-        "Carnaval ELE"@de,
-        "Fallas de Valencia ELE"@de,
-        "Feste Spanien"@de,
-        "Geographie Hispanoamerika"@de,
-        "Geographie Spanien"@de,
-        "Guerra Civil ELE"@de,
-        "San Juan ELE"@de,
-        "Semana Santa ELE"@de,
-        "Tomatina ELE"@de,
-        "Traditionen Spanien"@de,
-        "cabalgata de Reyes ELE"@de,
-        "caló España ELE"@de,
-        "chicano estados unidos ELE"@de,
-        "cine ELE"@de,
-        "conquista ELE"@de,
-        "español México"@de,
-        "español de Argentina"@de,
-        "español de Cuba"@de,
-        "español de México"@de,
-        "español peninsular"@de,
-        "fiestas ELE"@de,
-        "geografía España"@de,
-        "geografía Hispanoamérica"@de,
-        "habla jóvenes España"@de,
-        "historia de España"@de,
-        "historia de Hispanoamérica"@de,
-        "películas ELE"@de,
-        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
-        "soziokulturelles Orientierungswissen Spanien"@de,
-        "tradiciones ELE"@de,
-        "variedades del español"@de .
-
 <9375d38b-1add-4f12-94c5-6979a01ff945> a skos:Concept ;
     skos:broader <a87c092d-e3b5-43ef-81db-757ab1967646> ;
     skos:definition "https://www.open.edu/openlearncreate/pluginfile.php/128162/local_olccategory/categoryimage/24/OEPS%20banner%20850px%20x%20398px.png"@de ;
@@ -38182,6 +38140,63 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Epochen der Musikgeschichte"@de,
         "Musikgeschichte"@de,
         "Übersicht"@de .
+
+<66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
+    skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
+    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <57286ea3-4a6f-40c0-9725-25ff7885ca05>,
+        <5cd5f199-3639-43c5-8ab6-6ed5aad30493>,
+        <6f30e5db-9ea5-4c00-83a2-2b65e5096b29>,
+        <78ccb153-8a8e-4ff4-92b6-36aa4abe311a>,
+        <9f535d31-3d07-40cf-8f51-d372640f3876>,
+        <a2f28fb9-a7be-4daa-abac-d915f7fefae6>,
+        <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
+        <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
+        <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
+        <fab7ae6a-2a05-4b78-9267-a1bffa683c6c>,
+        <fb12bfc5-aa98-4126-a883-27a441459a24> ;
+    skos:prefLabel "Interkulturelles"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords " Navidad ELE"@de,
+        " Sanfermines ELE"@de,
+        " Varietäten des Spanischen"@de,
+        " habla juvenil"@de,
+        " indigene Sprachen Einfluss Spanisch"@de,
+        " lenguas indígenas ELE"@de,
+        " lunfardo Argentina ELE"@de,
+        " peninsulares Spanisch"@de,
+        "Carnaval ELE"@de,
+        "Fallas de Valencia ELE"@de,
+        "Feste Spanien"@de,
+        "Geographie Hispanoamerika"@de,
+        "Geographie Spanien"@de,
+        "Guerra Civil ELE"@de,
+        "San Juan ELE"@de,
+        "Semana Santa ELE"@de,
+        "Tomatina ELE"@de,
+        "Traditionen Spanien"@de,
+        "cabalgata de Reyes ELE"@de,
+        "caló España ELE"@de,
+        "chicano estados unidos ELE"@de,
+        "cine ELE"@de,
+        "conquista ELE"@de,
+        "español México"@de,
+        "español de Argentina"@de,
+        "español de Cuba"@de,
+        "español de México"@de,
+        "español peninsular"@de,
+        "fiestas ELE"@de,
+        "geografía España"@de,
+        "geografía Hispanoamérica"@de,
+        "habla jóvenes España"@de,
+        "historia de España"@de,
+        "historia de Hispanoamérica"@de,
+        "películas ELE"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "tradiciones ELE"@de,
+        "variedades del español"@de .
 
 <992f0da8-20a3-4fdf-85f1-bfd828dad744> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
