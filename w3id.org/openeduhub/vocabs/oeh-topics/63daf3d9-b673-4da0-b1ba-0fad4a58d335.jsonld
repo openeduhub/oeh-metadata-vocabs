@@ -1,0 +1,159 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F63daf3d9-b673-4da0-b1ba-0fad4a58d335",
+  "prefLabel": {
+    "de": "Atommodelle in der Chemie"
+  },
+  "definition": {
+    "de": "Die Chemie nutzt eine ganze Vielzahl von Atommodellen. Jedes dieser Atommodelle hat Vor- und Nachteile. Der Chemie-Untericht folgt bei der Einführung von Atommodellen oft der historischen Entwicklung: Vom Atommodell von Dalton über das Kern-Hülle-Modell von Rutherford und das Schalenmodell von Bohr bis hin zu quantenmechanisch begründeten Modellen wie dem Orbitalmodell und dem daraus abgeleiteten Kugelwolkenmodell. Wenn du Materialien zu einzelnen Atommodellen suchst, so bist du hier richtig. Materialien zum Periodensystem der Elemente findest du hingegen im Abschnitt “Anorganische Chemie”."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/23532975-3b46-43dd-bc0b-a5543f04de78",
+      "prefLabel": {
+        "de": "Kern-Hülle-Modell nach Rutherford"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/41570c2d-02e4-4436-a1cb-bff4101b0d54",
+      "prefLabel": {
+        "de": "Schalenmodell nach Bohr"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6d7530c5-64b2-4e55-8729-192a62ed247d",
+      "prefLabel": {
+        "de": "Atommodell nach Dalton"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/aa70b690-e7fc-4792-9688-eeb8b2dffa2b",
+      "prefLabel": {
+        "de": "Historische Entwicklung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c05aee97-fddf-41a3-acc7-cacc1e4a7e3f",
+      "prefLabel": {
+        "de": "Kugelwolkenmodell nach Kimball"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/eb7e165b-31ee-4d0f-8077-eadf73251019",
+      "prefLabel": {
+        "de": "Das Orbitalmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f75eec46-f7a9-44b3-ad2a-1fee76a3b1a3",
+      "prefLabel": {
+        "de": "Das Teilchenmodell"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/77caf20c-36cc-481e-a842-67fc7c56697a",
+    "prefLabel": {
+      "de": "Atombau und PSE"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/100"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+  "prefLabel": {
+    "de": "Ökosysteme und Artenschutz"
+  },
+  "definition": {
+    "de": "<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zu den Themen Ökosystem und Biodiversität.</b> \n\n<p>Die Weltnaturschutzunion IUCN erfasste im Jahr 2021 fast 37.500 Tier- und Pflanzenarten als vom Aussterben bedroht - mehr als jemals zuvor. Der Mensch und der Klimawandel sind die Hauptursachen für diesen beschleunigten Verlust von Biodiversität, der dazu führt, dass mittlerweile die Lebensgemeinschaften ganzer Ökosysteme bedroht sind. Die Inhalte dieser Themenseite beschäftigen sich daher mit Fragen wie: Wie trägt unser Verhalten als Mensch und unser Umgang mit dem Planeten zum Artensterben bei? Was können wir in unserem Alltag dagegen tun?\n\nAuch im <a href=\"https://wirlernenonline.de/portal/biologie-%c3%b6kologie/\">Fachportal Biologie</a>\n gibt es tolle Inhalte zu diesem Thema! \n<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href=\"https://wirlernenonline.de/mitmachen/\">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0fe2772b-8505-4c11-9c74-d338152656d6",
+      "prefLabel": {
+        "de": "Moore für den Klimaschutz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/689e1bd9-ef30-431a-9662-8ef5f57f9b92",
+      "prefLabel": {
+        "de": "Boden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6e91dd76-c848-420e-a67e-5d57befc5c00",
+      "prefLabel": {
+        "de": "Wald"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/813900e0-a6e8-47b7-a421-9ec8fdbb9b9a",
+      "prefLabel": {
+        "de": "Lernen in der Natur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ed84767f-0c56-4bcf-8c91-b03bb3542e33",
+      "prefLabel": {
+        "de": "Wasser"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fca4e1e1-8d0e-4141-ab18-9083224fb47e",
+      "prefLabel": {
+        "de": "Luft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ffdc7de9-6357-4b73-9566-1f1aaac4651a",
+      "prefLabel": {
+        "de": "Wiese"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d0ed50e6-a49f-4566-8f3b-c545cdf75067",
+    "prefLabel": {
+      "de": "Nachhaltigkeit"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/64018"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
