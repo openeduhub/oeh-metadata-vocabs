@@ -9569,7 +9569,7 @@ Beispiele: wiederverwendbare, änderbare OER-Informationsbroschüren, Erklärfil
         "Zarzuela"@de .
 
 <572efa1f-e22a-40e8-af2e-a9dbff6963a1> a skos:Concept ;
-    skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
+    skos:broader <66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> ;
     skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien zum Thema Sucht: Was alles zu einer Sucht gehört, welche Arten der Abhängigkeit es gibt und wovon man generell abhängig werden kann."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sucht"@de ;
@@ -30637,6 +30637,18 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "Kinder- und Jugendliteratur"@de,
         "Kinderliteratur"@de .
 
+<66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> a skos:Concept ;
+    skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
+    skos:definition "In dieser Untersammlung werden verschiedene Materialien zu menschlichen Erkrankungen zusammengestellt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <572efa1f-e22a-40e8-af2e-a9dbff6963a1> ;
+    skos:prefLabel "Krankheiten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Infektionskrankheiten"@de,
+        "Krankheit"@de,
+        "Mensch"@de,
+        "Sucht"@de .
+
 <742ab88e-ccb9-4888-82ff-2482edfce44d> a skos:Concept ;
     skos:broader <ff426019-b246-4fda-af3c-328b88db7c06> ;
     skos:definition "Ihr habt so richtig Lust auf Theater, Film und/oder Improvisation? Dann wäre eine Theatergruppe, oder gar eine Schauspielschule für Kinder und Jugendliche vielleicht genau das Richtige für Euch! Hier findet Ihr eine Sammlung von Theatergruppen und Schauspielschulen in Deutschland. Klickt Euch durch und findet den passenden Ort, and welchem Ihr euch wohl fühlt und kreativ entfalten könnt! Diese Sammlung wird nach und nach erweitert."@de ;
@@ -38280,8 +38292,8 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         <2feeecd8-7daf-43fa-9046-023732e2d03e>,
         <417b0cfa-ea48-4bb8-a0b2-f4ef7ad247f0>,
         <5053692f-3e7e-4632-9979-7748d7431c5b>,
-        <572efa1f-e22a-40e8-af2e-a9dbff6963a1>,
         <59a239ec-ada8-4450-8733-d6499e4219f8>,
+        <66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0>,
         <796babee-9eaf-4cac-9ac8-cc50d08bb1f8>,
         <9eed3b28-4aba-4316-a50a-56d5b594bb40>,
         <caf27971-c9af-484c-b558-ef243d7ffb45>,
