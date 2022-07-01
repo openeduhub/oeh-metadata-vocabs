@@ -3341,10 +3341,15 @@ Wann ist ein Mann ein Mensch?"""@de ;
 
 <2123bb6c-b02e-49d0-bc6c-2db0e2b4bd8c> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition """Isidore Marie Auguste François Xavier Comte (1798 - 1857 ) war ein französischer Mathematiker, Philosoph und Religionskritiker. Vor allem ist er bekannt als Begründer des Positivismus und Mitbegründer der Soziologie. Er gilt als der erste Wissenschaftsphilosoph.
+"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "August Comte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Positivismus"@de,
+        "Soziologie"@de,
+        "Verifikationismus"@de .
 
 <21243fc8-c464-459b-bbe7-277d738271ca> a skos:Concept ;
     skos:broader <779fca4d-9172-4a6b-9626-e46e6e6cb99c> ;
@@ -3544,10 +3549,17 @@ Wann ist ein Mann ein Mensch?"""@de ;
 
 <221080c8-7832-4193-adf3-61e52489af00> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition "Søren Kierkegaard (1813 in Kopenhagen - 1855 ebenda) war ein dänischer Philosoph, Essayist, evangelisch-lutherischer Theologe und religiöser Schriftsteller. Kierkegaard wird vielfach als Wegbereiter der Existenzphilosophie oder gar als deren erster Vertreter aufgefasst."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Søren Kierkegaard"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Angst"@de,
+        "Christentum"@de,
+        "Ethisches Stadium"@de,
+        "Existenzphilosophie"@de,
+        "Religiöses Stadium"@de,
+        "Ästhetisches Stadium"@de .
 
 <2218496a-9e32-4c1d-afdb-71106a2b9acf> a skos:Concept ;
     skos:broader <8f258de2-21df-4dd5-ac37-20eda953cad9> ;
@@ -4906,6 +4918,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 
 <2d96e5d2-e84d-4bfd-8e25-848cd7d8b145> a skos:Concept ;
     skos:broader <0afd15fa-c5d9-45db-aae7-97953618f0bb> ;
+    skos:definition "Das Jenseits bezeichnet im Allgemeinen eine „andere Wirklichkeit“, die sich außerhalb der uns bekannten Wirklichkeit befindet. Den Gegensatz dazu bildet das „Diesseits“ als Gesamtheit der Phänomene, die den Gesetzen der Natur gehorchen. Jenseitsvorstellungen sind immer mit Vorstellungen von anderen Existenzformen verbunden und damit direkt oder indirekt mit dem Tod."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Jenseitsvorstellungen in unterschiedlichen Kulturen und Epochen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -27053,6 +27066,9 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
 
 <e505a230-c57c-4f26-a515-2a09397d3c75> a skos:Concept ;
     skos:broader <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> ;
+    skos:definition """- Friedemann Schulz von Thun und die vier Seiten einer Nachricht
+- Paul Watzlawicks „Anleitung zum Unglücklichsein”
+- Kommunikationsmodell"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Weitere kommunikationspsychologische Ansätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -27064,6 +27080,8 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Harris"@de,
         "Huxley"@de,
         "Kommunikation"@de,
+        "Kommunikationsmodell"@de,
+        "Paul Watzlawick"@de,
         "Utopie"@de .
 
 <e5321bf7-55c9-437b-b4b8-bee7875d7e06> a skos:Concept ;
@@ -34095,7 +34113,7 @@ periodische Vorgänge auf."""@de .
 
 <a402ca40-035b-44a4-beff-447c3d9c21be> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
-    skos:definition "wie funktioniert ein Betrieb, wie ist er aufgebaut, welche Produktionsfaktoren gibt es, Rechtsformen und Standortfaktoren, Entscheidungsmechanismen"@de ;
+    skos:definition "wie funktioniert ein Betrieb, wie ist er aufgebaut, welche Produktionsfaktoren gibt es, Rechtsformen und Standortfaktoren, Entscheidungsmechanismen, Existenzgründung"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <20dfa72d-2bc0-4462-948b-c3932aaf4006>,
         <72d6741e-2597-4995-9253-3b14bdb77fb9>,
@@ -34104,6 +34122,7 @@ periodische Vorgänge auf."""@de .
     skos:prefLabel "Betrieb"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
     sdo:keywords "BWL"@de,
+        "Existenzgründung"@de,
         "Produktionsfaktoren"@de,
         "Rechtsformen"@de,
         "Standortfaktoren"@de,
@@ -34158,6 +34177,7 @@ periodische Vorgänge auf."""@de .
 
 <aeb4e1f7-b094-4fa9-9001-b67b2e7e23b1> a skos:Concept ;
     skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
+    skos:definition "Kommunikationspsychologie beschäftigt sich mit kommunikationsbezogenen Prozessen: Wann und wie gelingt Kommunikation ,   was sind relevante Einflussfaktoren und Bedingungen? Was ist ein wünschenswerter Verlauf und welche Ergebnisse sind ethisch zufriedenstellend?"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <8d8a257a-f256-45d3-8786-cbd787a1f970>,
         <a3df7e31-59ae-451d-a50f-0a190f6f698c>,
@@ -34165,7 +34185,13 @@ periodische Vorgänge auf."""@de .
         <f983a532-6008-458e-b8a5-39cd5344cd9d> ;
     skos:prefLabel "Suche nach dem Sinn des Lebens in kommunikationspsychologischer Betrachtung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Einverständnis"@de,
+        "Empfänger"@de,
+        "Kommunikationsmodell"@de,
+        "Nachricht"@de,
+        "Sender"@de,
+        "Verstehen"@de .
 
 <b1a1b0e0-442a-416f-996a-ed5ac322e041> a skos:Concept ;
     skos:broader <add72bd6-2d1b-435a-9ae4-27e5cee28a52> ;
@@ -35871,7 +35897,12 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
         <ddcbb467-d924-40f8-a9e5-4ac28fc6924d> ;
     skos:prefLabel "Sinnorientierung und Lebensgestaltung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Gemeinschaft"@de,
+        "Glück"@de,
+        "Lebenssinn"@de,
+        "Sinn des Lebens"@de,
+        "Sinnsuche"@de .
 
 <69756a85-a71e-4790-8ed0-6c11bb56aa1d> a skos:Concept ;
     skos:broader <69f9ff64-93da-4d68-b849-ebdf9fbdcc77> ;
@@ -39235,7 +39266,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-06-28" ;
+    dct:modified "2022-07-01" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
