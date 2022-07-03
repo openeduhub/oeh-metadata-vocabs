@@ -8400,13 +8400,6 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> ;
     sdo:keywords "Siddhartha Gautama: Fürstensohn, Mystiker, Asket, Buddha"@de .
 
-<4e7f6251-a0c1-4e8e-8a79-91e30a599bd2> a skos:Concept ;
-    skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
-    skos:definition "Hier findet ihr Anbieter und Inspirationen rund um das Thema nachhaltige Klassenfahrt, sowie freiwilliges Engagement im Umweltbereich"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Freiwilliges Engagement und Klassenfahrten im Sinne der Nachhaltigkeit"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> .
-
 <4e87747e-45a5-4f15-8810-6eebb8f7a108> a skos:Concept ;
     skos:broader <d6479851-c1a9-4435-845b-331580dac6db> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -38755,6 +38748,38 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
         "Multiplikation"@de,
         "Subtraktion"@de .
 
+<d0ed50e6-a49f-4566-8f3b-c545cdf75067> a skos:Concept ;
+    skos:definition """“Wir erben die Erde nicht von unseren Vorfahren, sondern leihen sie uns von unseren Kindern.” Dieses indigene Sprichwort trifft unsere Auffassung von Nachhaltigkeit auf diesem Portal sehr gut. Wir verstehen den Begriff Nachhaltigkeit im Sinne von nachhaltiger Entwicklung - eine Entwicklung, bei der Menschen heute und in Zukunft würdig leben und ihre Bedürfnisse und Talente unter Berücksichtigung planetarer Grenzen entfalten können. Wichtig dabei ist zu verstehen, welche Auswirkungen unser eigenes Handelns auf die Welt und zukünftige Generationen hat. 
+
+Hier findest du neben sorgfältig ausgewählten Materialien für den Online- und Präsenzunterricht, auch spannende Projektideen, nachhaltige Alltagstipps und tolle Initiativen, die sich für eine enkelkinderfreundliche Zukunft einsetzen.
+
+Du kennst tolles Material? Dann bringe dich und dein Wissen ein! Hilf mit, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!"""@de ;
+    skos:narrower <03067697-00cc-4da8-9592-42396a2aa8c8>,
+        <0c254446-5a49-4fe1-a595-1cb29e96ebd7>,
+        <26d6c1b7-4e17-472b-a9a8-6372a6194896>,
+        <26e4da5f-f2ed-41c9-81bb-8bfad2c02b81>,
+        <2d8658f5-4fe7-4de7-85c6-ae8164777be0>,
+        <541876dd-b202-4de4-bd2a-5d7df2c01065>,
+        <57c22171-ad90-4e73-8696-fcaf8b8d6608>,
+        <5a1525ae-409e-4d83-8cfd-f9efec57518c>,
+        <63480ab2-f357-4273-9633-2cc83234bb11>,
+        <896c68c6-2839-4cce-9523-d63546423bad>,
+        <91e5b64c-07b0-41b7-8ff3-4319deee61cd>,
+        <95271c84-942a-49a7-baad-551c5f09c446>,
+        <9d24d904-a7a5-4104-a8b3-d15d4925cfbb>,
+        <a15dfea6-22b6-4fd2-af69-3094c167bd86>,
+        <c54e5e76-fac1-4d1c-885e-b4b838efe482> ;
+    skos:prefLabel "Nachhaltigkeit"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "BNE"@de,
+        "Bildung für nachhaltige Entwicklung"@de,
+        "Klimawandel"@de,
+        "Nachhaltige Entwicklung"@de,
+        "Naturschutz"@de,
+        "Umweltpolitik"@de,
+        "nachhaltig"@de .
+
 <12c4cd99-9804-44b5-a81b-e9900a0e3d42> a skos:Concept ;
     skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
     skos:definition "Wer die deutsche Sprache richtig gut sprechen möchte, muss auch die Grammatik und ihre Regeln beherrschen. So gibt es im Deutschen drei Geschlechter für ein Nomen. Welcher Artikel ist da der passende? Der, die oder das? Außerdem gibt es die vier Fälle, den Nominativ, Akkusativ, Dativ und Genitiv. Zugegeben, das mag sich zu Beginn etwas kompliziert anhören; aber mal ehrlich, jede Fremdsprache hat doch ihre grammatischen Besonderheiten, die schwerer oder leichter fallen. Hier findest du alle Inhalte, die dir dabei helfen, deine Kenntnisse der deutschen Grammatik zu vertiefen und verbessern."@de ;
@@ -38833,39 +38858,6 @@ Die zentralen Begriffe des Teilgebiets der Wahrscheinlichkeitsrechnung sind Lapl
         <da77c781-c61e-444e-8b3b-ffbfc8c5fe2f> ;
     skos:prefLabel "Statistik und Wahrscheinlichkeitsrechnung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
-
-<d0ed50e6-a49f-4566-8f3b-c545cdf75067> a skos:Concept ;
-    skos:definition """“Wir erben die Erde nicht von unseren Vorfahren, sondern leihen sie uns von unseren Kindern.” Dieses indigene Sprichwort trifft unsere Auffassung von Nachhaltigkeit auf diesem Portal sehr gut. Wir verstehen den Begriff Nachhaltigkeit im Sinne von nachhaltiger Entwicklung - eine Entwicklung, bei der Menschen heute und in Zukunft würdig leben und ihre Bedürfnisse und Talente unter Berücksichtigung planetarer Grenzen entfalten können. Wichtig dabei ist zu verstehen, welche Auswirkungen unser eigenes Handelns auf die Welt und zukünftige Generationen hat. 
-
-Hier findest du neben sorgfältig ausgewählten Materialien für den Online- und Präsenzunterricht, auch spannende Projektideen, nachhaltige Alltagstipps und tolle Initiativen, die sich für eine enkelkinderfreundliche Zukunft einsetzen.
-
-Du kennst tolles Material? Dann bringe dich und dein Wissen ein! Hilf mit, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!"""@de ;
-    skos:narrower <03067697-00cc-4da8-9592-42396a2aa8c8>,
-        <0c254446-5a49-4fe1-a595-1cb29e96ebd7>,
-        <26d6c1b7-4e17-472b-a9a8-6372a6194896>,
-        <26e4da5f-f2ed-41c9-81bb-8bfad2c02b81>,
-        <2d8658f5-4fe7-4de7-85c6-ae8164777be0>,
-        <4e7f6251-a0c1-4e8e-8a79-91e30a599bd2>,
-        <541876dd-b202-4de4-bd2a-5d7df2c01065>,
-        <57c22171-ad90-4e73-8696-fcaf8b8d6608>,
-        <5a1525ae-409e-4d83-8cfd-f9efec57518c>,
-        <63480ab2-f357-4273-9633-2cc83234bb11>,
-        <896c68c6-2839-4cce-9523-d63546423bad>,
-        <91e5b64c-07b0-41b7-8ff3-4319deee61cd>,
-        <95271c84-942a-49a7-baad-551c5f09c446>,
-        <9d24d904-a7a5-4104-a8b3-d15d4925cfbb>,
-        <a15dfea6-22b6-4fd2-af69-3094c167bd86>,
-        <c54e5e76-fac1-4d1c-885e-b4b838efe482> ;
-    skos:prefLabel "Nachhaltigkeit"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/64018> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "BNE"@de,
-        "Bildung für nachhaltige Entwicklung"@de,
-        "Klimawandel"@de,
-        "Nachhaltige Entwicklung"@de,
-        "Naturschutz"@de,
-        "Umweltpolitik"@de,
-        "nachhaltig"@de .
 
 <d6479851-c1a9-4435-845b-331580dac6db> a skos:Concept ;
     skos:broader <bd8be6d5-0fbe-4534-a4b3-773154ba6abc> ;
@@ -39278,7 +39270,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-03" ;
+    dct:modified "2022-07-04" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
