@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hcrt: <https://w3id.org/kim/hcrt/> .
 
 <> a skos:ConceptScheme;
     dct:title "Typ der Lernressource"@de;
@@ -25,152 +26,183 @@
 <application> a skos:Concept ;
     skos:prefLabel "Anwendung/Software"@de ;
     skos:prefLabel "application"@en ;
+    skos:altLabel "Softwareanwendung" ;
     skos:editorialNote "Original LOMv1.0" ;
+    skos:exactMatch hcrt:application ;
     skos:topConceptOf <> .
 
 <assessment> a skos:Concept ;
     skos:prefLabel "Lernkontrolle"@de ;
     skos:prefLabel "assessment"@en ;
+    skos:exactMatch hcrt:assessment ;
     skos:topConceptOf <> .
 
 <audiovisual_medium> a skos:Concept ;
     skos:prefLabel "Audiovisuelles Medium"@de ;
     skos:prefLabel "audiovisual medium"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <broadcast> a skos:Concept ;
     skos:prefLabel "Radio/TV"@de ;
     skos:prefLabel "broadcast"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <case_study> a skos:Concept ;
     skos:prefLabel "Fallstudie"@de ;
     skos:prefLabel "case_study"@en ;
+    skos:exactMatch hcrt:case_study ;
     skos:topConceptOf <> .
 
 <course> a skos:Concept ;
     skos:prefLabel "Kurs"@de ;
     skos:prefLabel "course"@en ;
+    skos:exactMatch hcrt:course ;
     skos:topConceptOf <> .
 
 <demonstration> a skos:Concept ;
     skos:prefLabel "Veranschaulichung"@de ;
     skos:prefLabel "demonstration"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <drill_and_practice> a skos:Concept ;
     skos:prefLabel "Übung"@de ;
     skos:prefLabel "drill and practice"@en ;
+    skos:exactMatch hcrt:drill_and_practice ;
     skos:topConceptOf <> .
 
 <educational_game> a skos:Concept ;
     skos:prefLabel "Lernspiel"@de ;
     skos:prefLabel "educational Game"@en ;
+    skos:exactMatch hcrt:educational_game ;
     skos:topConceptOf <> .
 
 <enquiry_oriented_activity> a skos:Concept ;
     skos:prefLabel "Recherche-Auftrag"@de ;
     skos:prefLabel "enquiry-oriented activity"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <experiment> a skos:Concept ;
     skos:prefLabel "Experiment"@de ;
     skos:prefLabel "experiment"@en ;
+    skos:exactMatch hcrt:experiment ;
     skos:topConceptOf <> .
 
 <exploration> a skos:Concept ;
     skos:prefLabel "Entdeckendes Lernen"@de ;
     skos:prefLabel "exploration"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <glossary> a skos:Concept ;
     skos:prefLabel "Glossar"@de ;
     skos:prefLabel "glossary"@en ;
+    skos:broadMatch hcrt:index ;
     skos:topConceptOf <> .
 
 <guide> a skos:Concept ;
     skos:prefLabel "Handbuch"@de ;
     skos:prefLabel "guide"@en ;
+    skos:broadMatch hcrt:index ;
     skos:topConceptOf <> .
 
 <audio> a skos:Concept ;
     skos:prefLabel "Audio"@de ;
     skos:prefLabel "audio"@en ;
+    skos:exactMatch hcrt:audio ;
     skos:topConceptOf <> .
 
 <data> a skos:Concept ;
     skos:prefLabel "Daten"@de ;
     skos:prefLabel "data"@en ;
+    skos:exactMatch hcrt:data ;
     skos:topConceptOf <> .
 
 <image> a skos:Concept ;
     skos:prefLabel "Bild"@de ;
     skos:prefLabel "image"@en ;
+    skos:broadMatch hcrt:image ;
     skos:topConceptOf <> .
 
 <map> a skos:Concept ;
     skos:prefLabel "Karte"@de ;
     skos:prefLabel "map"@en ;
+    skos:exactMatch hcrt:map ;
     skos:topConceptOf <> .
 
 <model> a skos:Concept ;
     skos:prefLabel "Modell"@de ;
     skos:prefLabel "model"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <photograph> a skos:Concept ;
     skos:prefLabel "Foto"@de ;
     skos:prefLabel "Photograph"@en ;
+    skos:broadMatch hcrt:image ;
     skos:topConceptOf <> .
 
 <text> a skos:Concept ;
     skos:prefLabel "Text"@de ;
     skos:prefLabel "text"@en ;
+    skos:exactMatch hcrt:text ;
     skos:topConceptOf <> .
 
 <video> a skos:Concept ;
     skos:prefLabel "Video"@de ;
     skos:prefLabel "video"@en ;
+    skos:exactMatch hcrt:video ;
     skos:topConceptOf <> .
 
 <other_asset_type> a skos:Concept ;
     skos:prefLabel "Anderes Material"@de ;
     skos:prefLabel "other asset type"@en ;
+    skos:broadMatch hcrt:other ;
     skos:topConceptOf <> .
 
 <lesson_plan> a skos:Concept ;
     skos:prefLabel "Unterrichtsplanung"@de ;
     skos:prefLabel "lesson plan"@en ;
+    skos:exactMatch hcrt:lesson_plan ;
     skos:topConceptOf <> .
 
 <open_activity> a skos:Concept ;
     skos:prefLabel "Offene Aktivität"@de ;
     skos:prefLabel "open activity"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <presentation> a skos:Concept ;
     skos:prefLabel "Präsentation"@de ;
     skos:prefLabel "presentation"@en ;
+    skos:exactMatch hcrt:slide ;
     skos:topConceptOf <> .
 
 <project> a skos:Concept ;
     skos:prefLabel "Projekt"@de ;
     skos:prefLabel "project"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <reference> a skos:Concept ;
     skos:prefLabel "Primärmaterial/Quelle"@de ;
     skos:prefLabel "reference"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <role_play> a skos:Concept ;
     skos:prefLabel "Rollenspiel"@de ;
     skos:prefLabel "role play"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <simulation> a skos:Concept ;
     skos:prefLabel "Simulation"@de ;
     skos:prefLabel "simulation"@en ;
+    skos:exactMatch hcrt:simulation ;
     skos:topConceptOf <> .
 
 <teaching_module> a skos:Concept ;
@@ -178,39 +210,47 @@
     skos:prefLabel "teaching module"@en ;
     skos:altLabel "teaching-module"@en ;
     skos:editorialNote "Nicht in LOM-DE vorhanden"@de ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <tool> a skos:Concept ;
     skos:prefLabel "Werkzeug"@de ;
     skos:prefLabel "tool"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <weblog> a skos:Concept ;
     skos:prefLabel "Webblog"@de ;
     skos:prefLabel "webblog"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <web_page> a skos:Concept ;
     skos:prefLabel "Website"@de ;
     skos:prefLabel "web page"@en ;
+    skos:exactMatch hcrt:web_page ;
     skos:topConceptOf <> .
 
 <wiki> a skos:Concept ;
     skos:prefLabel "Wiki"@de ;
     skos:prefLabel "wiki"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <other_web_resource> a skos:Concept ;
     skos:prefLabel "Andere Web Ressource"@de ;
     skos:prefLabel "other web resource"@en ;
+    skos:editorialNote "There is no equivalent concept in HCRT."@en ;
     skos:topConceptOf <> .
 
 <other> a skos:Concept ;
     skos:prefLabel "Anderer Ressourcentyp"@de ;
     skos:prefLabel "other"@en ;
+    skos:broadMatch hcrt:other ;
     skos:topConceptOf <> .
 
 <worksheet> a skos:Concept ;
     skos:prefLabel "Arbeitsblatt"@de ;
     skos:prefLabel "worksheet"@en ;
+    skos:broadMatch hcrt:worksheet ;
     skos:topConceptOf <> .
