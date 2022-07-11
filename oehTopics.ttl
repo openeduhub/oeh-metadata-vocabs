@@ -13137,10 +13137,15 @@ Spielfähigkeit."""@de ;
 
 <75961ba2-0b26-435d-aadd-884c2ea922f7> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
+    skos:definition "Wilhelm Dilthey (1833 - 1911) gilt als Schöpfer der Erkenntnistheorie der Geisteswissenschaften. Im Verhältnis zu den Naturwissenschaften sollen die Geisteswissenschaften in Gegenstand und Methode selbstständig sein. Während die Naturwissenschaften Vorgänge in der Natur „erklären”, versuchen die Geisteswissenschaften historisch-kulturelle Geschehnisse zu „verstehen”. Verstehen meint dabei das Nacherleben eines fremden Daseins, wie es sich in Schrift, Sprache, Gesten, Mimik oder Kunst ausdrückt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Wilhelm Dilthey"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Hermeneutik"@de,
+        "Lebensphilosophie"@de,
+        "Verstehen oder erklären"@de,
+        "Weltanschauungslehre"@de .
 
 <759c3eeb-e7cc-4c11-b90d-65f2772ecd1a> a skos:Concept ;
     skos:broader <0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e> ;
@@ -34554,6 +34559,7 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
 
 <d8ee1dfc-e845-4b9a-8f16-a10730094987> a skos:Concept ;
     skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
+    skos:definition "Politik bezeichnet jegliche Art der Einflussnahme und Gestaltung sowie die Durchsetzung von Forderungen und Zielen in privaten oder öffentlichen Bereichen. Politische Ethik ist die philosophische Teildisziplin, welche die Normen und Normensysteme in der Politik im Hinblick auf gutes und gerechtes ethisches Handeln untersucht."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <12401e0f-fb71-4230-9c97-b446f5d12581>,
         <510ef7bf-1a4e-4135-bdb0-50e576930dbb>,
@@ -34561,7 +34567,10 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <e067f886-5add-4797-821d-0e44562d8a69> ;
     skos:prefLabel "Politische Ethik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> .
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Gerechtigkeit"@de,
+        "Normen und Werte"@de .
 
 <dd15f5a6-f749-4efa-94f5-4f0caf05a95d> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
