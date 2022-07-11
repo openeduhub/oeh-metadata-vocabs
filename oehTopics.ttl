@@ -907,10 +907,8 @@
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Condicional simple"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords " futuro simple"@de,
-        " futuro simple ELE"@de,
-        "Futur 1 Spanisch"@de,
-        "tiempos verbales ELE"@de .
+    sdo:keywords "condicional simple"@de,
+        "condicional simple Spanisch"@de .
 
 <08c95bb4-abdd-4779-9d67-345b62bbc2a7> a skos:Concept ;
     skos:broader <f4c52208-f227-49d7-b3aa-de4c8dab203c> ;
@@ -11674,8 +11672,7 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     skos:prefLabel "Condicional compuesto"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Condicional compuesto ELE"@de,
-        "Futur 2 Spanisch"@de,
-        "Futur II Spanisch"@de .
+        "condicional compuesto"@de .
 
 <676a0501-8e89-460e-8d9f-04c3dbaef4b7> a skos:Concept ;
     skos:broader <65b390bf-5255-4045-9165-2f588479f529> ;
@@ -26859,11 +26856,14 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords " verbos reflexivos"@de,
         "Grammatik"@de,
+        "Los pronombres reflexivos"@de,
         "Reflexivpronomen"@de,
         "Spanisch"@de,
         "gramática"@de,
+        "pronombres reflexivos"@de,
         "pronombres reflexivos "@de,
-        "reflexive Verben"@de .
+        "reflexive Verben"@de,
+        "verbos reflexivos"@de .
 
 <e29d1b88-25a5-4684-a103-02b5d205fbcb> a skos:Concept ;
     skos:broader <3871cf0a-ba39-4457-b710-c585f892beca> ;
@@ -38601,17 +38601,37 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
     sdo:keywords " futuro próximo ELE"@de,
         " presente continuo ELE"@de,
         " pretérito pluscuamperfecto ELE"@de,
+        "Futuro simple"@de,
+        "Indefindo ELE"@de,
+        "Pretérito pluscuamperfecto"@de,
+        "Spanisch Pretérito Indefinido"@de,
         "condicional compuesto ELE"@de,
         "condicional simple ELE"@de,
+        "el presente de indicativo"@de,
+        "el pretérito indefinido"@de,
+        "futuro compuesto"@de,
         "futuro compuesto ELE"@de,
+        "futuro de indicativo"@de,
+        "futuro imperfecto"@de,
+        "futuro inmediato"@de,
         "futuro inmediato ELE"@de,
+        "futuro perfecto"@de,
+        "futuro próximo"@de,
+        "futuro simple"@de,
         "futuro simple ELE"@de,
+        "imperfecto"@de,
+        "indefinido"@de,
         "pasado inmediato ELE"@de,
+        "pluscuamperfecto"@de,
+        "presente de indicativo"@de,
         "presente de indicativo ELE"@de,
         "pretérito anterior en desuso"@de,
+        "pretérito imperfecto"@de,
         "pretérito imperfecto ELE"@de,
+        "pretérito indefinido"@de,
         "pretérito indefinido ELE"@de,
         "pretérito perfecto ELE"@de,
+        "pretérito pluscuamperfecto"@de,
         "tiempos verbales ELE"@de .
 
 <70db382e-165a-442c-a4d5-3bcf86bd7c9b> a skos:Concept ;
