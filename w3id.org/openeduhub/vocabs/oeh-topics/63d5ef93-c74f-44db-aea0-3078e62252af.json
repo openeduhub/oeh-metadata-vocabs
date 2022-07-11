@@ -1,0 +1,198 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/63d5ef93-c74f-44db-aea0-3078e62252af",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F63d5ef93-c74f-44db-aea0-3078e62252af",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F63d5ef93-c74f-44db-aea0-3078e62252af",
+  "prefLabel": {
+    "de": "Zeiten im Indicativo"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/08c4abc5-c91b-4c94-9411-73a4629874e2",
+      "prefLabel": {
+        "de": "Condicional simple"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/43aa6c45-5829-4118-8360-549e2168193a",
+      "prefLabel": {
+        "de": "Pretérito pluscuamperfecto de indicativo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/62a16ebe-d314-4cb6-a101-7f903169f2be",
+      "prefLabel": {
+        "de": "Pretérito indefinido"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/671f3334-aff0-46e3-886b-861c20c7282e",
+      "prefLabel": {
+        "de": "Condicional compuesto"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7fd80257-73e7-4b53-9512-a5cc3fe09e92",
+      "prefLabel": {
+        "de": "Presente de indicativo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/83d6b960-8f86-4b8d-a842-10662e06248b",
+      "prefLabel": {
+        "de": "Futuro simple de indicativo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/99f776d8-6ae6-48ce-b531-b073f647caf6",
+      "prefLabel": {
+        "de": "Futuro próximo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a6a3b5a7-d7dd-4a90-907a-13b586cfd856",
+      "prefLabel": {
+        "de": "Futuro compuesto"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b544bee1-adda-420a-9a13-f87eb7689c80",
+      "prefLabel": {
+        "de": "Pasado inmediato"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c6818dda-f9de-4690-b16d-873ff7759987",
+      "prefLabel": {
+        "de": "Pretérito perfecto de indicativo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c684ec18-0627-4fb4-8d1a-ada4e89de2c3",
+      "prefLabel": {
+        "de": "Übersichten und Listen Spanisch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e5371881-c03a-46b5-965c-8c380e8b23f8",
+      "prefLabel": {
+        "de": "Pretérito anterior - en desuso"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f6254953-552b-4257-a4f8-dd04740c3b3e",
+      "prefLabel": {
+        "de": "Presente continuo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fb38181f-d092-4e2d-83f7-ce2391e92391",
+      "prefLabel": {
+        "de": "Pretérito imperfecto de indicativo"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/992f0da8-20a3-4fdf-85f1-bfd828dad744",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20007"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fa77844a-a904-47f4-80a9-579ca0d68edf",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ffa77844a-a904-47f4-80a9-579ca0d68edf",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ffa77844a-a904-47f4-80a9-579ca0d68edf",
+  "prefLabel": {
+    "de": "s-Schreibung"
+  },
+  "definition": {
+    "de": "Die s-Schreibung thematisiert die Schreibung der Buchstaben s, ss und ß. Wird der Vokal lang gesprochen (in offener Silbe) und der s-Laut ist stimmhaft, wird nur ein “s” (z.B. “Rose”) geschrieben. Ebenfalls kann bei langem Vokal (in offener Silbe) auch ein stimmloser s-Laut gesprochen werden, dann wird ein “ß” (z.B. “Maße”) verschriftlicht. Wird der Vokal hingegen kurz gesprochen (in geschlossener Silbe), ist der s-Laut stimmlos und wird “ss” (z.B. “fassen”) geschrieben. In einigen, meist südlichen Regionen kann die Unterscheidung zwischen stimmhaftem und stimmlosem s-Laut schwer fallen. Um dies zu üben, findest du hier viele tolle Materialien."
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/65b390bf-5255-4045-9165-2f588479f529",
+    "prefLabel": {
+      "de": "Laut-Buchstaben-Zuordnung"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

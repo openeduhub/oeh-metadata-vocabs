@@ -1,0 +1,165 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d155f98b-ecf8-420b-a97b-e6cddbc1366f",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd155f98b-ecf8-420b-a97b-e6cddbc1366f",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd155f98b-ecf8-420b-a97b-e6cddbc1366f",
+  "prefLabel": {
+    "de": "Nomen"
+  },
+  "definition": {
+    "de": "Hier findest Du Seiten und Materialien zum Thema 'Nomen' im Türkischen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/04762483-07c9-4c6a-92d8-0c8129f1ce38",
+      "prefLabel": {
+        "de": "Dativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/098b5196-b1c9-41c5-b9c5-beee4d682ef2",
+      "prefLabel": {
+        "de": "Singular und Plural"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3f19b11d-dce1-4973-8ca5-9a3e5cba23f1",
+      "prefLabel": {
+        "de": "Akkusativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7b86efeb-ec30-4c80-a379-a50f183bf2b4",
+      "prefLabel": {
+        "de": "Ablativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/86ca36df-c75f-4fb3-8343-7ef1c0ce6f93",
+      "prefLabel": {
+        "de": "Nominativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9af82208-b25e-47fc-b6bc-ff6076ff4dea",
+      "prefLabel": {
+        "de": "Lokativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9e161e2e-1d71-4b4b-a971-c23efc839a72",
+      "prefLabel": {
+        "de": "Genitiv"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bc817c39-e78a-4d5a-8beb-79bda96f3807",
+      "prefLabel": {
+        "de": "Bestimmtheit und Unbestimmtheit"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20008"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

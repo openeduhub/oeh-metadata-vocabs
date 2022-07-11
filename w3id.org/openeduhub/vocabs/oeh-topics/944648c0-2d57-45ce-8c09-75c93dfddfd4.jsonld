@@ -1,0 +1,115 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/944648c0-2d57-45ce-8c09-75c93dfddfd4",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F944648c0-2d57-45ce-8c09-75c93dfddfd4",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F944648c0-2d57-45ce-8c09-75c93dfddfd4",
+  "prefLabel": {
+    "de": "Wirksames Lernen - Wie mixe ich die Bausteine für einen nachhaltiges und wirksames Lernen?"
+  },
+  "definition": {
+    "de": "Lehrende brauchen und haben Modelle für Lehr-Lern-Prozesse, denn niemand unterrichtet „modelllos“. Die Frage ist, wie implizit oder explizit diese Modelle das jeweilige Lehren bestimmen und wie öffentlich und transparent die Modelle und Vorstellungen sind.  Ein Lehr-Lern-Modell ist ein von Lehr-Lern-Experten geschaffenes theoretisches Konstrukt zur Professionalisierung des Lehrens mit dem Ziel, dass Lerner wirksam und gut lernen. Viele gängige Lehr-Lern-Modelle sind jedoch bloße Lehr-Modelle, d.h. sie  fokussieren auf das Lehren, also auf das, was die Lehrkraft tut. Ein Lehr-Lern-Modell muss aber auf das Lernen und auf das Wirkungsverhältnis von Lehrern und Lernen zentrieren. Die Frage ist also, wie die Lernprozesse und die Lehrprozesse zusammenspielen. http://www.lehr-lern-modell.de/lehr-lern-modell "
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8c634c85-1921-4772-ab97-f037ba93b8e4",
+    "prefLabel": {
+      "de": "Wirksame Lehr-Lernprozesse entwickeln und umsetzen"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/720"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

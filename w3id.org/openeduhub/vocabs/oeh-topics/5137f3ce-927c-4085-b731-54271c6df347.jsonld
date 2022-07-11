@@ -1,0 +1,153 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5137f3ce-927c-4085-b731-54271c6df347",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F5137f3ce-927c-4085-b731-54271c6df347",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F5137f3ce-927c-4085-b731-54271c6df347",
+  "prefLabel": {
+    "de": "Rechtschreibung"
+  },
+  "definition": {
+    "de": "Die deutsche Rechtschreibung hat manchmal so ihre Tücken. Auch Muttersprachler*innen sind sich nicht immer sicher, ob ein Wort mit ss, s oder ß geschrieben wird, zusammen oder getrennt oder groß oder klein. Manchmal gelten verschiedene Schreibweisen als korrekt, obwohl Verlage wie Duden oder Wahrig Empfehlungen dazu geben. Auch die Zeichensetzung lässt eine gewisse Flexibilität zu. Dennoch gibt es jede Menge Regeln, die dir dabei helfen zu entscheiden, wann zum Beispiel ein Komma zwingend notwendig ist und wann nicht. Alles das kannst du hier mit zahlreichen Übungen und Erklärungen trainieren."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2f617292-f21e-4ce0-8d15-059229ab25fa",
+      "prefLabel": {
+        "de": "Vokale, Umlaute und Konsonanten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/52b73d13-f0b2-4ec9-8d1a-08f9b2842fa2",
+      "prefLabel": {
+        "de": "Fremdwörter schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/89298846-0029-4b5c-bc12-f27efdf3ed28",
+      "prefLabel": {
+        "de": "Großschreibung und Kleinschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8ec77263-4fdd-45c3-873d-96b5e87a6c8a",
+      "prefLabel": {
+        "de": "Zeichensetzung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/94fae7c5-134f-4e5c-b330-50be85ca264c",
+      "prefLabel": {
+        "de": "Zusammen- oder Getrenntschreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c54d4635-7cb2-4b6c-b6c3-49ba32e6efaa",
+      "prefLabel": {
+        "de": "s, ss und ß"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4",
+    "prefLabel": {
+      "de": "Deutsch als Zweitsprache"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

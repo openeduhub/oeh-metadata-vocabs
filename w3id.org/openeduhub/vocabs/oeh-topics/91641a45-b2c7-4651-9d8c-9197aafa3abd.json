@@ -1,0 +1,198 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91641a45-b2c7-4651-9d8c-9197aafa3abd",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F91641a45-b2c7-4651-9d8c-9197aafa3abd",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F91641a45-b2c7-4651-9d8c-9197aafa3abd",
+  "prefLabel": {
+    "de": "Verben"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1178cc9f-d507-4347-8c52-3bcdaf787721",
+      "prefLabel": {
+        "de": "Imperativ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/262df37d-4e0e-4406-819f-3674fab694f1",
+      "prefLabel": {
+        "de": "Das Verb 'sein'"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2afb3a7a-0c61-4063-8ddf-586908ecb211",
+      "prefLabel": {
+        "de": "Das Verb 'haben'"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3f63dec8-49df-4b6c-b13a-3ce85c5339bc",
+      "prefLabel": {
+        "de": "Das Verb 'werden'"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5514ade4-1379-4661-8f7c-7e5c9da0c2c9",
+      "prefLabel": {
+        "de": "transitive und intransitive Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/64e0408b-e2a3-4a00-9a9c-362728aa3cdc",
+      "prefLabel": {
+        "de": "reflexive Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9ee050f3-7c7a-47ad-8bfc-1f2700358370",
+      "prefLabel": {
+        "de": "trennbare und untrennbare Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b320d3ad-fd2a-412d-b5bb-629874b3bff9",
+      "prefLabel": {
+        "de": "Partizip 2"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b71a382f-6327-4d2b-8bc5-e1b03ad18ae8",
+      "prefLabel": {
+        "de": "Verben mit Ergänzungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b888b77d-32b5-464a-81cc-2e29118b7b21",
+      "prefLabel": {
+        "de": "Modalverben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/da941493-cb46-41d6-948e-023e489ddcd9",
+      "prefLabel": {
+        "de": "Passiv"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/df562fc9-3960-44c5-bf52-aa0dbd447fdf",
+      "prefLabel": {
+        "de": "Konjunktiv 1"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e6108661-d132-4d8c-b753-eca61ec1387f",
+      "prefLabel": {
+        "de": "Konjunktiv 2"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f4dd27f8-e796-435c-91a0-4b35feb1e674",
+      "prefLabel": {
+        "de": "Partizip 1"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
+    "prefLabel": {
+      "de": "Grammatik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

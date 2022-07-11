@@ -1,0 +1,177 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/65b390bf-5255-4045-9165-2f588479f529",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F65b390bf-5255-4045-9165-2f588479f529",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F65b390bf-5255-4045-9165-2f588479f529",
+  "prefLabel": {
+    "de": "Laut-Buchstaben-Zuordnung"
+  },
+  "definition": {
+    "de": "Die deutsche Schrift ist eine Alphabet- oder auch Buchstabenschrift. Buchstaben repräsentieren die Laute, eine 1:1 Zuordnung gibt es jedoch nicht. Denn beim genauen Hinsehen wird deutlich, dass eigentlich Phonemen Grapheme zugeordnet werden. Besonders ist beispielsweise die Verschriftlichung von Vokalen, denn diese können sowohl lang als auch kurz ausgesprochen werden (unterschiedliche Phoneme), werden aber mit dem gleichen Buchstaben/Graphem notiert. Daher haben sich verschiedene Ansätze etabliert, die die Schreibweise erklären: Der Wortansatz und Silbenansatz. Mehr dazu findest du hier in den Materialien."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0b604afb-1848-4f3f-945e-2d23cc2034c4",
+      "prefLabel": {
+        "de": "Doppelkonsonanten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/27d33968-5dbe-480d-aa53-304dc33379bb",
+      "prefLabel": {
+        "de": "Vokale und Konsonanten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3f57de8c-866c-4c6b-a9cd-60b38c8e5dc4",
+      "prefLabel": {
+        "de": "Silbentrennendes h"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6187d849-c8cf-407a-aaf5-730cb98aad83",
+      "prefLabel": {
+        "de": "ie-Schreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/676a0501-8e89-460e-8d9f-04c3dbaef4b7",
+      "prefLabel": {
+        "de": "Umlaute und Diphthonge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8992d63e-6110-43f7-aa02-37647e6070d0",
+      "prefLabel": {
+        "de": "Doppelvokale"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a6919031-0389-4ea3-8fd1-c42c5168aca7",
+      "prefLabel": {
+        "de": "Silben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e268ff6b-f8be-445a-aa2c-a57b021d9515",
+      "prefLabel": {
+        "de": "Dehnungs-h"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fa77844a-a904-47f4-80a9-579ca0d68edf",
+      "prefLabel": {
+        "de": "s-Schreibung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fe782ff4-e339-4492-99e1-5ac2317193cc",
+      "prefLabel": {
+        "de": "Auslaute"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a24eff1e-d4d1-48b7-b67c-a642d14b49b2",
+    "prefLabel": {
+      "de": "Richtig schreiben"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ed84767f-0c56-4bcf-8c91-b03bb3542e33",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fed84767f-0c56-4bcf-8c91-b03bb3542e33",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fed84767f-0c56-4bcf-8c91-b03bb3542e33",
+  "prefLabel": {
+    "de": "Wasser"
+  },
+  "definition": {
+    "de": "<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zum Thema Nachhaltigkeit und Wasser.</b> \n\n<p>Etwa 70 % der Erdoberfläche sind von Wasser bedeckt. Unsere Meere und anderen Gewässer stellen somit das größte zusammenhängende Ökosystem dar und bilden eine wichtige Lebensgrundlage aller Lebewesen. Doch wie steht es um unser Wasser? Hier findest du Unterrichtsmaterialien zu Themen wie Korallenbleiche, Überfischung, Plastikverschmutzung der Meere und vieles mehr.  \n\n<p><b>Du kennst tolles Material zu diesem Thema? Dann bringe dich und dein Wissen ein! <a href=\"https://wirlernenonline.de/mitmachen/\">Hilf mit</a>, die besten Inhalte zu sammeln und zu teilen, empfehle dein persönliches Material-Highlight oder mach mit in unserer Fachredaktion!</b>"
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+    "prefLabel": {
+      "de": "Ökosysteme und Artenschutz"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/64018"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

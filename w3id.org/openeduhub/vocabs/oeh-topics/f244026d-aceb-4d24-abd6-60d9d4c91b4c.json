@@ -1,0 +1,141 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f244026d-aceb-4d24-abd6-60d9d4c91b4c",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff244026d-aceb-4d24-abd6-60d9d4c91b4c",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff244026d-aceb-4d24-abd6-60d9d4c91b4c",
+  "prefLabel": {
+    "de": "Kommunizieren"
+  },
+  "definition": {
+    "de": "“Wir können nicht nicht kommunizieren” - damit meinte der Philosoph Paul Watzlawick, dass wir immer eine Botschaft senden, mit allem, was wir tun. Unter “Kommunikation” wird die Verständigung auf Basis von Zeichen verstanden. Wir kommunizieren mit Worten in der gesprochenen Sprache, können uns aber auch mit Mimik, Gestik oder Körpersprache verständlich machen. In diesem Bereich geht es um diese verschiedenen zeichenbasierten Kommunikationsformen, aber auch allgemein um Kommunikationsmodelle und unsere Zeichen Benutzung in der Kultur. Außerdem kannst du Arbeitsmaterialien zum Präsentieren und Vorlesen hier finden."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1006c4ea-c5d1-4429-94bd-e389c9d48ad9",
+      "prefLabel": {
+        "de": "Mimik, Gestik und Körpersprache"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/599a6873-09f6-4d7b-bd83-77efe3d72b10",
+      "prefLabel": {
+        "de": "Kommunikationsmodelle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8fb3b39d-9e22-4c7d-9261-563c053ff28d",
+      "prefLabel": {
+        "de": "Präsentieren und Vorlesen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fe116741-e33a-45ad-8b21-2320f93306e5",
+      "prefLabel": {
+        "de": "Gesprächskultur"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/69f9ff64-93da-4d68-b849-ebdf9fbdcc77",
+    "prefLabel": {
+      "de": "Deutsch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

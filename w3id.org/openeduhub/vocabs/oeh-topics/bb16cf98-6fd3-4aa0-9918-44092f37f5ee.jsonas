@@ -1,0 +1,19 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/bb16cf98-6fd3-4aa0-9918-44092f37f5ee",
+  "type": "Service",
+  "name": "Klima und Wetter",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6f65682d746f706963732f62623136636639382d366664332d346161302d393931382d343430393266333766356565",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fbb16cf98-6fd3-4aa0-9918-44092f37f5ee",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fbb16cf98-6fd3-4aa0-9918-44092f37f5ee",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/bb16cf98-6fd3-4aa0-9918-44092f37f5ee#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/bb16cf98-6fd3-4aa0-9918-44092f37f5ee",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

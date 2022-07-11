@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0a62a10e-374a-46e2-a7d6-0c6954e755c0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0a62a10e-374a-46e2-a7d6-0c6954e755c0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0a62a10e-374a-46e2-a7d6-0c6954e755c0",
+  "prefLabel": {
+    "de": "Prozente & Zinsen"
+  },
+  "definition": {
+    "de": "Prozente stellen Anteile von einem Ganzen mit dem Prozentzeichen % dar. Die Zinsrechnung ist eine Anwendung der Prozentrechnung und beschäftigt sich mit Geldanlagen. Allgemeinen Einsatz findet die Prozent- und Zinsrechnung im Alltag bei Sonderangeboten und dem Vergleich von Geldanlageerträgen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/06b5437d-4843-48b8-b336-e030017b13b3",
+      "prefLabel": {
+        "de": "Prozentsatz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2195791b-bc99-4f5c-88bd-ad72fe5f1f01",
+      "prefLabel": {
+        "de": "Berechnung des Zeitraums"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3d5db29e-53e7-4455-93e7-2b7db4210b84",
+      "prefLabel": {
+        "de": "Zinsen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/84dc3d52-3203-4443-bda9-71a7132a27c9",
+      "prefLabel": {
+        "de": "Zinseszinsen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9c2cf28c-9294-4b9f-88e8-2931384b2410",
+      "prefLabel": {
+        "de": "Sachaufgaben Prozente & Zinsen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a53348c1-0233-4a40-bf2a-4fe4baab449d",
+      "prefLabel": {
+        "de": "Grundlagen der Prozentrechnung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b6863788-84bc-4240-8815-f8f6eb164684",
+      "prefLabel": {
+        "de": "Formel umstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b8523db2-c88b-48ef-a6bd-d838ec1be360",
+      "prefLabel": {
+        "de": "Zinssatz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b9c6e9d5-64e1-412c-8906-8b1ceafd165a",
+      "prefLabel": {
+        "de": "Grundwert"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bdd22416-da27-4c50-a587-d01b5c544f12",
+      "prefLabel": {
+        "de": "Kapital"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/dd6c6cee-c902-445b-ab87-47818cb0c940",
+      "prefLabel": {
+        "de": "Prozentwert"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2d34688d-00b6-47f7-8522-31909c2671b4",
+    "prefLabel": {
+      "de": "Algebra"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/380"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

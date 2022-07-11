@@ -1,0 +1,19 @@
+{
+  "context": {
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://w3id.org/security/v1"
+    ]
+  },
+  "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/cfb68751-4a91-42ce-94d0-11d81077042d",
+  "type": "Service",
+  "name": "Normen und Werte",
+  "preferredUsername": "773369642e6f72672f6f70656e6564756875622f766f636162732f6f65682d746f706963732f63666236383735312d346139312d343263652d393464302d313164383130373730343264",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fcfb68751-4a91-42ce-94d0-11d81077042d",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fcfb68751-4a91-42ce-94d0-11d81077042d",
+  "publicKey": {
+    "id": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/cfb68751-4a91-42ce-94d0-11d81077042d#main-key",
+    "owner": "https://test.skohub.iow3id.org/openeduhub/vocabs/oeh-topics/cfb68751-4a91-42ce-94d0-11d81077042d",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  }
+}

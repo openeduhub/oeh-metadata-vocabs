@@ -1,0 +1,177 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cacbc7bc-833e-4360-90f0-6f828db27508",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fcacbc7bc-833e-4360-90f0-6f828db27508",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fcacbc7bc-833e-4360-90f0-6f828db27508",
+  "prefLabel": {
+    "de": "Wärmelehre / Thermodynamik"
+  },
+  "definition": {
+    "de": "Das physikalische Teilgebiet der Thermodynamik versucht, dem Phänomen der Wärme und Wärmeübertragung auf die Spur zu kommen. Untersucht werden Phänomene wie Temperaturveränderung, der Wärmetransport von einem Ort zum anderen, Kreisprozesse wie der Stirling-Kreisprozess. Ebenso wird die Ursache dieser Prozesse auf mikroskopischer Ebene betrachtet."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/09dbf6d9-4492-4871-87a7-6397404fec20",
+      "prefLabel": {
+        "de": "Allgemeines Gasgesetz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/14c45a72-8439-4309-946e-f762bc9feeba",
+      "prefLabel": {
+        "de": "Temperatur im Teilchenmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6eae60ff-2ff6-4759-a2a6-2c75dea749f4",
+      "prefLabel": {
+        "de": "Ausdehnung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/81be8023-7faa-4c16-ad09-d9600d3f21ec",
+      "prefLabel": {
+        "de": "Wetter / Klima"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/85b4a93e-cecc-4165-a931-fa11a50504ba",
+      "prefLabel": {
+        "de": "Wärmekraftmaschinen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a8e71db1-acaf-4e63-a906-5c104b91c231",
+      "prefLabel": {
+        "de": "Kinetische Gastheorie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b8c4150a-81b9-49ed-941d-039bed225281",
+      "prefLabel": {
+        "de": "Wärmetransport"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c5addb17-2acd-41e9-9d97-b60f5a64adfa",
+      "prefLabel": {
+        "de": "innere Energie / Wärmekapazität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ebe18f72-ec94-407e-b700-a852c74ffd9d",
+      "prefLabel": {
+        "de": "Deterministisches Chaos"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f1fa8806-5e67-4e6b-8140-2d52ee2cb71e",
+      "prefLabel": {
+        "de": "Entropie"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e",
+    "prefLabel": {
+      "de": "Physik"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/460"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
