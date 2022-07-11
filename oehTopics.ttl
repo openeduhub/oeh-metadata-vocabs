@@ -2905,9 +2905,19 @@ Wann ist ein Mann ein Mensch?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Hispanoamérica - retos de la diversidad étnica"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Diversidad étnica"@de,
+    sdo:keywords "Azteken"@de,
+        "Diversidad étnica"@de,
+        "Hispanoamérica ELE"@de,
+        "Landeskunde Hispanoamerika"@de,
         "Latinoamérica"@de,
-        "Retos y oportunidades de la diversidad étnica en la literatura "@de .
+        "Mapuche"@de,
+        "Retos y oportunidades de la diversidad étnica en la literatura "@de,
+        "idiomas indígenas"@de,
+        "incas"@de,
+        "indígenas"@de,
+        "mapuche"@de,
+        "pueblos indígenas"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de .
 
 <1cdcedf6-429c-4263-b455-36bdcd0a2867> a skos:Concept ;
     skos:broader <fab7ae6a-2a05-4b78-9267-a1bffa683c6c> ;
@@ -2915,9 +2925,15 @@ Wann ist ein Mann ein Mensch?"""@de ;
     skos:prefLabel "La Guerra Civil y el franquismo en la narrativa"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords " franquismo "@de,
+        "Franquismo"@de,
+        "Guerra Civil"@de,
         "Guerra Civil "@de,
+        "Landeskunde Spanien"@de,
         "cuentos"@de,
-        "narrativa breve"@de .
+        "la guerra civil"@de,
+        "narrativa breve"@de,
+        "narrativa española"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de .
 
 <1cea8d14-6fe0-436e-b2c5-627f3b3c590f> a skos:Concept ;
     skos:broader <bae10924-5e0e-4650-abc6-1236fd8a6bbf> ;
@@ -9559,7 +9575,9 @@ Beispiele: wiederverwendbare, änderbare OER-Informationsbroschüren, Erklärfil
         "Samba"@de,
         "Tango"@de,
         "Tanz"@de,
-        "Zarzuela"@de .
+        "Zarzuela"@de,
+        "bailar"@de,
+        "baile"@de .
 
 <572efa1f-e22a-40e8-af2e-a9dbff6963a1> a skos:Concept ;
     skos:broader <66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> ;
@@ -11986,7 +12004,8 @@ In diesem Abschnitt werden nur einfache Aspekte betrachtet. Genauer wird das The
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "El bilingüismo como faceta de la sociedad española"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "El bilingüismo en la sociedad española "@de,
+    sdo:keywords "Barcelona – capital polifacética de una comunidad bilingüe"@de,
+        "El bilingüismo en la sociedad española "@de,
         "bilingüismo"@de .
 
 <69323ce0-fe44-4e3d-a627-f0ac54041ce1> a skos:Concept ;
@@ -18964,8 +18983,17 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Kunst und Architektur"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Architektur"@de,
-        "Kunst "@de .
+    sdo:keywords "Antoni Gaudí"@de,
+        "Architektur"@de,
+        "Historia del Arte ELE"@de,
+        "Kunst "@de,
+        "Landeskunde Lateinamerika"@de,
+        "Landeskunde Spanien"@de,
+        "arquitectura"@de,
+        "arte"@de,
+        "historia del arte"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de .
 
 <a304c1ff-0959-4157-bb8e-ef5dc41b693b> a skos:Concept ;
     skos:broader <d552fa8b-01a3-41ce-b363-aa8745e087ee> ;
@@ -19032,11 +19060,15 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Hispanoamérica - desafío de la pobreza infantil"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "El desafío de la pobreza infantil"@de,
+    sdo:keywords "Abitur"@de,
+        "El desafío de la pobreza infantil"@de,
         "Hispanoamérica"@de,
         "Kinderarmut"@de,
+        "Landeskunde Lateinamerika"@de,
         "Latinoamérica"@de,
-        "pobreza infantil"@de .
+        "pobreza"@de,
+        "pobreza infantil"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de .
 
 <a39e1089-d867-4553-9d96-754a10c98ade> a skos:Concept ;
     skos:broader <734b89db-ef20-44fc-9056-a6e843a0873d> ;
@@ -21778,8 +21810,16 @@ Weiterführende Materialien finden sich im Fachportal Chemie unter <a href="http
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Literatur Lateinamerika"@de,
         "Literatur Spanien "@de,
+        "Spanish literature, Literatura española, Spanish American literature, Literatura hispanoamericana, Hispanic literature, Literatura Hispana, , "@de,
+        "cinema"@de,
         "cuentos"@de,
-        "novela"@de .
+        "literatura"@de,
+        "literatura clásica"@de,
+        "novela"@de,
+        "pelis"@de,
+        "película ELE"@de,
+        "teatro"@de,
+        "teatro español"@de .
 
 <baaea1c6-2f0a-4d3e-ad6f-0706d7cc1f90> a skos:Concept ;
     skos:broader <5560a33a-e514-404f-be8a-bb5b3bee0235> ;
@@ -23557,7 +23597,16 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:prefLabel "Las diversas caras del turismo en España"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Las diversas caras del turismo en España"@de,
-        "turismo en España"@de .
+        "Turismo"@de,
+        "Turismo low cost"@de,
+        "ecoturismo"@de,
+        "ecoturismo ambiental"@de,
+        "los problemas de la turismofobia"@de,
+        "turismo"@de,
+        "turismo de masas"@de,
+        "turismo en España"@de,
+        "turismo masivo en barcelona"@de,
+        "turismofobia"@de .
 
 <c76e49a5-0706-4499-b487-c860ab984434> a skos:Concept ;
     skos:broader <4ae22039-a537-4844-889d-fef98a865156> ;
@@ -24533,9 +24582,20 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
     skos:prefLabel "Barcelona - capital de una comunidad bilingüe"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Barcelona"@de,
+        "Barcelona ELE"@de,
+        "Barcelona – capital polifacética de una comunidad bilingüe"@de,
+        "Catalunya"@de,
+        "Cataluña"@de,
+        "Cataluña y el catalán"@de,
+        "FC Barcelona"@de,
+        "Wortschatz Barcelona"@de,
+        "barcelona"@de,
         "capital polifacética"@de,
+        "catalunya"@de,
         "catalán"@de,
-        "comunidad bilingüe"@de .
+        "comunidad bilingüe"@de,
+        "fc barcelona"@de,
+        "turismo masivo en barcelona"@de .
 
 <d0095c99-3d13-47e8-bcea-e57dfd4a8b56> a skos:Concept ;
     skos:broader <33ce727a-9dca-418d-ae11-624f71dcb05d> ;
@@ -24744,10 +24804,36 @@ durch sieben Akte hin."
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Landesküchen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Recetas"@de,
+    sdo:keywords "Gazpacho receta"@de,
+        "Guacamole receta"@de,
+        "Pan de jamón"@de,
+        "Recetas"@de,
+        "Rezept Tortilla"@de,
         "Rezepte"@de,
+        "Spanisch la tortilla preguntas preparar Rezept"@de,
+        "Tortilla"@de,
+        "ceviche"@de,
+        "churros receta"@de,
+        "cocido madrilño"@de,
         "cocina"@de,
-        "nationale Küche"@de .
+        "comer en España"@de,
+        "horario comer España"@de,
+        "jamón"@de,
+        "jamón ibérico"@de,
+        "mate"@de,
+        "nationale Küche"@de,
+        "queso"@de,
+        "receta"@de,
+        "receta ELE"@de,
+        "receta de cocina"@de,
+        "receta sangría"@de,
+        "recetas"@de,
+        "recetas ELE"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "tortiilla de patatas"@de,
+        "tortilla de patata"@de,
+        "tortilla de patatas"@de .
 
 <d1597d7a-aff0-49b4-98ad-3e3387fd3dc8> a skos:Concept ;
     skos:broader <7a064759-c37a-4966-b1e6-09498424c4e0> ;
@@ -26417,8 +26503,15 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Antonio Skármeta"@de,
         "Chile"@de,
+        "Chile (Landeskunde)"@de,
         "Chile: la memoria histórica en la literatura dramática"@de,
-        "La realidad chilena en la literatura de Antonio Skármeta"@de .
+        "La realidad chilena en la literatura de Antonio Skármeta"@de,
+        "Landeskunde Spanien"@de,
+        "Spanisch La composición Skármeta Chile"@de,
+        "chile"@de,
+        "cuento"@de,
+        "novela"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de .
 
 <dfdd8b43-515c-442f-8368-3fff062395ef> a skos:Concept ;
     skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
