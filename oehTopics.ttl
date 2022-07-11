@@ -19518,7 +19518,8 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:prefLabel "Futuro compuesto"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords " Futur 2 Spanisch"@de,
-        " futuro compuesto ELE"@de .
+        " futuro compuesto ELE"@de,
+        "futuro"@de .
 
 <a6b93e58-b9e9-4e3d-a38f-17b6660f48bd> a skos:Concept ;
     skos:broader <a4cd8855-0b3e-4181-bb27-81d9b42dc402> ;
@@ -28029,19 +28030,6 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "kinetische Energie"@de,
         "potentielle Energie"@de .
 
-<ed530017-a4ee-40f4-8622-5d8c89706476> a skos:Concept ;
-    skos:broader <c3f0f111-9d64-4f3f-acdb-5d0e9f2aa0ea> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Presente vs. Indefinido"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Gramática"@de,
-        "Indefinido"@de,
-        "Präsens Spanisch"@de,
-        "el pretérito de indefinido"@de,
-        "presente"@de,
-        "presente de indicativo"@de,
-        "pretérito de indefinido"@de .
-
 <ed74c945-a5ba-49f8-a098-d922c2140145> a skos:Concept ;
     skos:broader <39b9e5fa-23ff-4553-9a90-418b85fc1d80> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -32444,6 +32432,7 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> a skos:Concept ;
     skos:broader <074488f0-4af3-46f0-9390-e00d2d294916> ;
+    skos:definition "Naturphilosophie ist zunächst die Gesamtheit der philosophischen Versuche, „Natur” zu deuten und zu erklären. Daraus folgt auch immer, das Verhältnis zu und den Platz des Menschen in dem jeweiligen Naturverständnis zu bestimmen: Eine geschichte voller Allmachtsphantasien und Ohnmachtserfahrungen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <8d8317a7-1c43-4587-9c4e-5c640f5c0e31>,
         <a9f1accf-a35a-45eb-a10c-a1b387ea3f5d>,
@@ -32452,11 +32441,13 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Arten"@de,
-        "Bestimmun"@de,
         "Blume"@de,
+        "Makrokosmos"@de,
+        "Mikrokosmos"@de,
         "Natur"@de,
         "Naturerlebnis"@de,
         "Pflanze"@de,
+        "Schöpfung"@de,
         "Spaziergang"@de,
         "Wald"@de .
 
@@ -33107,6 +33098,19 @@ Hier gibt es allgemeine Materialien zur Sicherheit im Labor und bei der Nutzung 
         "Lebensweltbezug"@de,
         "Potenziale"@de,
         "Selbsterkenntnis"@de .
+
+<c3f0f111-9d64-4f3f-acdb-5d0e9f2aa0ea> a skos:Concept ;
+    skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <106dd715-02af-4ae4-b386-e8e36687b8aa>,
+        <81b1f59f-88c3-4eba-8ee0-42ea65b7ca04>,
+        <cf47ae23-2cde-4f36-b495-fc5bdcecbda5> ;
+    skos:prefLabel "Gegenüberstellung der spanischen Zeiten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords " pretérito perfecto versus pretérito indefinido ELE"@de,
+        "comparación tiempos verbales ELE"@de,
+        "indicativo versus subjuntivo ELE"@de,
+        "pretérito imperfecto versus pretérito indefinido ELE"@de .
 
 <c6de9e8a-1595-4cb5-9f3f-bf8d2acd6e9f> a skos:Concept ;
     skos:broader <4dc04d83-824a-4b20-bc5d-d7402e385ae1> ;
@@ -34375,20 +34379,6 @@ periodische Vorgänge auf."""@de .
         <da2c4809-1b21-4456-88f4-91732f6fb835> ;
     skos:prefLabel "Satzarten"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
-
-<c3f0f111-9d64-4f3f-acdb-5d0e9f2aa0ea> a skos:Concept ;
-    skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <106dd715-02af-4ae4-b386-e8e36687b8aa>,
-        <81b1f59f-88c3-4eba-8ee0-42ea65b7ca04>,
-        <cf47ae23-2cde-4f36-b495-fc5bdcecbda5>,
-        <ed530017-a4ee-40f4-8622-5d8c89706476> ;
-    skos:prefLabel "Gegenüberstellung der spanischen Zeiten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords " pretérito perfecto versus pretérito indefinido ELE"@de,
-        "comparación tiempos verbales ELE"@de,
-        "indicativo versus subjuntivo ELE"@de,
-        "pretérito imperfecto versus pretérito indefinido ELE"@de .
 
 <c6e28216-77f9-4e56-8f05-c85ee2a6991f> a skos:Concept ;
     skos:broader <a79a644c-ecfc-4b65-8cf2-bb9b0c13dac4> ;
