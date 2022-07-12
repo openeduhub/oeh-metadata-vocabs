@@ -29289,13 +29289,14 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f6d2ed8b-13fb-4eeb-91d1-60f4cd2b769a> a skos:Concept ;
     skos:broader <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> ;
+    skos:definition "Industrie 4.0 ist die Bezeichnung für die umfassende Digitalisierung der industriellen Produktion, um sie für die Zukunft besser zu rüsten. Die Zahl 4.0 steht für 'Vierte industrielle Revolution'. Dabei geht es um die Art und Weise, wie Unternehmen ihre Produkte herstellen, verbessern und vertreiben durch die Integration neuer Technologien, wie z.B. das Internet der Dinge (IoT), Cloud-Computing sowie Künstliche Intelligenz und maschinelles Lernen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Mögliche Auswirkungen der Industrie 4.0 auf den Menschen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "AI"@de,
         "Algorithmen"@de,
-        "Arbeitsnarkt"@de,
+        "Arbeitsmarkt"@de,
         "Digigitalisierung"@de,
         "Dystopie"@de,
         "Einstellungstests"@de,
@@ -31274,6 +31275,8 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <5bcd124a-49cd-4bc4-ab3c-21449b1d9126> a skos:Concept ;
     skos:broader <f7ad1451-6310-4710-8032-56552efbf98f> ;
+    skos:definition """Woher wissen wir was wir wissen?
+Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Ursprung und der Umfang menschlicher Erkenntnis aufgeklärt werden, zum anderen soll die Möglichkeit von Erkenntnis erklärt und verteidigt werden."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <02f1fc9a-c551-4310-a6d1-61c8637eff29>,
         <a8d9992a-524f-446a-8d2f-539c7cbad28f> ;
