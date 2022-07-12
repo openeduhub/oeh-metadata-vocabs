@@ -4677,14 +4677,20 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Chemie"@de,
         "Deutsch"@de,
+        "Deutsch lernen/Schulsachen"@de,
         "Englisch"@de,
         "Erdkunde"@de,
         "Geschichte"@de,
+        "Grundschule"@de,
+        "Gymnasium"@de,
+        "Hauptschule"@de,
         "Informatik"@de,
         "Klassenraum"@de,
         "Kunst"@de,
         "Mathematik"@de,
+        "Oberschule"@de,
         "Physik"@de,
+        "Realschule"@de,
         "Schule"@de,
         "Schulfächer"@de,
         "Schulgebäude"@de,
@@ -4692,6 +4698,11 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "Schulsachen"@de,
         "Studium "@de,
         "Universität"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Schule"@de,
         "duales Studium"@de .
 
 <2a3aa769-3d25-4b76-b286-7e2d1668a0cf> a skos:Concept ;
@@ -4991,14 +5002,21 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:prefLabel "Kleidung und Accessoires"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Accessoires"@de,
+        "Accessoires Deutsch"@de,
         "Anziehsachen"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Fashion"@de,
+        "Klamotten"@de,
         "Kleidung"@de,
         "Konfektionsgrößen"@de,
         "Mode"@de,
-        "Schuhe"@de .
+        "Schuhe"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Kleidung"@de .
 
 <2e21b6df-22ea-4669-8f2b-804b24403eaa> a skos:Concept ;
     skos:broader <f39fdc23-f790-4799-afc1-da5d397be740> ;
@@ -9012,10 +9030,18 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Freizeit"@de,
+        "Freizeitgestaltung"@de,
+        "Freizeitpark"@de,
         "Fußball"@de,
+        "Hobbies"@de,
         "Hobby"@de,
         "Sport"@de,
-        "Sportverein"@de .
+        "Sportverein"@de,
+        "Turnen"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <52f13841-8600-4174-8bcf-ea0a178449c5> a skos:Concept ;
     skos:broader <44f5ad1c-432b-4197-a6c3-1a5abf263595> ;
@@ -10845,7 +10871,13 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
-        "Farben"@de .
+        "Farben"@de,
+        "Farben und Formen"@de,
+        "Geometrische Grundformen und Grundbegriffe"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Farben"@de .
 
 <6182be9c-2cf5-4949-be0d-2c97212a848d> a skos:Concept ;
     skos:broader <f64bb5f6-e195-430d-b6bd-b6fb6725563a> ;
@@ -13299,6 +13331,10 @@ Spielfähigkeit."""@de ;
         "Ordinalzahlen"@de,
         "Uhr"@de,
         "Uhrzeit"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "Zahlen"@de .
 
 <76fff3c4-1927-4daa-95e0-f9e3d4eaca84> a skos:Concept ;
@@ -13642,7 +13678,11 @@ Klickt die Materialien der Reihe nach durch. Ihr erhaltet einen Überblick und e
         "Deutsch als Zweitsprache"@de,
         "Haustiere"@de,
         "Nutztiere"@de,
-        "Tiere"@de .
+        "Tiere"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <796babee-9eaf-4cac-9ac8-cc50d08bb1f8> a skos:Concept ;
     skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
@@ -14218,11 +14258,15 @@ Die Chemie überschneidet sich hier mit der Biologie und der Medizin."""@de ;
 Was bedeutet das Wort? Damit diese Frage immer beantwortet werden kann, sind hier alle wichtigen ein- und zweisprachigen Wörterbücher und andere Wörterbücher der deutschen Sprache, wie Fremdwörterbücher, etymologische Wörterbücher, Synonym- und Antonymwörterbücher und fachsprachliche Glossare, zusammengestellt."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Wörterbücher und Wortsammlungen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007>,
-        <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Nachschlagewerke"@de,
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Duden"@de,
+        "Nachschlagewerke"@de,
+        "Online-Wörterbuch"@de,
         "Online-Wörterbücher"@de,
-        "Wörterbücher"@de .
+        "Wörterbuch"@de,
+        "Wörterbücher"@de,
+        "einsprachige Wörterbücher"@de,
+        "einsprachiges Wörterbuch Deutsch"@de .
 
 <801fb982-04dd-4890-b8bf-38592429d8d0> a skos:Concept ;
     skos:broader <c97a8c29-75b5-46a2-a328-e2754eca928f> ;
@@ -14247,10 +14291,33 @@ Was bedeutet das Wort? Damit diese Frage immer beantwortet werden kann, sind hie
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Märchen und Sagen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Deutsch als Fremdsprache"@de,
+    sdo:keywords "Aschenputtel"@de,
+        "Brüder Grimm"@de,
+        "Cinderella"@de,
+        "Das kalte Herz"@de,
+        "Der Wolf und die sieben Geißlein"@de,
+        "Der gestiefelte Kater"@de,
+        "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Die kleine Meerjungfrau"@de,
+        "Dornröschen"@de,
+        "Frau Holle"@de,
+        "Gebrüder Grimm"@de,
+        "Grimms Märchen"@de,
+        "Hans Christian Andersen"@de,
+        "Hase und Igel"@de,
+        "Hänsel und Gretel"@de,
+        "Kindermärchen"@de,
         "Märchen"@de,
-        "Sagen"@de .
+        "Rotkäppchen"@de,
+        "Rumpelstilzchen"@de,
+        "Sagen"@de,
+        "Sterntaler"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Märchen"@de .
 
 <80ba7dc7-4dd6-4fd5-a153-a84a7a7b904b> a skos:Concept ;
     skos:broader <df34b67e-39c8-47a7-b93b-8fed27384dfa> ;
@@ -14429,10 +14496,15 @@ Die Bewegungskünste beschreiben beispielsweise Bereiche wie das Bewegungstheate
     skos:prefLabel "Natur, Umwelt und Umweltschutz"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Natur"@de,
+        "Naturschutz"@de,
         "Recycling"@de,
         "Umwelt"@de,
         "Umweltschutz"@de,
-        "Wortschatz"@de .
+        "Umweltverschmutzung"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <81e8ff01-0709-4bf4-8ddd-796cd89013b8> a skos:Concept ;
     skos:broader <7c529746-86df-4102-b3d2-233ca7010380> ;
@@ -14570,11 +14642,19 @@ Das führt dazu, dass die Ether weniger polar sind, andere Stoffeigenschaften au
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Güterverkehr"@de,
+        "Schienenverkehr"@de,
+        "Straßenverkehr"@de,
         "Verkehr"@de,
         "Verkehrserziehung"@de,
+        "Verkehrsmittel"@de,
         "Verkehrspolitik"@de,
         "Verkehrsregeln"@de,
         "Verkehrszeichen"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "das eigene Verhalten im Straßenverkehr"@de .
 
 <8388750d-b1e6-4ee3-8b93-0f520ff64590> a skos:Concept ;
@@ -15469,7 +15549,14 @@ Abiturprüfung, Niedersachsen 2016-2020, Baden-Württemberg 2007"""@de ;
     sdo:keywords "Abneigungen"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
-        "Vorlieben"@de .
+        "Vorlieben"@de,
+        "Vorlieben ausdrücken"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "über Abneigungen sprechen"@de,
+        "über Vorlieben sprechen"@de .
 
 <89eb5d3e-58bb-4b2a-94a1-12bc18071737> a skos:Concept ;
     skos:broader <c0a79a8d-9f29-4056-8e1e-c0cec3f41f34> ;
@@ -16819,7 +16906,13 @@ Etwas wagen und verantworten, Das Leisten erfahren, verstehen und einschätzen, 
         "Deutsch als Zweitsprache"@de,
         "Land"@de,
         "Stadt"@de,
-        "Verkehrsmittel"@de .
+        "Verkehrsmittel"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "auf dem Land"@de,
+        "in der Stadt"@de .
 
 <93dcf9c5-06bc-4e9f-bc6f-6f81aa377e4e> a skos:Concept ;
     skos:broader <9054b1b6-4ad7-4247-a4a2-c6e7f97d31a0> ;
@@ -18301,12 +18394,17 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Einrichtung"@de,
+        "Haus und Wohnung DaZ"@de,
         "Kinderzimmer"@de,
         "Küche"@de,
         "Möbel"@de,
         "Schlafzimmer"@de,
         "Wohnung"@de,
-        "Wohnzimmer"@de .
+        "Wohnzimmer"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <9ddbf5dd-47e5-42cb-a7da-2f7a63b4f585> a skos:Concept ;
     skos:broader <7aba1182-30ac-449f-92ad-f764b640df52> ;
@@ -23329,8 +23427,10 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "Konto"@de,
         "Konto eröffnen"@de,
         "Wirtschaft"@de,
+        "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "Wortschatz Deutsch als Zweitsprache "@de,
         "Zinsen"@de,
         "in der Bank"@de .
@@ -26549,6 +26649,10 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Redewendungen"@de,
         "Sprichwörter"@de,
         "Umgangssprache"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "geflügelte Worte"@de,
         "idiomatische Ausdrücke"@de .
 
@@ -28366,9 +28470,16 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Wegbeschreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Wegbeschreibung "@de,
+    sdo:keywords "Sich orientieren - Wegbeschreibung (Interaktive Übungen)"@de,
+        "Wegbeschreibung "@de,
+        "Wegbeschreibung DaF"@de,
+        "Wegbeschreibung DaZ"@de,
         "Wie komme ich nach/zu …?"@de,
-        "Wo ist …?"@de .
+        "Wo ist …?"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <ef79ac99-4a28-4524-bc00-78d5801d2146> a skos:Concept ;
     skos:broader <5e12bea8-8985-443e-96b7-ee0fb59f2e36> ;
@@ -28773,7 +28884,11 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Monate"@de,
-        "Wochentage"@de .
+        "Wochentage"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <f2268b39-7f5b-4f98-9a77-298e2f54ee80> a skos:Concept ;
     skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
