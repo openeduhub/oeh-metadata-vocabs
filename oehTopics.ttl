@@ -24426,6 +24426,7 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 
 <ceda5b49-5584-4fbf-8f05-f155b1b6c585> a skos:Concept ;
     skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
+    skos:definition "Hier geht es um die Vielfalt und Berechtigung unterschiedlicher religiöser oder quasi-religiöser Weltanschauungen und Lebensformen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sekten, religiöse Bewegungen und Gruppen mit eigener Weltanschauung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -27336,6 +27337,7 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
 
 <e7504517-faaa-475a-bb68-6174e4b26110> a skos:Concept ;
     skos:broader <59dbe89d-08e9-4088-b34f-3b2a58a8c748> ;
+    skos:definition "Die Rechtsphilosophie betrachtet das Recht unter logischen, erkenntnistheoretischen, psychologischen, soziologischen und ethischen Gesichtspunkten. Es geht ihr um die Angemessenheit der rechtlichen Satzungen in Hinsicht auf die zugrundeliegenden Ideen und Werte."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Philosophische Betrachtung von Gesetzen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -27346,9 +27348,9 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Gewaltenteilung"@de,
         "Grundgesetz"@de,
         "Judikative"@de,
-        "Jura"@de,
+        "Naturrecht"@de,
         "Polizei"@de,
-        "Richter"@de .
+        "Positives Recht"@de .
 
 <e751e0b4-5f40-4776-b6b8-5c451cec5f06> a skos:Concept ;
     skos:broader <af9dfac3-a166-46c1-a3fc-245abafb9669> ;
@@ -39393,7 +39395,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-11" ;
+    dct:modified "2022-07-12" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
