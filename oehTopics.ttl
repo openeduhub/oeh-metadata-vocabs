@@ -19571,13 +19571,18 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
 
 <a760c4be-863c-4f72-9a56-fab5e0c53b47> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
+    skos:definition "Die Philosophie der Physik unternimmt die Interpretation physikalischer Theorien im Hinblick auf ihre ontologischen Voraussetzungen oder Implikationen: Dabei geht es z.B. um Fragen von Zufall und Notwendigkeit oder von Raum und Zeit im Zusammenhang mit der Quantenmechanik und Relativitätstheorie."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Philosophische Betrachtungen in der Physik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "A. Einstein"@de,
+        "Kausalität"@de,
+        "Kontingenz"@de,
         "M. Planck"@de,
-        "W. Heisenberg"@de .
+        "Notwendigkeit im Türkischen"@de,
+        "W. Heisenberg"@de,
+        "Zufall"@de .
 
 <a762864e-ff3a-4bd6-97d0-1c3a1841cbb8> a skos:Concept ;
     skos:broader <b1a1b0e0-442a-416f-996a-ed5ac322e041> ;
