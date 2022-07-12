@@ -457,11 +457,13 @@
 
 <04963274-65a2-4ce0-91a0-d919bebd7ab8> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Über die wichtigen Philosoph:innen und Philosophien des 21. Jahrhunderts weiß man vielleicht erst in ferner Zukunft mehr, wenn man die Möglichkeit hatte zu prüfen, welchen Einfluss das Wirken und die Gedanken von denjenigen hatten, die wir heute als Philosophen bezeichnen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Moderne / 21. Jahrhundert"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Richard David Precht"@de .
+    sdo:keywords "Habermas"@de,
+        "Richard David Precht"@de .
 
 <04a101b3-626f-40c2-9d28-3f220e5393b2> a skos:Concept ;
     skos:broader <d552fa8b-01a3-41ce-b363-aa8745e087ee> ;
@@ -12907,6 +12909,7 @@ Spielfähigkeit."""@de ;
         "Tante"@de,
         "Tochter"@de,
         "Vater"@de,
+        "family"@de,
         "sich verabreden"@de .
 
 <7278b0b4-065d-48dd-83eb-984211059928> a skos:Concept ;
@@ -39315,7 +39318,11 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <f20be8fd-942f-4c6c-962f-bdd504831dd4> ;
     skos:prefLabel "Wortschatz"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Wortschatz Deutsch"@de,
+    sdo:keywords "Grundwortschatz"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "Wortschatz lernen"@de .
 
 <21c88efb-1af3-4658-aaec-747a0fdf8889> a skos:Concept ;
