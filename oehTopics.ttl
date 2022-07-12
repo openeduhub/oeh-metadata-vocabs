@@ -3926,7 +3926,11 @@ Wann ist ein Mann ein Mensch?"""@de ;
         "Krankenaus"@de,
         "Krankheit"@de,
         "Körper"@de,
-        "Schmerzen"@de .
+        "Schmerzen"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de .
 
 <24864c99-baeb-4fa6-802f-99b649df207f> a skos:Concept ;
     skos:broader <97c3cbbf-8436-4d75-912b-60a01aa10102> ;
@@ -24057,7 +24061,12 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Deutsch lernen/Tagesablauf"@de,
         "Tagesablauf"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
         "abends"@de,
         "mittags"@de,
         "morgens"@de .
@@ -24928,6 +24937,8 @@ durch sieben Akte hin."
 
 <d205a053-3ad5-45c8-b5a0-a956ee41c954> a skos:Concept ;
     skos:broader <0afd15fa-c5d9-45db-aae7-97953618f0bb> ;
+    skos:definition """Die moderne Medizin erfindet immer feinere Instrumente und Verfahren, um den Tod eines Menschen zu verhindern oder hinauszuschieben. Das ist ihre Aufgabe. 
+Aber, wie war das früher? Als Sterben und Tod unausweichlich und schicksalshaft erschienen? Wie ging die Gemeinschaft, wie ging der Einzelne damit um?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Umgang mit Sterben und Tod"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
