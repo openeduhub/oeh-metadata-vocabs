@@ -34594,7 +34594,7 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
 
 <cfb68751-4a91-42ce-94d0-11d81077042d> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
-    skos:definition "Welche Normen und Werte gelten im menschlichen Handeln? Wie gehen Menschen damit um?"@de ;
+    skos:definition "Welche Normen und Werte gelten im menschlichen Handeln? Wie gehen Menschen damit um? Was unterscheidet sie?"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <5cb3adb8-9578-47a3-b92e-8bdfa155f87b>,
         <6571bead-c611-4465-bcd2-129445514002>,
@@ -34603,7 +34603,10 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
     skos:prefLabel "Normen und Werte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Normen"@de,
+    sdo:keywords "Gebote"@de,
+        "Grundwerte"@de,
+        "Handlungsanweisungen"@de,
+        "Normen"@de,
         "Werte"@de .
 
 <cff5d0be-bbc5-4c35-b228-35af17e9a045> a skos:Concept ;
@@ -39536,7 +39539,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-12" ;
+    dct:modified "2022-07-14" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
