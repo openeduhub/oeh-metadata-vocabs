@@ -25069,6 +25069,17 @@ Aber, wie war das früher? Als Sterben und Tod unausweichlich und schicksalshaft
     skos:prefLabel "Zahlen bis 1000"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
 
+<d22e5d16-86f3-4f4b-8180-25015fae51fd> a skos:Concept ;
+    skos:broader <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> ;
+    skos:definition """Über Märkte und Gerechtigkeit:
+Was man für Geld nicht kaufen kann."""@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Michael Sandel"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Gerechtigkeit"@de,
+        "Märkte"@de .
+
 <d23cb2cc-e186-423e-9b6e-232ab67e4ed5> a skos:Concept ;
     skos:broader <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -26216,7 +26227,7 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     skos:broader <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> ;
     skos:definition "John Rawls entwickelt seine Theorie der Gerechtigkeit aus der Frage: Welche Regeln würden Menschen sich geben, wenn sie die Chance hätten oder gezwungen wären;  voraussetzungslos  von vorne anzufangen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "John Rawls"@de ;
+    skos:prefLabel "John Rawls: Gerechtigkeit als Fairness"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Differenzprinzip"@de,
@@ -33387,29 +33398,6 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
     skos:prefLabel "Gottesglaube und Gotteszweifel"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
 
-<d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> a skos:Concept ;
-    skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
-    skos:definition "Gerechtigkeit ist die Summe aller Tugenden, sie betrifft das rechte Verhalten zu den Mitmenschen, denen es gerecht zu werden gilt."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <47ce4897-8d87-4a6b-9413-34b6fbffc3e5>,
-        <8f0c6ce9-3384-4e7e-80b1-99d88231ff11>,
-        <dbd3e775-276e-47e6-9351-be623d3e1348> ;
-    skos:prefLabel "Philosophische Theorien von Gerechtigkeit"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Geltung"@de,
-        "Kant"@de,
-        "Kommunitaristische Theorien"@de,
-        "Kriminalitätstheorien"@de,
-        "Marx"@de,
-        "Menschenbild"@de,
-        "Migration"@de,
-        "Naturrecht"@de,
-        "Prävention"@de,
-        "Strafrechtstheorien"@de,
-        "Tugendlehre"@de,
-        "Weber"@de .
-
 <d47b7df4-db95-4942-8554-2cc54d935e72> a skos:Concept ;
     skos:broader <2eda0065-f69b-46c8-ae09-d258c8226a5e> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -34641,6 +34629,30 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <6abc0449-ecdf-4005-9485-b574efbbc381> ;
     skos:prefLabel "Netzwerke / OSI"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+
+<d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> a skos:Concept ;
+    skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
+    skos:definition "Gerechtigkeit ist die Summe aller Tugenden, sie betrifft das rechte Verhalten zu den Mitmenschen, denen es gerecht zu werden gilt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <47ce4897-8d87-4a6b-9413-34b6fbffc3e5>,
+        <8f0c6ce9-3384-4e7e-80b1-99d88231ff11>,
+        <d22e5d16-86f3-4f4b-8180-25015fae51fd>,
+        <dbd3e775-276e-47e6-9351-be623d3e1348> ;
+    skos:prefLabel "Philosophische Theorien von Gerechtigkeit"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Geltung"@de,
+        "Kant"@de,
+        "Kommunitaristische Theorien"@de,
+        "Kriminalitätstheorien"@de,
+        "Marx"@de,
+        "Menschenbild"@de,
+        "Migration"@de,
+        "Naturrecht"@de,
+        "Prävention"@de,
+        "Strafrechtstheorien"@de,
+        "Tugendlehre"@de,
+        "Weber"@de .
 
 <d43ac846-e8d7-4a2f-b0ad-46130c4d2503> a skos:Concept ;
     skos:broader <828a1bf2-6943-40c8-878a-20cb94061c2f> ;
