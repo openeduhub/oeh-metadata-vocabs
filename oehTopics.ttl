@@ -3180,6 +3180,19 @@ Wann ist ein Mann ein Mensch?"""@de ;
     skos:prefLabel "OER suchen / finden"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
 
+<1f910d7d-37ed-4eb5-934e-003984f04028> a skos:Concept ;
+    skos:broader <877c65b8-78c3-46b3-9eb1-86f1083cbfbe> ;
+    skos:definition "Wurfbewegungen stellen eine Überlagerung mehrerer Bewegungen dar. Sie erfordern also in der Regel eine zweidimensionale Beschreibung der Bewegung. Typische Beispiele für solche Wurfbewegungen sind der vertikale Wurf, der horizontale Wurf und - als Verallgemeinerung - der schiefe Wurf."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Wurfbewegungen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
+    sdo:keywords "horizontaler wurf"@de,
+        "schiefer wurf"@de,
+        "vertikaler wurf"@de,
+        "werfen"@de,
+        "wurf"@de,
+        "wurfbewegung"@de .
+
 <1fbeaaf6-dfb4-447c-8324-8de0a76de36c> a skos:Concept ;
     skos:broader <91752e44-5e0d-49c1-a715-d3012314a531> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -34223,21 +34236,6 @@ periodische Vorgänge auf."""@de .
         "Samenpflanzen"@de,
         "Schachtelhalme"@de .
 
-<877c65b8-78c3-46b3-9eb1-86f1083cbfbe> a skos:Concept ;
-    skos:broader <256377d9-ca30-4280-9cfb-64fb4c45a998> ;
-    skos:definition "Die Untersuchung von Bewegungen hat eine sehr lange Tradition in der Physik. Berühmte Wissenschaftler:innen wie Galileo Galilei und Aristoteles in der griechischen Antike beschäftigten sich mit der experimentellen und theoretischen Untersuchung von Bewegungsvorgängen. Grundsätzlich lassen sich (mindestens) drei Typen von Bewegungen unterscheiden: Die geradlinig gleichförmige Bewegung, die gleichmäßig beschleunigte Bewegung sowie die Kreisbewegung. Jeder dieser Bewegungstypen lässt sich experimentell und theoretisch genauer untersuchen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <0a81707d-fd92-4190-9c7b-2b931fb84f8b>,
-        <88733fb3-e348-417b-9883-4ac2b9aa2d41>,
-        <8fc65ca7-d21c-445c-80f2-91d7f64f1689>,
-        <b520e573-9c67-45f2-a335-63c584b6bb05> ;
-    skos:prefLabel "Bewegungen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
-    sdo:keywords "Zeit-Geschwindigkeits-Diagramm"@de,
-        "Zeit-Orts-Diagramm"@de,
-        "t-s-Diagramm"@de,
-        "t-v-Diagrammen"@de .
-
 <8c634c85-1921-4772-ab97-f037ba93b8e4> a skos:Concept ;
     skos:broader <585c5380-5171-4289-a241-45b9aed08660> ;
     skos:definition """Eine bessere Didaktik führt zu höherer Qualität des Lernens. Lernen ist immer ein emotionaler Prozess. Gute Didaktik löst positive Emotionen aus und lenkt sie, um den inneren Lernprozess erfolgreich zu meistern. 
@@ -35441,6 +35439,22 @@ Du bist Lehrer:in, Refendar:in, studierst Französisch oder willst dein Französ
         "apprendre le français"@de,
         "français langue étrangère"@de,
         "learn French"@de .
+
+<877c65b8-78c3-46b3-9eb1-86f1083cbfbe> a skos:Concept ;
+    skos:broader <256377d9-ca30-4280-9cfb-64fb4c45a998> ;
+    skos:definition "Die Untersuchung von Bewegungen hat eine sehr lange Tradition in der Physik. Berühmte Wissenschaftler:innen wie Galileo Galilei und Aristoteles in der griechischen Antike beschäftigten sich mit der experimentellen und theoretischen Untersuchung von Bewegungsvorgängen. Grundsätzlich lassen sich (mindestens) drei Typen von Bewegungen unterscheiden: Die geradlinig gleichförmige Bewegung, die gleichmäßig beschleunigte Bewegung sowie die Kreisbewegung. Jeder dieser Bewegungstypen lässt sich experimentell und theoretisch genauer untersuchen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <0a81707d-fd92-4190-9c7b-2b931fb84f8b>,
+        <1f910d7d-37ed-4eb5-934e-003984f04028>,
+        <88733fb3-e348-417b-9883-4ac2b9aa2d41>,
+        <8fc65ca7-d21c-445c-80f2-91d7f64f1689>,
+        <b520e573-9c67-45f2-a335-63c584b6bb05> ;
+    skos:prefLabel "Bewegungen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
+    sdo:keywords "Zeit-Geschwindigkeits-Diagramm"@de,
+        "Zeit-Orts-Diagramm"@de,
+        "t-s-Diagramm"@de,
+        "t-v-Diagrammen"@de .
 
 <897dd2d5-24b3-4a37-95b3-1be8db28c267> a skos:Concept ;
     skos:broader <ffd298b5-3a04-4d13-9d26-ddd5d3b5cedc> ;
@@ -39540,7 +39554,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-14" ;
+    dct:modified "2022-07-15" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
