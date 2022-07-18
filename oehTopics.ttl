@@ -35246,12 +35246,24 @@ Hier finden sich entsprechen nicht nur die physikalischen und logischen Grundlag
         <4da50948-46cd-4344-8c7a-54c6ae21cd5a>,
         <945b436d-8d97-47b3-8d9d-19f2ec092fe3>,
         <a6728c1a-6b41-4fc8-8687-3fe42727421c> ;
-    skos:prefLabel "Präpositonen"@de ;
+    skos:prefLabel "Präpositionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Lagewörter"@de,
+    sdo:keywords "Deutsch lernen/Präpositionen"@de,
+        "Genitivpräpositionen"@de,
+        "Lagewörter"@de,
+        "Präposition"@de,
+        "Präpositionen"@de,
+        "Präpositionen des Ortes"@de,
+        "Präpositionen mit Akkusativ"@de,
+        "Präpositionen mit Dativ"@de,
+        "Präpositionen mit Genitiv"@de,
+        "Präpositionen mit dem Akkusativ (Interaktive Übungen)"@de,
+        "Präpositionen mit dem Dativ"@de,
         "Präpositonen"@de,
         "Verhältniswörter"@de,
-        "Vorwörter"@de .
+        "Vorwörter"@de,
+        "Wechselpräpositionen"@de,
+        "lokale Präpositionen"@de .
 
 <26105802-9039-4add-bf21-07a0f89f6e70> a skos:Concept ;
     skos:definition """Merhaba, hoşgeldin & herzlich Willkommen bei WirLernenOnline!
@@ -36697,11 +36709,17 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
         <ce99536a-ef91-4111-93ea-1d114fe44055> ;
     skos:prefLabel "Adjektive"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Adjektive"@de,
+    sdo:keywords "Adjektiv"@de,
+        "Adjektivdeklination"@de,
+        "Adjektive"@de,
+        "Adjektive Deutsch"@de,
+        "Adjektive deklinieren"@de,
+        "Adjektive steigern"@de,
         "Bildung"@de,
         "Deklination"@de,
         "Eigenschaftwörter"@de,
         "Steigerung"@de,
+        "Steigerung Adjektive"@de,
         "Wie-Wörter"@de .
 
 <a1cacef7-856b-4a1f-8006-93f2b55e27bf> a skos:Concept ;
@@ -36953,8 +36971,17 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
         <e234eda6-f058-4cea-a13d-8cb272c206ca> ;
     skos:prefLabel "Pronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Fürwörter"@de,
-        "Pronomen"@de .
+    sdo:keywords "Demonstrativpronomen"@de,
+        "Fragepronomen"@de,
+        "Fürwörter"@de,
+        "Interrogativpronomen"@de,
+        "Objektpronomen"@de,
+        "Personalpronomen"@de,
+        "Personalpronomen Deutsch"@de,
+        "Possessivpronomen"@de,
+        "Pronomen"@de,
+        "Reflexivpronomen"@de,
+        "Relativpronomen"@de .
 
 <e0be90be-69b2-483b-8d28-34de169c8988> a skos:Concept ;
     skos:broader <e0782a2f-7b1c-4ef3-a4ab-be62335d706a> ;
@@ -37209,7 +37236,15 @@ Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen 
         <f642a957-b138-4be7-87b7-077ad202ee48> ;
     skos:prefLabel "Zeitformen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Tempora"@de,
+    sdo:keywords "Futur 1"@de,
+        "Futur 2"@de,
+        "Futur I"@de,
+        "Futur II"@de,
+        "Perfekt"@de,
+        "Plusquamperfekt"@de,
+        "Präsens"@de,
+        "Präteritum"@de,
+        "Tempora"@de,
         "Tempus"@de,
         "Zeitform"@de,
         "Zeitformen"@de .
@@ -37411,13 +37446,17 @@ In diesem Abschnitt geht es um einfache Stoffeigenschaften und wie man sie unter
     skos:prefLabel "Artikel und Begleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Bestimmter Artikel"@de,
+        "Demonstrativartikel"@de,
         "Demonstrativbegleiter"@de,
+        "Demonstrativpronomen als Begleiter"@de,
         "Geschlechtswörter"@de,
         "Indefinitbegleiter"@de,
         "Interrogativbegleiter"@de,
         "Nomenbegleiter"@de,
         "Nullartikel"@de,
+        "Possessivartikel"@de,
         "Possessivbegleiter"@de,
+        "Possessivbegleiter deutsch"@de,
         "Unbestimmter Artikel"@de .
 
 <91e5b64c-07b0-41b7-8ff3-4319deee61cd> a skos:Concept ;
@@ -37587,6 +37626,7 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
         "Namenwort"@de,
         "Nomen"@de,
         "Substantiv"@de,
+        "Wortart"@de,
         "Wortarten"@de .
 
 <392f83ef-4052-423c-b42d-315b691df6f2> a skos:Concept ;
@@ -39092,10 +39132,35 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
         <f4dd27f8-e796-435c-91a0-4b35feb1e674> ;
     skos:prefLabel "Verben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Tuwörter"@de,
+    sdo:keywords "Imperativ"@de,
+        "Konjunktiv 1"@de,
+        "Konjunktiv 2"@de,
+        "Konjunktiv I"@de,
+        "Konjunktiv II"@de,
+        "Modalverben"@de,
+        "Partizip 1"@de,
+        "Partizip 2"@de,
+        "Partizip I"@de,
+        "Partizip II"@de,
+        "Passiv"@de,
+        "Tuwörter"@de,
         "Tätigkeitswörter"@de,
         "Verben"@de,
-        "Zeitwörter"@de .
+        "Verben mit Präpositionen"@de,
+        "Verben trennbar"@de,
+        "Verben untrennbar"@de,
+        "Zeitwörter"@de,
+        "das Verb haben"@de,
+        "das Verb sein"@de,
+        "das Verb werden"@de,
+        "haben"@de,
+        "intransitive Verben"@de,
+        "reflexive Verben"@de,
+        "sein"@de,
+        "transitive Verben"@de,
+        "trennbare Verben"@de,
+        "untrennbare Verben"@de,
+        "werden"@de .
 
 <df34b67e-39c8-47a7-b93b-8fed27384dfa> a skos:Concept ;
     skos:broader <f1049950-bdda-45f5-9c73-38b51ea66c74> ;
@@ -39320,12 +39385,75 @@ Du kennst tolles Material? Dann bringe dich und dein Wissen ein! Hilf mit, die b
         <d7e3eb23-7ab6-450a-b690-d4e61a817149> ;
     skos:prefLabel "Grammatik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Deutsche Grammatik"@de,
+    sdo:keywords "Adjektivdeklination"@de,
+        "Adjektive"@de,
+        "Adjektive und Adverbien "@de,
+        "Adverbien"@de,
+        "Akkusativ"@de,
+        "Akkusativobjekt"@de,
+        "Begleiter"@de,
+        "Dativ"@de,
+        "Dativbildung"@de,
+        "Dativobjekt"@de,
+        "Dativpronomen"@de,
+        "Demonstrativbegleiter"@de,
+        "Demonstrativpronomen"@de,
+        "Deutsch lernen/Verben mit Präpositionen"@de,
+        "Deutsche Grammatik"@de,
+        "Fragepronomen"@de,
+        "Genitiv"@de,
+        "Grammatik"@de,
         "Grammatik DaF"@de,
         "Grammatik DaZ"@de,
         "Grammatik Deutsch"@de,
         "Grammatik lernen"@de,
-        "Grammatik üben"@de .
+        "Grammatik üben"@de,
+        "Haupt- und Nebensatz"@de,
+        "Hauptsatz"@de,
+        "Indefinitbegleiter"@de,
+        "Interrogativbegleiter"@de,
+        "Interrogativpronomen"@de,
+        "Konjunktionen"@de,
+        "Konnektoren"@de,
+        "Nebensatz"@de,
+        "Nebensatz mit obwohl"@de,
+        "Nebensatz mit sodass"@de,
+        "Nomen"@de,
+        "Personalpronomen"@de,
+        "Personalpronomen Deutsch"@de,
+        "Personalpronomen im Akkusativ"@de,
+        "Personalpronomen im Dativ"@de,
+        "Personalpronomen im Nominativ"@de,
+        "Possessivbegleiter"@de,
+        "Possessivpronomen"@de,
+        "Possessivpronomen im Akkusativ"@de,
+        "Possessivpronomen im Dativ"@de,
+        "Pronomen"@de,
+        "Prädikat"@de,
+        "Präpositionaladverbien"@de,
+        "Präpositionen"@de,
+        "Präpositionen mit Akkusativ"@de,
+        "Präpositionen mit Dativ"@de,
+        "Präpositionen mit Genitiv"@de,
+        "Präpositionen mit dem Dativ"@de,
+        "Reflexivpronomen"@de,
+        "Relativpronomen"@de,
+        "Subjekt"@de,
+        "Temporaladverbien"@de,
+        "Temporalsätze DaZ"@de,
+        "Unbestimmte Zahlwörter"@de,
+        "Verb"@de,
+        "Verben"@de,
+        "Verben mit Präpositionen"@de,
+        "Wechselpräpositionen"@de,
+        "adverbiale Nebensätze"@de,
+        "lokale Präpositionen"@de,
+        "lokale Präpositionen Akkusativ"@de,
+        "reflexive Verben"@de,
+        "trennbare Verben"@de,
+        "unbestimmter Artikel"@de,
+        "zweigliedrige Konnektoren"@de,
+        "Übungen Possessivpronomen"@de .
 
 <9054b1b6-4ad7-4247-a4a2-c6e7f97d31a0> a skos:Concept ;
     skos:broader <ea776a48-b3f4-446c-b871-19f84b31d280> ;
