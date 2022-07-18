@@ -3127,7 +3127,9 @@ Wann ist ein Mann ein Mensch?"""@de ;
     skos:prefLabel "Interjektionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Ausrufewörter"@de,
+        "Deutsche Grammatik"@de,
         "Empfindungswörter"@de,
+        "Interjektion"@de,
         "Interjektionen"@de .
 
 <1f59f78f-61ad-4210-b16f-32331b54c219> a skos:Concept ;
@@ -8113,7 +8115,8 @@ auf die Lehrkrfat sind Aspekte der Motivation, der Förderung von Entwicklung  u
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Satzglieder"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Satzbaustein"@de,
+    sdo:keywords "Deutsch lernen/Satzglieder"@de,
+        "Satzbaustein"@de,
         "Satzglieder "@de,
         "Satzglieder bestimmen"@de,
         "Tekamolo"@de .
@@ -15421,11 +15424,14 @@ Abiturprüfung, Niedersachsen 2016-2020, Baden-Württemberg 2007"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Verneinung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Negationsmuster"@de,
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Negationsmuster"@de,
         "Präfixe mit verneinender Bedeutung"@de,
         "Präpositionen mit verneinender Bedeutung"@de,
         "Suffixe mit verneinender Bedeutung"@de,
         "Verneinung"@de,
+        "Verneinung Deutsch"@de,
+        "Verneinung im Deutschen"@de,
         "kein"@de,
         "nicht"@de,
         "verneinende Aussagen"@de .
@@ -19027,9 +19033,13 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:prefLabel "Grammatikübersichten"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Adjektivdeklination"@de,
+        "Adjektive deklinieren"@de,
         "Deklination"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik"@de,
         "Grammatikübersicht "@de,
-        "Konjugation"@de .
+        "Konjugation"@de,
+        "Verben konjugieren"@de .
 
 <a164dcce-1332-4a69-ad68-db91954cb86f> a skos:Concept ;
     skos:broader <640ad31f-0a11-44a1-bdfe-4931b992622c> ;
@@ -31912,13 +31922,16 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         "Iterativzahlwörter"@de,
         "Kardinalzahlen"@de,
         "Numerale"@de,
+        "Numeralien"@de,
         "Numerialien"@de,
         "Ordinalzahlen"@de,
         "Ordnungszahlen"@de,
         "Unbestimmte Zahlwörter  "@de,
         "Vervielfältigungszahlen"@de,
         "Wiederholungszahlen"@de,
-        "Zahlwörter"@de .
+        "Zahlwörter"@de,
+        "bestimmte Numeralien"@de,
+        "unbestimmte Numeralien"@de .
 
 <a51715dc-bd1c-40cd-b360-d774d2ffad2c> a skos:Concept ;
     skos:broader <dcc76bcf-0c92-402c-aea2-db3f1595379f> ;
@@ -34397,8 +34410,14 @@ periodische Vorgänge auf."""@de .
     sdo:keywords " Betonung"@de,
         "Akzentuierung"@de,
         "Aussprache"@de,
+        "Buchstaben"@de,
+        "Intonation"@de,
+        "Laute"@de,
+        "Pausen"@de,
         "Phonetik"@de,
+        "Rhythmus"@de,
         "Silben"@de,
+        "Sprechsilben"@de,
         "Umlaute"@de,
         "Vokale"@de,
         "Wortakzent"@de .
@@ -34563,10 +34582,16 @@ periodische Vorgänge auf."""@de .
     skos:prefLabel "Konnektoren"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Bindewörter"@de,
+        "Grammatik"@de,
+        "Konjunktion"@de,
         "Konjunktionen"@de,
         "Konnektoren"@de,
+        "Konnektoren Deutsch"@de,
+        "Subjunktion"@de,
         "Subjunktionen"@de,
-        "nebenordnende Konnektoren"@de .
+        "deutsche Grammatik"@de,
+        "nebenordnende Konnektoren"@de,
+        "zweigliedrige Konnektoren"@de .
 
 <a402ca40-035b-44a4-beff-447c3d9c21be> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
@@ -36360,11 +36385,20 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
         <c54d4635-7cb2-4b6c-b6c3-49ba32e6efaa> ;
     skos:prefLabel "Rechtschreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Kommaregeln"@de,
+    sdo:keywords "Doppelkonsonanten"@de,
+        "Groß- & Kleinschreibung"@de,
+        "Groß- und Kleinschreibung"@de,
+        "Großschreibung"@de,
+        "Kleinschreibung"@de,
+        "Kommaregeln"@de,
+        "Konsonanten"@de,
         "Orthografie"@de,
         "Orthographie"@de,
         "Rechtschreibung"@de,
-        "Satzzeichen"@de .
+        "Satzzeichen"@de,
+        "Umlaute"@de,
+        "Vokale"@de,
+        "Zeichensetzung"@de .
 
 <5828c294-98bb-45fc-9784-ce22c6368a27> a skos:Concept ;
     skos:broader <52de12fa-79ad-455c-95ae-d191f8e897d8> ;
@@ -36575,8 +36609,10 @@ Neben fundamentalen Fragen der Berechenbarbeit, Effizien und Komplexität besch�
         <f346e513-ddab-4c62-a5fc-84221a5ec259> ;
     skos:prefLabel "Hauptsätze und Satzreihen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Hauptsatz"@de,
-        "Satzreihen"@de .
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Hauptsatz"@de,
+        "Satzreihen"@de,
+        "hauptsatz"@de .
 
 <7c529746-86df-4102-b3d2-233ca7010380> a skos:Concept ;
     skos:broader <add72bd6-2d1b-435a-9ae4-27e5cee28a52> ;
@@ -36840,7 +36876,12 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
         "Adverbien der Zeit"@de,
         "Adverbien des Grundes"@de,
         "Adverbien des Ortes"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik Deutsch"@de,
+        "Kausaladverbien"@de,
+        "Lokaladverbien"@de,
         "Nebenwörter"@de,
+        "Temporaladverbien"@de,
         "Umstandswörter"@de .
 
 <c5434472-5ecd-4419-94f9-c241c26b00b7> a skos:Concept ;
@@ -39287,6 +39328,7 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
     skos:prefLabel "Nebensätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Adversativsatz"@de,
+        "Deutsche Grammatik"@de,
         "Finalsatz"@de,
         "Infinitivkonstruktionen"@de,
         "Infinitivsatz"@de,
@@ -39298,6 +39340,7 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
         "Modalsatz"@de,
         "Nebensatz"@de,
         "Nebensätze"@de,
+        "Nebensätze im Deutschen"@de,
         "Partizipialsatz"@de,
         "Relativsatz"@de,
         "Satzgefüge"@de,
