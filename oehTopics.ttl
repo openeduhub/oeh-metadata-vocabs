@@ -8606,7 +8606,7 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
 
 <501fd767-c5cf-4eb8-856d-3069578e6bec> a skos:Concept ;
     skos:broader <01c46536-d69e-49b1-a49d-ec7cc5f04508> ;
-    skos:definition "Die deutsche Sprache gibt es nicht, denn Deutsch wird nicht nur in Deutschland gesprochen, sondern auch in der Schweiz und Österreich. Die Abkürzung dazu ist D-A-CH. Hinzu kommen außerdem verschiedene regionale Dialekte und andere Varietäten wie beispielsweise die Jugendsprache oder verschiedene Fachsprachen."@de ;
+    skos:definition "DIE deutsche Sprache gibt es nicht, denn Deutsch wird nicht nur in Deutschland gesprochen, sondern auch in der Schweiz und Österreich. Die Abkürzung dazu ist D-A-CH oder auch D-A-CH-L. Das L steht für Liechtenstein. Hinzu kommen außerdem verschiedene regionale Dialekte und andere Varietäten wie beispielsweise die Jugendsprache oder verschiedene Fachsprachen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Varietäten des Deutschen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -8614,13 +8614,17 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
         "Bayerisch"@de,
         "Bayrisch"@de,
         "Berlinerisch"@de,
+        "Dialekt"@de,
         "Dialekte "@de,
         "Jugendsprache"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
         "Regionalsprachen"@de,
         "Schweizer Hochdeutsch"@de,
         "Schwäbisch"@de,
         "Sächsisch"@de,
         "Varietäten des Deutschen"@de,
+        "soziokulturelles Orientierungswissen DaZ"@de,
         "Österreichisches Deutsch"@de .
 
 <5024935d-82fc-4d2b-b124-0861bcdaa775> a skos:Concept ;
@@ -8714,11 +8718,14 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Demokratie"@de,
         "Demokratieerziehung"@de,
+        "Demokratische Wahlen"@de,
+        "Deutsche Demokratische Republik"@de,
         "Freiheit"@de,
         "Gleichberechtigung"@de,
         "Gleichheit"@de,
         "Grundgesetz"@de,
         "Menschenrechte"@de,
+        "Sozialdemokratie"@de,
         "Verfassung"@de,
         "Werte"@de .
 
@@ -11277,10 +11284,24 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Landesküchen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Küche"@de,
+    sdo:keywords "Bayern (Landeskunde)"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
+        "Küche"@de,
+        "Landeskunde"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
+        "Landesküche"@de,
         "Landesküche Deutschland"@de,
         "Landesküche Schweiz"@de,
-        "Landesküche Österreich"@de .
+        "Landesküche Österreich"@de,
+        "Liechtenstein"@de,
+        "Liechtenstein (Landeskunde)"@de,
+        "Rezepte"@de,
+        "Rezepte für nachhaltige Speisen"@de,
+        "Schweiz (Landeskunde)"@de,
+        "soziokulturelles Orientierungswissen DaZ"@de,
+        "Österreich"@de,
+        "Österreich (Landeskunde)"@de .
 
 <642f8ee5-dbea-4734-943f-1220960ffdd1> a skos:Concept ;
     skos:broader <cc0b9bf0-5250-443a-baf4-03c2af651d08> ;
@@ -11392,7 +11413,7 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     skos:broader <01c46536-d69e-49b1-a49d-ec7cc5f04508> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Literatur, Film und Theater"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Film "@de,
         "Kurzfilm"@de,
         "Literatur "@de,
@@ -14020,9 +14041,16 @@ Die Schule trägt maßgeblich zur Schwimmausbildung von Kindern bei."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Geschichte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Geschichte Deutschland"@de,
+    sdo:keywords "Deutschland"@de,
+        "Geschichte"@de,
+        "Geschichte Deutschland"@de,
         "Geschichte Schweiz"@de,
-        "Geschichte Österreich"@de .
+        "Geschichte Österreich"@de,
+        "Geschichtsdoku"@de,
+        "Landeskunde"@de,
+        "Landeskunde D-A-CH"@de,
+        "Zeitgeschichte"@de,
+        "soziokulturelles Orientierungswissen DaZ"@de .
 
 <7d87ae17-0d09-477a-abe2-a9ec4017f40d> a skos:Concept ;
     skos:broader <a51715dc-bd1c-40cd-b360-d774d2ffad2c> ;
@@ -21356,10 +21384,15 @@ Epikur"""@de ;
     skos:prefLabel "Länder und Leute"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords " Landeskunde"@de,
+        "D-A-CH"@de,
         "Deutschland "@de,
         "Gesellschaft"@de,
+        "Landeskunde"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
         "Schweiz"@de,
         "Städte und Regionen"@de,
+        "soziokulturelles Orientierungswissen DaZ"@de,
         "Österreich"@de .
 
 <b52087e6-a5c6-4b21-942b-bb63519444b1> a skos:Concept ;
@@ -22022,17 +22055,37 @@ Weiterführende Materialien finden sich im Fachportal Chemie unter <a href="http
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Musik und Liedgut"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Blues"@de,
+    sdo:keywords "Bayern (Landeskunde)"@de,
+        "Blues"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
+        "Deutschland"@de,
         "Gesang"@de,
         "Jazz"@de,
+        "Kinderlieder"@de,
         "Klassik"@de,
+        "Landeskunde"@de,
+        "Landeskunde (Nordrhein-Westf.)"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
+        "Landeskunde im Deutschunterricht in Ungarn"@de,
+        "Liechtenstein"@de,
+        "Liechtenstein (Landeskunde)"@de,
+        "Lieder"@de,
         "Musik"@de,
         "Pop"@de,
         "Rap"@de,
         "Reggae"@de,
         "Schlager"@de,
+        "Schweiz"@de,
+        "Schweiz (Landeskunde)"@de,
+        "Sing Kinderlieder"@de,
+        "Volkslied"@de,
         "Volkslieder"@de,
-        "Weltmusik"@de .
+        "Weltmusik"@de,
+        "deutsche kinderlieder"@de,
+        "volkslieder"@de,
+        "Österreich"@de,
+        "Österreich (Landeskunde)"@de .
 
 <bb508b94-049f-46ab-917f-afbc0feb333e> a skos:Concept ;
     skos:broader <42add866-db90-45dc-af15-2eae12eca7bb> ;
@@ -25816,12 +25869,20 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Feste, Bräuche und Traditionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Fasching"@de,
+    sdo:keywords "Bundesrepublik Deutschland (Landeskunde)"@de,
+        "Fasching"@de,
         "Feste"@de,
         "Geburtstag"@de,
         "Halloween"@de,
         "Heilige Drei Könige"@de,
         "Karneval"@de,
+        "Karneval D-A-CH"@de,
+        "Karneval der Kulturen"@de,
+        "Karneval in Deutschland"@de,
+        "Karneval/Fastnacht/Fasching"@de,
+        "Karwoche"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
         "Nikolaus"@de,
         "Ostern"@de,
         "Pfingsten"@de,
@@ -25829,7 +25890,20 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
         "Silvester"@de,
         "Tag der Deutschen Einheit"@de,
         "Traditionen"@de,
-        "Weihnachten"@de .
+        "Valentinstag"@de,
+        "Valentinstag D-A-CH"@de,
+        "Valentinstag DaF"@de,
+        "Weihnachten"@de,
+        "Weihnachtsbaum"@de,
+        "Weihnachtsgeschichte"@de,
+        "Weihnachtskalender"@de,
+        "Weihnachtskrippe"@de,
+        "Weihnachtslied"@de,
+        "Weihnachtsmann"@de,
+        "Weihnachtszeit"@de,
+        "ostern"@de,
+        "pfingsten"@de,
+        "weihnachten"@de .
 
 <d8884ca1-d396-4019-b85e-810f65ecb6a1> a skos:Concept ;
     skos:broader <906a330f-0171-4656-a290-7fdc39cadad6> ;
@@ -39569,7 +39643,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-17" ;
+    dct:modified "2022-07-18" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
