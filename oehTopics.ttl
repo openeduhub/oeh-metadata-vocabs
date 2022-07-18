@@ -344,7 +344,16 @@
     sdo:keywords "Ferien"@de,
         "Reise planen DaZ"@de,
         "Reisen DaZ"@de,
-        "Urlaub DaZ"@de .
+        "Sommerferien"@de,
+        "Urlaub"@de,
+        "Urlaub DaZ"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Reise"@de,
+        "eine Reise planen"@de,
+        "verreisen"@de .
 
 <02e477f2-aa77-4d6f-92f1-8f81a2c5387c> a skos:Concept ;
     skos:broader <b51c3253-5ac9-4e6b-afb4-36af8ee81a42> ;
@@ -14386,7 +14395,7 @@ Was bedeutet das Wort? Damit diese Frage immer beantwortet werden kann, sind hie
         "leichtes Erdöl"@de .
 
 <80899084-6d80-43da-80a9-8bea43b50656> a skos:Concept ;
-    skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
+    skos:broader <01c46536-d69e-49b1-a49d-ec7cc5f04508> ;
     skos:definition "„Es war einmal …“ fangen alle Märchen an. Es gibt einen Helden oder eine Heldin, meistens ein Junge oder ein Mädchen. Sie erleben viele Abenteuer, oft gehen sie auf eine Reise. Dabei treffen sie Tiere oder Dinge, die sprechen können oder Zauberkräfte haben, oder Riesen, Zwerge, Feen oder Hexen. In den Sagen gibt es auch Helden und Heldinnen, oft Ritter, Prinzen oder Prinzessinnen. Auch sie müssen Gefahren überwinden, Ungeheuer besiegen oder einen Zauber brechen. So können sie ihre Liebe erobern oder eine Stadt retten. Mit Märchen und Sagen kannst  du Deutsch lernen mit spannenden Geschichten."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Märchen und Sagen"@de ;
@@ -38267,39 +38276,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Vivir y convivir en una España multicultural"@de,
         "pobreza infantil"@de .
 
-<01c46536-d69e-49b1-a49d-ec7cc5f04508> a skos:Concept ;
-    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
-    skos:definition "Zur deutschen Sprache gehören auch die Menschen und ihre Kultur. In Europa lebt der Großteil der Muttersprachler:innen in Deutschland, Österreich und in der Schweiz. Die Abkürzung für diesen Sprachraum ist D-A-CH. Aber auch in anderen Ländern wird Deutsch mit offiziellem Status gesprochen. Darunter sind Liechtenstein, Belgien und Luxemburg. Jedes dieser Länder hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier viele tolle Inhalte, die dir die deutschsprachige Welt noch näher bringen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <27b0333c-7cfe-4be4-a648-e199ac950467>,
-        <501fd767-c5cf-4eb8-856d-3069578e6bec>,
-        <507c5602-794c-48bb-b013-72018a33c0ed>,
-        <642221d2-714e-43c8-b35e-bb48838e7c00>,
-        <64f0b3d1-91a2-4053-ba05-7768b6f92a95>,
-        <7d3c8cd3-6b17-4554-b854-c33a045a153b>,
-        <b50cce16-e178-468f-be93-143542b9aa3f>,
-        <bb3588cf-cd74-43d3-be2d-91d7856962ae>,
-        <d87043ae-071b-4e9f-a890-e0012ec84d81>,
-        <f0753267-c699-4b2f-92af-92c0be2b9fcb> ;
-    skos:prefLabel "Interkulturelles"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Bayern (Landeskunde)"@de,
-        "Bundesrepublik Deutschland (Landeskunde)"@de,
-        "D-A-CH-L"@de,
-        "Deutschland"@de,
-        "Landeskunde"@de,
-        "Landeskunde "@de,
-        "Landeskunde (Nordrhein-Westf.)"@de,
-        "Landeskunde D-A-CH"@de,
-        "Landeskunde Deutschland"@de,
-        "Liechtenstein"@de,
-        "Liechtenstein (Landeskunde)"@de,
-        "Schweiz"@de,
-        "Schweiz (Landeskunde)"@de,
-        "soziokulturelles Orientierungswissen"@de,
-        "Österreich"@de,
-        "Österreich (Landeskunde)"@de .
-
 <049030e3-5d92-41a3-b51b-9fca2533026b> a skos:Concept ;
     skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -38582,6 +38558,40 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     skos:prefLabel "Politische Bildung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/480> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
+
+<01c46536-d69e-49b1-a49d-ec7cc5f04508> a skos:Concept ;
+    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
+    skos:definition "Zur deutschen Sprache gehören auch die Menschen und ihre Kultur. In Europa lebt der Großteil der Muttersprachler:innen in Deutschland, Österreich und in der Schweiz. Die Abkürzung für diesen Sprachraum ist D-A-CH. Aber auch in anderen Ländern wird Deutsch mit offiziellem Status gesprochen. Darunter sind Liechtenstein, Belgien und Luxemburg. Jedes dieser Länder hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier viele tolle Inhalte, die dir die deutschsprachige Welt noch näher bringen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <27b0333c-7cfe-4be4-a648-e199ac950467>,
+        <501fd767-c5cf-4eb8-856d-3069578e6bec>,
+        <507c5602-794c-48bb-b013-72018a33c0ed>,
+        <642221d2-714e-43c8-b35e-bb48838e7c00>,
+        <64f0b3d1-91a2-4053-ba05-7768b6f92a95>,
+        <7d3c8cd3-6b17-4554-b854-c33a045a153b>,
+        <80899084-6d80-43da-80a9-8bea43b50656>,
+        <b50cce16-e178-468f-be93-143542b9aa3f>,
+        <bb3588cf-cd74-43d3-be2d-91d7856962ae>,
+        <d87043ae-071b-4e9f-a890-e0012ec84d81>,
+        <f0753267-c699-4b2f-92af-92c0be2b9fcb> ;
+    skos:prefLabel "Interkulturelles"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Bayern (Landeskunde)"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
+        "D-A-CH-L"@de,
+        "Deutschland"@de,
+        "Landeskunde"@de,
+        "Landeskunde "@de,
+        "Landeskunde (Nordrhein-Westf.)"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
+        "Liechtenstein"@de,
+        "Liechtenstein (Landeskunde)"@de,
+        "Schweiz"@de,
+        "Schweiz (Landeskunde)"@de,
+        "soziokulturelles Orientierungswissen"@de,
+        "Österreich"@de,
+        "Österreich (Landeskunde)"@de .
 
 <0a62a10e-374a-46e2-a7d6-0c6954e755c0> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
@@ -39671,7 +39681,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <76e74e92-9392-412a-a3f7-168daa58d730>,
         <79652aac-f25a-4713-9473-e15b565dafc1>,
         <801578ba-1fb7-4e08-84a2-9556b0ee9f29>,
-        <80899084-6d80-43da-80a9-8bea43b50656>,
         <81dbdf0e-c20d-481e-a0f9-ebbbb0abc2bd>,
         <83803aa6-8fee-4a7c-bfaf-2dcde93a3d3d>,
         <89dec7c3-d92c-456d-a0b0-b8b61a7625c9>,
