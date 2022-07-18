@@ -4724,12 +4724,20 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "Mathematik"@de,
         "Oberschule"@de,
         "Physik"@de,
+        "Primarstufe"@de,
         "Realschule"@de,
         "Schule"@de,
         "Schulfächer"@de,
         "Schulgebäude"@de,
         "Schulranzen"@de,
         "Schulsachen"@de,
+        "Sekundarschule"@de,
+        "Sekundarstufe"@de,
+        "Sekundarstufe 1"@de,
+        "Sekundarstufe I"@de,
+        "Sekundarstufe II"@de,
+        "Student"@de,
+        "Studium"@de,
         "Studium "@de,
         "Universität"@de,
         "Wortschatz"@de,
@@ -4737,7 +4745,11 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
         "Wortschatz DaZ"@de,
         "Wortschatz Deutsch"@de,
         "Wortschatz Schule"@de,
-        "duales Studium"@de .
+        "Wortschatz Schulsachen"@de,
+        "duales Studium"@de,
+        "grundschule"@de,
+        "sekundarstufe"@de,
+        "studieren"@de .
 
 <2a3aa769-3d25-4b76-b286-7e2d1668a0cf> a skos:Concept ;
     skos:broader <bb6cf13e-6c89-4472-9acc-4a77ec7caa38> ;
@@ -9078,12 +9090,15 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
         "Hobbies"@de,
         "Hobby"@de,
         "Sport"@de,
+        "Sportarten"@de,
         "Sportverein"@de,
         "Turnen"@de,
+        "Wintersport"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de .
+        "Wortschatz Deutsch"@de,
+        "über die Freizeit sprechen"@de .
 
 <52f13841-8600-4174-8bcf-ea0a178449c5> a skos:Concept ;
     skos:broader <44f5ad1c-432b-4197-a6c3-1a5abf263595> ;
@@ -10914,12 +10929,17 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Farben"@de,
+        "Farben benennen"@de,
+        "Farben lernen"@de,
         "Farben und Formen"@de,
+        "Formen"@de,
         "Geometrische Grundformen und Grundbegriffe"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Farben"@de .
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Farben"@de,
+        "Wortschatzerwerb"@de .
 
 <6182be9c-2cf5-4949-be0d-2c97212a848d> a skos:Concept ;
     skos:broader <f64bb5f6-e195-430d-b6bd-b6fb6725563a> ;
@@ -13747,13 +13767,15 @@ Klickt die Materialien der Reihe nach durch. Ihr erhaltet einen Überblick und e
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Haustier"@de,
         "Haustiere"@de,
         "Nutztiere"@de,
         "Tiere"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de .
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de .
 
 <796babee-9eaf-4cac-9ac8-cc50d08bb1f8> a skos:Concept ;
     skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
@@ -16982,6 +17004,7 @@ Etwas wagen und verantworten, Das Leisten erfahren, verstehen und einschätzen, 
     sdo:keywords "Bauernhof"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Hauptstadt"@de,
         "Land"@de,
         "Stadt"@de,
         "Verkehrsmittel"@de,
@@ -16989,6 +17012,7 @@ Etwas wagen und verantworten, Das Leisten erfahren, verstehen und einschätzen, 
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
         "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
         "auf dem Land"@de,
         "in der Stadt"@de .
 
@@ -18478,11 +18502,15 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
         "Möbel"@de,
         "Schlafzimmer"@de,
         "Wohnung"@de,
+        "Wohnungsmarkt"@de,
+        "Wohnungssuche"@de,
         "Wohnzimmer"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de .
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "in der Wohnung"@de .
 
 <9ddbf5dd-47e5-42cb-a7da-2f7a63b4f585> a skos:Concept ;
     skos:broader <7aba1182-30ac-449f-92ad-f764b640df52> ;
@@ -27446,7 +27474,12 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Tischler*in"@de,
         "Verfahrensmechaniker*in für Kunststoff und Kautschuktechnik"@de,
         "Verkäufer*in"@de,
+        "Wortschatz"@de,
         "Wortschatz Beruf"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
         "Zahnarzthelfer*in"@de,
         "Änderungsschneider*in"@de .
 
@@ -29074,14 +29107,19 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:prefLabel "Datum und Kalender"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Datum"@de,
+        "Datum angeben"@de,
+        "Datumsangabe"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Monate"@de,
         "Wochentage"@de,
+        "Wochentage Deutsch"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de .
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "das Datum angeben"@de .
 
 <f2268b39-7f5b-4f98-9a77-298e2f54ee80> a skos:Concept ;
     skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
