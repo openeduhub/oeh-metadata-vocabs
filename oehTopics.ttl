@@ -3932,18 +3932,29 @@ Wann ist ein Mann ein Mensch?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Körper und Gesundheit"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Arzt"@de,
+    sdo:keywords "Apotheke"@de,
+        "Arzt"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
+        "Deutsch lernen Körperteile"@de,
+        "Deutsch lernen/Körperteile"@de,
         "Gesundhei"@de,
+        "In der Apotheke"@de,
+        "Kinderkrankheit"@de,
+        "Kinderkrankheiten"@de,
         "Krankenaus"@de,
         "Krankheit"@de,
         "Körper"@de,
+        "Körperteile"@de,
         "Schmerzen"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de .
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "beim Arzt"@de,
+        "im Krankenhaus"@de,
+        "in der Apotheke"@de .
 
 <24864c99-baeb-4fa6-802f-99b649df207f> a skos:Concept ;
     skos:broader <97c3cbbf-8436-4d75-912b-60a01aa10102> ;
@@ -4336,17 +4347,27 @@ Lust oder Pflicht, Philosophieren in der Öffentlichkeit (Stoa) oder im Verborge
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Architektur"@de,
         "Ausstellungen"@de,
+        "Bayern (Landeskunde)"@de,
         "Bildhauerei"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
         "Dadaismus"@de,
         "Expressionismus"@de,
         "Impressionismus"@de,
         "Kunst "@de,
         "Kunst DaZ"@de,
+        "Landeskunde"@de,
+        "Landeskunde (Nordrhein-Westf.)"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
+        "Liechtenstein (Landeskunde)"@de,
         "Malerei "@de,
         "Monumente"@de,
         "Museen"@de,
+        "Schweiz (Landeskunde)"@de,
         "Surrealismus"@de,
-        "sozialistische Kunst"@de .
+        "sozialistische Kunst"@de,
+        "soziokulturelles Orientierungswissen DaZ"@de,
+        "Österreich (Landeskunde)"@de .
 
 <27bac4df-d416-48d6-8677-58db5c76961b> a skos:Concept ;
     skos:broader <fc8f070d-de34-435f-8614-510a45d5f8e1> ;
@@ -12980,6 +13001,15 @@ Spielfähigkeit."""@de ;
         "Tante"@de,
         "Tochter"@de,
         "Vater"@de,
+        "Verabredungen"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz Familie"@de,
+        "Wortschatz Familie Deutsch"@de,
+        "eine Verabredung"@de,
+        "einen Termin vereinbaren"@de,
         "family"@de,
         "sich verabreden"@de .
 
@@ -13366,11 +13396,17 @@ Spielfähigkeit."""@de ;
         "Ordinalzahlen"@de,
         "Uhr"@de,
         "Uhrzeit"@de,
+        "Uhrzeit (Interaktive Übungen)"@de,
+        "Uhrzeit angeben"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
         "Wortschatz Deutsch"@de,
-        "Zahlen"@de .
+        "Wortschatz Uhrzeit"@de,
+        "Wortschatzerwerb"@de,
+        "Zahlen"@de,
+        "die Uhrzeit"@de,
+        "zählen"@de .
 
 <76fff3c4-1927-4daa-95e0-f9e3d4eaca84> a skos:Concept ;
     skos:broader <54d3176e-84e0-49da-bb08-00aaae3eaeb5> ;
@@ -19197,11 +19233,20 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Vorstellung und persönliche Informationen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Vorstellung "@de,
+    sdo:keywords "Nationalitäten DaZ"@de,
+        "Vorstellung"@de,
+        "Vorstellung "@de,
+        "Woher kommst du?"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
         "kennenlernen"@de,
         "persönliche Informationen"@de,
         "persönliche Informationen geben"@de,
         "sich vorstellen"@de,
+        "sich vorstellen DaZ"@de,
         "über sich sprechen"@de .
 
 <a380aaab-0979-49e1-b833-617a042b66bd> a skos:Concept ;
@@ -19240,7 +19285,13 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
         "Charakterbeschreibung"@de,
         "Eigenheiten"@de,
         "Eigenschaften"@de,
-        "Personenschreibung"@de .
+        "Eine Person beschreiben"@de,
+        "Personenschreibung"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de .
 
 <a3b49414-8436-48f2-ae7d-009de9a4f3af> a skos:Concept ;
     skos:broader <9f082eef-2f86-4007-bbf0-45690cec45a4> ;
@@ -23997,14 +24048,25 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
         "Discounter"@de,
+        "Einkaufen"@de,
+        "Einkaufsliste"@de,
         "Essen"@de,
         "Gerichte"@de,
         "Getränke"@de,
+        "Kochen"@de,
         "Rezepte"@de,
         "Speisen"@de,
         "Supermarkt"@de,
         "Trinken"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "auf dem Markt"@de,
         "einkaufen"@de,
+        "einkaufen gehen"@de,
+        "im Supermarkt"@de,
         "kochen"@de .
 
 <c94daaa3-ab49-43b4-86f1-b3efeeeded39> a skos:Concept ;
@@ -25850,7 +25912,16 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     sdo:keywords "Begrüßung"@de,
         "Deutsch als Fremdsprache"@de,
         "Deutsch als Zweitsprache"@de,
-        "Verabschiedung"@de .
+        "Verabschiedung"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "sich begrüßen DaZ"@de,
+        "sich verabreden"@de,
+        "sich verabschieden DaZ"@de,
+        "sich verabschieden Spanisch"@de .
 
 <d8620da1-bddd-41b2-8797-1649b3196b4c> a skos:Concept ;
     skos:broader <7322a839-3fcd-4937-99a0-1860d1b4a858> ;
@@ -27603,7 +27674,13 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Klima"@de,
         "Sommer"@de,
         "Wetter"@de,
-        "Winter"@de .
+        "Winter"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzerwerb"@de,
+        "über das Wetter sprechen"@de .
 
 <e75fc36d-b5f9-4ea6-a83d-8f041e930810> a skos:Concept ;
     skos:broader <5fdf019e-96d7-45df-b764-eefad19342d3> ;
@@ -28677,8 +28754,10 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sport"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Bogenschießen"@de,
+    sdo:keywords "Bayern (Landeskunde)"@de,
+        "Bogenschießen"@de,
         "Boxen"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
         "Fechten"@de,
         "Formel 1"@de,
         "Fußball"@de,
@@ -28694,19 +28773,31 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
         "Karate"@de,
         "Klettern"@de,
         "Krafttraining"@de,
+        "Landeskunde"@de,
+        "Landeskunde (Nordrhein-Westf.)"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
         "Leichtathletik"@de,
+        "Leistungssport"@de,
+        "Liechtenstein (Landeskunde)"@de,
         "Marathon"@de,
+        "Mini-Handball"@de,
         "Olympia"@de,
         "Schach"@de,
+        "Schulsport"@de,
+        "Schweiz (Landeskunde)"@de,
         "Schwimmen"@de,
         "Skifahren"@de,
         "Skilanglauf"@de,
         "Sport"@de,
+        "Sportunterricht"@de,
         "Sportverein"@de,
         "Tanzen"@de,
         "Tennis"@de,
         "Verein"@de,
-        "Volleyball"@de .
+        "Volleyball"@de,
+        "Wintersport"@de,
+        "Österreich (Landeskunde)"@de .
 
 <f099652a-b4ab-4713-b741-a1ad01478ee1> a skos:Concept ;
     skos:broader <38154eec-b4d4-4889-b33e-9a66a2b2c81d> ;
@@ -38154,12 +38245,22 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         <f0753267-c699-4b2f-92af-92c0be2b9fcb> ;
     skos:prefLabel "Interkulturelles"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Deutschland"@de,
+    sdo:keywords "Bayern (Landeskunde)"@de,
+        "Bundesrepublik Deutschland (Landeskunde)"@de,
+        "D-A-CH-L"@de,
+        "Deutschland"@de,
+        "Landeskunde"@de,
         "Landeskunde "@de,
+        "Landeskunde (Nordrhein-Westf.)"@de,
+        "Landeskunde D-A-CH"@de,
+        "Landeskunde Deutschland"@de,
         "Liechtenstein"@de,
+        "Liechtenstein (Landeskunde)"@de,
         "Schweiz"@de,
+        "Schweiz (Landeskunde)"@de,
         "soziokulturelles Orientierungswissen"@de,
-        "Österreich"@de .
+        "Österreich"@de,
+        "Österreich (Landeskunde)"@de .
 
 <049030e3-5d92-41a3-b51b-9fca2533026b> a skos:Concept ;
     skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
@@ -39551,12 +39652,15 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <f20be8fd-942f-4c6c-962f-bdd504831dd4> ;
     skos:prefLabel "Wortschatz"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Grundwortschatz"@de,
+    sdo:keywords "Basiswortschatz"@de,
+        "Grundwortschatz"@de,
         "Wortschatz"@de,
         "Wortschatz DaF"@de,
         "Wortschatz DaZ"@de,
         "Wortschatz Deutsch"@de,
-        "Wortschatz lernen"@de .
+        "Wortschatz lernen"@de,
+        "Wortschatzerwerb"@de,
+        "thematischer Wortschatz"@de .
 
 <21c88efb-1af3-4658-aaec-747a0fdf8889> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
