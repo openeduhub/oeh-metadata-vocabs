@@ -19563,7 +19563,10 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     sdo:keywords "4. Fall"@de,
         "Akkusativ"@de,
         "Akkusativobjekt"@de,
+        "Grammatik"@de,
         "Kasus"@de,
+        "Objekt"@de,
+        "Wen oder Was?"@de,
         "Wen-Fall"@de,
         "direktes Objekt"@de .
 
@@ -23254,10 +23257,18 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Nomen im Singular und Plural"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Einzahl"@de,
+    sdo:keywords "Bildung der Pluralform"@de,
+        "Deutsche Grammatik"@de,
+        "Einzahl"@de,
+        "Endungen im Plural"@de,
+        "Grammatik"@de,
         "Mehrzahl"@de,
         "Plural"@de,
-        "Singular"@de .
+        "Pluralbildung"@de,
+        "Singular"@de,
+        "Singular und Plural"@de,
+        "dritte person singular"@de,
+        "singular"@de .
 
 <c35c9e43-ef6d-49b2-81b1-41bf06140748> a skos:Concept ;
     skos:broader <0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e> ;
@@ -32905,10 +32916,14 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
     skos:prefLabel "Methodisches"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Arbeitstechniken"@de,
+        "Lernstrategie"@de,
         "Lernstrategien"@de,
         "Medien"@de,
         "Mediennutzung"@de,
-        "Sprachlernstrategien"@de .
+        "Methoden"@de,
+        "Sprachlernstrategien"@de,
+        "Unterrichtsmethode"@de,
+        "Unterrichtsmethoden"@de .
 
 <7c95b151-1db4-4e55-b958-80082eba8209> a skos:Concept ;
     skos:broader <52de12fa-79ad-455c-95ae-d191f8e897d8> ;
@@ -34799,15 +34814,28 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <c0dded98-cf51-479c-8eb6-fab744a0d4b5> ;
     skos:prefLabel "Kommunikatives"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Hören Daz"@de,
+    sdo:keywords "Hören"@de,
+        "Hören Daz"@de,
         "Hörsehverstehen"@de,
         "Hörverstehen"@de,
+        "Kollaboratives Schreiben"@de,
+        "Lesen"@de,
         "Leseverstehen"@de,
+        "Schreiben"@de,
         "Schreiben DaZ"@de,
+        "Sehen"@de,
         "Sehen DaZ"@de,
+        "Sprechen"@de,
         "Sprechen DaZ"@de,
+        "Zuhören"@de,
+        "aktives Zuhören"@de,
+        "funktionale kommunikative Kompetenz"@de,
+        "hören"@de,
         "mündlicher Ausdruck"@de,
-        "schriftlicher Ausdruck"@de .
+        "schreiben"@de,
+        "schriftlicher Ausdruck"@de,
+        "sprechen"@de,
+        "zuhören"@de .
 
 <cf0141e8-4967-4b14-b608-ac595ae13a57> a skos:Concept ;
     skos:broader <ceaa3258-5680-40d2-9bcd-591e6df8d5df> ;
