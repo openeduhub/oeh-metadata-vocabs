@@ -908,9 +908,13 @@
     skos:prefLabel "Nominativ"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "1. Fall"@de,
+        "Deutsche Grammatik"@de,
+        "Fälle im Deutschen"@de,
+        "Grammatik"@de,
         "Grundform des Nomens"@de,
         "Kasus"@de,
         "Nominativ"@de,
+        "Wer oder Was?"@de,
         "Wer-Fall"@de .
 
 <08c4abc5-c91b-4c94-9411-73a4629874e2> a skos:Concept ;
@@ -19563,6 +19567,8 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     sdo:keywords "4. Fall"@de,
         "Akkusativ"@de,
         "Akkusativobjekt"@de,
+        "Deutsche Grammatik"@de,
+        "Fälle im Deutschen"@de,
         "Grammatik"@de,
         "Kasus"@de,
         "Objekt"@de,
@@ -22754,7 +22760,10 @@ Wir haben für dich Material gesammelt, dass zeigt wie sich z.B. Künstler*innen
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "3. Fall"@de,
         "Dativ"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik"@de,
         "Kasus"@de,
+        "Wem oder Was?"@de,
         "Wem-Fall"@de,
         "indirektes Objekt"@de .
 
@@ -39993,7 +40002,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-18" ;
+    dct:modified "2022-07-19" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
