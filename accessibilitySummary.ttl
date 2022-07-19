@@ -6,40 +6,52 @@
 <> a skos:ConceptScheme ;
     dct:title "Barrierefreiheit"@de ;
     dct:title "Accessibility"@en ;
-    dct:description "Accessibility features of an item."@en ;
+    dct:description "Accessibility rating of some content. If a concept X is narrower than a concept Y, then that means that the rating X has higher requirements. I.e. the follow a partial ordering."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-11-16"^^xsd:date ;
-    dct:modified "2020-11-16"^^xsd:date ;
+    dct:modified "2022-07-19"^^xsd:date ;
     dct:issued "2020-11-16"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <none>, <a>, <aa>, <aaa>, <bitv>, <wcag> .
+    skos:hasTopConcept <b>, <a>, <aa>, <aaa>, <bitv-I>, <bitv-II> .
 
-<none> a skos:Concept ;
-    skos:prefLabel "Nicht geprüft"@de ;
-    skos:prefLabel "Not tested"@en ;
+<b> a skos:Concept ;
+    skos:prefLabel "B" ;
+    skos:definition "The content does not comply to the WCAG A rating requirements."@en ;
+    skos:definition "Der Inhalt erfüllt nicht die WCAG Anforderungen für eine A-Wertung."@en ;
     skos:topConceptOf <> .
 
 <a> a skos:Concept ;
-    skos:prefLabel "A (am niedrigsten)"@de ;
-    skos:prefLabel "A (lowest)"@en ;
+    skos:prefLabel "WCAG-A";
+    skos:definition "The content does comply to the WCAG A rating requirements."@en ;
+    skos:definition "Der Inhalt erfüllt die WCAG Anforderungen für eine A-Wertung."@en ;
+    skos:narrower <b> ;
     skos:topConceptOf <> .
 
 <aa> a skos:Concept ;
-    skos:prefLabel "AA (mittel)"@de ;
-    skos:prefLabel "AA (mid range)"@en ;
+    skos:prefLabel "WCAG-AA" ;
+    skos:definition "The content does comply to the WCAG AA rating requirements."@en ;
+    skos:definition "Der Inhalt erfüllt die WCAG Anforderungen für eine AA-Wertung."@en ;
+    skos:narrower <aa> ;
     skos:topConceptOf <> .
 
 <aaa> a skos:Concept ;
-    skos:prefLabel "AAA (am höchsten)"@de ;
-    skos:prefLabel "AAA (highest)"@en ;
+    skos:prefLabel "WCAG-AAA" ;
+    skos:definition "The content does comply to the WCAG AAA rating requirements."@en ;
+    skos:definition "Der Inhalt erfüllt die WCAG Anforderungen für eine AAA-Wertung."@en ;
+    skos:narrower <aaa> ;
     skos:topConceptOf <> .
 
-<bitv> a skos:Concept ;
-    skos:prefLabel "BITV 2.0 (2019)"@de ;
-    skos:prefLabel "BITV 2.0 (2019)"@en ;
+<bitv-I> a skos:Concept ;
+    skos:prefLabel "BITV I";
+    skos:definition "The content does comply to the BITV 2.0 Priority I requirements."@en ;
+    skos:definition "Der Inhalt erfüllt die BITV 2.0 Priorität I Anforderungen für eine AAA-Wertung."@en ;
+    skos:narrower <aa> ;
     skos:topConceptOf <> .
 
-<wcag> a skos:Concept ;
-    skos:prefLabel "WCAG"@de ;
-    skos:prefLabel "WCAG"@en ;
+<bitv-II> a skos:Concept ;
+    skos:prefLabel "BITV II";
+    skos:definition "The content does comply to the BITV 2.0 Priority II requirements."@en ;
+    skos:definition "Der Inhalt erfüllt die BITV 2.0 Priorität II Anforderungen für eine AAA-Wertung."@en ;
+    skos:narrower <aaa> ;
+    skos:narrower <bitv-I> ;
     skos:topConceptOf <> .
