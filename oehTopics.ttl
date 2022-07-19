@@ -10,8 +10,11 @@
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Interrogativbegleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Frageartikel"@de,
+    sdo:keywords "Begleiter"@de,
+        "Deutsche Grammatik"@de,
+        "Frageartikel"@de,
         "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Interrogativartikel"@de,
         "Interrogativbegleiter"@de,
         "Nomenbegleiter"@de .
@@ -2142,7 +2145,8 @@ Videointerviews mit TheatermitarbeiterInnen geben ebenfalls einen guten Einblick
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "N-Deklination"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "N-Deklination"@de,
+    sdo:keywords "Deklination"@de,
+        "N-Deklination"@de,
         "Nomen auf -(e)n"@de .
 
 <141c71c8-ccb5-4579-8290-3fba2a3246c9> a skos:Concept ;
@@ -2151,7 +2155,9 @@ Videointerviews mit TheatermitarbeiterInnen geben ebenfalls einen guten Einblick
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Der unbestimmte Artikel"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Geschlechtswörter"@de,
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Nomenbegleiter"@de,
         "ein"@de,
         "eine"@de,
@@ -4510,7 +4516,9 @@ Hier könnt ihr euch Anregungen genau dafür holen oder auch Einschätzungen fin
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Der bestimmte Artikel"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Geschlechtswörter"@de,
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Nomenbegleiter"@de,
         "bestimmter Artikel"@de,
         "das"@de,
@@ -4903,10 +4911,12 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:prefLabel "Das Verb 'haben'"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Auxiliarverben"@de,
+        "Grammatik"@de,
         "Hilfstätigkeitswörter"@de,
         "Hilfsverb"@de,
         "Hilfszeitwörter"@de,
         "Vollverb"@de,
+        "deutsche Grammatik"@de,
         "haben"@de .
 
 <2b081fad-1039-4415-a46a-74b51b5a6a93> a skos:Concept ;
@@ -10130,7 +10140,10 @@ Spielfähigkeit."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Indefinitbegleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Indefinitartikel"@de,
+    sdo:keywords "Begleiter"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik"@de,
+        "Indefinitartikel"@de,
         "Indefinitbegleiter"@de .
 
 <5b84361d-e37c-4305-8106-f9f228cafe75> a skos:Concept ;
@@ -10670,9 +10683,11 @@ Spielfähigkeit."""@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Besitzanzeigende Begleiter"@de,
         "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Nomenbegleiter"@de,
         "Possessivartikel"@de,
-        "Possessivbegleiter"@de .
+        "Possessivbegleiter"@de,
+        "deutsche Grammatik"@de .
 
 <5f98cdc7-d83e-41cd-96b9-8c888108528c> a skos:Concept ;
     skos:broader <c6e3cdd4-b184-4b3a-a279-3187fca6404c> ;
@@ -12315,9 +12330,12 @@ ausgebildeter Technik und Kondition."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Demonstrativbegleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Demonstrativartikel"@de,
+    sdo:keywords "Begleiter"@de,
+        "Demonstrativartikel"@de,
         "Demonstrativbegleiter"@de,
+        "Deutsche Grammatik"@de,
         "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Nomenbegleiter"@de .
 
 <6b70b987-7693-461d-8ed1-3fb18effe0eb> a skos:Concept ;
@@ -21037,8 +21055,10 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Genus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Genus"@de,
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Genus"@de,
         "Geschlecht"@de,
+        "Grammatik"@de,
         "der, die, das"@de,
         "feminin"@de,
         "maskulin"@de,
@@ -24398,7 +24418,9 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Der Nullartikel"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Geschlechtswörter"@de,
+    sdo:keywords "Deutsche Grammatik"@de,
+        "Geschlechtswörter"@de,
+        "Grammatik"@de,
         "Nullartikel"@de .
 
 <cb92a21a-6bcd-4a7b-b37d-0982f257014b> a skos:Concept ;
@@ -26419,10 +26441,13 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     skos:prefLabel "Genitiv"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "2. Fall"@de,
+        "Deutsche Grammatik"@de,
         "Genitiv"@de,
+        "Grammatik"@de,
         "Kasus"@de,
         "Wes-Fall"@de,
-        "Wessen-Fall"@de .
+        "Wessen-Fall"@de,
+        "Wessen?"@de .
 
 <db75b70d-63e4-4eda-af0a-fc5f02957fee> a skos:Concept ;
     skos:broader <ad19725e-8a37-4030-8b0a-d3cd9e2726a6> ;
