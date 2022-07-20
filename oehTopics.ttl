@@ -1770,7 +1770,12 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
     skos:prefLabel "Imperativ"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Befehlsform"@de,
-        "Imperativ"@de .
+        "Grammatik"@de,
+        "Hypothetischer Imperativ"@de,
+        "Imperativ"@de,
+        "Imperativ (Interaktive Übungen)"@de,
+        "Kategorischer Imperativ"@de,
+        "deutsche Grammatik"@de .
 
 <117e5c0c-7a7e-453d-91a5-1b657d30a265> a skos:Concept ;
     skos:broader <52de12fa-79ad-455c-95ae-d191f8e897d8> ;
@@ -4168,10 +4173,12 @@ comprensión ELE"""@de,
     skos:prefLabel "Das Verb 'sein'"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Auxiliarverben"@de,
+        "Grammatik"@de,
         "Hilfstätigkeitswörter"@de,
         "Hilfsverb"@de,
         "Hilfszeitwörter"@de,
         "Vollverb"@de,
+        "deutsche Grammatik"@de,
         "sein"@de,
         "unrgelmäßiges Verb"@de .
 
@@ -9396,9 +9403,15 @@ Beispiele: wiederverwendbare, änderbare OER-Informationsbroschüren, Erklärfil
     skos:prefLabel "transitive und intransitive Verben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Akkusativobjekt als Ergänzung"@de,
+        "Grammatik"@de,
+        "Verben"@de,
+        "deutsche Grammatik"@de,
+        "intransitiv"@de,
         "intransitive Verben"@de,
         "kein Akkusativobjekt"@de,
-        "transitive Verben"@de .
+        "transitiv"@de,
+        "transitive Verben"@de,
+        "transitives Verb"@de .
 
 <55805ec6-d566-4f1e-a442-7f7ae318a65b> a skos:Concept ;
     skos:broader <c2681cb6-356c-4888-8e61-1e7edfe65d85> ;
@@ -11476,7 +11489,10 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "reflexive Verben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "echte reflexive Verben"@de,
+    sdo:keywords "Grammatik"@de,
+        "Reflexive Verben"@de,
+        "deutsche Grammatik"@de,
+        "echte reflexive Verben"@de,
         "reflexive Verben"@de,
         "rückbezügliche Verben"@de,
         "unechte reflexive Verben"@de .
@@ -18684,8 +18700,13 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "trennbare und untrennbare Verben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Präfixe"@de,
+    sdo:keywords "Deutsch als Fremdsprache trennbare Verben"@de,
+        "Grammatik"@de,
+        "Präfixe"@de,
+        "Verben trennbar"@de,
+        "Verben untrennbar"@de,
         "Vorsilben"@de,
+        "deutsche Grammatik"@de,
         "trennbare Verben"@de,
         "untrennbare Verben"@de .
 
@@ -21220,10 +21241,13 @@ Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Partizip 2"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Mittelwort"@de,
+    sdo:keywords "Grammatik"@de,
+        "Mittelwort"@de,
         "Partizip 2"@de,
         "Partizip II"@de,
         "Partizip Perfekt"@de,
+        "Partizipien"@de,
+        "deutsche Grammatik"@de,
         "passive Handlung"@de .
 
 <b326debf-7e93-4e37-b8f8-7e86c8b0600e> a skos:Concept ;
@@ -21703,7 +21727,11 @@ Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Verben mit Ergänzungen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Verben mit Präposition"@de,
+    sdo:keywords "Deutsch lernen/Verben mit Präpositionen"@de,
+        "Grammatik"@de,
+        "Präpositionen"@de,
+        "Verben"@de,
+        "Verben mit Präposition"@de,
         "Verben mit Präpositionen"@de,
         "Verbergänzungen"@de .
 
@@ -21821,8 +21849,10 @@ Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Modalverben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Mittelwort"@de,
+    sdo:keywords "Grammatik"@de,
+        "Mittelwort"@de,
         "Modalverben"@de,
+        "deutsche Grammatik"@de,
         "dürfen"@de,
         "können"@de,
         "modale Hilfsverben"@de,
@@ -26392,10 +26422,14 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Passiv"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Passiv"@de,
+    sdo:keywords "Aktiv und Passiv (Interaktive Übungen)"@de,
+        "Grammatik"@de,
+        "Passiv"@de,
+        "Passivbildung"@de,
         "Passiversatzformen"@de,
         "Vorgangspassiv"@de,
         "Zustandspassiv"@de,
+        "deutsche Grammatik"@de,
         "nicht passivfähige Verben"@de,
         "sein-Passiv"@de,
         "werden-Passiv"@de .
@@ -29440,7 +29474,7 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Partizip 1"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Gleiczeitigkeit"@de,
+    sdo:keywords "Gleichzeitigkeit"@de,
         "Partizip 1"@de,
         "Partizip I"@de,
         "Partizip Präsens"@de .
@@ -40027,7 +40061,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-19" ;
+    dct:modified "2022-07-20" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
