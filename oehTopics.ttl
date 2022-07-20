@@ -766,6 +766,7 @@
     sdo:keywords "Fragefürwort"@de,
         "Fragepronomen"@de,
         "Interrogativpronomen"@de,
+        "Interrogativpronomen Übungen"@de,
         "fragendes Fürwort"@de .
 
 <06b5437d-4843-48b8-b336-e030017b13b3> a skos:Concept ;
@@ -7759,7 +7760,10 @@ auf die Lehrkrfat sind Aspekte der Motivation, der Förderung von Entwicklung  u
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Reflexivpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Reflexivpronomen"@de,
+    sdo:keywords "Grammatik"@de,
+        "Pronomen"@de,
+        "Reflexivpronomen"@de,
+        "deutsche Grammatik"@de,
         "rückbezügliche Fürwörter"@de .
 
 <452ec3f6-4658-448b-9307-33940a3fb727> a skos:Concept ;
@@ -8486,7 +8490,9 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
         "Präpositionen"@de,
         "Verhältniswörter"@de,
         "Vorwörter"@de,
+        "Wechselpräposition"@de,
         "Wechselpräpositionen"@de,
+        "Wechselpräpositionen (Interaktive Übungen)"@de,
         "an"@de,
         "auf"@de,
         "hinter"@de,
@@ -17204,6 +17210,8 @@ Etwas wagen und verantworten, Das Leisten erfahren, verstehen und einschätzen, 
         "Woher?"@de,
         "Wohin?"@de,
         "lokale Präpositionen"@de,
+        "temporale Präpositionen"@de,
+        "temporale Präpositionen Akkusativ"@de,
         "örtliche Präpositionen"@de .
 
 <946e4e87-b5f7-4ca9-9436-3ea7f20d824d> a skos:Concept ;
@@ -20049,8 +20057,14 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
     skos:prefLabel "Personalpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Personalpronomen"@de,
+        "Personalpronomen Deutsch"@de,
+        "Personalpronomen erklärt"@de,
+        "Personalpronomen im Akkusativ"@de,
+        "Personalpronomen im Dativ"@de,
+        "Personalpronomen im Nominativ"@de,
         "Subjektpronomen"@de,
-        "persönliches Fürwort"@de .
+        "persönliches Fürwort"@de,
+        "Übungen Personalpronomen"@de .
 
 <a9a9229f-1397-4ee8-95de-dbd99d9f60b7> a skos:Concept ;
     skos:broader <7abb5bbc-8951-4517-8e17-659fecd82f9a> ;
@@ -21788,8 +21802,10 @@ Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Indefinitpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Indefinitpronomen"@de,
+    sdo:keywords "Grammatik"@de,
+        "Indefinitpronomen"@de,
         "Indefinitpronomina"@de,
+        "deutsche Grammatik"@de,
         "unbestimmte Fürwörter"@de .
 
 <b7851d79-e548-4f34-aefe-46abd88a4d2f> a skos:Concept ;
@@ -27268,7 +27284,9 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:prefLabel "Possessivpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Possessivpronomen"@de,
-        "besitzanzeigende Fürwörter"@de .
+        "besitzanzeigende Fürwörter"@de,
+        "Übersicht Possessivpronomen Deutsch"@de,
+        "Übungen Possessivpronomen"@de .
 
 <e24e6a6e-2aa4-47f6-803e-d78067e2c61c> a skos:Concept ;
     skos:broader <2d8658f5-4fe7-4de7-85c6-ae8164777be0> ;
