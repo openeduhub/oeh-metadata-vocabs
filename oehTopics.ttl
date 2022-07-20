@@ -9571,14 +9571,17 @@ Beispiele: wiederverwendbare, änderbare OER-Informationsbroschüren, Erklärfil
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Absicht ausdrücken"@de,
         "Annahme"@de,
+        "Deutsch lernen/Futur 1"@de,
         "Futur 1"@de,
         "Futur 2"@de,
         "Futur I"@de,
         "Futur II"@de,
+        "Grammatik"@de,
         "Vermutung"@de,
         "Zeitform"@de,
         "Zukunft"@de,
-        "Zukunftszeitformen"@de .
+        "Zukunftszeitformen"@de,
+        "deutsche Grammatik"@de .
 
 <56de1d2a-d6bf-4c25-bcfa-d4e6dc916e54> a skos:Concept ;
     skos:broader <7c529746-86df-4102-b3d2-233ca7010380> ;
@@ -16026,7 +16029,6 @@ Abiturprüfung, Niedersachsen 2016-2020, Baden-Württemberg 2007"""@de ;
     skos:prefLabel "Konjugationstabellen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Konjugation"@de,
-        "Konjugation+"@de,
         "Konjugationstabellen"@de,
         "Konjugationstrainer"@de,
         "Verbentabelle"@de,
@@ -18632,10 +18634,16 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Plusquamperfekt"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Plusquamperfekt"@de,
+    sdo:keywords "Deutsch lernen/Plusquamperfekt"@de,
+        "Deutsch/Plusquamperfekt"@de,
+        "Grammatik"@de,
+        "Plusquamperfekt"@de,
+        "Plusquamperfekt (Interaktive Übungen)"@de,
         "Vergangenheit"@de,
         "Vorvergangenheit"@de,
-        "Zeitform"@de .
+        "Zeitform"@de,
+        "deutsche Grammatik"@de,
+        "plusquamperfekt"@de .
 
 <9e2ecea3-f6e1-4e87-a154-d4fd7c0bf6d0> a skos:Concept ;
     skos:broader <f35c17d1-a29e-4b26-9d22-802682fad43d> ;
@@ -20768,11 +20776,15 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Präteritum"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Imperfekt"@de,
+    sdo:keywords "Deutsch lernen/Präteritum"@de,
+        "Grammatik"@de,
+        "Imperfekt"@de,
         "Präteritum"@de,
         "Vergangenheit"@de,
         "Vergangenheitsform"@de,
-        "Zeitform"@de .
+        "Zeitform"@de,
+        "deutsche Grammatik"@de,
+        "präteritum"@de .
 
 <af95e72a-8805-4396-89a6-7fffcf118985> a skos:Concept ;
     skos:broader <7505326d-d855-439e-a3d2-482c6ed16393> ;
@@ -21496,9 +21508,12 @@ Epikur"""@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Gegenwart"@de,
         "Gegenwartsform"@de,
+        "Grammatik"@de,
         "Präsens"@de,
+        "Tempus"@de,
         "Zeitform"@de,
-        "Zukunft mit Präsens ausdrücken"@de .
+        "Zukunft mit Präsens ausdrücken"@de,
+        "deutsche Grammatik"@de .
 
 <b4fdb84d-83d2-4901-8b1a-ef5ccb4b6e58> a skos:Concept ;
     skos:broader <c5434472-5ecd-4419-94f9-c241c26b00b7> ;
@@ -26912,7 +26927,8 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Konjunktiv 1"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Konjunktiv 1"@de,
+    sdo:keywords "Konjunktiv"@de,
+        "Konjunktiv 1"@de,
         "Konjunktiv 1 der Gegenwart"@de,
         "Konjunktiv 1 der Vergangenheit"@de,
         "Konjunktiv I"@de,
@@ -27620,11 +27636,14 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Perfekt"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Imperfekt"@de,
+    sdo:keywords "Deutsch lernen/Perfekt"@de,
+        "Grammatik"@de,
         "Perfekt"@de,
         "Vergangenheit"@de,
         "Vergangenheitsform"@de,
         "Zeitform"@de,
+        "deutsche Grammatik"@de,
+        "perfekt"@de,
         "vollendete Gegenwart"@de .
 
 <e5371881-c03a-46b5-965c-8c380e8b23f8> a skos:Concept ;
@@ -27674,10 +27693,15 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Konjunktiv 2"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Konjunkitv II"@de,
+    sdo:keywords "Grammatik"@de,
+        "Konjunkitv II"@de,
         "Konjunktiv 2"@de,
         "Konjunktiv 2 der Gegenwart"@de,
-        "Konjunktiv 2 der Vergangenheit"@de .
+        "Konjunktiv 2 der Vergangenheit"@de,
+        "deutsche Grammatik"@de,
+        "konjunktiv 2 beispiele"@de,
+        "konjunktiv 2 bildung"@de,
+        "konjunktiv 2 erklaerung"@de .
 
 <e61e9c39-4a20-42fb-a786-2c3bd001ed29> a skos:Concept ;
     skos:broader <9f082eef-2f86-4007-bbf0-45690cec45a4> ;
