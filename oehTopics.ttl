@@ -190,7 +190,9 @@
     skos:prefLabel "Temporalsätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Adverbialsätze"@de,
+        "Temporalsatz"@de,
         "Temporalsätze"@de,
+        "Temporalsätze DaZ"@de,
         "Zeitsatz"@de,
         "als"@de,
         "bevor"@de,
@@ -1165,6 +1167,9 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
         "Adversativsätze"@de,
         "Einschränkung"@de,
         "Gegensatz"@de,
+        "Nebensätze im Deutschen"@de,
+        "adverbiale Nebensätze"@de,
+        "adversative Nebensätze"@de,
         "während"@de .
 
 <0b1181fe-a29b-4930-903a-9cbdf2c77edb> a skos:Concept ;
@@ -6212,7 +6217,8 @@ woher wissen Lehrer, ob ihre Schüler zu wenig, zu viel oder gerade richtig ausg
         "Partizip 2"@de,
         "Partizip I"@de,
         "Partizip II"@de,
-        "Partizipialsätze"@de .
+        "Partizipialsätze"@de,
+        "Partizipialsätze üben"@de .
 
 <37d68f14-9332-4be2-8b4d-2555f8ef9269> a skos:Concept ;
     skos:broader <502ab680-af31-4c76-8b74-b493e8d918fb> ;
@@ -10453,6 +10459,9 @@ Spielfähigkeit."""@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords " Objektsätze"@de,
         "Ergänzungssätze"@de,
+        "Nebensatz"@de,
+        "Nebensätze"@de,
+        "Nebensätze im Deutschen"@de,
         "Subjektsätze"@de,
         "dass-Sätze"@de .
 
@@ -15260,6 +15269,7 @@ zur Taktik des Zusammenspiels."""@de ;
         "Ergänzungsfrage"@de,
         "Fragesatz"@de,
         "Interrogativsatz"@de,
+        "Wortsstellung im Fragesatz"@de,
         "direkte Fragesätze"@de .
 
 <874aba2c-5ca9-43d7-892a-c1496bda00ea> a skos:Concept ;
@@ -16893,9 +16903,12 @@ Mapping OER - Bildungsmaterialien gemeinsam gestalten, Atelier Disko, Hamburg un
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords " Adverbialsätze"@de,
         " Richtung"@de,
+        "Lokalsatz"@de,
         "Lokalsätze"@de,
+        "Nebensätze im Deutschen"@de,
         "Ort"@de,
-        "Ortssatz"@de .
+        "Ortssatz"@de,
+        "adverbiale Nebensätze"@de .
 
 <9273f22f-7cfb-4fec-9e40-fcad42783024> a skos:Concept ;
     skos:broader <6a1aa6f4-5a29-4d66-94c9-35845524c775> ;
@@ -17253,8 +17266,11 @@ Relativsätze heißen auch Attributsätze und sind Nebensätze, mit denen du zus
     skos:prefLabel "Relativsätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Attributsätze"@de,
+        "Nebensätze"@de,
+        "Nebensätze im Deutschen"@de,
         "Relativpronomen"@de,
-        "Relativsätze"@de .
+        "Relativsätze"@de,
+        "relativsätze"@de .
 
 <94ceb24f-7085-415e-8abb-73ae1bb5bb46> a skos:Concept ;
     skos:broader <66925fc0-0c09-493b-b526-cae9b94575de> ;
@@ -21473,10 +21489,12 @@ Epikur"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Infinitivkonstruktionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Infinitivkonstruktionen"@de,
+    sdo:keywords "Infinitivkonstruktion"@de,
+        "Infinitivkonstruktionen"@de,
         "anstatt zu"@de,
         "ohne zu"@de,
-        "um zu"@de .
+        "um zu"@de,
+        "um zu + Infinitiv"@de .
 
 <b468ec0a-aaf8-4b3b-96f1-b9443e577fdb> a skos:Concept ;
     skos:broader <894d6332-7a1b-408a-8e3c-802345ddf95e> ;
@@ -24086,7 +24104,10 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ausrufesätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Ausrufesätze"@de .
+    sdo:keywords "Aufforderungssatz"@de,
+        "Aufforderungssatz erklärt"@de,
+        "Ausrufesatz"@de,
+        "Ausrufesätze"@de .
 
 <c7d617a0-011a-41de-8c87-c3ce0e290b5b> a skos:Concept ;
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
@@ -27483,6 +27504,9 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:prefLabel "Infinitivsätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Infinitivsätze"@de,
+        "Infinitivsätze einleitende Verben"@de,
+        "Nebensätze"@de,
+        "Nebensätze im Deutschen"@de,
         "Objektsätze"@de,
         "Subjektsätze"@de,
         "zu + Infinitiv"@de .
@@ -29393,12 +29417,16 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f346e513-ddab-4c62-a5fc-84221a5ec259> a skos:Concept ;
     skos:broader <7b868420-ad6e-487b-a9bf-036d5f3ab748> ;
-    skos:definition "Ein Wunschsatz drückt aus, dass die Realität anders sein soll, als sie (gerade) ist. Oft ist dieser Wunsch nicht erfüllbar: „Wäre ich doch noch einmal 16!” – „Hätte ich bloß geschwiegen!”. Man verwendet daher den Konjunktiv 2 (irrealis). Der irreale Wunschsatz kann auch mit „wenn” beginnen, dann steht das Verb am Ende: „Wenn ich doch berühmt wäre!”"@de ;
+    skos:definition "Ein Wunschsatz drückt aus, dass die Realität anders sein soll, als sie (gerade) ist. Oft ist dieser Wunsch nicht erfüllbar: „Wäre ich doch noch einmal 16!” – „Hätte ich bloß geschwiegen!”. Man verwendet daher den Konjunktiv 2. Der irreale Wunschsatz kann auch mit „wenn” beginnen, dann steht das Verb am Ende: „Wenn ich doch berühmt wäre!”"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Wunschsätze"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Wunschsätze"@de,
-        "Wünsche"@de .
+    sdo:keywords "Irreale Wunschsätze der Gegenwart"@de,
+        "Irreale Wunschsätze der Vergangenheit"@de,
+        "Irreale Wuschsätze"@de,
+        "Wunschsätze"@de,
+        "Wünsche"@de,
+        "irreale Wunschsätze bilden"@de .
 
 <f34d82bd-38db-40f6-a463-634178f0222d> a skos:Concept ;
     skos:broader <3d589846-67e0-45d1-869c-7b94d0538e0a> ;
