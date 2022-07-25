@@ -13282,6 +13282,32 @@ Spielfähigkeit."""@de ;
         "Museum"@de,
         "virtuell"@de .
 
+<7505326d-d855-439e-a3d2-482c6ed16393> a skos:Concept ;
+    skos:broader <6ee037ac-ad61-4d2a-b168-40b52599dba6> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Selbstgesteuerte Mediennutzung fördern"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
+    sdo:keywords "4K"@de,
+        "Coding"@de,
+        "Computerspiel"@de,
+        "Computerspiele"@de,
+        "Cybergroming"@de,
+        "Cybermobbing"@de,
+        "Individuelles Lernen"@de,
+        "Kreativität"@de,
+        "Making"@de,
+        "Medienerziehung"@de,
+        "Medienethik"@de,
+        "Mediengebrauch"@de,
+        "Medienkonsum"@de,
+        "Mediennutzung"@de,
+        "Mediensucht"@de,
+        "Medientagebuch"@de,
+        "Medienverhalten"@de,
+        "Selbtsgesteuertes Lernen"@de,
+        "Suchtgefahr"@de,
+        "kreative Mediennutzung"@de .
+
 <752a1f9f-eeee-46f6-8397-fd250ed61b3b> a skos:Concept ;
     skos:broader <b51c3253-5ac9-4e6b-afb4-36af8ee81a42> ;
     skos:definition "Mit dem Wunsch, die griechische Tragödie der Antike wiederzubeleben, realisieren die Mitglieder der Florentiner Camerata Aufführungen mythologischer Stoffe in der Verbindung von Wort, Tanz und Deklamation. In einem generalbassbegleiteten \"Sprechgesang\" - dem recitar cantando - soll die Musik die Textaussage unterstützen, aber nicht dominieren. Claudio Monteverdi dagegen, weitet die Musik aus: entwickelt den Sologesang der Darsteller weiter zum ariosen Accompagnato-Rezitativ, gibt den Chören mehr Gewicht  und vergrößert das Orchester. Für ihn ist die Musik das Mittel, um Stimmungen auszudrücken und die Charaktere der Hauptfiguren darzustellen. Damit legt Monteverdi den Grundstein für die weitere Entwicklung der Gattung Oper."@de ;
@@ -20844,32 +20870,6 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
         "Zeitform"@de,
         "deutsche Grammatik"@de,
         "präteritum"@de .
-
-<af95e72a-8805-4396-89a6-7fffcf118985> a skos:Concept ;
-    skos:broader <7505326d-d855-439e-a3d2-482c6ed16393> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Jugendmedienschutz beachten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
-    sdo:keywords "Altersbewertung"@de,
-        "Altersfreigabe"@de,
-        "Computerspiel"@de,
-        "Computerspiele"@de,
-        "Freiwillige Selbstkontrolle"@de,
-        "Gewalt verharmlosen"@de,
-        "Gewalt verherrlichen"@de,
-        "Grooming"@de,
-        "Jugendmedienschutz"@de,
-        "Jugendschutz"@de,
-        "Kriterien des Jugendmedienschutzes"@de,
-        "LMS"@de,
-        "Landesmedienanstalt"@de,
-        "Landesmedienanstalten"@de,
-        "Mediennutzung"@de,
-        "Pornografie"@de,
-        "Prüfverfahren"@de,
-        "beeinträchtigende Einflüsse"@de,
-        "gefährdende Einflüsse"@de,
-        "gesetzlicher Jugendschutz"@de .
 
 <af97563d-81db-4401-a582-261f2c101300> a skos:Concept ;
     skos:broader <ea7dfa70-4000-4704-9a44-16f1b6e7e03a> ;
@@ -31327,33 +31327,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "invisible playground"@de,
         "staatliche Theater"@de .
 
-<7505326d-d855-439e-a3d2-482c6ed16393> a skos:Concept ;
-    skos:broader <6ee037ac-ad61-4d2a-b168-40b52599dba6> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <af95e72a-8805-4396-89a6-7fffcf118985> ;
-    skos:prefLabel "Selbstgesteuerte Mediennutzung fördern"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
-    sdo:keywords "4K"@de,
-        "Coding"@de,
-        "Computerspiel"@de,
-        "Computerspiele"@de,
-        "Cybergroming"@de,
-        "Cybermobbing"@de,
-        "Individuelles Lernen"@de,
-        "Kreativität"@de,
-        "Making"@de,
-        "Medienerziehung"@de,
-        "Medienethik"@de,
-        "Mediengebrauch"@de,
-        "Medienkonsum"@de,
-        "Mediennutzung"@de,
-        "Mediensucht"@de,
-        "Medientagebuch"@de,
-        "Medienverhalten"@de,
-        "Selbtsgesteuertes Lernen"@de,
-        "Suchtgefahr"@de,
-        "kreative Mediennutzung"@de .
-
 <75e9442e-88eb-4ba3-97fb-aee4d0c5c34e> a skos:Concept ;
     skos:broader <489de96f-0c29-4bfb-a080-b84a6d2410e5> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -40167,7 +40140,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-23" ;
+    dct:modified "2022-07-25" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
