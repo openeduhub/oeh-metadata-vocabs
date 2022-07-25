@@ -30995,23 +30995,6 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
         "messen"@de,
         "wiegen"@de .
 
-<ff0641c4-8193-44f0-b88e-e14205e03a69> a skos:Concept ;
-    skos:broader <9353dbac-4cd3-46ca-89e8-feac1817ec9a> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Algorithmen verstehen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
-    sdo:keywords "Befehlsfolge"@de,
-        "Bezeichnungen"@de,
-        "Grenzen der Berechenbarkeit"@de,
-        "Handlungsanweisungen"@de,
-        "Kriterien von Algorithmen"@de,
-        "Schleife"@de,
-        "Verzweigung"@de,
-        "algorithmische Grundbausteine"@de,
-        "algorithmische Verfahren"@de,
-        "benennen und befolgen Handlungsvorschriften"@de,
-        "komplexe Algorithmen"@de .
-
 <ff178e47-ec3b-4604-9921-779ff5b166eb> a skos:Concept ;
     skos:broader <f89a62dd-9772-428b-9598-20ab032df068> ;
     skos:definition "EL, LOS, LA, LAS und UNO, UNA, UNOS, UNAS. Bestimmter und unbestimmter Artikel richten sich in Geschlecht und Zahl nach dem Substantiv, vor dem sie stehen. Wann man den bestimmten und wann den unbestimmten Artikel benutzt, kannst du hier nachlesen und üben."@de ;
@@ -32024,6 +32007,14 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         <b161ad2e-7247-4d0b-851c-e4fb09762178> ;
     skos:prefLabel "Adverb"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
+
+<9353dbac-4cd3-46ca-89e8-feac1817ec9a> a skos:Concept ;
+    skos:broader <eef047a3-58ba-419c-ab7d-3d0cfd04bb4e> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <92f51521-2432-413f-8b85-47ce5e8ebca3>,
+        <b71f94dc-1178-482d-984a-1522facedddd> ;
+    skos:prefLabel "Problemlösen, Handeln und Modellieren"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
 
 <956d4eaf-a03c-4337-ad22-c60df0a5b1a5> a skos:Concept ;
     skos:broader <c3cd2a3f-5a9f-434e-a1d4-1c5039083d79> ;
@@ -33205,15 +33196,6 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
         "Globalisierung"@de,
         "Handelsbilanz"@de,
         "VWL, Außenwirtschaftspolitik"@de .
-
-<9353dbac-4cd3-46ca-89e8-feac1817ec9a> a skos:Concept ;
-    skos:broader <eef047a3-58ba-419c-ab7d-3d0cfd04bb4e> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <92f51521-2432-413f-8b85-47ce5e8ebca3>,
-        <b71f94dc-1178-482d-984a-1522facedddd>,
-        <ff0641c4-8193-44f0-b88e-e14205e03a69> ;
-    skos:prefLabel "Problemlösen, Handeln und Modellieren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
 
 <986605c2-024e-44da-8c77-92fbc3c50268> a skos:Concept ;
     skos:broader <36256da1-fc4a-4f67-bfb0-e0b365697d07> ;
