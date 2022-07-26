@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/74b68453-477f-4b56-93be-e954d1a75412",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F74b68453-477f-4b56-93be-e954d1a75412",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F74b68453-477f-4b56-93be-e954d1a75412",
+  "prefLabel": {
+    "de": "Grundwortschatz"
+  },
+  "definition": {
+    "de": "Keine Sprache hat so viele Wörter wie Englisch. Schätzungen gehen von bis zu einer Million aus. Das Gute ist: Die meisten davon brauchen wir in der täglichen Kommunikation nicht. Es reichen ein paar Hundert Wörter, um mit anderen Menschen zu sprechen. Hier geht es um Vokabeln und Wortschatz, um die Frage: Welche Worte brauche ich, um über mich, meine Beziehungen oder Politik zu sprechen?"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0c9be1ab-3a70-47a6-9cc4-aa705785014a",
+      "prefLabel": {
+        "de": "Alphabet"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/142227cc-0092-4756-8528-851143e62980",
+      "prefLabel": {
+        "de": "Wetter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/187b0517-12be-4b2b-acbf-e590803d2d16",
+      "prefLabel": {
+        "de": "Pflanzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/334fd770-80d8-40f2-8186-5e5348f4bfe6",
+      "prefLabel": {
+        "de": "Maßeinheiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4ee0d965-2e15-4fa1-9f27-cf4012d5ccba",
+      "prefLabel": {
+        "de": "Farben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8958e18b-3e0d-473e-ac9e-4accef761cff",
+      "prefLabel": {
+        "de": "Zahlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8dbaf319-5a5e-48df-8613-03c707ad92d2",
+      "prefLabel": {
+        "de": "Lebensmittel und Einkaufen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/95aacaca-190c-4244-9c6b-372791232382",
+      "prefLabel": {
+        "de": "Kleidung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b2d54956-ed46-4add-b3bc-2dbd0d17bc90",
+      "prefLabel": {
+        "de": "Jahreszeiten und Monate"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b46004db-538f-443c-9fd6-d46257f21480",
+      "prefLabel": {
+        "de": "Wochentage, Datum und Uhrzeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ed62d203-d8be-489a-a3f7-d32b255c7d4c",
+      "prefLabel": {
+        "de": "Tiere"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/350a0734-a52d-4d1e-9249-5e19f216da2f",
+    "prefLabel": {
+      "de": "Themen und Wortschatz"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20001"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

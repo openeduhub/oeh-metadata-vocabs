@@ -1,0 +1,171 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3cf68db-5a28-4abb-87b9-2ba86c68a696",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fe3cf68db-5a28-4abb-87b9-2ba86c68a696",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fe3cf68db-5a28-4abb-87b9-2ba86c68a696",
+  "prefLabel": {
+    "de": "Fähigkeiten und Kompetenzen"
+  },
+  "definition": {
+    "de": "Wie schreibe ich eine Summary? Oder eine E-Mail? Wie erfasse ich am besten Informationen in einem Text? Und wie arbeiten wir am besten in der Gruppe zusammen? Hier geht es um Lesen, Leseverstehen, Schreiben und andere Kompetenzen. "
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/00e0ac8c-631d-41ab-848b-085bd532886a",
+      "prefLabel": {
+        "de": "Hören"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1806954a-660c-4ed2-8f98-37638bd1168c",
+      "prefLabel": {
+        "de": "Sprechen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/240fe0be-56ee-4e0a-a233-c1a2502a5ed1",
+      "prefLabel": {
+        "de": "Schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/50d35676-55e0-4e93-810a-78d18975b0b6",
+      "prefLabel": {
+        "de": "Umgang mit Texten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5a32bc25-c70d-44b9-a9fe-175dcb5279db",
+      "prefLabel": {
+        "de": "Umgang mit Informationen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5f646c5c-b92d-43a7-a075-815eb82addc3",
+      "prefLabel": {
+        "de": "Sprachmittlung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91ddb08b-d0ef-4f1b-b18d-54b5a1caf405",
+      "prefLabel": {
+        "de": "Lesen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fb0cd462-72a9-4118-b1d7-a712ab213102",
+      "prefLabel": {
+        "de": "Arbeit mit dem Wörterbuch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fb243cf7-a24f-447d-88b6-043affa037a1",
+      "prefLabel": {
+        "de": "Lernstrategien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/15dbd166-fd31-4e01-aabd-524cfa4d2783",
+    "prefLabel": {
+      "de": "Englisch"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/20001"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
