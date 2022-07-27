@@ -13036,11 +13036,14 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
 
 <64cf5f66-79cd-4f6a-9e2e-9f3b89a68df5> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Der Begriff 'islamische Philosophie' umfasst die in der islamischen Welt entwickelten Philosophien.  Dies erfasst unter anderem auch jüdische Philosophen und andere nichtmuslimische, meist in der Wissenschaftssprache Arabisch publizierte Gelehrte. Deshalb spricht man auch von arabischer Philosophie, arabisch-islamischer Philosophie oder von Philosophen der arabisch-islamischen Kultur. Der Einfluss der islamischer Philosophen  auf Europa war besonders im 12. und 13. Jahrhundert tiefgreifend und ist mit den Namen Avicenna (980 - 1037 Persien) und Averroes (1126 - 1198 ) verbunden. "@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Islamische Philosophen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Al Ghazali"@de,
+        "Averroes"@de,
+        "Avicenna"@de,
         "Ibn Arabi"@de,
         "Ibn Rushd"@de,
         "Ibn Sina"@de,
