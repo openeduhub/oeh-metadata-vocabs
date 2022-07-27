@@ -4697,6 +4697,15 @@ Wann ist ein Mann ein Mensch?"""@de ;
         "wichtige Persönlichkeiten UK"@de,
         "wichtige Persönlichkeiten USA"@de .
 
+<2569a41d-55dc-4194-8bf0-ae9640cd7f52> a skos:Concept ;
+    skos:broader <2bd0c4bf-1082-49ca-9cdc-ce3e0aa5abc1> ;
+    skos:definition "Material des Monats"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Highlight - Startseite Wirtschaft"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
+    sdo:keywords "Highlight"@de,
+        "Material"@de .
+
 <25723b99-a078-4b05-90f4-b1f080dc3f9a> a skos:Concept ;
     skos:broader <f5412664-8f86-4718-b29d-63552e0c910f> ;
     skos:definition "hier findet ihr gute Materialien zum Netto-Arbeitseinkommen privater Haushalte und einen Vergleich zwischen Ost und West in der BRD"@de ;
@@ -40040,21 +40049,6 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
         "Ensembles"@de,
         "Instrumentenkunde"@de .
 
-<2bd0c4bf-1082-49ca-9cdc-ce3e0aa5abc1> a skos:Concept ;
-    skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
-    skos:definition "Schülerwettbewerbe, Gründerplattform, Unternehmergeist, Unterrichtsmodule, Schülerfirmen, Jugend und Wirtschaft, Studium und Wirtschaft, Musteraufgaben für die schriftliche Abiturprüfung, Apps & Tools"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <23951dc8-527f-48e1-b655-9dac53df0300>,
-        <37d78208-e3ea-468f-b4cc-3ae5089d2547>,
-        <3bd5927e-0658-448e-82af-6fd129179792>,
-        <844d27d3-5167-4ca4-88a3-40884496718e>,
-        <8807b284-5387-48f3-8d0c-2f04ce63f997>,
-        <ef5ce845-2f7d-482d-b6cc-8cf6dc1ef589> ;
-    skos:prefLabel "Wirtschaft - Fachportalstartseite"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
-    sdo:keywords "Fachportalstartseite"@de,
-        "Wirtschaft"@de .
-
 <40a39fba-aaa5-4472-a5d4-ab2181d44367> a skos:Concept ;
     skos:broader <350a0734-a52d-4d1e-9249-5e19f216da2f> ;
     skos:definition "hier geht es um nützliche Materialien zum eigenen Körper, Gefühle, eigene Identität, Teenager und Jugendkultur, Träume und Pläne, Herkunft"@de ;
@@ -41050,6 +41044,22 @@ Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen 
         <a44491bb-f705-48ac-97b9-a8eeef7ad72d> ;
     skos:prefLabel "Vektorrechnung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
+
+<2bd0c4bf-1082-49ca-9cdc-ce3e0aa5abc1> a skos:Concept ;
+    skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
+    skos:definition "Schülerwettbewerbe, Gründerplattform, Unternehmergeist, Unterrichtsmodule, Schülerfirmen, Jugend und Wirtschaft, Studium und Wirtschaft, Musteraufgaben für die schriftliche Abiturprüfung, Apps & Tools"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <23951dc8-527f-48e1-b655-9dac53df0300>,
+        <2569a41d-55dc-4194-8bf0-ae9640cd7f52>,
+        <37d78208-e3ea-468f-b4cc-3ae5089d2547>,
+        <3bd5927e-0658-448e-82af-6fd129179792>,
+        <844d27d3-5167-4ca4-88a3-40884496718e>,
+        <8807b284-5387-48f3-8d0c-2f04ce63f997>,
+        <ef5ce845-2f7d-482d-b6cc-8cf6dc1ef589> ;
+    skos:prefLabel "Wirtschaft - Fachportalstartseite"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
+    sdo:keywords "Fachportalstartseite"@de,
+        "Wirtschaft"@de .
 
 <32eff73f-96f6-4361-8ce5-5c170aacab10> a skos:Concept ;
     skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
@@ -43925,7 +43935,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-26" ;
+    dct:modified "2022-07-27" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
