@@ -2164,6 +2164,7 @@ Wenn man bei Handlungen der Vergangenheit die Dauer oder den Ablauf betonen will
 
 <12401e0f-fb71-4230-9c97-b446f5d12581> a skos:Concept ;
     skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
+    skos:definition "Dass jedem Menschen eine unverletzbare Würde eigen ist, ist ein Gedanke, der erst seit dem 18. Jahrhundert Gestalt annimmt und dabei sehr unterschiedliche theoretische und praktische Ausformungen erhalten hat. Aus der Bestimmung dessen, was die Würde des Menschen ausmacht, leiten sich die Rechte ab, die jedem Menschen 'unveräußerlich' eigen sind bzw. sein sollen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Begriff der Menschenwürde"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -3089,11 +3090,14 @@ Wann ist ein Mann ein Mensch?"""@de ;
 
 <198b91a7-eef2-4cff-b601-46d4ffc327da> a skos:Concept ;
     skos:broader <f3c38a2c-5622-4b20-9885-a1fa17bf3d24> ;
+    skos:definition """Der moralische Gottesbeweis schließt aus dem Vorhandensein eines sittlichen Bewusstseins auf einen Urheber desselben. 
+Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen Begründer dieser Ordnung."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Moralische Gottesbeweise"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Glaubensbegründung"@de,
+        "Moralische Weltordnung"@de,
         "moralischer Gottesbeweis"@de .
 
 <19997595-f7dd-4a00-8dba-76b4419818aa> a skos:Concept ;
@@ -16145,7 +16149,7 @@ Die Schule trägt maßgeblich zur Schwimmausbildung von Kindern bei."""@de ;
 
 <7cd4f0a3-bb22-420e-887c-7b883746edff> a skos:Concept ;
     skos:broader <f3c38a2c-5622-4b20-9885-a1fa17bf3d24> ;
-    skos:definition "Schluss vom Bewegten in der Welt auf ein erstes Bewegendes, das selbst unbewegt bleibt"@de ;
+    skos:definition "Dieser Beweis schließt vom Bewegten in der Welt auf ein erstes Bewegendes, das selbst unbewegt bleibt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Kinesiologischer Gottesbeweis"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -23864,16 +23868,19 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
 
 <b2b8ec12-378f-4267-be21-9174cc2f5504> a skos:Concept ;
     skos:broader <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> ;
+    skos:definition "Im Zuge der umfassenden Digitalisierung des Alltags stellt sich die Frage nach dem richtigen Verhältnis von Lebenserleichterung und Freiheitsverlust: Auf wieviel Privatheit und Eigenständigkeit bin ich bereit zu verzichten, um die Vorteile einer digitalisierten Lebens- und Arbeitswelt zu genießen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Technologie im Spannungsfeld zwischen Sicherheit und Überwachung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
     sdo:keywords "Authentifizierung"@de,
         "Datenschutz"@de,
         "Freiheit und Sicherheit"@de,
         "Gesichtserkennung"@de,
         "Sozialkredit in China"@de,
         "Staatsgewalt"@de,
+        "informationelle Selbstbestimmung"@de,
         "Überwachungskameras"@de .
 
 <b2d54956-ed46-4add-b3bc-2dbd0d17bc90> a skos:Concept ;
@@ -37326,6 +37333,8 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
 
 <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> a skos:Concept ;
     skos:broader <f7ad1451-6310-4710-8032-56552efbf98f> ;
+    skos:definition """Technologie ist schon länger nicht mehr bloß dienender Teil der Forschung, sondern für diese unverzichtbar geworden!  Der moderne Wissenschaftler ist auf den Techniker angewiesen, z.B. bei der Erstellung von Apparaturen und Durchführung von Experimenten.
+Die Industriekultur definiert sich vom Stand des technischen Fortschritts her. Die ethische Wertfrage (Was ist gut für den Menschen? Was ist ein guter Mensch?) muss mit der Eigendynamik des technischen Fortschritts konkurrieren: Gut erscheint, was technisch machbar und verwertbar ist."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <1bb61102-5257-4287-8bad-6d264fd0f061>,
         <b2b8ec12-378f-4267-be21-9174cc2f5504>,
@@ -37335,11 +37344,11 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Entwicklung der Technologie"@de,
         "Fabrik"@de,
-        "Fließbahnd"@de,
         "Ford"@de,
         "Industrialisierung"@de,
         "Nutzen und Gefahren"@de,
-        "Technologisierung"@de .
+        "Technologisierung"@de,
+        "Was ist der Mensch?"@de .
 
 <f89a62dd-9772-428b-9598-20ab032df068> a skos:Concept ;
     skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
