@@ -902,13 +902,18 @@
 
 <06b41686-3c54-41ad-bc61-576754ec9358> a skos:Concept ;
     skos:broader <d7e3eb23-7ab6-450a-b690-d4e61a817149> ;
+    skos:definition "Interrogativpronomen (Fragepronomen) stehen im Fragesatz für das Nomen oder Pronomen, nach dem gefragt wird. Sie lauten: wer, was, wen, wem, wessen, welch-, was für ein-: „WER kommt mit ins Kino? – WAS liest du da? – WESSEN Tasche ist das?” WELCH- und WAS FÜR EIN- müssen dekliniert werden: „WAS FÜR EINEN Film gibt es? – WELCHE Uhrzeit passt dir?”"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Interrogativpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Fragefürwort"@de,
         "Fragepronomen"@de,
+        "Grammatik"@de,
+        "Interrogativ"@de,
         "Interrogativpronomen"@de,
         "Interrogativpronomen Übungen"@de,
+        "Interrogativum"@de,
+        "deutsche Grammatik"@de,
         "fragendes Fürwort"@de .
 
 <06b5437d-4843-48b8-b336-e030017b13b3> a skos:Concept ;
@@ -14763,6 +14768,20 @@ Spielfähigkeit."""@de ;
     sdo:keywords "Beat"@de,
         "Off-Beat"@de .
 
+<723e28ba-e5a6-464f-bd05-94949c5af7d2> a skos:Concept ;
+    skos:broader <d7e3eb23-7ab6-450a-b690-d4e61a817149> ;
+    skos:definition "Relativpronomen (bezügliche Fürwörter) findet man nur am Anfang von Relativsätzen. Dort stellen sie eine Verbindung her zu einem Satzglied im Hauptsatz, das der Relativsatz näher beschreibt. Dabei können sie in jedem Kasus stehen und im Singular oder Plural, abhängig von ihrer Funktion. Die Relativpronomen sind nicht ganz einfach. Nimm dir Zeit sie zu lernen, am besten zusammen mit den Relativsätzen. Unsere Materialien helfen dir dabei."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Relativpronomen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Deutsch als Fremdsprache Relativpronomen"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik"@de,
+        "Relativpronomen"@de,
+        "Relativsatz"@de,
+        "Relativsätze"@de,
+        "relativsätze"@de .
+
 <7263f538-c304-4626-b1ca-1ae7feba4cd5> a skos:Concept ;
     skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
     skos:definition "Es gibt viele Begriffe, um die Beziehungen von Menschen zueinander zu beschreiben. Welche kennst du im Deutschen schon? Kannst du erklären, wie sie miteinander verbunden sind? Mutter, Vater, Schwester, Bruder, Onkel, Tante, Nichte, Neffe, Cousin und Cousine - wer gehört zur engeren, wer zur weiteren Familie? Weißt du, was der Unterschied zwischen Freunden und Bekannten ist? Hast du einen großen Freundeskreis oder sind dir einige wenige Freundschaften wichtig? Jeder Mensch ist anders, aber wir alle brauchen andere Menschen."@de ;
@@ -24538,6 +24557,7 @@ Epikur"""@de ;
 
 <b72d90d8-50e5-4c26-a625-e964bc07f3ce> a skos:Concept ;
     skos:broader <d7e3eb23-7ab6-450a-b690-d4e61a817149> ;
+    skos:definition "Indefinitpronomen können für Personen oder für Dinge stehen. Man nennt sie auch „unbestimmte Fürwörter”, weil die Personen/Dinge oder aber ihre Menge dabei nicht näher bestimmt werden. Einige sehr häufig verwendete Indefinitpronomen sind „man, alle, viele, einige, jeder, niemand, etwas, nichts”. Auch bestimmte Verbindungen mit „irgend-” sind Indefinitpronomen: irgend(et)was, irgendwer, irgendjemand. Einige Indefinitpronomen müssen dekliniert werden, andere nicht."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Indefinitpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -24945,10 +24965,16 @@ Weiterführende Materialien finden sich im Fachportal Chemie unter <a href="http
 
 <bab2bb10-f8cb-4b67-8a0f-9e322410f390> a skos:Concept ;
     skos:broader <d7e3eb23-7ab6-450a-b690-d4e61a817149> ;
+    skos:definition "Im Deutschen gibt es verschiedene Demonstrativpronomen (hinweisende) Fürwörter: dieser/diese/dieses, jener/jene/jenes, derjenige/diejenige, derselbe/dieselbe/dasselbe und auch der bestimmte Artikel der/die/das. Sie müssen alle dekliniert werden. Demonstrativpronomen werden zur Hervorhebung, besonderen Betonung und Vermeidung von Wiederholung verwendet: „Wie findest du den Film? - DER ist super!”"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Demonstrativpronomen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "Demonstrativpronomen"@de,
+        "Deutsche Grammatik"@de,
+        "Grammatik DaZ"@de,
+        "Hinweisendes Fürwort"@de,
+        "Pronomen"@de,
+        "Pronomina"@de,
         "hinweisende Fürwörter"@de .
 
 <bb16cf98-6fd3-4aa0-9918-44092f37f5ee> a skos:Concept ;
@@ -40721,31 +40747,6 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
     sdo:keywords "Grammatik"@de,
         "Sprache"@de .
 
-<d7e3eb23-7ab6-450a-b690-d4e61a817149> a skos:Concept ;
-    skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
-    skos:definition "Pronomen sind eine Wortart. Sie stehen für ein Nomen (bzw. eine Nomengruppe) oder für Personen. Die meisten Pronomen müssen dekliniert werden, abhängig von der Funktion, die sie im Satz haben. Lerne in dieser Sammlung die verschiedenen Arten von Pronomen kennen und übe mit den Materialien hier, sie sicher zu verwenden."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <06b41686-3c54-41ad-bc61-576754ec9358>,
-        <45211eb0-71db-44da-a6c5-0134d5b46609>,
-        <a98c566e-e81b-4fde-98ba-71332b2ef6fa>,
-        <b72d90d8-50e5-4c26-a625-e964bc07f3ce>,
-        <bab2bb10-f8cb-4b67-8a0f-9e322410f390>,
-        <e234eda6-f058-4cea-a13d-8cb272c206ca> ;
-    skos:prefLabel "Pronomen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Demonstrativpronomen"@de,
-        "Fragepronomen"@de,
-        "Fürwörter"@de,
-        "Indefinitpronomen"@de,
-        "Interrogativpronomen"@de,
-        "Objektpronomen"@de,
-        "Personalpronomen"@de,
-        "Personalpronomen Deutsch"@de,
-        "Possessivpronomen"@de,
-        "Pronomen"@de,
-        "Reflexivpronomen"@de,
-        "Relativpronomen"@de .
-
 <e0be90be-69b2-483b-8d28-34de169c8988> a skos:Concept ;
     skos:broader <e0782a2f-7b1c-4ef3-a4ab-be62335d706a> ;
     skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Rechtschreibregeln' im Türkischen."@de ;
@@ -41360,6 +41361,32 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
         <ff8ad8f7-7ff0-4684-a59b-5ad6ef6f0830> ;
     skos:prefLabel "Francophonie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
+
+<d7e3eb23-7ab6-450a-b690-d4e61a817149> a skos:Concept ;
+    skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
+    skos:definition "Pronomen sind eine Wortart. Sie stehen für ein Nomen (bzw. eine Nomengruppe) oder für Personen. Die meisten Pronomen müssen dekliniert werden, abhängig von der Funktion, die sie im Satz haben. Lerne in dieser Sammlung die verschiedenen Arten von Pronomen kennen und übe mit den Materialien hier, sie sicher zu verwenden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <06b41686-3c54-41ad-bc61-576754ec9358>,
+        <45211eb0-71db-44da-a6c5-0134d5b46609>,
+        <723e28ba-e5a6-464f-bd05-94949c5af7d2>,
+        <a98c566e-e81b-4fde-98ba-71332b2ef6fa>,
+        <b72d90d8-50e5-4c26-a625-e964bc07f3ce>,
+        <bab2bb10-f8cb-4b67-8a0f-9e322410f390>,
+        <e234eda6-f058-4cea-a13d-8cb272c206ca> ;
+    skos:prefLabel "Pronomen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Demonstrativpronomen"@de,
+        "Fragepronomen"@de,
+        "Fürwörter"@de,
+        "Indefinitpronomen"@de,
+        "Interrogativpronomen"@de,
+        "Objektpronomen"@de,
+        "Personalpronomen"@de,
+        "Personalpronomen Deutsch"@de,
+        "Possessivpronomen"@de,
+        "Pronomen"@de,
+        "Reflexivpronomen"@de,
+        "Relativpronomen"@de .
 
 <ed4bf1e1-96e3-4394-8bc6-41173c0aa2f0> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
