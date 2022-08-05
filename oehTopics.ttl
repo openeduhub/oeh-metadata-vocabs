@@ -2503,6 +2503,17 @@ Videointerviews mit TheatermitarbeiterInnen geben ebenfalls einen guten Einblick
     skos:prefLabel "Nikolaus von Myra"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
 
+<15015a6b-60ce-49e0-b76b-4828e7470c5a> a skos:Concept ;
+    skos:broader <ea776a48-b3f4-446c-b871-19f84b31d280> ;
+    skos:definition "In dieser Sammlung findest du viele spannende interdisziplinäre Projektideen, die den Sportunterricht aus der Halle raus und andere Fächer und Themen in die Halle reinbringen. Blicke über den Tellerrand hinaus und lass dich inspirieren!"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Projektideen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/600> ;
+    sdo:keywords "Fächerübgreifend"@de,
+        "Interdisziplinär"@de,
+        "Projektideen"@de,
+        "Sport"@de .
+
 <1504cfb1-0af4-422c-9960-a1c89a8d527c> a skos:Concept ;
     skos:broader <311ed9f4-031a-4e51-8d8b-8d7b009a0182> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -42399,25 +42410,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Philosophin"@de,
         "Werke"@de .
 
-<ea776a48-b3f4-446c-b871-19f84b31d280> a skos:Concept ;
-    skos:definition "Beschreibungstext"@de ;
-    skos:narrower <155d7cf3-41e8-4ba1-bc73-0d594a181372>,
-        <25bbf20d-2ed9-41ac-9c64-2b9c6e293a00>,
-        <425be0a1-de9c-4f0f-adf9-08924b35ccb6>,
-        <5af27fb0-e81f-4f2a-ae26-6955d1221cb8>,
-        <7bfc5fc7-9f53-4b7d-b655-8dcf9b7a74a7>,
-        <80f700c3-0603-4092-89b5-2f3af7358222>,
-        <9054b1b6-4ad7-4247-a4a2-c6e7f97d31a0>,
-        <aff78d4c-97ff-4564-82da-2142a7bcc1de>,
-        <b27c58d1-09fa-4b63-8155-5c1f40895754>,
-        <f6d2f1fe-349d-460e-b66f-1e551492a243> ;
-    skos:prefLabel "Sport"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/600> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "Schlagwort"@de,
-        "Sport"@de,
-        "Sportlich"@de .
-
 <f15f727c-9a5a-4f20-b1be-483c15477648> a skos:Concept ;
     skos:broader <bd8be6d5-0fbe-4534-a4b3-773154ba6abc> ;
     skos:definition "\"Rechnen statt zeichnen\" ist das Motto der Analytischen Geometrie und damit ist sie zur Grundlage vieler moderner Technologien geworden: Von der Gafik heutiger Computerspiele, über rechnergestützte Konstruktionsverfahren bis zum GPS-gestützten Navigationssystem. Zentrale Grundbegriffe der analytischen Geometrie sind Vektoren, Geraden und Ebenen. Ebenso werden die Lagebeziehungen, Abstände und Winkel zwischen Objekten betrachtet."@de ;
@@ -42801,6 +42793,26 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
         "Vertebrata"@de,
         "Wirbeltiere"@de,
         "Zoologie"@de .
+
+<ea776a48-b3f4-446c-b871-19f84b31d280> a skos:Concept ;
+    skos:definition "Beschreibungstext"@de ;
+    skos:narrower <15015a6b-60ce-49e0-b76b-4828e7470c5a>,
+        <155d7cf3-41e8-4ba1-bc73-0d594a181372>,
+        <25bbf20d-2ed9-41ac-9c64-2b9c6e293a00>,
+        <425be0a1-de9c-4f0f-adf9-08924b35ccb6>,
+        <5af27fb0-e81f-4f2a-ae26-6955d1221cb8>,
+        <7bfc5fc7-9f53-4b7d-b655-8dcf9b7a74a7>,
+        <80f700c3-0603-4092-89b5-2f3af7358222>,
+        <9054b1b6-4ad7-4247-a4a2-c6e7f97d31a0>,
+        <aff78d4c-97ff-4564-82da-2142a7bcc1de>,
+        <b27c58d1-09fa-4b63-8155-5c1f40895754>,
+        <f6d2f1fe-349d-460e-b66f-1e551492a243> ;
+    skos:prefLabel "Sport"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/600> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "Schlagwort"@de,
+        "Sport"@de,
+        "Sportlich"@de .
 
 <4940d5da-9b21-4ec0-8824-d16e0409e629> a skos:Concept ;
     skos:definition "Bild-Quelle und -Lizenz: Bild von deepakrit auf Pixabay"@de ;
@@ -43437,7 +43449,7 @@ Der Bereich Spielen integriert verschiedene Sportspiele (z.B. Fußball oder Bask
         <9a4e83b7-8eec-4499-a57a-8be1f93f9c7c>,
         <a555ce90-469e-42ee-b3dc-5cf430aff00a>,
         <adcf2bd3-ce9e-466b-bca4-68ada9ccd783> ;
-    skos:prefLabel "Spielen"@de ;
+    skos:prefLabel "Sportspiele"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/600> ;
     sdo:keywords "Ball"@de,
         "Bälle"@de .
@@ -43911,7 +43923,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-07-30" ;
+    dct:modified "2022-08-05" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
