@@ -7521,11 +7521,13 @@ Hier findest du viele Materialien zum Üben dazu."""@de ;
 
 <3a1cbba3-8473-4f27-8cd9-3d9e8d48fa04> a skos:Concept ;
     skos:broader <0f254b88-55db-4960-8693-5671b568b1ba> ;
+    skos:definition "Die ethische Bewertung von Armut und Reichtum berührt Fragen der sozialen Gerechtigkeit und Ungleichheit: Welche Armut ist prinzipiell unmoralisch und nicht hinnehmbar? Wieviel Armut kann durch staatliche Maßnahmen ausgeglichen bzw. gemildert werden? Ist Armut ein Schicksal und Reichtum ein Verdienst? "@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ursachen und Auswirkungen von Armut und Wohlstand"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Bettler"@de,
+    sdo:keywords "Altersarmut"@de,
+        "Bettler"@de,
         "Chancengleichheit"@de,
         "Einkommen"@de,
         "Hans im Glück"@de,
@@ -7533,7 +7535,8 @@ Hier findest du viele Materialien zum Üben dazu."""@de ;
         "Ungleichheit"@de,
         "Verteilung"@de,
         "Wohlstand"@de,
-        "große Armut"@de,
+        "absolute Armut"@de,
+        "relative Armut"@de,
         "soziale Gerechtigkeit"@de .
 
 <3a387bbd-dd2c-44cf-8f7e-46f10f9e4368> a skos:Concept ;
