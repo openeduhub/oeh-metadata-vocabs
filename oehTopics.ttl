@@ -3568,6 +3568,15 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
     sdo:keywords "Dokumentenakkreditiv"@de,
         "Liquidität, Insolvenz"@de .
 
+<1d7cfc21-8c8c-49bf-bbb5-b2597d18039a> a skos:Concept ;
+    skos:broader <117b097c-b0c5-4373-a668-f911c6478636> ;
+    skos:definition "In dieser Untersammlung geht es speziell um die Evolution und Entwicklugnsgeschichte des Menschen. Außerdem gibt es Materialien zu den unterschiedlichen Evolutionstheorien der Menschwerdung."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Evolution des Menschen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Evolution"@de,
+        "Evolution des Menschen"@de .
+
 <1d926161-36be-491c-96f4-cead912881a1> a skos:Concept ;
     skos:broader <d6c88b81-b639-4b89-94d7-c0507a3e90be> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -30236,21 +30245,6 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Taizé"@de,
         "geistliche Lieder"@de .
 
-<e18ffe7d-d185-4f0d-9438-6a809a9f90a8> a skos:Concept ;
-    skos:broader <117b097c-b0c5-4373-a668-f911c6478636> ;
-    skos:definition "In dieser Untersammlung geht es speziell um die Evolution und die Entwicklungsgeschichte der Pflanzen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Pflanzen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Bedecktsamer"@de,
-        "Entwicklungsgeschichte der Pflanzen"@de,
-        "Evolution"@de,
-        "Evolution der Pflanzen"@de,
-        "Nacktsamer"@de,
-        "Riesenschachtelhalme"@de,
-        "Siegelbäume"@de,
-        "Sporen"@de .
-
 <e1c6685e-e01d-4204-974c-548e94cfbd55> a skos:Concept ;
     skos:broader <381dc9bf-8ae1-4682-b821-9f6d05f4aa53> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -33013,6 +33007,7 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f63e5600-f323-45a1-bba9-b5e63355316f> a skos:Concept ;
     skos:broader <7e15bd2b-e6a1-4d31-a317-2e7b8a0e7b3a> ;
+    skos:definition "Wir sind nicht die einzigen Lebewesen auf der Welt. Und vielleicht auch nicht die wichtigsten. Wo also stehen wir und wie müssen wir uns verhalten, um Teil einer lebenswerten (Um-)Welt zu bleiben?"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Der Mensch und seine belebte Umwelt"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -33888,23 +33883,6 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
         "Wind"@de,
         "Windstärke"@de .
 
-<fcd7a2c2-2c6b-40c8-8d20-e8077e389ca6> a skos:Concept ;
-    skos:broader <c30f8d2a-f28f-47ad-9ba0-dc2041cfb17a> ;
-    skos:definition "In dieser Untersammlung geht es speziell um die Evolution und Entwicklugnsgeschichte des Menschen. Außerdem gibt es Materialien zu den unterschiedlichen Evolutionstheorien der Menschwerdung."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Der Mensch"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Entwicklungsgeschichte des Menschen"@de,
-        "Evolution"@de,
-        "Evolution des Menschen"@de,
-        "Homo sapiens"@de,
-        "Landgang"@de,
-        "Lucy"@de,
-        "Neandertaler"@de,
-        "Out of Africa"@de,
-        "Vorfahren"@de,
-        "Wasseraffentheorie"@de .
-
 <fd260ea1-fe69-4eab-8343-0c8898ea1a76> a skos:Concept ;
     skos:broader <d6c88b81-b639-4b89-94d7-c0507a3e90be> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -34456,6 +34434,22 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "Volumen bestimmen"@de,
         "Wiegen"@de .
 
+<117b097c-b0c5-4373-a668-f911c6478636> a skos:Concept ;
+    skos:broader <2e674483-0eae-4088-b51a-c4f4bbf86bcc> ;
+    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zum Thema \"Entwicklung der Lebewesen\" gesammelt. In dieser Sammlung finden sich auch Materialien zu Fossilien, Brückentieren und -pflanzen sowie Lebenden Fossilien. In den Untersammlungen finden sich Materialien zur Entwicklung der Pflanzen, der Tiere und dabei auch speziell des Menschen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <1d7cfc21-8c8c-49bf-bbb5-b2597d18039a> ;
+    skos:prefLabel "Entwicklung der Lebewesen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Biosystematik"@de,
+        "Entwicklugnsgeschichte"@de,
+        "Entwicklung Mensch"@de,
+        "Entwicklung Pflanzen"@de,
+        "Entwicklung Tiere"@de,
+        "Evolution"@de,
+        "Phylogenetik"@de,
+        "Stammbäume"@de .
+
 <1b93380d-fb4f-4f46-9b7e-253a9097877b> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
     skos:definition "Das Gesicht der Fächer Philosophie und Ethik"@de ;
@@ -34721,22 +34715,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/720> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
 
-<c30f8d2a-f28f-47ad-9ba0-dc2041cfb17a> a skos:Concept ;
-    skos:broader <117b097c-b0c5-4373-a668-f911c6478636> ;
-    skos:definition "In dieser Untersammlung geht es speziell um die Evolution und die Entwicklugnsgeschichte der Tiere. Für die des Menschen gibt es noch eine weitere Untersammlung."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <fcd7a2c2-2c6b-40c8-8d20-e8077e389ca6> ;
-    skos:prefLabel "Tiere"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Archäopteryx"@de,
-        "Dinosaurier"@de,
-        "Entwicklungsgeschichte der Tiere"@de,
-        "Evolution"@de,
-        "Evolution der Tiere"@de,
-        "Massenaussterben"@de,
-        "Missing Link"@de,
-        "Stammbäume"@de .
-
 <c6283a03-ccd0-493f-aad6-2230ef71bdb0> a skos:Concept ;
     skos:broader <b3911f32-db29-4e77-8053-6981d1e46ef3> ;
     skos:definition "\"File:BYR color wheel.svg\" by The original uploader was Sakurambo at English Wikipedia. is licensed under CC BY-SA 3.0"@de ;
@@ -34864,23 +34842,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         <b78fb220-0932-4f4d-a959-25568adf55d1> ;
     skos:prefLabel "Sprache der Religionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
-
-<117b097c-b0c5-4373-a668-f911c6478636> a skos:Concept ;
-    skos:broader <2e674483-0eae-4088-b51a-c4f4bbf86bcc> ;
-    skos:definition "In dieser Untersammlung werden Unterrichtsmaterialien zum Thema \"Entwicklung der Lebewesen\" gesammelt. In dieser Sammlung finden sich auch Materialien zu Fossilien, Brückentieren und -pflanzen sowie Lebenden Fossilien. In den Untersammlungen finden sich Materialien zur Entwicklung der Pflanzen, der Tiere und dabei auch speziell des Menschen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <c30f8d2a-f28f-47ad-9ba0-dc2041cfb17a>,
-        <e18ffe7d-d185-4f0d-9438-6a809a9f90a8> ;
-    skos:prefLabel "Entwicklung der Lebewesen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Biosystematik"@de,
-        "Entwicklugnsgeschichte"@de,
-        "Entwicklung Mensch"@de,
-        "Entwicklung Pflanzen"@de,
-        "Entwicklung Tiere"@de,
-        "Evolution"@de,
-        "Phylogenetik"@de,
-        "Stammbäume"@de .
 
 <131b383f-5c17-48a0-9530-76a6a16116ad> a skos:Concept ;
     skos:broader <e126a8c7-fc46-4686-969b-5230f7732015> ;
