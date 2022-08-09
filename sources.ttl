@@ -1235,6 +1235,12 @@
    skos:topConceptOf <> ;
    sdo:url <https://www.dilertube.de> .
 
+<5dfac971-25a1-4c05-b1cd-94b62f50dbad> a skos:Concept ;
+   skos:notation "sodix_spider"^^xsd:string ;
+   skos:prefLabel "Sodix"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://sodix.de/> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1466,4 +1472,5 @@
         <9a965778-aea7-4e8d-a846-e81aa564bfd5>,
         <49174af1-e864-41a4-8eda-c5e6de7fed33> ,
 		<611c3830-c18a-47b8-a2f4-f503c62d532f> ,
-		<011766b1-07f8-4cbe-bef1-3316458ed7cb> .
+		<011766b1-07f8-4cbe-bef1-3316458ed7cb> ,		
+        <5dfac971-25a1-4c05-b1cd-94b62f50dbad> .
