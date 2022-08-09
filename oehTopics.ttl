@@ -3082,9 +3082,9 @@ Wann ist ein Mann ein Mensch?"""@de ;
 
 <19534f9b-ee10-44c0-9ae9-57a0e963e1b4> a skos:Concept ;
     skos:broader <c43e833d-7343-4846-92f2-2ea093325235> ;
-    skos:definition "Arithmetisches Mittel, Modalwert, Spannweite - das sind nur drei von vielen Kennwerten, die bei der Beschreibung von statistischen Erhebungen verwendet werden."@de ;
+    skos:definition "Arithmetisches Mittel, Modalwert, Median, Spannweite - das sind nur einige von vielen Kennwerten, die bei der Beschreibung von statistischen Erhebungen verwendet werden."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Statistische Grundbegriffe"@de ;
+    skos:prefLabel "Statistische Grundbegriffe: Median, Mittelwert…"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
 
 <19708ad1-59d3-440b-b952-367eabb50383> a skos:Concept ;
@@ -43889,7 +43889,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-05" ;
+    dct:modified "2022-08-09" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
