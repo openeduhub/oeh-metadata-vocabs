@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Biologische Veränderungen in der Pubertät"
   },
+  "definition": {
+    "de": "Die körperlichen und psychischen Veränderungen in der Pubertät sind nicht nur sehr tiefgreifend und für die Betroffenen schwer durchschaubar. Sie betreffen auch nicht jeden in gleicher Weise und zur gleichen Zeit. Es entstehen sichtbare Entwicklungsunterschiede zwischen den Geschlechtern, zwischen Freunden, Freundinnen, Kameraden und Mitschülern. Diese zu verstehen und zu verkraften ist eine Herausforderung und oft genug auch Überforderung."
+  },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6769ce5e-5e66-4293-ac30-bd482f4c306f",
     "prefLabel": {
@@ -13,6 +16,12 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/080"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/160"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }
