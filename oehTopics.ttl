@@ -1394,10 +1394,13 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
 
 <0b3c559e-46cf-43c8-bac8-c18fce0f733e> a skos:Concept ;
     skos:broader <6769ce5e-5e66-4293-ac30-bd482f4c306f> ;
+    skos:definition "In allen Kulturen gibt es Rituale, die den Übergang vom Kind- zum Erwachsenen-Status markieren und gestalten. Jugendliche sollen so in den Kreis der Erwachsenen aufgenommen und ihnen eine Möglichkeit gegeben werden, herauszufinden, wo ihr Platz in der Gemeinschaft sein könnte - oder auch zu sein hat."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Rituale des Erwachsenwerdens"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Firmung"@de,
+        "Führerschein"@de,
         "Konfirmation"@de,
         "Rituale"@de,
         "Taufe"@de,
@@ -7461,9 +7464,11 @@ Wünschenswert wäre auch, dass Kunststoffe restlos durch natürliche Vorgänge 
 
 <3994cf1c-abcf-4446-a5fe-2da890f8c8a7> a skos:Concept ;
     skos:broader <c3cd2a3f-5a9f-434e-a1d4-1c5039083d79> ;
+    skos:definition "Lebenszeit, Arbeitszeit, Freizeit - immer geht es um die sinnvolle Gestaltung von Zeit, die dem Einzelnen und der Gemeinschaft zur Verfügung steht. Woran bemisst, wonach richtet sich die Sinn-Gebung? Wieviel Zeit darf der Einzelne 'für sich' in Anspruch nehmen, ohne in Konflikt mit den Erwartungen der Gemeinschaft zu geraten?"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Umgang mit Zeit und Freizeit"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Alleinsein"@de,
         "Freizeit"@de,
         "Hobbys"@de,
@@ -21607,14 +21612,20 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
 
 <a10bb313-f424-4535-820c-4b767e01c5ad> a skos:Concept ;
     skos:broader <6769ce5e-5e66-4293-ac30-bd482f4c306f> ;
+    skos:definition "Die körperlichen und psychischen Veränderungen in der Pubertät sind nicht nur sehr tiefgreifend und für die Betroffenen schwer durchschaubar. Sie betreffen auch nicht jeden in gleicher Weise und zur gleichen Zeit. Es entstehen sichtbare Entwicklungsunterschiede zwischen den Geschlechtern, zwischen Freunden, Freundinnen, Kameraden und Mitschülern. Diese zu verstehen und zu verkraften ist eine Herausforderung und oft genug auch Überforderung."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Biologische Veränderungen in der Pubertät"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Haarwachstum"@de,
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080>,
+        <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Entfremdung"@de,
+        "Haarwachstum"@de,
         "Körper"@de,
         "Körpergefühl"@de,
         "Pickel"@de,
         "Pubertät"@de,
+        "Selbstüberschätzung"@de,
+        "Unterschiede"@de,
         "körperliche Veränderung"@de .
 
 <a11a4722-ff9a-4431-ba23-7cab72542fd0> a skos:Concept ;
@@ -35086,13 +35097,18 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
 
 <6769ce5e-5e66-4293-ac30-bd482f4c306f> a skos:Concept ;
     skos:broader <c3cd2a3f-5a9f-434e-a1d4-1c5039083d79> ;
+    skos:definition "Die Pubertät ist eine Zeit des Zweifelns und der Unsicherheit, in der junge Menschen sich nicht mehr als Kind fühlen, aber die Welt der Erwachsenen oft unverständlich und mysteriös erscheint. Sie ist auch eine Zeit der Reife, der Herausbildung von Werten und Haltungen. Und sie ist eineZeit, die erfolgreich überstanden werden muss, denn sie ist voller Gefährdungen durch Gefühlschaos, Essstörungen, Suizidgedanken und Liebe."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <0b3c559e-46cf-43c8-bac8-c18fce0f733e>,
         <a10bb313-f424-4535-820c-4b767e01c5ad> ;
     skos:prefLabel "Veränderungen in der Pubertät"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Gefühl"@de,
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Essstörungen"@de,
+        "Gefühl"@de,
+        "Selbstwertgefühl"@de,
         "Verstand"@de,
+        "Verunsicherung"@de,
         "rational"@de .
 
 <68e105b5-7390-4605-ad57-e57c64cede4f> a skos:Concept ;
@@ -43889,7 +43905,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-10" ;
+    dct:modified "2022-08-14" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
