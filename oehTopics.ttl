@@ -36413,7 +36413,16 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
         <d300315f-d470-430a-b036-810d872e8829>,
         <f5db2fb3-bc87-4024-8f1a-c3cb6d5aa4ef> ;
     skos:prefLabel "Informieren und Recherchieren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
+    sdo:keywords "Informieren"@de,
+        "Informieren und Recherchieren"@de,
+        "Internetrecherche"@de,
+        "Medienkompass"@de,
+        "Medienkompetenz"@de,
+        "Medienkompetenzrahmen"@de,
+        "Medienkompetenzrahmen NRW"@de,
+        "Recherchekompetenz"@de,
+        "Recherchieren"@de .
 
 <7fccdc6c-dc31-40c4-8a4b-6cf0b55b433c> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
@@ -36515,7 +36524,15 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
         <7b7d676c-8ea6-4dc4-a76c-01befe4d4596>,
         <eb5976cd-e267-45ee-a9da-685f718fbf2d> ;
     skos:prefLabel "Kommunizieren und Kooperieren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
+    sdo:keywords "Kommunizieren"@de,
+        "Kommunizieren und Kooperieren"@de,
+        "Kooperieren"@de,
+        "Medienkompass"@de,
+        "Medienkompetenz"@de,
+        "Medienkompetenzrahmen"@de,
+        "Medienkompetenzrahmen NRW"@de,
+        "Medienpass"@de .
 
 <9291b687-358c-4445-b3c1-48c55aa3bfc3> a skos:Concept ;
     skos:broader <4c9faf4e-33b9-4599-9a36-1618c954e3d3> ;
@@ -37160,7 +37177,15 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         <6793e4d2-3997-4434-9ef3-294676377636>,
         <c22d0bce-1ff0-49c2-824c-5a4c2028ade1> ;
     skos:prefLabel "Bedienen und Anwenden"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
+    sdo:keywords "Anwenden"@de,
+        "Bedienen"@de,
+        "Bedienen und Anwenden"@de,
+        "Medienkompass"@de,
+        "Medienkompetenz"@de,
+        "Medienkompetenzrahmen"@de,
+        "Medienkompetenzrahmen NRW"@de,
+        "Medienpass"@de .
 
 <d9406932-88c8-4d98-97c1-e6019d6a4544> a skos:Concept ;
     skos:broader <350a0734-a52d-4d1e-9249-5e19f216da2f> ;
