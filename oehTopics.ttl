@@ -35027,19 +35027,24 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <59dbe89d-08e9-4088-b34f-3b2a58a8c748> a skos:Concept ;
     skos:broader <0f254b88-55db-4960-8693-5671b568b1ba> ;
+    skos:definition """Gesetze regeln das Zusammenleben. Aber nicht alles muss gesetzlich geregelt werden!
+Drei Formen von Verbindlichkeit können unterschieden werden:
+MUSS-Erwartungen (Gesetze): Die Nicht-Erfüllung wird gerichtlich geahndet und führt zu negativen Sanktionen.
+SOLL-Erwartungen (Konventionen): Man ist fleißig, höflich, sauber, modern ... auch hier herrschen negative Sanktionen, wenn auch keine gerichtlichen, vor.
+KANN-Erwartungen (Idealverhalten): Zusätzlicher Einsatz, Ehrenamt, hohe Gesprächsbereitschaft ... Hier überwiegen die positiven Sanktionen."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <be18db0c-1e07-4d88-8297-874b578217a4>,
         <e7504517-faaa-475a-bb68-6174e4b26110> ;
     skos:prefLabel "Regeln und Gesetze im Zusammenleben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Kartenspiel"@de,
-        "Mensch ärger dich nicht"@de,
-        "Schiffe versenken"@de,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Erwartungen"@de,
+        "Sanktionen"@de,
         "Spiele"@de,
         "Spiele im Unterricht"@de,
         "Spielregeln"@de,
-        "Würfelspiel"@de .
+        "Verbindlichkeit"@de .
 
 <5b25014d-2537-4743-8516-4176debd9911> a skos:Concept ;
     skos:broader <f15f727c-9a5a-4f20-b1be-483c15477648> ;
@@ -35468,12 +35473,14 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
 
 <cdcf4229-0480-462c-a5cc-41a179229e70> a skos:Concept ;
     skos:broader <0f254b88-55db-4960-8693-5671b568b1ba> ;
+    skos:definition "Arbeit ist nicht gleich Tätigkeit. Tätig sind wir immer. Auf Arbeit nur  zeitweise. Um den zeitlichen Anteil der Arbeit in unserem Leben wird gestritten und zu Zeiten auch gestreikt. Um die Sinnhaftigkeit der jeweiligen Arbeit muss jeder Einzelne sich seine Gedanken machen. Umso mehr, als sich die Bedingungen des Arbeitens  in der Wirtschaftswelt ständig und radikal  verändern können."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <04dd3313-428b-4260-9887-937f0e7aa540>,
         <b3f8251f-8772-46c2-9788-bd74c20460ad> ;
     skos:prefLabel "Der Mensch in der Arbeits - und Wirtschaftswelt"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
     sdo:keywords "Arbeit"@de,
         "Arbeitsmarkt"@de,
         "Arbeitsstelle"@de,
@@ -43908,7 +43915,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-14" ;
+    dct:modified "2022-08-16" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
