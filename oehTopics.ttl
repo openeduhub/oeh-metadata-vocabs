@@ -35294,11 +35294,20 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
 
 <9353dbac-4cd3-46ca-89e8-feac1817ec9a> a skos:Concept ;
     skos:broader <eef047a3-58ba-419c-ab7d-3d0cfd04bb4e> ;
+    skos:definition "Hier findest du Materialien rund um das Thema Problemlösen, Handeln und Modellieren."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <92f51521-2432-413f-8b85-47ce5e8ebca3>,
         <b71f94dc-1178-482d-984a-1522facedddd> ;
     skos:prefLabel "Problemlösen, Handeln und Modellieren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/900> ;
+    sdo:keywords "Medienkompass"@de,
+        "Medienkompetenz"@de,
+        "Medienkompetenzrahmen"@de,
+        "Medienkompetenzrahmen NRW"@de,
+        "Medienpass"@de,
+        "Problemlösen"@de,
+        "Problemlösen Handeln Modellieren"@de,
+        "Problemlösen und Modellieren"@de .
 
 <956d4eaf-a03c-4337-ad22-c60df0a5b1a5> a skos:Concept ;
     skos:broader <c3cd2a3f-5a9f-434e-a1d4-1c5039083d79> ;
@@ -43942,7 +43951,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-16" ;
+    dct:modified "2022-08-17" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
