@@ -11490,7 +11490,7 @@ Spielfähigkeit."""@de ;
 
 <5a527253-ee68-4e74-998d-9ceaf1c43771> a skos:Concept ;
     skos:broader <c8a04a63-741e-48e3-a3ef-7d5443417d9d> ;
-    skos:definition "„... was das Wesen des Glückes sei, darüber ist man unsicher, und die Antwort der Menge lautet anders als die des Denkers. Die Menge stellt sich etwas Handgreifliches und Augenfälliges darunter vor, z.B. Lust, Wohlstand, Ehre: jeder etwas anderes. Bisweilen wechselt sogar ein und derselbe Mensch seine Meinung ...\" (Aristoteles: Nikomachische Ethik, Buch 1, Abschnitt 2)"@de ;
+    skos:definition "„... was das Wesen des Glückes sei, darüber ist man unsicher, und die Antwort der Menge lautet anders als die des Denkers...\" (Aristoteles: Nikomachische Ethik, Buch 1, Abschnitt 2)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Philosophische Ideen über glückliches Leben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -29470,13 +29470,16 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
 
 <dab05411-560a-43ee-bd72-4c754d32fe98> a skos:Concept ;
     skos:broader <c8a04a63-741e-48e3-a3ef-7d5443417d9d> ;
+    skos:definition "„... was das Wesen des Glückes sei, darüber ist man unsicher, und die Antwort der Menge lautet anders als die des Denkers. Die Menge stellt sich etwas Handgreifliches und Augenfälliges darunter vor, z.B. Lust, Wohlstand, Ehre: jeder etwas anderes. Bisweilen wechselt sogar ein und derselbe Mensch seine Meinung ...\" (Aristoteles: Nikomachische Ethik, Buch 1, Abschnitt 2)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Persönliche Vorstellung vom glücklichen Leben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Glück"@de,
-        "Unglück"@de,
-        "eigenes Leben"@de .
+    sdo:keywords "Anerkennung"@de,
+        "Erfolg"@de,
+        "Freundschaft"@de,
+        "Gemeinschaft"@de,
+        "Wohlstand"@de .
 
 <dad254d3-0a29-424d-8a3e-3db71cedb112> a skos:Concept ;
     skos:broader <b7d3a7c1-35c7-4418-92fc-c769fc67590a> ;
