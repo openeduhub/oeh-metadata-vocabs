@@ -12935,6 +12935,8 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
 
 <639c9434-2162-4046-a20b-9936a55ae0f5> a skos:Concept ;
     skos:broader <64b010b2-74fe-47d4-bf1e-a35a192271a1> ;
+    skos:definition """Was als 'sittlich gut' oder 'moralisch richtig' verstanden wird, hängt zum einen von der moralischen Intuition ab wie z.B. einem früh erworbenen Gerechtichkeitsgefühl oder Einfühlungsvermögen. 
+Es kann zum anderen von einem Kriteriensystem hergeleitet werden, wie z.B. dem Glück der größten Zahl (Utilitarismus), oder einem höheren Gebot (Nächstenliebe, Goldene Regel) oder dem Pflichtbewusstsein im Sinne einer Vernunft-gemäßen Ordnung (Kategorischer Imperativ)."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Moralische Kriterien"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -13215,6 +13217,8 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
 
 <6571bead-c611-4465-bcd2-129445514002> a skos:Concept ;
     skos:broader <cfb68751-4a91-42ce-94d0-11d81077042d> ;
+    skos:definition """Es könnte auch heißen: Nützlichkeit oder Pflicht als ethische Prinzipien! 
+Damit sind die zwei verschiedene moralische Entscheidungssysteme bezeichnet, die gerne auch als Gegensätze dargestellt werden. Die Frage lautet: Ist 'moralisch gut', was möglichst viele Menschen glücklich macht,  ist 'moralisch gut', was  mein Gewissen mir vorschreibt oder ist etwas 'gut', weil ich einer allgemeingültigen Regel folge ?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Nützlichkeit und Pflicht als ethische Prinzipien"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -31183,16 +31187,16 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
 
 <ea1b50ea-54f6-43ca-97ba-b06668ab587a> a skos:Concept ;
     skos:broader <c8a04a63-741e-48e3-a3ef-7d5443417d9d> ;
-    skos:definition """Sind Glückliche Menschen erkennbar? Woran? 
-Kennst Du jemanden persönlich? 
-Oder ist er oder sie berühmt und bekannt aus Film, Fernsehen und Internet?"""@de ;
+    skos:definition """Sind glückliche Menschen erkennbar? Woran?  
+Kennst Du so jemanden persönlich? 
+Oder kann erst im Nachhinein beurteilt werden, was ein glückliches Leben war? Kann überhaupt ein ganzes Leben glücklich genannt werden?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Gesellschaftliche Vorbilder für glückliches Leben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Glücksbilder in der Gesellschaft"@de,
         "Stereotypisierung"@de,
-        "Zukunftsversionen"@de .
+        "Tugenden"@de .
 
 <ea224fa1-b2cc-4083-a81a-3ee8aa6d2db3> a skos:Concept ;
     skos:broader <131b383f-5c17-48a0-9530-76a6a16116ad> ;
