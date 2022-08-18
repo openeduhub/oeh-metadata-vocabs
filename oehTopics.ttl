@@ -3282,6 +3282,11 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
 
 <1bb61102-5257-4287-8bad-6d264fd0f061> a skos:Concept ;
     skos:broader <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> ;
+    skos:definition """Ethisches Verhalten ist veranwortliches Verhalten. In der Wissenschaft bedeutet dies die Verpflichtung
+a) zu Strenge und Korrektheit in der Methodik und Hypothesenbildung
+b) gegenüber dem Forschungsobjekt: Respekt vor dem Leben und der 
+Würde des Menschen, Achtung des Eigenwertes von Natur
+c) zur Folgenabschätzung der wissenschaftlichen Erkenntnisse."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Ethik in der Wissenschaft"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -3291,7 +3296,6 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
         "Designerbabys"@de,
         "Dürrenmatt"@de,
         "Ethikrat"@de,
-        "Genmaipulation"@de,
         "Gentechnik"@de,
         "Kernenergie"@de,
         "Kernkraftwerk"@de,
