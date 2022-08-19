@@ -2022,6 +2022,24 @@ Wenn man bei Handlungen der Vergangenheit die Dauer oder den Ablauf betonen will
         "les curiosités"@de,
         "Île- de-France"@de .
 
+<1174347c-2476-481b-9fb3-15fc16046a6b> a skos:Concept ;
+    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
+    skos:definition "Bei den meisten Menschen, die neu in einem deutschsprachigen Land ankommen, besteht ein Alphabetisierungsbedarf. Die einen benötigen eine Erstalphabetisierung, weil sich weder lesen noch schreiben können, die anderen einen Zweitschrifterwerb, da sie der Lateinschrift nicht mächtig sind. Andere wiederum haben funktionalen Analphabetismus und können nicht ausreichend lesen und schreiben. Hier haben wir für alle diese Menschen und ihren Lehrer*innen Inhalte zusammengestellt, die beim Lesen- und Schreiben lernen der deutschen Sprachen hilfreich sein können."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Alphabetisierung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "ABC"@de,
+        "Alphabet"@de,
+        "Alphabetisierung"@de,
+        "Alphabetisierung für Araber"@de,
+        "Alphabetisierungskurs"@de,
+        "Anlauttabelle"@de,
+        "Anlauttraining"@de,
+        "Deutsch Anlaut"@de,
+        "Deutsch Anlaute Schreibtabelle Anlauttabelle"@de,
+        "Erstalphabetisierung"@de,
+        "Zweitschrifterwerb"@de .
+
 <1175e96e-a14a-4461-b932-f085ca7098d3> a skos:Concept ;
     skos:broader <d4a8bc18-ee4b-4070-9b95-9873d2be366f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -41031,26 +41049,6 @@ Lehrer*in und Schüler*in können die (sportwissenschaftliche) Theorie in ihrem 
         "writing skills"@de,
         "writing strategies"@de .
 
-<26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> a skos:Concept ;
-    skos:definition """Herzlich willkommen beim Fachportal für Deutsch als Zweitsprache (DaZ)! Du bist Lehrer*in, Refendar*in, studierst DaZ oder willst dein Deutsch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung.
-
-Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen Unterrichtsmaterialen? Dann bringe dich und dein Wissen ein. Hilf mit, die besten Inhalte für DaZ zu sammeln und zu teilen. Das ist ganz einfach!
-
-    Empfiehl einen freien Inhalt oder stelle der DaZ-Community dein selbsterstelltes Material zur Verfügung, am besten unter einer Creative-Commons-Lizenz.
-    Wir prüfen deine Empfehlung und teilen dann dein Material."""@de ;
-    skos:narrower <01c46536-d69e-49b1-a49d-ec7cc5f04508>,
-        <12c4cd99-9804-44b5-a81b-e9900a0e3d42>,
-        <19febd4c-c96c-4a08-9fcc-00cb626f8e49>,
-        <5137f3ce-927c-4085-b731-54271c6df347>,
-        <79589113-2330-4a46-9104-6da9edf227ae>,
-        <7b92e3c4-2995-4c25-8c69-c8be4463faff>,
-        <cdf69a29-0886-4fb7-b9f8-39dca4f02e78> ;
-    skos:prefLabel "Deutsch als Zweitsprache"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "Deutsch als Zweitsprache"@de,
-        "Deutsch lernen"@de .
-
 <2b4c089d-47d8-4f94-a20a-ba903ddceead> a skos:Concept ;
     skos:broader <f15f727c-9a5a-4f20-b1be-483c15477648> ;
     skos:definition "Vektoren sind Objekte aus dem Vektorraum, die mit anderen Vektoren addiert (Vektoraddition) und mit Zahlen mulitpliziert (Skalarmultiplikation) werden können. Zusätzlich sind zwei weitere Operatoren definiert: das Vektorprodukt und das Skalarprodukt. Mit diesen vier Operatoren wird unter anderem die Orthogonalität und die Winkel zwischen Vektoren bestimmt."@de ;
@@ -41475,6 +41473,27 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
     skos:prefLabel "Geographie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/220> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
+
+<26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> a skos:Concept ;
+    skos:definition """Herzlich willkommen beim Fachportal für Deutsch als Zweitsprache (DaZ)! Du bist Lehrer*in, Refendar*in, studierst DaZ oder willst dein Deutsch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung.
+
+Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen Unterrichtsmaterialen? Dann bringe dich und dein Wissen ein. Hilf mit, die besten Inhalte für DaZ zu sammeln und zu teilen. Das ist ganz einfach!
+
+    Empfiehl einen freien Inhalt oder stelle der DaZ-Community dein selbsterstelltes Material zur Verfügung, am besten unter einer Creative-Commons-Lizenz.
+    Wir prüfen deine Empfehlung und teilen dann dein Material."""@de ;
+    skos:narrower <01c46536-d69e-49b1-a49d-ec7cc5f04508>,
+        <1174347c-2476-481b-9fb3-15fc16046a6b>,
+        <12c4cd99-9804-44b5-a81b-e9900a0e3d42>,
+        <19febd4c-c96c-4a08-9fcc-00cb626f8e49>,
+        <5137f3ce-927c-4085-b731-54271c6df347>,
+        <79589113-2330-4a46-9104-6da9edf227ae>,
+        <7b92e3c4-2995-4c25-8c69-c8be4463faff>,
+        <cdf69a29-0886-4fb7-b9f8-39dca4f02e78> ;
+    skos:prefLabel "Deutsch als Zweitsprache"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "Deutsch als Zweitsprache"@de,
+        "Deutsch lernen"@de .
 
 <35b9d92c-18dc-429e-bd67-7fe0501958ee> a skos:Concept ;
     skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
@@ -43966,7 +43985,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-18" ;
+    dct:modified "2022-08-19" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
