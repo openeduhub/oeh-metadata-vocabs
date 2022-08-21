@@ -16599,6 +16599,12 @@ Die Chemie überschneidet sich hier mit der Biologie und der Medizin."""@de ;
         "Werbebotschaft"@de,
         "grüne Werbung"@de .
 
+<7ff657a5-9289-4d2e-85fc-4e2f8f99175b> a skos:Concept ;
+    skos:broader <36f8e701-0ce5-4d3d-9a61-78288df5ab73> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Theater im Fachunterricht"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/12002> .
+
 <801578ba-1fb7-4e08-84a2-9556b0ee9f29> a skos:Concept ;
     skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
     skos:definition """Von A bis Z
@@ -35985,28 +35991,6 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
     sdo:keywords "Abstrakte Sprache"@de,
         "Chomsky"@de .
 
-<36f8e701-0ce5-4d3d-9a61-78288df5ab73> a skos:Concept ;
-    skos:broader <7998f334-9311-491e-9a58-72baf2a7efd2> ;
-    skos:definition "Szenen entwickeln, Stücke auf die Bühne bringen und das Ganze mit viel Spaß und Vertrauen in die eigene Gruppe. Spielen und Gestalten sind wichtige Inhalte beim Darstellenden Spiel und Theaterunterricht. Mit Übungen und Impulsen können Schüler*innen Szenen und Stücke gestalten und Mut für den Auftritt vor Publikum sammeln."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <4fa44425-c9a0-4c69-ac30-dba8558fdae8>,
-        <59fccc7a-8b87-41eb-9432-669ca0afa560>,
-        <f72ae122-b382-4228-bfea-36ad56194357> ;
-    skos:prefLabel "Spielen und Gestalten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/12002> ;
-    sdo:keywords "Bildungsserver"@de,
-        "Feedbackkultur"@de,
-        "Gestalten von Szenen"@de,
-        "Gruppenübungen"@de,
-        "Stückgestaltung"@de,
-        "Szenengestaltung"@de,
-        "Theater Padlets"@de,
-        "Theaterideen"@de,
-        "Theaterübungen"@de,
-        "Unterrichtsideen Darstellendes Spiel"@de,
-        "Vertrauensübungen"@de,
-        "Übungssammlungen"@de .
-
 <3757117d-15a3-4a6f-bf8b-92bff1c4e345> a skos:Concept ;
     skos:broader <36256da1-fc4a-4f67-bfb0-e0b365697d07> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -37698,6 +37682,29 @@ Die Industriekultur definiert sich vom Stand des technischen Fortschritts her. D
         "numerals"@de,
         "quantifiers"@de,
         "zählen"@de .
+
+<36f8e701-0ce5-4d3d-9a61-78288df5ab73> a skos:Concept ;
+    skos:broader <7998f334-9311-491e-9a58-72baf2a7efd2> ;
+    skos:definition "Szenen entwickeln, Stücke auf die Bühne bringen und das Ganze mit viel Spaß und Vertrauen in die eigene Gruppe. Spielen und Gestalten sind wichtige Inhalte beim Darstellenden Spiel und Theaterunterricht. Mit Übungen und Impulsen können Schüler*innen Szenen und Stücke gestalten und Mut für den Auftritt vor Publikum sammeln."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4fa44425-c9a0-4c69-ac30-dba8558fdae8>,
+        <59fccc7a-8b87-41eb-9432-669ca0afa560>,
+        <7ff657a5-9289-4d2e-85fc-4e2f8f99175b>,
+        <f72ae122-b382-4228-bfea-36ad56194357> ;
+    skos:prefLabel "Spielen und Gestalten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/12002> ;
+    sdo:keywords "Bildungsserver"@de,
+        "Feedbackkultur"@de,
+        "Gestalten von Szenen"@de,
+        "Gruppenübungen"@de,
+        "Stückgestaltung"@de,
+        "Szenengestaltung"@de,
+        "Theater Padlets"@de,
+        "Theaterideen"@de,
+        "Theaterübungen"@de,
+        "Unterrichtsideen Darstellendes Spiel"@de,
+        "Vertrauensübungen"@de,
+        "Übungssammlungen"@de .
 
 <37691013-3065-42dd-af75-a9aeaaef23f8> a skos:Concept ;
     skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
@@ -43985,7 +43992,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-19" ;
+    dct:modified "2022-08-21" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
