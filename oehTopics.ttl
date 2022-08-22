@@ -17637,6 +17637,8 @@ zur Taktik des Zusammenspiels."""@de ;
 
 <87df2721-2330-4e9a-8566-5bf3f05a7531> a skos:Concept ;
     skos:broader <cfb68751-4a91-42ce-94d0-11d81077042d> ;
+    skos:definition """„Was ist also Wahrheit? Ein bewegliches Heer von Metaphern, Metonymien, Anthropomorphismen, kurz eine Summe von menschlichen Relationen, die, poetisch und rhetorisch gesteigert, übertragen, geschmückt wurden und die nach langem Gebrauch einem Volke fest, kanonisch und verbindlich dünken ...“ (Friedrich Nietzsche: Über Wahrheit und Lüge im außermoralischen Sinne. 1873) 
+Gibt es noch andere Antworten auf die Frage nach Wahrheit und Lüge?"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Umgang mit Wahrheit und Lüge in der zwischenmenschlichen Kommunikation"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -28192,14 +28194,18 @@ durch sieben Akte hin."
 
 <d0f9b777-d7e7-40e7-a3b8-7006aa4b5e12> a skos:Concept ;
     skos:broader <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> ;
+    skos:definition "Mit der Frage nach der Stellung des Menschen in der Welt (oder im 'Kosmos') beschäftigen sich viele Disziplinen, insbesondere die Anthropologie. Die zur Diskussion stehenden Antworten reichen vom Menschen als der „Krone der Schöpfung” bis zum Begriff des „Mängelwesens”."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Der Mensch als Natur- und Kulturwesen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Gehlen"@de,
+    sdo:keywords "Anthropologie"@de,
+        "Gehlen"@de,
         "Kultur"@de,
         "Kulturwesen"@de,
-        "Menschenbild"@de .
+        "Max Scheler"@de,
+        "Menschenbild"@de,
+        "Mängelwesen"@de .
 
 <d116f9b2-1417-4e6c-b533-781a807c2cbe> a skos:Concept ;
     skos:broader <828a1bf2-6943-40c8-878a-20cb94061c2f> ;
@@ -34869,7 +34875,8 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
 
 <074488f0-4af3-46f0-9390-e00d2d294916> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
-    skos:definition "Wie verhält sicher der Mensch gegenüber der Kultur und der Natur? Wie sollte er dies tun?"@de ;
+    skos:definition """Die Antwort auf die Frage aller Fragen: Was der Mensch und was also der Sinn seines Daseins überhaupt ist? hängt zusammen mit der Art und Weise, wie sich der Mensch zwischen und Kultur und Natur einordnen lässt. 
+Aber: Wenn Kultur derjenige Teil von Natur ist, die die Menschen sich zu eigen gemacht haben,  gibt es dann - für ihn - überhaupt noch etwas anderes als Kultur. Das ist mehr als ein Wortspiel oder eine Denkaufgabe!"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <4515a4d8-f324-4386-91ad-142619a5b4d1>,
         <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> ;
