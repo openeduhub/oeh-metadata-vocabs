@@ -18463,6 +18463,7 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 
 <8d8317a7-1c43-4587-9c4e-5c640f5c0e31> a skos:Concept ;
     skos:broader <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> ;
+    skos:definition "Was und wie wir essen ist nicht nur eine Geschmacksfrage, sondern auch ein Stück Weltanschauung. In dem, was wir verzehren und wie wir es tun, spiegelt sich auch unser Verhältnis zur Mitwelt und Umwelt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Bewusster Umgang mit Landwirtschaft und Ernährung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -22850,6 +22851,13 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
 
 <a9f1accf-a35a-45eb-a10c-a1b387ea3f5d> a skos:Concept ;
     skos:broader <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> ;
+    skos:definition """„Natur und Landschaft sind auf Grund ihres eigenen Wertes und als Grundlage für Leben und Gesundheit des Menschen auch in Verantwortung für die künftigen Generationen im besiedelten und unbesiedelten Bereich nach Maßgabe der nachfolgenden Absätze so zu schützen, dass
+1.
+die biologische Vielfalt,
+2.
+die Leistungs- und Funktionsfähigkeit des Naturhaushalts einschließlich der Regenerationsfähigkeit und nachhaltigen Nutzungsfähigkeit der Naturgüter sowie
+3.
+die Vielfalt, Eigenart und Schönheit sowie der Erholungswert von Natur und Landschaft auf Dauer gesichert sind” (§1, Bundesnaturschutzgesetz)"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Naturschutz lokal und global"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -22867,7 +22875,7 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
         "Ontologie"@de,
         "Ozean"@de,
         "Umgang mit der Natur"@de,
-        "Umweltverschnutzung"@de,
+        "Umweltverschmutzung"@de,
         "Ökosystem"@de,
         "Ölologie"@de .
 
@@ -25218,7 +25226,7 @@ plastische Verformbarkeit"""@de,
 
 <bbc0b45d-850b-4887-b219-cd0fc2507de9> a skos:Concept ;
     skos:broader <7e15bd2b-e6a1-4d31-a317-2e7b8a0e7b3a> ;
-    skos:definition "Fragen und Antworten zu Universum, Schöpfung, Raum und Zeit"@de ;
+    skos:definition "„Zwei Dinge erfüllen das Gemüt mit immer neuer und zunehmenden Bewunderung und Ehrfurcht, je öfter und anhaltender sich das Nachdenken damit beschäftigt: Der bestirnte Himmel über mir, und das moralische Gesetz in mir.” (I. Kant: Kritik der praktischen Vernunft. Beschluss. 1788)"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Universum, Schöpfung, Raum und Zeit"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -43992,7 +44000,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-21" ;
+    dct:modified "2022-08-22" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
