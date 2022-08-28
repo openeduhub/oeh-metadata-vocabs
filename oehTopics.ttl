@@ -1764,7 +1764,9 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
     skos:broader <3321013a-7fb8-4a87-b9da-10e99f253714> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Digitales Kulturerbe"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Digitales Kulturerbe"@de,
+        "Grand Challenge"@de .
 
 <0f6cc721-8b56-49c8-9bfc-6cb339a0cba8> a skos:Concept ;
     skos:broader <ec25551f-d1da-45a4-bbd2-48ce8170047d> ;
@@ -5926,7 +5928,9 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <3321013a-7fb8-4a87-b9da-10e99f253714> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Verlässlichkeit von Software"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Grand Challenge"@de,
+        "Verlässlichkeit von Software"@de .
 
 <2dc66655-878b-409f-9dc7-d3b4645474ab> a skos:Concept ;
     skos:broader <ed4bf1e1-96e3-4394-8bc6-41173c0aa2f0> ;
@@ -6802,7 +6806,14 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Kryptoanalyse"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Analyse"@de,
+        "Auswertung"@de,
+        "Entschlüsseln"@de,
+        "Entzifferung"@de,
+        "Geheimtext"@de,
+        "Knacken"@de,
+        "Kryptoanalyse"@de .
 
 <33e0d755-a798-45b6-a908-1d6477fc4fc5> a skos:Concept ;
     skos:broader <6b55ce4d-9a46-4a44-8b71-d45ba9306d80> ;
@@ -9315,7 +9326,12 @@ auf die Lehrkrfat sind Aspekte der Motivation, der Förderung von Entwicklung  u
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Bildschirm"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Ausgabe"@de,
+        "Ausgabegeräte Computer"@de,
+        "Bildschirm"@de,
+        "Monitor"@de,
+        "Screen"@de .
 
 <48ba081b-b725-41d7-9822-0fde3457a512> a skos:Concept ;
     skos:broader <6a1aa6f4-5a29-4d66-94c9-35845524c775> ;
@@ -11906,7 +11922,11 @@ Spielfähigkeit."""@de ;
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Drucker"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Ausgabe"@de,
+        "Ausgabegeräte Computer"@de,
+        "Drucker"@de,
+        "Printer"@de .
 
 <5d41cd3a-7a26-41cf-bde6-f3f09f6d222b> a skos:Concept ;
     skos:broader <b0266720-79f7-4921-8eb7-c42adbb46de9> ;
@@ -14340,7 +14360,8 @@ Spielfähigkeit."""@de ;
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Netzwerkkarten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Netzwerkkarte"@de .
 
 <6e91dd76-c848-420e-a67e-5d57befc5c00> a skos:Concept ;
     skos:broader <91e5b64c-07b0-41b7-8ff3-4319deee61cd> ;
@@ -23194,7 +23215,10 @@ die Vielfalt, Eigenart und Schönheit sowie der Erholungswert von Natur und Land
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Maus"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Eingabe"@de,
+        "Eingabegeräte Computer"@de,
+        "Maus"@de .
 
 <ac37db61-55c8-4df8-8f47-93776f8a8c63> a skos:Concept ;
     skos:broader <c1893399-8b3c-4e62-9de6-1dddf864c88c> ;
@@ -23955,7 +23979,9 @@ Beides sind Fachgebiete, die eine Verbindung zum Bergbau haben."""@de ;
     skos:broader <3321013a-7fb8-4a87-b9da-10e99f253714> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Internet der Zukunft"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Grand Challenge"@de,
+        "Internet der Zukunft"@de .
 
 <b25b4028-ca1a-4965-83dc-548173133bdb> a skos:Concept ;
     skos:broader <16a1e5e3-1125-4731-85bd-75808e948235> ;
@@ -29098,7 +29124,9 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
     skos:broader <3321013a-7fb8-4a87-b9da-10e99f253714> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Systemische Risiken"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Grand Challenge"@de,
+        "Systemische Risiken"@de .
 
 <d7fc9b61-f244-4a16-849a-814e47f5849a> a skos:Concept ;
     skos:broader <0f98878d-4bf8-4ed5-933b-c0ad0d36263e> ;
@@ -31330,7 +31358,9 @@ Oder kann erst im Nachhinein beurteilt werden, was ein glückliches Leben war? K
     skos:broader <d4a8bc18-ee4b-4070-9b95-9873d2be366f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "MariaDB"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Datenbanken"@de,
+        "MariaDB"@de .
 
 <ead640c9-55f9-4d6b-adc5-8e05157ba99a> a skos:Concept ;
     skos:broader <b0266720-79f7-4921-8eb7-c42adbb46de9> ;
@@ -32696,7 +32726,10 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Tastatur"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Eingabe"@de,
+        "Eingabegeräte Computer"@de,
+        "Tastatur"@de .
 
 <f3b45c68-f60d-4ceb-894f-1a0f6baa6851> a skos:Concept ;
     skos:broader <4eb61065-adc0-4a98-857a-e0c898e9f718> ;
@@ -39190,7 +39223,14 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
         <b24cfb1e-0087-4881-9505-78ee72b44ddc>,
         <d7ef68d7-2f6e-4ca6-902e-97bfbeafa941> ;
     skos:prefLabel "Grand Challenges"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Digitales Kulturerbe"@de,
+        "Grand Challenges"@de,
+        "Internet der Zukunft"@de,
+        "Mensch-Computer-Interaktion"@de,
+        "Systemische Risiken"@de,
+        "Verlässlichkeit von Software"@de,
+        "fundamentale Herausforderungen"@de .
 
 <3545e0c4-f4f0-4810-9ad8-ea79511340ac> a skos:Concept ;
     skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
