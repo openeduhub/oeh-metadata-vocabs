@@ -1445,7 +1445,12 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
     skos:broader <4460f820-634b-415c-a404-2889f17c7aca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Zahlen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Binärsystem"@de,
+        "Dualsystem"@de,
+        "Hexadezimalsystem"@de,
+        "Stellenwertsystem"@de,
+        "Zahl"@de .
 
 <0bfde870-03c2-4706-86ec-fe5f19f4a64f> a skos:Concept ;
     skos:broader <5eb63223-6b0d-4b3f-9266-155d1aa7ab01> ;
@@ -3296,7 +3301,12 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
     skos:broader <1a1b8a73-5421-4274-959d-4308582f2561> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Graphalgorithmen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Algorithmen"@de,
+        "Bäume"@de,
+        "Graphalgorithmen"@de,
+        "Graphen"@de,
+        "Netze"@de .
 
 <1bb61102-5257-4287-8bad-6d264fd0f061> a skos:Concept ;
     skos:broader <f4b40e69-b905-47a6-9fdb-dd5c8d2dff9a> ;
@@ -5966,7 +5976,10 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <f39fdc23-f790-4799-afc1-da5d397be740> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Informationelle Selbstbestimmung"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Informationelle"@de,
+        "Informationelle Selbstbestimmung"@de,
+        "Selbstbestimmung"@de .
 
 <2e4f8ccc-3df9-4819-8b97-79b51450c13b> a skos:Concept ;
     skos:broader <cdf69a29-0886-4fb7-b9f8-39dca4f02e78> ;
@@ -16790,7 +16803,10 @@ Die Bewegungskünste beschreiben beispielsweise Bereiche wie das Bewegungstheate
     skos:broader <38c0c48e-f74f-45a5-9b11-e5d7dce526b3> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "TEX / LaTeX"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "LaTeX"@de,
+        "Schriftsatz"@de,
+        "TeX"@de .
 
 <8127e2ed-55e7-42a2-887a-5f9a8448f0c5> a skos:Concept ;
     skos:broader <aa9af959-3a8f-4ca0-a43f-e3213e09fba0> ;
@@ -17137,7 +17153,16 @@ Spielfähigkeit."""@de ;
     skos:broader <f39fdc23-f790-4799-afc1-da5d397be740> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sicherheit im Netz"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Datenschutz"@de,
+        "Firewall"@de,
+        "Internet"@de,
+        "Phishing"@de,
+        "SPAM"@de,
+        "Schutz"@de,
+        "Sicherheit"@de,
+        "Viren"@de,
+        "informationelle Selbstbestimmung"@de .
 
 <8424619d-54d1-433a-b034-e3525bb0cffb> a skos:Concept ;
     skos:broader <21c88efb-1af3-4658-aaec-747a0fdf8889> ;
@@ -20960,7 +20985,15 @@ Noch immer wird Kohle vor allem zur Energiegewinnung genutzt, aber aufgrund der 
     skos:broader <3871cf0a-ba39-4457-b710-c585f892beca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Unix / Linux"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Betriebssystem"@de,
+        "Knoppix"@de,
+        "Linux"@de,
+        "Red Hat"@de,
+        "SuSE"@de,
+        "Ubuntu"@de,
+        "Unix"@de,
+        "Unix / Linux"@de .
 
 <9c77667b-5ad7-4061-9543-0309e869c8fe> a skos:Concept ;
     skos:broader <87948144-a775-4e39-b155-fcff1a6bc2bb> ;
@@ -21418,7 +21451,10 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Symmetrische Verschlüsselung"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Kryptografie"@de,
+        "Symmetrische Verschlüsselung"@de,
+        "Verschlüsselung"@de .
 
 <9fb7dd58-428a-4695-adb9-1bab9ccc47b0> a skos:Concept ;
     skos:broader <1471daf9-4aa3-44ae-8719-5b034c24500d> ;
@@ -25925,7 +25961,10 @@ Wir haben für dich Material gesammelt, dass zeigt wie sich z.B. Künstler*innen
     skos:broader <5b0cc856-e81e-4787-b693-43adb3980197> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Maschinelles Lernen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Deep Learning"@de,
+        "Maschinelles Lernen"@de,
+        "Neuronale Netze"@de .
 
 <c0ed612d-7524-4291-9e3b-f9bdd046b7da> a skos:Concept ;
     skos:broader <6a3f5881-cce0-4e8d-b123-26392b3f1c19> ;
@@ -39395,7 +39434,12 @@ So vielseitig, wie wir es sind, ist es das Theater auch. Hier findest Du die unt
         <f9ea98a6-2840-433d-99ca-b6ca06d3ca95> ;
     skos:prefLabel "Informatik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "Computer Science"@de,
+        "Computerwissenschaft"@de,
+        "EDV"@de,
+        "Informatik"@de,
+        "Informationstechnik"@de .
 
 <7998f334-9311-491e-9a58-72baf2a7efd2> a skos:Concept ;
     skos:definition """Willkommen im Fachportal "Darstellendes Spiel".
@@ -44012,7 +44056,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-22" ;
+    dct:modified "2022-08-28" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
