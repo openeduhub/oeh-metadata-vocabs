@@ -140,7 +140,10 @@
     skos:broader <3871cf0a-ba39-4457-b710-c585f892beca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Windows"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Betriebssystem"@de,
+        "Microsoft"@de,
+        "Windows"@de .
 
 <011277e2-cab4-4433-9e24-08c3fee55ad2> a skos:Concept ;
     skos:broader <c5e37ac5-6a50-4f08-a9fa-61412ba7f474> ;
@@ -1789,7 +1792,8 @@ Dabei liegt die Wahrscheinlichkeit für das Eintreffen eines Ereignisses immer z
     skos:broader <d37dad2f-8838-4143-8667-08b5d082a8c7> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Internet"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Internet"@de .
 
 <0fb5761c-2c20-43bf-8f22-d81c61777bf8> a skos:Concept ;
     skos:broader <5c67ce43-d852-4125-a2bd-6a2c6ca25682> ;
@@ -5742,7 +5746,10 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <cdfa3d09-a605-46d5-b814-f9845a810e1f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Modularität"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Baukastenprinzip"@de,
+        "Bausteinprinzip"@de,
+        "Modularität"@de .
 
 <2ae17c0a-411c-49cc-a9ae-5b2ecb48cbbd> a skos:Concept ;
     skos:broader <ec25551f-d1da-45a4-bbd2-48ce8170047d> ;
@@ -6705,7 +6712,12 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <38c0c48e-f74f-45a5-9b11-e5d7dce526b3> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "XML"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Extensible"@de,
+        "Extensible Markup Language"@de,
+        "Language"@de,
+        "Markup"@de,
+        "XML"@de .
 
 <3324512a-dabe-4a9e-a2d6-4bb0bceaac1a> a skos:Concept ;
     skos:broader <69756a85-a71e-4790-8ed0-6c11bb56aa1d> ;
@@ -7210,7 +7222,10 @@ woher wissen Lehrer, ob ihre Schüler zu wenig, zu viel oder gerade richtig ausg
     skos:broader <d4a8bc18-ee4b-4070-9b95-9873d2be366f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Relationen-Algebren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Algebra"@de,
+        "Relationen"@de,
+        "Relationen-Algebren"@de .
 
 <37cf4635-a0b6-4210-b1e6-14c35d1e6a4b> a skos:Concept ;
     skos:broader <ac6ed6da-9d05-4c42-ac0f-d7eefa3f066f> ;
@@ -9535,7 +9550,13 @@ Zusammenspiel von Verteidigung über Mittelfeld und Angriff."""@de ;
     skos:broader <6d3fe6bf-f43e-4b7d-8585-3ca8f1504277> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Kodierungstheorie"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Fehlererkennung"@de,
+        "Fehlerkorrektur"@de,
+        "Kodierung"@de,
+        "Kodierungsarten"@de,
+        "Kodierungstheorie"@de,
+        "Theorie"@de .
 
 <4be51a6c-de31-41c3-9318-bb3a8229ca5d> a skos:Concept ;
     skos:broader <c97a8c29-75b5-46a2-a328-e2754eca928f> ;
@@ -9794,7 +9815,12 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
     skos:broader <d37dad2f-8838-4143-8667-08b5d082a8c7> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "OSI"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Interconnection"@de,
+        "OSI"@de,
+        "Open"@de,
+        "Referenzmodell"@de,
+        "Systems"@de .
 
 <4db39b69-c309-401f-b362-5bbdda3008fc> a skos:Concept ;
     skos:broader <c6e3cdd4-b184-4b3a-a279-3187fca6404c> ;
@@ -10131,7 +10157,8 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
     skos:broader <1a1b8a73-5421-4274-959d-4308582f2561> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Anwendungen / Beispiele"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Anwendungen"@de .
 
 <50e0b143-c94f-4c78-8375-27e97e28f1dc> a skos:Concept ;
     skos:broader <86b09fdf-f638-496a-8089-c3e2f7a42930> ;
@@ -10294,7 +10321,13 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
     skos:broader <2ed136ac-105f-4a30-add7-f768523bf0d1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "regulär"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Formale Sprachen"@de,
+        "Reguläre Grammatik"@de,
+        "Sprache"@de,
+        "erkennbare Sprache"@de,
+        "regulär"@de,
+        "reguläre Menge"@de .
 
 <5229ab44-2fe4-4d24-a8d2-6a0b91acba03> a skos:Concept ;
     skos:broader <c700a838-aade-447d-aa49-44c34e6991f5> ;
@@ -14748,7 +14781,10 @@ Spielfähigkeit."""@de ;
     skos:broader <4460f820-634b-415c-a404-2889f17c7aca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Hash-Tabellen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Hash"@de,
+        "Hash-Tabelle"@de,
+        "Hashtabelle"@de .
 
 <7191bbd4-b79a-45b4-89d1-c7d7fcea8e60> a skos:Concept ;
     skos:broader <b341e056-1a78-41c0-b42c-489c91159edd> ;
@@ -15228,7 +15264,10 @@ Spielfähigkeit."""@de ;
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "elektronische Signatur"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Email"@de,
+        "Signatur"@de,
+        "signieren"@de .
 
 <75ea9bde-a66a-43bf-aeae-ee06995c84af> a skos:Concept ;
     skos:broader <b0a6c6dd-5ec4-49bb-b606-3b1a5736de51> ;
@@ -17599,7 +17638,9 @@ zur Taktik des Zusammenspiels."""@de ;
     skos:broader <2ed136ac-105f-4a30-add7-f768523bf0d1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "kontextsensitiv"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Formale Sprachen"@de,
+        "kontextsensitiv"@de .
 
 <8792be96-1362-4019-956c-60337457d32f> a skos:Concept ;
     skos:broader <dd15f5a6-f749-4efa-94f5-4f0caf05a95d> ;
@@ -18476,7 +18517,12 @@ Gibt es noch andere Antworten auf die Frage nach Wahrheit und Lüge?"""@de ;
     skos:broader <6d3fe6bf-f43e-4b7d-8585-3ca8f1504277> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Funktionsweise eines Rechners"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Computer"@de,
+        "Funktion"@de,
+        "Funktionsweise"@de,
+        "PC"@de,
+        "Rechner"@de .
 
 <8ceed29d-9031-46ea-b236-d04a0c8eb274> a skos:Concept ;
     skos:broader <1f570f97-4427-4931-a629-954d4d6b40ed> ;
@@ -19196,7 +19242,11 @@ Mapping OER - Bildungsmaterialien gemeinsam gestalten, Atelier Disko, Hamburg un
     skos:broader <2ed136ac-105f-4a30-add7-f768523bf0d1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "kontextfrei"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Formale Sprachen"@de,
+        "Grammatik"@de,
+        "kontextfrei"@de,
+        "kontextfreie Grammatik"@de .
 
 <90e5c9e1-7885-4c5f-95aa-0e5b71842f6b> a skos:Concept ;
     skos:broader <58e66666-162e-4673-804f-a9961136311d> ;
@@ -19683,7 +19733,13 @@ Etwas wagen und verantworten, Das Leisten erfahren, verstehen und einschätzen, 
     skos:broader <f39fdc23-f790-4799-afc1-da5d397be740> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Authentifikation und Verlässlichkeit"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Authentifikation"@de,
+        "Authentifizierung"@de,
+        "Echtheit"@de,
+        "Identitätsüberprüfung"@de,
+        "Unversehrtheit"@de,
+        "Überprüfung"@de .
 
 <94c75e87-0818-4fa9-ba75-c25c59480d65> a skos:Concept ;
     skos:broader <ac6ed6da-9d05-4c42-ac0f-d7eefa3f066f> ;
@@ -23180,7 +23236,9 @@ die Vielfalt, Eigenart und Schönheit sowie der Erholungswert von Natur und Land
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Blockchain"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Bitcoin"@de,
+        "Blockchain"@de .
 
 <abf484fc-6b87-4775-9940-8a71dd46c19a> a skos:Concept ;
     skos:broader <38154eec-b4d4-4889-b33e-9a66a2b2c81d> ;
@@ -26489,7 +26547,8 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:definition "Hinzufügen von zeitverzögerten Rückkopplungen führt zu einem Schaltwerk."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Schaltwerke"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Schaltwerk"@de .
 
 <c431c9f4-ad3f-4280-bcb5-f22fbd5de3f2> a skos:Concept ;
     skos:broader <4874dbbf-dc28-4adf-9bbb-3617ea21c309> ;
@@ -27172,7 +27231,10 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:broader <3d08afb3-6c3f-47df-994c-b3a7e5e3711b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Asymmetrische Verschlüsselung"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Verschlüsselung"@de,
+        "Verschlüsselungsverfahren"@de,
+        "asymmetrische Verschlüsselung"@de .
 
 <c7d86a5b-277a-403b-b2e1-322fc0b53d6f> a skos:Concept ;
     skos:broader <455d7bba-2a81-4ca8-8763-c3c7e0288f29> ;
@@ -30515,7 +30577,8 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
     skos:broader <3871cf0a-ba39-4457-b710-c585f892beca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Shell"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "shell"@de .
 
 <e2a6b355-bfbd-4a3b-b9ad-4d367a927743> a skos:Concept ;
     skos:broader <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> ;
@@ -32558,7 +32621,10 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:broader <d4a8bc18-ee4b-4070-9b95-9873d2be366f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "MySQL"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Datenbank"@de,
+        "MySQL"@de,
+        "relationale Datenbank"@de .
 
 <f1fa8806-5e67-4e6b-8140-2d52ee2cb71e> a skos:Concept ;
     skos:broader <cacbc7bc-833e-4360-90f0-6f828db27508> ;
@@ -34960,7 +35026,8 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <c41f82c2-d5d9-4cb9-973f-a6568f8c3c3f> ;
     skos:prefLabel "Schaltnetze"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Schaltnetz"@de .
 
 <024c1caa-9fc9-4610-92b4-85cad780952d> a skos:Concept ;
     skos:broader <6570853a-fdbc-4de9-a7f0-63eda87d63f4> ;
@@ -36140,7 +36207,9 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         <9c76a698-8268-4e84-90d9-6b50c29999c0>,
         <e29d1b88-25a5-4684-a103-02b5d205fbcb> ;
     skos:prefLabel "Betriebssysteme"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Betriebssystem"@de,
+        "Betriebssysteme"@de .
 
 <388a06f5-954c-47ee-8d7c-03de01d512ec> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
@@ -37243,7 +37312,10 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         <bd34de8d-d084-4e2c-aa7d-e40f2e54e1e8>,
         <c19d969d-8769-4942-a01e-b194dd0b31e4> ;
     skos:prefLabel "Softwaretechnik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Software"@de,
+        "Softwaretechnik"@de,
+        "Technik"@de .
 
 <ce06f9be-23a8-4c3a-af92-41febaad8615> a skos:Concept ;
     skos:broader <fe1ef46e-6145-4a18-8f09-67be97c6a17f> ;
@@ -39096,7 +39168,12 @@ Hier finden sich entsprechen nicht nur die physikalischen und logischen Grundlag
         <ac323d66-2e48-4d35-8d05-a5bc48173e6c>,
         <f372caf7-6a0d-436a-bc46-62f2c736e026> ;
     skos:prefLabel "Peripherie"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Peripherie"@de,
+        "Peripheriegerät"@de,
+        "Zubehör"@de,
+        "Zubehör Computer"@de,
+        "Zusatz"@de .
 
 <220f48a8-4b53-4179-919d-7cd238ed567e> a skos:Concept ;
     skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
@@ -39299,7 +39376,10 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
         <811d4c16-649c-4dd1-97af-ae54dda8b1b0>,
         <fa05a320-2582-4f29-a1f2-333e39213036> ;
     skos:prefLabel "Dokumentenbeschreibung"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Beschreibung"@de,
+        "Dokument"@de,
+        "Dokumentenbeschreibung"@de .
 
 <3a9b7ac1-1418-41e4-a10c-f20f13252fff> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
@@ -42067,7 +42147,9 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
         <7f844974-3cec-4884-8288-da0399fe7d20>,
         <f0fbdb50-3c67-499b-a2db-33619713ed04> ;
     skos:prefLabel "Algorithmen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Algorithmen"@de,
+        "Algorithmus"@de .
 
 <256377d9-ca30-4280-9cfb-64fb4c45a998> a skos:Concept ;
     skos:broader <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e> ;
