@@ -15640,7 +15640,7 @@ Klickt die Materialien der Reihe nach durch. Ihr erhaltet einen Überblick und e
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:definition "Sport hat in allen Ländern der spanischsprachigen Welt einen wichtigen Stellenwert. Viele Sportarten sind international, mache eine Besonderheit ihrer Länder und Regionen. So spielt man im Baskenland das Schlagspiel Pelota und in Katalonien baut man Castells; das sind Menschenpyramiden. Neben den klassischen sportlichen Themen wie Fußball, Tennis, und Formel 1, findest du hier auch ganz andere sportliche Traditionen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Sport"@de ;
+    skos:prefLabel "Sport und Gesundheit"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords " atletismo"@de,
         " esgrima"@de,
@@ -16522,7 +16522,7 @@ Die Schule trägt maßgeblich zur Schwimmausbildung von Kindern bei."""@de ;
 <7f1e31b8-8898-4fac-901b-6d48c776709c> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Deutschland auf Spanisch"@de ;
+    skos:prefLabel "Globales"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Alemania"@de .
 
@@ -44217,7 +44217,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-29" ;
+    dct:modified "2022-08-30" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
