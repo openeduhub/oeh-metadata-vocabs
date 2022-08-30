@@ -6490,7 +6490,12 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
     skos:broader <38c0c48e-f74f-45a5-9b11-e5d7dce526b3> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "HTML"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "HTML"@de,
+        "Hypertext"@de,
+        "Hypertext Markup Language"@de,
+        "Language"@de,
+        "Markup"@de .
 
 <315425b8-599e-493f-98a9-3ecf463467d0> a skos:Concept ;
     skos:broader <a6790e5f-1062-4692-a4ce-8d560d124a4a> ;
@@ -9588,7 +9593,12 @@ Zusammenspiel von Verteidigung über Mittelfeld und Angriff."""@de ;
     skos:broader <d37dad2f-8838-4143-8667-08b5d082a8c7> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "WLAN"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Netzwerk"@de,
+        "WLAN"@de,
+        "WiFi"@de,
+        "Wireless Local Area Network"@de,
+        "drahtlos"@de .
 
 <4c5a5c49-00e5-4a6d-adde-a5f7a2deebe7> a skos:Concept ;
     skos:broader <58e66666-162e-4673-804f-a9961136311d> ;
@@ -14063,7 +14073,11 @@ ausgebildeter Technik und Kondition."""@de ;
     skos:broader <d37dad2f-8838-4143-8667-08b5d082a8c7> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Bluetooth"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Bluetooth"@de,
+        "Datenübertragung"@de,
+        "Funkstandard"@de,
+        "Funktechnik"@de .
 
 <6adc9ac2-2af0-424a-b6fe-57c7bd1c0f3b> a skos:Concept ;
     skos:broader <34ba4af6-510e-477d-bf11-df0a77e75d32> ;
@@ -21882,7 +21896,10 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
     skos:broader <3321013a-7fb8-4a87-b9da-10e99f253714> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Mensch-Computer-Interaktion"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Computer"@de,
+        "Interaktion"@de,
+        "Mensch"@de .
 
 <a188f17a-5705-4a30-bd42-ae39d6ed0432> a skos:Concept ;
     skos:broader <256377d9-ca30-4280-9cfb-64fb4c45a998> ;
@@ -32514,7 +32531,9 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     skos:broader <4460f820-634b-415c-a404-2889f17c7aca> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Zeichenketten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Strings"@de,
+        "Zeichenketten"@de .
 
 <f129a31b-5c32-4db6-afa4-d08fbc0f2a50> a skos:Concept ;
     skos:broader <7fbb64dd-ed80-44da-9ef1-6d2474802145> ;
@@ -33852,7 +33871,9 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
     skos:broader <38c0c48e-f74f-45a5-9b11-e5d7dce526b3> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Style Sheets"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "CSS"@de,
+        "Style Sheets"@de .
 
 <fa24ecae-4390-49a0-b2ad-52a80c7b3e77> a skos:Concept ;
     skos:broader <8841e193-e8f6-410b-a315-52935506b962> ;
@@ -36367,7 +36388,8 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         <b476d935-ea2f-426e-9019-60a8894413ba>,
         <c2da56ef-1be7-463e-b954-5d498fd3e703> ;
     skos:prefLabel "Anwendungen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Anwendungen"@de .
 
 <4dc04d83-824a-4b20-bc5d-d7402e385ae1> a skos:Concept ;
     skos:broader <66c667bc-8777-4c57-b476-35f54ce9ff5d> ;
@@ -38465,7 +38487,12 @@ periodische Vorgänge auf."""@de .
         <d7529a27-5191-49dc-9a0a-a77f8e399d44>,
         <f96a0a66-8d09-4f07-844f-c6263ed7b9a4> ;
     skos:prefLabel "Automaten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Automaten"@de,
+        "DEA"@de,
+        "Kellerautomat"@de,
+        "NEA"@de,
+        "Turingmaschine"@de .
 
 <9fc49e0f-753b-4a39-a6a1-6856ad88d0fd> a skos:Concept ;
     skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
@@ -38777,7 +38804,9 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <4da6f9f8-d9fa-4511-bb93-2e64143f5d27>,
         <6abc0449-ecdf-4005-9485-b574efbbc381> ;
     skos:prefLabel "Netzwerke / OSI"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
+    sdo:keywords "Netzwerke"@de,
+        "OSI"@de .
 
 <d4280d4a-6cf7-4afc-8d14-4f2118cb4a5f> a skos:Concept ;
     skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
