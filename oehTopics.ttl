@@ -18920,6 +18920,13 @@ Positives Recht wird dasjenige Recht geheißen, das sich eine Gemeinschaft oder 
     sdo:keywords "Rechenvorteile"@de,
         "vorteilhaftes Rechnen"@de .
 
+<8f8a47eb-f839-47d9-9c4f-fd0ef8e00096> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:definition "Tourismuskonzepte, Ökotourismus, Massentourismus, Hotelerie, Bausünden"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Tourismus"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> .
+
 <8fa1c129-f547-40d0-aa91-1e4467313fd1> a skos:Concept ;
     skos:broader <aa4d67c5-3701-400d-bd00-a749b76cf234> ;
     skos:definition "Chemische Reaktionen lassen sich mit Hilfe von Reaktionsgleichungen genau beschreiben. Mit entsprechenden Veranschaulichungen wird das verständlicher. Das Aufstellen und Ausgleichen von Reaktionsgleichungen  erfordert jedoch Übung. Möglichkeiten, dies zu üben, finden sich hier."@de ;
@@ -19369,6 +19376,13 @@ Mapping OER - Bildungsmaterialien gemeinsam gestalten, Atelier Disko, Hamburg un
         "Ort"@de,
         "Ortssatz"@de,
         "adverbiale Nebensätze"@de .
+
+<924b2d1c-506d-4298-b93a-261361baf317> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:definition "Soziale Netzwerke, Homeoffice, neue Berufsfelder, Mobbing,  Cybermobbing,  el ciberacoso"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Digitalisierung und Medien"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> .
 
 <924f866b-2b4a-4bfe-8391-9d94c3779ddb> a skos:Concept ;
     skos:broader <34ba4af6-510e-477d-bf11-df0a77e75d32> ;
@@ -24547,6 +24561,14 @@ Epikur"""@de ;
         "lexique sens"@de,
         "vocabulaire sens"@de .
 
+<b59c54e3-2a90-42ae-b9e7-c59cd68e480f> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Kinderarbeit und Kinderarmut"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "pobreza"@de,
+        "pobreza infantil"@de .
+
 <b5b0907d-92aa-43d8-bfec-d10d7bef786d> a skos:Concept ;
     skos:broader <3dffbe33-ad32-481a-9fc2-b65c1b12854c> ;
     skos:definition "In dieser Untersammlung finden sich Unterrichtsmaterialien zum Thema Genregulation und -expression."@de ;
@@ -27494,6 +27516,14 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "medio ambiente ELE"@de,
         "naturaleza"@de,
         "naturaleza ELE"@de .
+
+<ca21b449-2f49-4e5c-b291-cad79a01b236> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Jugend und Jugendkultur"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "cultura juvenil"@de,
+        "jóvenes"@de .
 
 <ca5a3030-f830-45e2-88eb-2b32883a9888> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
@@ -33935,7 +33965,7 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
 <fb12bfc5-aa98-4126-a883-27a441459a24> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Länder, Leute und Begegnungen"@de ;
+    skos:prefLabel "Länder und Städte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Argentina ELE"@de,
         "Bolivia ELE"@de,
@@ -44022,6 +44052,48 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Liedarten"@de,
         "Liedformen"@de .
 
+<19febd4c-c96c-4a08-9fcc-00cb626f8e49> a skos:Concept ;
+    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
+    skos:definition "Die deutsche Wortschatz umfasst nach Schätzungen des Duden zwischen 300.000 und 500.000 Wörter. Aber keine Sorge, Muttersprachler*innen benutzen nur zwischen 12.000 bis 16.000 davon aktiv. Dennoch gilt: Je mehr Wörter auch du aktiv beherrschst, desto besser kannst du sprechen, schreiben und lesen. Deshalb haben wir dir hier wichtigen Grund- und Aufbauwortschatz nach Themenbereichen zusammengestellt. Mit abwechslungsreichen Inhalten kannst du deinen Wortschatz wiederholen, festigen und erweitern. Egal, ob online oder offline."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <02a2009d-2958-4a2b-8dc8-9720f29f6d89>,
+        <24847eeb-e4cf-464f-af10-5a0f8739ce79>,
+        <2a17539e-0803-4801-a318-a5a9eb31af92>,
+        <2dfe67f2-8240-4984-895c-4820d1433f9f>,
+        <52e91b5d-f5b2-4e2c-b540-b0dd8dce3dc7>,
+        <617ff546-4786-42e3-b2f8-262d43f6d111>,
+        <7263f538-c304-4626-b1ca-1ae7feba4cd5>,
+        <76e74e92-9392-412a-a3f7-168daa58d730>,
+        <79652aac-f25a-4713-9473-e15b565dafc1>,
+        <801578ba-1fb7-4e08-84a2-9556b0ee9f29>,
+        <81dbdf0e-c20d-481e-a0f9-ebbbb0abc2bd>,
+        <83803aa6-8fee-4a7c-bfaf-2dcde93a3d3d>,
+        <89dec7c3-d92c-456d-a0b0-b8b61a7625c9>,
+        <93d95ced-8323-4245-980a-bc8b1ee0c0b2>,
+        <9dd70c89-5582-4fac-9fe9-b7f37d4a0770>,
+        <a35df500-1633-4fed-aeae-c8b0da892437>,
+        <a3b2e4f2-a063-4c32-b39a-98a36e3f7b4c>,
+        <c5d22e90-78f0-4a7a-8c39-241e1e2134aa>,
+        <c93fb1ef-8663-4007-9ad4-66cfe4d52018>,
+        <cb4da717-e9c4-487f-a403-514dc14e5d8e>,
+        <d84d768a-8416-431c-9313-bc43f8c23bb1>,
+        <dfdd8b43-515c-442f-8368-3fff062395ef>,
+        <e48f527b-e8c1-4505-9a1d-324f616d5196>,
+        <e75a9243-2a8e-4782-8091-3ca23edc8247>,
+        <ef6a3593-4eec-4af5-b602-1b477716fada>,
+        <f20be8fd-942f-4c6c-962f-bdd504831dd4> ;
+    skos:prefLabel "Wortschatz"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Basiswortschatz"@de,
+        "Grundwortschatz"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatz lernen"@de,
+        "Wortschatzerwerb"@de,
+        "thematischer Wortschatz"@de .
+
 <66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
     skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
@@ -44038,12 +44110,16 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <7f1e31b8-8898-4fac-901b-6d48c776709c>,
         <809e6e11-647d-439c-a0bd-9ca96f93c688>,
         <8df9cdbc-ce65-46b2-af0c-5961747f79d0>,
+        <8f8a47eb-f839-47d9-9c4f-fd0ef8e00096>,
+        <924b2d1c-506d-4298-b93a-261361baf317>,
         <9f535d31-3d07-40cf-8f51-d372640f3876>,
         <a2f28fb9-a7be-4daa-abac-d915f7fefae6>,
         <a380aaab-0979-49e1-b833-617a042b66bd>,
+        <b59c54e3-2a90-42ae-b9e7-c59cd68e480f>,
         <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
         <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
         <c7687b10-a19d-456a-92dd-4d60222cef20>,
+        <ca21b449-2f49-4e5c-b291-cad79a01b236>,
         <d0031907-072e-413a-b1f2-d5a67c28a578>,
         <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
         <df9a83da-57b7-4cb5-a4e8-81d23a0c4bad>,
@@ -44089,48 +44165,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "soziokulturelles Orientierungswissen Spanien"@de,
         "tradiciones ELE"@de,
         "variedades del español"@de .
-
-<19febd4c-c96c-4a08-9fcc-00cb626f8e49> a skos:Concept ;
-    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
-    skos:definition "Die deutsche Wortschatz umfasst nach Schätzungen des Duden zwischen 300.000 und 500.000 Wörter. Aber keine Sorge, Muttersprachler*innen benutzen nur zwischen 12.000 bis 16.000 davon aktiv. Dennoch gilt: Je mehr Wörter auch du aktiv beherrschst, desto besser kannst du sprechen, schreiben und lesen. Deshalb haben wir dir hier wichtigen Grund- und Aufbauwortschatz nach Themenbereichen zusammengestellt. Mit abwechslungsreichen Inhalten kannst du deinen Wortschatz wiederholen, festigen und erweitern. Egal, ob online oder offline."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <02a2009d-2958-4a2b-8dc8-9720f29f6d89>,
-        <24847eeb-e4cf-464f-af10-5a0f8739ce79>,
-        <2a17539e-0803-4801-a318-a5a9eb31af92>,
-        <2dfe67f2-8240-4984-895c-4820d1433f9f>,
-        <52e91b5d-f5b2-4e2c-b540-b0dd8dce3dc7>,
-        <617ff546-4786-42e3-b2f8-262d43f6d111>,
-        <7263f538-c304-4626-b1ca-1ae7feba4cd5>,
-        <76e74e92-9392-412a-a3f7-168daa58d730>,
-        <79652aac-f25a-4713-9473-e15b565dafc1>,
-        <801578ba-1fb7-4e08-84a2-9556b0ee9f29>,
-        <81dbdf0e-c20d-481e-a0f9-ebbbb0abc2bd>,
-        <83803aa6-8fee-4a7c-bfaf-2dcde93a3d3d>,
-        <89dec7c3-d92c-456d-a0b0-b8b61a7625c9>,
-        <93d95ced-8323-4245-980a-bc8b1ee0c0b2>,
-        <9dd70c89-5582-4fac-9fe9-b7f37d4a0770>,
-        <a35df500-1633-4fed-aeae-c8b0da892437>,
-        <a3b2e4f2-a063-4c32-b39a-98a36e3f7b4c>,
-        <c5d22e90-78f0-4a7a-8c39-241e1e2134aa>,
-        <c93fb1ef-8663-4007-9ad4-66cfe4d52018>,
-        <cb4da717-e9c4-487f-a403-514dc14e5d8e>,
-        <d84d768a-8416-431c-9313-bc43f8c23bb1>,
-        <dfdd8b43-515c-442f-8368-3fff062395ef>,
-        <e48f527b-e8c1-4505-9a1d-324f616d5196>,
-        <e75a9243-2a8e-4782-8091-3ca23edc8247>,
-        <ef6a3593-4eec-4af5-b602-1b477716fada>,
-        <f20be8fd-942f-4c6c-962f-bdd504831dd4> ;
-    skos:prefLabel "Wortschatz"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Basiswortschatz"@de,
-        "Grundwortschatz"@de,
-        "Wortschatz"@de,
-        "Wortschatz DaF"@de,
-        "Wortschatz DaZ"@de,
-        "Wortschatz Deutsch"@de,
-        "Wortschatz lernen"@de,
-        "Wortschatzerwerb"@de,
-        "thematischer Wortschatz"@de .
 
 <21c88efb-1af3-4658-aaec-747a0fdf8889> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
