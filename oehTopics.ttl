@@ -9981,9 +9981,11 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
 <4f955835-0719-4e17-bc84-749fe978ebfb> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Multikulturalität und Gesellschaft"@de ;
+    skos:prefLabel "Politik, Gesellschaft und Multikulturalität"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "sociedad"@de .
+    sdo:keywords "multiculturalidad"@de,
+        "política"@de,
+        "sociedad"@de .
 
 <4f963480-fe52-46d7-9c60-6e6733a560a7> a skos:Concept ;
     skos:broader <5fdf019e-96d7-45df-b764-eefad19342d3> ;
@@ -14547,10 +14549,13 @@ Spielfähigkeit."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Geschichte Spaniens und Hispanoamerikas"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Guerra Civil ELE"@de,
+    sdo:keywords "Francisco Franco"@de,
+        "Guerra Civil"@de,
+        "Guerra Civil ELE"@de,
         "conquista ELE"@de,
         "historia de España"@de,
         "historia de Hispanoamérica"@de,
+        "la guerra civil"@de,
         "soziokulturelles Orientierungswissen Hispanoamerika"@de,
         "soziokulturelles Orientierungswissen Spanien"@de .
 
@@ -27184,23 +27189,6 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "les Grandes Écoles France"@de,
         "éducation en France"@de .
 
-<c7687b10-a19d-456a-92dd-4d60222cef20> a skos:Concept ;
-    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Las diversas caras del turismo en España"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Las diversas caras del turismo en España"@de,
-        "Turismo"@de,
-        "Turismo low cost"@de,
-        "ecoturismo"@de,
-        "ecoturismo ambiental"@de,
-        "los problemas de la turismofobia"@de,
-        "turismo"@de,
-        "turismo de masas"@de,
-        "turismo en España"@de,
-        "turismo masivo en barcelona"@de,
-        "turismofobia"@de .
-
 <c76e49a5-0706-4499-b487-c860ab984434> a skos:Concept ;
     skos:broader <4ae22039-a537-4844-889d-fef98a865156> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -33996,7 +33984,7 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
 <fb12bfc5-aa98-4126-a883-27a441459a24> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Länder und Städte"@de ;
+    skos:prefLabel "Länder, Regionen und Städte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Argentina ELE"@de,
         "Bolivia ELE"@de,
@@ -44114,7 +44102,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <a380aaab-0979-49e1-b833-617a042b66bd>,
         <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
         <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
-        <c7687b10-a19d-456a-92dd-4d60222cef20>,
         <ca21b449-2f49-4e5c-b291-cad79a01b236>,
         <d0031907-072e-413a-b1f2-d5a67c28a578>,
         <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
