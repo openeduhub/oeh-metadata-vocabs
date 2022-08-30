@@ -21652,6 +21652,17 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
         "persönliche Entwicklung und Erfahrung"@de,
         "persönliche Gottesvorstellung"@de .
 
+<a01c2656-e4da-469a-8b97-5553f79040f8> a skos:Concept ;
+    skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
+    skos:definition "Der Begriff Bionik setzt sich aus den Wörtern Biologie und Technik zusammen.  Die Natur fungiert als Vorbild für technische Erfindungen, die uns Menschen das Leben leichter machen. Das beste Alltagsbeispiel ist der Klettverschluss, der von den Früchten der Gemeinen Klette inspiriert wurde."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Bionik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Biologie"@de,
+        "Biomimetik"@de,
+        "Bionik"@de,
+        "Technik"@de .
+
 <a03cdd01-417f-480e-b5ea-eb2f75edb49d> a skos:Concept ;
     skos:broader <dd9f5080-c9b5-4698-9567-090c52b4126a> ;
     skos:definition "In dieser Untersammlung finden sich Materialien zu den Themen Soziobiologie und Verhaltensökologie."@de ;
@@ -42910,26 +42921,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     sdo:keywords "Prozentrechnung"@de,
         "Zinsrechnung"@de .
 
-<15fce411-54d9-467f-8f35-61ea374a298d> a skos:Concept ;
-    skos:definition "Sammlung von Lern- und Lehrmaterialien für das Fach Biologie über alle Bildungsstufen hinweg"@de ;
-    skos:narrower <220f48a8-4b53-4179-919d-7cd238ed567e>,
-        <2e674483-0eae-4088-b51a-c4f4bbf86bcc>,
-        <3545e0c4-f4f0-4810-9ad8-ea79511340ac>,
-        <4eef82bf-fb7b-437c-ba30-4e51003680f8>,
-        <5780f825-0d8d-4473-903f-6fe4eec137f8>,
-        <6a7e03c7-c71a-4e7d-a271-11a3831ee364>,
-        <71c2c2ca-ae71-433a-83e9-06de518f4ae1>,
-        <873d62a5-362b-4b58-a618-28d4dec06324>,
-        <8cf78f3b-92ba-47a5-b500-ad8b720fc513>,
-        <d55d6139-982a-472b-ad78-ded266ce8a25>,
-        <dd9f5080-c9b5-4698-9567-090c52b4126a> ;
-    skos:prefLabel "Biologie"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "Biologie"@de,
-        "Lehrmaterialien"@de,
-        "Lernmaterialien"@de .
-
 <1fbba233-e176-406f-901f-636e8a99d60f> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -43097,6 +43088,27 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     sdo:keywords "Schlagwort"@de,
         "Sport"@de,
         "Sportlich"@de .
+
+<15fce411-54d9-467f-8f35-61ea374a298d> a skos:Concept ;
+    skos:definition "Sammlung von Lern- und Lehrmaterialien für das Fach Biologie über alle Bildungsstufen hinweg"@de ;
+    skos:narrower <220f48a8-4b53-4179-919d-7cd238ed567e>,
+        <2e674483-0eae-4088-b51a-c4f4bbf86bcc>,
+        <3545e0c4-f4f0-4810-9ad8-ea79511340ac>,
+        <4eef82bf-fb7b-437c-ba30-4e51003680f8>,
+        <5780f825-0d8d-4473-903f-6fe4eec137f8>,
+        <6a7e03c7-c71a-4e7d-a271-11a3831ee364>,
+        <71c2c2ca-ae71-433a-83e9-06de518f4ae1>,
+        <873d62a5-362b-4b58-a618-28d4dec06324>,
+        <8cf78f3b-92ba-47a5-b500-ad8b720fc513>,
+        <a01c2656-e4da-469a-8b97-5553f79040f8>,
+        <d55d6139-982a-472b-ad78-ded266ce8a25>,
+        <dd9f5080-c9b5-4698-9567-090c52b4126a> ;
+    skos:prefLabel "Biologie"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "Biologie"@de,
+        "Lehrmaterialien"@de,
+        "Lernmaterialien"@de .
 
 <4940d5da-9b21-4ec0-8824-d16e0409e629> a skos:Concept ;
     skos:definition "Bild-Quelle und -Lizenz: Bild von deepakrit auf Pixabay"@de ;
