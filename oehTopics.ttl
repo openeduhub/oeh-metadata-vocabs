@@ -15625,13 +15625,14 @@ Klickt die Materialien der Reihe nach durch. Ihr erhaltet einen Überblick und e
 
 <78ccb153-8a8e-4ff4-92b6-36aa4abe311a> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:definition "Sport hat in allen Ländern der spanischsprachigen Welt einen wichtigen Stellenwert. Viele Sportarten sind international, mache eine Besonderheit ihrer Länder und Regionen. So spielt man im Baskenland das Schlagspiel Pelota und in Katalonien baut man Castells; das sind Menschenpyramiden. Neben den klassischen sportlichen Themen wie Fußball, Tennis, und Formel 1, findest du hier auch ganz andere sportliche Traditionen."@de ;
+    skos:definition "Sport ist gesund und hält fit. Das ist bekannt. Auch in den Ländern der spanischsprachigen Welt hat Sport einen wichtigen Stellenwert. Viele Sportarten sind international, manche eine Besonderheit ihrer Länder und Regionen. So spielt man im Baskenland das Schlagspiel Pelota und in Katalonien baut man Castells; das sind Menschenpyramiden. Neben den klassischen Sportarten, wie Fußball, Tennis und Formel 1, findest du hier auch ganz andere sportliche Traditionen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Sport und Gesundheit"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords " atletismo"@de,
         " esgrima"@de,
         " pelota vasca"@de,
+        "Castells"@de,
         "Deportes ELE"@de,
         "EURO"@de,
         "Eurocopa"@de,
@@ -15641,13 +15642,18 @@ Klickt die Materialien der Reihe nach durch. Ihr erhaltet einen Überblick und e
         "Sport Spanien"@de,
         "baloncesto"@de,
         "balonmano"@de,
+        "castells"@de,
         "ciclismo"@de,
+        "deporte y salud"@de,
         "deportes "@de,
         "deportes de motor"@de,
         "fútbol"@de,
         "gimnasia rítmica"@de,
+        "hacer deporte"@de,
         "natación"@de,
-        "tenis"@de .
+        "salud"@de,
+        "tenis"@de,
+        "vida saludable ELE"@de .
 
 <78fc1989-5e5a-427a-ba02-feba313e5554> a skos:Concept ;
     skos:broader <455d7bba-2a81-4ca8-8763-c3c7e0288f29> ;
@@ -16779,7 +16785,10 @@ Was bedeutet das Wort? Damit diese Frage immer beantwortet werden kann, sind hie
     skos:prefLabel "Flucht und Migration"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Arbeitsmigration"@de,
+        "Emigración"@de,
+        "Emigración a Alemania"@de,
         "Emigration"@de,
+        "Estados Unidos"@de,
         "Flucht"@de,
         "Flucht und Vertreibung"@de,
         "Fluchtursachen"@de,
@@ -16787,8 +16796,19 @@ Was bedeutet das Wort? Damit diese Frage immer beantwortet werden kann, sind hie
         "Landeskunde Spanien"@de,
         "Migration"@de,
         "Migrationspolitik"@de,
+        "emigración"@de,
+        "emigración de España"@de,
+        "emigrantes"@de,
+        "emigrar a Alemania"@de,
+        "inmigración"@de,
+        "inmigración a Alemania"@de,
+        "inmigración ilegal"@de,
+        "inmigrante"@de,
+        "jóvenes emigrantes"@de,
+        "migración hacia Estados Unidos"@de,
         "soziokulturelles Orientierungswissen Hispanoamerika"@de,
-        "soziokulturelles Orientierungswissen Spanien"@de .
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "trabajadores inmigrantes"@de .
 
 <80b35209-2138-4666-b676-15c736712d41> a skos:Concept ;
     skos:broader <e61912b0-5424-49f5-a3e6-b7891820e23a> ;
@@ -18669,25 +18689,6 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
         "recordar acordarse"@de,
         "saber conocer"@de,
         "verbos de movimiento"@de .
-
-<8df9cdbc-ce65-46b2-af0c-5961747f79d0> a skos:Concept ;
-    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "España, país de inmigración y emigración"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords " inmigración"@de,
-        " inmigración y emigración"@de,
-        "Emigración a Alemania"@de,
-        "España"@de,
-        "emigración"@de,
-        "emigración de España"@de,
-        "emigrantes"@de,
-        "emigrar a Alemania"@de,
-        "inmigración"@de,
-        "inmigración a Alemania"@de,
-        "inmigración ilegal"@de,
-        "inmigrante"@de,
-        "jóvenes emigrantes"@de .
 
 <8dfb199e-af0c-46df-9798-a6755603cab7> a skos:Concept ;
     skos:broader <e5f2fbcf-0609-49fc-9025-b882a06e72ef> ;
@@ -43940,33 +43941,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Plastik"@de,
         "Street Art"@de .
 
-<5560a33a-e514-404f-be8a-bb5b3bee0235> a skos:Concept ;
-    skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <05860cc3-3d99-46ff-a854-fd5c370c25d8>,
-        <07f02390-7b5b-4bba-9d38-02a429014f73>,
-        <0d45e01f-53d3-407e-8277-ec9b9f637f3a>,
-        <1db2f58f-0426-4939-885b-9c4c2783e4f7>,
-        <28a9e979-a4b7-43d2-aa5e-c27550fb63e3>,
-        <30a36912-fe83-4c0a-9e44-f8158ae857e6>,
-        <47800949-ae55-4a74-984f-8d60365e9d68>,
-        <4ccec089-90fa-47ef-8ce9-9f63a77adb15>,
-        <5fce7c53-829a-4211-85a1-12c3f5092d1e>,
-        <630d2a29-a5fc-4445-8ae4-76ce68e22cee>,
-        <7708d8c6-4c99-4b42-abcf-a6da02391ae8>,
-        <9cff9c41-014d-4531-81a2-6399a6a68a07>,
-        <a0b3bb33-c85a-4ca8-816f-f92f0f1aa168>,
-        <a22d1fea-8c01-4199-a576-77ef7e075353>,
-        <a9c88022-f462-47ff-bbd3-ae4fea189eff>,
-        <ba1a8270-0607-460f-ba72-392d0306d1c1>,
-        <baaea1c6-2f0a-4d3e-ad6f-0706d7cc1f90>,
-        <cb6f06d3-7ca6-4d60-a079-9b7f9994a6a7>,
-        <d0c16980-d8c1-4590-920b-a6735cf6b240>,
-        <de8611c8-709e-4e50-a525-fd8d6cca3f86>,
-        <e937d193-3bff-4b7c-8618-51847a155c02> ;
-    skos:prefLabel "Verben"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
-
 <66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
     skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Geschichte, ihre Gesellschaft und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
@@ -43979,7 +43953,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <78ccb153-8a8e-4ff4-92b6-36aa4abe311a>,
         <7f1e31b8-8898-4fac-901b-6d48c776709c>,
         <809e6e11-647d-439c-a0bd-9ca96f93c688>,
-        <8df9cdbc-ce65-46b2-af0c-5961747f79d0>,
         <8f8a47eb-f839-47d9-9c4f-fd0ef8e00096>,
         <924b2d1c-506d-4298-b93a-261361baf317>,
         <9f535d31-3d07-40cf-8f51-d372640f3876>,
@@ -44045,6 +44018,33 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "soziokulturelles Orientierungswissen Spanien"@de,
         "tradiciones ELE"@de,
         "variedades del español"@de .
+
+<5560a33a-e514-404f-be8a-bb5b3bee0235> a skos:Concept ;
+    skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <05860cc3-3d99-46ff-a854-fd5c370c25d8>,
+        <07f02390-7b5b-4bba-9d38-02a429014f73>,
+        <0d45e01f-53d3-407e-8277-ec9b9f637f3a>,
+        <1db2f58f-0426-4939-885b-9c4c2783e4f7>,
+        <28a9e979-a4b7-43d2-aa5e-c27550fb63e3>,
+        <30a36912-fe83-4c0a-9e44-f8158ae857e6>,
+        <47800949-ae55-4a74-984f-8d60365e9d68>,
+        <4ccec089-90fa-47ef-8ce9-9f63a77adb15>,
+        <5fce7c53-829a-4211-85a1-12c3f5092d1e>,
+        <630d2a29-a5fc-4445-8ae4-76ce68e22cee>,
+        <7708d8c6-4c99-4b42-abcf-a6da02391ae8>,
+        <9cff9c41-014d-4531-81a2-6399a6a68a07>,
+        <a0b3bb33-c85a-4ca8-816f-f92f0f1aa168>,
+        <a22d1fea-8c01-4199-a576-77ef7e075353>,
+        <a9c88022-f462-47ff-bbd3-ae4fea189eff>,
+        <ba1a8270-0607-460f-ba72-392d0306d1c1>,
+        <baaea1c6-2f0a-4d3e-ad6f-0706d7cc1f90>,
+        <cb6f06d3-7ca6-4d60-a079-9b7f9994a6a7>,
+        <d0c16980-d8c1-4590-920b-a6735cf6b240>,
+        <de8611c8-709e-4e50-a525-fd8d6cca3f86>,
+        <e937d193-3bff-4b7c-8618-51847a155c02> ;
+    skos:prefLabel "Verben"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
 
 <86b09fdf-f638-496a-8089-c3e2f7a42930> a skos:Concept ;
     skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
@@ -44263,7 +44263,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-30" ;
+    dct:modified "2022-08-31" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
