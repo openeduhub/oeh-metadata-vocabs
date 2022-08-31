@@ -1106,6 +1106,31 @@
         "Freiwilligendienst"@de,
         "Work & Travel"@de .
 
+<087fcc96-f7be-4de3-9835-63fadf79e90f> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Bilingualismus"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "Asturias"@de,
+        "Barcelona – capital polifacética de una comunidad bilingüe"@de,
+        "Baskenland"@de,
+        "Bilingualismus"@de,
+        "Cataluña"@de,
+        "El bilingüismo en la sociedad española"@de,
+        "Galicia"@de,
+        "Galicien"@de,
+        "Hispanoamérica ELE"@de,
+        "Katalonien"@de,
+        "País Vasco"@de,
+        "Zweisprachigkeit"@de,
+        "bilingüismo"@de,
+        "castellano"@de,
+        "catalán"@de,
+        "gallego"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "vasco"@de .
+
 <089688c5-1ff2-4890-a87b-3f2e25d0792a> a skos:Concept ;
     skos:broader <e68627d7-5cb8-45b4-a2ff-e65d258ddbdd> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -27607,8 +27632,33 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Jugend und Jugendkultur"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "cultura juvenil"@de,
-        "jóvenes"@de .
+    sdo:keywords "Día Internacional de la Juventud"@de,
+        "Erasmus plus"@de,
+        "Erasmus+"@de,
+        "INJUVE"@de,
+        "Landeskunde Lateinamerika"@de,
+        "Landeskunde Spanien"@de,
+        "autonomía"@de,
+        "cultura juvenil"@de,
+        "educación inclusiva"@de,
+        "emancipación"@de,
+        "empleo digno"@de,
+        "juventud"@de,
+        "juventud española"@de,
+        "jóvenens españoles"@de,
+        "jóvenes"@de,
+        "jóvenes emigrantes"@de,
+        "jóvenes en España"@de,
+        "jóvenes sin perspectiva"@de,
+        "migración"@de,
+        "mileuristas"@de,
+        "movilidad juvenil"@de,
+        "revistas de juventud"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "tribus urbanas"@de,
+        "violencia de género"@de,
+        "vivienda"@de .
 
 <ca5a3030-f830-45e2-88eb-2b32883a9888> a skos:Concept ;
     skos:broader <2d34688d-00b6-47f7-8522-31909c2671b4> ;
@@ -43905,11 +43955,68 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Organik"@de,
         "Organische Chemie"@de .
 
+<2e8b863e-9e71-4c96-b281-e50c431815c3> a skos:Concept ;
+    skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
+    skos:definition "Hier findest du tolle Materialien zu wichtigem Wortschatz nach Themen geordnet."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <0aab06ac-f59b-4e6c-b4f6-04dec8a8eb89>,
+        <35c6b75c-49f2-4616-a30f-80c477d01613>,
+        <42add866-db90-45dc-af15-2eae12eca7bb>,
+        <4eb61065-adc0-4a98-857a-e0c898e9f718>,
+        <510f80d2-4a1f-4f5b-87fc-642c2f2f03f4>,
+        <5d72d0a2-e731-4358-ae72-e39d37edd5d5>,
+        <5dc1e0ef-b7fb-46c3-bc47-23c31a77ddd0>,
+        <6b461160-f4de-49ae-89a0-16684752c7a6>,
+        <87948144-a775-4e39-b155-fcff1a6bc2bb>,
+        <9cd0e0f9-1642-4eb4-92d9-a815e4133ad1>,
+        <ad19725e-8a37-4030-8b0a-d3cd9e2726a6>,
+        <af9dfac3-a166-46c1-a3fc-245abafb9669>,
+        <b3c51b37-f7bf-49e3-8c2f-ce17f7fbf9e9>,
+        <b74a70f8-e66c-4845-8349-dcb39d27e2ea>,
+        <d1414e5e-4b9d-4a5a-93e0-18dc6761cdea>,
+        <dd19ef09-8128-4174-9064-3e35c445d868>,
+        <e3254311-0c34-4388-9967-7e2c9a432a7e>,
+        <f684bcd6-54d8-425a-99c3-ce715a0fc6a8>,
+        <f7331863-fd8b-4707-946d-7c8035946b93> ;
+    skos:prefLabel "Wortschatz"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> ;
+    sdo:keywords "Wortschatz Wohnen"@de .
+
+<58e66666-162e-4673-804f-a9961136311d> a skos:Concept ;
+    skos:broader <e126a8c7-fc46-4686-969b-5230f7732015> ;
+    skos:definition "Literatur meint alle sprachlich fixierten Überlieferungen, wobei künstlerisch gestaltete Werke maßgeblich sind. In der Literaturgeschichte wird die Historie der Texte näher betrachtet und gemeinsame Merkmale den jeweiligen Entstehungszeiten in Epochen zugeordnet."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4c5a5c49-00e5-4a6d-adde-a5f7a2deebe7>,
+        <4ffe8231-7bc8-4e3e-a0f2-e444af38e932>,
+        <61fb59cb-ff81-4e7f-9f23-af8da90d6b93>,
+        <730b9a46-99dd-4f2a-a70d-64ff2ecdbc00>,
+        <795706d6-cc43-4fd9-8c58-7132fd8927df>,
+        <8707ce13-3f56-4162-9456-66730dd2d422>,
+        <90e5c9e1-7885-4c5f-95aa-0e5b71842f6b>,
+        <952647e6-793b-4f87-9357-6db0f7a2309c>,
+        <9622d8f9-5ea9-4be7-a455-a5976c7654fd>,
+        <9c279c09-c97f-41fe-8125-907a3c992a7d>,
+        <aca968d3-4835-4581-b253-3f752372116d>,
+        <c4dd8943-7b57-4e96-90b7-0ee91433a079>,
+        <c9333323-15bb-49fa-bac9-cd5bc3562a17>,
+        <cf1b568b-112c-4253-9a64-7fec10887735>,
+        <dd385d8b-fca3-47bc-ad64-214fcbbca272>,
+        <e434ef05-e1b5-4730-ab17-26bec189a418>,
+        <f5ddcca1-5868-40cc-a4f5-29fd1f8e1450>,
+        <f7b13ebc-e389-497a-accf-3a19a1bee6dd>,
+        <fa711361-4df7-4dd8-bb1e-3cf07710cca7> ;
+    skos:prefLabel "Literaturgeschichte"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Der Prozess"@de,
+        "Die Verwandlung"@de,
+        "Kafka"@de .
+
 <66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
-    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Geschichte, ihre Gesellschaft und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
+    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Kulturen.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte und pflegt eigene Bräuche und Traditionen. Du willst alles das kennenlernen oder mehr darüber wissen? Auch über Politik, Gesellschaft und Zeitgeschehen. Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <36dc1142-0454-45b2-bc18-25f4b9b36904>,
+    skos:narrower <087fcc96-f7be-4de3-9835-63fadf79e90f>,
+        <36dc1142-0454-45b2-bc18-25f4b9b36904>,
         <4f955835-0719-4e17-bc84-749fe978ebfb>,
         <57286ea3-4a6f-40c0-9725-25ff7885ca05>,
         <5cd5f199-3639-43c5-8ab6-6ed5aad30493>,
@@ -43980,62 +44087,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "soziokulturelles Orientierungswissen Spanien"@de,
         "tradiciones ELE"@de,
         "variedades del español"@de .
-
-<2e8b863e-9e71-4c96-b281-e50c431815c3> a skos:Concept ;
-    skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
-    skos:definition "Hier findest du tolle Materialien zu wichtigem Wortschatz nach Themen geordnet."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <0aab06ac-f59b-4e6c-b4f6-04dec8a8eb89>,
-        <35c6b75c-49f2-4616-a30f-80c477d01613>,
-        <42add866-db90-45dc-af15-2eae12eca7bb>,
-        <4eb61065-adc0-4a98-857a-e0c898e9f718>,
-        <510f80d2-4a1f-4f5b-87fc-642c2f2f03f4>,
-        <5d72d0a2-e731-4358-ae72-e39d37edd5d5>,
-        <5dc1e0ef-b7fb-46c3-bc47-23c31a77ddd0>,
-        <6b461160-f4de-49ae-89a0-16684752c7a6>,
-        <87948144-a775-4e39-b155-fcff1a6bc2bb>,
-        <9cd0e0f9-1642-4eb4-92d9-a815e4133ad1>,
-        <ad19725e-8a37-4030-8b0a-d3cd9e2726a6>,
-        <af9dfac3-a166-46c1-a3fc-245abafb9669>,
-        <b3c51b37-f7bf-49e3-8c2f-ce17f7fbf9e9>,
-        <b74a70f8-e66c-4845-8349-dcb39d27e2ea>,
-        <d1414e5e-4b9d-4a5a-93e0-18dc6761cdea>,
-        <dd19ef09-8128-4174-9064-3e35c445d868>,
-        <e3254311-0c34-4388-9967-7e2c9a432a7e>,
-        <f684bcd6-54d8-425a-99c3-ce715a0fc6a8>,
-        <f7331863-fd8b-4707-946d-7c8035946b93> ;
-    skos:prefLabel "Wortschatz"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> ;
-    sdo:keywords "Wortschatz Wohnen"@de .
-
-<58e66666-162e-4673-804f-a9961136311d> a skos:Concept ;
-    skos:broader <e126a8c7-fc46-4686-969b-5230f7732015> ;
-    skos:definition "Literatur meint alle sprachlich fixierten Überlieferungen, wobei künstlerisch gestaltete Werke maßgeblich sind. In der Literaturgeschichte wird die Historie der Texte näher betrachtet und gemeinsame Merkmale den jeweiligen Entstehungszeiten in Epochen zugeordnet."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <4c5a5c49-00e5-4a6d-adde-a5f7a2deebe7>,
-        <4ffe8231-7bc8-4e3e-a0f2-e444af38e932>,
-        <61fb59cb-ff81-4e7f-9f23-af8da90d6b93>,
-        <730b9a46-99dd-4f2a-a70d-64ff2ecdbc00>,
-        <795706d6-cc43-4fd9-8c58-7132fd8927df>,
-        <8707ce13-3f56-4162-9456-66730dd2d422>,
-        <90e5c9e1-7885-4c5f-95aa-0e5b71842f6b>,
-        <952647e6-793b-4f87-9357-6db0f7a2309c>,
-        <9622d8f9-5ea9-4be7-a455-a5976c7654fd>,
-        <9c279c09-c97f-41fe-8125-907a3c992a7d>,
-        <aca968d3-4835-4581-b253-3f752372116d>,
-        <c4dd8943-7b57-4e96-90b7-0ee91433a079>,
-        <c9333323-15bb-49fa-bac9-cd5bc3562a17>,
-        <cf1b568b-112c-4253-9a64-7fec10887735>,
-        <dd385d8b-fca3-47bc-ad64-214fcbbca272>,
-        <e434ef05-e1b5-4730-ab17-26bec189a418>,
-        <f5ddcca1-5868-40cc-a4f5-29fd1f8e1450>,
-        <f7b13ebc-e389-497a-accf-3a19a1bee6dd>,
-        <fa711361-4df7-4dd8-bb1e-3cf07710cca7> ;
-    skos:prefLabel "Literaturgeschichte"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
-    sdo:keywords "Der Prozess"@de,
-        "Die Verwandlung"@de,
-        "Kafka"@de .
 
 <b782e351-6450-4c29-bf69-07dd4fea06fb> a skos:Concept ;
     skos:broader <6a3f5881-cce0-4e8d-b123-26392b3f1c19> ;
