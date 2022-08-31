@@ -25189,8 +25189,32 @@ Weiterführende Materialien finden sich im Fachportal Chemie unter <a href="http
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Literatur, Film und Theater"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Literatur Lateinamerika"@de,
+    sdo:keywords "Almudena Grandes"@de,
+        "Antonio Banderas"@de,
+        "Antonio Skármeta"@de,
+        "Arturo Pérez-Reverte"@de,
+        "Eduardo Mendoza"@de,
+        "Ernesto Sábato"@de,
+        "Federico García Lorca (Author)"@de,
+        "Gabriel García Márquez"@de,
+        "García Lorca"@de,
+        "García Márquez"@de,
+        "Hispanoamerika"@de,
+        "Horacio Quiroga"@de,
+        "Isabel Allende"@de,
+        "Julio Cortázar"@de,
+        "La composición Skármeta"@de,
+        "Literatur Lateinamerika"@de,
         "Literatur Spanien "@de,
+        "Mario Vargas Llosa"@de,
+        "Miguel de Cervantes"@de,
+        "Octavio Paz"@de,
+        "Pablo Neruda"@de,
+        "Penelope Cruz"@de,
+        "Popol Vuh"@de,
+        "Pérez-Reverte"@de,
+        "Rosa Montero"@de,
+        "Siglo de Oro"@de,
         "Spanish literature, Literatura española, Spanish American literature, Literatura hispanoamericana, Hispanic literature, Literatura Hispana, , "@de,
         "cinema"@de,
         "cuentos"@de,
@@ -25199,6 +25223,9 @@ Weiterführende Materialien finden sich im Fachportal Chemie unter <a href="http
         "novela"@de,
         "pelis"@de,
         "película ELE"@de,
+        "realidad chilena en la literatura"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
         "teatro"@de,
         "teatro español"@de .
 
@@ -28174,27 +28201,6 @@ Aus philosophischer Sicht ergeben sich daraus Fragen nach der Selbstbestimmtheit
         "Schulden"@de,
         "Schuldenbremse"@de .
 
-<d0031907-072e-413a-b1f2-d5a67c28a578> a skos:Concept ;
-    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Barcelona - capital de una comunidad bilingüe"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Barcelona"@de,
-        "Barcelona ELE"@de,
-        "Barcelona – capital polifacética de una comunidad bilingüe"@de,
-        "Catalunya"@de,
-        "Cataluña"@de,
-        "Cataluña y el catalán"@de,
-        "FC Barcelona"@de,
-        "Wortschatz Barcelona"@de,
-        "barcelona"@de,
-        "capital polifacética"@de,
-        "catalunya"@de,
-        "catalán"@de,
-        "comunidad bilingüe"@de,
-        "fc barcelona"@de,
-        "turismo masivo en barcelona"@de .
-
 <d0095c99-3d13-47e8-bcea-e57dfd4a8b56> a skos:Concept ;
     skos:broader <33ce727a-9dca-418d-ae11-624f71dcb05d> ;
     skos:definition "Der einfachste Stromkreis besteht aus einer Spannungsquelle wie zum Beispiel einer Batterie, zwei Kabeln und einem Verbraucher. Als Verbraucher kann beispielsweise eine Glühlampe genutzt werden. Stück für Stück lassen sich darauf aufbauend mehrere Verbraucher und Kabel in den Stromkreis integrieren. Mehrere Verbraucher lassen sich dann sowohl in Reihe als auch parallel schalten und dem entsprechend Reihenschaltungen und Parallelschaltungen voneinander unterscheiden."@de ;
@@ -30248,23 +30254,6 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
         "Konjunktiv 1 der Vergangenheit"@de,
         "Konjunktiv I"@de,
         "indirekte Rede"@de .
-
-<df9a83da-57b7-4cb5-a4e8-81d23a0c4bad> a skos:Concept ;
-    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Chile – país, historia y literatura de Skármeta"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Antonio Skármeta"@de,
-        "Chile"@de,
-        "Chile (Landeskunde)"@de,
-        "Chile: la memoria histórica en la literatura dramática"@de,
-        "La realidad chilena en la literatura de Antonio Skármeta"@de,
-        "Landeskunde Spanien"@de,
-        "Spanisch La composición Skármeta Chile"@de,
-        "chile"@de,
-        "cuento"@de,
-        "novela"@de,
-        "soziokulturelles Orientierungswissen Hispanoamerika"@de .
 
 <dfdd8b43-515c-442f-8368-3fff062395ef> a skos:Concept ;
     skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
@@ -43851,6 +43840,82 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Organik"@de,
         "Organische Chemie"@de .
 
+<66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
+    skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
+    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Geschichte, ihre Gesellschaft und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <36dc1142-0454-45b2-bc18-25f4b9b36904>,
+        <4f955835-0719-4e17-bc84-749fe978ebfb>,
+        <57286ea3-4a6f-40c0-9725-25ff7885ca05>,
+        <5cd5f199-3639-43c5-8ab6-6ed5aad30493>,
+        <6f30e5db-9ea5-4c00-83a2-2b65e5096b29>,
+        <78ccb153-8a8e-4ff4-92b6-36aa4abe311a>,
+        <7f1e31b8-8898-4fac-901b-6d48c776709c>,
+        <809e6e11-647d-439c-a0bd-9ca96f93c688>,
+        <8f8a47eb-f839-47d9-9c4f-fd0ef8e00096>,
+        <924b2d1c-506d-4298-b93a-261361baf317>,
+        <9f535d31-3d07-40cf-8f51-d372640f3876>,
+        <a2f28fb9-a7be-4daa-abac-d915f7fefae6>,
+        <a380aaab-0979-49e1-b833-617a042b66bd>,
+        <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
+        <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
+        <ca21b449-2f49-4e5c-b291-cad79a01b236>,
+        <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
+        <fb12bfc5-aa98-4126-a883-27a441459a24> ;
+    skos:prefLabel "Interkulturelles"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords " Navidad ELE"@de,
+        " Sanfermines ELE"@de,
+        " Varietäten des Spanischen"@de,
+        " habla juvenil"@de,
+        " indigene Sprachen Einfluss Spanisch"@de,
+        " lenguas indígenas ELE"@de,
+        " lunfardo Argentina ELE"@de,
+        " peninsulares Spanisch"@de,
+        "Carnaval ELE"@de,
+        "Fallas de Valencia ELE"@de,
+        "Feste Spanien"@de,
+        "Geographie Hispanoamerika"@de,
+        "Geographie Spanien"@de,
+        "Guerra Civil ELE"@de,
+        "San Juan ELE"@de,
+        "Semana Santa ELE"@de,
+        "Tomatina ELE"@de,
+        "Traditionen Spanien"@de,
+        "cabalgata de Reyes ELE"@de,
+        "caló España ELE"@de,
+        "chicano estados unidos ELE"@de,
+        "cine ELE"@de,
+        "conquista ELE"@de,
+        "cultura"@de,
+        "cultura ELE"@de,
+        "cultura y tradiciones"@de,
+        "deportes de invierno"@de,
+        "deportes en español"@de,
+        "español México"@de,
+        "español de Argentina"@de,
+        "español de Cuba"@de,
+        "español de México"@de,
+        "español peninsular"@de,
+        "fiestas ELE"@de,
+        "fiestas Hispanoamérica"@de,
+        "fiestas de San Fermín"@de,
+        "fiestas de españa"@de,
+        "geografía España"@de,
+        "geografía Hispanoamérica"@de,
+        "guerra"@de,
+        "habla jóvenes España"@de,
+        "historia"@de,
+        "historia de España"@de,
+        "historia de Hispanoamérica"@de,
+        "la guerra civil"@de,
+        "películas ELE"@de,
+        "sociedad"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "tradiciones ELE"@de,
+        "variedades del español"@de .
+
 <2e8b863e-9e71-4c96-b281-e50c431815c3> a skos:Concept ;
     skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
     skos:definition "Hier findest du tolle Materialien zu wichtigem Wortschatz nach Themen geordnet."@de ;
@@ -43940,84 +44005,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Performance"@de,
         "Plastik"@de,
         "Street Art"@de .
-
-<66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
-    skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
-    skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Geschichte, ihre Gesellschaft und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <36dc1142-0454-45b2-bc18-25f4b9b36904>,
-        <4f955835-0719-4e17-bc84-749fe978ebfb>,
-        <57286ea3-4a6f-40c0-9725-25ff7885ca05>,
-        <5cd5f199-3639-43c5-8ab6-6ed5aad30493>,
-        <6f30e5db-9ea5-4c00-83a2-2b65e5096b29>,
-        <78ccb153-8a8e-4ff4-92b6-36aa4abe311a>,
-        <7f1e31b8-8898-4fac-901b-6d48c776709c>,
-        <809e6e11-647d-439c-a0bd-9ca96f93c688>,
-        <8f8a47eb-f839-47d9-9c4f-fd0ef8e00096>,
-        <924b2d1c-506d-4298-b93a-261361baf317>,
-        <9f535d31-3d07-40cf-8f51-d372640f3876>,
-        <a2f28fb9-a7be-4daa-abac-d915f7fefae6>,
-        <a380aaab-0979-49e1-b833-617a042b66bd>,
-        <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
-        <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
-        <ca21b449-2f49-4e5c-b291-cad79a01b236>,
-        <d0031907-072e-413a-b1f2-d5a67c28a578>,
-        <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
-        <df9a83da-57b7-4cb5-a4e8-81d23a0c4bad>,
-        <fb12bfc5-aa98-4126-a883-27a441459a24> ;
-    skos:prefLabel "Interkulturelles"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords " Navidad ELE"@de,
-        " Sanfermines ELE"@de,
-        " Varietäten des Spanischen"@de,
-        " habla juvenil"@de,
-        " indigene Sprachen Einfluss Spanisch"@de,
-        " lenguas indígenas ELE"@de,
-        " lunfardo Argentina ELE"@de,
-        " peninsulares Spanisch"@de,
-        "Carnaval ELE"@de,
-        "Fallas de Valencia ELE"@de,
-        "Feste Spanien"@de,
-        "Geographie Hispanoamerika"@de,
-        "Geographie Spanien"@de,
-        "Guerra Civil ELE"@de,
-        "San Juan ELE"@de,
-        "Semana Santa ELE"@de,
-        "Tomatina ELE"@de,
-        "Traditionen Spanien"@de,
-        "cabalgata de Reyes ELE"@de,
-        "caló España ELE"@de,
-        "chicano estados unidos ELE"@de,
-        "cine ELE"@de,
-        "conquista ELE"@de,
-        "cultura"@de,
-        "cultura ELE"@de,
-        "cultura y tradiciones"@de,
-        "deportes de invierno"@de,
-        "deportes en español"@de,
-        "español México"@de,
-        "español de Argentina"@de,
-        "español de Cuba"@de,
-        "español de México"@de,
-        "español peninsular"@de,
-        "fiestas ELE"@de,
-        "fiestas Hispanoamérica"@de,
-        "fiestas de San Fermín"@de,
-        "fiestas de españa"@de,
-        "geografía España"@de,
-        "geografía Hispanoamérica"@de,
-        "guerra"@de,
-        "habla jóvenes España"@de,
-        "historia"@de,
-        "historia de España"@de,
-        "historia de Hispanoamérica"@de,
-        "la guerra civil"@de,
-        "películas ELE"@de,
-        "sociedad"@de,
-        "soziokulturelles Orientierungswissen Hispanoamerika"@de,
-        "soziokulturelles Orientierungswissen Spanien"@de,
-        "tradiciones ELE"@de,
-        "variedades del español"@de .
 
 <5560a33a-e514-404f-be8a-bb5b3bee0235> a skos:Concept ;
     skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
