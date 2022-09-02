@@ -28321,6 +28321,27 @@ Aus philosophischer Sicht ergeben sich daraus Fragen nach der Selbstbestimmtheit
         "Schulden"@de,
         "Schuldenbremse"@de .
 
+<d0031907-072e-413a-b1f2-d5a67c28a578> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Barcelona - capital de una comunidad bilingüe"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "Barcelona"@de,
+        "Barcelona ELE"@de,
+        "Barcelona – capital polifacética de una comunidad bilingüe"@de,
+        "Catalunya"@de,
+        "Cataluña"@de,
+        "Cataluña y el catalán"@de,
+        "FC Barcelona"@de,
+        "Wortschatz Barcelona"@de,
+        "barcelona"@de,
+        "capital polifacética"@de,
+        "catalunya"@de,
+        "catalán"@de,
+        "comunidad bilingüe"@de,
+        "fc barcelona"@de,
+        "turismo masivo en barcelona"@de .
+
 <d0095c99-3d13-47e8-bcea-e57dfd4a8b56> a skos:Concept ;
     skos:broader <33ce727a-9dca-418d-ae11-624f71dcb05d> ;
     skos:definition "Der einfachste Stromkreis besteht aus einer Spannungsquelle wie zum Beispiel einer Batterie, zwei Kabeln und einem Verbraucher. Als Verbraucher kann beispielsweise eine Glühlampe genutzt werden. Stück für Stück lassen sich darauf aufbauend mehrere Verbraucher und Kabel in den Stromkreis integrieren. Mehrere Verbraucher lassen sich dann sowohl in Reihe als auch parallel schalten und dem entsprechend Reihenschaltungen und Parallelschaltungen voneinander unterscheiden."@de ;
@@ -44016,6 +44037,40 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "Die Verwandlung"@de,
         "Kafka"@de .
 
+<b782e351-6450-4c29-bf69-07dd4fea06fb> a skos:Concept ;
+    skos:broader <6a3f5881-cce0-4e8d-b123-26392b3f1c19> ;
+    skos:definition "Kunst erfindet sich immer wieder neu. Klassische Kunstgattungen wie Druckgrafik oder Malerei werden um neue Gattungen ergänzt. Mit moderner Technik wie Virtual Reality (VR) können wir Kunst hautnah und mitreißend erleben. Installationen oder Performances geben ganz neue Perspektiven auf Kunst. Hier findest du auch Materialien zu Kunsttechniken."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <194f7e45-45e8-4e9f-aaba-e1d02bbb37fa>,
+        <275059ef-5082-4b4e-80aa-25b0028a36a4>,
+        <3012508a-321a-45f1-838b-5cd2f45f1745>,
+        <440cc4b4-44ba-40d5-add3-db130164009d>,
+        <47efdf14-edda-454e-ad3a-a59f4a3b07b9>,
+        <4aa1b1cb-9251-4a1d-9ac7-2881426cb1e6>,
+        <4d8c5fec-8690-4c87-89ae-4fcae2ce90ea>,
+        <5719aec9-1998-413f-9d4d-4ed2ad7be66c>,
+        <580b07b8-f494-4682-aab6-dfac355d2094>,
+        <6922b635-ff52-4585-987e-2810b3f11878>,
+        <71d5ee4f-cd3f-4911-8cae-3b377b60570a>,
+        <79d8ce69-3652-4008-ba15-a2e415ce716e>,
+        <85c21a6f-5c85-4dbd-9627-6af96f0ed931>,
+        <a4cd8855-0b3e-4181-bb27-81d9b42dc402>,
+        <af03d168-0975-43b2-88ce-75216c8c7fb7>,
+        <b99bbfef-f17b-4bb5-9f17-b442fbfb3dce>,
+        <e9b9dd36-99bc-442a-bf24-fb0b13f61223>,
+        <f9307671-6e9a-41df-8b16-2dd9de43d536>,
+        <fe1d4c5c-3067-4c5d-8b90-a2d3f5dfcd22> ;
+    skos:prefLabel "Kunstgattungen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/060> ;
+    sdo:keywords "Collage"@de,
+        "Grafik"@de,
+        "Illustration"@de,
+        "Installation"@de,
+        "Malerei"@de,
+        "Performance"@de,
+        "Plastik"@de,
+        "Street Art"@de .
+
 <66f30caf-e218-4802-9013-bdbbab22c19b> a skos:Concept ;
     skos:broader <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b> ;
     skos:definition "Zur spanischen Sprache gehören auch die Menschen und ihre Kulturen.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte und pflegt eigene Bräuche und Traditionen. Du willst alles das kennenlernen oder mehr darüber wissen? Auch über Politik, Gesellschaft und Zeitgeschehen. Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."@de ;
@@ -44037,6 +44092,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
         <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
         <ca21b449-2f49-4e5c-b291-cad79a01b236>,
+        <d0031907-072e-413a-b1f2-d5a67c28a578>,
         <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
         <fb12bfc5-aa98-4126-a883-27a441459a24> ;
     skos:prefLabel "Interkulturelles"@de ;
@@ -44092,40 +44148,6 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         "soziokulturelles Orientierungswissen Spanien"@de,
         "tradiciones ELE"@de,
         "variedades del español"@de .
-
-<b782e351-6450-4c29-bf69-07dd4fea06fb> a skos:Concept ;
-    skos:broader <6a3f5881-cce0-4e8d-b123-26392b3f1c19> ;
-    skos:definition "Kunst erfindet sich immer wieder neu. Klassische Kunstgattungen wie Druckgrafik oder Malerei werden um neue Gattungen ergänzt. Mit moderner Technik wie Virtual Reality (VR) können wir Kunst hautnah und mitreißend erleben. Installationen oder Performances geben ganz neue Perspektiven auf Kunst. Hier findest du auch Materialien zu Kunsttechniken."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <194f7e45-45e8-4e9f-aaba-e1d02bbb37fa>,
-        <275059ef-5082-4b4e-80aa-25b0028a36a4>,
-        <3012508a-321a-45f1-838b-5cd2f45f1745>,
-        <440cc4b4-44ba-40d5-add3-db130164009d>,
-        <47efdf14-edda-454e-ad3a-a59f4a3b07b9>,
-        <4aa1b1cb-9251-4a1d-9ac7-2881426cb1e6>,
-        <4d8c5fec-8690-4c87-89ae-4fcae2ce90ea>,
-        <5719aec9-1998-413f-9d4d-4ed2ad7be66c>,
-        <580b07b8-f494-4682-aab6-dfac355d2094>,
-        <6922b635-ff52-4585-987e-2810b3f11878>,
-        <71d5ee4f-cd3f-4911-8cae-3b377b60570a>,
-        <79d8ce69-3652-4008-ba15-a2e415ce716e>,
-        <85c21a6f-5c85-4dbd-9627-6af96f0ed931>,
-        <a4cd8855-0b3e-4181-bb27-81d9b42dc402>,
-        <af03d168-0975-43b2-88ce-75216c8c7fb7>,
-        <b99bbfef-f17b-4bb5-9f17-b442fbfb3dce>,
-        <e9b9dd36-99bc-442a-bf24-fb0b13f61223>,
-        <f9307671-6e9a-41df-8b16-2dd9de43d536>,
-        <fe1d4c5c-3067-4c5d-8b90-a2d3f5dfcd22> ;
-    skos:prefLabel "Kunstgattungen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/060> ;
-    sdo:keywords "Collage"@de,
-        "Grafik"@de,
-        "Illustration"@de,
-        "Installation"@de,
-        "Malerei"@de,
-        "Performance"@de,
-        "Plastik"@de,
-        "Street Art"@de .
 
 <5560a33a-e514-404f-be8a-bb5b3bee0235> a skos:Concept ;
     skos:broader <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
@@ -44371,7 +44393,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-08-31" ;
+    dct:modified "2022-09-02" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
