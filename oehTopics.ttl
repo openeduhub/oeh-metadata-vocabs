@@ -7145,14 +7145,37 @@ woher wissen Lehrer, ob ihre Schüler zu wenig, zu viel oder gerade richtig ausg
 <36dc1142-0454-45b2-bc18-25f4b9b36904> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Natur und Umwelt"@de ;
+    skos:prefLabel "Umwelt, Klimawandel und Zukunftsentwürfe"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "crisis climática"@de,
+    sdo:keywords "Cambio climático"@de,
+        "Klimawandel"@de,
+        "Nachhaltigkeit"@de,
+        "Recycling"@de,
+        "calentamiento global"@de,
+        "cambio climático"@de,
+        "contaminación"@de,
+        "contaminación del agua"@de,
+        "contaminación del aire"@de,
+        "crisis climática"@de,
+        "deforestación"@de,
+        "electricidad renovable"@de,
+        "envases reciclables"@de,
+        "envases reutilizables"@de,
+        "extinción"@de,
+        "globale Krisen"@de,
+        "islas de plástico"@de,
         "medioambiente"@de,
         "medioambiente ELE"@de,
         "naturaleza"@de,
+        "pesticidas"@de,
+        "plástico"@de,
+        "pérdida de biodiversidad"@de,
+        "reciclaje"@de,
+        "sostenibilidad"@de,
         "soziokulturelles Orientierungswissen Hispanoamerika"@de,
-        "soziokulturelles Orientierungswissen Spanien"@de .
+        "soziokulturelles Orientierungswissen Spanien"@de,
+        "sustentabilidad"@de,
+        "transporte público"@de .
 
 <36f6b8e5-2283-4fb5-a233-da518608605b> a skos:Concept ;
     skos:broader <91752e44-5e0d-49c1-a715-d3012314a531> ;
@@ -27619,7 +27642,7 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     skos:broader <21c88efb-1af3-4658-aaec-747a0fdf8889> ;
     skos:definition "„Hay que proteger la naturaleza y el medioambiente.“ Auf unserer Erde hängt alles miteinander zusammen und trotzdem neigt der Mensch dazu, die Dinge aus dem Gleichgewicht zu bringen und unwiderruflich zu zerstören. Hier findest du Inhalte, die dir den Wortschatz rund und Umwelt(schutz) und Natur(schutz) näher bringen, damit du auch auf Spanisch einen Beitrag leisten kannst."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Umwelt- und Naturschutz"@de ;
+    skos:prefLabel "Umwelt und Natur"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Naturschutz Spanisch"@de,
         "Umwelt Spanisch"@de,
