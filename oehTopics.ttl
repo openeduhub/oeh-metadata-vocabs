@@ -7860,11 +7860,13 @@ Der Begriff bedeutet so viel wie „Nicht-Ort“. Utopische Gesellschaftsordnung
 
 <3d43355d-c2d1-4710-bd42-e4c8edb336d0> a skos:Concept ;
     skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
+    skos:definition "De omnibus dubitandum est - an allem soll/muss/darf gezweifelt werden."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Skepsis und Ekletik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Cicero"@de .
+    sdo:keywords "Rene Descartes"@de,
+        "Sören Kierkegaard"@de .
 
 <3d5db29e-53e7-4455-93e7-2b7db4210b84> a skos:Concept ;
     skos:broader <0a62a10e-374a-46e2-a7d6-0c6954e755c0> ;
@@ -44416,7 +44418,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-09-03" ;
+    dct:modified "2022-09-06" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
