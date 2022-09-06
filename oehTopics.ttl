@@ -7860,12 +7860,14 @@ Der Begriff bedeutet so viel wie „Nicht-Ort“. Utopische Gesellschaftsordnung
 
 <3d43355d-c2d1-4710-bd42-e4c8edb336d0> a skos:Concept ;
     skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
-    skos:definition "De omnibus dubitandum est - an allem soll/muss/darf gezweifelt werden."@de ;
+    skos:definition """De omnibus dubitandum est - an allem soll/muss/darf gezweifelt werden:
+Diogenes, Descartes, Kiergegard ..."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Skepsis und Ekletik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Rene Descartes"@de,
+    sdo:keywords "Diogenes"@de,
+        "Rene Descartes"@de,
         "Sören Kierkegaard"@de .
 
 <3d5db29e-53e7-4455-93e7-2b7db4210b84> a skos:Concept ;
@@ -29604,23 +29606,6 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
         "Tonsschritt"@de,
         "Tonwiederholung"@de .
 
-<d8fd6631-83b2-4308-8d9a-2e30844908dd> a skos:Concept ;
-    skos:broader <3a9b7ac1-1418-41e4-a10c-f20f13252fff> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Hellenistische Philosophie"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/240>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Aristoteles"@de,
-        "Epikur"@de,
-        "Kyniker"@de,
-        "Marc Aurel"@de,
-        "Peripatetiker"@de,
-        "Platon"@de,
-        "Seneca"@de,
-        "Sokrates"@de,
-        "Stoa"@de .
-
 <d92f9cea-6503-40d1-a2e1-3c28b4984210> a skos:Concept ;
     skos:broader <f5412664-8f86-4718-b29d-63552e0c910f> ;
     skos:definition "hier sind Materialien zu Löhnen und zur Arbeitsproduktivität aufgelistet"@de ;
@@ -38142,6 +38127,25 @@ Die Industriekultur definiert sich vom Stand des technischen Fortschritts her. D
     skos:prefLabel "Gottesvorstellungen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
 
+<3a9b7ac1-1418-41e4-a10c-f20f13252fff> a skos:Concept ;
+    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <3d43355d-c2d1-4710-bd42-e4c8edb336d0>,
+        <906e474d-3e65-443f-93a5-02560116acee>,
+        <90a2fada-93a1-447e-85fe-117e1fe8b11d>,
+        <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
+    skos:prefLabel "Antike"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Aristoteles"@de,
+        "Epikur"@de,
+        "Platon"@de,
+        "Sokrates"@de,
+        "Sophistik"@de,
+        "Stoa"@de,
+        "Vorsokratiker"@de .
+
 <3d2e9d02-348d-4f51-bb5c-6ed0fdeddcb6> a skos:Concept ;
     skos:broader <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e> ;
     skos:definition "Elektrizität und Magnetismus - zwei auf den ersten Blick sehr unterschiedliche Themen - hängen doch physikalisch betrachtet eng zusammen. Magneten haften an verschiedenen Materialien (und an anderen nicht) - und sind ein beliebtes Kinderspielzeug. Elektrische Geräte und Schaltungen umgeben uns täglich und erleichtern unseren Alltag. Die Physik hilft nicht nur, beide Themenbereiche besser zu verstehen, die elektromagnetische Wechselwirkung ist sogar eine der vier Grundkräfte der Physik."@de ;
@@ -39581,26 +39585,6 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
     sdo:keywords "Beschreibung"@de,
         "Dokument"@de,
         "Dokumentenbeschreibung"@de .
-
-<3a9b7ac1-1418-41e4-a10c-f20f13252fff> a skos:Concept ;
-    skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
-    skos:definition "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <3d43355d-c2d1-4710-bd42-e4c8edb336d0>,
-        <906e474d-3e65-443f-93a5-02560116acee>,
-        <90a2fada-93a1-447e-85fe-117e1fe8b11d>,
-        <d8fd6631-83b2-4308-8d9a-2e30844908dd>,
-        <fc171dea-c37f-4617-8685-8abbd7ba79ed> ;
-    skos:prefLabel "Antike"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Aristoteles"@de,
-        "Epikur"@de,
-        "Platon"@de,
-        "Sokrates"@de,
-        "Sophistik"@de,
-        "Stoa"@de,
-        "Vorsokratiker"@de .
 
 <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> a skos:Concept ;
     skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
