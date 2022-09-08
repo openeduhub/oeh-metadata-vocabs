@@ -20269,21 +20269,6 @@ Nach und nach werden mehr Materialmappen zur Verfügung stehen."""@de ;
         "Weichtiere"@de,
         "Wirbellose Tiere"@de .
 
-<96fe8320-5982-4e7d-8a92-6b3299eea63b> a skos:Concept ;
-    skos:broader <21c88efb-1af3-4658-aaec-747a0fdf8889> ;
-    skos:definition "„El padre, la madre, el/la hermano/-a o el/la amigo/-a.“ Familie und Freund*innen bestimmen unser Leben und haben großen Einfluss darauf. Hier findest du den passenden Wortschatz dazu, damit du auch auf Spanisch über die wichtigsten Personen in deinem Leben sprechen kannst."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Familie und Freunde"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Familie Spanisch"@de,
-        "Freunde Spanisch"@de,
-        "Wortschatz"@de,
-        "amigos"@de,
-        "amigos ELE"@de,
-        "familia"@de,
-        "familia ELE"@de,
-        "léxico"@de .
-
 <970b15ad-7bb4-421a-8956-dc575627515c> a skos:Concept ;
     skos:broader <6259b9d1-6cc0-4aa1-a6a4-e8222930d994> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -32715,7 +32700,7 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
     sdo:keywords "Sachkapital, Geldkapital, Realkapital, Humankapital"@de .
 
 <f165cfb9-9634-4d83-8ea8-e11b404343bb> a skos:Concept ;
-    skos:broader <21c88efb-1af3-4658-aaec-747a0fdf8889> ;
+    skos:broader <96fe8320-5982-4e7d-8a92-6b3299eea63b> ;
     skos:definition "„¿Qué te gusta más?“ „¿La ciudad o el campo?“ Es hat wohl beides seinen Reiz, das Stadt- und das Landleben. Was gibt es alles in der Stadt und was auf dem Land? Mache Ausflüge in die Stadt und auf das Land und lerne den Wortschatz, den du brauchst, um über das Thema zu sprechen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Stadt und Land"@de ;
@@ -35052,6 +35037,22 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
     skos:prefLabel "Sachtexte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
     sdo:keywords "Pragmatik"@de .
+
+<96fe8320-5982-4e7d-8a92-6b3299eea63b> a skos:Concept ;
+    skos:broader <21c88efb-1af3-4658-aaec-747a0fdf8889> ;
+    skos:definition "„El padre, la madre, el/la hermano/-a o el/la amigo/-a.“ Familie und Freund*innen bestimmen unser Leben und haben großen Einfluss darauf. Hier findest du den passenden Wortschatz dazu, damit du auch auf Spanisch über die wichtigsten Personen in deinem Leben sprechen kannst."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <f165cfb9-9634-4d83-8ea8-e11b404343bb> ;
+    skos:prefLabel "Familie und Freunde"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "Familie Spanisch"@de,
+        "Freunde Spanisch"@de,
+        "Wortschatz"@de,
+        "amigos"@de,
+        "amigos ELE"@de,
+        "familia"@de,
+        "familia ELE"@de,
+        "léxico"@de .
 
 <a4cd8855-0b3e-4181-bb27-81d9b42dc402> a skos:Concept ;
     skos:broader <b782e351-6450-4c29-bf69-07dd4fea06fb> ;
@@ -44347,8 +44348,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <ce03a592-c9c9-43c9-8ba7-a7abe5f033e0>,
         <ceddaea3-3d75-4b21-8bb1-d7431d980d85>,
         <da2d47d6-20be-4755-8003-2df12cd03826>,
-        <e1cc49fd-3b35-4b57-83a1-1b7fdccc5e65>,
-        <f165cfb9-9634-4d83-8ea8-e11b404343bb> ;
+        <e1cc49fd-3b35-4b57-83a1-1b7fdccc5e65> ;
     skos:prefLabel "Wortschatz"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
     sdo:keywords "Worschatz"@de,
@@ -44402,7 +44402,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-09-06" ;
+    dct:modified "2022-09-08" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
