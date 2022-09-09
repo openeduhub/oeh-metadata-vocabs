@@ -18,7 +18,7 @@
         <04002>, <040>, <080>, <100>, <20041>, <12002>, <120>, <28002>, <04005>,
         <04006>, <20001>, <440>, <20090>, <160>, <04007>, <20002>, <220>,
         <240>, <48005>, <260>, <50001>, <04009>, <320>, <340>, <20004>,
-        <060>, <04010>, <20005>, <380>, <3801>, <oeh04010>, <900>, <400>, <04011>,
+        <060>, <04010>, <20005>, <380>, <oeh04010>, <900>, <400>, <04011>,
         <04003>, <420>, <64018>, <niederdeutsch>, <44099>, <450>, <460>,
         <480>, <510>, <520>, <20006>, <28010>, <560>, <44006>, <20009>,
         <44007>, <20007>, <600>, <04012>, <20008>, <04013>, <700>, <640>,
@@ -238,16 +238,9 @@
     skos:prefLabel "Mathematics"@en, "Mathematik"@de ;
     skos:altLabel "Mathe"@de ;
     skos:altLabel "Math"@en ;
-    skos:narrower <3801> ;
     skos:related eafkey:mathematik ;
     skos:related eafsys:380 ;
     skos:topConceptOf <> .
-
-<3801> a skos:Concept ;
-    skos:prefLabel "Zahlen, Algebra"@de ;
-    skos:altLabel "Arithmetik"@de ;
-    skos:broader <380> ;
-    skos:inScheme <> .
 
 <oeh04010> a skos:Concept ;
     skos:prefLabel "Mechatronik"@de ;
