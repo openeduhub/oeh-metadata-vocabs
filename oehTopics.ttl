@@ -28334,27 +28334,6 @@ Aus philosophischer Sicht ergeben sich daraus Fragen nach der Selbstbestimmtheit
         "Schulden"@de,
         "Schuldenbremse"@de .
 
-<d0031907-072e-413a-b1f2-d5a67c28a578> a skos:Concept ;
-    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Barcelona - capital de una comunidad bilingüe"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
-    sdo:keywords "Barcelona"@de,
-        "Barcelona ELE"@de,
-        "Barcelona – capital polifacética de una comunidad bilingüe"@de,
-        "Catalunya"@de,
-        "Cataluña"@de,
-        "Cataluña y el catalán"@de,
-        "FC Barcelona"@de,
-        "Wortschatz Barcelona"@de,
-        "barcelona"@de,
-        "capital polifacética"@de,
-        "catalunya"@de,
-        "catalán"@de,
-        "comunidad bilingüe"@de,
-        "fc barcelona"@de,
-        "turismo masivo en barcelona"@de .
-
 <d0095c99-3d13-47e8-bcea-e57dfd4a8b56> a skos:Concept ;
     skos:broader <33ce727a-9dca-418d-ae11-624f71dcb05d> ;
     skos:definition "Der einfachste Stromkreis besteht aus einer Spannungsquelle wie zum Beispiel einer Batterie, zwei Kabeln und einem Verbraucher. Als Verbraucher kann beispielsweise eine Glühlampe genutzt werden. Stück für Stück lassen sich darauf aufbauend mehrere Verbraucher und Kabel in den Stromkreis integrieren. Mehrere Verbraucher lassen sich dann sowohl in Reihe als auch parallel schalten und dem entsprechend Reihenschaltungen und Parallelschaltungen voneinander unterscheiden."@de ;
@@ -29020,6 +28999,45 @@ Das Grundprinzip taucht oft auch bei anderen Batterie-Typen auf."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Potenzfunktionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
+
+<d40edd49-a592-4c49-941b-40d2d6741e0d> a skos:Concept ;
+    skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:definition "Etwa 300 indigene Völker leben auf auf dem spanischsprachigen Gebiet, das sich vom argentinischen Patagonien bis in den Norden Mexikos erstreckt und dabei Amazonien, die Anden, Teile der Karibik und Mittelamerika durchquert. Sie leben in Armut, werden diskriminiert, marginalisiert und haben nur eine eingeschränktes Mitspracherecht an politischen und sozialen Entwicklungsprozessen. Dagegen begehren die indigenen Völker auf."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Indigene Völker"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
+    sdo:keywords "América Latina"@de,
+        "Aymara"@de,
+        "Hispanoamérica"@de,
+        "Hispanoamérica ELE"@de,
+        "Kaqchikel"@de,
+        "Ki’che"@de,
+        "Landeskunde Hispanoamerika"@de,
+        "Landeskunde Lateinamerika"@de,
+        "Mam"@de,
+        "Mapuche"@de,
+        "Mapudungun"@de,
+        "Maya"@de,
+        "Maya q’eqchí"@de,
+        "Maya yucateco"@de,
+        "Mixteco"@de,
+        "Nahua"@de,
+        "Nahuatl"@de,
+        "Otomí"@de,
+        "Quechua"@de,
+        "conflicto mapuche"@de,
+        "idiomas indígenas"@de,
+        "indígenas"@de,
+        "lenguas indígenas"@de,
+        "mapuches"@de,
+        "noticieros en quechua"@de,
+        "palabras indígenas"@de,
+        "pueblos guaraníes"@de,
+        "pueblos indígenas"@de,
+        "pueblos tribales"@de,
+        "quechua"@de,
+        "retos de la diversidad étnica"@de,
+        "soziokulturelles Orientierungswissen Hispanoamerika"@de .
 
 <d40efc8d-6d21-41e5-a24c-2d3da67fd9d9> a skos:Concept ;
     skos:broader <52de12fa-79ad-455c-95ae-d191f8e897d8> ;
@@ -44104,8 +44122,8 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <baae6af6-5cb1-4f76-962f-90826d8a69d8>,
         <c49e1e95-7ed9-432f-80f0-a6bef4e3ad14>,
         <ca21b449-2f49-4e5c-b291-cad79a01b236>,
-        <d0031907-072e-413a-b1f2-d5a67c28a578>,
         <d14e175e-3a31-4ecf-b0f7-781adc653a7a>,
+        <d40edd49-a592-4c49-941b-40d2d6741e0d>,
         <fb12bfc5-aa98-4126-a883-27a441459a24> ;
     skos:prefLabel "Interkulturelles"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
