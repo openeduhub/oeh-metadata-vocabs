@@ -1241,6 +1241,18 @@
    skos:topConceptOf <> ;
    sdo:url <https://sodix.de/> .
 
+<10911b79-c770-46f3-a899-91ea2b562c86> a skos:Concept ;
+   skos:notation "lehreronline_spider"^^xsd:string ;
+   skos:prefLabel "Lehrer-Online"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://www.lehrer-online.de> .
+
+<31400357-3a24-4bfe-9ea8-281344a5ee90> a skos:Concept ;
+    skos:notation "oersi_spider"^^xsd:string ;
+    skos:prefLabel "OERSI"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://oersi.org/> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1470,7 +1482,9 @@
         <b25abeb5-d594-45d8-b7e5-518e81a8f6e5>,
         <32c3ba3b-5243-40d2-a305-696f5bd1d9df>,
         <9a965778-aea7-4e8d-a846-e81aa564bfd5>,
-        <49174af1-e864-41a4-8eda-c5e6de7fed33> ,
-		<611c3830-c18a-47b8-a2f4-f503c62d532f> ,
-		<011766b1-07f8-4cbe-bef1-3316458ed7cb> ,		
-        <5dfac971-25a1-4c05-b1cd-94b62f50dbad> .
+        <49174af1-e864-41a4-8eda-c5e6de7fed33>,
+		<611c3830-c18a-47b8-a2f4-f503c62d532f>,
+		<011766b1-07f8-4cbe-bef1-3316458ed7cb>,
+        <5dfac971-25a1-4c05-b1cd-94b62f50dbad>,
+        <10911b79-c770-46f3-a899-91ea2b562c86>,
+        <31400357-3a24-4bfe-9ea8-281344a5ee90>.
