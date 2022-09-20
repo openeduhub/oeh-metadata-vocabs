@@ -16754,6 +16754,19 @@ Die Chemie überschneidet sich hier mit der Biologie und der Medizin."""@de ;
         "verbos -er"@de,
         "verbos -ir"@de .
 
+<7fdaa35c-334b-4710-9cbb-f2bad8cf4cb0> a skos:Concept ;
+    skos:broader <1b93380d-fb4f-4f46-9b7e-253a9097877b> ;
+    skos:definition "Wichtige und gute Fachseiten und Portale für Philosophie und Ethik"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Fachseiten, Zeitschriften & Portale"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Fachseiten"@de,
+        "Glossar"@de,
+        "Lexika"@de,
+        "Portale"@de,
+        "Startseiten"@de .
+
 <7ff5e1ef-4195-40f4-8720-1fe43f8587cf> a skos:Concept ;
     skos:broader <541876dd-b202-4de4-bd2a-5d7df2c01065> ;
     skos:definition """<p><b>Hier findest du sorgfältig ausgewählte Materialien, Methoden und Tools für den Online- und Präsenzunterricht zum Thema „Werbung und Nachhaltigkeit”.</b> 
@@ -34885,22 +34898,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "Phylogenetik"@de,
         "Stammbäume"@de .
 
-<1b93380d-fb4f-4f46-9b7e-253a9097877b> a skos:Concept ;
-    skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
-    skos:definition "Das Gesicht der Fächer Philosophie und Ethik"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <2173c549-89a0-4b2d-82f8-348469befad9> ;
-    skos:prefLabel "Philosophie und Ethik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Erkenntnistheorie"@de,
-        "Ethik"@de,
-        "Handlungsorientierung"@de,
-        "Lebensführung"@de,
-        "Moral"@de,
-        "Philosophie"@de,
-        "Werte"@de .
-
 <2c8cd907-78b5-46f0-b3e7-7fe171633e44> a skos:Concept ;
     skos:broader <e126a8c7-fc46-4686-969b-5230f7732015> ;
     skos:definition "Lyrische Texte sind in Verse und Strophen gegliedert und unterscheiden sich somit durch die äußerliche Form von Dramen und erzählenden Texten. Strophen bestehen aus Zeilen, die bestimmte Rhythmen aufweisen. Der jeweilige Rhythmus bedeutet eine besondere Betonung der Wörter. Lyrische Texte weisen oft eine bildhafte Sprache auf. Zur Lyrik gehören zum Beispiel das Gedicht oder die Ballade, aber auch das Lied. Informationen zum Lernen und Üben findest du hier."@de ;
@@ -35305,6 +35302,23 @@ Aber: Wenn Kultur derjenige Teil von Natur ist, die die Menschen sich zu eigen g
     skos:prefLabel "Dramatische Texte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
     sdo:keywords "Interpretation"@de .
+
+<1b93380d-fb4f-4f46-9b7e-253a9097877b> a skos:Concept ;
+    skos:broader <9d364fd0-4374-40b4-a153-3c722b9cda35> ;
+    skos:definition "Das Gesicht der Fächer Philosophie und Ethik"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <2173c549-89a0-4b2d-82f8-348469befad9>,
+        <7fdaa35c-334b-4710-9cbb-f2bad8cf4cb0> ;
+    skos:prefLabel "Philosophie und Ethik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
+    sdo:keywords "Erkenntnistheorie"@de,
+        "Ethik"@de,
+        "Handlungsorientierung"@de,
+        "Lebensführung"@de,
+        "Moral"@de,
+        "Philosophie"@de,
+        "Werte"@de .
 
 <1c126b18-33ba-457f-aab5-fa3bb21618d6> a skos:Concept ;
     skos:broader <ffd298b5-3a04-4d13-9d26-ddd5d3b5cedc> ;
@@ -44422,7 +44436,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-09-12" ;
+    dct:modified "2022-09-20" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
