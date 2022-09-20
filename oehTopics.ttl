@@ -10275,17 +10275,6 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
         "MOV"@de,
         "MP4"@de .
 
-<510ef7bf-1a4e-4135-bdb0-50e576930dbb> a skos:Concept ;
-    skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Ethik der Bürgerschaft"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Aristoteles"@de,
-        "Bürger"@de,
-        "Widerstand"@de,
-        "verantwortliches Handeln"@de .
-
 <512de3d2-352f-48e2-9c5d-82a0dc8423ea> a skos:Concept ;
     skos:broader <906cd9c2-58e1-4fad-9ec8-369becb63adc> ;
     skos:definition "Hier findest Du Seiten und Materialien zu einzelnen Wortschatzthemen im Türkischen."@de ;
@@ -15064,7 +15053,8 @@ Spielfähigkeit."""@de ;
 
 <72cca9b0-6579-494f-bdbe-f5286f0ba48b> a skos:Concept ;
     skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
-    skos:definition "Seit der Antike beschäftigten sich  Philosophen mit der Frage, wie das Verhältnis zwischen Herrschern und Beherrschten gestaltet werden sollte."@de ;
+    skos:definition """Seit der Antike beschäftigen sich  Philosophen mit der Frage, wie das Verhältnis zwischen Herrschern und Beherrschten gestaltet werden sollte.
+Bedeutsame Werke und Vorschläge zur Rolle des Staates gibt es u.a. von Platon und Aristoteles, von John Locke und Thomas Hobbes, von J.J. Rousseau und John Rawls."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Staatstheorie und Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -37621,6 +37611,20 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         "Medienkompetenzrahmen NRW"@de,
         "Medienpass"@de .
 
+<d8ee1dfc-e845-4b9a-8f16-a10730094987> a skos:Concept ;
+    skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
+    skos:definition "Politik bezeichnet jegliche Art der Einflussnahme und Gestaltung sowie die Durchsetzung von Forderungen und Zielen in privaten oder öffentlichen Bereichen. Politische Ethik ist die philosophische Teildisziplin, welche die Normen und Normensysteme in der Politik im Hinblick auf gutes und gerechtes ethisches Handeln untersucht."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <12401e0f-fb71-4230-9c97-b446f5d12581>,
+        <72cca9b0-6579-494f-bdbe-f5286f0ba48b>,
+        <e067f886-5add-4797-821d-0e44562d8a69> ;
+    skos:prefLabel "Politische Ethik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
+        <http://w3id.org/openeduhub/vocabs/discipline/450>,
+        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
+    sdo:keywords "Gerechtigkeit"@de,
+        "Normen und Werte"@de .
+
 <d9406932-88c8-4d98-97c1-e6019d6a4544> a skos:Concept ;
     skos:broader <350a0734-a52d-4d1e-9249-5e19f216da2f> ;
     skos:definition "hier findet ihr Materialien zur Schule und Schulfächern, zum Schulsystem und Objekten des Klassenzimmers"@de ;
@@ -39053,21 +39057,6 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <adf15ab0-3ed3-4d2b-bf09-5081a868017c> ;
     skos:prefLabel "Die Klimazonen der Erde"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/220> .
-
-<d8ee1dfc-e845-4b9a-8f16-a10730094987> a skos:Concept ;
-    skos:broader <df670f45-69b7-41f7-b369-1bddf4fb9426> ;
-    skos:definition "Politik bezeichnet jegliche Art der Einflussnahme und Gestaltung sowie die Durchsetzung von Forderungen und Zielen in privaten oder öffentlichen Bereichen. Politische Ethik ist die philosophische Teildisziplin, welche die Normen und Normensysteme in der Politik im Hinblick auf gutes und gerechtes ethisches Handeln untersucht."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <12401e0f-fb71-4230-9c97-b446f5d12581>,
-        <510ef7bf-1a4e-4135-bdb0-50e576930dbb>,
-        <72cca9b0-6579-494f-bdbe-f5286f0ba48b>,
-        <e067f886-5add-4797-821d-0e44562d8a69> ;
-    skos:prefLabel "Politische Ethik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
-        <http://w3id.org/openeduhub/vocabs/discipline/450>,
-        <http://w3id.org/openeduhub/vocabs/discipline/480> ;
-    sdo:keywords "Gerechtigkeit"@de,
-        "Normen und Werte"@de .
 
 <dd15f5a6-f749-4efa-94f5-4f0caf05a95d> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
