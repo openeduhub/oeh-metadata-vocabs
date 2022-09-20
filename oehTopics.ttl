@@ -475,11 +475,13 @@
 
 <02f1fc9a-c551-4310-a6d1-61c8637eff29> a skos:Concept ;
     skos:broader <5bcd124a-49cd-4bc4-ab3c-21449b1d9126> ;
+    skos:definition "Hier geht es um die Aneignung des Sinngehalts von erlebten bzw. erfahrenen Sachverhalten, Zuständen, Vorgängen mit dem Ziel der Wahrheitsfindung. In den Naturwissenschaften steht hierfür im Mittelpunkt das Experiment."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Erkenntnisgewinnung in der Naturwissenschaft"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
-    sdo:keywords "Karl Popper"@de,
+    sdo:keywords "Experiment"@de,
+        "Karl Popper"@de,
         "Naturwissenschaft"@de,
         "Objektivität"@de .
 
@@ -15062,6 +15064,7 @@ Spielfähigkeit."""@de ;
 
 <72cca9b0-6579-494f-bdbe-f5286f0ba48b> a skos:Concept ;
     skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
+    skos:definition "Seit der Antike beschäftigten sich  Philosophen mit der Frage, wie das Verhältnis zwischen Herrschern und Beherrschten gestaltet werden sollte."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Staatstheorie und Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -23016,6 +23019,7 @@ Hier findest du Materialien mit Erklärungen und Übungen."""@de ;
 
 <a8d9992a-524f-446a-8d2f-539c7cbad28f> a skos:Concept ;
     skos:broader <5bcd124a-49cd-4bc4-ab3c-21449b1d9126> ;
+    skos:definition "Hier geht es um die Aneignung des Sinngehalts von erlebten bzw. erfahrenen Sachverhalten, Zuständen, Vorgängen mit dem Ziel der Wahrheitsfindung. Die Geisteswissenschaften bedienen sich dabei hermeneutischer Methoden."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Erkenntnisgewinnung in der Geisteswissenschaft"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -30487,6 +30491,8 @@ Ethik ist die wissenschaftliche Beschäftigung mit der Moral.
 
 <e067f886-5add-4797-821d-0e44562d8a69> a skos:Concept ;
     skos:broader <d8ee1dfc-e845-4b9a-8f16-a10730094987> ;
+    skos:definition """Vor über 220 Jahren erschien Immanuel Kants Schrift „Zum ewigen Frieden. Ein philosophischer Entwurf”. Die heutige Friedens- und Konfliktforschung steht vor der Frage, ob und wie sich eine „globale
+Friedensordnung“ gestalten lässt."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Globale Friedensordnung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
