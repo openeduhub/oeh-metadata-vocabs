@@ -16778,9 +16778,18 @@ Die Chemie überschneidet sich hier mit der Biologie und der Medizin."""@de ;
 
 <7ff657a5-9289-4d2e-85fc-4e2f8f99175b> a skos:Concept ;
     skos:broader <36f8e701-0ce5-4d3d-9a61-78288df5ab73> ;
+    skos:definition "Theaterübungen und -spiele sind nicht nur für den Theater-Unterricht reserviert. Sie können eine wunderbare Einleitung in andere Fächer geben und eine neue Lernperspektive bieten. Körperliche Übungen im Unterricht helfen den Lernprozess zu beschleunigen und bringen viel Spaß mit sich. Die Klassengemeinschaft wird zudem gestärkt und die Konzentration gefördert. Hier findet Ihr einige Bespiele für \"Theater im Fachunterricht\". Diese Sammlung wird mit der Zeit erweitert."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Theater im Fachunterricht"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/12002> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/12002> ;
+    sdo:keywords "Fachunterricht"@de,
+        "Klassengemeinschaft stärken"@de,
+        "Konzentration Fördern in der Schule"@de,
+        "Körperliche Übungen im Unterricht"@de,
+        "Neue Lernansätze in der Schule"@de,
+        "Theater"@de,
+        "Theater im Fachunterricht"@de,
+        "Theaterübungen im Fachunterricht"@de .
 
 <801578ba-1fb7-4e08-84a2-9556b0ee9f29> a skos:Concept ;
     skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
@@ -40495,6 +40504,9 @@ Der zu beweisende Gott ist zumeist nicht der „persönliche Gott" des heutigen 
 
 <17f2b2a6-eb4e-493b-9fe4-15968ed74e57> a skos:Concept ;
     skos:broader <7998f334-9311-491e-9a58-72baf2a7efd2> ;
+    skos:definition """In dieser Sammlung findet Ihr Texte und Stücke bekannter Autoren und Dichter, sowie Theaterkritiken. Außerdem können euch Figuren-Charakterisierungen und Zusammenfassungen der Stücke einen neuen Einblick bzw. Perspektive auf das gelesene Stück geben und damit eine Hilfestellung für die nächse Klassenarbeit sein. Diese ersetzten allerdings keinesfalls das Lesen des Stückes/Buches!
+Viel Spaß beim Durchstöbern!
+Die Sammlung wird mit der Zeit erweitert."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <4160b3a1-dfc6-4d60-aef6-aead05af5c84>,
         <99b4c766-f4d7-461c-924c-261350e7e7a0>,
@@ -44431,7 +44443,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-09-20" ;
+    dct:modified "2022-09-22" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
