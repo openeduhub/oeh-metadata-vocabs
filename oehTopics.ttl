@@ -4962,6 +4962,8 @@ comprensión ELE"""@de,
 
 <26ed54d3-1732-4622-8963-92eb77cf2cbe> a skos:Concept ;
     skos:broader <26beee37-c456-455c-9a75-8584e396da79> ;
+    skos:definition """Der Empirismus leitet alle Erkenntnis aus Sinnes-Erfahrung (Empirie) ab. Als Begründer des erkenntnistheoretischen Empirismus in der neueren Philosophie gilt John Locke (17. Jahrhundert).  Weitere Vertreter sind Francis Bacon (17. Jahrhundert) und John Stuart Mill (19. Jahrhundert).
+Der Empirismus sieht sich im Gegensatz zum Rationalismus."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Empirismus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -10244,6 +10246,8 @@ zu den konditionellen Grundlagen der Spielfähigkeit im Volleyball."""@de ;
 
 <50e51aca-40fe-4704-9496-f0fe5bc6061e> a skos:Concept ;
     skos:broader <26beee37-c456-455c-9a75-8584e396da79> ;
+    skos:definition """Unter Rationalismus ist zu verstehen die Gesamtheit der philosophischen Richtungen, die auf verschiedene Art die Vernunft (ratio), die Vernünftigkeit, die logische Ordnung der Dinge in den Mittelpunkt ihrer Betrachtungen stellen. 
+Der Rationalismus ist die Denkweise der Aufklärung, die an eine unbegrenzte menschliche Erkenntniskraft glaubt, die sich über kurz oder lang durchsetzen und der Welt bemächtigen wird."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Rationalismus"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -21271,7 +21275,7 @@ Noch immer wird Kohle vor allem zur Energiegewinnung genutzt, aber aufgrund der 
 
 <9c9ca510-6781-4d01-8468-9f6dc5607be2> a skos:Concept ;
     skos:broader <9d0b4a2a-2820-46df-8000-299e4939277a> ;
-    skos:definition "Instrumente der Finanzpolitik"@de ;
+    skos:definition "hier sind die die Ott-Casts - Arbeitsblätter als Erklärung des betrieblichen Rechnungswesens aufgelistet"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Instrumente"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
@@ -33621,13 +33625,16 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f761a37b-bfb4-4ce4-9ffd-879e0dec479b> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
+    skos:definition "Ausgangspunkt der Existenzphilosophie ist die Philosophie Sören Kirkegaards, in welcher der Mensch aus jeder ihn bedingenden und über ihn hinausweisenden Ganzheit herausgelöst dargestellt wird. Der Existenzialismus des 20. Jahrhunderts in seinen verschiedenen Ausformungen ist verbunden mit den Philosophen Martin Heidegger und Karl Jaspers in Deutschland, in Frankreich mit Jean-Paul Sartre und Albert Camus."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Existenzphilosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Albert Camus"@de,
         "Jean-Paul Sartre"@de,
-        "Karl Jaspers"@de .
+        "Karl Jaspers"@de,
+        "Martin Heidegger"@de,
+        "Sören Kierkegaard"@de .
 
 <f78d338d-50a8-4e8b-9a53-deff82536524> a skos:Concept ;
     skos:broader <541876dd-b202-4de4-bd2a-5d7df2c01065> ;
@@ -43071,6 +43078,8 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
 
 <1fbba233-e176-406f-901f-636e8a99d60f> a skos:Concept ;
     skos:broader <ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b> ;
+    skos:definition """Philosophien und ...ismen des 20. Jahrhunderts:
+Existenzialismus, Lebensphilosophie, Analytische Philosophie, Hermeneutik, Phänomenologie, Strukturalismus, Postmoderne"""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <02144879-d8f0-4dbe-80ef-eebc68d594e1>,
         <11bb8542-0443-4794-9f53-e4ec83907bdb>,
@@ -44445,7 +44454,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-09-23" ;
+    dct:modified "2022-09-26" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
