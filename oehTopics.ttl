@@ -969,8 +969,79 @@
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Deutsch für den Beruf"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    sdo:keywords "Berufe"@de,
-        "Deutsch für den Beruf"@de .
+    sdo:keywords "Altenpflegehelfer*in"@de,
+        "Altenpflegehelfer:in"@de,
+        "Anlagenmechaniker*in"@de,
+        "Anlagenmechaniker:in"@de,
+        "Ausbaufacharbeiter*in"@de,
+        "Ausbaufacharbeiter:in"@de,
+        "Ausbildung"@de,
+        "Ausbildungs- und Berufsprofile"@de,
+        "Bauten- und Objektbeschichter*in"@de,
+        "Bauten- und Objektbeschichter:in"@de,
+        "Berufe"@de,
+        "Berufsausbildung"@de,
+        "Berufsbildung"@de,
+        "Berufskraftfahrer*in"@de,
+        "Berufskraftfahrer:in"@de,
+        "Berufsorientierung"@de,
+        "Berufsschule"@de,
+        "Berufswahl"@de,
+        "Bäcker*in"@de,
+        "Bäcker:in"@de,
+        "Deutsch für den Beruf"@de,
+        "Duale Ausbildung"@de,
+        "Elektroniker*in"@de,
+        "Elektroniker:in"@de,
+        "Fachinformatiker*in"@de,
+        "Fachinformatiker:in"@de,
+        "Fachkraft für Lebensmitteltechnik"@de,
+        "Fachkraft für Metalltechnik"@de,
+        "Fachkraft für Möbel-, Küchen- und Umzugsservice"@de,
+        "Fachkraft im Gastgewerbe"@de,
+        "Fachlagerist*in"@de,
+        "Fachlagerist:in"@de,
+        "Fachverkäufer*in im Lebensmittelhandwerk"@de,
+        "Fachverkäufer:in im Lebensmittelhandwerk"@de,
+        "Friseur*in"@de,
+        "Friseur:in"@de,
+        "Gebäudereiniger*in"@de,
+        "Gebäudereiniger:in"@de,
+        "Gärtner*in"@de,
+        "Gärtner:in"@de,
+        "Handwerk"@de,
+        "Handwerksberufe"@de,
+        "Hauswirtschafter*in"@de,
+        "Hauswirtschafter:in"@de,
+        "Hochbaufacharbeiter*in"@de,
+        "Hochbaufacharbeiter:in"@de,
+        "Industrieelektriker*in"@de,
+        "Industrieelektriker:in"@de,
+        "KFZ-Mechatroniker*in"@de,
+        "KFZ-Mechatroniker:in"@de,
+        "Klempner*in"@de,
+        "Klempner:in"@de,
+        "Koch/Köchin"@de,
+        "Kunsthandwerk"@de,
+        "Landwirt*in"@de,
+        "Landwirt:in"@de,
+        "Lebenslauf"@de,
+        "Maschinen- und Anlagenführer*in"@de,
+        "Maschinen- und Anlagenführer:in"@de,
+        "Metallberufe"@de,
+        "Tiefbaufacharbeiter*in"@de,
+        "Tiefbaufacharbeiter:in"@de,
+        "Tischler*in"@de,
+        "Tischler:in"@de,
+        "Verfahrensmechaniker*in für Kunststoff und Kautschuktechnik"@de,
+        "Verfahrensmechaniker:in für Kunststoff und Kautschuktechnik"@de,
+        "Verkäufer*in"@de,
+        "Verkäufer:in"@de,
+        "deutsch für den beruf"@de,
+        "deutsch für den einzelhandel"@de,
+        "handwerklicher Beruf"@de,
+        "Änderungsschneider*in"@de,
+        "Änderungsschneider:in"@de .
 
 <07288afd-75de-4b6d-b99d-7f29ef568957> a skos:Concept ;
     skos:broader <3f068a6b-6fa5-4e8a-ae05-c30b25cc178f> ;
@@ -9752,6 +9823,16 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
         "Knallgasreaktion"@de,
         "Kupfernachweis"@de,
         "Nachweis"@de .
+
+<4d593519-13c1-4e66-bae2-ec97ade836fa> a skos:Concept ;
+    skos:broader <cffaadfb-5c07-4e9c-919c-0a53b862c89b> ;
+    skos:definition "Die deutsche Sprache ist (wie andere Sprachen) auch in einem stetigen Wandel. Hier geht es um Formen des  Sprachwandels und die Frage, was diesen Wandel auslöst und beeinflusst. Und natürlich geht es auch um Standpunkte hierzu."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Sprachwandel"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Denglisch"@de,
+        "Kiezdeutsch"@de,
+        "Sprachwandel"@de .
 
 <4d625afc-8508-49fd-9371-2ebf24497906> a skos:Concept ;
     skos:broader <e922a40a-2dd2-432a-ab8e-a6783cd6e8f2> ;
@@ -41287,21 +41368,6 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
     skos:prefLabel "Präpositionen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
 
-<cffaadfb-5c07-4e9c-919c-0a53b862c89b> a skos:Concept ;
-    skos:broader <69f9ff64-93da-4d68-b849-ebdf9fbdcc77> ;
-    skos:definition "Das Wort Grammatik kommt aus dem Altgriechischen  [gramma] und bedeutet übersetzt Buchstabe oder Geschriebenes.  Heute verstehen wir unter Grammatik die Lehre von Wörtern und Sätzen, und wie man Wörter und Wortformen in einer Reihenfolge im Satz verwendet. Die Grammatik ist das Regelsystem einer Sprache. In dieser Sammlung findet ihr Materialien zu Wortbildung und zum Satzbau."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <6a03cfed-26f8-4936-8ca1-5ef36a81e795>,
-        <96aca699-ebc0-418c-bfc6-e08f44d388f4>,
-        <b34588ea-e38a-4e2a-b37e-309bfb2e803e>,
-        <dcd35083-8050-4767-a890-e64e3b624322>,
-        <f3089575-2c0c-4538-bc80-dcdfd4592d92>,
-        <f5d7932f-d500-4141-a4be-ef10bd5292ae> ;
-    skos:prefLabel "Grammatik und Sprache untersuchen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
-    sdo:keywords "Grammatik"@de,
-        "Sprache"@de .
-
 <e0be90be-69b2-483b-8d28-34de169c8988> a skos:Concept ;
     skos:broader <e0782a2f-7b1c-4ef3-a4ab-be62335d706a> ;
     skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Rechtschreibregeln' im Türkischen."@de ;
@@ -41883,6 +41949,22 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
     sdo:keywords "Interpretation"@de,
         "Prosatext"@de .
+
+<cffaadfb-5c07-4e9c-919c-0a53b862c89b> a skos:Concept ;
+    skos:broader <69f9ff64-93da-4d68-b849-ebdf9fbdcc77> ;
+    skos:definition "Das Wort Grammatik kommt aus dem Altgriechischen  [gramma] und bedeutet übersetzt Buchstabe oder Geschriebenes.  Heute verstehen wir unter Grammatik die Lehre von Wörtern und Sätzen, und wie man Wörter und Wortformen in einer Reihenfolge im Satz verwendet. Die Grammatik ist das Regelsystem einer Sprache. In dieser Sammlung findet ihr Materialien zu Wortbildung und zum Satzbau."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4d593519-13c1-4e66-bae2-ec97ade836fa>,
+        <6a03cfed-26f8-4936-8ca1-5ef36a81e795>,
+        <96aca699-ebc0-418c-bfc6-e08f44d388f4>,
+        <b34588ea-e38a-4e2a-b37e-309bfb2e803e>,
+        <dcd35083-8050-4767-a890-e64e3b624322>,
+        <f3089575-2c0c-4538-bc80-dcdfd4592d92>,
+        <f5d7932f-d500-4141-a4be-ef10bd5292ae> ;
+    skos:prefLabel "Grammatik und Sprache untersuchen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Grammatik"@de,
+        "Sprache"@de .
 
 <d1ddbf58-f9b5-4e46-8191-e4a7801530b1> a skos:Concept ;
     skos:broader <6570853a-fdbc-4de9-a7f0-63eda87d63f4> ;
