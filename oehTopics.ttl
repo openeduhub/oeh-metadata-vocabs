@@ -964,6 +964,14 @@
         "französische Subjektpronomen"@de,
         "les pronoms personels"@de .
 
+<07109ffc-1ed7-46be-a297-ed3ba4eca005> a skos:Concept ;
+    skos:broader <26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Deutsch für den Beruf"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Berufe"@de,
+        "Deutsch für den Beruf"@de .
+
 <07288afd-75de-4b6d-b99d-7f29ef568957> a skos:Concept ;
     skos:broader <3f068a6b-6fa5-4e8a-ae05-c30b25cc178f> ;
     skos:definition "hier findet ihr Materialien zu entscheidenden Standortfaktoren Deutschlands wie Infrastruktur, Wirtschaftskraft und Lage"@de ;
@@ -41949,27 +41957,6 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/220> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
 
-<26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> a skos:Concept ;
-    skos:definition """Herzlich willkommen beim Fachportal für Deutsch als Zweitsprache (DaZ)! Du bist Lehrer*in, Refendar*in, studierst DaZ oder willst dein Deutsch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung.
-
-Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen Unterrichtsmaterialen? Dann bringe dich und dein Wissen ein. Hilf mit, die besten Inhalte für DaZ zu sammeln und zu teilen. Das ist ganz einfach!
-
-    Empfiehl einen freien Inhalt oder stelle der DaZ-Community dein selbsterstelltes Material zur Verfügung, am besten unter einer Creative-Commons-Lizenz.
-    Wir prüfen deine Empfehlung und teilen dann dein Material."""@de ;
-    skos:narrower <01c46536-d69e-49b1-a49d-ec7cc5f04508>,
-        <1174347c-2476-481b-9fb3-15fc16046a6b>,
-        <12c4cd99-9804-44b5-a81b-e9900a0e3d42>,
-        <19febd4c-c96c-4a08-9fcc-00cb626f8e49>,
-        <5137f3ce-927c-4085-b731-54271c6df347>,
-        <79589113-2330-4a46-9104-6da9edf227ae>,
-        <7b92e3c4-2995-4c25-8c69-c8be4463faff>,
-        <cdf69a29-0886-4fb7-b9f8-39dca4f02e78> ;
-    skos:prefLabel "Deutsch als Zweitsprache"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "Deutsch als Zweitsprache"@de,
-        "Deutsch lernen"@de .
-
 <35b9d92c-18dc-429e-bd67-7fe0501958ee> a skos:Concept ;
     skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
     skos:definition "Nomen sind eine Wortart und bezeichnen alles, was konkret ist: Personen, Dinge, Tiere, Pflanzen. Aber auch Gefühle wie Hunger oder Freude und Abstraktes wie Glauben oder Demokratie. Im Deutschen gibt es einige Besonderheiten der Nomen wie die Großschreibung oder die vier Fälle. Nutze unsere Materialien, um alles Wichtige über die Nomen zu lernen."@de ;
@@ -42409,6 +42396,28 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
     sdo:keywords "Klassische Mechanik oder Newtonsche Mechanik ist das Teilgebiet der Physik"@de,
         "das die Bewegung von festen"@de,
         "flüssigen oder gasförmigen Körpern unter dem Einfluss von Kräften beschreibt."@de .
+
+<26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4> a skos:Concept ;
+    skos:definition """Herzlich willkommen beim Fachportal für Deutsch als Zweitsprache (DaZ)! Du bist Lehrer*in, Refendar*in, studierst DaZ oder willst dein Deutsch verbessern? Hier findest du neben sorgfältig ausgewählten Materialien für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung.
+
+Du kennst ein tolles Material, ein wertvolles Tool oder erstellst deine eigenen Unterrichtsmaterialen? Dann bringe dich und dein Wissen ein. Hilf mit, die besten Inhalte für DaZ zu sammeln und zu teilen. Das ist ganz einfach!
+
+    Empfiehl einen freien Inhalt oder stelle der DaZ-Community dein selbsterstelltes Material zur Verfügung, am besten unter einer Creative-Commons-Lizenz.
+    Wir prüfen deine Empfehlung und teilen dann dein Material."""@de ;
+    skos:narrower <01c46536-d69e-49b1-a49d-ec7cc5f04508>,
+        <07109ffc-1ed7-46be-a297-ed3ba4eca005>,
+        <1174347c-2476-481b-9fb3-15fc16046a6b>,
+        <12c4cd99-9804-44b5-a81b-e9900a0e3d42>,
+        <19febd4c-c96c-4a08-9fcc-00cb626f8e49>,
+        <5137f3ce-927c-4085-b731-54271c6df347>,
+        <79589113-2330-4a46-9104-6da9edf227ae>,
+        <7b92e3c4-2995-4c25-8c69-c8be4463faff>,
+        <cdf69a29-0886-4fb7-b9f8-39dca4f02e78> ;
+    skos:prefLabel "Deutsch als Zweitsprache"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "Deutsch als Zweitsprache"@de,
+        "Deutsch lernen"@de .
 
 <311ed9f4-031a-4e51-8d8b-8d7b009a0182> a skos:Concept ;
     skos:broader <e668ab35-7604-45ed-938c-e04b741ac387> ;
