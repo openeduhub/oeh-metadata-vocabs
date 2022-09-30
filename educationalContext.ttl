@@ -12,7 +12,7 @@
     dct:description "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Entstanden im Kontext des OpenEduHub."@de;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date;
-    dct:modified "2020-04-08"^^xsd:date;
+    dct:modified "2022-09-30"^^xsd:date;
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <elementarbereich>, <grundschule>, <sekundarstufe_1>,
@@ -72,33 +72,6 @@
     skos:narrowMatch isced2011:level7 ;
     skos:narrowMatch isced2011:level8 ;
     skos:topConceptOf <> .
-
-<bachelor> a skos:Concept ;
-    skos:prefLabel "Bachelor or equivalent"@en, "Bachelor oder äquivalent"@de ;
-    skos:altLabel "ISCED 2011, Level 6"@en, "ISCED 2011, Level 6"@de;
-    skos:closeMatch isced97:level5 ;
-    skos:exactMatch isced2011:level6 ;
-    skos:exactMatch eduLevel:level_6 ;
-    skos:broader <hochschule> ;
-    skos:inScheme <> .
-
-<master> a skos:Concept ;
-    skos:prefLabel "Master or equivalent"@en, "Master oder äquivalent"@de ;
-    skos:altLabel "ISCED 2011, Level 7"@en, "ISCED 2011, Level 7"@de;
-    skos:closeMatch isced97:level5 ;
-    skos:exactMatch isced2011:level7 ;
-    skos:exactMatch eduLevel:level_7 ;
-    skos:broader <hochschule> ;
-    skos:inScheme <> .
-
-<promotion> a skos:Concept ;
-    skos:prefLabel "Doctoral or equivalent"@en, "Promotion oder äquivalent"@de ;
-    skos:altLabel "ISCED 2011, Level 8"@en, "ISCED 2011, Level 8"@de ;
-    skos:exactMatch isced97:level6 ;
-    skos:exactMatch isced2011:level8 ;
-    skos:exactMatch eduLevel:level_8 ;
-    skos:broader <hochschule> ;
-    skos:inScheme <> .
 
 <berufliche_bildung> a skos:Concept ;
     skos:prefLabel "Berufliche Bildung"@de ;
