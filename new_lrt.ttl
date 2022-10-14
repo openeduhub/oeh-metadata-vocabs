@@ -983,12 +983,22 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <b0495f44-b05d-4bde-9dc5-34d7b5234d76> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
+    skos:narrower <7005a7b7-7b67-4797-960e-894ded60283a> ;
     skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird."@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:educational_game ;
     skos:relatedMatch widgets:educational_games_offline,
         agg:ded96854-280a-45ac-ad3a-f5b9b8dd0a03 ;
     skos:prefLabel "Lernspiel"@de .
+
+<7005a7b7-7b67-4797-960e-894ded60283a> a skos:Concept ;
+    skos:broader <b0495f44-b05d-4bde-9dc5-34d7b5234d76> ;
+    skos:definition """Eine modifizierte Version von Escape Rooms, die vor allem in Bildungseinrichtungen eingesetzt wird, 
+    um Inhalte und andere Fähigkeiten wie kreatives Denken, Problemlösung, Zusammenarbeit usw. zu vermitteln."""@de ;
+    skos:inScheme <> ;
+    skos:exactMatch lrt:educational_game ;
+    skos:prefLabel "Edu-Breakout"@de ;
+    skos:altLabel "EduBreakout"@de .
 
 <b1075505-364d-4e69-90a3-8ad463cfb587> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
