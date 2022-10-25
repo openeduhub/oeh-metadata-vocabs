@@ -1,0 +1,71 @@
+@base <http://w3id.org/openeduhub/vocabs/graduation/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix kim: <https://w3id.org/kim/schulabschluesse/> .
+@prefix gnd: <https://d-nb.info/gnd/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Abschluss"@de;
+    dct:title "Graduation"@en;
+    dct:description "Eine Wertelliste für schulische und Hochschulabschlüsse. Entstanden im Kontext des OpenEduHub."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2022-10-11"^^xsd:date;
+    dct:modified "2022-10-11"^^xsd:date; 
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <ohne_schulabschluss>, <erster_allgemeinbildender_schulabschluss>, <mittlerer_schulabschluss>, 
+        <fachhochschulreife>, <fachgebundene_hochschulreife>, <allgemeine_hochschulreife>,
+        <bachelor>, <master>, <promotion> .
+
+<ohne_schulabschluss> a skos:Concept ;
+    skos:prefLabel "Ohne Schulabschluss"@de ;
+    skos:exactMatch kim:cf42a778-3982-4f27-8b9a-92e5875342c0 ;
+    skos:topConceptOf <> .
+
+<erster_allgemeinbildender_schulabschluss> a skos:Concept ;
+    skos:prefLabel "Erster allgemeinbildender Schulabschluss"@de ;
+    skos:exactMatch kim:c5a9e3bc-3838-493b-ab6d-330ac1ba4b4a ;
+    skos:topConceptOf <> .
+
+<mittlerer_schulabschluss> a skos:Concept ;
+    skos:prefLabel "Mittlerer Schulabschluss"@de ;
+    skos:exactMatch kim:bb03cf93-e197-4942-abba-7c124f0e1ae4 ;
+    skos:topConceptOf <> .
+
+<fachhochschulreife> a skos:Concept ;
+    skos:prefLabel "Fachhochschulreife"@de ;
+    skos:exactMatch kim:3141d59a-6aea-4f7b-b8ba-e5051612ab5a ;
+    skos:topConceptOf <> .
+
+<fachgebundene_hochschulreife> a skos:Concept ;
+    skos:prefLabel "Fachgebundene Hochschulreife"@de ;
+    skos:exactMatch kim:a0e105c6-0fd3-49a0-aa12-8b15a8d6da5a ;
+    skos:topConceptOf <> .
+
+<allgemeine_hochschulreife> a skos:Concept ;
+    skos:prefLabel "Allgemeine Hochschulreife"@de ;
+    skos:exactMatch kim:669bd2d6-a4f1-4234-acdb-5f5031b1c77d ;
+    skos:topConceptOf <> .
+
+<bachelor> a skos:Concept ;
+    skos:prefLabel "Bachelor"@de ;
+    skos:exactMatch gnd:4721473-9 ;
+    gndo:gndIdentifier "4721473-9" ;
+    skos:exactMatch wd:Q163727 ;
+    skos:topConceptOf <> .
+
+<master> a skos:Concept ;
+    skos:prefLabel "Master"@de ;
+    skos:exactMatch gnd:4706762-7 ;
+    gndo:gndIdentifier "4706762-7" ;
+    skos:exactMatch wd:Q183816 ;
+    skos:topConceptOf <> .
+
+<promotion> a skos:Concept ;
+    skos:prefLabel "Promotion"@de ;
+    skos:exactMatch gnd:4175921-7 ;
+    gndo:gndIdentifier "4175921-7" ;
+    skos:exactMatch wd:Q89011770 ;
+    skos:topConceptOf <> .
