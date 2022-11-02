@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F7005a7b7-7b67-4797-960e-894ded60283a",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F7005a7b7-7b67-4797-960e-894ded60283a",
   "prefLabel": {
-    "de": "Edu-Breakout"
+    "de": "EduBreakout"
   },
   "altLabel": {
-    "de": "EduBreakout"
+    "de": "Edu-Breakout"
   },
   "definition": {
     "de": "Eine modifizierte Version von Escape Rooms, die vor allem in Bildungseinrichtungen eingesetzt wird, \n    um Inhalte und andere Fähigkeiten wie kreatives Denken, Problemlösung, Zusammenarbeit usw. zu vermitteln."
@@ -18,6 +18,11 @@
       "de": "Lernspiel"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ded96854-280a-45ac-ad3a-f5b9b8dd0a03"
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/educational_game"
