@@ -997,8 +997,9 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     um Inhalte und andere Fähigkeiten wie kreatives Denken, Problemlösung, Zusammenarbeit usw. zu vermitteln."""@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:educational_game ;
-    skos:prefLabel "Edu-Breakout"@de ;
-    skos:altLabel "EduBreakout"@de .
+    skos:broadMatch agg:ded96854-280a-45ac-ad3a-f5b9b8dd0a03 ;
+    skos:prefLabel "EduBreakout"@de ;
+    skos:altLabel "Edu-Breakout"@de .
 
 <b1075505-364d-4e69-90a3-8ad463cfb587> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
