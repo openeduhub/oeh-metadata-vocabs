@@ -38648,6 +38648,24 @@ periodische Vorgänge auf."""@de .
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Rätselhaftes"@de .
 
+<86b990ef-0955-45ad-bdae-ec2623cf0e1a> a skos:Concept ;
+    skos:definition """Bonjour à tou.te.s ! 
+Du bist Lehrer:in, Refendar:in, studierst Französisch oder willst dein Französisch verbessern? Dann bist du auf diesem Fachportal mit freien und kostenlosen Materialien für Französisch genau richtig. Hier findest du neben sorgfältig ausgewählten Inhalten für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen und praktische Tools. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung."""@de ;
+    skos:narrower <2e8b863e-9e71-4c96-b281-e50c431815c3>,
+        <6570853a-fdbc-4de9-a7f0-63eda87d63f4>,
+        <7fbb64dd-ed80-44da-9ef1-6d2474802145>,
+        <e6ea8ec2-970c-4396-8f23-be2252267b82> ;
+    skos:prefLabel "Französisch"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    sdo:keywords "FLE"@de,
+        "Französisch"@de,
+        "Französisch lernen"@de,
+        "Französischunterricht"@de,
+        "apprendre le français"@de,
+        "français langue étrangère"@de,
+        "learn French"@de .
+
 <873d62a5-362b-4b58-a618-28d4dec06324> a skos:Concept ;
     skos:broader <15fce411-54d9-467f-8f35-61ea374a298d> ;
     skos:definition "In dieser Sammlung finden sich Materialien zu dem ersten großen Reich der Eukaryoten: Den Pflanzen."@de ;
@@ -39990,25 +40008,6 @@ Du kennst tolles Material? Dann bringe dich und dein Wissen ein! Hilf mit, die b
         "Codierung"@de,
         "Kode"@de,
         "Kodierung"@de .
-
-<86b990ef-0955-45ad-bdae-ec2623cf0e1a> a skos:Concept ;
-    skos:definition """Bonjour à tou.te.s ! 
-Du bist Lehrer:in, Refendar:in, studierst Französisch oder willst dein Französisch verbessern? Dann bist du auf diesem Fachportal mit freien und kostenlosen Materialien für Französisch genau richtig. Hier findest du neben sorgfältig ausgewählten Inhalten für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen und praktische Tools. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung."""@de ;
-    skos:narrower <2e8b863e-9e71-4c96-b281-e50c431815c3>,
-        <6570853a-fdbc-4de9-a7f0-63eda87d63f4>,
-        <7fbb64dd-ed80-44da-9ef1-6d2474802145>,
-        <e6ea8ec2-970c-4396-8f23-be2252267b82>,
-        <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> ;
-    skos:prefLabel "Französisch"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> ;
-    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "FLE"@de,
-        "Französisch"@de,
-        "Französisch lernen"@de,
-        "Französischunterricht"@de,
-        "apprendre le français"@de,
-        "français langue étrangère"@de,
-        "learn French"@de .
 
 <877c65b8-78c3-46b3-9eb1-86f1083cbfbe> a skos:Concept ;
     skos:broader <256377d9-ca30-4280-9cfb-64fb4c45a998> ;
@@ -41811,20 +41810,6 @@ In diesem Abschnitt geht es um einfache Stoffeigenschaften und wie man sie unter
     skos:prefLabel "Artikel und Begleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
 
-<7fbb64dd-ed80-44da-9ef1-6d2474802145> a skos:Concept ;
-    skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
-    skos:definition "Du möchtest deine Französisch-Kompetenzen verbessern? Dann bist du hier genau richtig, denn hier findest du Materialien zu Leseverstehen, Hörverstehen, Hörsehverstehen, Sprechen, Schreiben und Sprachmittlung sowie Materialien, um deine Lern- und Arbeitstechniken zu verbessern."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <38adbadf-dd60-46bb-af15-7fb03547b5b7>,
-        <5dd9c4ea-4dcd-41bb-9ade-f286e933f408>,
-        <6c1e8e8e-c8b6-42b0-9c21-106b0b5c5661>,
-        <7eb42e62-c986-40d9-a938-b18220d53492>,
-        <82504afc-a553-4e05-b32d-f9bec63ac202>,
-        <87055159-6e4f-4f8c-980e-c63d4c42e03a>,
-        <f129a31b-5c32-4db6-afa4-d08fbc0f2a50> ;
-    skos:prefLabel "Methoden und Kompetenzen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
-
 <852d7756-a3d2-4e82-8b14-1b9348ebb1c7> a skos:Concept ;
     skos:broader <12c4cd99-9804-44b5-a81b-e9900a0e3d42> ;
     skos:definition "ARTIKEL und BEGLEITER stehen immer vor einem Nomen und müssen in Genus (grammatisches Geschlecht), Numerus (Singular/Plural) und Kasus mit diesem übereinstimmen. Lerne mit den kostenlosen Materialien hier alles über die bestimmten und unbestimmten Artikel sowie andere Begleiter (Possessiv-, Demonstrativ-, Indefinit- und Interrogativbegleiter)."@de ;
@@ -42343,6 +42328,21 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20001> ;
     sdo:keywords "Essen und Trinken, Musik, Höflichkeit, Feste und Feiertage, Ostern, Christmas, Halloween, Geburtstag, Silvester und Neujahr"@de .
 
+<7fbb64dd-ed80-44da-9ef1-6d2474802145> a skos:Concept ;
+    skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
+    skos:definition "Du möchtest deine Französisch-Kompetenzen verbessern? Dann bist du hier genau richtig, denn hier findest du Materialien zu Leseverstehen, Hörverstehen, Hörsehverstehen, Sprechen, Schreiben und Sprachmittlung sowie Materialien, um deine Lern- und Arbeitstechniken zu verbessern."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <38adbadf-dd60-46bb-af15-7fb03547b5b7>,
+        <5dd9c4ea-4dcd-41bb-9ade-f286e933f408>,
+        <6c1e8e8e-c8b6-42b0-9c21-106b0b5c5661>,
+        <7eb42e62-c986-40d9-a938-b18220d53492>,
+        <82504afc-a553-4e05-b32d-f9bec63ac202>,
+        <87055159-6e4f-4f8c-980e-c63d4c42e03a>,
+        <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f>,
+        <f129a31b-5c32-4db6-afa4-d08fbc0f2a50> ;
+    skos:prefLabel "Methoden und Kompetenzen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
+
 <828a1bf2-6943-40c8-878a-20cb94061c2f> a skos:Concept ;
     skos:broader <f1049950-bdda-45f5-9c73-38b51ea66c74> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -42842,7 +42842,7 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
 
 <edc58d82-27e3-4814-9b4a-ab5c1cf7c66f> a skos:Concept ;
-    skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
+    skos:broader <7fbb64dd-ed80-44da-9ef1-6d2474802145> ;
     skos:definition "Hier findest du alles rund um die französische Grammatik, praktische Übersichten, Arbeitsblätter, digitale Übungen, Lernspiele Erklärvideos und noch vieles mehr."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <049030e3-5d92-41a3-b51b-9fca2533026b>,
@@ -44553,7 +44553,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-10-08" ;
+    dct:modified "2022-11-02" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
