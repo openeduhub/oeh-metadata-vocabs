@@ -6321,6 +6321,7 @@ Für spezielle Kohlenhydrate gibt es zum Teil ganz eigene, spezifische Nachweisr
 
 <2f617292-f21e-4ce0-8d15-059229ab25fa> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Wie Vokale, Umlaute und Konsonanten im Deutschen geschrieben werden, hängt entweder mit der Aussprache zusammen, mit der Bedeutung oder der Grammatik. So spricht man „wieder” und „wider” gleich aus, aber es heißt einmal „erneut” und einmal „gegen”. „Mus” ist ein Brei und “muss” die 3. Pers. Sg. von müssen, hier entscheidet die Aussprache (kurz/lang) über die Schreibweise. Lerne die wichtigsten Regeln hier kennen und übe sie. Trainiere auch gleichzeitig dein Hörverständnis, es wird dir helfen, richtig zu schreiben."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Vokale, Umlaute und Konsonanten"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -18166,6 +18167,7 @@ Gibt es noch andere Antworten auf die Frage nach Wahrheit und Lüge?"""@de ;
 
 <89298846-0029-4b5c-bc12-f27efdf3ed28> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Die Großschreibung in der deutschen Sprache bereitet Deutschlernenden oft Probleme. Aber wenn man einige einfache Regeln kennt, kann man die meisten Fehler vermeiden. Großgeschrieben werden: 1. Nomen, 2. Wörter am Satzanfang, 3. Eigennamen und Titel und 4. Anreden. Hier findest du Erklärungen und Übungen dazu, mit denen du  immer sicherer werden kannst."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Großschreibung und Kleinschreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -20031,6 +20033,7 @@ Relativsätze heißen auch Attributsätze und sind Nebensätze, mit denen du zus
 
 <94fae7c5-134f-4e5c-b330-50be85ca264c> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Wann man im Deutschen etwas getrennt oder zusammen schreibt, folgt fast immer klaren Regeln. Sie sind nicht ganz einfach, aber mit etwas Übung, wird man auch damit immer sicherer. Grundsätzlich muss man erkennen können, ob es sich um eine Wortgruppe (getrennt geschrieben) oder um eine Zusammensetzung (zusammengeschrieben) handelt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Zusammen- oder Getrenntschreibung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -27029,12 +27032,15 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
 
 <c54d4635-7cb2-4b6c-b6c3-49ba32e6efaa> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Um zu wissen, wann man ein Wort mit s, ss oder ß schreibt, muss man nicht nur die Regeln kennen, sondern auch hören können, wie es ausgesprochen wird. Denn man unterscheidet „stimmhaftes s”, (klingt wie das Summen einer Biene) und „stimmloses s” (klingt wie das Zischen einer Schlange). Auch wichtig ist, ob eine Silbe, die auf einen S-Laut endet, kurz oder lang gesprochen wird. Klingt kompliziert? Es ist gar nicht so schwierig! Mach dich hier schlau und übe dich fit!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "s, ss und ß"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
     sdo:keywords "das"@de,
         "dass"@de,
-        "s-Laut"@de .
+        "s-Laut"@de,
+        "ss"@de,
+        "ß"@de .
 
 <c54e5e76-fac1-4d1c-885e-b4b838efe482> a skos:Concept ;
     skos:broader <d0ed50e6-a49f-4566-8f3b-c545cdf75067> ;
@@ -44553,7 +44559,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-02" ;
+    dct:modified "2022-11-07" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
