@@ -27055,6 +27055,24 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
     sdo:keywords "CO²"@de,
         "Klimawandel"@de .
 
+<c5805aaf-e973-4743-af07-aa69250d8337> a skos:Concept ;
+    skos:broader <19febd4c-c96c-4a08-9fcc-00cb626f8e49> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Feste und Brauchtum"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
+    sdo:keywords "Geburtstag"@de,
+        "Halloween"@de,
+        "Nikolaus"@de,
+        "Ostern"@de,
+        "Sankt Martin"@de,
+        "Silvester"@de,
+        "Weihnachten"@de,
+        "Wortschatz"@de,
+        "Wortschatz DaF"@de,
+        "Wortschatz DaZ"@de,
+        "Wortschatz Deutsch"@de,
+        "Wortschatzarbeit"@de .
+
 <c5addb17-2acd-41e9-9d97-b60f5a64adfa> a skos:Concept ;
     skos:broader <cacbc7bc-833e-4360-90f0-6f828db27508> ;
     skos:definition "Die in einem Gegenstand gespeicherte Energie liegt in der Regel als thermische Energie oder als potentielle Energie der Bestandteile des Gegenstandes vor. Die innere Energie eines Gegenstandes kann sich verändern, indem Arbeit an dem oder durch den Gegenstand verrichtet wird - oder Wärme mit der Umgebung ausgetauscht wird. Ansonsten behält ein Gegenstand seine innere Energie bei. Dies ist die zentrale Aussage des ersten Hauptsatzes der Thermodynamik. Die Wärmekapazität eines Gegenstandes beschreibt, wie stark sich die innere Energie eines Gegenstandes bei Erwärmung verändert."@de ;
@@ -44454,6 +44472,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <9dd70c89-5582-4fac-9fe9-b7f37d4a0770>,
         <a35df500-1633-4fed-aeae-c8b0da892437>,
         <a3b2e4f2-a063-4c32-b39a-98a36e3f7b4c>,
+        <c5805aaf-e973-4743-af07-aa69250d8337>,
         <c5d22e90-78f0-4a7a-8c39-241e1e2134aa>,
         <c93fb1ef-8663-4007-9ad4-66cfe4d52018>,
         <cb4da717-e9c4-487f-a403-514dc14e5d8e>,
@@ -44559,7 +44578,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-07" ;
+    dct:modified "2022-11-09" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
