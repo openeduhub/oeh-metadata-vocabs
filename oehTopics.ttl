@@ -9970,6 +9970,18 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
         "Lösungsverfahren"@de,
         "wässrige Lösungen"@de .
 
+<4dbf1b75-c9e1-4bc5-b1f3-9684895dbdcd> a skos:Concept ;
+    skos:broader <cffaadfb-5c07-4e9c-919c-0a53b862c89b> ;
+    skos:definition "Innerhalb einer Sprache gibt es zahlreichen Varietäten dieser Sprache, die sich regional unterschieden (Dialekte) oder nach sozialen Gruppen (Soziolekte), nach Altersgruppen (Jugendsprache) oder Berufsgruppen (Fachsprachen)."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Sprachvarietäten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Dialekt"@de,
+        "Fachsprache"@de,
+        "Jugendsprache"@de,
+        "Kiezdeutsch"@de,
+        "Soziolekt"@de .
+
 <4ddc8d99-2326-4665-a878-7e12c876e6f6> a skos:Concept ;
     skos:broader <9da8a7bd-faf1-466f-94a0-4d446ad4084d> ;
     skos:definition "Dieser Pronomen-Typ bezieht sich auf Besitz. Es gibt zwei Arten von Possessivpronomen, unabhängige und abhängige. Die abhängigen stehen vor einem Nomen, “my, our, your, his, her, its, and their”. Unabhängige Possessivpronomen stehen ohne Verbindung zu einem Nomen im Satz: “mine, ours, yours, his, hers, its, and theirs”."@de ;
@@ -41963,22 +41975,6 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
     sdo:keywords "Interpretation"@de,
         "Prosatext"@de .
 
-<cffaadfb-5c07-4e9c-919c-0a53b862c89b> a skos:Concept ;
-    skos:broader <69f9ff64-93da-4d68-b849-ebdf9fbdcc77> ;
-    skos:definition "Das Wort Grammatik kommt aus dem Altgriechischen  [gramma] und bedeutet übersetzt Buchstabe oder Geschriebenes.  Heute verstehen wir unter Grammatik die Lehre von Wörtern und Sätzen, und wie man Wörter und Wortformen in einer Reihenfolge im Satz verwendet. Die Grammatik ist das Regelsystem einer Sprache. In dieser Sammlung findet ihr Materialien zu Wortbildung und zum Satzbau."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <4d593519-13c1-4e66-bae2-ec97ade836fa>,
-        <6a03cfed-26f8-4936-8ca1-5ef36a81e795>,
-        <96aca699-ebc0-418c-bfc6-e08f44d388f4>,
-        <b34588ea-e38a-4e2a-b37e-309bfb2e803e>,
-        <dcd35083-8050-4767-a890-e64e3b624322>,
-        <f3089575-2c0c-4538-bc80-dcdfd4592d92>,
-        <f5d7932f-d500-4141-a4be-ef10bd5292ae> ;
-    skos:prefLabel "Grammatik und Sprache untersuchen"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
-    sdo:keywords "Grammatik"@de,
-        "Sprache"@de .
-
 <d1ddbf58-f9b5-4e46-8191-e4a7801530b1> a skos:Concept ;
     skos:broader <6570853a-fdbc-4de9-a7f0-63eda87d63f4> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -42439,6 +42435,23 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     sdo:keywords "Mathematik"@de .
+
+<cffaadfb-5c07-4e9c-919c-0a53b862c89b> a skos:Concept ;
+    skos:broader <69f9ff64-93da-4d68-b849-ebdf9fbdcc77> ;
+    skos:definition "Das Wort Grammatik kommt aus dem Altgriechischen  [gramma] und bedeutet übersetzt Buchstabe oder Geschriebenes.  Heute verstehen wir unter Grammatik die Lehre von Wörtern und Sätzen, und wie man Wörter und Wortformen in einer Reihenfolge im Satz verwendet. Die Grammatik ist das Regelsystem einer Sprache. In dieser Sammlung findet ihr Materialien zu Wortbildung und zum Satzbau."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4d593519-13c1-4e66-bae2-ec97ade836fa>,
+        <4dbf1b75-c9e1-4bc5-b1f3-9684895dbdcd>,
+        <6a03cfed-26f8-4936-8ca1-5ef36a81e795>,
+        <96aca699-ebc0-418c-bfc6-e08f44d388f4>,
+        <b34588ea-e38a-4e2a-b37e-309bfb2e803e>,
+        <dcd35083-8050-4767-a890-e64e3b624322>,
+        <f3089575-2c0c-4538-bc80-dcdfd4592d92>,
+        <f5d7932f-d500-4141-a4be-ef10bd5292ae> ;
+    skos:prefLabel "Grammatik und Sprache untersuchen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Grammatik"@de,
+        "Sprache"@de .
 
 <d155f98b-ecf8-420b-a97b-e6cddbc1366f> a skos:Concept ;
     skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
@@ -44578,7 +44591,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-09" ;
+    dct:modified "2022-11-10" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
