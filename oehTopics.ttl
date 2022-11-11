@@ -9698,6 +9698,17 @@ Zusammenspiel von Verteidigung über Mittelfeld und Angriff."""@de ;
         "gesättigt"@de,
         "ungesättigt"@de .
 
+<4c0638b0-742d-4596-9120-829813fb14ff> a skos:Concept ;
+    skos:broader <66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> ;
+    skos:definition "In dieser Sammlung finden sich vielfältige Materialien zum Thema AIDS."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "AIDS"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "AIDS"@de,
+        "HIV"@de,
+        "Immunschwäche"@de,
+        "Immunsystem"@de .
+
 <4c23338e-3350-4657-9163-683a013da7b6> a skos:Concept ;
     skos:broader <37691013-3065-42dd-af75-a9aeaaef23f8> ;
     skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Kleine Vokalharmonie' im Türkischen."@de ;
@@ -17502,6 +17513,16 @@ Spielfähigkeit."""@de ;
         "Weltjugendtag"@de,
         "soziales Engagement katholischer Bistümer"@de,
         "soziales Engagement kirchlicher Schulen"@de .
+
+<847e4d01-76d8-4dae-89ba-e54ba6dd176a> a skos:Concept ;
+    skos:broader <c6e3cdd4-b184-4b3a-a279-3187fca6404c> ;
+    skos:definition "In dieser Sammlung finden sich Materialien zu den im Biologieunterricht gebräuchlichsten Säuren und Basen und Ihre Anwendungen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Säuren und Basen"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Basen"@de,
+        "Säure"@de,
+        "Säuren und Basen"@de .
 
 <84ad6e6b-0a77-454d-be08-43d80f6b9a70> a skos:Concept ;
     skos:broader <9f8724da-b043-40e5-9802-cd7a306d8fd7> ;
@@ -34356,6 +34377,19 @@ Der Konfuzianismus gehört neben dem Buddhismus und Daoismus zu den „Drei Lehr
     sdo:keywords "Wurzelgesetze"@de,
         "Wurzelrechnung"@de .
 
+<fbdab1f1-53b6-4c0a-84a1-4a926f69b80f> a skos:Concept ;
+    skos:broader <66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> ;
+    skos:definition "In dieser Sammlung finden sich Materialien rund um die Erkrankung Diabetes mellitus, auch Zuckerkrankheit genannt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Diabetes"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Blutzucker"@de,
+        "Diabetes"@de,
+        "Diabetes mellitus"@de,
+        "Insulin"@de,
+        "Pankreas"@de,
+        "Zuckerkrankheit"@de .
+
 <fc029eb1-8fb0-4c7d-b13e-c98b3447feee> a skos:Concept ;
     skos:broader <5dc1e0ef-b7fb-46c3-bc47-23c31a77ddd0> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -35121,18 +35155,6 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "Jugendliteratur"@de,
         "Kinder- und Jugendliteratur"@de,
         "Kinderliteratur"@de .
-
-<66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> a skos:Concept ;
-    skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
-    skos:definition "In dieser Untersammlung werden verschiedene Materialien zu menschlichen Erkrankungen zusammengestellt."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <572efa1f-e22a-40e8-af2e-a9dbff6963a1> ;
-    skos:prefLabel "Krankheiten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Infektionskrankheiten"@de,
-        "Krankheit"@de,
-        "Mensch"@de,
-        "Sucht"@de .
 
 <742ab88e-ccb9-4888-82ff-2482edfce44d> a skos:Concept ;
     skos:broader <ff426019-b246-4fda-af3c-328b88db7c06> ;
@@ -36874,6 +36896,20 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         "London-Dispersion-Forces"@de,
         "Van-der-Waals-Kräfte"@de,
         "Wasserstoffbrücken"@de .
+
+<66ed775f-adcd-4a8a-b4fb-a5fe7433a2f0> a skos:Concept ;
+    skos:broader <dd41301d-4f93-4820-be90-280df6b01093> ;
+    skos:definition "In dieser Untersammlung werden verschiedene Materialien zu menschlichen Erkrankungen zusammengestellt."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4c0638b0-742d-4596-9120-829813fb14ff>,
+        <572efa1f-e22a-40e8-af2e-a9dbff6963a1>,
+        <fbdab1f1-53b6-4c0a-84a1-4a926f69b80f> ;
+    skos:prefLabel "Krankheiten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Infektionskrankheiten"@de,
+        "Krankheit"@de,
+        "Mensch"@de,
+        "Sucht"@de .
 
 <6ac53827-d0c8-4dd1-9dbd-2659d26ce9fb> a skos:Concept ;
     skos:broader <074488f0-4af3-46f0-9390-e00d2d294916> ;
@@ -41317,26 +41353,6 @@ Individuum immer mehr Voraussetzungen zur Entwicklung des Selbstkonzepts zur Ver
     skos:prefLabel "Harmonik"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> .
 
-<c6e3cdd4-b184-4b3a-a279-3187fca6404c> a skos:Concept ;
-    skos:broader <220f48a8-4b53-4179-919d-7cd238ed567e> ;
-    skos:definition "In dieser Sammlung finden sich Informationen und Unterrichtsmaterialien zu verschiedenen chemischen Begriffen, die auch im Biologie-Unterricht vorkommen können und daher für das Verständnis der biologischen Abläufe notwendig sind."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <067e7cff-051e-4ddf-9461-39f883a7a146>,
-        <4db39b69-c309-401f-b362-5bbdda3008fc>,
-        <5f98cdc7-d83e-41cd-96b9-8c888108528c>,
-        <b21e9ff1-6df0-433a-b6c8-b1f75a3dd869>,
-        <b8ca5ddf-1132-4d24-a0ba-d88f89f1901f>,
-        <d00a66fa-36b6-4d7c-ab56-c3d894fbf6c1> ;
-    skos:prefLabel "Chemische Begriffe in der Biologie"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
-    sdo:keywords "Aggregatzustand"@de,
-        "Atombau"@de,
-        "Diffusion"@de,
-        "Lösungen"@de,
-        "Osmose"@de,
-        "PSE"@de,
-        "Periodensystem der Elemente"@de .
-
 <c7a75fc2-e77c-4b59-ac98-8313eec9e22d> a skos:Concept ;
     skos:broader <3e719a77-fdcd-450f-b00d-aacc9fc0b13c> ;
     skos:definition "Die Epoche der Romantik umfasst die Zeit von 1800-1850"@de ;
@@ -41958,6 +41974,27 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
         "pronombres personales"@de,
         "pronombres posesivos"@de,
         "pronombres relativos"@de .
+
+<c6e3cdd4-b184-4b3a-a279-3187fca6404c> a skos:Concept ;
+    skos:broader <220f48a8-4b53-4179-919d-7cd238ed567e> ;
+    skos:definition "In dieser Sammlung finden sich Informationen und Unterrichtsmaterialien zu verschiedenen chemischen Begriffen, die auch im Biologie-Unterricht vorkommen können und daher für das Verständnis der biologischen Abläufe notwendig sind."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <067e7cff-051e-4ddf-9461-39f883a7a146>,
+        <4db39b69-c309-401f-b362-5bbdda3008fc>,
+        <5f98cdc7-d83e-41cd-96b9-8c888108528c>,
+        <847e4d01-76d8-4dae-89ba-e54ba6dd176a>,
+        <b21e9ff1-6df0-433a-b6c8-b1f75a3dd869>,
+        <b8ca5ddf-1132-4d24-a0ba-d88f89f1901f>,
+        <d00a66fa-36b6-4d7c-ab56-c3d894fbf6c1> ;
+    skos:prefLabel "Chemische Begriffe in der Biologie"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
+    sdo:keywords "Aggregatzustand"@de,
+        "Atombau"@de,
+        "Diffusion"@de,
+        "Lösungen"@de,
+        "Osmose"@de,
+        "PSE"@de,
+        "Periodensystem der Elemente"@de .
 
 <cc217ac0-ca5c-4b29-9824-24c9fcf20aa5> a skos:Concept ;
     skos:broader <e126a8c7-fc46-4686-969b-5230f7732015> ;
@@ -44591,7 +44628,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-10" ;
+    dct:modified "2022-11-11" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
