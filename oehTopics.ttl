@@ -10610,6 +10610,7 @@ Der Rationalismus ist die Denkweise der Aufklärung, die an eine unbegrenzte men
 
 <52b73d13-f0b2-4ec9-8d1a-08f9b2842fa2> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Es gibt im Deutschen eine große Zahl an Fremdwörtern, also Wörter, die aus einer anderen Sprache stammen und kaum verändert wurden. Warum ist es wichtig, sie zu erkennen? Zum Beispiel weil sie in Schreibweise, Aussprache und auch in grammatischen Eigenheiten von den Regeln abweichen können, die normalerweise im Deutschen gelten. Beispiele wie „Chip”, Jogging”,  (Englisch) oder „Esprit”, „Kotelett” (Französisch), „Basar” (Persisch) oder Physik (Griechisch) sind nur einige wenige Beispiele dafür. Neugierig geworden? Dann lerne hier mehr!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Fremdwörter schreiben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -19049,6 +19050,7 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 
 <8ec77263-4fdd-45c3-873d-96b5e87a6c8a> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
+    skos:definition "Keine Angst vor der Zeichensetzung! Bei der Zeichensetzung (auch: Interpunktion) geht es um SATZZEICHEN und WORTZEICHEN . Satzzeichen charakterisieren den Satz (z. B. Aussagesatz mit Punkt, Fragesatz mit Fragezeichen am Ende) und strukturieren ihn sinnvoll. Wortzeichen können Wortteile verbinden (Bindestrich) oder trennen (Trennstrich) oder Zugehörigkeit herstellen (Apostroph). Lerne diese und andere Satzzeichen hier kennen und richtig anwenden. Und keine Angst: Wenn du einmal ein paar Grundregeln begriffen hast, helfen sie dir dabei, Texte schnell zu erfassen und deine eigenen Texte gut zu strukturieren!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Zeichensetzung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -19056,12 +19058,14 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
         "Apostroph"@de,
         "Auslassungspunkte"@de,
         "Ausrufezeichen"@de,
+        "Bindestrich"@de,
         "Doppelpunkt"@de,
         "Fragezeichen"@de,
         "Gedankenstrich"@de,
         "Kommaregeln"@de,
         "Punkt"@de,
         "Semikolon"@de,
+        "Trennstrich"@de,
         "Zeichensetzung "@de .
 
 <8ec84e44-7a1a-4041-86c0-b778891111de> a skos:Concept ;
