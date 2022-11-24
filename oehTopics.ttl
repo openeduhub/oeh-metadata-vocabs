@@ -3261,7 +3261,7 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
 
 <199ce289-cfef-4279-b0d6-44b6157b2e13> a skos:Concept ;
     skos:broader <ce0b7b1e-e517-4fd2-a819-6b99b660ed85> ;
-    skos:definition "In dieser Untersammlung geht es um die Auswirkungen, die die Evolution hat. Es finden sich hier also UNterrichtsmaterialien über Homologien, Analogien etc."@de ;
+    skos:definition "In dieser Untersammlung geht es um die Auswirkungen, die die Evolution hat. Es finden sich hier also Unterrichtsmaterialien über Homologien, Analogien etc."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Auswirkungen von Evolution"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
@@ -9797,6 +9797,7 @@ In dieser Sammlung findest du Materialien der Literatur der BRD, der DDR und der
 
 <4c9eb9b5-33c3-4d59-a00c-0f442dccc1f8> a skos:Concept ;
     skos:broader <50d35676-55e0-4e93-810a-78d18975b0b6> ;
+    skos:definition "Werbung ist überall - wir sind täglich damit konfrontiert. In dieser Sammlung findet ihr Materialien zu Werbestrategien und der Analyse von Werbung."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Werbung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20001> ;
@@ -18060,6 +18061,17 @@ Gibt es noch andere Antworten auf die Frage nach Wahrheit und Lüge?"""@de ;
         "Inflation"@de,
         "Preisstabilität"@de .
 
+<88654ade-1707-4f14-9e1d-b25e97c6c071> a skos:Concept ;
+    skos:broader <a37552ec-78c4-44f2-8564-8e84e4ca26b3> ;
+    skos:definition "Ideen der Quantenmechanik werden in Wissenschaft und mittlerweile auch Technik zur Informationsübermittlung und - insbesondere - zur Verschlüsselung von Informationen genutzt. Zu diesem Thema der modernen Physik gibt es eine Vielzahl von Simulationen und Unterrichtsideen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Quanteninformation"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
+    sdo:keywords "Quanteninformatik"@de,
+        "Quanteninformation"@de,
+        "Quantenkryptographie"@de,
+        "Quantenphysik"@de .
+
 <88733cf5-5176-4166-a7b3-227f3a31c5b4> a skos:Concept ;
     skos:broader <e3b5df81-eb3e-4a97-af21-2b0b9b1fb4d1> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -19050,7 +19062,7 @@ Bei Besuch einer berufsbildenden Schule  (Schule mit Berufsabschluss) ist die du
 
 <8ec77263-4fdd-45c3-873d-96b5e87a6c8a> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
-    skos:definition "Keine Angst vor der Zeichensetzung! Bei der Zeichensetzung (auch: Interpunktion) geht es um SATZZEICHEN und WORTZEICHEN . Satzzeichen charakterisieren den Satz (z. B. Aussagesatz mit Punkt, Fragesatz mit Fragezeichen am Ende) und strukturieren ihn sinnvoll. Wortzeichen können Wortteile verbinden (Bindestrich) oder trennen (Trennstrich) oder Zugehörigkeit herstellen (Apostroph). Lerne diese und andere Satzzeichen hier kennen und richtig anwenden. Und keine Angst: Wenn du einmal ein paar Grundregeln begriffen hast, helfen sie dir dabei, Texte schnell zu erfassen und deine eigenen Texte gut zu strukturieren!"@de ;
+    skos:definition "Keine Angst vor der Zeichensetzung! Bei der Zeichensetzung (auch: Interpunktion) geht es um SATZZEICHEN und WORTZEICHEN . Satzzeichen charakterisieren den Satz (z. B. Aussagesatz mit Punkt, Fragesatz mit Fragezeichen am Ende) und strukturieren ihn sinnvoll. Wortzeichen können Wortteile verbinden (Bindestrich) oder trennen (Trennstrich) oder Zugehörigkeit herstellen (Apostroph). Lerne diese und andere Satz- und Wortzeichen hier kennen und richtig anwenden. Und keine Angst: Wenn du einmal ein paar Grundregeln begriffen hast, helfen sie dir dabei, Texte schnell zu erfassen und deine eigenen Texte gut zu strukturieren!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Zeichensetzung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -22345,6 +22357,17 @@ Die Funktionen des Sports sind aus seiner historischen Entwicklung erwachsen (vo
         "métropoles en France"@de,
         "métropoles et banlieues France"@de,
         "problémes en banlieue"@de .
+
+<a3291cd2-5fe4-444e-9b7b-65807d9b0024> a skos:Concept ;
+    skos:definition """Herzlich willkommen auf dem Portal für zeitgemäße Bildung.
+ 
+Bist du auf der Suche nach neuen, spannenden Bildungsformaten, mit denen du deinen Unterricht zeitgemäßer gestalten kannst? Oder möchtest du dich einfach inspirieren lassen von innovativen Bildungskonzepten und praxisnahen Beispielen? Dann bist du hier genau richtig!  
+
+Zum einen findest du hier konkrete Methoden und Tools, mit denen du deinen Unterricht lernerorientiert gestalten kannst. Zum anderen bieten wir dir als Inspiration Einblicke in innovative Praxisberichte, zukunftsweisende Bildungsdiskurse und neue Erkenntnisse aus der Wissenschaft und Forschung.
+ 
+Dieses Portal soll weiter wachsen, darum bringe dich und dein Wissen ein, indem du deine Materialien und Methoden teilst oder Mitglied der Fachredaktion wirst. Lass uns gemeinsam Bildungsangebote sammeln und teilen, die helfen, aktuelle und zukünftige Herausforderungen zu meistern."""@de ;
+    skos:prefLabel "Zeitgemäße Bildung"@de ;
+    skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> .
 
 <a35a695a-402d-4ba8-92be-b7807e4cc535> a skos:Concept ;
     skos:broader <96aca699-ebc0-418c-bfc6-e08f44d388f4> ;
@@ -37261,26 +37284,6 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
     skos:prefLabel "Jesu Tod und Auferstehung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/520> .
 
-<a37552ec-78c4-44f2-8564-8e84e4ca26b3> a skos:Concept ;
-    skos:broader <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e> ;
-    skos:definition "In der Größendimension von Elementarteilchen, Atomen und Molekülen finden sich verschiedene, merkwürdige Effekte. Die klassischen Konzepte Welle und Teilchen tragen nicht mehr und werden durch den Welle-Teilchen-Dualismus ersetzt. Submikroskopische Objekte gehorchen den Gesetzen der Statistik und es lassen sich für den Aufenthaltsort, die Energie und viele weitere Größen nur Wahrscheinlichkeiten angeben. Die Welt der Quantenphysik, die all diese Merkwürdigkeiten beschreibt, entzieht sich oft jeder anschaulichen Vorstellung."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <28c4cee1-a987-4bfb-b227-8f36f57e33d3>,
-        <5c8fc12e-1ff9-4223-b920-5ea8cec7c65b>,
-        <6f5c9f2e-f187-4a4b-9252-9d63521b3ccc> ;
-    skos:prefLabel "Quantenphysik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
-    sdo:keywords "Photon"@de,
-        "Photonen"@de,
-        "Quant"@de,
-        "Quanten"@de,
-        "Quantenphysik"@de,
-        "Schrödinger"@de,
-        "Schrödingergleichung"@de,
-        "Schrödingers Katze"@de,
-        "Unschärfe"@de,
-        "eisenberg"@de .
-
 <a3f828d4-1eaa-46c6-9179-5ec68aa73194> a skos:Concept ;
     skos:broader <9777f8ad-25d2-4c7a-ae7c-31a56aca85f0> ;
     skos:definition "Salze sind chemische Verbindungen aus positiv geladenen Ionen  (Kationen) und negativ geladenen Ionen (Anionen). Die elektrostatischen Anziehungskräfte zwischen den geladenen Ionen halten die Salze in einer Kristallstruktur zusammen. Diese Art der chemischen Bindung erklärt die meisten beobachtbaren Eigenschaften der Stoffklasse der Salze. Bei der Bildung von Salzen werden oft Elektronen vorher ungeladener Atome ausgetauscht: Es findet eine Redox-Reaktion statt. Natürlich ist \"Salz\" - Natriumchlorid - auch im Alltag wichtig: Als Lebensmittel, Konservierungsstoff und Grundchemikalie."@de ;
@@ -38886,6 +38889,27 @@ periodische Vorgänge auf."""@de .
         "deutsche Grammatik"@de,
         "nebenordnende Konnektoren"@de,
         "zweigliedrige Konnektoren"@de .
+
+<a37552ec-78c4-44f2-8564-8e84e4ca26b3> a skos:Concept ;
+    skos:broader <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e> ;
+    skos:definition "In der Größendimension von Elementarteilchen, Atomen und Molekülen finden sich verschiedene, merkwürdige Effekte. Die klassischen Konzepte Welle und Teilchen tragen nicht mehr und werden durch den Welle-Teilchen-Dualismus ersetzt. Submikroskopische Objekte gehorchen den Gesetzen der Statistik und es lassen sich für den Aufenthaltsort, die Energie und viele weitere Größen nur Wahrscheinlichkeiten angeben. Die Welt der Quantenphysik, die all diese Merkwürdigkeiten beschreibt, entzieht sich oft jeder anschaulichen Vorstellung."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <28c4cee1-a987-4bfb-b227-8f36f57e33d3>,
+        <5c8fc12e-1ff9-4223-b920-5ea8cec7c65b>,
+        <6f5c9f2e-f187-4a4b-9252-9d63521b3ccc>,
+        <88654ade-1707-4f14-9e1d-b25e97c6c071> ;
+    skos:prefLabel "Quantenphysik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/460> ;
+    sdo:keywords "Photon"@de,
+        "Photonen"@de,
+        "Quant"@de,
+        "Quanten"@de,
+        "Quantenphysik"@de,
+        "Schrödinger"@de,
+        "Schrödingergleichung"@de,
+        "Schrödingers Katze"@de,
+        "Unschärfe"@de,
+        "eisenberg"@de .
 
 <a402ca40-035b-44a4-beff-447c3d9c21be> a skos:Concept ;
     skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
@@ -44632,7 +44656,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-15" ;
+    dct:modified "2022-11-24" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
@@ -44652,6 +44676,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
         <86b990ef-0955-45ad-bdae-ec2623cf0e1a>,
         <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e>,
         <9d364fd0-4374-40b4-a153-3c722b9cda35>,
+        <a3291cd2-5fe4-444e-9b7b-65807d9b0024>,
         <a87c092d-e3b5-43ef-81db-757ab1967646>,
         <baec6d1a-9786-4afc-b824-b3bb99516fa3>,
         <bd8be6d5-0fbe-4534-a4b3-773154ba6abc>,
