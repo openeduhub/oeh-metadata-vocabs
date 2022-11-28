@@ -39957,7 +39957,8 @@ So vielseitig, wie wir es sind, ist es das Theater auch. Hier findest Du die unt
         <fc029eb1-8fb0-4c7d-b13e-c98b3447feee>,
         <ffd4c93e-f9c4-48a0-af82-6f4b541aeb37> ;
     skos:prefLabel "Alltag"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> ;
+    sdo:keywords "Alltag"@de .
 
 <5e9006fd-a5ba-4b2d-a4de-d4b7897212e7> a skos:Concept ;
     skos:broader <350a0734-a52d-4d1e-9249-5e19f216da2f> ;
