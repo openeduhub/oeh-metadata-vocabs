@@ -18053,7 +18053,8 @@ Gibt es noch andere Antworten auf die Frage nach Wahrheit und Lüge?"""@de ;
 
 <88649c8e-ff64-4190-bae0-74461d39a411> a skos:Concept ;
     skos:broader <ed4bf1e1-96e3-4394-8bc6-41173c0aa2f0> ;
-    skos:definition "hier sind Materialien zur Preisstabilität, Inflation und Deflation mit einem Erklärvideo eingestellt"@de ;
+    skos:definition """In einer Marktwirtschaft können sich die Preise von Waren und Dienstleistungen immer wieder ändern. Manche Produkte werden teurer, andere billiger. Steigen die Preise von Waren und Dienstleistungen allgemein, und nicht nur die Preise einzelner Produkte, so bezeichnet man dies als Inflation. Dann kann man heute mit 1 € nicht so viel kaufen wie noch gestern. Anders gesagt: Durch Inflation sinkt mit der Zeit der Wert einer Währung.
+Im Zusammenhang mit Inflation stehen auch die Begriffe Preisstabilität und Deflation."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Inflation"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
@@ -44656,7 +44657,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-11-24" ;
+    dct:modified "2022-11-28" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
