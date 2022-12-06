@@ -3087,6 +3087,14 @@ Werfen  lernen und das Zusammenspiel üben."""@de ;
     sdo:keywords "Potenzgesetze"@de,
         "Potenzrechnung"@de .
 
+<18c4b29c-2062-4d7f-b4d7-0ddabd05d150> a skos:Concept ;
+    skos:broader <e5f2fbcf-0609-49fc-9025-b882a06e72ef> ;
+    skos:definition "Es ist wieder Winter und du suchst dafür passende Materialien für das Fach Deutsch? Alles zum Thema Winter, auch fächerübergreifend, findest du hier. Viel Spaß beim Stöbern."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Winter"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Winter"@de .
+
 <18c4c066-cc9e-45fe-931a-266e56b1473b> a skos:Concept ;
     skos:broader <0f98878d-4bf8-4ed5-933b-c0ad0d36263e> ;
     skos:definition "Müll verursacht viele Probleme: Plastik in den Meeren und Ausstoß von Schadstoffen bei der Müllverbrennung sind nur einige von ihnen. Die Abbauprodukte, die bei der Zersetzung von Müll entstehen, sind oft gefährlich für die Umwelt. Chemische Prozesse bieten auf der anderen Seite viele Chancen, Müll als Rohstoffquelle zu erschließen."@de ;
@@ -37875,20 +37883,6 @@ Beispiele sind: OER-geeignete Autorenwerkzeuge, LMS-Erweiterungen, Repositorien,
         "Verfügbarkeit"@de,
         "Vorkommen"@de .
 
-<e5f2fbcf-0609-49fc-9025-b882a06e72ef> a skos:Concept ;
-    skos:broader <8b3b171d-11be-4a50-9042-b435ee50251e> ;
-    skos:definition "Tolle Materialien zu den Jahreszeiten gesucht? Vor allem zum Herbst wirst du hier fündig. Gern kannst du uns auch passendes Material von dir einsenden, um unsere Sammlung zu erweitern."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <1b52e630-567c-420f-869b-1b31822fa620>,
-        <8dfb199e-af0c-46df-9798-a6755603cab7>,
-        <da684986-4dbc-42ff-87e5-e3d724e26cb1> ;
-    skos:prefLabel "Jahreszeiten"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
-    sdo:keywords "Frühling"@de,
-        "Herbst"@de,
-        "Sommer"@de,
-        "Winter"@de .
-
 <e61912b0-5424-49f5-a3e6-b7891820e23a> a skos:Concept ;
     skos:broader <15dbd166-fd31-4e01-aabd-524cfa4d2783> ;
     skos:definition "Englisch im schulischen und beruflichen Kontext"@de ;
@@ -39296,6 +39290,21 @@ Es geht darum zu verstehen, woran du chemische Reaktionen erkennen kannst und wa
         <ef7dd84f-fc5c-41e8-8d91-7f0b1a265321> ;
     skos:prefLabel "Wohnen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
+
+<e5f2fbcf-0609-49fc-9025-b882a06e72ef> a skos:Concept ;
+    skos:broader <8b3b171d-11be-4a50-9042-b435ee50251e> ;
+    skos:definition "Tolle Materialien zu den Jahreszeiten gesucht? Vor allem zum Herbst wirst du hier fündig. Gern kannst du uns auch passendes Material von dir einsenden, um unsere Sammlung zu erweitern."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <18c4b29c-2062-4d7f-b4d7-0ddabd05d150>,
+        <1b52e630-567c-420f-869b-1b31822fa620>,
+        <8dfb199e-af0c-46df-9798-a6755603cab7>,
+        <da684986-4dbc-42ff-87e5-e3d724e26cb1> ;
+    skos:prefLabel "Jahreszeiten"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/120> ;
+    sdo:keywords "Frühling"@de,
+        "Herbst"@de,
+        "Sommer"@de,
+        "Winter"@de .
 
 <e60c3255-7243-4854-84cc-31809dd91c78> a skos:Concept ;
     skos:broader <24d1a2cc-3c05-4be8-bfab-987f1bc2c879> ;
@@ -44633,7 +44642,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-12-01" ;
+    dct:modified "2022-12-06" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
