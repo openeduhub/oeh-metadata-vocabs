@@ -15205,16 +15205,6 @@ Bedeutsame Werke und Vorschläge zur Rolle des Staates gibt es u.a. von Platon u
         "Liedformen"@de,
         "Rondo"@de .
 
-<72d6741e-2597-4995-9253-3b14bdb77fb9> a skos:Concept ;
-    skos:broader <a402ca40-035b-44a4-beff-447c3d9c21be> ;
-    skos:definition "hier geht es um betriebliche Standortfaktoren, die eine Unternehmensgründung oder Niederlassung bestimmen"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Standort"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
-    sdo:keywords "Infrastruktur"@de,
-        "Standorte"@de,
-        "Standortfaktoren"@de .
-
 <730b9a46-99dd-4f2a-a70d-64ff2ecdbc00> a skos:Concept ;
     skos:broader <58e66666-162e-4673-804f-a9961136311d> ;
     skos:definition "Die Literaturepoche des Impressionismus ist fachwissenschaftlich umstritten. Als Überbegriff sammelt der Impressionismus in der Literatur ebenso wie in der Malerei und Musik Werke, die von etwa 1890-1910 entstanden und die Momente subjektiv wiedergeben."@de ;
@@ -37283,6 +37273,22 @@ Die Vorstellungen über den atomaren Aufbau der Materie haben sich im Laufe von 
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/100> ;
     sdo:keywords "salzartige Verbindungen"@de .
 
+<a402ca40-035b-44a4-beff-447c3d9c21be> a skos:Concept ;
+    skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
+    skos:definition "wie funktioniert ein Betrieb, wie ist er aufgebaut, welche Produktionsfaktoren gibt es, Rechtsformen und Standortfaktoren, Entscheidungsmechanismen, Existenzgründung"@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <20dfa72d-2bc0-4462-948b-c3932aaf4006>,
+        <7360c245-0613-4369-a0ed-079b7843af46>,
+        <cb2dbe54-33f5-4777-83d8-bba1c86a6a3b> ;
+    skos:prefLabel "Betrieb"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
+    sdo:keywords "BWL"@de,
+        "Existenzgründung"@de,
+        "Produktionsfaktoren"@de,
+        "Rechtsformen"@de,
+        "Standortfaktoren"@de,
+        "Unternehmenskonzentration"@de .
+
 <a5e96913-ce95-49df-82e2-d61147c96b23> a skos:Concept ;
     skos:broader <8d87ef86-bb5e-4dbe-b1ee-8863369b8700> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -38882,23 +38888,6 @@ periodische Vorgänge auf."""@de .
         "Schrödingers Katze"@de,
         "Unschärfe"@de,
         "eisenberg"@de .
-
-<a402ca40-035b-44a4-beff-447c3d9c21be> a skos:Concept ;
-    skos:broader <f0109e16-a8fc-48b5-9461-369571fd59f2> ;
-    skos:definition "wie funktioniert ein Betrieb, wie ist er aufgebaut, welche Produktionsfaktoren gibt es, Rechtsformen und Standortfaktoren, Entscheidungsmechanismen, Existenzgründung"@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <20dfa72d-2bc0-4462-948b-c3932aaf4006>,
-        <72d6741e-2597-4995-9253-3b14bdb77fb9>,
-        <7360c245-0613-4369-a0ed-079b7843af46>,
-        <cb2dbe54-33f5-4777-83d8-bba1c86a6a3b> ;
-    skos:prefLabel "Betrieb"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/700> ;
-    sdo:keywords "BWL"@de,
-        "Existenzgründung"@de,
-        "Produktionsfaktoren"@de,
-        "Rechtsformen"@de,
-        "Standortfaktoren"@de,
-        "Unternehmenskonzentration"@de .
 
 <ad19725e-8a37-4030-8b0a-d3cd9e2726a6> a skos:Concept ;
     skos:broader <2e8b863e-9e71-4c96-b281-e50c431815c3> ;
@@ -44642,7 +44631,7 @@ Neben Kohlenstoffatomen enthalten organische Moleküle oft auch Wasserstoff-, St
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2022-12-13" ;
+    dct:modified "2022-12-20" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
