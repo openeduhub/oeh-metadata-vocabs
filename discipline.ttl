@@ -16,9 +16,9 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <720>, <20003>, <04001>, <oeh01>, <020>, <04014>, <46014>,
         <04002>, <040>, <080>, <100>, <20041>, <12002>, <120>, <28002>, <04005>,
-        <04006>, <20001>, <440>, <20090>, <160>, <04007>, <20002>, <220>,
+        <04006>, <20001>, <440>, <20080>, <160>, <04007>, <20002>, <220>,
         <240>, <48005>, <260>, <50001>, <04009>, <320>, <340>, <20004>,
-        <060>, <04010>, <20005>, <380>, <oeh04010>, <900>, <400>, <04011>,
+        <060>, <2600103>, <20005>, <380>, <04010>, <900>, <400>, <04011>,
         <04003>, <420>, <64018>, <niederdeutsch>, <44099>, <450>, <460>,
         <480>, <510>, <520>, <20006>, <28010>, <560>, <44006>, <20009>,
         <44007>, <20007>, <600>, <04012>, <20008>, <04013>, <700>, <640>,
@@ -136,9 +136,9 @@
     skos:related eafsys:440 ;
     skos:topConceptOf <> .
 
-<20090> a skos:Concept ;
+<20080> a skos:Concept ;
     skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
-    skos:related eafsys:20090 ;
+    skos:related eafsys:20080 ;
     skos:topConceptOf <> .
 
 <160> a skos:Concept ;
@@ -224,9 +224,9 @@
     skos:related eafsys:060 ;
     skos:topConceptOf <> .
 
-<04010> a skos:Concept ;
+<2600103> a skos:Concept ;
     skos:prefLabel "Body care"@en, "Körperpflege"@de ;
-    skos:related eafsys:04010 ;
+    skos:related eafsys:2600103 ;
     skos:topConceptOf <> .
 
 <20005> a skos:Concept ;
@@ -242,8 +242,9 @@
     skos:related eafsys:380 ;
     skos:topConceptOf <> .
 
-<oeh04010> a skos:Concept ;
+<04010> a skos:Concept ;
     skos:prefLabel "Mechatronik"@de ;
+    skos:related eafsys:04010 ;
     skos:topConceptOf <> .
 
 <900> a skos:Concept ;
