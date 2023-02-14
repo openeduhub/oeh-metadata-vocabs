@@ -138,7 +138,7 @@
 
 <20090> a skos:Concept ;
     skos:prefLabel "Esperanto"@en, "Esperanto"@de ;
-    skos:related eafsys:20090 ;
+    skos:related eafsys:20080 ;
     skos:topConceptOf <> .
 
 <160> a skos:Concept ;
@@ -226,7 +226,7 @@
 
 <04010> a skos:Concept ;
     skos:prefLabel "Body care"@en, "Körperpflege"@de ;
-    skos:related eafsys:04010 ;
+    skos:related eafsys:2600103 ;
     skos:topConceptOf <> .
 
 <20005> a skos:Concept ;
@@ -244,6 +244,7 @@
 
 <oeh04010> a skos:Concept ;
     skos:prefLabel "Mechatronik"@de ;
+    skos:related eafsys:04010 ;
     skos:topConceptOf <> .
 
 <900> a skos:Concept ;
