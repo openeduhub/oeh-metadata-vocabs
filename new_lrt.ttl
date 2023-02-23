@@ -364,6 +364,14 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
+    skos:narrower <8d5195dd-2e48-44d4-a9c1-6bccbf85ec96>,
+        <8e157383-9ca3-4e20-849d-0881b648fd99>,
+        <ff20ae9f-5d83-4f29-ba4f-993cbd743e5c>,
+        <89abe72e-d4c6-4797-ac36-175cfce25107>,
+        <b0774ec7-49c0-49e0-8093-dce3ee6d02a0>,
+        <4d64241b-3d8c-4d67-b9fe-9970f240d991>,
+        <6f030e55-6193-4587-a374-d002cd43d787>, 
+        <9ac858a9-fc06-41a1-a18e-faf7a1525198> ;
     skos:definition """Größere Einheit - eher über Wochen, die i.d.R. mit einem Zertifikat/Abschluss endet
 (z.B. Physik ein Schuljahr oder ein Fachsemester im Studium)"""@de ;
     skos:inScheme <> ;
@@ -372,6 +380,54 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
     skos:prefLabel "Kurs"@de ;
     skos:scopeNote "Monate"@de .
+
+<8d5195dd-2e48-44d4-a9c1-6bccbf85ec96> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Sprachkurs"@de .
+
+<8e157383-9ca3-4e20-849d-0881b648fd99> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Fachkurs"@de .
+
+<ff20ae9f-5d83-4f29-ba4f-993cbd743e5c> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Propädeutika"@de .
+
+<89abe72e-d4c6-4797-ac36-175cfce25107> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Soft Skills"@de .
+
+<b0774ec7-49c0-49e0-8093-dce3ee6d02a0> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Business Skills"@de .
+
+<4d64241b-3d8c-4d67-b9fe-9970f240d991> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Digital Skills"@de .
+
+<6f030e55-6193-4587-a374-d002cd43d787> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Academic Skills"@de .
+
+<9ac858a9-fc06-41a1-a18e-faf7a1525198> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Career Skills"@de .
 
 <4e847242-cea0-4821-a13c-c621e475b372> a skos:Concept ;
     skos:broader <fd0b97e1-25ba-4477-b769-b41e9623cf65> ;
