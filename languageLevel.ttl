@@ -37,6 +37,25 @@
     skos:altLabel "Elementary"@en ;
     skos:definition "Kann Sätze und häufig gebrauchte Ausdrücke verstehen, die mit Bereichen von ganz unmittelbarer Bedeutung zusammenhängen (z. B. Informationen zur Person und zur Familie, Einkaufen, Arbeit, nähere Umgebung). Kann sich in einfachen, routinemäßigen Situationen verständigen, in denen es um einen einfachen und direkten Austausch von Informationen über vertraute und geläufige Dinge geht. Kann mit einfachen Mitteln die eigene Herkunft und Ausbildung, die direkte Umgebung und Dinge im Zusammenhang mit unmittelbaren Bedürfnissen beschreiben."@de ;
     skos:broader <A> ;
+    skos:narrower <A2.1>, <A2.2> ;
+    skos:inScheme <> .
+
+<A2.1> a skos:Concept ;
+    skos:prefLabel "A2.1"@de ;
+    skos:prefLabel "A2.1"@en ;
+    skos:altLabel "Grundlagen"@de ;
+    skos:altLabel "Elementary"@en ;
+    skos:definition "Mindeststandards im Bereich Hörverstehen werden verfehlt." ;
+    skos:broader <A2> ;
+    skos:inScheme <> .
+
+<A2.2> a skos:Concept ;
+    skos:prefLabel "A2.2"@de ;
+    skos:prefLabel "A2.2"@en ;
+    skos:altLabel "Grundlagen"@de ;
+    skos:altLabel "Elementary"@en ;
+    skos:definition "Mindeststandards im Bereich Hörverstehen werden erreicht." ;
+    skos:broader <A2> ;
     skos:inScheme <> .
 
 <B> a skos:Concept ;
@@ -52,6 +71,25 @@
     skos:altLabel "Intermediate"@en ;
     skos:definition "Kann die Hauptpunkte verstehen, wenn klare Standardsprache verwendet wird und wenn es um vertraute Dinge aus Arbeit, Schule, Freizeit usw. geht. Kann die meisten Situationen bewältigen, denen man auf Reisen im Sprachgebiet begegnet. Kann sich einfach und zusammenhängend über vertraute Themen und persönliche Interessengebiete äußern. Kann über Erfahrungen und Ereignisse berichten, Träume, Hoffnungen und Ziele beschreiben und zu Plänen und Ansichten kurze Begründungen oder Erklärungen geben."@de ;
     skos:broader <B> ;
+    skos:narrower <B1.1>, <B1.2> ;
+    skos:inScheme <> .
+
+<B1.1> a skos:Concept ;
+    skos:prefLabel "B1.1"@de ;
+    skos:prefLabel "B1.1"@en ;
+    skos:altLabel "Mittelstufe"@de ;
+    skos:altLabel "Intermediate"@en ;
+    skos:definition "Mindeststandards im Bereich Hörverstehen werden erreicht." ;
+    skos:broader <B1> ;
+    skos:inScheme <> .
+
+<B1.2> a skos:Concept ;
+    skos:prefLabel "B1.2"@de ;
+    skos:prefLabel "B1.2"@en ;
+    skos:altLabel "Mittelstufe"@de ;
+    skos:altLabel "Intermediate"@en ;
+    skos:definition "Regelstandards im Bereich Hörverstehen werden erreicht." ;
+    skos:broader <B1> ;
     skos:inScheme <> .
 
 <B2> a skos:Concept ;
@@ -61,6 +99,25 @@
     skos:altLabel "Upper Intermediate"@en ;
     skos:definition "Kann die Hauptinhalte komplexer Texte zu konkreten und abstrakten Themen verstehen; versteht im eigenen Spezialgebiet auch Fachdiskussionen. Kann sich so spontan und fließend verständigen, dass ein normales Gespräch mit Muttersprachlern ohne grössere Anstrengung auf beiden Seiten gut möglich ist. Kann sich zu einem breiten Themenspektrum klar und detailliert ausdrücken, einen Standpunkt zu einer aktuellen Frage erläutern und die Vor- und Nachteile verschiedener Möglichkeiten angeben."@de ;
     skos:broader <B> ;
+    skos:narrower <B2.1>, <B2.2> ;
+    skos:inScheme <> .
+
+<B2.1> a skos:Concept ;
+    skos:prefLabel "B2.1"@de ;
+    skos:prefLabel "B2.1"@en ;
+    skos:altLabel "Mittelstufe"@de ;
+    skos:altLabel "Intermediate"@en ;
+    skos:definition "Regelstandards plus im Bereich Hörverstehen werden erreicht." ;
+    skos:broader <B2> ;
+    skos:inScheme <> .
+
+<B2.2> a skos:Concept ;
+    skos:prefLabel "B2.2"@de ;
+    skos:prefLabel "B2.2"@en ;
+    skos:altLabel "Mittelstufe"@de ;
+    skos:altLabel "Intermediate"@en ;
+    skos:definition "Maximalstandards im Bereich Hörverstehen werden erreicht." ;
+    skos:broader <B2> ;
     skos:inScheme <> .
 
 <C> a skos:Concept ;
