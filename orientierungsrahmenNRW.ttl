@@ -1,0 +1,181 @@
+@base <http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/> .
+@prefix comeIn: <http://w3id.org/comein/vocabs/orientierungsrahmenNRW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"@de ;
+    dct:description ""@de ;
+    dct:created "2023-03-16"^^xsd:date ;
+    skos:hasTopConcept <1>, <2>, <3>, <4>, <5> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "Unterrichten"@de ;
+    skos:narrower <1.1>, <1.2>, <1.3>, <1.4> ;
+    skos:exactMatch comeIn:01 ;
+    skos:topConceptOf <> .
+
+<1.1> a skos:Concept ;
+    skos:prefLabel "Digitale Lehr- Lernressource"@de ;
+    skos:definition "Digitale Ressourcen und Materialien für das Lehren und Lernen adressatengerecht und zielorientiert auswählen, modifizieren und eigenständig erstellen."@de ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:0101 ;
+    skos:inScheme <> .
+
+<1.2> a skos:Concept ;
+    skos:prefLabel "Schüler- und Kompetenzorientierung"@de ;
+    skos:definition "Digitale Medien im (Fach-)Unterricht reflektiert, situationsgerecht, schüler- und kompetenzorientiert unter Berücksichtigung unterschiedlicher Lernvoraussetzungen und Lernausgangslagen einsetzen."@de ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:0102 ;
+    skos:inScheme <> .
+
+<1.3> a skos:Concept ;
+    skos:prefLabel "Veränderung der Lernkultur"@de ;
+    skos:definition "Lernkultur teamorientiert, kooperativ und kollaborativ unter Nutzung erweiterter pädagogischer Ansätze und technologischer Möglichkeiten gestalten und personalisiertes und selbstbestimmtes Lernen unterstützen."@de ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:0103 ;
+    skos:inScheme <> .
+
+<1.4> a skos:Concept ;
+    skos:prefLabel "Digitale Transformationsprozesse"@de ;
+    skos:definition "Lernarrangements unter Berücksichtigung sozialer und kultureller Lebensbedingungen und gesellschaftlicher sowie arbeitsweltlicher Transformationsprozesse im Zuge der Digitalisierung planen, durchführen und reflektieren."@de ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:0104 ;
+    skos:inScheme <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "Erziehen"@de ;
+    skos:narrower <2.1>, <2.2>, <2.3>, <2.4> ;
+    skos:exactMatch comeIn:02 ;
+    skos:topConceptOf <> .
+
+<2.1> a skos:Concept ;
+    skos:prefLabel "Verantwortliche Mediennutzung"@de ;
+    skos:definition "Die Bedeutung von Medien und Digitalisierung kennen und Schülerinnen und Schüler befähigen, das eigene Medienhandeln und die Mediengestaltung kritisch zu reflektieren, um Medien zielgerichtet und sozial verantwortlich zu nutzen."@de ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:0201 ;
+    skos:inScheme <> .
+
+<2.2> a skos:Concept ;
+    skos:prefLabel "Identitätsbildung und Informationskritik"@de ;
+    skos:definition "Schülerinnen und Schülern bei der Entwicklung ihrer Identitätsbildung in der digitalisierten Welt unterstützen, zur Reflexion des eigenen Medienhandelns anregen sowie eine kritische Haltung und einen kompetenten Umgang mit Medienangeboten und Medieninhalten unterstützen."@de ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:0202 ;
+    skos:inScheme <> .
+
+<2.3> a skos:Concept ;
+    skos:prefLabel "Medienrecht und -ethik"@de ;
+    skos:definition "Medienrechtliche und medienethische Konzepte im Schul- und Unterrichtsalltag sowie bei der eigenen professionellen Mediennutzung reflektieren und ihre Bedeutung für Werthaltung, Meinungsbildung und Entscheidungsprozesse kennen und berücksichtigen."@de ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:0203 ;
+    skos:inScheme <> .
+
+<2.4> a skos:Concept ;
+    skos:prefLabel "Regeln, Normen und Werte"@de ;
+    skos:definition "Gemeinsame Regeln, Normen und Werte zum kritischen und eigenverantwortlichen Umgang mit digitalen Medien in medialen Bildungsräumen in Schule und Unterricht etablieren, in gesellschaftlichen und arbeitsweltlichen Zusammenhängen reflektieren und umsetzen."@de ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:0204 ;
+    skos:inScheme <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "Lernen und Leisten fördern"@de ;
+    skos:narrower <3.1>, <3.2>, <3.3>, <3.4> ;
+    skos:exactMatch comeIn:03 ;
+    skos:topConceptOf <> .
+
+<3.1> a skos:Concept ;
+    skos:prefLabel "Diagnostik und individuelle Förderung"@de ;
+    skos:definition "Digitale Möglichkeiten für die Diagnostik und für die individuelle Förderung der Lernenden mit unterschiedlichen Lernvoraussetzungen innerhalb und außerhalb des Unterrichts nutzen."@de ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:0301 ;
+    skos:inScheme <> .
+
+<3.2> a skos:Concept ;
+    skos:prefLabel "Eigenverantwortliches Lernen"@de ;
+    skos:definition "Medienkompetenz der Schülerinnen und Schüler erfassen, weiterentwickeln, bei der Gestaltung von Lehr- und Lernprozessen berücksichtigen und Schülerinnen und Schüler befähigen, ihr Lernen mithilfe digitaler Medien innerhalb und außerhalb der Schule zu gestalten."@de ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:0302 ;
+    skos:inScheme <> .
+
+<3.3> a skos:Concept ;
+    skos:prefLabel "Aufgaben- und Prüfungsformate"@de ;
+    skos:definition "Neue, auch adaptive technologiebasierte Aufgaben- und Prüfungsformate kennen, einsetzen und selbstständig entwickeln."@de ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:0303 ;
+    skos:inScheme <> .
+
+<3.4> a skos:Concept ;
+    skos:prefLabel "Bildungschancen"@de ;
+    skos:definition "Die besondere Relevanz von Medienkompetenz für Bildungsprozesse und das lebenslange Lernen erkennen, reflektieren und für Schule und Unterricht im Hinblick auf bestmögliche Bildungschancen für alle Schülerinnen und Schüler verantwortungsvoll gestalten."@de ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:0304 ;
+    skos:inScheme <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "Beraten"@de ;
+    skos:narrower <4.1>, <4.2>, <4.3>, <4.4> ;
+    skos:exactMatch comeIn:04 ;
+    skos:topConceptOf <> .
+
+<4.1> a skos:Concept ;
+    skos:prefLabel "Lernberatung"@de ;
+    skos:definition "Möglichkeiten lernprozessbegleitenden und summativen Feedbacks mithilfe digitaler Medien kennen und gezielt für die Lernberatung einsetzen."@de ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:0401 ;
+    skos:inScheme <> .
+
+<4.2> a skos:Concept ;
+    skos:prefLabel "Beratungskonzepte"@de ;
+    skos:definition "Beratungsanlässe zum Umgang mit medienbezogenen Verhaltensproblemen erkennen und geeignete Beratungskonzepte entwickeln und nutzen."@de ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:0402 ;
+    skos:inScheme <> .
+
+<4.3> a skos:Concept ;
+    skos:prefLabel "Kooperation mit Beratungseinrichtungen"@de ;
+    skos:definition "Mit externen Beratungseinrichtungen, u. a. den Trägern der Kinder- und Jugendhilfe, dem Schulpsychologischen Dienst, den kommunalen Medienzentren und der Landesanstalt für Medien NRW im Kontext medienbezogener Beratungsanlässe kooperieren."@de ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:0403 ;
+    skos:inScheme <> .
+
+<4.4> a skos:Concept ;
+    skos:prefLabel "Kooperation und Kommunikation"@de ;
+    skos:definition "Digitale Möglichkeiten für Beratung, Zusammenarbeit, Kooperation und Kommunikation mit Eltern bzw. Erziehungsberechtigten und mit Partnern verschiedener Lernorte, externen Partnern in der Lehreraus- und -fortbildung sowie in multiprofessionellen Teams entwickeln und einsetzen."@de ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:0404 ;
+    skos:inScheme <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "Schule entwickeln"@de ;
+    skos:narrower <5.1>, <5.2>, <5.3>, <5.4> ;
+    skos:exactMatch comeIn:05 ;
+    skos:topConceptOf <> .
+
+<5.1> a skos:Concept ;
+    skos:prefLabel "Medienbezogene Schulentwicklung"@de ;
+    skos:definition "Schulentwicklungsarbeit an die Anforderungen der Digitalisierung anpassen und ein am Schulprogramm orientiertes schulisches Medienkonzept im Sinne eines pädagogischen Leitbildes verankern, gestalten und umsetzen."@de ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:0501 ;
+    skos:inScheme <> .
+
+<5.2> a skos:Concept ;
+    skos:prefLabel "Gemeinsame Professionalisierung"@de ;
+    skos:definition "Möglichkeiten neuer Technologien zur Zusammenarbeit und gemeinsamen Professionalisierung auf Schulebene und mit Externen für die zukunftsfähige Weiterentwicklung von Schule nutzen."@de ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:0502 ;
+    skos:inScheme <> .
+
+<5.3> a skos:Concept ;
+    skos:prefLabel "Innovationsprozesse"@de ;
+    skos:definition "Technologische und pädagogische Entwicklungen für die Gestaltung und Modernisierung von Schule nutzen und schulische Innovationsprozesse aktiv mitgestalten."@de ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:0503 ;
+    skos:inScheme <> .
+
+<5.4> a skos:Concept ;
+    skos:prefLabel "Organisation und Verwaltung"@de ;
+    skos:definition "Digitale Möglichkeiten und Werkzeuge für schulische Organisations- und Verwaltungstätigkeiten nutzen und rechtliche Aspekte, insbesondere Datenschutz, und Persönlichkeitsrechte sowie technische Aspekte der Informationssicherheit beachten."@de ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:0504 ;
+    skos:inScheme <> .
