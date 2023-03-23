@@ -1,0 +1,268 @@
+@base <http://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/> .
+@prefix comeIn: <http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Medienkompetenzrahmen NRW"@de ;
+    dct:description ""@de ;
+    dct:created "2023-03-16"^^xsd:date ;
+    skos:hasTopConcept <1>,
+      <2>,
+      <3>,
+      <4>,
+      <5>,
+      <6> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "Bedienen und anwenden"@de ;
+    skos:notation "1" ;
+    skos:narrower <1.1>,
+      <1.2>,
+      <1.3>,
+      <1.4> ;
+    skos:exactMatch comeIn:529901 ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "Informieren und Recherchieren"@de ;
+    skos:notation "2" ;
+    skos:narrower <2.1>,
+      <2.2>,
+      <2.3>,
+      <2.4> ;
+    skos:exactMatch comeIn:529902 ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "Kommunizieren und kooperieren"@de ;
+    skos:notation "3" ;
+    skos:narrower <3.1>,
+      <3.2>,
+      <3.3>,
+      <3.4> ;
+    skos:exactMatch comeIn:529903 ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "Produzieren und präsentieren"@de ;
+    skos:notation "4" ;
+    skos:narrower <4.1>,
+      <4.2>,
+      <4.3>,
+      <4.4> ;
+    skos:exactMatch comeIn:529904 ;
+    skos:topConceptOf <> .    
+
+<5> a skos:Concept ;
+    skos:prefLabel "Analysieren und reflektieren"@de ;
+    skos:notation "5" ;
+    skos:narrower <5.1>,
+      <5.2>,
+      <5.3>,
+      <5.4> ;
+    skos:exactMatch comeIn:529905 ;
+    skos:topConceptOf <> .
+
+<6> a skos:Concept ;
+    skos:prefLabel "Problemlösen und modellieren"@de ;
+    skos:notation "6" ;
+    skos:narrower <6.1>,
+      <6.2>,
+      <6.3>,
+      <6.4> ;
+    skos:exactMatch comeIn:529906 ;
+    skos:topConceptOf <> .
+
+<1.1> a skos:Concept ;
+    skos:prefLabel "Medienausstattung (Hardware)"@de ;
+    skos:definition "Medienausstattung (Hardware) kennen, auswählen und reflektiert anwenden; mit dieser verantwortungsvoll umgehen"@de ;
+    skos:notation "1.1" ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:52990101 ;
+    skos:inScheme <> .
+
+<1.2> a skos:Concept ;
+    skos:prefLabel "Digitale Werkzeuge"@de ;
+    skos:definition "Verschiedene digitale Werkzeuge und deren Funktionsumfang kennen, auswählen sowie diese kreativ,reflektiert und zielgerichtet einsetzen"@de ;
+    skos:notation "1.2" ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:52990102 ;
+	skos:inScheme <> .
+
+<1.3> a skos:Concept ;
+    skos:prefLabel "Datenorganisation"@de ;
+    skos:definition "Informationen und Daten sicher speichern, wiederfinden und von verschiedenen Orten abrufen; Informationen und Daten zusammenfassen, organisieren und strukturiert aufbewahren"@de ;
+    skos:notation "1.3" ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:52990103 ;
+	skos:inScheme <> .
+
+<1.4> a skos:Concept ;
+    skos:prefLabel "Datenschutz und Informationssicherheit"@de ;
+    skos:definition "Verantwortungsvoll mit persönlichen und fremden Daten umgehen; Datenschutz, Privatsphäre und Informationssicherheit beachten"@de ;
+    skos:notation "1.4" ;
+    skos:broader <1> ;
+    skos:exactMatch comeIn:52990104 ;
+	skos:inScheme <> .
+
+<2.1> a skos:Concept ;
+    skos:prefLabel "Informationsrecherche"@de ;
+    skos:definition "Informationsrecherchen zielgerichtet durchführen und dabei Suchstrategien anwenden"@de ;
+    skos:notation "2.1" ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:52990201 ;
+	skos:inScheme <> .
+
+<2.2> a skos:Concept ;
+    skos:prefLabel "Informationsauswertung"@de ;
+    skos:definition "Themenrelevante Informationen und Daten aus Medienangeboten filtern, strukturieren, umwandeln und aufbereiten"@de ;
+    skos:notation "2.2" ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:52990202 ;
+	skos:inScheme <> .
+
+<2.3> a skos:Concept ;
+    skos:prefLabel "Informationsbewertung"@de ;
+    skos:definition "Informationen, Daten und ihre Quellen sowie dahinterliegende Strategien und Absichten erkennen und kritisch bewerten"@de ;
+    skos:notation "2.3" ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:52990203 ;
+	skos:inScheme <> .
+
+<2.4> a skos:Concept ;
+    skos:prefLabel "Informationskritik"@de ;
+    skos:definition "Unangemessene und gefährdende Medieninhalte erkennen und hinsichtlich rechtlicher Grundlagen sowie gesellschaftlicher Normen und Werte einschätzen; Jugend- und Verbraucherschutz kennen und Hilfs- und Unterstützungsstrukturen nutzen"@de ;
+    skos:notation "2.4" ;
+    skos:broader <2> ;
+    skos:exactMatch comeIn:52990204 ;
+	skos:inScheme <> .
+
+<3.1> a skos:Concept ;
+    skos:prefLabel "Kommunikations- und Kooperationsprozesse"@de ;
+    skos:definition "Kommunikations- und Kooperationsprozesse mit digitalen Werkzeugen zielgerichtet gestalten sowie mediale Produkte und Informationen teilen"@de ;
+    skos:notation "3.1" ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:52990301 ;
+	skos:inScheme <> .
+
+<3.2> a skos:Concept ;
+    skos:prefLabel "Kommunikations- und Kooperationsregeln"@de ;
+    skos:definition "Regeln für digitale Kommunikation und Kooperation kennen, formulieren und einhalten"@de ;
+    skos:notation "3.2" ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:52990302 ;
+	skos:inScheme <> .
+
+<3.3> a skos:Concept ;
+    skos:prefLabel "Kommunikation und Kooperationen in der Gesellschaft"@de ;
+    skos:definition "Kommunikations- und Kooperationsprozesse im Sinne einer aktiven Teilhabe an der Gesellschaft gestalten und reflektieren; ethische Grundsätze sowie kulturell-gesellschaftliche Normen beachten"@de ;
+    skos:notation "3.3" ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:52990303 ;
+	skos:inScheme <> .
+
+<3.4> a skos:Concept ;
+    skos:prefLabel "Cybergewalt- und kriminalität"@de ;
+    skos:definition "Persönliche, gesellschaftliche und wirtschaftliche Risiken und Auswirkungen von Cybergewalt und -kriminalität erkennen sowie Ansprechpartner und Reaktionsmöglichkeiten kennen und nutzen"@de ;
+    skos:notation "3.4" ;
+    skos:broader <3> ;
+    skos:exactMatch comeIn:52990304 ;
+	skos:inScheme <> .
+
+<4.1> a skos:Concept ;
+    skos:prefLabel "Medienproduktion und Präsentation"@de ;
+    skos:definition "Medienprodukte adressatengerecht planen, gestalten und präsentieren; Möglichkeiten des Veröffentlichens und Teilens kennen und nutzen"@de ;
+    skos:notation "4.1" ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:52990401 ;
+	skos:inScheme <> .
+
+<4.2> a skos:Concept ;
+    skos:prefLabel "Gestaltungsmittel"@de ;
+    skos:definition "Gestaltungsmittel von Medienprodukten kennen, reflektiert anwenden sowie hinsichtlich ihrer Qualität, Wirkung und Aussageabsicht beurteilen"@de ;
+    skos:notation "4.2" ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:52990402 ;
+	skos:inScheme <> .
+
+<4.3> a skos:Concept ;
+    skos:prefLabel "Quellendokumentation"@de ;
+    skos:definition "Standards der Quellenangaben beim Produzieren und Präsentieren von eigenen und fremden Inhalten kennen und anwenden"@de ;
+    skos:notation "4.3" ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:52990403 ;
+	skos:inScheme <> .
+
+<4.4> a skos:Concept ;
+    skos:prefLabel "Rechtliche Grundlagen"@de ;
+    skos:definition "Rechtliche Grundlagen des Persönlichkeits- (u.a. des Bildrechts), Urheber- und Nutzungsrechts (u.a. Lizenzen) überprüfen, bewerten und beachten"@de ;
+    skos:notation "4.4" ;
+    skos:broader <4> ;
+    skos:exactMatch comeIn:52990404 ;
+	skos:inScheme <> .
+
+<5.1> a skos:Concept ;
+    skos:prefLabel "Medienanalyse"@de ;
+    skos:definition "Die Vielfalt der Medien, ihre Entwicklung und Bedeutungen kennen, analysieren und reflektieren"@de ;
+    skos:notation "5.1" ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:52990501 ;
+	skos:inScheme <> .
+
+<5.2> a skos:Concept ;
+    skos:prefLabel "Meinungsbildung"@de ;
+    skos:definition "Die interessengeleitete Setzung und Verbreitung von Themen in Medien erkennen sowie in Bezug auf die Meinungsbildung beurteilen"@de ;
+    skos:notation "5.2" ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:52990502 ;
+	skos:inScheme <> .
+
+<5.3> a skos:Concept ;
+    skos:prefLabel "Identitätsbildung"@de ;
+    skos:definition "Chancen und Herausforderungen von Medien für die Realitätswahrnehmung erkennen und analysieren sowie für die eigene Identitätsbildung nutzen"@de ;
+    skos:notation "5.3" ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:52990503 ;
+	skos:inScheme <> .
+
+<5.4> a skos:Concept ;
+    skos:prefLabel "Selbstregulierte Mediennutzung"@de ;
+    skos:definition "Medien und ihre Wirkungen beschreiben, kritisch reflektieren und deren Nutzung selbstverantwortlich regulieren; andere bei ihrer Mediennutzung unterstützen"@de ;
+    skos:notation "5.4" ;
+    skos:broader <5> ;
+    skos:exactMatch comeIn:52990504 ;
+	skos:inScheme <> .
+
+<6.1> a skos:Concept ;
+    skos:prefLabel "Prinzipien der digitalen Welt"@de ;
+    skos:definition "Grundlegende Prinzipien und Funktionsweisen der digitalen Welt identifizieren, kennen, verstehen und bewusst nutzen"@de ;
+    skos:notation "6.1" ;
+    skos:broader <6> ;
+    skos:exactMatch comeIn:52990601 ;
+	skos:inScheme <> .
+
+<6.2> a skos:Concept ;
+    skos:prefLabel "Algorithmen erkennen"@de ;
+    skos:definition "Algorithmische Muster und Strukturen in verschiedenen Kontexten erkennen, nachvollziehen und reflektieren"@de ;
+    skos:notation "6.2" ;
+    skos:broader <6> ;
+    skos:exactMatch comeIn:52990602 ;
+	skos:inScheme <> .
+
+<6.3> a skos:Concept ;
+    skos:prefLabel "Modellieren und Programmieren"@de ;
+    skos:definition "Probleme formalisiert beschreiben, Problemlösestrategien entwickeln und dazu eine strukturierte, algorithmische Sequenz planen; diese auch durch Programmieren umsetzen und die gefundene Lösungsstrategie beurteilen"@de ;
+    skos:notation "6.3" ;
+    skos:broader <6> ;
+    skos:exactMatch comeIn:52990603 ;
+	skos:inScheme <> .
+
+<6.4> a skos:Concept ;
+    skos:prefLabel "Bedeutung von Algorithmen"@de ;
+    skos:definition "Einflüsse von Algorithmen und Auswirkung der Automatisierung von Prozessen in der digitalen Welt beschreiben und reflektieren"@de ;
+    skos:notation "6.4" ;
+    skos:broader <6> ;
+    skos:exactMatch comeIn:52990604 ;
+	skos:inScheme <> .
