@@ -1,0 +1,174 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fd244fd0-56ba-4dae-bc9f-4f45d3d7e3e0",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ffd244fd0-56ba-4dae-bc9f-4f45d3d7e3e0",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ffd244fd0-56ba-4dae-bc9f-4f45d3d7e3e0",
+  "prefLabel": {
+    "de": "Innovation und Inspiration"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/70775fd7-b938-4b4d-a1e1-95c14a93874c",
+      "prefLabel": {
+        "de": "zeitgemäße Bildungskonzepte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/76699b33-2f5f-4e9b-9e9c-a197e1c8bead",
+      "prefLabel": {
+        "de": "Kooperation und Herausforderung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/76aa050c-b3bf-42e9-9861-fded3a59d75a",
+      "prefLabel": {
+        "de": "Zeitgemäße Hochschule"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/809cc4b1-4cad-4676-a22a-d8cdea926930",
+      "prefLabel": {
+        "de": "Aus Wissenschaft und Forschung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8c2c5afa-d9ce-4bb1-95aa-a0607022d3f9",
+      "prefLabel": {
+        "de": "Projektbasiertes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/aa72342c-48db-473a-b212-a80830a1fa62",
+      "prefLabel": {
+        "de": "Good Practices"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bd0cf17a-34ab-414e-b6bf-a44acf4b7e60",
+      "prefLabel": {
+        "de": "Achtsamkeit und Gesundheitsförderung im Unterricht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e1ea75b8-6356-4013-b772-e70fcde8be10",
+      "prefLabel": {
+        "de": "Eine neue Lernkultur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f050fa6f-91a1-4602-8c00-81db29fcf979",
+      "prefLabel": {
+        "de": "Eine neue Prüfungskultur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f92a08ed-6489-41f5-97aa-da0ec25ff0ef",
+      "prefLabel": {
+        "de": "Glück im Unterricht"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a3291cd2-5fe4-444e-9b7b-65807d9b0024",
+    "prefLabel": {
+      "de": "Zeitgemäße Bildung"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/72001"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

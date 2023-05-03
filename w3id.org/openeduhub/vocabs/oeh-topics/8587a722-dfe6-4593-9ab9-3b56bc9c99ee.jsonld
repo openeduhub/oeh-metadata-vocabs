@@ -1,0 +1,159 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8587a722-dfe6-4593-9ab9-3b56bc9c99ee",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F8587a722-dfe6-4593-9ab9-3b56bc9c99ee",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F8587a722-dfe6-4593-9ab9-3b56bc9c99ee",
+  "prefLabel": {
+    "de": "Querschnitte durch die Geschichte"
+  },
+  "definition": {
+    "de": "Hier findest du Materialien zu Querschnittsthemen in der Geschichte. Von der Medizingeschichte, der Entwicklung der Fortbewegungsmöglichkeiten und Technik,  den Klimawandel oder der Rollenverteilung zwischen Männern und Frauen bis hin zur Geschlechteridentität im Verlauf der Jahrhunderte und noch vieles mehr."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/103f3e17-b33b-43dc-97c7-19fd310fcf4a",
+      "prefLabel": {
+        "de": "Fortbewegung in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1ef8fe33-3f39-46f8-a0dc-8e42e70c4c49",
+      "prefLabel": {
+        "de": "Frauen- und Männerbilder in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4d6843dc-05de-481c-a6d5-b427a49a2999",
+      "prefLabel": {
+        "de": "Klimawandel in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/52ccc69a-3f00-447f-9dd7-ed57a64d9634",
+      "prefLabel": {
+        "de": "Medien in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8b1cead0-4805-4c4a-ad4f-6118b0228bf2",
+      "prefLabel": {
+        "de": "Sport in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/996a9b1c-9538-4a06-8703-9ad7bf2b8e68",
+      "prefLabel": {
+        "de": "Krankheiten in der Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c83b8a7f-ebf2-48ba-a57e-e2ccad93c2be",
+      "prefLabel": {
+        "de": "Genderidentität in der Geschichte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/324f24e3-6687-4e89-b8dd-2bd0e20ff733",
+    "prefLabel": {
+      "de": "Geschichte"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

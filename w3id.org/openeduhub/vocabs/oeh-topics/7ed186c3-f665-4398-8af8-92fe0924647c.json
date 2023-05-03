@@ -1,0 +1,183 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7ed186c3-f665-4398-8af8-92fe0924647c",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F7ed186c3-f665-4398-8af8-92fe0924647c",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F7ed186c3-f665-4398-8af8-92fe0924647c",
+  "prefLabel": {
+    "de": "Antikes Griechenland"
+  },
+  "definition": {
+    "de": "Hier findest du Materialien über das antike Griechenland, über seine Helden und Götter, über Kriege und welche Bedeutung dieses Reich für unser Leben heute immer noch hat."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/11e5dc5e-6b4f-44fe-a8f3-6335ac39a618",
+      "prefLabel": {
+        "de": "Das griechische Theater"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/17a93273-12e3-4249-93b4-81b2971a66e2",
+      "prefLabel": {
+        "de": "Olympische Spiele"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2b445403-183e-4d11-8bbb-336ff2823812",
+      "prefLabel": {
+        "de": "Griechische Polis und Gesellschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/49aec00e-4e99-4a27-ab2e-3eab1ce298e3",
+      "prefLabel": {
+        "de": "Sparta"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6dc5712c-a983-4ee5-95fd-345eb3d390c7",
+      "prefLabel": {
+        "de": "Griechische Sagen und Götter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8532d078-fb14-4536-9555-c35b01e8cc83",
+      "prefLabel": {
+        "de": "Hellenismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/96d9aa10-d4be-4dd5-aadc-4963032b2252",
+      "prefLabel": {
+        "de": "Griechische Literatur, Kunst und Philosophie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a822da78-6244-4f7e-9864-3f807eb858d9",
+      "prefLabel": {
+        "de": "Frauen und Kinder in Athen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c3c7444f-2bd1-46ff-b4cf-df71749267c0",
+      "prefLabel": {
+        "de": "Troja"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c4626f16-b67a-4ba9-b8ae-1f34fed96ca5",
+      "prefLabel": {
+        "de": "Perserreich"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e56ac181-06b6-4b10-a06b-8a7bcf01e836",
+      "prefLabel": {
+        "de": "Demokratie in Athen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/17b26e96-1926-4c0e-8043-0293f6a22a84",
+    "prefLabel": {
+      "de": "Antike"
+    }
+  },
+  "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
+    }
+  ],
+  "inScheme": {
+    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+    "title": {
+      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+    }
+  },
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": "@language"
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "url": "schema:url",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
