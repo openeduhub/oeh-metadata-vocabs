@@ -2833,7 +2833,7 @@ Wenn man bei Handlungen der Vergangenheit die Dauer oder den Ablauf betonen will
         "deutsche Grundgesetz"@de .
 
 <12667089-2a9e-426a-9022-3cd41ff2eb53> a skos:Concept ;
-    skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
+    skos:broader <7ca1c7fa-28fb-4363-8686-dac35629f2ed> ;
     skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Verbaladverbien' im Türkischen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Verbaladverbien"@de ;
@@ -4069,6 +4069,21 @@ Oder: Geschlossen wird von der Existenz einer moralischen Weltordnung auf einen 
         "Promille"@de,
         "Promille Grenze"@de,
         "Sucht"@de .
+
+<1b25f7a8-17bb-4a71-bf89-6a014575f837> a skos:Concept ;
+    skos:broader <bc246caa-2a03-45b5-ad35-310f91c19aec> ;
+    skos:definition "Hier findest du Materialien über den Kriegseintritt der USA im Jahr 1917 und wie das den Kriegsverlauf dramatisch veränderte."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Kriegseintritt der USA 1917"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "14 Punkte Programm"@de,
+        "Einführung allgemeine Wehrpflicht USA"@de,
+        "Kriegspropaganda erster Weltkrieg USA"@de,
+        "Propaganda USA Kriegseintritt"@de,
+        "Präsident Wilson"@de,
+        "Ursachen Kriegseintritt USA"@de,
+        "Widerstand Kriegseintritt USA"@de,
+        "Woodrow Wilson"@de .
 
 <1b2dc049-172b-49a5-89aa-5283cc18f1fc> a skos:Concept ;
     skos:broader <db865165-8af1-43c0-94fa-34cc6ad5b5ef> ;
@@ -6382,6 +6397,14 @@ Hier könnt ihr euch Anregungen genau dafür holen oder auch Einschätzungen fin
 Temperatur"""@de,
         "Zeit"@de,
         "metrisches Einheitensystem"@de .
+
+<29060993-e4fb-4bd8-861e-e88b1c598407> a skos:Concept ;
+    skos:broader <b1498f27-ca3a-4f81-85a5-6c03d29cd667> ;
+    skos:definition "Materialien zur Geschichte des ostafrikanischen Staates Äthiopien."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Äthiopien"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Äthiopien"@de .
 
 <29066e31-80ee-4648-b356-1bd162e0e33a> a skos:Concept ;
     skos:broader <f7cfa014-d5fa-4367-a773-07a3b46d34b2> ;
@@ -9477,7 +9500,7 @@ Diogenes, Descartes, Kiergegard ..."""@de ;
     skos:broader <ba68e387-c833-48d6-861f-43f319b07277> ;
     skos:definition "Hier findest du Materialien über den Völkermord an den Armeniern, eines der Kapitel des Ersten Weltkrieges, bei dem mehr als anderthalb Millionen Menschen systematisch ermordet wurden."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Armenier 1915-1916"@de ;
+    skos:prefLabel "Armenier 1915 - 1916"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
     sdo:keywords "Aufarbeitung Völkermord Armenier"@de,
         "Auslöser Völkermord Armenier"@de,
@@ -26597,7 +26620,7 @@ die Vielfalt, Eigenart und Schönheit sowie der Erholungswert von Natur und Land
     skos:broader <ba68e387-c833-48d6-861f-43f319b07277> ;
     skos:definition "Hier findest du Materialien über die Ethnien der Herero und Nama, über den ersten Völkermord des 20. Jahrhunderts und über Deutschlands Verantwortung."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Herero und Nama 1904–1908"@de ;
+    skos:prefLabel "Herero und Nama 1904 - 1908"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
     sdo:keywords "Aufstand Nama"@de,
         "Auslöser Völkermord Herero"@de,
@@ -31525,6 +31548,14 @@ Im Deutschen muss man auf die Satzstellung dieser Adverbien achten, weil es beso
         "la diversité en France"@de,
         "le rôle de la femme dans la société francaise"@de .
 
+<c8fb33e7-902d-4b8b-a5b5-a43e48918a19> a skos:Concept ;
+    skos:broader <b1498f27-ca3a-4f81-85a5-6c03d29cd667> ;
+    skos:definition "Materialien zur Geschichte des afrikanischen Staates Ghana."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Ghana"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Ghana"@de .
+
 <c9333323-15bb-49fa-bac9-cd5bc3562a17> a skos:Concept ;
     skos:broader <58e66666-162e-4673-804f-a9961136311d> ;
     skos:definition "Unter Deutscher Exilliteratur wird die Literatur zur Zeit des Nationalsozialismus verstanden, die im Exil, also außerhalb Deutschlands oder in innerer Emigration, entstand. Zahlreiche Autor*innen wurden ins Ausland gedrängt oder flohen und litten sowohl psychisch als auch materiell unter der Situation. Im Ausland wurden Emigrantenzentren und Verlage gegründet."@de ;
@@ -33738,6 +33769,33 @@ Sokrates hinterließ keine schriftlichen Werke. Die Überlieferung seines Lebens
         "Turingautomat"@de,
         "Turingmaschine"@de .
 
+<d7b05363-b3a5-49f0-b365-e213f8e6f6bf> a skos:Concept ;
+    skos:broader <4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf> ;
+    skos:definition "Hier findest du Materialien dazu, wie Leugner des Holocaustes argumentieren, wie du dagegenhalten kannst und wie verschieden der Holocaust in unseren Erinnerung aufbereitet wird."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Holocaust-Leugnung"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Argumente gegen Holocaustleugner"@de,
+        "Aufarbeitung Holocaust Deutschland"@de,
+        "Bedeutung Holocaust"@de,
+        "Bombenangriffe auf Dresden Erinnerung heute"@de,
+        "Erinnerung an Holocaust heute"@de,
+        "Erinnerungskultur Weltkrieg"@de,
+        "Gedenken an Holocaust"@de,
+        "Gedenken an die Zerstörung Dresdens"@de,
+        "Holocaust Geschichtsunterricht"@de,
+        "Holocaust Leugnung Deutschland"@de,
+        "Holocaust Mahnmal"@de,
+        "Holocaust-Gedenkstätte"@de,
+        "Kollektive Schuld Zweiter Weltkrieg"@de,
+        "Kollektivschuld"@de,
+        "Leugnung Holocaust Straftat"@de,
+        "Revisionismus"@de,
+        "Schuld der Deutschen Weltkrieg"@de,
+        "Umgang mit Bombenangriffe auf Dresden"@de,
+        "Umgang mit Holocaust heute"@de,
+        "Was ist Revisionismus"@de .
+
 <d7b1cf8c-405b-43ff-bed4-b5f8ca6d8761> a skos:Concept ;
     skos:broader <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> ;
     skos:definition "Menschen leben und arbeiten zusammen in Kleingruppen wie der Familie oder in Großverbänden wie in einer Stadt oder gar in globalen Zusammenhängen wie im Internet. Immer gilt es Regeln zu verstehen, einzuhalten und gegebenenfalls durchzusetzen. Und nicht immer ist es leicht, die Lebenswelten und Ansichten der Anderen zu verstehen und zu akzeptieren. Welche Tugenden verlangt das Leben in Vielfalt und Unterschiedlichkeit?"@de ;
@@ -35479,6 +35537,14 @@ Friedensordnung“ gestalten lässt."""@de ;
         "Stromleitfähigkeit"@de,
         "verformbar"@de .
 
+<e4296039-8889-40b4-9516-86806c0c2661> a skos:Concept ;
+    skos:broader <b1498f27-ca3a-4f81-85a5-6c03d29cd667> ;
+    skos:definition "Materialien zur Geschichte des Staates Nigeria, insbesondere seit seiner Unabhängigkeit 1960, aber auch zu dessen Vorgeschichte."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Nigeria"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Nigeria"@de .
+
 <e42e865e-55d5-4a50-9bf9-302770de511b> a skos:Concept ;
     skos:broader <828a1bf2-6943-40c8-878a-20cb94061c2f> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -36499,7 +36565,7 @@ Oder kann erst im Nachhinein beurteilt werden, was ein glückliches Leben war? K
     skos:broader <17968869-7a6d-49be-8c37-0f3aa1ab14f1> ;
     skos:definition "Hier findest du Materialien über Gustav Stresemann, Außenminister und Reichskanzler, der mit seinen Entscheidungen die Demokratie der jungen Weimarer Republik rettete."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Ära Stresemann 1923-1929"@de ;
+    skos:prefLabel "Ära Stresemann 1923 - 1929"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
     sdo:keywords "Stresemann Außenpolitik"@de,
         "Stresemann Dawes Plan"@de,
@@ -41118,21 +41184,6 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
         "Boden"@de,
         "Kapital"@de,
         "VWL, VWL Produktionsfaktoren"@de .
-
-<b1498f27-ca3a-4f81-85a5-6c03d29cd667> a skos:Concept ;
-    skos:broader <5b63fe50-7522-447b-850f-b11078d905b8> ;
-    skos:definition "Hier findest du Materialien über die Länder des afrikanischen Kontinents, über das Erbe des Kolonialismus hin zum Beginn der Unabhängigkeiten und des Arabischen Frühlings."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <0b582c24-e6b7-4b16-b6fc-77a521b48ee6>,
-        <4a14ba17-08b8-4cb8-a185-00d2db67b5b7> ;
-    skos:prefLabel "Afrika"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
-    sdo:keywords "Afrika Deutschland Beziehungen"@de,
-        "Afrika Geschichte"@de,
-        "Afrika Geschichtsunterricht"@de,
-        "Afrika Karte Geschichtsunterricht"@de,
-        "Afrika Zeittafel"@de,
-        "Wirtschaft Afrika Deutschland"@de .
 
 <b21e9ff1-6df0-433a-b6c8-b1f75a3dd869> a skos:Concept ;
     skos:broader <c6e3cdd4-b184-4b3a-a279-3187fca6404c> ;
@@ -45754,6 +45805,24 @@ Du bist Lehrer:in, Refendar:in, studierst Französisch oder willst dein Französ
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20001> ;
     sdo:keywords "Freizeit und Hobbies, Routinen, Reisen und Verkehrsmittel, Ernährung, Berufsbilder"@de .
 
+<b1498f27-ca3a-4f81-85a5-6c03d29cd667> a skos:Concept ;
+    skos:broader <5b63fe50-7522-447b-850f-b11078d905b8> ;
+    skos:definition "Hier findest du Materialien über die Länder des afrikanischen Kontinents, über das Erbe des Kolonialismus hin zum Beginn der Unabhängigkeiten und des Arabischen Frühlings."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <0b582c24-e6b7-4b16-b6fc-77a521b48ee6>,
+        <29060993-e4fb-4bd8-861e-e88b1c598407>,
+        <4a14ba17-08b8-4cb8-a185-00d2db67b5b7>,
+        <c8fb33e7-902d-4b8b-a5b5-a43e48918a19>,
+        <e4296039-8889-40b4-9516-86806c0c2661> ;
+    skos:prefLabel "Afrika"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Afrika Deutschland Beziehungen"@de,
+        "Afrika Geschichte"@de,
+        "Afrika Geschichtsunterricht"@de,
+        "Afrika Karte Geschichtsunterricht"@de,
+        "Afrika Zeittafel"@de,
+        "Wirtschaft Afrika Deutschland"@de .
+
 <b610d6bd-255d-4d61-a9e2-d85794a0bf44> a skos:Concept ;
     skos:broader <33ad3e91-17c4-4cbf-8300-d1b8828502f9> ;
     skos:definition "hier geht es um die modernen Massenmedien, das Internet, Social Media, Nachrichten und Magazine, Zeitungen sowie den Einfluss dieser auf junge Menschen"@de ;
@@ -46690,25 +46759,6 @@ Neben fundamentalen Fragen der Berechenbarbeit, Effizien und Komplexität besch�
         "Wasser"@de,
         "nachwachsende Rohstoffe"@de .
 
-<7ca1c7fa-28fb-4363-8686-dac35629f2ed> a skos:Concept ;
-    skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
-    skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Adjektive und Adverben' im Türkischen."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <5f9e81a9-a224-42b6-a7f6-a8be869296f2>,
-        <65c62e75-452e-4752-9e10-05a4e7bf2b78>,
-        <ab5af5c6-25aa-4d14-80e9-957f05dc87fc>,
-        <aeb139a0-b2eb-451f-984b-8e2f7e1b7780>,
-        <e13bb2c4-f38b-4493-909f-0686d2806205>,
-        <edc61983-5145-4bb2-b3af-01aeb5b44196> ;
-    skos:prefLabel "Adjektive und Adverbien"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20008> ;
-    sdo:keywords "Adjektiv Türkisch"@de,
-        "Adverb Türkisch"@de,
-        "sıfat"@de,
-        "sıfatlar, zarf, zarflar"@de,
-        "türkische Adjektive"@de,
-        "türkische Adverbien"@de .
-
 <7e2a3536-8441-4328-8ee6-ab0068bb13f8> a skos:Concept ;
     skos:narrower <0c894f87-9cbf-4bbe-9fe9-c80844dd07d1>,
         <5fc1d2f7-d0f3-434a-bd3e-af07da4fe32c>,
@@ -47504,6 +47554,26 @@ In diesem Abschnitt geht es um einfache Stoffeigenschaften und wie man sie unter
     skos:prefLabel "Artikel und Begleiter"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20002> .
 
+<7ca1c7fa-28fb-4363-8686-dac35629f2ed> a skos:Concept ;
+    skos:broader <0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> ;
+    skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Adjektive und Adverben' im Türkischen."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <12667089-2a9e-426a-9022-3cd41ff2eb53>,
+        <5f9e81a9-a224-42b6-a7f6-a8be869296f2>,
+        <65c62e75-452e-4752-9e10-05a4e7bf2b78>,
+        <ab5af5c6-25aa-4d14-80e9-957f05dc87fc>,
+        <aeb139a0-b2eb-451f-984b-8e2f7e1b7780>,
+        <e13bb2c4-f38b-4493-909f-0686d2806205>,
+        <edc61983-5145-4bb2-b3af-01aeb5b44196> ;
+    skos:prefLabel "Adjektive und Adverbien"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20008> ;
+    sdo:keywords "Adjektiv Türkisch"@de,
+        "Adverb Türkisch"@de,
+        "sıfat"@de,
+        "sıfatlar, zarf, zarflar"@de,
+        "türkische Adjektive"@de,
+        "türkische Adverbien"@de .
+
 <7fbb64dd-ed80-44da-9ef1-6d2474802145> a skos:Concept ;
     skos:broader <86b990ef-0955-45ad-bdae-ec2623cf0e1a> ;
     skos:definition "Du möchtest deine Französisch-Kompetenzen verbessern? Dann bist du hier genau richtig, denn hier findest du Materialien zu Leseverstehen, Hörverstehen, Hörsehverstehen, Sprechen, Schreiben und Sprachmittlung sowie Materialien, um deine Lern- und Arbeitstechniken zu verbessern."@de ;
@@ -47610,29 +47680,6 @@ Auch im <a href="https://wirlernenonline.de/portal/biologie-%c3%b6kologie/">Fach
         <cafe91a9-1529-414f-9f03-9ea7560191ba> ;
     skos:prefLabel "OER in der Praxis"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/44099> .
-
-<bc246caa-2a03-45b5-ad35-310f91c19aec> a skos:Concept ;
-    skos:broader <4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf> ;
-    skos:definition "Hier findest du Materialien über den Ersten Weltkrieg, der Krieg, der von Historikern oft als die Urkatastrophe des 20. Jahrhunderts bezeichnet wird."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <1327f761-41fb-43cc-b395-1174b2b9e552>,
-        <1c8af31e-bed8-48d6-b4b1-1dcd87808872>,
-        <2b0d0f24-4112-4232-a332-dfa7a75533aa>,
-        <36a58c80-a40d-4835-aff7-dad4d91b8a2c>,
-        <b851fe63-6fef-4dfa-b25e-fdfd65ed2f8f>,
-        <e7d5fe1f-a84d-48e1-b10a-8328ae2175a7>,
-        <ff02d7e2-9c7a-44a9-8b6f-6bf6586a1bb5> ;
-    skos:prefLabel "Erster Weltkrieg"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
-    sdo:keywords "Erster Weltkrieg"@de,
-        "Erster Weltkrieg Geschichte"@de,
-        "Erster Weltkrieg Schule"@de,
-        "Erster Weltkrieg Unterricht"@de,
-        "Erster Weltkrieg Zeittafel"@de,
-        "Erster Weltkrieg Zusammenfassung"@de,
-        "Kriegserfahrungen erster Weltkrieg"@de,
-        "Kriegsschauplätze erster Weltkrieg"@de,
-        "Verlauf erster Weltkrieg"@de .
 
 <bd3d770a-3ea3-431e-b3f0-a42c60f1a843> a skos:Concept ;
     skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
@@ -48198,6 +48245,30 @@ Aber das stimmt nicht. Das Wissen, das die Geometrie schon in der Antike über d
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "19. Jahrhundert"@de .
 
+<bc246caa-2a03-45b5-ad35-310f91c19aec> a skos:Concept ;
+    skos:broader <4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf> ;
+    skos:definition "Hier findest du Materialien über den Ersten Weltkrieg, der Krieg, der von Historikern oft als die Urkatastrophe des 20. Jahrhunderts bezeichnet wird."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <1327f761-41fb-43cc-b395-1174b2b9e552>,
+        <1b25f7a8-17bb-4a71-bf89-6a014575f837>,
+        <1c8af31e-bed8-48d6-b4b1-1dcd87808872>,
+        <2b0d0f24-4112-4232-a332-dfa7a75533aa>,
+        <36a58c80-a40d-4835-aff7-dad4d91b8a2c>,
+        <b851fe63-6fef-4dfa-b25e-fdfd65ed2f8f>,
+        <e7d5fe1f-a84d-48e1-b10a-8328ae2175a7>,
+        <ff02d7e2-9c7a-44a9-8b6f-6bf6586a1bb5> ;
+    skos:prefLabel "Erster Weltkrieg"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Erster Weltkrieg"@de,
+        "Erster Weltkrieg Geschichte"@de,
+        "Erster Weltkrieg Schule"@de,
+        "Erster Weltkrieg Unterricht"@de,
+        "Erster Weltkrieg Zeittafel"@de,
+        "Erster Weltkrieg Zusammenfassung"@de,
+        "Kriegserfahrungen erster Weltkrieg"@de,
+        "Kriegsschauplätze erster Weltkrieg"@de,
+        "Verlauf erster Weltkrieg"@de .
+
 <bd8be6d5-0fbe-4534-a4b3-773154ba6abc> a skos:Concept ;
     skos:narrower <2d34688d-00b6-47f7-8522-31909c2671b4>,
         <3faa2935-ee4b-46b3-b88b-e493922b69d0>,
@@ -48756,45 +48827,6 @@ Hier findest du auch Informationen zu verschiedenen Programmiersprachen und Entw
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20001> ;
     sdo:keywords "gesellschaftliches Zusammenleben und Regeln, Geschlechterrollen, Moralvorstellungen, Vorurteile, soziales Engagement, regionale Identitäten, Immigration, Multikulturalität"@de .
 
-<4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf> a skos:Concept ;
-    skos:broader <324f24e3-6687-4e89-b8dd-2bd0e20ff733> ;
-    skos:definition "Das \"kurze 20. Jahrhundert\" beginnt mit dem Epochenjahr 1917 (Oktoberrevolution in Russland und Kriegseintritt der USA in den Ersten Weltkrieg). Und das Ende des Kalten Krieges (mit dem Zusammenbruch der Sowjetunion) ist wohl auch eine Art Epochenumbruch, sodass man die 19-er Jahre des 20. eigentlich schon zum 21. Jahrhundert zählen kann. - Hier findest du u.a. Materialien zur Urkatastrophe des 20. Jahrhunderts, zu einem nie dagewesenen Verbrechen in der Menschheitsgeschichte und zu einem Land, das in zwei geteilt wird."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <1313e969-5fa0-451d-a3bd-777c5633de9f>,
-        <17968869-7a6d-49be-8c37-0f3aa1ab14f1>,
-        <378dfcd1-d61e-4c30-8e35-cad4549b968e>,
-        <47f15a3f-b7ed-41f7-9178-6dab79dd4227>,
-        <4dc8cca2-6fab-4be9-af66-d44791db2889>,
-        <648c6504-a57a-465e-ad00-01fae674abe3>,
-        <a5850ab5-fe16-4701-8055-6c49ecdb80ae>,
-        <a7134459-00ba-4e15-a8ed-8b558fe5db88>,
-        <a75152ec-3291-4ad2-9484-38fd5c9caf97>,
-        <bc246caa-2a03-45b5-ad35-310f91c19aec> ;
-    skos:prefLabel "20. Jahrhundert"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
-    sdo:keywords "20. Jahrhundert Deutschland"@de,
-        "20. Jahrhundert Entwicklungen"@de,
-        "20. Jahrhundert Ereignisse"@de,
-        "20. Jahrhundert Erster Weltkrieg"@de,
-        "20. Jahrhundert Europa"@de,
-        "20. Jahrhundert Folgen"@de,
-        "20. Jahrhundert Geschichte"@de,
-        "20. Jahrhundert Gesellschaft"@de,
-        "20. Jahrhundert Politik"@de,
-        "20. Jahrhundert Schule"@de,
-        "20. Jahrhundert Technik"@de,
-        "20. Jahrhundert Unterricht"@de,
-        "20. Jahrhundert Verlauf"@de,
-        "20. Jahrhundert Wissenschaft"@de,
-        "20. Jahrhundert Zeitstrahl"@de,
-        "20. Jahrhundert Zweiter Weltkrieg"@de,
-        "20. Jahrhundert Überblick"@de,
-        "Deutsche Teilung"@de,
-        "Erster Weltkrieg"@de,
-        "Nationalsozialismus"@de,
-        "Wiedervereinigung"@de,
-        "Zweiter Weltkrieg"@de .
-
 <5fdf019e-96d7-45df-b764-eefad19342d3> a skos:Concept ;
     skos:broader <e668ab35-7604-45ed-938c-e04b741ac387> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -49102,6 +49134,46 @@ Existenzialismus, Lebensphilosophie, Analytische Philosophie, Hermeneutik, Phän
         "Musikgeschichte"@de,
         "Übersicht"@de .
 
+<4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf> a skos:Concept ;
+    skos:broader <324f24e3-6687-4e89-b8dd-2bd0e20ff733> ;
+    skos:definition "Das \"kurze 20. Jahrhundert\" beginnt mit dem Epochenjahr 1917 (Oktoberrevolution in Russland und Kriegseintritt der USA in den Ersten Weltkrieg). Und das Ende des Kalten Krieges (mit dem Zusammenbruch der Sowjetunion) ist wohl auch eine Art Epochenumbruch, sodass man die 19-er Jahre des 20. eigentlich schon zum 21. Jahrhundert zählen kann. - Hier findest du u.a. Materialien zur Urkatastrophe des 20. Jahrhunderts, zu einem nie dagewesenen Verbrechen in der Menschheitsgeschichte und zu einem Land, das in zwei geteilt wird."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <1313e969-5fa0-451d-a3bd-777c5633de9f>,
+        <17968869-7a6d-49be-8c37-0f3aa1ab14f1>,
+        <378dfcd1-d61e-4c30-8e35-cad4549b968e>,
+        <47f15a3f-b7ed-41f7-9178-6dab79dd4227>,
+        <4dc8cca2-6fab-4be9-af66-d44791db2889>,
+        <648c6504-a57a-465e-ad00-01fae674abe3>,
+        <a5850ab5-fe16-4701-8055-6c49ecdb80ae>,
+        <a7134459-00ba-4e15-a8ed-8b558fe5db88>,
+        <a75152ec-3291-4ad2-9484-38fd5c9caf97>,
+        <bc246caa-2a03-45b5-ad35-310f91c19aec>,
+        <d7b05363-b3a5-49f0-b365-e213f8e6f6bf> ;
+    skos:prefLabel "20. Jahrhundert"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "20. Jahrhundert Deutschland"@de,
+        "20. Jahrhundert Entwicklungen"@de,
+        "20. Jahrhundert Ereignisse"@de,
+        "20. Jahrhundert Erster Weltkrieg"@de,
+        "20. Jahrhundert Europa"@de,
+        "20. Jahrhundert Folgen"@de,
+        "20. Jahrhundert Geschichte"@de,
+        "20. Jahrhundert Gesellschaft"@de,
+        "20. Jahrhundert Politik"@de,
+        "20. Jahrhundert Schule"@de,
+        "20. Jahrhundert Technik"@de,
+        "20. Jahrhundert Unterricht"@de,
+        "20. Jahrhundert Verlauf"@de,
+        "20. Jahrhundert Wissenschaft"@de,
+        "20. Jahrhundert Zeitstrahl"@de,
+        "20. Jahrhundert Zweiter Weltkrieg"@de,
+        "20. Jahrhundert Überblick"@de,
+        "Deutsche Teilung"@de,
+        "Erster Weltkrieg"@de,
+        "Nationalsozialismus"@de,
+        "Wiedervereinigung"@de,
+        "Zweiter Weltkrieg"@de .
+
 <74b68453-477f-4b56-93be-e954d1a75412> a skos:Concept ;
     skos:broader <350a0734-a52d-4d1e-9249-5e19f216da2f> ;
     skos:definition "Keine Sprache hat so viele Wörter wie Englisch. Schätzungen gehen von bis zu einer Million aus. Das Gute ist: Die meisten davon brauchen wir in der täglichen Kommunikation nicht. Es reichen ein paar Hundert Wörter, um mit anderen Menschen zu sprechen. Hier geht es um Vokabeln und Wortschatz, um die Frage: Welche Worte brauche ich, um über mich, meine Beziehungen oder Politik zu sprechen?"@de ;
@@ -49352,6 +49424,27 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
         "informationelle Selbstbestimmung"@de,
         "soziale Netzwerke"@de .
 
+<0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> a skos:Concept ;
+    skos:broader <26105802-9039-4add-bf21-07a0f89f6e70> ;
+    skos:definition "An dieser Stelle finden sich die wichtigsten Themen aus der türkischen Grammatik."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <2f5dcaf4-75b3-4e3f-991c-717b8f58d1fb>,
+        <2fe4df41-cc0b-4ae5-a14f-c805dc5e6588>,
+        <37691013-3065-42dd-af75-a9aeaaef23f8>,
+        <391a7476-3284-44e7-a0a7-f27ebf5f997e>,
+        <7ca1c7fa-28fb-4363-8686-dac35629f2ed>,
+        <81d6938d-5216-4fbe-b1d6-2979765751fd>,
+        <86b09fdf-f638-496a-8089-c3e2f7a42930>,
+        <97c3cbbf-8436-4d75-912b-60a01aa10102>,
+        <b16e4817-928d-4755-a4d6-508aaa1051de>,
+        <c636ed83-adf3-407a-99dd-38e098f55c8f>,
+        <cc1c2373-cbb1-4aa4-a23f-5d5f727155d2>,
+        <ced8958b-967f-4d85-90d5-ea4486432c40>,
+        <d155f98b-ecf8-420b-a97b-e6cddbc1366f> ;
+    skos:prefLabel "Grammatik"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20008> ;
+    sdo:keywords "gramer, türkçe gramer, türk grameri, türkische Grammatik, Grammatik des Türkischen"@de .
+
 <0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e> a skos:Concept ;
     skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -49476,28 +49569,6 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
         "Recht"@de,
         "Wirtschaftsordnung"@de,
         "Wirtschaftspolitik"@de .
-
-<0d4c206e-1198-4ad5-87dc-9f0637ef7e9f> a skos:Concept ;
-    skos:broader <26105802-9039-4add-bf21-07a0f89f6e70> ;
-    skos:definition "An dieser Stelle finden sich die wichtigsten Themen aus der türkischen Grammatik."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <12667089-2a9e-426a-9022-3cd41ff2eb53>,
-        <2f5dcaf4-75b3-4e3f-991c-717b8f58d1fb>,
-        <2fe4df41-cc0b-4ae5-a14f-c805dc5e6588>,
-        <37691013-3065-42dd-af75-a9aeaaef23f8>,
-        <391a7476-3284-44e7-a0a7-f27ebf5f997e>,
-        <7ca1c7fa-28fb-4363-8686-dac35629f2ed>,
-        <81d6938d-5216-4fbe-b1d6-2979765751fd>,
-        <86b09fdf-f638-496a-8089-c3e2f7a42930>,
-        <97c3cbbf-8436-4d75-912b-60a01aa10102>,
-        <b16e4817-928d-4755-a4d6-508aaa1051de>,
-        <c636ed83-adf3-407a-99dd-38e098f55c8f>,
-        <cc1c2373-cbb1-4aa4-a23f-5d5f727155d2>,
-        <ced8958b-967f-4d85-90d5-ea4486432c40>,
-        <d155f98b-ecf8-420b-a97b-e6cddbc1366f> ;
-    skos:prefLabel "Grammatik"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20008> ;
-    sdo:keywords "gramer, türkçe gramer, türk grameri, türkische Grammatik, Grammatik des Türkischen"@de .
 
 <0f6f4f55-e1aa-47c7-9ee9-9973700f3fef> a skos:Concept ;
     skos:broader <d4e04657-60f6-46db-b285-238df547eaef> ;
@@ -49829,11 +49900,14 @@ Sicherheit und Datenschutz sind wichtige Themen für eine informationelle Selbst
     skos:prefLabel "Geschichte"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
     skos:topConceptOf <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    sdo:keywords "Fachportal Geschichte"@de,
+    sdo:keywords "Fachportal"@de,
+        "Fachportal Geschichte"@de,
         "Geschichte"@de,
         "Geschichtsportal"@de,
         "Geschichtsunterricht"@de,
+        "Materialien"@de,
         "Materialien Geschichtsunterricht"@de,
+        "Unterrichtsideen"@de,
         "Unterrichtsideen Geschichtsunterricht"@de .
 
 <94f22c9b-0d3a-4c1c-8987-4c8e83f3a92e> a skos:Concept ;
@@ -50658,7 +50732,7 @@ Die zentralen Begriffe des Teilgebiets der Wahrscheinlichkeitsrechnung sind Lapl
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2023-05-03" ;
+    dct:modified "2023-05-23" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
