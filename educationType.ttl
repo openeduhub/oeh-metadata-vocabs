@@ -1,0 +1,116 @@
+@base <http://w3id.org/openeduhub/vocabs/educationType/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix openQCat: <https://www.kursnet-online.arbeitsagentur.de/schularten#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Schulart"@de ;
+    dct:title "education type"@en ;
+    dct:description "Die Arten von Schulen wie sie die Arbeitsagentur definiert und in dem Standard OpenQCat verwendet."@de ;
+    skos:note "Andere Quellen für die Klassifikation sind das Statistische Bundesamt, Studienwahl.de und hoch-und-weit.de, deren Klassifikationen sich hier gut mappen lassen."@de ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-06-14"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <allgemeinbildend>, 
+        <berufsakademie>, 
+        <berufsbildend>,
+        <berufsbildungswerk>,
+        <berufsförderungswerk>,
+        <beruflicheweiterbildung>,
+        <fachhochschule>,
+        <kunstundmusikhochschule>,
+        <universität>,
+        <vergleichbarerehabilitationseinrichtung>,
+        <medberuflrehabilitationseinrichtung>,
+        <verwaltungshochschule>,
+        <kirchlichehochschule>,
+        <privatehochschule>,
+        <hochschule>,
+        <eingliederung>,
+        <keine> .
+
+<allgemeinbildend> a skos:Concept ;
+    skos:prefLabel "Allgemeinbildende Schule/Einrichtung"@de ;
+    skos:exactMatch openQCat:100 ;
+    skos:topConceptOf <> .
+
+<berufsakademie> a skos:Concept ;
+    skos:prefLabel "Berufsakademie / Duale Hochschule"@de ;
+    skos:exactMatch openQCat:101 ;
+    skos:topConceptOf <> .
+
+<berufsbildend> a skos:Concept ;
+    skos:prefLabel "Berufsbildende Schule/Einrichtung"@de ;
+    skos:exactMatch openQCat:102 ;
+    skos:topConceptOf <> .
+
+<berufsbildungswerk> a skos:Concept ;
+    skos:prefLabel "Berufsbildungswerk"@de ;
+    skos:exactMatch openQCat:103 ;
+    skos:topConceptOf <> .
+
+<berufsförderungswerk> a skos:Concept ;
+    skos:prefLabel "Berufsförderungswerk"@de ;
+    skos:exactMatch openQCat:104 ;
+    skos:topConceptOf <> .
+
+<beruflicheweiterbildung> a skos:Concept ;
+    skos:prefLabel "Einrichtung der beruflichen Weiterbildung"@de ;
+    skos:exactMatch openQCat:105 ;
+    skos:topConceptOf <> .
+
+<fachhochschule> a skos:Concept ;
+    skos:prefLabel "Fachhochschule / Hochschule für angewandte Wissenschaften"@de ;
+    skos:exactMatch openQCat:106 ;
+    skos:topConceptOf <> .
+
+<kunstundmusikhochschule> a skos:Concept ;
+    skos:prefLabel "Kunst- und Musikhochschule"@de ;
+    skos:exactMatch openQCat:107 ;
+    skos:topConceptOf <> .
+
+<universität> a skos:Concept ;
+    skos:prefLabel "Universität"@de ;
+    skos:exactMatch openQCat:108 ;
+    skos:topConceptOf <> .
+
+<vergleichbarerehabilitationseinrichtung> a skos:Concept ;
+    skos:prefLabel "vergleichbare Rehabilitationseinrichtung"@de ;
+    skos:exactMatch openQCat:109 ;
+    skos:topConceptOf <> .
+
+<medberuflrehabilitationseinrichtung> a skos:Concept ;
+    skos:prefLabel "med.-berufl. Rehabilitationseinrichtung"@de ;
+    skos:exactMatch openQCat:110 ;
+    skos:topConceptOf <> .
+
+<verwaltungshochschule> a skos:Concept ;
+    skos:prefLabel "Verwaltungshochschule"@de ;
+    skos:exactMatch openQCat:111 ;
+    skos:topConceptOf <> .
+
+<kirchlichehochschule> a skos:Concept ;
+    skos:prefLabel "Kirchliche Hochschule"@de ;
+    skos:exactMatch openQCat:112 ;
+    skos:topConceptOf <> .
+
+<privatehochschule> a skos:Concept ;
+    skos:prefLabel "Private Hochschule"@de ;
+    skos:exactMatch openQCat:113 ;
+    skos:topConceptOf <> .
+
+<hochschule> a skos:Concept ;
+    skos:prefLabel "Hochschule eigenen Typs"@de ;
+    skos:exactMatch openQCat:114 ;
+    skos:topConceptOf <> .
+
+<eingliederung> a skos:Concept ;
+    skos:prefLabel "Träger von Maßnahmen zur Aktivierung und beruflichen Eingliederung"@de ;
+    skos:exactMatch openQCat:115 ;
+    skos:topConceptOf <> .
+
+<keine> a skos:Concept ;
+    skos:prefLabel "Keine Zuordnung möglich"@de ;
+    skos:exactMatch openQCat:0 ;
+    skos:topConceptOf <> .
