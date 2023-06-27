@@ -1,0 +1,73 @@
+@base <http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix role: <http://w3id.org/openeduhub/vocabs/intendedEndUserRole/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Zielgruppe (BIRD)"@de ;
+    dct:title "Intended End User Role (BIRD)"@en ;
+    dct:description "Eine Werteliste für die Zielgruppen von Bildungsangeboten, wie sie im BIRD Referenzprojekt angelegt wurde."@de ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-02-23"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <pupil>, <student>, <prospective_student>, 
+        <prospective_doctoral>, <pasch>, <parent>, <teacher> .
+
+<pupil> a skos:Concept ;
+  skos:prefLabel "Schüler"@de ;
+  skos:prefLabel "Schülerin"@de ;
+  skos:altLabel "Schüler*in"@de ;
+  skos:related role:learner ;
+  skos:topConceptOf <> .
+
+<student> a skos:Concept ;
+  skos:prefLabel "Student"@de ;
+  skos:prefLabel "Studentin"@de ;
+  skos:altLabel "Student*in"@de ;
+  skos:altLabel "Studierende(r)"@de ;
+  skos:related role:learner ;
+  skos:topConceptOf <> .
+
+<prospective_student> a skos:Concept ;
+  skos:prefLabel "Studieninteressierte"@de ;
+  skos:prefLabel "Studieninteressierter"@de ;
+  skos:related role:learner ;
+  skos:topConceptOf <> .
+
+<prospective_doctoral> a skos:Concept ;
+  skos:prefLabel "Promotionsinteressent"@de ;
+  skos:prefLabel "Promotionsinteressentin"@de ;
+  skos:altLabel "Promotionsinteressierte"@de ;
+  skos:related role:learner ;
+  skos:topConceptOf <> .
+
+<pasch> a skos:Concept ;
+  skos:prefLabel "PASCH-Schüler"@de ;
+  skos:prefLabel "PASCH-Schülerin"@de ;
+  skos:altLabel "PASCH-Schüler*innen"@de ;
+  skos:description "Schüler*innen im Rahmen der Initiative „Schulen: Partner der Zukunft“ (PASCH)" ;
+  skos:related role:learner ;
+  skos:topConceptOf <> .
+
+<parent> a skos:Concept ;
+  skos:prefLabel "Eltern"@de ;
+  skos:prefLabel "parent"@en ;
+  skos:altLabel "Elter"@de ;
+  skos:altLabel "Elternteil"@de ;
+  skos:altLabel "Erziehungsberechtigter"@de ;
+  skos:altLabel "Sorgeberechtigter"@de ;
+  skos:definition "A father, mother, or legal guardian."@en ;
+  skos:exactMatch role:parent ;
+  skos:topConceptOf <> .
+
+<teacher> a skos:Concept ;
+  skos:prefLabel "Lehrer/in"@de ;
+  skos:prefLabel "teacher"@en ;
+  skos:altLabel "Lehrer"@de ;
+  skos:altLabel "Lehrerin"@de ;
+  skos:altLabel "Lehrende"@de ;
+  skos:altLabel "Lehrender"@de ;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en ;
+  skos:exactMatch role:teacher ;
+  skos:topConceptOf <> .

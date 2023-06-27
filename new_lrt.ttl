@@ -6,6 +6,7 @@
 @prefix sct: <http://w3id.org/openeduhub/vocabs/sourceContentType/> .
 @prefix tool: <http://w3id.org/openeduhub/vocabs/toolCategory/> .
 @prefix agg: <http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/> .
+@prefix elm: <http://data.europa.eu/snb/learning-opportunity/> .
 
 <01551356-a6a3-44fc-9662-7d366d7af0ac> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -273,6 +274,9 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:inScheme <> ;
     skos:broadMatch agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:relatedMatch elm:65a4cf5de2 ;
+    skos:relatedMatch elm:74a4a268e8 ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Studiengang"@de .
 
 <345cba59-9fa0-4ec8-ba93-2c75f4a40003> a skos:Concept ;
@@ -304,6 +308,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:inScheme <> ;
     skos:broadMatch agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Schulbildung(sangebot)"@de .
 
 <38bceae0-28c3-425f-9c56-fba079f98f92> a skos:Concept ;
@@ -343,6 +348,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:inScheme <> ;
     skos:broadMatch agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:exactMatch elm:63f9f6180c ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Ausbildungsberuf"@de .
 
 <4735c61a-429b-4909-9f3c-cbf975e2aa0e> a skos:Concept ;
@@ -364,14 +371,72 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
+    skos:narrower <8d5195dd-2e48-44d4-a9c1-6bccbf85ec96>,
+        <8e157383-9ca3-4e20-849d-0881b648fd99>,
+        <ff20ae9f-5d83-4f29-ba4f-993cbd743e5c>,
+        <89abe72e-d4c6-4797-ac36-175cfce25107>,
+        <b0774ec7-49c0-49e0-8093-dce3ee6d02a0>,
+        <4d64241b-3d8c-4d67-b9fe-9970f240d991>,
+        <6f030e55-6193-4587-a374-d002cd43d787>, 
+        <9ac858a9-fc06-41a1-a18e-faf7a1525198> ;
     skos:definition """Größere Einheit - eher über Wochen, die i.d.R. mit einem Zertifikat/Abschluss endet
 (z.B. Physik ein Schuljahr oder ein Fachsemester im Studium)"""@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:course,
         widgets:course ;
+    skos:exactMatch elm:05053c1cbe ;
+    skos:relatedMatch elm:17744a2647 ;
     skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
     skos:prefLabel "Kurs"@de ;
     skos:scopeNote "Monate"@de .
+
+<8d5195dd-2e48-44d4-a9c1-6bccbf85ec96> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Sprachkurs"@de .
+
+<8e157383-9ca3-4e20-849d-0881b648fd99> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Fachkurs"@de .
+
+<ff20ae9f-5d83-4f29-ba4f-993cbd743e5c> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Propädeutika"@de .
+
+<89abe72e-d4c6-4797-ac36-175cfce25107> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Soft Skills"@de .
+
+<b0774ec7-49c0-49e0-8093-dce3ee6d02a0> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Business Skills"@de .
+
+<4d64241b-3d8c-4d67-b9fe-9970f240d991> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Digital Skills"@de .
+
+<6f030e55-6193-4587-a374-d002cd43d787> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Academic Skills"@de .
+
+<9ac858a9-fc06-41a1-a18e-faf7a1525198> a skos:Concept ;
+    skos:broader <4e16015a-7862-49ed-9b5e-6c1c6e0ffcd1> ;
+    skos:inScheme <> ;
+    skos:relatedMatch agg:e10e9add-700e-4b57-a9c5-8f1088bb0545 ;
+    skos:prefLabel "Career Skills"@de .
 
 <4e847242-cea0-4821-a13c-c621e475b372> a skos:Concept ;
     skos:broader <fd0b97e1-25ba-4477-b769-b41e9623cf65> ;
@@ -387,6 +452,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:exactMatch widgets:teacher_training ;
     skos:broadMatch agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Fortbildungsangebot"@de .
 
 <5098cf0b-1c12-4a1b-a6d3-b3f29621e11d> a skos:Concept ;
@@ -523,6 +589,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <03ab835b-c39c-48d1-b5af-7611de2f6464> ;
     skos:inScheme <> ;
     skos:broadMatch agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Frühkindliches Bildungsangebot und KITA"@de .
 
 <667f5063-70b9-400c-b1f7-7702ec9487f1> a skos:Concept ;
@@ -751,7 +818,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:exactMatch widgets:extracurricular ;
     skos:broadMatch agg:b06c5816-60c7-4f1b-bcd7-95d70aaa4740 ;
-    skos:prefLabel "außerschulische Angebot"@de .
+    skos:relatedMatch elm:79343569f3 ;
+    skos:prefLabel "außerschulisches Angebot"@de .
 
 <933ceef8-c7ae-4af3-9229-4bd86334dfea> a skos:Concept ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
@@ -1395,6 +1463,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <dd9e02fa-0501-4779-aeb2-6f50c4d0d502> ;
     skos:relatedMatch sct:008,
         agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:relatedMatch elm:8b965da2d4 ;
     skos:prefLabel "Methode"@de ;
     skos:topConceptOf <> .
 
@@ -1522,6 +1591,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <c903a62a-17b0-4646-b2b8-a1a02a84e8cc> ;
     skos:relatedMatch sct:010,
         agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
+    skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Bildungsangebot"@de ;
     skos:topConceptOf <> .
 
@@ -1693,6 +1763,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         widgets:subject_didactics,
         widgets:social_interaction ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:relatedMatch elm:8b965da2d4 ;
     skos:prefLabel "Pädagogische Methode, Konzept"@de .
 
 <a120ce77-59f5-4564-8d49-73f4a0de1594> a skos:Concept ;

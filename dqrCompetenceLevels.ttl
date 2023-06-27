@@ -1,0 +1,53 @@
+@base <http://w3id.org/openeduhub/vocabs/dqrCompetenceLevels/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Kompetenzniveaus nach DQR"@de;
+    dct:title "Competence levels according to DQR"@en;
+    dct:description "Der DQR beschreibt acht Kompetenzniveaus, denen sich die Qualifikationen des deutschen Bildungssystems zuordnen lassen"@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>, <7>, <8> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "Niveau 1"@de ;
+    skos:definition "Kompetenzen zur Erfüllung einfacher Anforderungen in einem überschaubar und stabil strukturierten Lern- oder Arbeitsbereich. Die Erfüllung der Aufgaben erfolgt unter Anleitung." ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "Niveau 2"@de ;
+    skos:definition "Kompetenzen zur fachgerechten Erfüllung grundlegender Anforderungen in einem überschaubar und stabil strukturierten Lern- oder Arbeitsbereich. Die Erfüllung der Aufgaben erfolgt weitgehend unter Anleitung." ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "Niveau 3"@de ;
+    skos:definition "Kompetenzen zur selbständigen Erfüllung fachlicher Anforderungen in einem noch überschaubaren und zum Teil offen strukturierten Lernbereich oder beruflichen Tätigkeitsfeld." ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "Niveau 4"@de ;
+    skos:definition "Kompetenzen zur selbständigen Planung und Bearbeitung fachlicher Aufgabenstellungen in einem umfassenden, sich verändernden Lernbereich oder beruflichen Tätigkeitsfeld." ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "Niveau 5"@de ;
+    skos:definition "Kompetenzen zur selbständigen Planung und Bearbeitung umfassender fachlicher Aufgabenstellungen in einem komplexen, spezialisierten, sich verändernden Lernbereich oder beruflichen Tätigkeitsfeld." ;
+    skos:topConceptOf <> .
+
+<6> a skos:Concept ;
+    skos:prefLabel "Niveau 6"@de ;
+    skos:definition "Kompetenzen zur Planung, Bearbeitung und Auswertung von umfassenden fachlichen Aufgaben- und Problemstellungen sowie zur eigenverantwortlichen Steuerung von Prozessen in Teilbereichen eines wissenschaftlichen Faches oder in einem beruflichen Tätigkeitsfeld. Die Anforderungsstruktur ist durch Komplexität und häufige Veränderungen gekennzeichnet." ;
+    skos:topConceptOf <> .
+
+<7> a skos:Concept ;
+    skos:prefLabel "Niveau 7"@de ;
+    skos:definition "Kompetenzen zur Bearbeitung von neuen komplexen Aufgaben- und Problemstellungen sowie zur eigenverantwortlichen Steuerung von Prozessen in einem wissenschaftlichen Fach oder in einem strategieorientierten beruflichen Tätigkeitsfeld. Die Anforderungsstruktur ist durch häufige und unvorhersehbare Veränderungen gekennzeichnet." ;
+    skos:topConceptOf <> .
+
+<8> a skos:Concept ;
+    skos:prefLabel "Niveau 8"@de ;
+    skos:definition "Kompetenzen zur Gewinnung von Forschungserkenntnissen in einem wissenschaftlichen Fach oder zur Entwicklung innovativer Lösungen und Verfahren in einem beruflichen Tätigkeitsfeld. Die Anforderungsstruktur ist durch neuartige und unklare Problemlagen gekennzeichnet." ;
+    skos:topConceptOf <> .

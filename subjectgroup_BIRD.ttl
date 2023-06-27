@@ -1,0 +1,69 @@
+@base <http://w3id.org/openeduhub/vocabs/discipline/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dest: <http://w3id.org/openeduhub/vocabs/hochschulfaechersystematik/> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Fachgebiet (BIRD)"@de ;
+    dct:title "Subjectgroup (BIRD)"@en ;
+    dct:description "Fachgebietsvokabular wie es im BIRD Schema verwendet wird."@de ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-02-28"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <323ea69e-e977-4823-bda7-0ca85b78a043>,
+        <eeec8db7-0ec0-4784-9395-1c63c4b0717b>,
+        <426f439a-b2b3-4c5e-9bb4-d72f76ca15ff>,
+        <f357f2d1-1ce4-49e9-8861-304d446ee585>,
+        <dc35395d-8aee-4b67-a24d-71742bf18aa0>,
+        <7c34eabf-8628-4df9-a449-dd09862e2eb4>,
+        <6d57213b-1e34-4842-8bee-03d999975daf>,
+        <8e9c2e6e-fd87-4d6e-bd5f-c9f9f393a7e9>,
+        <ec1ec6f0-fe6b-43b2-8101-a3657d654235>
+        .
+
+<323ea69e-e977-4823-bda7-0ca85b78a043> a skos:Concept ;
+    skos:prefLabel "Agrar- und Forstwissenschaften"@de ;
+    skos:broadMatch dest:n7 ;
+    skos:topConceptOf <> .
+
+<eeec8db7-0ec0-4784-9395-1c63c4b0717b> a skos:Concept ;
+    skos:prefLabel "Gesellschafts- und Sozialwissenschaften"@de ;
+    skos:broadMatch dest:n3 ;
+    skos:topConceptOf <> .
+
+<426f439a-b2b3-4c5e-9bb4-d72f76ca15ff> a skos:Concept ;
+    skos:prefLabel "Ingenieurwissenschaften"@de ;
+    skos:closeMatch dest:n8 ;
+    skos:topConceptOf <> .
+
+<f357f2d1-1ce4-49e9-8861-304d446ee585> a skos:Concept ;
+    skos:prefLabel "Kunst, Musik, Design"@de ;
+    skos:broadMatch dest:n9 ;
+    skos:topConceptOf <> .
+
+<dc35395d-8aee-4b67-a24d-71742bf18aa0> a skos:Concept ;
+    skos:prefLabel "Lehramt"@de ;
+    skos:topConceptOf <> .
+
+<7c34eabf-8628-4df9-a449-dd09862e2eb4> a skos:Concept ;
+    skos:prefLabel "Mathematik, Naturwissenschaften"@de ;
+    skos:exactMatch dest:n4 ;
+    skos:topConceptOf <> .
+
+<6d57213b-1e34-4842-8bee-03d999975daf> a skos:Concept ;
+    skos:prefLabel "Medizin, Gesundheitswissenschaften"@de ;
+    skos:exactMatch dest:n5 ;
+    skos:topConceptOf <> .
+
+<8e9c2e6e-fd87-4d6e-bd5f-c9f9f393a7e9> a skos:Concept ;
+    skos:prefLabel "Sprach-, Kulturwissenschaften"@de ;
+    skos:broadMatch dest:n1 ;
+    skos:topConceptOf <> .
+
+<ec1ec6f0-fe6b-43b2-8101-a3657d654235> a skos:Concept ;
+    skos:prefLabel "Wirtschaftswissenschaften, Rechtswissenschaften"@de ;
+    skos:closeMatch dest:n30 ;
+    skos:closeMatch dest:n28 ;
+    skos:broadMatch dest:n23 ;
+    skos:topConceptOf <> .
