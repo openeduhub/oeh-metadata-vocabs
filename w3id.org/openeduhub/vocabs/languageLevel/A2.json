@@ -14,6 +14,30 @@
   "definition": {
     "de": "Kann Sätze und häufig gebrauchte Ausdrücke verstehen, die mit Bereichen von ganz unmittelbarer Bedeutung zusammenhängen (z. B. Informationen zur Person und zur Familie, Einkaufen, Arbeit, nähere Umgebung). Kann sich in einfachen, routinemäßigen Situationen verständigen, in denen es um einen einfachen und direkten Austausch von Informationen über vertraute und geläufige Dinge geht. Kann mit einfachen Mitteln die eigene Herkunft und Ausbildung, die direkte Umgebung und Dinge im Zusammenhang mit unmittelbaren Bedürfnissen beschreiben."
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageLevel/A2.1",
+      "prefLabel": {
+        "de": "A2.1",
+        "en": "A2.1"
+      },
+      "altLabel": {
+        "de": "Grundlagen",
+        "en": "Elementary"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageLevel/A2.2",
+      "prefLabel": {
+        "de": "A2.2",
+        "en": "A2.2"
+      },
+      "altLabel": {
+        "de": "Grundlagen",
+        "en": "Elementary"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/languageLevel/A",
     "prefLabel": {

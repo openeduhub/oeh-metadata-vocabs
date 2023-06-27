@@ -12,6 +12,56 @@
   "scopeNote": {
     "de": "Monate"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/8d5195dd-2e48-44d4-a9c1-6bccbf85ec96",
+      "prefLabel": {
+        "de": "Sprachkurs"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/8e157383-9ca3-4e20-849d-0881b648fd99",
+      "prefLabel": {
+        "de": "Fachkurs"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/ff20ae9f-5d83-4f29-ba4f-993cbd743e5c",
+      "prefLabel": {
+        "de": "Propädeutika"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/89abe72e-d4c6-4797-ac36-175cfce25107",
+      "prefLabel": {
+        "de": "Soft Skills"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/b0774ec7-49c0-49e0-8093-dce3ee6d02a0",
+      "prefLabel": {
+        "de": "Business Skills"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/4d64241b-3d8c-4d67-b9fe-9970f240d991",
+      "prefLabel": {
+        "de": "Digital Skills"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/6f030e55-6193-4587-a374-d002cd43d787",
+      "prefLabel": {
+        "de": "Academic Skills"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/9ac858a9-fc06-41a1-a18e-faf7a1525198",
+      "prefLabel": {
+        "de": "Career Skills"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/588efe4f-976f-48eb-84aa-8bcb45679f85",
     "prefLabel": {
@@ -19,6 +69,9 @@
     }
   },
   "relatedMatch": [
+    {
+      "id": "http://data.europa.eu/snb/learning-opportunity/17744a2647"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/e10e9add-700e-4b57-a9c5-8f1088bb0545"
     }
@@ -29,6 +82,9 @@
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/course"
+    },
+    {
+      "id": "http://data.europa.eu/snb/learning-opportunity/05053c1cbe"
     }
   ],
   "inScheme": {

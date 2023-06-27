@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F92dcc3ec-fe94-451c-95ac-ea305e0e7597",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F92dcc3ec-fe94-451c-95ac-ea305e0e7597",
   "prefLabel": {
-    "de": "außerschulische Angebot"
+    "de": "außerschulisches Angebot"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/955590ae-5f06-4513-98e9-91dfa8d5a05e",
@@ -12,6 +12,11 @@
       "de": "Termin, Event und Veranstaltung"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http://data.europa.eu/snb/learning-opportunity/79343569f3"
+    }
+  ],
   "broadMatch": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/b06c5816-60c7-4f1b-bcd7-95d70aaa4740"
