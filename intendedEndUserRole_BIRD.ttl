@@ -11,42 +11,31 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2023-02-23"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <pupil>, <student>, <prospective_student>, 
-        <prospective_doctoral>, <pasch>, <parent>, <teacher> .
+    skos:hasTopConcept <pupil>, <student>, <prospective_student>, <prospective_doctoral>, <pasch>, <parent>, <teacher> .
 
 <pupil> a skos:Concept ;
-  skos:prefLabel "Schüler"@de ;
-  skos:prefLabel "Schülerin"@de ;
-  skos:altLabel "Schüler*in"@de ;
+  skos:prefLabel "Schüler/in"@de ;
   skos:related role:learner ;
   skos:topConceptOf <> .
 
 <student> a skos:Concept ;
-  skos:prefLabel "Student"@de ;
-  skos:prefLabel "Studentin"@de ;
-  skos:altLabel "Student*in"@de ;
-  skos:altLabel "Studierende(r)"@de ;
+  skos:prefLabel "Student/in"@de ;
   skos:related role:learner ;
   skos:topConceptOf <> .
 
 <prospective_student> a skos:Concept ;
-  skos:prefLabel "Studieninteressierte"@de ;
-  skos:prefLabel "Studieninteressierter"@de ;
+  skos:prefLabel "Studieninteressierte/r"@de ;
   skos:related role:learner ;
   skos:topConceptOf <> .
 
 <prospective_doctoral> a skos:Concept ;
-  skos:prefLabel "Promotionsinteressent"@de ;
-  skos:prefLabel "Promotionsinteressentin"@de ;
-  skos:altLabel "Promotionsinteressierte"@de ;
+  skos:prefLabel "Promotionsinteressent/in"@de ;
   skos:related role:learner ;
   skos:topConceptOf <> .
 
 <pasch> a skos:Concept ;
-  skos:prefLabel "PASCH-Schüler"@de ;
-  skos:prefLabel "PASCH-Schülerin"@de ;
-  skos:altLabel "PASCH-Schüler*innen"@de ;
-  skos:description "Schüler*innen im Rahmen der Initiative „Schulen: Partner der Zukunft“ (PASCH)" ;
+  skos:prefLabel "PASCH-Schüler/in"@de ;
+  skos:description "Schüler*innen im Rahmen der Initiative „Schulen: Partner der Zukunft“ (PASCH)"@de ;
   skos:related role:learner ;
   skos:topConceptOf <> .
 
