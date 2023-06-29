@@ -1,0 +1,36 @@
+@base <http://w3id.org/openeduhub/vocabs/learningFormat/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix euvoc: <http://data.europa.eu/snb/learning-assessment/> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Lernformate"@de ;
+    dct:title "Learning format"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-06-29"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <presential>, <online>, <blended>, <online_appointments>, <mooc> .
+
+<presential> a skos:Concept ;
+    skos:prefLabel "Präsenz"@de ;
+    skos:exactMatch euvoc:9191af2ed9 ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer physisch anwesend sind und gemeinsam mit anderen lernen."@de .
+
+<online> a skos:Concept ;
+    skos:prefLabel "Online (Selbstlernkurs)"@de ;
+    skos:exactMatch euvoc:920fbb3cbe ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer eigenständig online lernen, ohne Präsenzveranstaltungen."@de .
+
+<blended> a skos:Concept ;
+    skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de ;
+    skos:exactMatch euvoc:e92d221e4d ;
+    skos:definition "Ein Lernformat, das sowohl Online-Komponenten als auch Präsenzveranstaltungen umfasst. Es gibt feste Termine, an denen die Teilnehmer persönlich anwesend sein müssen."@de .
+
+<online_appointments> a skos:Concept ;
+    skos:prefLabel "Online mit festen Online-Gruppenterminen"@de ;
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer online lernen und regelmäßige Online-Gruppentermine haben, um sich auszutauschen und gemeinsam zu lernen."@de .
+
+<mooc> a skos:Concept ;
+    skos:prefLabel "Massive Open Online Course (MOOC)"@de ;
+    skos:definition "Ein Lernformat, das über das Internet angeboten wird und eine große Anzahl von Teilnehmern anspricht. MOOCs sind in der Regel kostenlos und bieten flexible Lernmöglichkeiten."@de .
