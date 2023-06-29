@@ -15,22 +15,27 @@
 <presential> a skos:Concept ;
     skos:prefLabel "Präsenz"@de ;
     skos:exactMatch euvoc:9191af2ed9 ;
-    skos:definition "Ein Lernformat, bei dem die Teilnehmer physisch anwesend sind und gemeinsam mit anderen lernen."@de .
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer physisch anwesend sind und gemeinsam mit anderen lernen."@de ;
+    skos:topConceptOf <> .
 
 <online> a skos:Concept ;
     skos:prefLabel "Online (Selbstlernkurs)"@de ;
     skos:exactMatch euvoc:920fbb3cbe ;
-    skos:definition "Ein Lernformat, bei dem die Teilnehmer eigenständig online lernen, ohne Präsenzveranstaltungen."@de .
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer eigenständig online lernen, ohne Präsenzveranstaltungen."@de ;
+    skos:topConceptOf <> .
 
 <blended> a skos:Concept ;
     skos:prefLabel "Blended Learning mit festen Präsenz-Gruppenterminen"@de ;
     skos:exactMatch euvoc:e92d221e4d ;
-    skos:definition "Ein Lernformat, das sowohl Online-Komponenten als auch Präsenzveranstaltungen umfasst. Es gibt feste Termine, an denen die Teilnehmer persönlich anwesend sein müssen."@de .
+    skos:definition "Ein Lernformat, das sowohl Online-Komponenten als auch Präsenzveranstaltungen umfasst. Es gibt feste Termine, an denen die Teilnehmer persönlich anwesend sein müssen."@de ;
+    skos:topConceptOf <> .
 
 <online_appointments> a skos:Concept ;
     skos:prefLabel "Online mit festen Online-Gruppenterminen"@de ;
-    skos:definition "Ein Lernformat, bei dem die Teilnehmer online lernen und regelmäßige Online-Gruppentermine haben, um sich auszutauschen und gemeinsam zu lernen."@de .
+    skos:definition "Ein Lernformat, bei dem die Teilnehmer online lernen und regelmäßige Online-Gruppentermine haben, um sich auszutauschen und gemeinsam zu lernen."@de ;
+    skos:topConceptOf <> .
 
 <mooc> a skos:Concept ;
     skos:prefLabel "Massive Open Online Course (MOOC)"@de ;
-    skos:definition "Ein Lernformat, das über das Internet angeboten wird und eine große Anzahl von Teilnehmern anspricht. MOOCs sind in der Regel kostenlos und bieten flexible Lernmöglichkeiten."@de .
+    skos:definition "Ein Lernformat, das über das Internet angeboten wird und eine große Anzahl von Teilnehmern anspricht. MOOCs sind in der Regel kostenlos und bieten flexible Lernmöglichkeiten."@de ;
+    skos:topConceptOf <> .
