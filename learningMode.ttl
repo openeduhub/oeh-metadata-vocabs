@@ -9,7 +9,7 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2023-02-23"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <selfPaced>, <guided> .
+    skos:hasTopConcept <selfPaced>, <guided>, <mixed> .
 
 <selfPaced> a skos:Concept ;
     skos:prefLabel "selbstbestimmt"@de ;
@@ -19,4 +19,9 @@
 <guided> a skos:Concept ;
     skos:prefLabel "betreut"@de ;
     skos:prefLabel "guided"@en ;
+    skos:topConceptOf <> .
+
+<mixed> a skos:Concept ;
+    skos:prefLabel "gemischt"@de ;
+    skos:prefLabel "mixed"@en ;
     skos:topConceptOf <> .
