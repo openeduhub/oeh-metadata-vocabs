@@ -396,6 +396,7 @@
 
 <02144879-d8f0-4dbe-80ef-eebc68d594e1> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
+    skos:definition "Die Erkenntnisse aus biologischer Forschung können auch unser Weltbild beeinflussen, was insbesondere anhand der Schlussfolgerungen, die Charles Darwin aus seinen Forschungen ziehen konnte, deutlich geworden kann. Dies wirkt auch auf Philosophie und Ethik zurück."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Auswirkungen der biologischen Forschung auf die Philosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -2601,7 +2602,7 @@ Wenn man bei Handlungen der Vergangenheit die Dauer oder den Ablauf betonen will
 
 <1178cc9f-d507-4347-8c52-3bcdaf787721> a skos:Concept ;
     skos:broader <91641a45-b2c7-4651-9d8c-9197aafa3abd> ;
-    skos:definition "Mit dem Imperativ spricht man eine oder mehrere Personen direkt an, wenn man Sie zu etwas auffordert oder Sie um etwas bittet. Daher kommt der Imperativ nur in der 2. Pers. Sing. und Plural, sowie in der 3. Pers. Pl. vor: „Yuri, lies bitte den Text vor!” – „Achtet auf die Betonung!” – „Bilden Sie eine Rettungsgasse!”"@de ;
+    skos:definition "„Gib mir bitte das Buch!“ „Öffne das Buch auf Seite 43.“, „Mach das besser nicht!“ oder „Komm mich doch mal wieder besuchen.“ Der Imperativ ist eine grammatische Form, mit der du Befehle, Anweisungen und Ratschläge geben und Einladungen aussprechen kannst. Du verwendest den Imperativ nur in der 2. Person Singular und Plural und in der Höflichkeitsform mit „Sie“. Hier kannst du mit abwechslungsreichen Aufgabenformaten üben, wie der Imperativ gebildet und angewendet wird. Schau rein!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Imperativ"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -3632,6 +3633,7 @@ Werfen  lernen und das Zusammenspiel üben."""@de ;
 
 <18714cde-a64c-4124-b292-fd111197c011> a skos:Concept ;
     skos:broader <59800b25-f88b-4159-a1f7-293bfe4fc2a6> ;
+    skos:definition "Hier geht es um die Frage, welche Faszination warum von Computerspielen ausgeht, und auch um die Frage, ob und inwieweit damit die Gefahr einer Computerspiel-Sucht verbunden ist und wie hiermit ggf. umgegangen werden kann und sollte."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Faszination und Suchtproblematik bei Computerspielen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -11058,6 +11060,16 @@ auf die Lehrkrfat sind Aspekte der Motivation, der Förderung von Entwicklung  u
     sdo:keywords "Zins"@de,
         "Zinsrechnung"@de .
 
+<4a6a650b-e80b-4176-b66b-13c4faa9ab40> a skos:Concept ;
+    skos:broader <6e52373b-8498-4ac7-bb1d-52d4dceb731b> ;
+    skos:definition "Hier finden Sie Musikstücke für das Musizieren im Rahmen einer Bandklasse."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Bandklasse"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> ;
+    sdo:keywords "Bandklasse"@de,
+        "Klassenmusizieren"@de,
+        "Musikpraxis"@de .
+
 <4a6fcb18-0f3a-4d77-8894-e62acf32d9b2> a skos:Concept ;
     skos:broader <97c3cbbf-8436-4d75-912b-60a01aa10102> ;
     skos:definition "Hier findest Du Seiten und Materialien zum Thema 'Demonstrativpronomen' im Türkischen."@de ;
@@ -12206,7 +12218,7 @@ Der Rationalismus ist die Denkweise der Aufklärung, die an eine unbegrenzte men
 
 <52b73d13-f0b2-4ec9-8d1a-08f9b2842fa2> a skos:Concept ;
     skos:broader <5137f3ce-927c-4085-b731-54271c6df347> ;
-    skos:definition "Es gibt im Deutschen eine große Zahl an Fremdwörtern, also Wörter, die aus einer anderen Sprache stammen und kaum verändert wurden. Warum ist es wichtig, sie zu erkennen? Zum Beispiel weil sie in Schreibweise, Aussprache und auch in grammatischen Eigenheiten von den Regeln abweichen können, die normalerweise im Deutschen gelten. Beispiele wie „Chip”, Jogging”,  (Englisch) oder „Esprit”, „Kotelett” (Französisch), „Basar” (Persisch) oder Physik (Griechisch) sind nur einige wenige Beispiele dafür. Neugierig geworden? Dann lerne hier mehr!"@de ;
+    skos:definition "Es gibt im Deutschen eine große Zahl an Fremdwörtern, also Wörter, die aus einer anderen Sprache stammen und kaum verändert wurden. Warum ist es wichtig, sie zu erkennen? Zum Beispiel, weil sie in Schreibweise, Aussprache und auch in grammatischen Eigenheiten von den Regeln abweichen können, die normalerweise im Deutschen gelten. Beispiele wie „Chip”, Jogging”,  (Englisch) oder „Esprit”, „Kotelett” (Französisch), „Basar” (Persisch) oder Physik (Griechisch) sind nur einige wenige Beispiele dafür. Neugierig geworden? Dann lerne hier mehr!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Fremdwörter schreiben"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/28002> ;
@@ -13247,6 +13259,7 @@ Spielfähigkeit."""@de ;
 
 <58ac5950-936c-4529-a9f9-c79ddfba5c23> a skos:Concept ;
     skos:broader <0afd15fa-c5d9-45db-aae7-97953618f0bb> ;
+    skos:definition "Der Begriff „Seele“ nimmt einen hohen Stellenwert in wohl allen philosophischen und religiösen Weltbildern ein. Dennoch gibt es durchaus sehr unterschiedliche Vorstellungen davon, was die Seele ist und was sie ausmacht."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Vorstellungen von der Seele"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -13572,6 +13585,15 @@ Spielfähigkeit."""@de ;
         "Kontrastakzent"@de,
         "Wortakzent"@de .
 
+<5b2659e5-3d8f-4b14-b7cb-8d8feb524018> a skos:Concept ;
+    skos:broader <36b9b5f6-7f4c-450b-905b-70e5cd9daff9> ;
+    skos:definition "Die Eisenzeit ist eine nach dem verwendeten Material (Eisen) zur Herstellung schneidender Waffen und Gerätschaften benannte Periode der Ur- und Frühgeschichte. Sie ist nach der Steinzeit und der Bronzezeit die dritte große Periode in der einfachen zeitlichen Gliederung des Dreiperiodensystems. Die Eisenzeit beginnt im Nahen Osten um 1200 v. Chr. mit dem Untergang des hethitischen Reiches, in Nordeuropa reicht sie von etwa 750 v. Chr. bis 1025 n. Chr."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Eisenzeit"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Eisen"@de,
+        "Eisenzeit"@de .
+
 <5b4021b8-e133-4f59-bede-ec5f5a3f02c9> a skos:Concept ;
     skos:broader <6259b9d1-6cc0-4aa1-a6a4-e8222930d994> ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
@@ -13751,6 +13773,7 @@ Spielfähigkeit."""@de ;
 
 <5cb3adb8-9578-47a3-b92e-8bdfa155f87b> a skos:Concept ;
     skos:broader <cfb68751-4a91-42ce-94d0-11d81077042d> ;
+    skos:definition "Hier geht es um die Grundlagen unseres Handelns als Menschen. Wir beschäftigen uns mit Normen und Werten, die uns leiten und unser Verhalten beeinflussen. Dabei spielen Gewissen und Verantwortung eine entscheidende Rolle, denn sie helfen uns, ethisch korrekte Entscheidungen zu treffen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Gewissen und Verantwortung als Grundlage ethischer Entscheidungsfindung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -14807,6 +14830,7 @@ Die Spieler*innen im American Football sind oft auf eine oder zwei Positionen sp
 
 <6271cd87-e502-40a2-9d3d-21e479f6b24c> a skos:Concept ;
     skos:broader <4515a4d8-f324-4386-91ad-142619a5b4d1> ;
+    skos:definition "Hier geht es um philosophische und ethische Fragen im Zusammenhang mit der Praxis von Tierhaltung und Tierschutz."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Legitimation und praktische Anwendung von Tierhaltung und Tierschutz"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -16179,16 +16203,19 @@ ausgebildeter Technik und Kondition."""@de ;
 
 <6b3253f4-4d61-4cec-9d04-02389a334229> a skos:Concept ;
     skos:broader <59800b25-f88b-4159-a1f7-293bfe4fc2a6> ;
+    skos:definition "Sowohl Lernende als auch Lehrende benötigen Kompetenz im Umgang mit digitalen Medien. Hier geht es also darum, welche Kompetenzen warum und wofür nötig sind und wie diese erworben werden können und natürlich auch, wie diese sinnvoll beim Lehren und beim Lernen eingesetzt werden können."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Kompetenz im Umgang mit digitalen Medien"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
         <http://w3id.org/openeduhub/vocabs/discipline/450> ;
     sdo:keywords "Instagram"@de,
         "Jugendschutz"@de,
+        "Mastodon"@de,
         "Medienkompetenz"@de,
         "Mediensucht"@de,
+        "Twitter"@de,
         "Umgang mit Medien"@de,
-        "Whatsap"@de .
+        "WhatsApp"@de .
 
 <6b692db4-d837-49da-86dc-01a94d82d5d2> a skos:Concept ;
     skos:broader <852d7756-a3d2-4e82-8b14-1b9348ebb1c7> ;
@@ -16479,17 +16506,6 @@ Spielfähigkeit."""@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Hypothesentests"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/380> .
-
-<6e52373b-8498-4ac7-bb1d-52d4dceb731b> a skos:Concept ;
-    skos:broader <29cc5871-003c-4cbd-90c5-120dec73316e> ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Klassenmusizieren"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> ;
-    sdo:keywords "Boomwhackers"@de,
-        "Keyboards"@de,
-        "Klassenmusizieren"@de,
-        "Mitspielsätze"@de,
-        "Orff-Instrumente"@de .
 
 <6e5d767d-28da-4604-b7e9-953b9beec289> a skos:Concept ;
     skos:broader <219a04e9-4fbd-4e28-9b9a-a37061aab77d> ;
@@ -17601,6 +17617,16 @@ Bedeutsame Werke und Vorschläge zur Rolle des Staates gibt es u.a. von Platon u
         "Versailles"@de,
         "Vier Jahreszeiten"@de,
         "Wassermusik"@de .
+
+<7640a2ba-718a-475b-af77-2d2f8213e789> a skos:Concept ;
+    skos:broader <36b9b5f6-7f4c-450b-905b-70e5cd9daff9> ;
+    skos:definition "Als Kupferzeit wird der Zeitabschnitt zwischen der Jungsteinzeit und der Bronzezeit bezeichnet, in dem der Kupferbergbau und grundlegende Techniken der Kupfer-Metallurgie entwickelt wurden oder stark anwuchsen. Diese Epoche umfasst in Südosteuropa und dem Nahen Osten etwa den Zeitraum von 5500 bis 2200 v. Chr., wobei hier die wirtschaftliche Bedeutung des Kupfers zugrunde gelegt wird. Der Beginn der Kupferverarbeitung geht bis ins 8. Jahrtausend v. Chr. zurück. Da die Einführung der Kupferverarbeitungstechnologie regional unterschiedlich Jahrtausende dauerte, muss der Begriff „Kupferzeit“ chronologisch in unterschiedlichen Gebieten anders angesetzt werden."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:prefLabel "Kupferzeit"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Kupfer"@de,
+        "Kupfersteinzeit"@de,
+        "Kupferzeit"@de .
 
 <76699b33-2f5f-4e9b-9e9c-a197e1c8bead> a skos:Concept ;
     skos:broader <fd244fd0-56ba-4dae-bc9f-4f45d3d7e3e0> ;
@@ -26918,6 +26944,7 @@ die Vielfalt, Eigenart und Schönheit sowie der Erholungswert von Natur und Land
 
 <ac4bb7eb-29de-4fd4-be76-338bc4dfa0f5> a skos:Concept ;
     skos:broader <cfb68751-4a91-42ce-94d0-11d81077042d> ;
+    skos:definition "Hier geht es um die Frage, welche unterschiedlichen Grundlagen es für unsere moralische Orientierung, für Moral und Vernunft gibt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Unterschiedliche Grundlagen moralischer Orientierung, Gefühl und Vernunft"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -27526,6 +27553,7 @@ Beide Disziplinen haben einen Bezug zum Bergbau."""@de ;
 
 <b0ef2c50-be69-4da1-adea-fdc7ea0ed72c> a skos:Concept ;
     skos:broader <4515a4d8-f324-4386-91ad-142619a5b4d1> ;
+    skos:definition "Hier geht es um die Frage, wie wir als Menschen mit Kultur und Natur umgehen und welche moralischen Fragen sich dabei im Umgang mit Tieren ergeben. Wir werden uns mit der Tierethik beschäftigen und uns fragen, ob es moralisch vertretbar ist, Tiere zu essen. Eine kontroverse Diskussion, die uns dazu anregt, unsere eigenen Werte und Überzeugungen zu hinterfragen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Fleischkonsum: Dürfen wir Tiere essen?"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -28035,6 +28063,7 @@ Epikur"""@de ;
 
 <b3f8251f-8772-46c2-9788-bd74c20460ad> a skos:Concept ;
     skos:broader <cdcf4229-0480-462c-a5cc-41a179229e70> ;
+    skos:definition "Hier geht es um die philosophischen und ethischen Aspekte der Beziehung zwischen Staat, Gesellschaft und dem Individuum in der Arbeits- und Wirtschaftswelt. Im Mittelpunkt stehen die Begriffe Werte und Wertschöpfung."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Werte und Wertschöpfung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -32200,6 +32229,7 @@ Lerne alle Regeln hier und übe sie, es ist leichter als es klingt!"""@de ;
 
 <cdae1cd9-c3d5-4806-9fcf-7c69f2bbcccd> a skos:Concept ;
     skos:broader <26beee37-c456-455c-9a75-8584e396da79> ;
+    skos:definition "Der Begriff Aufklärung bezeichnet die um das Jahr 1700 einsetzende Entwicklung, durch rationales Denken alle den Fortschritt behindernden Strukturen zu überwinden. In Frankreich beeinflusste das aufklärerische Denken auch die Französische Revolution. Und einige bedeutende Vertreter der Aufklärung stammen aus Frankreich."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Französische Aufklärung"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -32495,6 +32525,7 @@ Leider nein!  Was tun?"""@de ;
 
 <cf2a0a2a-b536-453a-8d99-5fc2bf58a840> a skos:Concept ;
     skos:broader <1fbba233-e176-406f-901f-636e8a99d60f> ;
+    skos:definition "Die Wissenschaftstheorie (auch Wissenschaftsphilosophie, Wissenschaftslehre oder Wissenschaftslogik) ist ein Teilgebiet der Philosophie, das sich mit den Voraussetzungen, Methoden und Zielen von Wissenschaft und ihrer Form der Erkenntnisgewinnung beschäftigt."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Wissenschaftsphilosophie"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -32822,6 +32853,7 @@ durch sieben Akte hin."
 
 <d14e175e-3a31-4ecf-b0f7-781adc653a7a> a skos:Concept ;
     skos:broader <66f30caf-e218-4802-9013-bdbbab22c19b> ;
+    skos:definition "Ob Tortilla de patatas, Gazpacho, Croquetas, Ceviche, Humitas oder Empanadas, die Einflüsse in den Landesküchen und in Spanien und Hispanoamerika sind vielfältig. Neben den traditionellen Gerichten gibt es Einflüsse aus der maurischen Kultur in Spanien und Einflüsse aus den indigenen und afrikanischen Kulturen in Hispanoamerika. Tauche ein in die kulinarische Welt Spaniens und Hispanoamerikas und entdecke Speisen und andere Leckereien! Auch zum Nachkochen! ¡Buen provecho!"@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Landesküchen"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/20007> ;
@@ -32970,6 +33002,7 @@ Was man für Geld nicht kaufen kann."""@de ;
 
 <d23cb2cc-e186-423e-9b6e-232ab67e4ed5> a skos:Concept ;
     skos:broader <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> ;
+    skos:definition "Die Frage nach dem Wert von menschlichen Beziehungen und die Frage, was diese letztlich ausmacht und was sie bestimmt, bewegt sowohl Individuen als auch menschliche Gruppen und Gemeinschaften. Die Fragen nach den Prinzipien, die hier gelten und gelten sollten, stellt sich also immer wieder."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Prinzipien in Freundschaft, Partnerschaft und Liebe"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -33666,25 +33699,16 @@ Wo ist Gewissheit und wie wird sie erlangt?"""@de ;
 
 <d685cfaf-d6b5-43d4-bf2e-18615f2f7351> a skos:Concept ;
     skos:broader <36b9b5f6-7f4c-450b-905b-70e5cd9daff9> ;
-    skos:definition "Hier lernst du die Kupferzeit, die Bronzezeit und die Eisenzeit kennen, eine Zeit, in der die Menschen erstmals vor allem Metall nutzten, um Werkzeuge und Waffen herzustellen, eine Zeit, in der Pferde zum Reiten gezähmt wurden und der Handel aufblühte."@de ;
+    skos:definition "Die Bronzezeit ist die Periode in der Geschichte der Menschheit, in der Metallgegenstände wie Waffen, Gerätschaften und Schmuck vorwiegend aus Bronze, einer Kupfer-Zinn-Legierung, hergestellt wurden. Diese Epoche umfasst in Mitteleuropa etwa den Zeitraum von 2200 bis 800 v. Chr."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:prefLabel "Kupferzeit, Bronzezeit und Eisenzeit"@de ;
+    skos:prefLabel "Bronzezeit"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
-    sdo:keywords "Bronzezeit Leben Geschichte"@de,
-        "Eisenzeit Leben Geschichte"@de,
-        "In welcher Form kommt Eisen auf der Erde vor?"@de,
-        "Kupferzeit"@de,
+    sdo:keywords "Bronze"@de,
+        "Bronzezeit"@de,
         "Wann war die Bronze und Eisenzeit?"@de,
-        "Wann war die Eisenzeit?"@de,
-        "Wann wurde Bronze entdeckt?"@de,
-        "Wann wurde Eisen erfunden?"@de,
         "Was wird aus Bronze hergestellt?"@de,
-        "Welche Epoche kam nach der Steinzeit?"@de,
         "Wer hat Bronze erfunden?"@de,
-        "Wer hat das Metall entdeckt?"@de,
-        "Wie lebten die Menschen in der Eisenzeit?"@de,
-        "Wo kommt Bronze her?"@de,
-        "Wo kommt das Metall her?"@de .
+        "Wo kommt Bronze her?"@de .
 
 <d69c2a64-531a-4566-917e-6db14ede42c7> a skos:Concept ;
     skos:broader <0c894f87-9cbf-4bbe-9fe9-c80844dd07d1> ;
@@ -35371,6 +35395,7 @@ Friedensordnung“ gestalten lässt."""@de ;
 
 <e2a6b355-bfbd-4a3b-b9ad-4d367a927743> a skos:Concept ;
     skos:broader <3b3a13c5-8522-4e57-ab40-6fb043eae0d6> ;
+    skos:definition "Konflikte, Streit und Mobbing gehören (leider) zu unserem Leben dazu. Hilfreich ist es, deren prinzipielle Struktur, deren Ursachen und Lösungsmöglichkeiten zu kennen und dieses Wissen sinnvoll anwenden zu können."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Grundprinzipien, Ursachen und Lösungen bei Konflikten, Streit und Mobbing"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -35512,6 +35537,7 @@ Friedensordnung“ gestalten lässt."""@de ;
 
 <e40472aa-97a9-4ef8-a09f-b8f0453aad0a> a skos:Concept ;
     skos:broader <27b3d6e3-59ba-4554-b597-b81bd1314ed2> ;
+    skos:definition "Zahlreiche bedeutende Impulse der Renaissance haben ihren Ursprung in Werken italienischer Forschender, deren Impulse ihre Wrirkung über Italien hinaus entfalteten."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Die italienische Philosophie in der Renaissance"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -38570,6 +38596,7 @@ Für Sokrates und seinen Schüler Platon ist Philosophieren gleichbedeutend mit 
 
 <f70b82b2-4111-43e3-bcce-b84d712c6b7e> a skos:Concept ;
     skos:broader <27b3d6e3-59ba-4554-b597-b81bd1314ed2> ;
+    skos:definition "In der Renaissance änderten sich unter Auseinandersetzung mit den Kenntnissen und Vorstellungen der Antike das Weltbild zahlreicher bedeutender Personen in unterschiedlichen Wissensbereichen. Hier soll es um die Rolle dieser Änderungen für und durch die Philosophie gehen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:prefLabel "Die Philosophie der Wissenschaft in der Renaissance"@de ;
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/160>,
@@ -40233,6 +40260,18 @@ Beispiele sind: Konzepte für Qualifizierungen und Sensibilisierungen, Hilfen un
         "Trizone"@de,
         "Währungsreform"@de .
 
+<6e52373b-8498-4ac7-bb1d-52d4dceb731b> a skos:Concept ;
+    skos:broader <29cc5871-003c-4cbd-90c5-120dec73316e> ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <4a6a650b-e80b-4176-b66b-13c4faa9ab40> ;
+    skos:prefLabel "Klassenmusizieren"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/420> ;
+    sdo:keywords "Boomwhackers"@de,
+        "Keyboards"@de,
+        "Klassenmusizieren"@de,
+        "Mitspielsätze"@de,
+        "Orff-Instrumente"@de .
+
 <742ab88e-ccb9-4888-82ff-2482edfce44d> a skos:Concept ;
     skos:broader <ff426019-b246-4fda-af3c-328b88db7c06> ;
     skos:definition "Ihr habt so richtig Lust auf Theater, Film und/oder Improvisation? Dann wäre eine Theatergruppe, oder gar eine Schauspielschule für Kinder und Jugendliche vielleicht genau das Richtige für Euch! Hier findet Ihr eine Sammlung von Theatergruppen und Schauspielschulen in Deutschland. Klickt Euch durch und findet den passenden Ort, and welchem Ihr euch wohl fühlt und kreativ entfalten könnt! Diese Sammlung wird nach und nach erweitert."@de ;
@@ -40740,6 +40779,7 @@ Hier findest Du die Liste staatlicher und privater Schauspielschulen in Deutschl
 
 <59800b25-f88b-4159-a1f7-293bfe4fc2a6> a skos:Concept ;
     skos:broader <8deca2a0-5d05-49e6-b49f-75d1fdb1a1e2> ;
+    skos:definition "Digitale Medien begleiten uns im Alltag und auch beim Lernen und Lehren. In vieler Hinsicht erscheinen sie einerseits einfach zu handhaben und nicht mehr wegzudenkende Begleiter im Alltag und beim Lernen und Lehren zu sein. Andererseits ist es auch notwendig, die Wirkungsweise dieser Medien und deren Auswirkungen auf alle, die sie nutzen, zu verstehen."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <18714cde-a64c-4124-b292-fd111197c011>,
         <6b3253f4-4d61-4cec-9d04-02389a334229> ;
@@ -41822,25 +41862,6 @@ Die Erkenntnistheorie verfolgt zwei Ziele: Zum einen sollen die Natur, der Urspr
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/320> ;
     sdo:keywords "Abstrakte Sprache"@de,
         "Chomsky"@de .
-
-<36b9b5f6-7f4c-450b-905b-70e5cd9daff9> a skos:Concept ;
-    skos:broader <324f24e3-6687-4e89-b8dd-2bd0e20ff733> ;
-    skos:definition "Woher kommen wir, wer sind unsere Vorfahren? Wie lebten die ersten Menschen, wie bauten sie Werkzeuge und Waffen und wie jagt man am besten ein Mammut? Und was können wir von Ötzi lernen, der mehr als 5000 Jahre lang im Eis eingeschlossen war? Hier findest du tolle Materialien zur Steinzeit, Kupfer, Bronze- und Eisenzeit."@de ;
-    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
-    skos:narrower <60f5cf5d-3f4c-4c35-96fa-a7b06c15277e>,
-        <aa3afd66-f2ec-4077-a149-80b51dc611bf>,
-        <d685cfaf-d6b5-43d4-bf2e-18615f2f7351> ;
-    skos:prefLabel "Vor- und Frühgeschichte"@de ;
-    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
-    sdo:keywords "Definition Vor- und Frühgeschiche"@de,
-        "Vor-und Frügeschichte"@de,
-        "Vor-und Frühgeschichte Alltag"@de,
-        "Vor-und Frühgeschichte Leben"@de,
-        "Vor-und Frühgeschichte Schule"@de,
-        "Vor-und Frühgeschichte Unterricht"@de,
-        "Vor-und Frühgeschichte Zeitraum"@de,
-        "Vor-und Frühgeschichte Zeittafel"@de,
-        "Zeit Vor-und Frühgeschichte"@de .
 
 <3757117d-15a3-4a6f-bf8b-92bff1c4e345> a skos:Concept ;
     skos:broader <36256da1-fc4a-4f67-bfb0-e0b365697d07> ;
@@ -44824,6 +44845,7 @@ Es geht darum zu verstehen, woran man chemische Reaktionen erkennen kann und was
 
 <fc8f070d-de34-435f-8614-510a45d5f8e1> a skos:Concept ;
     skos:broader <992f0da8-20a3-4fdf-85f1-bfd828dad744> ;
+    skos:definition "„Espero que te guste el subjuntivo...” Der Subjuntivo gehört neben dem Indikativo und dem Imperativo zu den drei Modi im Spanischen. Wichtige Anwendungen sind Wünsche („Espero que vengas.“), Meinungen („Es importante que aprendas el subjuntivo.“), Unsicherheiten („No creo que compre el libro.“) und Bedingungen (“Si tuviera dinero, me compraría un móvil nuevo.”). Es gibt vier Zeitformen, in denen der Subjuntivo verwendet wird: Presente, Pretérito imperfecto, Pretérito perfecto und Pretérito pluscuamperfecto."@de ;
     skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
     skos:narrower <27bac4df-d416-48d6-8677-58db5c76961b>,
         <2b081fad-1039-4415-a46a-74b51b5a6a93>,
@@ -45185,6 +45207,27 @@ Du bist Lehrer:in, Refendar:in, Schüler:in, Student:in oder willst einfach nur 
     skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/080> ;
     sdo:keywords "Ökologie"@de,
         "Ökologische Systeme"@de .
+
+<36b9b5f6-7f4c-450b-905b-70e5cd9daff9> a skos:Concept ;
+    skos:broader <324f24e3-6687-4e89-b8dd-2bd0e20ff733> ;
+    skos:definition "Woher kommen wir, wer sind unsere Vorfahren? Wie lebten die ersten Menschen, wie bauten sie Werkzeuge und Waffen und wie jagt man am besten ein Mammut? Und was können wir von Ötzi lernen, der mehr als 5000 Jahre lang im Eis eingeschlossen war? Hier findest du tolle Materialien zur Steinzeit, Kupfer, Bronze- und Eisenzeit."@de ;
+    skos:inScheme <5e40e372-735c-4b17-bbf7-e827a5702b57> ;
+    skos:narrower <5b2659e5-3d8f-4b14-b7cb-8d8feb524018>,
+        <60f5cf5d-3f4c-4c35-96fa-a7b06c15277e>,
+        <7640a2ba-718a-475b-af77-2d2f8213e789>,
+        <aa3afd66-f2ec-4077-a149-80b51dc611bf>,
+        <d685cfaf-d6b5-43d4-bf2e-18615f2f7351> ;
+    skos:prefLabel "Vor- und Frühgeschichte"@de ;
+    skos:relatedMatch <http://w3id.org/openeduhub/vocabs/discipline/240> ;
+    sdo:keywords "Definition Vor- und Frühgeschiche"@de,
+        "Vor-und Frügeschichte"@de,
+        "Vor-und Frühgeschichte Alltag"@de,
+        "Vor-und Frühgeschichte Leben"@de,
+        "Vor-und Frühgeschichte Schule"@de,
+        "Vor-und Frühgeschichte Unterricht"@de,
+        "Vor-und Frühgeschichte Zeitraum"@de,
+        "Vor-und Frühgeschichte Zeittafel"@de,
+        "Zeit Vor-und Frühgeschichte"@de .
 
 <38c0c48e-f74f-45a5-9b11-e5d7dce526b3> a skos:Concept ;
     skos:broader <c0c475d2-8e1a-477f-a2a2-16f45f70f286> ;
@@ -50732,7 +50775,7 @@ Die zentralen Begriffe des Teilgebiets der Wahrscheinlichkeitsrechnung sind Lapl
 
 <5e40e372-735c-4b17-bbf7-e827a5702b57> a skos:ConceptScheme ;
     dct:creator "WirLernenOnline Fachportalmanger:innen"@de ;
-    dct:modified "2023-06-07" ;
+    dct:modified "2023-07-11" ;
     dct:title "Taxonomie von Lehrplanthemen in WirLernenOnline"@de ;
     skos:hasTopConcept <00b632ac-7e42-4b7e-b3d4-b3adfc4ce61d>,
         <11bdb8a0-a9f5-4028-becc-cbf8e328dd4b>,
