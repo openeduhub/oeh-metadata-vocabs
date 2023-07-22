@@ -1,0 +1,156 @@
+@base <http://w3id.org/openeduhub/vocabs/locationType/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Typ eines Ortes, einer Einrichtung oder Organisation"@de ;
+    dct:title "Type of place, institution or organisation"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-07-22"^^xsd:date ;
+    dct:created "2023-07-22"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe>, 
+        <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> .
+
+# Lernorte
+<bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> a skos:Concept ;
+    skos:prefLabel "Lernort"@de ;
+    skos:narrower <0d08a1e9-09d4-4024-9b5c-7e4028e28ce5>,
+        <1d0965c1-4a3e-4228-a600-bfa1d267e4d9>,
+        <729b6724-1dd6-476e-b871-44383ac11ef3>,
+        <D8622b3f-9d18-4560-b053-e00543c42aef>,
+        <424e1f91-c859-4c9a-be2a-e788fea01cb8>,
+        <88b2d697-4f1b-42de-b6b3-f5f331edb9bd>,
+        <D2eb8b66-7a56-4210-9f99-195fea13fe3b>,
+        <20249da5-09de-4f1e-90cb-34d07c58e377>,
+        <B017b5b7-5581-4dee-b728-af19e1e91f32>,
+        <4fa87089-5fec-4d78-b06b-aa7672a8f253>,
+        <F9330774-7954-405a-8e88-055422c25609> ;
+    skos:topConceptOf <> .
+
+<0d08a1e9-09d4-4024-9b5c-7e4028e28ce5> a skos:Concept ;
+    skos:prefLabel "Kindergarten/-betreuung"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<1d0965c1-4a3e-4228-a600-bfa1d267e4d9> a skos:Concept ;
+    skos:prefLabel "Schule"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<729b6724-1dd6-476e-b871-44383ac11ef3> a skos:Concept ;
+    skos:prefLabel "berufsbildende Schule"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<D8622b3f-9d18-4560-b053-e00543c42aef> a skos:Concept ;
+    skos:prefLabel "Akademien"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<424e1f91-c859-4c9a-be2a-e788fea01cb8> a skos:Concept ;
+    skos:prefLabel "Hochschule"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<88b2d697-4f1b-42de-b6b3-f5f331edb9bd> a skos:Concept ;
+    skos:prefLabel "Lernorte der Erwachsenen- und Weiterbildung"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<D2eb8b66-7a56-4210-9f99-195fea13fe3b> a skos:Concept ;
+    skos:prefLabel "berufsbildender Betrieb"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<20249da5-09de-4f1e-90cb-34d07c58e377> a skos:Concept ;
+    skos:prefLabel "außerschulischer Lernort"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<B017b5b7-5581-4dee-b728-af19e1e91f32> a skos:Concept ;
+    skos:prefLabel "außerbetrieblicher Lernort"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<4fa87089-5fec-4d78-b06b-aa7672a8f253> a skos:Concept ;
+    skos:prefLabel "staatlicher Bildungsanbieter"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+<F9330774-7954-405a-8e88-055422c25609> a skos:Concept ;
+    skos:prefLabel "nicht-staatlicher Bildungsanbieter"@de ;
+    skos:broader <Lernort> ;
+    skos:inScheme <> .
+
+# Einrichtungen & Organisationen
+<B9908ee6-9b97-4b88-bc6e-abb17b47b61f> a skos:Concept ;
+    skos:prefLabel "Einrichtungen & Organisationen"@de ;
+    skos:narrower <E7e2c01c-6076-496d-a21d-ca527b016016>,
+        <41551cc5-5c1c-4d5d-bab1-3dda6855fcbb>,
+        <F01fd913-6d3b-475b-bfc7-047096084e70>,
+        <75fa653f-c0a2-4a64-8b6f-cf7191c4d4d1>,
+        <2bfda110-206d-4833-af78-0abd7ff6fd79>,
+        <A73b06f3-97dd-4907-8302-95e03ddbf4fd>,
+        <42766711-bfe5-4e0e-b0ad-5d123f8e260c>,
+        <D63525d4-edc5-4f47-9dd5-8c2362820a85>,
+        <21db980b-a446-4611-bf49-90137ddd2d2d>,
+        <Cf9abf64-e84f-401b-8cbc-a9452cf7a006>,
+        <sonstige> ;
+    skos:topConceptOf <> .
+
+<E7e2c01c-6076-496d-a21d-ca527b016016> a skos:Concept ;
+    skos:prefLabel "Forschungseinrichtung"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<41551cc5-5c1c-4d5d-bab1-3dda6855fcbb> a skos:Concept ;
+    skos:prefLabel "Behörde"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<F01fd913-6d3b-475b-bfc7-047096084e70> a skos:Concept ;
+    skos:prefLabel "Beratungs-/Serviceeinrichtung"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<75fa653f-c0a2-4a64-8b6f-cf7191c4d4d1> a skos:Concept ;
+    skos:prefLabel "kommerzielles Unternehmen"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<2bfda110-206d-4833-af78-0abd7ff6fd79> a skos:Concept ;
+    skos:prefLabel "soziales Unternehmen oder NRO"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<A73b06f3-97dd-4907-8302-95e03ddbf4fd> a skos:Concept ;
+    skos:prefLabel "Stiftung, Förderung"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<42766711-bfe5-4e0e-b0ad-5d123f8e260c> a skos:Concept ;
+    skos:prefLabel "Community of Practice"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<D63525d4-edc5-4f47-9dd5-8c2362820a85> a skos:Concept ;
+    skos:prefLabel "Grass-Roots-Initiative"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<21db980b-a446-4611-bf49-90137ddd2d2d> a skos:Concept ;
+    skos:prefLabel "Verband, Verein, Interessenvertretung"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<Cf9abf64-e84f-401b-8cbc-a9452cf7a006> a skos:Concept ;
+    skos:prefLabel "Fachgesellschaft"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<8c88e321-28a8-46ad-a847-605ca61c7fc9> a skos:Concept ;
+    skos:prefLabel "sonstige"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
