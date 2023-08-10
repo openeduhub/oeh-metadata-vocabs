@@ -1254,6 +1254,12 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.dwu-unterrichtsmaterialien.de> .
 
+<57addf1b-cf6e-437b-a9f1-93c19c614a76> a skos:Concept ;
+    skos:notation "<science_in_school_spider>"^^xsd:string ;
+    skos:prefLabel "Science in School"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://www.scienceinschool.org> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1488,4 +1494,5 @@
         <5dfac971-25a1-4c05-b1cd-94b62f50dbad>,
         <10911b79-c770-46f3-a899-91ea2b562c86>,
         <31400357-3a24-4bfe-9ea8-281344a5ee90>,
-        <2c34f4cb-3bac-483a-b6a7-f25c0fdacc5e>.
+        <2c34f4cb-3bac-483a-b6a7-f25c0fdacc5e>,
+        <57addf1b-cf6e-437b-a9f1-93c19c614a76>.
