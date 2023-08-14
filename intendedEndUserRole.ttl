@@ -20,13 +20,13 @@
   skos:prefLabel "Autor/in"@de ;
   skos:prefLabel "author"@en ;
   skos:altLabel "Autorin"@de, "Autor"@de ;
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en;
   skos:topConceptOf <> .
 
 <counsellor> a skos:Concept ;
   skos:prefLabel "Berater/in"@de ;
   skos:prefLabel "counsellor"@en ;
   skos:altLabel "Ratgeber/in"@de ;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en ;
   skos:topConceptOf <> .
 
 <learner> a skos:Concept ;
