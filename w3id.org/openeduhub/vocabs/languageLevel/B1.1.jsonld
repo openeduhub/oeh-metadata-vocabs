@@ -26,7 +26,11 @@
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/languageLevel/"
+    "id": "http://w3id.org/openeduhub/vocabs/languageLevel/",
+    "title": {
+      "de": "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER",
+      "en": "Common European Framework of Reference for Languages, CEFR"
+    }
   },
   "@context": {
     "id": "@id",
