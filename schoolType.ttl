@@ -1,0 +1,110 @@
+@base <http://w3id.org/openeduhub/vocabs/languageLevel/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Schularten in Deutschland"@de;
+    dct:title "Types of school in Germany"@en;
+    dct:description "Eine Werteliste der Schularten, die es in Deutschland gibt."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-09-22"^^xsd:date;
+    dct:modified "2023-09-22"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <grundschule>, <hauptschule>, <realschule>, <gesamtschule>, <förderschule>, <oberschule>, <gymnasium>, <gemeinschaftsschule>, 
+    <sekundarschule>, <berufsfachschule>, <berufsschule>, <fachoberschule>, <beruflichesGymnasium>, <privatUndErsatzschule>,
+    <berufsakademieDualeHochschule>, <verwaltungsUndWirtschaftsakademie>, <fachakademie>, <universität>, <fachhochschule>,
+    <pädagogischeHochschule>, <musikhochschule>, <kunsthochschule>, <sporthochschule> .
+
+<grundschule> a skos:Concept ;
+    skos:prefLabel "Grundschule"@de ;
+    skos:topConceptOf <> .
+
+<hauptschule> a skos:Concept ;
+    skos:prefLabel "Hauptschule"@de ;
+    skos:topConceptOf <> .
+
+<realschule> a skos:Concept ;
+    skos:prefLabel "Realschule"@de ;
+    skos:topConceptOf <> .
+
+<gesamtschule> a skos:Concept ;
+    skos:prefLabel "Gesamtschule"@de ;
+    skos:topConceptOf <> .
+
+<förderschule> a skos:Concept ;
+    skos:prefLabel "Förderschule"@de ;
+    skos:topConceptOf <> .
+
+<oberschule> a skos:Concept ;
+    skos:prefLabel "Oberschule"@de ;
+    skos:topConceptOf <> .
+
+<gymnasium> a skos:Concept ;
+    skos:prefLabel "Gymnasium"@de ;
+    skos:topConceptOf <> .
+
+<gemeinschaftsschule> a skos:Concept ;
+    skos:prefLabel "Gemeinschaftsschule"@de ;
+    skos:topConceptOf <> .
+
+<sekundarschule> a skos:Concept ;
+    skos:prefLabel "Sekundarschule"@de ;
+    skos:topConceptOf <> .
+
+<berufsfachschule> a skos:Concept ;
+    skos:prefLabel "Berufsfachschule"@de ;
+    skos:topConceptOf <> .
+
+<berufsschule> a skos:Concept ;
+    skos:prefLabel "Berufsschule"@de ;
+    skos:topConceptOf <> .
+
+<fachoberschule> a skos:Concept ;
+    skos:prefLabel "Fachoberschule"@de ;
+    skos:topConceptOf <> .
+
+<beruflichesGymnasium> a skos:Concept ;
+    skos:prefLabel "Berufliches Gymnasium"@de ;
+    skos:topConceptOf <> .
+
+<privatUndErsatzschule> a skos:Concept ;
+    skos:prefLabel "Privat- und Ersatzschule"@de ;
+    skos:topConceptOf <> .
+
+<berufsakademieDualeHochschule> a skos:Concept ;
+    skos:prefLabel "Berufsakademie/Duale Hochschule"@de ;
+    skos:topConceptOf <> .
+
+<verwaltungsUndWirtschaftsakademie> a skos:Concept ;
+    skos:prefLabel "Verwaltungs- und Wirtschaftsakademie"@de ;
+    skos:topConceptOf <> .
+
+<fachakademie> a skos:Concept ;
+    skos:prefLabel "Fachakademie"@de ;
+    skos:altLabel "Fachschule"@de ;
+    skos:topConceptOf <> .
+
+<universität> a skos:Concept ;
+    skos:prefLabel "Universität"@de ;
+    skos:topConceptOf <> .
+
+<fachhochschule> a skos:Concept ;
+    skos:prefLabel "Fachhochschule"@de ;
+    skos:topConceptOf <> .
+
+<pädagogischeHochschule> a skos:Concept ;
+    skos:prefLabel "Pädagogische Hochschule"@de ;
+    skos:topConceptOf <> .
+
+<musikhochschule> a skos:Concept ;
+    skos:prefLabel "Musikhochschule"@de ;
+    skos:topConceptOf <> .
+
+<kunsthochschule> a skos:Concept ;
+    skos:prefLabel "Kunsthochschule"@de ;
+    skos:topConceptOf <> .
+
+<sporthochschule> a skos:Concept ;
+    skos:prefLabel "Sporthochschule"@de ;
+    skos:topConceptOf <> .
