@@ -1,0 +1,70 @@
+@base <http://w3id.org/openeduhub/vocabs/rolesOfPersons/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Rollen, die Personen im OER Kontext einnehmen können"@de;
+    dct:title "Roles that people can take in an OER context"@en;
+    dct:description "Eine Werteliste von Rollen, die Personen in der OER Worldmap einnehmen können."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-10-06"^^xsd:date;
+    dct:modified "2023-10-06"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <elearningexperte>, <lehrperson>, <instruktionsdesignerin>, <schülerstudent>, <beraterin>,
+        <bibliothekarin>, <oerbefürworterin>, <entwicklerin>, <wissenschaftlerin>, <politischeentscheidungsträgerin>, <sonstige> .
+
+<elearningexperte> a skos:Concept ;
+    skos:prefLabel "E-Learning-Experte"@de ;
+    skos:prefLabel "E-learning professional"@en ;
+    skos:topConceptOf <> .
+
+<lehrperson> a skos:Concept ;
+    skos:prefLabel "Lehrperson"@de ;
+    skos:prefLabel "Teacher"@en ;
+    skos:topConceptOf <> .
+
+<instruktionsdesignerin> a skos:Concept ;
+    skos:prefLabel "Instruktionsdesigner/in"@de ;
+    skos:prefLabel "Instructional designer"@en ;
+    skos:topConceptOf <> .
+
+<schülerstudent> a skos:Concept ;
+    skos:prefLabel "Schüler/in oder Student/in"@de ;
+    skos:prefLabel "Student"@en ;
+    skos:topConceptOf <> .
+
+<beraterin> a skos:Concept ;
+    skos:prefLabel "Berater/in"@de ;
+    skos:prefLabel "Consultant"@en ;
+    skos:topConceptOf <> .
+
+<bibliothekarin> a skos:Concept ;
+    skos:prefLabel "Bibliothekar/in"@de ;
+    skos:prefLabel "Librarian"@en ;
+    skos:topConceptOf <> .
+
+<oerbefürworterin> a skos:Concept ;
+    skos:prefLabel "OER-Befürworter/in"@de ;
+    skos:prefLabel "OER advocate"@en ;
+    skos:topConceptOf <> .
+
+<entwicklerin> a skos:Concept ;
+    skos:prefLabel "Entwickler/in"@de ;
+    skos:prefLabel "Developer"@en ;
+    skos:topConceptOf <> .
+
+<wissenschaftlerin> a skos:Concept ;
+    skos:prefLabel "Wissenschaftler/in"@de ;
+    skos:prefLabel "Scientist"@en ;
+    skos:topConceptOf <> .
+
+<politischeentscheidungsträgerin> a skos:Concept ;
+    skos:prefLabel "Politische/r Entscheidungsträger/in"@de ;
+    skos:prefLabel "Policy maker"@en ;
+    skos:topConceptOf <> .
+
+<sonstige> a skos:Concept ;
+    skos:prefLabel "Sonstige"@de ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <> .
