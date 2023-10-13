@@ -1,0 +1,118 @@
+@base <http://w3id.org/openeduhub/vocabs/activityFields/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Aktivitäten im Bildungsbereich"@de;
+    dct:title "Activities in the field of education"@en;
+    dct:description "Aktivitäten im Bildungsbereich, in denen Personen ihre Tätigkeitsschwerpunkte haben können."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-10-13"^^xsd:date;
+    dct:modified "2023-10-13"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <lehreLernen>, <communityDevelopment>, <entwicklungszusammenarbeit>, <technologieInfrastruktur>,
+        <policies>, <contentproduktion>, <partizipationBarrierefreiheit>, <wissensmanagement>,
+        <didaktischesDesign>, <openEducationalPractices>, <assessment>, <oeffentlichkeitsarbeitAdvocacy>,
+        <weiterbildungTraining>, <lizenzenCopyright>, <forschung>, <lebenslangesLernen>, <qualitaetssicherung>,
+        <publikation>, <management>, <businessModelEntwicklung> .
+
+<lehreLernen> a skos:Concept ;
+    skos:prefLabel "Lehre & Lernen"@de ;
+    skos:prefLabel "Teaching & Learning"@en ;
+    skos:topConceptOf <> .
+
+<communityDevelopment> a skos:Concept ;
+    skos:prefLabel "Community Development"@de ;
+    skos:prefLabel "Community Development"@en ;
+    skos:topConceptOf <> .
+
+<entwicklungszusammenarbeit> a skos:Concept ;
+    skos:prefLabel "Entwicklungszusammenarbeit"@de ;
+    skos:prefLabel "Development"@en ;
+    skos:topConceptOf <> .
+
+<technologieInfrastruktur> a skos:Concept ;
+    skos:prefLabel "Technologie & Infrastruktur"@de ;
+    skos:prefLabel "Technology & Infrastructure"@en ;
+    skos:topConceptOf <> .
+
+<policies> a skos:Concept ;
+    skos:prefLabel "Policies"@de ;
+    skos:prefLabel "Policies"@en ;
+    skos:topConceptOf <> .
+
+<contentproduktion> a skos:Concept ;
+    skos:prefLabel "Contentproduktion"@de ;
+    skos:prefLabel "Authoring"@en ;
+    skos:topConceptOf <> .
+
+<partizipationBarrierefreiheit> a skos:Concept ;
+    skos:prefLabel "Partizipation & Barrierefreiheit"@de ;
+    skos:prefLabel "Widening Participation & Accessibility"@en ;
+    skos:topConceptOf <> .
+
+<wissensmanagement> a skos:Concept ;
+    skos:prefLabel "Wissensmanagement"@de ;
+    skos:prefLabel "Knowledge Management"@en ;
+    skos:topConceptOf <> .
+
+<didaktischesDesign> a skos:Concept ;
+    skos:prefLabel "Didaktisches Design"@de ;
+    skos:prefLabel "Instructional Design"@en ;
+    skos:topConceptOf <> .
+
+<openEducationalPractices> a skos:Concept ;
+    skos:prefLabel "Open Educational Practices"@de ;
+    skos:prefLabel "Open Educational Practices"@en ;
+    skos:topConceptOf <> .
+
+<assessment> a skos:Concept ;
+    skos:prefLabel "Assessment"@de ;
+    skos:prefLabel "Assessment"@en ;
+    skos:topConceptOf <> .
+
+<oeffentlichkeitsarbeitAdvocacy> a skos:Concept ;
+    skos:prefLabel "Öffentlichkeitsarbeit, Sensibilisierung & Advocacy"@de ;
+    skos:prefLabel "Outreach, Awareness, & Advocacy"@en ;
+    skos:topConceptOf <> .
+
+<weiterbildungTraining> a skos:Concept ;
+    skos:prefLabel "Weiterbildung & Training"@de ;
+    skos:prefLabel "Professional Development & Training"@en ;
+    skos:topConceptOf <> .
+
+<lizenzenCopyright> a skos:Concept ;
+    skos:prefLabel "Lizenzen & Copyright"@de ;
+    skos:prefLabel "Licensing & Copyright"@en ;
+    skos:topConceptOf <> .
+
+<forschung> a skos:Concept ;
+    skos:prefLabel "Forschung"@de ;
+    skos:prefLabel "Research"@en ;
+    skos:topConceptOf <> .
+
+<lebenslangesLernen> a skos:Concept ;
+    skos:prefLabel "Lebenslanges Lernen"@de ;
+    skos:prefLabel "Lifelong Learning"@en ;
+    skos:topConceptOf <> .
+
+<qualitaetssicherung> a skos:Concept ;
+    skos:prefLabel "Qualitätssicherung"@de ;
+    skos:prefLabel "Quality Assurance"@en ;
+    skos:topConceptOf <> .
+
+<publikation> a skos:Concept ;
+    skos:prefLabel "Publikation"@de ;
+    skos:prefLabel "Publishing"@en ;
+    skos:topConceptOf <> .
+
+<management> a skos:Concept ;
+    skos:prefLabel "Management"@de ;
+    skos:prefLabel "Management"@en ;
+    skos:topConceptOf <> .
+
+<businessModelEntwicklung> a skos:Concept ;
+    skos:prefLabel "Business-Model-Entwicklung"@de ;
+    skos:prefLabel "Business Model Development"@en ;
+    skos:topConceptOf <> .
