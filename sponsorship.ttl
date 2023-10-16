@@ -1,0 +1,33 @@
+@base <http://w3id.org/openeduhub/vocabs/sponsorship/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Trägerschaften"@de;
+    dct:description "Arten von Trägerschaften, die es in Deutschland gibt"@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2023-10-16"^^xsd:date;
+    dct:modified "2023-10-16"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <oeffentlich>, <frei>, <privatgewerblich>, <gemeinnuetzig> .
+
+<oeffentlich> a skos:Concept ;
+    skos:prefLabel "Öffentlich"@de ;
+    skos:description "In öffentlicher Trägerschaft sind Einrichtungen, die von kommunalen Trägern unabhängig von ihrer Betriebsart unterhalten werden."@de ;
+    skos:topConceptOf <> .
+
+<frei> a skos:Concept ;
+    skos:prefLabel "Frei"@de ;
+    skos:description "Der Begriff „Freie Träger“ bezeichnet private, das heißt nicht-staatliche Organisationen (i.d.R. Vereine, Gesellschaften mit beschränkter Haftung oder Stiftungen bürgerlichen Rechts), die vorrangig in der Alten-, Gesundheits-, Jugend- oder Sozialhilfe tätig sind. Hierfür erhalten sie Zuschüsse der öffentlichen Hand"@de ;
+    skos:topConceptOf <> .
+
+<privatgewerblich> a skos:Concept ;
+    skos:prefLabel "Privatgewerblich"@de ;
+    skos:description "Privatgewerbliche Träger arbeiten kommerziell und gewinnorientiert."@de ;
+    skos:topConceptOf <> .
+
+<gemeinnuetzig> a skos:Concept ;
+    skos:prefLabel "Gemeinnützig"@de ;
+    skos:description "Gemeinnützige Träger verfolgen im Rahmen ihrer Tätigkeit einen gemeinnützigen Zweck und tragen somit auch eine besondere soziale Verantwortung."@de ;
+    skos:topConceptOf <> .
