@@ -327,7 +327,7 @@ Beispiele: Bild zum Ausmalen und Ergänzen."""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:image,
         agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
-    skos:prefLabel "Mal- und Bastelvorlagen"@de .
+    skos:prefLabel "Mal- und Bastelvorlage"@de .
 
 <3b8045af-8fc6-45b5-a352-db46893f7918> a skos:Concept ;
     skos:broader <a6d1ac52-c557-4151-bc6f-0d99b0b96fb9> ;
@@ -844,7 +844,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broadMatch lrt:text ;
     skos:exactMatch widgets:vocab_list ;
     skos:relatedMatch agg:9337a93e-777d-4d76-99a5-51f5e9935e63 ;
-    skos:prefLabel "Wort- und Vokabellisten"@de .
+    skos:prefLabel "Wort- und Vokabelliste"@de .
 
 <962560fe-d8d0-43e2-ad60-97f070b935c6> a skos:Concept ;
     skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
@@ -1198,7 +1198,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <cd625d33-5d7b-4a86-a54a-9a897ded729f> ;
     skos:inScheme <> ;
     skos:broadMatch agg:02bfd0fe-96ab-4dd6-a306-ec362ec25ea0 ;
-    skos:prefLabel "Fragebogen und Umfragen"@de .
+    skos:prefLabel "Fragebogen und Umfrage"@de .
 
 <d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -1496,7 +1496,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e1283c68-4a06-47ae-9965-0e664fd36abf> ;
     skos:broadMatch lrt:other ;
     skos:relatedMatch agg:9bbb50a2-10c5-4a8b-9e0e-6a5fc86c40fe ;
-    skos:prefLabel "Nachrichten und Neuigkeiten"@de .
+    skos:prefLabel "Nachricht und Neuigkeit"@de .
 
 <1d8386f6-7cd7-4651-b293-96a330c3ecfb> a skos:Concept ;
     skos:broader <cefccf75-cba3-427d-9a0f-35b4fedcbba1> ;
