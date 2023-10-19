@@ -34,10 +34,10 @@
 
 <04693b11-8b39-42aa-964f-578be063a851> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Zusammenstellung von Inhalten zu einem Thema oder einer Art, z.B. ein Youtube Channel"@de ;
+    skos:definition "Webseite mit einer Sammlung bzw. Zusammenstellung von diversen Materialien zu einem Thema/Fachgebiet oder mit Inhalten und Materialien eines spezifischen Formates (z.B. YouTube-Videos auf einem YouTube-Kanal, Podcast-Folgen eines Podcasts) ohne wesentliche inhaltliche Rahmung"@de ;
     skos:inScheme <> ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
-    skos:prefLabel "Kollektion, Sammlung und Channel"@de .
+    skos:prefLabel "Kollektion, Sammlung oder Kanal"@de .
 
 <07659554-35b3-4b6b-82cd-d6b2db3fbc56> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
@@ -47,7 +47,7 @@
 
 <0877626e-0cce-481a-b0ed-c64988ed5989> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Ein Audio, das einen bestimmten Sachverhalt erklärt."@de ;
+    skos:definition "Ein Audio, das einen bestimmten Sachverhalt erklärt"@de ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
     skos:inScheme <> ;
@@ -81,7 +81,7 @@
 
 <0f519bd5-069c-4d32-b6d3-a373ac96724c> a skos:Concept ;
     skos:broader <dc5763ab-6f47-4aa3-9ff3-1303efbeef6e> ;
-    skos:definition "Neuigkeiten aus Forschung und Politik zum Fach."@de ;
+    skos:definition "Neuigkeiten aus Forschung und Politik zum Fach"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:other,
         agg:9bbb50a2-10c5-4a8b-9e0e-6a5fc86c40fe ;
@@ -116,7 +116,7 @@
 
 <11cd7e41-1d65-4de9-9ab8-de9530cac19e> a skos:Concept ;
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
-    skos:definition "Ein interaktives Medium, das virtuelle Inhalte erfahrbar macht."@de ;
+    skos:definition "Ein interaktives Medium, das virtuelle Inhalte erfahrbar macht"@de ;
     skos:inScheme <> ;
     skos:broadMatch agg:05aa0f49-7e1b-498b-a7d5-c5fc8e73b2e2 ;
     skos:prefLabel "Virtual Reality"@de .
@@ -212,7 +212,7 @@
 
 <233d0527-7945-4acb-a174-5c23d24513a3> a skos:Concept ;
     skos:broader <7a6e9608-2554-4981-95dc-47ab9ba924de> ;
-    skos:definition "Eine Bildungssendung im Sinne einer Unterrichtseinheit."@de ;
+    skos:definition "Eine Bildungssendung im Sinne einer Unterrichtseinheit"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video,
         agg:38774279-af36-4ec2-8e70-811d5a51a6a1 ;
@@ -246,7 +246,7 @@
 
 <2e4157ad-e29a-4f10-b4e6-370e0fd59d26> a skos:Concept ;
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
-    skos:definition "Ein Medium, dass einen Sachverhalt interaktiv erfahrbar macht, bspw. indem Eingabewerte der Nutzenden in ihrer Wirkung auf ein System gezeigt werden."@de ;
+    skos:definition "Ein Medium, dass einen Sachverhalt interaktiv erfahrbar macht, bspw. indem Eingabewerte der Nutzenden in ihrer Wirkung auf ein System gezeigt werden"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:simulation ;
     skos:relatedMatch widgets:simulation ;
@@ -289,7 +289,7 @@ Beispiel: Animated Gif, das Softwarebediensequenzen zeigt."""@de ;
 
 <3616febb-8cf8-4503-8f80-ebc552d85506> a skos:Concept ;
     skos:broader <7a6e9608-2554-4981-95dc-47ab9ba924de> ;
-    skos:definition "Eine TV-Sendung, ein Video-Podcast oder ein anderer Sendebeitrag, die keine Schul-/Bildungssendung ist."@de ;
+    skos:definition "Eine TV-Sendung, ein Video-Podcast oder ein anderer Sendebeitrag, die keine Schul-/Bildungssendung ist"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video,
         agg:38774279-af36-4ec2-8e70-811d5a51a6a1 ;
@@ -457,7 +457,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <5098cf0b-1c12-4a1b-a6d3-b3f29621e11d> a skos:Concept ;
     skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
-    skos:definition "Ein Konzept für eine pädagogische Einheit undefinierter Größe / Länge."@de ;
+    skos:definition "Ein Konzept für eine pädagogische Einheit undefinierter Größe / Länge"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:teaching_module,
         widgets:teaching_modules ;
@@ -475,7 +475,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <518ae9d5-2420-4567-b32d-f75c27e2cf70> a skos:Concept ;
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
-    skos:definition "Ein interaktives Medium, das virtuelle Inhalte in die Realität einblendet."@de ;
+    skos:definition "Ein interaktives Medium, das virtuelle Inhalte in die Realität einblendet"@de ;
     skos:inScheme <> ;
     skos:exactMatch widgets:augmented_reality ;
         skos:relatedMatch agg:05aa0f49-7e1b-498b-a7d5-c5fc8e73b2e2 ;
@@ -491,7 +491,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <5204fc81-5dac-4cc4-a28b-aad5c241fa19> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
-    skos:definition "Seite mit News- u.a. Beiträgen Bildungszwecke die oft ergänzt werden."@de ;
+    skos:definition "Webblog, der mehrere Artikel (Blogbeiträge) bereitstellt"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:weblog ;
     skos:broadMatch lrt:text ;
@@ -545,7 +545,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <5bc29626-4b74-47d3-9428-f3baff9fc9ee> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Ein Internetportal das zu einem Thema informiert und Inhalte anbietet."@de ;
+    skos:definition "Eine Webseite, die zu einem Thema im Sachzusammenhang informiert und passende Inhalte (z.B. Arbeitsblätter, Erklärvideos, Grafiken, etc.) dafür bereitstellt"@de ;
     skos:inScheme <> ;
     skos:relatedMatch sct:007 ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
@@ -561,7 +561,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <5dc0b5de-4c75-43aa-8366-fb6d7e3a7553> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Ein Audio zum Lernen, Wiederholen oder Üben (z.B. Listen & Repeat)."@de ;
+    skos:definition "Ein Audio zum Lernen, Wiederholen oder Üben (z.B. Listen & Repeat)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
@@ -578,7 +578,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <62a09b63-320e-4f4d-9da6-8cab9cdef55b> a skos:Concept ;
     skos:broader <7a6e9608-2554-4981-95dc-47ab9ba924de> ;
-    skos:definition "Ein Video, das zum Üben und Lernen genutzt wird, aber keine Vortragsaufzeichnung oder TV-Sendung ist (z.B. Sprachlernvideo)."@de ;
+    skos:definition "Ein Video, das zum Üben und Lernen genutzt wird, aber keine Vortragsaufzeichnung oder TV-Sendung ist (z.B. Sprachlernvideo)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video,
         agg:38774279-af36-4ec2-8e70-811d5a51a6a1 ;
@@ -646,7 +646,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <6e821748-ad12-4ac1-bb14-9b54493e2c50> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Eine Radio- oder Podcast-Sendung, die ein oder mehrere Themen im journalistischen Stil aufarbeitet."@de ;
+    skos:definition "Eine Radio- oder Podcast-Sendung, die ein oder mehrere Themen im journalistischen Stil aufarbeitet"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:broadcast,
         widgets:podcast_radio ;
@@ -694,7 +694,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <78cc5a71-5ae2-4fa3-be5f-5cef40c23328> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Ein Audiomedium, das Klänge, Geräusche enthält, die nicht explizit ein Hörbeispiel im Sinne eines Lern-Audios sind."@de ;
+    skos:definition "Ein Audiomedium, das Klänge, Geräusche enthält, die nicht explizit ein Hörbeispiel im Sinne eines Lern-Audios sind"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ; ;
@@ -830,7 +830,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <94222751-6c90-4623-9c7e-09e21d885599> a skos:Concept ;
     skos:broader <7381f17f-50a6-4ce1-b3a0-9d85a482eec0> ;
-    skos:definition "Unterrichtsbausteine wie Good Practice-Beispiele, die konkrete Unterrichtssituationen im schulischen Fachunterricht beschreiben,"@de ;
+    skos:definition "Unterrichtsbausteine wie Good Practice-Beispiele, die konkrete Unterrichtssituationen im schulischen Fachunterricht beschreiben"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:lesson_plan ;
     skos:exactMatch widgets:teaching_idea ;
@@ -923,11 +923,11 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <9f40cd56-8def-46cc-a21b-63d9557dc93d> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Ein Nachschlagewerk für Inhalte, z.B. die Wikipedia"@de ;
+    skos:definition "Lexika oder Enzyklopädien, die Erklärungen zu Begriffen bereitstellen (z. B.: Wikipedia, Klexikon, …)"@de ;
     skos:inScheme <> ;
     skos:relatedMatch sct:006 ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
-    skos:prefLabel "Lexikon, Enzyklopädie und Wiki"@de .
+    skos:prefLabel "Lexikon oder Enzyklopädie"@de .
 
 <9f47559b-fb38-423e-9184-ea517446d027> a skos:Concept ;
     skos:broader <67f579a9-382c-497f-8b5b-06d95638aa0d> ;
@@ -1005,11 +1005,12 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <ab5b99ea-551c-42f3-995b-e4b5f469ad7e> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
+    skos:definition "Primärmaterial ist im historischen Sinne als 'Quelle' zu verstehen, also als schriftliches, visuelles oder auditives Artefakt, dass es zu analysieren gilt"@de
     skos:inScheme <> ;
     skos:exactMatch lrt:reference ;
     skos:broadMatch lrt:text ;
     skos:relatedMatch agg:1c610f61-9bf0-4d77-8536-b713a3733510 ;
-    skos:prefLabel "Primärmaterial und Quelle"@de .
+    skos:prefLabel "Primärmaterial"@de .
 
 <abfd1f4c-c649-4086-a985-5d5567d0980f> a skos:Concept ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
@@ -1020,7 +1021,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 
 <ac0ad1e8-d1a2-42f2-961e-5aa9b8157fa5> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Eine Quelle in der Daten(sätze) verwaltet / angeboten werden. Bsp. Forschungsdaten, OpenData"@de ;
+    skos:definition "Eine Quelle, in der Daten(sätze) verwaltet / angeboten werden, z.B.: Forschungsdaten, OpenData"@de ;
     skos:inScheme <> ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
     skos:prefLabel "Datenbank"@de .
@@ -1052,7 +1053,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
 <b0495f44-b05d-4bde-9dc5-34d7b5234d76> a skos:Concept ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:narrower <7005a7b7-7b67-4797-960e-894ded60283a> ;
-    skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird."@de ;
+    skos:definition "Ein Spiel oder spielerischer Zugang zu einem Lerngegenstand, der analog eingesetzt wird"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:educational_game ;
     skos:relatedMatch widgets:educational_games_offline,
@@ -1138,7 +1139,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <c4768d67-9d76-4606-bfd5-3c7b81c4acb7> a skos:Concept ;
     skos:broader <512d27e9-0bde-4af2-ba45-d36adffebd71> ;
-    skos:definition "Software in der Bildungsinhalte verwaltet werden, entweder als Referatorium wo nur Metadaten und Links zum Inhalt redaktionell gepflegt werden, oder als Repositorium wo zusätzlich die Dokumente selbst gespeichert sind."@de ;
+    skos:definition "Software in der Bildungsinhalte verwaltet werden, entweder als Referatorium wo nur Metadaten und Links zum Inhalt redaktionell gepflegt werden, oder als Repositorium wo zusätzlich die Dokumente selbst gespeichert sind"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool,
@@ -1172,7 +1173,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <ce6c29f7-7bfd-4b84-a676-ac51e8601969> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Quelle enthält eine Suchfunktion."@de ;
+    skos:definition "Quelle enthält eine Suchfunktion"@de ;
     skos:inScheme <> ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
     skos:prefLabel "Suchmaschine"@de .
@@ -1202,14 +1203,14 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
-    skos:definition "Webseite oder Portal, das relativ stabile Inhalte für Bildungszwecke anbietet (im Gegensatz zu Blog und Wiki, die oft aktualisiert werden)"@de ;
+    skos:definition "Webseite, die relativ stabile Inhalte für Bildungszwecke anbietet (im Gegensatz zu Blog und Wiki, die oft aktualisiert werden)"@de ;
     skos:inScheme <> ;
     skos:exactMatch lrt:web_page ;
     skos:closeMatch lrt:other_web_resource ;
     skos:broadMatch lrt:text ;
     skos:relatedMatch widgets:topic_website,
         agg:55761ec6-0cd4-4677-86ee-6f395934dae7 ;
-    skos:prefLabel "Webseite und Portal (stabil)"@de .
+    skos:prefLabel "Webseite"@de .
 
 <dd9e02fa-0501-4779-aeb2-6f50c4d0d502> a skos:Concept ;
     skos:broader <0a79a1d0-583b-47ce-86a7-517ab352d796> ;
@@ -1235,7 +1236,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <e0496c2f-0ce0-4c1d-8381-796ea4d7a98a> a skos:Concept ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
-    skos:definition "Quelle die Metadaten und Links auf Inhalte zu einem Thema anbietet, auch maschinenlesbar über Schnittstellen (HUB)."@de ;
+    skos:definition "Quelle die Metadaten und Links auf Inhalte zu einem Thema anbietet, auch maschinenlesbar über Schnittstellen (HUB)"@de ;
     skos:inScheme <> ;
     skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
     skos:prefLabel "Referatory"@de .
@@ -1291,7 +1292,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <e3ca3de5-faf2-4584-bc25-d5f9e784b2b4> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Eine Audioaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten wäre es ein Erklär-Audio)."@de ;
+    skos:definition "Eine Audioaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten wäre es ein Erklär-Audio)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
@@ -1336,7 +1337,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <ed4f4834-c098-4b05-b27d-a9d9fbd31307> a skos:Concept ;
     skos:broader <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
-    skos:definition "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren."@de ;
+    skos:definition "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
@@ -1427,7 +1428,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <facc2239-a827-462a-b2d2-bbab6cfb1178> a skos:Concept ;
     skos:broader <7a6e9608-2554-4981-95dc-47ab9ba924de> ;
-    skos:definition "Eine Videoaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten als Erklärvideo einzuordnen)."@de ;
+    skos:definition "Eine Videoaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten als Erklärvideo einzuordnen)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video,
         agg:38774279-af36-4ec2-8e70-811d5a51a6a1 ;
@@ -1667,7 +1668,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 
 <67f579a9-382c-497f-8b5b-06d95638aa0d> a skos:Concept ;
     skos:broader <1846d876-d8fd-476a-b540-b8ffd713fedb> ;
-    skos:definition "Textbausteine sollen in Dokumenten markier- und speicherbar sein, damit nachfolgende OER-Autor*innen sie wiederverwenden können."@de ;
+    skos:definition "Textbausteine sollen in Dokumenten markier- und speicherbar sein, damit nachfolgende OER-Autor*innen sie wiederverwenden können"@de ;
     skos:inScheme <> ;
     skos:narrower <5bba65b9-fe31-41b9-bb71-a7a2090c7b98>,
         <6a360309-969b-46ce-a7a2-566051587ce8>,
@@ -1818,7 +1819,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:topConceptOf <> .
 
 <3869b453-d3c1-4b34-8f25-9127e9d68766> a skos:Concept ;
-    skos:definition "Eine Sammlung mehrereer Inhalte, Tools u.a. Dinge"@de ;
+    skos:definition "Als Quelle wird eine Webseite bzw. Sammlung bezeichnet, die mehrere Inhalte bereitstellt, die selbst wiederum Materialien sind"@de ;
     skos:narrower <04693b11-8b39-42aa-964f-578be063a851>,
         <5176beb5-147b-446a-8baf-a2ae693431ec>,
         <5bc29626-4b74-47d3-9428-f3baff9fc9ee>,
