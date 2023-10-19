@@ -652,7 +652,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
         widgets:podcast_radio ;
     skos:broadMatch lrt:audio,
         agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
-    skos:prefLabel "Radio, Podcast und Interview"@de .
+    skos:prefLabel "Radio, Podcastfolge und Interview"@de .
 
 <6eb493be-e072-4afc-a5b4-aea34beeca70> a skos:Concept ;
     skos:broader <67f579a9-382c-497f-8b5b-06d95638aa0d> ;
@@ -1117,7 +1117,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:relatedMatch widgets:glossary,
         agg:cf8929a7-d521-4f17-bbe3-96748c862486 ;
     skos:closeMatch sct:006 ;
-    skos:prefLabel "Nachschlagewerk und Glossar"@de .
+    skos:prefLabel "Nachschlagewerk und Glossareintrag"@de .
 
 <c04f9445-180d-4402-ab27-61918a888a47> a skos:Concept ;
     skos:broader <f6f27241-86e0-44e8-a17b-5b563e61a4c8> ;
