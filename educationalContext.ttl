@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix isced97: <https://w3id.org/kim/isced-1997/> .
 @prefix isced2011: <https://w3id.org/kim/isced-2011/> .
-@prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
+@prefix eduLevel: <https://w3id.org/kim/educationalLevel/> .
 
 <> a skos:ConceptScheme;
     dct:title "Bildungsstufe"@de;
@@ -12,11 +12,12 @@
     dct:description "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Entstanden im Kontext des OpenEduHub."@de;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date;
-    dct:modified "2020-04-08"^^xsd:date;
+    dct:modified "2022-09-30"^^xsd:date;
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <elementarbereich>, <grundschule>, <sekundarstufe_1>,
         <sekundarstufe_2>, <hochschule>, <berufliche_bildung>, <fortbildung>,
+        <vorbereitungsdienst>,
         <erwachsenenbildung>, <foerderschule>, <fernunterricht> .
 
 <elementarbereich> a skos:Concept ;
@@ -88,6 +89,12 @@
 <erwachsenenbildung> a skos:Concept ;
     skos:prefLabel "Erwachsenenbildung"@de ;
     skos:prefLabel "continuing education"@en ;
+    skos:topConceptOf <> .
+
+<vorbereitungsdienst> a skos:Concept ;
+    skos:prefLabel "Preparatory service"@en, "Vorbereitungsdienst"@de ;
+    skos:definition "The preparatory service designates the second phase of teacher training in germany."@en, "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland."@de ;
+    skos:exactMatch eduLevel:level_B ;
     skos:topConceptOf <> .
 
 <foerderschule> a skos:Concept ;
