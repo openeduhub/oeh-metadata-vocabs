@@ -4,18 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F79589113-2330-4a46-9104-6da9edf227ae",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F79589113-2330-4a46-9104-6da9edf227ae",
   "prefLabel": {
-    "de": "Didatisches und Methodisches"
+    "de": "Didaktisches und Methodisches"
   },
   "definition": {
     "de": "Wie recherchierst du richtig und wie kannst du es dann am besten präsentieren? Wer heute Deutsch als Zweitsprache lernt, braucht nicht nur die verschiedensten Arbeitstechniken und (Sprach-)Lernstrategien, sondern muss auch wissen, wie man sicher, kreativ und verantwortungsvoll mit den unterschiedlichsten digitalen Medien umgeht und ergebnisorientiert damit arbeitet, je nach Zielsetzung oder Aufgabenstellung. Hier bekommst du neben konkreten Unterrichtsbeispielen zur Mediennutzung, vielen Impulsen und Ideen auch Werkzeuge vorgestellt, die dich beim Sprachen lernen und lehren unterstützen."
   },
+  "notation": [
+    "79589113-2330-4a46-9104-6da9edf227ae"
+  ],
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/213be55f-370c-4167-8039-02e0a996ced5",
-      "prefLabel": {
-        "de": "Für Lehrer*innen: Didaktisches und Methodisches"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7fca8c06-4b79-43f7-8004-9431fb8298ab",
       "prefLabel": {
@@ -23,9 +20,33 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/88c90894-4179-49bd-b08d-169ad2ef8be9",
+      "prefLabel": {
+        "de": "Schreiben üben"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b36f20b3-2c16-430b-82a3-d241f955f2c6",
       "prefLabel": {
-        "de": "Mediennutzung und Medienkompetenz"
+        "de": "Medien nutzen und Medienkompetenz erwerben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d8e78664-bda6-4ba2-a2b7-daa815efbf2e",
+      "prefLabel": {
+        "de": "Hören und Sehen üben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ec706e63-2358-467b-88bf-3b658664a1d5",
+      "prefLabel": {
+        "de": "Sprechen üben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f2e73c9b-f225-45b1-aa48-7020d8d7a3c7",
+      "prefLabel": {
+        "de": "Lesen üben"
       }
     }
   ],
