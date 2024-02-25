@@ -1,0 +1,49 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_interactivity_level/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Educational.InteractivityLevel"@en;
+    dct:title "LOM - Educational.InteractivityLevel"@de;
+    dct:description "Value range for the interactivity level of a learning resource according to the LOM standard."@en;
+    dct:description "Wertebereich für das Interaktivitätsniveau einer Lernressource gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <very_low>, <low>, <medium>, <high>, <very_high> .
+
+<very_low> a skos:Concept ;
+    skos:prefLabel "Very Low"@en ;
+    skos:prefLabel "Sehr gering"@de ;
+    skos:definition "Practically no interactivity."@en ;
+    skos:definition "Praktisch keine Interaktivität."@de ;
+    skos:topConceptOf <> .
+
+<low> a skos:Concept ;
+    skos:prefLabel "Low"@en ;
+    skos:prefLabel "Gering"@de ;
+    skos:definition "Limited interactivity."@en ;
+    skos:definition "Begrenzte Interaktivität."@de ;
+    skos:topConceptOf <> .
+
+<medium> a skos:Concept ;
+    skos:prefLabel "Medium"@en ;
+    skos:prefLabel "Mittel"@de ;
+    skos:definition "Some interactivity."@en ;
+    skos:definition "Einige Interaktivität."@de ;
+    skos:topConceptOf <> .
+
+<high> a skos:Concept ;
+    skos:prefLabel "High"@en ;
+    skos:prefLabel "Hoch"@de ;
+    skos:definition "Significant interactivity."@en ;
+    skos:definition "Signifikante Interaktivität."@de ;
+    skos:topConceptOf <> .
+
+<very_high> a skos:Concept ;
+    skos:prefLabel "Very High"@en ;
+    skos:prefLabel "Sehr hoch"@de ;
+    skos:definition "Very high level of interactivity."@en ;
+    skos:definition "Sehr hohes Niveau an Interaktivität."@de ;
+    skos:topConceptOf <> .

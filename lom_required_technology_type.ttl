@@ -1,0 +1,24 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_required_technology_type/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Technical.Reqirement.OrComposite.Type"@de;
+    dct:title "LOM - Technical.Reqirement.OrComposite.Type"@en;
+    dct:description "Value range for the technical capabilities necessary for using this learning object."@en;
+    dct:description "Wertebereich für die technischen Fähigkeiten, die zur Nutzung dieses Lernobjekts erforderlich sind, gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <operating_system>, <browser> .
+
+<operating_system> a skos:Concept ;
+    skos:prefLabel "Operating system"@en ;
+    skos:prefLabel "Betriebssystem"@de ;
+    skos:topConceptOf <> .
+
+<browser> a skos:Concept ;
+    skos:prefLabel "Browser"@en ;
+    skos:prefLabel "Browser"@de ;
+    skos:topConceptOf <> .

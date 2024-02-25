@@ -1,0 +1,126 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_learning_resource_type/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Educational.LearningResourceType"@en;
+    dct:title "LOM - Educational.LearningResourceType"@de;
+    dct:description "Value range for the type of a learning resource according to the LOM standard."@en;
+    dct:description "Wertebereich für den Typ einer Lernressource gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <exercise>, <simulation>, <questionnaire>, <diagram>, <figure>, <graph>, <index>, <slide>, <table>, <narrative_text>, <exam>, <experiment>, <problem_statement>, <self_assessment>, <lecture>, <reading> .
+
+<exercise> a skos:Concept ;
+    skos:prefLabel "Exercise"@en ;
+    skos:prefLabel "Übung"@de ;
+    skos:definition "An interactive learning activity designed to reinforce learning."@en ;
+    skos:definition "Eine interaktive Lernaktivität, die dazu dient, das Lernen zu verstärken."@de ;
+    skos:topConceptOf <> .
+
+<simulation> a skos:Concept ;
+    skos:prefLabel "Simulation"@en ;
+    skos:prefLabel "Simulation"@de ;
+    skos:definition "A representation of a real-world process or system."@en ;
+    skos:definition "Eine Darstellung eines realen Prozesses oder Systems."@de ;
+    skos:topConceptOf <> .
+
+<questionnaire> a skos:Concept ;
+    skos:prefLabel "Questionnaire"@en ;
+    skos:prefLabel "Fragebogen"@de ;
+    skos:definition "A set of questions used for gathering information or feedback."@en ;
+    skos:definition "Eine Reihe von Fragen zur Erfassung von Informationen oder Feedback."@de ;
+    skos:topConceptOf <> .
+
+<diagram> a skos:Concept ;
+    skos:prefLabel "Diagram"@en ;
+    skos:prefLabel "Diagramm"@de ;
+    skos:definition "A graphical representation of information or data."@en ;
+    skos:definition "Eine grafische Darstellung von Informationen oder Daten."@de ;
+    skos:topConceptOf <> .
+
+<figure> a skos:Concept ;
+    skos:prefLabel "Figure"@en ;
+    skos:prefLabel "Abbildung"@de ;
+    skos:definition "A visual illustration or representation."@en ;
+    skos:definition "Eine visuelle Darstellung oder Abbildung."@de ;
+    skos:topConceptOf <> .
+
+<graph> a skos:Concept ;
+    skos:prefLabel "Graph"@en ;
+    skos:prefLabel "Graph"@de ;
+    skos:definition "A visual representation of mathematical relationships or data."@en ;
+    skos:definition "Eine visuelle Darstellung mathematischer Beziehungen oder Daten."@de ;
+    skos:topConceptOf <> .
+
+<index> a skos:Concept ;
+    skos:prefLabel "Index"@en ;
+    skos:prefLabel "Index"@de ;
+    skos:definition "An alphabetical list of terms or topics with references to where they occur."@en ;
+    skos:definition "Eine alphabetische Liste von Begriffen oder Themen mit Verweisen auf ihre Vorkommen."@de ;
+    skos:topConceptOf <> .
+
+<slide> a skos:Concept ;
+    skos:prefLabel "Slide"@en ;
+    skos:prefLabel "Folie"@de ;
+    skos:definition "A single page or screen in a presentation."@en ;
+    skos:definition "Eine einzelne Seite oder Bildschirm in einer Präsentation."@de ;
+    skos:topConceptOf <> .
+
+<table> a skos:Concept ;
+    skos:prefLabel "Table"@en ;
+    skos:prefLabel "Tabelle"@de ;
+    skos:definition "A set of data organized in rows and columns."@en ;
+    skos:definition "Eine Menge von Daten, die in Zeilen und Spalten organisiert sind."@de ;
+    skos:topConceptOf <> .
+
+<narrative_text> a skos:Concept ;
+    skos:prefLabel "Narrative Text"@en ;
+    skos:prefLabel "Erzählender Text"@de ;
+    skos:definition "Text that tells a story or conveys information in a sequential manner."@en ;
+    skos:definition "Text, der eine Geschichte erzählt oder Informationen in sequentieller Weise vermittelt."@de ;
+    skos:topConceptOf <> .
+
+<exam> a skos:Concept ;
+    skos:prefLabel "Exam"@en ;
+    skos:prefLabel "Prüfung"@de ;
+    skos:definition "A formal test of knowledge or proficiency."@en ;
+    skos:definition "Ein formaler Test des Wissens oder der Fähigkeiten."@de ;
+    skos:topConceptOf <> .
+
+<experiment> a skos:Concept ;
+    skos:prefLabel "Experiment"@en ;
+    skos:prefLabel "Experiment"@de ;
+    skos:definition "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact."@en ;
+    skos:definition "Ein wissenschaftliches Verfahren, das durchgeführt wird, um eine Entdeckung zu machen, eine Hypothese zu testen oder einen bekannten Fakt zu demonstrieren."@de ;
+    skos:topConceptOf <> .
+
+<problem_statement> a skos:Concept ;
+    skos:prefLabel "Problem Statement"@en ;
+    skos:prefLabel "Problemstellung"@de ;
+    skos:definition "A statement that defines or describes a problem or issue."@en ;
+    skos:definition "Eine Aussage, die ein Problem oder eine Fragestellung definiert oder beschreibt."@de ;
+    skos:topConceptOf <> .
+
+<self_assessment> a skos:Concept ;
+    skos:prefLabel "Self Assessment"@en ;
+    skos:prefLabel "Selbstbewertung"@de ;
+    skos:definition "An assessment of one's own abilities or performance."@en ;
+    skos:definition "Eine Bewertung der eigenen Fähigkeiten oder Leistungen."@de ;
+    skos:topConceptOf <> .
+
+<lecture> a skos:Concept ;
+    skos:prefLabel "Lecture"@en ;
+    skos:prefLabel "Vorlesung"@de ;
+    skos:definition "An educational talk to an audience, typically given by a teacher or professor."@en ;
+    skos:definition "Ein Bildungsgespräch für ein Publikum, typischerweise gehalten von einem Lehrer oder Professor."@de ;
+    skos:topConceptOf <> .
+
+<reading> a skos:Concept ;
+    skos:prefLabel "Reading"@en ;
+    skos:prefLabel "Lesen"@de ;
+    skos:definition "Text material that is read, typically for educational or informational purposes."@en ;
+    skos:definition "Textmaterial, das typischerweise zu Bildungs- oder Informationszwecken gelesen wird."@de ;
+    skos:topConceptOf <> .

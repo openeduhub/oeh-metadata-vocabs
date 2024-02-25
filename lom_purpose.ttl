@@ -1,0 +1,66 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_purpose/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Classification.Purpose"@en;
+    dct:title "LOM - Classification.Purpose"@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <discipline>, <idea>, <prerequisite>, <educational_objective>, <accessibility_restrictions>, <educational_level>, <skill_level>, <security_level>, <competency> .
+
+<discipline> a skos:Concept ;
+    skos:prefLabel "Fach"@de, "Discipline"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Fachwissen zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey discipline knowledge."@en ;
+    skos:topConceptOf <> .
+
+<idea> a skos:Concept ;
+    skos:prefLabel "Unterrichtsidee"@de, "Idea"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Ideen und Konzepte zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey ideas and concepts."@en ;
+    skos:topConceptOf <> .
+
+<prerequisite> a skos:Concept ;
+    skos:prefLabel "Lern-Voraussetzung"@de, "Prerequisite"@en ;
+    skos:definition "Das Lernobjekt vermittelt Voraussetzungen für weitere Lernobjekte."@de ;
+    skos:definition "The learning object serves as a prerequisite for further learning objects."@en ;
+    skos:topConceptOf <> .
+
+<educational_objective> a skos:Concept ;
+    skos:prefLabel "Lernziel"@de, "Educational Objective"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, spezifische Lernziele zu erreichen."@de ;
+    skos:definition "The learning object aims to achieve specific educational objectives."@en ;
+    skos:topConceptOf <> .
+
+<accessibility_restrictions> a skos:Concept ;
+    skos:prefLabel "Barrierefreiheitseinschränkungen"@de, "Accessibility Restrictions"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, den Zugang zu Bildungsressourcen zu erleichtern."@de ;
+    skos:definition "The learning object aims to facilitate access to educational resources."@en ;
+    skos:topConceptOf <> .
+
+<educational_level> a skos:Concept ;
+    skos:prefLabel "Unterrichtsniveau"@de, "Educational Level"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Unterrichtsniveaus zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey educational levels."@en ;
+    skos:topConceptOf <> .
+
+<skill_level> a skos:Concept ;
+    skos:prefLabel "Fähigkeitsniveau"@de, "Skill Level"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Fähigkeitsniveaus zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey skill levels."@en ;
+    skos:topConceptOf <> .
+
+<security_level> a skos:Concept ;
+    skos:prefLabel "Sicherheitsniveau"@de, "Security Level"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Sicherheitsniveaus zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey security levels."@en ;
+    skos:topConceptOf <> .
+
+<competency> a skos:Concept ;
+    skos:prefLabel "Kompetenz"@de, "Competency"@en ;
+    skos:definition "Das Lernobjekt zielt darauf ab, Kompetenzen zu vermitteln."@de ;
+    skos:definition "The learning object aims to convey competencies."@en ;
+    skos:topConceptOf <> .

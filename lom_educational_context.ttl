@@ -1,0 +1,32 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_educational-context/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Educational.Context"@en;
+    dct:title "LOM - Educational.Context"@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <school>, <higher_education>, <training>, <other> .
+
+<school> a skos:Concept ;
+    skos:prefLabel "School"@en ;
+    skos:prefLabel "Schule"@de ;
+    skos:topConceptOf <> .
+
+<higher_education> a skos:Concept ;
+    skos:prefLabel "Higher Education"@en ;
+    skos:prefLabel "Höhere Bildung"@de ;
+    skos:topConceptOf <> .
+
+<training> a skos:Concept ;
+    skos:prefLabel "Training"@en ;
+    skos:prefLabel "Ausbildung"@de ;
+    skos:topConceptOf <> .
+
+<other> a skos:Concept ;
+    skos:prefLabel "Other"@en ;
+    skos:prefLabel "Andere"@de ;
+    skos:topConceptOf <> .

@@ -1,0 +1,29 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_interactivity_type/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "LOM - Educational.InteractivityType"@de;
+    dct:title "LOM - Educational.InteractivityType"@en;
+    dct:description "Definition of a learning object according to the interactivity type."@en;
+    dct:description "Definition eines Lernobjekts nach dem Interaktivitätstyp, gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <active>, <expositive>, <mixed> .
+
+<active> a skos:Concept ;
+    skos:prefLabel "aktiv"@de ;
+    skos:prefLabel "active"@en ;
+    skos:topConceptOf <> .
+
+<expositive> a skos:Concept ;
+    skos:prefLabel "darstellend"@de ;
+    skos:prefLabel "expositive"@en ;
+    skos:topConceptOf <> .
+
+<mixed> a skos:Concept ;
+    skos:prefLabel "gemischt"@de ;
+    skos:prefLabel "mixed"@en ;
+    skos:topConceptOf <> .

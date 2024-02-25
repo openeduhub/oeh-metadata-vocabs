@@ -1,0 +1,117 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_role/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Lifecycle.Contribute.Role"@de;
+    dct:title "LOM - Lifecycle.Contribute.Role"@en;
+    dct:description "Value range for the role of a person or organization in the context of a learning resource according to the LOM standard."@en;
+    dct:description "Wertebereich für die Rolle einer Person oder Organisation im Kontext einer Lernressource gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <author>, <publisher>, <initiator>, <terminator>, <validator>, <editor>, <graphic_designer>, <technical_implementer>, <content_provider>, <technical_validator>, <educational_validator>, <script_writer>, <instructional_designer>, <subject_matter_expert>, <unknown> .
+
+<author> a skos:Concept ;
+    skos:prefLabel "Author"@en ;
+    skos:prefLabel "Autor"@de ;
+    skos:definition "The person or organization responsible for creating the content of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Erstellung des Inhalts der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<publisher> a skos:Concept ;
+    skos:prefLabel "Publisher"@en ;
+    skos:prefLabel "Herausgeber"@de ;
+    skos:definition "The person or organization responsible for making the learning resource available."@en ;
+    skos:definition "Die Person oder Organisation, die dafür verantwortlich ist, die Lernressource verfügbar zu machen."@de ;
+    skos:topConceptOf <> .
+
+<initiator> a skos:Concept ;
+    skos:prefLabel "Initiator"@en ;
+    skos:prefLabel "Initiator"@de ;
+    skos:definition "The person or organization responsible for initiating the creation of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Initiierung der Erstellung der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<terminator> a skos:Concept ;
+    skos:prefLabel "Terminator"@en ;
+    skos:prefLabel "Beendung der Verfügbarkeit"@de ;
+    skos:definition "The person or organization responsible for terminating the availability of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Beendigung der Verfügbarkeit der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<validator> a skos:Concept ;
+    skos:prefLabel "Validator"@en ;
+    skos:prefLabel "Abnahme"@de ;
+    skos:definition "The person or organization responsible for validating the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Validierung der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<editor> a skos:Concept ;
+    skos:prefLabel "Editor"@en ;
+    skos:prefLabel "Redaktion"@de ;
+    skos:definition "The person or organization responsible for editing the content of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Bearbeitung des Inhalts der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<graphic_designer> a skos:Concept ;
+    skos:prefLabel "Graphic Designer"@en ;
+    skos:prefLabel "Grafisches Design"@de ;
+    skos:definition "The person or organization responsible for designing the graphics of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für das Design der Grafiken der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<technical_implementer> a skos:Concept ;
+    skos:prefLabel "Technical Implementer"@en ;
+    skos:prefLabel "Programmierung"@de ;
+    skos:definition "The person or organization responsible for implementing the technical aspects of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Implementierung der technischen Aspekte der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<content_provider> a skos:Concept ;
+    skos:prefLabel "Content Provider"@en ;
+    skos:prefLabel "Materialbereitstellung"@de ;
+    skos:definition "The person or organization responsible for providing the content of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Bereitstellung des Inhalts der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<technical_validator> a skos:Concept ;
+    skos:prefLabel "Technical Validator"@en ;
+    skos:prefLabel "Technische Prüfung"@de ;
+    skos:definition "The person or organization responsible for validating the technical aspects of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Validierung der technischen Aspekte der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<educational_validator> a skos:Concept ;
+    skos:prefLabel "Educational Validator"@en ;
+    skos:prefLabel "pädagogische Prüfung"@de ;
+    skos:definition "The person or organization responsible for validating the educational aspects of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für die Validierung der pädagogischen Aspekte der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<script_writer> a skos:Concept ;
+    skos:prefLabel "Script Writer"@en ;
+    skos:prefLabel "Skript/Drehbuch"@de ;
+    skos:definition "The person or organization responsible for writing the script or scenario of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für das Verfassen des Drehbuchs oder Szenarios der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<instructional_designer> a skos:Concept ;
+    skos:prefLabel "Instructional Designer"@en ;
+    skos:prefLabel "Pädagogisches Konzept"@de ;
+    skos:definition "The person or organization responsible for designing the instructional aspects of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die für das Design der instruktionalen Aspekte der Lernressource verantwortlich ist."@de ;
+    skos:topConceptOf <> .
+
+<subject_matter_expert> a skos:Concept ;
+    skos:prefLabel "Subject Matter Expert"@en ;
+    skos:prefLabel "Fachberatung"@de ;
+    skos:definition "The person or organization considered an expert in the subject matter of the learning resource."@en ;
+    skos:definition "Die Person oder Organisation, die als Experte für das Thema der Lernressource gilt."@de ;
+    skos:topConceptOf <> .
+
+<unknown> a skos:Concept ;
+    skos:prefLabel "Unknown"@en ;
+    skos:prefLabel "Unbekannt"@de ;
+    skos:topConceptOf <> .

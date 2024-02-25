@@ -1,0 +1,24 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_cost/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "LOM - Rights.Cost"@en;
+    dct:title "LOM - Rights.Cost"@de;
+    dct:description "Whether use of this learning object requires payment."@en ;
+    dct:description "Ist die Nutzung dieses Lernobjekts kostenpflichtig."@de ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <yes>, <no> .
+
+<yes> a skos:Concept ;
+    skos:prefLabel "yes"@en ;
+    skos:prefLabel "ja"@de ;
+    skos:topConceptOf <> .
+
+<no> a skos:Concept ;
+    skos:prefLabel "no"@en ;
+    skos:prefLabel "nein"@de ;
+    skos:topConceptOf <> .
