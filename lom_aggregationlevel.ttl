@@ -1,0 +1,42 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_aggregationlevel/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM -  General.AggregationLevel"@de;
+    dct:title "LOM -  General.AggregationLevel"@en;
+    dct:description "Wertebereich für das Aggregationsniveau einer Lernressource gemäß dem LOM-Standard."@de;
+    dct:description "Value range for the aggregation level of a learning resource according to the LOM standard."@en;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <level_1>, <level_2>, <level_3>, <level_4> .
+
+<level_1> a skos:Concept ;
+    skos:prefLabel "level 1"@en ;
+    skos:prefLabel "Level 1"@de ;
+    skos:definition "The smallest aggregation level of a learning resource, e.g. raw media data or fragments."@en ;
+    skos:definition "Das kleinste Aggregationsniveau einer Lernressource, z.B. Medienrohdaten oder Fragmente."@de ;
+    skos:topConceptOf <> .
+
+<level_2> a skos:Concept ;
+    skos:prefLabel "level 2"@en ;
+    skos:prefLabel "Level 2"@de ;
+    skos:definition "A collection of level 1 learning objects, e.g. a lesson."@en ;
+    skos:definition "Eine Sammlung von Lernobjekten der Ebene 1, z.B. eine Lektion."@de ;
+    skos:topConceptOf <> .
+
+<level_3> a skos:Concept ;
+    skos:prefLabel "level 3"@en ;
+    skos:prefLabel "Level 3"@de ;
+    skos:definition "A collection of level 2 learning objects, e.g. a course."@en ;
+    skos:definition "Eine Sammlung von Lernobjekten der Ebene 2, z.B. ein Kurs."@de ;
+    skos:topConceptOf <> .
+
+<level_4> a skos:Concept ;
+    skos:prefLabel "level 4"@en ;
+    skos:prefLabel "Level 4"@de ;
+    skos:definition "the largest level of granularity, e.g. a set of courses that lead to a certificate."@en ;
+    skos:definition "Die höchste Granularitätsebene, z. B. eine Reihe von Kursen, die zu einem Zertifikat führen."@de ;
+    skos:topConceptOf <> .

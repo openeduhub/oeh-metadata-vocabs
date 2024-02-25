@@ -1,0 +1,76 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_relation_kind/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Relation.Kind"@en;
+    dct:title "LOM - Relation.Kind"@de;
+    dct:description "Nature of the relationship between this learning object and a target learning object."@en ;
+    dct:description "Art der Beziehung zwischen diesem Lernobjekt und einem Ziel-Lernobjekt."@de ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <isVersionOf>, <hasVersion>, <isPartOf>, <hasPart>, <isBasedOn>, <isBasisFor>, <requires>, <isRequiredBy>, <references>, <isReferencedBy>, <isFormatOf>, <hasFormat> .
+
+<isVersionOf> a skos:Concept ;
+    skos:prefLabel "is version of"@en, "Ist Version von"@de ;
+    skos:definition "This resource is a version of another resource."@en ;
+    skos:definition "Diese Ressource ist eine Version einer anderen Ressource."@de ;
+    skos:topConceptOf <> .
+
+<hasVersion> a skos:Concept ;
+    skos:prefLabel "has version"@en, "Besitzt Version"@de ;
+    skos:topConceptOf <> .
+
+<isPartOf> a skos:Concept ;
+    skos:prefLabel "is part of"@en, "Ist Teil von"@de ;
+    skos:definition "This resource is part of another resource."@en ;
+    skos:definition "Diese Ressource ist ein Teil einer anderen Ressource."@de ;
+    skos:topConceptOf <> .
+
+<hasPart> a skos:Concept ;
+    skos:prefLabel "has part"@en, "Besitzt Teil"@de ;
+    skos:topConceptOf <> .
+
+<isBasedOn> a skos:Concept ;
+    skos:prefLabel "is based on"@en, "Basiert auf"@de ;
+    skos:definition "This resource is based on another resource."@en ;
+    skos:definition "Diese Ressource basiert auf einer anderen Ressource."@de ;
+    skos:topConceptOf <> .
+
+<isBasisFor> a skos:Concept ;
+    skos:prefLabel "is basis for"@en, "Ist Basis von"@de ;
+    skos:topConceptOf <> .
+
+<requires> a skos:Concept ;
+    skos:prefLabel "requires"@en, "Erfordert"@de ;
+    skos:definition "This resource requires another resource."@en ;
+    skos:definition "Diese Ressource erfordert eine andere Ressource."@de ;
+    skos:topConceptOf <> .
+
+<isRequiredBy> a skos:Concept ;
+    skos:prefLabel "is required by"@en, "Wird benötigt von"@de ;
+    skos:topConceptOf <> .
+
+<references> a skos:Concept ;
+    skos:prefLabel "references"@en, "Referenziert"@de ;
+    skos:definition "This resource references another resource."@en ;
+    skos:definition "Diese Ressource referenziert eine andere Ressource."@de ;
+    skos:topConceptOf <> .
+
+<isReferencedBy> a skos:Concept ;
+    skos:prefLabel "is referenced by"@en, "Ist bezogen auf"@de ;
+    skos:topConceptOf <> .
+
+<isFormatOf> a skos:Concept ;
+    skos:prefLabel "is format of"@en, "Ist Format von"@de ;
+    skos:definition "This resource is a format of another resource."@en ;
+    skos:definition "Diese Ressource ist ein Format einer anderen Ressource."@de ;
+    skos:topConceptOf <> .
+
+<hasFormat> a skos:Concept ;
+    skos:prefLabel "has format"@en, "Hat Format"@de ;
+    skos:definition "This resource has a specific format."@en ;
+    skos:definition "Diese Ressource hat ein bestimmtes Format."@de ;
+    skos:topConceptOf <> .

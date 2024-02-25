@@ -1,0 +1,34 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_role_meta/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Metametadata.Contribute.Role"@de;
+    dct:title "LOM - Metametadata.Contribute.Role"@en;
+    dct:description "Value range for the role of a contributor in the context of a learning resource according to the LOM standard."@en;
+    dct:description "Wertebereich für die Rolle eines Beitragenden im Kontext einer Lernressource gemäß dem LOM-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <creator>, <enricher>, <provider>, <validator> .
+
+<creator> a skos:Concept ;
+    skos:prefLabel "Creator"@en ;
+    skos:prefLabel "Erstellung"@de ;
+    skos:topConceptOf <> .
+
+<enricher> a skos:Concept ;
+    skos:prefLabel "Enricher"@en ;
+    skos:prefLabel "Bearbeitung"@de ;
+    skos:topConceptOf <> .
+
+<provider> a skos:Concept ;
+    skos:prefLabel "Provider"@en ;
+    skos:prefLabel "Bereitstellung"@de ;
+    skos:topConceptOf <> .
+
+<validator> a skos:Concept ;
+    skos:prefLabel "Validator"@en ;
+    skos:prefLabel "Abnahme"@de ;
+    skos:topConceptOf <> .

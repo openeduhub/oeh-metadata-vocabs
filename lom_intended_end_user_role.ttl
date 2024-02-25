@@ -1,0 +1,49 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_intended_end_user_role/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Educational.IntendedEndUserRole"@en;
+    dct:title "LOM - Educational.IntendedEndUserRole"@de;
+    dct:description "Value range for the intended end user role of a learning resource according to the LOM 1.0 standard."@en;
+    dct:description "Wertebereich für die beabsichtigte Endbenutzerrolle einer Lernressource gemäß dem LOM 1.0-Standard."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <teacher>, <author>, <learner>, <manager>, <parent>, <counsellor>, <other> .
+
+<teacher> a skos:Concept ;
+    skos:prefLabel "Teacher"@en ;
+    skos:prefLabel "Lehrer*in"@de ;
+    skos:topConceptOf <> .
+
+<author> a skos:Concept ;
+    skos:prefLabel "Author"@en ;
+    skos:prefLabel "Autor*in"@de ;
+    skos:topConceptOf <> .
+
+<learner> a skos:Concept ;
+    skos:prefLabel "Learner"@en ;
+    skos:prefLabel "Lerner*in"@de ;
+    skos:topConceptOf <> .
+
+<manager> a skos:Concept ;
+    skos:prefLabel "Manager"@en ;
+    skos:prefLabel "Manager*in"@de ;
+    skos:topConceptOf <> .
+
+<parent> a skos:Concept ;
+    skos:prefLabel "Parent"@en ;
+    skos:prefLabel "Elternteil"@de ;
+    skos:topConceptOf <> .
+
+<counsellor> a skos:Concept ;
+    skos:prefLabel "Counsellor"@en ;
+    skos:prefLabel "Berater*in"@de ;
+    skos:topConceptOf <> .
+
+<other> a skos:Concept ;
+    skos:prefLabel "Other"@en ;
+    skos:prefLabel "Andere"@de ;
+    skos:topConceptOf <> .

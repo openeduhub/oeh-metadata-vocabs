@@ -1,0 +1,39 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_semantic_density/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - Educational.SemanticDensity"@en;
+    dct:title "LOM - Educational.SemanticDensity"@de;
+    dct:description "The degree of conciseness of a learning object. The semantic density of a learning object may be estimated depending on the relation between the amount of information provided and the size, span or duration of the learning object."@en;
+    dct:description "Der Grad der Prägnanz eines Lernobjekts. Die semantische Dichte eines Lernobjekts kann anhand des Verhältnisses zwischen der Menge der bereitgestellten Informationen und der Größe, dem Umfang oder der Dauer des Lernobjekts geschätzt werden."@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <very_low>, <low>, <medium>, <high>, <very_high> .
+
+<very_low> a skos:Concept ;
+    skos:prefLabel "Very Low"@en ;
+    skos:prefLabel "Sehr gering"@de ;
+    skos:topConceptOf <> .
+
+<low> a skos:Concept ;
+    skos:prefLabel "Low"@en ;
+    skos:prefLabel "Gering"@de ;
+    skos:topConceptOf <> .
+
+<medium> a skos:Concept ;
+    skos:prefLabel "Medium"@en ;
+    skos:prefLabel "Mittel"@de ;
+    skos:topConceptOf <> .
+
+<high> a skos:Concept ;
+    skos:prefLabel "High"@en ;
+    skos:prefLabel "Hoch"@de ;
+    skos:topConceptOf <> .
+
+<very_high> a skos:Concept ;
+    skos:prefLabel "Very High"@en ;
+    skos:prefLabel "Sehr hoch"@de ;
+    skos:topConceptOf <> .

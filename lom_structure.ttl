@@ -1,0 +1,50 @@
+@base <http://w3id.org/openeduhub/vocabs/lom_structure/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "LOM - General.Structure"@de;
+    dct:title "LOM - General.Structure"@en;
+    dct:description "Wertebereich für die grundlegende Organisationsstruktur eines Lernobjekts."@de;
+    dct:description "Value range for the basic organizational structure of a learning object."@en;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-02-23"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <atomic>, <collection>, <networked>, <hierarchical>, <linear> .
+
+
+<atomic> a skos:Concept ;
+    skos:prefLabel "atomic"@en ;
+    skos:prefLabel "Einzelobjekt"@de ;
+    skos:definition "The learning resource is not divided into smaller units."@en ;
+    skos:definition "Die Lernressource ist nicht in kleinere Einheiten unterteilt."@de ;
+    skos:topConceptOf <> .
+
+<collection> a skos:Concept ;
+    skos:prefLabel "collection"@en ;
+    skos:prefLabel "Sammlung"@de ;
+    skos:definition "The learning resource is a collection of multiple individual resources."@en ;
+    skos:definition "Die Lernressource ist eine Sammlung von mehreren einzelnen Ressourcen."@de ;
+    skos:topConceptOf <> .
+
+<networked> a skos:Concept ;
+    skos:prefLabel "networked"@en ;
+    skos:prefLabel "Vernetzt"@de ;
+    skos:definition "The learning resource is a network of resources accessible via the Internet or an intranet."@en ;
+    skos:definition "Die Lernressource ist ein Netzwerk von Lernressourcen, das über das Internet oder ein Intranet zugänglich ist."@de ;
+    skos:topConceptOf <> .
+
+<hierarchical> a skos:Concept ;
+    skos:prefLabel "hierarchical"@en ;
+    skos:prefLabel "Hierarchisch"@de ;
+    skos:definition "The learning resource is hierarchically structured, with individual parts or sections building upon one another."@en ;
+    skos:definition "Die Lernressource ist hierarchisch strukturiert, wobei einzelne Teile oder Abschnitte aufeinander aufbauen."@de ;
+    skos:topConceptOf <> .
+
+<linear> a skos:Concept ;
+    skos:prefLabel "linear"@en ;
+    skos:prefLabel "Linear"@de ;
+    skos:definition "The learning resource has a linear structure, progressing sequentially from start to finish."@en ;
+    skos:definition "Die Lernressource hat eine lineare Struktur, die sich sequenziell vom Anfang bis zum Ende entwickelt."@de ;
+    skos:topConceptOf <> .
