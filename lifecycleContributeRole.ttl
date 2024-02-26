@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_role/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Rolle einer Autor*in"@de ;
@@ -20,74 +21,89 @@
 <author> a skos:Concept ;
     skos:prefLabel "author"@en ;
     skos:prefLabel "Autor"@de ;
+    skos:exactMatch lom:author ;
     skos:topConceptOf <> .
 
 <publisher> a skos:Concept ;
     skos:prefLabel "publisher"@en ;
     skos:prefLabel "Herausgeber"@de ;
+    skos:exactMatch lom:publisher ;
     skos:topConceptOf <> .
 
 <unknown> a skos:Concept ;
     skos:prefLabel "unknown"@en ;
-    skos:prefLabel "Herausgeber"@de ;
+    skos:prefLabel "Unbekannt"@de ;
+    skos:exactMatch lom:unknown ;
     skos:topConceptOf <> .
 
 <initiator> a skos:Concept ;
     skos:prefLabel "initiator"@en ;
     skos:prefLabel "Initiator"@de ;
+    skos:exactMatch lom:initiator ;
     skos:topConceptOf <> .
 
 <terminator> a skos:Concept ;
     skos:prefLabel "terminator"@en ;
     skos:prefLabel "Beendung der Verfügbarkeit"@de ;
+    skos:exactMatch lom:terminator ;
     skos:topConceptOf <> .
 
 <validator> a skos:Concept ;
     skos:prefLabel "validator"@en ;
     skos:prefLabel "Abnahme"@de ;
+    skos:exactMatch lom:validator ;
     skos:topConceptOf <> .
 
 <editor> a skos:Concept ;
     skos:prefLabel "editor"@en ;
     skos:prefLabel "Redaktion"@de ;
+    skos:exactMatch lom:editor ;
     skos:topConceptOf <> .
 
 <graphical_designer> a skos:Concept ;
     skos:prefLabel "graphical designer"@en ;
     skos:prefLabel "grafisches Design"@de ;
+    skos:exactMatch lom:graphic_designer ;
     skos:topConceptOf <> .
 
 <technical_implementer> a skos:Concept ;
     skos:prefLabel "technical implementer"@en ;
     skos:prefLabel "Programmierung"@de ;
+    skos:exactMatch lom:technical_implementer ;
     skos:topConceptOf <> .
 
 <content_provider> a skos:Concept ;
     skos:prefLabel "content provider"@en ;
     skos:prefLabel "Materialbereitstellung"@de ;
+    skos:exactMatch lom:content_provider ;
     skos:topConceptOf <> .
 
 <technical_validator> a skos:Concept ;
     skos:prefLabel "technical validator"@en ;
     skos:prefLabel "technische Prüfung"@de ;
+    skos:exactMatch lom:technical_validator ;
     skos:topConceptOf <> .
 
 <educational_validator> a skos:Concept ;
     skos:prefLabel "educational validator"@en ;
     skos:prefLabel "pädagogische Prüfung"@de ;
+    skos:exactMatch lom:educational_validator ;
     skos:topConceptOf <> .
 
 <script_writer> a skos:Concept ;
     skos:prefLabel "script writer"@en ;
     skos:prefLabel "Skript/Drehbuch"@de ;
+    skos:exactMatch lom:script_writer ;
     skos:topConceptOf <> .
 
 <instructional_designer> a skos:Concept ;
     skos:prefLabel "instructional designer"@en ;
     skos:prefLabel "pädagogisches Konzept"@de ;
+    skos:exactMatch lom:instructional_designer ;
     skos:topConceptOf <> .
 
 <subject_matter_expert> a skos:Concept ;
     skos:prefLabel "subject matter expert"@en ;
     skos:prefLabel "Fachberatung"@de ;
+    skos:exactMatch lom:subject_matter_expert ;
     skos:topConceptOf <> .

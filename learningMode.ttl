@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_interactivity_type/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Lernmodus"@de ;
@@ -14,14 +15,17 @@
 <selfPaced> a skos:Concept ;
     skos:prefLabel "selbstbestimmt"@de ;
     skos:prefLabel "self paced"@en ;
+    skos:exactMatch lom:active ;
     skos:topConceptOf <> .
 
 <guided> a skos:Concept ;
     skos:prefLabel "betreut"@de ;
     skos:prefLabel "guided"@en ;
+    skos:exactMatch lom:expositive ;
     skos:topConceptOf <> .
 
 <mixed> a skos:Concept ;
     skos:prefLabel "gemischt"@de ;
     skos:prefLabel "mixed"@en ;
+    skos:exactMatch lom:mixed ;
     skos:topConceptOf <> .

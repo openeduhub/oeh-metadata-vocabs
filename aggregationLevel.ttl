@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_aggregationlevel/> .
 
 
 <> a skos:ConceptScheme;
@@ -20,6 +21,7 @@
     skos:prefLabel "activity"@en ;
     skos:altLabel "1"@de ;
     skos:editorialNote "LOMv1.0; relates to oerschema:activity"@en ;
+    skos:exactMatch lom:level_1 ;
     skos:topConceptOf <> .
 
 <2> a skos:Concept ;
@@ -27,16 +29,19 @@
     skos:prefLabel "Lesson"@en ;
     skos:altLabel "2"@de ;
     skos:editorialNote "LOMv1.0; relates to oerschema:lesson"@en ;
+    skos:exactMatch lom:level_2 ;
     skos:topConceptOf <> .
 
 <unit> a skos:Concept ;
     skos:prefLabel "Unterrichtseinheit (mehrere Unterrichtsstunden)"@de ;
     skos:prefLabel "Unit"@en ;
+    skos:closeMatch lom:level_3 ;
     skos:topConceptOf <> .
 
 <module> a skos:Concept ;
     skos:prefLabel "Unterrichtsreihe (6-8 Wochen)"@de ;
     skos:prefLabel "Module"@en ;
+    skos:closeMatch lom:level_3 ;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
@@ -44,6 +49,7 @@
     skos:prefLabel "Course"@en ;
     skos:altLabel "3"@de ;
     skos:editorialNote "LOMv1.0; relates to oerschema:course / schema.org/Course"@en ;
+    skos:closeMatch lom:level_3 ;
     skos:topConceptOf <> .
 
 <4> a skos:Concept ;
@@ -52,4 +58,5 @@
     skos:altLabel "4"@de ;
     skos:definition "Eine Reihe von Kursen, das zu einem Zertifikat führt"@de ;
     skos:editorialNote "LOMv1.0"@de ;
+    skos:exactMatch lom:level_4 ;
     skos:topConceptOf <> .
