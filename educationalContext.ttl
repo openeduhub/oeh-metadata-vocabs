@@ -5,6 +5,7 @@
 @prefix isced97: <https://w3id.org/kim/isced-1997/> .
 @prefix isced2011: <https://w3id.org/kim/isced-2011/> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_educational-context/> .
 
 <> a skos:ConceptScheme;
     dct:title "Bildungsstufe"@de;
@@ -37,6 +38,7 @@
     skos:exactMatch isced97:level1 ;
     skos:exactMatch isced2011:level1 ;
     skos:exactMatch eduLevel:level_1 ;
+    skos:narrower lom:school ;
     skos:topConceptOf <> .
 
 <sekundarstufe_1> a skos:Concept ;
@@ -47,6 +49,7 @@
     skos:exactMatch isced97:level2 ;
     skos:exactMatch isced2011:level2 ;
     skos:exactMatch eduLevel:level_2 ;
+    skos:narrower lom:school ;
     skos:topConceptOf <> .
 
 <sekundarstufe_2> a skos:Concept ;
@@ -57,6 +60,7 @@
     skos:exactMatch isced97:level3 ;
     skos:exactMatch isced2011:level3 ;
     skos:exactMatch eduLevel:level_3 ;
+    skos:narrower lom:school ;
     skos:topConceptOf <> .
 
 <hochschule> a skos:Concept ;
@@ -70,6 +74,7 @@
     skos:narrowMatch isced2011:level6 ;
     skos:narrowMatch isced2011:level7 ;
     skos:narrowMatch isced2011:level8 ;
+    skos:exactMatch lom:higher_education ;
     skos:topConceptOf <> .
 
 <berufliche_bildung> a skos:Concept ;
@@ -78,24 +83,29 @@
     skos:exactMatch isced97:level4 ;
     skos:closeMatch isced2011:level4 ;
     skos:closeMatch eduLevel:level_4 ;
+    skos:exactMatch lom:training ;
     skos:topConceptOf <> .
 
 <fortbildung> a skos:Concept ;
     skos:prefLabel "Fortbildung"@de, "Further Education"@en ;
     skos:exactMatch eduLevel:level_C ;
+    skos:narrower lom:other ;
     skos:topConceptOf <> .
 
 <erwachsenenbildung> a skos:Concept ;
     skos:prefLabel "Erwachsenenbildung"@de ;
     skos:prefLabel "continuing education"@en ;
+    skos:narrower lom:other ;
     skos:topConceptOf <> .
 
 <foerderschule> a skos:Concept ;
     skos:prefLabel "Förderschule"@de ;
     skos:altLabel "Sonderpädagogische Förderung"@de ;
     skos:prefLabel "special education"@en ;
+    skos:narrower lom:school ;
     skos:topConceptOf <> .
 
 <fernunterricht> a skos:Concept ;
     skos:prefLabel "Fernunterricht"@de, "Distance Learning"@en ;
+    skos:narrower lom:other ;
     skos:topConceptOf <> .

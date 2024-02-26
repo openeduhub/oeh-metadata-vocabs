@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_intended_end_user_role/> .
 
 <> a skos:ConceptScheme;
     dct:title "Zielgruppe"@de ;
@@ -20,6 +21,7 @@
   skos:prefLabel "Autor/in"@de ;
   skos:prefLabel "author"@en ;
   skos:altLabel "Autorin"@de, "Autor"@de ;
+  skos:exactMatch lom:author ;
   skos:topConceptOf <> .
 
 <counsellor> a skos:Concept ;
@@ -27,6 +29,7 @@
   skos:prefLabel "counsellor"@en ;
   skos:altLabel "Ratgeber/in"@de ;
   skos:definition "Someone who advises, trains, supports, and/or guides."@en ;
+  skos:exactMatch lom:counsellor ;
   skos:topConceptOf <> .
 
 <learner> a skos:Concept ;
@@ -38,11 +41,13 @@
   skos:altLabel "Lernender"@de ;
   skos:altLabel "students"@en ;
   skos:definition "The learner or trainee."@en ;
+  skos:exactMatch lom:learner ;
   skos:topConceptOf <> .
 
 <manager> a skos:Concept ;
   skos:prefLabel "Verwaltung"@de ;
   skos:prefLabel "manager"@en ;
+  skos:exactMatch lom:manager ;
   skos:topConceptOf <> .
 
 <parent> a skos:Concept ;
@@ -53,6 +58,7 @@
   skos:altLabel "Erziehungsberechtigter"@de ;
   skos:altLabel "Sorgeberechtigter"@de ;
   skos:definition "A father, mother, or legal guardian."@en ;
+  skos:exactMatch lom:parent;
   skos:topConceptOf <> .
 
 <teacher> a skos:Concept ;
@@ -63,9 +69,11 @@
   skos:altLabel "Lehrende"@de ;
   skos:altLabel "Lehrender"@de ;
   skos:definition "A person who has been trained to implement educational methods and practices."@en ;
+  skos:exactMatch lom:teacher ;
   skos:topConceptOf <> .
 
 <other> a skos:Concept ;
   skos:prefLabel "andere"@de ;
   skos:prefLabel "other"@en ;
+  skos:exactMatch lom:other ;
   skos:topConceptOf <> .

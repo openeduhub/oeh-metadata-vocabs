@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_cost/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Preis"@de ;
@@ -17,14 +18,17 @@
 <yes> a skos:Concept ;
     skos:prefLabel "yes"@en ;
     skos:prefLabel "ja"@de ;
+    skos:exactMatch lom:yes ;
     skos:topConceptOf <> .
 
 <yes_for_additional> a skos:Concept ;
     skos:prefLabel "additional content / features purchasable"@en ;
     skos:prefLabel "zusätzliche Inhalte / Features per Kauf möglich"@de ;
+    skos:closeMatch lom:yes ;
     skos:topConceptOf <> .
 
 <no> a skos:Concept ;
     skos:prefLabel "no"@en ;
     skos:prefLabel "nein"@de ;
+    skos:exactMatch lom:no ;
     skos:topConceptOf <> .
