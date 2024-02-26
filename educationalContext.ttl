@@ -38,7 +38,7 @@
     skos:exactMatch isced97:level1 ;
     skos:exactMatch isced2011:level1 ;
     skos:exactMatch eduLevel:level_1 ;
-    skos:narrower lom:school ;
+    skos:narrowMatch lom:school ;
     skos:topConceptOf <> .
 
 <sekundarstufe_1> a skos:Concept ;
@@ -49,7 +49,7 @@
     skos:exactMatch isced97:level2 ;
     skos:exactMatch isced2011:level2 ;
     skos:exactMatch eduLevel:level_2 ;
-    skos:narrower lom:school ;
+    skos:narrowMatch lom:school ;
     skos:topConceptOf <> .
 
 <sekundarstufe_2> a skos:Concept ;
@@ -60,7 +60,7 @@
     skos:exactMatch isced97:level3 ;
     skos:exactMatch isced2011:level3 ;
     skos:exactMatch eduLevel:level_3 ;
-    skos:narrower lom:school ;
+    skos:narrowMatch lom:school ;
     skos:topConceptOf <> .
 
 <hochschule> a skos:Concept ;
@@ -89,23 +89,23 @@
 <fortbildung> a skos:Concept ;
     skos:prefLabel "Fortbildung"@de, "Further Education"@en ;
     skos:exactMatch eduLevel:level_C ;
-    skos:narrower lom:other ;
+    skos:narrowMatch lom:other ;
     skos:topConceptOf <> .
 
 <erwachsenenbildung> a skos:Concept ;
     skos:prefLabel "Erwachsenenbildung"@de ;
     skos:prefLabel "continuing education"@en ;
-    skos:narrower lom:other ;
+    skos:narrowMatch lom:other ;
     skos:topConceptOf <> .
 
 <foerderschule> a skos:Concept ;
     skos:prefLabel "Förderschule"@de ;
     skos:altLabel "Sonderpädagogische Förderung"@de ;
     skos:prefLabel "special education"@en ;
-    skos:narrower lom:school ;
+    skos:narrowMatch lom:school ;
     skos:topConceptOf <> .
 
 <fernunterricht> a skos:Concept ;
     skos:prefLabel "Fernunterricht"@de, "Distance Learning"@en ;
-    skos:narrower lom:other ;
+    skos:narrowMatch lom:other ;
     skos:topConceptOf <> .
