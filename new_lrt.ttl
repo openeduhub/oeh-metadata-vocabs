@@ -7,6 +7,7 @@
 @prefix tool: <http://w3id.org/openeduhub/vocabs/toolCategory/> .
 @prefix agg: <http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/> .
 @prefix elm: <http://data.europa.eu/snb/learning-opportunity/> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_learning_resource_type/> .
 
 <01551356-a6a3-44fc-9662-7d366d7af0ac> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -36,7 +37,8 @@
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Webseite mit einer Sammlung bzw. Zusammenstellung von diversen Materialien zu einem Thema/Fachgebiet oder mit Inhalten und Materialien eines spezifischen Formates (z.B. YouTube-Videos auf einem YouTube-Kanal, Podcast-Folgen eines Podcasts) ohne wesentliche inhaltliche Rahmung"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Kollektion, Sammlung oder Kanal"@de .
 
 <07659554-35b3-4b6b-82cd-d6b2db3fbc56> a skos:Concept ;
@@ -158,6 +160,7 @@
     skos:inScheme <> ;
     skos:exactMatch lrt:enquiry_oriented_activity ;
     skos:relatedMatch agg:90a082d8-ee5f-4b33-bd5c-f1738262c47d ;
+    skos:closeMatch lom:problem_statement ;
     skos:prefLabel "Recherche- und Lernauftrag"@de .
 
 <1dc4ed81-718c-4b76-86cb-947a86875973> a skos:Concept ;
@@ -166,6 +169,7 @@
     skos:inScheme <> ;
     skos:exactMatch lrt:demonstration ;
     skos:broadMatch lrt:image,
+        lom:figure,
         agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
     skos:prefLabel "Veranschaulichung, Schaubild und Tafelbild"@de .
 
@@ -234,6 +238,7 @@
     skos:inScheme <> ;
     skos:relatedMatch widgets:test ;
     skos:broadMatch agg:02bfd0fe-96ab-4dd6-a306-ec362ec25ea0 ;
+    skos:exactMatch lom:self_assessment ;
     skos:prefLabel "Selbst-Testaufgabe"@de .
 
 <2d2b2302-db11-43f4-9ebf-35ba60e2f30c> a skos:Concept ;
@@ -248,7 +253,8 @@
     skos:broader <4665caac-99d7-4da3-b9fb-498d8ece034f> ;
     skos:definition "Ein Medium, dass einen Sachverhalt interaktiv erfahrbar macht, bspw. indem Eingabewerte der Nutzenden in ihrer Wirkung auf ein System gezeigt werden"@de ;
     skos:inScheme <> ;
-    skos:exactMatch lrt:simulation ;
+    skos:exactMatch lrt:simulation,
+        lom:simulation ;
     skos:relatedMatch widgets:simulation ;
     skos:broadMatch agg:05aa0f49-7e1b-498b-a7d5-c5fc8e73b2e2 ;
     skos:prefLabel "Simulation"@de .
@@ -356,6 +362,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:experiment,
+        lom:experiment,
         widgets:experiment ;
     skos:relatedMatch agg:ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d ;
     skos:prefLabel "Experiment (Lehr- und Lernmaterial)"@de ;
@@ -470,7 +477,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Ein Nachschlagewerk speziell für Wörter oder Phrasen"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Wörterbuch"@de .
 
 <518ae9d5-2420-4567-b32d-f75c27e2cf70> a skos:Concept ;
@@ -810,6 +818,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <588efe4f-976f-48eb-84aa-8bcb45679f85> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:presentation ;
+    skos:closeMatch lom:slide ;
     skos:relatedMatch agg:1e300ea3-a687-45a3-b215-9c240c1666dc ;
     skos:prefLabel "Präsentation"@de .
 
@@ -825,6 +834,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <213ed49d-f4b2-49b6-8a32-7e9261901ec5> ;
     skos:inScheme <> ;
     skos:broadMatch lrt:other ;
+    skos:exactMatch lom:table ;
     skos:relatedMatch agg:a0b83e5a-eaa4-4df8-9eec-3678abd60c25 ;
     skos:prefLabel "Tabellen"@de .
 
@@ -900,6 +910,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <cd625d33-5d7b-4a86-a54a-9a897ded729f> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:assessment,
+        lom:exam,
         widgets:exam ;
     skos:broadMatch agg:02bfd0fe-96ab-4dd6-a306-ec362ec25ea0 ;
     skos:prefLabel "Klausur, Klassenarbeit und Test"@de .
@@ -926,7 +937,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:definition "Lexika oder Enzyklopädien, die Erklärungen zu Begriffen bereitstellen (z. B.: Wikipedia, Klexikon, …)"@de ;
     skos:inScheme <> ;
     skos:relatedMatch sct:006 ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Lexikon oder Enzyklopädie"@de .
 
 <9f47559b-fb38-423e-9184-ea517446d027> a skos:Concept ;
@@ -960,6 +972,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:exactMatch lrt:drill_and_practice ;
     skos:relatedMatch widgets:drill_and_practice,
         agg:0b2d7dec-8eb1-4a28-9cf2-4f3a4f5a511b ;
+    skos:closeMatch lom:exercise ;
     skos:prefLabel "Übungsmaterial"@de ;
     skos:scopeNote "divers"@de .
 
@@ -1023,7 +1036,8 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Eine Quelle, in der Daten(sätze) verwaltet / angeboten werden, z.B.: Forschungsdaten, OpenData"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Datenbank"@de .
 
 <ac82dc13-3be1-464d-9cdc-88e608d99c39> a skos:Concept ;
@@ -1092,14 +1106,16 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Quelle die Dokumente zu einem Thema anbietet, auch über Schnittstellen für angeschlossene Systeme"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Repository"@de .
 
 <b98c0c8c-5696-4537-82fa-dded7236081e> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:definition "z.B. PDF"@de ;
     skos:inScheme <> ;
-    skos:broadMatch lrt:text ;
+    skos:broadMatch lrt:text,
+        lom:narrative_text ;
     skos:relatedMatch agg:c77df53a-2611-4029-9712-f9c0eeb032a3 ;
     skos:prefLabel "Artikel und Einzelpublikation"@de .
 
@@ -1114,7 +1130,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
     skos:inScheme <> ;
     skos:exactMatch lrt:glossary ;
-    skos:broadMatch lrt:text ;
+    skos:broadMatch lrt:text,
+        lom:index ;
     skos:relatedMatch widgets:glossary,
         agg:cf8929a7-d521-4f17-bbe3-96748c862486 ;
     skos:closeMatch sct:006 ;
@@ -1175,7 +1192,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Quelle enthält eine Suchfunktion"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Suchmaschine"@de .
 
 <d2399757-27ce-4978-830f-45bde426afdc> a skos:Concept ;
@@ -1199,6 +1217,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <cd625d33-5d7b-4a86-a54a-9a897ded729f> ;
     skos:inScheme <> ;
     skos:broadMatch agg:02bfd0fe-96ab-4dd6-a306-ec362ec25ea0 ;
+    skos:closeMatch lom:questionnaire ;
     skos:prefLabel "Fragebogen und Umfrage"@de .
 
 <d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9> a skos:Concept ;
@@ -1238,7 +1257,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:broader <3869b453-d3c1-4b34-8f25-9127e9d68766> ;
     skos:definition "Quelle die Metadaten und Links auf Inhalte zu einem Thema anbietet, auch maschinenlesbar über Schnittstellen (HUB)"@de ;
     skos:inScheme <> ;
-    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
+    skos:broadMatch agg:2e678af3-1026-4171-b88e-3b3a915d1673,
+        lom:index ;
     skos:prefLabel "Referatory"@de .
 
 <e0ddbb5f-9400-4d7a-89c9-dc1a18a4d576> a skos:Concept ;
@@ -1246,6 +1266,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:application,
         lrt:tool,
+        lom:index,
         agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
     skos:relatedMatch widgets:dictionaries ;
     skos:prefLabel "Nachschlagewerk"@de .
@@ -1295,7 +1316,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Eine Audioaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten wäre es ein Erklär-Audio)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:audio,
-        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9 ;
+        agg:39197d6f-dfb1-4e82-92e5-79f906e9d2a9,
+        lom:lecture ;
     skos:prefLabel "Vortrag (Audio-Aufzeichnung / Lesung)"@de .
 
 <e3ddae8a-d94c-40d8-b7f7-9bdaf0cb8325> a skos:Concept ;
@@ -1399,6 +1421,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:image,
         agg:b8fb5fb2-d8bf-4bbe-ab68-358b65a26bed ;
+    skos:narrowMatch lom:diagram,
+        lom:graph ;
     skos:prefLabel "Graph, Diagramm und Charts"@de .
 
 <f7e92628-4132-4985-bcf5-93c285e300a8> a skos:Concept ;
@@ -1431,7 +1455,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:definition "Eine Videoaufzeichnung von Unterricht oder Vortragenden, die i.d.R. mehr als einen bestimmten Sachverhalt erläutert (ansonsten als Erklärvideo einzuordnen)"@de ;
     skos:inScheme <> ;
     skos:broadMatch lrt:video,
-        agg:38774279-af36-4ec2-8e70-811d5a51a6a1 ;
+        agg:38774279-af36-4ec2-8e70-811d5a51a6a1,
+        lom:lecture ;
     skos:prefLabel "Vortrags- und Unterrichtsaufzeichnung"@de .
 
 <fe298cb9-fe5e-400e-8319-9b5b2e77352e> a skos:Concept ;
