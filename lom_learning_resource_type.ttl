@@ -11,7 +11,7 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2024-02-23"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <exercise>, <simulation>, <questionnaire>, <diagram>, <figure>, <graph>, <index>, <slide>, <table>, <narrative_text>, <exam>, <experiment>, <problem_statement>, <self_assessment>, <lecture>, <reading> .
+    skos:hasTopConcept <exercise>, <simulation>, <questionnaire>, <diagram>, <figure>, <graph>, <index>, <slide>, <table>, <narrative_text>, <exam>, <experiment>, <problem_statement>, <self_assessment>, <lecture> .
 
 <exercise> a skos:Concept ;
     skos:prefLabel "Exercise"@en ;
