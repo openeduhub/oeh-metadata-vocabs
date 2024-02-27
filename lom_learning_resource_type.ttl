@@ -117,10 +117,3 @@
     skos:definition "An educational talk to an audience, typically given by a teacher or professor."@en ;
     skos:definition "Ein Bildungsgespräch für ein Publikum, typischerweise gehalten von einem Lehrer oder Professor."@de ;
     skos:topConceptOf <> .
-
-<reading> a skos:Concept ;
-    skos:prefLabel "Reading"@en ;
-    skos:prefLabel "Lesen"@de ;
-    skos:definition "Text material that is read, typically for educational or informational purposes."@en ;
-    skos:definition "Textmaterial, das typischerweise zu Bildungs- oder Informationszwecken gelesen wird."@de ;
-    skos:topConceptOf <> .
