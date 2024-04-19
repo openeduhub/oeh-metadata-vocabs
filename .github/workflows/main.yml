@@ -42,7 +42,7 @@ jobs:
 
       - name: make .env file
 
-        run: cp .env.example .env
+        run: echo "BASEURL=" > .env
 
       - name: login to edu-sharing container registry
         
