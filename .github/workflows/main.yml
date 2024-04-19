@@ -42,7 +42,7 @@ jobs:
 
       - name: make .env file
 
-        run: echo "BASEURL=/oeh-metadata-vocabs" > .env
+        run: cp .env.example .env
 
       - name: login to edu-sharing container registry
         
