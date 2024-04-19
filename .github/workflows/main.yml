@@ -29,16 +29,33 @@ jobs:
 
       - run: mkdir public
 
+      - run: chmod -R 777 public # user in container is node which won't have write access to public
+
       - run: mkdir data
 
-      - run: git clone https://github.com/openeduhub/oeh-metadata-vocabs.git data/
+      - run: chmod -R 777 data # user in container is node which won't have write access to public
+
+      - run: git clone https://github.com/openeduhub/oeh-metadata-vocabs.git data/ # <-- add link to your repo here
+
+      - name: make .env file
+
+        run: echo "BASEURL=/oeh-metadata-vocabs" > .env
 
       - name: build public dir with docker image
-        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data laocoon667/openeduhub-skohub-vocabs:docker
+        run: >
+          docker run
+          -v $(pwd)/public:/app/public
+          -v $(pwd)/data:/app/data
+          -v $(pwd)/.env:/app/.env
+          -v $(pwd)/.skohub/static/img:/app/static/img
+          -v $(pwd)/.skohub/config.yaml:/app/config.yaml
+          -e GATSBY_RESPOSITORY_URL=https://github.com/skohub-io/skohub-docker-vocabs.git
+          docker.edu-sharing.com/projects/wlo/edu_sharing-projects-wlo-skohub-vocabs:main
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: skohub-gh-pages
           cname: vocabs.openeduhub.de
