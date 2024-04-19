@@ -41,9 +41,13 @@ jobs:
 
         run: echo "BASEURL=/oeh-metadata-vocabs" > .env
 
-      - name: login to docker hub
-
-        run: docker login ${{env.docker_repository}} -u ${{ secrets.DOCKER_EDU_HUB_REGISTRY_USERNAME }} -p ${{ secrets.DOCKER_EDU_HUB_REGISTRY_PASSWORD }}
+      - name: login to edu-sharing container registry
+        
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.docker_repository }}
+          username: ${{ secrets.DOCKER_EDU_HUB_REGISTRY_USERNAME }}
+          password: ${{ secrets.DOCKER_EDU_HUB_REGISTRY_PASSWORD }}
 
       - name: build public dir with docker image
         
