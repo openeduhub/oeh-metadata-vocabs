@@ -1,5 +1,8 @@
 name: Build /public and delpoy to gh-pages with docker container
 
+env:
+  docker_repository: "docker.edu-sharing.com"
+
 on:
   push:
     branches:
