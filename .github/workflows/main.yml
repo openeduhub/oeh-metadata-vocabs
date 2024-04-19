@@ -42,6 +42,7 @@ jobs:
         run: echo "BASEURL=/oeh-metadata-vocabs" > .env
 
       - name: build public dir with docker image
+        run: docker login ${{env.docker_repository}} -u ${{ secrets.DOCKER_EDU_HUB_REGISTRY_USERNAME }} -p ${{ secrets.DOCKER_EDU_HUB_REGISTRY_PASSWORD }}
         run: >
           docker run
           -v $(pwd)/public:/app/public
