@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/b0495f44-b05d-4bde-9dc5-34d7b5234d76",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fb0495f44-b05d-4bde-9dc5-34d7b5234d76",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fb0495f44-b05d-4bde-9dc5-34d7b5234d76",
   "prefLabel": {
     "de": "Lernspiel"
   },
@@ -14,9 +12,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/7005a7b7-7b67-4797-960e-894ded60283a",
       "prefLabel": {
         "de": "EduBreakout"
-      },
-      "altLabel": {
-        "de": "Edu-Breakout"
       }
     }
   ],
@@ -39,13 +34,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/educational_game"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
-    "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -53,6 +56,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -83,7 +88,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -97,7 +111,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -105,9 +121,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -125,9 +138,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

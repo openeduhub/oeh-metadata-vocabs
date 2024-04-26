@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F0d4c206e-1198-4ad5-87dc-9f0637ef7e9f",
   "prefLabel": {
     "de": "Grammatik"
   },
@@ -14,9 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2f5dcaf4-75b3-4e3f-991c-717b8f58d1fb",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/86b09fdf-f638-496a-8089-c3e2f7a42930",
       "prefLabel": {
-        "de": "Zahlen"
+        "de": "Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d155f98b-ecf8-420b-a97b-e6cddbc1366f",
+      "prefLabel": {
+        "de": "Nomen"
       }
     },
     {
@@ -26,9 +30,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/37691013-3065-42dd-af75-a9aeaaef23f8",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7ca1c7fa-28fb-4363-8686-dac35629f2ed",
       "prefLabel": {
-        "de": "Vokalharmonie"
+        "de": "Adjektive und Adverbien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/97c3cbbf-8436-4d75-912b-60a01aa10102",
+      "prefLabel": {
+        "de": "Pronomen und Begleiter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2f5dcaf4-75b3-4e3f-991c-717b8f58d1fb",
+      "prefLabel": {
+        "de": "Zahlen"
       }
     },
     {
@@ -38,27 +54,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7ca1c7fa-28fb-4363-8686-dac35629f2ed",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/37691013-3065-42dd-af75-a9aeaaef23f8",
       "prefLabel": {
-        "de": "Adjektive und Adverbien"
+        "de": "Vokalharmonie"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/81d6938d-5216-4fbe-b1d6-2979765751fd",
       "prefLabel": {
         "de": "Interjektionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/86b09fdf-f638-496a-8089-c3e2f7a42930",
-      "prefLabel": {
-        "de": "Verben"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/97c3cbbf-8436-4d75-912b-60a01aa10102",
-      "prefLabel": {
-        "de": "Pronomen und Begleiter"
       }
     },
     {
@@ -84,12 +88,6 @@
       "prefLabel": {
         "de": "Verbalnomina"
       }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d155f98b-ecf8-420b-a97b-e6cddbc1366f",
-      "prefLabel": {
-        "de": "Nomen"
-      }
     }
   ],
   "broader": {
@@ -103,13 +101,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20008"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -117,6 +123,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -147,7 +155,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -161,7 +178,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -169,9 +188,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -189,9 +205,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

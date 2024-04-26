@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/52de12fa-79ad-455c-95ae-d191f8e897d8",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F52de12fa-79ad-455c-95ae-d191f8e897d8",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F52de12fa-79ad-455c-95ae-d191f8e897d8",
   "prefLabel": {
     "de": "Organische Chemie"
   },
@@ -20,9 +18,21 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5828c294-98bb-45fc-9784-ce22c6368a27",
+      "prefLabel": {
+        "de": "Kunststoffe - langkettige (organische) Moleküle"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/17911f2d-0d53-4d23-9c43-d5948aa4fff4",
       "prefLabel": {
         "de": "Eiweiße - die Bausteine des Lebens"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e922a40a-2dd2-432a-ab8e-a6783cd6e8f2",
+      "prefLabel": {
+        "de": "Alkohole - Kohlenwasserstoffe mit einer OH-Gruppe"
       }
     },
     {
@@ -32,21 +42,27 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40184133-8215-444a-931f-48e4521ecc14",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bb6cf13e-6c89-4472-9acc-4a77ec7caa38",
       "prefLabel": {
-        "de": "Mesomerie in der Organischen Chemie"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5828c294-98bb-45fc-9784-ce22c6368a27",
-      "prefLabel": {
-        "de": "Kunststoffe - langkettige (organische) Moleküle"
+        "de": "Kohlenhydrate - die Grundlage der Biomasse"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7c95b151-1db4-4e55-b958-80082eba8209",
       "prefLabel": {
         "de": "Aromaten - Ringe mit delokalisierten Elektronensystemen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40184133-8215-444a-931f-48e4521ecc14",
+      "prefLabel": {
+        "de": "Mesomerie in der Organischen Chemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c97a8c29-75b5-46a2-a328-e2754eca928f",
+      "prefLabel": {
+        "de": "Die Kohlenwasserstoffe als Grundstoffe in der Organischen Chemie"
       }
     },
     {
@@ -68,21 +84,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bb6cf13e-6c89-4472-9acc-4a77ec7caa38",
-      "prefLabel": {
-        "de": "Kohlenhydrate - die Grundlage der Biomasse"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c27947c9-a739-435f-aa0e-0973822f95f9",
       "prefLabel": {
         "de": "Amine - Organische Verwandte des Ammoniaks"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c97a8c29-75b5-46a2-a328-e2754eca928f",
-      "prefLabel": {
-        "de": "Die Kohlenwasserstoffe als Grundstoffe in der Organischen Chemie"
       }
     },
     {
@@ -104,12 +108,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e922a40a-2dd2-432a-ab8e-a6783cd6e8f2",
-      "prefLabel": {
-        "de": "Alkohole - Kohlenwasserstoffe mit einer OH-Gruppe"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fded46e6-d5ca-4dc0-9702-7f9cdf16b498",
       "prefLabel": {
         "de": "Ester - Reaktionsprodukte aus Säuren und Alkoholen"
@@ -127,13 +125,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/100"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -141,6 +147,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -171,7 +179,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -185,7 +202,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -193,9 +212,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -213,9 +229,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

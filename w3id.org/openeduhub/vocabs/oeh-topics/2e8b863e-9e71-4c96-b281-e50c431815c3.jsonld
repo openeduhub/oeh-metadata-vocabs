@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2e8b863e-9e71-4c96-b281-e50c431815c3",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F2e8b863e-9e71-4c96-b281-e50c431815c3",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F2e8b863e-9e71-4c96-b281-e50c431815c3",
   "prefLabel": {
     "de": "Wortschatz"
   },
@@ -14,45 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0aab06ac-f59b-4e6c-b4f6-04dec8a8eb89",
-      "prefLabel": {
-        "de": "Zwischenmenschliche Beziehungen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/35c6b75c-49f2-4616-a30f-80c477d01613",
-      "prefLabel": {
-        "de": "Angaben zur Person"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/42add866-db90-45dc-af15-2eae12eca7bb",
-      "prefLabel": {
-        "de": "Persönlichkeit"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4eb61065-adc0-4a98-857a-e0c898e9f718",
       "prefLabel": {
         "de": "Körper und Gesundheit"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/510f80d2-4a1f-4f5b-87fc-642c2f2f03f4",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3254311-0c34-4388-9967-7e2c9a432a7e",
       "prefLabel": {
-        "de": "Beschreibungen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5d72d0a2-e731-4358-ae72-e39d37edd5d5",
-      "prefLabel": {
-        "de": "Zahlen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5dc1e0ef-b7fb-46c3-bc47-23c31a77ddd0",
-      "prefLabel": {
-        "de": "Alltag"
+        "de": "Wohnen"
       }
     },
     {
@@ -62,33 +30,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/87948144-a775-4e39-b155-fcff1a6bc2bb",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5d72d0a2-e731-4358-ae72-e39d37edd5d5",
       "prefLabel": {
-        "de": "Kleidung"
+        "de": "Zahlen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9cd0e0f9-1642-4eb4-92d9-a815e4133ad1",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0aab06ac-f59b-4e6c-b4f6-04dec8a8eb89",
       "prefLabel": {
-        "de": "Religion "
+        "de": "Zwischenmenschliche Beziehungen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ad19725e-8a37-4030-8b0a-d3cd9e2726a6",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5dc1e0ef-b7fb-46c3-bc47-23c31a77ddd0",
       "prefLabel": {
-        "de": "Welt, Umwelt, Natur"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/af9dfac3-a166-46c1-a3fc-245abafb9669",
-      "prefLabel": {
-        "de": "Kontaktaufnahme"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b3c51b37-f7bf-49e3-8c2f-ce17f7fbf9e9",
-      "prefLabel": {
-        "de": "Geschichte, Politik, Gesellschaft "
+        "de": "Alltag"
       }
     },
     {
@@ -104,15 +60,27 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/dd19ef09-8128-4174-9064-3e35c445d868",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/af9dfac3-a166-46c1-a3fc-245abafb9669",
       "prefLabel": {
-        "de": "Computer, Internet, Soziale Medien"
+        "de": "Kontaktaufnahme"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3254311-0c34-4388-9967-7e2c9a432a7e",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/42add866-db90-45dc-af15-2eae12eca7bb",
       "prefLabel": {
-        "de": "Wohnen"
+        "de": "Persönlichkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f7331863-fd8b-4707-946d-7c8035946b93",
+      "prefLabel": {
+        "de": "Reisen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9cd0e0f9-1642-4eb4-92d9-a815e4133ad1",
+      "prefLabel": {
+        "de": "Religion "
       }
     },
     {
@@ -122,9 +90,39 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f7331863-fd8b-4707-946d-7c8035946b93",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/dd19ef09-8128-4174-9064-3e35c445d868",
       "prefLabel": {
-        "de": "Reisen"
+        "de": "Computer, Internet, Soziale Medien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/87948144-a775-4e39-b155-fcff1a6bc2bb",
+      "prefLabel": {
+        "de": "Kleidung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/35c6b75c-49f2-4616-a30f-80c477d01613",
+      "prefLabel": {
+        "de": "Angaben zur Person"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ad19725e-8a37-4030-8b0a-d3cd9e2726a6",
+      "prefLabel": {
+        "de": "Welt, Umwelt, Natur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/510f80d2-4a1f-4f5b-87fc-642c2f2f03f4",
+      "prefLabel": {
+        "de": "Beschreibungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b3c51b37-f7bf-49e3-8c2f-ce17f7fbf9e9",
+      "prefLabel": {
+        "de": "Geschichte, Politik, Gesellschaft "
       }
     }
   ],
@@ -139,13 +137,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20002"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -153,6 +159,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -183,7 +191,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -197,7 +214,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -205,9 +224,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -225,9 +241,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

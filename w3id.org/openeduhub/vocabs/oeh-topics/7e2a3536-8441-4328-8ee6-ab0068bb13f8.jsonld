@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7e2a3536-8441-4328-8ee6-ab0068bb13f8",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F7e2a3536-8441-4328-8ee6-ab0068bb13f8",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F7e2a3536-8441-4328-8ee6-ab0068bb13f8",
   "prefLabel": {
     "de": "Pädagogik"
   },
@@ -11,15 +9,21 @@
   ],
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e5b06c37-1475-4f4d-8963-a6d35b14fae0",
+      "prefLabel": {
+        "de": "Entwicklung, Sozialisation und Erziehung"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0c894f87-9cbf-4bbe-9fe9-c80844dd07d1",
       "prefLabel": {
         "de": "Identität"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5fc1d2f7-d0f3-434a-bd3e-af07da4fe32c",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fa7b1aca-31d2-4cd0-9d4b-f7eaae78af46",
       "prefLabel": {
-        "de": "Pädagogik in der Praxis und im Alltag"
+        "de": "Pädagogische Professionalisierung in Institutionen"
       }
     },
     {
@@ -29,21 +33,15 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5fc1d2f7-d0f3-434a-bd3e-af07da4fe32c",
+      "prefLabel": {
+        "de": "Pädagogik in der Praxis und im Alltag"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b4b92d4d-1c4c-44ce-9145-4edec7a78b28",
       "prefLabel": {
         "de": "Werte und Normen in Erziehung und Bildung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e5b06c37-1475-4f4d-8963-a6d35b14fae0",
-      "prefLabel": {
-        "de": "Entwicklung, Sozialisation und Erziehung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fa7b1aca-31d2-4cd0-9d4b-f7eaae78af46",
-      "prefLabel": {
-        "de": "Pädagogische Professionalisierung in Institutionen"
       }
     }
   ],
@@ -52,16 +50,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/440"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -69,6 +80,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -99,7 +112,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -113,7 +135,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -121,9 +145,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -141,9 +162,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

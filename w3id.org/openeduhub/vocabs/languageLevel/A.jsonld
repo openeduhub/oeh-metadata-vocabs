@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/languageLevel/A",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlanguageLevel%2FA",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlanguageLevel%2FA",
   "prefLabel": {
     "de": "Elementare Sprachverwendung",
     "en": "Basic User"
@@ -13,10 +11,6 @@
       "prefLabel": {
         "de": "A1",
         "en": "A1"
-      },
-      "altLabel": {
-        "de": "Einstieg",
-        "en": "Beginner"
       }
     },
     {
@@ -24,24 +18,34 @@
       "prefLabel": {
         "de": "A2",
         "en": "A2"
-      },
-      "altLabel": {
-        "de": "Grundlagen",
-        "en": "Elementary"
       }
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/languageLevel/",
-    "title": {
-      "de": "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER",
-      "en": "Common European Framework of Reference for Languages, CEFR"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageLevel/",
+      "title": {
+        "de": "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER",
+        "en": "Common European Framework of Reference for Languages, CEFR"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/languageLevel/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageLevel/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageLevel/",
+      "title": {
+        "de": "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER",
+        "en": "Common European Framework of Reference for Languages, CEFR"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -49,6 +53,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -79,7 +85,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -93,7 +108,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -101,9 +118,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -121,9 +135,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

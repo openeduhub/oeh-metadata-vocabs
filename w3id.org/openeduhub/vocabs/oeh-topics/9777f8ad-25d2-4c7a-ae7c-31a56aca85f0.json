@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9777f8ad-25d2-4c7a-ae7c-31a56aca85f0",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F9777f8ad-25d2-4c7a-ae7c-31a56aca85f0",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F9777f8ad-25d2-4c7a-ae7c-31a56aca85f0",
   "prefLabel": {
     "de": "Bindung & Struktur"
   },
@@ -14,15 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3dba29cd-2e3b-4df8-bdac-03cd5def8442",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",
       "prefLabel": {
-        "de": "Nanostrukturen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/66925fc0-0c09-493b-b526-cae9b94575de",
-      "prefLabel": {
-        "de": "Zwischenmolekulare Kräfte"
+        "de": "Bindungstypen"
       }
     },
     {
@@ -32,9 +24,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3dba29cd-2e3b-4df8-bdac-03cd5def8442",
       "prefLabel": {
-        "de": "Bindungstypen"
+        "de": "Nanostrukturen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/66925fc0-0c09-493b-b526-cae9b94575de",
+      "prefLabel": {
+        "de": "Zwischenmolekulare Kräfte"
       }
     }
   ],
@@ -49,13 +47,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/100"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -63,6 +69,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -93,7 +101,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -107,7 +124,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -115,9 +134,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -135,9 +151,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e126a8c7-fc46-4686-969b-5230f7732015",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fe126a8c7-fc46-4686-969b-5230f7732015",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fe126a8c7-fc46-4686-969b-5230f7732015",
   "prefLabel": {
     "de": "Texte und Medien verstehen"
   },
@@ -20,9 +18,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/131b383f-5c17-48a0-9530-76a6a16116ad",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2c8cd907-78b5-46f0-b3e7-7fe171633e44",
       "prefLabel": {
-        "de": "Dramatische Texte"
+        "de": "Lyrische Texte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cc217ac0-ca5c-4b29-9824-24c9fcf20aa5",
+      "prefLabel": {
+        "de": "Erzählende Texte"
       }
     },
     {
@@ -32,9 +36,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2c8cd907-78b5-46f0-b3e7-7fe171633e44",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/131b383f-5c17-48a0-9530-76a6a16116ad",
       "prefLabel": {
-        "de": "Lyrische Texte"
+        "de": "Dramatische Texte"
       }
     },
     {
@@ -50,21 +54,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/62c39719-86e6-4d8e-9974-81ec6eba0457",
-      "prefLabel": {
-        "de": "Kinder- und Jugendliteratur"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8818e408-0278-4e7d-874e-b38d6b5039b6",
       "prefLabel": {
         "de": "Sachtexte"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cc217ac0-ca5c-4b29-9824-24c9fcf20aa5",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/62c39719-86e6-4d8e-9974-81ec6eba0457",
       "prefLabel": {
-        "de": "Erzählende Texte"
+        "de": "Kinder- und Jugendliteratur"
       }
     }
   ],
@@ -79,13 +77,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -93,6 +99,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -123,7 +131,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -137,7 +154,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -145,9 +164,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -165,9 +181,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

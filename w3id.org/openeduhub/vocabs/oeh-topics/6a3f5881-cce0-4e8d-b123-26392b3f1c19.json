@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6a3f5881-cce0-4e8d-b123-26392b3f1c19",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F6a3f5881-cce0-4e8d-b123-26392b3f1c19",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F6a3f5881-cce0-4e8d-b123-26392b3f1c19",
   "prefLabel": {
     "de": "Kunst"
   },
@@ -14,9 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/583fa225-c2c0-4db6-95f6-db147c19836d",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b782e351-6450-4c29-bf69-07dd4fea06fb",
       "prefLabel": {
-        "de": "Kunst herstellen"
+        "de": "Kunstgattungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c7b52b31-1868-41d1-8e6c-5240a68f4496",
+      "prefLabel": {
+        "de": "Kunst erleben"
       }
     },
     {
@@ -26,33 +30,27 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ac13012d-8fb9-486f-ba51-c706a0f6da62",
-      "prefLabel": {
-        "de": "Strategien im Kunstunterricht"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b782e351-6450-4c29-bf69-07dd4fea06fb",
-      "prefLabel": {
-        "de": "Kunstgattungen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c0ed612d-7524-4291-9e3b-f9bdd046b7da",
-      "prefLabel": {
-        "de": "Diskurse in der Kunst"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c2c39602-a727-4263-a5e9-c20f79a7b8bf",
       "prefLabel": {
         "de": "über den Tellerrand"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c7b52b31-1868-41d1-8e6c-5240a68f4496",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/583fa225-c2c0-4db6-95f6-db147c19836d",
       "prefLabel": {
-        "de": "Kunst erleben"
+        "de": "Kunst herstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ac13012d-8fb9-486f-ba51-c706a0f6da62",
+      "prefLabel": {
+        "de": "Strategien im Kunstunterricht"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c0ed612d-7524-4291-9e3b-f9bdd046b7da",
+      "prefLabel": {
+        "de": "Diskurse in der Kunst"
       }
     }
   ],
@@ -61,16 +59,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/060"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -78,6 +89,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -108,7 +121,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -122,7 +144,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -130,9 +154,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -150,9 +171,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

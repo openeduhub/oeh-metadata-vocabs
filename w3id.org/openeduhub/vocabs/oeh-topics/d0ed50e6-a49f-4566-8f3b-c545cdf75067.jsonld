@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d0ed50e6-a49f-4566-8f3b-c545cdf75067",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd0ed50e6-a49f-4566-8f3b-c545cdf75067",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fd0ed50e6-a49f-4566-8f3b-c545cdf75067",
   "prefLabel": {
     "de": "Nachhaltigkeit"
   },
@@ -26,6 +24,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+      "prefLabel": {
+        "de": "Ökosysteme und Artenschutz"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/26d6c1b7-4e17-472b-a9a8-6372a6194896",
       "prefLabel": {
         "de": "Nachhaltiges Wohnen"
@@ -38,15 +42,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2d8658f5-4fe7-4de7-85c6-ae8164777be0",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a15dfea6-22b6-4fd2-af69-3094c167bd86",
       "prefLabel": {
-        "de": "Nachhaltige Ernährung"
+        "de": "Energie und Strom"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/541876dd-b202-4de4-bd2a-5d7df2c01065",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2d8658f5-4fe7-4de7-85c6-ae8164777be0",
       "prefLabel": {
-        "de": "Kaufen und Konsum"
+        "de": "Nachhaltige Ernährung"
       }
     },
     {
@@ -68,15 +72,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/896c68c6-2839-4cce-9523-d63546423bad",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/541876dd-b202-4de4-bd2a-5d7df2c01065",
       "prefLabel": {
-        "de": "Nachhaltige Hygiene und Sauberkeit"
+        "de": "Kaufen und Konsum"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91e5b64c-07b0-41b7-8ff3-4319deee61cd",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/896c68c6-2839-4cce-9523-d63546423bad",
       "prefLabel": {
-        "de": "Ökosysteme und Artenschutz"
+        "de": "Nachhaltige Hygiene und Sauberkeit"
       }
     },
     {
@@ -89,12 +93,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9d24d904-a7a5-4104-a8b3-d15d4925cfbb",
       "prefLabel": {
         "de": "Mobilität und Verkehr"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a15dfea6-22b6-4fd2-af69-3094c167bd86",
-      "prefLabel": {
-        "de": "Energie und Strom"
       }
     },
     {
@@ -115,16 +113,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/64018"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -132,6 +143,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -162,7 +175,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -176,7 +198,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -184,9 +208,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -204,9 +225,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -1,22 +1,37 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/sources/81eda5a2-eaf5-4959-8f80-e7209b226206",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F81eda5a2-eaf5-4959-8f80-e7209b226206",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F81eda5a2-eaf5-4959-8f80-e7209b226206",
   "prefLabel": {
     "de": "Forum Bildung Digitalisierung"
   },
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/sources/",
-    "title": {
-      "de": "Liste von Quellen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/",
+      "title": {
+        "de": "Liste von Quellen im Openeduhub"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/sources/"
-  },
-  "url": "https://www.forumbd.de/",
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/",
+      "title": {
+        "de": "Liste von Quellen im Openeduhub"
+      }
+    }
+  ],
+  "url": [
+    {
+      "id": "https://www.forumbd.de/"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -24,6 +39,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -54,7 +71,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -68,7 +94,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -76,9 +104,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -96,9 +121,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

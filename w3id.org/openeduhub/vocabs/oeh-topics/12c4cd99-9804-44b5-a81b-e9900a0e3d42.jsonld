@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F12c4cd99-9804-44b5-a81b-e9900a0e3d42",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F12c4cd99-9804-44b5-a81b-e9900a0e3d42",
   "prefLabel": {
     "de": "Grammatik"
   },
@@ -14,81 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1f3efb19-d5ca-4453-a636-20dc63ecbebf",
-      "prefLabel": {
-        "de": "Interjektionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/23d06021-ee04-40f2-8405-10c766ba9222",
-      "prefLabel": {
-        "de": "Präpositionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/32eff73f-96f6-4361-8ce5-5c170aacab10",
-      "prefLabel": {
-        "de": "Zeitformen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/35b9d92c-18dc-429e-bd67-7fe0501958ee",
-      "prefLabel": {
-        "de": "Nomen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/49fdf463-7213-4b97-87c0-694d9ab7546b",
-      "prefLabel": {
-        "de": "Satzglieder"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7b868420-ad6e-487b-a9bf-036d5f3ab748",
-      "prefLabel": {
-        "de": "Hauptsätze und Satzreihen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/852d7756-a3d2-4e82-8b14-1b9348ebb1c7",
       "prefLabel": {
         "de": "Artikel und Begleiter"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8892e486-49b5-4262-82aa-db50a19a8c80",
-      "prefLabel": {
-        "de": "Verneinung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91641a45-b2c7-4651-9d8c-9197aafa3abd",
-      "prefLabel": {
-        "de": "Verben"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9fc49e0f-753b-4a39-a6a1-6856ad88d0fd",
-      "prefLabel": {
-        "de": "Konnektoren"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1022255-9280-4572-8f53-0a34af66b78f",
-      "prefLabel": {
-        "de": "Adjektive"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1532273-bd9f-4ad5-a3ea-e47742c0e460",
-      "prefLabel": {
-        "de": "Grammatikübersichten"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1e7686d-13c4-49fb-ab93-172b7e3f78bb",
-      "prefLabel": {
-        "de": "Numeralien"
       }
     },
     {
@@ -98,15 +24,87 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b7bca233-dca9-44a2-8a4c-6236659f8926",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/23d06021-ee04-40f2-8405-10c766ba9222",
       "prefLabel": {
-        "de": "Adverbien"
+        "de": "Präpositionen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d7e3eb23-7ab6-450a-b690-d4e61a817149",
       "prefLabel": {
         "de": "Pronomen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1022255-9280-4572-8f53-0a34af66b78f",
+      "prefLabel": {
+        "de": "Adjektive"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/35b9d92c-18dc-429e-bd67-7fe0501958ee",
+      "prefLabel": {
+        "de": "Nomen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7b868420-ad6e-487b-a9bf-036d5f3ab748",
+      "prefLabel": {
+        "de": "Hauptsätze und Satzreihen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/91641a45-b2c7-4651-9d8c-9197aafa3abd",
+      "prefLabel": {
+        "de": "Verben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b7bca233-dca9-44a2-8a4c-6236659f8926",
+      "prefLabel": {
+        "de": "Adverbien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1f3efb19-d5ca-4453-a636-20dc63ecbebf",
+      "prefLabel": {
+        "de": "Interjektionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1e7686d-13c4-49fb-ab93-172b7e3f78bb",
+      "prefLabel": {
+        "de": "Numeralien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9fc49e0f-753b-4a39-a6a1-6856ad88d0fd",
+      "prefLabel": {
+        "de": "Konnektoren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/49fdf463-7213-4b97-87c0-694d9ab7546b",
+      "prefLabel": {
+        "de": "Satzglieder"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/32eff73f-96f6-4361-8ce5-5c170aacab10",
+      "prefLabel": {
+        "de": "Zeitformen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8892e486-49b5-4262-82aa-db50a19a8c80",
+      "prefLabel": {
+        "de": "Verneinung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a1532273-bd9f-4ad5-a3ea-e47742c0e460",
+      "prefLabel": {
+        "de": "Grammatikübersichten"
       }
     }
   ],
@@ -121,13 +119,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -135,6 +141,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -165,7 +173,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -179,7 +196,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -187,9 +206,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -207,9 +223,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/69f9ff64-93da-4d68-b849-ebdf9fbdcc77",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F69f9ff64-93da-4d68-b849-ebdf9fbdcc77",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F69f9ff64-93da-4d68-b849-ebdf9fbdcc77",
   "prefLabel": {
     "de": "Deutsch"
   },
@@ -14,9 +12,21 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/38154eec-b4d4-4889-b33e-9a66a2b2c81d",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a24eff1e-d4d1-48b7-b67c-a642d14b49b2",
       "prefLabel": {
-        "de": "Texte schreiben"
+        "de": "Richtig schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e126a8c7-fc46-4686-969b-5230f7732015",
+      "prefLabel": {
+        "de": "Texte und Medien verstehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f244026d-aceb-4d24-abd6-60d9d4c91b4c",
+      "prefLabel": {
+        "de": "Kommunizieren"
       }
     },
     {
@@ -38,27 +48,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a24eff1e-d4d1-48b7-b67c-a642d14b49b2",
-      "prefLabel": {
-        "de": "Richtig schreiben"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cffaadfb-5c07-4e9c-919c-0a53b862c89b",
       "prefLabel": {
         "de": "Grammatik und Sprache untersuchen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e126a8c7-fc46-4686-969b-5230f7732015",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/38154eec-b4d4-4889-b33e-9a66a2b2c81d",
       "prefLabel": {
-        "de": "Texte und Medien verstehen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f244026d-aceb-4d24-abd6-60d9d4c91b4c",
-      "prefLabel": {
-        "de": "Kommunizieren"
+        "de": "Texte schreiben"
       }
     }
   ],
@@ -67,16 +65,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/120"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -84,6 +95,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -114,7 +127,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -128,7 +150,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -136,9 +160,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -156,9 +177,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

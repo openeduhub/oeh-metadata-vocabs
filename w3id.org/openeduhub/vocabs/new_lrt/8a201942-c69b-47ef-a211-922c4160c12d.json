@@ -1,16 +1,14 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/8a201942-c69b-47ef-a211-922c4160c12d",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F8a201942-c69b-47ef-a211-922c4160c12d",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F8a201942-c69b-47ef-a211-922c4160c12d",
   "prefLabel": {
     "de": "Editoren"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/26383370-f3f5-44f2-b66c-435ac0b44bdf",
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/55153d6d-50a2-442e-a2d0-280ce413b9f5",
       "prefLabel": {
-        "de": "Medienbearbeitung"
+        "de": "Editor Officedateiformate"
       }
     },
     {
@@ -20,15 +18,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/55153d6d-50a2-442e-a2d0-280ce413b9f5",
-      "prefLabel": {
-        "de": "Editor Officedateiformate"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/f6f27241-86e0-44e8-a17b-5b563e61a4c8",
       "prefLabel": {
         "de": "Bildungsinhalte-Formate (Editor)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/26383370-f3f5-44f2-b66c-435ac0b44bdf",
+      "prefLabel": {
+        "de": "Medienbearbeitung"
       }
     }
   ],
@@ -54,13 +52,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/widgets/editors"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
-    "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -68,6 +74,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -98,7 +106,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -112,7 +129,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -120,9 +139,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -140,9 +156,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

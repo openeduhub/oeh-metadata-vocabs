@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F26a336bf-51c8-4b91-9a6c-f1cf67fd4ae4",
   "prefLabel": {
     "de": "Deutsch als Zweitsprache"
   },
@@ -14,9 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/01c46536-d69e-49b1-a49d-ec7cc5f04508",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/19febd4c-c96c-4a08-9fcc-00cb626f8e49",
       "prefLabel": {
-        "de": "Landeskunde und Interkulturelles"
+        "de": "Wortschatz"
       }
     },
     {
@@ -26,21 +24,33 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/01c46536-d69e-49b1-a49d-ec7cc5f04508",
+      "prefLabel": {
+        "de": "Landeskunde und Interkulturelles"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cdf69a29-0886-4fb7-b9f8-39dca4f02e78",
+      "prefLabel": {
+        "de": "Kommunikative Kompetenzen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1174347c-2476-481b-9fb3-15fc16046a6b",
       "prefLabel": {
         "de": "Alphabetisierung und Grundbildung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7b92e3c4-2995-4c25-8c69-c8be4463faff",
       "prefLabel": {
-        "de": "Grammatik"
+        "de": "Aussprache"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/19febd4c-c96c-4a08-9fcc-00cb626f8e49",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
       "prefLabel": {
-        "de": "Wortschatz"
+        "de": "Grammatik"
       }
     },
     {
@@ -54,18 +64,6 @@
       "prefLabel": {
         "de": "Didaktisches und Methodisches"
       }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7b92e3c4-2995-4c25-8c69-c8be4463faff",
-      "prefLabel": {
-        "de": "Aussprache"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cdf69a29-0886-4fb7-b9f8-39dca4f02e78",
-      "prefLabel": {
-        "de": "Kommunikative Kompetenzen"
-      }
     }
   ],
   "relatedMatch": [
@@ -73,16 +71,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/28002"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -90,6 +101,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -120,7 +133,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -134,7 +156,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -142,9 +166,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -162,9 +183,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

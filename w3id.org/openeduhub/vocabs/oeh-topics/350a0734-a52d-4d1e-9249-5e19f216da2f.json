@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/350a0734-a52d-4d1e-9249-5e19f216da2f",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F350a0734-a52d-4d1e-9249-5e19f216da2f",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F350a0734-a52d-4d1e-9249-5e19f216da2f",
   "prefLabel": {
     "de": "Themen und Wortschatz"
   },
@@ -14,45 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/01bf8638-752f-4389-aab7-9bd2206c7737",
-      "prefLabel": {
-        "de": "Natur und Umwelt"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/33ad3e91-17c4-4cbf-8300-d1b8828502f9",
       "prefLabel": {
         "de": "gesellschaftliches Zusammenleben"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40a39fba-aaa5-4472-a5d4-ab2181d44367",
-      "prefLabel": {
-        "de": "Das bin ich"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/43428eda-d699-41ba-a18e-1f6d3bd6c4d7",
-      "prefLabel": {
-        "de": "Wohnen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e9006fd-a5ba-4b2d-a4de-d4b7897212e7",
-      "prefLabel": {
-        "de": "soziale Beziehungen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6205e771-7400-44c1-bf39-4163ddd8a8aa",
-      "prefLabel": {
-        "de": "Politik"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6df3a6f2-b78e-4c31-9488-e5eeb56de746",
-      "prefLabel": {
-        "de": "Globalisierung"
       }
     },
     {
@@ -68,21 +30,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/77d3c94f-c438-48f9-82b9-e650f22dc7b0",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40a39fba-aaa5-4472-a5d4-ab2181d44367",
       "prefLabel": {
-        "de": "Kultur und Traditionen"
+        "de": "Das bin ich"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b0266720-79f7-4921-8eb7-c42adbb46de9",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e9006fd-a5ba-4b2d-a4de-d4b7897212e7",
       "prefLabel": {
-        "de": "Alltag"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c0ac6271-2990-4b86-8982-2b917b91400b",
-      "prefLabel": {
-        "de": "Wissenschaft und Technik"
+        "de": "soziale Beziehungen"
       }
     },
     {
@@ -92,9 +48,51 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/77d3c94f-c438-48f9-82b9-e650f22dc7b0",
+      "prefLabel": {
+        "de": "Kultur und Traditionen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d9406932-88c8-4d98-97c1-e6019d6a4544",
       "prefLabel": {
         "de": "Schule und Ausbildung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b0266720-79f7-4921-8eb7-c42adbb46de9",
+      "prefLabel": {
+        "de": "Alltag"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/01bf8638-752f-4389-aab7-9bd2206c7737",
+      "prefLabel": {
+        "de": "Natur und Umwelt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/43428eda-d699-41ba-a18e-1f6d3bd6c4d7",
+      "prefLabel": {
+        "de": "Wohnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6205e771-7400-44c1-bf39-4163ddd8a8aa",
+      "prefLabel": {
+        "de": "Politik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6df3a6f2-b78e-4c31-9488-e5eeb56de746",
+      "prefLabel": {
+        "de": "Globalisierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c0ac6271-2990-4b86-8982-2b917b91400b",
+      "prefLabel": {
+        "de": "Wissenschaft und Technik"
       }
     }
   ],
@@ -112,13 +110,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/340"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -126,6 +132,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -156,7 +164,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -170,7 +187,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -178,9 +197,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -198,9 +214,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

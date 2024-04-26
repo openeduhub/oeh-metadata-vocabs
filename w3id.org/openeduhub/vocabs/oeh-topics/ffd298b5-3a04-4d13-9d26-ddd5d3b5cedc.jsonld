@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ffd298b5-3a04-4d13-9d26-ddd5d3b5cedc",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fffd298b5-3a04-4d13-9d26-ddd5d3b5cedc",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fffd298b5-3a04-4d13-9d26-ddd5d3b5cedc",
   "prefLabel": {
     "de": "Politische Bildung"
   },
@@ -17,33 +15,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/27fea0bf-1888-4db0-866f-3d0305ea57f0",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3b5df81-eb3e-4a97-af21-2b0b9b1fb4d1",
       "prefLabel": {
-        "de": "Methoden"
+        "de": "Erinnerungsarbeit"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2b6f0eec-a1a7-48ee-9bb4-4ef0aa86f351",
       "prefLabel": {
         "de": "Berufliche und ökonomische Bildung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/489de96f-0c29-4bfb-a080-b84a6d2410e5",
-      "prefLabel": {
-        "de": "Globalisierung und internationale Politik"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6259b9d1-6cc0-4aa1-a6a4-e8222930d994",
-      "prefLabel": {
-        "de": "Sozialer Wandel"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6e658ab3-b7f2-4344-98fa-f7618dabef5a",
-      "prefLabel": {
-        "de": "Soziale Gerechtigkeit"
       }
     },
     {
@@ -65,9 +45,27 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3b5df81-eb3e-4a97-af21-2b0b9b1fb4d1",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/27fea0bf-1888-4db0-866f-3d0305ea57f0",
       "prefLabel": {
-        "de": "Erinnerungsarbeit"
+        "de": "Methoden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6259b9d1-6cc0-4aa1-a6a4-e8222930d994",
+      "prefLabel": {
+        "de": "Sozialer Wandel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/489de96f-0c29-4bfb-a080-b84a6d2410e5",
+      "prefLabel": {
+        "de": "Globalisierung und internationale Politik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6e658ab3-b7f2-4344-98fa-f7618dabef5a",
+      "prefLabel": {
+        "de": "Soziale Gerechtigkeit"
       }
     }
   ],
@@ -76,16 +74,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/480"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -93,6 +104,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -123,7 +136,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -137,7 +159,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -145,9 +169,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -165,9 +186,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

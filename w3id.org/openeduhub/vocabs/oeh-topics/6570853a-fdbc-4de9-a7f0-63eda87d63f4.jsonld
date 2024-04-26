@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6570853a-fdbc-4de9-a7f0-63eda87d63f4",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F6570853a-fdbc-4de9-a7f0-63eda87d63f4",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F6570853a-fdbc-4de9-a7f0-63eda87d63f4",
   "prefLabel": {
     "de": "Landeskunde und Interkulturelles"
   },
@@ -14,39 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/024c1caa-9fc9-4610-92b4-85cad780952d",
-      "prefLabel": {
-        "de": "Sprache"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40582886-8490-432d-88b6-04482f8d777b",
-      "prefLabel": {
-        "de": "Geschichte"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/70db382e-165a-442c-a4d5-3bcf86bd7c9b",
-      "prefLabel": {
-        "de": "Gesellschaft"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/79cdd6c1-fd6d-4b71-bb8c-1615be5ad95c",
       "prefLabel": {
         "de": "Wirtschaft und Soziales"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7abb5bbc-8951-4517-8e17-659fecd82f9a",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/024c1caa-9fc9-4610-92b4-85cad780952d",
       "prefLabel": {
-        "de": "Politik"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7bbfeb29-38b3-4962-a447-73465befed85",
-      "prefLabel": {
-        "de": "Tourismus"
+        "de": "Sprache"
       }
     },
     {
@@ -56,15 +30,39 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a51f1dbb-40b1-4ac0-b286-736fa1a7595c",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7bbfeb29-38b3-4962-a447-73465befed85",
       "prefLabel": {
-        "de": "Kultur"
+        "de": "Tourismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/70db382e-165a-442c-a4d5-3bcf86bd7c9b",
+      "prefLabel": {
+        "de": "Gesellschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7abb5bbc-8951-4517-8e17-659fecd82f9a",
+      "prefLabel": {
+        "de": "Politik"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d1ddbf58-f9b5-4e46-8191-e4a7801530b1",
       "prefLabel": {
         "de": "Francophonie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40582886-8490-432d-88b6-04482f8d777b",
+      "prefLabel": {
+        "de": "Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a51f1dbb-40b1-4ac0-b286-736fa1a7595c",
+      "prefLabel": {
+        "de": "Kultur"
       }
     }
   ],
@@ -79,13 +77,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20002"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -93,6 +99,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -123,7 +131,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -137,7 +154,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -145,9 +164,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -165,9 +181,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/3869b453-d3c1-4b34-8f25-9127e9d68766",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F3869b453-d3c1-4b34-8f25-9127e9d68766",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F3869b453-d3c1-4b34-8f25-9127e9d68766",
   "prefLabel": {
     "de": "Quelle"
   },
@@ -67,19 +65,7 @@
   ],
   "relatedMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/001"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/002"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/003"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/004"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/005"
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/2e678af3-1026-4171-b88e-3b3a915d1673"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/006"
@@ -88,22 +74,47 @@
       "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/008"
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/002"
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/010"
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/2e678af3-1026-4171-b88e-3b3a915d1673"
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/005"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/003"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/001"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/004"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
-    "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -111,6 +122,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -141,7 +154,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -155,7 +177,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -163,9 +187,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -183,9 +204,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

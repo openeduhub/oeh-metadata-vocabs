@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/dcc76bcf-0c92-402c-aea2-db3f1595379f",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fdcc76bcf-0c92-402c-aea2-db3f1595379f",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fdcc76bcf-0c92-402c-aea2-db3f1595379f",
   "prefLabel": {
     "de": "Formen und Strukturen von Musik"
   },
@@ -14,15 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/00ba6d4c-0d97-4bb4-a182-149daedb9589",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9dd9fe60-880e-4bb3-9bf2-7d421815232f",
       "prefLabel": {
-        "de": "Melodik"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1f570f97-4427-4931-a629-954d4d6b40ed",
-      "prefLabel": {
-        "de": "Klangfarbe & Sound"
+        "de": "Notation"
       }
     },
     {
@@ -32,21 +24,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9dd9fe60-880e-4bb3-9bf2-7d421815232f",
-      "prefLabel": {
-        "de": "Notation"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a51715dc-bd1c-40cd-b360-d774d2ffad2c",
-      "prefLabel": {
-        "de": "Dynamik & Artikulation"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b341e056-1a78-41c0-b42c-489c91159edd",
       "prefLabel": {
         "de": "Formaspekte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/00ba6d4c-0d97-4bb4-a182-149daedb9589",
+      "prefLabel": {
+        "de": "Melodik"
       }
     },
     {
@@ -56,15 +42,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3d054eb-c7d5-4277-b48a-8af6107d1a97",
+      "prefLabel": {
+        "de": "Rhythmik"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cf970b67-09b5-4e95-99f3-021940f98972",
       "prefLabel": {
         "de": "Tempo"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e3d054eb-c7d5-4277-b48a-8af6107d1a97",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1f570f97-4427-4931-a629-954d4d6b40ed",
       "prefLabel": {
-        "de": "Rhythmik"
+        "de": "Klangfarbe & Sound"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a51715dc-bd1c-40cd-b360-d774d2ffad2c",
+      "prefLabel": {
+        "de": "Dynamik & Artikulation"
       }
     }
   ],
@@ -79,13 +77,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/420"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -93,6 +99,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -123,7 +131,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -137,7 +154,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -145,9 +164,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -165,9 +181,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

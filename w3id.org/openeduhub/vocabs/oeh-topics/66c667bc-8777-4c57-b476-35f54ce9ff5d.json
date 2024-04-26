@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/66c667bc-8777-4c57-b476-35f54ce9ff5d",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F66c667bc-8777-4c57-b476-35f54ce9ff5d",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F66c667bc-8777-4c57-b476-35f54ce9ff5d",
   "prefLabel": {
     "de": "Religion"
   },
@@ -10,12 +8,6 @@
     "66c667bc-8777-4c57-b476-35f54ce9ff5d"
   ],
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/153ba54c-b401-41a1-8510-7ccb63dcfea4",
-      "prefLabel": {
-        "de": "Gott"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/22f6c61b-609b-44a5-88a8-1342b5256160",
       "prefLabel": {
@@ -26,6 +18,24 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/36256da1-fc4a-4f67-bfb0-e0b365697d07",
       "prefLabel": {
         "de": "Menschsein und die Suche nach Gott"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/153ba54c-b401-41a1-8510-7ccb63dcfea4",
+      "prefLabel": {
+        "de": "Gott"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e668ab35-7604-45ed-938c-e04b741ac387",
+      "prefLabel": {
+        "de": "Kirchenjahr"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8d87ef86-bb5e-4dbe-b1ee-8863369b8700",
+      "prefLabel": {
+        "de": "Jesus"
       }
     },
     {
@@ -41,27 +51,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8d87ef86-bb5e-4dbe-b1ee-8863369b8700",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fe1ef46e-6145-4a18-8f09-67be97c6a17f",
       "prefLabel": {
-        "de": "Jesus"
+        "de": "Religionen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ceaa3258-5680-40d2-9bcd-591e6df8d5df",
       "prefLabel": {
         "de": "Bibel: Wort Gottes"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e668ab35-7604-45ed-938c-e04b741ac387",
-      "prefLabel": {
-        "de": "Kirchenjahr"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fe1ef46e-6145-4a18-8f09-67be97c6a17f",
-      "prefLabel": {
-        "de": "Religionen"
       }
     }
   ],
@@ -70,16 +68,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/520"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -87,6 +98,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -117,7 +130,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -131,7 +153,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -139,9 +163,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -159,9 +180,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

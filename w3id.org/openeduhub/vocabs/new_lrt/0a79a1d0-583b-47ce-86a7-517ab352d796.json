@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0a79a1d0-583b-47ce-86a7-517ab352d796",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F0a79a1d0-583b-47ce-86a7-517ab352d796",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2F0a79a1d0-583b-47ce-86a7-517ab352d796",
   "prefLabel": {
     "de": "Methode"
   },
@@ -14,39 +12,52 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/67b7cd56-d98b-4731-baec-465fb03703e7",
-      "prefLabel": {
-        "de": "Unterrichtsgerüst (edu-pattern)"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/dd9e02fa-0501-4779-aeb2-6f50c4d0d502",
       "prefLabel": {
         "de": "Tool-Einsatzszenarien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/67b7cd56-d98b-4731-baec-465fb03703e7",
+      "prefLabel": {
+        "de": "Unterrichtsgerüst (edu-pattern)"
       }
     }
   ],
   "relatedMatch": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/008"
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/101c0c66-5202-4eba-9ebf-79f4903752b9"
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/101c0c66-5202-4eba-9ebf-79f4903752b9"
+      "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/008"
     },
     {
       "id": "http://data.europa.eu/snb/learning-opportunity/8b965da2d4"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
-    "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -54,6 +65,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -84,7 +97,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -98,7 +120,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -106,9 +130,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -126,9 +147,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

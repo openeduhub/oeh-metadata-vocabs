@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f0109e16-a8fc-48b5-9461-369571fd59f2",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff0109e16-a8fc-48b5-9461-369571fd59f2",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Ff0109e16-a8fc-48b5-9461-369571fd59f2",
   "prefLabel": {
     "de": "Wirtschaft"
   },
@@ -14,21 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/094bb9d8-a93f-42fd-a376-915681d82a05",
-      "prefLabel": {
-        "de": "Absatz"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3f068a6b-6fa5-4e8a-ae05-c30b25cc178f",
       "prefLabel": {
         "de": "Wirtschaftspolitik"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6558b76b-fec0-4fc7-ac57-a8cd6fc45788",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/094bb9d8-a93f-42fd-a376-915681d82a05",
       "prefLabel": {
-        "de": "Produktion"
+        "de": "Absatz"
       }
     },
     {
@@ -44,27 +36,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7a5c1387-92e3-4d67-981a-77d7b4570bcd",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ed4bf1e1-96e3-4394-8bc6-41173c0aa2f0",
       "prefLabel": {
-        "de": "Recht"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/92e85862-e36e-476c-a593-6831c5098dcc",
-      "prefLabel": {
-        "de": "Außenwirtschaft"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9d0b4a2a-2820-46df-8000-299e4939277a",
-      "prefLabel": {
-        "de": "Finanzpolitik"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a402ca40-035b-44a4-beff-447c3d9c21be",
-      "prefLabel": {
-        "de": "Betrieb"
+        "de": "Geld"
       }
     },
     {
@@ -74,9 +48,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ba08de9c-ac64-4cb2-aa65-f09ae753089d",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7a5c1387-92e3-4d67-981a-77d7b4570bcd",
       "prefLabel": {
-        "de": "Rechnungswesen"
+        "de": "Recht"
       }
     },
     {
@@ -86,9 +60,33 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ed4bf1e1-96e3-4394-8bc6-41173c0aa2f0",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/92e85862-e36e-476c-a593-6831c5098dcc",
       "prefLabel": {
-        "de": "Geld"
+        "de": "Außenwirtschaft"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6558b76b-fec0-4fc7-ac57-a8cd6fc45788",
+      "prefLabel": {
+        "de": "Produktion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9d0b4a2a-2820-46df-8000-299e4939277a",
+      "prefLabel": {
+        "de": "Finanzpolitik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ba08de9c-ac64-4cb2-aa65-f09ae753089d",
+      "prefLabel": {
+        "de": "Rechnungswesen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a402ca40-035b-44a4-beff-447c3d9c21be",
+      "prefLabel": {
+        "de": "Betrieb"
       }
     }
   ],
@@ -97,16 +95,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/700"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -114,6 +125,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -144,7 +157,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -158,7 +180,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -166,9 +190,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -186,9 +207,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

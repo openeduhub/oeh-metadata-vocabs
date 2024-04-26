@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/992f0da8-20a3-4fdf-85f1-bfd828dad744",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F992f0da8-20a3-4fdf-85f1-bfd828dad744",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F992f0da8-20a3-4fdf-85f1-bfd828dad744",
   "prefLabel": {
     "de": "Grammatik"
   },
@@ -14,21 +12,9 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bd3d770a-3ea3-431e-b3f0-a42c60f1a843",
       "prefLabel": {
-        "de": "Verben"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/10106675-1ec2-4aa1-b53c-0d7274678216",
-      "prefLabel": {
-        "de": "Substantive"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5d9398c8-8c9d-4760-a51b-444e9fbe0a34",
-      "prefLabel": {
-        "de": "Präpositionen und Ausdrücke"
+        "de": "Pronomen als Begleiter und Ersatz"
       }
     },
     {
@@ -38,15 +24,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6d9bd313-b430-4d57-8ef0-7b5fede74d48",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0ec7a5c0-3c06-489d-a3d3-66fa139c2d2e",
       "prefLabel": {
-        "de": "Sätze"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8a31d1ae-e096-4fb2-b481-d6cb7696aa85",
-      "prefLabel": {
-        "de": "Adverbien"
+        "de": "Verben"
       }
     },
     {
@@ -56,27 +36,45 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bd3d770a-3ea3-431e-b3f0-a42c60f1a843",
-      "prefLabel": {
-        "de": "Pronomen als Begleiter und Ersatz"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c3f0f111-9d64-4f3f-acdb-5d0e9f2aa0ea",
       "prefLabel": {
         "de": "Gegenüberstellung der spanischen Zeiten"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f89a62dd-9772-428b-9598-20ab032df068",
-      "prefLabel": {
-        "de": "Artikel"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fc8f070d-de34-435f-8614-510a45d5f8e1",
       "prefLabel": {
         "de": "Zeiten im Subjuntivo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/10106675-1ec2-4aa1-b53c-0d7274678216",
+      "prefLabel": {
+        "de": "Substantive"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8a31d1ae-e096-4fb2-b481-d6cb7696aa85",
+      "prefLabel": {
+        "de": "Adverbien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6d9bd313-b430-4d57-8ef0-7b5fede74d48",
+      "prefLabel": {
+        "de": "Sätze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5d9398c8-8c9d-4760-a51b-444e9fbe0a34",
+      "prefLabel": {
+        "de": "Präpositionen und Ausdrücke"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f89a62dd-9772-428b-9598-20ab032df068",
+      "prefLabel": {
+        "de": "Artikel"
       }
     }
   ],
@@ -91,13 +89,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20007"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -105,6 +111,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -135,7 +143,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -149,7 +166,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -157,9 +176,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -177,9 +193,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/cefccf75-cba3-427d-9a0f-35b4fedcbba1",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fcefccf75-cba3-427d-9a0f-35b4fedcbba1",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt%2Fcefccf75-cba3-427d-9a0f-35b4fedcbba1",
   "prefLabel": {
     "de": "Tool"
   },
@@ -10,12 +8,6 @@
     "de": "Zweck (Editieren, Voten, Lehren, Lernen)"
   },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/1d8386f6-7cd7-4651-b293-96a330c3ecfb",
-      "prefLabel": {
-        "de": "Kooperation, Kollaboration und Kreatives"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/4277f19c-35ce-45c6-bb95-0463a6f4526b",
       "prefLabel": {
@@ -26,12 +18,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/512d27e9-0bde-4af2-ba45-d36adffebd71",
       "prefLabel": {
         "de": "Inhalteverwaltung, Suche"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/8a201942-c69b-47ef-a211-922c4160c12d",
-      "prefLabel": {
-        "de": "Editoren"
       }
     },
     {
@@ -51,17 +37,29 @@
       "prefLabel": {
         "de": "Kommunikation und Feedback"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/1d8386f6-7cd7-4651-b293-96a330c3ecfb",
+      "prefLabel": {
+        "de": "Kooperation, Kollaboration und Kreatives"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/8a201942-c69b-47ef-a211-922c4160c12d",
+      "prefLabel": {
+        "de": "Editoren"
+      }
     }
   ],
   "relatedMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695"
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/sourceContentType/005"
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/widgets/tools"
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695"
     }
   ],
   "exactMatch": [
@@ -72,16 +70,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/learningResourceType/tool"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
-    "title": {
-      "de": "Liste von Ressourcentypen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "title": {
+        "de": "Liste von Ressourcentypen im Openeduhub"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -89,6 +100,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -119,7 +132,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -133,7 +155,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -141,9 +165,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -161,9 +182,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

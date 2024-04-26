@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bd8be6d5-0fbe-4534-a4b3-773154ba6abc",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fbd8be6d5-0fbe-4534-a4b3-773154ba6abc",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fbd8be6d5-0fbe-4534-a4b3-773154ba6abc",
   "prefLabel": {
     "de": "Mathematik"
   },
@@ -10,30 +8,6 @@
     "bd8be6d5-0fbe-4534-a4b3-773154ba6abc"
   ],
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2d34688d-00b6-47f7-8522-31909c2671b4",
-      "prefLabel": {
-        "de": "Algebra"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3faa2935-ee4b-46b3-b88b-e493922b69d0",
-      "prefLabel": {
-        "de": "Einheiten umrechnen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e7a12b0-2314-4bb0-9fd5-5c067cfb2b3e",
-      "prefLabel": {
-        "de": "Trigonometrie"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/90c6411f-eadc-4478-b668-866ed6eb9012",
-      "prefLabel": {
-        "de": "Geometrie"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9b8c8454-2435-4d30-84c4-60eb03c972d1",
       "prefLabel": {
@@ -53,9 +27,33 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e7a12b0-2314-4bb0-9fd5-5c067cfb2b3e",
+      "prefLabel": {
+        "de": "Trigonometrie"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f15f727c-9a5a-4f20-b1be-483c15477648",
       "prefLabel": {
         "de": "Analytische Geometrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2d34688d-00b6-47f7-8522-31909c2671b4",
+      "prefLabel": {
+        "de": "Algebra"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3faa2935-ee4b-46b3-b88b-e493922b69d0",
+      "prefLabel": {
+        "de": "Einheiten umrechnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/90c6411f-eadc-4478-b668-866ed6eb9012",
+      "prefLabel": {
+        "de": "Geometrie"
       }
     }
   ],
@@ -64,16 +62,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/380"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -81,6 +92,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -111,7 +124,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -125,7 +147,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -133,9 +157,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -153,9 +174,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

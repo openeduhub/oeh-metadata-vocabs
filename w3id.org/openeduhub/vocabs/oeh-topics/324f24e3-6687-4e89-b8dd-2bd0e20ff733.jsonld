@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/324f24e3-6687-4e89-b8dd-2bd0e20ff733",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F324f24e3-6687-4e89-b8dd-2bd0e20ff733",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F324f24e3-6687-4e89-b8dd-2bd0e20ff733",
   "prefLabel": {
     "de": "Geschichte"
   },
@@ -20,57 +18,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/17b26e96-1926-4c0e-8043-0293f6a22a84",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fba9ac83-27c7-42aa-b770-665c7e969411",
       "prefLabel": {
-        "de": "Antike"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1822488e-ef6a-4c93-bb26-56ad0b929fc3",
-      "prefLabel": {
-        "de": "Frühe Hochkulturen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/19d8b5dc-a500-4ce6-a1e6-c98d63f975d9",
-      "prefLabel": {
-        "de": "Regionalgeschichte"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/36b9b5f6-7f4c-450b-905b-70e5cd9daff9",
-      "prefLabel": {
-        "de": "Vor- und Frühgeschichte"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40135f5e-b733-4d89-952d-7b176bd4c774",
-      "prefLabel": {
-        "de": "Mittelalter"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/459a2d6b-c63d-4580-89bd-67ee7c7fc601",
-      "prefLabel": {
-        "de": "Was ist Geschichte?"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
-      "prefLabel": {
-        "de": "20. Jahrhundert"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5b63fe50-7522-447b-850f-b11078d905b8",
-      "prefLabel": {
-        "de": "Ländergeschichte"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6be77823-a5e4-49d9-88e5-a2f657b80fd5",
-      "prefLabel": {
-        "de": "Geschichte im Überblick"
+        "de": "19. Jahrhundert"
       }
     },
     {
@@ -80,15 +30,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b2b83f95-cde1-4eeb-8adf-2ef3e219b06b",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
       "prefLabel": {
-        "de": "21. Jahrhundert"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bb62b9ad-e405-4336-b7b7-79bcf35197a8",
-      "prefLabel": {
-        "de": "Frühe Neuzeit"
+        "de": "20. Jahrhundert"
       }
     },
     {
@@ -98,9 +42,63 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fba9ac83-27c7-42aa-b770-665c7e969411",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5b63fe50-7522-447b-850f-b11078d905b8",
       "prefLabel": {
-        "de": "19. Jahrhundert"
+        "de": "Ländergeschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/19d8b5dc-a500-4ce6-a1e6-c98d63f975d9",
+      "prefLabel": {
+        "de": "Regionalgeschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/459a2d6b-c63d-4580-89bd-67ee7c7fc601",
+      "prefLabel": {
+        "de": "Was ist Geschichte?"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1822488e-ef6a-4c93-bb26-56ad0b929fc3",
+      "prefLabel": {
+        "de": "Frühe Hochkulturen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/36b9b5f6-7f4c-450b-905b-70e5cd9daff9",
+      "prefLabel": {
+        "de": "Vor- und Frühgeschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6be77823-a5e4-49d9-88e5-a2f657b80fd5",
+      "prefLabel": {
+        "de": "Geschichte im Überblick"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bb62b9ad-e405-4336-b7b7-79bcf35197a8",
+      "prefLabel": {
+        "de": "Frühe Neuzeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/40135f5e-b733-4d89-952d-7b176bd4c774",
+      "prefLabel": {
+        "de": "Mittelalter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b2b83f95-cde1-4eeb-8adf-2ef3e219b06b",
+      "prefLabel": {
+        "de": "21. Jahrhundert"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/17b26e96-1926-4c0e-8043-0293f6a22a84",
+      "prefLabel": {
+        "de": "Antike"
       }
     }
   ],
@@ -109,16 +107,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -126,6 +137,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -156,7 +169,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -170,7 +192,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -178,9 +202,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -198,9 +219,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

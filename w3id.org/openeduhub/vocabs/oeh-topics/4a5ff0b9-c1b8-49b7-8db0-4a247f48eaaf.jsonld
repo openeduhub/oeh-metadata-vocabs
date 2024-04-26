@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F4a5ff0b9-c1b8-49b7-8db0-4a247f48eaaf",
   "prefLabel": {
     "de": "20. Jahrhundert"
   },
@@ -14,9 +12,33 @@
   ],
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5850ab5-fe16-4701-8055-6c49ecdb80ae",
+      "prefLabel": {
+        "de": "Deutschland 1949 - 1990"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/648c6504-a57a-465e-ad00-01fae674abe3",
+      "prefLabel": {
+        "de": "Deutschland 1945 - 1949"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/47f15a3f-b7ed-41f7-9178-6dab79dd4227",
+      "prefLabel": {
+        "de": "Welt ab 1945"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1313e969-5fa0-451d-a3bd-777c5633de9f",
       "prefLabel": {
         "de": "Deutschland ab 1990"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bc246caa-2a03-45b5-ad35-310f91c19aec",
+      "prefLabel": {
+        "de": "Erster Weltkrieg"
       }
     },
     {
@@ -32,30 +54,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/47f15a3f-b7ed-41f7-9178-6dab79dd4227",
-      "prefLabel": {
-        "de": "Welt ab 1945"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4dc8cca2-6fab-4be9-af66-d44791db2889",
-      "prefLabel": {
-        "de": "Zweiter Weltkrieg"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/648c6504-a57a-465e-ad00-01fae674abe3",
-      "prefLabel": {
-        "de": "Deutschland 1945 - 1949"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5850ab5-fe16-4701-8055-6c49ecdb80ae",
-      "prefLabel": {
-        "de": "Deutschland 1949 - 1990"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a7134459-00ba-4e15-a8ed-8b558fe5db88",
       "prefLabel": {
         "de": "Holocaust"
@@ -68,9 +66,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/bc246caa-2a03-45b5-ad35-310f91c19aec",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4dc8cca2-6fab-4be9-af66-d44791db2889",
       "prefLabel": {
-        "de": "Erster Weltkrieg"
+        "de": "Zweiter Weltkrieg"
       }
     },
     {
@@ -91,13 +89,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -105,6 +111,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -135,7 +143,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -149,7 +166,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -157,9 +176,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -177,9 +193,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

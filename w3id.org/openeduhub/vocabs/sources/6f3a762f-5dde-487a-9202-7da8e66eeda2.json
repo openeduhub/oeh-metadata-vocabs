@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/sources/6f3a762f-5dde-487a-9202-7da8e66eeda2",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F6f3a762f-5dde-487a-9202-7da8e66eeda2",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F6f3a762f-5dde-487a-9202-7da8e66eeda2",
   "prefLabel": {
     "de": "Entropy - Wissenschaft schnell erklärt"
   },
@@ -12,14 +10,26 @@
       "de": "Youtube"
     }
   },
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/sources/",
-    "title": {
-      "de": "Liste von Quellen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/",
+      "title": {
+        "de": "Liste von Quellen im Openeduhub"
+      }
     }
-  },
-  "url": "https://www.youtube.com/channel/UC5dBZm6ztKizdUnN7Puz3QQ/featured",
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/"
+    }
+  ],
+  "url": [
+    {
+      "id": "https://www.youtube.com/channel/UC5dBZm6ztKizdUnN7Puz3QQ/featured"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -27,6 +37,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -57,7 +69,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -71,7 +92,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -79,9 +102,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -99,9 +119,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

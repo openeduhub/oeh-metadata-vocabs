@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/975C9AFF-0F15-48AB-8238-24E72A614E68",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FdigitalCompetencies%2F975C9AFF-0F15-48AB-8238-24E72A614E68",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FdigitalCompetencies%2F975C9AFF-0F15-48AB-8238-24E72A614E68",
   "prefLabel": {
     "de": "4.2. Persönliche Daten und Privatsphäre schützen"
   },
@@ -38,13 +36,21 @@
       "de": "4. Schützen und sicher agieren"
     }
   },
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/",
-    "title": {
-      "de": "Kompetenzen in der digitalen Welt (KMK)"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/",
+      "title": {
+        "de": "Kompetenzen in der digitalen Welt (KMK)"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/digitalCompetencies/"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -52,6 +58,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -82,7 +90,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -96,7 +113,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -104,9 +123,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -124,9 +140,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

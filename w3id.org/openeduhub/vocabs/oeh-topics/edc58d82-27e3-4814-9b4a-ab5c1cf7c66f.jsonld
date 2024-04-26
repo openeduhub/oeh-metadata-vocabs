@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/edc58d82-27e3-4814-9b4a-ab5c1cf7c66f",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fedc58d82-27e3-4814-9b4a-ab5c1cf7c66f",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fedc58d82-27e3-4814-9b4a-ab5c1cf7c66f",
   "prefLabel": {
     "de": "Grammatik"
   },
@@ -14,33 +12,15 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/049030e3-5d92-41a3-b51b-9fca2533026b",
-      "prefLabel": {
-        "de": "Pronomen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5560a33a-e514-404f-be8a-bb5b3bee0235",
       "prefLabel": {
         "de": "Verben"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6e692239-52be-4083-8093-936a6872714e",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/049030e3-5d92-41a3-b51b-9fca2533026b",
       "prefLabel": {
-        "de": "Artikel und Begleiter"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/82d19ec0-4c70-48f2-a294-c1477d19aa75",
-      "prefLabel": {
-        "de": "Konjunktionen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9238ef4f-7797-496f-9486-53e995d6d159",
-      "prefLabel": {
-        "de": "Adverb"
+        "de": "Pronomen"
       }
     },
     {
@@ -62,9 +42,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/82d19ec0-4c70-48f2-a294-c1477d19aa75",
+      "prefLabel": {
+        "de": "Konjunktionen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f64bb5f6-e195-430d-b6bd-b6fb6725563a",
       "prefLabel": {
         "de": "Adjektiv"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9238ef4f-7797-496f-9486-53e995d6d159",
+      "prefLabel": {
+        "de": "Adverb"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6e692239-52be-4083-8093-936a6872714e",
+      "prefLabel": {
+        "de": "Artikel und Begleiter"
       }
     }
   ],
@@ -79,13 +77,21 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20002"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
@@ -93,6 +99,8 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -123,7 +131,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -137,7 +154,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -145,9 +164,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -165,9 +181,28 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }
