@@ -1,0 +1,38 @@
+---
+# see https://github.com/nextapps-de/flexsearch#tokenizer-prefix-search for options
+tokenizer: "forward" # strict, forward, reverse, full
+custom_domain: ""
+fail_on_validation: false
+searchableAttributes:
+  - "prefLabel" # you should not delete this one
+  - "notation"
+  - "altLabel"
+  - "hiddenLabel"
+  - "example"
+  - "definition"
+ui:
+  title: "OpenEduHub Vocabs" # Title is mandatory
+  logo: "wlo-logo.png" # Path
+  colors:
+    skoHubWhite: "rgb(255, 255, 255)"
+    skoHubDarkColor: "rgb(3, 40, 80)"
+    skoHubMiddleColor: "#032850"
+    skoHubLightColor: "rgb(40, 200, 175)"
+    skoHubThinColor: "rgb(55, 250, 210)"
+    skoHubBlackColor: "rgb(5, 30, 30)"
+    skoHubAction: "rgb(3, 42, 85)"
+    skoHubNotice: "rgb(250, 180, 50)"
+    skoHubDarkGrey: "rgb(155, 155, 155)"
+    skoHubMiddleGrey: "rgb(200, 200, 200)"
+    skoHubLightGrey: "rgb(235, 235, 235)"
+  fonts:
+    regular:
+      font_family: "Ubuntu"
+      font_style: "normal"
+      font_weight: 400
+      name: "ubuntu-v20-latin-regular"
+    bold:
+      font_family: "Ubuntu"
+      font_style: "normal"
+      font_weight: 700
+      name: "ubuntu-v20-latin-700"
