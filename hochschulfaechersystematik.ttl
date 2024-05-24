@@ -8,7 +8,13 @@
   dct:title "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de, "Destatis classification for subject groups, study areas and study subjects"@en, "Destatis класифікація за предметними рубриками, спеціальностями та дисциплінами"@uk ;
   dct:alternative "Hochschulfächersystematik"@de ;
   dct:description "Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@de , "This SKOS classification is based on Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@en, "Ця SKOS класифікація грунтується на Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919)."@uk ;
-  skos:hasTopConcept  <n1>, <n2>, <n3>, <n4>, <n5>, <n7>, <n8>, <n9> .
+  skos:hasTopConcept  <n0>, <n1>, <n2>, <n3>, <n4>, <n5>, <n7>, <n8>, <n9> .
+
+<n0> a skos:Concept ;
+  skos:prefLabel "Fachübergreifend"@de, "Interdisciplinary"@en, "Міждисциплінарний"@uk ;
+  skos:notation "0" ;
+  skos:exactMatch kim:n0 ;
+  skos:topConceptOf <> .
 
 <n1> a skos:Concept ;
   skos:prefLabel "Geisteswissenschaften"@de, "Humanities"@en, "Гуманітарні науки"@uk ;
