@@ -1260,6 +1260,12 @@
     skos:topConceptOf <> ;
     sdo:url <https://www.scienceinschool.org> .
 
+<f25be35c-a329-401f-9c5a-eb91bb6d8fce> a skos:Concept ;
+   skos:notation "bne_portal_spider"^^xsd:string ;
+   skos:prefLabel "BNE-Portal"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://www.bne-portal.de> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1495,4 +1501,5 @@
         <10911b79-c770-46f3-a899-91ea2b562c86>,
         <31400357-3a24-4bfe-9ea8-281344a5ee90>,
         <2c34f4cb-3bac-483a-b6a7-f25c0fdacc5e>,
-        <57addf1b-cf6e-437b-a9f1-93c19c614a76>.
+        <57addf1b-cf6e-437b-a9f1-93c19c614a76>,
+        <f25be35c-a329-401f-9c5a-eb91bb6d8fce>.
