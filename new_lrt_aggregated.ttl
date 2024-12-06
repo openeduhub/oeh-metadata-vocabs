@@ -187,6 +187,14 @@
    skos:prefLabel "Event, Wettbewerb"@de ;
    skos:topConceptOf <> .
 
+<0d1f8d25-7a81-44d5-b250-1c42bb71c167> a skos:Concept ;
+   skos:prefLabel "Regelungsintrumente"@de ;
+   skos:topConceptOf <> .
+
+<9c2acd39-7207-4e28-87a5-06e60d59c9e1> a skos:Concept ;
+   skos:prefLabel "Orientierungsinstrumente"@de ;
+   skos:topConceptOf <> .
+
 <> a skos:ConceptScheme ;
     dct:creator <https://www.wirlernenonline.de> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -236,4 +244,6 @@
 		<2e678af3-1026-4171-b88e-3b3a915d1673> ,
 		<37a3ad9c-727f-4b74-bbab-27d59015c695> ,
 		<6b6786df-9ce9-44bf-8a04-caebd4456fcf> ,
-		<b06c5816-60c7-4f1b-bcd7-95d70aaa4740> .
+		<b06c5816-60c7-4f1b-bcd7-95d70aaa4740> , 
+      <0d1f8d25-7a81-44d5-b250-1c42bb71c167> ,
+      <9c2acd39-7207-4e28-87a5-06e60d59c9e1> .
