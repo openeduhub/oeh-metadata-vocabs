@@ -1912,7 +1912,6 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <3dd6bad2-8cc3-4f4b-8f85-44fa50b5050a>,
         <7bf98baf-9229-46d4-bc95-ce0b30508ae2>,
         <343066ad-4a22-4025-938b-15524e102cd8>,
-        <d3aba132-0cdc-486a-acbf-95016364403b>,
         <c9fb123f-bd85-4e6e-80c0-96629ece7248> ;
     skos:relatedMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:prefLabel "Regelungsintrumente (Gesetze, Normen, Konventionen, Empfehlungen)"@de .
@@ -1938,12 +1937,6 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
 <343066ad-4a22-4025-938b-15524e102cd8> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Konvention, informeller Standard, Leitlinien"@de ;
-    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
-    skos:inScheme <> .
-
-<d3aba132-0cdc-486a-acbf-95016364403b> a skos:Concept ;
-    skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
-    skos:prefLabel "Handbuch, Dokumentation und Regularien"@de ;
     skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
