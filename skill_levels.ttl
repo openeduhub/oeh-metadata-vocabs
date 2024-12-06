@@ -1,0 +1,27 @@
+@base <http://w3id.org/openeduhub/vocabs/skill_levels/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Fähigkeitsstufen"@de ;
+    dct:title "Skill levels"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-12-06"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <starter>, <practitioner>, <expert> .
+
+<starter> a skos:Concept ;
+    skos:prefLabel "Einsteiger"@de ;
+    skos:prefLabel "Starter"@en ;
+    skos:topConceptOf <> .
+
+<practitioner> a skos:Concept ;
+    skos:prefLabel "Praktiker"@de ;
+    skos:prefLabel "Practitioner"@en ;
+    skos:topConceptOf <> .
+
+<expert> a skos:Concept ;
+    skos:prefLabel "Experte"@de ;
+    skos:prefLabel "Expert"@en ;
+    skos:topConceptOf <> .
