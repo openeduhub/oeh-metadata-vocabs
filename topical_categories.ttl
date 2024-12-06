@@ -1,0 +1,47 @@
+@base <http://w3id.org/openeduhub/vocabs/topical_categories/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Thematische Kategorien"@de ;
+    dct:title "Topical Categories"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-12-06"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <didactic>, <legal>, <organizational>, <technical>, <economic>, <political>, <social> .
+
+<didactic> a skos:Concept ;
+    skos:prefLabel "didaktisch"@de ;
+    skos:prefLabel "didactic"@en ;
+    skos:topConceptOf <> .
+
+<legal> a skos:Concept ;
+    skos:prefLabel "juristisch"@de ;
+    skos:prefLabel "legal"@en ;
+    skos:topConceptOf <> .
+
+<organizational> a skos:Concept ;
+    skos:prefLabel "organisatorisch"@de ;
+    skos:prefLabel "organizational"@en ;
+    skos:topConceptOf <> .
+
+<technical> a skos:Concept ;
+    skos:prefLabel "technisch"@de ;
+    skos:prefLabel "technical"@en ;
+    skos:topConceptOf <> .
+
+<economic> a skos:Concept ;
+    skos:prefLabel "wirtschaftlich"@de ;
+    skos:prefLabel "economic"@en ;
+    skos:topConceptOf <> .
+
+<political> a skos:Concept ;
+    skos:prefLabel "politisch"@de ;
+    skos:prefLabel "political"@en ;
+    skos:topConceptOf <> .
+
+<social> a skos:Concept ;
+    skos:prefLabel "sozial"@de ;
+    skos:prefLabel "social"@en ;
+    skos:topConceptOf <> .
