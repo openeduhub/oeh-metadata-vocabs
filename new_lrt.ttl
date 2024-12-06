@@ -1914,36 +1914,43 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <343066ad-4a22-4025-938b-15524e102cd8>,
         <d3aba132-0cdc-486a-acbf-95016364403b>,
         <c9fb123f-bd85-4e6e-80c0-96629ece7248> ;
+    skos:relatedMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:prefLabel "Regelungsintrumente (Gesetze, Normen, Konventionen, Empfehlungen)"@de .
 
 <5c545174-49d8-4e9c-85c3-bf038f9cdd5a> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Gesetz, Verordnung"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <3dd6bad2-8cc3-4f4b-8f85-44fa50b5050a> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Norm, Standard"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <7bf98baf-9229-46d4-bc95-ce0b30508ae2> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Policy"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <343066ad-4a22-4025-938b-15524e102cd8> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Konvention, informeller Standard, Leitlinien"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <d3aba132-0cdc-486a-acbf-95016364403b> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Handbuch, Dokumentation und Regularien"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <c9fb123f-bd85-4e6e-80c0-96629ece7248> a skos:Concept ;
     skos:broader <b0f611f0-27a6-4500-afdc-f378661a69d7> ;
     skos:prefLabel "Studien-/Ausbildungsordnung"@de ;
+    skos:broadMatch agg:0d1f8d25-7a81-44d5-b250-1c42bb71c167 ;
     skos:inScheme <> .
 
 <16ceb92d-1b90-4c3a-b0f4-9b2f577eb9e4> a skos:Concept ;
@@ -1952,26 +1959,31 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <cd1686cd-43f0-45b2-b22e-b4d125b8be31>,   
         <723fd31c-9c9a-4f14-8acc-f9cecf02a487>,
         <b147e042-3d9d-440d-a442-404573c0d402> ;
+    skos:relatedMatch agg:9c2acd39-7207-4e28-87a5-06e60d59c9e1 ;
     skos:prefLabel "Orientierungsinstrumente"@de .
 
 <970bca11-4283-4fd2-ae53-1b162d122962> a skos:Concept ;
     skos:broader <16ceb92d-1b90-4c3a-b0f4-9b2f577eb9e4> ;
     skos:prefLabel "Handlungsempfehlung, Resolution"@de ;
+    skos:broadMatch agg:9c2acd39-7207-4e28-87a5-06e60d59c9e1 ;
     skos:inScheme <> .
 
 <cd1686cd-43f0-45b2-b22e-b4d125b8be31> a skos:Concept ;
     skos:broader <16ceb92d-1b90-4c3a-b0f4-9b2f577eb9e4> ;
     skos:prefLabel "Positionspapier"@de ;
+    skos:broadMatch agg:9c2acd39-7207-4e28-87a5-06e60d59c9e1 ;
     skos:inScheme <> .
 
 <723fd31c-9c9a-4f14-8acc-f9cecf02a487> a skos:Concept ;
     skos:broader <16ceb92d-1b90-4c3a-b0f4-9b2f577eb9e4> ;
     skos:prefLabel "Strategie, Aktionsplan"@de ;
+    skos:broadMatch agg:9c2acd39-7207-4e28-87a5-06e60d59c9e1 ;
     skos:inScheme <> .
 
 <b147e042-3d9d-440d-a442-404573c0d402> a skos:Concept ;
     skos:broader <16ceb92d-1b90-4c3a-b0f4-9b2f577eb9e4> ;
     skos:prefLabel "Whitepaper"@de ;
+    skos:broadMatch agg:9c2acd39-7207-4e28-87a5-06e60d59c9e1 ;
     skos:inScheme <> .
 
 <> a skos:ConceptScheme ;
