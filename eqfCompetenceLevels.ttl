@@ -1,0 +1,77 @@
+@base <http://w3id.org/openeduhub/vocabs/eqfCompetenceLevels/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Kompetenzniveaus nach dem Europäischen Qualifikationsrahmen"@de;
+    dct:title "Competence levels according to EQF"@en;
+    dct:description "Der EQF (European Qualification Framework) beschreibt acht Kompetenzniveaus, denen sich Qualifikationen zuordnen lassen"@de;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-12-06"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <1>, <2>, <3>, <4>, <5>, <6>, <7>, <8> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "Stufe 1: Grundlegende Kenntnisse und Fähigkeiten"@de ;
+    skos:definition """Kenntnisse: Grundlegendes Wissen, das auf konkreten Fakten und einfachen Konzepten basiert.
+        Fähigkeiten: Fähigkeit, einfache Aufgaben mit direkter Anleitung und Unterstützung zu erledigen.
+        Kompetenzen: Sehr begrenzte Autonomie, wenig Verantwortung. In der Regel handelt es sich um Tätigkeiten, die keine spezielle Vorbildung oder vertieftes Wissen erfordern.
+        Beispiel: Ein Berufseinsteiger ohne spezielle Berufsausbildung, der einfache, repetitive Aufgaben ausführt."""@de ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "Stufe 2: Grundlegende Fähigkeiten"@de ;
+    skos:definition """Kenntnisse: Einfache und praktische Kenntnisse, die in bekannten und konkreten Situationen angewendet werden.
+        Fähigkeiten: Anwendung grundlegender Fähigkeiten zur Ausführung einfacher Aufgaben, unter Anleitung und Aufsicht.
+        Kompetenzen: Begrenzte Verantwortung und Entscheidungsfreiheit, aber noch stark abhängig von Anleitung und Struktur.
+        Beispiel: Eine einfache Ausbildung im Bereich Gastronomie, bei der praktische Fertigkeiten im Umgang mit bestimmten Geräten oder der Zubereitung einfacher Gerichte vermittelt werden."""@de ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "Stufe 3: Anwendungsfähigkeiten in einem Berufsfeld"@de ;
+    skos:definition """Kenntnisse: Anwendung von grundlegenden Kenntnissen in strukturierten und bekannten Kontexten.
+        Fähigkeiten: Fähigkeit zur Ausführung von Aufgaben, die mehr Eigeninitiative und einfache Problemlösungen erfordern.
+        Kompetenzen: Ein gewisses Maß an Verantwortung, aber die Entscheidungsmacht ist noch begrenzt.
+        Beispiel: Ein Ausbildungsberuf wie Verkäufer oder Handwerker, der grundlegende Fähigkeiten im Beruf erfordert und gewisse Eigenverantwortung für spezifische Aufgaben überträgt."""@de ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "Stufe 4: Komplexere Fertigkeiten in einem Berufsfeld"@de ;
+    skos:definition """Kenntnisse: Erweiterte Kenntnisse in einem Berufsfeld, die auch aus verschiedenen Quellen stammen und auf Theorie und Praxis basieren können.
+        Fähigkeiten: Fähigkeit, komplexere Aufgaben zu lösen und eigene Probleme zu identifizieren und zu analysieren.
+        Kompetenzen: Übernahme von Verantwortung für die Durchführung von Aufgaben in einem festen Rahmen, auch unter Berücksichtigung von Arbeitsabläufen und Zielen.
+        Beispiel: Facharbeiter oder spezialisierte Berufe, bei denen eine detailliertere Ausbildung und selbstständige Arbeit erforderlich sind."""@de ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "Stufe 5: Fachliche Fertigkeiten und analytische Fähigkeiten"@de ;
+    skos:definition """Kenntnisse: Detaillierte Kenntnisse und Verständnis komplexer Konzepte, die theoretische und praktische Perspektiven kombinieren.
+        Fähigkeiten: Fähigkeit zur Anwendung von Fachkenntnissen zur Analyse und Lösung von Problemen, auch in einem breiteren Kontext.
+        Kompetenzen: Hohe Verantwortung, auch im Hinblick auf das Management von Ressourcen und die Entscheidungsfindung. Ein gewisser Grad an selbstständiger Arbeitsweise und Führungskompetenz.
+        Beispiel: Techniker, die über eine weiterführende Ausbildung und Fachkenntnisse verfügen und eigenständig in ihren Aufgaben arbeiten."""@de ;
+    skos:topConceptOf <> .
+
+<6> a skos:Concept ;
+    skos:prefLabel "Stufe 6: Hochschulniveau (Bachelor-Niveau)"@de ;
+    skos:definition """Kenntnisse: Umfassende Kenntnisse und fundiertes Verständnis von Theorien und Konzepten in einem Fachbereich.
+        Fähigkeiten: Fähigkeit, komplexe Probleme in einem speziellen Bereich zu lösen, neue Lösungen zu entwickeln und kritisch zu analysieren.
+        Kompetenzen: Hohe Verantwortung und selbstständiges Arbeiten, oft verbunden mit der Führung von Projekten oder Gruppen.
+        Beispiel: Bachelor-Abschluss, der den Erwerb von umfassendem Fachwissen und die Fähigkeit zur Problemlösung auf einem höheren Niveau umfasst."""@de ;
+    skos:topConceptOf <> .
+
+<7> a skos:Concept ;
+    skos:prefLabel "Stufe 7: Fortgeschrittene Hochschulqualifikationen (Master-Niveau)"@de ;
+    skos:definition """Kenntnisse: Vertieftes und spezialisiertes Wissen, das auf einem fortgeschrittenen wissenschaftlichen oder beruflichen Niveau basiert.
+        Fähigkeiten: Fähigkeit, neue und komplexe Probleme zu lösen und innovative Lösungen zu entwickeln. Hohe Anforderungen an kritische und kreative Denkfähigkeiten.
+        Kompetenzen: Sehr hohe Verantwortung für das Management von Projekten, Teams oder Forschungsarbeiten. Hohe Selbstständigkeit und Führungskompetenz.
+        Beispiel: Master-Abschluss, der tiefere Kenntnisse und die Fähigkeit zur Durchführung eigenständiger und komplexer Forschungs- oder Projektarbeit erfordert."""@de ;
+    skos:topConceptOf <> .
+
+<8> a skos:Concept ;
+    skos:prefLabel "Stufe 8: Höchste Fachqualifikationen (Doktoratsniveau)"@de ;
+    skos:definition """Kenntnisse: Sehr detailliertes und innovatives Wissen an der Spitze des Fachgebiets, oft mit Beiträgen zur Weiterentwicklung des Fachs.
+        Fähigkeiten: Fähigkeit, neue, unstrukturierte Probleme zu lösen, Forschung zu betreiben und die Entwicklung von Theorien oder neuen Methoden voranzutreiben.
+        Kompetenzen: Maximale Verantwortung für die Leitung von Forschungsprojekten, die Entwicklung von Innovationen und die Verantwortung für andere Fachkräfte.
+        Beispiel: Doktortitel oder gleichwertige Qualifikationen, die höchste Forschungskompetenzen und die Fähigkeit zur selbstständigen Erstellung neuer wissenschaftlicher Erkenntnisse beinhalten."""@de ;
+    skos:topConceptOf <> .
