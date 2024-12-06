@@ -1,31 +1,33 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/new_lrt/d3aba132-0cdc-486a-acbf-95016364403b",
+  "id": "http://w3id.org/openeduhub/vocabs/eqfCompetenceLevels/7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Handbuch, Dokumentation und Regularien"
+    "de": "Stufe 7: Fortgeschrittene Hochschulqualifikationen (Master-Niveau)"
   },
-  "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/new_lrt/b0f611f0-27a6-4500-afdc-f378661a69d7",
-    "prefLabel": {
-      "de": "Regelungsintrumente (Gesetze, Normen, Konventionen, Empfehlungen)"
-    }
+  "definition": {
+    "de": "Kenntnisse: Vertieftes und spezialisiertes Wissen, das auf einem fortgeschrittenen wissenschaftlichen oder beruflichen Niveau basiert.\n        Fähigkeiten: Fähigkeit, neue und komplexe Probleme zu lösen und innovative Lösungen zu entwickeln. Hohe Anforderungen an kritische und kreative Denkfähigkeiten.\n        Kompetenzen: Sehr hohe Verantwortung für das Management von Projekten, Teams oder Forschungsarbeiten. Hohe Selbstständigkeit und Führungskompetenz.\n        Beispiel: Master-Abschluss, der tiefere Kenntnisse und die Fähigkeit zur Durchführung eigenständiger und komplexer Forschungs- oder Projektarbeit erfordert."
   },
-  "broadMatch": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/0d1f8d25-7a81-44d5-b250-1c42bb71c167"
-    }
-  ],
   "inScheme": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/",
+      "id": "http://w3id.org/openeduhub/vocabs/eqfCompetenceLevels/",
       "title": {
-        "de": "Liste von Ressourcentypen im Openeduhub"
+        "de": "Kompetenzniveaus nach dem Europäischen Qualifikationsrahmen",
+        "en": "Competence levels according to EQF"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/new_lrt/"
+      "id": "http://w3id.org/openeduhub/vocabs/eqfCompetenceLevels/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/eqfCompetenceLevels/",
+      "title": {
+        "de": "Kompetenzniveaus nach dem Europäischen Qualifikationsrahmen",
+        "en": "Competence levels according to EQF"
+      }
     }
   ],
   "@context": {
