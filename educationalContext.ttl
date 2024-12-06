@@ -16,9 +16,9 @@
     dct:modified "2020-04-08"^^xsd:date;
     dct:issued "2020-04-08"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <elementarbereich>, <grundschule>, <sekundarstufe_1>,
+    skos:hasTopConcept <elementarbereich>, <schule>, <grundschule>, <sekundarstufe_1>,
         <sekundarstufe_2>, <hochschule>, <berufliche_bildung>, <fortbildung>,
-        <erwachsenenbildung>, <foerderschule>, <fernunterricht> .
+        <erwachsenenbildung>, <foerderschule>, <fernunterricht>, <informelles_lernen> .
 
 <elementarbereich> a skos:Concept ;
     skos:prefLabel "Elementarbereich"@de ;
@@ -28,6 +28,12 @@
     skos:narrowMatch isced97:level0 ;
     skos:exactMatch isced2011:level0 ;
     skos:exactMatch eduLevel:level_0 ;
+    skos:topConceptOf <> .
+
+<schule> a skos:Concept ;
+    skos:prefLabel "Schule"@de ;
+    skos:prefLabel "school"@en ;
+    skos:exactMatch lom:school ;
     skos:topConceptOf <> .
 
 <grundschule> a skos:Concept ;
@@ -108,4 +114,9 @@
 <fernunterricht> a skos:Concept ;
     skos:prefLabel "Fernunterricht"@de, "Distance Learning"@en ;
     skos:narrowMatch lom:other ;
+    skos:topConceptOf <> .
+
+<informelles_lernen> a skos:Concept ;
+    skos:prefLabel "Informelles Lernen"@de ;
+    skos:prefLabel "Informal learning"@en ;
     skos:topConceptOf <> .
