@@ -9,7 +9,7 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2024-12-06"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept  .
+    skos:hasTopConcept <didactic>, <legal>, <organizational>, <technical>, <economic>, <political>, <social> .
 
 <didactic> a skos:Concept ;
     skos:prefLabel "didaktisch"@de ;
