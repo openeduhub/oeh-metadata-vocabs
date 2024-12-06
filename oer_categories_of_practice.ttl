@@ -1,0 +1,47 @@
+@base <http://w3id.org/openeduhub/vocabs/oer_categories_of_practice/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "OER Praxiskategorien"@de ;
+    dct:title "OER categories of practice"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2024-12-06"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <teach>, <learn>, <introduce>, <find>, <create>, <manage>, <research> .
+
+<teach> a skos:Concept ;
+    skos:prefLabel "Mit OER lehren"@de ;
+    skos:prefLabel "Teaching with OER"@en ;
+    skos:topConceptOf <> .
+
+<learn> a skos:Concept ;
+    skos:prefLabel "Mit OER lernen"@de ;
+    skos:prefLabel "Learning with OER"@en ;
+    skos:topConceptOf <> .
+
+<introduce> a skos:Concept ;
+    skos:prefLabel "OER einführen"@de ;
+    skos:prefLabel "Introducing OER"@en ;
+    skos:topConceptOf <> .
+
+<find> a skos:Concept ;
+    skos:prefLabel "OER finden"@de ;
+    skos:prefLabel "Finding OER"@en ;
+    skos:topConceptOf <> .
+
+<create> a skos:Concept ;
+    skos:prefLabel "OER herstellen"@de ;
+    skos:prefLabel "Creating OER"@en ;
+    skos:topConceptOf <> .
+
+<manage> a skos:Concept ;
+    skos:prefLabel "OER managen"@de ;
+    skos:prefLabel "Managing OER"@en ;
+    skos:topConceptOf <> .
+
+<research> a skos:Concept ;
+    skos:prefLabel "Über OER forschen"@de ;
+    skos:prefLabel "Researching OER"@en ;
+    skos:topConceptOf <> .
