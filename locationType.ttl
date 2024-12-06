@@ -83,7 +83,7 @@
     skos:inScheme <> .
 
 <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> a skos:Concept ;
-    skos:prefLabel "Einrichtungen & Organisationen"@de ;
+    skos:prefLabel "Einrichtungen, Organisationen, Gruppen, Projekte"@de ;
     skos:narrower <E7e2c01c-6076-496d-a21d-ca527b016016>,
         <41551cc5-5c1c-4d5d-bab1-3dda6855fcbb>,
         <F01fd913-6d3b-475b-bfc7-047096084e70>,
@@ -94,6 +94,8 @@
         <D63525d4-edc5-4f47-9dd5-8c2362820a85>,
         <21db980b-a446-4611-bf49-90137ddd2d2d>,
         <Cf9abf64-e84f-401b-8cbc-a9452cf7a006>,
+        <843a9e29-e8f3-40fd-8b73-af741979512f>,
+        <2f2a6913-df83-44c7-aa60-395e0cf2596d>,
         <8c88e321-28a8-46ad-a847-605ca61c7fc9> ;
     skos:topConceptOf <> .
 
@@ -144,6 +146,16 @@
 
 <Cf9abf64-e84f-401b-8cbc-a9452cf7a006> a skos:Concept ;
     skos:prefLabel "Fachgesellschaft"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<843a9e29-e8f3-40fd-8b73-af741979512f> a skos:Concept ;
+    skos:prefLabel "Arbeitsgruppe"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
+    skos:inScheme <> .
+
+<2f2a6913-df83-44c7-aa60-395e0cf2596d> a skos:Concept ;
+    skos:prefLabel "Projekt"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
