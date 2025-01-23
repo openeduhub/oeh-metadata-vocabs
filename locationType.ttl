@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gnd: <https://d-nb.info/gnd/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Typ eines Ortes, einer Einrichtung oder Organisation"@de ;
@@ -53,7 +54,7 @@
     skos:inScheme <> .
 
 <88b2d697-4f1b-42de-b6b3-f5f331edb9bd> a skos:Concept ;
-    skos:prefLabel "Lernorte der Erwachsenen- und Weiterbildung"@de ;
+    skos:prefLabel "Lernorte für Erwachsenen- und Weiterbildung"@de ;
     skos:broader <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> ;
     skos:inScheme <> .
 
@@ -65,6 +66,152 @@
 <20249da5-09de-4f1e-90cb-34d07c58e377> a skos:Concept ;
     skos:prefLabel "außerschulischer Lernort"@de ;
     skos:broader <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> ;
+    skos:narrower <f253619d-187b-4668-b942-67885f6f2463>,
+        <e3a6c4b5-8f2d-4d3a-9a6f-1c5a3d6f7c8d>,
+        <7c9f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c8e>,
+        <4b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c8f>,
+        <2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c90>,
+        <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c91>, 
+        <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c92>, 
+        <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c93>,
+        <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c94>, 
+        <5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c95>, 
+        <2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c96>, 
+        <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c97>, 
+        <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c98>, 
+        <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c99>, 
+        <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9a>, 
+        <5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9b>, 
+        <2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9c>, 
+        <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9d>, 
+        <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9e>, 
+        <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9f> ;
+    skos:inScheme <> .
+
+<f253619d-187b-4668-b942-67885f6f2463> a skos:Concept ;
+    skos:prefLabel "Museum oder Ausstellung"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4129601-1 ;
+    skos:narrowMatch gnd:4040795-0 ;
+    skos:inScheme <> .
+
+<e3a6c4b5-8f2d-4d3a-9a6f-1c5a3d6f7c8d> a skos:Concept ;
+    skos:prefLabel "Theater oder Konzerthaus"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4128843-9 ;
+    skos:narrowMatch gnd:4059702-7 ;
+    skos:inScheme <> .
+
+<7c9f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c8e> a skos:Concept ;
+    skos:prefLabel "Gedenkstätte oder historischer Ort"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4019622-7 ;
+    skos:inScheme <> .
+
+<4b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c8f> a skos:Concept ;
+    skos:prefLabel "Technikmuseum"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:broadMatch gnd:4040795-0 ;
+    skos:inScheme <> .
+
+<2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c90> a skos:Concept ;
+    skos:prefLabel "Science-Center"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:inScheme <> .
+
+<1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c91> a skos:Concept ;
+    skos:prefLabel "Planetarium oder Sternwarte"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4174793-8 ;
+    skos:narrowMatch gnd:4183154-8 ;
+    skos:inScheme <> .
+
+<6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c92> a skos:Concept ;
+    skos:prefLabel "Wissenschaftliches Institut oder Hochschule"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4072560-1 ;
+    skos:inScheme <> .
+
+<3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c93> a skos:Concept ;
+    skos:prefLabel "Wasserkraftwerk oder Windpark"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4064745-6 ;
+    skos:narrowMatch gnd:4543294-6 ;
+    skos:inScheme <> .
+
+<9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c94> a skos:Concept ;
+    skos:prefLabel "Naturschutzgebiet oder Nationalpark"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4041414-0 ;
+    skos:narrowMatch gnd:4075220-3 ;
+    skos:inScheme <> .
+
+<5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c95> a skos:Concept ;
+    skos:prefLabel "Bauernhof oder Umweltzentrum"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4004770-2 ;
+    skos:narrowMatch gnd:4227905-7 ;
+    skos:inScheme <> .
+
+<2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c96> a skos:Concept ;
+    skos:prefLabel "Botanischer Garten"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:exactMatch gnd:4146403-5 ;
+    skos:inScheme <> .
+
+<1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c97> a skos:Concept ;
+    skos:prefLabel "Zoo oder Aquarium"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4067962-7 ;
+    skos:inScheme <> .
+
+<6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c98> a skos:Concept ;
+    skos:prefLabel "Naturkundemuseum"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:exactMatch gnd:4203075-4 ;
+    skos:inScheme <> .
+
+<3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c99> a skos:Concept ;
+    skos:prefLabel "Handwerksbetrieb und Unternehmen"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4023307-8 ;
+    skos:narrowMatch gnd:4061963-1 ;
+    skos:inScheme <> .
+
+<9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9a> a skos:Concept ;
+    skos:prefLabel "Feuerwehr- oder Polizeistation"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:relatedMatch gnd:4017013-5 ;
+    skos:relatedMatch gnd:4046595-0 ;
+    skos:inScheme <> .
+
+<5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9b> a skos:Concept ;
+    skos:prefLabel "Maker Space oder Repair Café"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:inScheme <> .
+
+<2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9c> a skos:Concept ;
+    skos:prefLabel "Bibliothek oder Archiv"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4006439-6 ;
+    skos:narrowMatch gnd:4002859-8 ;
+    skos:inScheme <> .
+
+<1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9d> a skos:Concept ;
+    skos:prefLabel "Co-Working-Space"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:inScheme <> .
+
+<6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9e> a skos:Concept ;
+    skos:prefLabel "Fernsehanstalt oder Radiostation"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:narrowMatch gnd:4154047-5 ;
+    skos:inScheme <> .
+
+<3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9f> a skos:Concept ;
+    skos:prefLabel "Sportstätte"@de ;
+    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
+    skos:exactMatch gnd:4056424-1 ;
     skos:inScheme <> .
 
 <B017b5b7-5581-4dee-b728-af19e1e91f32> a skos:Concept ;
@@ -110,7 +257,7 @@
     skos:inScheme <> .
 
 <F01fd913-6d3b-475b-bfc7-047096084e70> a skos:Concept ;
-    skos:prefLabel "Beratungs-/Serviceeinrichtung"@de ;
+    skos:prefLabel "Beratungs-oder Serviceeinrichtung"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
@@ -125,17 +272,17 @@
     skos:inScheme <> .
 
 <A73b06f3-97dd-4907-8302-95e03ddbf4fd> a skos:Concept ;
-    skos:prefLabel "Stiftung, Förderung"@de ;
+    skos:prefLabel "Stiftung oder Fördereinrichtung"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
 <42766711-bfe5-4e0e-b0ad-5d123f8e260c> a skos:Concept ;
-    skos:prefLabel "Community of Practice"@de ;
+    skos:prefLabel "Community of Practice (Lerncommunity)"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
 <D63525d4-edc5-4f47-9dd5-8c2362820a85> a skos:Concept ;
-    skos:prefLabel "Grass-Roots-Initiative"@de ;
+    skos:prefLabel "Grassroots-Initiative"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
@@ -145,7 +292,7 @@
     skos:inScheme <> .
 
 <Cf9abf64-e84f-401b-8cbc-a9452cf7a006> a skos:Concept ;
-    skos:prefLabel "Fachgesellschaft"@de ;
+    skos:prefLabel "Fachgesellschaft/Fachverband"@de ;
     skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .
 
