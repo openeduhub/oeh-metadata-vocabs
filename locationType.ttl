@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix gnd: <https://d-nb.info/gnd/> .
-@prefix osm: <http://openstreetmap.org/tags#> .
+@prefix osm: <https://wiki.openstreetmap.org/wiki/Tag:> .
 
 <> a skos:ConceptScheme ;
     dct:title "Typ eines Ortes, einer Einrichtung oder Organisation"@de ;
@@ -101,34 +101,34 @@
     skos:prefLabel "Museum"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4040795-0 ;
-    skos:exactMatch osm:tourism.museum ;
+    skos:exactMatch osm:tourism%3Dmuseum ;
     skos:inScheme <> .
 
 <b5084513-743e-4959-aace-e479c4619f96> a skos:Concept ;
     skos:prefLabel "Ausstellung"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4129601-1 ;
-    skos:exactMatch osm:tourism.artwork ;
+    skos:exactMatch osm:tourism%3Dartwork ;
     skos:inScheme <> .
 
 <e3a6c4b5-8f2d-4d3a-9a6f-1c5a3d6f7c8d> a skos:Concept ;
     skos:prefLabel "Theater"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4059702-7 ;
-    skos:exactMatch osm:amenity.theatre ;
+    skos:exactMatch osm:amenity%3Dtheatre ;
     skos:inScheme <> .
 
 <238a3978-7411-4421-9769-8729fe17432e> a skos:Concept ;
     skos:prefLabel "Konzerthaus"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4128843-9 ;
-    skos:exactMatch osm:amenity.concert_hall ;
+    skos:exactMatch osm:amenity%3Dconcert_hall ;
     skos:inScheme <> .
 
 <7c9f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c8e> a skos:Concept ;
     skos:prefLabel "Gedenkstätte"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch osm:historic.memorial ;
+    skos:exactMatch osm:historic%3Dmemorial ;
     skos:exactMatch gnd:4019622-7 ;
     skos:inScheme <> .
 
@@ -146,55 +146,55 @@
     skos:prefLabel "Planetarium"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4174793-8 ;
-    skos:exactMatch osm:amenity.planetarium ;
+    skos:exactMatch osm:amenity%3Dplanetarium ;
     skos:inScheme <> .
 
 <8fb4c08e-e257-419e-aef0-b000aeaa5934> a skos:Concept ;
     skos:prefLabel "Sternwarte"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4183154-8 ;
-    skos:exactMatch osm:man_made.observatory ;
+    skos:exactMatch osm:man_made%3Dobservatory ;
     skos:inScheme <> .
 
 <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c92> a skos:Concept ;
     skos:prefLabel "Wissenschaftliches Institut"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch osm:amenity.research_institute ;
+    skos:exactMatch osm:amenity%3Dresearch_institute ;
     skos:inScheme <> .
 
 <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c93> a skos:Concept ;
     skos:prefLabel "Wasserkraftwerk"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4064745-6 ;
-    skos:exactMatch osm:plantSource.hydro ;
+    skos:exactMatch osm:plant:source%3Dhydro ;
     skos:inScheme <> .
 
 <7a280235-2a86-43c2-bf09-5ea57c64e867> a skos:Concept ;
     skos:prefLabel "Windpark"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4543294-6 ;
-    skos:exactMatch osm:plantSource.wind ;
+    skos:exactMatch osm:plant:source%3Dwind ;
     skos:inScheme <> .
 
 <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c94> a skos:Concept ;
     skos:prefLabel "Naturschutzgebiet"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4041414-0 ;
-    skos:exactMatch osm:boundary.protected_area ;
+    skos:exactMatch osm:boundary%3Dprotected_area ;
     skos:inScheme <> .
 
 <fddbb063-87cf-4002-9045-69d200d412b3> a skos:Concept ;
     skos:prefLabel "Nationalpark"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4075220-3 ;
-    skos:exactMatch osm:boundary.national_park ;
+    skos:exactMatch osm:boundary%3Dnational_park ;
     skos:inScheme <> .
 
 <5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c95> a skos:Concept ;
     skos:prefLabel "Bauernhof"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4004770-2 ;
-    skos:exactMatch osm:landuse.farmyard ;
+    skos:exactMatch osm:landuse%3Dfarmyard ;
     skos:inScheme <> .
 
 <a02054c4-8338-4ba1-a733-bc0941cad919> a skos:Concept ;
@@ -207,73 +207,73 @@
     skos:prefLabel "Botanischer Garten"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4146403-5 ;
-    skos:exactMatch osm:gardenType.botanical ;
+    skos:exactMatch osm:gardenType%3Dbotanical ;
     skos:inScheme <> .
 
 <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c97> a skos:Concept ;
     skos:prefLabel "Zoo"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4067962-7 ;
-    skos:exactMatch osm:tourism.zoo ;
+    skos:exactMatch osm:tourism%3Dzoo ;
     skos:inScheme <> .
 
 <1ac0d75a-37a8-48bf-a5ea-a474d1850c5e> a skos:Concept ;
     skos:prefLabel "Aquarium"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch osm:tourism.aquarium ;
+    skos:exactMatch osm:tourism%3Daquarium ;
     skos:inScheme <> .
 
 <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9a> a skos:Concept ;
     skos:prefLabel "Feuerwehrstation"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4017013-5 ;
-    skos:exactMatch osm:amenity.fire_station ;
+    skos:exactMatch osm:amenity%3Dfire_station ;
     skos:inScheme <> .
 
 <125f19db-aca5-44a7-b9f7-01cd36114e64> a skos:Concept ;
     skos:prefLabel "Polizeistation"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4046595-0 ;
-    skos:exactMatch osm:amenity.police ;
+    skos:exactMatch osm:amenity%3Dpolice ;
     skos:inScheme <> .
 
 <5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9b> a skos:Concept ;
     skos:prefLabel "Maker Space"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch osm:hackerspace.makerspace ;
+    skos:exactMatch osm:hackerspace%3Dmakerspace ;
     skos:inScheme <> .
 
 <02d0425c-b864-471c-9603-a55d0bdf8e16> a skos:Concept ;
     skos:prefLabel "Repair Café"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch osm:repair.assisted_self_service ;
+    skos:exactMatch osm:repair%3Dassisted_self_service ;
     skos:inScheme <> .
 
 <2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9c> a skos:Concept ;
     skos:prefLabel "Bibliothek"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4006439-6 ;
-    skos:exactMatch osm:amenity.library ;
+    skos:exactMatch osm:amenity%3Dlibrary ;
     skos:inScheme <> .
 
 <e7589a9b-914d-48e5-8c7f-6e908f1872d0> a skos:Concept ;
     skos:prefLabel "Archiv"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch gnd:4002859-8 ;
-    skos:exactMatch osm:amenity.archive ;
+    skos:exactMatch osm:amenity%3Darchive ;
     skos:inScheme <> .
 
 <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9d> a skos:Concept ;
     skos:prefLabel "Co-Working-Space"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:relatedMatch osm:office.coworking ;
+    skos:relatedMatch osm:office%3Dcoworking ;
     skos:inScheme <> .
 
 <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9e> a skos:Concept ;
     skos:prefLabel "Fernsehanstalt oder Radiostation"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     # skos:narrowMatch gnd:4154047-5 ;
-    skos:broadMatch osm:amenity.studio ;
+    skos:broadMatch osm:amenity%3Dstudio ;
     skos:inScheme <> .
 
 <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9f> a skos:Concept ;
