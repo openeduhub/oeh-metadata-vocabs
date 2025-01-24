@@ -77,7 +77,6 @@
         <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c91>,
         <8fb4c08e-e257-419e-aef0-b000aeaa5934>,
         <6b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c92>,
-        <0d9c03d4-d0c2-405b-993c-e8e28447fcd2>,
         <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c93>,
         <7a280235-2a86-43c2-bf09-5ea57c64e867>,
         <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c94>,
@@ -87,8 +86,6 @@
         <2b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c96>,
         <1b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c97>,
         <1ac0d75a-37a8-48bf-a5ea-a474d1850c5e>,
-        <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c99>,
-        <c47ca0e6-f9b8-45f2-8932-dca5ee2d6f1a>,
         <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9a>,
         <125f19db-aca5-44a7-b9f7-01cd36114e64>,
         <5b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9b>,
@@ -165,13 +162,6 @@
     skos:exactMatch osm:amenity.research_institute ;
     skos:inScheme <> .
 
-<0d9c03d4-d0c2-405b-993c-e8e28447fcd2> a skos:Concept ;
-    skos:prefLabel "Hochschule"@de ;
-    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch gnd:4072560-1 ;
-    skos:exactMatch osm:amenity.university ;
-    skos:inScheme <> .
-
 <3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c93> a skos:Concept ;
     skos:prefLabel "Wasserkraftwerk"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
@@ -231,18 +221,6 @@
     skos:prefLabel "Aquarium"@de ;
     skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
     skos:exactMatch osm:tourism.aquarium ;
-    skos:inScheme <> .
-
-<3b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c99> a skos:Concept ;
-    skos:prefLabel "Handwerksbetrieb"@de ;
-    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch gnd:4023307-8 ;
-    skos:inScheme <> .
-
-<c47ca0e6-f9b8-45f2-8932-dca5ee2d6f1a> a skos:Concept ;
-    skos:prefLabel "Unternehmen"@de ;
-    skos:broader <20249da5-09de-4f1e-90cb-34d07c58e377> ;
-    skos:exactMatch gnd:4061963-1 ;
     skos:inScheme <> .
 
 <9b6f2d3c-4f6f-4a5f-9b3c-1c5a3d6f7c9a> a skos:Concept ;
