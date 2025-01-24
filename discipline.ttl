@@ -4,6 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix eafkey: <http://example-perma-id/eaf-schlagwortverzeichnis-all/> .
 @prefix eafsys: <http://example-perma-id/eaf-sachgebietssystematik-all/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix gnd: <https://d-nb.info/gnd/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Schulfächer"@de ;
@@ -22,9 +24,7 @@
         <04003>, <420>, <64018>, <niederdeutsch>, <44099>, <450>, <460>,
         <480>, <510>, <520>, <20006>, <28010>, <560>, <44006>, <20009>,
         <44007>, <20007>, <600>, <04012>, <20008>, <04013>, <700>, <640>,
-        <660>, <680>, <50005>, <72001>, <999>
-        .
-
+        <660>, <680>, <50005>, <72001>, <72002>, <999>.
 
 <720> a skos:Concept ;
     skos:prefLabel "Interdisciplinary media"@en, "Allgemein"@de ;
@@ -426,6 +426,14 @@
 
 <72001> a skos:Concept ;
     skos:prefLabel "Zeitgemäße Bildung"@de, "Modern education"@en ;
+    skos:editorialNote "Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden"@de ;
+    skos:topConceptOf <> .
+
+<72002> a skos:Concept ;
+    skos:prefLabel "Projektmanagement"@de, "Project management"@en ;
+    gndo:gndIdentifier "4047441-0" ;
+    skos:exactMatch gnd:4047441-0 ;
+    skos:editorialNote "Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden"@de ;
     skos:topConceptOf <> .
 
 <999> a skos:Concept ;
