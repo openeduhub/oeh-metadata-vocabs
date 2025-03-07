@@ -1,0 +1,170 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c016e901-79b8-45b5-a51a-86735e684a91",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Fahrzeuge einparken"
+  },
+  "definition": {
+    "de": "Einparken motorisierter Fahrzeuge, ohne diese zu beschädigen oder oder die Sicherheit von Personen zu gefährden."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/624fc483-e30e-4d05-b809-a63acbd2a980",
+      "prefLabel": {
+        "de": "die Fahrzeuge der Gäste parken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a0b91437-6b10-4668-ac09-47e3981b3dc7",
+      "prefLabel": {
+        "de": "Fahrzeuge längs der Fahrbahn einparken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a2d4c66-d687-491a-a12a-81427710aa29",
+      "prefLabel": {
+        "de": "Fahrzeuge im Depot abstellen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f7c70392-a261-42e9-86a6-fccf3709ac81",
+    "prefLabel": {
+      "de": "Führen von Fahrzeugen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/c016e901-79b8-45b5-a51a-86735e684a91"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

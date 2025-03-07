@@ -1,0 +1,743 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Stellen medizinischer Diagnosen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/023e4b09-a193-4c2b-9009-f7dc9326a19b",
+      "prefLabel": {
+        "de": "Mund-und Zahngesundheitsdiagnostik betreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/083c139e-3228-413e-93f0-71fe5e301421",
+      "prefLabel": {
+        "de": "verschiedenartiges maxillofasziales Gewebe unterscheiden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/09638218-695c-44c7-bac3-26b45a2ae418",
+      "prefLabel": {
+        "de": "Patch-Test durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f2cd213-1f80-4c02-96c9-bf183834f7d6",
+      "prefLabel": {
+        "de": "Teilleistungsschwächen identifizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f551181-e1af-47e2-b2d8-ff9f4e011ecd",
+      "prefLabel": {
+        "de": "klinische Analysetechniken verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/150f7517-4ab9-492a-9db5-f3f53fef44d5",
+      "prefLabel": {
+        "de": "Erkrankungen des Gefäßsystems diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/154c7027-53f6-4e52-96b9-32bdf949c389",
+      "prefLabel": {
+        "de": "physiotherapeutische Diagnose stellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1612575c-22f1-4a36-8b5e-88ed662b8b14",
+      "prefLabel": {
+        "de": "Erkrankungen der Atemwege diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1b9899a4-5b50-44b0-a21a-e2f86c51ac5a",
+      "prefLabel": {
+        "de": "den körperlichen Zustand von Kunden/Kundinnen bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1bd03b9b-835e-4719-ac20-d2d547840061",
+      "prefLabel": {
+        "de": "Krebsvorsorgeuntersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1be9dd4c-ea8d-485e-8a45-28e8a7ab36d3",
+      "prefLabel": {
+        "de": "medizinische Bilder interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1c218559-82fd-45f9-b2db-1734321b3edc",
+      "prefLabel": {
+        "de": "an der pränatalen Fötusüberwachung teilhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e3c2776-fd81-43cd-a6ff-53ada8fcf540",
+      "prefLabel": {
+        "de": "Ursachen für ein Ernährungsungleichgewicht verkennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1eb9469c-a11a-4595-be46-96ab15f1397a",
+      "prefLabel": {
+        "de": "Neugeborene untersuchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2057cf5f-4aa7-4094-bbf0-819777405eb7",
+      "prefLabel": {
+        "de": "Bronchoskopie durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2441d964-bdae-460e-acd0-334ce780a683",
+      "prefLabel": {
+        "de": "neuropsychologische Tests durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2633d227-076a-4e71-a96a-f81ccba7a554",
+      "prefLabel": {
+        "de": "rheumatische Erkrankungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/26e517d8-207d-4c1f-9d20-be6a93d0f415",
+      "prefLabel": {
+        "de": "Herzerkrankungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2912fc2d-6e4f-4f8c-b40b-5926d57da483",
+      "prefLabel": {
+        "de": "Einsatz von Strahlenbehandlungen evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2ebcd941-fdb5-410d-8346-a5b85833331d",
+      "prefLabel": {
+        "de": "Röntgenbilder analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2f92c4ed-279c-467e-82bd-4709172514f5",
+      "prefLabel": {
+        "de": "Nebenwirkungen der Menopause ansprechen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3093881b-74f6-48e1-820e-50831b0d0775",
+      "prefLabel": {
+        "de": "Videotelemetrie verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3164ecc3-1ccc-43c6-8d7e-9e9e80b46ae4",
+      "prefLabel": {
+        "de": "Gehirntod diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/31db584a-c51b-4e3b-9645-41e48d243f01",
+      "prefLabel": {
+        "de": "Rehabilitationsbedarf von Tieren bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/39da28ca-7dbc-49d7-8633-ba1b3a4b00c7",
+      "prefLabel": {
+        "de": "Sehstörungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3d3db1e7-b041-495e-8a93-deeacded8a2f",
+      "prefLabel": {
+        "de": "auf emotionale Muster testen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3ff9d956-3e26-40d1-ae0e-f5f247943042",
+      "prefLabel": {
+        "de": "Die körperliche Entwicklung von Kindern beobachten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/46003629-a579-4d0a-b3ea-80ef890699d6",
+      "prefLabel": {
+        "de": "Krankenpflege bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/48f9797c-a39e-4a27-a9d1-f4c32cf9c9bf",
+      "prefLabel": {
+        "de": "Tierfutter bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/50a279eb-fa11-45a8-87f9-cdeec7dadc0f",
+      "prefLabel": {
+        "de": "psychologische Auswirkungen von Hörproblemen beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/51d094d1-dcd6-4d83-a478-d1e299321f67",
+      "prefLabel": {
+        "de": "transkranielle Magnetstimulation durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/544ba15f-0719-45cf-bcf2-6453052e2647",
+      "prefLabel": {
+        "de": "hörgeschädigte Patienten/Patientinnen auf die Begutachtung vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5b871642-a03d-452d-885c-bbf7b2be671c",
+      "prefLabel": {
+        "de": "Anfragen für bildgebende Untersuchungen interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5cfd2965-ea80-4d1d-a6d6-9ac5c6af6073",
+      "prefLabel": {
+        "de": "Zustand von Tieren beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5f7c6321-25d2-4c5a-83ea-0e68da0ecb85",
+      "prefLabel": {
+        "de": "Augendruckmessung vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5fe3be12-9478-4327-80dd-d8378df5472a",
+      "prefLabel": {
+        "de": "Patienten/Patientinnen auf Risikofaktoren für Krankheiten überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/63d21263-059d-4533-81d0-8159e6a87823",
+      "prefLabel": {
+        "de": "die psychologische Auswirkung von Sprachstörungen bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66f8d657-ce46-4a8c-a3f5-60ff7fb6ba35",
+      "prefLabel": {
+        "de": "psychologische Bewertungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6d4e180e-019f-417c-b6a6-69175c1f76d3",
+      "prefLabel": {
+        "de": "bildgebende diagnostische Verfahren anwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/721419a7-f1b6-454c-80f4-2a84ad90dd33",
+      "prefLabel": {
+        "de": "medizinische Untersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7714b4a3-afa9-4517-a721-bd879a750893",
+      "prefLabel": {
+        "de": "psychische Störungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/777339f8-fe81-41af-b945-6c4922031119",
+      "prefLabel": {
+        "de": "Gesundheitstests autonom durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/78cce04d-1a0d-455e-ae52-b4d5715a3e8e",
+      "prefLabel": {
+        "de": "podologische Beratung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7940ede6-5656-41da-8961-bacc2492a35f",
+      "prefLabel": {
+        "de": "Elektromyogramme (EMG) interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7d35b31e-a1b2-4f4e-98f1-6f93081aa0f5",
+      "prefLabel": {
+        "de": "umfassende Augenuntersuchungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7d874411-d555-4320-8356-6f7715c15ef5",
+      "prefLabel": {
+        "de": "Allergiediagnostik durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7d8ca06a-f737-4927-96f2-de4f2cd15895",
+      "prefLabel": {
+        "de": "Probleme der psychischen Gesundheit erkennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7e5f5597-74bd-4b7f-9443-d8880ab48e42",
+      "prefLabel": {
+        "de": "Erkrankungen des Bewegungsapparats diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7ecd9100-1deb-4df5-91d3-5f25d4ca450e",
+      "prefLabel": {
+        "de": "psychiatrische Symptome diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/80892692-0400-4f82-8023-00574ecf1b16",
+      "prefLabel": {
+        "de": "chiropraktische Diagnostik anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/84324095-c722-44c4-a662-7155312f153f",
+      "prefLabel": {
+        "de": "mit den neuropsychiatrischen Folgeerscheinungen von Schlaganfällen umgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/84dfe7a9-2765-44c6-a5dd-d03c4e1a65c0",
+      "prefLabel": {
+        "de": "Biopsie durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/938fe4d7-623b-43f6-83b4-c818f3d3c130",
+      "prefLabel": {
+        "de": "eine Obduktion vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9ab25f31-8aa8-4367-bff0-b7c6ca07ac0b",
+      "prefLabel": {
+        "de": "urologische diagnostische Tests interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a6b79d32-263b-4e13-bb44-047c6b1f8f5e",
+      "prefLabel": {
+        "de": "Immundefekte diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ad151716-22e2-4519-9021-de1d5d350574",
+      "prefLabel": {
+        "de": "virologische Tests durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b4c100f7-b115-4886-b3ea-9469b9b6c477",
+      "prefLabel": {
+        "de": "Todesursache feststellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b562efb4-e497-4495-a775-27b9da7779ab",
+      "prefLabel": {
+        "de": "die persönliche Kapazitäten von Nutzern/Nutzerinnen des Gesundheitssystems erkennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b61124b7-3a6d-4f76-96cb-8e2214b79484",
+      "prefLabel": {
+        "de": "Forschungsergebnisse der Strahlenmedizin umsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b6a22297-3067-4981-92a6-cb9bfe45db69",
+      "prefLabel": {
+        "de": "Hals-Nasen-Ohren-Erkrankungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b6ba2228-2275-4590-8bad-4d938dbbb120",
+      "prefLabel": {
+        "de": "das Verhalten von Patienten/Patientinnen analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b6d7afec-bee3-46e8-8651-c6b1f38d435d",
+      "prefLabel": {
+        "de": "Art der Verletzung bei Notfällen beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7d292ca-b873-407e-a1cf-0e7d1a2149cf",
+      "prefLabel": {
+        "de": "Erkrankungen des Urogenitalsystems diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b8e0e484-955f-4396-b9b4-aaadde86017f",
+      "prefLabel": {
+        "de": "Zerebrospinalflüssigkeit analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ba73ea7b-3e80-446d-898a-f8ec07437cb3",
+      "prefLabel": {
+        "de": "Polysomnografie durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bfe54838-37e3-44b5-a387-97ef728410df",
+      "prefLabel": {
+        "de": "postoperative Beurteilungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c9e1cb88-bd7c-463d-83b2-2bd197a3114c",
+      "prefLabel": {
+        "de": "Sprachstörungen diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cc150c03-03b6-47c5-ab2e-8551f8020c89",
+      "prefLabel": {
+        "de": "Erweiterte und spezialisierte Krankenpflege bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cc62c334-f5f6-492a-87ab-02a13122bd44",
+      "prefLabel": {
+        "de": "pathologische Konsultationen betreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cc8432ff-580c-4141-8008-73ef890d3827",
+      "prefLabel": {
+        "de": "gesundheitspsychologische Diagnosen anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ce82b32c-53ad-4543-9315-7350a2ec059c",
+      "prefLabel": {
+        "de": "Hörschäden diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cf19e34f-e168-47d5-a7d5-028d1fbfc75e",
+      "prefLabel": {
+        "de": "diätetische Diagnostik anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d40fc63c-558e-4107-8b19-fde1dae16eb5",
+      "prefLabel": {
+        "de": "psychiatrische Beurteilung eines Kindes durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d49bfcae-1dbf-4b06-8d34-eb70719ea6ec",
+      "prefLabel": {
+        "de": "Tropenkrankheiten diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d84cda8c-92ac-4b3b-8d04-3d086cba0e7f",
+      "prefLabel": {
+        "de": "Expositionsfaktoren von Patienten/Patientinnen ermitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e06f9eaa-004e-4999-a75c-36ed1fdc0a5b",
+      "prefLabel": {
+        "de": "Erbkrankheiten diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e9e08a59-f697-434c-a955-39623650be9d",
+      "prefLabel": {
+        "de": "Schadensrisiko von Nutzern/Nutzerinnen des Gesundheitssystems beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ebaff640-cdf2-4917-a2d2-f4b3fa9109db",
+      "prefLabel": {
+        "de": "psychotherapeutische Risikobewertungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/efaef6b2-1435-436f-94b6-ead3bcf0db9c",
+      "prefLabel": {
+        "de": "Strategien der Differenzialdiagnostik anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f2c49982-7fe7-444e-9df7-dff5f8fd8113",
+      "prefLabel": {
+        "de": "chiropraktische Untersuchungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fc879b9b-9f87-41e2-9a87-bd941a11dc4e",
+      "prefLabel": {
+        "de": "klinische neurophysiologische Untersuchungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fce2f0ae-7cd5-4b0b-8e41-e2a01ec0b2e9",
+      "prefLabel": {
+        "de": "Diagnoseprozeduren in der Gefäßchirurgie interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c64102d-8a0e-4450-9b25-f9e9fa29fcc1",
+      "prefLabel": {
+        "de": "Symptome der Krankheiten von Wassertieren erkennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1d4975d3-3278-4a35-ab2f-92215876ae73",
+      "prefLabel": {
+        "de": "Gynäkologische Untersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7c228b9e-4989-4572-a9d1-f73963631361",
+      "prefLabel": {
+        "de": "ärztliche Untersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a3aff665-ab4a-4a9a-9eba-0cd60cba6517",
+      "prefLabel": {
+        "de": "physiotherapeutische Bewertungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/32bfacd9-51b7-4757-952e-7f2be2671632",
+      "prefLabel": {
+        "de": "Progression von Augenkrankheiten bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/58bacbcf-2b82-4716-959e-ac529120342d",
+      "prefLabel": {
+        "de": "Trächtigkeit beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/852e6830-f87c-4f35-b6d3-6aee31dc518c",
+      "prefLabel": {
+        "de": "Notfalluntersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/972465ce-3f6a-45c2-9a79-98b9ce97bdd2",
+      "prefLabel": {
+        "de": "klinische zahnärztliche Untersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a28bc2a8-429d-43bb-ac9c-68716ea15ec0",
+      "prefLabel": {
+        "de": "makroskopische Gewebeuntersuchungen vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c0f41108-bbcb-48a1-8255-62201a4b1bc6",
+      "prefLabel": {
+        "de": "makroskopische Nekropsie vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a3d1e341-ca81-4db8-9921-17132827b81b",
+      "prefLabel": {
+        "de": "neurologische Untersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d5e9b47e-580f-41e7-bc6c-e7345566fcb4",
+      "prefLabel": {
+        "de": "medizinische Daten von Patienten/Patientinnen überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c672c8e0-92f3-4018-a5e2-4a72f7109a8f",
+      "prefLabel": {
+        "de": "eine chiropraktische Untersuchung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ae8f9a47-aff5-4ffc-9521-a1204f252b02",
+      "prefLabel": {
+        "de": "den therapeutischen Bedarf von Patienten/Patientinnen beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b8559266-052b-4291-b46b-2e4fb40221dd",
+      "prefLabel": {
+        "de": "Bedürfnisse von Nutzern/Nutzerinnen des Gesundheitssystems konzeptualisieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc916b78-2b53-4850-a4aa-7d748e99cc0a",
+      "prefLabel": {
+        "de": "kieferorthopädische Anomalien diagnostizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cbdb26fc-353c-4229-8577-95cc863c309d",
+      "prefLabel": {
+        "de": "verbreitete Fischkrankheiten diagnostizieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c5b71c57-6f78-4c54-b332-ec75848f1095",
+    "prefLabel": {
+      "de": "Durchführung von Studien, Ermittlungen und Untersuchungen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

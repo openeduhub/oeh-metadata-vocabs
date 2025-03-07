@@ -1,0 +1,150 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/913fcf58-07f4-401d-8395-4daeb3a4617f",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "orale Gesundheitspflege und Prävention lehren"
+  },
+  "definition": {
+    "de": "Aufklärung von Patienten/Patientinnen über bessere Mundpflege und die Prävention von Zahnerkrankungen, Vermitteln der richtigen Techniken zum Bürsten, Anwenden von Zahnseide und weiteren Zahnpflegemitteln nach zahnärztlicher Anleitung und unter Aufsicht des Zahnarztes/der Zahnärztin."
+  },
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ee2576c0-1af5-44b5-8c0c-2002541d1ccc",
+    "prefLabel": {
+      "de": "Schulung zu Gesundheits- oder medizinischen Themen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/913fcf58-07f4-401d-8395-4daeb3a4617f"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

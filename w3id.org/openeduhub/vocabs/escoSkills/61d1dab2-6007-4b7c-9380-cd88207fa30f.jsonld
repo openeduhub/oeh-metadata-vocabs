@@ -1,0 +1,239 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/61d1dab2-6007-4b7c-9380-cd88207fa30f",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Entsorgung von ungefährlichen Abfällen oder Schutt"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/002b2e58-35ab-460c-be97-ca2f585fd990",
+      "prefLabel": {
+        "de": "mit den Abfällen der Fischernte umgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15e6454f-59fc-492a-b82e-e12859b4022d",
+      "prefLabel": {
+        "de": "kommunale Abfallsammelbehältnisse leeren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16319cbc-5e02-4e6d-9ebe-a515318d1599",
+      "prefLabel": {
+        "de": "Chargen austragen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4aba6668-6118-4953-804b-869cef94422a",
+      "prefLabel": {
+        "de": "ungefährlichen Abfall entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4c4235a9-a1fb-403f-a173-37d9297c218c",
+      "prefLabel": {
+        "de": "Viehdung wiederverwerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/976e2f7c-e369-442a-b51c-6fda4dd5210d",
+      "prefLabel": {
+        "de": "Schutt entfernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b9e19b5f-06c8-4062-b6aa-b3a1c06c40ce",
+      "prefLabel": {
+        "de": "tote Tiere beseitigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c29fed5c-f03b-4389-b110-29b6db00cd01",
+      "prefLabel": {
+        "de": "Nichtlebensmittel-Abfälle im Lebensmittelsektor entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c582dd36-a83d-4d61-b87a-364b84950a3f",
+      "prefLabel": {
+        "de": "Wertstoffcontainer aufstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ca4ae285-244f-4321-83d6-b109bd1693bc",
+      "prefLabel": {
+        "de": "Terminpläne für die Abholung zum Recycling einhalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ff9f1770-2b94-4afa-bf82-1671d7f54b99",
+      "prefLabel": {
+        "de": "Haushaltsabfall sammeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a2723f98-0fb2-469b-8c79-7ad2d0f73660",
+      "prefLabel": {
+        "de": "Abfälle von Bergbaubetrieben handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2fb4b423-c1e4-407d-ba48-38032d8dcda2",
+      "prefLabel": {
+        "de": "nicht verwertbares Gestein verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cc948c21-aa71-47c5-8df6-c5d0deb99eb2",
+      "prefLabel": {
+        "de": "routinemäßig anfallenden Abfall handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fb99bbe9-6594-4da7-a734-a8d2dc118cea",
+      "prefLabel": {
+        "de": "Unfallstelle reinigen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15dfca7a-5dde-4199-bad3-c00600387258",
+    "prefLabel": {
+      "de": "Bewirtschaftung von Abfällen und gefährlichen Stoffen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/61d1dab2-6007-4b7c-9380-cd88207fa30f"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

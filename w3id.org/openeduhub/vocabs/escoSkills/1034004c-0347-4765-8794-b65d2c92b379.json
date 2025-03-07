@@ -1,0 +1,227 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1034004c-0347-4765-8794-b65d2c92b379",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Dokumentation und Aufzeichnung von Informationen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0238dd62-d407-4a87-ae0c-e08cd7b4ea8d",
+      "prefLabel": {
+        "de": "Dokumentation von Bewertungen von Vorkenntnissen verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b286e3f-2fb4-4dbb-afd3-3e421f0c6366",
+      "prefLabel": {
+        "de": "aus einer Sitzung gezogene Lehren aufzeichnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/336f4602-7847-4e58-b0ec-9a4da3d94ecd",
+      "prefLabel": {
+        "de": "seismische Untersuchungen dokumentieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4ee3bf25-0f79-4d6a-b7c5-d4142f360571",
+      "prefLabel": {
+        "de": "archäologische Funde dokumentieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e3e5c17-0d46-4376-9928-8dbaaea27164",
+      "prefLabel": {
+        "de": "neue Medien konservieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a3bd38a7-06e4-4e9c-8bbc-75aa36871801",
+      "prefLabel": {
+        "de": "Sendungsinformationssysteme bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cb89a5c0-b5cb-4c62-8e7e-7714631b66b5",
+      "prefLabel": {
+        "de": "semantische Hierarchien erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cccf3cf0-8971-4034-b2eb-35c819c3bdb2",
+      "prefLabel": {
+        "de": "Besucher/Besucherinnen registrieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d1455e46-2d0d-4661-86ab-3cb7a0c46d02",
+      "prefLabel": {
+        "de": "Notrufinformationen elektronisch aufzeichnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ed2383a8-d361-4453-99d4-1c88aceffeb4",
+      "prefLabel": {
+        "de": "Bewertungen von Vorkenntnissen dokumentieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/57fb98c5-6862-4969-8bf4-a74ff14c4750",
+      "prefLabel": {
+        "de": "Unterlagen im Zusammenhang mit Lagerbeständen bearbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d1ba2b40-8811-4b60-8fc9-0e82b369c887",
+      "prefLabel": {
+        "de": "Angaben zu An- und Abmeldungen eintragen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c241f5a5-e23f-47bf-ad24-d83ea0010166",
+      "prefLabel": {
+        "de": "die ordnungsgemäße Dokumentenverwaltung sicherstellen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/325a3d29-a235-4182-9128-782c0f4b2dcc",
+    "prefLabel": {
+      "de": "Dokumentation und Aufzeichnung von Informationen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/1034004c-0347-4765-8794-b65d2c92b379"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07f47dea-587c-40c0-990a-6c092cc3e6a4",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Befragungen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/11bbb82e-f3cc-4734-94d5-b99fdd0a683e",
+      "prefLabel": {
+        "de": "Interviewzwecke erklären"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16c2b3fb-3a41-4b0e-bb35-06e659917b02",
+      "prefLabel": {
+        "de": "Kontaktrückverfolgungsgespräche durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34e0f023-0ca9-4f64-a932-3248bb4ed5df",
+      "prefLabel": {
+        "de": "Empfänger von Bankdarlehen befragen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3ad2b6ee-15e7-4fcb-a8c0-167a1eee90ef",
+      "prefLabel": {
+        "de": "Eintragung von Lebenspartnerschaften vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4d313147-b39d-413f-a5e2-b12d5f0dc9e6",
+      "prefLabel": {
+        "de": "den Medien Interviews geben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5a7174ed-57a4-4245-9de2-d5620f411a30",
+      "prefLabel": {
+        "de": "potenzielle Pflegeeltern evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/689ab3c4-aa1d-4fc6-9725-499326c9780d",
+      "prefLabel": {
+        "de": "eine Diskussion moderieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/896563fc-6255-4419-89c2-ffed30159ad6",
+      "prefLabel": {
+        "de": "wissenschaftliche Befragung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aa2a10db-ba2d-4e2c-a6e0-14848c64c10b",
+      "prefLabel": {
+        "de": "Unvoreingenommenheit in einer Bewertungssituation zeigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d56a2182-14e0-4319-ab2f-0133aa67672b",
+      "prefLabel": {
+        "de": "ethischen Verhaltenskodex in Bewertungssituationen einhalten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6889a21c-837b-49a2-be61-bb6010ab63f4",
+    "prefLabel": {
+      "de": "Mündliche Einholung von Informationen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/07f47dea-587c-40c0-990a-6c092cc3e6a4"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b769f524-0f25-44d7-8538-5c46710a040e",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "digitale Dokumente verwalten"
+  },
+  "altLabel": {
+    "de": [
+      "elektronische Dokumente verwalten"
+    ]
+  },
+  "definition": {
+    "de": "Verwalten verschiedener Datenformate und -dateien durch Benennung, Veröffentlichung, Umwandlung und gemeinsame Nutzung von Dateien und Dokumenten sowie Umwandlung von Dateiformaten."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2e1888d8-97f7-4c91-8874-e2ef0e47f94f",
+      "prefLabel": {
+        "de": "digitale Dateien erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/33b55d3a-81f5-45cb-af40-06cd54db78e1",
+      "prefLabel": {
+        "de": "elektronische Dateien erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+      "prefLabel": {
+        "de": "Geschäftsunterlagen ordnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/884588fb-19b4-400e-aebd-83a2fff51be1",
+      "prefLabel": {
+        "de": "Unterlagen vervielfältigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aba363e7-07ec-4eb2-a89e-bcba397c25ab",
+      "prefLabel": {
+        "de": "digitale Druckmaschinen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fa3e5cec-703e-4d46-b3bb-e8a89540ab54",
+      "prefLabel": {
+        "de": "digitale Archive verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c0e2f74c-51f0-4020-9756-d190848cf181",
+      "prefLabel": {
+        "de": "Content in Ausgabemedien integrieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d0d3c335-5a7b-4856-a940-2057ea2c9e7b",
+      "prefLabel": {
+        "de": "Krankenakten führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/367c240d-5f34-423a-86b1-866ad27206ea",
+      "prefLabel": {
+        "de": "analoge Dokumente in ein digitales Format konvertieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/479944ef-8d2c-4279-b3d1-2b85c761fb30",
+      "prefLabel": {
+        "de": "Radiologie-Informationssysteme verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b863df64-7556-461b-ba0d-d2f293dcec3f",
+      "prefLabel": {
+        "de": "Eingehendes optisches Material bearbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bd17a64e-a9bd-439d-9b87-01c6bb1b7e09",
+      "prefLabel": {
+        "de": "Unterlagen zur Arbeit mit Nutzern/Nutzerinnen von Dienstleistungen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2ce5a8e-7885-48b7-81fe-3e8a057c47a9",
+      "prefLabel": {
+        "de": "Aufzeichnungen in Apotheken führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c796e1fa-cbbd-4639-b8d9-cbcdc130c7a2",
+      "prefLabel": {
+        "de": "Eingehendes Elektromaterial bearbeiten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6a7fc30d-af16-4cc5-a957-29d174bdb61c",
+    "prefLabel": {
+      "de": "Verwaltung, Sammlung und Speicherung digitaler Daten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

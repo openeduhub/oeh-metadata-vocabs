@@ -1,0 +1,248 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/918f5211-b99f-4b29-9a34-6e475583ef55",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "arbeitsbezogene Berichte verfassen"
+  },
+  "definition": {
+    "de": "Erstellung von Arbeitsberichten, die ein wirksames Beziehungsmanagement sowie einen hohen Dokumentations- und Aktenführungsstandard ermöglichen. Erfassung und Darstellung von Ergebnissen und Schlussfolgerungen auf klare und begreifbare Weise, sodass sie auch für ein Nicht-Fachpublikum verständlich sind."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56fc1f5b-4aa8-4846-b531-1c45fbb7164e",
+      "prefLabel": {
+        "de": "Berichte über Vermietungen verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
+      "prefLabel": {
+        "de": "Sitzungsberichte verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/75bff925-ff69-41e3-b7e5-5cbac6cfde18",
+      "prefLabel": {
+        "de": "Bericht über die Einstufung von Schmucksteinen schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/78b1de70-0930-462f-9a7e-bf9b4135e1e2",
+      "prefLabel": {
+        "de": "Routineberichte verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7cb8cb58-aae4-4625-9e8c-744560474241",
+      "prefLabel": {
+        "de": "Berichte zu Notfällen schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7f18c3a2-f1ce-4db2-a354-9417691b5a43",
+      "prefLabel": {
+        "de": "Produktionsberichte schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9be4cfa6-53c3-424c-aeba-ee1eb6b7c2e4",
+      "prefLabel": {
+        "de": "Untersuchungsberichte in Bezug auf Eisenbahnen verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cdd2b6cc-b4a9-42a0-824b-766f52176fd3",
+      "prefLabel": {
+        "de": "Kontrollberichte schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b88fde8f-1b98-4a83-8a2e-75232be4f725",
+      "prefLabel": {
+        "de": "Lageberichte verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bad614fb-fc66-4401-b75b-3d366013a493",
+      "prefLabel": {
+        "de": "Sicherheitsberichte verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e3a71a2-ed64-4b24-bb9b-649abd7cf375",
+      "prefLabel": {
+        "de": "Berichte über die Signaltechnik schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f17f94f1-88cb-4815-873a-2a9639f10729",
+      "prefLabel": {
+        "de": "Projektunterlagen ausarbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f96c8129-91b8-4d29-bfa2-3d889e427e74",
+      "prefLabel": {
+        "de": "Kalibrierungsbericht schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/68949f17-32a2-469e-b874-2fe7ac1cef34",
+      "prefLabel": {
+        "de": "technische baumbezogene Berichte verfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/941364b9-1375-4add-9889-d67bae99bc8c",
+      "prefLabel": {
+        "de": "technische Berichte schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a933a46f-d4d8-4e96-a7f7-345725111bfa",
+      "prefLabel": {
+        "de": "Belastungsanalyseberichte schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d494454c-7317-430a-9346-0d55a667c6d1",
+      "prefLabel": {
+        "de": "Berichte zu neurologischen Untersuchungen schreiben"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

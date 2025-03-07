@@ -1,0 +1,245 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23d7bd85-d8d5-4455-b64d-3b0998f2425d",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Messen von Abmessungen und dazugehörigen Eigenschaften"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2a2cf590-67fd-473b-8ae0-f1f7d46bcbe7",
+      "prefLabel": {
+        "de": "Squaring Pole verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a550c4e9-5773-47a2-861d-e57ceb076eb6",
+      "prefLabel": {
+        "de": "Grundstücksgrenzlinien festlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/acc74047-f59f-4935-afc0-45ec43b9b57a",
+      "prefLabel": {
+        "de": "Anforderungen an Bauteile definieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b8b260bf-4ca4-45d7-bf4f-9beaf8503215",
+      "prefLabel": {
+        "de": "Temperatur messen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7708533-9467-4bea-afb9-f9b40a76c84a",
+      "prefLabel": {
+        "de": "Wassertiefe loten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d0c639ef-0515-49f9-a67e-8ddc785c655a",
+      "prefLabel": {
+        "de": "vulkanisierten Stoff überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f01fe651-4270-47e8-bb85-e74c8084bd83",
+      "prefLabel": {
+        "de": "Wasserfluss bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06735a47-61df-4fcb-b23c-d26d70fd3cba",
+      "prefLabel": {
+        "de": "Zuckerraffination messen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2996fc73-1a41-4a08-8b42-764a900653a5",
+      "prefLabel": {
+        "de": "Lichtverhältnisse messen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f66cbeb5-2a8e-47f7-b866-11c13d88f449",
+      "prefLabel": {
+        "de": "Früchte und Gemüse vermessen oder wiegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5cead3a5-92ad-41be-ab53-03d8d0b38d0e",
+      "prefLabel": {
+        "de": "Holzvolumen gefällter Bäume berechnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2f48c606-a936-46a4-9058-dd925973efd6",
+      "prefLabel": {
+        "de": "Parameter der Wasserqualität bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1a0d7ac7-71d6-4efd-84d3-199f88821bc3",
+      "prefLabel": {
+        "de": "Ofentemperatur messen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/444d3725-902f-49aa-9363-7de405bb991d",
+      "prefLabel": {
+        "de": "die Auswirkungen spezifischer Tätigkeiten der Aquakultur bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cb1481c8-ca3f-46d7-8d40-8b5be2192058",
+      "prefLabel": {
+        "de": "Volumen von Lagerstätten berechnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fcf890ba-3b77-4c16-851a-82895e8bac9f",
+      "prefLabel": {
+        "de": "Dimensionen von Gravuren berechnen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a57f720-70b3-41de-877c-7d723977dc88",
+    "prefLabel": {
+      "de": "Messung physikalischer Eigenschaften"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/23d7bd85-d8d5-4455-b64d-3b0998f2425d"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

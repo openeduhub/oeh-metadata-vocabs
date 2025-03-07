@@ -1,0 +1,193 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/574257ea-7b64-4100-b7b6-e27c233fe143",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "digitale Kommunikation und Zusammenarbeit"
+  },
+  "altLabel": {
+    "de": [
+      "digitale Kommunikation"
+    ]
+  },
+  "definition": {
+    "de": "Kommunizieren in einem digitalen Umfeld, Teilen von Ressourcen durch Online-Tools, Vernetzung und Zusammenarbeit mit anderen mithilfe digitaler Werkzeuge, Interaktion mit und Beteiligung an Gemeinschaften und Netzen, kulturübergreifendes Bewusstsein."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16a00c69-9c74-4c37-96d7-6301d285e5ce",
+      "prefLabel": {
+        "de": "Elektronische Dienste nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2b34a99f-9813-4c91-9509-b6b9b8c3132e",
+      "prefLabel": {
+        "de": "mithilfe digitaler Technologien zusammenarbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/40001d93-8937-4859-89d5-2dca53290ff4",
+      "prefLabel": {
+        "de": "mithilfe digitaler Technologien teilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/580660a6-5d3a-421d-a54f-d85b706c2b2f",
+      "prefLabel": {
+        "de": "Online-Tools zur Zusammenarbeit verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a12057b4-6d11-4a12-ab8e-15a028ef0a6d",
+      "prefLabel": {
+        "de": "mithilfe digitaler Technologien interagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+      "prefLabel": {
+        "de": "digitale Identität verwalten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/98fb499f-9155-412d-a8a0-95ba97126fec",
+    "prefLabel": {
+      "de": "Nutzung digitaler Tools für Zusammenarbeit und Produktivität"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/574257ea-7b64-4100-b7b6-e27c233fe143"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

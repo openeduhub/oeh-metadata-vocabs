@@ -1,0 +1,239 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a4cf0e8a-54f6-4fd5-8650-1c82ea86cfd2",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Arbeiten mit Maschinen und Spezialausrüstungen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/10815682-50d3-47df-a775-47ab6732ea4f",
+      "prefLabel": {
+        "de": "Schwellen-Clipmaschine bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23bfab2e-bf4d-462b-bcac-0c46733a1d4b",
+      "prefLabel": {
+        "de": "Abzugsförderer bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4c831013-9027-4ec6-83de-c5c19e68d083",
+      "prefLabel": {
+        "de": "sicher mit Maschinen arbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7aa52bdc-9c56-4341-be65-e8e30f64403f",
+      "prefLabel": {
+        "de": "automatische Maschinen überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a8151b0-8319-4948-9259-c6facf5c80d5",
+      "prefLabel": {
+        "de": "Kompressormotor bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9994473c-b841-490d-88dd-c7382e0debf2",
+      "prefLabel": {
+        "de": "Eisenbahnweichen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d94ae3a1-dbfc-459c-a71d-79594f4f1317",
+      "prefLabel": {
+        "de": "stationäre Dampfmaschine bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e1e8943d-ca84-40ba-b53f-40df73e185a8",
+      "prefLabel": {
+        "de": "Schranken an schienengleichen Bahnübergängen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f28e74ac-ab8b-4f15-9bdd-8bb5c220e9ad",
+      "prefLabel": {
+        "de": "pneumatische Förderanlagen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5033c2fb-ec55-4b8e-b0a4-9379593f1e1c",
+      "prefLabel": {
+        "de": "Geräte warten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/87af00b5-30fa-41c8-bfa5-357f22c8d589",
+      "prefLabel": {
+        "de": "defekte Komponenten ersetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9ea652f6-accf-45bb-b9a8-590f06f7bd51",
+      "prefLabel": {
+        "de": "Maschine versorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1de9ac2b-ea2e-40e3-881a-1de25f16bd71",
+      "prefLabel": {
+        "de": "Hebelrahmen für Eisenbahnen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/680c6476-6b6e-4736-960f-c5790c539f89",
+      "prefLabel": {
+        "de": "Lotterieausrüstung instand halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bdcacb96-f292-494d-b83e-929f044868d3",
+      "prefLabel": {
+        "de": "Druckrollen bedienen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cab71b2a-4b65-4e98-a7a9-0b20c39fc248",
+    "prefLabel": {
+      "de": "Arbeiten mit Maschinen und Spezialausrüstungen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/a4cf0e8a-54f6-4fd5-8650-1c82ea86cfd2"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

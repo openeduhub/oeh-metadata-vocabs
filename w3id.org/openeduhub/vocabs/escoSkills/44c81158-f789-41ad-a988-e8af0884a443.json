@@ -1,0 +1,209 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/44c81158-f789-41ad-a988-e8af0884a443",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Betrieb von Flugzeugen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0a244ad8-4aa0-4ae5-9f7d-f11931028687",
+      "prefLabel": {
+        "de": "Verfahren zur Erfüllung der Vorschriften für Hubschrauberflüge durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/102bab2f-6d11-43e0-afa8-d50c6b94e4b4",
+      "prefLabel": {
+        "de": "Kontrollen durchführen, die vor dem Bewegen des Flugzeugs an den Standplatz erforderlich sind"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/254d5358-8e20-450c-9fed-28ceff0479ef",
+      "prefLabel": {
+        "de": "Drohnen im Bauwesen einsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/58e3d762-4222-4b9d-824f-deba76beafc1",
+      "prefLabel": {
+        "de": "einen Helikopter unter Notfallbedingungen fliegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/71135818-ecb6-4c21-bb8e-ce502162e33a",
+      "prefLabel": {
+        "de": "Flugmanöver durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/91300a14-24c6-4b1f-b827-909d992f8d1d",
+      "prefLabel": {
+        "de": "Start und Landung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c1b516f4-e39f-4371-a041-34ca00bb542d",
+      "prefLabel": {
+        "de": "dem Piloten oder der Pilotin bei der Durchführung einer Notlandung Unterstützung leisten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6a018f47-e8eb-484c-9750-9ee304329876",
+      "prefLabel": {
+        "de": "Verfahren zur Erfüllung der Vorschriften für das Fliegen von Luftfahrzeugen mit einem Gewicht über 5700 kg durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6a50499d-70cc-4fa7-9895-682302d08f16",
+      "prefLabel": {
+        "de": "Instrumententafel im Cockpit bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/797b7c30-6b29-4002-86f9-5825f0511d71",
+      "prefLabel": {
+        "de": "bei der Durchführung von Kontrollen vor und während des Fluges Unterstützung leisten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d9b1387a-7cad-4b77-8481-7798a3b41714",
+    "prefLabel": {
+      "de": "Betrieb von Flugzeugen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/44c81158-f789-41ad-a988-e8af0884a443"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

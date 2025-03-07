@@ -1,0 +1,443 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b2c688b0-9106-466d-8b88-eafdfe608e7d",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Entwurf von Strukturen oder Einrichtungen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0332f526-6dc0-4f09-8a7c-2b9473c50736",
+      "prefLabel": {
+        "de": "Zugänglichkeit der Infrastruktur gewährleisten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/11f364dd-0814-4398-b00e-10d1be8b27af",
+      "prefLabel": {
+        "de": "Transportsysteme entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1f51e46a-4588-4c1d-b507-3f9ea480dde2",
+      "prefLabel": {
+        "de": "Landschaftssysteme entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/28eb4689-3ba4-47a1-96b0-34a60751ea17",
+      "prefLabel": {
+        "de": "Infrastruktur für Tagebau entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34406889-f522-47a7-b60d-8545b36d73bb",
+      "prefLabel": {
+        "de": "harmonische Architektur anstreben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/397412dc-47c4-4580-82d0-15a9f9a86ea2",
+      "prefLabel": {
+        "de": "Drainagebrunnenanlagen entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/465af498-53b1-4e04-9f49-7458afb59274",
+      "prefLabel": {
+        "de": "Ausrüstung für Versorgungsanlagen entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/68d5d7e2-1e9e-4b2b-bce9-ff6c687e4f45",
+      "prefLabel": {
+        "de": "Kanalisationsnetze entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6b9c6280-cd0b-4462-885e-da63fe5918ea",
+      "prefLabel": {
+        "de": "Bühnenausstattung digital zeichnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8981d38b-fbc1-4ebe-9300-2357fb71913a",
+      "prefLabel": {
+        "de": "Messwerte im Architekturdesign berücksichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/921f52c7-d977-4e84-8b62-adf64fed999f",
+      "prefLabel": {
+        "de": "Architekturpläne entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/977ea26a-3721-4f5e-9a99-b6676ff6ba7d",
+      "prefLabel": {
+        "de": "Seebrücken entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a354775-1a03-4258-a357-be4ab0a07465",
+      "prefLabel": {
+        "de": "Dachbegrünung anlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9c2dc96b-5d53-4d26-8d90-644d10c3ba1c",
+      "prefLabel": {
+        "de": "Landschaftsdesigns schaffen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a0cafd94-40c3-4d55-9e94-bc27ef071b4b",
+      "prefLabel": {
+        "de": "Leistungspläne von Lagerstätten erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a103bca9-6d00-4255-b61b-6c524dacfc8e",
+      "prefLabel": {
+        "de": "Lehrmodelle entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a4c4c0b7-3dc4-4a6b-b1c8-6502cde56a14",
+      "prefLabel": {
+        "de": "bauliche Einschränkungen im architektonischen Design berücksichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aa6a8f15-75aa-48ab-a1ca-413d43b23c43",
+      "prefLabel": {
+        "de": "die Konstruktion pharmazeutischer Produktionsstätten leiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b1f71e6b-5811-4a1f-99d5-4836971388b8",
+      "prefLabel": {
+        "de": "Gestaltung von Parkflächen für Luftfahrzeuge genehmigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b251544f-7b92-46d5-8e14-97f59ce1c7dc",
+      "prefLabel": {
+        "de": "innovative Gestaltung der Infrastruktur fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bd2102ea-c8d9-40f6-8327-211450120e96",
+      "prefLabel": {
+        "de": "Bauvorgaben im Architekturdesign berücksichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d1a47422-bcf0-4f81-864c-984d08f7cf64",
+      "prefLabel": {
+        "de": "Staudämme entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d36178d1-07fa-44c5-8b19-0ca637256261",
+      "prefLabel": {
+        "de": "neue Anlagen entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d71d6846-c39b-409f-bed7-e2f1a7d01da9",
+      "prefLabel": {
+        "de": "Sportanlagen planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dae7b6eb-dea0-4298-9554-d951656e9389",
+      "prefLabel": {
+        "de": "Freiflächen entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/db0e560b-15a7-4758-acca-088674461dff",
+      "prefLabel": {
+        "de": "Gerüst planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dc580b44-5099-4327-aabe-8e59b6d1ab90",
+      "prefLabel": {
+        "de": "Wehre entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e665d919-f28d-4ac4-adf0-8903ac66540e",
+      "prefLabel": {
+        "de": "Konstruktionspläne ausarbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ee239d14-bfc8-4939-91ff-824b5814ff67",
+      "prefLabel": {
+        "de": "Grundsätze der Ingenieurswissenschaft im Architekturdesign berücksichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/03520ff5-9e68-434b-91fa-3ced9c085159",
+      "prefLabel": {
+        "de": "Verkaufsfläche planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d7a67428-3afb-4bbd-932b-f6718ca489c5",
+      "prefLabel": {
+        "de": "Hausbau planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/09dd7302-368e-4b3e-b644-7c03a2aae4a2",
+      "prefLabel": {
+        "de": "Lebensmittelbetriebe konzipieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/119535c6-ff74-4e64-91c2-bcf338749fd6",
+      "prefLabel": {
+        "de": "Bohrpfade entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/854de3ad-0bf5-4b8f-a283-1c31b4c7e272",
+      "prefLabel": {
+        "de": "Ölflusssysteme entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16d61c6a-30e8-49e2-abbb-d20879eb8afd",
+      "prefLabel": {
+        "de": "räumliche Gestaltung von Außenanlagen entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/122c4641-027e-4add-888d-de7de0122d43",
+      "prefLabel": {
+        "de": "Fußboden gestalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3ef76cca-f763-4ec0-b4b7-71971e0f35ff",
+      "prefLabel": {
+        "de": "Rohrleitungen mit verschiedenen Lösungskonzepten für die Beschichtung konstruieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/981f770c-24f1-4711-afc0-13a6fa1a33ab",
+      "prefLabel": {
+        "de": "Konstruktionspläne für den Rohrleitungsbau erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5378a25c-5316-4bf3-afd8-b8c2fb06aad1",
+      "prefLabel": {
+        "de": "Material für das Bühnenbild bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/873f4195-676d-4594-b6b4-c5d329fd840e",
+      "prefLabel": {
+        "de": "Räume für religiöse Bedürfnisse gestalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b3365920-f342-4bfc-9bde-db0de855c14c",
+      "prefLabel": {
+        "de": "Brunnen für die Erdölförderung entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/821c1504-20b0-4e47-9e69-6a565d17151d",
+      "prefLabel": {
+        "de": "Ölbohrungen planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/17363757-35c3-4b1e-84be-4aa53fb5b8d3",
+      "prefLabel": {
+        "de": "Bühnenentwürfe zeichnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cb5c6c3a-8999-41ee-83c9-012974efc43e",
+      "prefLabel": {
+        "de": "Baustelle vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e36c1f47-3913-4d35-a6ae-fd9a7243483f",
+      "prefLabel": {
+        "de": "Lüftungsnetzwerke entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/44d5340c-45df-4478-9e55-2363342a7324",
+      "prefLabel": {
+        "de": "Lösungen für die Nachrüstung von Gebäuden entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2eea3fd6-82ee-4334-8e36-62a0707cade1",
+      "prefLabel": {
+        "de": "Luftdichtheit von Gebäuden planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7c3cde53-9ff7-4e82-8396-13fdfadd3432",
+      "prefLabel": {
+        "de": "Gebäude entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b8e703c0-6953-4f07-879a-5bea28c006c6",
+      "prefLabel": {
+        "de": "Hängepläne entwerfen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0a295163-3e17-47ad-99ac-2b507ce30adb",
+    "prefLabel": {
+      "de": "Entwurf von Systemen und Produkten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/b2c688b0-9106-466d-8b88-eafdfe608e7d"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

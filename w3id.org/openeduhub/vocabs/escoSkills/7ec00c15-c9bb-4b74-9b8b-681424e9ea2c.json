@@ -1,0 +1,209 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7ec00c15-c9bb-4b74-9b8b-681424e9ea2c",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Betrieb von Verpackungsmaschinen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0d39cb8f-f637-478a-aa90-c62220786af0",
+      "prefLabel": {
+        "de": "gefüllte Kapseln auswerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0df0e777-3ecc-4c83-9220-d121a49c672e",
+      "prefLabel": {
+        "de": "Konservenmaschine beaufsichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/11bc405a-505c-4bfe-be8f-345e5aae0c93",
+      "prefLabel": {
+        "de": "Flaschenreinigungsmaschine beaufsichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bf5b03ef-6d1b-4e67-9f9f-1f655e404542",
+      "prefLabel": {
+        "de": "Heißklebemaschinen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e4d34eaf-742e-4bba-801d-e8d617f1f419",
+      "prefLabel": {
+        "de": "Paketierpresse bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f8cd217b-b870-42aa-9bbe-d36b672cbb65",
+      "prefLabel": {
+        "de": "Verpackungsverarbeitungsgeräte bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/01fec851-b5f4-419b-940a-3b4c835adfa8",
+      "prefLabel": {
+        "de": "Verpackungsmaschinen bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/28e8a23b-0db7-45da-83c7-4ec5a236fe00",
+      "prefLabel": {
+        "de": "Fleischabpackmaschine bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/31434d75-9e07-41e3-a67e-16b6d4ded679",
+      "prefLabel": {
+        "de": "Flaschenkorkmaschine beaufsichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e8c9361b-9fbc-4419-b1de-26b1b2d0d94a",
+      "prefLabel": {
+        "de": "Briefumschlagmaschine bedienen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2b8a86c4-d063-44d5-863f-a9659024cefe",
+    "prefLabel": {
+      "de": "Bedienen von Maschinen für die Herstellung von Erzeugnissen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/7ec00c15-c9bb-4b74-9b8b-681424e9ea2c"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

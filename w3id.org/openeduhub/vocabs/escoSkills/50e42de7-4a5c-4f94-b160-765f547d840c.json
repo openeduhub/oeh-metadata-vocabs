@@ -1,0 +1,221 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/50e42de7-4a5c-4f94-b160-765f547d840c",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Anpassung von Hilfsmitteln"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b370a54-aba5-438d-9b3f-5c739aa57496",
+      "prefLabel": {
+        "de": "Sehhilfen anpassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16a8cf8a-69fe-4316-b784-38bfaf27639f",
+      "prefLabel": {
+        "de": "Kontaktlinsen handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1b1d3540-4c65-4d9f-aa14-f6e200e810d1",
+      "prefLabel": {
+        "de": "Cochlea-Implantate anpassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e186b86-9ef9-405b-94d0-73593c5f6dc2",
+      "prefLabel": {
+        "de": "kieferorthopädische Instrumente verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/45bd49b2-2e24-4279-89a8-b5ae84e8acf2",
+      "prefLabel": {
+        "de": "Kontaktlinsen anpassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4b5a88ec-9e93-4a10-8ca1-7af4230ac0bc",
+      "prefLabel": {
+        "de": "Hilfsmittel zur Einrenkung der Wirbelsäule verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a2c39c0-5fcd-4dad-82ec-8b02b4699779",
+      "prefLabel": {
+        "de": "orthopädische Maßschuhe anfertigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a9272df-398b-4787-bd51-53d5e8d999eb",
+      "prefLabel": {
+        "de": "Nutzer/Nutzerinnen bei der Verwendung von technischen Hilfen unterstützen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a8507b53-1bc4-4efb-a353-0af783f486a9",
+      "prefLabel": {
+        "de": "Unterschenkelgipse anlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d40d24bc-e531-417c-b8f5-cd22be702c28",
+      "prefLabel": {
+        "de": "Prothesen und Orthesen testen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f84b07a-6092-47d8-819e-9ad146e10749",
+      "prefLabel": {
+        "de": "Riemen strecken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/96585aab-fab8-4657-95c1-cafaa26f26f8",
+      "prefLabel": {
+        "de": "Patienten/Patientinnen im Zusammenhang mit Prothesen untersuchen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a163630-7536-4748-a259-aa820d3be44b",
+    "prefLabel": {
+      "de": "Gesundheitsfürsorge und medizinische Behandlungen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/50e42de7-4a5c-4f94-b160-765f547d840c"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

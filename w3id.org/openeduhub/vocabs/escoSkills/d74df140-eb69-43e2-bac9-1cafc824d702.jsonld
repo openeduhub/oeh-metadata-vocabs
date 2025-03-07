@@ -1,0 +1,230 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d74df140-eb69-43e2-bac9-1cafc824d702",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Machbarkeitsstudie durchführen"
+  },
+  "definition": {
+    "de": "Beurteilen und Bewerten des Potenzials eines Projekts, Plans, Vorschlags oder einer neuen Idee. Durchführen einer standardisierten Studie, die auf umfangreichen Untersuchungen und Forschungsarbeiten beruht und den Entscheidungsprozess unterstützt."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/01895f13-1989-4756-80d6-9b9ee19ddb32",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie für Gebäudemanagementsysteme ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06a4004d-ee47-44ff-ae2f-a038ba0c0256",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über Kleinwindkraftanlagen ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e2e8415-0a45-466b-ba7b-25c0e72538c1",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zu Fernwärme und Fernkühlung ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e3222fa-724d-41f0-9b0a-e88d1003cd35",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zur solaren Absorptionskühlung ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23872ce8-ea42-44ac-9b00-ccc0dc407209",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über elektrische Beheizung ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/395ace35-e463-4dc7-8181-c2dd43885107",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zu Wärmepumpen ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6561f116-70de-47d8-80b8-f0e2a1d2cf11",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zur Solarheizung ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a3629b49-ef78-49ce-8538-033772d6e6ca",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zur Kraft-Wärme-Kopplung ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aaa84f7f-4006-4d9b-81e0-e8eeacdde025",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über Biogasenergie ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b71fc6e4-14eb-488b-9f26-a7c15fd6d6e8",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über geothermische Energie ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4f97536-866b-4a4f-b91d-da07809ef2d8",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über Wasserstoff ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/da896663-08b3-409d-aa3d-31f39a8e8d2b",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie über Biomassesysteme ausführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ec66a2f9-db12-4eec-936a-47632bfdccfb",
+      "prefLabel": {
+        "de": "Durchführbarkeitsstudie zu intelligenten Stromnetzen ausführen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ec528c47-65f4-4187-9dc1-5a8889f84a06",
+    "prefLabel": {
+      "de": "Analyse von Geschäftstätigkeiten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/d74df140-eb69-43e2-bac9-1cafc824d702"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

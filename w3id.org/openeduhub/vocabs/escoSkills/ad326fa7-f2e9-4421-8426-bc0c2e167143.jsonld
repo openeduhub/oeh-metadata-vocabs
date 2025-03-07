@@ -1,0 +1,215 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ad326fa7-f2e9-4421-8426-bc0c2e167143",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Präsentation von Informationen in Gerichtsverfahren"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/326686e4-a55f-4eba-9d07-1c86408d5c5e",
+      "prefLabel": {
+        "de": "Beweise vorstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/478da040-fb0a-4fa8-9112-285ff5c4aefa",
+      "prefLabel": {
+        "de": "bei Gerichtsverfahren aussagen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4ff17e60-5dfc-457b-b5bc-1750248095d5",
+      "prefLabel": {
+        "de": "persönliche Rechtsangelegenheiten verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/50b032eb-1b54-4a30-9298-11f1cd5b03e8",
+      "prefLabel": {
+        "de": "Urteilsvollstreckung sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6c3f7679-af52-4806-ab0d-2a692640703b",
+      "prefLabel": {
+        "de": "über Mietverträge informieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/77159ff0-bd25-4ec3-80b6-692011f1ab2a",
+      "prefLabel": {
+        "de": "Täter und Täterinnen konfrontieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7726fc5e-a972-4f0a-abbe-6be3043422f9",
+      "prefLabel": {
+        "de": "Mandanten und Mandantinnen vor Gericht vertreten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8c87a050-08f8-4c3a-804e-b41a465553bc",
+      "prefLabel": {
+        "de": "mit den Schöffen und Schöffinnen kommunizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aa9c8866-34dd-4a3a-90c9-38890d9729aa",
+      "prefLabel": {
+        "de": "an rabbinischen Gerichtsverfahren teilnehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b9636ea8-c1f6-4991-81e7-4ad1ab99f9cc",
+      "prefLabel": {
+        "de": "tierbezogene Informationen für Gerichtsverfahren bereitstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56ab5131-93a0-4ce3-b840-6413e687c307",
+      "prefLabel": {
+        "de": "rechtliche Argumente vorbringen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3f641516-9846-4a7f-a7f4-e1274eef6688",
+    "prefLabel": {
+      "de": "Informationen präsentieren"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/ad326fa7-f2e9-4421-8426-bc0c2e167143"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89f8435a-ebc1-42b6-bf5c-496999e99776",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Zubereitung von Speisen und Getränken"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0eece926-f1a3-4b65-9b99-a35e4c0eb835",
+      "prefLabel": {
+        "de": "Lebensmittel ästhetisches Aussehen verleihen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1316577b-31f7-437f-97ce-27c408b87a55",
+      "prefLabel": {
+        "de": "Milcherzeugnisse für die Verwendung in einem Gericht vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/14f6c275-5a3c-4016-8be0-53c40b4bfbc5",
+      "prefLabel": {
+        "de": "Hitzebehandlung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1f6b05c1-e314-4ae6-b6ef-d469667e8961",
+      "prefLabel": {
+        "de": "Schnittchen zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/213873ff-2b1e-47ce-bd00-84fe82864449",
+      "prefLabel": {
+        "de": "Fisch aufschneiden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/21d5f9c6-c35d-4c70-bbc5-f32cbd7b2500",
+      "prefLabel": {
+        "de": "Kühlung von Lebensmitteln in der Lieferkette sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+      "prefLabel": {
+        "de": "Ernährungseigenschaften von Lebensmitteln ermitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/298ead56-f11b-4c5d-a4d9-282f7a1489b6",
+      "prefLabel": {
+        "de": "Pizza zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/32adf439-5bbc-4759-8f05-fbaacdac60a6",
+      "prefLabel": {
+        "de": "Küchenausrüstung handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/38bceda2-af8c-40f5-943b-c9f3f13db6e6",
+      "prefLabel": {
+        "de": "Essen im Gesundheitswesen überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47d286a7-38b2-4970-a9f2-69c7faa77167",
+      "prefLabel": {
+        "de": "Standardportionsgrößen einhalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4cca4ccf-b956-4561-af8e-151b66af9631",
+      "prefLabel": {
+        "de": "Meeresfrüchte kochen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/555d83ff-dbf9-481a-b726-2d502a11904e",
+      "prefLabel": {
+        "de": "pflanzliche Produkte zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5badb272-c27b-4c92-bd68-713cef631149",
+      "prefLabel": {
+        "de": "Mahlzeiten für Flüge zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6882a311-b19e-438b-9cff-7eb8930d9e42",
+      "prefLabel": {
+        "de": "Wasser kochen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6b6babbe-2243-4772-9f8b-daa4c43c92a0",
+      "prefLabel": {
+        "de": "Diätkost vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/70dce910-ea3e-47ba-9c36-012b9ca214c7",
+      "prefLabel": {
+        "de": "regionale Süßigkeiten zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/73b97efd-49fe-49d7-89dd-444f870cd210",
+      "prefLabel": {
+        "de": "Gemüse für den Gebrauch in einem Gericht vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/74c87070-7e00-4be5-9dde-5083bb9ce5c0",
+      "prefLabel": {
+        "de": "Bier auf Essen abstimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/79c96922-6032-40d6-b391-0f4a0d85e620",
+      "prefLabel": {
+        "de": "Lebensmittel künstlerisch gestalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/803c3dda-0d46-4aed-8cdb-ef3310a44755",
+      "prefLabel": {
+        "de": "Kessel befüllen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/88f649ef-eecc-452e-8f50-197cb07eb58c",
+      "prefLabel": {
+        "de": "Äpfel entkernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8bb1e784-f54f-48dd-aedd-23723e171898",
+      "prefLabel": {
+        "de": "Zubereitung von Speisen anleiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a02d7f88-a240-4644-911b-169af470be5a",
+      "prefLabel": {
+        "de": "Wiederaufwärmmethoden verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a37afd64-1022-48ba-a8e7-e41b29fe056e",
+      "prefLabel": {
+        "de": "Kaffee zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a78b60d6-6cde-4da6-9c48-39bc7396ab16",
+      "prefLabel": {
+        "de": "Desserts zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bb84d739-1b06-477b-9195-251650bb3c14",
+      "prefLabel": {
+        "de": "kulinarische Veredelungsverfahren nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc63a8dc-a944-44bf-a89b-4922f0642ce6",
+      "prefLabel": {
+        "de": "einfache Mahlzeiten an Bord zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bea04ae5-1f6c-4ceb-b5a6-3bfe2482158a",
+      "prefLabel": {
+        "de": "Barausstattung verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ce37e233-64c4-4b48-a09a-04ec08fb9740",
+      "prefLabel": {
+        "de": "korrekte Verwendung von Bäckereiausrüstung sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cf441bdc-450b-4f44-8b21-3ca946c5d96b",
+      "prefLabel": {
+        "de": "Haltbarkeit von Lebensmitteln bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d01ea580-9718-4299-a6fd-08ea6d171a1b",
+      "prefLabel": {
+        "de": "Fisch und Meeresfrüchte kochen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ddc36f84-968f-4ac5-b687-bb2ea787f2f0",
+      "prefLabel": {
+        "de": "Säuglingsanfangsnahrung vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e14472b6-6b74-4289-9aa4-903abf58b4f7",
+      "prefLabel": {
+        "de": "Pasta vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e4fb4f26-1c0c-45e4-9250-5be32cee2a48",
+      "prefLabel": {
+        "de": "Heißgetränke zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f19f0cda-73f4-417e-8ec9-c0cacf5e7149",
+      "prefLabel": {
+        "de": "Fleischgerichte kochen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f3934441-4bff-4076-9945-e6c51a01c467",
+      "prefLabel": {
+        "de": "Kochtechniken nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fad85f11-e21d-41f4-b221-2f8ab318d4ed",
+      "prefLabel": {
+        "de": "Eier und Milchprodukte für die Verwendung in einem Gericht vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fd728a62-6be0-4874-9d68-5946b87f29da",
+      "prefLabel": {
+        "de": "flambierte Gerichte zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24c4beb4-429c-4cd1-b0bd-c04ba4c82e13",
+      "prefLabel": {
+        "de": "Essens- und Getränkebestellungen zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/39a8498f-87e3-4923-817c-3f5835a64bd2",
+      "prefLabel": {
+        "de": "Saucierprodukte zur Verwendung in einem Gericht zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23b355ee-94db-4831-b16d-935adc5de1cd",
+      "prefLabel": {
+        "de": "Fleisch für den Gebrauch in einem Gericht vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/493a1805-6caa-4cda-8fd3-6495ec8ea451",
+      "prefLabel": {
+        "de": "Sandwiches zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b72395ea-623b-4204-abef-a67592b0781a",
+      "prefLabel": {
+        "de": "Fertiggerichte zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/499ca9ec-801f-48b9-9f33-a4c16eabd835",
+      "prefLabel": {
+        "de": "Salatdressings zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/614478b3-51a2-4a55-b3ef-a932105eaeaf",
+      "prefLabel": {
+        "de": "Saucen und Suppen kochen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4b15a965-9bb4-42f1-8e44-1024aeb0b08c",
+      "prefLabel": {
+        "de": "Lebensmittelzubereitungsmethoden verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/80ec44cc-372a-4dc6-ab36-7ffdbf3bfc4e",
+      "prefLabel": {
+        "de": "Garnierung für Getränke vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e603669a-dd2b-4309-9e20-57f61967ba03",
+      "prefLabel": {
+        "de": "Milchprodukte zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15d5041a-4ff3-4527-ba5c-2445a4fd044a",
+      "prefLabel": {
+        "de": "Gebäck zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d9895150-fbb5-42ec-8087-8e5d7ed5fcf3",
+      "prefLabel": {
+        "de": "alkoholische Getränke zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/81d5b408-e805-4788-8dbd-42f22e8fd199",
+      "prefLabel": {
+        "de": "Mischgetränke zubereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fd60eb61-262e-4719-bb5c-e5ff4b531ae8",
+      "prefLabel": {
+        "de": "die Nutzung von Küchengeräten überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfcc2266-a578-4300-93ce-ce7860c7398c",
+      "prefLabel": {
+        "de": "Temperatur bei der Herstellung von Lebensmitteln und Getränken überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/42df8703-d69f-4b27-a75f-9e7f0299ceb7",
+      "prefLabel": {
+        "de": "Obst zur Verwendung in Getränken vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/db654e8e-255c-4f63-a7c7-ed18b8f41a0e",
+      "prefLabel": {
+        "de": "Obst und Gemüse für die Vorverarbeitung vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d6f48dbb-057e-41b2-a59a-d6b86b5aa884",
+      "prefLabel": {
+        "de": "Gebäck für Sonderveranstaltungen backen und dekorieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b85711bc-32d6-42af-ae0f-e2e566d0dfca",
+    "prefLabel": {
+      "de": "Zubereitung von und Versorgung mit Speisen und Getränken"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/89f8435a-ebc1-42b6-bf5c-496999e99776"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ba1f6201-b206-4459-b178-706db34a851d",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Analyse wissenschaftlicher und medizinischer Daten"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0058526a-11e9-40a1-ab33-7c5ffdf5da05",
+      "prefLabel": {
+        "de": "Pflanzenforschung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/147b81cb-ec2b-4f14-b454-2c5ff0405327",
+      "prefLabel": {
+        "de": "ikonografische Quellen konsultieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1b6a5461-942e-43a0-a521-c6ef1e3ef66d",
+      "prefLabel": {
+        "de": "psychotherapeutische Praktiken evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1dc72b51-0428-4d28-b44f-2b8d55f25599",
+      "prefLabel": {
+        "de": "Routineblutuntersuchungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/21331900-9d2a-4806-9a0c-a1885e16dc3d",
+      "prefLabel": {
+        "de": "Waldanalysen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/22d363fa-45c0-46fd-a68d-e90182ae9791",
+      "prefLabel": {
+        "de": "psychologische Gesundheitsmaßnahmen evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/30a4d870-d6fc-4b78-80d5-5741322cc44d",
+      "prefLabel": {
+        "de": "die Aktivitäten von Patienten/Patientinnen analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3c748b49-fe85-42f6-b62d-b877bc8edb29",
+      "prefLabel": {
+        "de": "Himmelskörper beobachten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5966d07c-0242-43ad-b2e8-839031a084d9",
+      "prefLabel": {
+        "de": "Laborergebnisse aufgreifen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5a181485-2c17-49d4-a68b-3eb0d955f42c",
+      "prefLabel": {
+        "de": "Ernährungszustand von Patienten/Patientinnen prüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/73e2dbf5-571b-4921-84f4-1d3ee64e4cf6",
+      "prefLabel": {
+        "de": "Wirkung von Medikamenten auf das Gehirn analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/810134a4-3c40-4140-b8ca-6d6e8d0dc0f1",
+      "prefLabel": {
+        "de": "wissenschaftliche Theorien entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8cc75c06-23da-421a-95a5-d504441ee356",
+      "prefLabel": {
+        "de": "elektronische Signale identifizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8d68f734-078b-4df5-b346-b75a2b1814b6",
+      "prefLabel": {
+        "de": "klinisch-psychologische Maßnahmen evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8ed02827-a49f-488a-b5b9-34201dd4fbee",
+      "prefLabel": {
+        "de": "diagnostische Tests in der HNO-Medizin interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8f394713-08f9-4c2d-bb91-f5cbed29ba62",
+      "prefLabel": {
+        "de": "Rezepte interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/980faf19-13c9-45f1-87c6-f944f5bc6aca",
+      "prefLabel": {
+        "de": "Messungen evozierter Potenziale interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/992c2fe8-13da-4f48-8c83-ce13b4b80468",
+      "prefLabel": {
+        "de": "Rohstoffvorkommen evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a4559e78-c78d-4292-8b63-c9a4d4549a6e",
+      "prefLabel": {
+        "de": "Gesundheitsprobleme in einer festen Gemeinschaft analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aca6bd11-b3ab-4c03-a48e-7a9d0283b6f8",
+      "prefLabel": {
+        "de": "Fossilien bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b9aa41a9-636f-49a8-ac9f-24fc18de07c2",
+      "prefLabel": {
+        "de": "genetische Risikobewertung betreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ba1f42f2-da96-40d2-b052-7f92d5889b72",
+      "prefLabel": {
+        "de": "medizinische Bilder bearbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2432314-940b-43a0-bb99-7abe069ddb37",
+      "prefLabel": {
+        "de": "Erdbebenrisiko analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cb9c8373-402a-4b5f-8b19-63a831a14e48",
+      "prefLabel": {
+        "de": "Blutspurenmuster analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d0245e61-204f-48ca-911b-45e564732682",
+      "prefLabel": {
+        "de": "Programmtheorie rekonstruieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e2b82b00-f07f-4fc8-a7bb-c8febf65efe5",
+      "prefLabel": {
+        "de": "Berechnungen aus Prospektionen vergleichen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e87da0cb-eb09-460c-9867-48a63b0ef145",
+      "prefLabel": {
+        "de": "naturwissenschaftliche Taxonomien erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/eecbbdd5-5c07-41a4-9486-c0373de7fbab",
+      "prefLabel": {
+        "de": "Tierforschung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ef46ca1b-8f6d-4d3d-9f72-f681223f5b52",
+      "prefLabel": {
+        "de": "Schlachtkörper inspizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f1e1a05d-49a6-492f-ae99-88533ef26d13",
+      "prefLabel": {
+        "de": "Tiermigration analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fefd081d-a237-4606-9e37-161ab6babdcb",
+      "prefLabel": {
+        "de": "klinische Ergebnisse der Maßnahmen zur Zahnhygiene evaluieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ff82aa43-aef7-40fe-9d0e-2426e95b4417",
+      "prefLabel": {
+        "de": "Ernährungsanalyse durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1c4fa8a3-7f7e-4c63-a36c-89e4321774d6",
+      "prefLabel": {
+        "de": "historische Klimaveränderungen feststellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06670261-ea6b-4b52-a915-c7d4ff837f74",
+      "prefLabel": {
+        "de": "statistische Muster ermitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/75719644-f285-4060-b42b-9ed9c4a70375",
+      "prefLabel": {
+        "de": "biomedizinische Analyseresultate überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9e136617-1cd1-4f71-af3e-9deda4c75bea",
+      "prefLabel": {
+        "de": "forensische Daten auswerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9fb9f552-917f-4d26-acfb-bbe6d1005b90",
+      "prefLabel": {
+        "de": "Labordaten in der medizinischen Genetik interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07ec6866-d283-46a6-991c-e8ce0c6fc159",
+      "prefLabel": {
+        "de": "wissenschaftliche Daten zur Wasserqualitätskontrolle interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/36ff57b0-637d-4a83-a0e8-d14f86f9f078",
+      "prefLabel": {
+        "de": "wissenschaftliche Daten analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24513b22-fed9-4f28-9c37-8b4d198b42b6",
+      "prefLabel": {
+        "de": "zytologische Auffälligkeiten erkennen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5354a726-ee64-4f34-90f8-8436f9f374b8",
+      "prefLabel": {
+        "de": "ökologische Daten analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9622b720-ee2b-44fb-8cd0-37afc9c183a4",
+      "prefLabel": {
+        "de": "wissenschaftliche Daten über Arzneimittel bewerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aafbfaa4-5f93-457e-8cb8-d4ed855277f8",
+      "prefLabel": {
+        "de": "experimentelle Labordaten analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/77f109c4-3107-4d2a-a512-5160ac103933",
+      "prefLabel": {
+        "de": "Umweltdaten analysieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3753e796-121e-46a3-9c27-dee31ce92c80",
+    "prefLabel": {
+      "de": "Analyse und Auswertung von Informationen und Daten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/ba1f6201-b206-4459-b178-706db34a851d"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

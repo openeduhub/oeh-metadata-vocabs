@@ -1,0 +1,221 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/92fc9726-5b5e-439e-a33c-06a8c63fbb9a",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Zuweisung und Kontrolle von Ressourcen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/14dcd9eb-52e4-4353-ad4e-b2833e55ebe5",
+      "prefLabel": {
+        "de": "Schädlings- und Seuchenbekämpfung überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/151174e2-2a27-4c1e-be68-6446278d34b7",
+      "prefLabel": {
+        "de": "Leitung und Verantwortung ausüben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/30e0f65f-82b9-458d-b454-fba8f7d6a24b",
+      "prefLabel": {
+        "de": "Jagdbewirtschaftungspläne verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/448d9977-0881-404e-b1e3-ba66d35e1f3f",
+      "prefLabel": {
+        "de": "Produktion von Wildfleisch für den menschlichen Verzehr kontrollieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/52bc9c9a-e614-4354-8acf-a3c478ed2c73",
+      "prefLabel": {
+        "de": "Ausfuhr von Waren und Rohstoffen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/63d36c23-0189-4943-93da-9a9b74611920",
+      "prefLabel": {
+        "de": "Ressourcen für den Fahrzeugausstellungsraum organisieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a2fef437-6719-47c2-8552-73b9fe81df86",
+      "prefLabel": {
+        "de": "IKT-Kapazität planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b4e083dd-e532-4bd5-870a-3815f8c94950",
+      "prefLabel": {
+        "de": "Funkdienste in Notfällen anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d375cec2-d157-47f3-8d45-708741273e39",
+      "prefLabel": {
+        "de": "Notfallversorgung bereitstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d2f8ea38-4052-4773-90c4-91de7116f2a4",
+      "prefLabel": {
+        "de": "Übungsumfeld instand halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/911e13ee-1eec-4243-88c8-3c08a3681a19",
+      "prefLabel": {
+        "de": "Ressourcen verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/54e4e941-76cd-4bb7-bf25-019d50b737de",
+      "prefLabel": {
+        "de": "Forschungsvorhaben diskutieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9827c329-3492-4e8d-852c-da0894228ff6",
+    "prefLabel": {
+      "de": "Zuweisung und Kontrolle von Ressourcen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/92fc9726-5b5e-439e-a33c-06a8c63fbb9a"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

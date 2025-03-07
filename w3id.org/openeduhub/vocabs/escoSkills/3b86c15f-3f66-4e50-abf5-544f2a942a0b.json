@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3b86c15f-3f66-4e50-abf5-544f2a942a0b",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Reinigen von Außenbereichen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/41be6ab9-1cf9-43af-8c63-b6664b921dd5",
+      "prefLabel": {
+        "de": "Grundstückspflegetätigkeiten durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e7f4c10-5ed9-4b95-81a2-f1465ee2d741",
+      "prefLabel": {
+        "de": "Wanderwege instand halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/785186f2-6a81-419a-9c63-63b5c53004b5",
+      "prefLabel": {
+        "de": "Bohrplätze von Bewuchs befreien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/78d6270a-2f81-45a8-8558-5112926febba",
+      "prefLabel": {
+        "de": "verunreinigende Substanzen von Start- und Landebahnen entfernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e3b0b309-f0e2-4c9b-8bd9-6cb9f3c062da",
+      "prefLabel": {
+        "de": "Gestängelager instand halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f17846ea-7278-4b92-808e-bddeb6122cbe",
+      "prefLabel": {
+        "de": "Reinigungsarbeiten im Außenbereich vornehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06c4a403-2614-40c6-a7ea-4a1fc267f053",
+      "prefLabel": {
+        "de": "Schnee auf Betriebsflächen des Flughafens beseitigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/63dd281f-f980-4c0f-b0fc-eb13a679ae90",
+      "prefLabel": {
+        "de": "Schnee räumen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4b9f1f56-115e-4cf1-ba82-4f219fa4c602",
+      "prefLabel": {
+        "de": "sicherstellen, dass Eisenbahngleise frei und befahrbar bleiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/76ed802c-90d7-4c29-968c-9fb0f5ca59c1",
+      "prefLabel": {
+        "de": "Campingeinrichtungen reinigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9de3bbf0-435f-4db3-88f0-546cc9fd8388",
+      "prefLabel": {
+        "de": "Start- und Landebahnen an Flughäfen frei von Hindernissen halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b9a9459c-befa-4b30-95b8-25b5dc83d8f1",
+      "prefLabel": {
+        "de": "Einrichtungen in Themenparks reinigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1ea17ca5-3550-408c-8500-7d18dfffee93",
+      "prefLabel": {
+        "de": "Enteisungen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/53564525-89e7-4d9d-b770-59129ae350b9",
+      "prefLabel": {
+        "de": "Straßenreinigung manuell durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/36ef5d7c-5f78-49f5-b945-569064e4ced2",
+      "prefLabel": {
+        "de": "Straßenreinigung bei Notfällen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ae782b0e-d14e-4ac1-a64d-f81eb15b19b2",
+      "prefLabel": {
+        "de": "Unrat auf Straßen wegsaugen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bce2a9d6-0795-4ab7-8232-cad65dddd6e6",
+      "prefLabel": {
+        "de": "Aufräumarbeiten nach einer Veranstaltung durchführen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/821ecf8f-3c2a-4b89-a9f1-b2aa7fb0b625",
+    "prefLabel": {
+      "de": "Reinigung"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/3b86c15f-3f66-4e50-abf5-544f2a942a0b"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

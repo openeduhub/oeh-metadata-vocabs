@@ -1,0 +1,181 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/913e7e83-b8f8-4574-b1ca-1b38f3fd974a",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Softwaretests durchführen"
+  },
+  "altLabel": {
+    "de": [
+      "Anwendungen testen",
+      "Programme testen",
+      "Software testen",
+      "Software-Tests durchführen",
+      "Software-Testverfahren anwenden",
+      "Software-Testwerkzeuge anwenden",
+      "Software-Testwerkzeuge und -verfahren anwenden"
+    ]
+  },
+  "definition": {
+    "de": "Durchführung von Tests, um sicherzustellen, dass ein Softwareprodukt unter den spezifizierten Kundenanforderungen einwandfrei funktioniert, und Identifizierung von Softwaremängeln (Bugs) und Fehlfunktionen unter Verwendung spezieller Softwaretools und Testverfahren."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a9dc215e-4e26-4ac0-b1e8-a721a88af813",
+      "prefLabel": {
+        "de": "Konvertierungstests durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ea412de3-9d7a-4943-8d8c-c6d3c7495d0e",
+      "prefLabel": {
+        "de": "Integrationsprüfung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7961413f-61d0-4722-9cd9-20a050a29899",
+      "prefLabel": {
+        "de": "Softwarekomponenten-Tests durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ff25cbf0-6978-4c4c-887e-d4b185410d74",
+      "prefLabel": {
+        "de": "Software-Wiederherstellungstests durchführen"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/913e7e83-b8f8-4574-b1ca-1b38f3fd974a"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fb01d224-882a-4346-99e2-bfd56f52d09c",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Werbung, Verkauf und Kauf"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24febd8d-bb08-4be7-a99a-3024f9655ba0",
+      "prefLabel": {
+        "de": "mit Schmuck handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4e7776b9-ceef-400a-a1fc-14969c30d233",
+      "prefLabel": {
+        "de": "mit Warenterminkontrakten handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/59e2df68-7442-4306-92b9-116c48146cc3",
+      "prefLabel": {
+        "de": "Gebote in Vorwärtsauktionen abgeben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/67fb9ff8-6afd-4496-98fa-51bf0e4cd8af",
+      "prefLabel": {
+        "de": "Präsentation von Fahrzeugen im Vertragshändlerbetrieb beaufsichtigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/693695f4-5ee1-4d35-8ea7-f18ba6a44d84",
+      "prefLabel": {
+        "de": "Passanten und Passantinnen in Gespräche verwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6dbf93ce-2e5d-4116-a9f5-5468968d59f2",
+      "prefLabel": {
+        "de": "mit Devisen handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aae7d5da-cf04-44ac-b2d3-c1c5d12e26c7",
+      "prefLabel": {
+        "de": "sich um zum Verkauf stehenden Frachtraum kümmern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4b5eec1-2da9-4353-acd4-fbbf929123e2",
+      "prefLabel": {
+        "de": "mit Wertpapieren handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d1c94539-03c7-4332-a26a-096f8d9814c1",
+      "prefLabel": {
+        "de": "mit Schiffen handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ed07ed44-969f-4942-84ae-77283f53f99b",
+      "prefLabel": {
+        "de": "mit Musikinstrumenten handeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/12dfdb75-9041-4d41-9974-dda7ce950f51",
+      "prefLabel": {
+        "de": "Marketingplan für Schuhwerk umsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d5493cca-ee21-4e43-8bcd-ec38680746cc",
+      "prefLabel": {
+        "de": "Marketingplan durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/36931cb7-ca3f-4be1-8428-f38eefc8e1ed",
+      "prefLabel": {
+        "de": "Marketing per E-Mail durchführen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b99283cd-b908-4100-baa5-112692ac22b8",
+    "prefLabel": {
+      "de": "Werbung, Verkauf und Kauf"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/fb01d224-882a-4346-99e2-bfd56f52d09c"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

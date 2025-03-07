@@ -1,0 +1,200 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/920764e7-43c6-42c0-b2a6-2cbcc07fafc2",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Zustand der Ausrüstung überwachen"
+  },
+  "definition": {
+    "de": "Überwachung der einwandfreien Funktion von Messinstrumenten, Anzeigen oder Bildschirmen, um die Funktionsfähigkeit von Maschinen sicherzustellen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b4c6885-eecd-48b5-b9da-c5c20a5f9550",
+      "prefLabel": {
+        "de": "Ausrüstung von Versorgungsanlagen überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7e7f8ff0-16e8-43cb-a2db-6ffe86b13eb5",
+      "prefLabel": {
+        "de": "Vorräte an biomedizinischer Ausrüstung überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b2fb9c46-cb25-42b9-9f04-ca1242f9402f",
+      "prefLabel": {
+        "de": "Abfallbehandlungsanlage überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cebd97e6-2ff5-4baf-b4b9-4ab24b678067",
+      "prefLabel": {
+        "de": "Leistung meteorologischer Geräte überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fd60eb61-262e-4719-bb5c-e5ff4b531ae8",
+      "prefLabel": {
+        "de": "die Nutzung von Küchengeräten überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/047ceb23-1eb3-4889-a07f-84a1e4b85bff",
+      "prefLabel": {
+        "de": "Geräte zum Entladen von Mehl überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/87a8b872-3513-4c31-ad6b-66da29da1422",
+      "prefLabel": {
+        "de": "Verwendung von Outdoor-Ausrüstung überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65c4ee04-319d-417c-8f45-8594408d0d24",
+      "prefLabel": {
+        "de": "Überwachungseinrichtungen überwachen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6d0cad66-82dd-4854-a03a-68232942c68d",
+    "prefLabel": {
+      "de": "Installation von Bauelementen aus Holz und Metall"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/920764e7-43c6-42c0-b2a6-2cbcc07fafc2"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

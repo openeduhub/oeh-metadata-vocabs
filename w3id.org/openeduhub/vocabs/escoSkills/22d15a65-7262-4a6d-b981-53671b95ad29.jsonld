@@ -1,0 +1,245 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/22d15a65-7262-4a6d-b981-53671b95ad29",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Waschen und Pflegen von Textilien und Kleidung"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/04838ae5-a737-48a0-a782-3d1b6b6cb75b",
+      "prefLabel": {
+        "de": "Wäsche waschen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/20c451f2-8e8a-4d47-95ec-830a086dbef1",
+      "prefLabel": {
+        "de": "Textilien färben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2eacf2eb-24ad-4e0f-9003-fe226d74b381",
+      "prefLabel": {
+        "de": "Waschschleuderautomaten bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/562b1180-83e7-4041-8468-2f28d03b7893",
+      "prefLabel": {
+        "de": "Textilien bügeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/623902ce-b595-4de6-8de4-c20a7058c75e",
+      "prefLabel": {
+        "de": "Schuhe putzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65e92c2b-abd4-4218-ab62-01d86a21b510",
+      "prefLabel": {
+        "de": "Kostüme waschen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/936a0af1-89bb-4aee-b805-231d587c03eb",
+      "prefLabel": {
+        "de": "Garderobe pflegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a208a63d-caca-49c6-ac65-e6aba0d8ebb1",
+      "prefLabel": {
+        "de": "Bügelmaschinen in einer Reinigung bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ad46d091-cb47-419b-acd4-a2d737862dfe",
+      "prefLabel": {
+        "de": "Fleckenvorbehandlung anwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ca99a4f9-4ead-4d17-a430-dda2cd6fb5ed",
+      "prefLabel": {
+        "de": "Polsterreparaturen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d754490f-77ac-4338-a78e-6537037ec1d5",
+      "prefLabel": {
+        "de": "Tuchwaren spülen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ff9eeebf-d4c8-487f-8cd4-aa22cc471588",
+      "prefLabel": {
+        "de": "Fahrzeugtextilien behandeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/288cca5e-5a5d-491a-b074-bcb31ee9fb7d",
+      "prefLabel": {
+        "de": "Haushaltswäsche reinigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bda2211b-ce6b-406e-9e09-e614e030a317",
+      "prefLabel": {
+        "de": "Schleudermaschine für Teppiche bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d2c34b0d-3dd2-4161-a3b0-2b84674050f4",
+      "prefLabel": {
+        "de": "Wäschetrockner bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f75fbe26-46e6-4df3-9742-ac405f041070",
+      "prefLabel": {
+        "de": "Kostüme instand halten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56c3ea4b-7cea-44da-969c-c21b07a55030",
+    "prefLabel": {
+      "de": "Waschen und Pflegen von Textilien und Kleidung"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/22d15a65-7262-4a6d-b981-53671b95ad29"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

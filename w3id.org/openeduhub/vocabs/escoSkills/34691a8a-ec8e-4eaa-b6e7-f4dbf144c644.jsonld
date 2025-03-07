@@ -1,0 +1,221 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34691a8a-ec8e-4eaa-b6e7-f4dbf144c644",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Finanzberatung"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3dde5918-f4c6-4d46-9d6f-c7b2865f594f",
+      "prefLabel": {
+        "de": "Versicherungsbedarf analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56426cfa-6e92-4ed9-a632-f08849864588",
+      "prefLabel": {
+        "de": "Investmentportfolios überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65556efb-13d5-48bc-8e53-96f7a3379749",
+      "prefLabel": {
+        "de": "Nutzer/Nutzerinnen der sozialen Dienste bei der Erledigung von Finanzangelegenheiten unterstützen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a1c6c1b-4248-42e4-9faa-a71a9d0dd6da",
+      "prefLabel": {
+        "de": "Kreditangebote erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8f6a8df0-ab99-4e5c-8606-6d1652d14a6a",
+      "prefLabel": {
+        "de": "Informationen über Immobilien übermitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d5ac6a93-7fba-49d4-93fd-b38d23b556e8",
+      "prefLabel": {
+        "de": "über Zinssätze informieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e3c7bd87-edc1-4d9a-a3d5-36415de1aac6",
+      "prefLabel": {
+        "de": "Finanzdienstleistungen anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e92f4673-1dec-41ec-b6ec-36fef226359c",
+      "prefLabel": {
+        "de": "Informationen über Finanzprodukte übermitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f5bd097-ed76-47f7-8f44-93be67967b5f",
+      "prefLabel": {
+        "de": "Finanzjargon erläutern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3fc5a30d-d493-44ed-a2b5-ff9a50f84de3",
+      "prefLabel": {
+        "de": "Probleme im Zusammenhang mit Bankkonten lösen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4f8c22a-63f2-47d5-9721-d560f1f042b8",
+      "prefLabel": {
+        "de": "Informationen zur Bildungsfinanzierung bereitstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fae1463c-9f5c-4b4f-96be-c461703bca8c",
+      "prefLabel": {
+        "de": "Verbraucher über Energieverbrauchskosten informieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24ad2ffb-dece-4704-8155-63ea9428d038",
+    "prefLabel": {
+      "de": "Beraten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/34691a8a-ec8e-4eaa-b6e7-f4dbf144c644"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

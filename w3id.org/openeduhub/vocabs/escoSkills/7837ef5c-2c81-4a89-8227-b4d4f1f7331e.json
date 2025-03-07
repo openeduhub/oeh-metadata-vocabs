@@ -1,0 +1,230 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7837ef5c-2c81-4a89-8227-b4d4f1f7331e",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Arbeitsaufzeichnungen führen"
+  },
+  "definition": {
+    "de": "Erstellen und Führen von Aufzeichnungen über durchgeführte Arbeiten."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/08ee68b2-0a6d-4bdf-a870-a36c0dc8064e",
+      "prefLabel": {
+        "de": "Finanzstatistiken erzeugen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16d076f8-5ae7-4e93-91df-4cdc13329f99",
+      "prefLabel": {
+        "de": "pharmazeutische Aufzeichnungen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/44a4f189-7414-402c-9c1d-c85743f34d0c",
+      "prefLabel": {
+        "de": "Aufzeichnungen über Recyclingmaßnahmen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/648782e0-b5e5-4e59-bed0-627aa8ac29f0",
+      "prefLabel": {
+        "de": "Aufzeichnungen über Finanztransaktionen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/82ea1455-ff29-43c8-8074-685fa2653144",
+      "prefLabel": {
+        "de": "Aufzeichnungen über die Abfallsammlung führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/183eb46f-24f6-4e15-8017-93f10039c0a6",
+      "prefLabel": {
+        "de": "Fahrzeugaufzeichnungen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a27f3a99-e88b-490d-b151-2b07e65bd2bf",
+      "prefLabel": {
+        "de": "Unterlagen über durchgeführte Tätigkeiten in Aquakulturen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ab1ad155-db0b-4fa0-8bac-856853c47175",
+      "prefLabel": {
+        "de": "Aufzeichnungen über Kundenverordnungen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c0156cdb-8587-4278-89e0-075d83e3140b",
+      "prefLabel": {
+        "de": "Aufzeichnungen zu Veranstaltungen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/faf8943c-72ff-4736-a587-25508695d6f0",
+      "prefLabel": {
+        "de": "Finanzbuchhaltung führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24016006-c963-4135-a2c5-b1f7740782e2",
+      "prefLabel": {
+        "de": "Aufzeichnungen über Schulden von Kunden und Kundinnen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2ce5a8e-7885-48b7-81fe-3e8a057c47a9",
+      "prefLabel": {
+        "de": "Aufzeichnungen in Apotheken führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dd5e070b-92c5-4483-a321-dfd97b814257",
+      "prefLabel": {
+        "de": "Aufzeichnungen in Brütereien und Setzlingskulturen führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1d6d32ea-9753-4069-b6b3-98cd6a1195c1",
+      "prefLabel": {
+        "de": "klinische Aufzeichnungen führen"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/7837ef5c-2c81-4a89-8227-b4d4f1f7331e"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

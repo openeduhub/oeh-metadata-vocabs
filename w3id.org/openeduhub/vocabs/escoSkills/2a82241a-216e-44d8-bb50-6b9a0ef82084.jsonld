@@ -1,0 +1,212 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2a82241a-216e-44d8-bb50-6b9a0ef82084",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Fahrzeuge führen"
+  },
+  "definition": {
+    "de": "Fähigkeit, Fahrzeuge zu führen; Verfügen über die entsprechende Art des Führerscheins, die für den verwendeten Kraftfahrzeugtyp erforderlich ist."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4b8670a1-f3cd-4c1d-bd1e-8b9a0e1c2b9a",
+      "prefLabel": {
+        "de": "Eisenbahnfahrzeuge bedienen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/13dd985b-9baf-43bd-b85b-9f44e2f0bade",
+      "prefLabel": {
+        "de": "einen Rettungswagen unter Notfallbedingungen fahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5dcac3d3-56a7-4d6a-ae04-c13806fcff96",
+      "prefLabel": {
+        "de": "Leitfahrzeuge fahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9b9135e0-2da5-484d-a9d9-0ac2fe4a89a6",
+      "prefLabel": {
+        "de": "Kraftfahrzeugprototypen lenken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4f2cb26-95c8-4d49-8dbc-fd0a514e2e50",
+      "prefLabel": {
+        "de": "Fahrzeuge in Prozessionen fahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fef6422f-0186-4513-8dd8-a277aa6f556d",
+      "prefLabel": {
+        "de": "Entsorgungsfahrzeug führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/14be22fb-da8d-4521-a153-9b4e0d1c2314",
+      "prefLabel": {
+        "de": "Tests an Flughafenfahrzeugen durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a2d4c66-d687-491a-a12a-81427710aa29",
+      "prefLabel": {
+        "de": "Fahrzeuge im Depot abstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e7f63440-6007-486b-948f-ea124839c418",
+      "prefLabel": {
+        "de": "zweirädrige Fahrzeuge fahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe490139-ccc4-4b82-ab55-5c6708cb0e30",
+      "prefLabel": {
+        "de": "defensiv fahren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f7c70392-a261-42e9-86a6-fccf3709ac81",
+    "prefLabel": {
+      "de": "Führen von Fahrzeugen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/2a82241a-216e-44d8-bb50-6b9a0ef82084"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

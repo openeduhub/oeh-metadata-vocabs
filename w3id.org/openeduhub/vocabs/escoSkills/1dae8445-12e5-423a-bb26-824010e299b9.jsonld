@@ -1,0 +1,192 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1dae8445-12e5-423a-bb26-824010e299b9",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Einhaltung der rechtlichen Bestimmungen sicherstellen"
+  },
+  "altLabel": {
+    "de": [
+      "Einhaltung gesetzlicher Regelungen sicherstellen",
+      "Einhaltung gesetzlicher Vorschriften sicherstellen",
+      "Einhaltung rechtlicher Vorschriften sicherstellen",
+      "Erfüllung gesetzlicher Vorschriften sicherstellen",
+      "Erfüllung rechtlicher Vorschriften sicherstellen",
+      "Sicherstellung der Einhaltung gesetzlicher Regelungen"
+    ]
+  },
+  "definition": {
+    "de": "Die Einhaltung festgelegter und geltender Normen und rechtlicher Bestimmungen gewährleisten, z. B. Spezifikationen, Strategien, Normen oder Rechtsvorschriften für das Ziel, das Einrichtungen verfolgen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0d4471ae-3820-4c23-8566-f44a7bd159b2",
+      "prefLabel": {
+        "de": "Lizenzverträge ausarbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/089ee650-297e-4716-87d1-440743b70a0d",
+      "prefLabel": {
+        "de": "Einhaltung der Umweltschutzvorschriften gewährleisten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/233be639-bdb5-4099-ab40-96d537d6c1f3",
+      "prefLabel": {
+        "de": "Einhaltung der Sicherheitsvorschriften gewährleisten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7c4bb41a-9b5a-472c-888a-9d58bb4e2a0d",
+      "prefLabel": {
+        "de": "Konformität mit Eisenbahnvorschriften sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/27273605-2400-4392-a6d6-cc8161a2d445",
+      "prefLabel": {
+        "de": "Konformität mit Rechtsvorschriften für Abfälle sicherstellen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/35dc2a23-cdc3-4291-930f-927ba2911949",
+    "prefLabel": {
+      "de": "Sicherstellung der Einhaltung von Rechtsvorschriften"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/1dae8445-12e5-423a-bb26-824010e299b9"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

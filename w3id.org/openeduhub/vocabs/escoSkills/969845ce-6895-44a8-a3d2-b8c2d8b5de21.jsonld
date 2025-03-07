@@ -1,0 +1,221 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/969845ce-6895-44a8-a3d2-b8c2d8b5de21",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Betreuung von Kindern"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0174a9e6-bf12-4ac3-bfc3-0a5469410f18",
+      "prefLabel": {
+        "de": "Betreuungspersonen für Kinder am Drehort bereitstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07090471-265a-48ec-b744-72b357e801ed",
+      "prefLabel": {
+        "de": "mit gesundheitlichen Problemen von Kindern umgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6b58a6d2-89cf-4ab5-bb62-eb29ae968934",
+      "prefLabel": {
+        "de": "Pflegeprogramme für Kinder umsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6caaeece-8a4a-44b3-bc78-d9687676c015",
+      "prefLabel": {
+        "de": "traumatisierte Kinder unterstützen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6ec9185b-bce9-4166-8627-cdfed7c79ab4",
+      "prefLabel": {
+        "de": "Pflegefamilien besuchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/77eda69d-ddf6-40ca-b66f-870ea996734d",
+      "prefLabel": {
+        "de": "außerschulische Betreuung anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8e09fe66-2649-4179-81ef-91fefa3ceee8",
+      "prefLabel": {
+        "de": "Kinder dabei unterstützen, persönliche Fertigkeiten zu entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94b01483-f13d-48ba-b8a9-ef8f18fcb2dc",
+      "prefLabel": {
+        "de": "mit Kindern spielen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+      "prefLabel": {
+        "de": "Wohlbefinden von Kindern fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b2b31eeb-a6b6-49cf-aa4a-3307d13fbac2",
+      "prefLabel": {
+        "de": "Neugeborene pflegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/beb952e4-8a9c-47af-8a60-c6eb5c5f25bc",
+      "prefLabel": {
+        "de": "sich um die physischen Grundbedürfnisse von Kindern kümmern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f8d4a24c-fb62-444e-9525-7aa5662f440d",
+      "prefLabel": {
+        "de": "Kinder beaufsichtigen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e7a48651-3f68-4762-bf93-57cc1af47016",
+    "prefLabel": {
+      "de": "Erbringung von Pflegedienstleistungen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/969845ce-6895-44a8-a3d2-b8c2d8b5de21"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

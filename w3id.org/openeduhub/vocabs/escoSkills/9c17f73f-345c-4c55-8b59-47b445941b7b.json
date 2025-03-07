@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9c17f73f-345c-4c55-8b59-47b445941b7b",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Vermittlung in Streitsachen und Beilegung von Streitigkeiten"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0023e7a5-43da-4b68-bee3-726ef21f986d",
+      "prefLabel": {
+        "de": "Grundsätze der Diplomatie anwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0ee94af1-b445-4973-9c3f-459fab250342",
+      "prefLabel": {
+        "de": "Konfliktmanagement anwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2058f70f-af29-460d-b319-9048c6db0d18",
+      "prefLabel": {
+        "de": "Unvoreingenommenheit zeigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/275db6dd-7606-4dce-b8dc-644b2a50e578",
+      "prefLabel": {
+        "de": "mit Lobbyisten/Lobbyistinnen von Bergwerksgegnern in Verbindung treten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2ea702ba-2f9c-4ab9-a1ef-65bb6b7c4c14",
+      "prefLabel": {
+        "de": "in Krisengebieten arbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4b28bf98-7e93-4364-9104-51fca5a5f20e",
+      "prefLabel": {
+        "de": "Vermögenswerte des Schuldners verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/59a8086b-59b3-4e88-9341-21d7fb693b89",
+      "prefLabel": {
+        "de": "Verhandlungen moderieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5fe2e5e7-b8a2-4072-b527-f82f3169d989",
+      "prefLabel": {
+        "de": "offizielle Vereinbarung fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/74399ae8-d058-44ee-8f79-aa316de010d4",
+      "prefLabel": {
+        "de": "Gewerkschaftsmitglieder vertreten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc24fe02-d93c-4191-8897-ca2c593bc84b",
+      "prefLabel": {
+        "de": "Schadensregulierungen vorschlagen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d1d4a40d-ad7c-4dcc-bd7d-4f2423a647b1",
+      "prefLabel": {
+        "de": "Neutralität in Mediationsfällen wahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e7b9d173-32ba-452d-a7df-f15f0e05903c",
+      "prefLabel": {
+        "de": "Regeln für den Mediationsdienst entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f70b5f39-b8b6-407b-8c08-64fd65db79e9",
+      "prefLabel": {
+        "de": "finanzielle Auseinandersetzungen beilegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c57fbedb-6e0b-49cf-9ba2-cf431d61972e",
+      "prefLabel": {
+        "de": "Schadenbearbeitungsvorgang handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f6d294f4-db62-4fc5-a7b8-778e5071c112",
+      "prefLabel": {
+        "de": "Moderation eines Forums durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f79e4715-5776-485c-ab7d-631c9b8d70ad",
+      "prefLabel": {
+        "de": "Vertragsstreitigkeiten bewältigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3a5d7eea-29fa-4449-8487-43cf37b68e53",
+      "prefLabel": {
+        "de": "Versandprobleme lösen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/323b3684-86ec-40fa-81b4-bc52694ef168",
+    "prefLabel": {
+      "de": "Verhandlungen führen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/9c17f73f-345c-4c55-8b59-47b445941b7b"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "Fähigkeiten"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}
