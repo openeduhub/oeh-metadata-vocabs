@@ -1,0 +1,5087 @@
+@base <http://w3id.org/openeduhub/vocabs/kldb/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+	dct:title "Klassifikation der Berufe - KldB"@de ;
+	dct:description "Zusammenstellung der Berufsgruppen und Berufsuntergruppen aus der KldB (© Statistik der Bundesagentur für Arbeit). Details zu den Daten unter https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Systematik-Verzeichnisse/Systematik-Verzeichnisse-Nav.html"@de ;
+	dct:created "2025-03-13"^^xsd:date ;
+	skos:hasTopConcept <011>, <012>, <013>, <014>, <111>, <112>, <113>, <114>, <115>, <116>, <117>, <121>, <122>, <211>, <212>, <213>, <214>, <221>, <222>, <223>, <231>, <232>, <233>, <234>, <241>, <242>, <243>, <244>, <245>, <251>, <252>, <261>, <262>, <263>, <271>, <272>, <273>, <281>, <282>, <283>, <291>, <292>, <293>, <311>, <312>, <321>, <322>, <331>, <332>, <333>, <341>, <342>, <343>, <411>, <412>, <413>, <414>, <421>, <422>, <423>, <431>, <432>, <433>, <434>, <511>, <512>, <513>, <514>, <515>, <516>, <521>, <522>, <523>, <524>, <525>, <531>, <532>, <533>, <541>, <611>, <612>, <613>, <621>, <622>, <623>, <624>, <625>, <631>, <632>, <633>, <634>, <711>, <712>, <713>, <714>, <715>, <721>, <722>, <723>, <731>, <732>, <733>, <811>, <812>, <813>, <814>, <815>, <816>, <817>, <818>, <821>, <822>, <823>, <824>, <825>, <831>, <832>, <833>, <841>, <842>, <843>, <844>, <845>, <911>, <912>, <913>, <914>, <921>, <922>, <923>, <924>, <931>, <932>, <933>, <934>, <935>, <936>, <941>, <942>, <943>, <944>, <945>, <946>, <947> .
+
+<011> a skos:Concept ;
+	skos:prefLabel "Offiziere"@de ;
+	skos:altLabel "Offiziere"@de ;
+	skos:narrower <0110> ;
+	skos:topConceptOf <> .
+
+<012> a skos:Concept ;
+	skos:prefLabel "Unteroffiziere mit Portepee"@de ;
+	skos:altLabel "Unteroffiziere mit Portepee"@de ;
+	skos:narrower <0120> ;
+	skos:topConceptOf <> .
+
+<013> a skos:Concept ;
+	skos:prefLabel "Unteroffiziere ohne Portepee"@de ;
+	skos:altLabel "Unteroffiziere ohne Portepee"@de ;
+	skos:narrower <0130> ;
+	skos:topConceptOf <> .
+
+<014> a skos:Concept ;
+	skos:prefLabel "Angeh. reguläre Streitkräfte sonst.Ränge"@de ;
+	skos:altLabel "Angehörige der regulären Streitkräfte in sonstigen Rängen"@de ;
+	skos:narrower <0140> ;
+	skos:topConceptOf <> .
+
+<111> a skos:Concept ;
+	skos:prefLabel "Landwirtschaft"@de ;
+	skos:altLabel "Landwirtschaft"@de ;
+	skos:narrower <1110>, <1111>, <1112>, <1113>, <1118>, <1119> ;
+	skos:topConceptOf <> .
+
+<112> a skos:Concept ;
+	skos:prefLabel "Tierwirtschaft"@de ;
+	skos:altLabel "Tierwirtschaft"@de ;
+	skos:narrower <1121>, <1122>, <1123>, <1128>, <1129> ;
+	skos:topConceptOf <> .
+
+<113> a skos:Concept ;
+	skos:prefLabel "Pferdewirtschaft"@de ;
+	skos:altLabel "Pferdewirtschaft"@de ;
+	skos:narrower <1130>, <1131>, <1132>, <1133>, <1134>, <1139> ;
+	skos:topConceptOf <> .
+
+<114> a skos:Concept ;
+	skos:prefLabel "Fischwirtschaft"@de ;
+	skos:altLabel "Fischwirtschaft"@de ;
+	skos:narrower <1140>, <1141>, <1142>, <1149> ;
+	skos:topConceptOf <> .
+
+<115> a skos:Concept ;
+	skos:prefLabel "Tierpflege"@de ;
+	skos:altLabel "Tierpflege"@de ;
+	skos:narrower <1150>, <1151>, <1152>, <1158>, <1159> ;
+	skos:topConceptOf <> .
+
+<116> a skos:Concept ;
+	skos:prefLabel "Weinbau"@de ;
+	skos:altLabel "Weinbau"@de ;
+	skos:narrower <1160>, <1169> ;
+	skos:topConceptOf <> .
+
+<117> a skos:Concept ;
+	skos:prefLabel "Forst-"@de ;
+	skos:altLabel "Jagdwirtschaft"@de ;
+	skos:narrower <1171>, <1172>, <1173>, <1174>, <1179> ;
+	skos:topConceptOf <> .
+
+<121> a skos:Concept ;
+	skos:prefLabel "Gartenbau"@de ;
+	skos:altLabel "Gartenbau"@de ;
+	skos:narrower <1210>, <1211>, <1212>, <1213>, <1214>, <1219> ;
+	skos:topConceptOf <> .
+
+<122> a skos:Concept ;
+	skos:prefLabel "Floristik"@de ;
+	skos:altLabel "Floristik"@de ;
+	skos:narrower <1220>, <1229> ;
+	skos:topConceptOf <> .
+
+<211> a skos:Concept ;
+	skos:prefLabel "Berg-"@de ;
+	skos:altLabel " Tagebau und Sprengtechnik"@de ;
+	skos:narrower <2111>, <2112>, <2119> ;
+	skos:topConceptOf <> .
+
+<212> a skos:Concept ;
+	skos:prefLabel "Naturstein-"@de ;
+	skos:altLabel "Mineral-"@de ;
+	skos:narrower <2120>, <2121>, <2122>, <2123>, <2129> ;
+	skos:topConceptOf <> .
+
+<213> a skos:Concept ;
+	skos:prefLabel "Industrielle Glasherstell."@de ;
+	skos:altLabel "-verarbeitung"@de ;
+	skos:narrower <2131>, <2132>, <2133>, <2134>, <2135>, <2136>, <2139> ;
+	skos:topConceptOf <> .
+
+<214> a skos:Concept ;
+	skos:prefLabel "Industrielle Keramikherstell."@de ;
+	skos:altLabel "-verarbeit"@de ;
+	skos:narrower <2141>, <2142>, <2149> ;
+	skos:topConceptOf <> .
+
+<221> a skos:Concept ;
+	skos:prefLabel "Kunststoff"@de ;
+	skos:altLabel "Kautschukherstell."@de ;
+	skos:narrower <2210>, <2211>, <2218>, <2219> ;
+	skos:topConceptOf <> .
+
+<222> a skos:Concept ;
+	skos:prefLabel "Farb- und Lacktechnik"@de ;
+	skos:altLabel "Farb- und Lacktechnik"@de ;
+	skos:narrower <2220>, <2221>, <2222>, <2229> ;
+	skos:topConceptOf <> .
+
+<223> a skos:Concept ;
+	skos:prefLabel "Holzbe- und -verarbeitung"@de ;
+	skos:altLabel "Holzbe- und -verarbeitung"@de ;
+	skos:narrower <2230>, <2231>, <2232>, <2233>, <2234>, <2235>, <2238>, <2239> ;
+	skos:topConceptOf <> .
+
+<231> a skos:Concept ;
+	skos:prefLabel "Papier- und Verpackungstechnik"@de ;
+	skos:altLabel "Papier- und Verpackungstechnik"@de ;
+	skos:narrower <2310>, <2311>, <2312>, <2319> ;
+	skos:topConceptOf <> .
+
+<232> a skos:Concept ;
+	skos:prefLabel "Technische Mediengestaltung"@de ;
+	skos:altLabel "Technische Mediengestaltung"@de ;
+	skos:narrower <2321>, <2322>, <2328>, <2329> ;
+	skos:topConceptOf <> .
+
+<233> a skos:Concept ;
+	skos:prefLabel "Fototechnik und Fotografie"@de ;
+	skos:altLabel "Fototechnik und Fotografie"@de ;
+	skos:narrower <2331>, <2332>, <2339> ;
+	skos:topConceptOf <> .
+
+<234> a skos:Concept ;
+	skos:prefLabel "Drucktechnik"@de ;
+	skos:altLabel "-weiterverarb."@de ;
+	skos:narrower <2341>, <2342>, <2349> ;
+	skos:topConceptOf <> .
+
+<241> a skos:Concept ;
+	skos:prefLabel "Metallerzeugung"@de ;
+	skos:altLabel "Metallerzeugung"@de ;
+	skos:narrower <2410>, <2411>, <2412>, <2413>, <2414>, <2419> ;
+	skos:topConceptOf <> .
+
+<242> a skos:Concept ;
+	skos:prefLabel "Metallbearbeitung"@de ;
+	skos:altLabel "Metallbearbeitung"@de ;
+	skos:narrower <2420>, <2421>, <2422>, <2423>, <2424>, <2429> ;
+	skos:topConceptOf <> .
+
+<243> a skos:Concept ;
+	skos:prefLabel "Metalloberflächenbehandlung"@de ;
+	skos:altLabel "Metalloberflächenbehandlung"@de ;
+	skos:narrower <2430>, <2438>, <2439> ;
+	skos:topConceptOf <> .
+
+<244> a skos:Concept ;
+	skos:prefLabel "Metallbau und Schweißtechnik"@de ;
+	skos:altLabel "Metallbau und Schweißtechnik"@de ;
+	skos:narrower <2441>, <2442>, <2443>, <2449> ;
+	skos:topConceptOf <> .
+
+<245> a skos:Concept ;
+	skos:prefLabel "Feinwerk- und Werkzeugtechnik"@de ;
+	skos:altLabel "Feinwerk- und Werkzeugtechnik"@de ;
+	skos:narrower <2451>, <2452>, <2453>, <2459> ;
+	skos:topConceptOf <> .
+
+<251> a skos:Concept ;
+	skos:prefLabel "Maschinenbau- und Betriebstechnik"@de ;
+	skos:altLabel "Maschinenbau- und Betriebstechnik"@de ;
+	skos:narrower <2510>, <2511>, <2512>, <2513>, <2518>, <2519> ;
+	skos:topConceptOf <> .
+
+<252> a skos:Concept ;
+	skos:prefLabel "Fahrzeug-Luft-Raumfahrt-"@de ;
+	skos:altLabel "Schiffbautechn."@de ;
+	skos:narrower <2520>, <2521>, <2522>, <2523>, <2524>, <2525>, <2529> ;
+	skos:topConceptOf <> .
+
+<261> a skos:Concept ;
+	skos:prefLabel "Mechatronik und Automatisierungstechnik"@de ;
+	skos:altLabel "Mechatronik und Automatisierungstechnik"@de ;
+	skos:narrower <2610>, <2611>, <2612>, <2619> ;
+	skos:topConceptOf <> .
+
+<262> a skos:Concept ;
+	skos:prefLabel "Energietechnik"@de ;
+	skos:altLabel "Energietechnik"@de ;
+	skos:narrower <2621>, <2622>, <2623>, <2624>, <2625>, <2626>, <2629> ;
+	skos:topConceptOf <> .
+
+<263> a skos:Concept ;
+	skos:prefLabel "Elektrotechnik"@de ;
+	skos:altLabel "Elektrotechnik"@de ;
+	skos:narrower <2630>, <2631>, <2632>, <2633>, <2638>, <2639> ;
+	skos:topConceptOf <> .
+
+<271> a skos:Concept ;
+	skos:prefLabel "Technische Forschung und Entwicklung"@de ;
+	skos:altLabel "Technische Forschung und Entwicklung"@de ;
+	skos:narrower <2710>, <2718>, <2719> ;
+	skos:topConceptOf <> .
+
+<272> a skos:Concept ;
+	skos:prefLabel "Techn. Zeichnen"@de ;
+	skos:altLabel " Konstruktion"@de ;
+	skos:narrower <2721>, <2722>, <2723>, <2728>, <2729> ;
+	skos:topConceptOf <> .
+
+<273> a skos:Concept ;
+	skos:prefLabel "Technische Produktionsplanung"@de ;
+	skos:altLabel "-steuerung"@de ;
+	skos:narrower <2730>, <2731>, <2739> ;
+	skos:topConceptOf <> .
+
+<281> a skos:Concept ;
+	skos:prefLabel "Textiltechnik und -produktion"@de ;
+	skos:altLabel "Textiltechnik und -produktion"@de ;
+	skos:narrower <2810>, <2811>, <2812>, <2813>, <2814>, <2819> ;
+	skos:topConceptOf <> .
+
+<282> a skos:Concept ;
+	skos:prefLabel "Textilverarbeitung"@de ;
+	skos:altLabel "Textilverarbeitung"@de ;
+	skos:narrower <2821>, <2822>, <2823>, <2824>, <2829> ;
+	skos:topConceptOf <> .
+
+<283> a skos:Concept ;
+	skos:prefLabel "Leder-"@de ;
+	skos:altLabel " Pelzherstellung u. -verarbeitung"@de ;
+	skos:narrower <2830>, <2831>, <2832>, <2833>, <2834>, <2839> ;
+	skos:topConceptOf <> .
+
+<291> a skos:Concept ;
+	skos:prefLabel "Getränkeherstellung"@de ;
+	skos:altLabel "Getränkeherstellung"@de ;
+	skos:narrower <2910>, <2911>, <2912>, <2913>, <2914>, <2915>, <2919> ;
+	skos:topConceptOf <> .
+
+<292> a skos:Concept ;
+	skos:prefLabel "Lebensmittel- u. Genussmittelherstellung"@de ;
+	skos:altLabel "Lebensmittel- und Genussmittelherstellung"@de ;
+	skos:narrower <2920>, <2921>, <2922>, <2923>, <2924>, <2925>, <2926>, <2927>, <2928>, <2929> ;
+	skos:topConceptOf <> .
+
+<293> a skos:Concept ;
+	skos:prefLabel "Speisenzubereitung"@de ;
+	skos:altLabel "Speisenzubereitung"@de ;
+	skos:narrower <2930>, <2931>, <2932>, <2938>, <2939> ;
+	skos:topConceptOf <> .
+
+<311> a skos:Concept ;
+	skos:prefLabel "Bauplanung u. -überwachung"@de ;
+	skos:altLabel " Architektur"@de ;
+	skos:narrower <3110>, <3111>, <3112>, <3113>, <3114>, <3115>, <3116>, <3117>, <3119> ;
+	skos:topConceptOf <> .
+
+<312> a skos:Concept ;
+	skos:prefLabel "Vermessung und Kartografie"@de ;
+	skos:altLabel "Vermessung und Kartografie"@de ;
+	skos:narrower <3121>, <3122> ;
+	skos:topConceptOf <> .
+
+<321> a skos:Concept ;
+	skos:prefLabel "Hochbau"@de ;
+	skos:altLabel "Hochbau"@de ;
+	skos:narrower <3210>, <3211>, <3212>, <3213>, <3214>, <3215>, <3216>, <3217>, <3219> ;
+	skos:topConceptOf <> .
+
+<322> a skos:Concept ;
+	skos:prefLabel "Tiefbau"@de ;
+	skos:altLabel "Tiefbau"@de ;
+	skos:narrower <3220>, <3221>, <3222>, <3223>, <3224>, <3225>, <3226>, <3229> ;
+	skos:topConceptOf <> .
+
+<331> a skos:Concept ;
+	skos:prefLabel "Bodenverlegung"@de ;
+	skos:altLabel "Bodenverlegung"@de ;
+	skos:narrower <3310>, <3311>, <3312>, <3313>, <3319> ;
+	skos:topConceptOf <> .
+
+<332> a skos:Concept ;
+	skos:prefLabel "Maler."@de ;
+	skos:altLabel "Stuckat."@de ;
+	skos:narrower <3321>, <3322>, <3323>, <3324>, <3329> ;
+	skos:topConceptOf <> .
+
+<333> a skos:Concept ;
+	skos:prefLabel "Aus-"@de ;
+	skos:altLabel "Trockenbau.Iso.Zimmer.Glas.Roll.bau"@de ;
+	skos:narrower <3330>, <3331>, <3332>, <3333>, <3334>, <3335>, <3339> ;
+	skos:topConceptOf <> .
+
+<341> a skos:Concept ;
+	skos:prefLabel "Gebäudetechnik"@de ;
+	skos:altLabel "Gebäudetechnik"@de ;
+	skos:narrower <3410>, <3411>, <3419> ;
+	skos:topConceptOf <> .
+
+<342> a skos:Concept ;
+	skos:prefLabel "Klempnerei"@de ;
+	skos:altLabel "Sanitär"@de ;
+	skos:narrower <3420>, <3421>, <3422>, <3423>, <3429> ;
+	skos:topConceptOf <> .
+
+<343> a skos:Concept ;
+	skos:prefLabel "Ver- und Entsorgung"@de ;
+	skos:altLabel "Ver- und Entsorgung"@de ;
+	skos:narrower <3430>, <3431>, <3432>, <3433>, <3434>, <3439> ;
+	skos:topConceptOf <> .
+
+<411> a skos:Concept ;
+	skos:prefLabel "Mathematik und Statistik"@de ;
+	skos:altLabel "Mathematik und Statistik"@de ;
+	skos:narrower <4110>, <4111>, <4118>, <4119> ;
+	skos:topConceptOf <> .
+
+<412> a skos:Concept ;
+	skos:prefLabel "Biologie"@de ;
+	skos:altLabel "Biologie"@de ;
+	skos:narrower <4120>, <4121>, <4122>, <4123>, <4124>, <4125>, <4126>, <4127>, <4128>, <4129> ;
+	skos:topConceptOf <> .
+
+<413> a skos:Concept ;
+	skos:prefLabel "Chemie"@de ;
+	skos:altLabel "Chemie"@de ;
+	skos:narrower <4130>, <4131>, <4132>, <4133>, <4134>, <4138>, <4139> ;
+	skos:topConceptOf <> .
+
+<414> a skos:Concept ;
+	skos:prefLabel "Physik"@de ;
+	skos:altLabel "Physik"@de ;
+	skos:narrower <4140>, <4141>, <4142>, <4143>, <4148>, <4149> ;
+	skos:topConceptOf <> .
+
+<421> a skos:Concept ;
+	skos:prefLabel "Geologie"@de ;
+	skos:altLabel " Geografie und Meteorologie"@de ;
+	skos:narrower <4211>, <4212>, <4213>, <4214> ;
+	skos:topConceptOf <> .
+
+<422> a skos:Concept ;
+	skos:prefLabel "Umweltschutztechnik"@de ;
+	skos:altLabel "Umweltschutztechnik"@de ;
+	skos:narrower <4220>, <4221>, <4228>, <4229> ;
+	skos:topConceptOf <> .
+
+<423> a skos:Concept ;
+	skos:prefLabel "Umweltmanagement und -beratung"@de ;
+	skos:altLabel "Umweltmanagement und -beratung"@de ;
+	skos:narrower <4231>, <4232>, <4233>, <4239> ;
+	skos:topConceptOf <> .
+
+<431> a skos:Concept ;
+	skos:prefLabel "Informatik"@de ;
+	skos:altLabel "Informatik"@de ;
+	skos:narrower <4310>, <4311>, <4312>, <4313>, <4314>, <4315>, <4319> ;
+	skos:topConceptOf <> .
+
+<432> a skos:Concept ;
+	skos:prefLabel "IT-Systemanalyse"@de ;
+	skos:altLabel "Anwenderber"@de ;
+	skos:narrower <4321>, <4322>, <4323>, <4329> ;
+	skos:topConceptOf <> .
+
+<433> a skos:Concept ;
+	skos:prefLabel "IT-Netzwerkt."@de ;
+	skos:altLabel "-Koord."@de ;
+	skos:narrower <4331>, <4332>, <4333>, <4334>, <4335>, <4336>, <4338>, <4339> ;
+	skos:topConceptOf <> .
+
+<434> a skos:Concept ;
+	skos:prefLabel "Softwareentwicklung und Programmierung"@de ;
+	skos:altLabel "Softwareentwicklung und Programmierung"@de ;
+	skos:narrower <4341>, <4342>, <4349> ;
+	skos:topConceptOf <> .
+
+<511> a skos:Concept ;
+	skos:prefLabel "Tech.Betrieb Eisenb."@de ;
+	skos:altLabel "Luft"@de ;
+	skos:narrower <5111>, <5112>, <5113>, <5118>, <5119> ;
+	skos:topConceptOf <> .
+
+<512> a skos:Concept ;
+	skos:prefLabel "Überwachung"@de ;
+	skos:altLabel "WartungVerkehrsinfrastruktur"@de ;
+	skos:narrower <5121>, <5122>, <5123>, <5124>, <5129> ;
+	skos:topConceptOf <> .
+
+<513> a skos:Concept ;
+	skos:prefLabel "Lagerwirt."@de ;
+	skos:altLabel "Post"@de ;
+	skos:narrower <5131>, <5132>, <5133>, <5139> ;
+	skos:topConceptOf <> .
+
+<514> a skos:Concept ;
+	skos:prefLabel "Servicekräfte im Personenverkehr"@de ;
+	skos:altLabel "Servicekräfte im Personenverkehr"@de ;
+	skos:narrower <5140>, <5141>, <5142>, <5143>, <5149> ;
+	skos:topConceptOf <> .
+
+<515> a skos:Concept ;
+	skos:prefLabel "Überwachung u. Steuerung Verkehrsbetrieb"@de ;
+	skos:altLabel "Überwachung und Steuerung des Verkehrsbetriebs"@de ;
+	skos:narrower <5150>, <5151>, <5152>, <5153>, <5154>, <5158>, <5159> ;
+	skos:topConceptOf <> .
+
+<516> a skos:Concept ;
+	skos:prefLabel "Kaufleute - Verkehr und Logistik"@de ;
+	skos:altLabel "Kaufleute - Verkehr und Logistik"@de ;
+	skos:narrower <5161>, <5162>, <5163>, <5164>, <5165>, <5166>, <5169> ;
+	skos:topConceptOf <> .
+
+<521> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführung im Straßenverkehr"@de ;
+	skos:altLabel "Fahrzeugführung im Straßenverkehr"@de ;
+	skos:narrower <5211>, <5212>, <5213>, <5218> ;
+	skos:topConceptOf <> .
+
+<522> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführung im Eisenbahnverkehr"@de ;
+	skos:altLabel "Fahrzeugführung im Eisenbahnverkehr"@de ;
+	skos:narrower <5220> ;
+	skos:topConceptOf <> .
+
+<523> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführung im Flugverkehr"@de ;
+	skos:altLabel "Fahrzeugführung im Flugverkehr"@de ;
+	skos:narrower <5231>, <5238> ;
+	skos:topConceptOf <> .
+
+<524> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführung im Schiffsverkehr"@de ;
+	skos:altLabel "Fahrzeugführung im Schiffsverkehr"@de ;
+	skos:narrower <5241>, <5242> ;
+	skos:topConceptOf <> .
+
+<525> a skos:Concept ;
+	skos:prefLabel "Bau- und Transportgeräteführung"@de ;
+	skos:altLabel "Bau- und Transportgeräteführung"@de ;
+	skos:narrower <5251>, <5252>, <5253>, <5259> ;
+	skos:topConceptOf <> .
+
+<531> a skos:Concept ;
+	skos:prefLabel "Obj.-"@de ;
+	skos:altLabel "Pers.-"@de ;
+	skos:narrower <5311>, <5312>, <5313>, <5314>, <5315>, <5316>, <5318>, <5319> ;
+	skos:topConceptOf <> .
+
+<532> a skos:Concept ;
+	skos:prefLabel "Polizei"@de ;
+	skos:altLabel "Kriminald."@de ;
+	skos:narrower <5321>, <5322>, <5323>, <5324> ;
+	skos:topConceptOf <> .
+
+<533> a skos:Concept ;
+	skos:prefLabel "Gewerbe"@de ;
+	skos:altLabel "Gesundheitsaufsicht"@de ;
+	skos:narrower <5331>, <5332>, <5333>, <5334>, <5339> ;
+	skos:topConceptOf <> .
+
+<541> a skos:Concept ;
+	skos:prefLabel "Reinigung"@de ;
+	skos:altLabel "Reinigung"@de ;
+	skos:narrower <5410>, <5411>, <5412>, <5413>, <5414>, <5415>, <5418>, <5419> ;
+	skos:topConceptOf <> .
+
+<611> a skos:Concept ;
+	skos:prefLabel "Einkauf und Vertrieb"@de ;
+	skos:altLabel "Einkauf und Vertrieb"@de ;
+	skos:narrower <6111>, <6112>, <6113>, <6114>, <6115>, <6116>, <6119> ;
+	skos:topConceptOf <> .
+
+<612> a skos:Concept ;
+	skos:prefLabel "Handel"@de ;
+	skos:altLabel "Handel"@de ;
+	skos:narrower <6120>, <6121>, <6128>, <6129> ;
+	skos:topConceptOf <> .
+
+<613> a skos:Concept ;
+	skos:prefLabel "Immobilienwirtschaft"@de ;
+	skos:altLabel "Facility-Management"@de ;
+	skos:narrower <6131>, <6132>, <6139> ;
+	skos:topConceptOf <> .
+
+<621> a skos:Concept ;
+	skos:prefLabel "Verkauf (ohne Produktspezialisierung)"@de ;
+	skos:altLabel "Verkauf (ohne Produktspezialisierung)"@de ;
+	skos:narrower <6210>, <6211>, <6212>, <6218>, <6219> ;
+	skos:topConceptOf <> .
+
+<622> a skos:Concept ;
+	skos:prefLabel "Verkauf Bekleid."@de ;
+	skos:altLabel "Elektro"@de ;
+	skos:narrower <6221>, <6222>, <6223>, <6224>, <6225>, <6226>, <6227>, <6228> ;
+	skos:topConceptOf <> .
+
+<623> a skos:Concept ;
+	skos:prefLabel "Verkauf von Lebensmitteln"@de ;
+	skos:altLabel "Verkauf von Lebensmitteln"@de ;
+	skos:narrower <6230>, <6231>, <6232>, <6238> ;
+	skos:topConceptOf <> .
+
+<624> a skos:Concept ;
+	skos:prefLabel "Verkauf drog.apotheken.Waren"@de ;
+	skos:altLabel "Medizinbed."@de ;
+	skos:narrower <6241>, <6242> ;
+	skos:topConceptOf <> .
+
+<625> a skos:Concept ;
+	skos:prefLabel "Buch-Kunst-Antiquitäten-"@de ;
+	skos:altLabel "Musikfachhandel"@de ;
+	skos:narrower <6251>, <6252>, <6253> ;
+	skos:topConceptOf <> .
+
+<631> a skos:Concept ;
+	skos:prefLabel "Tourismus und Sport"@de ;
+	skos:altLabel "Tourismus und Sport"@de ;
+	skos:narrower <6311>, <6312>, <6313>, <6314>, <6319> ;
+	skos:topConceptOf <> .
+
+<632> a skos:Concept ;
+	skos:prefLabel "Hotellerie"@de ;
+	skos:altLabel "Hotellerie"@de ;
+	skos:narrower <6321>, <6322>, <6329> ;
+	skos:topConceptOf <> .
+
+<633> a skos:Concept ;
+	skos:prefLabel "Gastronomie"@de ;
+	skos:altLabel "Gastronomie"@de ;
+	skos:narrower <6330>, <6331>, <6332>, <6338>, <6339> ;
+	skos:topConceptOf <> .
+
+<634> a skos:Concept ;
+	skos:prefLabel "Veranstaltungsservice"@de ;
+	skos:altLabel " -management"@de ;
+	skos:narrower <6340> ;
+	skos:topConceptOf <> .
+
+<711> a skos:Concept ;
+	skos:prefLabel "Geschäftsführung und Vorstand"@de ;
+	skos:altLabel "Geschäftsführung und Vorstand"@de ;
+	skos:narrower <7110> ;
+	skos:topConceptOf <> .
+
+<712> a skos:Concept ;
+	skos:prefLabel "Angeh. gesetzgeb. Körp."@de ;
+	skos:altLabel " Interessenorg."@de ;
+	skos:narrower <7121>, <7122>, <7123> ;
+	skos:topConceptOf <> .
+
+<713> a skos:Concept ;
+	skos:prefLabel "Unternehmensorganisation und -strategie"@de ;
+	skos:altLabel "Unternehmensorganisation und -strategie"@de ;
+	skos:narrower <7130>, <7131>, <7132>, <7133>, <7138>, <7139> ;
+	skos:topConceptOf <> .
+
+<714> a skos:Concept ;
+	skos:prefLabel "Büro und Sekretariat"@de ;
+	skos:altLabel "Büro und Sekretariat"@de ;
+	skos:narrower <7140>, <7141>, <7142>, <7143>, <7144>, <7145>, <7149> ;
+	skos:topConceptOf <> .
+
+<715> a skos:Concept ;
+	skos:prefLabel "Personalwesen und -dienstleistung"@de ;
+	skos:altLabel "Personalwesen und -dienstleistung"@de ;
+	skos:narrower <7151>, <7152>, <7159> ;
+	skos:topConceptOf <> .
+
+<721> a skos:Concept ;
+	skos:prefLabel "Versicherungs- u. Finanzdienstleistungen"@de ;
+	skos:altLabel "Versicherungs- und Finanzdienstleistungen"@de ;
+	skos:narrower <7211>, <7212>, <7213>, <7214>, <7218>, <7219> ;
+	skos:topConceptOf <> .
+
+<722> a skos:Concept ;
+	skos:prefLabel "Rechnungswesen"@de ;
+	skos:altLabel " Controlling und Revision"@de ;
+	skos:narrower <7221>, <7222>, <7223>, <7224>, <7229> ;
+	skos:topConceptOf <> .
+
+<723> a skos:Concept ;
+	skos:prefLabel "Steuerberatung"@de ;
+	skos:altLabel "Steuerberatung"@de ;
+	skos:narrower <7230> ;
+	skos:topConceptOf <> .
+
+<731> a skos:Concept ;
+	skos:prefLabel "Rechtsberatung"@de ;
+	skos:altLabel " -sprechung und -ordnung"@de ;
+	skos:narrower <7310>, <7311>, <7312>, <7313>, <7314>, <7315>, <7316>, <7318>, <7319> ;
+	skos:topConceptOf <> .
+
+<732> a skos:Concept ;
+	skos:prefLabel "Verwaltung"@de ;
+	skos:altLabel "Verwaltung"@de ;
+	skos:narrower <7320>, <7321>, <7322>, <7323>, <7324>, <7325>, <7328>, <7329> ;
+	skos:topConceptOf <> .
+
+<733> a skos:Concept ;
+	skos:prefLabel "Medien-Dokumentations-Informationsdienst"@de ;
+	skos:altLabel "Medien-"@de ;
+	skos:narrower <7331>, <7332>, <7333>, <7334>, <7339> ;
+	skos:topConceptOf <> .
+
+<811> a skos:Concept ;
+	skos:prefLabel "Arzt- und Praxishilfe"@de ;
+	skos:altLabel "Arzt- und Praxishilfe"@de ;
+	skos:narrower <8110>, <8111>, <8113>, <8114>, <8118> ;
+	skos:topConceptOf <> .
+
+<812> a skos:Concept ;
+	skos:prefLabel "Medizinisches Laboratorium"@de ;
+	skos:altLabel "Medizinisches Laboratorium"@de ;
+	skos:narrower <8121>, <8122>, <8123>, <8124>, <8129> ;
+	skos:topConceptOf <> .
+
+<813> a skos:Concept ;
+	skos:prefLabel "Gesundh."@de ;
+	skos:altLabel "Krankenpfl."@de ;
+	skos:narrower <8130>, <8131>, <8132>, <8133>, <8134>, <8135>, <8138>, <8139> ;
+	skos:topConceptOf <> .
+
+<814> a skos:Concept ;
+	skos:prefLabel "Human- und Zahnmedizin"@de ;
+	skos:altLabel "Human- und Zahnmedizin"@de ;
+	skos:narrower <8140>, <8141>, <8142>, <8143>, <8144>, <8145>, <8146>, <8147>, <8148>, <8149> ;
+	skos:topConceptOf <> .
+
+<815> a skos:Concept ;
+	skos:prefLabel "Tiermedizin und Tierheilkunde"@de ;
+	skos:altLabel "Tiermedizin und Tierheilkunde"@de ;
+	skos:narrower <8150>, <8151>, <8152>, <8153>, <8158>, <8159> ;
+	skos:topConceptOf <> .
+
+<816> a skos:Concept ;
+	skos:prefLabel "Psychologie"@de ;
+	skos:altLabel " nichtärztl. Psychotherapie"@de ;
+	skos:narrower <8161>, <8162>, <8163> ;
+	skos:topConceptOf <> .
+
+<817> a skos:Concept ;
+	skos:prefLabel "Nicht ärztliche Therapie und Heilkunde"@de ;
+	skos:altLabel "Nicht ärztliche Therapie und Heilkunde"@de ;
+	skos:narrower <8171>, <8172>, <8173>, <8174>, <8175>, <8176>, <8177>, <8178>, <8179> ;
+	skos:topConceptOf <> .
+
+<818> a skos:Concept ;
+	skos:prefLabel "Pharmazie"@de ;
+	skos:altLabel "Pharmazie"@de ;
+	skos:narrower <8180>, <8181>, <8182>, <8188>, <8189> ;
+	skos:topConceptOf <> .
+
+<821> a skos:Concept ;
+	skos:prefLabel "Altenpflege"@de ;
+	skos:altLabel "Altenpflege"@de ;
+	skos:narrower <8210>, <8218>, <8219> ;
+	skos:topConceptOf <> .
+
+<822> a skos:Concept ;
+	skos:prefLabel "Ernährungs-"@de ;
+	skos:altLabel "Gesundheitsberatung"@de ;
+	skos:narrower <8221>, <8222>, <8223>, <8224>, <8228> ;
+	skos:topConceptOf <> .
+
+<823> a skos:Concept ;
+	skos:prefLabel "Körperpflege"@de ;
+	skos:altLabel "Körperpflege"@de ;
+	skos:narrower <8231>, <8232>, <8233>, <8234>, <8239> ;
+	skos:topConceptOf <> .
+
+<824> a skos:Concept ;
+	skos:prefLabel "Bestattungswesen"@de ;
+	skos:altLabel "Bestattungswesen"@de ;
+	skos:narrower <8240>, <8249> ;
+	skos:topConceptOf <> .
+
+<825> a skos:Concept ;
+	skos:prefLabel "Medizin-"@de ;
+	skos:altLabel " Orthopädie- und Rehatechnik"@de ;
+	skos:narrower <8250>, <8251>, <8252>, <8253>, <8254>, <8259> ;
+	skos:topConceptOf <> .
+
+<831> a skos:Concept ;
+	skos:prefLabel "Erziehung"@de ;
+	skos:altLabel "Sozialarb."@de ;
+	skos:narrower <8311>, <8312>, <8313>, <8314>, <8315>, <8319> ;
+	skos:topConceptOf <> .
+
+<832> a skos:Concept ;
+	skos:prefLabel "Hauswirtschaft und Verbraucherberatung"@de ;
+	skos:altLabel "Hauswirtschaft und Verbraucherberatung"@de ;
+	skos:narrower <8321>, <8322>, <8329> ;
+	skos:topConceptOf <> .
+
+<833> a skos:Concept ;
+	skos:prefLabel "Theologie und Gemeindearbeit"@de ;
+	skos:altLabel "Theologie und Gemeindearbeit"@de ;
+	skos:narrower <8331>, <8332>, <8333>, <8338>, <8339> ;
+	skos:topConceptOf <> .
+
+<841> a skos:Concept ;
+	skos:prefLabel "Lehrtätigkeit an allgemeinbild. Schulen"@de ;
+	skos:altLabel "Lehrtätigkeit an allgemeinbildenden Schulen"@de ;
+	skos:narrower <8411>, <8412>, <8413>, <8414>, <8418>, <8419> ;
+	skos:topConceptOf <> .
+
+<842> a skos:Concept ;
+	skos:prefLabel "Lehrt.berufsb.Fächer"@de ;
+	skos:altLabel "betr.Ausb."@de ;
+	skos:narrower <8421>, <8422>, <8429> ;
+	skos:topConceptOf <> .
+
+<843> a skos:Concept ;
+	skos:prefLabel "Lehr-"@de ;
+	skos:altLabel "Forschungstätigkeit an Hochschulen"@de ;
+	skos:narrower <8430>, <8439> ;
+	skos:topConceptOf <> .
+
+<844> a skos:Concept ;
+	skos:prefLabel "Lehrtätigk. außerschul.Bildungseinricht."@de ;
+	skos:altLabel "Lehrtätigkeit an außerschulischen Bildungseinrichtungen"@de ;
+	skos:narrower <8440>, <8441>, <8442>, <8443>, <8444>, <8445>, <8448>, <8449> ;
+	skos:topConceptOf <> .
+
+<845> a skos:Concept ;
+	skos:prefLabel "Fahr-"@de ;
+	skos:altLabel "Sportunterricht außerschul. Bild."@de ;
+	skos:narrower <8450>, <8451>, <8452>, <8453>, <8454>, <8455>, <8458> ;
+	skos:topConceptOf <> .
+
+<911> a skos:Concept ;
+	skos:prefLabel "Sprach-"@de ;
+	skos:altLabel " Literaturwissenschaften"@de ;
+	skos:narrower <9110>, <9111>, <9112>, <9113>, <9114>, <9115>, <9116>, <9117>, <9118> ;
+	skos:topConceptOf <> .
+
+<912> a skos:Concept ;
+	skos:prefLabel "Geisteswissenschaften"@de ;
+	skos:altLabel "Geisteswissenschaften"@de ;
+	skos:narrower <9121>, <9122>, <9123>, <9124>, <9125>, <9126> ;
+	skos:topConceptOf <> .
+
+<913> a skos:Concept ;
+	skos:prefLabel "Gesellschaftswissenschaften"@de ;
+	skos:altLabel "Gesellschaftswissenschaften"@de ;
+	skos:narrower <9131>, <9132>, <9133>, <9134>, <9135>, <9138> ;
+	skos:topConceptOf <> .
+
+<914> a skos:Concept ;
+	skos:prefLabel "Wirtschaftswissenschaften"@de ;
+	skos:altLabel "Wirtschaftswissenschaften"@de ;
+	skos:narrower <9140>, <9148> ;
+	skos:topConceptOf <> .
+
+<921> a skos:Concept ;
+	skos:prefLabel "Werbung und Marketing"@de ;
+	skos:altLabel "Werbung und Marketing"@de ;
+	skos:narrower <9211>, <9212>, <9213>, <9219> ;
+	skos:topConceptOf <> .
+
+<922> a skos:Concept ;
+	skos:prefLabel "Öffentlichkeitsarbeit"@de ;
+	skos:altLabel "Öffentlichkeitsarbeit"@de ;
+	skos:narrower <9220>, <9229> ;
+	skos:topConceptOf <> .
+
+<923> a skos:Concept ;
+	skos:prefLabel "Verlags- und Medienwirtschaft"@de ;
+	skos:altLabel "Verlags- und Medienwirtschaft"@de ;
+	skos:narrower <9230>, <9238>, <9239> ;
+	skos:topConceptOf <> .
+
+<924> a skos:Concept ;
+	skos:prefLabel "Redaktion und Journalismus"@de ;
+	skos:altLabel "Redaktion und Journalismus"@de ;
+	skos:narrower <9241>, <9242>, <9243>, <9249> ;
+	skos:topConceptOf <> .
+
+<931> a skos:Concept ;
+	skos:prefLabel "Produkt- und Industriedesign"@de ;
+	skos:altLabel "Produkt- und Industriedesign"@de ;
+	skos:narrower <9310> ;
+	skos:topConceptOf <> .
+
+<932> a skos:Concept ;
+	skos:prefLabel "Innenarchitektur"@de ;
+	skos:altLabel " Raumausstattung"@de ;
+	skos:narrower <9321>, <9322>, <9323>, <9329> ;
+	skos:topConceptOf <> .
+
+<933> a skos:Concept ;
+	skos:prefLabel "Kunsthandwerk und bildende Kunst"@de ;
+	skos:altLabel "Kunsthandwerk und bildende Kunst"@de ;
+	skos:narrower <9330>, <9331>, <9332>, <9333>, <9334>, <9335>, <9338>, <9339> ;
+	skos:topConceptOf <> .
+
+<934> a skos:Concept ;
+	skos:prefLabel "Kunsthandwerkl. Keramik-"@de ;
+	skos:altLabel " Glasgestaltung"@de ;
+	skos:narrower <9341>, <9342>, <9343>, <9349> ;
+	skos:topConceptOf <> .
+
+<935> a skos:Concept ;
+	skos:prefLabel "Kunsthandwerkliche Metallgestaltung"@de ;
+	skos:altLabel "Kunsthandwerkliche Metallgestaltung"@de ;
+	skos:narrower <9351>, <9352>, <9353>, <9354>, <9359> ;
+	skos:topConceptOf <> .
+
+<936> a skos:Concept ;
+	skos:prefLabel "Musikinstrumentenbau"@de ;
+	skos:altLabel "Musikinstrumentenbau"@de ;
+	skos:narrower <9360>, <9361>, <9362>, <9363>, <9364>, <9365>, <9368>, <9369> ;
+	skos:topConceptOf <> .
+
+<941> a skos:Concept ;
+	skos:prefLabel "Musik-"@de ;
+	skos:altLabel " Gesang-"@de ;
+	skos:narrower <9411>, <9412>, <9413>, <9414>, <9418> ;
+	skos:topConceptOf <> .
+
+<942> a skos:Concept ;
+	skos:prefLabel "Schauspiel"@de ;
+	skos:altLabel " Tanz und Bewegungskunst"@de ;
+	skos:narrower <9421>, <9422>, <9423>, <9424>, <9425>, <9428> ;
+	skos:topConceptOf <> .
+
+<943> a skos:Concept ;
+	skos:prefLabel "Moderation und Unterhaltung"@de ;
+	skos:altLabel "Moderation und Unterhaltung"@de ;
+	skos:narrower <9430>, <9431>, <9432>, <9433>, <9434>, <9438> ;
+	skos:topConceptOf <> .
+
+<944> a skos:Concept ;
+	skos:prefLabel "Theater-"@de ;
+	skos:altLabel " Film- und Fernsehproduktion"@de ;
+	skos:narrower <9440>, <9441>, <9448>, <9449> ;
+	skos:topConceptOf <> .
+
+<945> a skos:Concept ;
+	skos:prefLabel "Veranstaltungs-"@de ;
+	skos:altLabel " Kamera-"@de ;
+	skos:narrower <9451>, <9452>, <9453>, <9458>, <9459> ;
+	skos:topConceptOf <> .
+
+<946> a skos:Concept ;
+	skos:prefLabel "Bühnen- und Kostümbildnerei"@de ;
+	skos:altLabel " Requisite"@de ;
+	skos:narrower <9461>, <9462>, <9469> ;
+	skos:topConceptOf <> .
+
+<947> a skos:Concept ;
+	skos:prefLabel "Museumstechnik und -management"@de ;
+	skos:altLabel "Museumstechnik und -management"@de ;
+	skos:narrower <9470>, <9471>, <9472>, <9479> ;
+	skos:topConceptOf <> .
+
+<0110> a skos:Concept ;
+	skos:prefLabel "Offiziere"@de ;
+	skos:altLabel "Offiziere"@de ;
+	skos:broader <011> ;
+	skos:inScheme <> .
+
+<0120> a skos:Concept ;
+	skos:prefLabel "Unteroffiziere mit Portepee"@de ;
+	skos:altLabel "Unteroffiziere mit Portepee"@de ;
+	skos:broader <012> ;
+	skos:inScheme <> .
+
+<0130> a skos:Concept ;
+	skos:prefLabel "Unteroffiziere ohne Portepee"@de ;
+	skos:altLabel "Unteroffiziere ohne Portepee"@de ;
+	skos:broader <013> ;
+	skos:inScheme <> .
+
+<0140> a skos:Concept ;
+	skos:prefLabel "Angeh. reguläre Streitkräfte sonst.Ränge"@de ;
+	skos:altLabel "Angehörige der regulären Streitkräfte in sonstigen Rängen"@de ;
+	skos:broader <014> ;
+	skos:inScheme <> .
+
+<1110> a skos:Concept ;
+	skos:prefLabel "Berufe in der Landwirtschaft (o.S.)"@de ;
+	skos:altLabel "Berufe in der Landwirtschaft (ohne Spezialisierung)"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1111> a skos:Concept ;
+	skos:prefLabel "Berufe in der Landtechnik"@de ;
+	skos:altLabel "Berufe in der Landtechnik"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1112> a skos:Concept ;
+	skos:prefLabel "Landwirtschaftliche Sachverständige"@de ;
+	skos:altLabel "Landwirtschaftliche Sachverständige"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1113> a skos:Concept ;
+	skos:prefLabel "Berufe landwirtsch.-techn. Laboratorium"@de ;
+	skos:altLabel "Berufe im landwirtschaftlich-technischen Laboratorium"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1118> a skos:Concept ;
+	skos:prefLabel "Berufe in der Landwirtschaft (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Landwirtschaft (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1119> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Landwirtschaft"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Landwirtschaft"@de ;
+	skos:broader <111> ;
+	skos:inScheme <> .
+
+<1121> a skos:Concept ;
+	skos:prefLabel "Berufe in der Nutztierhaltung"@de ;
+	skos:altLabel "Berufe in der Nutztierhaltung (außer Geflügelhaltung)"@de ;
+	skos:broader <112> ;
+	skos:inScheme <> .
+
+<1122> a skos:Concept ;
+	skos:prefLabel "Berufe in der Geflügelhaltung"@de ;
+	skos:altLabel "Berufe in der Geflügelhaltung"@de ;
+	skos:broader <112> ;
+	skos:inScheme <> .
+
+<1123> a skos:Concept ;
+	skos:prefLabel "Berufe in der Imkerei"@de ;
+	skos:altLabel "Berufe in der Imkerei"@de ;
+	skos:broader <112> ;
+	skos:inScheme <> .
+
+<1128> a skos:Concept ;
+	skos:prefLabel "Berufe in der Tierwirtschaft (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Tierwirtschaft (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <112> ;
+	skos:inScheme <> .
+
+<1129> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Tierwirtschaft"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Tierwirtschaft"@de ;
+	skos:broader <112> ;
+	skos:inScheme <> .
+
+<1130> a skos:Concept ;
+	skos:prefLabel "Berufe in der Pferdewirtschaft (o.S.)"@de ;
+	skos:altLabel "Berufe in der Pferdewirtschaft (ohne Spezialisierung)"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1131> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Pferdewirtschaft-Pferdezucht"@de ;
+	skos:altLabel "Berufe in der Pferdewirtschaft - Pferdezucht"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1132> a skos:Concept ;
+	skos:prefLabel "Berufe in der Pferdewirtschaft - Reiten"@de ;
+	skos:altLabel "Berufe in der Pferdewirtschaft - Reiten"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1133> a skos:Concept ;
+	skos:prefLabel "Hufbeschlagschmiede/-schmiedinnen"@de ;
+	skos:altLabel "Hufbeschlagschmiede/-schmiedinnen"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1134> a skos:Concept ;
+	skos:prefLabel "Kutscher/innen"@de ;
+	skos:altLabel "Kutscher/innen"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1139> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Pferdewirtschaft"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Pferdewirtschaft"@de ;
+	skos:broader <113> ;
+	skos:inScheme <> .
+
+<1140> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fischwirtschaft (o.S.)"@de ;
+	skos:altLabel "Berufe in der Fischwirtschaft (ohne Spezialisierung)"@de ;
+	skos:broader <114> ;
+	skos:inScheme <> .
+
+<1141> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fischzucht"@de ;
+	skos:altLabel "Berufe in der Fischzucht"@de ;
+	skos:broader <114> ;
+	skos:inScheme <> .
+
+<1142> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fischerei"@de ;
+	skos:altLabel "Berufe in der Fischerei"@de ;
+	skos:broader <114> ;
+	skos:inScheme <> .
+
+<1149> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Fischwirtschaft"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Fischwirtschaft"@de ;
+	skos:broader <114> ;
+	skos:inScheme <> .
+
+<1150> a skos:Concept ;
+	skos:prefLabel "Berufe in der Tierpflege (o.S.)"@de ;
+	skos:altLabel "Berufe in der Tierpflege (ohne Spezialisierung)"@de ;
+	skos:broader <115> ;
+	skos:inScheme <> .
+
+<1151> a skos:Concept ;
+	skos:prefLabel "Berufe in der Nutztierpflege"@de ;
+	skos:altLabel "Berufe in der Nutztierpflege"@de ;
+	skos:broader <115> ;
+	skos:inScheme <> .
+
+<1152> a skos:Concept ;
+	skos:prefLabel "Berufe in der Haus-"@de ;
+	skos:altLabel " Zootierpflege"@de ;
+	skos:broader <115> ;
+	skos:inScheme <> .
+
+<1158> a skos:Concept ;
+	skos:prefLabel "Berufe in der Tierpflege (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Tierpflege (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <115> ;
+	skos:inScheme <> .
+
+<1159> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Tierpflege"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Tierpflege"@de ;
+	skos:broader <115> ;
+	skos:inScheme <> .
+
+<1160> a skos:Concept ;
+	skos:prefLabel "Berufe im Weinbau"@de ;
+	skos:altLabel "Berufe im Weinbau"@de ;
+	skos:broader <116> ;
+	skos:inScheme <> .
+
+<1169> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Weinbau"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Weinbau"@de ;
+	skos:broader <116> ;
+	skos:inScheme <> .
+
+<1171> a skos:Concept ;
+	skos:prefLabel "Berufe in der Forstwirtschaft"@de ;
+	skos:altLabel "Berufe in der Forstwirtschaft"@de ;
+	skos:broader <117> ;
+	skos:inScheme <> .
+
+<1172> a skos:Concept ;
+	skos:prefLabel "Berufe in der Natur-"@de ;
+	skos:altLabel " Landschaftspflege"@de ;
+	skos:broader <117> ;
+	skos:inScheme <> .
+
+<1173> a skos:Concept ;
+	skos:prefLabel "Berufe in der Jagdwirtschaft"@de ;
+	skos:altLabel " Wildhege"@de ;
+	skos:broader <117> ;
+	skos:inScheme <> .
+
+<1174> a skos:Concept ;
+	skos:prefLabel "Sammeln von Pflanzen"@de ;
+	skos:altLabel " Naturprodukten"@de ;
+	skos:broader <117> ;
+	skos:inScheme <> .
+
+<1179> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Forst"@de ;
+	skos:broader <117> ;
+	skos:inScheme <> .
+
+<1210> a skos:Concept ;
+	skos:prefLabel "Berufe im Gartenbau (o.S.)"@de ;
+	skos:altLabel "Berufe im Gartenbau (ohne Spezialisierung)"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1211> a skos:Concept ;
+	skos:prefLabel "Berufe im Obst-"@de ;
+	skos:altLabel " Gemüsebau"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1212> a skos:Concept ;
+	skos:prefLabel "Berufe BaumschuleStauden"@de ;
+	skos:altLabel "Zierpflanzenbau"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1213> a skos:Concept ;
+	skos:prefLabel "Berufe in der Friedhofsgärtnerei"@de ;
+	skos:altLabel "Berufe in der Friedhofsgärtnerei"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1214> a skos:Concept ;
+	skos:prefLabel "Berufe Garten-"@de ;
+	skos:altLabel "Landschafts"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1219> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Gartenbau"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Gartenbau"@de ;
+	skos:broader <121> ;
+	skos:inScheme <> .
+
+<1220> a skos:Concept ;
+	skos:prefLabel "Berufe in der Floristik"@de ;
+	skos:altLabel "Berufe in der Floristik"@de ;
+	skos:broader <122> ;
+	skos:inScheme <> .
+
+<1229> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Floristik"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Floristik"@de ;
+	skos:broader <122> ;
+	skos:inScheme <> .
+
+<2111> a skos:Concept ;
+	skos:prefLabel "Berufe im Berg- und Tagebau"@de ;
+	skos:altLabel "Berufe im Berg- und Tagebau"@de ;
+	skos:broader <211> ;
+	skos:inScheme <> .
+
+<2112> a skos:Concept ;
+	skos:prefLabel "Berufe in der Sprengtechnik"@de ;
+	skos:altLabel "Berufe in der Sprengtechnik"@de ;
+	skos:broader <211> ;
+	skos:inScheme <> .
+
+<2119> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Bergbau"@de ;
+	skos:broader <211> ;
+	skos:inScheme <> .
+
+<2120> a skos:Concept ;
+	skos:prefLabel "Naturstein"@de ;
+	skos:altLabel "Mineral"@de ;
+	skos:broader <212> ;
+	skos:inScheme <> .
+
+<2121> a skos:Concept ;
+	skos:prefLabel "Berufe Naturstein-"@de ;
+	skos:altLabel "Mineralaufbereitung"@de ;
+	skos:broader <212> ;
+	skos:inScheme <> .
+
+<2122> a skos:Concept ;
+	skos:prefLabel "Berufe in der Baustoffherstellung"@de ;
+	skos:altLabel "Berufe in der Baustoffherstellung"@de ;
+	skos:broader <212> ;
+	skos:inScheme <> .
+
+<2123> a skos:Concept ;
+	skos:prefLabel "Berufe in der Steinmetztechnik"@de ;
+	skos:altLabel "Berufe in der Steinmetztechnik"@de ;
+	skos:broader <212> ;
+	skos:inScheme <> .
+
+<2129> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Naturstein"@de ;
+	skos:altLabel "Mineral"@de ;
+	skos:broader <212> ;
+	skos:inScheme <> .
+
+<2131> a skos:Concept ;
+	skos:prefLabel "Berufe in der Glasherstellung"@de ;
+	skos:altLabel "Berufe in der Glasherstellung"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2132> a skos:Concept ;
+	skos:prefLabel "Berufe im Glasapparatebau"@de ;
+	skos:altLabel "Berufe im Glasapparatebau"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2133> a skos:Concept ;
+	skos:prefLabel "Berufe in der industriellen Glasbläserei"@de ;
+	skos:altLabel "Berufe in der industriellen Glasbläserei"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2134> a skos:Concept ;
+	skos:prefLabel "Berufe in der Glasveredelung"@de ;
+	skos:altLabel "Berufe in der Glasveredelung"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2135> a skos:Concept ;
+	skos:prefLabel "Berufe in der Glasapparatejustierung"@de ;
+	skos:altLabel "Berufe in der Glasapparatejustierung"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2136> a skos:Concept ;
+	skos:prefLabel "Berufe in der Feinoptik"@de ;
+	skos:altLabel "Berufe in der Feinoptik"@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2139> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Industri.Glasherst."@de ;
+	skos:altLabel "-verarbeit."@de ;
+	skos:broader <213> ;
+	skos:inScheme <> .
+
+<2141> a skos:Concept ;
+	skos:prefLabel "Industriekeramik (Verfahren"@de ;
+	skos:altLabel "Anlagentech)"@de ;
+	skos:broader <214> ;
+	skos:inScheme <> .
+
+<2142> a skos:Concept ;
+	skos:prefLabel "Industriekeramik (Modelltechnik)"@de ;
+	skos:altLabel "Berufe in der Industriekeramik (Modelltechnik)"@de ;
+	skos:broader <214> ;
+	skos:inScheme <> .
+
+<2149> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Industrielle Keramikherstellung"@de ;
+	skos:altLabel "Aufsichtskräfte - Industrielle Keramikherstellung und -verarbeitung"@de ;
+	skos:broader <214> ;
+	skos:inScheme <> .
+
+<2210> a skos:Concept ;
+	skos:prefLabel "Kunststoff-"@de ;
+	skos:altLabel "Kautschukherstellung (o.S.)"@de ;
+	skos:broader <221> ;
+	skos:inScheme <> .
+
+<2211> a skos:Concept ;
+	skos:prefLabel "Berufe i.d.Reifen-"@de ;
+	skos:altLabel "Vulkanisationstechnik"@de ;
+	skos:broader <221> ;
+	skos:inScheme <> .
+
+<2218> a skos:Concept ;
+	skos:prefLabel "Kunststoff"@de ;
+	skos:altLabel "Kautschukherst."@de ;
+	skos:broader <221> ;
+	skos:inScheme <> .
+
+<2219> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Kunststoff"@de ;
+	skos:altLabel "Kautschukher"@de ;
+	skos:broader <221> ;
+	skos:inScheme <> .
+
+<2220> a skos:Concept ;
+	skos:prefLabel "Berufe in der Farb-"@de ;
+	skos:altLabel " Lacktechnik (o.S.)"@de ;
+	skos:broader <222> ;
+	skos:inScheme <> .
+
+<2221> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fahrzeuglackierung"@de ;
+	skos:altLabel "Berufe in der Fahrzeuglackierung"@de ;
+	skos:broader <222> ;
+	skos:inScheme <> .
+
+<2222> a skos:Concept ;
+	skos:prefLabel "Berufe im Lacklaboratorium"@de ;
+	skos:altLabel "Berufe im Lacklaboratorium"@de ;
+	skos:broader <222> ;
+	skos:inScheme <> .
+
+<2229> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Farb-"@de ;
+	skos:altLabel " Lacktechnik"@de ;
+	skos:broader <222> ;
+	skos:inScheme <> .
+
+<2230> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Holzbe-"@de ;
+	skos:altLabel "-verarbeitung (o.S.)"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2231> a skos:Concept ;
+	skos:prefLabel "Berufe Holztrocknung"@de ;
+	skos:altLabel "-konservierung"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2232> a skos:Concept ;
+	skos:prefLabel "Produktion v. Holzwerkstoffen"@de ;
+	skos:altLabel "-bauteilen"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2233> a skos:Concept ;
+	skos:prefLabel "Produktion v. Fertigprodukten aus Holz"@de ;
+	skos:altLabel "Berufe in der Produktion von Fertigprodukten aus Holz und Holzwerkstoffen"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2234> a skos:Concept ;
+	skos:prefLabel "Berufe im Holz-"@de ;
+	skos:altLabel " Möbel-"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2235> a skos:Concept ;
+	skos:prefLabel "FlechtwerkgestalterBürsten-"@de ;
+	skos:altLabel "Pinselmacher"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2238> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Holzbe-"@de ;
+	skos:altLabel "-verarbeitung (ssT)"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2239> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung - Holzbe-"@de ;
+	skos:broader <223> ;
+	skos:inScheme <> .
+
+<2310> a skos:Concept ;
+	skos:prefLabel "Berufe Papier-"@de ;
+	skos:altLabel "Verpackungstechnik (o.S.)"@de ;
+	skos:broader <231> ;
+	skos:inScheme <> .
+
+<2311> a skos:Concept ;
+	skos:prefLabel "Berufe in der Papierherstellung"@de ;
+	skos:altLabel "Berufe in der Papierherstellung"@de ;
+	skos:broader <231> ;
+	skos:inScheme <> .
+
+<2312> a skos:Concept ;
+	skos:prefLabel "Berufe Papierverarb."@de ;
+	skos:altLabel " Verpackungstechnik"@de ;
+	skos:broader <231> ;
+	skos:inScheme <> .
+
+<2319> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Papier-"@de ;
+	skos:altLabel " Verpackungstechnik"@de ;
+	skos:broader <231> ;
+	skos:inScheme <> .
+
+<2321> a skos:Concept ;
+	skos:prefLabel "Berufe Digital-"@de ;
+	skos:altLabel " Printmediengestaltung"@de ;
+	skos:broader <232> ;
+	skos:inScheme <> .
+
+<2322> a skos:Concept ;
+	skos:prefLabel "Berufe Grafik-Kommunikations-"@de ;
+	skos:altLabel "Fotodesign"@de ;
+	skos:broader <232> ;
+	skos:inScheme <> .
+
+<2328> a skos:Concept ;
+	skos:prefLabel "Berufe technische Mediengestaltung (ssT)"@de ;
+	skos:altLabel "Berufe in der technischen Mediengestaltung (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <232> ;
+	skos:inScheme <> .
+
+<2329> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Techn. Mediengestaltung"@de ;
+	skos:broader <232> ;
+	skos:inScheme <> .
+
+<2331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fototechnik"@de ;
+	skos:altLabel "Berufe in der Fototechnik"@de ;
+	skos:broader <233> ;
+	skos:inScheme <> .
+
+<2332> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fotografie"@de ;
+	skos:altLabel "Berufe in der Fotografie"@de ;
+	skos:broader <233> ;
+	skos:inScheme <> .
+
+<2339> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Fototechnik und Fotografie"@de ;
+	skos:altLabel "Aufsichtskräfte - Fototechnik und Fotografie"@de ;
+	skos:broader <233> ;
+	skos:inScheme <> .
+
+<2341> a skos:Concept ;
+	skos:prefLabel "Berufe in der Drucktechnik"@de ;
+	skos:altLabel "Berufe in der Drucktechnik"@de ;
+	skos:broader <234> ;
+	skos:inScheme <> .
+
+<2342> a skos:Concept ;
+	skos:prefLabel "Berufe Buchbinderei"@de ;
+	skos:altLabel " Druckweiterverarb."@de ;
+	skos:broader <234> ;
+	skos:inScheme <> .
+
+<2349> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Drucktechnik"@de ;
+	skos:altLabel "Buchbinderei"@de ;
+	skos:broader <234> ;
+	skos:inScheme <> .
+
+<2410> a skos:Concept ;
+	skos:prefLabel "Berufe in der Metallerzeugung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Metallerzeugung (ohne Spezialisierung)"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2411> a skos:Concept ;
+	skos:prefLabel "Berufe in der Hüttentechnik"@de ;
+	skos:altLabel "Berufe in der Hüttentechnik"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2412> a skos:Concept ;
+	skos:prefLabel "Berufe in der Metallumformung"@de ;
+	skos:altLabel "Berufe in der Metallumformung"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2413> a skos:Concept ;
+	skos:prefLabel "Berufe in der industriellen Gießerei"@de ;
+	skos:altLabel "Berufe in der industriellen Gießerei"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2414> a skos:Concept ;
+	skos:prefLabel "Berufe handwerkl.Metall-"@de ;
+	skos:altLabel "Glockengießerei"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2419> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Metallerzeugung"@de ;
+	skos:altLabel "Aufsichtskräfte - Metallerzeugung"@de ;
+	skos:broader <241> ;
+	skos:inScheme <> .
+
+<2420> a skos:Concept ;
+	skos:prefLabel "Berufe in der Metallbearbeitung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Metallbearbeitung (ohne Spezialisierung)"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2421> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. spanlosen Metallbearbeitung"@de ;
+	skos:altLabel "Berufe in der spanlosen Metallbearbeitung"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2422> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. schleifenden Metallbearbeit."@de ;
+	skos:altLabel "Berufe in der schleifenden Metallbearbeitung"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2423> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. spanenden Metallbearbeitung"@de ;
+	skos:altLabel "Berufe in der spanenden Metallbearbeitung"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2424> a skos:Concept ;
+	skos:prefLabel "Berufe Metallbearbeitung d. Laserstrahl"@de ;
+	skos:altLabel "Berufe in der Metallbearbeitung durch Laserstrahl"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2429> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Metallbearbeitung"@de ;
+	skos:altLabel "Aufsichtskräfte - Metallbearbeitung"@de ;
+	skos:broader <242> ;
+	skos:inScheme <> .
+
+<2430> a skos:Concept ;
+	skos:prefLabel "Berufe Metalloberflächenbehandlung (o.S)"@de ;
+	skos:altLabel "Berufe in der Metalloberflächenbehandlung (ohne Spezialisierung)"@de ;
+	skos:broader <243> ;
+	skos:inScheme <> .
+
+<2438> a skos:Concept ;
+	skos:prefLabel "Berufe Metalloberflächenbehandlung (ssT)"@de ;
+	skos:altLabel "Berufe in der Metalloberflächenbehandlung (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <243> ;
+	skos:inScheme <> .
+
+<2439> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Metalloberflächenbehandlung"@de ;
+	skos:altLabel "Aufsichtskräfte - Metalloberflächenbehandlung"@de ;
+	skos:broader <243> ;
+	skos:inScheme <> .
+
+<2441> a skos:Concept ;
+	skos:prefLabel "Berufe im Metallbau"@de ;
+	skos:altLabel "Berufe im Metallbau"@de ;
+	skos:broader <244> ;
+	skos:inScheme <> .
+
+<2442> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Schweiß-"@de ;
+	skos:altLabel " Verbindungstechnik"@de ;
+	skos:broader <244> ;
+	skos:inScheme <> .
+
+<2443> a skos:Concept ;
+	skos:prefLabel "Industrietaucher/innen u.a.Taucherberufe"@de ;
+	skos:altLabel "Industrietaucher/innen und andere Taucherberufe"@de ;
+	skos:broader <244> ;
+	skos:inScheme <> .
+
+<2449> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Metallbau und Schweißtechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Metallbau und Schweißtechnik"@de ;
+	skos:broader <244> ;
+	skos:inScheme <> .
+
+<2451> a skos:Concept ;
+	skos:prefLabel "Berufe in der Feinwerktechnik"@de ;
+	skos:altLabel "Berufe in der Feinwerktechnik"@de ;
+	skos:broader <245> ;
+	skos:inScheme <> .
+
+<2452> a skos:Concept ;
+	skos:prefLabel "Berufe in der Werkzeugtechnik"@de ;
+	skos:altLabel "Berufe in der Werkzeugtechnik"@de ;
+	skos:broader <245> ;
+	skos:inScheme <> .
+
+<2453> a skos:Concept ;
+	skos:prefLabel "Berufe im Uhrmacherhandwerk"@de ;
+	skos:altLabel "Berufe im Uhrmacherhandwerk"@de ;
+	skos:broader <245> ;
+	skos:inScheme <> .
+
+<2459> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Feinwerk- u. Werkzeugtechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Feinwerk- und Werkzeugtechnik"@de ;
+	skos:broader <245> ;
+	skos:inScheme <> .
+
+<2510> a skos:Concept ;
+	skos:prefLabel "Berufe Maschinenbau-"@de ;
+	skos:altLabel " Betriebstechn.(oS)"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2511> a skos:Concept ;
+	skos:prefLabel "Maschinen-"@de ;
+	skos:altLabel " Gerätezusammensetzer/innen"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2512> a skos:Concept ;
+	skos:prefLabel "Maschinen- und Anlagenführer/innen"@de ;
+	skos:altLabel "Maschinen- und Anlagenführer/innen"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2513> a skos:Concept ;
+	skos:prefLabel "Tech.ServicekräfteWartung"@de ;
+	skos:altLabel "Instandhaltung"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2518> a skos:Concept ;
+	skos:prefLabel "Berufe Maschinenbau"@de ;
+	skos:altLabel "Betriebstechn.(ssT)"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2519> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Maschinenbau"@de ;
+	skos:broader <251> ;
+	skos:inScheme <> .
+
+<2520> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fahrzeugtechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Fahrzeugtechnik (ohne Spezialisierung)"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2521> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kraftfahrzeugtechnik"@de ;
+	skos:altLabel "Berufe in der Kraftfahrzeugtechnik"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2522> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Land-"@de ;
+	skos:altLabel " Baumaschinentechnik"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2523> a skos:Concept ;
+	skos:prefLabel "Berufe in der Luft- und Raumfahrttechnik"@de ;
+	skos:altLabel "Berufe in der Luft- und Raumfahrttechnik"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2524> a skos:Concept ;
+	skos:prefLabel "Berufe in der Schiffbautechnik"@de ;
+	skos:altLabel "Berufe in der Schiffbautechnik"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2525> a skos:Concept ;
+	skos:prefLabel "Berufe in der Zweiradtechnik"@de ;
+	skos:altLabel "Berufe in der Zweiradtechnik"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2529> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Fahr.LuftRaum.Schiffbau"@de ;
+	skos:broader <252> ;
+	skos:inScheme <> .
+
+<2610> a skos:Concept ;
+	skos:prefLabel "Berufe Mechatr."@de ;
+	skos:altLabel "Automatisierungst.(o.S.)"@de ;
+	skos:broader <261> ;
+	skos:inScheme <> .
+
+<2611> a skos:Concept ;
+	skos:prefLabel "Berufe in der Mechatronik"@de ;
+	skos:altLabel "Berufe in der Mechatronik"@de ;
+	skos:broader <261> ;
+	skos:inScheme <> .
+
+<2612> a skos:Concept ;
+	skos:prefLabel "Berufe in der Automatisierungstechnik"@de ;
+	skos:altLabel "Berufe in der Automatisierungstechnik"@de ;
+	skos:broader <261> ;
+	skos:inScheme <> .
+
+<2619> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Mechatronik"@de ;
+	skos:altLabel "Automatisierungst."@de ;
+	skos:broader <261> ;
+	skos:inScheme <> .
+
+<2621> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bauelektrik"@de ;
+	skos:altLabel "Berufe in der Bauelektrik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2622> a skos:Concept ;
+	skos:prefLabel "Berufe in der Elektromaschinentechnik"@de ;
+	skos:altLabel "Berufe in der Elektromaschinentechnik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2623> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Energie-"@de ;
+	skos:altLabel " Kraftwerkstechnik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2624> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. regenerativen Energietechnik"@de ;
+	skos:altLabel "Berufe in der regenerativen Energietechnik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2625> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. elektrischen Betriebstechnik"@de ;
+	skos:altLabel "Berufe in der elektrischen Betriebstechnik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2626> a skos:Concept ;
+	skos:prefLabel "Berufe Leitungsinstallation"@de ;
+	skos:altLabel "-wartung"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2629> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Energietechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Energietechnik"@de ;
+	skos:broader <262> ;
+	skos:inScheme <> .
+
+<2630> a skos:Concept ;
+	skos:prefLabel "Berufe in der Elektrotechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Elektrotechnik (ohne Spezialisierung)"@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2631> a skos:Concept ;
+	skos:prefLabel "Berufe Informations"@de ;
+	skos:altLabel "Telekommunikationst."@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2632> a skos:Concept ;
+	skos:prefLabel "Berufe in der Mikrosystemtechnik"@de ;
+	skos:altLabel "Berufe in der Mikrosystemtechnik"@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2633> a skos:Concept ;
+	skos:prefLabel "Berufe Luftver."@de ;
+	skos:altLabel "Schiff"@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2638> a skos:Concept ;
+	skos:prefLabel "Berufe in der Elektrotechnik (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Elektrotechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2639> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Elektrotechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Elektrotechnik"@de ;
+	skos:broader <263> ;
+	skos:inScheme <> .
+
+<2710> a skos:Concept ;
+	skos:prefLabel "Berufe tech. Forschung"@de ;
+	skos:altLabel " Entwicklung (oS)"@de ;
+	skos:broader <271> ;
+	skos:inScheme <> .
+
+<2718> a skos:Concept ;
+	skos:prefLabel "Berufe tech.Forschung"@de ;
+	skos:altLabel " Entwicklung (ssT)"@de ;
+	skos:broader <271> ;
+	skos:inScheme <> .
+
+<2719> a skos:Concept ;
+	skos:prefLabel "Führung - Techn. Forschung"@de ;
+	skos:altLabel " Entwicklung"@de ;
+	skos:broader <271> ;
+	skos:inScheme <> .
+
+<2721> a skos:Concept ;
+	skos:prefLabel "Technische Zeichner/innen"@de ;
+	skos:altLabel "Technische Zeichner/innen"@de ;
+	skos:broader <272> ;
+	skos:inScheme <> .
+
+<2722> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Konstruktion u. im Gerätebau"@de ;
+	skos:altLabel "Berufe in der Konstruktion und im Gerätebau"@de ;
+	skos:broader <272> ;
+	skos:inScheme <> .
+
+<2723> a skos:Concept ;
+	skos:prefLabel "Berufe im Modellbau"@de ;
+	skos:altLabel "Berufe im Modellbau"@de ;
+	skos:broader <272> ;
+	skos:inScheme <> .
+
+<2728> a skos:Concept ;
+	skos:prefLabel "Techn.Zeichnen"@de ;
+	skos:altLabel " Konstrukt."@de ;
+	skos:broader <272> ;
+	skos:inScheme <> .
+
+<2729> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-TechZeich.Konstr.Modell"@de ;
+	skos:broader <272> ;
+	skos:inScheme <> .
+
+<2730> a skos:Concept ;
+	skos:prefLabel "Berufe tech. Produktionsplan."@de ;
+	skos:altLabel "-steuerung"@de ;
+	skos:broader <273> ;
+	skos:inScheme <> .
+
+<2731> a skos:Concept ;
+	skos:prefLabel "Berufe technische Qualitätssicherung"@de ;
+	skos:altLabel "Berufe in der technischen Qualitätssicherung"@de ;
+	skos:broader <273> ;
+	skos:inScheme <> .
+
+<2739> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Produktionsplan"@de ;
+	skos:broader <273> ;
+	skos:inScheme <> .
+
+<2810> a skos:Concept ;
+	skos:prefLabel "Berufe in der Textiltechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Textiltechnik (ohne Spezialisierung)"@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2811> a skos:Concept ;
+	skos:prefLabel "Berufe in der Textilgestaltung"@de ;
+	skos:altLabel "Berufe in der Textilgestaltung"@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2812> a skos:Concept ;
+	skos:prefLabel "Berufe in der Textilherstellung"@de ;
+	skos:altLabel "Berufe in der Textilherstellung"@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2813> a skos:Concept ;
+	skos:prefLabel "Berufe in der Garn- und Seilherstellung"@de ;
+	skos:altLabel "Berufe in der Garn- und Seilherstellung"@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2814> a skos:Concept ;
+	skos:prefLabel "Berufe in der Textilveredlung"@de ;
+	skos:altLabel "Berufe in der Textilveredlung"@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2819> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Textiltechn."@de ;
+	skos:broader <281> ;
+	skos:inScheme <> .
+
+<2821> a skos:Concept ;
+	skos:prefLabel "Berufe im Modedesign"@de ;
+	skos:altLabel "Berufe im Modedesign"@de ;
+	skos:broader <282> ;
+	skos:inScheme <> .
+
+<2822> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Bekleidungsherstellung"@de ;
+	skos:altLabel "Berufe in der Bekleidungs-"@de ;
+	skos:broader <282> ;
+	skos:inScheme <> .
+
+<2823> a skos:Concept ;
+	skos:prefLabel "Technische Konfektionäre"@de ;
+	skos:altLabel " Segelmacher"@de ;
+	skos:broader <282> ;
+	skos:inScheme <> .
+
+<2824> a skos:Concept ;
+	skos:prefLabel "Berufe Polsterei"@de ;
+	skos:altLabel " Fahrzeuginnenausstat."@de ;
+	skos:broader <282> ;
+	skos:inScheme <> .
+
+<2829> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung - Textilverarbeitung"@de ;
+	skos:broader <282> ;
+	skos:inScheme <> .
+
+<2830> a skos:Concept ;
+	skos:prefLabel "Berufe Leder-"@de ;
+	skos:altLabel "Pelzherstell."@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2831> a skos:Concept ;
+	skos:prefLabel "Berufe in der Lederherstellung"@de ;
+	skos:altLabel "Berufe in der Lederherstellung"@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2832> a skos:Concept ;
+	skos:prefLabel "Berufe Sattlerei"@de ;
+	skos:altLabel " Herst. Lederutensilien"@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2833> a skos:Concept ;
+	skos:prefLabel "Berufe in der Schuhherstellung"@de ;
+	skos:altLabel "Berufe in der Schuhherstellung"@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2834> a skos:Concept ;
+	skos:prefLabel "Berufe in der Pelzbe- und -verarbeitung"@de ;
+	skos:altLabel "Berufe in der Pelzbe- und -verarbeitung"@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2839> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Leder-"@de ;
+	skos:broader <283> ;
+	skos:inScheme <> .
+
+<2910> a skos:Concept ;
+	skos:prefLabel "Berufe in der Getränkeherstellung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Getränkeherstellung (ohne Spezialisierung)"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2911> a skos:Concept ;
+	skos:prefLabel "Brauer/innen und Mälzer/innen"@de ;
+	skos:altLabel "Brauer/innen und Mälzer/innen"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2912> a skos:Concept ;
+	skos:prefLabel "Weinküfer/innen"@de ;
+	skos:altLabel "Weinküfer/innen"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2913> a skos:Concept ;
+	skos:prefLabel "Brenner/innen"@de ;
+	skos:altLabel " Destillateure/innen"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2914> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fruchtsafttechnik"@de ;
+	skos:altLabel "Berufe in der Fruchtsafttechnik"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2915> a skos:Concept ;
+	skos:prefLabel "Nahrungsmittel- u. Getränkekoster/innen"@de ;
+	skos:altLabel "Nahrungsmittel- und Getränkekoster/innen"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2919> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung - Getränkeherstellung"@de ;
+	skos:broader <291> ;
+	skos:inScheme <> .
+
+<2920> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Lebensmittelherstellung (oS)"@de ;
+	skos:altLabel "Berufe in der Lebensmittelherstellung (ohne Spezialisierung)"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2921> a skos:Concept ;
+	skos:prefLabel "Berufe Mühlenprodukt-"@de ;
+	skos:altLabel "Futtermittelherst."@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2922> a skos:Concept ;
+	skos:prefLabel "Berufe Back-"@de ;
+	skos:altLabel " Konditoreiwarenherstell."@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2923> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fleischverarbeitung"@de ;
+	skos:altLabel "Berufe in der Fleischverarbeitung"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2924> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fischverarbeitung"@de ;
+	skos:altLabel "Berufe in der Fischverarbeitung"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2925> a skos:Concept ;
+	skos:prefLabel "Berufe in der Milchproduktherstellung"@de ;
+	skos:altLabel "Berufe in der Milchproduktherstellung"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2926> a skos:Concept ;
+	skos:prefLabel "Berufe in der Süßwarenherstellung"@de ;
+	skos:altLabel "Berufe in der Süßwarenherstellung"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2927> a skos:Concept ;
+	skos:prefLabel "Berufe in der Tabakwarenherstellung"@de ;
+	skos:altLabel "Berufe in der Tabakwarenherstellung"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2928> a skos:Concept ;
+	skos:prefLabel "Berufe i.d.Lebensmittelherstellung (ssT)"@de ;
+	skos:altLabel "Berufe in der Lebensmittelherstellung (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2929> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Lebens-"@de ;
+	skos:broader <292> ;
+	skos:inScheme <> .
+
+<2930> a skos:Concept ;
+	skos:prefLabel "Köche/Köchinnen (o.S.)"@de ;
+	skos:altLabel "Köche/Köchinnen (ohne Spezialisierung)"@de ;
+	skos:broader <293> ;
+	skos:inScheme <> .
+
+<2931> a skos:Concept ;
+	skos:prefLabel "Vor-"@de ;
+	skos:altLabel " Kalt- und Süßspeisenköche/innen"@de ;
+	skos:broader <293> ;
+	skos:inScheme <> .
+
+<2932> a skos:Concept ;
+	skos:prefLabel "Grill-"@de ;
+	skos:altLabel " Braten- u. Fischköche/-köchinnen"@de ;
+	skos:broader <293> ;
+	skos:inScheme <> .
+
+<2938> a skos:Concept ;
+	skos:prefLabel "Köche/Köchinnen (s.s.T.)"@de ;
+	skos:altLabel "Köche/Köchinnen (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <293> ;
+	skos:inScheme <> .
+
+<2939> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel " Führung - Speisenzubereitung"@de ;
+	skos:broader <293> ;
+	skos:inScheme <> .
+
+<3110> a skos:Concept ;
+	skos:prefLabel "Berufe Bauplanung u. -überwachung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Bauplanung und -überwachung (ohne Spezialisierung)"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3111> a skos:Concept ;
+	skos:prefLabel "Berufe in der Architektur"@de ;
+	skos:altLabel "Berufe in der Architektur"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3112> a skos:Concept ;
+	skos:prefLabel "Berufe in der Stadt- und Raumplanung"@de ;
+	skos:altLabel "Berufe in der Stadt- und Raumplanung"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3113> a skos:Concept ;
+	skos:prefLabel "Berufe Bauplanung Verkehrswege"@de ;
+	skos:altLabel " -anlagen"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3114> a skos:Concept ;
+	skos:prefLabel "Berufe in der Wasserwirtschaft"@de ;
+	skos:altLabel "Berufe in der Wasserwirtschaft"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3115> a skos:Concept ;
+	skos:prefLabel "Berufe Bauwerkserhaltung und -erneuerung"@de ;
+	skos:altLabel "Berufe in der Bauwerkserhaltung und -erneuerung"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3116> a skos:Concept ;
+	skos:prefLabel "Bausachverständige und Baukontrolleure"@de ;
+	skos:altLabel "Bausachverständige und Baukontrolleure/-kontrolleurinnen"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3117> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Bauabrechnung"@de ;
+	skos:altLabel " -kalkulation"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3119> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Bauplan"@de ;
+	skos:broader <311> ;
+	skos:inScheme <> .
+
+<3121> a skos:Concept ;
+	skos:prefLabel "Berufe in der Vermessungstechnik"@de ;
+	skos:altLabel "Berufe in der Vermessungstechnik"@de ;
+	skos:broader <312> ;
+	skos:inScheme <> .
+
+<3122> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kartografie"@de ;
+	skos:altLabel "Berufe in der Kartografie"@de ;
+	skos:broader <312> ;
+	skos:inScheme <> .
+
+<3210> a skos:Concept ;
+	skos:prefLabel "Berufe im Hochbau (o.S.)"@de ;
+	skos:altLabel "Berufe im Hochbau (ohne Spezialisierung)"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3211> a skos:Concept ;
+	skos:prefLabel "Berufe im Beton- und Stahlbetonbau"@de ;
+	skos:altLabel "Berufe im Beton- und Stahlbetonbau"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3212> a skos:Concept ;
+	skos:prefLabel "Berufe im Maurerhandwerk"@de ;
+	skos:altLabel "Berufe im Maurerhandwerk"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3213> a skos:Concept ;
+	skos:prefLabel "Berufe im Schornsteinbau"@de ;
+	skos:altLabel "Berufe im Schornsteinbau"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3214> a skos:Concept ;
+	skos:prefLabel "Berufe in der Dachdeckerei"@de ;
+	skos:altLabel "Berufe in der Dachdeckerei"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3215> a skos:Concept ;
+	skos:prefLabel "Berufe im Fassadenbau"@de ;
+	skos:altLabel "Berufe im Fassadenbau"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3216> a skos:Concept ;
+	skos:prefLabel "Berufe im Gerüstbau"@de ;
+	skos:altLabel "Berufe im Gerüstbau"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3217> a skos:Concept ;
+	skos:prefLabel "Berufe im Bauwerksabbruch"@de ;
+	skos:altLabel "Berufe im Bauwerksabbruch"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3219> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Hochbau"@de ;
+	skos:altLabel "Aufsichtskräfte - Hochbau"@de ;
+	skos:broader <321> ;
+	skos:inScheme <> .
+
+<3220> a skos:Concept ;
+	skos:prefLabel "Berufe im Tiefbau (o.S.)"@de ;
+	skos:altLabel "Berufe im Tiefbau (ohne Spezialisierung)"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3221> a skos:Concept ;
+	skos:prefLabel "Pflasterer/innen"@de ;
+	skos:altLabel " Steinsetzer/innen"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3222> a skos:Concept ;
+	skos:prefLabel "Berufe im Straßen- und Asphaltbau"@de ;
+	skos:altLabel "Berufe im Straßen- und Asphaltbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3223> a skos:Concept ;
+	skos:prefLabel "Berufe im Gleisbau"@de ;
+	skos:altLabel "Berufe im Gleisbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3224> a skos:Concept ;
+	skos:prefLabel "Berufe im Brunnenbau"@de ;
+	skos:altLabel "Berufe im Brunnenbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3225> a skos:Concept ;
+	skos:prefLabel "Berufe im Kanal- und Tunnelbau"@de ;
+	skos:altLabel "Berufe im Kanal- und Tunnelbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3226> a skos:Concept ;
+	skos:prefLabel "Berufe im Kultur- und Wasserbau"@de ;
+	skos:altLabel "Berufe im Kultur- und Wasserbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3229> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Tiefbau"@de ;
+	skos:altLabel "Aufsichtskräfte - Tiefbau"@de ;
+	skos:broader <322> ;
+	skos:inScheme <> .
+
+<3310> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bodenverlegung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Bodenverlegung (ohne Spezialisierung)"@de ;
+	skos:broader <331> ;
+	skos:inScheme <> .
+
+<3311> a skos:Concept ;
+	skos:prefLabel "Berufe Fliesen-"@de ;
+	skos:altLabel "Platten-"@de ;
+	skos:broader <331> ;
+	skos:inScheme <> .
+
+<3312> a skos:Concept ;
+	skos:prefLabel "Berufe Estrich- und Terrazzoverlegung"@de ;
+	skos:altLabel "Berufe in der Estrich- und Terrazzoverlegung"@de ;
+	skos:broader <331> ;
+	skos:inScheme <> .
+
+<3313> a skos:Concept ;
+	skos:prefLabel "Berufe in der Parkettverlegung"@de ;
+	skos:altLabel "Berufe in der Parkettverlegung"@de ;
+	skos:broader <331> ;
+	skos:inScheme <> .
+
+<3319> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Bodenverlegung"@de ;
+	skos:altLabel "Aufsichtskräfte - Bodenverlegung"@de ;
+	skos:broader <331> ;
+	skos:inScheme <> .
+
+<3321> a skos:Concept ;
+	skos:prefLabel "Berufe für Maler- und Lackiererarbeiten"@de ;
+	skos:altLabel "Berufe für Maler- und Lackiererarbeiten"@de ;
+	skos:broader <332> ;
+	skos:inScheme <> .
+
+<3322> a skos:Concept ;
+	skos:prefLabel "Berufe für Stuckateurarbeiten"@de ;
+	skos:altLabel "Berufe für Stuckateurarbeiten"@de ;
+	skos:broader <332> ;
+	skos:inScheme <> .
+
+<3323> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bauwerksabdichtung"@de ;
+	skos:altLabel "Berufe in der Bauwerksabdichtung"@de ;
+	skos:broader <332> ;
+	skos:inScheme <> .
+
+<3324> a skos:Concept ;
+	skos:prefLabel "Berufe im Holz- und Bautenschutz"@de ;
+	skos:altLabel "Berufe im Holz- und Bautenschutz"@de ;
+	skos:broader <332> ;
+	skos:inScheme <> .
+
+<3329> a skos:Concept ;
+	skos:prefLabel "Aufsicht-MalerStuckBauwerksabdBautensch."@de ;
+	skos:altLabel "Aufsichtskräfte - Maler- und Lackierer-"@de ;
+	skos:broader <332> ;
+	skos:inScheme <> .
+
+<3330> a skos:Concept ;
+	skos:prefLabel "Berufe im Aus- und Trockenbau (o.S.)"@de ;
+	skos:altLabel "Berufe im Aus- und Trockenbau (ohne Spezialisierung)"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Isolierung"@de ;
+	skos:altLabel "Berufe in der Isolierung"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3332> a skos:Concept ;
+	skos:prefLabel "Berufe in der Zimmerei"@de ;
+	skos:altLabel "Berufe in der Zimmerei"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3333> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bautischlerei"@de ;
+	skos:altLabel "Berufe in der Bautischlerei"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3334> a skos:Concept ;
+	skos:prefLabel "Berufe in der Glaserei"@de ;
+	skos:altLabel "Berufe in der Glaserei"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3335> a skos:Concept ;
+	skos:prefLabel "Berufe im Rollladen- und Jalousiebau"@de ;
+	skos:altLabel "Berufe im Rollladen- und Jalousiebau"@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3339> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Aus-"@de ;
+	skos:altLabel "Trockenbau.Iso.Zimm.Glas."@de ;
+	skos:broader <333> ;
+	skos:inScheme <> .
+
+<3410> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gebäudetechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Gebäudetechnik (ohne Spezialisierung)"@de ;
+	skos:broader <341> ;
+	skos:inScheme <> .
+
+<3411> a skos:Concept ;
+	skos:prefLabel "Platz-"@de ;
+	skos:altLabel " Gerätewarte/innen"@de ;
+	skos:broader <341> ;
+	skos:inScheme <> .
+
+<3419> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Gebäudetechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Gebäudetechnik"@de ;
+	skos:broader <341> ;
+	skos:inScheme <> .
+
+<3420> a skos:Concept ;
+	skos:prefLabel "Berufe in der Klempnerei (o.S.)"@de ;
+	skos:altLabel "Berufe in der Klempnerei (ohne Spezialisierung)"@de ;
+	skos:broader <342> ;
+	skos:inScheme <> .
+
+<3421> a skos:Concept ;
+	skos:prefLabel "Berufe Sanitär-"@de ;
+	skos:altLabel " Heizungs-"@de ;
+	skos:broader <342> ;
+	skos:inScheme <> .
+
+<3422> a skos:Concept ;
+	skos:prefLabel "Berufe im Ofen- und Luftheizungsbau"@de ;
+	skos:altLabel "Berufe im Ofen- und Luftheizungsbau"@de ;
+	skos:broader <342> ;
+	skos:inScheme <> .
+
+<3423> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kältetechnik"@de ;
+	skos:altLabel "Berufe in der Kältetechnik"@de ;
+	skos:broader <342> ;
+	skos:inScheme <> .
+
+<3429> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Klemp.Sanitär"@de ;
+	skos:altLabel "Heizung"@de ;
+	skos:broader <342> ;
+	skos:inScheme <> .
+
+<3430> a skos:Concept ;
+	skos:prefLabel "Berufe in der Ver- und Entsorgung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Ver- und Entsorgung (ohne Spezialisierung)"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<3431> a skos:Concept ;
+	skos:prefLabel "Berufe Wasserversorgung"@de ;
+	skos:altLabel "Abwassertechnik"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<3432> a skos:Concept ;
+	skos:prefLabel "Berufe im Rohrleitungsbau"@de ;
+	skos:altLabel "Berufe im Rohrleitungsbau"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<3433> a skos:Concept ;
+	skos:prefLabel "Berufe in der Abfallwirtschaft"@de ;
+	skos:altLabel "Berufe in der Abfallwirtschaft"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<3434> a skos:Concept ;
+	skos:prefLabel "Berufe Anlagen-"@de ;
+	skos:altLabel " Behälter-"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<3439> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Ver- und Entsorgung"@de ;
+	skos:altLabel "Aufsichtskräfte - Ver- und Entsorgung"@de ;
+	skos:broader <343> ;
+	skos:inScheme <> .
+
+<4110> a skos:Concept ;
+	skos:prefLabel "Berufe in der Mathematik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Mathematik (ohne Spezialisierung)"@de ;
+	skos:broader <411> ;
+	skos:inScheme <> .
+
+<4111> a skos:Concept ;
+	skos:prefLabel "Berufe in der Statistik"@de ;
+	skos:altLabel "Berufe in der Statistik"@de ;
+	skos:broader <411> ;
+	skos:inScheme <> .
+
+<4118> a skos:Concept ;
+	skos:prefLabel "Berufe in der Mathematik (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Mathematik (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <411> ;
+	skos:inScheme <> .
+
+<4119> a skos:Concept ;
+	skos:prefLabel "Führung - Mathematik und Statistik"@de ;
+	skos:altLabel "Führungskräfte - Mathematik und Statistik"@de ;
+	skos:broader <411> ;
+	skos:inScheme <> .
+
+<4120> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (o.S.)"@de ;
+	skos:altLabel "Berufe in der Biologie (ohne Spezialisierung)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4121> a skos:Concept ;
+	skos:prefLabel "Berufe im biologisch-techn. Laboratorium"@de ;
+	skos:altLabel "Berufe im biologisch-technischen Laboratorium"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4122> a skos:Concept ;
+	skos:prefLabel "Berufe in der biologischen Präparation"@de ;
+	skos:altLabel "Berufe in der biologischen Präparation"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4123> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (Ökologie)"@de ;
+	skos:altLabel "Berufe in der Biologie (Ökologie)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4124> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (Botanik)"@de ;
+	skos:altLabel "Berufe in der Biologie (Botanik)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4125> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (Zoologie)"@de ;
+	skos:altLabel "Berufe in der Biologie (Zoologie)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4126> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (Mikrobiologie)"@de ;
+	skos:altLabel "Berufe in der Biologie (Mikrobiologie)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4127> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (Humanbiologie)"@de ;
+	skos:altLabel "Berufe in der Biologie (Humanbiologie)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4128> a skos:Concept ;
+	skos:prefLabel "Berufe in der Biologie (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Biologie (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4129> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Biologie"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Biologie"@de ;
+	skos:broader <412> ;
+	skos:inScheme <> .
+
+<4130> a skos:Concept ;
+	skos:prefLabel "Berufe in der Chemie (o.S.)"@de ;
+	skos:altLabel "Berufe in der Chemie (ohne Spezialisierung)"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4131> a skos:Concept ;
+	skos:prefLabel "Berufe in der Chemie- und Pharmatechnik"@de ;
+	skos:altLabel "Berufe in der Chemie-und Pharmatechnik"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4132> a skos:Concept ;
+	skos:prefLabel "Berufe im chemisch-techn. Laboratorium"@de ;
+	skos:altLabel "Berufe im chemisch-technischen Laboratorium"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4133> a skos:Concept ;
+	skos:prefLabel "Steuerer chemische Verfahrensanlagen"@de ;
+	skos:altLabel "Steuerer/Steuerinnen von chemischen Verfahrensanlagen"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4134> a skos:Concept ;
+	skos:prefLabel "Steuerer Erdöl-"@de ;
+	skos:altLabel "Erdgasraffinationsanlag."@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4138> a skos:Concept ;
+	skos:prefLabel "Berufe in der Chemie (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Chemie (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4139> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Chemie"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Chemie"@de ;
+	skos:broader <413> ;
+	skos:inScheme <> .
+
+<4140> a skos:Concept ;
+	skos:prefLabel "Berufe in der Physik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Physik (ohne Spezialisierung)"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4141> a skos:Concept ;
+	skos:prefLabel "Berufe physikalisch-techn. Laboratorium"@de ;
+	skos:altLabel "Berufe im physikalisch-technischen Laboratorium"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4142> a skos:Concept ;
+	skos:prefLabel "Berufe in der Werkstofftechnik"@de ;
+	skos:altLabel "Berufe in der Werkstofftechnik"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4143> a skos:Concept ;
+	skos:prefLabel "Berufe in der Baustoffprüfung"@de ;
+	skos:altLabel "Berufe in der Baustoffprüfung"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4148> a skos:Concept ;
+	skos:prefLabel "Berufe in der Physik (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Physik (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4149> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Physik"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Physik"@de ;
+	skos:broader <414> ;
+	skos:inScheme <> .
+
+<4211> a skos:Concept ;
+	skos:prefLabel "Berufe in der Geotechnik"@de ;
+	skos:altLabel "Berufe in der Geotechnik"@de ;
+	skos:broader <421> ;
+	skos:inScheme <> .
+
+<4212> a skos:Concept ;
+	skos:prefLabel "Berufe in der Geologie"@de ;
+	skos:altLabel "Berufe in der Geologie"@de ;
+	skos:broader <421> ;
+	skos:inScheme <> .
+
+<4213> a skos:Concept ;
+	skos:prefLabel "Berufe in der Geografie"@de ;
+	skos:altLabel "Berufe in der Geografie"@de ;
+	skos:broader <421> ;
+	skos:inScheme <> .
+
+<4214> a skos:Concept ;
+	skos:prefLabel "Berufe in der Meteorologie"@de ;
+	skos:altLabel "Berufe in der Meteorologie"@de ;
+	skos:broader <421> ;
+	skos:inScheme <> .
+
+<4220> a skos:Concept ;
+	skos:prefLabel "Berufe in der Umweltschutztechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Umweltschutztechnik (ohne Spezialisierung)"@de ;
+	skos:broader <422> ;
+	skos:inScheme <> .
+
+<4221> a skos:Concept ;
+	skos:prefLabel "Schornsteinfeger/innen"@de ;
+	skos:altLabel "Schornsteinfeger/innen"@de ;
+	skos:broader <422> ;
+	skos:inScheme <> .
+
+<4228> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Umweltschutztechnik (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Umweltschutztechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <422> ;
+	skos:inScheme <> .
+
+<4229> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Umweltschutztechnik"@de ;
+	skos:altLabel "Aufsichtskräfte - Umweltschutztechnik"@de ;
+	skos:broader <422> ;
+	skos:inScheme <> .
+
+<4231> a skos:Concept ;
+	skos:prefLabel "Berufe Umweltschutzverwaltung"@de ;
+	skos:altLabel " -beratung"@de ;
+	skos:broader <423> ;
+	skos:inScheme <> .
+
+<4232> a skos:Concept ;
+	skos:prefLabel "Gewässer-Immissionsschutz"@de ;
+	skos:altLabel "Abfallbeauftr."@de ;
+	skos:broader <423> ;
+	skos:inScheme <> .
+
+<4233> a skos:Concept ;
+	skos:prefLabel "Strahlenschutzbeauftragte"@de ;
+	skos:altLabel "Strahlenschutzbeauftragte"@de ;
+	skos:broader <423> ;
+	skos:inScheme <> .
+
+<4239> a skos:Concept ;
+	skos:prefLabel "Führung - Umweltmanagement und -beratung"@de ;
+	skos:altLabel "Führungskräfte - Umweltmanagement und -beratung"@de ;
+	skos:broader <423> ;
+	skos:inScheme <> .
+
+<4310> a skos:Concept ;
+	skos:prefLabel "Berufe in der Informatik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Informatik (ohne Spezialisierung)"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4311> a skos:Concept ;
+	skos:prefLabel "Berufe in der Wirtschaftsinformatik"@de ;
+	skos:altLabel "Berufe in der Wirtschaftsinformatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4312> a skos:Concept ;
+	skos:prefLabel "Berufe in der technischen Informatik"@de ;
+	skos:altLabel "Berufe in der technischen Informatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4313> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bio- und Medizininformatik"@de ;
+	skos:altLabel "Berufe in der Bio- und Medizininformatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4314> a skos:Concept ;
+	skos:prefLabel "Berufe in der Geoinformatik"@de ;
+	skos:altLabel "Berufe in der Geoinformatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4315> a skos:Concept ;
+	skos:prefLabel "Berufe in der Medieninformatik"@de ;
+	skos:altLabel "Berufe in der Medieninformatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4319> a skos:Concept ;
+	skos:prefLabel "Führung - Informatik"@de ;
+	skos:altLabel "Führungskräfte - Informatik"@de ;
+	skos:broader <431> ;
+	skos:inScheme <> .
+
+<4321> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Systemanalyse"@de ;
+	skos:altLabel "Berufe in der IT-Systemanalyse"@de ;
+	skos:broader <432> ;
+	skos:inScheme <> .
+
+<4322> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Anwendungsberatung"@de ;
+	skos:altLabel "Berufe in der IT-Anwendungsberatung"@de ;
+	skos:broader <432> ;
+	skos:inScheme <> .
+
+<4323> a skos:Concept ;
+	skos:prefLabel "Berufe im IT-Vertrieb"@de ;
+	skos:altLabel "Berufe im IT-Vertrieb"@de ;
+	skos:broader <432> ;
+	skos:inScheme <> .
+
+<4329> a skos:Concept ;
+	skos:prefLabel "Führung-IT-System"@de ;
+	skos:altLabel "-Anwendung"@de ;
+	skos:broader <432> ;
+	skos:inScheme <> .
+
+<4331> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Netzwerktechnik"@de ;
+	skos:altLabel "Berufe in der IT-Netzwerktechnik"@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4332> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Koordination"@de ;
+	skos:altLabel "Berufe in der IT-Koordination"@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4333> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Organisation"@de ;
+	skos:altLabel "Berufe in der IT-Organisation"@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4334> a skos:Concept ;
+	skos:prefLabel "Berufe in der IT-Systemadministration"@de ;
+	skos:altLabel "Berufe in der IT-Systemadministration"@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4335> a skos:Concept ;
+	skos:prefLabel "Berufe Datenbankentwickl."@de ;
+	skos:altLabel " -administr."@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4336> a skos:Concept ;
+	skos:prefLabel "Berufe in der Webadministration"@de ;
+	skos:altLabel "Berufe in der Webadministration"@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4338> a skos:Concept ;
+	skos:prefLabel "IT-Netzwerkt."@de ;
+	skos:altLabel "-Koord."@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4339> a skos:Concept ;
+	skos:prefLabel "Führung-IT-Netzw."@de ;
+	skos:altLabel "-Koord."@de ;
+	skos:broader <433> ;
+	skos:inScheme <> .
+
+<4341> a skos:Concept ;
+	skos:prefLabel "Berufe in der Softwareentwicklung"@de ;
+	skos:altLabel "Berufe in der Softwareentwicklung"@de ;
+	skos:broader <434> ;
+	skos:inScheme <> .
+
+<4342> a skos:Concept ;
+	skos:prefLabel "Berufe in der Programmierung"@de ;
+	skos:altLabel "Berufe in der Programmierung"@de ;
+	skos:broader <434> ;
+	skos:inScheme <> .
+
+<4349> a skos:Concept ;
+	skos:prefLabel "Führung-Softwareentwickl."@de ;
+	skos:altLabel "Programmierung"@de ;
+	skos:broader <434> ;
+	skos:inScheme <> .
+
+<5111> a skos:Concept ;
+	skos:prefLabel "Berufe im technischen Eisenbahnbetrieb"@de ;
+	skos:altLabel "Berufe im technischen Eisenbahnbetrieb"@de ;
+	skos:broader <511> ;
+	skos:inScheme <> .
+
+<5112> a skos:Concept ;
+	skos:prefLabel "Berufe technischer Luftverkehrsbetrieb"@de ;
+	skos:altLabel "Berufe im technischen Luftverkehrsbetrieb"@de ;
+	skos:broader <511> ;
+	skos:inScheme <> .
+
+<5113> a skos:Concept ;
+	skos:prefLabel "Berufe technisch. Schiffsverkehrsbetrieb"@de ;
+	skos:altLabel "Berufe im technischen Schiffsverkehrsbetrieb"@de ;
+	skos:broader <511> ;
+	skos:inScheme <> .
+
+<5118> a skos:Concept ;
+	skos:prefLabel "TechBetriebEisenb.Luft"@de ;
+	skos:altLabel "Schiffsverk.(ssT)"@de ;
+	skos:broader <511> ;
+	skos:inScheme <> .
+
+<5119> a skos:Concept ;
+	skos:prefLabel "Aufsicht-TechBetr.Eisenb.LuftSchiffsverk"@de ;
+	skos:altLabel "Aufsichtskräfte - Technischer Betrieb im Eisenbahn-"@de ;
+	skos:broader <511> ;
+	skos:inScheme <> .
+
+<5121> a skos:Concept ;
+	skos:prefLabel "Straßen- und Tunnelwärter/innen"@de ;
+	skos:altLabel "Straßen- und Tunnelwärter/innen"@de ;
+	skos:broader <512> ;
+	skos:inScheme <> .
+
+<5122> a skos:Concept ;
+	skos:prefLabel "Überwach."@de ;
+	skos:altLabel "Wartung Eisenbahninfrastruktur"@de ;
+	skos:broader <512> ;
+	skos:inScheme <> .
+
+<5123> a skos:Concept ;
+	skos:prefLabel "Berufe in der Flugsicherungstechnik"@de ;
+	skos:altLabel "Berufe in der Flugsicherungstechnik"@de ;
+	skos:broader <512> ;
+	skos:inScheme <> .
+
+<5124> a skos:Concept ;
+	skos:prefLabel "Wasserstraßen- und Brückenwärter/innen"@de ;
+	skos:altLabel "Wasserstraßen- und Brückenwärter/innen"@de ;
+	skos:broader <512> ;
+	skos:inScheme <> .
+
+<5129> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Überw."@de ;
+	skos:altLabel "Wart.Verkehrsinfraktur"@de ;
+	skos:broader <512> ;
+	skos:inScheme <> .
+
+<5131> a skos:Concept ;
+	skos:prefLabel "Berufe in der Lagerwirtschaft"@de ;
+	skos:altLabel "Berufe in der Lagerwirtschaft"@de ;
+	skos:broader <513> ;
+	skos:inScheme <> .
+
+<5132> a skos:Concept ;
+	skos:prefLabel "Berufe für Post- und Zustelldienste"@de ;
+	skos:altLabel "Berufe für Post- und Zustelldienste"@de ;
+	skos:broader <513> ;
+	skos:inScheme <> .
+
+<5133> a skos:Concept ;
+	skos:prefLabel "Berufe im Güter- und Warenumschlag"@de ;
+	skos:altLabel "Berufe im Güter- und Warenumschlag"@de ;
+	skos:broader <513> ;
+	skos:inScheme <> .
+
+<5139> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Lagerw.Zustell.Güterum."@de ;
+	skos:broader <513> ;
+	skos:inScheme <> .
+
+<5140> a skos:Concept ;
+	skos:prefLabel "Servicekräfte Personenverkehr (o.S.)"@de ;
+	skos:altLabel "Servicekräfte im Personenverkehr (ohne Spezialisierung)"@de ;
+	skos:broader <514> ;
+	skos:inScheme <> .
+
+<5141> a skos:Concept ;
+	skos:prefLabel "Servicefachkräfte Straßen-"@de ;
+	skos:altLabel "Schienenverk."@de ;
+	skos:broader <514> ;
+	skos:inScheme <> .
+
+<5142> a skos:Concept ;
+	skos:prefLabel "Servicefachkräfte im Luftverkehr"@de ;
+	skos:altLabel "Servicefachkräfte im Luftverkehr"@de ;
+	skos:broader <514> ;
+	skos:inScheme <> .
+
+<5143> a skos:Concept ;
+	skos:prefLabel "Servicefachkräfte im Schiffsverkehr"@de ;
+	skos:altLabel "Servicefachkräfte im Schiffsverkehr"@de ;
+	skos:broader <514> ;
+	skos:inScheme <> .
+
+<5149> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Personenverkehr(Servicebereich)"@de ;
+	skos:altLabel "Aufsichtskräfte - Personenverkehr (Servicebereich)"@de ;
+	skos:broader <514> ;
+	skos:inScheme <> .
+
+<5150> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb (oS)"@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Verkehrsbetriebs (ohne Spezialisierung)"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5151> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Straßenverkehrsbetr."@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Straßenverkehrsbetriebs"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5152> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Eisenbahnverkehrsbetr"@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Eisenbahnverkehrsbetriebs"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5153> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Luftverkehrsbetrieb"@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Luftverkehrsbetriebs"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5154> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Schiffsverkehrsbetr."@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Schiffsverkehrsbetriebs"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5158> a skos:Concept ;
+	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb (ssT)"@de ;
+	skos:altLabel "Berufe in der Überwachung und Steuerung des Verkehrsbetriebs (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5159> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Überwach. Verkehrsbetr."@de ;
+	skos:broader <515> ;
+	skos:inScheme <> .
+
+<5161> a skos:Concept ;
+	skos:prefLabel "Verkehrskaufleute"@de ;
+	skos:altLabel "Verkehrskaufleute"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5162> a skos:Concept ;
+	skos:prefLabel "Speditions- und Logistikkaufleute"@de ;
+	skos:altLabel "Speditions- und Logistikkaufleute"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5163> a skos:Concept ;
+	skos:prefLabel "Straßen- und Schienenverkehrskaufleute"@de ;
+	skos:altLabel "Straßen- und Schienenverkehrskaufleute"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5164> a skos:Concept ;
+	skos:prefLabel "Luftverkehrskaufleute"@de ;
+	skos:altLabel "Luftverkehrskaufleute"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5165> a skos:Concept ;
+	skos:prefLabel "Schifffahrtskaufleute"@de ;
+	skos:altLabel "Schifffahrtskaufleute"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5166> a skos:Concept ;
+	skos:prefLabel "Kurier-Express-Postdienstleistungskaufl."@de ;
+	skos:altLabel "Kurier-"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5169> a skos:Concept ;
+	skos:prefLabel "Führung-Verkehr"@de ;
+	skos:altLabel "Logistik (kaufm.Bereich)"@de ;
+	skos:broader <516> ;
+	skos:inScheme <> .
+
+<5211> a skos:Concept ;
+	skos:prefLabel "Berufskraftfahrer(Personentransport/PKW)"@de ;
+	skos:altLabel "Berufskraftfahrer/innen (Personentransport/PKW)"@de ;
+	skos:broader <521> ;
+	skos:inScheme <> .
+
+<5212> a skos:Concept ;
+	skos:prefLabel "Berufskraftfahrer (Güterverkehr/LKW)"@de ;
+	skos:altLabel "Berufskraftfahrer/innen (Güterverkehr/LKW)"@de ;
+	skos:broader <521> ;
+	skos:inScheme <> .
+
+<5213> a skos:Concept ;
+	skos:prefLabel "Bus-"@de ;
+	skos:altLabel " Straßenbahnfahrer/innen"@de ;
+	skos:broader <521> ;
+	skos:inScheme <> .
+
+<5218> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführer im Straßenverkehr(s.s.T.)"@de ;
+	skos:altLabel "Fahrzeugführer/innen im Straßenverkehr (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <521> ;
+	skos:inScheme <> .
+
+<5220> a skos:Concept ;
+	skos:prefLabel "Triebfahrzeugführer Eisenbahnverkehr(oS)"@de ;
+	skos:altLabel "Triebfahrzeugführer/innen im Eisenbahnverkehr (ohne Spezialisierung)"@de ;
+	skos:broader <522> ;
+	skos:inScheme <> .
+
+<5231> a skos:Concept ;
+	skos:prefLabel "Piloten und Verkehrsflugzeugführer"@de ;
+	skos:altLabel "Piloten/Pilotinnen und Verkehrsflugzeugführer/innen"@de ;
+	skos:broader <523> ;
+	skos:inScheme <> .
+
+<5238> a skos:Concept ;
+	skos:prefLabel "Fahrzeugführer im Flugverkehr (s.s.T.)"@de ;
+	skos:altLabel "Fahrzeugführer/innen im Flugverkehr (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <523> ;
+	skos:inScheme <> .
+
+<5241> a skos:Concept ;
+	skos:prefLabel "Nautische Schiffsoffiziere und Kapitäne"@de ;
+	skos:altLabel "Nautische Schiffsoffiziere/-offizierinnen und Kapitäne/Kapitäninnen"@de ;
+	skos:broader <524> ;
+	skos:inScheme <> .
+
+<5242> a skos:Concept ;
+	skos:prefLabel "Schiffsführer Binnen-"@de ;
+	skos:altLabel "Hafenverkehr"@de ;
+	skos:broader <524> ;
+	skos:inScheme <> .
+
+<5251> a skos:Concept ;
+	skos:prefLabel "Führer land-"@de ;
+	skos:altLabel "forstwirtschaftl. Maschinen"@de ;
+	skos:broader <525> ;
+	skos:inScheme <> .
+
+<5252> a skos:Concept ;
+	skos:prefLabel "Führer Erdbewegungs-"@de ;
+	skos:altLabel "verwandte Maschinen"@de ;
+	skos:broader <525> ;
+	skos:inScheme <> .
+
+<5253> a skos:Concept ;
+	skos:prefLabel "Kranführer"@de ;
+	skos:altLabel " Bediener Hebeeinrichtungen"@de ;
+	skos:broader <525> ;
+	skos:inScheme <> .
+
+<5259> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Bau-"@de ;
+	skos:altLabel " Transportgeräteführung"@de ;
+	skos:broader <525> ;
+	skos:inScheme <> .
+
+<5311> a skos:Concept ;
+	skos:prefLabel "Berufe im Objekt-"@de ;
+	skos:altLabel "Werte-"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5312> a skos:Concept ;
+	skos:prefLabel "Berufe Arbeitssicherh. Sicherheitstech."@de ;
+	skos:altLabel "Berufe in Arbeitssicherheit und Sicherheitstechnik"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5313> a skos:Concept ;
+	skos:prefLabel "Berufe im Brandschutz"@de ;
+	skos:altLabel "Berufe im Brandschutz"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5314> a skos:Concept ;
+	skos:prefLabel "Berufe in der Badeaufsicht"@de ;
+	skos:altLabel "Berufe in der Badeaufsicht"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5315> a skos:Concept ;
+	skos:prefLabel "Detektive/Detektivinnen"@de ;
+	skos:altLabel "Detektive/Detektivinnen"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5316> a skos:Concept ;
+	skos:prefLabel "Inkassobeauftragte"@de ;
+	skos:altLabel "Inkassobeauftragte"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5318> a skos:Concept ;
+	skos:prefLabel "Obj.Pers.Brandschutz"@de ;
+	skos:altLabel "Arbeitssicherh(ssT)"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5319> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Objekt-"@de ;
+	skos:broader <531> ;
+	skos:inScheme <> .
+
+<5321> a skos:Concept ;
+	skos:prefLabel "Berufe im Polizeivollzugsdienst"@de ;
+	skos:altLabel "Berufe im Polizeivollzugsdienst"@de ;
+	skos:broader <532> ;
+	skos:inScheme <> .
+
+<5322> a skos:Concept ;
+	skos:prefLabel "Berufe im Kriminaldienst"@de ;
+	skos:altLabel "Berufe im Kriminaldienst"@de ;
+	skos:broader <532> ;
+	skos:inScheme <> .
+
+<5323> a skos:Concept ;
+	skos:prefLabel "Berufe im Gerichtsvollzug"@de ;
+	skos:altLabel "Berufe im Gerichtsvollzug"@de ;
+	skos:broader <532> ;
+	skos:inScheme <> .
+
+<5324> a skos:Concept ;
+	skos:prefLabel "Berufe im Justizvollzugsdienst"@de ;
+	skos:altLabel "Berufe im Justizvollzugsdienst"@de ;
+	skos:broader <532> ;
+	skos:inScheme <> .
+
+<5331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gewerbeaufsicht"@de ;
+	skos:altLabel "Berufe in der Gewerbeaufsicht"@de ;
+	skos:broader <533> ;
+	skos:inScheme <> .
+
+<5332> a skos:Concept ;
+	skos:prefLabel "Gesundheitsaufsicht"@de ;
+	skos:altLabel " Hygieneüberwachung"@de ;
+	skos:broader <533> ;
+	skos:inScheme <> .
+
+<5333> a skos:Concept ;
+	skos:prefLabel "Berufe in der Lebensmittelkontrolle"@de ;
+	skos:altLabel "Berufe in der Lebensmittelkontrolle"@de ;
+	skos:broader <533> ;
+	skos:inScheme <> .
+
+<5334> a skos:Concept ;
+	skos:prefLabel "Berufe Desinfektion"@de ;
+	skos:altLabel "Schädlingsbekämpfung"@de ;
+	skos:broader <533> ;
+	skos:inScheme <> .
+
+<5339> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Gewerbe"@de ;
+	skos:broader <533> ;
+	skos:inScheme <> .
+
+<5410> a skos:Concept ;
+	skos:prefLabel "Berufe in der Reinigung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Reinigung (ohne Spezialisierung)"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5411> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gebäudereinigung"@de ;
+	skos:altLabel "Berufe in der Gebäudereinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5412> a skos:Concept ;
+	skos:prefLabel "Berufe in der Glas-"@de ;
+	skos:altLabel " Fensterreinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5413> a skos:Concept ;
+	skos:prefLabel "Berufe in der Textilreinigung"@de ;
+	skos:altLabel "Berufe in der Textilreinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5414> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Maschinen-"@de ;
+	skos:altLabel " Anlagenreinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5415> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fahrzeugreinigung"@de ;
+	skos:altLabel "Berufe in der Fahrzeugreinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5418> a skos:Concept ;
+	skos:prefLabel "Berufe in der Reinigung (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Reinigung (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<5419> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Reinigung"@de ;
+	skos:altLabel "Aufsichtskräfte - Reinigung"@de ;
+	skos:broader <541> ;
+	skos:inScheme <> .
+
+<6111> a skos:Concept ;
+	skos:prefLabel "Berufe im Einkauf"@de ;
+	skos:altLabel "Berufe im Einkauf"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6112> a skos:Concept ;
+	skos:prefLabel "Berufe im Vertrieb (außer IKT)"@de ;
+	skos:altLabel "Berufe im Vertrieb (außer Informations- und Kommunikationstechnologien)"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6113> a skos:Concept ;
+	skos:prefLabel "Handelsmakler/innen u. Auktionator/innen"@de ;
+	skos:altLabel "Handelsmakler/innen und Auktionatoren/Auktionatorinnen"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6114> a skos:Concept ;
+	skos:prefLabel "Kaufleute im Automatenservice"@de ;
+	skos:altLabel "Kaufleute im Automatenservice"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6115> a skos:Concept ;
+	skos:prefLabel "Berufe im Geld- und Pfandverleih"@de ;
+	skos:altLabel "Berufe im Geld- und Pfandverleih"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6116> a skos:Concept ;
+	skos:prefLabel "Berufe im Verleih (außer Geld u. Pfand)"@de ;
+	skos:altLabel "Berufe im Verleih (außer Geld- und Pfandverleih)"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6119> a skos:Concept ;
+	skos:prefLabel "Führung - Einkauf und Vertrieb"@de ;
+	skos:altLabel "Führungskräfte - Einkauf und Vertrieb"@de ;
+	skos:broader <611> ;
+	skos:inScheme <> .
+
+<6120> a skos:Concept ;
+	skos:prefLabel "Kaufleute im Handel (o.S.)"@de ;
+	skos:altLabel "Kaufleute im Handel (ohne Spezialisierung)"@de ;
+	skos:broader <612> ;
+	skos:inScheme <> .
+
+<6121> a skos:Concept ;
+	skos:prefLabel "Kaufleute im Groß- und Außenhandel"@de ;
+	skos:altLabel "Kaufleute im Groß- und Außenhandel"@de ;
+	skos:broader <612> ;
+	skos:inScheme <> .
+
+<6128> a skos:Concept ;
+	skos:prefLabel "Kaufleute im Handel (s.s.T.)"@de ;
+	skos:altLabel "Kaufleute im Handel (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <612> ;
+	skos:inScheme <> .
+
+<6129> a skos:Concept ;
+	skos:prefLabel "Führung - Handel"@de ;
+	skos:altLabel "Führungskräfte - Handel"@de ;
+	skos:broader <612> ;
+	skos:inScheme <> .
+
+<6131> a skos:Concept ;
+	skos:prefLabel "Berufe Immobilienvermarktung"@de ;
+	skos:altLabel "-verwaltung"@de ;
+	skos:broader <613> ;
+	skos:inScheme <> .
+
+<6132> a skos:Concept ;
+	skos:prefLabel "Berufe im Facility-Management"@de ;
+	skos:altLabel "Berufe im Facility-Management"@de ;
+	skos:broader <613> ;
+	skos:inScheme <> .
+
+<6139> a skos:Concept ;
+	skos:prefLabel "Führung-Immobilienwirt."@de ;
+	skos:altLabel " Facility-Manag."@de ;
+	skos:broader <613> ;
+	skos:inScheme <> .
+
+<6210> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (ohne Produktspezial.)"@de ;
+	skos:altLabel "Berufe im Verkauf (ohne Produktspezialisierung)"@de ;
+	skos:broader <621> ;
+	skos:inScheme <> .
+
+<6211> a skos:Concept ;
+	skos:prefLabel "Kassierer/innen"@de ;
+	skos:altLabel " Kartenverkäufer/innen"@de ;
+	skos:broader <621> ;
+	skos:inScheme <> .
+
+<6212> a skos:Concept ;
+	skos:prefLabel "Verkaufsstand-"@de ;
+	skos:altLabel " Marktverkäufer/innen"@de ;
+	skos:broader <621> ;
+	skos:inScheme <> .
+
+<6218> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (o. Produktspez.)(ssT)"@de ;
+	skos:altLabel "Berufe im Verkauf (ohne Produktspezialisierung) (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <621> ;
+	skos:inScheme <> .
+
+<6219> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Verkauf"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Verkauf"@de ;
+	skos:broader <621> ;
+	skos:inScheme <> .
+
+<6221> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Bekleid."@de ;
+	skos:altLabel "Leder"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6222> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Schmuck"@de ;
+	skos:altLabel " Uhren)"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6223> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Büro"@de ;
+	skos:altLabel " Geschenk"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6224> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Elektro"@de ;
+	skos:altLabel "Haushaltsw.)"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6225> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Möbel"@de ;
+	skos:altLabel " Einrichtung)"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6226> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (Garten"@de ;
+	skos:altLabel " Heimwerk.)"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6227> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (KFZ"@de ;
+	skos:altLabel " Zweirad"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6228> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf (ssT)"@de ;
+	skos:altLabel "Berufe im Verkauf (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <622> ;
+	skos:inScheme <> .
+
+<6230> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf von Lebensmitteln (oS)"@de ;
+	skos:altLabel "Berufe im Verkauf von Lebensmitteln (ohne Spezialisierung)"@de ;
+	skos:broader <623> ;
+	skos:inScheme <> .
+
+<6231> a skos:Concept ;
+	skos:prefLabel "Berufe Verkauf Back-"@de ;
+	skos:altLabel " Konditoreiwaren"@de ;
+	skos:broader <623> ;
+	skos:inScheme <> .
+
+<6232> a skos:Concept ;
+	skos:prefLabel "Berufe im Verkauf von Fleischwaren"@de ;
+	skos:altLabel "Berufe im Verkauf von Fleischwaren"@de ;
+	skos:broader <623> ;
+	skos:inScheme <> .
+
+<6238> a skos:Concept ;
+	skos:prefLabel "Berufe Verkauf von Lebensmitteln (s.s.T)"@de ;
+	skos:altLabel "Berufe im Verkauf von Lebensmitteln (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <623> ;
+	skos:inScheme <> .
+
+<6241> a skos:Concept ;
+	skos:prefLabel "Verkauf drogerie-"@de ;
+	skos:altLabel "apothekenübliche Waren"@de ;
+	skos:broader <624> ;
+	skos:inScheme <> .
+
+<6242> a skos:Concept ;
+	skos:prefLabel "Berufe Verkauf Sanitäts-"@de ;
+	skos:altLabel " Medizinbedarf"@de ;
+	skos:broader <624> ;
+	skos:inScheme <> .
+
+<6251> a skos:Concept ;
+	skos:prefLabel "Berufe im Buchhandel"@de ;
+	skos:altLabel "Berufe im Buchhandel"@de ;
+	skos:broader <625> ;
+	skos:inScheme <> .
+
+<6252> a skos:Concept ;
+	skos:prefLabel "Berufe im Kunst- und Antiquitätenhandel"@de ;
+	skos:altLabel "Berufe im Kunst- und Antiquitätenhandel"@de ;
+	skos:broader <625> ;
+	skos:inScheme <> .
+
+<6253> a skos:Concept ;
+	skos:prefLabel "Berufe im Musikfachhandel"@de ;
+	skos:altLabel "Berufe im Musikfachhandel"@de ;
+	skos:broader <625> ;
+	skos:inScheme <> .
+
+<6311> a skos:Concept ;
+	skos:prefLabel "Tourismuskaufleute"@de ;
+	skos:altLabel "Tourismuskaufleute"@de ;
+	skos:broader <631> ;
+	skos:inScheme <> .
+
+<6312> a skos:Concept ;
+	skos:prefLabel "Sport-"@de ;
+	skos:altLabel " Fitnesskaufleute"@de ;
+	skos:broader <631> ;
+	skos:inScheme <> .
+
+<6313> a skos:Concept ;
+	skos:prefLabel "Animateur/innen"@de ;
+	skos:altLabel " Gästebetreuer/innen"@de ;
+	skos:broader <631> ;
+	skos:inScheme <> .
+
+<6314> a skos:Concept ;
+	skos:prefLabel "Reiseleiter/innen"@de ;
+	skos:altLabel " Fremdenführer/innen"@de ;
+	skos:broader <631> ;
+	skos:inScheme <> .
+
+<6319> a skos:Concept ;
+	skos:prefLabel "Führung - Tourismus und Sport"@de ;
+	skos:altLabel "Führungskräfte - Tourismus und Sport"@de ;
+	skos:broader <631> ;
+	skos:inScheme <> .
+
+<6321> a skos:Concept ;
+	skos:prefLabel "Hotelkaufleute"@de ;
+	skos:altLabel "Hotelkaufleute"@de ;
+	skos:broader <632> ;
+	skos:inScheme <> .
+
+<6322> a skos:Concept ;
+	skos:prefLabel "Berufe im Hotelservice"@de ;
+	skos:altLabel "Berufe im Hotelservice"@de ;
+	skos:broader <632> ;
+	skos:inScheme <> .
+
+<6329> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Hotellerie"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Hotellerie"@de ;
+	skos:broader <632> ;
+	skos:inScheme <> .
+
+<6330> a skos:Concept ;
+	skos:prefLabel "Berufe im Gastronomieservice (o.S.)"@de ;
+	skos:altLabel "Berufe im Gastronomieservice (ohne Spezialisierung)"@de ;
+	skos:broader <633> ;
+	skos:inScheme <> .
+
+<6331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Systemgastronomie"@de ;
+	skos:altLabel "Berufe in der Systemgastronomie"@de ;
+	skos:broader <633> ;
+	skos:inScheme <> .
+
+<6332> a skos:Concept ;
+	skos:prefLabel "Barkeeper/innen"@de ;
+	skos:altLabel "Barkeeper/innen"@de ;
+	skos:broader <633> ;
+	skos:inScheme <> .
+
+<6338> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gastronomie (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Gastronomie (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <633> ;
+	skos:inScheme <> .
+
+<6339> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Gastronomie"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Gastronomie und Systemgastronomie"@de ;
+	skos:broader <633> ;
+	skos:inScheme <> .
+
+<6340> a skos:Concept ;
+	skos:prefLabel "Berufe im Veranstaltungsservice"@de ;
+	skos:altLabel "-manag."@de ;
+	skos:broader <634> ;
+	skos:inScheme <> .
+
+<7110> a skos:Concept ;
+	skos:prefLabel "Geschäftsführer/innen und Vorstände"@de ;
+	skos:altLabel "Geschäftsführer/innen und Vorstände"@de ;
+	skos:broader <711> ;
+	skos:inScheme <> .
+
+<7121> a skos:Concept ;
+	skos:prefLabel "Angehörige gesetzgebender Körperschaften"@de ;
+	skos:altLabel "Angehörige gesetzgebender Körperschaften"@de ;
+	skos:broader <712> ;
+	skos:inScheme <> .
+
+<7122> a skos:Concept ;
+	skos:prefLabel "Leit. Bedienstete Interessenorganisation"@de ;
+	skos:altLabel "Leitende Bedienstete von Interessenorganisationen"@de ;
+	skos:broader <712> ;
+	skos:inScheme <> .
+
+<7123> a skos:Concept ;
+	skos:prefLabel "Betriebsinterne Wahlämter"@de ;
+	skos:altLabel "Betriebsinterne Wahlämter"@de ;
+	skos:broader <712> ;
+	skos:inScheme <> .
+
+<7130> a skos:Concept ;
+	skos:prefLabel "Berufe kaufm."@de ;
+	skos:altLabel "techn.Betriebswirtsch.(oS)"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7131> a skos:Concept ;
+	skos:prefLabel "Berufe Unternehmensorganisation"@de ;
+	skos:altLabel "-planung"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7132> a skos:Concept ;
+	skos:prefLabel "Berufe in der Unternehmensberatung"@de ;
+	skos:altLabel "Berufe in der Unternehmensberatung"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7133> a skos:Concept ;
+	skos:prefLabel "Berufe in der Wirtschaftsförderung"@de ;
+	skos:altLabel "Berufe in der Wirtschaftsförderung"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7138> a skos:Concept ;
+	skos:prefLabel "Berufe Unternehmensorga."@de ;
+	skos:altLabel "strategie (ssT)"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7139> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Unternehmensorg"@de ;
+	skos:broader <713> ;
+	skos:inScheme <> .
+
+<7140> a skos:Concept ;
+	skos:prefLabel "Büro- und Sekretariatskräfte (o.S.)"@de ;
+	skos:altLabel "Büro- und Sekretariatskräfte (ohne Spezialisierung)"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7141> a skos:Concept ;
+	skos:prefLabel "Fremdsprachensekretäre"@de ;
+	skos:altLabel "-korrespondenten"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7142> a skos:Concept ;
+	skos:prefLabel "Dolmetscher/innen und Übersetzer/innen"@de ;
+	skos:altLabel "Dolmetscher/innen und Übersetzer/innen"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7143> a skos:Concept ;
+	skos:prefLabel "Steno-"@de ;
+	skos:altLabel " Phonotypisten/-typistinnen"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7144> a skos:Concept ;
+	skos:prefLabel "Kodierer"@de ;
+	skos:altLabel "Korrekturleser"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7145> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Auskunft"@de ;
+	skos:altLabel " Kundeninformation"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7149> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Büro und Sekretariat"@de ;
+	skos:altLabel "Aufsichtskräfte - Büro und Sekretariat"@de ;
+	skos:broader <714> ;
+	skos:inScheme <> .
+
+<7151> a skos:Concept ;
+	skos:prefLabel "Berufe Personalentwickl."@de ;
+	skos:altLabel "-sachbearbeit."@de ;
+	skos:broader <715> ;
+	skos:inScheme <> .
+
+<7152> a skos:Concept ;
+	skos:prefLabel "Berufe in der Personaldienstleistung"@de ;
+	skos:altLabel "Berufe in der Personaldienstleistung"@de ;
+	skos:broader <715> ;
+	skos:inScheme <> .
+
+<7159> a skos:Concept ;
+	skos:prefLabel "Führung - Personalwesen"@de ;
+	skos:altLabel " -dienstleistung"@de ;
+	skos:broader <715> ;
+	skos:inScheme <> .
+
+<7211> a skos:Concept ;
+	skos:prefLabel "Bankkaufleute"@de ;
+	skos:altLabel "Bankkaufleute"@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7212> a skos:Concept ;
+	skos:prefLabel "Anlageberater u. sonst. Finanzdienstl."@de ;
+	skos:altLabel "Anlageberater/innen und sonstige Finanzdienstleistungsberufe"@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7213> a skos:Concept ;
+	skos:prefLabel "Versicherungskaufleute"@de ;
+	skos:altLabel "Versicherungskaufleute"@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7214> a skos:Concept ;
+	skos:prefLabel "Finanzanalysten/innen"@de ;
+	skos:altLabel "Finanzanalysten/-analystinnen"@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7218> a skos:Concept ;
+	skos:prefLabel "Berufe Versicherungs"@de ;
+	skos:altLabel "Finanzdienstl.(ssT)"@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7219> a skos:Concept ;
+	skos:prefLabel "Führung-Versicherung-"@de ;
+	skos:altLabel "Finanzdienstleist."@de ;
+	skos:broader <721> ;
+	skos:inScheme <> .
+
+<7221> a skos:Concept ;
+	skos:prefLabel "Berufe in der Buchhaltung"@de ;
+	skos:altLabel "Berufe in der Buchhaltung"@de ;
+	skos:broader <722> ;
+	skos:inScheme <> .
+
+<7222> a skos:Concept ;
+	skos:prefLabel "Berufe in Kostenrechnung und Kalkulation"@de ;
+	skos:altLabel "Berufe in Kostenrechnung und Kalkulation"@de ;
+	skos:broader <722> ;
+	skos:inScheme <> .
+
+<7223> a skos:Concept ;
+	skos:prefLabel "Berufe im Controlling"@de ;
+	skos:altLabel "Berufe im Controlling"@de ;
+	skos:broader <722> ;
+	skos:inScheme <> .
+
+<7224> a skos:Concept ;
+	skos:prefLabel "Berufe in Wirtschaftsprüfung"@de ;
+	skos:altLabel "Berufe in Wirtschaftsprüfung"@de ;
+	skos:broader <722> ;
+	skos:inScheme <> .
+
+<7229> a skos:Concept ;
+	skos:prefLabel "Führung-Rechnungsw."@de ;
+	skos:altLabel "Controlling"@de ;
+	skos:broader <722> ;
+	skos:inScheme <> .
+
+<7230> a skos:Concept ;
+	skos:prefLabel "Berufe in der Steuerberatung"@de ;
+	skos:altLabel "Berufe in der Steuerberatung"@de ;
+	skos:broader <723> ;
+	skos:inScheme <> .
+
+<7310> a skos:Concept ;
+	skos:prefLabel "Rechtsberatung"@de ;
+	skos:altLabel " -sprechung"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7311> a skos:Concept ;
+	skos:prefLabel "Assistenz Rechtsanwaltskanzlei"@de ;
+	skos:altLabel "Notariat"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7312> a skos:Concept ;
+	skos:prefLabel "Notare/Notarinnen"@de ;
+	skos:altLabel "Notare/Notarinnen"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7313> a skos:Concept ;
+	skos:prefLabel "Rechtsanwälte/-anwältinnen"@de ;
+	skos:altLabel "Rechtsanwälte/-anwältinnen"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7314> a skos:Concept ;
+	skos:prefLabel "Staatsanwälte/-anwältinnen"@de ;
+	skos:altLabel "Staatsanwälte/-anwältinnen"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7315> a skos:Concept ;
+	skos:prefLabel "Richter/innen"@de ;
+	skos:altLabel "Richter/innen"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7316> a skos:Concept ;
+	skos:prefLabel "Berufe im Verfassungsschutz"@de ;
+	skos:altLabel "Berufe im Verfassungsschutz"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7318> a skos:Concept ;
+	skos:prefLabel "Rechtsberatung"@de ;
+	skos:altLabel "-sprechung"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7319> a skos:Concept ;
+	skos:prefLabel "Führung-Rechtsberatung"@de ;
+	skos:altLabel "sprechung"@de ;
+	skos:broader <731> ;
+	skos:inScheme <> .
+
+<7320> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. öffentlichen Verwaltung (oS)"@de ;
+	skos:altLabel "Berufe in der öffentlichen Verwaltung (ohne Spezialisierung)"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7321> a skos:Concept ;
+	skos:prefLabel "Berufe Sozialverwaltung"@de ;
+	skos:altLabel " versicherung"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7322> a skos:Concept ;
+	skos:prefLabel "Verwalt. Berufe Sozial-"@de ;
+	skos:altLabel "Gesundheitswesen"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7323> a skos:Concept ;
+	skos:prefLabel "Berufe in der Steuerverwaltung"@de ;
+	skos:altLabel "Berufe in der Steuerverwaltung"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7324> a skos:Concept ;
+	skos:prefLabel "Berufe im Zolldienst"@de ;
+	skos:altLabel "Berufe im Zolldienst"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7325> a skos:Concept ;
+	skos:prefLabel "Berufe in der Justizverwaltung"@de ;
+	skos:altLabel "Berufe in der Justizverwaltung"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7328> a skos:Concept ;
+	skos:prefLabel "Berufe öffentliche Verwaltung (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der öffentlichen Verwaltung (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7329> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Verwaltung"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Verwaltung"@de ;
+	skos:broader <732> ;
+	skos:inScheme <> .
+
+<7331> a skos:Concept ;
+	skos:prefLabel "Berufe im Archivwesen"@de ;
+	skos:altLabel "Berufe im Archivwesen"@de ;
+	skos:broader <733> ;
+	skos:inScheme <> .
+
+<7332> a skos:Concept ;
+	skos:prefLabel "Berufe im Bibliothekswesen"@de ;
+	skos:altLabel "Berufe im Bibliothekswesen"@de ;
+	skos:broader <733> ;
+	skos:inScheme <> .
+
+<7333> a skos:Concept ;
+	skos:prefLabel "Berufe Dokumentations"@de ;
+	skos:altLabel "Informationsdienst"@de ;
+	skos:broader <733> ;
+	skos:inScheme <> .
+
+<7334> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. medizinischen Dokumentation"@de ;
+	skos:altLabel "Berufe in der medizinischen Dokumentation"@de ;
+	skos:broader <733> ;
+	skos:inScheme <> .
+
+<7339> a skos:Concept ;
+	skos:prefLabel "Führung-Medien-Dokument.-"@de ;
+	skos:altLabel "Informationsd."@de ;
+	skos:broader <733> ;
+	skos:inScheme <> .
+
+<8110> a skos:Concept ;
+	skos:prefLabel "Medizinische Fachangestellte (o.S.)"@de ;
+	skos:altLabel "Medizinische Fachangestellte (ohne Spezialisierung)"@de ;
+	skos:broader <811> ;
+	skos:inScheme <> .
+
+<8111> a skos:Concept ;
+	skos:prefLabel "Zahnmedizinische Fachangestellte"@de ;
+	skos:altLabel "Zahnmedizinische Fachangestellte"@de ;
+	skos:broader <811> ;
+	skos:inScheme <> .
+
+<8113> a skos:Concept ;
+	skos:prefLabel "Orthoptisten/Orthoptistinnen"@de ;
+	skos:altLabel "Orthoptisten/Orthoptistinnen"@de ;
+	skos:broader <811> ;
+	skos:inScheme <> .
+
+<8114> a skos:Concept ;
+	skos:prefLabel "Tiermedizinische Fachangestellte"@de ;
+	skos:altLabel "Tiermedizinische Fachangestellte"@de ;
+	skos:broader <811> ;
+	skos:inScheme <> .
+
+<8118> a skos:Concept ;
+	skos:prefLabel "Medizinische Fachangestellte (s.s.T.)"@de ;
+	skos:altLabel "Medizinische Fachangestellte (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <811> ;
+	skos:inScheme <> .
+
+<8121> a skos:Concept ;
+	skos:prefLabel "Medizinisch-techn.Berufe im Laboratorium"@de ;
+	skos:altLabel "Medizinisch-technische Berufe im Laboratorium"@de ;
+	skos:broader <812> ;
+	skos:inScheme <> .
+
+<8122> a skos:Concept ;
+	skos:prefLabel "Medizin-tech. Berufe Funktionsdiagnostik"@de ;
+	skos:altLabel "Medizinisch-technische Berufe in der Funktionsdiagnostik"@de ;
+	skos:broader <812> ;
+	skos:inScheme <> .
+
+<8123> a skos:Concept ;
+	skos:prefLabel "Medizinisch-technische Berufe Radiologie"@de ;
+	skos:altLabel "Medizinisch-technische Berufe in der Radiologie"@de ;
+	skos:broader <812> ;
+	skos:inScheme <> .
+
+<8124> a skos:Concept ;
+	skos:prefLabel "Medizin.-techn. Berufe Veterinärmedizin"@de ;
+	skos:altLabel "Medizinisch-technische Berufe in der Veterinärmedizin"@de ;
+	skos:broader <812> ;
+	skos:inScheme <> .
+
+<8129> a skos:Concept ;
+	skos:prefLabel "Führung - Medizinisches Laboratorium"@de ;
+	skos:altLabel "Führungskräfte - Medizinisches Laboratorium"@de ;
+	skos:broader <812> ;
+	skos:inScheme <> .
+
+<8130> a skos:Concept ;
+	skos:prefLabel "Berufe Gesundheits-"@de ;
+	skos:altLabel " Krankenpflege (o.S)"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8131> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fachkrankenpflege"@de ;
+	skos:altLabel "Berufe in der Fachkrankenpflege"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8132> a skos:Concept ;
+	skos:prefLabel "Berufe in der Fachkinderkrankenpflege"@de ;
+	skos:altLabel "Berufe in der Fachkinderkrankenpflege"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8133> a skos:Concept ;
+	skos:prefLabel "Berufe operations-/med.-techn. Assistenz"@de ;
+	skos:altLabel "Berufe in der operations-/medizintechnischen Assistenz"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8134> a skos:Concept ;
+	skos:prefLabel "Berufe im Rettungsdienst"@de ;
+	skos:altLabel "Berufe im Rettungsdienst"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8135> a skos:Concept ;
+	skos:prefLabel "Berufe Geburtshilfe"@de ;
+	skos:altLabel " Entbindungspflege"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8138> a skos:Concept ;
+	skos:prefLabel "Berufe Gesundheits-"@de ;
+	skos:altLabel " Krankenpflege (ssT)"@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8139> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Krankenpfl."@de ;
+	skos:broader <813> ;
+	skos:inScheme <> .
+
+<8140> a skos:Concept ;
+	skos:prefLabel "Ärzte/Ärztinnen (o. S.)"@de ;
+	skos:altLabel "Ärzte/Ärztinnen (ohne Spezialisierung)"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8141> a skos:Concept ;
+	skos:prefLabel "Fachärzte i.d. Kinder- u. Jugendmedizin"@de ;
+	skos:altLabel "Fachärzte/-ärztinnen in der Kinder- und Jugendmedizin"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8142> a skos:Concept ;
+	skos:prefLabel "Fachärzte/innen in der Inneren Medizin"@de ;
+	skos:altLabel "Fachärzte/-ärztinnen in der Inneren Medizin"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8143> a skos:Concept ;
+	skos:prefLabel "Fachärzte/innen in der Chirurgie"@de ;
+	skos:altLabel "Fachärzte/-ärztinnen in der Chirurgie"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8144> a skos:Concept ;
+	skos:prefLabel "Fachärzte Hautkr."@de ;
+	skos:altLabel "Sinnes-Geschlechtsorg."@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8145> a skos:Concept ;
+	skos:prefLabel "Fachärzte/-ärztinnen Anästhesiologie"@de ;
+	skos:altLabel "Fachärzte/-ärztinnen in der Anästhesiologie"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8146> a skos:Concept ;
+	skos:prefLabel "Fachärzte Neurol."@de ;
+	skos:altLabel "Psychiatr."@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8147> a skos:Concept ;
+	skos:prefLabel "Zahnärzte/innen"@de ;
+	skos:altLabel " Kieferorthopäden/innen"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8148> a skos:Concept ;
+	skos:prefLabel "Ärzte/Ärztinnen (s.s.T.)"@de ;
+	skos:altLabel "Ärzte/Ärztinnen (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8149> a skos:Concept ;
+	skos:prefLabel "Führung - Human- und Zahnmedizin"@de ;
+	skos:altLabel "Führungskräfte - Human- und Zahnmedizin"@de ;
+	skos:broader <814> ;
+	skos:inScheme <> .
+
+<8150> a skos:Concept ;
+	skos:prefLabel "Tierärzte/-ärztinnen (o.S.)"@de ;
+	skos:altLabel "Tierärzte/-ärztinnen (ohne Spezialisierung)"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8151> a skos:Concept ;
+	skos:prefLabel "Tierärzte/-ärztinnen f. Groß-"@de ;
+	skos:altLabel " Nutztiere"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8152> a skos:Concept ;
+	skos:prefLabel "Tierärzte/ärztinnen für Haus-"@de ;
+	skos:altLabel " Heimtiere"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8153> a skos:Concept ;
+	skos:prefLabel "Tierheilpraktiker/innen"@de ;
+	skos:altLabel "Tierheilpraktiker/innen"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8158> a skos:Concept ;
+	skos:prefLabel "Berufe Tiermedizin"@de ;
+	skos:altLabel " Tierheilkunde (ssT)"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8159> a skos:Concept ;
+	skos:prefLabel "Führung - Tiermedizin und Tierheilkunde"@de ;
+	skos:altLabel "Führungskräfte - Tiermedizin und Tierheilkunde"@de ;
+	skos:broader <815> ;
+	skos:inScheme <> .
+
+<8161> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. nicht klinischen Psychologie"@de ;
+	skos:altLabel "Berufe in der nicht klinischen Psychologie"@de ;
+	skos:broader <816> ;
+	skos:inScheme <> .
+
+<8162> a skos:Concept ;
+	skos:prefLabel "Berufe in der klinischen Psychologie"@de ;
+	skos:altLabel "Berufe in der klinischen Psychologie"@de ;
+	skos:broader <816> ;
+	skos:inScheme <> .
+
+<8163> a skos:Concept ;
+	skos:prefLabel "Berufe nicht ärztliche Psychotherapie"@de ;
+	skos:altLabel "Berufe in der nicht ärztlichen Psychotherapie"@de ;
+	skos:broader <816> ;
+	skos:inScheme <> .
+
+<8171> a skos:Concept ;
+	skos:prefLabel "Berufe in der Physiotherapie"@de ;
+	skos:altLabel "Berufe in der Physiotherapie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8172> a skos:Concept ;
+	skos:prefLabel "Berufe in der Ergotherapie"@de ;
+	skos:altLabel "Berufe in der Ergotherapie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8173> a skos:Concept ;
+	skos:prefLabel "Berufe in der Sprachtherapie"@de ;
+	skos:altLabel "Berufe in der Sprachtherapie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8174> a skos:Concept ;
+	skos:prefLabel "Berufe in der Musik-"@de ;
+	skos:altLabel " Kunsttherapie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8175> a skos:Concept ;
+	skos:prefLabel "Berufe in der Heilkunde und Homöopathie"@de ;
+	skos:altLabel "Berufe in der Heilkunde und Homöopathie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8176> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Diät- und Ernährungstherapie"@de ;
+	skos:altLabel "Berufe in der Diät- und Ernährungstherapie"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8177> a skos:Concept ;
+	skos:prefLabel "Podologen/innen"@de ;
+	skos:altLabel "Podologen/Podologinnen"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8178> a skos:Concept ;
+	skos:prefLabel "Berufe nichtärztl. Therapie"@de ;
+	skos:altLabel "Heilk.(ssT)"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8179> a skos:Concept ;
+	skos:prefLabel "Führung - Nichtärztl. Therapie"@de ;
+	skos:altLabel "Heilkunde"@de ;
+	skos:broader <817> ;
+	skos:inScheme <> .
+
+<8180> a skos:Concept ;
+	skos:prefLabel "Apotheker"@de ;
+	skos:altLabel " Pharmazeuten"@de ;
+	skos:broader <818> ;
+	skos:inScheme <> .
+
+<8181> a skos:Concept ;
+	skos:prefLabel "Fachärzte/innen in der Pharmakologie"@de ;
+	skos:altLabel "Fachärzte/-ärztinnen in der Pharmakologie"@de ;
+	skos:broader <818> ;
+	skos:inScheme <> .
+
+<8182> a skos:Concept ;
+	skos:prefLabel "Berufe pharmazeutisch-techn. Assistenz"@de ;
+	skos:altLabel "Berufe in der pharmazeutisch-technischen Assistenz"@de ;
+	skos:broader <818> ;
+	skos:inScheme <> .
+
+<8188> a skos:Concept ;
+	skos:prefLabel "Berufe in der Pharmazie (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Pharmazie (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <818> ;
+	skos:inScheme <> .
+
+<8189> a skos:Concept ;
+	skos:prefLabel "Führung - Pharmazie"@de ;
+	skos:altLabel "Führungskräfte - Pharmazie"@de ;
+	skos:broader <818> ;
+	skos:inScheme <> .
+
+<8210> a skos:Concept ;
+	skos:prefLabel "Berufe in der Altenpflege (o.S.)"@de ;
+	skos:altLabel "Berufe in der Altenpflege (ohne Spezialisierung)"@de ;
+	skos:broader <821> ;
+	skos:inScheme <> .
+
+<8218> a skos:Concept ;
+	skos:prefLabel "Berufe in der Altenpflege (s.s.T.)"@de ;
+	skos:altLabel "Berufe in der Altenpflege (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <821> ;
+	skos:inScheme <> .
+
+<8219> a skos:Concept ;
+	skos:prefLabel "Führung - Altenpflege"@de ;
+	skos:altLabel "Führungskräfte - Altenpflege"@de ;
+	skos:broader <821> ;
+	skos:inScheme <> .
+
+<8221> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gesundheitsberatung"@de ;
+	skos:altLabel "Berufe in der Gesundheitsberatung"@de ;
+	skos:broader <822> ;
+	skos:inScheme <> .
+
+<8222> a skos:Concept ;
+	skos:prefLabel "Wellnessberufe"@de ;
+	skos:altLabel "Wellnessberufe"@de ;
+	skos:broader <822> ;
+	skos:inScheme <> .
+
+<8223> a skos:Concept ;
+	skos:prefLabel "Berufe in der Ernährungsberatung"@de ;
+	skos:altLabel "Berufe in der Ernährungsberatung"@de ;
+	skos:broader <822> ;
+	skos:inScheme <> .
+
+<8224> a skos:Concept ;
+	skos:prefLabel "Qualitätsbeauftragte im Gesundheitswesen"@de ;
+	skos:altLabel "Qualitätsbeauftragte im Gesundheitswesen"@de ;
+	skos:broader <822> ;
+	skos:inScheme <> .
+
+<8228> a skos:Concept ;
+	skos:prefLabel "Ernährungs"@de ;
+	skos:altLabel "Gesundheitsber."@de ;
+	skos:broader <822> ;
+	skos:inScheme <> .
+
+<8231> a skos:Concept ;
+	skos:prefLabel "Berufe im Friseurgewerbe"@de ;
+	skos:altLabel "Berufe im Friseurgewerbe"@de ;
+	skos:broader <823> ;
+	skos:inScheme <> .
+
+<8232> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kosmetik"@de ;
+	skos:altLabel "Berufe in der Kosmetik"@de ;
+	skos:broader <823> ;
+	skos:inScheme <> .
+
+<8233> a skos:Concept ;
+	skos:prefLabel "Tätowierer/innen und Piercer/innen"@de ;
+	skos:altLabel "Tätowierer/innen und Piercer/innen"@de ;
+	skos:broader <823> ;
+	skos:inScheme <> .
+
+<8234> a skos:Concept ;
+	skos:prefLabel "Berufe in der Maskenbildnerei"@de ;
+	skos:altLabel "Berufe in der Maskenbildnerei"@de ;
+	skos:broader <823> ;
+	skos:inScheme <> .
+
+<8239> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Körperpflege"@de ;
+	skos:altLabel "Aufsichtskräfte - Körperpflege"@de ;
+	skos:broader <823> ;
+	skos:inScheme <> .
+
+<8240> a skos:Concept ;
+	skos:prefLabel "Berufe im Bestattungswesen"@de ;
+	skos:altLabel "Berufe im Bestattungswesen"@de ;
+	skos:broader <824> ;
+	skos:inScheme <> .
+
+<8249> a skos:Concept ;
+	skos:prefLabel "Aufsicht und Führung - Bestattungswesen"@de ;
+	skos:altLabel "Aufsichts- und Führungskräfte - Bestattungswesen"@de ;
+	skos:broader <824> ;
+	skos:inScheme <> .
+
+<8250> a skos:Concept ;
+	skos:prefLabel "Medizintechnik (o.S.)"@de ;
+	skos:altLabel "Berufe in der Medizintechnik (ohne Spezialisierung)"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8251> a skos:Concept ;
+	skos:prefLabel "Berufe in der Orthopädie-"@de ;
+	skos:altLabel " Rehatechnik"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8252> a skos:Concept ;
+	skos:prefLabel "Berufe in der Augenoptik"@de ;
+	skos:altLabel "Berufe in der Augenoptik"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8253> a skos:Concept ;
+	skos:prefLabel "Berufe in der Hörgeräteakustik"@de ;
+	skos:altLabel "Berufe in der Hörgeräteakustik"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8254> a skos:Concept ;
+	skos:prefLabel "Berufe in der Zahntechnik"@de ;
+	skos:altLabel "Berufe in der Zahntechnik"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8259> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Med-Orthopäd"@de ;
+	skos:broader <825> ;
+	skos:inScheme <> .
+
+<8311> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Kinderbetreuung"@de ;
+	skos:altLabel " -erziehung"@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8312> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Sozialarbeit"@de ;
+	skos:altLabel "Sozialpädagogik"@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8313> a skos:Concept ;
+	skos:prefLabel "Berufe Heilerziehungspflege"@de ;
+	skos:altLabel " Sonderpäd."@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8314> a skos:Concept ;
+	skos:prefLabel "Berufe in der Haus- und Familienpflege"@de ;
+	skos:altLabel "Berufe in der Haus- und Familienpflege"@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8315> a skos:Concept ;
+	skos:prefLabel "Berufe Sozial-"@de ;
+	skos:altLabel "Erziehungs-"@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8319> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-Erziehung"@de ;
+	skos:broader <831> ;
+	skos:inScheme <> .
+
+<8321> a skos:Concept ;
+	skos:prefLabel "Berufe in der Hauswirtschaft"@de ;
+	skos:altLabel "Berufe in der Hauswirtschaft"@de ;
+	skos:broader <832> ;
+	skos:inScheme <> .
+
+<8322> a skos:Concept ;
+	skos:prefLabel "Berufe in der Verbraucherberatung"@de ;
+	skos:altLabel "Berufe in der Verbraucherberatung"@de ;
+	skos:broader <832> ;
+	skos:inScheme <> .
+
+<8329> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Hauswirtschaft"@de ;
+	skos:altLabel "Verbraucherber."@de ;
+	skos:broader <832> ;
+	skos:inScheme <> .
+
+<8331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Theologie"@de ;
+	skos:altLabel "Berufe in der Theologie"@de ;
+	skos:broader <833> ;
+	skos:inScheme <> .
+
+<8332> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gemeindearbeit"@de ;
+	skos:altLabel "Berufe in der Gemeindearbeit"@de ;
+	skos:broader <833> ;
+	skos:inScheme <> .
+
+<8333> a skos:Concept ;
+	skos:prefLabel "Angehörige geistl. Orden"@de ;
+	skos:altLabel " Mutterhäuser"@de ;
+	skos:broader <833> ;
+	skos:inScheme <> .
+
+<8338> a skos:Concept ;
+	skos:prefLabel "Berufe in Theologie"@de ;
+	skos:altLabel "Gemeindearbeit (ssT)"@de ;
+	skos:broader <833> ;
+	skos:inScheme <> .
+
+<8339> a skos:Concept ;
+	skos:prefLabel "Führung - Theologie und Gemeindearbeit"@de ;
+	skos:altLabel "Führungskräfte - Theologie und Gemeindearbeit"@de ;
+	skos:broader <833> ;
+	skos:inScheme <> .
+
+<8411> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte in der Primarstufe"@de ;
+	skos:altLabel "Lehrkräfte in der Primarstufe"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8412> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte in der Sekundarstufe"@de ;
+	skos:altLabel "Lehrkräfte in der Sekundarstufe"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8413> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte an Förderschulen"@de ;
+	skos:altLabel "Lehrkräfte an Förderschulen"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8414> a skos:Concept ;
+	skos:prefLabel "Berufe in der Lehrerausbildung"@de ;
+	skos:altLabel "Berufe in der Lehrerausbildung"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8418> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte allgemeinbild. Schulen (ssT)"@de ;
+	skos:altLabel "Lehrkräfte an allgemeinbildenden Schulen (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8419> a skos:Concept ;
+	skos:prefLabel "Führung - Allgemeinbildende Schulen"@de ;
+	skos:altLabel "Führungskräfte - Allgemeinbildende Schulen"@de ;
+	skos:broader <841> ;
+	skos:inScheme <> .
+
+<8421> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte für berufsbildende Fächer"@de ;
+	skos:altLabel "Lehrkräfte für berufsbildende Fächer"@de ;
+	skos:broader <842> ;
+	skos:inScheme <> .
+
+<8422> a skos:Concept ;
+	skos:prefLabel "Berufe betriebl. Ausbildung"@de ;
+	skos:altLabel " Berufspäd."@de ;
+	skos:broader <842> ;
+	skos:inScheme <> .
+
+<8429> a skos:Concept ;
+	skos:prefLabel "Führung - BBS"@de ;
+	skos:altLabel " betriebl.Ausb."@de ;
+	skos:broader <842> ;
+	skos:inScheme <> .
+
+<8430> a skos:Concept ;
+	skos:prefLabel "Berufe i. d. Hochschullehre"@de ;
+	skos:altLabel " -forschung"@de ;
+	skos:broader <843> ;
+	skos:inScheme <> .
+
+<8439> a skos:Concept ;
+	skos:prefLabel "Führung - Hochschullehre und -forschung"@de ;
+	skos:altLabel "Führungskräfte - Hochschullehre und -forschung"@de ;
+	skos:broader <843> ;
+	skos:inScheme <> .
+
+<8440> a skos:Concept ;
+	skos:prefLabel "Berufe in der Erwachsenenbildung (o.S.)"@de ;
+	skos:altLabel "Berufe in der Erwachsenenbildung (ohne Spezialisierung)"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8441> a skos:Concept ;
+	skos:prefLabel "Berufe in der Musikpädagogik"@de ;
+	skos:altLabel "Berufe in der Musikpädagogik"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8442> a skos:Concept ;
+	skos:prefLabel "Berufe in der Religionspädagogik"@de ;
+	skos:altLabel "Berufe in der Religionspädagogik"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8443> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kunst-"@de ;
+	skos:altLabel " Theaterpädagogik"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8444> a skos:Concept ;
+	skos:prefLabel "Berufe im IT-Anwendungstraining"@de ;
+	skos:altLabel "Berufe im IT-Anwendungstraining"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8445> a skos:Concept ;
+	skos:prefLabel "(Fremd-)Sprachenlehrer/innen"@de ;
+	skos:altLabel "(Fremd-)Sprachenlehrer/innen"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8448> a skos:Concept ;
+	skos:prefLabel "Lehrkräfte außerschul.Bild.einrich.(ssT)"@de ;
+	skos:altLabel "Lehrkräfte an außerschulischen Bildungseinrichtungen (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8449> a skos:Concept ;
+	skos:prefLabel "Führung-Außerschul.Bildungseinrichtungen"@de ;
+	skos:altLabel "Führungskräfte - Außerschulische Bildungseinrichtungen"@de ;
+	skos:broader <844> ;
+	skos:inScheme <> .
+
+<8450> a skos:Concept ;
+	skos:prefLabel "Sportlehrer/innen (o.S.)"@de ;
+	skos:altLabel "Sportlehrer/innen (ohne Spezialisierung)"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8451> a skos:Concept ;
+	skos:prefLabel "Fahrlehrer/innen"@de ;
+	skos:altLabel "Fahrlehrer/innen"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8452> a skos:Concept ;
+	skos:prefLabel "Fluglehrer/innen"@de ;
+	skos:altLabel "Fluglehrer/innen"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8453> a skos:Concept ;
+	skos:prefLabel "Tanzlehrer/innen"@de ;
+	skos:altLabel "Tanzlehrer/innen"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8454> a skos:Concept ;
+	skos:prefLabel "Trainer/innen - Ballsportarten"@de ;
+	skos:altLabel "Trainer/innen - Ballsportarten"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8455> a skos:Concept ;
+	skos:prefLabel "Trainer/innen - Fitness und Gymnastik"@de ;
+	skos:altLabel "Trainer/innen - Fitness und Gymnastik"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<8458> a skos:Concept ;
+	skos:prefLabel "Sportlehrer/innen (s.s.T.)"@de ;
+	skos:altLabel "Sportlehrer/innen (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <845> ;
+	skos:inScheme <> .
+
+<9110> a skos:Concept ;
+	skos:prefLabel "Berufe in Sprach-"@de ;
+	skos:altLabel " Literaturwissen.(oS)"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9111> a skos:Concept ;
+	skos:prefLabel "Berufe in der Germanistik"@de ;
+	skos:altLabel "Berufe in der Germanistik"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9112> a skos:Concept ;
+	skos:prefLabel "Berufe in der Anglistik"@de ;
+	skos:altLabel " Amerikanistik"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9113> a skos:Concept ;
+	skos:prefLabel "Berufe in der Romanistik"@de ;
+	skos:altLabel "Berufe in der Romanistik"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9114> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Slawistik"@de ;
+	skos:altLabel " verw. Bereichen"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9115> a skos:Concept ;
+	skos:prefLabel "Berufe in der Arabistik"@de ;
+	skos:altLabel " Orientalistik"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9116> a skos:Concept ;
+	skos:prefLabel "Berufe Sprach-"@de ;
+	skos:altLabel " Literaturwis. asiat.Raum"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9117> a skos:Concept ;
+	skos:prefLabel "Berufe in der Altphilologie"@de ;
+	skos:altLabel "Berufe in der Altphilologie"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9118> a skos:Concept ;
+	skos:prefLabel "Berufe Sprach-"@de ;
+	skos:altLabel "Literaturwissensch. (ssT)"@de ;
+	skos:broader <911> ;
+	skos:inScheme <> .
+
+<9121> a skos:Concept ;
+	skos:prefLabel "Berufe in Philosophie"@de ;
+	skos:altLabel " Religion"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9122> a skos:Concept ;
+	skos:prefLabel "Berufe in Geschichtswissenschaften"@de ;
+	skos:altLabel "Berufe in Geschichtswissenschaften"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9123> a skos:Concept ;
+	skos:prefLabel "Berufe in der Archäologie"@de ;
+	skos:altLabel "Berufe in der Archäologie"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9124> a skos:Concept ;
+	skos:prefLabel "Berufe in Medien-"@de ;
+	skos:altLabel " Theaterwissenschaft"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9125> a skos:Concept ;
+	skos:prefLabel "Berufe in der Regionalwissenschaft"@de ;
+	skos:altLabel "Berufe in der Regionalwissenschaft"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9126> a skos:Concept ;
+	skos:prefLabel "Berufe in der Anthropologie"@de ;
+	skos:altLabel " Ethnologie"@de ;
+	skos:broader <912> ;
+	skos:inScheme <> .
+
+<9131> a skos:Concept ;
+	skos:prefLabel "Berufe in der Politologie"@de ;
+	skos:altLabel "Berufe in der Politologie"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9132> a skos:Concept ;
+	skos:prefLabel "Berufe in der Soziologie"@de ;
+	skos:altLabel "Berufe in der Soziologie"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9133> a skos:Concept ;
+	skos:prefLabel "Berufe in der Erziehungswissenschaft"@de ;
+	skos:altLabel "Berufe in der Erziehungswissenschaft"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9134> a skos:Concept ;
+	skos:prefLabel "Berufe in der Markt-"@de ;
+	skos:altLabel " Meinungsforschung"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9135> a skos:Concept ;
+	skos:prefLabel "Berufe in der Demografie"@de ;
+	skos:altLabel "Berufe in der Demografie"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9138> a skos:Concept ;
+	skos:prefLabel "Berufe Gesellschaftswissenschaften (ssT)"@de ;
+	skos:altLabel "Berufe in Gesellschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <913> ;
+	skos:inScheme <> .
+
+<9140> a skos:Concept ;
+	skos:prefLabel "Berufe in Wirtschaftswissenschaften (oS)"@de ;
+	skos:altLabel "Berufe in Wirtschaftswissenschaften (ohne Spezialisierung)"@de ;
+	skos:broader <914> ;
+	skos:inScheme <> .
+
+<9148> a skos:Concept ;
+	skos:prefLabel "Berufe in Wirtschaftswissenschaften(ssT)"@de ;
+	skos:altLabel "Berufe in Wirtschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <914> ;
+	skos:inScheme <> .
+
+<9211> a skos:Concept ;
+	skos:prefLabel "Berufe in Werbung und Marketing"@de ;
+	skos:altLabel "Berufe in Werbung und Marketing"@de ;
+	skos:broader <921> ;
+	skos:inScheme <> .
+
+<9212> a skos:Concept ;
+	skos:prefLabel "Berufe im Dialogmarketing"@de ;
+	skos:altLabel "Berufe im Dialogmarketing"@de ;
+	skos:broader <921> ;
+	skos:inScheme <> .
+
+<9213> a skos:Concept ;
+	skos:prefLabel "Berufe im Kundenmanagement"@de ;
+	skos:altLabel "Berufe im Kundenmanagement"@de ;
+	skos:broader <921> ;
+	skos:inScheme <> .
+
+<9219> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel " Führung - Werbung u. Marketing"@de ;
+	skos:broader <921> ;
+	skos:inScheme <> .
+
+<9220> a skos:Concept ;
+	skos:prefLabel "Berufe in der Öffentlichkeitsarbeit"@de ;
+	skos:altLabel "Berufe in der Öffentlichkeitsarbeit"@de ;
+	skos:broader <922> ;
+	skos:inScheme <> .
+
+<9229> a skos:Concept ;
+	skos:prefLabel "Führung - Öffentlichkeitsarbeit"@de ;
+	skos:altLabel "Führungskräfte - Öffentlichkeitsarbeit"@de ;
+	skos:broader <922> ;
+	skos:inScheme <> .
+
+<9230> a skos:Concept ;
+	skos:prefLabel "Verlags- und Medienkaufleute (o.S.)"@de ;
+	skos:altLabel "Verlags- und Medienkaufleute (ohne Spezialisierung)"@de ;
+	skos:broader <923> ;
+	skos:inScheme <> .
+
+<9238> a skos:Concept ;
+	skos:prefLabel "Verlags- und Medienkaufleute (s.s.T.)"@de ;
+	skos:altLabel "Verlags- und Medienkaufleute (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <923> ;
+	skos:inScheme <> .
+
+<9239> a skos:Concept ;
+	skos:prefLabel "Führung - Verlags- und Medienwirtschaft"@de ;
+	skos:altLabel "Führungskräfte - Verlags- und Medienwirtschaft"@de ;
+	skos:broader <923> ;
+	skos:inScheme <> .
+
+<9241> a skos:Concept ;
+	skos:prefLabel "Redakteure/innen"@de ;
+	skos:altLabel " Journalisten/innen"@de ;
+	skos:broader <924> ;
+	skos:inScheme <> .
+
+<9242> a skos:Concept ;
+	skos:prefLabel "Lektoren/innen"@de ;
+	skos:altLabel "Lektoren/Lektorinnen"@de ;
+	skos:broader <924> ;
+	skos:inScheme <> .
+
+<9243> a skos:Concept ;
+	skos:prefLabel "Autoren/Autorinnen"@de ;
+	skos:altLabel " Schriftsteller/innen"@de ;
+	skos:broader <924> ;
+	skos:inScheme <> .
+
+<9249> a skos:Concept ;
+	skos:prefLabel "Führung - Redaktion und Journalismus"@de ;
+	skos:altLabel "Führungskräfte - Redaktion und Journalismus"@de ;
+	skos:broader <924> ;
+	skos:inScheme <> .
+
+<9310> a skos:Concept ;
+	skos:prefLabel "Berufe im Produkt- und Industriedesign"@de ;
+	skos:altLabel "Berufe im Produkt- und Industriedesign"@de ;
+	skos:broader <931> ;
+	skos:inScheme <> .
+
+<9321> a skos:Concept ;
+	skos:prefLabel "Berufe in der Innenarchitektur"@de ;
+	skos:altLabel "Berufe in der Innenarchitektur"@de ;
+	skos:broader <932> ;
+	skos:inScheme <> .
+
+<9322> a skos:Concept ;
+	skos:prefLabel "Berufe im visuellen Marketing"@de ;
+	skos:altLabel "Berufe im visuellen Marketing"@de ;
+	skos:broader <932> ;
+	skos:inScheme <> .
+
+<9323> a skos:Concept ;
+	skos:prefLabel "Berufe in der Raumausstattung"@de ;
+	skos:altLabel "Berufe in der Raumausstattung"@de ;
+	skos:broader <932> ;
+	skos:inScheme <> .
+
+<9329> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Innenarchitektur"@de ;
+	skos:altLabel "Raumausstatt."@de ;
+	skos:broader <932> ;
+	skos:inScheme <> .
+
+<9330> a skos:Concept ;
+	skos:prefLabel "Berufe Kunsthandwerk"@de ;
+	skos:altLabel " bildend.Kunst (oS)"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9331> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bildhauerei"@de ;
+	skos:altLabel "Berufe in der Bildhauerei"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9332> a skos:Concept ;
+	skos:prefLabel "Kunstmaler/innen"@de ;
+	skos:altLabel " Zeichner/innen"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9333> a skos:Concept ;
+	skos:prefLabel "Berufe Drechslerei"@de ;
+	skos:altLabel " Spielzeugherstellung"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9334> a skos:Concept ;
+	skos:prefLabel "Berufe im Vergolderhandwerk"@de ;
+	skos:altLabel "Berufe im Vergolderhandwerk"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9335> a skos:Concept ;
+	skos:prefLabel "Berufe in der Wachszieherei"@de ;
+	skos:altLabel "Berufe in der Wachszieherei"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9338> a skos:Concept ;
+	skos:prefLabel "Berufe Kunsthandwerk"@de ;
+	skos:altLabel " bild. Kunst (ssT)"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9339> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Kunsthandwerk"@de ;
+	skos:altLabel "bildende Kunst"@de ;
+	skos:broader <933> ;
+	skos:inScheme <> .
+
+<9341> a skos:Concept ;
+	skos:prefLabel "Berufe kunsthandwerkl. Keramikgestaltung"@de ;
+	skos:altLabel "Berufe in der kunsthandwerklichen Keramikgestaltung"@de ;
+	skos:broader <934> ;
+	skos:inScheme <> .
+
+<9342> a skos:Concept ;
+	skos:prefLabel "Berufe kunsthand.GlasKeram"@de ;
+	skos:altLabel "Porzellanmal."@de ;
+	skos:broader <934> ;
+	skos:inScheme <> .
+
+<9343> a skos:Concept ;
+	skos:prefLabel "Berufe kunsthandwerkliche Glasbläserei"@de ;
+	skos:altLabel "Berufe in der kunsthandwerklichen Glasbläserei"@de ;
+	skos:broader <934> ;
+	skos:inScheme <> .
+
+<9349> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Kunsthandw.Keramik"@de ;
+	skos:altLabel "Glasgestalt."@de ;
+	skos:broader <934> ;
+	skos:inScheme <> .
+
+<9351> a skos:Concept ;
+	skos:prefLabel "Berufe kunsthandwerkl. Metallgestaltung"@de ;
+	skos:altLabel "Berufe in der kunsthandwerklichen Metallgestaltung"@de ;
+	skos:broader <935> ;
+	skos:inScheme <> .
+
+<9352> a skos:Concept ;
+	skos:prefLabel "Kunsthandw.Schmuckherst."@de ;
+	skos:altLabel "Edelsteinbearb."@de ;
+	skos:broader <935> ;
+	skos:inScheme <> .
+
+<9353> a skos:Concept ;
+	skos:prefLabel "Berufe in der Gravur"@de ;
+	skos:altLabel "Berufe in der Gravur"@de ;
+	skos:broader <935> ;
+	skos:inScheme <> .
+
+<9354> a skos:Concept ;
+	skos:prefLabel "Berufe Schilder-"@de ;
+	skos:altLabel "Lichtreklameherstellung"@de ;
+	skos:broader <935> ;
+	skos:inScheme <> .
+
+<9359> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Kunsthandwerkl.Metallgestaltung"@de ;
+	skos:altLabel "Aufsichtskräfte - Kunsthandwerkliche Metallgestaltung"@de ;
+	skos:broader <935> ;
+	skos:inScheme <> .
+
+<9360> a skos:Concept ;
+	skos:prefLabel "Berufe im Musikinstrumentenbau (o.S.)"@de ;
+	skos:altLabel "Berufe im Musikinstrumentenbau (ohne Spezialisierung)"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9361> a skos:Concept ;
+	skos:prefLabel "Berufe im Streich-"@de ;
+	skos:altLabel " Zupfinstrumentenbau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9362> a skos:Concept ;
+	skos:prefLabel "Berufe im Holzblasinstrumentenbau"@de ;
+	skos:altLabel "Berufe im Holzblasinstrumentenbau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9363> a skos:Concept ;
+	skos:prefLabel "Berufe im Metallblasinstrumentenbau"@de ;
+	skos:altLabel "Berufe im Metallblasinstrumentenbau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9364> a skos:Concept ;
+	skos:prefLabel "Berufe im Klavier- und Cembalobau"@de ;
+	skos:altLabel "Berufe im Klavier- und Cembalobau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9365> a skos:Concept ;
+	skos:prefLabel "Berufe im Orgel- und Harmoniumbau"@de ;
+	skos:altLabel "Berufe im Orgel- und Harmoniumbau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9368> a skos:Concept ;
+	skos:prefLabel "Berufe im Musikinstrumentenbau (s.s.T.)"@de ;
+	skos:altLabel "Berufe im Musikinstrumentenbau (sonstige spezifische Tätigkeitsangabe)"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9369> a skos:Concept ;
+	skos:prefLabel "Aufsicht - Musikinstrumentenbau"@de ;
+	skos:altLabel "Aufsichtskräfte - Musikinstrumentenbau"@de ;
+	skos:broader <936> ;
+	skos:inScheme <> .
+
+<9411> a skos:Concept ;
+	skos:prefLabel "Musiker/innen"@de ;
+	skos:altLabel "Musiker/innen"@de ;
+	skos:broader <941> ;
+	skos:inScheme <> .
+
+<9412> a skos:Concept ;
+	skos:prefLabel "Sänger/innen"@de ;
+	skos:altLabel "Sänger/innen"@de ;
+	skos:broader <941> ;
+	skos:inScheme <> .
+
+<9413> a skos:Concept ;
+	skos:prefLabel "Dirigenten/Dirigentinnen"@de ;
+	skos:altLabel "Dirigenten/Dirigentinnen"@de ;
+	skos:broader <941> ;
+	skos:inScheme <> .
+
+<9414> a skos:Concept ;
+	skos:prefLabel "Komponisten/Komponistinnen"@de ;
+	skos:altLabel "Komponisten/Komponistinnen"@de ;
+	skos:broader <941> ;
+	skos:inScheme <> .
+
+<9418> a skos:Concept ;
+	skos:prefLabel "Musik-"@de ;
+	skos:altLabel "Gesangs-"@de ;
+	skos:broader <941> ;
+	skos:inScheme <> .
+
+<9421> a skos:Concept ;
+	skos:prefLabel "Schauspieler/innen"@de ;
+	skos:altLabel "Schauspieler/innen"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9422> a skos:Concept ;
+	skos:prefLabel "Tänzer/innen"@de ;
+	skos:altLabel " Choreografen/innen"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9423> a skos:Concept ;
+	skos:prefLabel "Mannequins"@de ;
+	skos:altLabel " Dressmen"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9424> a skos:Concept ;
+	skos:prefLabel "Athleten"@de ;
+	skos:altLabel " Berufssportler"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9425> a skos:Concept ;
+	skos:prefLabel "Berufe personenbezog. Dienstleistungen"@de ;
+	skos:altLabel "Berufe für personenbezogene Dienstleistungen"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9428> a skos:Concept ;
+	skos:prefLabel "BerufeSchauspielTanz"@de ;
+	skos:altLabel "Bewegungskunst(ssT)"@de ;
+	skos:broader <942> ;
+	skos:inScheme <> .
+
+<9430> a skos:Concept ;
+	skos:prefLabel "Berufe in Moderation"@de ;
+	skos:altLabel " Unterhaltung (oS)"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9431> a skos:Concept ;
+	skos:prefLabel "Komiker/innen"@de ;
+	skos:altLabel " Kabarettisten/innen"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9432> a skos:Concept ;
+	skos:prefLabel "Zauberer/innen"@de ;
+	skos:altLabel " Illusionisten/innen"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9433> a skos:Concept ;
+	skos:prefLabel "Hörfunk-"@de ;
+	skos:altLabel " Fernsehmoderatoren/innen"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9434> a skos:Concept ;
+	skos:prefLabel "Berufe im Bereich Glücks- und Wettspiel"@de ;
+	skos:altLabel "Berufe im Bereich Glücks- und Wettspiel"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9438> a skos:Concept ;
+	skos:prefLabel "Berufe in Moderation"@de ;
+	skos:altLabel " Unterhaltung (ssT)"@de ;
+	skos:broader <943> ;
+	skos:inScheme <> .
+
+<9440> a skos:Concept ;
+	skos:prefLabel "Berufe Theater-"@de ;
+	skos:altLabel "Film-"@de ;
+	skos:broader <944> ;
+	skos:inScheme <> .
+
+<9441> a skos:Concept ;
+	skos:prefLabel "Berufe in der Regie"@de ;
+	skos:altLabel "Berufe in der Regie"@de ;
+	skos:broader <944> ;
+	skos:inScheme <> .
+
+<9448> a skos:Concept ;
+	skos:prefLabel "Berufe Theater-"@de ;
+	skos:altLabel "Film-"@de ;
+	skos:broader <944> ;
+	skos:inScheme <> .
+
+<9449> a skos:Concept ;
+	skos:prefLabel "Aufsicht"@de ;
+	skos:altLabel "Führung-TheaterFilm"@de ;
+	skos:broader <944> ;
+	skos:inScheme <> .
+
+<9451> a skos:Concept ;
+	skos:prefLabel "Berufe Veranstaltungs- und Bühnentechnik"@de ;
+	skos:altLabel "Berufe in der Veranstaltungs- und Bühnentechnik"@de ;
+	skos:broader <945> ;
+	skos:inScheme <> .
+
+<9452> a skos:Concept ;
+	skos:prefLabel "Berufe in der Kameratechnik"@de ;
+	skos:altLabel "Berufe in der Kameratechnik"@de ;
+	skos:broader <945> ;
+	skos:inScheme <> .
+
+<9453> a skos:Concept ;
+	skos:prefLabel "Berufe in der Bild- und Tontechnik"@de ;
+	skos:altLabel "Berufe in der Bild- und Tontechnik"@de ;
+	skos:broader <945> ;
+	skos:inScheme <> .
+
+<9458> a skos:Concept ;
+	skos:prefLabel "Berufe Veranstalt.-Kamera-"@de ;
+	skos:altLabel "Tontech.(ssT)"@de ;
+	skos:broader <945> ;
+	skos:inScheme <> .
+
+<9459> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Veranstaltungs-Kamera-"@de ;
+	skos:altLabel "Tontech."@de ;
+	skos:broader <945> ;
+	skos:inScheme <> .
+
+<9461> a skos:Concept ;
+	skos:prefLabel "Berufe i.d. Bühnen- und Kostümbildnerei"@de ;
+	skos:altLabel "Berufe in der Bühnen- und Kostümbildnerei"@de ;
+	skos:broader <946> ;
+	skos:inScheme <> .
+
+<9462> a skos:Concept ;
+	skos:prefLabel "Berufe in der Requisite"@de ;
+	skos:altLabel "Berufe in der Requisite"@de ;
+	skos:broader <946> ;
+	skos:inScheme <> .
+
+<9469> a skos:Concept ;
+	skos:prefLabel "Aufsicht-Bühnen-"@de ;
+	skos:altLabel "Kostümbildn."@de ;
+	skos:broader <946> ;
+	skos:inScheme <> .
+
+<9470> a skos:Concept ;
+	skos:prefLabel "Museumsberufe (o.S.)"@de ;
+	skos:altLabel "Museumsberufe (ohne Spezialisierung)"@de ;
+	skos:broader <947> ;
+	skos:inScheme <> .
+
+<9471> a skos:Concept ;
+	skos:prefLabel "Berufe Museums- und Ausstellungstechnik"@de ;
+	skos:altLabel "Berufe in der Museums- und Ausstellungstechnik"@de ;
+	skos:broader <947> ;
+	skos:inScheme <> .
+
+<9472> a skos:Concept ;
+	skos:prefLabel "Kunstsachverständige"@de ;
+	skos:altLabel "Kunstsachverständige"@de ;
+	skos:broader <947> ;
+	skos:inScheme <> .
+
+<9479> a skos:Concept ;
+	skos:prefLabel "Führung - Museum"@de ;
+	skos:altLabel "Führungskräfte - Museum"@de ;
+	skos:broader <947> ;
+	skos:inScheme <> .
+
