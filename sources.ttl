@@ -1278,6 +1278,18 @@
    skos:topConceptOf <> ;
    sdo:url <https://www.planet-n.de/> .
 
+<efc438d2-feeb-4c28-89e6-42f0a52f5ba7> a skos:Concept ;
+   skos:notation "oer_commons_spider"^^xsd:string ;
+   skos:prefLabel "OER Commons"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://oercommons.org> .
+
+<9573fa37-f177-46ad-9522-e496c92e59e3> a skos:Concept ;
+   skos:notation "zebis_spider"^^xsd:string ;
+   skos:prefLabel "Zebis"@de ;
+   skos:topConceptOf <> ;
+   sdo:url <https://www.zebis.ch/> .
+
 <f5da1c8f-094a-4914-a9a6-4fb123d598c5> a skos:Concept ;
     skos:narrower <0a27ef7c-1f88-4021-87cd-e39b155d9e5b>,
         <0b96a426-eac4-4c24-845f-85eeb74fd41a>,
@@ -1516,4 +1528,6 @@
         <57addf1b-cf6e-437b-a9f1-93c19c614a76>,
         <f25be35c-a329-401f-9c5a-eb91bb6d8fce>,
         <8253861f-2253-43d5-9548-7f7175340c4a>,
-        <329263d8-c7e7-43ef-9f3e-ab6d2def88be>.
+        <329263d8-c7e7-43ef-9f3e-ab6d2def88be>,
+        <efc438d2-feeb-4c28-89e6-42f0a52f5ba7>,
+        <9573fa37-f177-46ad-9522-e496c92e59e3>.
