@@ -1,0 +1,905 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0612",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Design und Verwaltung von Datenbanken und Netzwerken"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/02e1ca57-0715-438b-886d-f0f938ac3efc",
+      "prefLabel": {
+        "de": "Sandstrahlmaschinenteile"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/03ff0d53-573a-47a0-a0ad-1995815a4339",
+      "prefLabel": {
+        "de": "Informationsstruktur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/071233c4-ad2b-4f50-b79f-768d2231163e",
+      "prefLabel": {
+        "de": "Domainnamendienste"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/07884056-a07a-40b7-bba3-1ceed61f529c",
+      "prefLabel": {
+        "de": "Signatursysteme für die Blockchain-Technologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0da6cab1-0ee9-4391-a299-f71fbf21db56",
+      "prefLabel": {
+        "de": "IKT-Netzwerk-Routing"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0ffdb6ac-03b5-4f1c-bfcc-3d9cb874fdf9",
+      "prefLabel": {
+        "de": "Grundsätze des ethischen Hackings"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/11eebd42-44ab-401d-8a2c-bdb9fc9beb50",
+      "prefLabel": {
+        "de": "Strategie für Informationssicherheit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/14062e1c-6540-4cb6-b343-ad419e3d10ac",
+      "prefLabel": {
+        "de": "Blockchain-Komponenten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1605025e-a179-421f-8f35-5b07d182a6b2",
+      "prefLabel": {
+        "de": "Web-Analyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1bba98a7-92b9-450b-9235-e0c905f8f3c4",
+      "prefLabel": {
+        "de": "Informationsarchitektur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1d86f05e-e9cc-40ce-99d8-2b21cc71b16b",
+      "prefLabel": {
+        "de": "Lösungsbereitstellung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/22225017-a02e-4171-8775-64c3adc87512",
+      "prefLabel": {
+        "de": "Zählerfernauslesung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2879e8f6-037a-49ed-ba73-6f7d7766223e",
+      "prefLabel": {
+        "de": "Systeme zur Überwachung von Lebensmittelabfällen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/296f6b56-de45-4aac-aa96-43e4a4864724",
+      "prefLabel": {
+        "de": "Blockchain-Architektur"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2ddb1226-1117-4eb4-ae65-3a2f5a5a3c80",
+      "prefLabel": {
+        "de": "IKT-Netzwerk-Sicherheitsrisiken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/33efa504-2f26-424d-b662-cee77e6e9c93",
+      "prefLabel": {
+        "de": "Digitales Identitätsmanagement"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/38da3c60-4b7c-4698-9256-574e4ee4e93b",
+      "prefLabel": {
+        "de": "Wissensbasis"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3e75d405-c3d1-4a66-9963-05a9397d68fb",
+      "prefLabel": {
+        "de": "Testverfahren für Leiterplatten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3ec2e4d6-7000-4905-bf1a-c5b1679416de",
+      "prefLabel": {
+        "de": "Data-Warehouse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3ff589b7-68df-4ea5-ae41-b395bdb2378f",
+      "prefLabel": {
+        "de": "IKT-Sicherheitsnormen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4570a262-b51f-46a1-a834-13ff67bee1c8",
+      "prefLabel": {
+        "de": "Dezentrale Identität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/46e93774-7c6a-4dc5-bae9-be97cc461093",
+      "prefLabel": {
+        "de": "Organisationenübergreifendes Middleware-System"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/47ca0da1-cae5-4395-ae6b-fd97b9ff48d3",
+      "prefLabel": {
+        "de": "bewährte Verfahren für System-Backup"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/54924a2c-daca-40d3-9716-4b38ceb04f38",
+      "prefLabel": {
+        "de": "Algorithmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+      "prefLabel": {
+        "de": "Datenvisualisierungssoftware"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/696e3b5b-8b61-45af-ae4c-3ab700f197ec",
+      "prefLabel": {
+        "de": "Informationsextraktion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/699c949a-699a-4858-a02e-a63f66872d6f",
+      "prefLabel": {
+        "de": "Anwendung des Blockchain-Konzepts"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/6a2bc03b-e30d-429b-9549-5784cb92ae2f",
+      "prefLabel": {
+        "de": "Leiterplatten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/6fa1c2c0-a012-4ca0-9642-e01569ba322c",
+      "prefLabel": {
+        "de": "IKT-Systemintegration"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/71f81e1a-e2ca-48d6-b7b8-7a34c56c51f8",
+      "prefLabel": {
+        "de": "Übertragungstechnik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7482a123-e801-48de-9733-262125671410",
+      "prefLabel": {
+        "de": "Aufgaben-Algorithmisierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7f1a7abb-9208-48b7-8b84-2c1f283a50a0",
+      "prefLabel": {
+        "de": "Anrufrouting"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7f27f1ff-2e17-4b69-990e-c23334478313",
+      "prefLabel": {
+        "de": "Bewertung von Risiken und Bedrohungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/81f53835-1dfe-4819-8bc1-01d9b647add8",
+      "prefLabel": {
+        "de": "Arten der Lagereinrichtungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/897b393f-e7e0-4248-a40d-d77119694e83",
+      "prefLabel": {
+        "de": "Verteilte Datenverarbeitung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/8bbdb795-0deb-478f-91e4-5238867ed8ba",
+      "prefLabel": {
+        "de": "Blockchain-Terminologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/93e65de1-923c-437e-aa5b-e6002967ce71",
+      "prefLabel": {
+        "de": "Webbasierte Kollaborationsplattformen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/97bd1c21-66b2-4b7e-ad0f-e3cda590e378",
+      "prefLabel": {
+        "de": "Datenanalyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/98a57799-0146-4849-a1d2-41021c4b7b8f",
+      "prefLabel": {
+        "de": "Sicherheitsgrundsätze für Blockchain-Anwendungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe",
+      "prefLabel": {
+        "de": "Datenbank-Entwicklungswerkzeuge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a429bbd6-2952-4bad-b1b7-5a7a89abbed6",
+      "prefLabel": {
+        "de": "Maschendrahttypen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a4346013-a967-4a58-a533-6b32ad1364c5",
+      "prefLabel": {
+        "de": "Datenschutz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a56dec32-05ef-45de-a256-ee6741f356db",
+      "prefLabel": {
+        "de": "Vertraulichkeit von Informationen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+      "prefLabel": {
+        "de": "Datenspeicherung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/adcca622-b933-4ba3-bc43-bf371879edc3",
+      "prefLabel": {
+        "de": "Datensicherheitsgrundsätze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b0a3bb25-a02f-43ed-ab1f-994fa66a424a",
+      "prefLabel": {
+        "de": "Online Analytical Processing"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b5c7e0dc-dda3-4790-a7d1-d6d8023b3089",
+      "prefLabel": {
+        "de": "Datenbank-Qualitätsstandards"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bf3e70b4-b65e-4595-81d4-e3bb846f0672",
+      "prefLabel": {
+        "de": "Steuerungseinheiten von Sicherheitssystemen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bf6c5ed4-84af-440f-abcc-7fa5ba19c738",
+      "prefLabel": {
+        "de": "Echtzeit-Computing"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+      "prefLabel": {
+        "de": "unstrukturierte Daten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/cb304338-3a44-4b6f-802b-dfc6c64de109",
+      "prefLabel": {
+        "de": "wissenschaftliche Modellbildung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/cdaf66a1-eaf3-4fef-af6e-2e9bbe2c326c",
+      "prefLabel": {
+        "de": "Schwachstellen der Distributed-Ledger-Technologien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/cf532795-a1fd-43bd-8407-6e43f877e6e3",
+      "prefLabel": {
+        "de": "Mobilgeräteverwaltung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d1e954cd-d290-4d80-97c0-7969960d2928",
+      "prefLabel": {
+        "de": "verteilte Verzeichnisinformationsdienste"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d32db06e-bd06-4415-a7ab-1b0ee68caa9a",
+      "prefLabel": {
+        "de": "IKT-Verschlüsselung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d686f015-5568-4288-9135-74936cd7b655",
+      "prefLabel": {
+        "de": "Blockchain-basierte Geschäftsmodelle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d6e3395b-5ab6-4fba-969a-3df634e904c5",
+      "prefLabel": {
+        "de": "IKT-Netzwerk-Kabelbeschränkungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d78dedfc-21d2-45fd-ba05-e56b7a8865e6",
+      "prefLabel": {
+        "de": "Netznormen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/dc298fac-7ab4-4feb-9b43-33d947d7703e",
+      "prefLabel": {
+        "de": "Standards für webbasiertes E-Learning"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e13b734a-218c-434a-a7cc-febac6d24ef3",
+      "prefLabel": {
+        "de": "Callcenter-Technologien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/ee46e1d3-a52c-4113-aab9-38dbc907085d",
+      "prefLabel": {
+        "de": "Konsensprotokolle für Distributed-Ledger-Technologien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f6424ebb-8401-446b-9f7e-10d7c854da02",
+      "prefLabel": {
+        "de": "IKT-Netzwerksimulation"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f9e788df-d68a-4f92-92c7-80e135fc35ff",
+      "prefLabel": {
+        "de": "IKT-Netzwerk-Hardware"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fc72d86f-7e69-4bf8-b407-23303a798a0b",
+      "prefLabel": {
+        "de": "Schaltschrankkomponenten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fc94266b-322d-4f1d-87a0-03f999e72344",
+      "prefLabel": {
+        "de": "Grundsätze des Blockchain-Mining"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+      "prefLabel": {
+        "de": "Datenmodelle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/013441c1-1f13-47e9-80c4-9a53e8e1bc05",
+      "prefLabel": {
+        "de": "KDevelop"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/925463a7-d51f-4d5b-9f79-4d28cf30acde",
+      "prefLabel": {
+        "de": "Software für integrierte Entwicklungsumgebungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0189f448-179e-47cc-9716-c5c3ac4b1aec",
+      "prefLabel": {
+        "de": "Absorb (Lernmanagementsysteme)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/085bfce5-70fe-43da-9499-307725e89bbc",
+      "prefLabel": {
+        "de": "WizIQ"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0ab03c6c-281b-48f4-83e0-10eeb27a1bae",
+      "prefLabel": {
+        "de": "Netzwerkverwaltungs-Systemwerkzeuge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0f00f63f-3ab4-4057-b92f-500584b51757",
+      "prefLabel": {
+        "de": "Informatica PowerCenter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9d0d89be-bffa-4393-b6f6-8d05bea49051",
+      "prefLabel": {
+        "de": "Werkzeuge für Extraktion Transformation und Laden von Daten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1110c92f-3059-445a-9436-0f4200d365f5",
+      "prefLabel": {
+        "de": "Sass"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/c2999f0c-eb37-4cdf-b9b0-82107b628794",
+      "prefLabel": {
+        "de": "Stylesheet-Sprachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/14fdac88-6d4a-4e47-9df5-02c6d1e86fdd",
+      "prefLabel": {
+        "de": "IBM InfoSphere DataStage"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/17702c40-e963-4593-847e-a332b1c9357e",
+      "prefLabel": {
+        "de": "Edmodo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1c2978b8-bb0d-4249-9c23-877571a4dffa",
+      "prefLabel": {
+        "de": "Cloud-Sicherheit und -Compliance"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bd14968e-e409-45af-b362-3495ed7b10e0",
+      "prefLabel": {
+        "de": "Cloud-Technologien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/219dd03d-4168-416a-be40-f4becca55130",
+      "prefLabel": {
+        "de": "Engrade"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/23900e3d-06fa-424c-a5dc-c0ea42edde1e",
+      "prefLabel": {
+        "de": "Oracle Warehouse Builder"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/26fa7a33-a426-4cd5-9792-33bf668612e1",
+      "prefLabel": {
+        "de": "LESS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3af687cb-8c7a-46ea-a730-32dbaed040c6",
+      "prefLabel": {
+        "de": "Oracle Data Integrator"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3cee858e-79e8-4a4b-b99f-93c7f735d58b",
+      "prefLabel": {
+        "de": "DB2"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/ab1e97ed-2319-4293-a8b7-072d2648822f",
+      "prefLabel": {
+        "de": "Datenbankmanagementsysteme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/42c3287f-5e50-4559-a2d1-2000c70e0aab",
+      "prefLabel": {
+        "de": "Pentaho Data Integration"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/43ec6db6-33f7-449b-a566-5779a7e8997a",
+      "prefLabel": {
+        "de": "OpenEdge Database"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/449d119b-2d66-43a9-9230-7d27f16afbb6",
+      "prefLabel": {
+        "de": "Xcode"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/489b2571-ce18-4944-b452-ed1f54e55b68",
+      "prefLabel": {
+        "de": "Schoology"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4959697d-3a24-4f46-af0c-b752318e6c54",
+      "prefLabel": {
+        "de": "ObjectStore"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4da171e5-779c-4983-a76f-91c16751e99f",
+      "prefLabel": {
+        "de": "MySQL"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4e6d2538-a48e-48a7-8dad-14b067cfcb8b",
+      "prefLabel": {
+        "de": "TripleStore"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/54971fec-1c2f-49c0-9396-2f0c9fa5c8c0",
+      "prefLabel": {
+        "de": "LAMS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/604f62cc-0f04-4903-b9f9-7128f72d4e5a",
+      "prefLabel": {
+        "de": "Brightspace (Lernmanagementsysteme)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/63f0aa84-5e4c-4eb6-8e8c-876d9feedf1f",
+      "prefLabel": {
+        "de": "Outsourcing-Modell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/83218cac-3599-417e-93d2-26013cdccd98",
+      "prefLabel": {
+        "de": "serviceorientierte Modellierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/67a118f4-8a5f-48f7-8e5f-de34b9ca2c37",
+      "prefLabel": {
+        "de": "Hybridmodell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/6f7512ab-d46d-402a-8c30-a8878d7c1f88",
+      "prefLabel": {
+        "de": "SQL Server Integration Services"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/32428b21-514b-42c2-81b5-244a7804ea74",
+      "prefLabel": {
+        "de": "Beschaffung von IKT-Netzwerkausrüstung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/76ef6ed3-1658-4a1a-9593-204d799c6d0c",
+      "prefLabel": {
+        "de": "NoSQL"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/81b082fb-9a00-4660-976a-10c985979100",
+      "prefLabel": {
+        "de": "IBM InfoSphere Information Server"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/84251cb1-babf-4d17-a3cd-baa642c24c8d",
+      "prefLabel": {
+        "de": "IBM Informix"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/8785ccda-6f9f-4cf3-9033-fda10653d0be",
+      "prefLabel": {
+        "de": "JSSS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/8efa6a7a-6556-4cb8-908d-59d3b5c58d2f",
+      "prefLabel": {
+        "de": "Cloud-Monitoring und -Reporting"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/933efc5f-a797-4581-8a8b-c08956ff7d58",
+      "prefLabel": {
+        "de": "Grovo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/97bdd757-29d4-4126-92a6-07608825aa3b",
+      "prefLabel": {
+        "de": "QlikView Expressor"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9b9de2a4-d8af-4a7b-933a-a8334ae60067",
+      "prefLabel": {
+        "de": "JavaScript Framework"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9effa3d7-c0c4-4583-ad94-b496ba5e5f2c",
+      "prefLabel": {
+        "de": "Data-Mining-Methoden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
+      "prefLabel": {
+        "de": "Data-Mining"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a87c1c42-8927-4183-97c7-a17554c22b29",
+      "prefLabel": {
+        "de": "Litmos"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a8d07b5a-c1a1-42c6-9d53-db9c7a2ca996",
+      "prefLabel": {
+        "de": "PostgreSQL"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a9622bbb-3a6f-4819-a3fe-cd6a447a78e9",
+      "prefLabel": {
+        "de": "Sakai"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b16200f4-4f39-4b8b-aa9d-3568054d6bdb",
+      "prefLabel": {
+        "de": "Open-Source-Modell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b8eb2517-37d8-43e6-9856-9c29d5c51fde",
+      "prefLabel": {
+        "de": "FileMaker (Datenbankmanagementsysteme)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bedd8fa7-5a64-4134-9095-58f5709e25e4",
+      "prefLabel": {
+        "de": "Moodle"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/c062bab3-3ea0-4291-9220-a2d8fef4bead",
+      "prefLabel": {
+        "de": "SQL Server"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/43ae58b9-5e56-4524-b45a-b422777a0576",
+      "prefLabel": {
+        "de": "Datenbank"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/c5ed451b-ef39-47a3-aee7-8f5be0aa8431",
+      "prefLabel": {
+        "de": "CA Datacom/DB"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/cfb8d64c-f8d7-4894-a02e-2551ab33f1d0",
+      "prefLabel": {
+        "de": "Canvas (Lernmanagementsysteme)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d87fe0be-9055-4a76-a444-e98b5bfad9d8",
+      "prefLabel": {
+        "de": "Taleo"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d9eaf831-9348-4330-a83e-b7c099cdc8f6",
+      "prefLabel": {
+        "de": "Teradata Database"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/de9f85ba-e77f-48fd-8c66-f5ebaf32d655",
+      "prefLabel": {
+        "de": "Oracle Relational Database"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e5a6e1e0-1b07-4432-83ba-77d593b2cb47",
+      "prefLabel": {
+        "de": "SAS Data Management"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e5d1f825-60ed-4bdd-872a-e748c387f777",
+      "prefLabel": {
+        "de": "CSS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e819cc1e-09d9-47f2-b418-93972852daef",
+      "prefLabel": {
+        "de": "MarkLogic"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f8e3425c-fe44-4ffb-bafe-0e20d91dadf4",
+      "prefLabel": {
+        "de": "SAP Data Services"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/061",
+    "prefLabel": {
+      "de": "Informations- und Kommunikationstechnologien (IKT)"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0612"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

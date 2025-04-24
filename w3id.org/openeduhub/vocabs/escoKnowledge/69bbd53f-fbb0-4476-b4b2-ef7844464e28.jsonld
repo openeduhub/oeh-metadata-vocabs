@@ -1,0 +1,197 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/69bbd53f-fbb0-4476-b4b2-ef7844464e28",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Webprogrammierung"
+  },
+  "altLabel": {
+    "de": [
+      "Internetprogrammierung",
+      "Markup-Programmierung",
+      "Netzprogrammierung",
+      "Web-Programmierung",
+      "Webentwicklung"
+    ]
+  },
+  "definition": {
+    "de": "Das Programmplanungsparadigma, das sich auf die Kombination von Markup (wobei Text um Kontext und Struktur ergänzt wird) und anderer Webprogrammierungscodes wie AJAX, JavaScript und PHP stützt, um geeignete Maßnahmen durchzuführen und den Inhalt zu visualisieren."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0fb753a1-2ef2-4429-84d2-ecb2b24daf7a",
+      "prefLabel": {
+        "de": "Apache Tomcat"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/70de94f5-9575-4edd-bca7-c797b023b9d6",
+      "prefLabel": {
+        "de": "Oracle WebLogic"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a4e31589-3632-4926-91d0-15b889c90b9b",
+      "prefLabel": {
+        "de": "IBM WebSphere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b16bcbcb-1d3f-42b3-a6a5-b91348a72b70",
+      "prefLabel": {
+        "de": "WildFly"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+      "prefLabel": {
+        "de": "JavaScript"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f",
+      "prefLabel": {
+        "de": "PHP"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b4dc6e4f-dc7d-445f-8ce2-d7b9d225e282",
+      "prefLabel": {
+        "de": "AJAX"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/1e77e42a-181f-4b48-8e74-201ce50ffc29",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "aktuelle Daten interpretieren"
+  },
+  "definition": {
+    "de": "Zur Bewertung von Entwicklung und Innovation in den Fachgebieten Daten wie Marktdaten, wissenschaftliche Unterlagen, Kundenanforderungen und aktuelle Fragebögen analysieren."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/b74fd765-e1ae-4f56-a188-45cd782bca01",
+      "prefLabel": {
+        "de": "Zuverlässigkeit von Daten beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d3e36164-79aa-4f14-9a8c-d88d38f84ea0",
+      "prefLabel": {
+        "de": "Daten zur automatischen Anrufverteilung interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e9b99d6e-c7ec-4f87-b7b4-b5322733c998",
+      "prefLabel": {
+        "de": "seismische Daten interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/3606bf22-1987-4356-b8c4-13e89d8f6c69",
+      "prefLabel": {
+        "de": "Förderdaten interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/b64b9863-5ed3-49c7-8fd3-5324fabeda5d",
+      "prefLabel": {
+        "de": "geophysikalische Daten interpretieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f6fcc895-3dfc-4b00-bb83-348e3c9c72e1",
+      "prefLabel": {
+        "de": "Daten im Bereich Lebensmittelherstellung auswerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/6f993130-082b-4732-b62f-52cdf2096ad9",
+      "prefLabel": {
+        "de": "Methoden der logistischen Datenanalyse nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/77f109c4-3107-4d2a-a512-5160ac103933",
+      "prefLabel": {
+        "de": "Umweltdaten analysieren"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+    "prefLabel": {
+      "de": "mathematische Informationen interpretieren"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

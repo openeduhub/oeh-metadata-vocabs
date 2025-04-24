@@ -1,0 +1,206 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e54ff029-1ce9-447d-a5b2-eb7283a23e6e",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Personal schulen"
+  },
+  "definition": {
+    "de": "Führen und Anleiten von Mitarbeitern durch einen Prozess, in dem ihnen die für ihren künftigen Arbeitsplatz erforderlichen Fähigkeiten vermittelt werden. Organisation von Aktivitäten zur Einführung in Arbeitstätigkeiten und Systeme oder zur Verbesserung der Leistungsfähigkeit von Einzelpersonen und Gruppen innerhalb der Organisation."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8bb4c55b-4ae7-4272-9410-e06e57b13e0a",
+      "prefLabel": {
+        "de": "Notfalltraining anbieten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d54a1355-05c8-45eb-9c42-267d2cfcdf44",
+      "prefLabel": {
+        "de": "technische Schulung erbringen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/3bee464c-bf7c-47c9-b33b-0668d201a387",
+      "prefLabel": {
+        "de": "zahntechnisches Personal ausbilden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4e4a9605-66d5-4e47-b591-bdc2d0fbdba1",
+      "prefLabel": {
+        "de": "Personal in Fragen der Grubensicherheit schulen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/852d758c-f222-4edc-99ad-31c9e3bd8079",
+      "prefLabel": {
+        "de": "Beschäftigte in betrieblicher Effizienz schulen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/7ace7312-2775-4bfc-9705-3416a9f7b35b",
+      "prefLabel": {
+        "de": "Personal in der Lagerverwaltung schulen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/93a2f730-d5f6-4604-a25e-a2ee206ea468",
+      "prefLabel": {
+        "de": "Lehrer und Ausbilder in E-Learning-Methoden schulen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/9bb98cbd-cfb0-49e9-b1f2-9496233eee07",
+      "prefLabel": {
+        "de": "Personal zum Thema Bier schulen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e3fbd312-a4b2-4bfb-a589-be28f134f1c1",
+      "prefLabel": {
+        "de": "medizinisches Personal hinsichtlich der Ernährung unterrichten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/699e7c26-6502-4e78-a823-3656ff5a5b8b",
+    "prefLabel": {
+      "de": "andere unterweisen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

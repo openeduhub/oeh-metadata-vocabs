@@ -1,0 +1,163 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/709ba9cf-ad8c-41d8-b09f-3de1ca0692ee",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Ernährungspolitik entwickeln"
+  },
+  "altLabel": {
+    "de": [
+      "ernährungspolitische Leitlinien entwickeln"
+    ]
+  },
+  "definition": {
+    "de": "Mitwirkung an der Entscheidungsfindung im Bereich der Produktions- und Verarbeitungstechniken, der Vermarktung, der Verfügbarkeit, der Verwendung und des Verbrauchs von Lebensmitteln im Interesse der Erreichung oder Förderung sozialer Ziele, um das Funktionieren des Lebensmittel- und Landwirtschaftssystems zu beeinflussen. Die Entscheidungsträger in der Lebensmittelbranche übernehmen Tätigkeiten wie die Regulierung lebensmittelbezogener Industriezweige, die Festlegung von Standards für die Förderfähigkeit von Ernährungshilfeprogrammen für arme Menschen, die Gewährleistung der Sicherheit der Lebensmittelversorgung, die Lebensmittelkennzeichnung und sogar die Qualifikation eines Erzeugnisses als biologisches Erzeugnis."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/82e1876d-03be-4e15-b32a-b0967a20df71",
+      "prefLabel": {
+        "de": "an der Entwicklung von Standardarbeitsanweisungen für die Lebensmittelkette mitwirken"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/492214f5-5bfd-4f2a-9a48-c36240ce100d",
+    "prefLabel": {
+      "de": "bei der Lebensvermittelverarbeitung den Umweltschutz befolgen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/709ba9cf-ad8c-41d8-b09f-3de1ca0692ee"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

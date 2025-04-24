@@ -1,0 +1,224 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Abfall bewirtschaften"
+  },
+  "definition": {
+    "de": "Verwalten oder Entsorgen erheblicher Mengen an Abfallstoffen und/oder gefährlichen Stoffen in Übereinstimmung mit den geltenden Rechtsvorschriften, wobei die Verantwortung für die Umwelt und die unternehmerische Verantwortung zu beachten sind. Dafür sorgen, dass die erforderlichen Lizenzen und Genehmigungen vorhanden sind und angemessene Managementpraktiken, Branchenstandards oder allgemein anerkannte Bewirtschaftungsstrategien befolgt werden."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/47f14289-3bcd-4575-9cc1-15c582d1da29",
+      "prefLabel": {
+        "de": "Abfallbehandlungsanlage leiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/114a79ef-1e62-475b-a862-954f5b4cca20",
+      "prefLabel": {
+        "de": "Abfallbewirtschaftungsverfahren entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/594690e1-d69b-4f99-b1d0-ee4523521162",
+      "prefLabel": {
+        "de": "Maschinen von Abfallstoffen säubern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/2ce0a4d6-f2f4-47f8-a811-a445862089e8",
+      "prefLabel": {
+        "de": "Entsorgungsverfahren für Werksabfälle entwerfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4f4ca760-970a-4839-9ce2-ab85ed66772e",
+      "prefLabel": {
+        "de": "Schneideabfälle entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/6f900dcb-c7ff-4d97-8015-9c45b99f7097",
+      "prefLabel": {
+        "de": "medizinischen Abfall entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8ddd7e74-d187-48a1-9009-ff06b268f6cc",
+      "prefLabel": {
+        "de": "nicht verwertbares Gestein verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d7d39ebe-3960-4c8f-a504-19b441990cfa",
+      "prefLabel": {
+        "de": "Abfälle aus Futtermitteln entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/dacaebb5-5d85-4f3e-9adb-7c82b4f53189",
+      "prefLabel": {
+        "de": "Lebensmittelabfälle entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/3a2f0b3f-8203-466f-89f9-207316ade4da",
+      "prefLabel": {
+        "de": "Lötabfälle entsorgen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/9349f502-9c11-476c-957d-2e016790a2ee",
+      "prefLabel": {
+        "de": "Abfallbewirtschaftungsverfahren koordinieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e5f77488-7561-475a-9888-decd2443d37a",
+      "prefLabel": {
+        "de": "Personal in Abfallbewirtschaftung schulen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4c3ab565-747c-4db3-8c47-79e8d6f98cf4",
+    "prefLabel": {
+      "de": "Maßnahmen zur Verringerung der negativen Auswirkungen des Konsums ergreifen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

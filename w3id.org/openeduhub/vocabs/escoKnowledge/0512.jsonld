@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0512",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Biochemie"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/10f08e82-ee2f-4790-a43d-5fd3f9b8a392",
+      "prefLabel": {
+        "de": "biologische Medizin"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/67e27398-fa6c-4aa1-8de8-b03792bcf1e3",
+      "prefLabel": {
+        "de": "genetische Selektionsprogramme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7f0aa0f9-ee9e-47f9-806d-22de04cf5148",
+      "prefLabel": {
+        "de": "Neuropharmakologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a0cd5d35-a1f4-48bf-b78f-11faf4f1935f",
+      "prefLabel": {
+        "de": "Proteomik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a9a52adf-0bf3-4dee-aec3-4fdeb950538e",
+      "prefLabel": {
+        "de": "biomedizinische Technik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b70ab677-5781-40b5-9198-d98f4a34310f",
+      "prefLabel": {
+        "de": "Toxikologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e3423f86-0e6b-4bec-a354-1d21fe8597b6",
+      "prefLabel": {
+        "de": "Gentechnik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f2af6651-a600-4324-bd90-b22cbcd67068",
+      "prefLabel": {
+        "de": "Zytogenetik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f7f139ba-c5c2-43ac-8d0f-78aadad910f6",
+      "prefLabel": {
+        "de": "Bioleaching"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1d1b0108-3d56-45e2-bf0a-dca06a8ee5e3",
+      "prefLabel": {
+        "de": "Bioethik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3f24c61e-8dbd-4a42-baa5-38d8399a2e37",
+      "prefLabel": {
+        "de": "klinisch-biochemische Untersuchungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3",
+      "prefLabel": {
+        "de": "Medizinische und chemische Labordiagnostik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/603c249b-ed35-457a-a1ea-f850e687fefe",
+      "prefLabel": {
+        "de": "Psychopharmakologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/60c544c9-0815-479c-bcec-93c7891815ea",
+      "prefLabel": {
+        "de": "Pharmakologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/585593ef-d0a3-47a2-82da-14f26d75d83e",
+      "prefLabel": {
+        "de": "Biosicherheit im biomedizinischen Labor"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/01e66e1c-97d9-4829-bee1-f3ab649161e8",
+      "prefLabel": {
+        "de": "biomedizinische Wissenschaften"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b115cabc-c030-45b2-ac8e-922d45716183",
+      "prefLabel": {
+        "de": "Umwandlung von Biomasse"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/051",
+    "prefLabel": {
+      "de": "Biologische und verwandte Wissenschaften"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0512"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

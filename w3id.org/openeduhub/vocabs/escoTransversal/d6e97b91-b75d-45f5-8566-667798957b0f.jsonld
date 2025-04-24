@@ -1,0 +1,187 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d6e97b91-b75d-45f5-8566-667798957b0f",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Kompetenzen und Fähigkeiten im Bereich des öffentlichen Lebens anwenden"
+  },
+  "altLabel": {
+    "de": [
+      "nach Möglichkeiten der Mitgestaltung und partizipativen Beteiligung suchen"
+    ]
+  },
+  "definition": {
+    "de": "mit Bürgerinnen und Bürgern interagieren, in der Gemeinde engagieren durch das Auswerten von Informationen und deren Quellen, das Nachdenken über eigene Ideen und Werte sowie das Anerkennen und Respektieren von Ideen, Werten und Rollen Anderer."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/7d9bace0-63d0-4848-ac87-350a98082c12",
+      "prefLabel": {
+        "de": "aktiv am gesellschaftlichen Leben teilnehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+      "prefLabel": {
+        "de": "die Grundsätze der Demokratie und der Rechtsstaatlichkeit fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/5ca953f7-541d-4f67-bc55-7721348366cf",
+      "prefLabel": {
+        "de": "die Vielfalt der kulturellen Werte und Normen respektieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f4bcdb75-df28-441d-a52b-9730904f36a1",
+      "prefLabel": {
+        "de": "Rechte und Verantwortlichkeiten ausüben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/db33c0f3-43ee-4ba3-ba47-9269ac837697",
+      "prefLabel": {
+        "de": "Informationen und ihre Quellen kritisch bewerten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4ef78abc-e983-4cc7-84a1-52532a0159dc",
+    "prefLabel": {
+      "de": "Fähigkeiten und Kompetenzen für eine aktive Bürgerschaft"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/d6e97b91-b75d-45f5-8566-667798957b0f"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

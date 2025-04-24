@@ -1,0 +1,257 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/de586dcf-d7e5-4340-bf5b-d59026f1b436",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Werkzeug für Penetrationstests"
+  },
+  "altLabel": {
+    "de": [
+      "Ergebnis eines Penetrationstests",
+      "Instrument für Penetrationstests",
+      "Software für Penetrationstests",
+      "Werkzeug für IT-Penetrationstests",
+      "Werkzeug für Penetrationstests an IT-Systemen"
+    ]
+  },
+  "definition": {
+    "de": "Spezielle IKT-Werkzeuge, die Sicherheitslücken des Systems auf potenziell unberechtigten Zugriff auf Systeminformationen testen, wie Metasploit, Burp Suite und WebInspect."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/024037ca-96a9-4cb8-ba86-2cd5a209c90a",
+      "prefLabel": {
+        "de": "Maltego"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/09cf2c34-6f93-4a19-a9f1-c0d866414bcc",
+      "prefLabel": {
+        "de": "Cain and Abel (Werkzeug für Penetrationstests)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/1ce4cddd-4a74-458e-a2d4-152ca939475a",
+      "prefLabel": {
+        "de": "OWASP ZAP"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/2891f0dc-4426-4a9a-8fbb-db4fb0a66f91",
+      "prefLabel": {
+        "de": "Nessus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/50597e96-9b6a-4736-ac79-dd80f36c0269",
+      "prefLabel": {
+        "de": "Metasploit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/557e9247-1a2d-4497-aa7f-0cded7768da1",
+      "prefLabel": {
+        "de": "Aircrack (Werkzeug für Penetrationstests)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/58783f72-5098-4807-b1d1-954ec2ae94c4",
+      "prefLabel": {
+        "de": "Backbox (Werkzeug für Penetrationstests)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/625b57ee-29d4-425b-bf99-9fd54dd021fe",
+      "prefLabel": {
+        "de": "Kali Linux"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/7bf4539a-3f2e-4485-876b-1c9306b181af",
+      "prefLabel": {
+        "de": "John The Ripper (Werkzeug für Penetrationstests)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8a30eb28-eca0-4ab6-8c05-32c47d3e0dd6",
+      "prefLabel": {
+        "de": "BlackArch"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8fa510d0-a8a6-4932-a361-00f8442cfe23",
+      "prefLabel": {
+        "de": "Wireshark"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/afd63e8c-a4e7-42d3-86c9-3b2dd549a353",
+      "prefLabel": {
+        "de": "Parrot Security OS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/baf1fadb-975a-42be-9744-d8ba02304d09",
+      "prefLabel": {
+        "de": "Samurai Web Testing Framework"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e79dab00-fe87-48f2-b8cc-f48b68bc7f35",
+      "prefLabel": {
+        "de": "WhiteHat Sentinel"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f0010b93-5552-45cb-ad26-168c8168f319",
+      "prefLabel": {
+        "de": "Nexpose"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f2c26cd0-f823-4549-a418-f84d23131308",
+      "prefLabel": {
+        "de": "THC Hydra"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f4a85869-1855-45d5-a43c-7ee8cd451996",
+    "prefLabel": {
+      "de": "IKT-Sicherheitstests durchführen"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/de586dcf-d7e5-4340-bf5b-d59026f1b436"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

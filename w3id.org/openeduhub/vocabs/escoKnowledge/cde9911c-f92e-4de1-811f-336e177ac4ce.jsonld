@@ -1,0 +1,188 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/cde9911c-f92e-4de1-811f-336e177ac4ce",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Chemie"
+  },
+  "definition": {
+    "de": "Zusammensetzung, Struktur und Eigenschaften von Stoffen sowie deren Prozesse und Umwandlungen; Verwendung verschiedener Chemikalien und ihre Wechselwirkungen, Produktionstechniken, Risikofaktoren und Entsorgungsmethoden."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1b61166d-0495-4f16-aff0-f564d3a8afb3",
+      "prefLabel": {
+        "de": "analytische Chemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3",
+      "prefLabel": {
+        "de": "Medizinische und chemische Labordiagnostik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a6ebf2f1-9fc7-404f-80fa-38473b58f23f",
+      "prefLabel": {
+        "de": "Lederchemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/63bd12f5-d580-415c-9137-8e58008398e7",
+      "prefLabel": {
+        "de": "Textilchemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/870ac739-6eb1-42ed-8c3e-82af7c9e71d0",
+      "prefLabel": {
+        "de": "Polymerchemie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/acbb31e0-7cfb-4987-a9a7-4df119e0b83b",
+      "prefLabel": {
+        "de": "pharmazeutische Chemie"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0531",
+    "prefLabel": {
+      "de": "Chemie"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

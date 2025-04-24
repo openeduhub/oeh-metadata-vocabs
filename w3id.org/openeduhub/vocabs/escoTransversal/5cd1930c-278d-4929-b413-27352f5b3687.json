@@ -1,0 +1,200 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/5cd1930c-278d-4929-b413-27352f5b3687",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "mit Unsicherheitsfaktoren zurechtkommen"
+  },
+  "definition": {
+    "de": "Tolerieren von Unsicherheit und konstruktives Arbeiten in unerwarteten und unvorhersehbaren Situationen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/34ff4148-8d8a-4186-94ff-c67524c16c0c",
+      "prefLabel": {
+        "de": "auf sich ändernde Situationen in der Fischerei reagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/36404bb8-ecce-4afc-88bc-78ebd45c4b90",
+      "prefLabel": {
+        "de": "Vorkehrungen für zu erwartende Probleme im Straßenverkehr treffen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/049c8caf-dd12-45fc-9bfa-b64051f32a19",
+      "prefLabel": {
+        "de": "auf sich verändernde Situationen im Gesundheitswesen reagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/909a28ce-d4b6-4567-9b74-d111f1ed9633",
+      "prefLabel": {
+        "de": "Plan zur Betriebskontinuität pflegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/9ab32fb9-93e4-4226-84a1-fbfaf5c71eb6",
+      "prefLabel": {
+        "de": "auf sich verändernde Umstände in der Navigation reagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4fad9e2b-f855-4a08-8f85-1b6b3df06b11",
+      "prefLabel": {
+        "de": "angemessen auf unerwartete Ereignisse im Freien reagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/be7c80ee-0b7a-455c-8928-055cfa65076c",
+      "prefLabel": {
+        "de": "in zeitkritischem Umfeld auf Ereignisse reagieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/7a66b8a3-502f-408e-ac69-46e72dec6ede",
+      "prefLabel": {
+        "de": "mit Druck aufgrund unerwarteter Umstände umgehen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/2b2c3254-7f6c-47e2-84f1-aece946fbfae",
+    "prefLabel": {
+      "de": "Aufrechterhalten einer positiven Einstellung"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/5cd1930c-278d-4929-b413-27352f5b3687"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

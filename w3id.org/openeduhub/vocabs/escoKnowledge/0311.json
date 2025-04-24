@@ -1,0 +1,215 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0311",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Wirtschaftswissenschaft"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0a917ad8-5cbd-442b-9b84-e9f6e4c13f17",
+      "prefLabel": {
+        "de": "Entwicklung außenpolitischer Strategien und Verfahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/1063b061-329e-4212-8db4-ab936dc60efc",
+      "prefLabel": {
+        "de": "Umweltökonomie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2a0efd9a-4a60-4edc-8561-f2754d24eeb8",
+      "prefLabel": {
+        "de": "Wirtschaftsmathematik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3d294b92-1024-48bc-999e-5c5d687659d9",
+      "prefLabel": {
+        "de": "Entwicklungsökonomie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/457c2e47-07e6-4073-827e-e1c21f3e5869",
+      "prefLabel": {
+        "de": "Bewertungsmethodik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/463023d0-cc10-45eb-97ba-0be350825cee",
+      "prefLabel": {
+        "de": "sozioökonomische Trends in Ihrer Branche"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7cacd304-996d-47d1-88ef-4ddb9ce102bd",
+      "prefLabel": {
+        "de": "Mikroökonomie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d1910ad7-0c87-4f38-8a41-7c193e5dc16d",
+      "prefLabel": {
+        "de": "Volkswirtschaftslehre"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/ef3b0fe7-236f-4910-994a-5cf8f126cb9d",
+      "prefLabel": {
+        "de": "Arten der Evaluierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/50a382c6-e848-467d-b156-7a1a3610b522",
+      "prefLabel": {
+        "de": "Entwicklung von Wirtschaftsprognosen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/88af9294-b697-4687-ae19-aefbb6234dfa",
+      "prefLabel": {
+        "de": "Betriebswirtschaft"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/031",
+    "prefLabel": {
+      "de": "Sozial- und Verhaltenswissenschaften"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0311"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

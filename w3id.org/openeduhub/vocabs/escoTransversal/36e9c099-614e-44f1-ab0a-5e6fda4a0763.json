@@ -1,0 +1,218 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/36e9c099-614e-44f1-ab0a-5e6fda4a0763",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Inspektionen durchführen"
+  },
+  "definition": {
+    "de": "Durchführen von Sicherheitsinspektionen in Bereichen, die Anlass zur Besorgnis geben, um potenzielle Gefahren oder Sicherheitsverstöße zu ermitteln und zu melden; Ergreifen von Maßnahmen zur Maximierung der Sicherheitsstandards."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f27bc0b0-5270-4467-9ea8-d6e8c2dbd9dc",
+      "prefLabel": {
+        "de": "Dächer überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/34016949-da9c-4107-98e3-1080ae405e27",
+      "prefLabel": {
+        "de": "Schweißprüfung durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/481b79ce-f590-4edd-adc5-56c0f13c1c7f",
+      "prefLabel": {
+        "de": "Holz begutachten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8ab0d202-a908-4442-b562-32b1c684908d",
+      "prefLabel": {
+        "de": "Kabel prüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/86504425-1b0b-472e-8b85-ff7431d60f7e",
+      "prefLabel": {
+        "de": "Dämmung prüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/89364a58-c32b-4fab-b3ca-622648bbe443",
+      "prefLabel": {
+        "de": "Schiffe begutachten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e18c683b-445c-42ad-86f5-3d1afcc38533",
+      "prefLabel": {
+        "de": "Gerüst überprüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f13bcfba-84b9-44a0-974f-a3d5b470ea9a",
+      "prefLabel": {
+        "de": "Inspektionsrunde abgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4f72d295-bdda-4900-9ffe-e353d06db721",
+      "prefLabel": {
+        "de": "Chargen von Mischprodukten prüfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/aba33944-7bc3-42ea-9b37-03d7482231c7",
+      "prefLabel": {
+        "de": "Asphalt inspizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d7be8a62-616e-453b-a319-b62cf914f3e9",
+      "prefLabel": {
+        "de": "Gleisinspektionen durchführen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f9d70f2a-c3f0-475d-ac55-dc2e2ba856e8",
+    "prefLabel": {
+      "de": "Inspektionen leiten"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/36e9c099-614e-44f1-ab0a-5e6fda4a0763"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

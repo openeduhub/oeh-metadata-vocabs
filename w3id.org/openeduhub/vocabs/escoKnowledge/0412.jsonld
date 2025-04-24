@@ -1,0 +1,431 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0412",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Finanzwirtschaft, Banken- und Versicherungswesen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0bd4c62a-c309-467e-be76-8403b3f3a1a8",
+      "prefLabel": {
+        "de": "Finanzprodukte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0d564cb6-98ef-4c18-9392-dd69e6724cbf",
+      "prefLabel": {
+        "de": "Risikotransfer"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/203083ca-b051-4c28-8986-fc8731bacee5",
+      "prefLabel": {
+        "de": "nachhaltige Finanzierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2174c1b0-e13c-4850-8e4d-2bc6183018bf",
+      "prefLabel": {
+        "de": "Kryptowährung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2a38d8fa-92ad-46d3-9bcd-9e5c7f90ad2e",
+      "prefLabel": {
+        "de": "Fremdwährung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/2fd26ae6-bd98-46c7-b1ba-8a0b52734fac",
+      "prefLabel": {
+        "de": "Inkassotechniken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3556c075-eee0-4549-b730-48ae70cb5af9",
+      "prefLabel": {
+        "de": "Methoden der Mittelbeschaffung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3c209873-c757-47bb-91b5-9b6dc05df116",
+      "prefLabel": {
+        "de": "Banktätigkeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4300b453-9bcf-474c-9ee3-92ec2229720c",
+      "prefLabel": {
+        "de": "globale Standards für die Nachhaltigkeitsberichterstattung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/450054eb-ccdb-42a7-baf0-371aba515fe7",
+      "prefLabel": {
+        "de": "Finanzierungstechnik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/49047409-9307-4b41-9b04-a9615f049044",
+      "prefLabel": {
+        "de": "Investmentbanking"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/499031e7-9821-4728-adb8-2925663c6ef2",
+      "prefLabel": {
+        "de": "Kreditkartenzahlungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4a460161-eaea-4fe2-bd0e-164ccc635be1",
+      "prefLabel": {
+        "de": "Jahresabschluss"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4a855abe-ac5b-4e95-ac10-3c1adceeee28",
+      "prefLabel": {
+        "de": "internationale Rechnungslegungsstandards"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4b2db903-cd8e-48ce-97fb-a92db4def54e",
+      "prefLabel": {
+        "de": "Finanzprognose"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4e02ce5a-7321-426b-a809-6c507f30ef52",
+      "prefLabel": {
+        "de": "Unternehmensbewertungstechniken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/5c2a951c-9eb3-45a7-af45-39f3bf3a095d",
+      "prefLabel": {
+        "de": "Einstufung von Schulden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/61ab84b5-7b8c-4d1f-a473-97dba10c88ac",
+      "prefLabel": {
+        "de": "Mikrofinanzierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/694dc996-52f3-4afa-a802-672e19f061b7",
+      "prefLabel": {
+        "de": "Crowdsourcing-Strategie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7109d172-c370-47fe-ac81-8fe93550a9e3",
+      "prefLabel": {
+        "de": "Wirkungsorientiertes Investieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/74688c5d-2af1-4f7a-9d1c-00e808eaa1e6",
+      "prefLabel": {
+        "de": "Haushaltsgrundsätze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/749ce4c2-4dfd-461a-a8f3-0f6914814d3e",
+      "prefLabel": {
+        "de": "Wertpapiere"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/811bdb9d-5bf7-4b5a-a3f5-4fc2002f6d57",
+      "prefLabel": {
+        "de": "Finanzkompetenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/86f0bb12-6491-4be7-8306-c88900e91a63",
+      "prefLabel": {
+        "de": "grüne Anleihen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/956487a3-5b0b-4d03-8d0e-01e71fb65482",
+      "prefLabel": {
+        "de": "soziale Anleihen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/99571e68-801f-49af-a897-5f75996642e1",
+      "prefLabel": {
+        "de": "Finanzanalyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9c6974e1-8d8b-43e9-b6b0-75da7634bfc9",
+      "prefLabel": {
+        "de": "Fundamentalanalyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/a727b46f-880a-4acb-9138-b7531b9d4121",
+      "prefLabel": {
+        "de": "Hypothekarkredite"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b02b38c4-d46d-44da-9479-1310060bd74d",
+      "prefLabel": {
+        "de": "Vermögensverwaltung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b497a163-daf4-4f1b-a6ba-8c640d803979",
+      "prefLabel": {
+        "de": "Schuldensysteme"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bcadc519-00f4-43bc-9373-054f4ac717cb",
+      "prefLabel": {
+        "de": "Moderne Portfolio-Theorie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/be252635-341e-4b1c-b94f-aef362b645ed",
+      "prefLabel": {
+        "de": "Geschäftskredite"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/bf12b461-1c53-4d81-a395-8ba77f7483c4",
+      "prefLabel": {
+        "de": "Investmentanalyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e126f782-b4e6-4f7d-8dca-8d2e6778559b",
+      "prefLabel": {
+        "de": "Kreditkontrollverfahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e1dc3eab-4d66-4ae5-a089-b9d884fd4e5a",
+      "prefLabel": {
+        "de": "Schadenverfahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e4c205f6-55ba-4bed-9c5d-2032058300c0",
+      "prefLabel": {
+        "de": "finanzielle Zuständigkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f4cd7802-123a-4bd5-9bfa-bf915a04e969",
+      "prefLabel": {
+        "de": "öffentliches Zeichnungsangebot"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fcd02121-ae3e-4d20-92ee-e2e368658a45",
+      "prefLabel": {
+        "de": "Versicherungsmarkt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fce3268c-c944-4a5f-8b9c-034a72d5df13",
+      "prefLabel": {
+        "de": "Versicherungsarten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/ff24c97f-dbb9-4b02-bf03-4cbe8aecb371",
+      "prefLabel": {
+        "de": "Finanzhilfeprogramme für Schüler/Schülerinnen und Studierende"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/39e43f7c-a95e-4583-be76-bb134ccce1ae",
+      "prefLabel": {
+        "de": "Abläufe in der Finanzabteilung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/591ce038-dcf6-4552-af8e-a51cc0986914",
+      "prefLabel": {
+        "de": "Finanzierung von Eisenbahnprojekten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/387ee646-0aaa-4161-ab3b-cde87ec09fdf",
+      "prefLabel": {
+        "de": "Staatsfinanzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/b895bd42-0009-4815-a150-eb9eb5caec21",
+      "prefLabel": {
+        "de": "Aktienmarkt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/905b6acd-377b-46b9-9d80-e47e9ca789ca",
+      "prefLabel": {
+        "de": "Finanzmärkte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d03dbfd1-0415-4a3a-8d2b-ff4dfff06bc8",
+      "prefLabel": {
+        "de": "Rückversicherung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/ab927ee8-acd9-41c2-aef0-2020364a1003",
+      "prefLabel": {
+        "de": "Versicherungsprinzipien"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/041",
+    "prefLabel": {
+      "de": "Wirtschaft und Verwaltung"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0412"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

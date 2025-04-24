@@ -1,0 +1,230 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/c624c6a3-b0ba-4a31-a296-0d433fe47e41",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "kreativ denken"
+  },
+  "definition": {
+    "de": "Entwickeln neuer Ideen oder Kombinieren bestehender Ideen, um innovative und neuartige Lösungen zu erstellen."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/bff8e986-204f-41f0-b760-6fc9bf6029fd",
+      "prefLabel": {
+        "de": "künstlerischen Ansatz festlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/4cc3ae6a-c53e-4113-aced-41476cd22eb3",
+      "prefLabel": {
+        "de": "kreative Ansätze für Lebensmittel und Getränke finden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/9a922e78-dcbb-4d95-908b-0ba34fc06449",
+      "prefLabel": {
+        "de": "Partituren schreiben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/8c4c49d4-9708-433f-8ca7-bf2c5211ee49",
+      "prefLabel": {
+        "de": "kreative Ideen entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/f975091a-e5a5-4472-ac17-11680e53e98f",
+      "prefLabel": {
+        "de": "Neuerungen in derzeitigen Praktiken anstreben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/ccdf3597-5c80-410f-896d-e1bdfa223de9",
+      "prefLabel": {
+        "de": "die Kreativität im Team fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d0bfb5bf-2234-45af-8d81-421a534e3a52",
+      "prefLabel": {
+        "de": "kreative Ansätze für Schmuckgestaltung finden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/d97c894e-d330-4bd3-b8ba-138fc11855ee",
+      "prefLabel": {
+        "de": "kreative Prozesse anregen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e10d57dd-6717-4b24-961a-8a87c7e80b5d",
+      "prefLabel": {
+        "de": "neue Verpackungsdesigns planen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/11a76a95-66c1-43e0-91f0-be1cc5d05964",
+      "prefLabel": {
+        "de": "in der Schuh- und Lederwarenbranche innovativ sein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/473fb2b2-aa6e-4905-bd27-44be72e25a09",
+      "prefLabel": {
+        "de": "musikalische Formen erschaffen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/3140d979-2d6a-4c10-add9-f7091103829f",
+      "prefLabel": {
+        "de": "Konzept eines digitalen Spiels entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/b3c5a116-8938-42b5-8e45-5fc74314856f",
+      "prefLabel": {
+        "de": "innovative Verpackungskonzepte ermitteln"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/e84d080a-ff6d-41a7-b7b9-133e97c7bf00",
+    "prefLabel": {
+      "de": "Kreatives und innovatives Denken"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/skill/c624c6a3-b0ba-4a31-a296-0d433fe47e41"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/",
+      "title": {
+        "de": "ESCO Skills: Querschnittsfähigkeiten und kompetenzen"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoTransversal/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/0321",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Journalistik und Dokumentationswissenschaft"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/26b96ef5-2f4f-4695-a293-f619e6336f07",
+      "prefLabel": {
+        "de": "Kommunikationspolitik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/324f0243-1a21-4f5c-9f71-52eebc2596ed",
+      "prefLabel": {
+        "de": "Interviewtechniken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/39aa5c41-960d-420a-a0bb-1ad9686d6369",
+      "prefLabel": {
+        "de": "ethischer Verhaltenskodex für Journalisten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3cdf3193-e070-40aa-a1b1-ab985db2c647",
+      "prefLabel": {
+        "de": "redaktionelle Standards"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/4f63aec2-fa72-49e7-b5c9-c1aad17f1937",
+      "prefLabel": {
+        "de": "Grundsätze journalistischen Schreibens"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/5ae07007-1348-4068-ab55-e6f420fa3874",
+      "prefLabel": {
+        "de": "Kommunikationswissenschaften"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/5bcd5d36-cfe7-4494-9b58-713884fa1042",
+      "prefLabel": {
+        "de": "Buchbesprechungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/7f6f3d05-7b6f-4622-9082-6c355edfcb7e",
+      "prefLabel": {
+        "de": "Informationen zu Sportwettkämpfen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/890f090f-e03f-465e-ad16-f332b2a80c95",
+      "prefLabel": {
+        "de": "Postediting"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/9a0d0abc-010d-440b-8242-7e31510471ba",
+      "prefLabel": {
+        "de": "Einhaltung der Informations-Governance"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/d523d7bf-cb3d-4310-9bf3-5670659c9b83",
+      "prefLabel": {
+        "de": "Nachrichtenanalysen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/e8099ae4-3443-4395-9f9a-002a65905abf",
+      "prefLabel": {
+        "de": "Printmedienarten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/f65159b4-97db-46fd-98bc-1e1d41dfd96b",
+      "prefLabel": {
+        "de": "Newsletter-Analyse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/fef96bad-e623-42cd-b961-d1adf39db8b9",
+      "prefLabel": {
+        "de": "Medien- und Informationskompetenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/16e462b2-b8dd-4842-8c31-71d0fb4be474",
+      "prefLabel": {
+        "de": "Digitaler Journalismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/3391d6dd-d584-4c8c-9af9-d2f0c45e2b4b",
+      "prefLabel": {
+        "de": "Journalismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/477579e7-e0ca-4cc5-8712-17b78d0d8d2a",
+      "prefLabel": {
+        "de": "Kommunikationswissenschaft"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/032",
+    "prefLabel": {
+      "de": "Journalistik und Informationswissenschaft"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0321"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/",
+      "title": {
+        "de": "ESCO Skills: Kenntnisse"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoKnowledge/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}
