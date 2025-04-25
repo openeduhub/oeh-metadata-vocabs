@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "IKT-Sicherheit"
   },
-  "definition": {
-    "de": "Persönlicher Schutz, Datenschutz, Schutz digitaler Identitäten, Sicherheitsmaßnahmen, sichere und nachhaltige Nutzung."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/df329d70-87b0-466b-a214-3431f36e2a5e",
+      "prefLabel": {
+        "de": "IKT-Geräte schützen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4ba12d1-4698-42fa-8abb-789462ea2586",
       "prefLabel": {
@@ -24,12 +27,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/33a82b83-c838-4889-ae62-fae1317481eb",
       "prefLabel": {
         "de": "persönliche Daten und Privatsphäre schützen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/df329d70-87b0-466b-a214-3431f36e2a5e",
-      "prefLabel": {
-        "de": "IKT-Geräte schützen"
       }
     }
   ],
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

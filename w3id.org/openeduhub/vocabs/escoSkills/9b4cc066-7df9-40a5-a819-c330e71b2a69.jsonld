@@ -9,8 +9,19 @@
       "große Informationsmenge im Kopf behalten"
     ]
   },
-  "definition": {
-    "de": "Behalten vieler Informationen im Gedächtnis, Anfertigen von Notizen zur korrekten Auslegung."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/add5de06-4fcc-4d9a-9b27-4db9722c9be7",
+      "prefLabel": {
+        "de": "Text lernen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/32c017fd-28ab-4051-bf68-74de952c2f77",
+    "prefLabel": {
+      "de": "Informationsmanagement"
+    }
   },
   "exactMatch": [
     {
@@ -21,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Räume reinigen"
   },
-  "definition": {
-    "de": "Reinigen von Räumen, einschließlich Putzen der Glasflächen und Fenster, Polieren der Möbel, Saugen der Teppiche, Schrubben der Hartböden und Entsorgen des Mülls."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/726800bd-0ce5-401c-a13f-2388ab5df796",
+      "prefLabel": {
+        "de": "für Sauberkeit in der Garderobe sorgen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d69e45d3-1f3f-4e6a-8933-82e949277811",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

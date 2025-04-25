@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Nutzer/Nutzerinnen des Gesundheitssystems weiterleiten"
   },
-  "definition": {
-    "de": "Weiterverleiten von Nutzern des Gesundheitssystems an andere Fachkräfte und Organisationen auf Grundlage der Anforderungen und Bedürfnisse dieser Nutzer, insbesondere, wenn zusätzliche Diagnosen oder Eingriffe für erforderlich befunden werden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/29fbde52-e525-4653-96d0-acd59ccb28d8",
+    "prefLabel": {
+      "de": "Unterstützung von Menschen beim Zugang zu Dienstleistungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "Gefahren am Arbeitsplatz ermitteln"
   },
-  "definition": {
-    "de": "Durchführung von Sicherheitsprüfungen und -kontrollen am Arbeitsplatz und für am Arbeitsplatz eingesetzte Ausrüstung. Sicherstellen, dass die Sicherheitsvorschriften eingehalten werden, und Ermittlung von Gefahren und Risiken."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66c88f8d-b73e-4f9d-8cf3-15d9c68b5384",
-      "prefLabel": {
-        "de": "Risiken in Aquakulturanlagen erkennen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7729524-6d0e-45b6-87c8-79af1e955a5b",
       "prefLabel": {
@@ -33,6 +24,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66c88f8d-b73e-4f9d-8cf3-15d9c68b5384",
+      "prefLabel": {
+        "de": "Risiken in Aquakulturanlagen erkennen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94c24e4a-cc9a-4a49-b623-bc00bb5aa1a3",
       "prefLabel": {
         "de": "Sicherheitsgefahren an Flughäfen ermitteln"
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

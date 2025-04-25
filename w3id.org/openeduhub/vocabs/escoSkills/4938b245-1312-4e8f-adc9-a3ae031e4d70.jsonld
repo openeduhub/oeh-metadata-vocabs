@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Entscheidungen bezüglich der Pflanzenvermehrung treffen"
   },
-  "definition": {
-    "de": "Entscheiden in Fragen der Unternehmensführung, weitere Beratung hinsichtlich des Anbaus von Pflanzen und Agrarerzeugnissen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

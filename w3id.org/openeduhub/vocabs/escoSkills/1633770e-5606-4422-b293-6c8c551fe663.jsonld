@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "künstlerische Konzepte verstehen"
   },
-  "definition": {
-    "de": "Die Erläuterung oder Zurschaustellung der künstlerischen Konzepte, Ansätze und Prozesse eines Künstlers/einer Künstlern interpretieren und sich um gemeinsame Vorstellungen bemühen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0207f83d-a1e4-4b47-b80c-84d41257791f",
+      "prefLabel": {
+        "de": "das künstlerische Konzept anhand des Geschehens auf der Bühne analysieren"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/88de5ff4-310a-4f4f-9b47-349eb5589902",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

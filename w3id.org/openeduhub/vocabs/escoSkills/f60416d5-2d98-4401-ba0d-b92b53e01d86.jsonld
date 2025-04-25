@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Lagerbuchhaltung führen"
   },
-  "definition": {
-    "de": "Führung schriftlicher Aufzeichnungen über den Bestand im Lager sowie die eingehenden und ausgehenden Produkte, um den ordnungsgemäßen Ablauf von Service-, Reparatur- und Wartungsaufgaben sicherzustellen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/10f6d720-ea22-469c-86d1-7fb9d2e93c11",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/f60416d5-2d98-4401-ba0d-b92b53e01d86"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

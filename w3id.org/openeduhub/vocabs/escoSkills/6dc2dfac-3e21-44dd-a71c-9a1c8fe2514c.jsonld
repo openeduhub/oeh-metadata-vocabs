@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "selbstständig operative Entscheidungen treffen"
   },
-  "definition": {
-    "de": "Unverzügliches Treffen operativer Entscheidungen, gegebenenfalls ohne Rücksprache mit anderen, unter Berücksichtigung der Umstände sowie der einschlägigen Verfahren und Rechtsvorschriften. Selbstständiges Ermitteln der für eine bestimmte Situation am besten geeigneten Option."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/df0612db-366c-4ff5-b106-40b9e385195c",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/6dc2dfac-3e21-44dd-a71c-9a1c8fe2514c"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

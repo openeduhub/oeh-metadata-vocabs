@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Notfallsituationen bewältigen"
   },
-  "definition": {
-    "de": "Bewältigung von Situationen, in denen die Entscheidungsfindung unter Zeitdruck von lebensrettender Bedeutung ist."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c1b0bfc2-4932-4e03-9077-92bc56042511",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/164510d1-1216-4dc0-b9d1-a7f6af19e469",
+    "prefLabel": {
+      "de": "Entwicklung von Notfall- und Notfallmaßnahmenplänen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/ecf7869e-7d87-478d-9d80-edfdcd39ec52"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

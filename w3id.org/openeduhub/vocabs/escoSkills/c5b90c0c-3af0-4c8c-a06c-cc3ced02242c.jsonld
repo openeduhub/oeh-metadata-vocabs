@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Kostenrechnungstätigkeiten durchführen"
   },
-  "definition": {
-    "de": "Durchführung der kostenrelevanten Tätigkeiten und Vorgänge im Rechnungswesen wie Standardkostenentwicklung, Durchschnittspreisanalyse, Analyse der Gewinnspannen und Kostenverhältnisse, Bestandskontrolle und Abweichungsanalyse. Berichten der Ergebnisse an das Management und Beratung bezüglich möglicher Handlungsweisen zur Kostenkontrolle und -reduzierung."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/029e2bb0-6dd8-4600-bb89-ac7480ae8fb0",
+      "prefLabel": {
+        "de": "zu Veranstaltungen zur Qualität von physiotherapeutischen Dienstleistungen beitragen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/c5b90c0c-3af0-4c8c-a06c-cc3ced02242c"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

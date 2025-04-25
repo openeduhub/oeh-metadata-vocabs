@@ -9,20 +9,17 @@
       "bestimmte Bereiche manuell reinigen"
     ]
   },
-  "definition": {
-    "de": "Bestimmte Bereiche von Hand reinigen, wenn die Oberfläche klein oder blockiert ist und die einzige Möglichkeit zur Reinigung dieser Bereiche in der händischen Reinigung besteht."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c1617786-decf-40cc-b44d-b90fabe92203",
-      "prefLabel": {
-        "de": "gravierte Bereiche reinigen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/53564525-89e7-4d9d-b770-59129ae350b9",
       "prefLabel": {
         "de": "Straßenreinigung manuell durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c1617786-decf-40cc-b44d-b90fabe92203",
+      "prefLabel": {
+        "de": "gravierte Bereiche reinigen"
       }
     }
   ],
@@ -35,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

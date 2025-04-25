@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "klinische Entscheidungen treffen"
   },
-  "definition": {
-    "de": "Auf einen Informationsbedarf reagieren, indem die verfügbaren Befunde gesammelt und analysiert werden, damit sie in klinische Entscheidungen einfließen können."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

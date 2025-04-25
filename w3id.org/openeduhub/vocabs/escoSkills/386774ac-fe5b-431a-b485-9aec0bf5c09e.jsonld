@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "elektrische Ausrüstung instand halten"
   },
-  "definition": {
-    "de": "Prüfung elektrischer Geräte auf Defekte. Beachtung von Sicherheitsmaßnahmen, Unternehmensvorgaben und Rechtsvorschriften zu elektrischen Geräten. Reinigung, Reparatur und Austausch von Teilen und Anschlüssen nach Bedarf."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2179e0fd-7431-41a3-bbf4-76451c615ce2",
@@ -15,15 +12,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3f6dc31c-ceef-4e93-9d8a-b4b862cf9b51",
-      "prefLabel": {
-        "de": "elektrische Geräte testen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e4f264a-e2e1-42fb-9866-e64069f8b441",
       "prefLabel": {
         "de": "audiovisuelle Ausrüstung instand halten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3f6dc31c-ceef-4e93-9d8a-b4b862cf9b51",
+      "prefLabel": {
+        "de": "elektrische Geräte testen"
       }
     },
     {
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "auszuführende Bildgebungstechniken festlegen"
   },
-  "definition": {
-    "de": "Festlegen der geeigneten Bildgebungstechniken, um dem behandelnden Arzt angemessene Diagnosedaten zu übermitteln."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b88bddd4-210e-405f-bbdf-729bb66605a0",
+    "prefLabel": {
+      "de": "Verschreiben und Bestellen von medizinischen Tests, Behandlungen oder Geräten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

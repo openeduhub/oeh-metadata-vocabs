@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Sicherheitsteam führen"
   },
-  "definition": {
-    "de": "Planung, Organisation und Erstellung von Zeitplänen in Bezug auf die Arbeiten, Ausrüstungen und Verfahren für das beaufsichtigte Sicherheitspersonal."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/eb67f129-4a8f-41b7-9abe-25c907392103",
+      "prefLabel": {
+        "de": "ausgelagerte Sicherheitsleistungen organisieren"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/6cd29d73-e352-40b4-89c5-cdb3faff0a38"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

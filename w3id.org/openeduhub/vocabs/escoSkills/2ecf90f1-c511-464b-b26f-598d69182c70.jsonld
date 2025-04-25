@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Steuer berechnen"
   },
-  "definition": {
-    "de": "Berechnung der Steuern, die von einer Einzelperson oder einer Organisation zu entrichten sind oder von einer staatlichen Einrichtung zurückgezahlt werden müssen, gemäß den spezifischen Rechtsvorschriften."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f5f15f9c-6334-4728-8dc5-3a20a00dfc37",
+    "prefLabel": {
+      "de": "Durchführen von Berechnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

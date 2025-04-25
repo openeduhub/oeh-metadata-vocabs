@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Lager reinigen"
   },
-  "definition": {
-    "de": "Organisieren und Sauberhalten des Arbeitsbereichs in einem Lager."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23db1cab-e565-4a90-89f8-3a8685a20029",
+      "prefLabel": {
+        "de": "den physischen Zustand des Lagers pflegen und aufrechterhalten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/a7a47148-732f-48bc-a7ce-18afe0d7f259"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

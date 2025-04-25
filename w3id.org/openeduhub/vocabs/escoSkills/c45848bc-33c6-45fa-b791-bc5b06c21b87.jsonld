@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Ausstellungen präsentieren"
   },
-  "definition": {
-    "de": "Präsentieren einer Ausstellung und Vortragen verständlicher Einführungen in einer für die Öffentlichkeit attraktiven Form."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/52272cdd-7a52-4b88-a12b-7ca442c37f99",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cdb2aecd-9dca-48fd-8d56-f0aace3ab5a9",
+    "prefLabel": {
+      "de": "Präsentation allgemeiner Informationen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/c45848bc-33c6-45fa-b791-bc5b06c21b87"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

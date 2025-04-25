@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Fitnessinformationen zur Verfügung stellen"
   },
-  "definition": {
-    "de": "Genaue Information der Kunden über die Grundsätze von Ernährung und Fitnessübungen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3f1a52c4-7df0-4f88-a50b-c345714a917e",
+      "prefLabel": {
+        "de": "Fitnessübungen sicher anleiten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ef07f206-1ea8-4dc6-a4b0-1b312a9db47c",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

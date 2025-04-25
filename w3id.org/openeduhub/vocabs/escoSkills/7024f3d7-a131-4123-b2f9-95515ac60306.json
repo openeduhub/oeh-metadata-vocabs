@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Kreditinstitute überwachen"
   },
-  "definition": {
-    "de": "Durchführung der Bankenaufsicht und Kontrolle der Tätigkeiten der Tochterunternehmen, z. B. Kreditgeschäft und Liquiditätsreserve."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c2d5780-23ed-4372-bb8d-c1846ee404ae",
+    "prefLabel": {
+      "de": "Überwachung finanzieller und wirtschaftlicher Ressourcen und Tätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

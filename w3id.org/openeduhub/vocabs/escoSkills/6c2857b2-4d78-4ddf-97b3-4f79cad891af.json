@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "bei Eingang von Materialien Bewertungsverfahren befolgen"
   },
-  "definition": {
-    "de": "Überwachen des Eingangs von Materialien und Befolgen eines detaillierten Verfahrens zur Beurteilung und Bewertung ihrer Merkmale."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ef4a3050-2232-4562-9ecd-bd1d5f22f064",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/802deca0-b880-4d1a-b366-e13b27621baf",
+    "prefLabel": {
+      "de": "Einhaltung operativer Verfahren"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/6c2857b2-4d78-4ddf-97b3-4f79cad891af"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

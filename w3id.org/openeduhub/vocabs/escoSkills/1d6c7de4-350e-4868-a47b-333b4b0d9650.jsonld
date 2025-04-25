@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Daten, Informationen und digitale Inhalte bewerten"
   },
-  "definition": {
-    "de": "Die Glaubwürdigkeit und Zuverlässigkeit von Datenquellen, Informationen und digitalen Inhalten analysieren, vergleichen und kritisch bewerten. Daten, Informationen und digitale Inhalte analysieren, auslegen und kritisch bewerten."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/eda4d727-4374-49af-ace4-118c7c906835",
+      "prefLabel": {
+        "de": "Suchmaschinenoptimierung"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7287dff1-7420-4d24-939a-5f4eb15b752b",
       "prefLabel": {
@@ -51,12 +54,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9e136617-1cd1-4f71-af3e-9deda4c75bea",
-      "prefLabel": {
-        "de": "forensische Daten auswerten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07ec6866-d283-46a6-991c-e8ce0c6fc159",
       "prefLabel": {
         "de": "wissenschaftliche Daten zur Wasserqualitätskontrolle interpretieren"
@@ -75,12 +72,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
-      "prefLabel": {
-        "de": "Massendaten analysieren"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/82312096-4df8-49ce-9cdd-a6e08af56b45",
       "prefLabel": {
         "de": "Informationsdienste aufgrund von Messungen evaluieren"
@@ -93,9 +84,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9e136617-1cd1-4f71-af3e-9deda4c75bea",
+      "prefLabel": {
+        "de": "forensische Daten auswerten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b74fd765-e1ae-4f56-a188-45cd782bca01",
+      "prefLabel": {
+        "de": "Zuverlässigkeit von Daten beurteilen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a1388163-462a-4b76-8649-67470ea858a1",
       "prefLabel": {
         "de": "in Datenbanken recherchieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e135f4ad-2eed-448c-8f39-beb44238177c",
+      "prefLabel": {
+        "de": "Gendaten evaluieren"
       }
     },
     {
@@ -108,6 +117,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3bf7e0ee-2580-41e8-924d-9d504dc98546",
       "prefLabel": {
         "de": "Daten zum Grubengelände verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "prefLabel": {
+        "de": "Massendaten analysieren"
       }
     },
     {
@@ -150,7 +165,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

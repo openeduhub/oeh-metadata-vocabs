@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Temperatur regeln"
   },
-  "definition": {
-    "de": "Messung und Anpassung der Temperatur eines bestimmten Raumes oder Gegenstands."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e82d6b1-9f46-498e-a53e-d9aa7ebbae50",
@@ -27,12 +24,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1a0d7ac7-71d6-4efd-84d3-199f88821bc3",
-      "prefLabel": {
-        "de": "Ofentemperatur messen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c44c5e78-6647-406c-84f0-b6e626877fc2",
       "prefLabel": {
         "de": "Temperatur bei der Mehlverarbeitung überwachen"
@@ -42,6 +33,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfcc2266-a578-4300-93ce-ce7860c7398c",
       "prefLabel": {
         "de": "Temperatur bei der Herstellung von Lebensmitteln und Getränken überwachen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1a0d7ac7-71d6-4efd-84d3-199f88821bc3",
+      "prefLabel": {
+        "de": "Ofentemperatur messen"
       }
     }
   ],
@@ -60,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

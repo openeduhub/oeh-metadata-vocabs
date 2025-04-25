@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Zeiterfassung für Taxis durchführen"
   },
-  "definition": {
-    "de": "Festhalten der Fahrzeiten und der Anzahl der Fahrten jedes einzelnen Taxis nach Anmeldung der Fahrer im Zeiterfassungssystem. Einsatz mathematischer und organisatorische Fähigkeiten, um die Zeiten der Taxis richtig zu erfassen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

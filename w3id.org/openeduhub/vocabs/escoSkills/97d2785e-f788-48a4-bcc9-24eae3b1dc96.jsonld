@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Operationen in der Seeschifffahrt überwachen"
   },
-  "definition": {
-    "de": "Überwachung maritimer Tätigkeiten, Werkstoffe und Umgebungen. Überprüfen von Informationen zu Materialien, Ereignissen oder zur Umwelt; Ermittlung und Beurteilung von Problemen, Kommunikation mit Schiffsführern/Schiffsführerinnen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/01faf296-e037-494c-bb1c-65bda5aed750",
+      "prefLabel": {
+        "de": "Effizienzpläne für die Seeschifffahrt entwickeln"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15fa3879-ac0e-46e6-ae36-609bae9c19c3",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

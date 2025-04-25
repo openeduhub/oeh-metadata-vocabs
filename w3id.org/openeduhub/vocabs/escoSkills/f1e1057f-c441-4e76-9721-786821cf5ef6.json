@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Entscheidungen bezüglich der Nutztierhaltung treffen"
   },
-  "definition": {
-    "de": "Entscheidung über verschiedene Aspekte der technischen Unterstützung bei der Nutztierhaltung. Sammlung von Informationen über Arbeitspraktiken in Bezug auf die Zucht und Produktivität von Nutztieren."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

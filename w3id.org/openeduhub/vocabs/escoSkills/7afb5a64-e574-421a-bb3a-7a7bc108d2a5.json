@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Arbeiten in Warenlagern durchführen"
   },
-  "definition": {
-    "de": "Durchführen von Arbeiten in Warenlagern, wie Verpacken, Befördern, Stapeln, Sortieren, Be- und Entladen von Lieferwagen, Lastkraftwagen, Waggons, Schiffen oder Flugzeugen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/055ff233-6569-43db-9f95-a4b03dca97da",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9685849e-f2b4-490f-85b5-20fc6fff9fda",
       "prefLabel": {
         "de": "Beschriftungswerkzeuge für Lager nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23db1cab-e565-4a90-89f8-3a8685a20029",
+      "prefLabel": {
+        "de": "den physischen Zustand des Lagers pflegen und aufrechterhalten"
       }
     },
     {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

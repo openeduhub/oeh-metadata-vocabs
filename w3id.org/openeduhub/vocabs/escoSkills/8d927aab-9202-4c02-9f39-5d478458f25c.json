@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "die Lebensumstände von Nutzern/Nutzerinnen der sozialen Dienste beurteilen"
   },
-  "definition": {
-    "de": "Unaufdringliche und respektvolle Beurteilung der sozialen Situation der Dienstleistungsnutzer/-nutzerinnen im Dialog, Berücksichtigung ihrer Familien, Organisationen und Gemeinschaften und der damit verbundenen Risiken, Ermittlung der Bedürfnisse und Ressourcen, um den physischen, emotionalen und sozialen Bedürfnissen gerecht zu werden."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3aa7e88e-bebd-48b1-94ba-6efddeecf08f",
+      "prefLabel": {
+        "de": "verletzliche Nutzer/Nutzerinnen der sozialen Dienste schützen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/497705d7-7a03-4a68-99f3-69d2de9366f4",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

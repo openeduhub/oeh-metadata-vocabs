@@ -4,17 +4,26 @@
   "prefLabel": {
     "de": "Live-Präsentation geben"
   },
-  "definition": {
-    "de": "Vortrag oder Gespräch, in dem einem Publikum ein neues Produkt, eine neue Dienstleistung, eine neue Idee oder eine neue Arbeit demonstriert und erläutert wird."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f79b4e88-864f-4d59-ae1c-077af72a76dd",
       "prefLabel": {
         "de": "Reisevorträge halten"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fd9694e7-5e7a-4209-806f-51451bb63dc7",
+      "prefLabel": {
+        "de": "Livesendungen moderieren"
+      }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cdb2aecd-9dca-48fd-8d56-f0aace3ab5a9",
+    "prefLabel": {
+      "de": "Präsentation allgemeiner Informationen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
@@ -24,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

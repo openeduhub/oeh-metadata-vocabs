@@ -4,10 +4,19 @@
   "prefLabel": {
     "de": "digitale Technologien kreativ einsetzen"
   },
-  "definition": {
-    "de": "Digitale Werkzeuge und Technologien einsetzen, um Wissen zu schaffen und Verfahren und Produkte zu innovieren. Individuell und kollektiv an der kognitiven Verarbeitung teilnehmen, um konzeptionelle Probleme und Problemsituationen in einem digitalen Umfeld zu verstehen und zu lösen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f975091a-e5a5-4472-ac17-11680e53e98f",
+      "prefLabel": {
+        "de": "Neuerungen in derzeitigen Praktiken anstreben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8c4c49d4-9708-433f-8ca7-bf2c5211ee49",
+      "prefLabel": {
+        "de": "kreative Ideen entwickeln"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e",
       "prefLabel": {
@@ -18,6 +27,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2d48b3a-1f91-4442-8f18-6c43a589737b",
       "prefLabel": {
         "de": "Medienstrategie entwickeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ccdf3597-5c80-410f-896d-e1bdfa223de9",
+      "prefLabel": {
+        "de": "die Kreativität im Team fördern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d97c894e-d330-4bd3-b8ba-138fc11855ee",
+      "prefLabel": {
+        "de": "kreative Prozesse anregen"
       }
     },
     {
@@ -42,7 +63,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

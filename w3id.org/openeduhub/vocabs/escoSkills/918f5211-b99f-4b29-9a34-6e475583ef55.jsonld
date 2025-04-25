@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "arbeitsbezogene Berichte verfassen"
   },
-  "definition": {
-    "de": "Erstellung von Arbeitsberichten, die ein wirksames Beziehungsmanagement sowie einen hohen Dokumentations- und Aktenführungsstandard ermöglichen. Erfassung und Darstellung von Ergebnissen und Schlussfolgerungen auf klare und begreifbare Weise, sodass sie auch für ein Nicht-Fachpublikum verständlich sind."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56fc1f5b-4aa8-4846-b531-1c45fbb7164e",
-      "prefLabel": {
-        "de": "Berichte über Vermietungen verfassen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
       "prefLabel": {
@@ -87,6 +78,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/56fc1f5b-4aa8-4846-b531-1c45fbb7164e",
+      "prefLabel": {
+        "de": "Berichte über Vermietungen verfassen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/68949f17-32a2-469e-b874-2fe7ac1cef34",
       "prefLabel": {
         "de": "technische baumbezogene Berichte verfassen"
@@ -111,6 +108,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e62e776-fbfa-486c-a6df-58cd239c86fe",
+    "prefLabel": {
+      "de": "Verfassen technischer Dokumentation oder akademischer Schriften"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
@@ -120,7 +123,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

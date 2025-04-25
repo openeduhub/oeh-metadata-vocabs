@@ -4,9 +4,20 @@
   "prefLabel": {
     "de": "den Ablauf einer Aufführung koordinieren"
   },
-  "definition": {
-    "de": "Koordinieren sämtlicher Aktionen und Aktivitäten während einer Aufführung, um ein kohärentes und künstlerisch einwandfreies Ergebnis zu gewährleisten, das dem künstlerischen Projekt treu bleibt."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3a1c546d-914a-46e4-a7c1-47d43646fedd",
+      "prefLabel": {
+        "de": "Qualitätskontrolle von Konstruktionen während eines Durchlaufs durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/91a58da7-2111-4a03-9874-37311e105d06",
+      "prefLabel": {
+        "de": "Personal zum Vorstellungsablauf instruieren"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfd5ab8f-ef8a-4877-8243-ddf17ac74604",
     "prefLabel": {
@@ -22,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

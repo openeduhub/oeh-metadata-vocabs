@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Berichte zu Fördermengen von Erdöl- und Erdgasquellen erstellen"
   },
-  "definition": {
-    "de": "Transparente Dokumentation und Bekanntmachung der Fördermengen; Weiterleitung der Ergebnisse an Geschäftspartner, Auditoren, kooperierende Teams und das interne Management."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "ungefährlichen Abfall entsorgen"
   },
-  "definition": {
-    "de": "Entsorgung von Abfällen, die in Bezug auf Gesundheit und Sicherheit unbedenklich sind, gemäß Recycling- und Abfallbewirtschaftungsverfahren."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dacaebb5-5d85-4f3e-9adb-7c82b4f53189",
+      "prefLabel": {
+        "de": "Lebensmittelabfälle entsorgen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/61d1dab2-6007-4b7c-9380-cd88207fa30f",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

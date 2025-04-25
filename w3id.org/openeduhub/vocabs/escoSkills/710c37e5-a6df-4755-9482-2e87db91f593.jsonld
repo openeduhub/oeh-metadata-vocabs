@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Betriebsfähigkeit des Fahrzeugs sicherstellen"
   },
-  "definition": {
-    "de": "Sicherstellen, dass das Fahrzeug sauber und betriebstüchtig ist. Regelmäßige Instandhaltung des Fahrzeugs und gegebenenfalls Vorlage gültiger amtlicher Dokumente, wie Lizenzen und Genehmigungen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/62c65f51-b92f-43f7-bf66-a0ae1df19ef0",
@@ -27,15 +24,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d4a4ec38-63e1-4fcf-8768-debc0dc382e8",
-      "prefLabel": {
-        "de": "Fahrzeuginnenraum reinigen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cf50be40-9a1a-4232-9f8d-b36e923e0527",
       "prefLabel": {
         "de": "Fahrzeugmotor reinigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d4a4ec38-63e1-4fcf-8768-debc0dc382e8",
+      "prefLabel": {
+        "de": "Fahrzeuginnenraum reinigen"
       }
     }
   ],
@@ -54,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

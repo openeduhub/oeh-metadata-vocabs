@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Maßnahmen zum Gesundheits- und Sicherheitsschutz im Umgang mit Tieren ergreifen"
   },
-  "definition": {
-    "de": "Schutz der Gesundheit und des Wohlergehens von Tieren und der Menschen, die mit diesen Tieren arbeiten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5bcec244-3efe-45ac-8891-0ab4a91e9c48",
+    "prefLabel": {
+      "de": "Einhaltung von Verfahren zu Sicherheit und Gesundheitsschutz"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

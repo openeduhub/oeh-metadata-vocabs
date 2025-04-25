@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Fortschritte innerhalb des künstlerischen Teams bewerten"
   },
-  "definition": {
-    "de": "Bewertung der Qualität der Arbeit der ausübenden Künstler und der Mitarbeiter. Ausarbeitung von Empfehlungen für laufende Produktionen. Bemühen um reibungslose Beziehungen und Gespräche innerhalb des Künstlerteams."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c206d301-14b0-4bea-8028-a3749303a512",
+    "prefLabel": {
+      "de": "Überwachen und Bewerten der Leistung von Personen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "auf allergische Reaktionen auf Betäubungsmittel hinweisen"
   },
-  "definition": {
-    "de": "Anleiten von ärztlichen Kollegen, Krankenpflegepersonal und Studierenden in Bezug auf Anzeichen, Symptome und Diagnosen von allergischen Reaktionen auf Anästhetika sowie in Bezug auf den Umgang mit lebensbedrohlichen Notfällen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ee2576c0-1af5-44b5-8c0c-2002541d1ccc",
+    "prefLabel": {
+      "de": "Schulung zu Gesundheits- oder medizinischen Themen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

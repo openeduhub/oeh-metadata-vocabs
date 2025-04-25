@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "technische Probleme lösen"
   },
-  "definition": {
-    "de": "Technische Probleme bei der Nutzung von Geräten und digitalen Umgebungen ermitteln und (von der Fehlersuche bis hin zur Lösung komplexerer Probleme) lösen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+      "prefLabel": {
+        "de": "IKT-Sicherheitsrisiken identifizieren"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3cfa46e9-b7da-44ac-b09e-9596dffe0425",
       "prefLabel": {
@@ -31,12 +34,6 @@
       "prefLabel": {
         "de": "IKT-Systemprobleme lösen"
       }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
-      "prefLabel": {
-        "de": "IKT-Sicherheitsrisiken identifizieren"
-      }
     }
   ],
   "exactMatch": [
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

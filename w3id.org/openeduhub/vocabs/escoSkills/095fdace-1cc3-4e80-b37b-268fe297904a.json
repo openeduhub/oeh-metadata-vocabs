@@ -9,14 +9,17 @@
       "Auditierungstätigkeiten vorbereiten"
     ]
   },
-  "definition": {
-    "de": "Erstellen eines Prüfplans, der sowohl Vorprüfungen als auch Bescheinigungsprüfungen umfasst. Kommunizieren mit den verschiedenen Prozessen zur Umsetzung der Verbesserungsmaßnahmen, die zur Zertifizierung führen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bbe62052-754d-4a4d-8789-c73b1acf2092",
       "prefLabel": {
         "de": "Prüfpläne für Schiffe erstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fb15ca73-68fb-41db-a235-0b61d7d9021e",
+      "prefLabel": {
+        "de": "zur Überprüfung von Krankenakten beitragen"
       }
     },
     {
@@ -47,7 +50,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

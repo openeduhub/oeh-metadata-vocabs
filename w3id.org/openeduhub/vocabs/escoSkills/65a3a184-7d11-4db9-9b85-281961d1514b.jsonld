@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Routineüberprüfungen an Maschinen durchführen"
   },
-  "definition": {
-    "de": "Überprüfen von Maschinen und Geräten, um eine zuverlässige Leistung beim Einsatz und Betrieb am Arbeitsplatz sicherzustellen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9b3a7918-c4f0-4f3f-9eaf-72c952d17374",
@@ -21,15 +18,21 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a2f244d-e9c7-4ac3-950d-7dc974a08e95",
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2241f73-9151-4817-96b2-b9a6aae4c9e9",
       "prefLabel": {
-        "de": "Routinewartung an Lokomotiven durchführen"
+        "de": "Anlagen in Produktionsstätten überprüfen"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f1f40210-06cf-48f8-92d4-31c4ecc48682",
       "prefLabel": {
         "de": "Routinetests für Schmieröle durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9a2f244d-e9c7-4ac3-950d-7dc974a08e95",
+      "prefLabel": {
+        "de": "Routinewartung an Lokomotiven durchführen"
       }
     },
     {
@@ -54,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Tourneen organisieren"
   },
-  "definition": {
-    "de": "Planen einer Reihe von Auftrittsterminen, Festlegen der Zeitpläne, Organisieren der Veranstaltungsorte, Unterkünfte und Reisen bei längeren Tourneen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7e8ca2c7-76b0-4083-9503-a6b82d1f01bd",
       "prefLabel": {
         "de": "den Transport von Reisegruppen organisieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66cf649e-fd1d-4840-8250-ebd546a12239",
+      "prefLabel": {
+        "de": "Produktionsanforderungen für die Entwicklung eines Produktionsplans ermitteln"
       }
     }
   ],
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Produktion kontrollieren"
   },
-  "definition": {
-    "de": "Planung, Koordinierung und Steuerung aller Produktionstätigkeiten, um sicherzustellen, dass die Waren rechtzeitig, in der korrekten Reihenfolge sowie in angemessener Qualität und Zusammensetzung produziert werden, vom Eingang bis zum Versand."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0e531bd6-7997-43c0-b042-7cec951e6ada",
@@ -31,6 +28,12 @@
       "prefLabel": {
         "de": "Eierproduktion überwachen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b3a75400-103f-42c7-b742-be11d161d05b",
+      "prefLabel": {
+        "de": "Produktionssysteme verwalten"
+      }
     }
   ],
   "broader": {
@@ -48,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

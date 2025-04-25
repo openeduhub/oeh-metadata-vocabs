@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Aktivitäten zur Gesundheitsaufklärung leiten"
   },
-  "definition": {
-    "de": "Planung, Durchführung und Bewertung von Maßnahmen und Projekten zur Gesundheitsförderung in verschiedenen Bereichen, wie Kindergarten und Schule, Arbeitsplatz und Unternehmen, soziales Lebensumfeld und medizinische Grundversorgung, insbesondere im Rahmen von Projekten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0779d482-4154-4fbb-9a22-d9fd89c39d67",
+    "prefLabel": {
+      "de": "Organisation, Planung und zeitliche Planung von Arbeiten und Tätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

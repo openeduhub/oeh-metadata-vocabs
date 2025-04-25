@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Arzthelfer/Arzthelferinnen beaufsichtigen"
   },
-  "definition": {
-    "de": "Beaufsichtigen der Arbeit von Bürokräften wie beispielsweise Arzthelfern im medizinischen Bereich, Unterstützen dieser Personen bei Verwaltungsaufgaben."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

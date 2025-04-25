@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "bei Beschäftigten Rückmeldungen einholen"
   },
-  "definition": {
-    "de": "Offene und positive Kommunikation, um zu bewerten, wie zufrieden die Beschäftigten allgemein und mit ihrem Arbeitsumfeld sind und um Probleme zu ermitteln und Lösungen zu finden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/29dcc31e-a8d6-4a62-b3c1-2de81e966e39",
+    "prefLabel": {
+      "de": "Sammeln von Informationen aus physikalischen oder elektronischen Quellen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

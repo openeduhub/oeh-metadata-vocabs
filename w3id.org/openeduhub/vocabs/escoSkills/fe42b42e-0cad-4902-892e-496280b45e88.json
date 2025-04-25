@@ -9,9 +9,6 @@
       "Tunnelbohrergeschwindigkeit bestimmen"
     ]
   },
-  "definition": {
-    "de": "Festlegung der optimalen Geschwindigkeit der Tunnelbohrmaschine auf Basis der Art des zu durchbohrenden Materials und anderer Umgebungsvariablen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4c196a43-8b0a-4d22-a158-77ea6f346093",
@@ -20,6 +17,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a96b31dd-d72a-4c89-8947-524f14a16f82",
+    "prefLabel": {
+      "de": "Betrieb von Bergbau-, Bohr- und Mineralverarbeitungsmaschinen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/fe42b42e-0cad-4902-892e-496280b45e88"
@@ -29,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

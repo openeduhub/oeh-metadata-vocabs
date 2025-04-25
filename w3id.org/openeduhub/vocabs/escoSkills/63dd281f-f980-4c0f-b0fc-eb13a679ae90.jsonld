@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Schnee räumen"
   },
-  "definition": {
-    "de": "Räumen von Straßen, Einfahrten und Gehwegen von Schnee."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07dcecd9-b629-40cf-aea9-dbd62e77f841",
@@ -15,15 +12,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/efa2e311-cea8-4ac3-a9ac-6d4c679715ae",
-      "prefLabel": {
-        "de": "Maßnahmen zur Vermeidung von Sicherheitsrisiken beim Schneeräumen anwenden"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6785b54f-c1d0-4e5c-ad8c-4aa9668b15c7",
       "prefLabel": {
         "de": "schweres Schneeräumgerät fahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/efa2e311-cea8-4ac3-a9ac-6d4c679715ae",
+      "prefLabel": {
+        "de": "Maßnahmen zur Vermeidung von Sicherheitsrisiken beim Schneeräumen anwenden"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

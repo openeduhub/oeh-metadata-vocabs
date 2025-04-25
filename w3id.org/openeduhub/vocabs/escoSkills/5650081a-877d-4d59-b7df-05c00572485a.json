@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Teamentwicklung fördern"
   },
-  "definition": {
-    "de": "Fördern von Aktivitäten zur Teamentwicklung; Coachen von Mitarbeitern, um ihnen dabei zu helfen, ihre Ziele zu erreichen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dfae80db-cf29-41e1-a48c-2bee901afff1",
+    "prefLabel": {
+      "de": "Bildung und Entwicklung von Teams"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

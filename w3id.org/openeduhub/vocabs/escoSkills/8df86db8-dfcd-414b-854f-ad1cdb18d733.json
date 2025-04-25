@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "über die Auswirkungen des Bergbaus auf die Umwelt informieren"
   },
-  "definition": {
-    "de": "Vorbereitung von Besprechungen, Vorträgen, Gesprächen mit Beteiligten und von öffentlichen Anhörungen zu Umweltfragen im Zusammenhang mit dem Bergbau."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0e0b8991-4b24-4bb8-9113-df3ce43c1ff9",
+      "prefLabel": {
+        "de": "über Umweltfragen im Bergbau beraten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/8df86db8-dfcd-414b-854f-ad1cdb18d733"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

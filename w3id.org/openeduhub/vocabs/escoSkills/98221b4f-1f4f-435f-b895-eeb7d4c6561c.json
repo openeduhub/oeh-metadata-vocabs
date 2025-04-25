@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Druckmaschinen bedienen"
   },
-  "definition": {
-    "de": "Bedienen von Maschinen für verschiedene Arten von Druckerzeugnissen, Anpassung von Schrift, Papierformat und Papierstärke. Sicherstellen der richtigen Platzierung von Ober- und Unterlängen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/113de748-7d31-4cc7-b7c8-e34cad08a225",
@@ -37,6 +34,12 @@
       "prefLabel": {
         "de": "Flexodruckmaschine bedienen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/96558031-aa47-4b56-a2d8-6eb5e3dbc52f",
+      "prefLabel": {
+        "de": "Foliendruckmaschine einstellen"
+      }
     }
   ],
   "broader": {
@@ -54,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

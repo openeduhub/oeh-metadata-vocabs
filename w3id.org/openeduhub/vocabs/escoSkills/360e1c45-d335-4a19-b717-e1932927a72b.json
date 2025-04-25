@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "Lieferung von Rohstoffen handhaben"
   },
-  "definition": {
-    "de": "Entgegennehmen von Rohstoffen von den Lieferanten. Kontrolle der Qualität und Richtigkeit der Rohstoffe sowie deren Verladen in das Lager. Sicherstellen, dass die Rohstoffe angemessen aufbewahrt werden, bis sie von der Produktionsabteilung verlangt werden."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3fcfb723-48aa-45b9-83e3-2821b67e5cf7",
-      "prefLabel": {
-        "de": "Rohstoffe bei Eingang wiegen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/38817744-8b79-47cd-bdb0-023e97ddfe6f",
       "prefLabel": {
         "de": "Den Eingang von Rohstoffen für Futtermittel steuern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3fcfb723-48aa-45b9-83e3-2821b67e5cf7",
+      "prefLabel": {
+        "de": "Rohstoffe bei Eingang wiegen"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

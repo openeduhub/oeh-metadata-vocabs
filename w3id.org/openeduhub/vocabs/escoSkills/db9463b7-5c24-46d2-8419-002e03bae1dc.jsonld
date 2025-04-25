@@ -4,8 +4,19 @@
   "prefLabel": {
     "de": "Produktivitätsziele erfüllen"
   },
-  "definition": {
-    "de": "Entwicklung von Methoden zur Ermittlung von Produktivitätssteigerungen sowie zur Anpassung der angestrebten Ziele sowie des Aufwands an Zeit- und Ressourcen."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/db76c3b6-4b3e-470a-8c5c-d8c2659305a9",
+      "prefLabel": {
+        "de": "Zielvorgaben für Transporte machen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c23e0a2f-f04b-45bc-b0dd-20571f6b502c",
+    "prefLabel": {
+      "de": "Entwicklung betrieblicher Strategien und Verfahren"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

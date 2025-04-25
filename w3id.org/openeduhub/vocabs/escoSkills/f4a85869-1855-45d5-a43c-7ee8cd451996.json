@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "IKT-Sicherheitstests durchführen"
   },
-  "definition": {
-    "de": "Durchführung verschiedener Arten von Sicherheitstests, z. B. Netzwerkpenetrationstests, Wireless-Tests, Codeüberprüfung (Code Review), Wireless- und/oder Firewall-Bewertungen, gemäß branchenanerkannten Methoden und Protokollen, um potenzielle Schwachstellen zu ermitteln und zu analysieren."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/de586dcf-d7e5-4340-bf5b-d59026f1b436",
+      "prefLabel": {
+        "de": "Werkzeug für Penetrationstests"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

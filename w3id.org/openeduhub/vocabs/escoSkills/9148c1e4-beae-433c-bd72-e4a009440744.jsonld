@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Entwicklungen in der Produktion beaufsichtigen"
   },
-  "definition": {
-    "de": "Überwachen von Parametern, um Produktion, Entwicklungen und Kosten im eigenen Zuständigkeitsbereich im Blick zu behalten."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a022bb4b-6ee0-470a-829d-10ca30284edb",
+      "prefLabel": {
+        "de": "Produktionslinie überwachen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d4acc9e9-5302-4c55-8869-7c1882887690",
       "prefLabel": {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

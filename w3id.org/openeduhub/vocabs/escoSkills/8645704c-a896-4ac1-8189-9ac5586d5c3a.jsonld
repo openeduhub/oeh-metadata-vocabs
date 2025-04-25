@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "detaillierte Arbeitszeichnungen für die Innenausstattung vorbereiten"
   },
-  "definition": {
-    "de": "Vorbereiten hinreichend detaillierter Arbeitszeichnungen oder digitaler Bilder mithilfe von Software, um eine realistische Vorschau der Innenausstattung zu vermitteln."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c2372772-70c1-4e06-b9b2-e81402d3a7c7",
+      "prefLabel": {
+        "de": "Kunden und Kundinnen über Möglichkeiten der Raumgestaltung beraten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/8645704c-a896-4ac1-8189-9ac5586d5c3a"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

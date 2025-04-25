@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Problemlösungen finden"
   },
-  "definition": {
-    "de": "Lösen von Problemen, die bei der Planung, Priorisierung, Organisation, Steuerung/Erleichterung von Maßnahmen und der Leistungsbewertung auftreten. Anwendung systematischer Verfahren für die Sammlung, Analyse und Synthese von Informationen zur Bewertung der derzeitigen Praxis und zur Gewinnung neuer Erkenntnisse über die Praxis."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3fc5a30d-d493-44ed-a2b5-ff9a50f84de3",
@@ -33,6 +30,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aca5081a-ceb0-4028-9cc5-1daafd4f86f9",
+    "prefLabel": {
+      "de": "Entwickeln von Lösungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041"
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

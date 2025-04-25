@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Sicherheitsprozeduren auf Kleinschiffen ausführen"
   },
-  "definition": {
-    "de": "Ergreifen von Notfallmaßnahmen zur medizinischen Versorgung kranker und verletzter Personen an Bord gemäß den festgelegten Verfahren zur Minimierung möglicher Verletzungen oder Krankheiten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5bcec244-3efe-45ac-8891-0ab4a91e9c48",
+    "prefLabel": {
+      "de": "Einhaltung von Verfahren zu Sicherheit und Gesundheitsschutz"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

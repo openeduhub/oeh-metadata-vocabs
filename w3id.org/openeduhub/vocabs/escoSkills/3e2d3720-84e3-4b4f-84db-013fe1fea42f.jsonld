@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Partituren studieren"
   },
-  "definition": {
-    "de": "Studieren von Partituren und Ausarbeitung verschiedener Interpretationen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4d86a331-4efc-4c2f-bd94-0ebeda54d013",
+      "prefLabel": {
+        "de": "Musical-Partituren umschreiben"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7eafec38-621a-4b6e-9298-bfe70ec0b253",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

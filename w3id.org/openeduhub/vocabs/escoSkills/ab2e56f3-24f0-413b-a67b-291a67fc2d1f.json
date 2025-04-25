@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "chemische Proben untersuchen"
   },
-  "definition": {
-    "de": "Untersuchen bereits vorbereiteter chemischer Proben mittels Prüfverfahren unter Verwendung der erforderlichen Ausrüstung und Materialien. Die Untersuchung chemischer Proben umfasst Vorgänge wie Pipettieren oder Verdünnen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89314406-22ff-4199-bd52-53c7729392b6",
       "prefLabel": {
         "de": "chemische Hilfsmittel testen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c04b66a-44d3-4d09-b26d-9088dea49855",
+      "prefLabel": {
+        "de": "Chemikalien in Entwicklungsbädern testen"
       }
     }
   ],
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

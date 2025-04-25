@@ -13,8 +13,19 @@
       "voraussichtliche Arbeitsdauer"
     ]
   },
-  "definition": {
-    "de": "Genaue Berechnung der zur Erfüllung künftiger technischer Aufgaben erforderlichen Zeit auf der Grundlage früherer und aktueller Informationen und Beobachtungen, oder Planung der geschätzten Dauer der einzelnen Aufgaben in einem gegebenen Projekt."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec",
+      "prefLabel": {
+        "de": "Terminpläne erstellen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b917784a-d7c9-437c-be6e-0de41067fa62",
+    "prefLabel": {
+      "de": "Schätzen des Ressourcenbedarfs"
+    }
   },
   "exactMatch": [
     {
@@ -25,7 +36,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -10,9 +10,6 @@
       "persönliche Verwaltungsdokumente führen"
     ]
   },
-  "definition": {
-    "de": "Organisieren und Ablegen aller Personalverwaltungsdokumente."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/74a5e8b1-dc44-4a03-b4f2-ad06966128c6",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/9df34bc3-25d4-4452-a896-4d19b94ef896"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

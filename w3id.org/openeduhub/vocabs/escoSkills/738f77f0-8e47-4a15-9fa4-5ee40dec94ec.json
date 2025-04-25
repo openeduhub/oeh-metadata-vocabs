@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Sportler managen"
   },
-  "definition": {
-    "de": "Auswahl, Einstellung und Management von Sportlern und Unterstützung des Personals, um die Einheitlichkeit der Ziele und die Einhaltung der beruflichen Standards in der gesamten Organisation zu gewährleisten"
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/994b4c8d-ae20-4ae9-9c4d-5d4554b663f8",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/738f77f0-8e47-4a15-9fa4-5ee40dec94ec"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

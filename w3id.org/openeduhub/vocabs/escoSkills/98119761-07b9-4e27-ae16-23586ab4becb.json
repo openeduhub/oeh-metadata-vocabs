@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "den Zustand von Gebäuden untersuchen"
   },
-  "definition": {
-    "de": "Überwachung und Bewertung des Zustands von Gebäuden zur Feststellung von Mängeln, Strukturschäden und sonstigen Problemen. Bewertung der allgemeinen Sauberkeit des Gebäudes, um gegebenenfalls Maßnahmen zur Grundstückspflege oder zum Erhalt des Immobilienwerts zu veranlassen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0e0a44a8-654c-4e85-986a-fb4386114838",
+    "prefLabel": {
+      "de": "Überwachung der Sicherheit"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Spamschutz einrichten"
   },
-  "definition": {
-    "de": "Installation und Konfiguration von Software zur Unterstützung von E-Mail-Nutzern, um Nachrichten herauszufiltern, die Schadsoftware enthalten oder unerwünscht sind."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/185c56ee-098f-46a1-af87-56337085da6f",
+    "prefLabel": {
+      "de": "Schützen von IKT-Geräten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

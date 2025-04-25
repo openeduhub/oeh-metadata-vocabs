@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "eine Diskussion moderieren"
   },
-  "definition": {
-    "de": "Moderieren einer inszenierten oder nicht inszenierten Diskussion zwischen zwei oder mehr Personen. Sicherstellen, dass alle Teilnehmer ihre Meinung äußern können und nicht vom Thema abschweifen. Sicherstellen, dass die Diskussion nicht außer Kontrolle gerät und dass die Teilnehmer respektvoll und höflich miteinander umgehen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/07f47dea-587c-40c0-990a-6c092cc3e6a4",
+    "prefLabel": {
+      "de": "Befragungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Programm von Sportveranstaltungen managen"
   },
-  "definition": {
-    "de": "Entwickeln von Programmen von Sportveranstaltungen durch sorgfältige Planung, Verwaltung und Bewertung, um sicherzustellen, dass jedes Programm den Bedürfnissen und Anforderungen verschiedener wichtiger Interessenträger gerecht wird."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34d2a9d8-6cc3-4e67-a7b3-f921722605a3",
+      "prefLabel": {
+        "de": "Qualität von Sportwettkämpfen bewerten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfd5ab8f-ef8a-4877-8243-ddf17ac74604",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

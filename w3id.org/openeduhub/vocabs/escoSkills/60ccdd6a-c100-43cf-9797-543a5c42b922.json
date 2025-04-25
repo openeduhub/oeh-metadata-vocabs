@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Gesundheit und Sicherheit in der Fertigung gewährleisten"
   },
-  "definition": {
-    "de": "Gewährleistung von Gesundheit und Sicherheit des Personals während des Fertigungsverfahrens."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/101d63ee-bb22-4a7c-9e0a-c2716063696a",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5bcec244-3efe-45ac-8891-0ab4a91e9c48",
+    "prefLabel": {
+      "de": "Einhaltung von Verfahren zu Sicherheit und Gesundheitsschutz"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/60ccdd6a-c100-43cf-9797-543a5c42b922"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

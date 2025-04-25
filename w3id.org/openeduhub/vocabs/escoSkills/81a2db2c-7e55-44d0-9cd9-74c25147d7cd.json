@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Testdaten auswerten"
   },
-  "definition": {
-    "de": "Auswerten und Analysieren von Testdaten, um Schlussfolgerungen, neue Erkenntnisse oder Lösungen zu formulieren."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94f2935b-b4ac-446e-9775-60b4239d016c",
@@ -15,15 +12,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
-      "prefLabel": {
-        "de": "Massendaten analysieren"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4ce06d6b-f3df-40b6-b950-570be5008032",
       "prefLabel": {
         "de": "gescannte Körperdaten analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "prefLabel": {
+        "de": "Massendaten analysieren"
       }
     },
     {
@@ -54,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

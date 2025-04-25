@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Elektrowerkzeuge verwenden"
   },
-  "definition": {
-    "de": "Bedienung elektrisch angetriebener Pumpen. Verwendung von Hand- oder Elektrowerkzeugen. Verwendung von Geräten zur Reparatur von Fahrzeugen oder von Sicherheitsausrüstung."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/74052f13-4cae-4600-a4d3-8103004683f3",
+    "prefLabel": {
+      "de": "Verwendung von Handwerkzeugen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

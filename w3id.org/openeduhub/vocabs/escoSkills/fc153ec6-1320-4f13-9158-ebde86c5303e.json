@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "mit Logistikmanagementteams zusammenarbeiten"
   },
-  "definition": {
-    "de": "Kommunikation mit dem Logistikmanagement zur Optimierung des Dienstleistungsniveaus; Optimieren der Lieferkette unter Beschränkung der Ausgaben auf ein Minimum."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8bc11ec8-90a3-4d4d-aba3-1c48c71e8fe2",
       "prefLabel": {
         "de": "unternehmensexterne Logistikdienstleister leiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe29e658-7cad-4b70-a169-10a240ec0bef",
+      "prefLabel": {
+        "de": "in einem Logistikteam arbeiten"
       }
     },
     {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

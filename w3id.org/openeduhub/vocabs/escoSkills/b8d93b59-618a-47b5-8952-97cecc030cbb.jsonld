@@ -9,9 +9,6 @@
       "Photoausrüstung auswählen"
     ]
   },
-  "definition": {
-    "de": "Auswählen der passenden Fotoausrüstung und Hintergründe entsprechend den Objekten, Materialien und Umständen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1d3a101e-227a-46a2-8295-4884c6087460",
@@ -20,6 +17,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8ddcb295-707e-459c-ba6a-66ffb37835c5",
+    "prefLabel": {
+      "de": "Bedienen von audiovisuellen Geräten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/b8d93b59-618a-47b5-8952-97cecc030cbb"
@@ -29,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

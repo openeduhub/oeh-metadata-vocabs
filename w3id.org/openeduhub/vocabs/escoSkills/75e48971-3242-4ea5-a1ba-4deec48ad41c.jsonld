@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Teamarbeit verwalten"
   },
-  "definition": {
-    "de": "Planen des Arbeitsplans einer Gruppe von Menschen, um alle Zeit- und Qualitätsanforderungen zu erfüllen. Planen, Unterstützen und Unterweisen der Mitglieder eines Teams. Liefern von Feedback an Teams und Einzelpersonen über die ausgeführten Arbeiten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1258cc12-37bb-4a12-b219-9c3d6b294533",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/75e48971-3242-4ea5-a1ba-4deec48ad41c"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -11,9 +11,6 @@
       "Photos auswählen"
     ]
   },
-  "definition": {
-    "de": "Überprüfen mehrerer Bilder und Auswählen des besten Fotos."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f68cd42c-1d67-4ca7-9b37-8f024763823d",
@@ -22,6 +19,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/485b2e3b-f883-46d8-901f-ab521d4f8e58",
+    "prefLabel": {
+      "de": "Sortieren von Materialien oder Produkten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/64e505a8-8c7a-40a4-9776-0fd5ced146fa"
@@ -31,7 +34,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

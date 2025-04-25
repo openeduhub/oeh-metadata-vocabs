@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "sich an veränderte Situationen anpassen"
   },
-  "definition": {
-    "de": "Veränderte Herangehensweise an Situationen aufgrund einer unerwarteten und plötzlichen Veränderung der Bedürfnisse und der Stimmungslage von Menschen oder von Trends; Änderung von Strategien, Improvisation und Anpassung an die jeweiligen Umstände."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2daa2d63-07ef-4c16-b0f3-697bbb6fc205",
@@ -27,6 +24,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c0733631-0c5e-4b5c-a291-aad52ca493ce",
+      "prefLabel": {
+        "de": "vorhandene Entwürfe an veränderte Umstände anpassen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f5308e60-d763-4ead-be95-88c96fb3e02b",
       "prefLabel": {
         "de": "sich an Veränderungen in Technologieentwicklungsplänen anpassen"
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

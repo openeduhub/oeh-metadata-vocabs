@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Veranstaltungen planen"
   },
-  "definition": {
-    "de": "Planen von Programmen, Tagesordnungen, Budgets und Services für eine Veranstaltung gemäß den Anforderungen der Kunden."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1d4c7049-6aa2-4e88-aeab-54fedaf14911",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/20a41697-108d-4231-b230-ea7a16a659a6",
       "prefLabel": {
         "de": "Kontakt mit Sponsoren von Veranstaltungen aufnehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/db16dabf-651e-46f5-9c72-87f93fd09a21",
+      "prefLabel": {
+        "de": "Veranstaltungen mit mehreren Themenschwerpunkten planen"
       }
     },
     {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

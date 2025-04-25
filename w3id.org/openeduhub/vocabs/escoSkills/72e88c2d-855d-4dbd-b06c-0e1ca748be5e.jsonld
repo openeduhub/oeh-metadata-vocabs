@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Entwurfskosten berechnen"
   },
-  "definition": {
-    "de": "Berechnung der Entwurfskosten, um sicherzustellen, dass das Projekt finanziell tragfähig ist."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b917784a-d7c9-437c-be6e-0de41067fa62",
+    "prefLabel": {
+      "de": "Schätzen des Ressourcenbedarfs"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

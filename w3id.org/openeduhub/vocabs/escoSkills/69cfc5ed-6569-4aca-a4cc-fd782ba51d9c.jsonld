@@ -4,22 +4,7 @@
   "prefLabel": {
     "de": "IKT-Risikomanagement durchführen"
   },
-  "definition": {
-    "de": "Entwickeln und Umsetzen von Verfahren zur Ermittlung, Bewertung, Behandlung und Minderung von IKT-Risiken, wie Hackerangriffe oder Datenlecks, entsprechend der Risikostrategie, den Verfahren und den Richtlinien des Unternehmens. Analysieren und Managen von Sicherheitsrisiken und -vorfällen. Empfehlen von Maßnahmen zur Verbesserung der Strategie für digitale Sicherheit."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c13fb093-5ffb-491a-b8b7-fa2d42a57e2e",
-      "prefLabel": {
-        "de": "Cloud-Sicherheit und Compliance implementieren"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3579208e-49b3-4ce4-98e7-20e41b1ce8d4",
-      "prefLabel": {
-        "de": "Informationssicherheitsstrategie entwickeln"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4a85869-1855-45d5-a43c-7ee8cd451996",
       "prefLabel": {
@@ -30,6 +15,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
       "prefLabel": {
         "de": "IKT-Sicherheitsrisiken identifizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c13fb093-5ffb-491a-b8b7-fa2d42a57e2e",
+      "prefLabel": {
+        "de": "Cloud-Sicherheit und Compliance implementieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3579208e-49b3-4ce4-98e7-20e41b1ce8d4",
+      "prefLabel": {
+        "de": "Informationssicherheitsstrategie entwickeln"
       }
     }
   ],
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

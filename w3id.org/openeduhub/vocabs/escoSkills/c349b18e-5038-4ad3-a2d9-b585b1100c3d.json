@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Foliendruckmaschine bedienen"
   },
-  "definition": {
-    "de": "Anbringen eines Klischees oder von Metallbuchstaben und Einschieben des Plattenhalters in den Heizabschnitt, anschließendes Beschicken der Maschine und Aufbringen einer bestimmten Folienfarbe, deren Menge angepasst werden kann. Einschalten der Maschine und Einstellen der erforderlichen Temperatur."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/499abfed-8404-4adc-9c84-922f6d4b9065",
       "prefLabel": {
         "de": "Foliendruckmaschine warten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/96558031-aa47-4b56-a2d8-6eb5e3dbc52f",
+      "prefLabel": {
+        "de": "Foliendruckmaschine einstellen"
       }
     }
   ],
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

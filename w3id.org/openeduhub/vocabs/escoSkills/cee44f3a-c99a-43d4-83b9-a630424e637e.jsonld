@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Baumfällmethoden aussuchen"
   },
-  "definition": {
-    "de": "Wählen der geeigneten Fällmethode für die Größe und den Zustand der Bäume. Einhalten der vorgegebenen Spezifikation."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/50113beb-08ca-42c4-ae2d-22106ab48a21",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c23e0a2f-f04b-45bc-b0dd-20571f6b502c",
+    "prefLabel": {
+      "de": "Entwicklung betrieblicher Strategien und Verfahren"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/cee44f3a-c99a-43d4-83b9-a630424e637e"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

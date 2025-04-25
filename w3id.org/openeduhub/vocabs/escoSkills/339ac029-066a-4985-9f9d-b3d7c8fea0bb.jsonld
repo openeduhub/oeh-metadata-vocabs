@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Mitarbeiter führen"
   },
-  "definition": {
-    "de": "Führen von Personal und unterstellten Mitarbeitern, die in einem Team oder einzeln arbeiten, um ihre Leistung und ihren Beitrag zu maximieren. Planung ihrer Arbeit und ihrer Tätigkeiten, Erteilen von Anweisungen, Motivieren und Anweisen der Mitarbeiter, damit die Unternehmensziele erreicht werden. Überwachen und Messen, wie ein Mitarbeiter seine Aufgaben wahrnimmt und wie gut diese Tätigkeiten ausgeführt werden. Ermittlung von verbesserungswürdigen Bereichen und Unterbreiten von Vorschlägen, wie dies erreicht werden kann. Leiten einer Gruppe von Menschen, um ihnen dabei zu helfen, Ziele zu erreichen und eine effektive Arbeitsbeziehung zwischen den Mitarbeitern aufrechtzuerhalten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0005c151-5b5a-4a66-8aac-60e734beb1ab",
@@ -18,6 +15,18 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f351347-3117-417a-b372-7e58d28dce07",
       "prefLabel": {
         "de": "Personal von Kunsteinrichtungen verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f3ac478-54fa-4305-b077-50e3c0baeb8c",
+      "prefLabel": {
+        "de": "mit physiotherapeutischem Personal umgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2c16803f-3d2e-4c4d-84c3-c1d82243abc5",
+      "prefLabel": {
+        "de": "chiropraktisches Personal leiten"
       }
     },
     {
@@ -45,6 +54,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1dea2f3a-857c-4fc3-b1f8-d5f2015c46a9",
+      "prefLabel": {
+        "de": "dem Personal Anweisungen erteilen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d763af4e-9132-4596-a537-6a82410169ce",
       "prefLabel": {
         "de": "Mitarbeiterüberprüfungen durchführen"
@@ -54,6 +69,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/263782c1-c65d-458a-ae67-8526ccf214f5",
       "prefLabel": {
         "de": "landwirtschaftliches Personal leiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/538b91e8-565c-4483-bf97-6ff120e207a7",
+      "prefLabel": {
+        "de": "Küchenpersonal anweisen"
       }
     },
     {
@@ -78,7 +99,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

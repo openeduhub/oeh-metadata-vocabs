@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Community-Art-Projekte leiten"
   },
-  "definition": {
-    "de": "Ausarbeiten und Bereitstellen partizipativer Community-Art-Projekte zum Schutz der eigenen Gesundheit und Sicherheit und die der Teilnehmer, um die wirksamsten Lerneffekte zu erzielen. Berücksichtigung der gesamten Erfahrung aus der Kunstaktion."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/08edeccc-524f-40ff-8107-2ca973779c83",
       "prefLabel": {
         "de": "eine Vorbildrolle in der Community Art spielen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a5c20674-0471-45fa-8055-8d1d81aed0c4",
+      "prefLabel": {
+        "de": "mit Vertretern führender Community Art Projekte zusammenarbeiten"
       }
     },
     {
@@ -21,12 +24,24 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94822a19-48d6-46f6-a053-c03f1b3b62ac",
+      "prefLabel": {
+        "de": "Ressourcen von Community-Art-Programmen evaluieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ff755c48-8597-4735-98ef-bc6081072c86",
       "prefLabel": {
         "de": "die eigenen Kompetenzen bei der Leitung von Community-Art-Projekten beurteilen"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/87dff904-fb74-4d59-972e-1c2387579d94",
+    "prefLabel": {
+      "de": "Leitung betrieblicher Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/545f6585-58bc-4ca7-b1b4-1d33fb3664db"
@@ -36,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

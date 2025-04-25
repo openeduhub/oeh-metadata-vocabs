@@ -4,14 +4,29 @@
   "prefLabel": {
     "de": "geschäftliche Verträge schließen"
   },
-  "definition": {
-    "de": "Handels- und Geschäftsdokumente wie Verträge, Geschäftsvereinbarungen, Urkunden, Käufe und Testamente sowie Wechsel aushandeln, überarbeiten und unterzeichnen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/599a908b-83be-4822-afa2-a5a30f668771",
       "prefLabel": {
         "de": "Auktionsvereinbarung aufsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/811acf0c-4dd7-4dda-a4fa-7ca498a95204",
+      "prefLabel": {
+        "de": "Arbeitsverträge aushandeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/098498a8-d57f-4ddd-b5bf-16e46475e768",
+      "prefLabel": {
+        "de": "mit wichtigen Interessenträgern in der Automobileinzelhandelsbranche verhandeln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/70475d94-c3e3-453d-a120-4ff6b6c6141e",
+      "prefLabel": {
+        "de": "Mietverträge verwalten"
       }
     }
   ],
@@ -30,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

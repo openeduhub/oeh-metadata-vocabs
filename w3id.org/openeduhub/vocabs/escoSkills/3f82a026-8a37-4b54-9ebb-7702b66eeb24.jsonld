@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Umweltuntersuchungen durchführen"
   },
-  "definition": {
-    "de": "Bedarfsabhängige Durchführung von Umweltprüfungen, Überprüfung von behördlichen Verfahren, möglichen rechtlichen Schritten oder anderen Arten von Beschwerden."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2c8199c8-4e40-49b3-b878-caee6e1c1bc0",
+      "prefLabel": {
+        "de": "Ermittlungen bei Umweltverschmutzung anstellen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4376e35-add7-43a0-8b2e-f5741f0df8fe",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

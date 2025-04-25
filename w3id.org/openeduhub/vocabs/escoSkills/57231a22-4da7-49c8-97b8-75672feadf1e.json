@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "quantitative Daten verwalten"
   },
-  "definition": {
-    "de": "Erfassung, Verarbeitung und Darstellung quantitativer Daten. Einsatz geeigneter Programme und Methoden zur Validierung, Organisation und Interpretation von Daten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/03aa85d2-9a67-455f-b901-595e685afdd2",
@@ -30,6 +27,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1f93c055-43a9-4593-a8c7-4cde2ebf2081",
       "prefLabel": {
         "de": "zahnmedizinische Instrumente testen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/75719644-f285-4060-b42b-9ed9c4a70375",
+      "prefLabel": {
+        "de": "biomedizinische Analyseresultate überprüfen"
       }
     },
     {
@@ -72,12 +75,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/669edd06-1de6-4d01-8029-3e64a3754001",
       "prefLabel": {
         "de": "Modelle für Wettervorhersage entwickeln"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/75719644-f285-4060-b42b-9ed9c4a70375",
-      "prefLabel": {
-        "de": "biomedizinische Analyseresultate überprüfen"
       }
     },
     {
@@ -195,6 +192,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e135f4ad-2eed-448c-8f39-beb44238177c",
+      "prefLabel": {
+        "de": "Gendaten evaluieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ed5bbc64-7017-4e2e-b44e-65df88013a84",
       "prefLabel": {
         "de": "Informationssysteme analysieren"
@@ -249,6 +252,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6a7fc30d-af16-4cc5-a957-29d174bdb61c",
+    "prefLabel": {
+      "de": "Verwaltung, Sammlung und Speicherung digitaler Daten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/57231a22-4da7-49c8-97b8-75672feadf1e"
@@ -258,7 +267,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

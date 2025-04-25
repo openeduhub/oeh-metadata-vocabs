@@ -4,23 +4,32 @@
   "prefLabel": {
     "de": "Kunstverleih organisieren"
   },
-  "definition": {
-    "de": "Evaluierung, Genehmigung oder Ablehnung von Geschäftskrediten, Immobilienkrediten oder Bankkrediten. Weiterverfolgung des Kreditstatus und Beratung der Kreditnehmer in Bezug auf den finanziellen Status und die Zahlungsmethoden."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/872bde22-f1c4-4416-8e3e-f2813312e81b",
-      "prefLabel": {
-        "de": "Darlehensanträge verwalten"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5ef628ac-c5a1-4150-a115-f864343dcb24",
       "prefLabel": {
         "de": "Verwaltung von Leihobjekten managen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7236d0d1-127f-4307-a7d4-9730ee8a9167",
+      "prefLabel": {
+        "de": "Darlehensbedingungen bestimmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/872bde22-f1c4-4416-8e3e-f2813312e81b",
+      "prefLabel": {
+        "de": "Darlehensanträge verwalten"
+      }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/193af349-b20e-4277-94bf-b184e92b8d6a",
+    "prefLabel": {
+      "de": "Verwaltung von Haushalten oder Finanzen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/ed0acb70-1077-4005-a611-fdc4f6942ef5"
@@ -30,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "IKT-Geräte schützen"
   },
-  "definition": {
-    "de": "Schutz von IKT-Geräten und digitalen Inhalten sowie Kenntnis der Risiken und Bedrohungen in einem digitalen Umfeld. Kenntnis der Schutz- und Sicherheitsmaßnahmen und gebührende Beachtung der Zuverlässigkeit und der Privatsphäre. Einsatz von Instrumenten und Methoden zur Maximierung der Sicherheit von IKT-Geräten und -Informationen durch Zugangskontrollen, z. B. durch Passwörter, digitale Signaturen, Biometrie oder durch Schutzvorkehrungen wie Firewall-, Antivirus- und Spamfiltersysteme."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4913d0c0-133a-4c46-aac3-f5d4989a982e",
+      "prefLabel": {
+        "de": "Produktnutzungs-Risikobewertung"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dd1e0bc8-d54a-435a-bc43-586bac0b8c02",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

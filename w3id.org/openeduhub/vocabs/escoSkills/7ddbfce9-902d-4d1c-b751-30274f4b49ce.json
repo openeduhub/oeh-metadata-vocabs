@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Beweise dokumentieren"
   },
-  "definition": {
-    "de": "Dokumentieren aller Beweise, die im Zuge einer Ermittlung am Tatort gefunden oder in einer Verhandlung vorgelegt wurden, im Einklang mit den Rechtsvorschriften, um sicherzustellen, dass keine Beweismittel in einem Fall unberücksichtigt bleiben und dass Aufzeichnungen geführt werden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b975836b-d9b9-4724-88da-9a82b856e74b",
+    "prefLabel": {
+      "de": "Aufzeichnung rechtlicher Informationen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

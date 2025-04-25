@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "Einhaltung der Umweltschutzvorschriften gewährleisten"
   },
-  "definition": {
-    "de": "Überwachen der Tätigkeiten und Erfüllen von Aufgaben zur Gewährleistung der Einhaltung von Standards in Bezug auf Umweltschutz und Nachhaltigkeit, sowie Anpassen der Tätigkeiten im Falle von Änderungen an den Umweltvorschriften. Sicherstellen, dass die Prozesse mit den Umweltvorschriften und bewährten Verfahren im Einklang stehen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1ee7d019-9226-4844-925f-a8a8c4db3444",
-      "prefLabel": {
-        "de": "Umweltmaßnahmen des Flughafens koordinieren"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/507e2b21-1285-47e9-bf09-0db794df1bf0",
       "prefLabel": {
@@ -27,9 +18,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f66b2fc3-2952-41e5-89bf-a9157ea29420",
+      "prefLabel": {
+        "de": "Einhaltung der Umweltgesetzgebung im Bereich Lebensmittelproduktion sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1ee7d019-9226-4844-925f-a8a8c4db3444",
+      "prefLabel": {
+        "de": "Umweltmaßnahmen des Flughafens koordinieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/27273605-2400-4392-a6d6-cc8161a2d445",
       "prefLabel": {
         "de": "Konformität mit Rechtsvorschriften für Abfälle sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/59004ee8-3975-4877-bf82-ff0b8070ef28",
+      "prefLabel": {
+        "de": "Pläne für Umweltmaßnahmen umsetzen"
       }
     }
   ],
@@ -42,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "digitale Identität verwalten"
   },
-  "definition": {
-    "de": "Erstellung und Verwaltung einer oder mehrerer digitaler Identitäten; Fähigkeit, die eigene Reputation zu schützen; Umgang mit den Daten, die durch mehrere digitale Werkzeuge, Umgebungen und Dienste erzeugt werden."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+      "prefLabel": {
+        "de": "IKT-Sicherheitsrisiken identifizieren"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/097c6a36-f031-4d3e-b5c1-62d6ffcb430b",
       "prefLabel": {
         "de": "Grundsätze des Datenschutzes respektieren"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/71717c33-dd63-4acf-b052-a5fd5d9fc490",
-      "prefLabel": {
-        "de": "Datenschutz gewährleisten"
       }
     },
     {
@@ -27,12 +24,18 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/71717c33-dd63-4acf-b052-a5fd5d9fc490",
       "prefLabel": {
-        "de": "IKT-Sicherheitsrisiken identifizieren"
+        "de": "Datenschutz gewährleisten"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/574257ea-7b64-4100-b7b6-e27c233fe143",
+    "prefLabel": {
+      "de": "digitale Kommunikation und Zusammenarbeit"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97"
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

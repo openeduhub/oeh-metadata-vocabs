@@ -11,14 +11,17 @@
       "die Notfallevakuierung organisieren"
     ]
   },
-  "definition": {
-    "de": "Verwalten von Notfallplänen, die eine sichere und rasche Evakuierung ermöglichen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a",
       "prefLabel": {
         "de": "Notfallpläne ausarbeiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a7b9e3cd-cd39-4ea1-b617-3f5b651fd535",
+      "prefLabel": {
+        "de": "Notfallübungen unter realen Bedingungen durchführen"
       }
     }
   ],
@@ -31,7 +34,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

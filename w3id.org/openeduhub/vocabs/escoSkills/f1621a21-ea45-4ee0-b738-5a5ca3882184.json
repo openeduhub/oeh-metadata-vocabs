@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Rechtstitelverfahren überwachen"
   },
-  "definition": {
-    "de": "Überwachung der Gesamtheit der Rechte an einer Immobile und Einholen von Erkundigungen über alle am laufenden Verfahren beteiligten Parteien, wie die Übertragung einer Urkunde in die Übertragung von Eigentumsrechten an einer Immobilie oder die Vorlage aller Dokumente, die als Beweisurkunde über Eigentumsrechte dienen, um sicherzustellen, dass alle Unterlagen und Verfahren den Rechtsvorschriften und vertraglichen Vereinbarungen entsprechen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c2d5780-23ed-4372-bb8d-c1846ee404ae",
+    "prefLabel": {
+      "de": "Überwachung finanzieller und wirtschaftlicher Ressourcen und Tätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

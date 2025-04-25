@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Handelspapiere für Ein- und Ausfuhren erstellen"
   },
-  "definition": {
-    "de": "Sicherstellen der Fertigstellung amtlicher Dokumente wie Akkreditive, Versandaufträge und Herkunftsbescheinigungen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e62e776-fbfa-486c-a6df-58cd239c86fe",
+    "prefLabel": {
+      "de": "Verfassen technischer Dokumentation oder akademischer Schriften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

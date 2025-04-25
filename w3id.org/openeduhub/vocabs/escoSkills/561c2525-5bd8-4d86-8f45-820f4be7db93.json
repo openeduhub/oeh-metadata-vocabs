@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Testergebnisse melden"
   },
-  "definition": {
-    "de": "Berichterstattung von Testergebnissen mit Schwerpunkt auf Feststellungen und Empfehlungen, wobei die Ergebnisse nach Schweregrad zu differenzieren sind. Beifügen einschlägiger Informationen aus dem Prüfplan und Beschreibung der Prüfmethoden anhand von Parametern, Tabellen und visuellen Methoden, um erforderlichenfalls Sachverhalte klarzustellen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8dcc1c68-1ebe-412b-b437-cab3c26da509",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/95bf4552-6d5b-41dc-b990-53ace372f705",
+    "prefLabel": {
+      "de": "Dokumentation von technischen Entwürfen, Verfahren, Problemen oder Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/561c2525-5bd8-4d86-8f45-820f4be7db93"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

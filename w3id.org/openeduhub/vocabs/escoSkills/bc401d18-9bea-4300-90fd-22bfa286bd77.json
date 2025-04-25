@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "sozial gerechte Arbeitsprinzipien anwenden"
   },
-  "definition": {
-    "de": "Arbeiten nach Verwaltungs- und Organisationsgrundsätzen und Werten, die auf Menschenrechte und soziale Gerechtigkeit ausgerichtet sind."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+      "prefLabel": {
+        "de": "Inklusion vorantreiben"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/802deca0-b880-4d1a-b366-e13b27621baf",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Proben zum Analysieren sammeln"
   },
-  "definition": {
-    "de": "Entnahme von Material- oder Produktproben für Laboranalysen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aca0ed11-96f2-43b0-850f-93503565d949",
       "prefLabel": {
         "de": "Proben von Tieren entnehmen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ed8e99d5-68c0-4f1b-8356-8fa963f6d75f",
+      "prefLabel": {
+        "de": "bei der Entnahme von Blutproben assistieren"
       }
     },
     {
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

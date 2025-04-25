@@ -9,9 +9,14 @@
       "Qualitätskontrolle für die Vormontage durchführen"
     ]
   },
-  "definition": {
-    "de": "Kontrollieren der Produktbestandteile auf Fehler oder Schäden, erforderlichenfalls mithilfe von Prüfgeräten, und Überprüfen der erhaltenen Charge auf Vollständigkeit vor der Montage der fertigen Produkte."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a93011ca-e6ab-4182-8a05-4d4b282cff27",
+      "prefLabel": {
+        "de": "Qualität der Rohstoffe überprüfen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b3930a2-8a13-4932-8a09-4c72ec8af464",
     "prefLabel": {
@@ -27,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

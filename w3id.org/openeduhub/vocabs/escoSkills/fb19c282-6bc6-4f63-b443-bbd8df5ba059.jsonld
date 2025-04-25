@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Sicherheit an bemannten Einfahrtstoren bzw. Zugangstüren beaufsichtigen"
   },
-  "definition": {
-    "de": "Sicherstellen, dass Überwachungstätigkeiten an bemannten Einfahrtstoren oder Zugangstüren so effizient wie möglich durchgeführt werden."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0a74ff59-62a8-4942-9063-10fea819e19a",
@@ -27,6 +24,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0e0a44a8-654c-4e85-986a-fb4386114838",
+    "prefLabel": {
+      "de": "Überwachung der Sicherheit"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/fb19c282-6bc6-4f63-b443-bbd8df5ba059"
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

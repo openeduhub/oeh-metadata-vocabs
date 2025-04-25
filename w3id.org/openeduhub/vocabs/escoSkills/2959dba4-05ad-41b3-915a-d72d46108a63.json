@@ -9,9 +9,14 @@
       "elektrische Haushaltsgeräte installieren"
     ]
   },
-  "definition": {
-    "de": "Anschließen elektrischer Geräte, z. B. Geschirrspüler, Backöfen und Kühlschränke, an das Stromnetz und Herstellen elektrischer Verbindungen, um gefährliche Potenzialdifferenzen zu vermeiden. Funktionsprüfung der Anlage."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/30907443-4253-4477-a758-5e2c0d6feb72",
+      "prefLabel": {
+        "de": "Beratung über die Installation von elektrischen Haushaltsgeräten leisten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a7065828-10aa-4aba-b7d4-f23a30df5060",
     "prefLabel": {
@@ -27,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Organisation oder Unternehmen vertreten"
   },
-  "definition": {
-    "de": "Als Vertreter der Institution, des Unternehmens oder der Organisation nach außen tätig sein."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1d506c5e-a81c-4d18-a552-c24551acbff5",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/088c1b82-a759-442e-bb78-128c3ee3a3a8",
       "prefLabel": {
         "de": "eine künstlerische Produktion repräsentieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/43268a87-8280-4e3f-bf97-97dc973d60ef",
+      "prefLabel": {
+        "de": "das Unternehmen vertreten"
       }
     }
   ],
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

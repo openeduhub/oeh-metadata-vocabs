@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Tätigkeiten im Weinkeller leiten"
   },
-  "definition": {
-    "de": "Leitung und Beaufsichtigung des täglichen Kellerbetriebs, Abwicklung von Arbeitsaufträgen. Verwaltung von Keller- und Getränkelagerverfahren gemäß den geltenden Rechtsvorschriften und den Organisationsrichtlinien."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/95f88b4e-1326-4d50-8659-60d6e8662b22",
@@ -15,15 +12,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d58f5962-b014-41ea-943b-3d1f86076781",
-      "prefLabel": {
-        "de": "Bestand von Weinkellern verwalten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3658e07d-b459-4393-a9a8-fe83bce4815c",
       "prefLabel": {
         "de": "Weinkellerbestände verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d58f5962-b014-41ea-943b-3d1f86076781",
+      "prefLabel": {
+        "de": "Bestand von Weinkellern verwalten"
       }
     }
   ],
@@ -42,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

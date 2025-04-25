@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Mitarbeitervergünstigungen berechnen"
   },
-  "definition": {
-    "de": "Berechnen der Leistungen, auf die die mit der Organisation verbundenen Personen (z. B. Arbeitnehmer/innen oder Rentner/innen) Anspruch haben, unter Berücksichtigung der jeweiligen personenbezogenen Angaben und der Wechselwirkung zwischen staatlichen Leistungen und Leistungen, die sich beispielsweise aus Beschäftigungszeiten ergeben."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f5f15f9c-6334-4728-8dc5-3a20a00dfc37",
+    "prefLabel": {
+      "de": "Durchführen von Berechnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

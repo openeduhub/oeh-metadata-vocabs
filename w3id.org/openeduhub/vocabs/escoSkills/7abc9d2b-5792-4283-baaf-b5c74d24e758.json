@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "fortdauernd am Tanztraining teilnehmen"
   },
-  "definition": {
-    "de": "Teilnehmen an Trainingseinheiten und -kursen, um ein Höchstmaß an technischen Fertigkeiten, körperlicher Leistungsfähigkeit und körperlicher Fitness zu gewährleisten. Identifizieren der Arbeitsanforderungen, die das Trainingsziel bestimmen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/39beb3af-9314-4b17-aa57-449cc70d3d9c",
-      "prefLabel": {
-        "de": "Tanzbewegungen ausführen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9566c2fa-86d5-4746-8563-40cf64526539",
       "prefLabel": {
         "de": "körperliche Übungen für künstlerische Aufführungen absolvieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/39beb3af-9314-4b17-aa57-449cc70d3d9c",
+      "prefLabel": {
+        "de": "Tanzbewegungen ausführen"
       }
     },
     {
@@ -42,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

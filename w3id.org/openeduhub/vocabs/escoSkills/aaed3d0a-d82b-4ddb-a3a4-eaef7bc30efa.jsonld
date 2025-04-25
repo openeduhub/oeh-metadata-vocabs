@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "für Kinder riskantes Verhalten melden"
   },
-  "definition": {
-    "de": "Melden von riskantem Verhalten von Kindern an Eltern, Aufsichtspersonen oder Schulmitarbeiter/Schulmitarbeiterinnen, je nach Ort oder Situation."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/20136935-e6a1-417b-81df-9b94d4c2c371",
+    "prefLabel": {
+      "de": "Melden von Zwischenfällen und Defekten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

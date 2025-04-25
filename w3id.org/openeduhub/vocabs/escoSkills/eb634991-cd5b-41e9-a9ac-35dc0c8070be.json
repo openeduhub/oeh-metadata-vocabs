@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Hunde schulen"
   },
-  "definition": {
-    "de": "Abrichten von Hunden, damit sie den Befehlen ihrer Halter gehorchen. Verwendung unterschiedlicher Methoden, z. B. Clickertraining oder beziehungsbasiertes oder dominanzbasiertes Training, um das gewünschte Verhalten beim Hund herbeizuführen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d0f18691-12e8-4a00-9d22-a9537f79cdfe",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/77a2918f-5969-4545-a632-d3e6a853b2c5",
+    "prefLabel": {
+      "de": "Trainieren von Tieren"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/eb634991-cd5b-41e9-a9ac-35dc0c8070be"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

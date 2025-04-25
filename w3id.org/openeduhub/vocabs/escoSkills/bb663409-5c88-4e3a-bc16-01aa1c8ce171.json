@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "Gesundheits- und Sicherheitsverfahren planen"
   },
-  "definition": {
-    "de": "Einführen von Verfahren zur Erhaltung und Verbesserung von Gesundheit und Sicherheit in einer Einrichtung oder am Arbeitsplatz."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15725b82-9608-4579-abdf-adf91982dad9",
-      "prefLabel": {
-        "de": "Gesundheit- und Sicherheitsstrategien im Bergbau entwickeln"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f9e42732-d143-465d-bc9e-b27758537725",
       "prefLabel": {
         "de": "Sicherheitsvorschriften festlegen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15725b82-9608-4579-abdf-adf91982dad9",
+      "prefLabel": {
+        "de": "Gesundheit- und Sicherheitsstrategien im Bergbau entwickeln"
       }
     },
     {
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

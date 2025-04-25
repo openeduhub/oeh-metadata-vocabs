@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Schadensrisiko von Nutzern/Nutzerinnen des Gesundheitssystems beurteilen"
   },
-  "definition": {
-    "de": "Beurteilen, ob die Nutzer/innen des Gesundheitswesens möglicherweise eine Gefahr für sich selbst oder für andere darstellen. Eingreifen, um das Risiko zu minimieren und Präventionsmethoden anwenden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
+    "prefLabel": {
+      "de": "Stellen medizinischer Diagnosen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

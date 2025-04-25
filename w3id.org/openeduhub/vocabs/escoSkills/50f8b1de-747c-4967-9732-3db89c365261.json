@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "chemische Experimente durchführen"
   },
-  "definition": {
-    "de": "Durchführung chemischer Experimente mit dem Ziel, verschiedene Produkte und Substanzen zu testen, um Schlussfolgerungen in Bezug auf die Lebensfähigkeit und Reproduzierbarkeit von Produkten zu ziehen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89314406-22ff-4199-bd52-53c7729392b6",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ab2e56f3-24f0-413b-a67b-291a67fc2d1f",
       "prefLabel": {
         "de": "chemische Proben untersuchen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c04b66a-44d3-4d09-b26d-9088dea49855",
+      "prefLabel": {
+        "de": "Chemikalien in Entwicklungsbädern testen"
       }
     }
   ],
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

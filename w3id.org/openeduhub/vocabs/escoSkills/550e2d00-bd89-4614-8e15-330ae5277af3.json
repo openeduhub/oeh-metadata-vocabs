@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Bewerber/innen beurteilen"
   },
-  "definition": {
-    "de": "Bewertung der beruflichen Kompetenzen, Fähigkeiten und Kenntnisse der Bewerber/innen anhand von Tests, Gesprächen, Simulationen und Nachweisen über Vorkenntnisse nach einem vorab festgelegten Standard oder Verfahren. Formulieren zusammenfassender Aussagen über die vorgewiesenen Kompetenzen im Vergleich zu den gesetzten Erwartungen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cb65d537-9a5e-4e73-914f-f4ed2b67301c",
+      "prefLabel": {
+        "de": "Fragetechniken zur Beurteilung einsetzen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c206d301-14b0-4bea-8028-a3749303a512",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

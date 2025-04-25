@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Artikel während einer Auktion präsentieren"
   },
-  "definition": {
-    "de": "Auktionsgegenstände beschreiben; relevante Informationen zur Verfügung stellen und die Geschichte und den Wert des Artikels erörtern, um zum Anbieten anzuspornen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cdb2aecd-9dca-48fd-8d56-f0aace3ab5a9",
+    "prefLabel": {
+      "de": "Präsentation allgemeiner Informationen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

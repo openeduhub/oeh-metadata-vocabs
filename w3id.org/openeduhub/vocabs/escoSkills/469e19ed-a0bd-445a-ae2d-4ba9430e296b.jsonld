@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "für Nachhaltigkeit werben"
   },
-  "definition": {
-    "de": "Förderung des Nachhaltigkeitskonzepts unter Bürgern, Kollegen und Fachkollegen durch Vorträge, Führungen, Anschauungsmaterial und Workshops."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1a6c7e0d-fc13-41d7-a5c0-8ca00606de89",
@@ -21,9 +18,21 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6742977a-aa00-4c8c-9861-898b0373907e",
+      "prefLabel": {
+        "de": "Beratung über nachhaltige Managementmaßnahmen leisten"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6962058d-9808-4820-a6bc-d7cabce60cde",
       "prefLabel": {
         "de": "nachhaltigen Beschaffung umsetzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9263f0d8-7266-4782-b0ee-38f62656e97e",
+      "prefLabel": {
+        "de": "nachhaltige Raumgestaltung fördern"
       }
     }
   ],
@@ -42,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

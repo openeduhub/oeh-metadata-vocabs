@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Zeitabläufe in Ofenbetrieb managen"
   },
-  "definition": {
-    "de": "Verwalten und Einhalten der Zeitabläufe im Ofenbetrieb, um eine rechtzeitige Fertigstellung der Abläufe sicherzustellen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bdf2aa76-360d-429d-a967-bdb691f241fa",
+    "prefLabel": {
+      "de": "Betrieb von Kilns, Schmelzöfen und Trockeneinrichtungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

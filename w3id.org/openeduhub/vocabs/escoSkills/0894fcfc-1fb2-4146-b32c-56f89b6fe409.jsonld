@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Wasserversorgungsplan befolgen"
   },
-  "definition": {
-    "de": "Anpassen der Abläufe zur Verteilung und Bereitstellung von Wasser für Bewässerungszwecke sowie für den Wohn- und Anlagengebrauch, um sicherzustellen, dass der zeitliche Ablauf stimmt und der Versorgungsplan eingehalten wird."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/87dff904-fb74-4d59-972e-1c2387579d94",
+    "prefLabel": {
+      "de": "Leitung betrieblicher Tätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

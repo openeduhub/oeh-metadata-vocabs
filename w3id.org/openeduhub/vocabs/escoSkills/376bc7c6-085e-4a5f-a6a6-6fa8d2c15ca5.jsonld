@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Verfahrensanweisungen aktualisieren"
   },
-  "definition": {
-    "de": "Aktualisieren der Verfahrensanweisungen des Flughafens."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a6c3bda0-c759-495e-b2c5-062b3abe2097",
+    "prefLabel": {
+      "de": "Umsetzung neuer Verfahren oder Prozesse"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

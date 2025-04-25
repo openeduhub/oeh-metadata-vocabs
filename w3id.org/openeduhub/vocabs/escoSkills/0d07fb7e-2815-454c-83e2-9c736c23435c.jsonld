@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Betriebsvorgänge am Kai koordinieren"
   },
-  "definition": {
-    "de": "Koordinieren von Frachtsendungen am Kai. Positionieren der Kräne und Zusammenstellen der Container zu Sendungen unter Berücksichtigung der genauen Abmessungen und des Gewichts jedes Containers."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/03d988af-2e63-4151-bb5e-950f366e2c64",
+      "prefLabel": {
+        "de": "Schiffe in Hafenbecken leiten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/0d07fb7e-2815-454c-83e2-9c736c23435c"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

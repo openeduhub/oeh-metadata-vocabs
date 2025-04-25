@@ -9,8 +9,11 @@
       "Dokumentation in Form von Chargenprotokollen erstellen"
     ]
   },
-  "definition": {
-    "de": "Verfassen von Berichten über die Geschichte der hergestellten Chargen unter Berücksichtigung der Rohdaten, der durchgeführten Tests und der Einhaltung der guten Herstellungspraxis für jede Charge des Produkts."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
   },
   "exactMatch": [
     {
@@ -21,7 +24,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

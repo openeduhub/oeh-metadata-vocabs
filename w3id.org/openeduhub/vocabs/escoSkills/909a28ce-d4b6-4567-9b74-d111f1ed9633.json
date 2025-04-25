@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Plan zur Betriebskontinuität pflegen"
   },
-  "definition": {
-    "de": "Aktualisierung der Methodik, mit der sichergestellt wird, dass die Einrichtungen einer Organisation im Falle zahlreicher unvorhergesehener Ereignisse ihre Tätigkeit fortsetzen können."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/164510d1-1216-4dc0-b9d1-a7f6af19e469",
+    "prefLabel": {
+      "de": "Entwicklung von Notfall- und Notfallmaßnahmenplänen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

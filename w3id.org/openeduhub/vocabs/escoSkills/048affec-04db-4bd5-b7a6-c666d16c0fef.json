@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Fracht verladen"
   },
-  "definition": {
-    "de": "Zusammenstellen der zu befördernden Güter und Einladen dieser Güter in ein Transportfahrzeug."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3ab2b4be-e304-4c3c-98f5-ce0620218bc6",
@@ -27,15 +24,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a21689e-3f98-4284-8501-6e9b053262c9",
-      "prefLabel": {
-        "de": "Schiffe mit Fracht beladen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bef10363-ecf2-4a24-a34b-fce99e6d3f71",
       "prefLabel": {
         "de": "Fracht stauen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a21689e-3f98-4284-8501-6e9b053262c9",
+      "prefLabel": {
+        "de": "Schiffe mit Fracht beladen"
       }
     }
   ],
@@ -54,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

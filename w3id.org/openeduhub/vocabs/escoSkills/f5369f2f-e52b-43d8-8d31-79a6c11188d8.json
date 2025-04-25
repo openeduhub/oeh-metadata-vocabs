@@ -10,10 +10,19 @@
       "Erstellung von Inhalten mit IKT-Software"
     ]
   },
-  "definition": {
-    "de": "Erstellen und Bearbeiten neuer Inhalte (von der Textverarbeitung zu Bildern und Videos); Integrieren und Neuausarbeiten früherer Kenntnisse und Inhalte; Erstellen kreativer Ausdrücke, Medienbeiträge und Programmpläne; Umgang mit und Anwendung von Rechten des geistigen Eigentums und Lizenzen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "prefLabel": {
+        "de": "Computerprogrammierung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a91732ce-988e-4105-9570-f425c6ffdc82",
+      "prefLabel": {
+        "de": "Regelung des geistigen Eigentums an digitalen Inhalten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5af49836-2269-46d9-87b9-0d3140c6c22e",
       "prefLabel": {
@@ -42,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Beratung in persönlichen Angelegenheiten leisten"
   },
-  "definition": {
-    "de": "Menschen zu Liebes- und Ehethemen, Geschäfts- und Beschäftigungsmöglichkeiten, Gesundheit oder anderen persönlichen Aspekten beraten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d6a8a2a4-4e21-4ea6-b267-b5c63e687cfd",
+    "prefLabel": {
+      "de": "Beratung in persönlichen, familiären oder sozialen Fragen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

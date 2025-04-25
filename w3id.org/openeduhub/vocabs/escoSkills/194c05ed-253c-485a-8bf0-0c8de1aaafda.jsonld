@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Arbeitsplan folgen"
   },
-  "definition": {
-    "de": "Die Abfolge der Tätigkeiten zur fristgerechten Durchführung von Arbeiten verwalten, indem einem Arbeitsplan gefolgt wird."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e6230dc-c749-4ff1-943c-5bac017f37de",
@@ -51,6 +48,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0779d482-4154-4fbb-9a22-d9fd89c39d67",
+    "prefLabel": {
+      "de": "Organisation, Planung und zeitliche Planung von Arbeiten und Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda"
@@ -60,7 +63,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

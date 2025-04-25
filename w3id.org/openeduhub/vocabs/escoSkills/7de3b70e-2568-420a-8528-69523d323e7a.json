@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "präzise Zeiterfassung durchführen"
   },
-  "definition": {
-    "de": "Messen des Verlaufs der Zeit, oft mithilfe einer Uhr oder Stoppuhr."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/347aa7ee-b640-41cc-ae7c-3c5eafda9fda",
+    "prefLabel": {
+      "de": "Messung physikalischer Eigenschaften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "klinische zahnärztliche Untersuchungen durchführen"
   },
-  "definition": {
-    "de": "Durchführung einer umfassenden Untersuchung von Zähnen und Zahnfleisch des Patienten/der Patientin, Beschaffung von Daten mithilfe von klinischen, Röntgen- und Zahnfleischuntersuchungen, aus Zahndiagrammen und über andere Methoden, um den Bedarf des Patienten/der Patientin zu bestimmen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9d06f8f0-5edd-491f-b3c9-e531e9645f13",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
+    "prefLabel": {
+      "de": "Stellen medizinischer Diagnosen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/972465ce-3f6a-45c2-9a79-98b9ce97bdd2"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

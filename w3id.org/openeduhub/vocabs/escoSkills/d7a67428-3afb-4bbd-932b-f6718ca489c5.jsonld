@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Hausbau planen"
   },
-  "definition": {
-    "de": "Erstellen von Blaupausen für den Bau von Häusern und anderen Gebäudearten. Berechnen und Schätzen der benötigten Materialien sowie Koordinieren und Beaufsichtigen der Tätigkeiten der Arbeitkräfte, die die jeweils erforderlichen verschiedenen Bautechniken ausführen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/088dd17a-9d92-4b93-9e4a-49587e015e06",
@@ -25,6 +22,12 @@
       "prefLabel": {
         "de": "Baudokumente vorbereiten"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fff5bc45-b506-4466-8977-4869079c1cb2",
+      "prefLabel": {
+        "de": "Bauarbeiten koordinieren"
+      }
     }
   ],
   "broader": {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

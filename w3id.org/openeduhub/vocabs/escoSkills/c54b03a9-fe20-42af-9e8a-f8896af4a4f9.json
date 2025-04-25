@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Prioritäten anpassen"
   },
-  "definition": {
-    "de": "Rasche Anpassung von Prioritäten an sich häufig ändernde Umstände. Kontinuierliche Bewertung von Aufgaben und Reaktion auf jene, die besondere Aufmerksamkeit erfordern. Vorausschauende Vermeidung von Krisenmanagement."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4df7a57a-9405-4995-8e02-4ca404832247",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfd5ab8f-ef8a-4877-8243-ddf17ac74604",
+    "prefLabel": {
+      "de": "Planung von Veranstaltungen und Programmen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/c54b03a9-fe20-42af-9e8a-f8896af4a4f9"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

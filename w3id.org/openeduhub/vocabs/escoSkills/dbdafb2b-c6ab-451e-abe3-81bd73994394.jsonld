@@ -4,14 +4,23 @@
   "prefLabel": {
     "de": "künstlerische Laufbahn steuern"
   },
-  "definition": {
-    "de": "Präsentation und Förderung des eigenen künstlerischen Ansatzes und Positionierung der eigenen Arbeit auf den Zielmärkten."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/463023d0-cc10-45eb-97ba-0be350825cee",
+      "prefLabel": {
+        "de": "sozioökonomische Trends in Ihrer Branche"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/248f2b8d-88e5-44a2-baa0-abf46b8311b9",
       "prefLabel": {
         "de": "Den professionellen Einstieg in eine künstlerische Karriere bewältigen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/473c68ee-1ab3-4bcf-b286-f7a8df0acec6",
+      "prefLabel": {
+        "de": "künstlerisches Portfolio pflegen"
       }
     },
     {
@@ -60,7 +69,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

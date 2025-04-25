@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Schaltungsentwürfe auf Wafer aufdrucken"
   },
-  "definition": {
-    "de": "Die Schaltungsentwürfe mithilfe eines sogenannten fotolithographischen Verfahrens auf Wafer aufdrucken. Zunächst werden die Wafer mit lichtempfindlichen Chemikalien überzogen, die mithilfe von UV-Licht aushärten. In verschlossenen dunklen Räumen wird das Licht durch die Abbildung des Entwurfs durch eine Verkleinerungslinse auf den beschichteten Wafer gestrahlt. Wenn die Chemikalie abgewaschen wird, verbleibt der Entwurf. Die Wafer werden schichtweise aufgebaut, wobei in jeder neuen Schicht der Fotoätzunsprozess wiederholt wird. Einige Schichten werden gekocht, einige Schichten werden mit Plasma ionisiert und einige in Metall gebacken. Jeder Behandlungsschritt verändert die Eigenschaften dieser Schicht."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d8556036-dc03-412b-be42-c4d0a24e4c2c",
@@ -30,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

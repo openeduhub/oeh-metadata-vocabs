@@ -12,9 +12,6 @@
       "Reinigungstätigkeiten leiten"
     ]
   },
-  "definition": {
-    "de": "Beaufsichtigen der von den Beschäftigten durchgeführten Reinigungsarbeiten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0a579424-5cb5-4dc6-89ec-d15f34d15ce6",
@@ -29,6 +26,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/a97353c8-f2a3-47be-86e1-f7c301fca630"
@@ -38,7 +41,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

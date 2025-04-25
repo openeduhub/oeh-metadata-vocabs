@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Proben untersuchen"
   },
-  "definition": {
-    "de": "Untersuchen oder Testen präparierter Proben; Ausschließen von zufälligen oder gezielten Kontaminationen während der Testphase. Bedienen von Geräten für die Probenentnahme entsprechend der bestimmungsgemäßen Verwendung."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0562cd60-cd92-47c3-bc63-30a55c5ca4fe",
@@ -21,12 +18,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/82423b5c-486f-42e7-b00e-7358757a8de5",
-      "prefLabel": {
-        "de": "Proben auf Verunreinigungen untersuchen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a11c4c9c-ed68-4dcd-b7ef-841e7e347d70",
       "prefLabel": {
         "de": "Bodenproben untersuchen"
@@ -36,6 +27,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/17c4385f-ee2d-4105-b0a1-32dded6987a2",
       "prefLabel": {
         "de": "Labortests an Proben von Tieren durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/82423b5c-486f-42e7-b00e-7358757a8de5",
+      "prefLabel": {
+        "de": "Proben auf Verunreinigungen untersuchen"
       }
     },
     {
@@ -60,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

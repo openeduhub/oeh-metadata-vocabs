@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Prognose für Unternehmensrisiken erstellen"
   },
-  "definition": {
-    "de": "Den Betrieb und die Maßnahmen eines Unternehmens analysieren, um deren Auswirkungen, mögliche Risiken für das Unternehmen zu bewerten und geeignete Strategien zu deren Bewältigung zu entwickeln."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16284f84-15c9-4542-b122-a6d584f937ee",
+      "prefLabel": {
+        "de": "mit klinischem Risiko umgehen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7f7756fc-d89d-41d5-93ef-85991603f4ad",
       "prefLabel": {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

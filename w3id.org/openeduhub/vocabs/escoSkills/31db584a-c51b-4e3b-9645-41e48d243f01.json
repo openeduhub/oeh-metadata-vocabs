@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Rehabilitationsbedarf von Tieren bewerten"
   },
-  "definition": {
-    "de": "Bewerten des Rehabilitationsbedarfs des Tieres entsprechend seinem aktuellen Zustand und gemäß der Überweisung des Tierarztes unter Berücksichtigung bereits bestehender gesundheitlicher Probleme, z. B. Diabetes, Epilepsie und medikamentöser Behandlung."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
+    "prefLabel": {
+      "de": "Stellen medizinischer Diagnosen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

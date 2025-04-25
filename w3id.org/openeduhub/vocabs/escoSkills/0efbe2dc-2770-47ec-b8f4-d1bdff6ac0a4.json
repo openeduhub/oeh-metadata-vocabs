@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Beratung zum Risikomanagement leisten"
   },
-  "definition": {
-    "de": "Bereitstellen von Beratungsleistungen in Bezug auf Risikomanagement- und Präventionsmaßnahmen und deren Umsetzung unter Berücksichtigung der verschiedenen Arten von Risiken für ein bestimmtes Unternehmen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e71c6cee-7247-49f4-829a-141c880ae938",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7f7756fc-d89d-41d5-93ef-85991603f4ad",
       "prefLabel": {
         "de": "Management von Finanzrisiken durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/64bd4157-5df0-4166-8259-ede237dd7cdf",
+      "prefLabel": {
+        "de": "Auswirkungen von Risiken abschätzen"
       }
     },
     {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Musiker/Musikerinnen auswählen"
   },
-  "definition": {
-    "de": "Organisieren von Castings und Auswählen von Musikern für musikalische Darbietungen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c45cc902-6a91-4449-9ee8-8c1c8e1347ae",
+      "prefLabel": {
+        "de": "Musik auswählen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/d205b276-7f2b-4831-b22b-01427cb53f36"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

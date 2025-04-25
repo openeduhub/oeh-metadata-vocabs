@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Mitarbeiter und Mitarbeiterinnen motivieren"
   },
-  "definition": {
-    "de": "Mit Mitarbeitern und Mitarbeiterinnen kommunizieren, um sicherzustellen, dass ihre persönlichen Ambitionen mit den Unternehmenszielen im Einklang stehen und dass sie zu ihrer Verwirklichung beitragen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7e752ec-7b2e-46e6-ac24-8b1233609c31",
+    "prefLabel": {
+      "de": "Führung und Motivation"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

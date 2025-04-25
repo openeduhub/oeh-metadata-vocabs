@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Beschwerden handhaben"
   },
-  "definition": {
-    "de": "Klärung von Problemen, Einwänden und Konflikten bei der Arbeit."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/723cf304-f4b2-4936-9d90-e28cb35ec693",
       "prefLabel": {
         "de": "mit Zuschauerbeschwerden umgehen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5c7340b9-3ab5-46bc-af5e-ed737e57df6d",
+      "prefLabel": {
+        "de": "Beanstandungen weiterverfolgen"
       }
     }
   ],
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

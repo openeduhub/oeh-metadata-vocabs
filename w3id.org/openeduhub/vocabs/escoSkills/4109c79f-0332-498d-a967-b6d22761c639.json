@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "Musikaufführungen planen"
   },
-  "definition": {
-    "de": "Planung von Proben und Musikaufführungen, Arrangement diverser Details wie Buchung der Auftrittsorte, Auswahl von Begleitern und Instrumentalisten."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/032a4ab8-1034-4541-8037-b2cdcc7fd19a",
-      "prefLabel": {
-        "de": "Musik für die Aufführung auswählen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d205b276-7f2b-4831-b22b-01427cb53f36",
       "prefLabel": {
         "de": "Musiker/Musikerinnen auswählen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/032a4ab8-1034-4541-8037-b2cdcc7fd19a",
+      "prefLabel": {
+        "de": "Musik für die Aufführung auswählen"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

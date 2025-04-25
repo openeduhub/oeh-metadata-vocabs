@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Projekte managen"
   },
-  "definition": {
-    "de": "Verwalten und Planen verschiedener Ressourcen, wie Humanressourcen, Budgets, Fristen, Ergebnisse und Qualität, die für ein bestimmtes Projekt erforderlich sind, und Überwachen des Projektfortschritts, um im vorgegebenen Zeit- und Budgetrahmen ein spezifisches Ziel zu erreichen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1fcce318-3212-487a-ac07-4941bc85060d",
@@ -57,15 +54,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/25a713ba-cbc0-4388-80ca-dad1b7629533",
-      "prefLabel": {
-        "de": "Bahnbauprojekte leiten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6a899482-8bcf-40ca-ae67-579a1cc467ab",
       "prefLabel": {
         "de": "Bauprojekte leiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/25a713ba-cbc0-4388-80ca-dad1b7629533",
+      "prefLabel": {
+        "de": "Bahnbauprojekte leiten"
       }
     }
   ],
@@ -78,7 +75,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

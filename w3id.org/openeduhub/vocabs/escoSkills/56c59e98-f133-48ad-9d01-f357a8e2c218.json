@@ -9,9 +9,6 @@
       "Wirtschaftlichkeit bewerten"
     ]
   },
-  "definition": {
-    "de": "Berücksichtigung verschiedener Faktoren bei der Berechnung der Kosten und der potenziellen Einnahmen oder Einsparungen aus einem Produkt zur Einschätzung des Gewinns, der durch den Neuerwerb oder durch ein neues Projekt erzielt werden könnte."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4cfc7ef6-e251-4c93-bd5e-fd6936dee11c",
@@ -20,6 +17,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b917784a-d7c9-437c-be6e-0de41067fa62",
+    "prefLabel": {
+      "de": "Schätzen des Ressourcenbedarfs"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/56c59e98-f133-48ad-9d01-f357a8e2c218"
@@ -29,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

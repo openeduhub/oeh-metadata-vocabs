@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Probleme im Gesundheitswesen lösen"
   },
-  "definition": {
-    "de": "Durchführen von Maßnahmen durch vorherige Ermittlung und Analyse von Problemen, um so die Suche nach der optimalen Lösung für den Patienten, seine Familie und die Gemeinschaft zu erleichtern und einfacher Ziele zu erreichen, Ergebnisse zu verbessern und die Qualität der Arbeit aufrecht zu erhalten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4feed491-dc09-4218-814a-0146e13ef4fe",
+    "prefLabel": {
+      "de": "Lösung von Problemen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

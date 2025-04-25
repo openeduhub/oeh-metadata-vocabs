@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "die Öffentlichkeit über Verkehrssicherheit aufklären"
   },
-  "definition": {
-    "de": "Entwickeln und Durchführen von Bildungs- und Werbeprogrammen zur Aufklärung und Sensibilisierung der Öffentlichkeit über Verkehrssicherheit, um eine angemessene Haltung als Fußgänger, Radfahrer oder Autofahrer sowie die Fähigkeit zum Erkennen von Gefahren zu vermitteln."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3374fb57-056f-49e0-9fc5-000465e13794",
+    "prefLabel": {
+      "de": "Schulung zu Sicherheitsvorschriften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

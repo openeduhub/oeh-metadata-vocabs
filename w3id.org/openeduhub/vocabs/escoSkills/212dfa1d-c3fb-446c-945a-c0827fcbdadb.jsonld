@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Lebensmittelrohstoffe inspizieren"
   },
-  "definition": {
-    "de": "Rohstoffe für das Herstellungsverfahren untersuchen; die Qualität und verdeckte Mängel bewerten. Herkunft der Rohstoffe anhand der branchenbedingten Dokumente, Stempel oder Marken überprüfen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7802ce4b-2b70-4bd2-bdb3-6ce1482da6ab",
+      "prefLabel": {
+        "de": "Lebensmitteltests durchführen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/212dfa1d-c3fb-446c-945a-c0827fcbdadb"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

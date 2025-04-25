@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Schiffsflotte verwalten"
   },
-  "definition": {
-    "de": "Verwaltung einer Schiffsflotte, die im Eigentum eines Unternehmens steht; genaue Kenntnis der Flottenkapazität, der Wartungsanforderungen und der erforderlichen/vorhandenen amtlichen Genehmigungen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65df3083-d28c-4a24-8351-b8fdfc4dc529",
+      "prefLabel": {
+        "de": "Tätigkeiten im Zusammenhang mit Schiffsfracht leiten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/755dd3c3-824a-4f39-9935-6f036a8e62b9",
       "prefLabel": {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

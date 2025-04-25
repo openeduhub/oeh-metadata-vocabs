@@ -11,10 +11,13 @@
       "Werkstoffe untersuchen"
     ]
   },
-  "definition": {
-    "de": "Auswählen des zu untersuchenden Materials und Überprüfen der Konformität dieses Materials gemäß den festgelegten Spezifikationen und Vorschriften."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7802ce4b-2b70-4bd2-bdb3-6ce1482da6ab",
+      "prefLabel": {
+        "de": "Lebensmitteltests durchführen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/212dfa1d-c3fb-446c-945a-c0827fcbdadb",
       "prefLabel": {
@@ -55,7 +58,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

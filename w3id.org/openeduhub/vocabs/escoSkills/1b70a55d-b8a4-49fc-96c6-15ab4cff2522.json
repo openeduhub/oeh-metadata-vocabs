@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Datenverarbeitungstechniken benutzen"
   },
-  "definition": {
-    "de": "Einschlägige Daten und Informationen sammeln, verarbeiten und analysieren, mithilfe von Diagrammen und statistischen Diagrammen die Zahlen und Daten ordnungsgemäß speichern und aktualisieren."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0d6714c6-720e-4985-9791-5ab85d28da79",
@@ -27,12 +24,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
-      "prefLabel": {
-        "de": "Massendaten analysieren"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/19aa10ee-35fb-4ba1-b8dc-51525c090ccc",
       "prefLabel": {
         "de": "Daten für unternehmenspolitische Entscheidungen im Handel analysieren"
@@ -42,6 +33,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4ce06d6b-f3df-40b6-b950-570be5008032",
       "prefLabel": {
         "de": "gescannte Körperdaten analysieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "prefLabel": {
+        "de": "Massendaten analysieren"
       }
     },
     {
@@ -72,7 +69,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

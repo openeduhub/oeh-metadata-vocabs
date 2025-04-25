@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Bohrtätigkeit koordinieren"
   },
-  "definition": {
-    "de": "Starten, Überwachen und Beenden der Bohrtätigkeit; Koordinieren des Personals an der Bohrstelle."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65c6a8a0-2dca-4d03-a6dc-20ad15c51096",
+      "prefLabel": {
+        "de": "Bohranweisungen ausgeben"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a96b31dd-d72a-4c89-8947-524f14a16f82",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

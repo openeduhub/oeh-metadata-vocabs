@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Bauprojekt beaufsichtigen"
   },
-  "definition": {
-    "de": "Sich vergewissern, dass das Bauprojekt unter Einhaltung der Baugenehmigung, der Ausführungspläne, der Leistungs- und Entwurfsspezifikationen sowie der einschlägigen Vorschriften durchgeführt wird."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3dd3dfa7-51c0-40ef-af46-e2df300489f6",
@@ -21,12 +18,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/25a713ba-cbc0-4388-80ca-dad1b7629533",
-      "prefLabel": {
-        "de": "Bahnbauprojekte leiten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ea9fc9d9-c602-4430-a7fc-edac7429a6a8",
       "prefLabel": {
         "de": "Bauprojekte überprüfen"
@@ -36,6 +27,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6181f475-110c-497c-a46d-ed2e14e7bc90",
       "prefLabel": {
         "de": "Einhaltung des Projektfertigstellungstermins sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/25a713ba-cbc0-4388-80ca-dad1b7629533",
+      "prefLabel": {
+        "de": "Bahnbauprojekte leiten"
       }
     }
   ],
@@ -54,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

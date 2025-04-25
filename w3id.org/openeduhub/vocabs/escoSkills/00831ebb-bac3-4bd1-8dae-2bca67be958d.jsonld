@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Bedienen von Geräten bei Arbeiten am Seil"
   },
-  "definition": {
-    "de": "Sicheres Bedienen von Geräten bei Tätigkeiten in großer Höhe unter Absicherung mit einem Seil. Vor Beginn der Tätigkeit Einnehmen einer sicheren und stabilen Position. Nach Beendigung der Tätigkeit sicheres Verstauen der Ausrüstung, in der Regel durch Befestigung an einer Gurtschließe."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/74052f13-4cae-4600-a4d3-8103004683f3",
+    "prefLabel": {
+      "de": "Verwendung von Handwerkzeugen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

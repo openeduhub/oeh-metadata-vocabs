@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Produkte in der Werbung präsentieren"
   },
-  "definition": {
-    "de": "Mitwirkung an Werbemaßnahmen durch Präsentieren von Kleidung, Accessoires, Schönheits- und anderen Produkten. Befolgen der Anweisungen von Fotograf oder Regisseur."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/519955e7-065f-45e1-8808-30fe8238dd8c",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/efb60300-0d55-4b2c-8038-8409587a4727",
+    "prefLabel": {
+      "de": "Werbung für Waren, Dienstleistungen oder Programme"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/4c2e5f21-e3c3-4119-8efc-fc777c6f7fc8"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

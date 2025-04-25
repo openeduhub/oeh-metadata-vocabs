@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Kunden/Kundinnen im Fitnessbereich motivieren"
   },
-  "definition": {
-    "de": "Positive Interaktion mit Kunden im Fitnessbereich und Motivierung zur regelmäßigen Teilnahme an körperlichen Aktivitäten sowie Förderung der Fitness als Teil einer gesunden Lebensweise."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7e752ec-7b2e-46e6-ac24-8b1233609c31",
+    "prefLabel": {
+      "de": "Führung und Motivation"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

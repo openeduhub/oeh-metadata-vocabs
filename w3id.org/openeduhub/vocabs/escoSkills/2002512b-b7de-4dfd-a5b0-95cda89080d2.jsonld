@@ -9,8 +9,11 @@
       "Aktivitäten im Freien anleiten"
     ]
   },
-  "definition": {
-    "de": "Schüler in der Regel zu Freizeitzwecken in der Theorie und Praxis eine oder mehrere sportliche Outdoor-Aktivitäten beibringen, zum Beispiel Wandern, Klettern, Skifahren, Snowboarden, Kanufahren, Rafting oder Seilgartenklettern."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/caede8f1-6658-4d78-9eb4-2ad2c7ebf09b",
+    "prefLabel": {
+      "de": "Lehre und Ausbildung"
+    }
   },
   "exactMatch": [
     {
@@ -21,7 +24,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

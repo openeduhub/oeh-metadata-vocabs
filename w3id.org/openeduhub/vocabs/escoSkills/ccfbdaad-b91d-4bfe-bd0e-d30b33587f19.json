@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Aufzeichnungen über den Arbeitsfortschritt führen"
   },
-  "definition": {
-    "de": "Führen von Aufzeichnungen über den Arbeitsfortschritt, einschließlich Zeiten, Mängeln, Fehlfunktionen usw."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/182915aa-3470-433a-9b12-347511befcde",
@@ -45,6 +42,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/ccfbdaad-b91d-4bfe-bd0e-d30b33587f19"
@@ -54,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

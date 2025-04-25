@@ -9,10 +9,13 @@
       "Kuvertmaschine bedienen"
     ]
   },
-  "definition": {
-    "de": "Bedienen einer Maschine, die aus Papierrollen Briefumschläge mit oder ohne Fenster herstellt. Befüllen der Maschine mithilfe einer Hebebühne und Einfädeln des Papieranfangs in die Maschine."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c86b32fc-1368-432b-93e4-b5378ebdd94f",
+      "prefLabel": {
+        "de": "Umschlagqualität sicherstellen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8417ca3f-dedc-4bc8-b86f-4e8009ce00f5",
       "prefLabel": {
@@ -41,7 +44,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

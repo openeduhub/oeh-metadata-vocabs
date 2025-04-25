@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "über Notfallmanagement aufklären"
   },
-  "definition": {
-    "de": "Aufklären von Gemeinschaften, Organisationen oder Einzelpersonen über das Risiko- und Notfallmanagement, z. B. in Bezug auf die Entwicklung und Umsetzung von Präventions- und Reaktionsstrategien, sowie Aufklären über die Notfallmaßnahmen, die auf die Risiken des jeweilige Gebiets oder der jeweiligen Organisation abgestimmt sind."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3374fb57-056f-49e0-9fc5-000465e13794",
+    "prefLabel": {
+      "de": "Schulung zu Sicherheitsvorschriften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Buchhaltungsabteilung leiten"
   },
-  "definition": {
-    "de": "Beaufsichtigen der Tätigkeiten von Kundenbetreuern, die als Mittler zwischen dem Kunden und der Kreativabteilung und dem Pressedienst fungieren. Sicherstellen, dass die Bedürfnisse und Ziele des Kunden erfüllt werden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

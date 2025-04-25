@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "den Produktionsdirektor konsultieren"
   },
-  "definition": {
-    "de": "Sich während der gesamten Produktion und Postproduktion mit dem Regisseur/der Regisseurin, dem Produzent/der Produzentin und Kundinnen/Kunden beraten."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65030093-f22d-486e-a978-ae7825829af1",
+      "prefLabel": {
+        "de": "mit dem Regisseur arbeiten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/af84405b-896d-4ed3-9462-077ea9a2a188",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

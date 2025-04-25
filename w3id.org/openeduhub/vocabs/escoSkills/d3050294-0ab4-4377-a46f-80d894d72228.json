@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "künstlerische Produktionen koordinieren"
   },
-  "definition": {
-    "de": "Beaufsichtigen der täglichen Koordinierung der Produktionsaufgaben, damit die Organisation den gewünschten künstlerischen und betrieblichen Richtlinien gerecht wird und die Produktionen der Öffentlichkeit in einem einheitlichen Erscheinungsbild (Corporate Identity) präsentiert werden."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1fb4bebb-8487-4715-bf9a-0a5e4afe68a4",
-      "prefLabel": {
-        "de": "künstlerische Produktionen planen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/551aba54-800a-4d3c-96b0-2dfc8e105460",
       "prefLabel": {
         "de": "künstlerische Produktionen auswählen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1fb4bebb-8487-4715-bf9a-0a5e4afe68a4",
+      "prefLabel": {
+        "de": "künstlerische Produktionen planen"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -9,9 +9,14 @@
       "Vorlesungen halten"
     ]
   },
-  "definition": {
-    "de": "Präsentation von Vorträgen vor verschiedenen Gruppen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cf6dcd52-0641-487e-960f-7f4455aff85d",
+      "prefLabel": {
+        "de": "Dozenten/Dozentinnen unterstützen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/3012a059-e062-4171-b37e-f9e7c7eb603e"
@@ -21,7 +26,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

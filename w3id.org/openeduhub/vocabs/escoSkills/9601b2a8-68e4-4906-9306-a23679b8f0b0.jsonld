@@ -9,16 +9,7 @@
       "Mitarbeiter/Mitarbeiterinnen beaufsichtigen"
     ]
   },
-  "definition": {
-    "de": "Überwachung von Auswahl, Ausbildung, Leistung und Motivation der Mitarbeiter und Mitarbeiterinnen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/17cb7368-2d27-4caf-8a34-e7ce96af89fe",
-      "prefLabel": {
-        "de": "Lehrpersonal supervidieren"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/43e346fb-ddc8-4679-b975-e5d0644e40ad",
       "prefLabel": {
@@ -74,6 +65,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/17cb7368-2d27-4caf-8a34-e7ce96af89fe",
+      "prefLabel": {
+        "de": "Lehrpersonal supervidieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fbca4e43-3816-44cf-81a5-d7b5ae320c00",
       "prefLabel": {
         "de": "Personal führen"
@@ -101,7 +98,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

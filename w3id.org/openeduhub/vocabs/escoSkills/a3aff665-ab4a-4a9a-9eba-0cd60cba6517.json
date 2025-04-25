@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "physiotherapeutische Bewertungen vornehmen"
   },
-  "definition": {
-    "de": "Durchführen physiotherapeutischer Bewertungen unter Einbeziehung von Daten aus subjektiven körperlichen Untersuchungen und Informationen aus anderen relevanten Quellen unter Wahrung der Sicherheit, des Komforts und der Würde des Patienten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e80fa2a-df90-461e-a531-727e4921c69c",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
+    "prefLabel": {
+      "de": "Stellen medizinischer Diagnosen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/a3aff665-ab4a-4a9a-9eba-0cd60cba6517"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

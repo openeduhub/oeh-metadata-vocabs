@@ -11,8 +11,11 @@
       "Tagesabrechnung vornehmen"
     ]
   },
-  "definition": {
-    "de": "Durchführen der Tagesabrechnung, um die korrekte Verarbeitung der Transaktionen des laufenden Tages zu gewährleisten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b32ef8a5-e3f7-40ef-8b40-913c003e1f4e",
+    "prefLabel": {
+      "de": "Erstellen von Finanzunterlagen, Aufzeichnungen, Berichten oder Haushaltsplänen"
+    }
   },
   "exactMatch": [
     {
@@ -23,7 +26,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

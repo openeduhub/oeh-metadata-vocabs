@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Hilfestellung bei der Erstellung eines Probenplanes leisten"
   },
-  "definition": {
-    "de": "Unter Berücksichtigung der Verfügbarkeit der Räume und des beteiligten Teams Probenpläne entwickeln und übermitteln."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/da56feea-941c-4ff6-b573-bb16ccbde670",
+      "prefLabel": {
+        "de": "Zeitpläne an die betroffenen Personen weitergeben"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/1cc990a6-3b53-4a7c-a645-64b8fdda1aa3"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "Papiermaterial besticken"
   },
-  "definition": {
-    "de": "Platzieren des zu bestickenden Buches oder Materials unter der Nadel, Anpassen des Drückerfußes an die Dicke des Buches und Drehen der Stellschrauben entsprechend der Stichlänge. Schieben des Materials unter den Drückerfuß und Anschalten, damit die Nadel durch die Länge des Papiers näht. Anschließend Abschneiden der Fäden, die das Material verbinden, und Stapeln der entstandenen Produkte."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d66a7ed4-34aa-4e66-a9e7-5c9862c591e5",
-      "prefLabel": {
-        "de": "Papiertaschen stapeln"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4e673124-6a25-4bdd-a1c4-f02402c61d5d",
       "prefLabel": {
@@ -24,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4af93e4-13e4-46e9-a129-f1804aa62eb4",
       "prefLabel": {
         "de": "Papierstau verhindern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d66a7ed4-34aa-4e66-a9e7-5c9862c591e5",
+      "prefLabel": {
+        "de": "Papiertaschen stapeln"
       }
     }
   ],
@@ -42,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

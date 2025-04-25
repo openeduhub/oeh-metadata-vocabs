@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Geräte warten"
   },
-  "definition": {
-    "de": "Regelmäßige Inspektion und Durchführung aller erforderlichen Tätigkeiten, um die Geräte vor oder nach ihrer Verwendung instand zu halten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/012d6406-016a-4790-aeb8-853e61058517",
@@ -159,6 +156,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/987a848a-01ec-4938-9f31-1af1c7bef651",
+      "prefLabel": {
+        "de": "Testgeräte warten"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b442a5d2-ed09-4b36-897f-c89215b3d124",
       "prefLabel": {
         "de": "Baggervorrichtungen warten"
@@ -186,12 +189,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6e4f264a-e2e1-42fb-9866-e64069f8b441",
       "prefLabel": {
         "de": "audiovisuelle Ausrüstung instand halten"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bdffa651-96a7-42f8-9d8d-1504c3b7811c",
-      "prefLabel": {
-        "de": "Fotoausrüstung instand halten"
       }
     },
     {
@@ -243,6 +240,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bdffa651-96a7-42f8-9d8d-1504c3b7811c",
+      "prefLabel": {
+        "de": "Fotoausrüstung instand halten"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d2dae131-dd89-4e60-ba83-77e41db9d7bb",
       "prefLabel": {
         "de": "Eisenbahnsignalanlagen warten"
@@ -270,7 +273,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

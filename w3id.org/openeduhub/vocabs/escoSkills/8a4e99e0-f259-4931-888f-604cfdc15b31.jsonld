@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "Maschinenwartungsarbeiten durchführen"
   },
-  "definition": {
-    "de": "Regelmäßiges Warten von Maschinen oder Maschinenwerkzeugen, damit diese einwandfrei funktionieren, gegebenenfalls Durchführen von Anpassungen und Reparaturen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
-      "prefLabel": {
-        "de": "Maschinen und Geräte für die Herstellung von Schuhwerk warten"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a74acf0f-f0ac-4d39-a098-cb38ffcc9657",
       "prefLabel": {
@@ -30,6 +21,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/79aa4ec0-399d-432e-aae8-7a390ce89bcc",
       "prefLabel": {
         "de": "Wartung an installierten Geräten durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c5fdbd81-db10-4fc3-8cee-8b1a7169c472",
+      "prefLabel": {
+        "de": "Maschinen und Geräte für die Herstellung von Schuhwerk warten"
       }
     }
   ],
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

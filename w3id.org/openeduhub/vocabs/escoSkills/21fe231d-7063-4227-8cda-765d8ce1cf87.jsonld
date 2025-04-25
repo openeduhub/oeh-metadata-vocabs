@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Begeisterung für das Tanzen entfachen"
   },
-  "definition": {
-    "de": "Menschen, insbesondere Kinder, ermutigen und befähigen, das Tanzen aufzunehmen und das Tanzen privat oder in öffentlichen Kontexten zu verstehen und zu schätzen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6f4ae6ca-760c-48ee-bea0-a8d82f71a095",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7e752ec-7b2e-46e6-ac24-8b1233609c31",
+    "prefLabel": {
+      "de": "Führung und Motivation"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/21fe231d-7063-4227-8cda-765d8ce1cf87"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

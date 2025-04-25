@@ -9,10 +9,13 @@
       "Datenbanken verwenden"
     ]
   },
-  "definition": {
-    "de": "Nutzung von Softwaretools zum Verwalten und Organisieren von Daten in einem strukturierten Umfeld aus Attributen, Tabellen und Relationen, um die gespeicherten Daten abzufragen und zu modifizieren."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c1b4aa1e-bc42-49e4-952a-0cbd45f1d57b",
+      "prefLabel": {
+        "de": "Datenbanken für den Museumsbetrieb"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0121ac3b-775b-4faf-b86d-0078623674bc",
       "prefLabel": {
@@ -179,7 +182,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Einäscherungen beaufsichtigen"
   },
-  "definition": {
-    "de": "Führen von Aufzeichnungen über geplante oder ausgeführte Einäscherungen und Sicherstellen, dass die sterblichen Überreste korrekt identifiziert und zugeordnet werden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

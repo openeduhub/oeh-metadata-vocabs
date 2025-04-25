@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "rechtliche Entscheidungen treffen"
   },
-  "definition": {
-    "de": "Treffen von Entscheidungen in Rechtsfällen, um zu einer offiziellen Schlussfolgerung zu gelangen, die vollstreckt werden muss, und einen Beschluss zu erlassen, der für die betroffenen Parteien rechtsverbindlich ist."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

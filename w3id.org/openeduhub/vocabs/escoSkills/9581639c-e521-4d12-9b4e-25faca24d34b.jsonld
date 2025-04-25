@@ -9,9 +9,6 @@
       "Crew beaufsichtigen"
     ]
   },
-  "definition": {
-    "de": "Beaufsichtigen und Beobachten des Verhaltens der Beschäftigten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/05cd9341-0d92-4bcc-983c-bf47132ac3f8",
@@ -44,6 +41,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/9581639c-e521-4d12-9b4e-25faca24d34b"
@@ -53,7 +56,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

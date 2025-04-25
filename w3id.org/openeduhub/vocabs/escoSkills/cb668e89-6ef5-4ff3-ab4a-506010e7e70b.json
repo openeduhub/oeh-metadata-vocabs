@@ -4,16 +4,7 @@
   "prefLabel": {
     "de": "ein Team leiten"
   },
-  "definition": {
-    "de": "Gewährleistung klarer und wirksamer Kommunikationskanäle in allen Abteilungen innerhalb der Organisation sowie Unterstützung interner und externer Funktionen, um sicherzustellen, dass dem Team die Standards und Ziele der Abteilung oder Geschäftseinheit bekannt sind. Umsetzung der erforderlichen Disziplinar- und Beschwerdeverfahren, um ein gerechtes und kohärentes Konzept für das Leistungsmanagement zu gewährleisten. Unterstützung beim Einstellungsverfahren sowie Verwaltung, Schulung und Motivierung von Mitarbeitern, um deren Potenzial durch wirksame Leistungsmanagementmethoden zu erreichen oder zu übertreffen. Förderung und Entwicklung bestimmter Werthaltungen bei allen Beschäftigten (Teamethik)."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6cd29d73-e352-40b4-89c5-cdb3faff0a38",
-      "prefLabel": {
-        "de": "Sicherheitsteam führen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fc153ec6-1320-4f13-9158-ebde86c5303e",
       "prefLabel": {
@@ -27,6 +18,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7af6e9e8-1e11-4c0b-b7c6-ac96bbbbc674",
+      "prefLabel": {
+        "de": "Technikerteams koordinieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/25a599ff-27ab-4853-9a04-6174a0bd03b3",
       "prefLabel": {
         "de": "Bohrteams managen"
@@ -37,8 +34,20 @@
       "prefLabel": {
         "de": "ein Team im Wassermanagement leiten"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6cd29d73-e352-40b4-89c5-cdb3faff0a38",
+      "prefLabel": {
+        "de": "Sicherheitsteam führen"
+      }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/cb668e89-6ef5-4ff3-ab4a-506010e7e70b"
@@ -48,7 +57,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

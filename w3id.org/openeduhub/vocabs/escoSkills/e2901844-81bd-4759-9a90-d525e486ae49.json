@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Patienten/Patientinnen im Gebrauch von Hilfsmitteln anweisen"
   },
-  "definition": {
-    "de": "Unterweisen von Patienten in der Verwendung und Pflege von Orthesen und Prothesen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8826b057-0e80-4e3d-9efc-1e179d597f40",
+    "prefLabel": {
+      "de": "Unterstützung von Menschen bei der Mobilität"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

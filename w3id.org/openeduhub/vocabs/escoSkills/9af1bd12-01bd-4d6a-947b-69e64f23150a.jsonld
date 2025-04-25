@@ -4,14 +4,23 @@
   "prefLabel": {
     "de": "qualitative Informationen verarbeiten"
   },
-  "definition": {
-    "de": "Zusammenstellen, Kodifizieren, Kategorisieren, Berechnen, tabellarisches Erfassen, Überprüfen oder Verifizieren qualitativer Informationen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/135192cb-84e4-4b70-8946-fbe5041b26cd",
+      "prefLabel": {
+        "de": "Lernbedarfsanalyse"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/068271d5-c50f-4d5c-bf33-db3727bf69e2",
       "prefLabel": {
         "de": "sich in die Situation eines Tieres einfühlen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/09473fea-69ea-40dc-9ff4-bbaaff10840e",
+      "prefLabel": {
+        "de": "Installationsstandort-Überprüfung vornehmen"
       }
     },
     {
@@ -123,6 +132,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f29c3331-b0dc-44c6-949f-b646bcfde992",
+      "prefLabel": {
+        "de": "Baumbestand analysieren"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/faf208ae-d4a4-43b4-bb82-846b7348b740",
       "prefLabel": {
         "de": "Informationsquellen verwalten"
@@ -183,12 +198,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6f993130-082b-4732-b62f-52cdf2096ad9",
-      "prefLabel": {
-        "de": "Methoden der logistischen Datenanalyse nutzen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/750caee5-12a0-46ba-b8aa-1e56370deaf9",
       "prefLabel": {
         "de": "Trends im Kaufverhalten von Kunden und Kundinnen analysieren"
@@ -210,6 +219,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f715be1d-5fc4-49d3-82a5-0b8090d12849",
       "prefLabel": {
         "de": "Informationen zusammenfassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c3a9d357-2279-4d9d-92e2-e4280b8a61c6",
+      "prefLabel": {
+        "de": "Qualitätsmerkmale von Lebensmitteln bewerten"
       }
     },
     {
@@ -243,6 +258,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6f993130-082b-4732-b62f-52cdf2096ad9",
+      "prefLabel": {
+        "de": "Methoden der logistischen Datenanalyse nutzen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7d08e3cd-3a68-4568-8273-5b53ac0cbc71",
       "prefLabel": {
         "de": "allgemeine Daten von Nutzern/Nutzerinnen des Gesundheitssystems erheben"
@@ -255,6 +276,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1f2950c0-ef1e-44b4-9a55-125ccd7b78af",
+    "prefLabel": {
+      "de": "Analyse und Auswertung von Informationen und Daten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/9af1bd12-01bd-4d6a-947b-69e64f23150a"
@@ -264,7 +291,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "Vorkehrungen für Anforderungen an die Versandabwicklung treffen"
   },
-  "definition": {
-    "de": "Gewährleisten der korrekten Handhabung von Fracht; Berechnen des Frachtgewichts und Bedienen von Kränen, um die Container zu transportieren."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0511c6df-d1fb-4606-9c73-4baba77eea79",
-      "prefLabel": {
-        "de": "Sendungen wiegen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/559106f8-b7bb-4b56-80a7-16c9c1cdf830",
       "prefLabel": {
         "de": "Versandrisiken handhaben"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0511c6df-d1fb-4606-9c73-4baba77eea79",
+      "prefLabel": {
+        "de": "Sendungen wiegen"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

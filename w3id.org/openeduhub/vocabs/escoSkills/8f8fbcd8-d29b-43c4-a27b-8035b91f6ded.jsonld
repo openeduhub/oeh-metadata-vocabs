@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Probleme im Zusammenhang mit Kondensation ermitteln"
   },
-  "definition": {
-    "de": "Beurteilen des Zustands eines Gebäudes, Überprüfen auf Anzeichen von Kondensation, Feuchtigkeit oder Schimmel, Aufklären von Vermietern/Vermieterinnen und Bewohnern/Bewohnerinnen über Methoden, wie sich derartige Probleme angehen und verhindern lassen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aca5081a-ceb0-4028-9cc5-1daafd4f86f9",
+    "prefLabel": {
+      "de": "Entwickeln von Lösungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

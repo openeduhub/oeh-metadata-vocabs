@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "sensorische Untersuchung von Lebensmitteln durchführen"
   },
-  "definition": {
-    "de": "Untersuchung der Qualität einer bestimmten Art von Lebensmittel oder Getränk anhand von Aussehen, Geruch, Geschmack, Aroma und anderen Parametern. Empfehlung möglicher Verbesserungen und Vergleiche mit anderen Produkten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b3930a2-8a13-4932-8a09-4c72ec8af464",
+    "prefLabel": {
+      "de": "Überwachung der Qualität von Waren"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

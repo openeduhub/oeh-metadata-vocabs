@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Entscheidungen über Darlehensanträge treffen"
   },
-  "definition": {
-    "de": "Berücksichtigung der Risikobewertung und -analyse, endgültige Überprüfung des Darlehensantrags, um den Kredit zu bewilligen oder zu verweigern, Einleiten der erforderlichen Verfahren im Anschluss an die Entscheidung."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

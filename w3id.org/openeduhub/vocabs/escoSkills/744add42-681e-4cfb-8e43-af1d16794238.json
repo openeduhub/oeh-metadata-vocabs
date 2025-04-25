@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "menschliches Verhalten beobachten"
   },
-  "definition": {
-    "de": "Beobachten und detailliertes Erfassen der Art und Weise, wie Menschen miteinander interagieren und auf andere Menschen, Gegenstände, Konzepte, Ideen, Überzeugungen und Systeme reagieren, um Muster und Trends abzuleiten."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/61a3f3ea-d34c-478d-9b41-c8adb09e6631",
+      "prefLabel": {
+        "de": "verdächtiges Verhalten ermitteln"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9bdf8a77-8524-43da-bac6-d15d22e1b7ed",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

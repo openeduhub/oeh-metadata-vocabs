@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Gravierwerkzeug benutzen"
   },
-  "definition": {
-    "de": "Bedienen mechanischer Gravierwerkzeuge und -maschinen, Steuern der Schneidwerkzeuge. Vornehmen von Anpassungen, falls erforderlich."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/017738e7-7d12-4e87-a580-8523405bab96",
       "prefLabel": {
         "de": "Glasgravur-Werkzeug verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/46a0e499-b4b2-4d27-8211-fa3a32bfd2f6",
+      "prefLabel": {
+        "de": "akkurate Gravuren gewährleisten"
       }
     },
     {
@@ -48,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

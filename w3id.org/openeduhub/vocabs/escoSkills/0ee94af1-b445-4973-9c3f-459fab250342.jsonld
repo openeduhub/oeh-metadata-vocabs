@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Konfliktmanagement anwenden"
   },
-  "definition": {
-    "de": "Übernehmen von Verantwortung für die Bearbeitung aller Beschwerden und Streitigkeiten; Finden einer Lösung, dabei Demonstrieren von Empathie und Verständnis. Umfassendes Informieren über alle Protokolle und Verfahren der sozialen Verantwortung und professioneller, ausgereifter und empathischer Umgang mit problematischem Spielverhalten."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9c17f73f-345c-4c55-8b59-47b445941b7b",
+    "prefLabel": {
+      "de": "Vermittlung in Streitsachen und Beilegung von Streitigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

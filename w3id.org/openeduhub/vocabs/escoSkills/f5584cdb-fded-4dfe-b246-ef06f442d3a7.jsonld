@@ -9,9 +9,14 @@
       "über die Zubereitung von diätetischen Lebensmitteln informieren"
     ]
   },
-  "definition": {
-    "de": "Erstellung und Überwachung von Ernährungsplänen, um spezielle Ernährungsanforderungen einzuhalten, z. B. fettarme oder cholesterinarme Kost oder glutenfreie Produkte."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/973d751a-93e0-4bca-88e0-383215f042e5",
+      "prefLabel": {
+        "de": "Sportler und Sportlerinnen in Ernährungsfragen beraten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/62afcfdd-a2a6-4143-bafb-59c77e15a01c",
     "prefLabel": {
@@ -27,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

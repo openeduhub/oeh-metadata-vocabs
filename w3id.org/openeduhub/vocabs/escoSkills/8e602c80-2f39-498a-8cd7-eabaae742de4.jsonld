@@ -4,8 +4,19 @@
   "prefLabel": {
     "de": "das Unternehmen auf Messen vertreten"
   },
-  "definition": {
-    "de": "Besuch von Messen und/oder Ausstellungen, um die Organisation zu vertreten und sich über die Arbeit anderer Organisationen zu informieren, um Trends im Sektor zu erkennen."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0d3890b8-ecf3-497e-8dff-855f0c97d85c",
+      "prefLabel": {
+        "de": "Fragen bei Veranstaltungen stellen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a3b45dc-8299-4b67-99db-6542daf79ac3",
+    "prefLabel": {
+      "de": "Aufbau von beruflichen Beziehungen oder Netzwerken"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

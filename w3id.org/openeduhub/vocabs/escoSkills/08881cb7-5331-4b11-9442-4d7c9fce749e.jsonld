@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Schädlingsbekämpfung betreiben"
   },
-  "definition": {
-    "de": "Durchführen von Schädlingsbekämpfungs- und Krankheitsbekämpfungsmaßnahmen bei Nutzpflanzen im Einklang mit den Anforderungen der nationalen Branchenstandards und der Kunden. Versprühen von Jauche und Düngemitteln gemäß den lokalen Umweltvorschriften"
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2e77d381-df21-4f84-b3dd-6062be7ef4e1",
+      "prefLabel": {
+        "de": "Pflanzen während der Schädlingsbekämpfung schützen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4ccc18f0-1c17-4a02-88aa-52f06ede7195",
       "prefLabel": {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

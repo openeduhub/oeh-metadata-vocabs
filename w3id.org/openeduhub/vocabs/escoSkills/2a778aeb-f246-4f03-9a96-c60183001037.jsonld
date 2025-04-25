@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Produktion planen"
   },
-  "definition": {
-    "de": "Planen der Produktion mit dem Ziel, maximale Rentabilität zu erhalten und gleichzeitig die KPI des Unternehmens in den Bereichen Kosten, Qualität, Dienstleistungen und Innovation beizubehalten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5475343c-5e75-415f-b431-17f3c20a347e",
@@ -31,6 +28,12 @@
       "prefLabel": {
         "de": "Grubenproduktionspläne erstellen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66cf649e-fd1d-4840-8250-ebd546a12239",
+      "prefLabel": {
+        "de": "Produktionsanforderungen für die Entwicklung eines Produktionsplans ermitteln"
+      }
     }
   ],
   "broader": {
@@ -48,7 +51,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

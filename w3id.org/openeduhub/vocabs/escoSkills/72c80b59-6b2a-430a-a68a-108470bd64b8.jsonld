@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Arbeitnehmer über Strahlenschutz unterrichten"
   },
-  "definition": {
-    "de": "Information der Beschäftigten über die verschiedenen rechtlichen und betrieblichen Maßnahmen, die im Unternehmen gegen Strahlung eingeführt wurden, wie die Reduzierung der Expositionsdauer und das Tragen von Schutzausrüstung, und Kommunikation der Notfallmaßnahmen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3374fb57-056f-49e0-9fc5-000465e13794",
+    "prefLabel": {
+      "de": "Schulung zu Sicherheitsvorschriften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -9,10 +9,13 @@
       "digitale Kommunikation"
     ]
   },
-  "definition": {
-    "de": "Kommunizieren in einem digitalen Umfeld, Teilen von Ressourcen durch Online-Tools, Vernetzung und Zusammenarbeit mit anderen mithilfe digitaler Werkzeuge, Interaktion mit und Beteiligung an Gemeinschaften und Netzen, kulturübergreifendes Bewusstsein."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+      "prefLabel": {
+        "de": "digitale Identität verwalten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16a00c69-9c74-4c37-96d7-6301d285e5ce",
       "prefLabel": {
@@ -42,12 +45,6 @@
       "prefLabel": {
         "de": "mithilfe digitaler Technologien interagieren"
       }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
-      "prefLabel": {
-        "de": "digitale Identität verwalten"
-      }
     }
   ],
   "broader": {
@@ -65,7 +62,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

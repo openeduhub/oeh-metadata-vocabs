@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Terminkalender für Personal verwalten"
   },
-  "definition": {
-    "de": "Planen und Bestätigen von Terminen des Büropersonals, insbesondere von Managern und Führungskräften, mit externen Parteien."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c58050e1-0774-4097-93d2-07dd7ba6a27a",
       "prefLabel": {
         "de": "Einrichtungen für Büropersonal organisieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/db16dabf-651e-46f5-9c72-87f93fd09a21",
+      "prefLabel": {
+        "de": "Veranstaltungen mit mehreren Themenschwerpunkten planen"
       }
     }
   ],
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

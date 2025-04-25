@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Personalbedarf ermitteln"
   },
-  "definition": {
-    "de": "Ermittlung der Anzahl Mitarbeiter, die für die Durchführung eines Projekts benötigt werden, und ihre Zuweisung zum Entwicklungs-, Produktion-, Kommunikations- oder Verwaltungsteam."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2258cde2-a95b-4b2c-b105-59e84b0a364b",
+    "prefLabel": {
+      "de": "Personalmanagement"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

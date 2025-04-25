@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Sendeanlagen einrichten"
   },
-  "definition": {
-    "de": "Einrichten und Kalibieren von Sendeanlagen, um Fernseh- und Hörfunksignale zu erzeugen, umzuschalten, zu empfangen, aufzuzeichnen, zu bearbeiten und wiederzugeben."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24ff9b31-a497-4817-9e9b-c0ff3b3fa0ef",
+      "prefLabel": {
+        "de": "transportable Sendeanlagen einrichten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/febcc41e-bf0c-4733-a498-c2881c86ce88"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

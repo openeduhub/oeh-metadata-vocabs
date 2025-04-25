@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Wert von Gebrauchtgütern schätzen"
   },
-  "definition": {
-    "de": "Untersuchen der Gegenstände von Privatpersonen, um Schäden zu bewerten und den aktuellen Preis unter Berücksichtigung des ursprünglichen Verkaufspreises und der aktuellen Nachfrage zu bestimmen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d915420b-3083-4740-b196-32749111069e",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f55fac09-92a2-4a88-9a96-ee9fb5b18519",
+    "prefLabel": {
+      "de": "Bestimmung der Werte von Waren oder Dienstleistungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/6ebf6971-34ad-4708-9710-ed545c814933"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

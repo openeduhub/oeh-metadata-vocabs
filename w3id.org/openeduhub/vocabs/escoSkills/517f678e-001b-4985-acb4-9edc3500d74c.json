@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Schulungsprogramme entwickeln"
   },
-  "definition": {
-    "de": "Entwicklung von Programmen, um Mitarbeitern oder künftigen Mitarbeitern die erforderlichen Qualifikationen für die Stelle zu vermitteln oder um ihre Kompetenzen für die Übernahme neuer Tätigkeiten oder Aufgaben zu verbessern und zu erweitern. Auswahl oder Gestaltung von Tätigkeiten im Unternehmensumfeld, um in Aufgaben und Systeme einzuführen oder um die Leistungsfähigkeit von Einzelpersonen und Gruppen zu verbessern."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7e0b93e0-0de7-4607-b07f-27a6828d3ff0",
+    "prefLabel": {
+      "de": "Entwicklung von Schulungsprogrammen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

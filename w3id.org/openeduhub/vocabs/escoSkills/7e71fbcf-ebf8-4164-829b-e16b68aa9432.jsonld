@@ -4,20 +4,17 @@
   "prefLabel": {
     "de": "Herstellung von Schuhwerk und Lederwaren steuern"
   },
-  "definition": {
-    "de": "Planen der Herstellung von Schuhwerk und Lederwaren unter Berücksichtigung der Ziele, Fristen und verfügbaren Ressourcen des Unternehmens. Verteilen, Koordinieren und Steuern aller Tätigkeiten und Produktionsphasen anhand von Informationen aus technischen Datenblättern und im Unternehmen üblichen Methoden. Optimieren der Qualität, Produktivität und Sicherheit. Zusammenarbeiten mit allen verbundenen Abteilungen. Erstellen von Berichten zu Produktion, Qualität und Produktivitätsabweichungen sowie Vorschlagen von Korrekturmaßnahmen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e8664a7b-aef5-4db7-89c6-fe50ba22ef07",
-      "prefLabel": {
-        "de": "Arbeitszeiten bei der Herstellung von Waren messen"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/58db4bf3-b283-4498-8024-336773c4f879",
       "prefLabel": {
         "de": "Produktivität bei der Herstellung von Schuhwerk und Lederwaren berechnen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e8664a7b-aef5-4db7-89c6-fe50ba22ef07",
+      "prefLabel": {
+        "de": "Arbeitszeiten bei der Herstellung von Waren messen"
       }
     }
   ],
@@ -36,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -13,20 +13,17 @@
       "Systemsicherheitsmanagement betreiben"
     ]
   },
-  "definition": {
-    "de": "Analyse der kritischen Vermögenswerte eines Unternehmens und Ermittlung von Schwachstellen und Anfälligkeiten, die zu einem Eindringen oder Angriff führen. Anwenden von Verfahren zur Erkennung von Sicherheitsmängeln. Verstehen von Techniken bei Cyberangriffen und Ergreifen wirksamer Gegenmaßnahmen."
-  },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e5beeff8-7c98-490a-ae2c-16fbb6a87305",
-      "prefLabel": {
-        "de": "Schlüssel zum Schutz der Daten verwalten"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
       "prefLabel": {
         "de": "IKT-Sicherheitsrisiken identifizieren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e5beeff8-7c98-490a-ae2c-16fbb6a87305",
+      "prefLabel": {
+        "de": "Schlüssel zum Schutz der Daten verwalten"
       }
     }
   ],
@@ -45,7 +42,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

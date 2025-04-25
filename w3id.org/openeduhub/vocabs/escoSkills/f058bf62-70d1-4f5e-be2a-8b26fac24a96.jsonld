@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Computergrafiken entwerfen"
   },
-  "definition": {
-    "de": "Anwendung einer Vielzahl visueller Techniken, um grafisches Material zu entwerfen. Kombination grafischer Elemente, um Konzepte und Ideen zu vermitteln."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a71577b2-7550-4222-88ee-dcbd2d881516",
+      "prefLabel": {
+        "de": "Bildbearbeitungsprogramm"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2d6d4784-0992-48e7-b100-22d7229b3f0a",
       "prefLabel": {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

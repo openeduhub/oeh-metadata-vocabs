@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Montageanweisungen ablegen"
   },
-  "definition": {
-    "de": "Speichern von Anweisungen wie den verschiedenen Verfahren zur Montage der verschiedenen Möbelteile, damit sie zu einem späteren Zeitpunkt verfügbar sind."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/32c017fd-28ab-4051-bf68-74de952c2f77",
+    "prefLabel": {
+      "de": "Informationsmanagement"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

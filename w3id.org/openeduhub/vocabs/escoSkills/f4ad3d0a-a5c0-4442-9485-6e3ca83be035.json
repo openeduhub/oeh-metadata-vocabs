@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "für Fördertätigkeiten erforderliche Geräte auswählen"
   },
-  "definition": {
-    "de": "Auswahl der geeigneten Werkzeuge und Geräte, die für den erfolgreichen Transport von Objekten erforderlich sind. Auswahl einer Reihe von Geräten aus Basiswerkzeugen wie Schrauben, Hämmer und Zangen bis hin zu komplexerer Ausrüstung wie Gabelstapler, Kräne und bewegliche Rampen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/485b2e3b-f883-46d8-901f-ab521d4f8e58",
+    "prefLabel": {
+      "de": "Sortieren von Materialien oder Produkten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

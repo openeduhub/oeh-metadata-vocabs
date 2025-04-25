@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Treppensteigung und Treppenlauf berechnen"
   },
-  "definition": {
-    "de": "Berechnen der geeigneten Maße für die Steigung und den Lauf jeder Treppe unter Berücksichtigung der Gesamthöhe und der Tiefe der Treppenstufen, der Bodenbeläge und der verschiedenen Treppenabmessungen, die eine komfortable Benutzung ermöglichen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5af6c56c-ab2b-4590-9b19-9484eaa7746d",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f5f15f9c-6334-4728-8dc5-3a20a00dfc37",
+    "prefLabel": {
+      "de": "Durchführen von Berechnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/02bbd0fb-b108-49a8-9c48-5b0c447d3fdf"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

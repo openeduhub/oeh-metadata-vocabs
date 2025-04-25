@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Ein Informationssicherheitsmanagementsystem schaffen"
   },
-  "definition": {
-    "de": "Entwerfen, Anwenden, Überwachen und Überprüfen eines Informationssicherheitsmanagementsystems (ISMS), mit dem die Vertraulichkeit, Integrität und Verfügbarkeit von Informationen durch die Anwendung eines Risikomanagementverfahrens bewahrt wird und das interessierten Parteien das Vertrauen in einen angemessenes Umgang mit solchen cybersicherheitsbezogenen Risiken vermittelt."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2b6e15f5-dfa0-4e7c-9687-5665b07e56a4",
+    "prefLabel": {
+      "de": "Schutz von Privatsphäre und personenbezogenen Daten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

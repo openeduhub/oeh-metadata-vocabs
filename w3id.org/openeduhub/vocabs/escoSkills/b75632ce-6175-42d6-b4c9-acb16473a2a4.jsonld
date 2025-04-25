@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Informationen über den Ersatz von Teilen sammeln"
   },
-  "definition": {
-    "de": "Zusammenstellen von Informationen aus Quellen wie Handbüchern und Herstelleranweisungen; Ermitteln geeigneter Ersatzteile für defekte, seltene oder veraltete Komponenten."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5ca788c2-dca7-44d3-bb54-7a706ae3e837",
+      "prefLabel": {
+        "de": "von Kunden angeforderte Teile ermitteln"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/29dcc31e-a8d6-4a62-b3c1-2de81e966e39",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

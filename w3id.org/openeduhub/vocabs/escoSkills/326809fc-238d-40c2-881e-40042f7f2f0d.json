@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Kooperationsbeziehungen anknüpfen"
   },
-  "definition": {
-    "de": "Herstellen einer Verbindung zwischen Organisationen oder Einzelpersonen, die möglicherweise von der Kommunikation untereinander profitieren, um eine dauerhafte positive Zusammenarbeit zwischen den beiden Parteien zu ermöglichen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/28f98c7e-b89c-4b4d-ae0a-0c5a6328992e",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a3b45dc-8299-4b67-99db-6542daf79ac3",
+    "prefLabel": {
+      "de": "Aufbau von beruflichen Beziehungen oder Netzwerken"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

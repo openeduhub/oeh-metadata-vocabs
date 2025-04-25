@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "eigene Praktiken dokumentieren"
   },
-  "definition": {
-    "de": "Dokumentieren der eigenen Arbeitspraxis für unterschiedliche Zwecke wie Bewertung, Zeitmanagement, Bewerbung usw."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3b092965-98d5-4678-adc3-6493ba2c00c8",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/cdf83a12-56d4-4e3c-ad0b-af1c1f21c62a"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

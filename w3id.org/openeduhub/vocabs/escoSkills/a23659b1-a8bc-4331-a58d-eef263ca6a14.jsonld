@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Arbeitsverfahren einhalten"
   },
-  "definition": {
-    "de": "Strukturiertes und systematisches Einhalten von Arbeitsverfahren."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9583da15-2ff9-41d9-8c4c-1a739fc5f7fc",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c6c52052-303f-44b8-a708-759084084efb",
       "prefLabel": {
         "de": "Einhaltung der Verfahrensanweisungen für Flugplätze sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9bcfccac-8920-4024-9aef-a06f8c035063",
+      "prefLabel": {
+        "de": "Meldeverfahren befolgen"
       }
     },
     {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Fehler in Verbrauchszähler feststellen"
   },
-  "definition": {
-    "de": "Überwachen der Messgeräte des Versorgungsverbrauchs, um festzustellen, ob die Messwerte stimmen, und um zu erkennen, wenn ein Gerät schadhaft ist oder repariert oder gewartet werden muss."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6d0cad66-82dd-4854-a03a-68232942c68d",
+    "prefLabel": {
+      "de": "Installation von Bauelementen aus Holz und Metall"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

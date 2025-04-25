@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "über die Inspektion einer Brücke beraten"
   },
-  "definition": {
-    "de": "Beratung, um über die Notwendigkeit von Inspektionen oder Reparaturen an einer Brücke zu entscheiden. Grundeigentümer/innen über die grundlegenden Überprüfungen zur Kontrolle des Brückenzustands und Brückeninspektionsdienstleistungen aufklären."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0e0a44a8-654c-4e85-986a-fb4386114838",
+    "prefLabel": {
+      "de": "Überwachung der Sicherheit"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

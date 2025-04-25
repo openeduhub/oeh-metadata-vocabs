@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Datenanalyse durchführen"
   },
-  "definition": {
-    "de": "Erhebung von Daten und Statistiken zum Testen und Bewerten, um Aussagen und Musterprognosen zu erstellen, mit dem Ziel, nützliche Informationen in einem Entscheidungsprozess zu finden."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/062320e5-79d1-45e8-8b7e-5deeb53279a2",
@@ -21,15 +18,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
-      "prefLabel": {
-        "de": "Massendaten analysieren"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c95c29fe-3971-46b7-80e9-1f7e75ba99b3",
       "prefLabel": {
         "de": "spezielle Datenanalysesoftware nutzen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "prefLabel": {
+        "de": "Massendaten analysieren"
       }
     }
   ],
@@ -48,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

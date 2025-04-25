@@ -4,8 +4,19 @@
   "prefLabel": {
     "de": "Veranstalter auswählen"
   },
-  "definition": {
-    "de": "Bewerten und Auswählen der richtigen Anbieter der richtigen Dienste gemäß den spezifischen Anforderungen des Kunden."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1e05596a-dc89-442f-8591-bf9198492f81",
+      "prefLabel": {
+        "de": "Verträge mit Veranstaltern ausarbeiten"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/cfd5ab8f-ef8a-4877-8243-ddf17ac74604",
+    "prefLabel": {
+      "de": "Planung von Veranstaltungen und Programmen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "über Gebäudeschäden berichten"
   },
-  "definition": {
-    "de": "Berichten über Beschädigungen oder Beeinträchtigungen der Fassade eines Gebäudes, damit die zuständigen Behörden auf das Problem aufmerksam gemacht werden und die Schadensbehebung geplant werden kann."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/889e4994-c934-447f-88a1-874867ffe705",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/20136935-e6a1-417b-81df-9b94d4c2c371",
+    "prefLabel": {
+      "de": "Melden von Zwischenfällen und Defekten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/bbd3ca1b-d283-436b-abba-a4b1a0bc1032"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

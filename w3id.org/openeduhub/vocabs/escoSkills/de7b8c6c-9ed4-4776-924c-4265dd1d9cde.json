@@ -4,10 +4,19 @@
   "prefLabel": {
     "de": "Merkmale von Produkten vorführen"
   },
-  "definition": {
-    "de": "Vorführen der richtigen und sicheren Verwendung eines Produkts, Informieren der Kunden über dessen wichtigste Eigenschaften und Vorzüge, Erläuterung der Bedienung, der bestimmungsgemäßen Verwendung und der korrekten Wartung. Überzeugen potenzieller Kunden, ein Produkt zu kaufen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/28a1ea06-b8c0-46ed-b3f8-0bd0d8196b8d",
+      "prefLabel": {
+        "de": "Kunden und Kundinnen in die Verwendung der Munition einweisen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d2de37c7-7233-481b-8b1a-f4dfde11ca91",
+      "prefLabel": {
+        "de": "Beratung in Bezug auf Handelswaren leisten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dd0f9720-4f22-4cf0-b4ce-650a6855e2c1",
       "prefLabel": {
@@ -30,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

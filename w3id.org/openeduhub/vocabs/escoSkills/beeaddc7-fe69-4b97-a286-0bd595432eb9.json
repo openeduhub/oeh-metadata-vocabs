@@ -12,14 +12,17 @@
       "Getränke ausschenken"
     ]
   },
-  "definition": {
-    "de": "Servieren verschiedener alkoholischer und alkoholfreier Getränke wie Erfrischungsgetränke, Mineralwasser, Wein und Flaschenbier über eine Theke oder mithilfe eines Tabletts."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/02f115d8-9e14-499c-97c1-f9eac282edc5",
       "prefLabel": {
         "de": "Gläser zum Servieren auswählen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9def3846-239c-4bcc-a84d-185d33d8f4db",
+      "prefLabel": {
+        "de": "die Getränkekarte vorstellen"
       }
     }
   ],
@@ -38,7 +41,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

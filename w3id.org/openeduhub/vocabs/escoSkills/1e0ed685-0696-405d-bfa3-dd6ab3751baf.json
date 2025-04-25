@@ -9,8 +9,11 @@
       "häusliche Unterstützung für Menschen mit Behinderungen anbieten"
     ]
   },
-  "definition": {
-    "de": "Menschen mit Behinderung in ihrem eigenen Zuhause und mit täglichen Lebensaufgaben wie Waschen, Kleiden, Essen und Beförderung, unterstützen und ihnen dabei helfen, unabhängiger zu leben."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/77ee8fad-188f-44cf-88ba-4e495a52d604",
+    "prefLabel": {
+      "de": "Unterstützung bei persönlichen Bedürfnissen"
+    }
   },
   "exactMatch": [
     {
@@ -21,7 +24,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

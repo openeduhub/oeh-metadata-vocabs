@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Hörschäden diagnostizieren"
   },
-  "definition": {
-    "de": "Messen des Hörverlusts und von Gleichgewichtsstörungen sowie Feststellen der Ursache."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0fc9b742-ad2e-4ae1-bcc1-5207e0496675",
+      "prefLabel": {
+        "de": "Patienten/Patientinnen zu Möglichkeiten der Verbesserung des Hörvermögens beraten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d700aa7a-0ed8-4967-a32c-4cb6075ab3b9",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

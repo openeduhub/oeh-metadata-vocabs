@@ -11,10 +11,13 @@
       "Personal anwerben"
     ]
   },
-  "definition": {
-    "de": "Einstellung neuer Mitarbeiter durch Festlegen des Aufgabenbereichs, Ausschreiben der Stelle, Führen von Bewerbungsgesprächen und Auswählen der Mitarbeiter gemäß den Unternehmensrichtlinien und gesetzlichen Vorschriften."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/918459f1-147d-46f5-8de1-87e5663da8b0",
+      "prefLabel": {
+        "de": "Beratung zur Auswahl von Sicherheitspersonal leisten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a128a5f5-45df-4b58-be33-9f4faf675bf8",
       "prefLabel": {
@@ -49,7 +52,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

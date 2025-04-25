@@ -4,10 +4,19 @@
   "prefLabel": {
     "de": "das Verladen der Fracht beaufsichtigen"
   },
-  "definition": {
-    "de": "Überwachung des Verladens von Ausrüstung, Fracht, Gütern und sonstigen Gegenständen. Sicherstellung, dass die gesamte Fracht vorschriftsmäßig und normgerecht verstaut wird."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/209ec3e1-8738-4b09-8f5c-b1236bb2c019",
+      "prefLabel": {
+        "de": "schriftliche Aufzeichnungen über Fracht führen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65df3083-d28c-4a24-8351-b8fdfc4dc529",
+      "prefLabel": {
+        "de": "Tätigkeiten im Zusammenhang mit Schiffsfracht leiten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7a21689e-3f98-4284-8501-6e9b053262c9",
       "prefLabel": {
@@ -15,6 +24,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d6c8dacb-b0c0-4544-b0b7-69b24df41ba1",
+    "prefLabel": {
+      "de": "Verwaltung von Verkehrs- und Logistiktätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/3d2a1f45-5367-47d2-a15a-a8fc72a45bbc"
@@ -24,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

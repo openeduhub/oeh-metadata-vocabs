@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Berichte über den Frachtversand erstellen"
   },
-  "definition": {
-    "de": "Erstellung und Vorlage von Frachtkontrollberichten einschließlich genauer Angaben zu den Frachtbedingungen und zum Umgang mit der Fracht; ggf. Meldung von Problemen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/559106f8-b7bb-4b56-80a7-16c9c1cdf830",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/e5d4da88-aac9-4941-8e27-f985027020ab"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

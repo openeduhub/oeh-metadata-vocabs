@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Multimedia-Geräte aufstellen"
   },
-  "definition": {
-    "de": "Aufbau und Testen der Multimedia-Systeme und der damit verbundenen Systeme und Technologien gemäß ihren Spezifikationen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4e039fe9-e7d3-4d9b-82e5-381269a38ceb",
@@ -18,6 +15,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/51927003-a757-4552-804f-c045e21fdaf2",
       "prefLabel": {
         "de": "audiovisuelle Peripheriegeräte einrichten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/24ff9b31-a497-4817-9e9b-c0ff3b3fa0ef",
+      "prefLabel": {
+        "de": "transportable Sendeanlagen einrichten"
       }
     },
     {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

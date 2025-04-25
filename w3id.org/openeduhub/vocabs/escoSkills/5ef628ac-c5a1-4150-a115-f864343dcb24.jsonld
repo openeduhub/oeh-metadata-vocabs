@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Verwaltung von Leihobjekten managen"
   },
-  "definition": {
-    "de": "Überwachung des Managements von Leihobjekten für Ausstellungen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6ab43249-d856-453b-9f45-37c3f8dae339",
+      "prefLabel": {
+        "de": "hinsichtlich Leihgaben für Kunstausstellungen beraten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d795b7a4-9375-4c8e-b5d0-268ea3e7d482",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

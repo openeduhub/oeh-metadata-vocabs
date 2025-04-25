@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Bühnenwaffen instand halten"
   },
-  "definition": {
-    "de": "Kontrolle, Wartung und Reparatur von Bühnenwaffen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7e3e2365-4546-4dea-966f-dfeb4fe33c92",
+      "prefLabel": {
+        "de": "Bühnenwaffen lagern"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/9333f57b-fb4e-447a-893d-3897a3f52cca",
       "prefLabel": {
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -6,6 +6,18 @@
   },
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2a3a96a3-709e-4d60-81f6-d247d6933f13",
+      "prefLabel": {
+        "de": "Systemsicherheit verwalten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4a85869-1855-45d5-a43c-7ee8cd451996",
+      "prefLabel": {
+        "de": "IKT-Sicherheitstests durchführen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/054f26ab-cfdc-4077-883c-1c4c9e9b310a",
       "prefLabel": {
         "de": "Firewall-Regeln definieren"
@@ -24,9 +36,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/df329d70-87b0-466b-a214-3431f36e2a5e",
+      "prefLabel": {
+        "de": "IKT-Geräte schützen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/426ceaba-6867-481c-bb6b-aee3933da7d2",
+      "prefLabel": {
+        "de": "IKT-Sicherheit"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5da73370-f6b9-417d-a94c-09bf01f84aa2",
       "prefLabel": {
         "de": "Zutrittskontrollsoftware verwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7f0b1a66-ebaf-4c8a-b606-4c1844eb692e",
+      "prefLabel": {
+        "de": "IKT-Systemqualität beachten"
       }
     },
     {
@@ -72,12 +102,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/426ceaba-6867-481c-bb6b-aee3933da7d2",
-      "prefLabel": {
-        "de": "IKT-Sicherheit"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3cfa46e9-b7da-44ac-b09e-9596dffe0425",
       "prefLabel": {
         "de": "Wahl der IKT-Lösung optimieren"
@@ -114,33 +138,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/df329d70-87b0-466b-a214-3431f36e2a5e",
-      "prefLabel": {
-        "de": "IKT-Geräte schützen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e5beeff8-7c98-490a-ae2c-16fbb6a87305",
       "prefLabel": {
         "de": "Schlüssel zum Schutz der Daten verwalten"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2a3a96a3-709e-4d60-81f6-d247d6933f13",
-      "prefLabel": {
-        "de": "Systemsicherheit verwalten"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ec85cc63-4e24-4631-bf92-8789db2605c0",
       "prefLabel": {
         "de": "Datenbanksicherheit pflegen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4a85869-1855-45d5-a43c-7ee8cd451996",
-      "prefLabel": {
-        "de": "IKT-Sicherheitstests durchführen"
       }
     }
   ],
@@ -159,7 +165,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

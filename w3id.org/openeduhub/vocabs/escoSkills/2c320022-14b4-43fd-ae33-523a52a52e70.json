@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Gepäcktransfer beaufsichtigen"
   },
-  "definition": {
-    "de": "Beaufsichtigen des Gepäcktransfers und Sicherstellen der rechtzeitigen und sicheren Ankunft von Gepäckstücken bei Luftfahrtunternehmen, Fluggästen und Gates sowie Überwachung der Gepäckförderanlagen und Gepäckförderbänder."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d6c8dacb-b0c0-4544-b0b7-69b24df41ba1",
+    "prefLabel": {
+      "de": "Verwaltung von Verkehrs- und Logistiktätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

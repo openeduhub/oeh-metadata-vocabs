@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Grundregeln der Pflege und Wartung für Lederwaren und Maschinen für Schuhwerk anwenden"
   },
-  "definition": {
-    "de": "Grundregeln für die Pflege und Sauberkeit der von Ihnen betriebenen Geräte und Maschinen für die Herstellung von Schuhen und Lederwaren anwenden."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b6a947f2-91d2-4b7c-9f1e-9f58686e5ff9",
+      "prefLabel": {
+        "de": "Kunden und Kundinnen in der Pflege von Lederschuhen beraten"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/17b3af3e-0bd5-4388-9fb4-db5d241aa9d8"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

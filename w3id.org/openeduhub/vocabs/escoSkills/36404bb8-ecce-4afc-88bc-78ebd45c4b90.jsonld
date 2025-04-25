@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Vorkehrungen für zu erwartende Probleme im Straßenverkehr treffen"
   },
-  "definition": {
-    "de": "Treffen von Vorkehrungen für zu erwartende Probleme im Straßenverkehr, z. B. Reifenpannen, Verfolgungsfahrten, Untersteuerung oder Übersteuerung."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f7c70392-a261-42e9-86a6-fccf3709ac81",
+    "prefLabel": {
+      "de": "Führen von Fahrzeugen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

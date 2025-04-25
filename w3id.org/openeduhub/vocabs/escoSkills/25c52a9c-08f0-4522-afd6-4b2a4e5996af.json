@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "blanke Teile an Schiffen pflegen"
   },
-  "definition": {
-    "de": "Pflege der blanken Teile an Schiffen und Booten durch Reinigen, Polieren und Lackieren; Entfernen von Müll und Reparatur beschädigter Ausrüstung."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6cdaa773-3b80-465b-bba3-46fde74816d8",
+      "prefLabel": {
+        "de": "Schiffe reinigen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/83a9bcba-f2bc-40d6-a5d0-fc870e7b4f0e",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

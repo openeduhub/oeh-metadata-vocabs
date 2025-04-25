@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Nutzer/Nutzerinnen des Gesundheitssystems weiterverweisen"
   },
-  "definition": {
-    "de": "Weiterverweisen von Nutzern des Gesundheitssystems an andere Fachkräfte und Organisationen auf Grundlage der Anforderungen und Bedürfnisse der Nutzer."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d22ed03b-5385-4c53-b399-17bfec2b61f5",
+      "prefLabel": {
+        "de": "Kunden/Kundinnen an kommunale Dienste verweisen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/29fbde52-e525-4653-96d0-acd59ccb28d8",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

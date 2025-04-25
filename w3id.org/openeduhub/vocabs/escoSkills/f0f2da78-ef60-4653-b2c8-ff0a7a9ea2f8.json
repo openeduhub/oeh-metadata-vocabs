@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Bibliotheksbenutzern/Bibliotheksbenutzerinnen digitale Kompetenz vermitteln"
   },
-  "definition": {
-    "de": "Bibliotheksbenutzer/innen in grundlegenden Computerkenntnissen unterweisen, wie z. B. die Abfrage digitaler Datenbanken."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/caede8f1-6658-4d78-9eb4-2ad2c7ebf09b",
+    "prefLabel": {
+      "de": "Lehre und Ausbildung"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

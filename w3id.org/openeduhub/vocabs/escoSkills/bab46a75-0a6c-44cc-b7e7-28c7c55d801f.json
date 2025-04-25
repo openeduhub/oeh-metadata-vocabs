@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Immobilienwerte vergleichen"
   },
-  "definition": {
-    "de": "Einholen von Informationen über den Wert von Immobilien, die mit der zu bewertenden Immobilie vergleichbar sind, um eine genauere Beurteilung und Einschätzung vorzunehmen oder den Preis festzulegen oder auszuhandeln, zu dem die Immobilie verkauft oder vermietet werden kann."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3eef7ff2-3ade-41d4-b084-2bd2a3949e1c",
+    "prefLabel": {
+      "de": "Bewerten von Grundstücken oder Immobilien"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Dialog mit am Eisenbahnverkehr beteiligten Akteuren aufnehmen"
   },
-  "definition": {
-    "de": "Pflegen regelmäßiger Kontakte mit beteiligten Akteuren, darunter Netzwerke von Eisenbahngesellschaften, andere Eisenbahnunternehmen, lokale Behörden, Servicepartner, Fahrgastforen, Verkaufsstellen usw., um kontinuierlich einen reibungslosen Schienenverkehr sicherzustellen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e121d5f2-4633-4c50-a349-a622b2a05f27",
+      "prefLabel": {
+        "de": "im Zusammenhang mit Unfalluntersuchungen mit am Eisenbahnverkehr beteiligten Akteuren zusammenarbeiten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a3b45dc-8299-4b67-99db-6542daf79ac3",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

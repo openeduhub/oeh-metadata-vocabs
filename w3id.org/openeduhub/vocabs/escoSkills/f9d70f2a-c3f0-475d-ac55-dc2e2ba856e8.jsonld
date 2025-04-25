@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Inspektionen leiten"
   },
-  "definition": {
-    "de": "Leiten von Inspektionen und entsprechende Vorgehensweise, z. B. Vorstellen des Inspektionsteams, Erläutern des Zwecks der Inspektion, Durchführen der Inspektion, Anfordern von Dokumenten und Stellen der entsprechenden Fragen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/36e9c099-614e-44f1-ab0a-5e6fda4a0763",
@@ -27,6 +24,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/54f7432d-a8b6-4ed4-a50e-9ec882320595",
+    "prefLabel": {
+      "de": "Überwachung, Inspektion und Prüfung"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/f9d70f2a-c3f0-475d-ac55-dc2e2ba856e8"
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

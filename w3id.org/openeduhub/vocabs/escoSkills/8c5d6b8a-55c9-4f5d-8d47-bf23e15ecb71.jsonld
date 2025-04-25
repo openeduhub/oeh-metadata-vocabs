@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Raumnutzung regeln"
   },
-  "definition": {
-    "de": "Beaufsichtigung von Entwurf und Ausarbeitung eines Plans für die Nutzung und Aufteilung der Räumlichkeiten gemäß den Bedürfnissen und Prioritäten der Nutzer/Nutzerinnen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/65ce30a8-8190-4ed9-9903-68f1c6eb1b0a",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f73c2c9e-b097-4fcb-95d1-659ea0bd54a3",
+    "prefLabel": {
+      "de": "Zuweisung und Kontrolle materieller Ressourcen"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/8c5d6b8a-55c9-4f5d-8d47-bf23e15ecb71"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

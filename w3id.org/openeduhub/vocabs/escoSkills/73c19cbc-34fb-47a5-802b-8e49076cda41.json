@@ -9,9 +9,6 @@
       "Kautschukwaren bearbeiten"
     ]
   },
-  "definition": {
-    "de": "Einsatz von Werkzeugen und Geräten zur Herstellung von Gummiteilen oder Gummiendprodukten durch Vorgänge wie Schneiden, Formen oder Fixieren."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8600ac1c-f010-45ac-9b02-44f5bf65ce51",
@@ -26,6 +23,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/39d83364-c86f-4942-96d1-e5df582face9",
+    "prefLabel": {
+      "de": "Betrieb von Ausrüstungen zum Formen von Metall, Plastik oder Gummi"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/73c19cbc-34fb-47a5-802b-8e49076cda41"
@@ -35,7 +38,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

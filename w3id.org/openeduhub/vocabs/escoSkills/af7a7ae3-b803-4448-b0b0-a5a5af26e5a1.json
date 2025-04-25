@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "über die Art eines Gentests entscheiden"
   },
-  "definition": {
-    "de": "Suchen nach geeigneten Tests für einen bestimmten Patienten unter Berücksichtigung von Tests der Molekulargenetik, Zytogenetik und speziellen Biochemie."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c7f96545-46c4-451a-b284-014f4baed5ed",
+    "prefLabel": {
+      "de": "Treffen von Entscheidungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

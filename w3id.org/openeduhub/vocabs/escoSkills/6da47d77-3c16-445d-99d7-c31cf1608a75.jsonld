@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Radierungen maßstabsgetreu verkleinern"
   },
-  "definition": {
-    "de": "Durchführen einer Maßstabverkleinerung und Einstellen des Pantografen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c8d83eb9-ed4e-415e-a640-f5e6849d0634",
+      "prefLabel": {
+        "de": "Radierungen überprüfen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/6da47d77-3c16-445d-99d7-c31cf1608a75"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

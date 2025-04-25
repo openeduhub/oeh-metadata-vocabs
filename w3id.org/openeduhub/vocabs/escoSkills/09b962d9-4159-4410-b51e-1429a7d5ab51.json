@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "Eisenbahnunglücke untersuchen"
   },
-  "definition": {
-    "de": "Durchführen von Untersuchungen bei Eisenbahnunglücken. Berücksichtigen der besonderen Umstände des Unfalls und der tatsächlichen oder potenziellen Folgen. Untersuchen, ob das Unglück Teil einer Unfallserie ist, und Ermitteln der Wiederholungsgefahr. Bemühen, die Sicherheit zu verbessern."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e121d5f2-4633-4c50-a349-a622b2a05f27",
+      "prefLabel": {
+        "de": "im Zusammenhang mit Unfalluntersuchungen mit am Eisenbahnverkehr beteiligten Akteuren zusammenarbeiten"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c4376e35-add7-43a0-8b2e-f5741f0df8fe",
     "prefLabel": {
@@ -22,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

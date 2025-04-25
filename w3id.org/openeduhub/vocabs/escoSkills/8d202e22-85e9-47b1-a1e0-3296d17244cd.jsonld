@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Vertraulichkeit beachten"
   },
-  "definition": {
-    "de": "Einhaltung der Vorschriften zur Geheimhaltung von Informationen gegenüber unbefugten Personen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f09e70cb-5d8c-4c57-b027-a45127c0bf92",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2b6e15f5-dfa0-4e7c-9687-5665b07e56a4",
+    "prefLabel": {
+      "de": "Schutz von Privatsphäre und personenbezogenen Daten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/8d202e22-85e9-47b1-a1e0-3296d17244cd"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

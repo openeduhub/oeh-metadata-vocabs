@@ -4,14 +4,17 @@
   "prefLabel": {
     "de": "Unfälle mit Tieren untersuchen"
   },
-  "definition": {
-    "de": "Untersuchen von Vorkommnissen im Zusammenhang mit Tieren, beispielsweise einer mutmaßlichen Nichteinhaltung der Tierschutzbestimmungen, Missbrauch, Verletzung oder Vernachlässigung von Tieren durch Sammeln von Informationen, Einholen und Analysieren von Berichten, Ergreifen geeigneter Maßnahmen und Zusammenarbeit mit den entsprechenden Strafverfolgungsbehörden."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ebf956f8-4832-406e-b470-26c8bbf83b81",
       "prefLabel": {
         "de": "Fallakten zu tierbezogenen Recherchen vorbereiten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8ad2b7ca-42c3-4bfe-939a-056a90bdd2d8",
+      "prefLabel": {
+        "de": "beteiligte Parteien in Bezug auf Tierschutzuntersuchungen befragen"
       }
     }
   ],
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

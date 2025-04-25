@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Terminplan einhalten"
   },
-  "definition": {
-    "de": "Planmäßige Abarbeitung und Erledigung von Aufgaben; Durchführung der notwendigen Arbeiten, damit die Aufgabe innerhalb der vorgesehenen Frist abgeschlossen werden kann."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/694e1e70-3e22-4d72-a3ac-b5f92951423d",
@@ -27,6 +24,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0779d482-4154-4fbb-9a22-d9fd89c39d67",
+    "prefLabel": {
+      "de": "Organisation, Planung und zeitliche Planung von Arbeiten und Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/4932c6e3-f6c7-49bf-bf66-f8508237054f"
@@ -36,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,19 @@
   "prefLabel": {
     "de": "auf Details bei Lebensmitteln und Getränken achten"
   },
-  "definition": {
-    "de": "Verwendung großer Aufmerksamkeit bei allen Schritten der Erzeugung und der Präsentation eines Qualitätsprodukts."
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/49071d69-cd74-42ed-8f54-8d66a0623950",
+      "prefLabel": {
+        "de": "detaillierte Lebensmittelverarbeitungsverfahren durchführen"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bf4822d3-1f66-499d-afc9-151a9ba33e58",
+    "prefLabel": {
+      "de": "Zubereiten von Gemischen oder Lösungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

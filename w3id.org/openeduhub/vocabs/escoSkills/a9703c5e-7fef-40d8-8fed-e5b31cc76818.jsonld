@@ -42,12 +42,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a4e99e0-f259-4931-888f-604cfdc15b31",
-      "prefLabel": {
-        "de": "Maschinenwartungsarbeiten durchführen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8eebf05f-4495-4fd5-b1f0-cb85750295be",
       "prefLabel": {
         "de": "Hydraulikanlagen warten"
@@ -105,12 +99,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/62381a22-cc11-434a-b140-fb706d2ff2fa",
       "prefLabel": {
         "de": "Extrusionsmaschinen warten"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/781c558a-8bb7-457b-865b-15b64193ca59",
-      "prefLabel": {
-        "de": "Wartung und Reinigung des Schiffs durchführen"
       }
     },
     {
@@ -186,9 +174,21 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/8a4e99e0-f259-4931-888f-604cfdc15b31",
+      "prefLabel": {
+        "de": "Maschinenwartungsarbeiten durchführen"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/2c5fbce2-cd76-4ef9-83c4-3a1b9afad015",
       "prefLabel": {
         "de": "landwirtschaftliche Maschinen warten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/781c558a-8bb7-457b-865b-15b64193ca59",
+      "prefLabel": {
+        "de": "Wartung und Reinigung des Schiffs durchführen"
       }
     },
     {
@@ -204,15 +204,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/69925c23-6fed-4baa-8bf3-e5aaeb6b0b54",
-      "prefLabel": {
-        "de": "Wartung von Gleisbaumaschinen sicherstellen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/62278d41-2182-4a95-8e9c-ae6fa3e342b7",
       "prefLabel": {
         "de": "Wartung von Zügen sicherstellen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/69925c23-6fed-4baa-8bf3-e5aaeb6b0b54",
+      "prefLabel": {
+        "de": "Wartung von Gleisbaumaschinen sicherstellen"
       }
     }
   ],
@@ -231,7 +231,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -9,9 +9,6 @@
       "Probelauf durchführen"
     ]
   },
-  "definition": {
-    "de": "Durchführung von Tests, bei denen ein System, eine Maschine, ein Gerät oder sonstige Ausrüstung unter realen Betriebsbedingungen verschiedene Aufgaben absolvieren muss, um die Zuverlässigkeit und Eignung für die jeweiligen Aufgaben zu ermitteln, gegebenenfalls Anpassung der Einstellungen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/23236dce-adc6-47bc-91e2-6701a93ece58",
@@ -23,6 +20,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34bc01ed-dd78-49c7-bcfb-c17bb66688b5",
       "prefLabel": {
         "de": "Leistungselektronik testen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3a1c546d-914a-46e4-a7c1-47d43646fedd",
+      "prefLabel": {
+        "de": "Qualitätskontrolle von Konstruktionen während eines Durchlaufs durchführen"
       }
     },
     {
@@ -71,7 +74,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

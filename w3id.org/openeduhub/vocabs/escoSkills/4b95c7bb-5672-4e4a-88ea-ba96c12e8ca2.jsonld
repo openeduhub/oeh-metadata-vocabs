@@ -12,10 +12,13 @@
       "Kundenerlebnis verwalten"
     ]
   },
-  "definition": {
-    "de": "Überwachung, Schaffung und Steuerung der Erfahrung und Wahrnehmung von Marke und Dienstleistung durch den Kunden. Sicherstellen eines positiven Kundenerlebnisses, freundlicher und höflicher Umgang mit Kunden."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89ba58e8-a67e-4d2b-ad42-6acab25c241b",
+      "prefLabel": {
+        "de": "Kundenrückmeldungen auswerten"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7bb5d9af-0a7e-48a7-a860-0e1ded0f6e75",
       "prefLabel": {
@@ -38,7 +41,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "den Betrieb klinischer Informationssysteme betreuen"
   },
-  "definition": {
-    "de": "Überwachen und Beaufsichtigen der täglichen Abläufe der operativen und klinischen Informationssysteme wie der Kommunikations- und Informationssysteme, die für die Erfassung und Speicherung klinischer Informationen über das Verfahren zur Gesundheitsversorgung verwendet werden."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/32c017fd-28ab-4051-bf68-74de952c2f77",
+    "prefLabel": {
+      "de": "Informationsmanagement"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

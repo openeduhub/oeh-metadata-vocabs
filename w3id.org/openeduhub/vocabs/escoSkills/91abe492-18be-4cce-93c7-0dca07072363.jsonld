@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Fristen einhalten"
   },
-  "definition": {
-    "de": "Sicherstellen, dass operative Prozesse pünktlich abgeschlossen werden."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1677a5fe-a0f9-4a3f-862d-91c0a2ff1983",
@@ -21,12 +18,24 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ea6c0bf5-fe69-4ffa-a1b4-398f46a67c95",
+      "prefLabel": {
+        "de": "termingerecht schreiben"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/6181f475-110c-497c-a46d-ed2e14e7bc90",
       "prefLabel": {
         "de": "Einhaltung des Projektfertigstellungstermins sicherstellen"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0779d482-4154-4fbb-9a22-d9fd89c39d67",
+    "prefLabel": {
+      "de": "Organisation, Planung und zeitliche Planung von Arbeiten und Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363"
@@ -36,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

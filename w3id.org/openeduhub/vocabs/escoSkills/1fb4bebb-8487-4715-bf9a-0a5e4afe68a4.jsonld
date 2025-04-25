@@ -4,9 +4,20 @@
   "prefLabel": {
     "de": "künstlerische Produktionen planen"
   },
-  "definition": {
-    "de": "Personal und Ressourcen für verschiedene Aktivitäten in der künstlerischen Produktion planen. Die Anforderungen der Produktion berücksichtigen und sich mit den beteiligten Parteien abstimmen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/409b165c-ddae-4366-aeac-fa95c79e57a9",
+      "prefLabel": {
+        "de": "ein künstlerisches Konzept an den Spielort anpassen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ee6630cd-f44d-4968-aa48-c179703fa012",
+      "prefLabel": {
+        "de": "künstlerische Aktivitäten planen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/1fb4bebb-8487-4715-bf9a-0a5e4afe68a4"
@@ -16,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

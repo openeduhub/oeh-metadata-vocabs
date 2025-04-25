@@ -13,9 +13,6 @@
       "mit Datenqualitätswerkzeugen arbeiten"
     ]
   },
-  "definition": {
-    "de": "Verwalten aller Arten von Datenressourcen über ihren gesamten Lebenszyklus hinweg durch Erstellung von Datenprofilen, Parsing, Standardisierung, Identitätsauflösung, Bereinigung, Erweiterung und Prüfung von Daten. Sicherstellen, dass die Daten für den jeweiligen Zweck geeignet sind, mithilfe spezieller IKT-Instrumente zur Erfüllung der Kriterien für die Datenqualität."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4f5c1208-62fd-4e5a-a51e-306c06947e11",
@@ -46,6 +43,12 @@
       "prefLabel": {
         "de": "Daten zum Grubengelände verwalten"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f879a418-3e81-4216-9533-aaedce55fa97",
+      "prefLabel": {
+        "de": "Richtigkeit flugtechnischer Daten sicherstellen"
+      }
     }
   ],
   "broader": {
@@ -63,7 +66,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

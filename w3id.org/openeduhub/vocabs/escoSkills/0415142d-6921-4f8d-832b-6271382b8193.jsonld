@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Materialien prüfen"
   },
-  "definition": {
-    "de": "Prüfen der Zusammensetzung, der Merkmale und der Verwendung von Werkstoffen zur Herstellung neuer Produkte und Anwendungen. Testen der Stoffe unter normalen und außergewöhnlichen Bedingungen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7802ce4b-2b70-4bd2-bdb3-6ce1482da6ab",
+      "prefLabel": {
+        "de": "Lebensmitteltests durchführen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/676807c0-348d-452e-8eab-40fb7b9e1594",
       "prefLabel": {
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

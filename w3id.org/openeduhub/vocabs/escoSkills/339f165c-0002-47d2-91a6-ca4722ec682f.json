@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Musikensembles betreuen"
   },
-  "definition": {
-    "de": "Leiten von Musikgruppen, einzelnen Musikern oder vollständigen Orchestern bei Proben sowie bei Live- und Studio-Auftritten, um das Gleichgewicht der Töne und Harmonien, die Dynamik, den Rhythmus und das Tempo zu verbessern."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/fbb9ceec-26c2-417c-b849-bf613a7b3e9f",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+    "prefLabel": {
+      "de": "Beaufsichtigen eines Teams oder einer Gruppe"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/339f165c-0002-47d2-91a6-ca4722ec682f"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

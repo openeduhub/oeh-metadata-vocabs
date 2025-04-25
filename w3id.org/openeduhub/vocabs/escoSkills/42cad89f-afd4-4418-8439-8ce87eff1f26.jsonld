@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Geld zählen"
   },
-  "definition": {
-    "de": "Zählen von Geld durch Sortieren und Verpacken von Geld in Münzrollen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c20ac175-3aab-4aaa-9b9e-784c2dfb59cd",
+    "prefLabel": {
+      "de": "Abwickeln von Finanzgeschäften"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

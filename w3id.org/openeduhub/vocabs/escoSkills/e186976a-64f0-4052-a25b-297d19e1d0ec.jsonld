@@ -9,9 +9,6 @@
       "proaktiv denken"
     ]
   },
-  "definition": {
-    "de": "Ergreifen von Initiativen, um Verbesserungen herbeizuführen."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4934c105-5e90-4874-9957-78eceef1a13c",
@@ -20,6 +17,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ab877a24-335d-4676-b366-c5c06651481a",
+    "prefLabel": {
+      "de": "Kommunikation, Zusammenarbeit und Kreativität"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
@@ -29,7 +32,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

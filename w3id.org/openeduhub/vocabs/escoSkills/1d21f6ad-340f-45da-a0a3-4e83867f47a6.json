@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Erste Hilfe leisten"
   },
-  "definition": {
-    "de": "Herz-Lungen-Wiederbelebung oder Erste Hilfe leisten, um kranke oder verletzte Personen so lange zu versorgen, bis sie eine umfassendere medizinische Behandlung erhalten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1544dfaf-3059-479d-a7d9-6b4b2d902212",
@@ -21,6 +18,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/73e602a0-f80f-4f56-8e21-3db4fd08709d",
+    "prefLabel": {
+      "de": "Medizinische, zahnärztliche und pflegerische Versorgung"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

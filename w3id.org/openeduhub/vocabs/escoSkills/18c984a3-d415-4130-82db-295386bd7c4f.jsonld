@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Zylinderdaten aufzeichnen"
   },
-  "definition": {
-    "de": "Für jeden Zylinder die Angaben zu Gewicht, Nummer und Typ des enthaltenen Gases aufzeichnen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/95bf4552-6d5b-41dc-b990-53ace372f705",
+    "prefLabel": {
+      "de": "Dokumentation von technischen Entwürfen, Verfahren, Problemen oder Tätigkeiten"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

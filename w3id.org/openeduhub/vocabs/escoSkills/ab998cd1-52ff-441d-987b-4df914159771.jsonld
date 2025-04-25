@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "große Gebäudereparaturen melden"
   },
-  "definition": {
-    "de": "Unterrichten von Vorgesetzten oder Führungskräften über die Notwendigkeit größerer Reparaturen oder Anpassungen am Gebäude."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/06fdd94c-292d-49e3-9c78-bbcbc2088232",
+    "prefLabel": {
+      "de": "Führen betrieblicher Aufzeichnungen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

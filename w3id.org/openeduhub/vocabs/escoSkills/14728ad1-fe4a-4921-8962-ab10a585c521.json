@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "bei allgemeinen veterinärmedizinischen Verfahren assistieren"
   },
-  "definition": {
-    "de": "Tierärzte unterstützen, indem Sie sowohl das Tier als auch die Ausrüstung für medizinische Verfahren vorbereiten und das zu behandelnde Tier betreuen und unterstützen."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/186776ca-1758-454f-a544-2004f21bee9f",
+      "prefLabel": {
+        "de": "bei der veterinärmedizinischen Anästhesie assistieren"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e89fbede-3d65-4744-9a41-2990e66492f2",
       "prefLabel": {
@@ -42,7 +45,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

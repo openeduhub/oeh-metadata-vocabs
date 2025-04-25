@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Zubereitung von Speisen anleiten"
   },
-  "definition": {
-    "de": "Überwachen der Zubereitung verschiedener Gerichte, wie Suppen, Salate, Fisch, Fleisch, Gemüse und Desserts. Mithilfe und Anleitung bei der Zubereitung, entweder täglich oder für besondere Gäste oder Veranstaltungen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89f8435a-ebc1-42b6-bf5c-496999e99776",
+    "prefLabel": {
+      "de": "Zubereitung von Speisen und Getränken"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "Produktionspläne erstellen"
   },
-  "definition": {
-    "de": "Erstellen eines Zeitplans für die Produktion eines Films, eines Rundfunkprogramms oder einer künstlerischen Produktion. Festlegen der Dauer der einzelnen Phasen und der Anforderungen. Berücksichtigen bereits vorhandener Zeitpläne des Produktionsteams und Erstellen eines realisierbaren Zeitplans. Informieren des Teams über den Zeitplan."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0f7b4bf5-8d37-4205-bd61-fe0878e9d9e2",
@@ -19,6 +16,12 @@
       "prefLabel": {
         "de": "Tätigkeiten von Lebensmittelbetrieben planen"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/66cf649e-fd1d-4840-8250-ebd546a12239",
+      "prefLabel": {
+        "de": "Produktionsanforderungen für die Entwicklung eines Produktionsplans ermitteln"
+      }
     }
   ],
   "exactMatch": [
@@ -30,7 +33,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

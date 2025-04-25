@@ -4,10 +4,13 @@
   "prefLabel": {
     "de": "Systemtests durchführen"
   },
-  "definition": {
-    "de": "Auswahl, Durchführung und Überprüfung von Software- oder Hardwaretests zur Erkennung von Systemmängeln sowohl innerhalb der integrierten Systemeinheiten, als auch im Netzwerk oder im System als Ganzes. Durchführung von Tests wie Installations-, Sicherheits- und Schnittstellentests."
-  },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4a85869-1855-45d5-a43c-7ee8cd451996",
+      "prefLabel": {
+        "de": "IKT-Sicherheitstests durchführen"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/40802f0d-d400-404c-bc26-f9ba4eb6195a",
       "prefLabel": {
@@ -18,12 +21,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/913e7e83-b8f8-4574-b1ca-1b38f3fd974a",
       "prefLabel": {
         "de": "Softwaretests durchführen"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f4a85869-1855-45d5-a43c-7ee8cd451996",
-      "prefLabel": {
-        "de": "IKT-Sicherheitstests durchführen"
       }
     }
   ],
@@ -42,7 +39,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

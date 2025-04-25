@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "Charakter beurteilen"
   },
-  "definition": {
-    "de": "Bewerten, wie eine bestimmte Person verbal oder physisch in einer bestimmten Situation oder bei einem bestimmten Vorfall reagieren wird."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c206d301-14b0-4bea-8028-a3749303a512",
+    "prefLabel": {
+      "de": "Überwachen und Bewerten der Leistung von Personen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

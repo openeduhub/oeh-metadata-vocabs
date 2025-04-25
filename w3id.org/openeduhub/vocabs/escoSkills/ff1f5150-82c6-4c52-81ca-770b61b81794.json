@@ -4,9 +4,6 @@
   "prefLabel": {
     "de": "höchste Verantwortungsstufe in der Binnenschifffahrt übernehmen"
   },
-  "definition": {
-    "de": "Verständnis der Verantwortlichkeiten, die die Position des Schiffsführers mit sich bringt. Übernahme der Verantwortung für die Unversehrtheit der Schiffsbesatzung, der Ladung und der Fahrgäste; Sicherstellen des ordnungsgemäßen Ablaufs von Tätigkeiten."
-  },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/117bb003-603a-4a4a-b0f3-044e6c56a1b2",
@@ -15,6 +12,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/87dff904-fb74-4d59-972e-1c2387579d94",
+    "prefLabel": {
+      "de": "Leitung betrieblicher Tätigkeiten"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/ff1f5150-82c6-4c52-81ca-770b61b81794"
@@ -24,7 +27,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

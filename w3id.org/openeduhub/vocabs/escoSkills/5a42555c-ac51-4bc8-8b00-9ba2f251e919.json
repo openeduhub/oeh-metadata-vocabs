@@ -4,9 +4,14 @@
   "prefLabel": {
     "de": "künstlerische Teams zusammenstellen"
   },
-  "definition": {
-    "de": "Zusammenstellen eines künstlerischen Teams nach Ermittlung des Bedarfs, Suche nach Kandidaten, Führen von Interviews und Abstimmung der Projektbedingungen."
-  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ee5a80cd-dca0-421d-a855-5f763a934184",
+      "prefLabel": {
+        "de": "Bewerbungsgespräche für die Auswahl von Mitgliedern des künstlerischen Teams durchführen"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://data.europa.eu/esco/skill/5a42555c-ac51-4bc8-8b00-9ba2f251e919"
@@ -16,7 +21,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],

@@ -4,8 +4,11 @@
   "prefLabel": {
     "de": "geschlechtsspezifische Fragen in der Beratung zur Familienplanung ansprechen"
   },
-  "definition": {
-    "de": "Information der Klienten über geschlechtsspezifische Themen im Zusammenhang mit der Familienplanung, indem sie dazu ermutigt werden, ihre eigenen Entscheidungen im Bereich der geschlechtlichen und reproduktiven Gesundheit zu treffen oder ihre Partner in die Beratung zur Familienplanung einzubeziehen."
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/efbb3d3b-a41c-4e0a-90a8-8e611eb1db9f",
+    "prefLabel": {
+      "de": "Beratung zu Rechts-, Regulierungs- oder Verfahrensfragen"
+    }
   },
   "exactMatch": [
     {
@@ -16,7 +19,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
       "title": {
-        "de": "ESCO - Fähigkeiten"
+        "de": "ESCO Skills: Fähigkeiten"
       }
     }
   ],
