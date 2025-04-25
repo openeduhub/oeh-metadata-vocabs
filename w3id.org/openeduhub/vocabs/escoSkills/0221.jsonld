@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0221",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Religion und Theologie"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/049115cd-da38-499e-8544-4afdb6a4abee",
+      "prefLabel": {
+        "de": "Mönch- und Nonnentum"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0b0c4b57-9034-490f-9071-5f761ec93d38",
+      "prefLabel": {
+        "de": "Christentum"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/1ff7863f-6242-4635-ac1a-9cfabc5099ec",
+      "prefLabel": {
+        "de": "Wahrsagetechniken"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3524e684-62fc-4634-9f7e-924e211efe75",
+      "prefLabel": {
+        "de": "Spiritualismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/73dafc95-adf1-4699-b996-79235c588b1e",
+      "prefLabel": {
+        "de": "Hinduismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/76c58582-2310-4b6e-94e7-2f0ff5debc5d",
+      "prefLabel": {
+        "de": "Koran"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/92251935-f1e9-4588-9fc5-39d7923b234e",
+      "prefLabel": {
+        "de": "Numerologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94145c4e-453f-47f0-9803-2bf9eef112a1",
+      "prefLabel": {
+        "de": "Islam"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/c11cd670-0544-47a6-962e-67caaca1ea96",
+      "prefLabel": {
+        "de": "Buddhismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d8cde71e-6b3f-4c30-9b97-e4cdaaf32dee",
+      "prefLabel": {
+        "de": "Bibeltexte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dc2f2f3d-cffc-4754-a4cc-619cc68b9270",
+      "prefLabel": {
+        "de": "Okkultismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e3aa5990-9993-40b1-8cd7-b8a94de327dc",
+      "prefLabel": {
+        "de": "Judaismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f1ac5772-5f0b-4a8d-9a78-b623c3cbc0a2",
+      "prefLabel": {
+        "de": "Torah"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f5b55ae6-41be-4a62-af43-2aaa0fcc4dc4",
+      "prefLabel": {
+        "de": "Gebet"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/40c7d915-e07b-4e53-8b7a-9d30551818b3",
+      "prefLabel": {
+        "de": "Islamstudien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/15f9284a-5385-42ac-92c7-b8352ea43c36",
+      "prefLabel": {
+        "de": "Religionswissenschaften"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bde6d525-01e0-4d50-ac46-a6314274c1d6",
+      "prefLabel": {
+        "de": "Theologie"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/022",
+    "prefLabel": {
+      "de": "Geisteswissenschaften (ohne Sprachen)"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0221"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "ESCO Skills"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

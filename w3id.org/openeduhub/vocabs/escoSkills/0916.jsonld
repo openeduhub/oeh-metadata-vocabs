@@ -1,0 +1,251 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0916",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Pharmazie"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/34396520-b785-42dc-afe0-f74d7aa9f793",
+      "prefLabel": {
+        "de": "Entwicklung von Arzneimitteln"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4262ddf4-4985-4d23-ba82-f82a226b2bde",
+      "prefLabel": {
+        "de": "Klassifizierung von Medikamenten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/43438fd0-3af5-48f9-8984-495dfc447b0f",
+      "prefLabel": {
+        "de": "Analgetika"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4c35663d-f3c7-464a-bbdd-3568eba2dc7b",
+      "prefLabel": {
+        "de": "Arzneimittelverordnungen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/4db59630-40d1-403d-b2f0-0cc81d95632d",
+      "prefLabel": {
+        "de": "Arzneimittelüberwachungsgesetz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7b1ab171-caed-4561-89e4-b214396b1ae8",
+      "prefLabel": {
+        "de": "Arzneimitteltechnik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/82a63a4a-b43b-420c-aa5f-92e6a85368fb",
+      "prefLabel": {
+        "de": "Pharmakognosie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/89423614-b96a-44f5-9e63-1501549d8f31",
+      "prefLabel": {
+        "de": "pharmazeutisches Qualitätssystem für die Arzneimittelherstellung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/94bbdb2d-b70e-4e42-8977-f4627b42a0a6",
+      "prefLabel": {
+        "de": "pharmazeutische Verfahren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/a1c72d66-3671-4a8e-840d-e8b28e237b6f",
+      "prefLabel": {
+        "de": "pharmazeutische Industrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b7cd09b7-58d8-4f2e-87de-613ae629f270",
+      "prefLabel": {
+        "de": "Pharmakokinetik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/bea8009d-7d73-4daf-bbe8-39870aa3cceb",
+      "prefLabel": {
+        "de": "Pharmaindustrie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/dd88bcb0-100a-4d48-896b-746c355fcd46",
+      "prefLabel": {
+        "de": "Radiopharmaka"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f00b56a7-0160-4af4-bb7c-e6ef02d06a4f",
+      "prefLabel": {
+        "de": "Pharmakotherapie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/16b1f191-eafd-4821-a08a-9f0cc4e5a71a",
+      "prefLabel": {
+        "de": "pharmazeutische Erzeugnisse"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3d7dc568-4b88-4eab-97d8-2fde5cea3df0",
+      "prefLabel": {
+        "de": "angewandte Therapeutika im Zusammenhang mit Medikamenten"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e7468bc3-9f25-4c78-9077-4fd118afa4a4",
+      "prefLabel": {
+        "de": "Medikamente zur Selbstmedikation"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/091",
+    "prefLabel": {
+      "de": "Gesundheit"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0916"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "ESCO Skills"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}

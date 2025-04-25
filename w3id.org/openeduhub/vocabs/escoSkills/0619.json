@@ -1,0 +1,245 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/escoSkills/0619",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Informations- und Kommunikationstechnologien – nirgendwo sonst klassifiziert"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3be79ccc-a455-49b9-8c65-55c50071ba5b",
+      "prefLabel": {
+        "de": "Grundsätze der Distributed-Ledger-Technologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/45f1ae17-c20d-40fc-9307-7d33b6ca9213",
+      "prefLabel": {
+        "de": "Bilderkennung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5da42cfd-1da8-4e4f-b68e-4f821d005fc5",
+      "prefLabel": {
+        "de": "virtuelle Realität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/7b0d5000-00da-4864-b776-6de49a87a669",
+      "prefLabel": {
+        "de": "Computervision"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/83934f53-5ffa-478f-9f8f-b779e9b4fc7a",
+      "prefLabel": {
+        "de": "Selbstbedienungstechnologien im Tourismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/abdc7ac8-151f-40c6-bc1a-1e9b4b073290",
+      "prefLabel": {
+        "de": "erweiterte Realität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/afa14e38-5973-4cce-a077-f796c1ced2cc",
+      "prefLabel": {
+        "de": "Blockchain-Technologie"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/b3a186be-5f1b-45d3-a468-41183e9780f3",
+      "prefLabel": {
+        "de": "Konfiguration der Technik von Pferdewettbüros"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d5bcc417-a004-4165-b7f1-ab739eadd2f4",
+      "prefLabel": {
+        "de": "Smart-City-Funktionen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/d96078b0-12f4-47d3-a260-61d22050a840",
+      "prefLabel": {
+        "de": "Vehicle-to-Everything-Technologien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e2b05bcb-b60e-45b5-baa6-3a67ebe77538",
+      "prefLabel": {
+        "de": "Fahrerassistenzsysteme (FAS)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/f7e051fc-8f7b-45b3-8911-8ffb9b951f4a",
+      "prefLabel": {
+        "de": "Blockchain-Konsensmechanismen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+      "prefLabel": {
+        "de": "maschinelles Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/e465a154-93f7-4973-9ce1-31659fe16dd2",
+      "prefLabel": {
+        "de": "Grundlagen der künstlichen Intelligenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/5608d5a0-6d5e-43b7-be37-616501729bb4",
+      "prefLabel": {
+        "de": "künstliche neuronale Netze"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/ecc4552a-92c5-4222-b18d-faf5ac841080",
+      "prefLabel": {
+        "de": "Deep Learning"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/escoSkills/061",
+    "prefLabel": {
+      "de": "Informations- und Kommunikationstechnologien (IKT)"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://data.europa.eu/esco/isced-f/0619"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/",
+      "title": {
+        "de": "ESCO Skills"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/escoSkills/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}
