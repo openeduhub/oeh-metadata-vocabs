@@ -2,24 +2,24 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/624",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verkauf drog.apotheken.Waren"
+    "de": "Verkauf drog.apotheken.Waren,Medizinbed."
   },
   "altLabel": {
     "de": [
-      "Medizinbed."
+      "Verkauf von drogerie- und apothekenüblichen Waren, Sanitäts- und Medizinbedarf"
     ]
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/6241",
       "prefLabel": {
-        "de": "Verkauf drogerie-"
+        "de": "Verkauf drogerie-,apothekenübliche Waren"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/6242",
       "prefLabel": {
-        "de": "Berufe Verkauf Sanitäts-"
+        "de": "Berufe Verkauf Sanitäts-, Medizinbedarf"
       }
     }
   ],
