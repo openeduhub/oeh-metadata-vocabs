@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/5318",
   "type": "Concept",
   "prefLabel": {
-    "de": "Obj.Pers.Brandschutz,Arbeitssicherh"
+    "de": "Obj.Pers.Brandschutz,Arbeitssicherh(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Objekt-, Personen-, Brandschutz, Arbeitssicherheit (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in den Bereichen Objekt-, Personen-, Brandschutz und Arbeitssicherheit, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „531 Objekt-, Personen-, Brandschutz, Arbeitssicherheit“ nicht anderweitig erfasst sind. Sie montieren z. B. Alarm- und Sicherheitsanlagen oder überwachen den Verkehr im Rahmen der kommunalen Verkehrsüberwachung."
+  },
+  "note": {
+    "de": "Hunde betreuen und anleiten, z. B. bei der Suche nach Rauschgift, Sprengstoff oder Verschütteten mechanische, elektrotechnische, elektronische oder elektromechanische Sicherungssysteme sowie elektrische Antriebs- und Steuerungssysteme auswählen und montieren das Bedienungspersonal bzw. die Kunden und Kundinnen in die Benutzung sicherheitstechnischer Anlagen einweisen im Auftrag der kommunalen Verkehrsüberwachung für Ordnung und Sicherheit im Verkehr sorgen Risiko- und Gefährdungsanalysen erstellen, Sicherheitskonzepte entwickeln"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/531",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

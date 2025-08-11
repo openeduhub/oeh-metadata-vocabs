@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/4138",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Chemie "
+    "de": "Berufe in der Chemie (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Chemie (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Chemie, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „413 Chemie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Fragestellungen in der Arzneimittel-, Lebensmittel-, Polymer- oder Wirtschaftschemie."
+  },
+  "note": {
+    "de": "Stoffinhalte und -eigenschaften durch chemische Analysemethoden nachweisen, z. B. die Gewässergüte überprüfen oder Nährstoff- und Schadstoffanalysen durchführen Konzepte zur vorklinischen und klinischen Erprobung von Medikamenten entwickeln die Eigenschaften komplexer chemischer, biochemischer und mikrobiologischer Systeme, z. B. in Kunststoffen, Autoreifen, Hightech-Materialien oder Beschichtungen, untersuchen Polymere und Synthesewege, z. B. für Kunststoffe, Lacke, Farben, Hightech-Materialien, Chemiefasern, Textilhilfsstoffe, Arzneimittel, Kosmetika oder Waschmittel, entwickeln im Labor entwickelte Produktions- und Aufarbeitungsverfahren auf den großtechnischen Maßstab übertragen und anpassen vorhandene Produkte verbessern und neue entwickeln, bei der Qualitätskontrolle mitwirken und nach neuen Anwendungen für Produkte suchen toxikologische Risiken von Arzneimitteln im Rahmen des vorgeschriebenen Zulassungsverfahrens bewerten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/413",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

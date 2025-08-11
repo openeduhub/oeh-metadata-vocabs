@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/4310",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Informatik "
+    "de": "Berufe in der Informatik (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Informatik (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe konzipieren, installieren und betreuen Hard- und Softwarelösungen, richten Betriebs- und Informationssysteme ein und entwickeln oder modifizieren Softwareanwendungen. Sie nehmen Aufgaben in der Anwenderbetreuung, Datenverwaltung oder der Systemadministration wahr und forschen auf dem Gebiet der Informatik."
+  },
+  "note": {
+    "de": "Betriebs- und Informationssysteme installieren und konfigurieren Software entwickeln und programmtechnisch realisieren, marktgängige Standardsoftware an Bedürfnisse einzelner Benutzer/innen und Organisationen anpassen und abändern Problemanalyse in der Informations- sowie Datenverarbeitung, der Kommunikation und Organisation durchführen sowie Algorithmen, Datenstrukturen, Formen und Modelle auffinden Anwender-Support durchführen theoretische und angewandte Forschung zu Fragen der Informatik und ihren Anwendungen betreiben"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/431",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

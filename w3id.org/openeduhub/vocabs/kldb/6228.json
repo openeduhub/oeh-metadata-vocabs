@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/6228",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe im Verkauf "
+    "de": "Berufe im Verkauf (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe im Verkauf (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im Verkauf, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „622 Verkauf von Bekleidung, Schmuck, Bürobedarf, Elektrowaren, Möbeln, Garten- und Heimwerkerbedarf oder Kraftfahrzeugen“ nicht anderweitig erfasst sind."
+  },
+  "note": {
+    "de": "Kraftfahrzeuge mit Treib- und Schmierstoffen versorgen und betanken, den Ölstand kontrollieren, SB-Tankvorgänge überwachen Kunden und Kundinnen bei der Fahrzeugwartung beraten und diese durchführen, z. B. Zündkerzen und Batterien austauschen, Autowäsche veranlassen, Reifen wechseln Waren des täglichen und allgemeinen Bedarfs verkaufen, z. B. Getränke, Verpflegung und Illustrierte sowie weitere Dienstleistungen anbieten, z. B. Tanken Verkaufspreise, inklusive Skonti, Rabatte, berechnen, Rechnungen ausstellen, Bargeld oder Kreditkartenzahlung kassieren die zum Verkauf bestimmten Waren auf Märkten, bei Großhändlern und sonstigen Lieferanten einkaufen und bestellen bei der Sortimentsplanung mitwirken und z. B. Kundengruppen berücksichtigen, den Verkaufsraum gestalten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/622",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

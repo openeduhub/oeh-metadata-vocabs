@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8228",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ernährungs,Gesundheitsber.,Wellness"
+    "de": "Ernährungs,Gesundheitsber.,Wellness(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Ernährungs- und Gesundheitsberatung, Wellness (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst Berufe in der nichtmedizinischen Ernährungs- und Gesundheitsberatung und im Bereich Wellness, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „822 Ernährungs- und Gesundheitsberatung, Wellness“ nicht anderweitig erfasst sind."
+  },
+  "note": {
+    "de": "bei der Konzeption von Produktideen und neuen Produkten im Ernährungsbereich mitwirken Trainings- und Ernährungspläne aufstellen, z. B. zur Gewichtsreduzierung, Gesunderhaltung oder Leistungssteigerung Fragen der physiologischen, ökonomischen und technologischen Grundlagen von gesunder Ernährung für den Menschen bearbeiten bereits auf dem Markt befindliche Produkte, wie z. B. Lebensmittel, Materialien und Geräte, überprüfen und weiterentwickeln Verbraucherinformationen erarbeiten und weiterleiten, ernährungswissenschaftliche Schulungs- und Bildungsmaß-nahmen konzipieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/822",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

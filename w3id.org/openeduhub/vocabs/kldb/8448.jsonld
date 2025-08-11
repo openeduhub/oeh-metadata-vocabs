@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8448",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkräfte außerschul.Bild.einrich."
+    "de": "Lehrkräfte außerschul.Bild.einrich.(ssT)"
   },
   "altLabel": {
     "de": [
       "Lehrkräfte an außerschulischen Bildungseinrichtungen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Lehrkräfte an außerschulischen Bildungseinrichtungen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „844 Lehrtätigkeit an außerschulischen Bildungseinrichtungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterrichten z. B. in erster Hilfe, Eurythmie oder vermitteln in Museen Ausstellungsinhalte."
+  },
+  "note": {
+    "de": "Fähigkeiten der Lehrgangsteilnehmer/innen beurteilen und Lernbedürfnisse ermitteln Ausbildungssequenzen planen und geeignete Unterrichtsmethoden entwickeln theoretischen und praktischen Unterricht in erster Hilfe erteilen, z. B. Verhaltensregeln bei Knochenbrüchen, Verbrennungen oder Vergiftungen erläutern Kinder oder Erwachsene in Bewegungsabläufen unterrichten, denen Märchen, Erzählungen, Gedichte, Lieder und Musikstücke zugrunde liegen können Ausstellungsinhalte zielgruppengerecht aufbereiten, z. B. eine Museumsrallye für Kinder erarbeiten, Filme vorführen oder bei der Gestaltung von Schaubildern, Informationstafeln oder Audio-Guides mitwirken durchgeführte Lehrgänge und Workshops dokumentieren und Teilnahmebescheinigungen ausstellen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/844",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

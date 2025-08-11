@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7218",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Versicherungs,Finanzdienstl."
+    "de": "Berufe Versicherungs,Finanzdienstl.(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Versicherungs- und Finanzdienstleistungen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in Versicherungs- und Finanzdienstleistungen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „721 Versicherungs- und Finanzdienstleistungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe arbeiten z. B. im Leasinggeschäft oder im Bankdienst bei der Deutschen Bundesbank."
+  },
+  "note": {
+    "de": "Einzahlungen entgegennehmen, Geldscheine und Münzen mit Maschinen und Automaten sortieren, nicht umlauffähiges Geld oder Falschgeld aussortieren Risiken berechnen und die Bonität von Kunden und Kundinnen prüfen, um dadurch individuelle Leasing- und Finanzierungsmodelle zu entwickeln und anzubieten Leasingobjekte beschaffen, Leasingverträge verfassen, kalkulieren und abschließen Leasingvermögen bilanzieren, bewerten und Abschreibungen durchführen Kreditgeschäfte überwachen und abwickeln sowie zum jeweiligen Bereich gehörende Kreditinstitute, z. B. im Hinblick auf ihre Mindestreservehaltung, prüfen Wertpapiere an- und verkaufen sowie z. B. bei der Emission von Wertpapieren von Bund und Ländern mitwirken bei der Durchführung des gesetzlichen Auftrages der Deutschen Bundesbank mitarbeiten, z. B. bei der Gewährleistung der Preisstabilität im Euro-Raum mitwirken"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/721",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

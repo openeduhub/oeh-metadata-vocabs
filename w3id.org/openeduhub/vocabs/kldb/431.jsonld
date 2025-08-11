@@ -4,16 +4,17 @@
   "prefLabel": {
     "de": "Informatik"
   },
-  "altLabel": {
-    "de": [
-      "Informatik"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe konzipieren, erstellen, installieren und betreuen Hard- und Softwarelösungen sowie komplexe IT-Systeme für verschiedene Anwendungsgebiete, z. B. Medizin, Molekularbiologie, Geologie, Geodäsie, Medien sowie betriebliche Prozesse. Sie analysieren Problemstellungen, finden Modelle und Algorithmen und forschen auf dem Gebiet der Informatik."
+  },
+  "note": {
+    "de": "Betriebs- und Informationssysteme installieren und konfigurieren Software entwickeln und programmtechnisch realisieren, marktgängige Standardsoftware an Bedürfnisse einzelner Benutzer/innen und Organisationen anpassen und abändern spezialisierte Aufgaben in Teilgebieten der Informatik, wie z. B. der Bio- oder Medizininformatik, Geo-, Medien- oder Wirtschaftsinformatik sowie der technischen Informatik, übernehmen Supportleistungen für Anwender/innen, Aufgaben im Kundendienst übernehmen theoretische und angewandte Forschung zu Fragen der Informatik und ihren Anwendungen betreiben"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/4310",
       "prefLabel": {
-        "de": "Berufe in der Informatik "
+        "de": "Berufe in der Informatik (o.S.)"
       }
     },
     {
@@ -63,7 +64,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

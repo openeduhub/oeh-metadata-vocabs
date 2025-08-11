@@ -4,22 +4,29 @@
   "prefLabel": {
     "de": "Arzt- und Praxishilfe"
   },
-  "altLabel": {
-    "de": [
-      "Arzt- und Praxishilfe"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe übernehmen Tätigkeiten in der medizinischen, zahnmedizinischen und der tiermedizinischen Praxishilfe und Assistenz sowie in der Augenheilkunde."
+  },
+  "note": {
+    "de": "den Praxisablauf organisieren, Verwaltungsarbeiten erledigen, für die Abrechnung der erbrachten Leistungen sorgen Proben für Laboruntersuchungen nehmen bei Untersuchungen, Behandlungen und kleineren ärztlichen Eingriffen assistieren Behandlungsabläufe dokumentieren aufklären, beraten und gesundheitsrelevante Verhaltensweisen vermitteln"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8110",
       "prefLabel": {
-        "de": "Medizinische Fachangestellte "
+        "de": "Medizinische Fachangestellte (o.S.)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8111",
       "prefLabel": {
         "de": "Zahnmedizinische Fachangestellte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/kldb/8112",
+      "prefLabel": {
+        "de": "-"
       }
     },
     {
@@ -37,7 +44,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8118",
       "prefLabel": {
-        "de": "Medizinische Fachangestellte "
+        "de": "Medizinische Fachangestellte (s.s.T.)"
       }
     }
   ],
@@ -51,7 +58,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

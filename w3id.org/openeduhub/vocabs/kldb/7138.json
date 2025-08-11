@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7138",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Unternehmensorga.,strategie "
+    "de": "Berufe Unternehmensorga.,strategie (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Unternehmensorganisation und -strategie (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Unternehmensorganisation und -strategie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „713 Unternehmensorganisation und -strategie“ nicht anderweitig erfasst sind."
+  },
+  "note": {
+    "de": "Mengen, Qualitäten und Arten von Material berechnen, das für das Produktionsprogramm benötigt wird Produktionsbedarfspläne erstellen und sicherstellen, dass das Material bei Bedarf verfügbar ist, entsprechende Aufzeichnungen dazu führen Arbeitsgänge festlegen, Arbeitspläne erstellen und die Produktion terminlich überwachen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen die Geschäftsleitung bei der Unternehmensführung unterstützen, z. B. in rechtlichen, betriebswirtschaftlichen und unternehmenskulturellen Fragen beraten die zukünftige Entwicklung des Betriebes mit planen, z. B. Strategien für die digitale Transformation entwickeln und deren Umsetzung begleiten, und geschäftspolitische Vorgaben umsetzen Unternehmensaktivitäten beschreiben, analysieren und bewerten, laufend überprüfen und an veränderte Gegebenheiten anpassen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/713",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/3430",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Ver- und Entsorgung "
+    "de": "Berufe in der Ver- und Entsorgung (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Ver- und Entsorgung (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe planen, fertigen und montieren Anlagenkomponenten und Anlagen der Ver- und Entsorgungstechnik, überwachen und betreiben die Anlagen. Darüber hinaus sind sie in der Straßenreinigung tätig."
+  },
+  "note": {
+    "de": "Abfälle sammeln und sortieren, Straßen mit Besen und Schaufel reinigen Berechnungen, z. B. zur Dimensionierung oder in Bezug auf Druck- und Strömungsverhältnisse, Pumpleistungen oder Rohrweiten, durchführen Pläne, z. B. Ausführungs- und Konstruktionszeichnungen, per Hand oder mithilfe von CAD-Anwendungen anfertigen bzw. damit arbeiten, Materiallisten erstellen Bauteile von Hand oder mithilfe von CNC-Maschinen fertigen und zu Baugruppen, Apparaten und Anlagen zusammenfügen bzw. Ausführung überwachen Anlagen und Anlagenkomponenten vor Ort montieren, erproben und in Betrieb nehmen, Anlagen abnehmen und an die Betreiber/innen übergeben, Bedienpersonal einweisen Teil- und Gesamtfunktionen prüfen, Prüfprotokolle erstellen, Prüfergebnisse bewerten, ggf. Qualitätsmängel beseitigen den Betrieb der Anlagen überwachen bzw. Anlagen betreiben, Messungen durchführen, Umweltdaten erfassen und auswerten, Wartungsarbeiten und Reparaturen durchführen bei der Entwicklung und Erprobung neuer Anlagen bzw. Anlagenkomponenten, z. B. im Bereich nachwachsender Rohstoffe, mitwirken"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/343",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7318",
   "type": "Concept",
   "prefLabel": {
-    "de": "Rechtsberatung,-sprechung,-ordnung "
+    "de": "Rechtsberatung,-sprechung,-ordnung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Rechtsberatung, -sprechung und -ordnung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Rechtsberatung, -sprechung und -ordnung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „731 Rechtsberatung, -sprechung und -ordnung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beraten und informieren Mandanten/Mandantinnen z. B. zu sozial- und wirtschaftsrechtlichen Fragen oder stellen den Schutz personenbezogener Daten sicher."
+  },
+  "note": {
+    "de": "Beratungen in Rechtsfragen durchführen und rechtliche Sachverhalte verständlich erklären die Einhaltung von gesetzlichen Bestimmungen, z. B. bei Dienstverhältnissen, überwachen für die Erstellung von Gutachten und Entscheidungen juristische Arbeitsmittel, z. B. Gesetze oder juristische Datenbanken, nutzen und anwenden die Umsetzung von Datenschutzanforderungen bei der Speicherung, Übermittlung und Verarbeitung von personenbezogenen Daten überwachen Mandanten/Mandantinnen als Rechtsbeistand beraten und vertreten die Geschäftsführung bei Rechtsfragen beraten sowie Vorhaben auf ihre rechtliche Umsetzbarkeit hin prüfen und bei Problemen Lösungsvorschläge ausarbeiten Verträge und Angebote sowie Gesetzesvorlagen und Rechtsverordnungen entwerfen und inhaltlich prüfen Gutachten und konkrete Entscheidungsvorlagen für sozialrechtliche Fälle erstellen, z. B. bei Fragestellungen zum Leistungsrecht von Sozialleistungsträgern"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/731",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

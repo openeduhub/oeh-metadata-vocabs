@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7328",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe öffentliche Verwaltung "
+    "de": "Berufe öffentliche Verwaltung (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der öffentlichen Verwaltung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der öffentlichen Verwaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben, und die in der übergeordneten Systematikposition „732 Berufe in der Verwaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen verwaltende und organisatorische Tätigkeiten aus, z. B. im Auswärtigen Dienst, in der Wehrverwaltung, bei Kammern und in Kirchenverwaltungen, oder befassen sich mit der Digitalisierung von Verwaltungsprozessen."
+  },
+  "note": {
+    "de": "rechtliche Aufgaben ausführen, z. B. fallbezogen Sachverhalte ermitteln, prüfen und auf dieser Grundlage Bescheide erstellen allgemeine Verwaltungs- und Organisationsaufgaben durchführen, z. B. Protokolle erstellen oder Besprechungen und Reisevorbereitungen planen und organisieren Aufgaben in den Bereichen Haushalts- und Finanzwesen sowie Controlling erledigen Mitarbeiter/innen anleiten und Arbeitsabläufe planen und steuern"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/732",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

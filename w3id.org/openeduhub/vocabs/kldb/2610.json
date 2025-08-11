@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2610",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Mechatr.,Automatisierungst."
+    "de": "Berufe Mechatr.,Automatisierungst.(o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Mechatronik und Automatisierungstechnik (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe planen technische Konzepte, entwickeln und projektieren mechatronische oder rechnergesteuerte Anlagen und Systeme, nehmen diese in Betrieb und halten sie instand. Darüber hinaus überwachen sie Prozessabläufe und organisieren die Fertigung und Wartung."
+  },
+  "note": {
+    "de": "mechanische, pneumatische, hydraulische und elektronische Komponenten zu funktionsgerechten Anlagen montieren oder Automatisierungssysteme, z. B. für die Verfahrens- und Prozesstechnik aufbauen Baugruppen entwerfen und Konstruktionszeichnungen mittels rechnergesteuerter Zeichenanlagen anfertigen Mess-, Steuerungs-, Regelungs- und Überwachungseinrichtungen einrichten und an der Entwicklung von Bedien- und Beobachtungssystemen für Industrieanlagen mitwirken an der Inbetriebnahme von Anlagen mitarbeiten, Testläufe durchführen, Anlagen dem Kunden übergeben Kunden und Kundinnen und Vertriebsmitarbeiter/innen zur Funktionalität und Verwendung der Systeme und Anlagen beraten, Gutachten und Prüfberichte erstellen Wartungs- und Instandhaltungsarbeiten durchführen bzw. koordinieren und planen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/261",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

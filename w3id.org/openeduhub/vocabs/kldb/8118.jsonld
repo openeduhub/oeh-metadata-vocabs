@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8118",
   "type": "Concept",
   "prefLabel": {
-    "de": "Medizinische Fachangestellte "
+    "de": "Medizinische Fachangestellte (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Medizinische Fachangestellte (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle medizinischen Fachangestellten, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „811 Berufe in der Arzt- und Praxishilfe“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterstützen Ärzte und Ärztinnen bei verschiedenen medizinischen Maßnahmen."
+  },
+  "note": {
+    "de": "leichte Verletzungen oder Erkrankungen, wie z. B. Schnittverletzungen, Erkältungen oder Hautprobleme, versorgen betriebsärztliche Sprechstunden und Untersuchungen vorbereiten und dabei assistieren bei Untersuchungen und Maßnahmen zur Förderung der Gesundheit assistieren bei Organisation und Verwaltung eines arbeitsmedizinischen Zentrums mitwirken, z. B. in der Gesundheitsberatung und der Prävention"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/811",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

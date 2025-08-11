@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2710",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe tech. Forschung, Entwicklung "
+    "de": "Berufe tech. Forschung, Entwicklung (oS)"
   },
   "altLabel": {
     "de": [
       "Berufe in der technischen Forschung und Entwicklung (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe entwickeln Produkte, technische Verfahren und Technologien (soweit sie nicht bereits an anderer Stelle der Klassifikation genannt sind) oder wirken dabei mit. Sie erarbeiten Konzepte für die Weiterentwicklung von Produkten. Zum Teil sind sie in der Grundlagenforschung tätig."
+  },
+  "note": {
+    "de": "bestehende Produktionsprozesse, Produkte oder Dienstleistungen analysieren innovative und marktgerechte Lösungen finden, Produktideen und Konzepte zur Weiterentwicklung erarbeiten und bewerten Problemlösungen in Hinblick auf Realisierungsmöglichkeiten und Auswirkungen, wie Technik- und Umweltfolgen, überprüfen Skizzen und Zeichnungen, z. B. für Anlagen oder andere Güter aus Materialien wie Glas, Textilien Holz etc., anfertigen Simulationen von Struktur, Funktion oder Verhalten durchführen, um Erkenntnisse über ein reales System zu gewinnen Berechnungen, Versuche, Materialtests durchführen Ergebnisse von Messungen und Simulationen auswerten, dokumentieren, interpretieren, in Tabellen und Schaubildern darstellen die Herstellung von Prototypen oder serien überwachen Dokumentationen für Konstruktion und Fertigung, Marketing und Vertrieb erstellen theoretische Arbeit in der Grundlagenforschung leisten oder unterstützen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/271",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

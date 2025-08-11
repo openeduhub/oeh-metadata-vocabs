@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9368",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe im Musikinstrumentenbau "
+    "de": "Berufe im Musikinstrumentenbau (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe im Musikinstrumentenbau (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im Musikinstrumentenbau, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „936 Musikinstrumentenbau“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen z. B. Akkordeons oder Schlagzeuge her, reparieren, restaurieren und stimmen sie sowie prüfen und justieren die Klangqualität."
+  },
+  "note": {
+    "de": "Instrumente entwerfen, dabei von Hand Skizzen und mithilfe von Grafikprogrammen Entwurfszeichnungen erstellen Werkstoffe wie Metall, Holz oder Kunststoff nach klang- und instrumentenspezifischen Gesichtspunkten auswählen für den Bau von Trommeln, Congas, Bongos, Pauken z. B. Leder und Felle nähen oder kleben, Trommelfelle aufziehen Bälge aus Pappe fertigen, z. B. Pappe falten, pressen, zuschneiden und heften, Lederecken einsetzen und Zierschicht aufbringen, Balgecken abrunden Knöpfe, Tasten, Register, Stimmstöcke, Dichtungen sowie filz- und lederbelegte Klappen mit Rückholfedern in Gehäuseteile montieren Musikinstrumente stimmen, pflegen und reparieren, Verschleißteile ersetzen Kunden und Kundinnen beraten, z. B. über die fachgerechte Aufbewahrung eines Instruments, über Schutzmaßnahmen und den Umgang mit einem historischen Instrument"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/936",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

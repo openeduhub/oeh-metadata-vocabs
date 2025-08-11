@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9238",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verlags- und Medienkaufleute "
+    "de": "Verlags- und Medienkaufleute (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Verlags- und Medienkaufleute (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Verlags- und Medienkaufleute, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „923 Verlags- und Medienwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe verkaufen z. B. Anzeigen, recherchieren und verkaufen Adressen, betreuen Autoren und Autorinnen oder wählen die künstlerischen Auftragnehmer für Werbeproduktionen aus."
+  },
+  "note": {
+    "de": "für Print- und elektronische Medien Anzeigenflächen verkaufen, den bestehenden Kundenstamm pflegen und das Neukundengeschäft auf- und ausbauen mögliche Sponsoren oder Förderstellen für Filmproduktionen recherchieren und der Produktionsleitung vorschlagen Manuskripte hinsichtlich Qualität und Marktchancen prüfen Autoren/Autorinnen von Sachbüchern oder belletristischen Werken betreuen in Verlagsagenturen den Handel mit Buchrechten abwickeln"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/923",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

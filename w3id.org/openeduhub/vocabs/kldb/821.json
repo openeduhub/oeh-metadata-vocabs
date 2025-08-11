@@ -4,22 +4,23 @@
   "prefLabel": {
     "de": "Altenpflege"
   },
-  "altLabel": {
-    "de": [
-      "Altenpflege"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Pflege, Betreuung und Unterstützung älterer Menschen oder leiten eine Altenpflegeeinrichtung."
+  },
+  "note": {
+    "de": "Maßnahmen der Grund- und Behandlungspflege bei pflegebedürftigen, älteren Menschen durchführen nach ärztlicher Verordnung Medikamente zusammenstellen und verabreichen Informationen über den Gesundheitszustand der pflegebedürftigen Personen sowie die durchgeführten Pflegemaßnahmen dokumentieren bei der Planung und Organisation der Betreuung und Pflege von älteren Menschen unterstützen, Angehörige beraten und in pflegerische Maßnahmen einweisen Arbeitsabläufe in Altenpflegeeinrichtungen inhaltlich und terminlich planen, organisieren und steuern"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8210",
       "prefLabel": {
-        "de": "Berufe in der Altenpflege "
+        "de": "Berufe in der Altenpflege (o.S.)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8218",
       "prefLabel": {
-        "de": "Berufe in der Altenpflege "
+        "de": "Berufe in der Altenpflege (s.s.T.)"
       }
     },
     {
@@ -39,7 +40,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

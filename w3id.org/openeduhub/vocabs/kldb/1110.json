@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/1110",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Landwirtschaft "
+    "de": "Berufe in der Landwirtschaft (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Landwirtschaft (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe sind in der Herstellung landwirtschaftlicher Produkte tätig. Sie arbeiten in der Pflanzen- und Tierproduktion, bedienen Betriebsanlagen, vermarkten Produkte, beraten landwirtschaftliche Betriebe oder planen den Einsatz von Technik in der Landwirtschaft."
+  },
+  "note": {
+    "de": "Erzeugung pflanzlicher und tierischer Produkte planen, bei Anbau und Pflanzenpflege sowie Tierhaltung praktisch mitarbeiten, Erzeugnisse verkaufen bzw. vermarkten landwirtschaftliche Anlagen, Maschinen und Geräte bedienen und warten, Einsatz von landwirtschaftlichen Anlagen, Maschinen und Geräten steuern Aufgaben in der Agrarverwaltung übernehmen, Umsetzung von Förderprogrammen begleiten landwirtschaftliche Betriebe und Organisationen beraten an der Weiterentwicklung landwirtschaftlicher Produkte und Produktionsverfahren mitwirken"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/111",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

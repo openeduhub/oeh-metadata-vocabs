@@ -4,10 +4,11 @@
   "prefLabel": {
     "de": "Berufe in der IT-Systemadministration"
   },
-  "altLabel": {
-    "de": [
-      "Berufe in der IT-Systemadministration"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe konfigurieren und pflegen vernetzte IT-Systeme und -Netze. Sie organisieren den Betrieb von Hard- und Software einschließlich automatischer Updates und Backups. Darüber hinaus passen sie bestehende Systeme an neue Anforderungen an und sind dabei für das Mitführen der Daten und den Benutzersupport verantwortlich."
+  },
+  "note": {
+    "de": "Bedarf an Soft- und Hardware analysieren und bewerten, Betriebskonzepte erstellen, Beschaffungen planen, Software, Systeme und Komponenten installieren und konfigurieren Changemanagement von IT-Systemen betreiben, Änderungsbedarf aus technischer Sicht prüfen informationstechnische Hardware vorbereiten und in Betrieb nehmen, Betriebssysteme und Software sowie Übertragungsmedien, Schnittstellen und Serverdienste installieren Fault-, Performance- und Securitymanagement durchführen, z. B. Sicherheitskonzepte umsetzen, kontinuierliche Überwachungen, Messungen und Kontrollen durchführen Datensicherungen und Backups regelmäßig durchführen bzw. deren Durchführung überwachen Organisations- und Beratungsaufgaben wahrnehmen, z. B. Nutzer/innen und Rechte verwalten, Verzeichnisdienste betreiben das Mitführen vorhandener Datenbestände (Migration) in neue Systeme planen, durchführen und verantworten von Fehlern in IT-Systemen betroffene Personen und Stellen informieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/433",
@@ -19,7 +20,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

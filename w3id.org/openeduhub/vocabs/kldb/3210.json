@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/3210",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe im Hochbau "
+    "de": "Berufe im Hochbau (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe im Hochbau (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Ausführung, Planung und Qualitätskontrolle von Bauarbeiten im Bereich des Hochbaus. Darüber hinaus führen sie z. B. bauphysikalische Berechnungen durch und erstellen Angebote."
+  },
+  "note": {
+    "de": "Baustellen einrichten, Baumaschinen, Baugeräte und Werkzeuge führen bzw. bedienen und reinigen Bauarbeiten ausführen, z. B. Untergrund für die Errichtung von Gebäuden vorbereiten und nivellieren, Wände errichten und verputzen, bauliche Strukturen erhalten und reparieren Ausführungsarbeiten von Bauwerken bzw. Bauwerksteilen im Hochbau und Industriebau planen und berechnen Detail- und Ausführungspläne per Hand oder mithilfe von CAD-Anwendungen zeichnen, ggf. Modelle anfertigen technische Konstruktionen im Hochbau in Abhängigkeit von Bauwerksabmessungen und Belastung auswählen, bauphysikalische Nachweise aufstellen Baustellen und Bauabläufe kontrollieren und steuern, z. B. beteiligte Firmen koordinieren, Baumaterial und Baugeräte verwalten Bauausführung auf Fristen, Kosten und Qualität kontrollieren Abnahmen der Baumaßnahmen veranlassen, behördliche Bauüberwachung, Baustellenkontrollen und Bauabnahmen durchführen in Wissenschaft und Forschung z. B. neue Baumethoden entwickeln"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/321",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

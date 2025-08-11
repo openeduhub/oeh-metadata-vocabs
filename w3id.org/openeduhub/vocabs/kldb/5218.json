@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/5218",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fahrzeugführer im Straßenverkehr"
+    "de": "Fahrzeugführer im Straßenverkehr(s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Fahrzeugführer/innen im Straßenverkehr (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Fahrzeugführer/innen im Straßenverkehr, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „521 Fahrzeugführung im Straßenverkehr“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen Personenkraftwagen, Kleinbusse, Kleintransporter, Kraft- oder Fahrräder, um angeforderte Waren oder hilfsbedürftige Personen zu transportieren."
+  },
+  "note": {
+    "de": "Touren und Routen zusammenstellen Waren entgegennehmen, Fahrzeuge beladen, dabei auf sachgemäße, zweckmäßige und vorschriftsmäßige Beladung achten Lieferscheine annehmen und die Menge sowie den einwandfreien Zustand der Waren überprüfen Lieferscheine quittieren lassen, Zahlungen entgegennehmen hilfsbedürftige und kranke Personen transportieren, ihnen beim Ein- und Aussteigen helfen, ggf. Anlagen, die das Ein- und Aussteigen von Passagieren mit körperlichen Behinderungen erleichtern, bedienen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/521",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

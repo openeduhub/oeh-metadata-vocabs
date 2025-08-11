@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/5158",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Überwachung Verkehrsbetrieb "
+    "de": "Berufe Überwachung Verkehrsbetrieb (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Überwachung und Steuerung des Verkehrsbetriebs (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Überwachung und Steuerung des Verkehrsbetriebs, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „515 Berufe in der Überwachung und Steuerung des Verkehrsbetriebs“ anderweitig nicht erfasst sind. Angehörige dieser Berufe stellen z. B. die Einhaltung der gesetzlichen Bestimmungen beim Transport gefährlicher Güter sicher."
+  },
+  "note": {
+    "de": "die Einhaltung aller einschlägigen Gefahrgutvorschriften bei Güterumschlag, -transport und -lagerung sicherstellen die geeigneten Transportmittel für den jeweiligen Transportauftrag auswählen, z. B. Tankfahrzeuge oder spezielle Fahrzeuge für Nukleartransporte die sicherste und schnellste Transportroute ermitteln dafür sorgen, dass die entsprechende Be-, Entlade- bzw. Umschlagtechnik zur Verfügung steht die Funktionsfähigkeit von Feuerlöschern sowie die persönliche Schutzausrüstung des Fahrzeugführers bzw. der Fahrzeugführerin kontrollieren behördliche Genehmigungen einholen, die für einen Gefahrguttransport notwendigen Begleitpapiere kontrollieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/515",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9138",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Gesellschaftswissenschaften "
+    "de": "Berufe Gesellschaftswissenschaften (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Gesellschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe der Gesellschaftswissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „913 Gesellschaftswissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe befassen sich z. B. mit Fragestellungen der Kultur- oder Arbeitswissenschaft, der Gerontologie oder der Kriminologie."
+  },
+  "note": {
+    "de": "soziale Phänomene, wie z. B. „alternde Gesellschaft“ oder „Jugendkriminalität“, systematisch erforschen Beschreibungs- und Erklärungsmodelle entwickeln Daten erheben, mithilfe qualitativer oder quantitativer Methoden der Sozialforschung auswerten und aufbereiten wissenschaftliche Arbeiten und Berichte zu gesellschaftswissenschaftlichen Themen verfassen Beratungen hinsichtlich der praktischen Anwendung von Erkenntnissen durchführen, z. B. Empfehlungen zur Gestaltung von Arbeitsplätzen geben oder Wege zur Kriminalitätsbekämpfung aufzeigen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/913",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

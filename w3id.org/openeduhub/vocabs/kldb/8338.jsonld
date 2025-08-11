@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8338",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in Theologie,Gemeindearbeit "
+    "de": "Berufe in Theologie,Gemeindearbeit (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Theologie und Gemeindearbeit (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Theologie und Gemeindearbeit, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „833 Theologie und Gemeindearbeit“ nicht anderweitig erfasst sind. Angehörige dieser Berufe übernehmen organisatorische, missionarische oder richtungsweisende Aufgaben in Glaubensgemeinschaften oder kirchlichen Einrichtungen."
+  },
+  "note": {
+    "de": "Gottesdienste und andere religiöse Feste vorbereiten und durchführen an Jugendgottesdiensten mitarbeiten und diese weiterentwickeln, Veranstaltungen für Jugendliche und junge Erwachsene planen und durchführen persönliche Gespräche mit Angehörigen von Verstorbenen führen, den Ablauf von Trauerfeiern abstimmen eine Mission befolgen, z. B. religiöse Lehren unter Andersgläubigen verbreiten, mit dem Ziel diese Menschen zu einer bestimmten Glaubensrichtung zu bekehren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/833",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

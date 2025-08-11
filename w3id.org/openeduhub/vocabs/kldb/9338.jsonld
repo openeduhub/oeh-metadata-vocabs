@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9338",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Kunsthandwerk, bild. Kunst "
+    "de": "Berufe Kunsthandwerk, bild. Kunst (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Kunsthandwerk und bildender Kunst (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in Kunsthandwerk und bildender Kunst, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „933 Kunsthandwerk und bildende Kunst“ nicht anderweitig erfasst ist. Angehörige dieser Berufe stellen z. B. Kunstblumen manuell her oder führen Restaurierungsarbeiten durch."
+  },
+  "note": {
+    "de": "Kunstblumen, textile Fest- oder Dekorationsartikel von Hand herstellen Textilien, Papier oder Kunststoff mithilfe von Schablonen ausstanzen, Materialien ggf. einfärben, appretieren, durch Wickeln, Kleben, Binden zusammensetzen Textilien kunstvoll einfärben zu restaurierende Objekte untersuchen, zeitlich und stilistisch einordnen, ihren Erhaltungszustand sowie alle durchgeführten Restaurierungsarbeiten dokumentieren Objekte vorsichtig reinigen, zerbrochene Objekte zusammensetzen, ggf. beschädigte Stellen ausbessern sowie fehlende Teile eines Objekts bzw. Wandgemäldes ergänzen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/933",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

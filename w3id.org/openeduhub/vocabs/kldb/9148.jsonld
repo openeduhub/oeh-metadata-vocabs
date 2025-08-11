@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9148",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in Wirtschaftswissenschaften"
+    "de": "Berufe in Wirtschaftswissenschaften(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Wirtschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe der Wirtschaftswissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „914 Wirtschaftswissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erforschen und überwachen Daten, analysieren Informationen und erstellen Berichte und Pläne zur Lösung wirtschaftlicher und geschäftlicher Probleme und entwickeln Modelle zur Analyse, Erklärung und Prognostizierung wirtschaftlicher Verhaltensweisen und Muster."
+  },
+  "note": {
+    "de": "ökonomische Theorien, Modelle und Prognosen mithilfe statistischer Verfahren auf Wirklichkeitsnähe testen Marktbedingungen in lokalen, regionalen oder nationalen Gebieten zur Festlegung von Absatzhöhen und Preisen für Güter und Dienstleistungen sowie zur Beurteilung des Marktpotenzials und künftiger Trends und zur Entwicklung von Geschäftsstrategien erforschen wirtschaftliche Daten zur Beurteilung der Effektivität und Beratung hinsichtlich der Eignung von geld- und steuerpolitischen Maßnahmen zusammenstellen und interpretieren Produktion und Verbrauch spezifischer Produkte und Dienstleistungen auf der Grundlage von Aufzeichnungen über die vergangene Produktion und den Verbrauch und über allgemeine wirtschaftliche und branchenspezifische Bedingungen prognostizieren Prognosen über Einnahmen und Ausgaben, Zinssätze und Wechselkurse erstellen Faktoren analysieren, die für Erwerbsbeteiligung, Beschäftigung, Löhne und Gehälter, Arbeitslosigkeit und andere Arbeitsmarktergebnisse bestimmend sind Empfehlungen, Richtlinien und Pläne für die Wirtschaft und Unternehmensstrategien aufstellen statistische Daten als Kurven, Diagramme oder theoretische Modelle visualisieren und Konjunkturberichte für unterschiedliche Adressaten erstellen an Forschungsprojekten teilnehmen, Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse, z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/914",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

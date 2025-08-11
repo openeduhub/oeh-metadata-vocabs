@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2420",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Metallbearbeitung "
+    "de": "Berufe in der Metallbearbeitung (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Metallbearbeitung (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe richten Fertigungsanlagen und Werkzeugmaschinen der Metallbearbeitung ein, bedienen die Anlagen bzw. überwachen den Fertigungsablauf und beheben Störungen. Darüber hinaus bearbeiten sie metallische Werkstücke manuell und montieren Werkstücke."
+  },
+  "note": {
+    "de": "Fertigungsanlagen einrichten bzw. programmieren, Werkzeuge auf Werkzeugträgern befestigen und justieren, Funktionsprüfungen durchführen Maschinen und Anlagen zur Metallbearbeitung bedienen und überwachen, Fertigungslauf beobachten, Funktionsstörungen erkennen und beheben konventionelle oder CNC-gesteuerte Metallbearbeitungsmaschinen, z. B. Drahtschneide-, Press- oder Stanzmaschinen, Dreh- und Fräsmaschinen bestücken Maschinen und Anlagen zur Metallbearbeitung reinigen, pflegen, warten und instand setzen bzw. Instandsetzungspersonal verständigen Qualitäts- und Fertigungskontrollen durchführen, Mess- und Prüfgeräte handhaben, Messergebnisse in Protokollen dokumentieren Werkstücke aus Metall manuell oder mit maschineller Unterstützung zuschneiden, stanzen, biegen, drücken, drehen, fräsen, bohren, schleifen, entgraten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/242",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

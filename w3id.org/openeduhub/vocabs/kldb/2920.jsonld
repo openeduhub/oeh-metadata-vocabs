@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2920",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe i.d. Lebensmittelherstellung "
+    "de": "Berufe i.d. Lebensmittelherstellung (oS)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Lebensmittelherstellung (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe stellen Lebensmittel aus tierischen und pflanzlichen Rohstoffen her, organisieren und überwachen Arbeitsabläufe in der Lebensmittelherstellung, sichern die Qualität und entwickeln neue Produkte."
+  },
+  "note": {
+    "de": "Rohwaren, Halbfertigprodukte und Fertigerzeugnisse annehmen, dabei Waren auf Menge und Qualität prüfen Lebensmittel produzieren, z. B. Roh- und Zusatzstoffe sowie Halbfabrikate nach vorgegebener Rezeptur bearbeiten, Endprodukte konservieren und abfüllen lebensmitteltechnische Produktionsanlagen bedienen und überwachen, Prozessabläufe steuern und kontrollieren, bei Störungen eingreifen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Rezepturen erarbeiten, zielgruppenorientierte Produktreihen entwickeln, Produkte auf Messen präsentieren Qualitätsnormen erstellen und überwachen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen vornehmen Mithilfe von Marktbeobachtung und -analysen Lebensmittelproduktion planen und überwachen, Lebensmittel und Fertigprodukte bzw. Lebensmittelverpackungen anpassen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

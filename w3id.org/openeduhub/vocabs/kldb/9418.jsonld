@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9418",
   "type": "Concept",
   "prefLabel": {
-    "de": "Musik-,Gesangs-, Dirigententätigk. "
+    "de": "Musik-,Gesangs-, Dirigententätigk. (ssT)"
   },
   "altLabel": {
     "de": [
       "Musik-, Gesangs- und Dirigententätigkeiten (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Musik-, Gesangs- und Dirigententätigkeiten, die sich auf einen bestimmten Bereich spezialisiert haben und die in der übergeordneten Systematikposition „941 Musik-, Gesangs- und Dirigententätigkeiten“ nicht anderweitig erfasst sind. Zum Beispiel korrepetieren Angehörige dieser Berufe oder entwickeln Sounds, komponieren Musik für Werbung, Film, Multimedia-Anwendungen."
+  },
+  "note": {
+    "de": "Songs, Klänge, musikalische Spezialeffekte aller Art, Geräusche und Sprache am Computer und im Tonstudio arrangieren, neue Sounds erfinden ggf. Musiker/innen oder Sänger/innen auswählen, engagieren und mit ihnen zusammenarbeiten Sounds und Songs zur akustischen Markenführung entwickeln, dabei Zielgruppen berücksichtigen Musik für Veranstaltungen, Filmmusik, Klingeltöne oder Warteschleifenmusik komponieren, Videospiele, CD-ROMs und DVDs vertonen Sänger/innen, Tänzer/innen oder Instrumentalisten und Instrumentalistinnen in der Regel am Klavier bei den Probenarbeiten begleiten szenische Proben für Tanz, Ballett, Operette und Oper auf der Bühne begleiten, Regieanweisungen umsetzen, Proben organisieren und ggf. selbst leiten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/941",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

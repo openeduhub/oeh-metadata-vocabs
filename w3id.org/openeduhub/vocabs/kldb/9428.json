@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9428",
   "type": "Concept",
   "prefLabel": {
-    "de": "BerufeSchauspielTanz,Bewegungskunst"
+    "de": "BerufeSchauspielTanz,Bewegungskunst(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Schauspiel, Tanz und Bewegungskunst (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle darstellenden Künstler/innen im Bereich Schauspiel, Tanz und Bewegungskunst, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „942 Schauspiel, Tanz und Bewegungskunst“ nicht anderweitig erfasst sind. Angehörige dieser Berufe wirken z. B. in artistischen bzw. akrobatischen Darbietungen sowie Tierdressurnummern vor Publikum mit oder sind als Puppenspieler/innen tätig."
+  },
+  "note": {
+    "de": "Film- und Fernsehdarsteller/innen bei gefährlichen oder akrobatischen Szenen vertreten, Stunteinsätze in Film- und Fernsehproduktionen durchführen ggf. in Stuntshows, Actionshows, bei Open-Air-Vorstellungen oder Veranstaltungen wie Western- oder Ritterspielen auftreten bei Massenszenen im Hintergrund oder in kurzen Szenen gemeinsam mit den Hauptdarstellern bzw. Hauptdarstellerinnen auftreten, dabei teilweise kurze Texte sprechen Fertigkeiten in artistischen Disziplinen, z. B. Luftakrobatik, Vertikalseil, Schleuderbrett, Temposprünge oder Jonglage, trainieren und weiterentwickeln artistische Programme vor Publikum vorführen Dressurnummern, z. B. mit Hunden, Pferden, Raubkatzen oder Seelöwen, einüben, in der Filmtierdressur Hunde, Papageien oder auch Raubtiere auf Dreharbeiten vorbereiten Dressurnummern zusammenstellen, gemeinsam mit den Tieren vor Publikum auftreten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/942",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

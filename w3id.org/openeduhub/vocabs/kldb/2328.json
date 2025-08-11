@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2328",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe technische Mediengestaltung "
+    "de": "Berufe technische Mediengestaltung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der technischen Mediengestaltung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der technischen Mediengestaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „232 Berufe in der technischen Mediengestaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen u.a. Stempel oder Flexodruckplatten her."
+  },
+  "note": {
+    "de": "Stempel mit Schriften, Linien und Grafiken aus Gummi und Fotopolymeren herstellen, abformen, vulkanisieren bzw. nachformen Stempel und Klischees beschneiden und montieren computergesteuerte Prägepressen, Kreissägen und Schleifgeräte bedienen, Reprokameras und Fotosatzmaschinen einsetzen, Arbeitsgeräte pflegen und instand halten Texte, Signets und Zeichnungen nach Kundenvorstellungen zu einem typografisch und technisch einwandfreien Produkt aufbereiten lasergravierte Stempel herstellen, dazu Layouts zur Erstellung von Textplatten auf dem Computer konzipieren und in die Gummistempelplatte einbrennen Flexodruckplatten mit Text und Bild für mehrfarbige Drucksachen erstellen Etiketten, Formulare und Erzeugnisse des Verpackungsdrucks im Spezialdruckverfahren herstellen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/232",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

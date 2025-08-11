@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/4140",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Physik "
+    "de": "Berufe in der Physik (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Physik (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe erforschen Vorgänge, Erscheinungen, Zustände und Zusammenhänge der unbelebten Natur experimentell, formulieren in der theoretischen Physik Gesetzmäßigkeiten in mathematischen Formeln und Modellen und wenden ihr Wissen in der angewandten Physik an, um technische Aufgabenstellungen in Entwicklung, Produktion oder Materialprüfung zu lösen."
+  },
+  "note": {
+    "de": "Gesetzmäßigkeiten der unbelebten Natur erkennen und diese in mathematische Formeln und Modelle fassen Experimente und Simulationen durchführen und diese mit mathematischen Methoden auswerten physikalische Größen (z. B. Temperatur, Dichte, Druck) messen und berechnen Mess- oder Fertigungsverfahren entwickeln, z. B. in der Lasertechnik, Mikrosystem- und Nanotechnik oder Elektronik innovative Technologien, z. B. im Bereich der Nanostrukturtechnik, in anwendbare Verfahren umsetzen und so Produkte optimieren oder weiterentwickeln organisatorische Aufgaben in Forschungs- und Produktionsbetrieben wahrnehmen, Forschungsprojekte planen und konzipieren, Forschungsaufträge akquirieren Gutachter- und Sachverständigenaufgaben für physikalische Fragestellungen übernehmen beim Einreichen von Patenten mitarbeiten, eingereichte Patentanträge im Rahmen von Patentverfahren prüfen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/414",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

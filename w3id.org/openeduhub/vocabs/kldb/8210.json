@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8210",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Altenpflege "
+    "de": "Berufe in der Altenpflege (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Altenpflege (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe betreuen und versorgen ältere, hilfsbedürftige Menschen, unterstützen sie bei der Grundpflege und bereiten Mahlzeiten zu. Sie verabreichen nach ärztlicher Verordnung Medikamente, gestalten Freizeitprogramme und stehen den Senioren und Seniorinnen für die Bewältigung von Alltagssituationen, z. B. Arztbesuche, zur Verfügung."
+  },
+  "note": {
+    "de": "Maßnahmen der Grund- und Behandlungspflege bei pflegebedürftigen, älteren Menschen durchführen ältere, hilfsbedürftige Menschen fachgerecht betten und lagern nach ärztlicher Verordnung Medikamente zusammenstellen und verabreichen Informationen über den Gesundheitszustand der pflegebedürftigen Personen sowie die durchgeführten Pflegemaßnahmen dokumentieren bei der Planung und Organisation der Betreuung und Pflege von älteren Menschen unterstützen, Angehörige beraten und in pflegerische Maßnahmen einweisen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/821",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

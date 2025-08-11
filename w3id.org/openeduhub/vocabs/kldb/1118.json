@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/1118",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Landwirtschaft "
+    "de": "Berufe in der Landwirtschaft (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Landwirtschaft (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Landwirtschaft, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „111 Berufe in der Landwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Pflanzenschutz, dem Einsatz von EDV oder der Gewinnung erneuerbarer Energien."
+  },
+  "note": {
+    "de": "Fachaufgaben in der pflanzlichen und tierischen Produktion übernehmen im landwirtschaftlichen Versuchswesen tätig sein, z. B. bei der Planung, Durchführung und Auswertung von Feldversuchen mitwirken die Biomasseerzeugung im landwirtschaftlichen Bereich planen und durchführen, bei der Planung und Umsetzung technologischer Abläufe beraten, Biomasseanlagen betreiben Landwirtschaftsbetriebe im Bereich Direktvermarktung beraten, z. B. Analyse des Betriebs durchführen, Fördermöglichkeiten ermitteln, bei Marketingmaßnahmen unterstützen landwirtschaftliche und weinbauliche Betriebe in Fragen des Pflanzenschutzes beraten und unterstützen, z. B. Reblausbefall bekämpfen Pflanzen auf Schädlingsbefall und Krankheiten untersuchen, Maßnahmen zum Pflanzenschutz bzw. zur Schädlingsbekämpfung auswählen und veranlassen mithilfe von EDV organisatorische Aufgaben wie Arbeitsorganisation, Buchhaltung, Material- und Personalverwaltung, Verkauf und Vertrieb durchführen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/111",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

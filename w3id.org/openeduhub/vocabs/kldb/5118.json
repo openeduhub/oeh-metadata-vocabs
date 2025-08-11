@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/5118",
   "type": "Concept",
   "prefLabel": {
-    "de": "TechBetriebEisenb.Luft,Schiffsverk."
+    "de": "TechBetriebEisenb.Luft,Schiffsverk.(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe im technischen Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im technischen Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „511 Technischer Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs“ nicht anderweitig erfasst sind."
+  },
+  "note": {
+    "de": "die Verkehrsabwicklung, z. B. in Häfen, per Funk steuern Not-, Dringlichkeits- oder Sicherheitsmeldungen entgegennehmen und weiterleiten den Seefunkverkehr an Land und zu anderen Schiffen übernehmen, Schiffsführung mit Informationen zur Führung des Schiffs und seiner Sicherheit versorgen alle Kommunikationssysteme an Bord koordinieren, verwalten, warten und den Betrieb gewährleisten Koordination von Funkstellen übernehmen, den Einsatz der Mitarbeiter/innen planen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/511",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

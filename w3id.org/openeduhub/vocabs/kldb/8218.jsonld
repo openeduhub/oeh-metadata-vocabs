@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8218",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Altenpflege "
+    "de": "Berufe in der Altenpflege (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Altenpflege (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Altenpflege, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „821 Altenpflege“ nicht anderweitig erfasst sind. Angehörige dieser Berufe haben sich auf ein Fachgebiet der Altenpflege spezialisiert und betreuen und pflegen ältere Menschen in Altenpflegeeinrichtungen oder ambulant."
+  },
+  "note": {
+    "de": "Maßnahmen der Grund- und Behandlungspflege bei pflegebedürftigen, älteren Menschen durchführen ältere, hilfsbedürftige Menschen fachgerecht betten und lagern Patienten und Patientinnen bei speziellen Behandlungsverfahren, z. B. in der Onkologie oder der Psychiatrie, betreuen und versorgen nach ärztlicher Verordnung Medikamente zusammenstellen und verabreichen Informationen über den Gesundheitszustand der pflegebedürftigen Personen sowie die durchgeführten Pflegemaßnahmen dokumentieren bei der Planung und Organisation der Betreuung und Pflege von älteren Menschen unterstützen, Angehörige beraten und in pflegerische Maßnahmen einweisen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/821",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

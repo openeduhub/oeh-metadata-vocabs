@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2218",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunststoff,Kautschukherst.,-verarb."
+    "de": "Kunststoff,Kautschukherst.,-verarb.(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Kunststoff- und Kautschukherstellung und -verarbeitung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Kunststoff- und Kautschukherstellung und -verarbeitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „221 Kunststoff- und Kautschukherstellung und -verarbeitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen u.a. Klebstoffe, Linoleum oder Kunststoffschuhe her und entwickeln Produktionsabläufe in speziellen Produktionsbereichen weiter."
+  },
+  "note": {
+    "de": "spezielle Arbeitsvorgänge planen, organisieren und ausführen und Prozesse auf die spezifischen Anforderungen der Produkte ausrichten Qualitätsrichtlinien für die Herstellung von speziellen Kunststoffprodukten je nach den spezifischen Anforderungen an die Verwendung erarbeiten und umsetzen bei Klebstoffen oder anderen Klebeprodukten die Oberflächen der Werkstücke bearbeiten und damit für das Kleben vorbereiten Rohmaterialien und Zusatzstoffe auswählen und im geeigneten Mischverhältnis zusammenführen für die Bereitstellung der Materialien sowie die Einsatzbereitschaft der Maschinen sorgen, Instandhaltungsarbeiten ausführen je nach Anforderung geeignete Mischungen entwickeln und kunststofftechnische Verfahren optimieren bzw. dabei mitwirken"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/221",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

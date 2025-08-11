@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2938",
   "type": "Concept",
   "prefLabel": {
-    "de": "Köche/Köchinnen "
+    "de": "Köche/Köchinnen (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Köche/Köchinnen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Speisenzubereitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „293 Speisenzubereitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe bereiten z. B. diätetische Mahlzeiten, warme Beilagen oder Fonds, Pizzas, Soßen und Buttermischungen zu."
+  },
+  "note": {
+    "de": "je nach Speisekarte bzw. -plan Menge und Art der benötigten Lebensmittel ermitteln, Waren einkaufen und einlagern für bestimmte Anlässe Speisenvorschläge erarbeiten, spezielle Gerichte kreieren, z. B. Themenschwerpunkte zu Festen, Spezialisierung auf länderspezifische, biologische oder regionale Kost Rezepturen nach Maßgabe der für die jeweilige Diät gültigen Vorschriften bzw. Richtlinien erstellen diätetische Mahlzeiten zubereiten Soßen vor- und zubereiten Pizzas, warme Beilagen, wie z. B. Reis, Kartoffeln, Teigwaren und Gemüse, servierfertig zubereiten Arbeitsabläufe in der Küche organisieren, die rechtzeitige Fertigstellung der Speisen in der richtigen Reihenfolge sicherstellen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/293",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/1128",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Tierwirtschaft "
+    "de": "Berufe in der Tierwirtschaft (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Tierwirtschaft (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Tierwirtschaft, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „112 Tierwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind häufig auf bestimmte Tiere oder Tierarten spezialisiert und u.a. in der Kleintierzucht, in der Organisation eines Stalles oder in der Fütterung von Großtieren tätig."
+  },
+  "note": {
+    "de": "geeignete Tiere für die Zucht auswählen, Zuchtbuch führen, Deckung der Tiere organisieren und Jungtiere aufziehen Tiere artgerecht halten, versorgen und pflegen, Tierunterkünfte reinigen bzw. Haltung und Reinigung organisieren Tiere verkaufen, Kunden und Kundinnen beraten, Tiere auf Tierausstellungen, Zucht- oder Leistungsschauen präsentieren Stallarbeiten organisieren, ggf. selbst praktisch mitarbeiten, Anlagen und Maschinen bedienen, z. B. Fütterungsautomaten oder Melkmaschinen Gesundheitszustand der Tiere beobachten, Impfungen beachten und Tiergeburtshilfe leisten individuelle Futterpläne erstellen, Zusammensetzung und Menge der Futterrationen bestimmen, für Fütterung und Tränkung sorgen Aufgaben der Betriebs- und Arbeitsorganisation erledigen, z. B. Zuchtbuch führen, Futtermittel- und Verbrauchsnachweise erstellen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/112",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

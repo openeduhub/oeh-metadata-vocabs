@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9458",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Veranstalt.-Kamera-,Tontech."
+    "de": "Berufe Veranstalt.-Kamera-,Tontech.(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Veranstaltungs-, Kamera- und Tontechnik (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Veranstaltungs-, Kamera- und Tontechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „945 Veranstaltungs-, Kamera- und Tontechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe planen und realisieren z. B. Feuerwerke und sonstige pyrotechnische Effekte."
+  },
+  "note": {
+    "de": "Aufträge mit Kunden und Kundinnen besprechen, Ortsbesichtigungen durchführen, Abbrennplätze unter Beachtung der Sicherheitsvorschriften bestimmen detaillierte Programmabläufe und Abbrennpläne erstellen, pyrotechnische Effekte auswählen und dramaturgisch zusammenstellen pyrotechnische Spezialeffekte für Film- und Fernsehproduktionen mit der Regie, der Requisite, den Kamera- und Stunt-Teams sowie Darstellern und Darstellerinnen absprechen Materialien für pyrotechnische Spezialeffekte bzw. Innenfeuerwerke in Mehrzweckhallen, auf Konzert- oder Theaterbühnen installieren Abschussgeräte aufbauen, Zündkabel verlegen, Zündanlagen und Steuergeräte anschließen und programmieren, Musikeinspielungen und Lichteffekte zeitgenau kombinieren die Einhaltung der umfangreichen Sicherheitsregeln gewährleisten, Gefahrenbereiche absichern und Brandschutzbestimmungen beachten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/945",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2728",
   "type": "Concept",
   "prefLabel": {
-    "de": "Techn.Zeichnen, Konstrukt.,Modellb."
+    "de": "Techn.Zeichnen, Konstrukt.,Modellb.(ssT)"
   },
   "altLabel": {
     "de": [
       "Technisches Zeichnen, Konstruktion und Modellbau (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im Bereich Technisches Zeichnen, Konstruktion und Modellbau, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „272 Technisches Zeichnen, Konstruktion und Modellbau“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in der Prüfung von technischen Unterlagen oder der Entwicklung von Sportgeräten tätig."
+  },
+  "note": {
+    "de": "Zeichnungen und technische Unterlagen prüfen, Identifikations- bzw. Zeichnungsnummern für die eindeutige Zuordnung von Bauteilen bzw. Baugruppen festlegen Werksnormen für technische Vorgänge erarbeiten und festlegen Informationen über neue DIN- und ISO-Normen beschaffen und beachten, Normunterlagen aktualisieren Sportgeräte und -ausrüstungen entwickeln und optimieren, Prototypen testen die Umsetzung und Produktion der Geräte überwachen, Qualität sichern Sportgeräte fertigen, dabei u.a. Kunststoff- und Hochleistungsverbundkunststoffe einsetzen, Normvorschriften beachten, Maschinen bedienen und warten Sportgeräte verkaufen und bei Kunden, z. B. in Fitness-Centern montieren, technische Ausrüstung in Trainingszentren bedienen und warten bei Zertifizierungs- und Normierungsvorgängen bzw. in entsprechenden Instituten mitarbeiten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/272",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

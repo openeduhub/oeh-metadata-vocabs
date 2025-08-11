@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/4128",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Biologie "
+    "de": "Berufe in der Biologie (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Biologie (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Biologie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „412 Biologie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in der Biochemie, Molekularbiologie, Genetik oder Biomechanik tätig."
+  },
+  "note": {
+    "de": "Struktur und Funktion von Molekülen, Zellen, Geweben, Strukturen sowie Eigenschaften und Stoffwechselleistungen von Organismen erforschen molekularbiologische und biochemische Experimente planen, durchführen, auswerten und interpretieren den Aufbau und die Funktion von Genen erforschen, die Weitergabe von Erbinformationen von Generation zu Generation erforschen genetisch bedingte Erkrankungen des Menschen untersuchen und diagnostizieren die Wirkung, Aufnahme, Verteilung und Umsetzung körperfremder Stoffe im Stoffwechsel von Menschen, Tieren, Pflanzen und Ökosystemen untersuchen menschliche Bewegungsabläufe analysieren und diese in Computermodelle und -simulationen umsetzen, um therapeutische Maßnahmen und medizintechnische Produkte weiterzuentwickeln Fachtexte erstellen und publizieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/412",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

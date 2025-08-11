@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8148",
   "type": "Concept",
   "prefLabel": {
-    "de": "Ärzte/Ärztinnen "
+    "de": "Ärzte/Ärztinnen (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Ärzte/Ärztinnen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Humanmedizin, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „814 Human- und Zahnmedizin“ nicht anderweitig erfasst sind, wie z. B. Berufe in der Arbeits-, Sport- oder Umweltmedizin."
+  },
+  "note": {
+    "de": "Patienten und Patientinnen untersuchen, behandeln und medizinisch betreuen Krankheitsbild ermitteln, Diagnose stellen, z. B. Anamnese erheben, pathologische Veränderungen des Körpers ermitteln Labor-, Röntgenuntersuchungen und andere Diagnoseverfahren veranlassen Patienten und Patientinnen und Angehörige über Diagnose, Therapiemöglichkeiten und Kosten informieren Medikamente und andere Behandlungsmaßnahmen, z. B. Physiotherapie oder Bestrahlungen, verschreiben oder veranlassen medizinische Informationen über den Patienten/die Patientin und ihre Anamnesen aufzeichnen und diese mit Fachärzten/-ärztinnen und anderen Gesundheitsexperten austauschen, um eine kontinuierliche medizinische Betreuung zu ermöglichen in Prävention und Rehabilitation mitwirken, z. B. über gesunde Lebensweise sowie Früherkennungs- und Vorsorgeuntersuchungen informieren und beraten Verwaltungs- und Organisationsaufgaben erledigen, z. B. ärztliche Gutachten anfertigen auf dem Gebiet der Arbeits-, Sport- oder Umweltmedizin an medizinischen Forschungsvorhaben mitwirken, Forschungsberichte verfassen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/814",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

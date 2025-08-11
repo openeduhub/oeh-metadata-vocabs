@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/5418",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Reinigung "
+    "de": "Berufe in der Reinigung (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Reinigung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Reinigung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „541 Reinigung“ nicht anderweitig erfasst sind."
+  },
+  "note": {
+    "de": "zu reinigendes Objekt, z. B. Leuchtstoffröhren, auf Verunreinigungen hin untersuchen spezielle Reinigungsmittel und -verfahren bestimmen Gegenstände im Innen- und Außenbereich reinigen Teppiche und Möbelstücke mit Bezügen mithilfe von Reinigungsmaschinen und deren Zubehör reinigen Reinigungswirkstoffe, um Flecken von Teppichen zu entfernen, auswählen und verwenden Teppiche mit schmutzabweisenden und geruchstilgenden Chemikalien sowie gegen Ungeziefer behandeln"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/541",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

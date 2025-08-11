@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8250",
   "type": "Concept",
   "prefLabel": {
-    "de": "Medizintechnik "
+    "de": "Medizintechnik (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Medizintechnik (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe entwickeln, installieren, warten und reparieren medizintechnische Geräte und führen technische Beratungen dazu durch."
+  },
+  "note": {
+    "de": "medizintechnische Geräte entwickeln und konstruieren bzw. dabei unterstützen medizintechnische Geräte beim Kunden installieren und in Betrieb nehmen Wartungs- und Instandhaltungsarbeiten an medizintechnischen Geräten ausführen Funktions- und Sicherheitsprüfungen an medizintechnischen Geräten einschließlich der gesetzlichen Dokumentation durchführen Patienten und Patientinnen im Umgang mit medizintechnischen Geräten einweisen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/825",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

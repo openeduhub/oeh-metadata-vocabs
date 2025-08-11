@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2438",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Metalloberflächenbehandlung "
+    "de": "Berufe Metalloberflächenbehandlung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Metalloberflächenbehandlung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Metalloberflächenbehandlung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „243 Metalloberflächenbehandlung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe behandeln bzw. beschichten spezielle Metalloberflächen, z. B. durch Patinieren oder Emaillieren."
+  },
+  "note": {
+    "de": "zu behandelnde bzw. zu beschichtende Werkstücke bzw. Oberflächen vorbehandeln, z. B. reinigen, entfetten, trocknen oder glätten Werkstücke bzw. Oberflächen z. B. emaillieren, kadmieren oder patinieren spezielle Mischverhältnisse ausarbeiten oder nach Vorgaben zusammenstellen behandelte Werkstücke bzw. Oberflächen nachbehandeln, z. B. trocknen, Beschichtungen ggf. weiterveredeln Qualitätskontrollen durchführen, ggf. Nacharbeiten durchführen Werkzeuge und Maschinen reinigen, warten und instand halten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/243",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

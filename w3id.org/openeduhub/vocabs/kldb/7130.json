@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7130",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe kaufm.,techn.Betriebswirtsch."
+    "de": "Berufe kaufm.,techn.Betriebswirtsch.(oS)"
   },
   "altLabel": {
     "de": [
       "Berufe in der kaufmännischen und technischen Betriebswirtschaft (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe planen, organisieren und steuern Unternehmensprozesse. Sie entwickeln Konzepte für Optimierungsmaßnahmen und sind für deren Umsetzung zuständig."
+  },
+  "note": {
+    "de": "Aufträge planen, steuern, umsetzen, z. B. den Material- und Personalbedarf ermitteln, Terminpläne erstellen und den Produktionsablauf festlegen Arbeits- und Materialflüsse zwischen Abteilungen aufzeichnen und koordinieren bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen Planungsziele und Unternehmensprozesse analysieren und kontrollieren, Anpassungen vorschlagen oder veranlassen die Einhaltung von betriebswirtschaftlichen, kaufmännischen und rechtlichen Vorschriften überwachen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/713",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

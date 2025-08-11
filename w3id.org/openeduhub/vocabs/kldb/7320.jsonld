@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/7320",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe i.d. öffentlichen Verwaltung "
+    "de": "Berufe i.d. öffentlichen Verwaltung (oS)"
   },
   "altLabel": {
     "de": [
       "Berufe in der öffentlichen Verwaltung (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe arbeiten bei Behörden der verschiedenen Institutionen und erledigen dort unter Beachtung von einschlägigen Gesetzen, Verordnungen und Verwaltungsvorschriften verschiedene Verwaltungstätigkeiten."
+  },
+  "note": {
+    "de": "Bürger/innen beraten, Anträge entgegennehmen, Auskünfte erteilen, Besucher/innen an der Pforte anmelden Verwaltungsabläufe organisieren und koordinieren, Aufgaben an Mitarbeiter/innen verteilen und die ordnungsgemäße Verrichtung der Aufgaben überwachen und sicherstellen Entscheidungen nach Gesetzeslage vorbereiten bzw. Entscheidungen treffen, getroffene Entscheidungen umsetzen Sitzungen, z. B. von Beschlussgremien, vorbereiten, bei zu fassenden Beschlüssen, z. B. Gesetzen und Verordnungen, sowie bei der Umsetzung mitwirken Nachweise für das bewegliche und unbewegliche Vermögen einer Behörde führen, Kosten und Leistungen erfassen und berechnen sowie Einnahmen und Ausgaben verbuchen für die Aufgabenerfüllung die einschlägigen Rechtsnormen interpretieren, anwenden und überwachen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/732",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

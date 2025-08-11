@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8158",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Tiermedizin, Tierheilkunde "
+    "de": "Berufe Tiermedizin, Tierheilkunde (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Tiermedizin und Tierheilkunde (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Tiermedizin und Tierheilkunde, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „815 Tiermedizin und Tierheilkunde“ nicht anderweitig erfasst sind. Dies sind z. B. Berufe im Bereich der Tierpsychologie."
+  },
+  "note": {
+    "de": "in Gesprächen mit dem Tierhalter/der Tierhalterin ein genaues Bild der jeweiligen Problematik des Tieres ermitteln Diagnose stellen und eine entsprechende Verhaltenstherapie vorschlagen bei Vorliegen medizinischer Erkrankungen dafür sorgen, dass eine tierärztliche Behandlung erfolgt verhaltensauffällige Hunde, Katzen oder andere Tiere schulen Gutachten erstellen, z. B. über das Aggressionspotenzial von Hunden"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/815",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

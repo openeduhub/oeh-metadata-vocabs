@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/4228",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe i.d. Umweltschutztechnik "
+    "de": "Berufe i.d. Umweltschutztechnik (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Umweltschutztechnik (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Umweltschutztechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „422 Umweltschutztechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erfassen z. B. Umweltbelastungen in Landschaft und Gewässern und planen Gegenmaßnahmen."
+  },
+  "note": {
+    "de": "Ausrüstung und technische Geräte, z. B. im Bereich Abwassertechnik, kontrollieren und ggf. modifizieren, um Gewässerverschmutzungen zu verhindern oder zu beheben bei der Identifikation potenzieller Gefahren, z. B. im Bereich Wasser- oder Bodenverschmutzung, unterstützen bei der Entwicklung von Vorrichtungen zur Behebung von Wasser- und Bodenverschmutzungen mithelfen bei der Erstellung umwelttechnischer Expertisen und Gutachten für Geräte, Anlagen und Verfahren unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes mitwirken"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/422",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

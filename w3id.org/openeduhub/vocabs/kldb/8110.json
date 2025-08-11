@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8110",
   "type": "Concept",
   "prefLabel": {
-    "de": "Medizinische Fachangestellte "
+    "de": "Medizinische Fachangestellte (o.S.)"
   },
   "altLabel": {
     "de": [
       "Medizinische Fachangestellte (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe assistieren Ärzten und Ärztinnen bei der Untersuchung, Behandlung, Betreuung und Beratung von Patienten und Patientinnen und führen organisatorische Tätigkeiten und Verwaltungsarbeiten durch."
+  },
+  "note": {
+    "de": "Termine vergeben und Patienten und Patientinnen empfangen den Praxisablauf organisieren, Verwaltungsarbeiten erledigen, für die Abrechnung der erbrachten Leistungen sorgen Urin-, Stuhl- und Blutproben für Laboruntersuchungen abnehmen medizinische Instrumente, Geräte und Apparate einsetzen, pflegen und warten bei Untersuchungen, Behandlungen und kleineren Eingriffen durch die Ärzte und Ärztinnen assistieren Patienten und Patientinnen über Möglichkeiten der Vor- und Nachsorge informieren Behandlungsabläufe dokumentieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/811",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

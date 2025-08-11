@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9438",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in Moderation, Unterhaltung "
+    "de": "Berufe in Moderation, Unterhaltung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Moderation und Unterhaltung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Moderation und Unterhaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „943 Moderation und Unterhaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe versuchen das Publikum auf unterschiedliche Weise zu unterhalten. Sie sind z. B. als Travestie-Künstler/in, Weihnachtsmann/-frau, Wahrsager/in oder als Bauchredner/in tätig, legen Musik auf oder beschäftigen sich mit Astrologie."
+  },
+  "note": {
+    "de": "als Weihnachtsmann/-frau verkleidet in Kindergärten, auf Feiern oder Veranstaltungen auftreten, weihnachtliche Programme vorbereiten oder in Kaufhäusern kleine Geschenke verteilen die Kunst des Bauchredens beherrschen und vorführen nach individueller Auswahl und Folge Audiodateien oder Schallplatten abspielen, dabei Geräte, wie Plattenspieler und Mischpulte, bedienen auf Travestie-Bühnen als männlicher Schauspieler Frauenrollen verkörpern und die Zuschauer mit Songs, Tanz sowie durch humoristische Texte unterhalten Astrologie ausüben, Horoskope von Einzelpersonen zum Zeitpunkt der Geburt oder später erstellen, um vergangene Ereignisse zu berichten und zukünftige Ereignisse und Lebensbedingungen vorherzusagen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/943",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

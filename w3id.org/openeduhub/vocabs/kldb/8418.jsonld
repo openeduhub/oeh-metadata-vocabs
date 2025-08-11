@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8418",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehrkräfte allgemeinbild. Schulen "
+    "de": "Lehrkräfte allgemeinbild. Schulen (ssT)"
   },
   "altLabel": {
     "de": [
       "Lehrkräfte an allgemeinbildenden Schulen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Lehrkräfte an allgemeinbildenden Schulen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „841 Lehrtätigkeit an allgemeinbildenden Schulen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterstützen Lehrkräfte und üben Aufgaben abseits des Unterrichts aus oder übernehmen spezifische Funktionen an Schulen."
+  },
+  "note": {
+    "de": "Tätigkeiten zur Verbesserung der körperlichen sozialen, emotionalen und intellektuellen Entwicklung von Kindern in Schulen und Vorschulen vorführen und beaufsichtigen Kinder mit geistigen, körperlichen, verhaltensbedingten und sonstigen Lernschwierigkeiten unterstützen Lehrkräfte und die Schulleitung über fachwissenschaftliche und fachdidaktische Neuheiten und Weiterbildungsmöglichkeiten informieren einheitliche Leistungsanforderungen definieren, Prüfungsaufgaben im jeweiligen Fach erstellen als Beratungslehrer/in bei Schulschwierigkeiten, bei Lernproblemen sowie bei Verhaltensauffälligkeiten, Hilfestellungen geben und individuelle Lösungsmöglichkeiten aufzeigen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/841",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2520",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe in der Fahrzeugtechnik "
+    "de": "Berufe in der Fahrzeugtechnik (o.S.)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Fahrzeugtechnik (ohne Spezialisierung)"
     ]
+  },
+  "definition": {
+    "de": "Angehörige dieser Berufe konstruieren Fahrzeuge in allen Materialien und Größen, entwickeln sie weiter, bauen und warten sie, überprüfen deren Funktionsfähigkeit und reparieren die Funktionen bei Bedarf."
+  },
+  "note": {
+    "de": "Konstruktionszeichnungen unter Angabe von Maßen, Toleranzen und Bearbeitungszeichen mittels rechnergesteuerter Zeichenanlagen anfertigen Arbeitsabläufe und Fertigungsverfahren in der Fahrzeugtechnik festlegen und überwachen, Qualitätskontrollen durchführen in der Herstellung von Bauteilen konventionelle und CNC-Werkzeugmaschinen einsetzen, Metall- und Kunststoffteile spanen, Bauteile montieren Fahrzeuge warten und reparieren, Karosserien, Spezialaufbauten und Anhänger entwerfen und montieren, Störungen visuell und computergestützt diagnostizieren Baukräne montieren, Fahrzeugbaukonstruktionen herstellen und motorisierte Anlagen, Motorgeräte oder Triebwerke warten technische Funktionsprüfungen bei Fahrzeugen durchführen und Störungen beseitigen motorisierte und nichtmotorisierte Fahrzeuge herstellen, montieren, warten und instand halten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/252",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

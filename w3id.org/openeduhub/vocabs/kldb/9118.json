@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/9118",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe Sprach-,Literaturwissensch. "
+    "de": "Berufe Sprach-,Literaturwissensch. (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in Sprach- und Literaturwissenschaften (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in Sprach- und Literaturwissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „911 Sprach- und Literaturwissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in den Bereichen Phonetik, Computerlinguistik, Skandinavistik oder Afrikanistik tätig."
+  },
+  "note": {
+    "de": "Kultur und Sprache aus einer interdisziplinären und international vergleichenden Perspektive untersuchen, dabei Erkenntnisse anderer Geistes- und Sozialwissenschaften einbeziehen poetische und nichtpoetische Texte sowie gesprochene Sprache analysieren, interpretieren und beschreiben Sprachlaute in der Phonetik und Phonologie, Wortformen und -strukturen in der Morphologie, Fragen der Wortbedeutung in der Semantik und Satzstrukturen in der Syntax untersuchen Entstehung und Bildung von Lautsprache untersuchen, dabei auch allgemeine, gruppenspezifische oder sprecherbezogene Charakteristika einbeziehen Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen an Forschungsprojekten teilnehmen, z. B. erforschen wie natürliche Sprachen mithilfe des Computers maschinell analysiert und verarbeitet werden können"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/911",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

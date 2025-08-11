@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/6218",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe im Verkauf (o. Produktspez.)"
+    "de": "Berufe im Verkauf (o. Produktspez.)(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe im Verkauf (ohne Produktspezialisierung) (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im Verkauf (ohne Produktspezialsierung), die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „621 Verkauf (ohne Produktspezialisierung)“ nicht anderweitig erfasst sind. Angehörige dieser Berufe präsentieren und verkaufen Waren und Dienstleistungen, gehen dabei ggf. von Tür zu Tür oder führen Waren in Handelseinrichtungen, Messen und privaten Haushalten vor."
+  },
+  "note": {
+    "de": "Produktdemonstrationen oder Warenpräsentationen durchführen, dabei ggf. von Tür zu Tür gehen die zum Verkauf stehenden Produkte entsprechend anordnen, um das Kaufinteresse potenzieller Kunden und Kundinnen zu wecken Kunden und Kundinnen beraten, Verkäufe und Verträge abschließen Warenmuster anbieten und Kataloge oder Werbematerial austeilen Bestellungen aufnehmen, Vereinbarungen für Zahlung, Auslieferung und Einholung der Waren treffen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/621",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

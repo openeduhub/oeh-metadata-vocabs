@@ -4,10 +4,11 @@
   "prefLabel": {
     "de": "Nicht ärztliche Therapie und Heilkunde"
   },
-  "altLabel": {
-    "de": [
-      "Nicht ärztliche Therapie und Heilkunde"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe übernehmen Aufgaben in nicht ärztlichen Therapiebereichen, d. h. in der Physio-, Ergo-, Sprach-, Musik- und Kunsttherapie sowie in der Heilpraktik, Homöopathie, in der Diät- und Ernährungstherapie und der Podologie."
+  },
+  "note": {
+    "de": "Diagnose stellen und Befund erheben unterschiedliche Behandlungs- und Therapiekonzepte entwickeln, beurteilen und anwenden Patienten und Patientinnen beim Durchführen der Bewegungen und Übungen anleiten, kontrollieren und motivieren Patienten und Patientinnen im Umgang mit ihrer Erkrankung und den Behandlungsmöglichkeiten beraten Aufgaben in der Gesundheitsförderung und Prävention wahrnehmen die therapeutischen und strukturellen Abläufe eines nicht ärztlichen Therapiezentrums, einer therapeutischen Praxis, Abteilung oder Einrichtung organisieren und fachlich leiten"
   },
   "narrower": [
     {
@@ -55,7 +56,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/8178",
       "prefLabel": {
-        "de": "Berufe nichtärztl. Therapie,Heilk."
+        "de": "Berufe nichtärztl. Therapie,Heilk.(ssT)"
       }
     },
     {
@@ -75,7 +76,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

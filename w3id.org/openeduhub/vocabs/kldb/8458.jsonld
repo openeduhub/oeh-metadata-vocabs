@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8458",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sportlehrer/innen "
+    "de": "Sportlehrer/innen (s.s.T.)"
   },
   "altLabel": {
     "de": [
       "Sportlehrer/innen (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe im Sportunterricht, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „845 Fahr- und Sportunterricht an außerschulischen Bildungseinrichtungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe vermitteln Menschen jeder Altersstufe sportliche Fertigkeiten und Kenntnisse in verschiedenen Sportarten, außer in den Bereichen Tanz, Ballsport sowie Fitness und Gymnastik."
+  },
+  "note": {
+    "de": "die Fähigkeiten der Sportler/innen beurteilen Unterrichts- bzw. Trainingskonzepte für Sportler/innen entsprechend ihrer Leistungsstufen erstellen Unterricht in Sportarten wie Golf, Surfen, Skifahren, Segeln, Reiten, Wassersport, Eiskunstlauf, Fechten oder Karate erteilen Sportler/innen trainieren, psychologisch betreuen und anleiten Sportler/innen auf die Teilnahme an Sportveranstaltungen und Wettbewerben vorbereiten Personen zu sportlichen Leistungen motivieren und hinführen die Regeln der jeweiligen Sportart sowie Regelbewusstsein vermitteln"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/845",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

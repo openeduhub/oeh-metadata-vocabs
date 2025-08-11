@@ -4,16 +4,17 @@
   "prefLabel": {
     "de": "Chemie"
   },
-  "altLabel": {
-    "de": [
-      "Chemie"
-    ]
+  "definition": {
+    "de": "Angehörige dieser Berufe sind in der chemischen und pharmazeutischen Produktion tätig, führen in chemischen Labors Versuche durch und übernehmen Aufgaben in Wissenschaft und Forschung."
+  },
+  "note": {
+    "de": "aus Rohstoffen mittels chemischer Methoden und Verfahren Produkte herstellen, z. B. Kraftstoffe, Kunststoffe und Kosmetika aus Erdöl, Arzneimittel aus Wirk- und Hilfsstoffen chemische bzw. pharmazeutische Produktions- und Verfahrensanlagen, Erdöl- bzw. Erdgasraffinationsanlagen steuern chemisch-technische Messungen durchführen und diese mathematisch auswerten Versuche und Forschungsprojekte im Bereich der Chemie durchführen, chemische Labor- und Forschungsergebnisse in Produktionsprozesse umsetzen"
   },
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/4130",
       "prefLabel": {
-        "de": "Berufe in der Chemie "
+        "de": "Berufe in der Chemie (o.S.)"
       }
     },
     {
@@ -43,7 +44,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/4138",
       "prefLabel": {
-        "de": "Berufe in der Chemie "
+        "de": "Berufe in der Chemie (s.s.T.)"
       }
     },
     {
@@ -63,7 +64,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

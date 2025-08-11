@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2928",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe i.d.Lebensmittelherstellung "
+    "de": "Berufe i.d.Lebensmittelherstellung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Lebensmittelherstellung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Lebensmitteltechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „292 Lebensmittel- und Genussmittelherstellung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen spezielle Lebensmittel, wie z. B. Tiefkühlkost, her oder entwickeln neue Produkte."
+  },
+  "note": {
+    "de": "Rohwaren für die Herstellung von Lebensmittelprodukten, z. B. Konserven, einkaufen, Warenannahme und Wareneingangskontrolle in der Lebensmittelproduktion vornehmen Verarbeitungs-, Produktions- und Verpackungsprozesse von speziellen Lebensmitteln planen und überwachen Maschinen und Anlagen der Lebensmitteltechnik bedienen, überwachen, steuern, reinigen, desinfizieren und warten spezielle Lebensmittel, wie z. B. Tiefkühlkost oder Sportlernahrung herstellen, portionieren, abfüllen, verpacken und lagern Qualitätsstandards entwickeln und umsetzen, Qualitätskontrollen durchführen Lebensmittelprodukte entwickeln bzw. verbessern, z. B. Rezepturen für Fertiggerichte oder Sportlernahrung Maschinen und Anlagen sowie Verfahren zur Lebensmittelherstellung entwickeln und verbessern, z. B. Trocknungs- oder Mischanlagen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

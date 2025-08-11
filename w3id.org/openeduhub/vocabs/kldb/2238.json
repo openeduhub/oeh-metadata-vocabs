@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/2238",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe i.d. Holzbe-,-verarbeitung "
+    "de": "Berufe i.d. Holzbe-,-verarbeitung (ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der Holzbe- und -verarbeitung (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der Holzbe- und -verarbeitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „223 Holzbe- und -verarbeitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe fertigen und reparieren spezielle Erzeugnisse aus Holz, z. B. Fässer, Wohnwagen, Fahrzeugaufbauten oder Schindeln."
+  },
+  "note": {
+    "de": "Hölzer für das herzustellende Produkt auswählen und gegebenenfalls einlagern, z. B. für Fässer, Holzreifen oder Gestelle, zusätzliche Materialien beschaffen, z. B. Metalle, Kunststoffe, Ventile, Hähne und Stutzen Holzteile, z. B. für Fasswände, ausmessen und zuschneiden, Kanten passgenau bearbeiten Holz zu Stäben spalten und zuschneiden, Stäbe mit Hilfe von Setz- und Arbeitsreifen aufstellen und durch Ausfeuern, Kochen oder Dämpfen zu Dauben biegen Fertigung von Holzschindeln durch Spalten oder Sägen von einem Holzblock Fahrzeuge, z. B. Wohn- und Imbisswagen, sowie Karren aus Holz fertigen und reparieren historische Wagen und Kutschen restaurieren Holzbe- und Verarbeitungsmaschinen, wie z. B. Säge-, Hobel-, Schleif-, Fräs- und Bohrmaschinen, pflegen und warten"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/223",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],

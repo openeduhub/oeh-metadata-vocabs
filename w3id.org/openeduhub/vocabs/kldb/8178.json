@@ -2,12 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/kldb/8178",
   "type": "Concept",
   "prefLabel": {
-    "de": "Berufe nichtärztl. Therapie,Heilk."
+    "de": "Berufe nichtärztl. Therapie,Heilk.(ssT)"
   },
   "altLabel": {
     "de": [
       "Berufe in der nicht ärztlichen Therapie und Heilkunde (sonstige spezifische Tätigkeitsangabe)"
     ]
+  },
+  "definition": {
+    "de": "Diese Systematikposition umfasst alle Berufe in der nicht ärztlichen Therapie und Heilkunde, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „817 Nicht ärztliche Therapie und Heilkunde“ nicht anderweitig erfasst sind. Angehörige dieser Berufe verhelfen Menschen, z. B. mit körper- und bewegungsorientierten Konzepten, zu verbesserter Gesundheit und Wohlbefinden."
+  },
+  "note": {
+    "de": "das Wirkgefüge von Bewegung, Körper, Persönlichkeit und Umwelt analysieren neuro-, senso-, psycho- und sportmotorische Therapieverfahren, heiltherapeutische Übungsverfahren entwickeln, beurteilen und anwenden Beratungsgespräche mit Patienten/Patientinnen und ggf. mit Eltern/Angehörigen führen durchgeführte Behandlungen und Maßnahmen und Behandlungsfortschritte dokumentieren sowie an den behandelnden Arzt, die behandelnde Ärztin oder andere Gesundheitsfachkräfte weiterleiten Aufgaben in der Gesundheitsförderung und Prävention wahrnehmen, z. B. neue körper- und bewegungsorientierte Konzepte aufzeigen"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/817",
@@ -19,7 +25,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/kldb/",
       "title": {
-        "de": "Klassifikation der Berufe - KldB"
+        "de": "Klassifikation der Berufe - KldB 4-stellig (vollständig)"
       }
     }
   ],
