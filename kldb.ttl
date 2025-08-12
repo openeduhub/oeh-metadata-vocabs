@@ -6,7 +6,7 @@
 <> a skos:ConceptScheme ;
 	dct:title "Klassifikation der Berufe - KldB 4-stellig (vollständig)"@de ;
 	dct:description "Vollständige hierarchische KldB mit allen 4 Ebenen und Kurzbeschreibungen aus KldB 2010 V. 2020"@de ;
-	dct:created "2025-08-11"^^xsd:date ;
+	dct:created "2025-08-12"^^xsd:date ;
 	skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5>, <6>, <7>, <8>, <9> .
 
 
@@ -1589,7 +1589,7 @@
 	skos:inScheme <> .
 
 <1110> a skos:Concept ;
-	skos:prefLabel "Berufe in der Landwirtschaft (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Landwirtschaft"@de ;
 	skos:altLabel "Berufe in der Landwirtschaft (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der Herstellung landwirtschaftlicher Produkte tätig. Sie arbeiten in der Pflanzen- und Tierproduktion, bedienen Betriebsanlagen, vermarkten Produkte, beraten landwirtschaftliche Betriebe oder planen den Einsatz von Technik in der Landwirtschaft."@de ;
 	skos:note "Erzeugung pflanzlicher und tierischer Produkte planen, bei Anbau und Pflanzenpflege sowie Tierhaltung praktisch mitarbeiten, Erzeugnisse verkaufen bzw. vermarkten landwirtschaftliche Anlagen, Maschinen und Geräte bedienen und warten, Einsatz von landwirtschaftlichen Anlagen, Maschinen und Geräten steuern Aufgaben in der Agrarverwaltung übernehmen, Umsetzung von Förderprogrammen begleiten landwirtschaftliche Betriebe und Organisationen beraten an der Weiterentwicklung landwirtschaftlicher Produkte und Produktionsverfahren mitwirken"@de ;
@@ -1619,7 +1619,7 @@
 	skos:inScheme <> .
 
 <1118> a skos:Concept ;
-	skos:prefLabel "Berufe in der Landwirtschaft (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Landwirtschaft"@de ;
 	skos:altLabel "Berufe in der Landwirtschaft (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Landwirtschaft, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „111 Berufe in der Landwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Pflanzenschutz, dem Einsatz von EDV oder der Gewinnung erneuerbarer Energien."@de ;
 	skos:note "Fachaufgaben in der pflanzlichen und tierischen Produktion übernehmen im landwirtschaftlichen Versuchswesen tätig sein, z. B. bei der Planung, Durchführung und Auswertung von Feldversuchen mitwirken die Biomasseerzeugung im landwirtschaftlichen Bereich planen und durchführen, bei der Planung und Umsetzung technologischer Abläufe beraten, Biomasseanlagen betreiben Landwirtschaftsbetriebe im Bereich Direktvermarktung beraten, z. B. Analyse des Betriebs durchführen, Fördermöglichkeiten ermitteln, bei Marketingmaßnahmen unterstützen landwirtschaftliche und weinbauliche Betriebe in Fragen des Pflanzenschutzes beraten und unterstützen, z. B. Reblausbefall bekämpfen Pflanzen auf Schädlingsbefall und Krankheiten untersuchen, Maßnahmen zum Pflanzenschutz bzw. zur Schädlingsbekämpfung auswählen und veranlassen mithilfe von EDV organisatorische Aufgaben wie Arbeitsorganisation, Buchhaltung, Material- und Personalverwaltung, Verkauf und Vertrieb durchführen"@de ;
@@ -1657,7 +1657,7 @@
 	skos:inScheme <> .
 
 <1128> a skos:Concept ;
-	skos:prefLabel "Berufe in der Tierwirtschaft (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Tierwirtschaft"@de ;
 	skos:altLabel "Berufe in der Tierwirtschaft (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Tierwirtschaft, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „112 Tierwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind häufig auf bestimmte Tiere oder Tierarten spezialisiert und u.a. in der Kleintierzucht, in der Organisation eines Stalles oder in der Fütterung von Großtieren tätig."@de ;
 	skos:note "geeignete Tiere für die Zucht auswählen, Zuchtbuch führen, Deckung der Tiere organisieren und Jungtiere aufziehen Tiere artgerecht halten, versorgen und pflegen, Tierunterkünfte reinigen bzw. Haltung und Reinigung organisieren Tiere verkaufen, Kunden und Kundinnen beraten, Tiere auf Tierausstellungen, Zucht- oder Leistungsschauen präsentieren Stallarbeiten organisieren, ggf. selbst praktisch mitarbeiten, Anlagen und Maschinen bedienen, z. B. Fütterungsautomaten oder Melkmaschinen Gesundheitszustand der Tiere beobachten, Impfungen beachten und Tiergeburtshilfe leisten individuelle Futterpläne erstellen, Zusammensetzung und Menge der Futterrationen bestimmen, für Fütterung und Tränkung sorgen Aufgaben der Betriebs- und Arbeitsorganisation erledigen, z. B. Zuchtbuch führen, Futtermittel- und Verbrauchsnachweise erstellen"@de ;
@@ -1673,7 +1673,7 @@
 	skos:inScheme <> .
 
 <1130> a skos:Concept ;
-	skos:prefLabel "Berufe in der Pferdewirtschaft (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Pferdewirtschaft"@de ;
 	skos:altLabel "Berufe in der Pferdewirtschaft (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe versorgen, füttern und pflegen Pferde, organisieren die Stall- und Weidehaltung und bewegen die Tiere. Zudem beraten sie Kunden hinsichtlich der Pferdehaltung."@de ;
 	skos:note "Pferde versorgen und pflegen, z. B. füttern, tränken, reinigen, Hufe und Fell pflegen, Pferde zäumen, satteln, anschirren und anspannen, Krankheiten erkennen und behandeln Pferde täglich bewegen, trainieren und die Kondition von ausgebildeten Pferden erhalten Futtermittel beschaffen und vorbereiten, z. B. Qualität von Futterproben beurteilen, Futter einlagern, Futterrationen berechnen und anmischen Stallarbeiten und Weidepflege durchführen, z. B. Stallanlagen reinigen und ausbessern, Koppelauslauf schaffen und Zäune überprüfen, Tränken reinigen Kunden hinsichtlich der Pferdehaltung beraten, z. B. bei der Auswahl von Pferden und Ausrüstung, über Fütterung und Haltung, über Trainingsmöglichkeiten Pferdetransporte vorbereiten und durchführen"@de ;
@@ -1719,7 +1719,7 @@
 	skos:inScheme <> .
 
 <1140> a skos:Concept ;
-	skos:prefLabel "Berufe in der Fischwirtschaft (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Fischwirtschaft"@de ;
 	skos:altLabel "Berufe in der Fischwirtschaft (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe züchten Fische und andere Wassertiere und ziehen sie in natürlichen oder künstlichen Teichanlagen auf, sie fangen Fische und Schalentiere in Flüssen und Seen oder im Meer, verarbeiten und verkaufen sie."@de ;
 	skos:note "Fische züchten und vermehren, die Fischbrut pflegen, Jungfische in künstliche oder natürliche Teiche einsetzen und aufziehen bzw. Fachkräfte dabei unterstützen Teiche und Becken instand halten, Teichränder pflegen, Teichanlagen abfischen Wasserqualität überwachen, z. B. pH-Wert kontrollieren, Wasser ggf. physikalisch, chemisch oder biologisch aufbereiten bzw. dabei mithelfen Fanggeräte, wie Zugnetze, Reusen oder Stellnetze, vorbereiten und ausbringen, Fische durch stille oder bewegte Fischerei fangen Schleppfahrten zum Krabbenfang durchführen, Fanggeschirr bedienen und Meeresgrund mit Echolot beobachten seemännische Arbeiten ausführen, z. B. das Boot vorbereiten und handhaben, Ankermanöver ausführen, Schiff trimmen, Leckagen abdichten den Fang einholen und sortieren, im Hafen den Fang entladen Boote, Netze, Reusen und technische Geräte kontrollieren, reinigen oder reparieren Fische zur Vermarktung vorbereiten, z. B. Fische ausnehmen, einsalzen, kühlen"@de ;
@@ -1749,7 +1749,7 @@
 	skos:inScheme <> .
 
 <1150> a skos:Concept ;
-	skos:prefLabel "Berufe in der Tierpflege (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Tierpflege"@de ;
 	skos:altLabel "Berufe in der Tierpflege (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe versorgen und betreuen Tiere aller Art bzw. unterstützen tierpflegerische Fachkräfte, z. B. in Zuchtstationen, Tierpensionen oder Tierpflegeeinrichtungen, bei den entsprechenden Arbeiten."@de ;
 	skos:note "Tiere füttern, tränken und pflegen, artgerechte Futtermischungen herstellen, Futterrationen zusammenstellen Tierunterkünfte, wie Gehege, Käfige, Ställe, Terrarien, artgerecht einrichten und instand halten, reinigen, desinfizieren und einstreuen Tiere betreuen und beschäftigen, gewünschte Verhaltensweisen trainieren Tiere beobachten und kontrollieren in Hinblick auf Verhalten, Gesundheit, Brunst bzw. Ranz, Trächtigkeit; Tierverhalten dokumentieren Krankheiten erkennen bzw. Krankheiten vorbeugen, bei tierärztlichen Eingriffen assistieren Maschinen und Anlagen wie Futterautomaten bedienen, reinigen und warten Bedarf und Kosten für Futtermittel und Einstreu kalkulieren"@de ;
@@ -1772,7 +1772,7 @@
 	skos:inScheme <> .
 
 <1158> a skos:Concept ;
-	skos:prefLabel "Berufe in der Tierpflege (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Tierpflege"@de ;
 	skos:altLabel "Berufe in der Tierpflege (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Tierpflege, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „115 Tierpflege“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. spezialisiert auf die Pflege von Versuchstieren oder bilden bestimmte Tiere aus."@de ;
 	skos:note "artgerechte Futtermischungen herstellen, Futterrationen zusammenstellen, Futter fachgerecht lagern und konservieren, Futtertiere verarbeiten Tiere artgerecht pflegen und versorgen, bei tierärztlichen Eingriffen assistieren bei Experimenten bzw. Versuchen mitwirken, z. B. Tiere für Behandlungen vorbereiten, versuchsbedingte Verhaltensänderungen erkennen und der Versuchsleitung melden Angaben über Tiere abfragen, z. B. Gewicht, Größe, körperlicher Zustand, Nahrungsaufnahme und Behandlung, Verhalten kontrollieren, Ergebnisse dokumentieren Tiere für spezielle Bedürfnisse trainieren und dressieren, z. B. Hunde für die Polizeiarbeit oder für den Einsatz bei der Bergrettung trainieren Falken, Sperber, Habichte und Adler zur Jagd auf Kleintiere ausbilden"@de ;
@@ -1842,7 +1842,7 @@
 	skos:inScheme <> .
 
 <1210> a skos:Concept ;
-	skos:prefLabel "Berufe im Gartenbau (o.S.)"@de ;
+	skos:prefLabel "Berufe im Gartenbau"@de ;
 	skos:altLabel "Berufe im Gartenbau (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der Produktion und Pflege von Pflanzen und in der Anlage und Pflege von Grünflächen tätig. Sie übernehmen dabei planende, kaufmännische, organisatorische oder praktische Aufgaben."@de ;
 	skos:note "Produktionsflächen anlegen, Pflanzen anbauen, vermehren, ziehen, ernten, lagern, vermarkten und versenden Einkauf und Annahme, z. B. von Jungpflanzen oder Düngemitteln, organisieren und überwachen, Qualitätskontrollen durchführen Bepflanzungen auf Grünflächen und Außenanlagen im öffentlichen und privaten Raum planen, anlegen und pflegen Maschinen und Geräte der Gartenbautechnik bedienen, warten und instand halten Kundschaft zu Tätigkeiten im Gartenbau beraten und betreuen, Angebot an Kundenwünsche anpassen Aufgaben in Organisation und Verwaltung von Gartenbaubetrieben übernehmen, z. B. Buchführung, Kostenrechnung, Steuerung von Personen- und Betriebsmitteleinsatz Bestimmungen des Arbeits- und Umweltschutzes beachten bzw. die Einhaltung überwachen neue Verfahren und Methoden für die Pflanzenzucht, Anbau und Ernte optimieren"@de ;
@@ -2038,7 +2038,7 @@
 	skos:inScheme <> .
 
 <2210> a skos:Concept ;
-	skos:prefLabel "Kunststoff-,Kautschukherstellung (o.S.)"@de ;
+	skos:prefLabel "Kunststoff-,Kautschukherstellung"@de ;
 	skos:altLabel "Berufe in der Kunststoff- und Kautschukherstellung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der industriellen Kunststoff- und Kautschukherstellung und -verarbeitung tätig. Sie entwickeln und fertigen Gummiverbindungen und Kunststofferzeugnisse aller Art, z. B. Gehäuse, Isoliermaterial, Regenschutz oder Rohre."@de ;
 	skos:note "Fertigungsverfahren der Kunststoff- und Kautschukverarbeitung planen, koordinieren und überwachen, Produktionsschritte analysieren und optimieren Rohmassen für die Produktion von Kunststofferzeugnissen aufbereiten, Werkstoffe, z. B. Kunststoffhalbzeuge und Kunststoffformteile, auswählen und einkaufen Maschinen und Anlagen zur Herstellung von Kautschukmischungen, Halbfertig- und Fertigerzeugnissen aus Gummimaterial mit den jeweiligen Ausgangsprodukten beschicken spezifische Prozessparameter, z. B. Temperatur und Werkstoffzufuhr, für Fertigungsanlagen bestimmen und eingeben Kunststoffteile mit verschiedenen Herstellungsverfahren, z. B. Kalandrieren, Beschichten, Extrudieren, Pressen und Spritzgießen, fertigen und nachbearbeiten Qualitätskontrollen durchführen und mit Messgeräten die Endprodukte prüfen, z. B. auf Festigkeit, Druck, Biegsamkeit und Hitzebeständigkeit neue Anwendungs- und Verarbeitungstechniken sowie neue Rohstoffe und chemische Rohmaterialien erproben und umsetzen Betriebsmitteleinsatz koordinieren, Arbeitsleistung und Einhaltung von Terminen im Verantwortungsbereich kontrollieren Angebote erstellen, Verkaufsverhandlungen führen, Vertriebsmitarbeiter/innen beraten"@de ;
@@ -2054,7 +2054,7 @@
 	skos:inScheme <> .
 
 <2218> a skos:Concept ;
-	skos:prefLabel "Kunststoff,Kautschukherst.,-verarb.(ssT)"@de ;
+	skos:prefLabel "Kunststoff,Kautschukherst.,-verarb."@de ;
 	skos:altLabel "Berufe in der Kunststoff- und Kautschukherstellung und -verarbeitung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Kunststoff- und Kautschukherstellung und -verarbeitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „221 Kunststoff- und Kautschukherstellung und -verarbeitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen u.a. Klebstoffe, Linoleum oder Kunststoffschuhe her und entwickeln Produktionsabläufe in speziellen Produktionsbereichen weiter."@de ;
 	skos:note "spezielle Arbeitsvorgänge planen, organisieren und ausführen und Prozesse auf die spezifischen Anforderungen der Produkte ausrichten Qualitätsrichtlinien für die Herstellung von speziellen Kunststoffprodukten je nach den spezifischen Anforderungen an die Verwendung erarbeiten und umsetzen bei Klebstoffen oder anderen Klebeprodukten die Oberflächen der Werkstücke bearbeiten und damit für das Kleben vorbereiten Rohmaterialien und Zusatzstoffe auswählen und im geeigneten Mischverhältnis zusammenführen für die Bereitstellung der Materialien sowie die Einsatzbereitschaft der Maschinen sorgen, Instandhaltungsarbeiten ausführen je nach Anforderung geeignete Mischungen entwickeln und kunststofftechnische Verfahren optimieren bzw. dabei mitwirken"@de ;
@@ -2070,7 +2070,7 @@
 	skos:inScheme <> .
 
 <2220> a skos:Concept ;
-	skos:prefLabel "Berufe in der Farb-, Lacktechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Farb-, Lacktechnik"@de ;
 	skos:altLabel "Berufe in der Farb- und Lacktechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe gestalten und schützen Oberflächen, z. B. von Möbeln und Containern, durch Beschichten mit Farben und Lacken. Darüber hinaus entwickeln und erproben sie neue Beschichtungsstoffe und -verfahren."@de ;
 	skos:note "Oberflächen reinigen und mit Schleifmaschinen vorbehandeln, Unebenheiten verspachteln, Grundierungen auftragen, geeignete Art der Beschichtung festlegen Farbtöne an Farbmischstationen herstellen Farben und Lacke manuell oder mithilfe von computergesteuerten Lackierstraßen auf die Oberflächen aufbringen, Trocknungsvorgänge überwachen, Oberflächen polieren Einrichtungen und Anlagen, z. B. Lackierstraßen oder Abwasserbehandlungsanlagen, einrichten, bedienen, überwachen und warten Beschriftungen sowie Design- und Effektlackierungen entwerfen und herstellen, z. B. Siebdrucktechniken anwenden Beschichtungsarbeiten in der Sanierung von Fassaden, Denkmälern und Innenräumen planen und durchführen Eigenschaften von Farben und Lacken mit physikalischen und chemischen Verfahren analysieren, vorhandene Produkte verbessern, neue Produkte entwickeln Verfahren und Prozesse zur Farben- und Lackherstellung und -verarbeitung entwickeln, optimieren und überwachen"@de ;
@@ -2100,7 +2100,7 @@
 	skos:inScheme <> .
 
 <2230> a skos:Concept ;
-	skos:prefLabel "Berufe i.d. Holzbe-,-verarbeitung (o.S.)"@de ;
+	skos:prefLabel "Berufe i.d. Holzbe-,-verarbeitung"@de ;
 	skos:altLabel "Berufe in der Holzbe- und -verarbeitung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der industriellen und handwerklichen Herstellung von Holzerzeugnissen tätig. Sie verarbeiten den Rohstoff Holz mithilfe von Sägen, Fräsen und anderen Maschinen und Werkzeugen zu Baustoffen, Halbwaren und fertigen Produkten."@de ;
 	skos:note "Rohmaterial auswählen und auf Eignung für die Weiterverarbeitung prüfen, Rohmaterial vermessen, sortieren, trocknen und lagern kundenspezifische Lösungen entwickeln, technische Unterlagen für spezifische Anforderungen am Computer erstellen die Arbeitsschritte für die Produktion, den Holz- und den Innenausbau festlegen bzw. optimieren Bearbeitungsmaschinen, wie z. B. Fräsen, Sägen, Hobel-, Beleimungs- und Pressmaschinen, einrichten und damit Holz in die gewünschte Form bringen Rundholz z. B. zu Balken und Leisten, Faserholz z. B. zu Türelementen verarbeiten, Schnittholz z. B. für Wand- und Deckenverkleidung bearbeiten Holzoberflächen bearbeiten, z. B. spezielle Holzschutzmittel aufbringen Abmessungen und Qualität der Holzprodukte kontrollieren, Holzprodukte verpacken, lagern und für den Versand vorbereiten Werkstoffe aus Holz entwickeln, Eigenschaften von bestehenden Holzwerkstoffen verbessern, neue Verwendungsmöglichkeiten erkunden"@de ;
@@ -2148,7 +2148,7 @@
 	skos:inScheme <> .
 
 <2238> a skos:Concept ;
-	skos:prefLabel "Berufe i.d. Holzbe-,-verarbeitung (ssT)"@de ;
+	skos:prefLabel "Berufe i.d. Holzbe-,-verarbeitung"@de ;
 	skos:altLabel "Berufe in der Holzbe- und -verarbeitung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Holzbe- und -verarbeitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „223 Holzbe- und -verarbeitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe fertigen und reparieren spezielle Erzeugnisse aus Holz, z. B. Fässer, Wohnwagen, Fahrzeugaufbauten oder Schindeln."@de ;
 	skos:note "Hölzer für das herzustellende Produkt auswählen und gegebenenfalls einlagern, z. B. für Fässer, Holzreifen oder Gestelle, zusätzliche Materialien beschaffen, z. B. Metalle, Kunststoffe, Ventile, Hähne und Stutzen Holzteile, z. B. für Fasswände, ausmessen und zuschneiden, Kanten passgenau bearbeiten Holz zu Stäben spalten und zuschneiden, Stäbe mit Hilfe von Setz- und Arbeitsreifen aufstellen und durch Ausfeuern, Kochen oder Dämpfen zu Dauben biegen Fertigung von Holzschindeln durch Spalten oder Sägen von einem Holzblock Fahrzeuge, z. B. Wohn- und Imbisswagen, sowie Karren aus Holz fertigen und reparieren historische Wagen und Kutschen restaurieren Holzbe- und Verarbeitungsmaschinen, wie z. B. Säge-, Hobel-, Schleif-, Fräs- und Bohrmaschinen, pflegen und warten"@de ;
@@ -2164,7 +2164,7 @@
 	skos:inScheme <> .
 
 <2310> a skos:Concept ;
-	skos:prefLabel "Berufe Papier-,Verpackungstechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe Papier-,Verpackungstechnik"@de ;
 	skos:altLabel "Berufe in der Papier- und Verpackungstechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe übernehmen Aufgaben in der Herstellung von Papier, Karton, Pappe sowie in der Verpackungstechnik. Sie beschicken z. B. vollautomatisierte Maschinen mit zuvor ausgewählten Roh- und Hilfsstoffen bzw. Papier oder Karton oder unterstützen Fachkräfte dabei und überwachen die Produktionsprozesse."@de ;
 	skos:note "primäre Rohstoffe wie Holz, sekundäre Rohstoffe wie Altpapier sowie Hilfsstoffe, wie Füllstoffe und Streichpigmente und chemische Hilfsmittel, auswählen und kontrollieren Grundstoffe maschinell aufbereiten, dabei Holz zerkleinern, Holzschnitzel kochen, Bleich- und Zusatzstoffe zugeben, Zellstoff entwässern Fachkräfte bei der Herstellung von Zellulose bzw. bei der Papier- und Kartonagenherstellung sowie -verarbeitung unterstützen Papier, Karton und Pappe laufend auf Fehler kontrollieren, ph-Wert-Kontrollen durchführen, Aufwicklung der fertigen Papierbahn auf die Maschinenrolle kontrollieren Papiererzeugnisse kaschieren, kleben, falzen, heften, kuvertieren, verpacken und palettieren, beschichten, binden, prägen und perforieren Verpackungen konzipieren, Werkzeichnungen erstellen, Konturen für Stanzformen erstellen, Herstellungsprozesse rechnergestützt bedienen und überwachen Produktion von Verpackungen und Packmitteln unter betriebswirtschaftlichen, ökologischen und organisatorischen Gesichtspunkten planen Wartung und Pflege von Maschinen und Anlagen planen, organisieren und durchführen Kunden und Kundinnen über die Verwendung und den Einsatz von unterschiedlichen Papierarten sowie Papier- und Kartonprodukten beraten"@de ;
@@ -2211,7 +2211,7 @@
 	skos:inScheme <> .
 
 <2328> a skos:Concept ;
-	skos:prefLabel "Berufe technische Mediengestaltung (ssT)"@de ;
+	skos:prefLabel "Berufe technische Mediengestaltung"@de ;
 	skos:altLabel "Berufe in der technischen Mediengestaltung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der technischen Mediengestaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „232 Berufe in der technischen Mediengestaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen u.a. Stempel oder Flexodruckplatten her."@de ;
 	skos:note "Stempel mit Schriften, Linien und Grafiken aus Gummi und Fotopolymeren herstellen, abformen, vulkanisieren bzw. nachformen Stempel und Klischees beschneiden und montieren computergesteuerte Prägepressen, Kreissägen und Schleifgeräte bedienen, Reprokameras und Fotosatzmaschinen einsetzen, Arbeitsgeräte pflegen und instand halten Texte, Signets und Zeichnungen nach Kundenvorstellungen zu einem typografisch und technisch einwandfreien Produkt aufbereiten lasergravierte Stempel herstellen, dazu Layouts zur Erstellung von Textplatten auf dem Computer konzipieren und in die Gummistempelplatte einbrennen Flexodruckplatten mit Text und Bild für mehrfarbige Drucksachen erstellen Etiketten, Formulare und Erzeugnisse des Verpackungsdrucks im Spezialdruckverfahren herstellen"@de ;
@@ -2272,7 +2272,7 @@
 	skos:inScheme <> .
 
 <2410> a skos:Concept ;
-	skos:prefLabel "Berufe in der Metallerzeugung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Metallerzeugung"@de ;
 	skos:altLabel "Berufe in der Metallerzeugung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe übernehmen Aufgaben im Bereich Metallerzeugung. Unter anderem gewinnen sie Metalle aus Erzen, erzeugen Gussformen und Gussteile, stellen Drähte und Kabel her oder unterstützen Fachkräfte bei diesen Tätigkeiten. Sie planen, organisieren und überwachen auch die Produktion und optimieren Produktionsprozesse."@de ;
 	skos:note "Hochofenmischung zusammenstellen, Hoch- oder Schmelzöfen einrichten, bedienen und kontrollieren bzw. Fachkräfte dabei unterstützen, Proben entnehmen, Abstiche durchführen Stahl aus Roheisen erzeugen, spezielle Stahlarten herstellen, Nichteisenmetalle, z. B. Kupfer, Blei, Aluminium, Zink, Gold, Silber, erschmelzen, veredeln und weiterverarbeiten Drähte, Litzen, Leiterseile und Kabelseelen herstellen, Drähte, Adern, Aderbündel oder Litzen verseilen, Isolierungen und Bewehrungen auf Leitungsdrähte und Seile aufbringen Gussformen fertigen, Schmelzöfen beschicken und steuern, Gussteile auf Gussfehler kontrollieren, Werkstücke nachbearbeiten bzw. dabei helfen Maß- und Werkstoffprüfungen durchführen, Gussstücke auf die geforderten mechanischen, chemischen und physikalischen Eigenschaften hin prüfen Wartungs- und Reparaturarbeiten an Maschinen und Anlagen planen, organisieren, durchführen und kontrollieren bzw. Fachkräfte dabei unterstützen optimale Fertigungsschritte analysieren und auswählen, Daten für die Fertigung und den Produktionsablauf aus Zeichnungen, Handbüchern und technischer Fachliteratur ermitteln die Einhaltung von Maßnahmen des Umweltschutzes und der Arbeitssicherheit sicherstellen Kunden und Kundinnen beraten, Schulung und Weiterbildung durchführen Aufgaben in der Forschung und der Entwicklung hüttentechnischer Prozesse übernehmen"@de ;
@@ -2317,7 +2317,7 @@
 	skos:inScheme <> .
 
 <2420> a skos:Concept ;
-	skos:prefLabel "Berufe in der Metallbearbeitung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Metallbearbeitung"@de ;
 	skos:altLabel "Berufe in der Metallbearbeitung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe richten Fertigungsanlagen und Werkzeugmaschinen der Metallbearbeitung ein, bedienen die Anlagen bzw. überwachen den Fertigungsablauf und beheben Störungen. Darüber hinaus bearbeiten sie metallische Werkstücke manuell und montieren Werkstücke."@de ;
 	skos:note "Fertigungsanlagen einrichten bzw. programmieren, Werkzeuge auf Werkzeugträgern befestigen und justieren, Funktionsprüfungen durchführen Maschinen und Anlagen zur Metallbearbeitung bedienen und überwachen, Fertigungslauf beobachten, Funktionsstörungen erkennen und beheben konventionelle oder CNC-gesteuerte Metallbearbeitungsmaschinen, z. B. Drahtschneide-, Press- oder Stanzmaschinen, Dreh- und Fräsmaschinen bestücken Maschinen und Anlagen zur Metallbearbeitung reinigen, pflegen, warten und instand setzen bzw. Instandsetzungspersonal verständigen Qualitäts- und Fertigungskontrollen durchführen, Mess- und Prüfgeräte handhaben, Messergebnisse in Protokollen dokumentieren Werkstücke aus Metall manuell oder mit maschineller Unterstützung zuschneiden, stanzen, biegen, drücken, drehen, fräsen, bohren, schleifen, entgraten"@de ;
@@ -2373,7 +2373,7 @@
 	skos:inScheme <> .
 
 <2438> a skos:Concept ;
-	skos:prefLabel "Berufe Metalloberflächenbehandlung (ssT)"@de ;
+	skos:prefLabel "Berufe Metalloberflächenbehandlung"@de ;
 	skos:altLabel "Berufe in der Metalloberflächenbehandlung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Metalloberflächenbehandlung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „243 Metalloberflächenbehandlung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe behandeln bzw. beschichten spezielle Metalloberflächen, z. B. durch Patinieren oder Emaillieren."@de ;
 	skos:note "zu behandelnde bzw. zu beschichtende Werkstücke bzw. Oberflächen vorbehandeln, z. B. reinigen, entfetten, trocknen oder glätten Werkstücke bzw. Oberflächen z. B. emaillieren, kadmieren oder patinieren spezielle Mischverhältnisse ausarbeiten oder nach Vorgaben zusammenstellen behandelte Werkstücke bzw. Oberflächen nachbehandeln, z. B. trocknen, Beschichtungen ggf. weiterveredeln Qualitätskontrollen durchführen, ggf. Nacharbeiten durchführen Werkzeuge und Maschinen reinigen, warten und instand halten"@de ;
@@ -2449,7 +2449,7 @@
 	skos:inScheme <> .
 
 <2510> a skos:Concept ;
-	skos:prefLabel "Berufe Maschinenbau-, Betriebstechn.(oS)"@de ;
+	skos:prefLabel "Berufe Maschinenbau-, Betriebstechn."@de ;
 	skos:altLabel "Berufe in der Maschinenbau- und Betriebstechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe unterstützen den betrieblichen Produktionsprozess. Dazu stellen sie Geräteteile und Baugruppen für Anlagen und Maschinen her, analysieren Störungen der Anlagen und Maschinen und überwachen und optimieren die Abläufe der Betriebstechnik. Zudem konstruieren sie Maschinen bzw. Bauteile."@de ;
 	skos:note "Maschinen und Anlagen für Fertigungsprozesse entwickeln, berechnen und konstruieren, dazu Skizzen sowie Entwurfs- und Konstruktionszeichnungen anfertigen Bauteile durch Drehen, Fräsen, Bohren und Schleifen von Metall und Kunststoff, in der Regel maschinell, herstellen, Bauteile verbinden und justieren mechanische, elektronische, pneumatische und hydraulische Steuerungen und Regelungseinrichtungen an Maschinen und Systemen installieren Produktionsmaschinen und Fertigungsanlagen, aber auch z. B. Kräne, Aufzüge oder Förderbänder, kontrollieren und ggf. Störungen beheben Bedarf der Roh-, Hilfs- und Betriebsstoffe, Halberzeugnisse, Maschinen, Zubehör- und Ersatzteile abschätzen und Bereitstellung sicherstellen für die Funktionalität und Bereitstellung der für die geplanten Produktionsschritte erforderlichen Anlagen und Maschinen sorgen, technischen Betrieb optimieren Validierungsmaßstäbe entwickeln, um das Einhalten betrieblicher und gesetzlicher Qualitätsnormen kontrollieren zu können, Qualitätssicherungsmaßnahmen umsetzen"@de ;
@@ -2480,7 +2480,7 @@
 	skos:inScheme <> .
 
 <2518> a skos:Concept ;
-	skos:prefLabel "Berufe Maschinenbau,Betriebstechn.(ssT)"@de ;
+	skos:prefLabel "Berufe Maschinenbau,Betriebstechn."@de ;
 	skos:altLabel "Berufe in der Maschinenbau- und Betriebstechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe der Maschinenbau- und Betriebstechnik, die in der übergeordneten Systematikposition „251 Berufe in der Maschinenbau- und Betriebstechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe arbeiten u.a. mit Motoren, Turbinen, pneumatischen oder hydraulischen Systemen, umwelt- oder mühlentechnischen Anlagen."@de ;
 	skos:note "Motorenteile, z. B. in Kraftwerken, Schiffen oder Lokomotiven, ausbauen, reinigen, schadhafte Teile austauschen, Sicherheitsprüfungen und Inspektionen vornehmen Turbinenbauteile bzw. Turbinen fertigen, z. B. in Kraftwerke einbauen, prüfen und warten pneumatische und hydraulische Anlagen und Systeme entwerfen, konstruieren, montieren, warten und überwachen Gesamtanlagen und Anlagenteile von Mühlen, Förderanlagen für Getreideerzeugnisse, Zerkleinerungs- oder Siebmaschinen sowie Anlagen der Lager- und Silotechnik planen Anlagen der Umweltschutzverfahrenstechnik, z. B. für den Immissions-, Gewässer-, Lärm-, Strahlenschutz, die Wasser-, Abfall- oder Abwasserwirtschaft, konstruieren und warten Produktionsprozesse in der Herstellung z. B. von mühlen-, hydraulik- oder lasertechnischen Anlagen entwickeln, planen und gestalten, optimieren und überwachen Montage und Inbetriebnahme der Maschinen, Geräte und Anlagen vor Ort organisieren und überwachen, Anwender/innen beraten und schulen Aufgaben in der Grundlagen- oder anwendungsorientierten Forschung übernehmen, z. B. im Aufbau und Betrieb von komplexen Turbinenanlagen"@de ;
@@ -2496,7 +2496,7 @@
 	skos:inScheme <> .
 
 <2520> a skos:Concept ;
-	skos:prefLabel "Berufe in der Fahrzeugtechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Fahrzeugtechnik"@de ;
 	skos:altLabel "Berufe in der Fahrzeugtechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe konstruieren Fahrzeuge in allen Materialien und Größen, entwickeln sie weiter, bauen und warten sie, überprüfen deren Funktionsfähigkeit und reparieren die Funktionen bei Bedarf."@de ;
 	skos:note "Konstruktionszeichnungen unter Angabe von Maßen, Toleranzen und Bearbeitungszeichen mittels rechnergesteuerter Zeichenanlagen anfertigen Arbeitsabläufe und Fertigungsverfahren in der Fahrzeugtechnik festlegen und überwachen, Qualitätskontrollen durchführen in der Herstellung von Bauteilen konventionelle und CNC-Werkzeugmaschinen einsetzen, Metall- und Kunststoffteile spanen, Bauteile montieren Fahrzeuge warten und reparieren, Karosserien, Spezialaufbauten und Anhänger entwerfen und montieren, Störungen visuell und computergestützt diagnostizieren Baukräne montieren, Fahrzeugbaukonstruktionen herstellen und motorisierte Anlagen, Motorgeräte oder Triebwerke warten technische Funktionsprüfungen bei Fahrzeugen durchführen und Störungen beseitigen motorisierte und nichtmotorisierte Fahrzeuge herstellen, montieren, warten und instand halten"@de ;
@@ -2548,7 +2548,7 @@
 	skos:inScheme <> .
 
 <2610> a skos:Concept ;
-	skos:prefLabel "Berufe Mechatr.,Automatisierungst.(o.S.)"@de ;
+	skos:prefLabel "Berufe Mechatr.,Automatisierungst."@de ;
 	skos:altLabel "Berufe in der Mechatronik und Automatisierungstechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe planen technische Konzepte, entwickeln und projektieren mechatronische oder rechnergesteuerte Anlagen und Systeme, nehmen diese in Betrieb und halten sie instand. Darüber hinaus überwachen sie Prozessabläufe und organisieren die Fertigung und Wartung."@de ;
 	skos:note "mechanische, pneumatische, hydraulische und elektronische Komponenten zu funktionsgerechten Anlagen montieren oder Automatisierungssysteme, z. B. für die Verfahrens- und Prozesstechnik aufbauen Baugruppen entwerfen und Konstruktionszeichnungen mittels rechnergesteuerter Zeichenanlagen anfertigen Mess-, Steuerungs-, Regelungs- und Überwachungseinrichtungen einrichten und an der Entwicklung von Bedien- und Beobachtungssystemen für Industrieanlagen mitwirken an der Inbetriebnahme von Anlagen mitarbeiten, Testläufe durchführen, Anlagen dem Kunden übergeben Kunden und Kundinnen und Vertriebsmitarbeiter/innen zur Funktionalität und Verwendung der Systeme und Anlagen beraten, Gutachten und Prüfberichte erstellen Wartungs- und Instandhaltungsarbeiten durchführen bzw. koordinieren und planen"@de ;
@@ -2632,7 +2632,7 @@
 	skos:inScheme <> .
 
 <2630> a skos:Concept ;
-	skos:prefLabel "Berufe in der Elektrotechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Elektrotechnik"@de ;
 	skos:altLabel "Berufe in der Elektrotechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe entwickeln elektrotechnische Schaltungen, Geräte und Systeme, stellen diese her, installieren sie und überprüfen deren Funktionstüchtigkeit. Sie begleiten Fertigungsprozesse etwa in der Elektroindustrie, programmieren elektronische Anlagen, erledigen Servicetätigkeiten und forschen auf dem Gebiet der Elektrotechnik."@de ;
 	skos:note "analoge und digitale elektronische Schaltungen, Schaltkreise, Baugruppen, Geräte, Anlagen und Systeme entwickeln oder weiterentwickeln, Funktionen simulieren Geräte, Systeme und Anlagen der Elektrotechnik herstellen, anschließen und in Betrieb nehmen Fertigungsanlagen und Prüfsysteme einrichten, programmieren und warten, Betriebssysteme und Programme installieren und konfigurieren, Geräte und Komponenten prüfen elektrotechnische bzw. elektronische Schaltungen aufbauen und prüfen Komponenten, Geräte und elektrotechnische Systeme sowie Systeme der Mess-, Steuerungs- und Regelungstechnik auswählen und konfigurieren Schaltpläne in Leiterplattenlayouts umsetzen und entflechten, Leiterplatten und Multilayer mithilfe von CAD-Systemen konstruieren Servicetätigkeiten durchführen, z. B. Inbetriebsetzung, vorbeugende Wartung oder Entstörung an elektrotechnischen Geräten, Anlagen und Systemen Vertrieb von elektrotechnischen Erzeugnissen und dazugehörige Dienstleistungen nach umsatz- und gewinnorientierten Aspekten planen, organisieren und durchführen technische Inhalte in Dokumentationen für Anlagen, Geräte und Baugruppen der Elektrotechnik unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes prüfen Kunden und Kundinnen bei der Anschaffung von Produkten der Elektrotechnik und deren Zubehör sowie bei der Einführung neuer Systeme beraten und betreuen Grundlagen- und Anwendungsforschung planen, organisieren und durchführen"@de ;
@@ -2663,7 +2663,7 @@
 	skos:inScheme <> .
 
 <2638> a skos:Concept ;
-	skos:prefLabel "Berufe in der Elektrotechnik (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Elektrotechnik"@de ;
 	skos:altLabel "Berufe in der Elektrotechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Elektrotechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „263 Elektrotechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe befassen sich z. B. mit optoelektronischen oder technisch-kybernetischen Fragen."@de ;
 	skos:note "optoelektronische Anwendungen, unter Berücksichtigung der Entwicklungen moderner Optik, Halbleiter- und Computertechnik, entwickeln, konstruieren und fertigen Geräte und Verfahren der optischen Nachrichtentechnik, z. B. Strahlenemitter, Lichtwellenleiter, Koppel- und Empfangselemente, entwickeln neue Verfahren zur Automatisierung von Prozessen, Baugruppen, Geräten, Anlagen und Systemen der technischen Kybernetik und Automatisierungstechnik entwickeln Prüfvorschriften und -verfahren erstellen, Qualitätsstandards und Prüfmethoden vorgeben, Qualitätssicherung durchführen Steuer- und Regelanlagen mithilfe von spezifischen Überwachungssystemen verantwortlich kontrollieren, Betriebsbereitschaft der technischen Einrichtungen sicherstellen elektrische Anlagen für spezielle Gebäude planen, spezifische Modelle und Prototypen, z. B. für elektronische Steuergeräte, bauen und testen, bei Störungen Fehler suchen und beheben Hardware planen, z. B. für Steuerungen der technischen Anlagen in Produktionsbetrieben oder für Schalt- oder Energieversorgungsanlagen Hard- und Softwarekomponenten installieren bzw. deren Installation überwachen und in Betrieb nehmen, Einrichtungen warten, Störungsursachen finden und Störungen beheben"@de ;
@@ -2679,7 +2679,7 @@
 	skos:inScheme <> .
 
 <2710> a skos:Concept ;
-	skos:prefLabel "Berufe tech. Forschung, Entwicklung (oS)"@de ;
+	skos:prefLabel "Berufe tech. Forschung, Entwicklung"@de ;
 	skos:altLabel "Berufe in der technischen Forschung und Entwicklung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe entwickeln Produkte, technische Verfahren und Technologien (soweit sie nicht bereits an anderer Stelle der Klassifikation genannt sind) oder wirken dabei mit. Sie erarbeiten Konzepte für die Weiterentwicklung von Produkten. Zum Teil sind sie in der Grundlagenforschung tätig."@de ;
 	skos:note "bestehende Produktionsprozesse, Produkte oder Dienstleistungen analysieren innovative und marktgerechte Lösungen finden, Produktideen und Konzepte zur Weiterentwicklung erarbeiten und bewerten Problemlösungen in Hinblick auf Realisierungsmöglichkeiten und Auswirkungen, wie Technik- und Umweltfolgen, überprüfen Skizzen und Zeichnungen, z. B. für Anlagen oder andere Güter aus Materialien wie Glas, Textilien Holz etc., anfertigen Simulationen von Struktur, Funktion oder Verhalten durchführen, um Erkenntnisse über ein reales System zu gewinnen Berechnungen, Versuche, Materialtests durchführen Ergebnisse von Messungen und Simulationen auswerten, dokumentieren, interpretieren, in Tabellen und Schaubildern darstellen die Herstellung von Prototypen oder serien überwachen Dokumentationen für Konstruktion und Fertigung, Marketing und Vertrieb erstellen theoretische Arbeit in der Grundlagenforschung leisten oder unterstützen"@de ;
@@ -2687,7 +2687,7 @@
 	skos:inScheme <> .
 
 <2718> a skos:Concept ;
-	skos:prefLabel "Berufe tech.Forschung, Entwicklung (ssT)"@de ;
+	skos:prefLabel "Berufe tech.Forschung, Entwicklung"@de ;
 	skos:altLabel "Berufe in der technischen Forschung und Entwicklung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der technischen Forschung und Entwicklung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die an anderer Stelle der Klassifikation nicht bereits erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit der Entwicklung von wehrtechnischem Gerät oder mit der Prüfung und Begutachtung von Neuentwicklungen."@de ;
 	skos:note "spezifische Produktpaletten, z. B. wehrtechnisches Gerät, entwickeln bzw. die Entwicklung sicherstellen, z. B. technische Anforderungen erheben, Forschungsergebnisse bewerten Realisierbarkeit der technischen Anforderungen untersuchen, Anforderungen in ein Konzept umsetzen, Entwicklungsauftrag an die Industrie vergeben Entwicklung von Prototypen koordinieren, Versuchsart nach den spezifischen Erfordernissen des Gegenstands festlegen, sinnvolle Messmethoden bestimmen, Prototypen testen, Messungen durchführen mit der Industrie Beschaffungsverträge über Serienlieferung abschließen, Qualität der Gerätefertigung überwachen, Gerät abnehmen Kostenvoranschläge auf inhaltliche Richtigkeit prüfen, z. B. über Neuanfertigung oder Instandsetzung von technischem Gerät mögliche Erfindungen erkennen und die rechtliche Schutzwürdigkeit darstellen, Schutzansprüche anmelden, Schutzrechte technisch begutachten technische Unterstützung von Schutzrechten durchführen, in Zusammenarbeit mit Jurist/innen Rechtsansprüche von Arbeitnehmer/innen sowie Unternehmen vertreten eingehende Patentanträge in Zusammenarbeit mit Jurist/innen nach formalen und inhaltlichen Kriterien prüfen und bei der Erstellung von Prüfungsbescheiden beraten"@de ;
@@ -2725,7 +2725,7 @@
 	skos:inScheme <> .
 
 <2728> a skos:Concept ;
-	skos:prefLabel "Techn.Zeichnen, Konstrukt.,Modellb.(ssT)"@de ;
+	skos:prefLabel "Techn.Zeichnen, Konstrukt.,Modellb."@de ;
 	skos:altLabel "Technisches Zeichnen, Konstruktion und Modellbau (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Bereich Technisches Zeichnen, Konstruktion und Modellbau, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „272 Technisches Zeichnen, Konstruktion und Modellbau“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in der Prüfung von technischen Unterlagen oder der Entwicklung von Sportgeräten tätig."@de ;
 	skos:note "Zeichnungen und technische Unterlagen prüfen, Identifikations- bzw. Zeichnungsnummern für die eindeutige Zuordnung von Bauteilen bzw. Baugruppen festlegen Werksnormen für technische Vorgänge erarbeiten und festlegen Informationen über neue DIN- und ISO-Normen beschaffen und beachten, Normunterlagen aktualisieren Sportgeräte und -ausrüstungen entwickeln und optimieren, Prototypen testen die Umsetzung und Produktion der Geräte überwachen, Qualität sichern Sportgeräte fertigen, dabei u.a. Kunststoff- und Hochleistungsverbundkunststoffe einsetzen, Normvorschriften beachten, Maschinen bedienen und warten Sportgeräte verkaufen und bei Kunden, z. B. in Fitness-Centern montieren, technische Ausrüstung in Trainingszentren bedienen und warten bei Zertifizierungs- und Normierungsvorgängen bzw. in entsprechenden Instituten mitarbeiten"@de ;
@@ -2765,7 +2765,7 @@
 	skos:inScheme <> .
 
 <2810> a skos:Concept ;
-	skos:prefLabel "Berufe in der Textiltechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Textiltechnik"@de ;
 	skos:altLabel "Berufe in der Textiltechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der Produktion von Textilien oder von Garnen und Seilen tätig. Sie verrichten zuarbeitende, ausführende oder planende Tätigkeiten, erforschen neue Materialien und Produkte oder analysieren den Textilmarkt."@de ;
 	skos:note "Produktionsmaschinen beschicken, einstellen, umrüsten, bestücken, bedienen und pflegen, Maschinenabläufe kontrollieren, Maschinen instand halten Arbeitsabläufe planen und koordinieren, z. B. Arbeitsschritte und Materialfluss je nach Auftrag und unter Berücksichtigung der vorhandenen Maschinen und Anlagen individuell planen, koordinieren und kontrollieren Qualitätsrichtlinien in der Textiltechnik erarbeiten, Maßnahmen zur Qualitätsprüfung und -sicherung erarbeiten oder durchführen Bestimmungen zu Unfallverhütung, Arbeitsschutz und Umweltschutz umsetzen und kontrollieren textile Produkte entwickeln und konstruieren, in der Forschung zu neuen Textilien oder bei der Weiterentwicklung von Textilmaschinen mitarbeiten neue Maschinen und Anlagen in der eigenen Anlage und bei Kunden in Betrieb nehmen"@de ;
@@ -2848,7 +2848,7 @@
 	skos:inScheme <> .
 
 <2830> a skos:Concept ;
-	skos:prefLabel "Berufe Leder-,Pelzherstell.,-verarb.(oS)"@de ;
+	skos:prefLabel "Berufe Leder-,Pelzherstell.,-verarb."@de ;
 	skos:altLabel "Berufe in der Leder-, Pelzherstellung und -verarbeitung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der Herstellung von Leder und Pelzen sowie Leder- und Pelzprodukten aller Art tätig."@de ;
 	skos:note "Ausgangsmaterialien wie Leder, Stoffe oder Kunststoffe nach Vorgabe ausschneiden oder ausstanzen, Teile sortieren und zu Partien zusammenstellen in der Weiterverarbeitung mitarbeiten, z. B. Kanten von Schaft- und anderen Lederteilen schärfen Maschinen vorbereiten, z. B. Messer in Schneidmaschinen auswechseln, Nähgarn in Steppmaschinen einfädeln, rechtzeitig Material nachlegen Fachkräfte beim Einrichten, Pflegen und Reinigen der Produktionsanlagen unterstützen Maschinenlauf überwachen, bei Störungen Fachkräfte informieren in Gerbereien beim Reinigen von Rohhäuten und -fellen, beim Beschicken von Gerbmaschinen oder Zurichten und Färben von Leder helfen in Handwerksbetrieben Materialien bereitstellen, einfache Kleb-, Kunststoff- und Näharbeiten ausführen, bei Änderungen oder Reparaturen mitarbeiten Sortier- und Reinigungsarbeiten in den Produktionsräumen und im Lager übernehmen, Produkte lagern oder verpacken, Waren auszeichnen, Verkaufsregale einräumen"@de ;
@@ -2893,7 +2893,7 @@
 	skos:inScheme <> .
 
 <2910> a skos:Concept ;
-	skos:prefLabel "Berufe in der Getränkeherstellung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Getränkeherstellung"@de ;
 	skos:altLabel "Berufe in der Getränkeherstellung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe stellen Getränke aller Art her oder betreuen technische wie auch kaufmännische Aufgaben in der Getränkeproduktion und bei entsprechenden Zuliefer- und Handelsbetrieben von fachlicher Seite."@de ;
 	skos:note "Roh- und Halbware, wie z. B. Obst und Gemüse einkaufen, übernehmen, begutachten und lagern, für die rechtzeitige Bereitstellung sorgen Getränkeproduktion bzw. Arbeitsprozesse planen, steuern und überwachen Maschinen und Anlagen der Getränke- und Kellereitechnik einrichten, bedienen, überwachen, reinigen und desinfizieren, warten und instand halten physikalisch- und chemischtechnologische sowie sensorische Qualitätskontrollen planen, durchführen und überwachen die Einhaltung der rechtlichen Vorschriften, z. B. zu Arbeits- und Unfallschutz sowie Lebensmittelhygiene, sicherstellen Getränke und Herstellungsverfahren unter Berücksichtigung ernährungsphysiologischer und lebensmittelrechtlicher Kriterien entwickeln und verbessern bzw. dabei mitwirken"@de ;
@@ -2946,7 +2946,7 @@
 	skos:inScheme <> .
 
 <2920> a skos:Concept ;
-	skos:prefLabel "Berufe i.d. Lebensmittelherstellung (oS)"@de ;
+	skos:prefLabel "Berufe i.d. Lebensmittelherstellung"@de ;
 	skos:altLabel "Berufe in der Lebensmittelherstellung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe stellen Lebensmittel aus tierischen und pflanzlichen Rohstoffen her, organisieren und überwachen Arbeitsabläufe in der Lebensmittelherstellung, sichern die Qualität und entwickeln neue Produkte."@de ;
 	skos:note "Rohwaren, Halbfertigprodukte und Fertigerzeugnisse annehmen, dabei Waren auf Menge und Qualität prüfen Lebensmittel produzieren, z. B. Roh- und Zusatzstoffe sowie Halbfabrikate nach vorgegebener Rezeptur bearbeiten, Endprodukte konservieren und abfüllen lebensmitteltechnische Produktionsanlagen bedienen und überwachen, Prozessabläufe steuern und kontrollieren, bei Störungen eingreifen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Rezepturen erarbeiten, zielgruppenorientierte Produktreihen entwickeln, Produkte auf Messen präsentieren Qualitätsnormen erstellen und überwachen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen vornehmen Mithilfe von Marktbeobachtung und -analysen Lebensmittelproduktion planen und überwachen, Lebensmittel und Fertigprodukte bzw. Lebensmittelverpackungen anpassen"@de ;
@@ -3005,7 +3005,7 @@
 	skos:inScheme <> .
 
 <2928> a skos:Concept ;
-	skos:prefLabel "Berufe i.d.Lebensmittelherstellung (ssT)"@de ;
+	skos:prefLabel "Berufe i.d.Lebensmittelherstellung"@de ;
 	skos:altLabel "Berufe in der Lebensmittelherstellung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Lebensmitteltechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „292 Lebensmittel- und Genussmittelherstellung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen spezielle Lebensmittel, wie z. B. Tiefkühlkost, her oder entwickeln neue Produkte."@de ;
 	skos:note "Rohwaren für die Herstellung von Lebensmittelprodukten, z. B. Konserven, einkaufen, Warenannahme und Wareneingangskontrolle in der Lebensmittelproduktion vornehmen Verarbeitungs-, Produktions- und Verpackungsprozesse von speziellen Lebensmitteln planen und überwachen Maschinen und Anlagen der Lebensmitteltechnik bedienen, überwachen, steuern, reinigen, desinfizieren und warten spezielle Lebensmittel, wie z. B. Tiefkühlkost oder Sportlernahrung herstellen, portionieren, abfüllen, verpacken und lagern Qualitätsstandards entwickeln und umsetzen, Qualitätskontrollen durchführen Lebensmittelprodukte entwickeln bzw. verbessern, z. B. Rezepturen für Fertiggerichte oder Sportlernahrung Maschinen und Anlagen sowie Verfahren zur Lebensmittelherstellung entwickeln und verbessern, z. B. Trocknungs- oder Mischanlagen"@de ;
@@ -3021,7 +3021,7 @@
 	skos:inScheme <> .
 
 <2930> a skos:Concept ;
-	skos:prefLabel "Köche/Köchinnen (o.S.)"@de ;
+	skos:prefLabel "Köche/Köchinnen"@de ;
 	skos:altLabel "Köche/Köchinnen (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe bereiten Speisen aller Art zu und richten sie an. Sie organisieren alle Arbeitsabläufe in der Küche, stellen Speisepläne auf, kaufen Lebensmittel und Zutaten ein und lagern diese fachgerecht ein."@de ;
 	skos:note "die für die Küche benötigten Waren unter Beachtung von Preis, Qualität und Frische einkaufen Waren fachgerecht einlagern und Lagerbestände kontrollieren, z. B. Verfallsdaten überwachen, verdorbene Ware aussortieren Speisekarten und Speisepläne erstellen, Herstellungs- und Verkaufspreise kalkulieren kalte und warme Speisen zubereiten bzw. bei der Zubereitung mithelfen Speisen anrichten, optisch ansprechend garnieren und in richtiger Reihenfolge an das Bedienungspersonal ausgeben Aufräum-, Spül- und Reinigungsarbeiten übernehmen Arbeitsablaufpläne erstellen, betriebswirtschaftliche Aspekte, ernährungswissenschaftliche Erkenntnisse und gesetzliche Vorschriften beachten im Veranstaltungsservice Kundenwünsche ermitteln, Speisen zubereiten und an den Veranstaltungsort liefern"@de ;
@@ -3045,7 +3045,7 @@
 	skos:inScheme <> .
 
 <2938> a skos:Concept ;
-	skos:prefLabel "Köche/Köchinnen (s.s.T.)"@de ;
+	skos:prefLabel "Köche/Köchinnen"@de ;
 	skos:altLabel "Köche/Köchinnen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Speisenzubereitung, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „293 Speisenzubereitung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe bereiten z. B. diätetische Mahlzeiten, warme Beilagen oder Fonds, Pizzas, Soßen und Buttermischungen zu."@de ;
 	skos:note "je nach Speisekarte bzw. -plan Menge und Art der benötigten Lebensmittel ermitteln, Waren einkaufen und einlagern für bestimmte Anlässe Speisenvorschläge erarbeiten, spezielle Gerichte kreieren, z. B. Themenschwerpunkte zu Festen, Spezialisierung auf länderspezifische, biologische oder regionale Kost Rezepturen nach Maßgabe der für die jeweilige Diät gültigen Vorschriften bzw. Richtlinien erstellen diätetische Mahlzeiten zubereiten Soßen vor- und zubereiten Pizzas, warme Beilagen, wie z. B. Reis, Kartoffeln, Teigwaren und Gemüse, servierfertig zubereiten Arbeitsabläufe in der Küche organisieren, die rechtzeitige Fertigstellung der Speisen in der richtigen Reihenfolge sicherstellen"@de ;
@@ -3061,7 +3061,7 @@
 	skos:inScheme <> .
 
 <3110> a skos:Concept ;
-	skos:prefLabel "Berufe Bauplanung u. -überwachung (o.S.)"@de ;
+	skos:prefLabel "Berufe Bauplanung u. -überwachung"@de ;
 	skos:altLabel "Berufe in der Bauplanung und -überwachung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe wirken bei der Planung, Vorbereitung, Durchführung und Abnahme von Bauleistungen mit oder organisieren und überwachen Bauvorhaben und kontrollieren deren Ausführung."@de ;
 	skos:note "Bauvorhaben und Baukonstruktionen entwerfen, planen und berechnen, Unterlagen für die Ausschreibung von Bauvorhaben erarbeiten, Detailpläne und Baumodelle anfertigen Kontakt halten mit externen Unternehmen und deren Arbeit koordinieren und kontrollieren Auftraggeber in allen mit der Bauplanung und Bauausführung in Zusammenhang stehenden Aspekten beraten, betreuen und vertreten die Einhaltung von behördlichen Vorschriften im Rahmen von Bauprojekten überwachen die Bauausführung überwachen und dabei auf die qualitäts- und zeitgerechte Ausführung achten"@de ;
@@ -3144,7 +3144,7 @@
 	skos:inScheme <> .
 
 <3210> a skos:Concept ;
-	skos:prefLabel "Berufe im Hochbau (o.S.)"@de ;
+	skos:prefLabel "Berufe im Hochbau"@de ;
 	skos:altLabel "Berufe im Hochbau (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe übernehmen Aufgaben in der Ausführung, Planung und Qualitätskontrolle von Bauarbeiten im Bereich des Hochbaus. Darüber hinaus führen sie z. B. bauphysikalische Berechnungen durch und erstellen Angebote."@de ;
 	skos:note "Baustellen einrichten, Baumaschinen, Baugeräte und Werkzeuge führen bzw. bedienen und reinigen Bauarbeiten ausführen, z. B. Untergrund für die Errichtung von Gebäuden vorbereiten und nivellieren, Wände errichten und verputzen, bauliche Strukturen erhalten und reparieren Ausführungsarbeiten von Bauwerken bzw. Bauwerksteilen im Hochbau und Industriebau planen und berechnen Detail- und Ausführungspläne per Hand oder mithilfe von CAD-Anwendungen zeichnen, ggf. Modelle anfertigen technische Konstruktionen im Hochbau in Abhängigkeit von Bauwerksabmessungen und Belastung auswählen, bauphysikalische Nachweise aufstellen Baustellen und Bauabläufe kontrollieren und steuern, z. B. beteiligte Firmen koordinieren, Baumaterial und Baugeräte verwalten Bauausführung auf Fristen, Kosten und Qualität kontrollieren Abnahmen der Baumaßnahmen veranlassen, behördliche Bauüberwachung, Baustellenkontrollen und Bauabnahmen durchführen in Wissenschaft und Forschung z. B. neue Baumethoden entwickeln"@de ;
@@ -3209,7 +3209,7 @@
 	skos:inScheme <> .
 
 <3220> a skos:Concept ;
-	skos:prefLabel "Berufe im Tiefbau (o.S.)"@de ;
+	skos:prefLabel "Berufe im Tiefbau"@de ;
 	skos:altLabel "Berufe im Tiefbau (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe planen und errichten Tiefbauanlagen. Sie übernehmen dabei auch überwachende und organisatorische Aufgaben. Sie sind sowohl bei Bauunternehmen und Ingenieurbüros als auch im öffentlichen Bereich tätig."@de ;
 	skos:note "Tiefbauanlagen entwerfen, Pläne per Hand oder mithilfe von CAD-Anwendungen anfertigen Ausschreibungen und Leistungsbeschreibungen bearbeiten und durchführen sowie Kosten kalkulieren und die Einhaltung der Kosten kontrollieren Erdaushub- und Schachtarbeiten durchführen, Wasserhaltungsmaßnahmen durchführen, z. B. Sickerwasser mittels Pumpen aus Baugruben entfernen Gründungselemente für Fundamente einbringen, Verankerungssysteme einbauen, Bauteile wie Stahlträger durch Ramm-, Rüttel- und Vibrationsarbeiten einbringen Unterfangungen an bestehenden Gebäuden für Gebäudeabstützungen errichten Geräte, Anlagen und Maschinen führen, bedienen und instand halten Proben von verwendeten Materialien und dem Boden nehmen und analysieren Material und Baugeräte disponieren, z. B. die Bereitstellung an den Baustellen sicherstellen Qualität der ausgeführten Arbeiten prüfen, sicherstellen und dokumentieren"@de ;
@@ -3268,7 +3268,7 @@
 	skos:inScheme <> .
 
 <3310> a skos:Concept ;
-	skos:prefLabel "Berufe in der Bodenverlegung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Bodenverlegung"@de ;
 	skos:altLabel "Berufe in der Bodenverlegung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe verlegen textile und elastische Bodenbeläge, Fertigparkett sowie Schichtwerkstoffe. Sie bereiten den Untergrund für die Verlegung vor, verlegen die Beläge und setzen ggf. ältere Bodenbeläge instand."@de ;
 	skos:note "Kunden und Kundinnen bei der Auswahl und Gestaltung von Bodenbelägen beraten vorbereitende Arbeiten durchführen, z. B. Räume ausmessen, Materialbedarf ausrechnen Verlegemuster planen und skizzieren, Verlegepläne erstellen Unterbodenkonstruktionen herstellen, dabei z. B. Lagerhölzer oder Holzspanplatten verlegen, Schall- und Wärmedämmstoffe sowie Feuchtigkeitssperren einbauen Untergründe für die Verlegung vorbereiten, u.a. Estriche glätten und ausgleichen, Untergründe reinigen Bodenbeläge verlegen und ggf. mit Klebstoffen befestigen, Oberflächen mithilfe von Wachsen, Kunstharzen oder Kunststoffen versiegeln Böden nach der Verlegung reinigen Schäden an bestehenden Böden ermitteln, Instandsetzungsarbeiten ausführen, Bodenplatten auswechseln und ergänzen, Oberflächen behandeln Arbeiten abrechnen und Rechnungen erstellen"@de ;
@@ -3343,7 +3343,7 @@
 	skos:inScheme <> .
 
 <3330> a skos:Concept ;
-	skos:prefLabel "Berufe im Aus- und Trockenbau (o.S.)"@de ;
+	skos:prefLabel "Berufe im Aus- und Trockenbau"@de ;
 	skos:altLabel "Berufe im Aus- und Trockenbau (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind vor allem im Aus- und Trockenbau von Gebäuden tätig. Sie bauen unter anderem Dämmstoffe und Isolierungen ein, montieren Trockenbauelemente oder führen Holzarbeiten durch."@de ;
 	skos:note "Aufrisse, Verlegepläne, Detail- und Ausführungspläne per Hand oder mit CAD-Anwendungen anfertigen Material bereitstellen, Arbeits- und Maschineneinsatz berechnen, Wartung und Reparatur, z. B. von Baumaschinen und -geräten, veranlassen und überwachen Untergründe vorbereiten und Unterkonstruktionen herstellen, um Aus- und Trockenbauarbeiten durchzuführen Leichtbauwände, Brandwände, Unterdecken oder Bekleidungen von Decken, Wänden und Fassaden unter Verwendung von Trockenbaumaterialien herstellen Maßnahmen treffen, um Bauwerke und Bauwerksteile gegen Feuchtigkeit zu schützen, z. B. Teeranstriche auftragen oder Blechummantelungen herstellen Brandschutzmaßnahmen treffen, z. B. nicht brennbare Dämmstoffe einbauen oder Brandschotte anlegen Dämmungen für den Wärme-, Kälte- und Schallschutz einbauen bestehende Ausbauten reparieren und sanieren Baugenehmigungen einholen, Kosten kalkulieren, Arbeiten auf der Baustelle steuern und kontrollieren"@de ;
@@ -3394,7 +3394,7 @@
 	skos:inScheme <> .
 
 <3410> a skos:Concept ;
-	skos:prefLabel "Berufe in der Gebäudetechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Gebäudetechnik"@de ;
 	skos:altLabel "Berufe in der Gebäudetechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe konzipieren, planen, installieren und betreuen technische Anlagen in Gebäuden und sind zudem für die Pflege und Instandsetzung der Gebäude selbst sowie der dazugehörigen Außenanlagen verantwortlich."@de ;
 	skos:note "technische Gebäudeinstallationen im privaten und gewerblichen Bereich, z. B. Heizungs-, Lüftungs- und Überwachungsanlagen, projektieren, planen, kalkulieren und installieren Systemtests und Messungen durchführen, Steuereinheiten sowie Mess- und Regeleinrichtungen einstellen Räume, Gebäude, Außenanlagen und technische Einrichtungen überprüfen, regelmäßige Wartungsarbeiten durchführen, Störungen beseitigen bzw. deren Beseitigung veranlassen den wirtschaftlichen und ökologischen Betrieb von technischen Anlagen der Gebäude sicherstellen und gegebenenfalls optimieren Innenbereiche und Außenanlagen von Gebäuden pflegen und Instandsetzungsarbeiten durchführen für die sach- und umweltgerechte Entsorgung und Wiederverwertung von Abfällen und Wertstoffen sorgen"@de ;
@@ -3418,7 +3418,7 @@
 	skos:inScheme <> .
 
 <3420> a skos:Concept ;
-	skos:prefLabel "Berufe in der Klempnerei (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Klempnerei"@de ;
 	skos:altLabel "Berufe in der Klempnerei (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe erzeugen, installieren und reparieren Gegenstände und Elemente aus Feinbleichen, wie Walzbleche, Kupfer, Zinn, Messing oder Aluminium. Sie stellen z. B. Blechbauteile für die Fassadenbekleidung oder Gehäuse für Maschinen her und montieren und reparieren diese vor Ort."@de ;
 	skos:note "Blechbauteile, wie z. B. Bleche, Profile und Platten, abmessen und vorzeichnen, ggf. Schablonen herstellen Material und Maschinen bereitstellen, Baustellenfahrzeuge be- und entladen, Baustelle und Geräte reinigen und Restmaterial sachgerecht entsorgen Bauteile mit Maschinen, Geräten und Werkzeugen, wie z. B. Trennschleifgeräten, Scheren und Sägen, bearbeiten, Maschinen einstellen und bedienen Bauteile u.a. durch Biegen, Richten und Pressen in die gewünschte Form bringen, u.a. durch Schweißen, Löten, Falzen, Kleben oder Verschrauben verbinden Schweißnähte säubern, Korrosionsschutz und andere Oberflächenbehandlungsverfahren durchführen Endmontage der Bauteile vor Ort durchführen, z. B. Gehäuse, Mauerabdeckungen, Rohre oder Blechkanäle für lüftungs- und klimatechnische Anlagen montieren an Bauteilen Metalle als Dämm- und Schallschutzmaterialien anbringen Blechkonstruktionen instand setzen oder umbauen, z. B. beschädigte Teile von Blechfassaden neu anfertigen und austauschen"@de ;
@@ -3456,7 +3456,7 @@
 	skos:inScheme <> .
 
 <3430> a skos:Concept ;
-	skos:prefLabel "Berufe in der Ver- und Entsorgung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Ver- und Entsorgung"@de ;
 	skos:altLabel "Berufe in der Ver- und Entsorgung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe planen, fertigen und montieren Anlagenkomponenten und Anlagen der Ver- und Entsorgungstechnik, überwachen und betreiben die Anlagen. Darüber hinaus sind sie in der Straßenreinigung tätig."@de ;
 	skos:note "Abfälle sammeln und sortieren, Straßen mit Besen und Schaufel reinigen Berechnungen, z. B. zur Dimensionierung oder in Bezug auf Druck- und Strömungsverhältnisse, Pumpleistungen oder Rohrweiten, durchführen Pläne, z. B. Ausführungs- und Konstruktionszeichnungen, per Hand oder mithilfe von CAD-Anwendungen anfertigen bzw. damit arbeiten, Materiallisten erstellen Bauteile von Hand oder mithilfe von CNC-Maschinen fertigen und zu Baugruppen, Apparaten und Anlagen zusammenfügen bzw. Ausführung überwachen Anlagen und Anlagenkomponenten vor Ort montieren, erproben und in Betrieb nehmen, Anlagen abnehmen und an die Betreiber/innen übergeben, Bedienpersonal einweisen Teil- und Gesamtfunktionen prüfen, Prüfprotokolle erstellen, Prüfergebnisse bewerten, ggf. Qualitätsmängel beseitigen den Betrieb der Anlagen überwachen bzw. Anlagen betreiben, Messungen durchführen, Umweltdaten erfassen und auswerten, Wartungsarbeiten und Reparaturen durchführen bei der Entwicklung und Erprobung neuer Anlagen bzw. Anlagenkomponenten, z. B. im Bereich nachwachsender Rohstoffe, mitwirken"@de ;
@@ -3502,7 +3502,7 @@
 	skos:inScheme <> .
 
 <4110> a skos:Concept ;
-	skos:prefLabel "Berufe in der Mathematik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Mathematik"@de ;
 	skos:altLabel "Berufe in der Mathematik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe entwickeln mathematische Formeln, Theorien und Methoden für den Einsatz im wissenschaftlichen Bereich, in Industrie, Wirtschaft und Verwaltung. Sie erstellen mathematische Modelle, z. B. für komplexe technische, betriebswirtschaftliche oder medizinische Sachverhalte."@de ;
 	skos:note "mathematische Theorien und Techniken (weiter-)entwickeln komplexe Datenstrukturen und Systeme abbilden und analysieren mathematische Entscheidungsgrundlagen für Unternehmen entwickeln mathematische Modelle und Simulationen, z. B. zur technischen Zuverlässigkeit von Produkten, entwickeln Beratung über Anwendung von mathematischen Prinzipien, Modellen und Techniken auf eine breite Palette von Aufgaben in den Bereichen Ingenieurswissenschaften, Natur-, Sozial- oder Biowissenschaften Fachtexte zur Mathematik erstellen, Aufgaben in der Forschung übernehmen"@de ;
@@ -3517,7 +3517,7 @@
 	skos:inScheme <> .
 
 <4118> a skos:Concept ;
-	skos:prefLabel "Berufe in der Mathematik (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Mathematik"@de ;
 	skos:altLabel "Berufe in der Mathematik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Mathematik, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „411 Mathematik und Statistik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Computer-, Techno-, Wirtschafts- oder Biomathematik."@de ;
 	skos:note "technische und wirtschaftliche Problemstellungen in eine mathematische Sprache übersetzen mathematische Modelle, z. B. für biologische, astronomische, psychologische und ökologische Fragestellungen in Wissenschaft und Industrie, erstellen naturwissenschaftliche Experimente durch rechnerische Methoden ersetzen Auftrittswahrscheinlichkeit biomedizinischer Entwicklungen, z. B. der Ausbreitung von Epidemien, berechnen komplexe Zusammenhänge in Systemen, z. B. in Umwelt- oder Wirtschaftssystemen, untersuchen"@de ;
@@ -3533,7 +3533,7 @@
 	skos:inScheme <> .
 
 <4120> a skos:Concept ;
-	skos:prefLabel "Berufe in der Biologie (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Biologie"@de ;
 	skos:altLabel "Berufe in der Biologie (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe erforschen Strukturen, Entwicklung und Funktionen bei Menschen, Tieren, Pflanzen und Mikroorganismen sowie Wechselwirkungen innerhalb und zwischen biologischen Systemen und entwickeln technische Anwendungsmöglichkeiten."@de ;
 	skos:note "Struktur und Funktion von Lebewesen analysieren und klassifizieren Wechselwirkungen zwischen Lebewesen und ihrer natürlichen Umgebung beobachten, beschreiben und interpretieren biologische Experimente durchführen und deren Ergebnisse darstellen biologische Proben nehmen, untersuchen und interpretieren biowissenschaftliche Gutachten erstellen Unternehmen, Naturschutzverbände oder Behörden fachlich beraten biowissenschaftliche Fachtexte publizieren, Aufgaben in der Forschung übernehmen"@de ;
@@ -3591,7 +3591,7 @@
 	skos:inScheme <> .
 
 <4128> a skos:Concept ;
-	skos:prefLabel "Berufe in der Biologie (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Biologie"@de ;
 	skos:altLabel "Berufe in der Biologie (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Biologie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „412 Biologie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in der Biochemie, Molekularbiologie, Genetik oder Biomechanik tätig."@de ;
 	skos:note "Struktur und Funktion von Molekülen, Zellen, Geweben, Strukturen sowie Eigenschaften und Stoffwechselleistungen von Organismen erforschen molekularbiologische und biochemische Experimente planen, durchführen, auswerten und interpretieren den Aufbau und die Funktion von Genen erforschen, die Weitergabe von Erbinformationen von Generation zu Generation erforschen genetisch bedingte Erkrankungen des Menschen untersuchen und diagnostizieren die Wirkung, Aufnahme, Verteilung und Umsetzung körperfremder Stoffe im Stoffwechsel von Menschen, Tieren, Pflanzen und Ökosystemen untersuchen menschliche Bewegungsabläufe analysieren und diese in Computermodelle und -simulationen umsetzen, um therapeutische Maßnahmen und medizintechnische Produkte weiterzuentwickeln Fachtexte erstellen und publizieren"@de ;
@@ -3607,7 +3607,7 @@
 	skos:inScheme <> .
 
 <4130> a skos:Concept ;
-	skos:prefLabel "Berufe in der Chemie (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Chemie"@de ;
 	skos:altLabel "Berufe in der Chemie (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe wirken bei der Herstellung chemischer Erzeugnisse mit, bedienen Maschinen und Anlagen, verpacken die Produkte, nehmen und untersuchen Proben oder führen Forschungsprojekte durch und wirken bei der Umsetzung der Ergebnisse in die Produktion mit."@de ;
 	skos:note "aus organischen und anorganischen Rohstoffen chemische Erzeugnisse, wie z. B. Farben, Pflanzenschutzmittel, Waschmittel, Baustoffe oder Wirkstoffe für Arzneimittel, herstellen chemische Laborversuche durchführen bzw. bei der Vorbereitung mitwirken, z. B. die benötigten Materialien und Geräte zusammenstellen und warten Qualität der chemischen Erzeugnisse kontrollieren, z. B. Messungen vornehmen, Proben ziehen und untersuchen Stoffe und Synthesewege, z. B. für Farben, Pflanzenschutzmittel, Waschmittel, Baustoffe oder Wirkstoffe für Arzneimittel, entwickeln Forschungsergebnisse aus chemischen Laborversuchen auf den Betriebsmaßstab übertragen an Forschungsprojekten mitwirken, die Einsatzmöglichkeiten neuer Verfahren wie der Nanotechnologie in der Chemie erforschen"@de ;
@@ -3647,7 +3647,7 @@
 	skos:inScheme <> .
 
 <4138> a skos:Concept ;
-	skos:prefLabel "Berufe in der Chemie (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Chemie"@de ;
 	skos:altLabel "Berufe in der Chemie (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Chemie, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „413 Chemie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Fragestellungen in der Arzneimittel-, Lebensmittel-, Polymer- oder Wirtschaftschemie."@de ;
 	skos:note "Stoffinhalte und -eigenschaften durch chemische Analysemethoden nachweisen, z. B. die Gewässergüte überprüfen oder Nährstoff- und Schadstoffanalysen durchführen Konzepte zur vorklinischen und klinischen Erprobung von Medikamenten entwickeln die Eigenschaften komplexer chemischer, biochemischer und mikrobiologischer Systeme, z. B. in Kunststoffen, Autoreifen, Hightech-Materialien oder Beschichtungen, untersuchen Polymere und Synthesewege, z. B. für Kunststoffe, Lacke, Farben, Hightech-Materialien, Chemiefasern, Textilhilfsstoffe, Arzneimittel, Kosmetika oder Waschmittel, entwickeln im Labor entwickelte Produktions- und Aufarbeitungsverfahren auf den großtechnischen Maßstab übertragen und anpassen vorhandene Produkte verbessern und neue entwickeln, bei der Qualitätskontrolle mitwirken und nach neuen Anwendungen für Produkte suchen toxikologische Risiken von Arzneimitteln im Rahmen des vorgeschriebenen Zulassungsverfahrens bewerten"@de ;
@@ -3663,7 +3663,7 @@
 	skos:inScheme <> .
 
 <4140> a skos:Concept ;
-	skos:prefLabel "Berufe in der Physik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Physik"@de ;
 	skos:altLabel "Berufe in der Physik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe erforschen Vorgänge, Erscheinungen, Zustände und Zusammenhänge der unbelebten Natur experimentell, formulieren in der theoretischen Physik Gesetzmäßigkeiten in mathematischen Formeln und Modellen und wenden ihr Wissen in der angewandten Physik an, um technische Aufgabenstellungen in Entwicklung, Produktion oder Materialprüfung zu lösen."@de ;
 	skos:note "Gesetzmäßigkeiten der unbelebten Natur erkennen und diese in mathematische Formeln und Modelle fassen Experimente und Simulationen durchführen und diese mit mathematischen Methoden auswerten physikalische Größen (z. B. Temperatur, Dichte, Druck) messen und berechnen Mess- oder Fertigungsverfahren entwickeln, z. B. in der Lasertechnik, Mikrosystem- und Nanotechnik oder Elektronik innovative Technologien, z. B. im Bereich der Nanostrukturtechnik, in anwendbare Verfahren umsetzen und so Produkte optimieren oder weiterentwickeln organisatorische Aufgaben in Forschungs- und Produktionsbetrieben wahrnehmen, Forschungsprojekte planen und konzipieren, Forschungsaufträge akquirieren Gutachter- und Sachverständigenaufgaben für physikalische Fragestellungen übernehmen beim Einreichen von Patenten mitarbeiten, eingereichte Patentanträge im Rahmen von Patentverfahren prüfen"@de ;
@@ -3693,7 +3693,7 @@
 	skos:inScheme <> .
 
 <4148> a skos:Concept ;
-	skos:prefLabel "Berufe in der Physik (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Physik"@de ;
 	skos:altLabel "Berufe in der Physik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Physik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „414 Physik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe setzen physikalische Erkenntnisse vor allem in Spezialgebieten der Forschung und Produktion ein, z. B. in der technischen Akustik oder Astronomie."@de ;
 	skos:note "feinmechanische Geräte bzw. Messgeräte regelmäßig prüfen und warten, Abweichungen und Messungenauigkeiten feststellen Messgeräte einstellen und bedienen, z. B. Messen von Drehmomenten, von Emissionen, Belastungen oder Produktionsparametern, Daten aufbereiten und auswerten optimale Raumakustik, z. B. durch bauliche Veränderungen (Absorber, Diffusoren), und neue Methoden des Lärmschutzes, z. B. Schallschutzschirme für Orchestermusiker, entwickeln Auswirkung von akustischen Signalen und Frequenzen auf Mensch und Tier vorwiegend experimentell untersuchen Richtung, Quantität und Qualität von auf die Erde einfallender Infrarot-, Ultraviolett-, Röntgen- und Teilchenstrahlung messen Modelle zur Entstehung und Entwicklung von Galaxien und des Kosmos als Ganzem entwickeln lebenden Systemen zugrunde liegende physikalische Gesetzmäßigkeiten beschreiben, z. B. mittels der Thermodynamik und der Elektrodynamik Forschungsarbeiten auf dem Gebiet der Kernphysik, der Elementarteilchen- und Hochenergiephysik sowie der Kerntechnik organisieren und durchführen"@de ;
@@ -3737,7 +3737,7 @@
 	skos:inScheme <> .
 
 <4220> a skos:Concept ;
-	skos:prefLabel "Berufe in der Umweltschutztechnik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Umweltschutztechnik"@de ;
 	skos:altLabel "Berufe in der Umweltschutztechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind vorwiegend im analytischen und überwachenden Umweltschutz tätig. Sie untersuchen die Umweltauswirkungen u.a. von Chemikalien und entwickeln und erproben leistungsfähige Verfahren, Technologien, Geräte und Anlagen für einen wirksamen Umweltschutz."@de ;
 	skos:note "Proben nehmen und mithilfe unterschiedlicher Analyse- und Messverfahren untersuchen, Ergebnisse protokollieren und auswerten Maßnahmen zur Reinhaltung der Luft, wie z. B. Luftgütemessungen, planen und durchführen, in der Planung, Konstruktion und Fertigung von Filteranlangen mitarbeiten bei Umweltschutzmaßnahmen im Bereich Abfallentsorgung mitwirken, z. B. Abfallproben aus Mülldeponien entnehmen, Deponieverhalten beurteilen, in der Abfallwirtschaft beraten umwelttechnische Expertisen und Gutachten für Geräte, Anlagen und Verfahren unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes erstellen umwelttechnische Anlagen projektieren, z. B. Deponien, Verbrennungsanlagen oder Anlagen zur Energiegewinnung aus erneuerbaren Rohstoffen, wie Biogasanlagen Unternehmen und Regierungsbehörden zur Bereinigung von Altlasten zum Schutz von Mensch und Umwelt beraten"@de ;
@@ -3752,7 +3752,7 @@
 	skos:inScheme <> .
 
 <4228> a skos:Concept ;
-	skos:prefLabel "Berufe i.d. Umweltschutztechnik (s.s.T.)"@de ;
+	skos:prefLabel "Berufe i.d. Umweltschutztechnik"@de ;
 	skos:altLabel "Berufe in der Umweltschutztechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Umweltschutztechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „422 Umweltschutztechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erfassen z. B. Umweltbelastungen in Landschaft und Gewässern und planen Gegenmaßnahmen."@de ;
 	skos:note "Ausrüstung und technische Geräte, z. B. im Bereich Abwassertechnik, kontrollieren und ggf. modifizieren, um Gewässerverschmutzungen zu verhindern oder zu beheben bei der Identifikation potenzieller Gefahren, z. B. im Bereich Wasser- oder Bodenverschmutzung, unterstützen bei der Entwicklung von Vorrichtungen zur Behebung von Wasser- und Bodenverschmutzungen mithelfen bei der Erstellung umwelttechnischer Expertisen und Gutachten für Geräte, Anlagen und Verfahren unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes mitwirken"@de ;
@@ -3799,7 +3799,7 @@
 	skos:inScheme <> .
 
 <4310> a skos:Concept ;
-	skos:prefLabel "Berufe in der Informatik (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Informatik"@de ;
 	skos:altLabel "Berufe in der Informatik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe konzipieren, installieren und betreuen Hard- und Softwarelösungen, richten Betriebs- und Informationssysteme ein und entwickeln oder modifizieren Softwareanwendungen. Sie nehmen Aufgaben in der Anwenderbetreuung, Datenverwaltung oder der Systemadministration wahr und forschen auf dem Gebiet der Informatik."@de ;
 	skos:note "Betriebs- und Informationssysteme installieren und konfigurieren Software entwickeln und programmtechnisch realisieren, marktgängige Standardsoftware an Bedürfnisse einzelner Benutzer/innen und Organisationen anpassen und abändern Problemanalyse in der Informations- sowie Datenverarbeitung, der Kommunikation und Organisation durchführen sowie Algorithmen, Datenstrukturen, Formen und Modelle auffinden Anwender-Support durchführen theoretische und angewandte Forschung zu Fragen der Informatik und ihren Anwendungen betreiben"@de ;
@@ -3922,7 +3922,7 @@
 	skos:inScheme <> .
 
 <4338> a skos:Concept ;
-	skos:prefLabel "IT-Netzwerkt.,-Koord.,-Admin.,-Org.(ssT)"@de ;
+	skos:prefLabel "IT-Netzwerkt.,-Koord.,-Admin.,-Org."@de ;
 	skos:altLabel "Berufe in der IT-Netzwerktechnik, IT-Koordination, IT-Administration und IT-Organisation (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der IT, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „433 IT-Netzwerktechnik, IT-Koordination, IT-Administration und IT-Organisation“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erarbeiten unter anderem Sicherheitskonzepte und spüren unberechtigten Zugriffen auf Sprach- und Datennetze nach."@de ;
 	skos:note "bei der Konkretisierung von Sicherheitszielen und dem Entwurf von Sicherheitsleitlinien beraten, bei der Vertragsgestaltung im IT-Umfeld mitwirken Ist-Analysen durchführen (räumliche, technische und organisatorische Bestandsaufnahme), Schwachstellen bzw. Sicherheitslücken im IT-Betrieb, z. B. mithilfe von Penetrationstests, sowie Schutzbedarf ermitteln Kosten und Aufwand schätzen, ggf. am Markt angebotene Sicherheitsprodukte analysieren, bewerten und auswählen Richtlinien und Vorschriften zur Informationssicherheit erarbeiten, Grundschutzmodell als Prüf- oder Entwicklungsplan aufstellen Maßnahmenpläne erstellen und sie hinsichtlich Notwendigkeit, Anpassungsbedarf und Durchsetzungsmöglichkeiten überprüfen Sicherheitskonzepte zusammen mit den Auftraggebern unter Berücksichtigung der vorangegangenen Analysen erarbeiten, Vorgaben durch Gesetzgeber, Verbände und Versicherer beachten das Sicherheitssystem in die IT-Infrastruktur und das IT-Systemmanagement sowie in bestehende Sicherheitssysteme integrieren, Maßnahmen für die Sicherstellung eines störungsfreien IT-Betriebs entwickeln Pilotbetrieb durchführen, die mit dem Betrieb und der Instandhaltung beauftragten Personen einweisen und schulen Gesamttests durchführen, Systeme sowie vollständige Dokumentation an die Kunden übergeben Betrugs- und Täuschungsdelikte in Sprach- und Datennetzen aufspüren und Gegenstrategien entwickeln, Betrugsprävention betreiben"@de ;
@@ -3983,7 +3983,7 @@
 	skos:inScheme <> .
 
 <5118> a skos:Concept ;
-	skos:prefLabel "TechBetriebEisenb.Luft,Schiffsverk.(ssT)"@de ;
+	skos:prefLabel "TechBetriebEisenb.Luft,Schiffsverk."@de ;
 	skos:altLabel "Berufe im technischen Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im technischen Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „511 Technischer Betrieb des Eisenbahn-, Luft- und Schiffsverkehrs“ nicht anderweitig erfasst sind."@de ;
 	skos:note "die Verkehrsabwicklung, z. B. in Häfen, per Funk steuern Not-, Dringlichkeits- oder Sicherheitsmeldungen entgegennehmen und weiterleiten den Seefunkverkehr an Land und zu anderen Schiffen übernehmen, Schiffsführung mit Informationen zur Führung des Schiffs und seiner Sicherheit versorgen alle Kommunikationssysteme an Bord koordinieren, verwalten, warten und den Betrieb gewährleisten Koordination von Funkstellen übernehmen, den Einsatz der Mitarbeiter/innen planen"@de ;
@@ -4065,7 +4065,7 @@
 	skos:inScheme <> .
 
 <5140> a skos:Concept ;
-	skos:prefLabel "Servicekräfte Personenverkehr (o.S.)"@de ;
+	skos:prefLabel "Servicekräfte Personenverkehr"@de ;
 	skos:altLabel "Servicekräfte im Personenverkehr (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe beraten und betreuen Gäste im Personenverkehr. Sie erteilen Auskünfte, arbeiten im Service, sorgen für die Sicherheit und den Komfort der Passagiere auf der Straße, der Schiene, in der Luft sowie auf dem Wasser."@de ;
 	skos:note "Passagiere beraten, z. B. Auskünfte erteilen und über den Ablauf sowie die Ausstattung informieren Fahrscheine ausstellen und kontrollieren beim Einsteigen, Einnehmen der Sitzplätze und Verstauung des Gepäcks helfen Speisen, Getränke und ggf. zollfreie Ware verkaufen und Mahlzeiten servieren die Einhaltung von Sicherheitsvorschriften gewährleisten Hygienevorschriften einhalten und ggf. einfache Reinigungsmaßnahmen ausführen"@de ;
@@ -4103,7 +4103,7 @@
 	skos:inScheme <> .
 
 <5150> a skos:Concept ;
-	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb (oS)"@de ;
+	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb"@de ;
 	skos:altLabel "Berufe in der Überwachung und Steuerung des Verkehrsbetriebs (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe entwerfen, planen, bemessen und überwachen Verkehrsanlagen und -systeme, um eine bestmögliche Gestaltung der Verkehrsprozesse zu erreichen."@de ;
 	skos:note "bei der Planung und Entwicklung von Verkehrssystemen mitwirken Daten über wirtschaftliche, rechtliche, politische, kulturelle, demografische, soziologische, physische und umweltbezogene Faktoren, die Einfluss auf Verkehrsflüsse haben, sammeln und analysieren verkehrstechnische Anlagen, Anlagen des fließenden und ruhenden Verkehrs sowie das Verkehrsaufkommen überwachen, auswerten, bemessen, planen und gestalten technische Unterstützung leisten bei der Identifikation potenzieller Gefahren, die von Verkehrssystemen ausgehen, und Verfahren zur Behebung erarbeiten die Leitung und Steuerung von Straßenverkehr und öffentlichen Transportsystemen in Hinblick auf Effizienz und Sicherheit planen und diesbezügliche Beratungen durchführen"@de ;
@@ -4143,7 +4143,7 @@
 	skos:inScheme <> .
 
 <5158> a skos:Concept ;
-	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb (ssT)"@de ;
+	skos:prefLabel "Berufe Überwachung Verkehrsbetrieb"@de ;
 	skos:altLabel "Berufe in der Überwachung und Steuerung des Verkehrsbetriebs (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Überwachung und Steuerung des Verkehrsbetriebs, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „515 Berufe in der Überwachung und Steuerung des Verkehrsbetriebs“ anderweitig nicht erfasst sind. Angehörige dieser Berufe stellen z. B. die Einhaltung der gesetzlichen Bestimmungen beim Transport gefährlicher Güter sicher."@de ;
 	skos:note "die Einhaltung aller einschlägigen Gefahrgutvorschriften bei Güterumschlag, -transport und -lagerung sicherstellen die geeigneten Transportmittel für den jeweiligen Transportauftrag auswählen, z. B. Tankfahrzeuge oder spezielle Fahrzeuge für Nukleartransporte die sicherste und schnellste Transportroute ermitteln dafür sorgen, dass die entsprechende Be-, Entlade- bzw. Umschlagtechnik zur Verfügung steht die Funktionsfähigkeit von Feuerlöschern sowie die persönliche Schutzausrüstung des Fahrzeugführers bzw. der Fahrzeugführerin kontrollieren behördliche Genehmigungen einholen, die für einen Gefahrguttransport notwendigen Begleitpapiere kontrollieren"@de ;
@@ -4234,7 +4234,7 @@
 	skos:inScheme <> .
 
 <5218> a skos:Concept ;
-	skos:prefLabel "Fahrzeugführer im Straßenverkehr(s.s.T.)"@de ;
+	skos:prefLabel "Fahrzeugführer im Straßenverkehr"@de ;
 	skos:altLabel "Fahrzeugführer/innen im Straßenverkehr (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Fahrzeugführer/innen im Straßenverkehr, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „521 Fahrzeugführung im Straßenverkehr“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen Personenkraftwagen, Kleinbusse, Kleintransporter, Kraft- oder Fahrräder, um angeforderte Waren oder hilfsbedürftige Personen zu transportieren."@de ;
 	skos:note "Touren und Routen zusammenstellen Waren entgegennehmen, Fahrzeuge beladen, dabei auf sachgemäße, zweckmäßige und vorschriftsmäßige Beladung achten Lieferscheine annehmen und die Menge sowie den einwandfreien Zustand der Waren überprüfen Lieferscheine quittieren lassen, Zahlungen entgegennehmen hilfsbedürftige und kranke Personen transportieren, ihnen beim Ein- und Aussteigen helfen, ggf. Anlagen, die das Ein- und Aussteigen von Passagieren mit körperlichen Behinderungen erleichtern, bedienen"@de ;
@@ -4242,7 +4242,7 @@
 	skos:inScheme <> .
 
 <5220> a skos:Concept ;
-	skos:prefLabel "Triebfahrzeugführer Eisenbahnverkehr(oS)"@de ;
+	skos:prefLabel "Triebfahrzeugführer Eisenbahnverkehr"@de ;
 	skos:altLabel "Triebfahrzeugführer/innen im Eisenbahnverkehr (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe führen Lokomotiven und Triebfahrzeuge im Nah- und Fernverkehr und transportieren Personen sowie Güter oder sie fahren als Begleiter/innen im Führerstand mit."@de ;
 	skos:note "Abfahrtsbereitschaft von Zügen herstellen und prüfen, Fehlerursachen, z. B. an Antrieb, Laufwerk, Bremsen oder Kommunikations- und Sicherheitseinrichtungen, auffinden Zugfahrten durchführen, dabei insbesondere die Anhängelasten berücksichtigen und die Sicherheitseinrichtungen bedienen besondere Regelungen beim Transport von Gefahrgut und anderen außergewöhnlichen Gütern anwenden bei Abweichungen vom Regelbetrieb bzw. bei Störungen die erforderlichen Maßnahmen ergreifen, z. B. Notrufe absetzen"@de ;
@@ -4258,7 +4258,7 @@
 	skos:inScheme <> .
 
 <5238> a skos:Concept ;
-	skos:prefLabel "Fahrzeugführer im Flugverkehr (s.s.T.)"@de ;
+	skos:prefLabel "Fahrzeugführer im Flugverkehr"@de ;
 	skos:altLabel "Fahrzeugführer/innen im Flugverkehr (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Fahrzeugführung im Flugverkehr, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „523 Fahrzeugführung im Flugverkehr“ nicht anderweitig erfasst sind. Angehörige dieser Berufe steuern Luftfahrzeuge, wie z. B. Hubschrauber oder Heißluftballons, oder bilden Piloten und Pilotinnen aus."@de ;
 	skos:note "alle notwendigen Flugunterlagen sichten, z. B. Wettermeldungen überprüfen und die Wetterlage beurteilen vorgeschriebene Checks durchführen, die Instrumente überprüfen, das Fluggerät auf Betriebssicherheit prüfen Flugrouten festlegen, Flugdaten mit Auftraggebern abstimmen, Passagierlisten weiterleiten Flüge steuern, dabei die Systeme ordnungsgemäß und sachgerecht bedienen und präzise navigieren die Flugsicherungsfreigaben befolgen Flugzeugführer/innen ausbilden und dabei die Einhaltung der fliegerischen Standards sicherstellen, die Ausbildung, auch im Simulator, durchführen neu aufgenommene Flugbesatzungsmitglieder über das jeweilige Flugzeugmuster unterrichten die Leistungen der angehenden Piloten und Pilotinnen kontrollieren und bewerten"@de ;
@@ -4358,7 +4358,7 @@
 	skos:inScheme <> .
 
 <5318> a skos:Concept ;
-	skos:prefLabel "Obj.Pers.Brandschutz,Arbeitssicherh(ssT)"@de ;
+	skos:prefLabel "Obj.Pers.Brandschutz,Arbeitssicherh"@de ;
 	skos:altLabel "Berufe in Objekt-, Personen-, Brandschutz, Arbeitssicherheit (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in den Bereichen Objekt-, Personen-, Brandschutz und Arbeitssicherheit, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „531 Objekt-, Personen-, Brandschutz, Arbeitssicherheit“ nicht anderweitig erfasst sind. Sie montieren z. B. Alarm- und Sicherheitsanlagen oder überwachen den Verkehr im Rahmen der kommunalen Verkehrsüberwachung."@de ;
 	skos:note "Hunde betreuen und anleiten, z. B. bei der Suche nach Rauschgift, Sprengstoff oder Verschütteten mechanische, elektrotechnische, elektronische oder elektromechanische Sicherungssysteme sowie elektrische Antriebs- und Steuerungssysteme auswählen und montieren das Bedienungspersonal bzw. die Kunden und Kundinnen in die Benutzung sicherheitstechnischer Anlagen einweisen im Auftrag der kommunalen Verkehrsüberwachung für Ordnung und Sicherheit im Verkehr sorgen Risiko- und Gefährdungsanalysen erstellen, Sicherheitskonzepte entwickeln"@de ;
@@ -4440,7 +4440,7 @@
 	skos:inScheme <> .
 
 <5410> a skos:Concept ;
-	skos:prefLabel "Berufe in der Reinigung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Reinigung"@de ;
 	skos:altLabel "Berufe in der Reinigung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe führen einfache Reinigungsarbeiten in den verschiedensten Bereichen durch und sind nicht auf ein Einsatzgebiet oder einen bestimmten Gegenstand spezialisiert."@de ;
 	skos:note "Fußböden sowohl manuell als auch maschinell säubern und pflegen, z. B. wischen und staubsaugen Fenster und Mobiliar, Heizkörper, Türen, Wand- und Deckenflächen reinigen sanitäre Anlagen, wie Bäder und Toiletten, reinigen Jacken und Mäntel entgegennehmen und aufhängen"@de ;
@@ -4485,7 +4485,7 @@
 	skos:inScheme <> .
 
 <5418> a skos:Concept ;
-	skos:prefLabel "Berufe in der Reinigung (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Reinigung"@de ;
 	skos:altLabel "Berufe in der Reinigung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Reinigung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „541 Reinigung“ nicht anderweitig erfasst sind."@de ;
 	skos:note "zu reinigendes Objekt, z. B. Leuchtstoffröhren, auf Verunreinigungen hin untersuchen spezielle Reinigungsmittel und -verfahren bestimmen Gegenstände im Innen- und Außenbereich reinigen Teppiche und Möbelstücke mit Bezügen mithilfe von Reinigungsmaschinen und deren Zubehör reinigen Reinigungswirkstoffe, um Flecken von Teppichen zu entfernen, auswählen und verwenden Teppiche mit schmutzabweisenden und geruchstilgenden Chemikalien sowie gegen Ungeziefer behandeln"@de ;
@@ -4554,7 +4554,7 @@
 	skos:inScheme <> .
 
 <6120> a skos:Concept ;
-	skos:prefLabel "Kaufleute im Handel (o.S.)"@de ;
+	skos:prefLabel "Kaufleute im Handel"@de ;
 	skos:altLabel "Kaufleute im Handel (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe kaufen Waren bei Herstellern oder Lieferanten und verkaufen sie an Einzelhandel, Handwerk und Industrie weiter. Zusätzlich planen, organisieren und überwachen sie die Geschäftsaktivitäten in Handelsunternehmen."@de ;
 	skos:note "Verkaufskonzepte für den Handel entwickeln und optimieren Marktanalysen durchführen, Marktforschungsergebnisse auswerten und dementsprechende Maßnahmen einleiten, z. B. Werbe- und Verkaufsförderungsaktionen durchführen Listen potenzieller Kundenunternehmen anhand von Verzeichnissen und anderen Quellen erstellen, regelmäßige Besuche bei diesen Unternehmen durchführen, um neue Absatzchancen zu schaffen Vertragsverhandlungen führen, Kaufverträge ausfertigen, Aufträge bearbeiten, Garantieleistungen abwickeln sowie Reklamationen analysieren und bearbeiten Liefer- und Zahlungsbedingungen festlegen, Lieferumfang und -termine überwachen, Warenannahme und -lagerung kontrollieren und ggf. reklamieren Berichte über die Vermarktbarkeit von Gütern und Dienstleistungen, sich ändernder Kundenbedürfnisse oder Konkurrenzaktivitäten anderer Unternehmen erstellen und der Verkaufsleitung vorlegen"@de ;
@@ -4569,7 +4569,7 @@
 	skos:inScheme <> .
 
 <6128> a skos:Concept ;
-	skos:prefLabel "Kaufleute im Handel (s.s.T.)"@de ;
+	skos:prefLabel "Kaufleute im Handel"@de ;
 	skos:altLabel "Kaufleute im Handel (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Handel, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „612 Handel“ nicht anderweitig erfasst sind. Angehörige dieser Berufe planen, organisieren und überwachen die Geschäfts- bzw. Handelsaktivitäten in Betrieben bestimmter Sparten des Groß- und Außenhandels."@de ;
 	skos:note "Marktsegmente bzw. mögliche Zielgruppen analysieren, Informationen über wichtige Marktfaktoren und die Entwicklung bei der Konkurrenz beschaffen und auswerten die Kundenakquise durchführen oder veranlassen, Kunden und Kundinnen beraten sowie individuelle Angebote und Lösungsvorschläge erarbeiten den Materialbedarf ermitteln und planen, bei der Sortimentsgestaltung mitwirken, Waren bestellen, Waren annehmen und kontrollieren, Warenmängel reklamieren, Waren einlagern und präsentieren Angebote einholen und vergleichen, Ver- bzw. Einkaufsverhandlungen führen, Bestellungen, Zahlungs- und Liefertermine bzw. den Lieferumfang prüfen kaufmännische Rahmenbedingungen für den Wareneinkauf nach den Vorgaben der Geschäftsleitung festlegen und Kosten-Nutzen-Analysen durchführen"@de ;
@@ -4632,7 +4632,7 @@
 	skos:inScheme <> .
 
 <6218> a skos:Concept ;
-	skos:prefLabel "Berufe im Verkauf (o. Produktspez.)(ssT)"@de ;
+	skos:prefLabel "Berufe im Verkauf (o. Produktspez.)"@de ;
 	skos:altLabel "Berufe im Verkauf (ohne Produktspezialisierung) (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Verkauf (ohne Produktspezialsierung), die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „621 Verkauf (ohne Produktspezialisierung)“ nicht anderweitig erfasst sind. Angehörige dieser Berufe präsentieren und verkaufen Waren und Dienstleistungen, gehen dabei ggf. von Tür zu Tür oder führen Waren in Handelseinrichtungen, Messen und privaten Haushalten vor."@de ;
 	skos:note "Produktdemonstrationen oder Warenpräsentationen durchführen, dabei ggf. von Tür zu Tür gehen die zum Verkauf stehenden Produkte entsprechend anordnen, um das Kaufinteresse potenzieller Kunden und Kundinnen zu wecken Kunden und Kundinnen beraten, Verkäufe und Verträge abschließen Warenmuster anbieten und Kataloge oder Werbematerial austeilen Bestellungen aufnehmen, Vereinbarungen für Zahlung, Auslieferung und Einholung der Waren treffen"@de ;
@@ -4704,7 +4704,7 @@
 	skos:inScheme <> .
 
 <6228> a skos:Concept ;
-	skos:prefLabel "Berufe im Verkauf (ssT)"@de ;
+	skos:prefLabel "Berufe im Verkauf"@de ;
 	skos:altLabel "Berufe im Verkauf (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Verkauf, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „622 Verkauf von Bekleidung, Schmuck, Bürobedarf, Elektrowaren, Möbeln, Garten- und Heimwerkerbedarf oder Kraftfahrzeugen“ nicht anderweitig erfasst sind."@de ;
 	skos:note "Kraftfahrzeuge mit Treib- und Schmierstoffen versorgen und betanken, den Ölstand kontrollieren, SB-Tankvorgänge überwachen Kunden und Kundinnen bei der Fahrzeugwartung beraten und diese durchführen, z. B. Zündkerzen und Batterien austauschen, Autowäsche veranlassen, Reifen wechseln Waren des täglichen und allgemeinen Bedarfs verkaufen, z. B. Getränke, Verpflegung und Illustrierte sowie weitere Dienstleistungen anbieten, z. B. Tanken Verkaufspreise, inklusive Skonti, Rabatte, berechnen, Rechnungen ausstellen, Bargeld oder Kreditkartenzahlung kassieren die zum Verkauf bestimmten Waren auf Märkten, bei Großhändlern und sonstigen Lieferanten einkaufen und bestellen bei der Sortimentsplanung mitwirken und z. B. Kundengruppen berücksichtigen, den Verkaufsraum gestalten"@de ;
@@ -4712,7 +4712,7 @@
 	skos:inScheme <> .
 
 <6230> a skos:Concept ;
-	skos:prefLabel "Berufe im Verkauf von Lebensmitteln (oS)"@de ;
+	skos:prefLabel "Berufe im Verkauf von Lebensmitteln"@de ;
 	skos:altLabel "Berufe im Verkauf von Lebensmitteln (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe verkaufen Lebensmittel, bereiten kleine Gerichte zu und beraten Kunden und Kundinnen über die zum Verkauf stehenden Lebensmittel."@de ;
 	skos:note "Waren für den Verkauf vorbereiten, portionieren, garnieren, dekorieren, appetitlich präsentieren Kunden und Kundinnen bedienen und beispielsweise über Inhaltsstoffe und Zubereitungsart der Lebensmittel informieren Waren abwiegen, zuschneiden, verpacken und verkaufen kleine Imbisse, wie belegte Brötchen oder Pizzastücke, zubereiten und servieren, Lebensmittel, z. B. für Geschenkkörbe oder kalte Buffets, vorbereiten und zusammenstellen Zahlungen für die gekauften Speisen und Lebensmittel entgegennehmen die Vorratshaltung überwachen und auf genügend frische Ware achten, den rechtzeitigen Warennachschub sicherstellen bei der Warenlieferung die Ware annehmen, kontrollieren und im Verkaufsraum platzieren oder in das Lager räumen Lebensmittel sachgerecht lagern, Qualität und Haltbarkeit überprüfen und Hygiene- und Sicherheitsvorschriften beachten Sauberkeit und Ordnung im Verkaufsraum gewährleisten"@de ;
@@ -4841,7 +4841,7 @@
 	skos:inScheme <> .
 
 <6330> a skos:Concept ;
-	skos:prefLabel "Berufe im Gastronomieservice (o.S.)"@de ;
+	skos:prefLabel "Berufe im Gastronomieservice"@de ;
 	skos:altLabel "Berufe im Gastronomieservice (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sind in der Gastronomie, d. h. im Restaurant- oder Etagenservice, tätig. Sie wirken bei Serviceabläufen mit, organisieren oder überwachen diese."@de ;
 	skos:note "Tische im Restaurant eindecken und dekorieren Speise-, Getränke- und Weinkarte zusammenstellen Gäste begrüßen und verabschieden, ggf. zum Tisch begleiten, nach Wünschen fragen, Beschwerden aufnehmen und für die Zufriedenheit der Gäste sorgen die Gäste über das Speisen- und Getränkeangebot beraten, Auskünfte geben, Speisen servieren, nicht mehr benötigte Geschirrteile abservieren, Rechnungen ausstellen und Zahlungen entgegennehmen für den reibungslosen Ablauf im Service sorgen, Material, wie Geschirr oder Tischwäsche, bestellen, prüfen und lagern in der Küche beim Vor- und Zubereiten einfacher Speisen helfen, Geschirr maschinell oder in Handarbeit spülen und trocknen Hygienevorschriften einhalten sowie die Einhaltung überwachen, Reinigungsarbeiten organisieren bzw. ausführen"@de ;
@@ -4863,7 +4863,7 @@
 	skos:inScheme <> .
 
 <6338> a skos:Concept ;
-	skos:prefLabel "Berufe in der Gastronomie (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Gastronomie"@de ;
 	skos:altLabel "Berufe in der Gastronomie (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Gastronomie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „633 Gastronomie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe arbeiten z. B. in Kantinen von großen Unternehmen, leiten den Frühstücksservice oder beraten über die passende Weinauswahl."@de ;
 	skos:note "Bestellungen entgegennehmen, Speisen und Getränke zusammenstellen oder zubereiten und servieren bei der Planung des Einkaufs des Speisen- und Getränkevorrats mitwirken, die korrekte Belieferung überprüfen und die Ware einräumen Weinangebot eines gastronomischen Betriebes auswählen, überwachen und optimieren über das aktuelle Weinangebot informieren und Restaurantgäste bei der Getränke- und insbesondere bei der Weinauswahl beraten Rechnungen vorlegen und kassieren"@de ;
@@ -4916,7 +4916,7 @@
 	skos:inScheme <> .
 
 <7130> a skos:Concept ;
-	skos:prefLabel "Berufe kaufm.,techn.Betriebswirtsch.(oS)"@de ;
+	skos:prefLabel "Berufe kaufm.,techn.Betriebswirtsch."@de ;
 	skos:altLabel "Berufe in der kaufmännischen und technischen Betriebswirtschaft (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe planen, organisieren und steuern Unternehmensprozesse. Sie entwickeln Konzepte für Optimierungsmaßnahmen und sind für deren Umsetzung zuständig."@de ;
 	skos:note "Aufträge planen, steuern, umsetzen, z. B. den Material- und Personalbedarf ermitteln, Terminpläne erstellen und den Produktionsablauf festlegen Arbeits- und Materialflüsse zwischen Abteilungen aufzeichnen und koordinieren bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen Planungsziele und Unternehmensprozesse analysieren und kontrollieren, Anpassungen vorschlagen oder veranlassen die Einhaltung von betriebswirtschaftlichen, kaufmännischen und rechtlichen Vorschriften überwachen"@de ;
@@ -4946,7 +4946,7 @@
 	skos:inScheme <> .
 
 <7138> a skos:Concept ;
-	skos:prefLabel "Berufe Unternehmensorga.,strategie (ssT)"@de ;
+	skos:prefLabel "Berufe Unternehmensorga.,strategie"@de ;
 	skos:altLabel "Berufe in der Unternehmensorganisation und -strategie (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Unternehmensorganisation und -strategie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „713 Unternehmensorganisation und -strategie“ nicht anderweitig erfasst sind."@de ;
 	skos:note "Mengen, Qualitäten und Arten von Material berechnen, das für das Produktionsprogramm benötigt wird Produktionsbedarfspläne erstellen und sicherstellen, dass das Material bei Bedarf verfügbar ist, entsprechende Aufzeichnungen dazu führen Arbeitsgänge festlegen, Arbeitspläne erstellen und die Produktion terminlich überwachen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen die Geschäftsleitung bei der Unternehmensführung unterstützen, z. B. in rechtlichen, betriebswirtschaftlichen und unternehmenskulturellen Fragen beraten die zukünftige Entwicklung des Betriebes mit planen, z. B. Strategien für die digitale Transformation entwickeln und deren Umsetzung begleiten, und geschäftspolitische Vorgaben umsetzen Unternehmensaktivitäten beschreiben, analysieren und bewerten, laufend überprüfen und an veränderte Gegebenheiten anpassen"@de ;
@@ -4962,7 +4962,7 @@
 	skos:inScheme <> .
 
 <7140> a skos:Concept ;
-	skos:prefLabel "Büro- und Sekretariatskräfte (o.S.)"@de ;
+	skos:prefLabel "Büro- und Sekretariatskräfte"@de ;
 	skos:altLabel "Büro- und Sekretariatskräfte (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe führen administrative und organisatorische Bürotätigkeiten aus. Sie fertigen Schriftsätze an, übernehmen den Telefondienst und bereiten Besprechungen und Sitzungen vor."@de ;
 	skos:note "organisatorische Aufgaben erledigen, z. B. Besprechungsräume vorbereiten und die notwendigen Unterlagen auslegen telefonische Anrufe bearbeiten und Nachrichten aufzeichnen Korrespondenz, Protokolle, Berichte vom Diktat, elektronische Dokumente oder schriftliche Entwürfe überprüfen und gemäß den geltenden Bürostandards formatieren und übertragen Rechnungen, Formulare, Aufzeichnungen und andere Dokumente zur Datenerfassung entgegennehmen und eintragen, erfasste Daten hinsichtlich Vollständigkeit und Richtigkeit überprüfen und bei Bedarf korrigieren"@de ;
@@ -5070,7 +5070,7 @@
 	skos:inScheme <> .
 
 <7218> a skos:Concept ;
-	skos:prefLabel "Berufe Versicherungs,Finanzdienstl.(ssT)"@de ;
+	skos:prefLabel "Berufe Versicherungs,Finanzdienstl."@de ;
 	skos:altLabel "Berufe in Versicherungs- und Finanzdienstleistungen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in Versicherungs- und Finanzdienstleistungen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „721 Versicherungs- und Finanzdienstleistungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe arbeiten z. B. im Leasinggeschäft oder im Bankdienst bei der Deutschen Bundesbank."@de ;
 	skos:note "Einzahlungen entgegennehmen, Geldscheine und Münzen mit Maschinen und Automaten sortieren, nicht umlauffähiges Geld oder Falschgeld aussortieren Risiken berechnen und die Bonität von Kunden und Kundinnen prüfen, um dadurch individuelle Leasing- und Finanzierungsmodelle zu entwickeln und anzubieten Leasingobjekte beschaffen, Leasingverträge verfassen, kalkulieren und abschließen Leasingvermögen bilanzieren, bewerten und Abschreibungen durchführen Kreditgeschäfte überwachen und abwickeln sowie zum jeweiligen Bereich gehörende Kreditinstitute, z. B. im Hinblick auf ihre Mindestreservehaltung, prüfen Wertpapiere an- und verkaufen sowie z. B. bei der Emission von Wertpapieren von Bund und Ländern mitwirken bei der Durchführung des gesetzlichen Auftrages der Deutschen Bundesbank mitarbeiten, z. B. bei der Gewährleistung der Preisstabilität im Euro-Raum mitwirken"@de ;
@@ -5129,7 +5129,7 @@
 	skos:inScheme <> .
 
 <7310> a skos:Concept ;
-	skos:prefLabel "Rechtsberatung, -sprechung,-ordnung(oS)"@de ;
+	skos:prefLabel "Rechtsberatung, -sprechung,-ordnung"@de ;
 	skos:altLabel "Berufe in Rechtsberatung, -sprechung und -ordnung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe befassen sich mit Rechtsnormen und Gesetzen, die der Steuerung und Kontrolle des Miteinanders in der Gesellschaft dienen. Sie sorgen durch die Anwendung von Rechtsvorschriften dafür, dass z. B. gegensätzliche Interessen zwischen zwei Konfliktparteien ausgeglichen werden."@de ;
 	skos:note "Konflikte, die zwischen zwei oder mehreren Parteien entstanden sind, durch Entscheidung oder Vermittlung zwischen den Parteien regeln für die Entscheidungsfindung juristische Arbeitsmittel, z. B. Gesetze, Kommentare oder höchstrichterliche Urteile, nutzen und dementsprechend aufbereiten Akten und Tatbestände studieren sowie Fakten analysieren und einschlägige Gesetze einbeziehen, um Entscheidungen zu treffen Mandanten/Mandantinnen bei Rechtsangelegenheiten beraten und betreuen sowie z. B. bei Verhandlungen mit Behörden oder Unternehmen begleiten oder vertreten Sachverhalte feststellen, ggf. durch Beweisaufnahme klären vorsorgende Rechtspflege durchführen, z. B. Immobilienkauf und -schenkungen oder Vorsorgevollmachten betreuen in Rechtsabteilungen von Unternehmen z. B. rechtliche Beziehungen absichern oder ökonomische Sachverhalte aus rechtlicher Sicht beurteilen"@de ;
@@ -5180,7 +5180,7 @@
 	skos:inScheme <> .
 
 <7318> a skos:Concept ;
-	skos:prefLabel "Rechtsberatung,-sprechung,-ordnung (ssT)"@de ;
+	skos:prefLabel "Rechtsberatung,-sprechung,-ordnung"@de ;
 	skos:altLabel "Berufe in Rechtsberatung, -sprechung und -ordnung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Rechtsberatung, -sprechung und -ordnung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „731 Rechtsberatung, -sprechung und -ordnung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beraten und informieren Mandanten/Mandantinnen z. B. zu sozial- und wirtschaftsrechtlichen Fragen oder stellen den Schutz personenbezogener Daten sicher."@de ;
 	skos:note "Beratungen in Rechtsfragen durchführen und rechtliche Sachverhalte verständlich erklären die Einhaltung von gesetzlichen Bestimmungen, z. B. bei Dienstverhältnissen, überwachen für die Erstellung von Gutachten und Entscheidungen juristische Arbeitsmittel, z. B. Gesetze oder juristische Datenbanken, nutzen und anwenden die Umsetzung von Datenschutzanforderungen bei der Speicherung, Übermittlung und Verarbeitung von personenbezogenen Daten überwachen Mandanten/Mandantinnen als Rechtsbeistand beraten und vertreten die Geschäftsführung bei Rechtsfragen beraten sowie Vorhaben auf ihre rechtliche Umsetzbarkeit hin prüfen und bei Problemen Lösungsvorschläge ausarbeiten Verträge und Angebote sowie Gesetzesvorlagen und Rechtsverordnungen entwerfen und inhaltlich prüfen Gutachten und konkrete Entscheidungsvorlagen für sozialrechtliche Fälle erstellen, z. B. bei Fragestellungen zum Leistungsrecht von Sozialleistungsträgern"@de ;
@@ -5196,7 +5196,7 @@
 	skos:inScheme <> .
 
 <7320> a skos:Concept ;
-	skos:prefLabel "Berufe i.d. öffentlichen Verwaltung (oS)"@de ;
+	skos:prefLabel "Berufe i.d. öffentlichen Verwaltung"@de ;
 	skos:altLabel "Berufe in der öffentlichen Verwaltung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe arbeiten bei Behörden der verschiedenen Institutionen und erledigen dort unter Beachtung von einschlägigen Gesetzen, Verordnungen und Verwaltungsvorschriften verschiedene Verwaltungstätigkeiten."@de ;
 	skos:note "Bürger/innen beraten, Anträge entgegennehmen, Auskünfte erteilen, Besucher/innen an der Pforte anmelden Verwaltungsabläufe organisieren und koordinieren, Aufgaben an Mitarbeiter/innen verteilen und die ordnungsgemäße Verrichtung der Aufgaben überwachen und sicherstellen Entscheidungen nach Gesetzeslage vorbereiten bzw. Entscheidungen treffen, getroffene Entscheidungen umsetzen Sitzungen, z. B. von Beschlussgremien, vorbereiten, bei zu fassenden Beschlüssen, z. B. Gesetzen und Verordnungen, sowie bei der Umsetzung mitwirken Nachweise für das bewegliche und unbewegliche Vermögen einer Behörde führen, Kosten und Leistungen erfassen und berechnen sowie Einnahmen und Ausgaben verbuchen für die Aufgabenerfüllung die einschlägigen Rechtsnormen interpretieren, anwenden und überwachen"@de ;
@@ -5241,7 +5241,7 @@
 	skos:inScheme <> .
 
 <7328> a skos:Concept ;
-	skos:prefLabel "Berufe öffentliche Verwaltung (s.s.T.)"@de ;
+	skos:prefLabel "Berufe öffentliche Verwaltung"@de ;
 	skos:altLabel "Berufe in der öffentlichen Verwaltung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der öffentlichen Verwaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben, und die in der übergeordneten Systematikposition „732 Berufe in der Verwaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen verwaltende und organisatorische Tätigkeiten aus, z. B. im Auswärtigen Dienst, in der Wehrverwaltung, bei Kammern und in Kirchenverwaltungen, oder befassen sich mit der Digitalisierung von Verwaltungsprozessen."@de ;
 	skos:note "rechtliche Aufgaben ausführen, z. B. fallbezogen Sachverhalte ermitteln, prüfen und auf dieser Grundlage Bescheide erstellen allgemeine Verwaltungs- und Organisationsaufgaben durchführen, z. B. Protokolle erstellen oder Besprechungen und Reisevorbereitungen planen und organisieren Aufgaben in den Bereichen Haushalts- und Finanzwesen sowie Controlling erledigen Mitarbeiter/innen anleiten und Arbeitsabläufe planen und steuern"@de ;
@@ -5295,7 +5295,7 @@
 	skos:inScheme <> .
 
 <8110> a skos:Concept ;
-	skos:prefLabel "Medizinische Fachangestellte (o.S.)"@de ;
+	skos:prefLabel "Medizinische Fachangestellte"@de ;
 	skos:altLabel "Medizinische Fachangestellte (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe assistieren Ärzten und Ärztinnen bei der Untersuchung, Behandlung, Betreuung und Beratung von Patienten und Patientinnen und führen organisatorische Tätigkeiten und Verwaltungsarbeiten durch."@de ;
 	skos:note "Termine vergeben und Patienten und Patientinnen empfangen den Praxisablauf organisieren, Verwaltungsarbeiten erledigen, für die Abrechnung der erbrachten Leistungen sorgen Urin-, Stuhl- und Blutproben für Laboruntersuchungen abnehmen medizinische Instrumente, Geräte und Apparate einsetzen, pflegen und warten bei Untersuchungen, Behandlungen und kleineren Eingriffen durch die Ärzte und Ärztinnen assistieren Patienten und Patientinnen über Möglichkeiten der Vor- und Nachsorge informieren Behandlungsabläufe dokumentieren"@de ;
@@ -5330,7 +5330,7 @@
 	skos:inScheme <> .
 
 <8118> a skos:Concept ;
-	skos:prefLabel "Medizinische Fachangestellte (s.s.T.)"@de ;
+	skos:prefLabel "Medizinische Fachangestellte"@de ;
 	skos:altLabel "Medizinische Fachangestellte (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle medizinischen Fachangestellten, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „811 Berufe in der Arzt- und Praxishilfe“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterstützen Ärzte und Ärztinnen bei verschiedenen medizinischen Maßnahmen."@de ;
 	skos:note "leichte Verletzungen oder Erkrankungen, wie z. B. Schnittverletzungen, Erkältungen oder Hautprobleme, versorgen betriebsärztliche Sprechstunden und Untersuchungen vorbereiten und dabei assistieren bei Untersuchungen und Maßnahmen zur Förderung der Gesundheit assistieren bei Organisation und Verwaltung eines arbeitsmedizinischen Zentrums mitwirken, z. B. in der Gesundheitsberatung und der Prävention"@de ;
@@ -5423,7 +5423,7 @@
 	skos:inScheme <> .
 
 <8138> a skos:Concept ;
-	skos:prefLabel "Berufe Gesundheits-, Krankenpflege (ssT)"@de ;
+	skos:prefLabel "Berufe Gesundheits-, Krankenpflege"@de ;
 	skos:altLabel "Berufe in der Gesundheits- und Krankenpflege (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Gesundheits- und Krankenpflege, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „813 Gesundheits- und Krankenpflege, Rettungsdienst und Geburtshilfe“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen spezielle Maßnahmen der Behandlungspflege durch."@de ;
 	skos:note "kranke und pflegebedürftige Menschen, z. B. in Gemeindehäusern oder in ihrer häuslichen Umgebung, betreuen und versorgen Stomapatienten und -patientinnen vor und nach einer Operation betreuen und versorgen arbeits- und notfallmedizinische Erstversorgung, z. B. von Arbeitsunfällen in Betrieben, übernehmen Patienten und Patientinnen und ihre Angehörigen über den Umgang mit und die Pflege von Stomata, insbesondere eines künstlichen Blasen- oder Darmausgangs beraten akute oder chronische Wunden versorgen, Patienten und Patientinnen hinsichtlich der Wundversorgung in allen Phasen der Wundheilung betreuen, Hautempfindlichkeitstests durchführen den Patienten und Patientinnen Ratschläge zu Hautpflege und Diät geben den Fortgang der Therapie in Verlaufsberichten dokumentieren arbeitsmedizinische Voruntersuchungen, wie z. B. Seh-, Hörtests und Blutentnahmen, durchführen"@de ;
@@ -5503,7 +5503,7 @@
 	skos:inScheme <> .
 
 <8148> a skos:Concept ;
-	skos:prefLabel "Ärzte/Ärztinnen (s.s.T.)"@de ;
+	skos:prefLabel "Ärzte/Ärztinnen"@de ;
 	skos:altLabel "Ärzte/Ärztinnen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Humanmedizin, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „814 Human- und Zahnmedizin“ nicht anderweitig erfasst sind, wie z. B. Berufe in der Arbeits-, Sport- oder Umweltmedizin."@de ;
 	skos:note "Patienten und Patientinnen untersuchen, behandeln und medizinisch betreuen Krankheitsbild ermitteln, Diagnose stellen, z. B. Anamnese erheben, pathologische Veränderungen des Körpers ermitteln Labor-, Röntgenuntersuchungen und andere Diagnoseverfahren veranlassen Patienten und Patientinnen und Angehörige über Diagnose, Therapiemöglichkeiten und Kosten informieren Medikamente und andere Behandlungsmaßnahmen, z. B. Physiotherapie oder Bestrahlungen, verschreiben oder veranlassen medizinische Informationen über den Patienten/die Patientin und ihre Anamnesen aufzeichnen und diese mit Fachärzten/-ärztinnen und anderen Gesundheitsexperten austauschen, um eine kontinuierliche medizinische Betreuung zu ermöglichen in Prävention und Rehabilitation mitwirken, z. B. über gesunde Lebensweise sowie Früherkennungs- und Vorsorgeuntersuchungen informieren und beraten Verwaltungs- und Organisationsaufgaben erledigen, z. B. ärztliche Gutachten anfertigen auf dem Gebiet der Arbeits-, Sport- oder Umweltmedizin an medizinischen Forschungsvorhaben mitwirken, Forschungsberichte verfassen"@de ;
@@ -5519,7 +5519,7 @@
 	skos:inScheme <> .
 
 <8150> a skos:Concept ;
-	skos:prefLabel "Tierärzte/-ärztinnen (o.S.)"@de ;
+	skos:prefLabel "Tierärzte/-ärztinnen"@de ;
 	skos:altLabel "Tierärzte/-ärztinnen (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe diagnostizieren und behandeln Krankheiten und Verletzungen von verschiedenen Tieren oder erbringen professionelle Dienstleistungen für kommerzielle Firmen, die biologische und pharmazeutische Produkte herstellen."@de ;
 	skos:note "Klein-, Groß- und Nutztiere untersuchen, das Krankheitsbild ermitteln und medizinisch behandeln Labor-, Röntgen-, Ultraschalluntersuchungen durchführen oder vornehmen lassen Operationen durchführen, Wunden verbinden und Knochenbrüche einrichten geburtshilfliche und zahnärztliche Dienstleistungen für Tiere erbringen Tiere impfen und auf Infektionskrankheiten testen, den Ausbruch von Tierinfektionskrankheiten an die Behörden melden Medikamente verabreichen bzw. verschreiben nicht mehr behandelbare Tiere einschläfern Kunden und Kundinnen hinsichtlich Gesundheit, Hygiene, Fütterung, Tierpflege und Zuchttauglichkeit beraten Tierseuchen, Parasiten und Zoonosen (auf Menschen übertragbare Tierkrankheiten) bekämpfen sowie Maßnahmen zur Vorbeugung anordnen bzw. durchführen bei der Verarbeitung und Produktion tierischer Lebensmittel den Herstellungsprozess lebensmittelhygienisch überwachen, z. B. Laboruntersuchungen durchführen verabreichte Medikation sowie Therapie der Tiere dokumentieren, Arztberichte und ärztliche Gutachten anfertigen in der veterinärmedizinischen Forschung mitwirken, Forschungsberichte verfassen"@de ;
@@ -5550,7 +5550,7 @@
 	skos:inScheme <> .
 
 <8158> a skos:Concept ;
-	skos:prefLabel "Berufe Tiermedizin, Tierheilkunde (ssT)"@de ;
+	skos:prefLabel "Berufe Tiermedizin, Tierheilkunde"@de ;
 	skos:altLabel "Berufe in der Tiermedizin und Tierheilkunde (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Tiermedizin und Tierheilkunde, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „815 Tiermedizin und Tierheilkunde“ nicht anderweitig erfasst sind. Dies sind z. B. Berufe im Bereich der Tierpsychologie."@de ;
 	skos:note "in Gesprächen mit dem Tierhalter/der Tierhalterin ein genaues Bild der jeweiligen Problematik des Tieres ermitteln Diagnose stellen und eine entsprechende Verhaltenstherapie vorschlagen bei Vorliegen medizinischer Erkrankungen dafür sorgen, dass eine tierärztliche Behandlung erfolgt verhaltensauffällige Hunde, Katzen oder andere Tiere schulen Gutachten erstellen, z. B. über das Aggressionspotenzial von Hunden"@de ;
@@ -5641,7 +5641,7 @@
 	skos:inScheme <> .
 
 <8178> a skos:Concept ;
-	skos:prefLabel "Berufe nichtärztl. Therapie,Heilk.(ssT)"@de ;
+	skos:prefLabel "Berufe nichtärztl. Therapie,Heilk."@de ;
 	skos:altLabel "Berufe in der nicht ärztlichen Therapie und Heilkunde (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der nicht ärztlichen Therapie und Heilkunde, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „817 Nicht ärztliche Therapie und Heilkunde“ nicht anderweitig erfasst sind. Angehörige dieser Berufe verhelfen Menschen, z. B. mit körper- und bewegungsorientierten Konzepten, zu verbesserter Gesundheit und Wohlbefinden."@de ;
 	skos:note "das Wirkgefüge von Bewegung, Körper, Persönlichkeit und Umwelt analysieren neuro-, senso-, psycho- und sportmotorische Therapieverfahren, heiltherapeutische Übungsverfahren entwickeln, beurteilen und anwenden Beratungsgespräche mit Patienten/Patientinnen und ggf. mit Eltern/Angehörigen führen durchgeführte Behandlungen und Maßnahmen und Behandlungsfortschritte dokumentieren sowie an den behandelnden Arzt, die behandelnde Ärztin oder andere Gesundheitsfachkräfte weiterleiten Aufgaben in der Gesundheitsförderung und Prävention wahrnehmen, z. B. neue körper- und bewegungsorientierte Konzepte aufzeigen"@de ;
@@ -5681,7 +5681,7 @@
 	skos:inScheme <> .
 
 <8188> a skos:Concept ;
-	skos:prefLabel "Berufe in der Pharmazie (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Pharmazie"@de ;
 	skos:altLabel "Berufe in der Pharmazie (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Pharmazie, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „818 Pharmazie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beraten z. B. in medizinisch-pharmazeutischen Fragen oder koordinieren Arzneimittelzulassungen und klinische Studien."@de ;
 	skos:note "bei der Beantragung klinischer Prüflizenzen mitwirken, zulassungsrelevante Dokumente prüfen und Zulassungsunterlagen zusammenstellen Prüfärzte und -ärztinnen von klinischen Studien detailliert über den jeweiligen Prüfplan sowie über Richtlinien zur Durchführung informieren Zulassungsprodukte bis zur endgültigen Marktreife betreuen Kontakte zu Ärzten und Ärztinnen aufnehmen, Termine vereinbaren, Ärzte und Ärztinnen sowie Apotheker/innen in bestimmten Intervallen besuchen Berichte und Beobachtungen über Wirkungsweisen und vermutete Nebenwirkungen entgegennehmen, bewerten und weiterleiten beim Besuch von Apotheken und Krankenhausapotheken Bestellungen für Arzneimittel entgegennehmen in medizinisch-pharmazeutischen Fragen beraten und an Entscheidungsfindungen mitwirken"@de ;
@@ -5697,7 +5697,7 @@
 	skos:inScheme <> .
 
 <8210> a skos:Concept ;
-	skos:prefLabel "Berufe in der Altenpflege (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Altenpflege"@de ;
 	skos:altLabel "Berufe in der Altenpflege (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe betreuen und versorgen ältere, hilfsbedürftige Menschen, unterstützen sie bei der Grundpflege und bereiten Mahlzeiten zu. Sie verabreichen nach ärztlicher Verordnung Medikamente, gestalten Freizeitprogramme und stehen den Senioren und Seniorinnen für die Bewältigung von Alltagssituationen, z. B. Arztbesuche, zur Verfügung."@de ;
 	skos:note "Maßnahmen der Grund- und Behandlungspflege bei pflegebedürftigen, älteren Menschen durchführen ältere, hilfsbedürftige Menschen fachgerecht betten und lagern nach ärztlicher Verordnung Medikamente zusammenstellen und verabreichen Informationen über den Gesundheitszustand der pflegebedürftigen Personen sowie die durchgeführten Pflegemaßnahmen dokumentieren bei der Planung und Organisation der Betreuung und Pflege von älteren Menschen unterstützen, Angehörige beraten und in pflegerische Maßnahmen einweisen"@de ;
@@ -5705,7 +5705,7 @@
 	skos:inScheme <> .
 
 <8218> a skos:Concept ;
-	skos:prefLabel "Berufe in der Altenpflege (s.s.T.)"@de ;
+	skos:prefLabel "Berufe in der Altenpflege"@de ;
 	skos:altLabel "Berufe in der Altenpflege (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Altenpflege, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „821 Altenpflege“ nicht anderweitig erfasst sind. Angehörige dieser Berufe haben sich auf ein Fachgebiet der Altenpflege spezialisiert und betreuen und pflegen ältere Menschen in Altenpflegeeinrichtungen oder ambulant."@de ;
 	skos:note "Maßnahmen der Grund- und Behandlungspflege bei pflegebedürftigen, älteren Menschen durchführen ältere, hilfsbedürftige Menschen fachgerecht betten und lagern Patienten und Patientinnen bei speziellen Behandlungsverfahren, z. B. in der Onkologie oder der Psychiatrie, betreuen und versorgen nach ärztlicher Verordnung Medikamente zusammenstellen und verabreichen Informationen über den Gesundheitszustand der pflegebedürftigen Personen sowie die durchgeführten Pflegemaßnahmen dokumentieren bei der Planung und Organisation der Betreuung und Pflege von älteren Menschen unterstützen, Angehörige beraten und in pflegerische Maßnahmen einweisen"@de ;
@@ -5749,7 +5749,7 @@
 	skos:inScheme <> .
 
 <8228> a skos:Concept ;
-	skos:prefLabel "Ernährungs,Gesundheitsber.,Wellness(ssT)"@de ;
+	skos:prefLabel "Ernährungs,Gesundheitsber.,Wellness"@de ;
 	skos:altLabel "Berufe in Ernährungs- und Gesundheitsberatung, Wellness (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst Berufe in der nichtmedizinischen Ernährungs- und Gesundheitsberatung und im Bereich Wellness, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „822 Ernährungs- und Gesundheitsberatung, Wellness“ nicht anderweitig erfasst sind."@de ;
 	skos:note "bei der Konzeption von Produktideen und neuen Produkten im Ernährungsbereich mitwirken Trainings- und Ernährungspläne aufstellen, z. B. zur Gewichtsreduzierung, Gesunderhaltung oder Leistungssteigerung Fragen der physiologischen, ökonomischen und technologischen Grundlagen von gesunder Ernährung für den Menschen bearbeiten bereits auf dem Markt befindliche Produkte, wie z. B. Lebensmittel, Materialien und Geräte, überprüfen und weiterentwickeln Verbraucherinformationen erarbeiten und weiterleiten, ernährungswissenschaftliche Schulungs- und Bildungsmaß-nahmen konzipieren"@de ;
@@ -5808,7 +5808,7 @@
 	skos:inScheme <> .
 
 <8250> a skos:Concept ;
-	skos:prefLabel "Medizintechnik (o.S.)"@de ;
+	skos:prefLabel "Medizintechnik"@de ;
 	skos:altLabel "Berufe in der Medizintechnik (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe entwickeln, installieren, warten und reparieren medizintechnische Geräte und führen technische Beratungen dazu durch."@de ;
 	skos:note "medizintechnische Geräte entwickeln und konstruieren bzw. dabei unterstützen medizintechnische Geräte beim Kunden installieren und in Betrieb nehmen Wartungs- und Instandhaltungsarbeiten an medizintechnischen Geräten ausführen Funktions- und Sicherheitsprüfungen an medizintechnischen Geräten einschließlich der gesetzlichen Dokumentation durchführen Patienten und Patientinnen im Umgang mit medizintechnischen Geräten einweisen"@de ;
@@ -5944,7 +5944,7 @@
 	skos:inScheme <> .
 
 <8338> a skos:Concept ;
-	skos:prefLabel "Berufe in Theologie,Gemeindearbeit (ssT)"@de ;
+	skos:prefLabel "Berufe in Theologie,Gemeindearbeit"@de ;
 	skos:altLabel "Berufe in der Theologie und Gemeindearbeit (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Theologie und Gemeindearbeit, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „833 Theologie und Gemeindearbeit“ nicht anderweitig erfasst sind. Angehörige dieser Berufe übernehmen organisatorische, missionarische oder richtungsweisende Aufgaben in Glaubensgemeinschaften oder kirchlichen Einrichtungen."@de ;
 	skos:note "Gottesdienste und andere religiöse Feste vorbereiten und durchführen an Jugendgottesdiensten mitarbeiten und diese weiterentwickeln, Veranstaltungen für Jugendliche und junge Erwachsene planen und durchführen persönliche Gespräche mit Angehörigen von Verstorbenen führen, den Ablauf von Trauerfeiern abstimmen eine Mission befolgen, z. B. religiöse Lehren unter Andersgläubigen verbreiten, mit dem Ziel diese Menschen zu einer bestimmten Glaubensrichtung zu bekehren"@de ;
@@ -5988,7 +5988,7 @@
 	skos:inScheme <> .
 
 <8418> a skos:Concept ;
-	skos:prefLabel "Lehrkräfte allgemeinbild. Schulen (ssT)"@de ;
+	skos:prefLabel "Lehrkräfte allgemeinbild. Schulen"@de ;
 	skos:altLabel "Lehrkräfte an allgemeinbildenden Schulen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Lehrkräfte an allgemeinbildenden Schulen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „841 Lehrtätigkeit an allgemeinbildenden Schulen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterstützen Lehrkräfte und üben Aufgaben abseits des Unterrichts aus oder übernehmen spezifische Funktionen an Schulen."@de ;
 	skos:note "Tätigkeiten zur Verbesserung der körperlichen sozialen, emotionalen und intellektuellen Entwicklung von Kindern in Schulen und Vorschulen vorführen und beaufsichtigen Kinder mit geistigen, körperlichen, verhaltensbedingten und sonstigen Lernschwierigkeiten unterstützen Lehrkräfte und die Schulleitung über fachwissenschaftliche und fachdidaktische Neuheiten und Weiterbildungsmöglichkeiten informieren einheitliche Leistungsanforderungen definieren, Prüfungsaufgaben im jeweiligen Fach erstellen als Beratungslehrer/in bei Schulschwierigkeiten, bei Lernproblemen sowie bei Verhaltensauffälligkeiten, Hilfestellungen geben und individuelle Lösungsmöglichkeiten aufzeigen"@de ;
@@ -6043,7 +6043,7 @@
 	skos:inScheme <> .
 
 <8440> a skos:Concept ;
-	skos:prefLabel "Berufe in der Erwachsenenbildung (o.S.)"@de ;
+	skos:prefLabel "Berufe in der Erwachsenenbildung"@de ;
 	skos:altLabel "Berufe in der Erwachsenenbildung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe unterrichten Erwachsene in außerschulischen Bildungseinrichtungen, wie z. B. Volkshochschulen, und vermitteln berufs- oder arbeitsplatzorientierte Fachkenntnisse, z. B. Rhetorik, Management- oder Präsentationstechniken."@de ;
 	skos:note "Interessenten und Interessentinnen hinsichtlich der jeweiligen Bildungsmöglichkeiten beraten und Hilfestellung bei Lern- und Leistungsschwächen anbieten bedarfsgerechte Bildungskonzepte und Weiterbildungsprogramme planen und organisieren Seminare vorbereiten, Lernmaterialien erstellen und die Einsatzmöglichkeiten von neuen Medien und Lehrmethoden im Unterricht testen in Kursen berufs- oder arbeitsplatzbezogene Fachkenntnisse unterschiedlichster Art vermitteln, z. B. Management- oder Präsentationstechniken berufs- oder arbeitsplatzorientierte Trainings durchführen, z. B. Kommunikations- und Rhetorikseminare abhalten die Arbeit der Kursteilnehmer/innen zur Feststellung des Fortschritts beobachten und evaluieren, Feedback geben und Verbesserungsvorschläge unterbreiten"@de ;
@@ -6087,7 +6087,7 @@
 	skos:inScheme <> .
 
 <8448> a skos:Concept ;
-	skos:prefLabel "Lehrkräfte außerschul.Bild.einrich.(ssT)"@de ;
+	skos:prefLabel "Lehrkräfte außerschul.Bild.einrich."@de ;
 	skos:altLabel "Lehrkräfte an außerschulischen Bildungseinrichtungen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Lehrkräfte an außerschulischen Bildungseinrichtungen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „844 Lehrtätigkeit an außerschulischen Bildungseinrichtungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterrichten z. B. in erster Hilfe, Eurythmie oder vermitteln in Museen Ausstellungsinhalte."@de ;
 	skos:note "Fähigkeiten der Lehrgangsteilnehmer/innen beurteilen und Lernbedürfnisse ermitteln Ausbildungssequenzen planen und geeignete Unterrichtsmethoden entwickeln theoretischen und praktischen Unterricht in erster Hilfe erteilen, z. B. Verhaltensregeln bei Knochenbrüchen, Verbrennungen oder Vergiftungen erläutern Kinder oder Erwachsene in Bewegungsabläufen unterrichten, denen Märchen, Erzählungen, Gedichte, Lieder und Musikstücke zugrunde liegen können Ausstellungsinhalte zielgruppengerecht aufbereiten, z. B. eine Museumsrallye für Kinder erarbeiten, Filme vorführen oder bei der Gestaltung von Schaubildern, Informationstafeln oder Audio-Guides mitwirken durchgeführte Lehrgänge und Workshops dokumentieren und Teilnahmebescheinigungen ausstellen"@de ;
@@ -6103,7 +6103,7 @@
 	skos:inScheme <> .
 
 <8450> a skos:Concept ;
-	skos:prefLabel "Sportlehrer/innen (o.S.)"@de ;
+	skos:prefLabel "Sportlehrer/innen"@de ;
 	skos:altLabel "Sportlehrer/innen (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe erteilen Sportunterricht in außerschulischen Einrichtungen und vermitteln Menschen jeder Altersstufe sportliche Fertigkeiten und Kenntnisse. Zudem leiten sie im Leistungssport Einzelsportler/innen oder Mannschaften in den verschiedensten Sportarten an."@de ;
 	skos:note "Personen zu sportlichen Leistungen motivieren und hinführen, Sportunterricht erteilen, sportliche Veranstaltungen und Trainingsmaßnahmen durchführen Körper- und Bewegungserfahrungen durch verschiedene Sportarten, Trainingsmethoden, Sportgeräte sowie in unterschiedlichen Umgebungsbedingungen vermitteln mittel- und langfristige Trainingskonzepte für Leistungssportler/innen erstellen Leistungssportler/innen trainieren und psychologisch betreuen Regeln der jeweiligen Sportart sowie Regelbewusstsein vermitteln Aufgaben in der Sportverwaltung, -organisation und im Sportmanagement wahrnehmen, z. B. an der Karriereplanung für Sportler/innen mitwirken"@de ;
@@ -6148,7 +6148,7 @@
 	skos:inScheme <> .
 
 <8458> a skos:Concept ;
-	skos:prefLabel "Sportlehrer/innen (s.s.T.)"@de ;
+	skos:prefLabel "Sportlehrer/innen"@de ;
 	skos:altLabel "Sportlehrer/innen (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Sportunterricht, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „845 Fahr- und Sportunterricht an außerschulischen Bildungseinrichtungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe vermitteln Menschen jeder Altersstufe sportliche Fertigkeiten und Kenntnisse in verschiedenen Sportarten, außer in den Bereichen Tanz, Ballsport sowie Fitness und Gymnastik."@de ;
 	skos:note "die Fähigkeiten der Sportler/innen beurteilen Unterrichts- bzw. Trainingskonzepte für Sportler/innen entsprechend ihrer Leistungsstufen erstellen Unterricht in Sportarten wie Golf, Surfen, Skifahren, Segeln, Reiten, Wassersport, Eiskunstlauf, Fechten oder Karate erteilen Sportler/innen trainieren, psychologisch betreuen und anleiten Sportler/innen auf die Teilnahme an Sportveranstaltungen und Wettbewerben vorbereiten Personen zu sportlichen Leistungen motivieren und hinführen die Regeln der jeweiligen Sportart sowie Regelbewusstsein vermitteln"@de ;
@@ -6156,7 +6156,7 @@
 	skos:inScheme <> .
 
 <9110> a skos:Concept ;
-	skos:prefLabel "Berufe in Sprach-, Literaturwissen.(oS)"@de ;
+	skos:prefLabel "Berufe in Sprach-, Literaturwissen."@de ;
 	skos:altLabel "Berufe in Sprach- und Literaturwissenschaften (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe erforschen, dokumentieren und vermitteln Strukturen, Formen und Funktionen von Sprachen sowie der Literaturen verschiedener Länder in ihren historischen und gegenwärtigen Erscheinungsformen. Sie untersuchen einzelne Sprachen, Sprachlaute, Wortformen und Satzstrukturen, analysieren und interpretieren literarische Texte."@de ;
 	skos:note "die Struktur von Gegenwartssprache, älteren Sprachstufen und die Sprachgeschichte mithilfe linguistischer Methoden wissenschaftlich untersuchen, aussterbende Sprachen aufzeichnen Untersuchungen zur Phonologie, Morphologie, Syntax, Lexikografie, Textlinguistik, Pragma- und Psycholinguistik, Sozio- und Ethnolinguistik, Dialektologie und Onomastik durchführen an Konzepten für die Sprachvermittlung, Umsetzungshilfen und Lehrwerken mitwirken, z. B. Lautschriften entwickeln, Lehrbücher und Sprachlernprogramme erstellen poetische Texte und nichtpoetische Texte der unterschiedlichen Nationalliteraturen aus Vergangenheit und Gegenwart untersuchen und vergleichen fachrelevante Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen an Forschungsprojekten, z. B. im Bereich der angewandten Sprachwissenschaften, teilnehmen, etwa Sprachübertragungs- und Spracherkennungssysteme entwickeln"@de ;
@@ -6217,7 +6217,7 @@
 	skos:inScheme <> .
 
 <9118> a skos:Concept ;
-	skos:prefLabel "Berufe Sprach-,Literaturwissensch. (ssT)"@de ;
+	skos:prefLabel "Berufe Sprach-,Literaturwissensch."@de ;
 	skos:altLabel "Berufe in Sprach- und Literaturwissenschaften (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in Sprach- und Literaturwissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „911 Sprach- und Literaturwissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe sind z. B. in den Bereichen Phonetik, Computerlinguistik, Skandinavistik oder Afrikanistik tätig."@de ;
 	skos:note "Kultur und Sprache aus einer interdisziplinären und international vergleichenden Perspektive untersuchen, dabei Erkenntnisse anderer Geistes- und Sozialwissenschaften einbeziehen poetische und nichtpoetische Texte sowie gesprochene Sprache analysieren, interpretieren und beschreiben Sprachlaute in der Phonetik und Phonologie, Wortformen und -strukturen in der Morphologie, Fragen der Wortbedeutung in der Semantik und Satzstrukturen in der Syntax untersuchen Entstehung und Bildung von Lautsprache untersuchen, dabei auch allgemeine, gruppenspezifische oder sprecherbezogene Charakteristika einbeziehen Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen an Forschungsprojekten teilnehmen, z. B. erforschen wie natürliche Sprachen mithilfe des Computers maschinell analysiert und verarbeitet werden können"@de ;
@@ -6306,7 +6306,7 @@
 	skos:inScheme <> .
 
 <9138> a skos:Concept ;
-	skos:prefLabel "Berufe Gesellschaftswissenschaften (ssT)"@de ;
+	skos:prefLabel "Berufe Gesellschaftswissenschaften"@de ;
 	skos:altLabel "Berufe in Gesellschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe der Gesellschaftswissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „913 Gesellschaftswissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe befassen sich z. B. mit Fragestellungen der Kultur- oder Arbeitswissenschaft, der Gerontologie oder der Kriminologie."@de ;
 	skos:note "soziale Phänomene, wie z. B. „alternde Gesellschaft“ oder „Jugendkriminalität“, systematisch erforschen Beschreibungs- und Erklärungsmodelle entwickeln Daten erheben, mithilfe qualitativer oder quantitativer Methoden der Sozialforschung auswerten und aufbereiten wissenschaftliche Arbeiten und Berichte zu gesellschaftswissenschaftlichen Themen verfassen Beratungen hinsichtlich der praktischen Anwendung von Erkenntnissen durchführen, z. B. Empfehlungen zur Gestaltung von Arbeitsplätzen geben oder Wege zur Kriminalitätsbekämpfung aufzeigen"@de ;
@@ -6314,7 +6314,7 @@
 	skos:inScheme <> .
 
 <9140> a skos:Concept ;
-	skos:prefLabel "Berufe in Wirtschaftswissenschaften (oS)"@de ;
+	skos:prefLabel "Berufe in Wirtschaftswissenschaften"@de ;
 	skos:altLabel "Berufe in Wirtschaftswissenschaften (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe analysieren ökonomische Prozesse von Staaten, Unternehmen und privaten Haushalten unter einzelwirtschaftlichen und gesamtwirtschaftlichen Aspekten. Sie beraten Unternehmen, Interessengruppen und Regierungen bei der Formulierung von Lösungen für gegenwärtige oder absehbare wirtschaftliche und geschäftliche Probleme."@de ;
 	skos:note "komplexe wirtschaftliche Zusammenhänge und Prozesse, z. B. in mathematischen Gleichungen, modellieren und statistische Berechnungen durchführen in der Mikroökonomie das wirtschaftliche Verhalten einzelner Wirtschaftssubjekte modellieren, in der Makroökonomie übergreifende wirtschaftliche Fragestellungen behandeln einzel- und gesamtwirtschaftliche Entwicklungen in der Regel mithilfe mathematisch-statistischer Methoden analysieren und prognostizieren und daraus Entscheidungs- und Handlungsempfehlungen für Unternehmen, Interessengruppen und Regierungen ableiten wirtschaftliche Theorien, Modelle und Prognosen mithilfe statistischer Verfahren auf Wirklichkeitsnähe testen statistische Daten als Kurven, Diagramme oder theoretische Modelle visualisieren und Konjunkturberichte für unterschiedliche Adressaten erstellen an Forschungsprojekten teilnehmen, Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse, z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen Forschungsprojekte initiieren und anleiten"@de ;
@@ -6322,7 +6322,7 @@
 	skos:inScheme <> .
 
 <9148> a skos:Concept ;
-	skos:prefLabel "Berufe in Wirtschaftswissenschaften(ssT)"@de ;
+	skos:prefLabel "Berufe in Wirtschaftswissenschaften"@de ;
 	skos:altLabel "Berufe in Wirtschaftswissenschaften (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe der Wirtschaftswissenschaften, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „914 Wirtschaftswissenschaften“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erforschen und überwachen Daten, analysieren Informationen und erstellen Berichte und Pläne zur Lösung wirtschaftlicher und geschäftlicher Probleme und entwickeln Modelle zur Analyse, Erklärung und Prognostizierung wirtschaftlicher Verhaltensweisen und Muster."@de ;
 	skos:note "ökonomische Theorien, Modelle und Prognosen mithilfe statistischer Verfahren auf Wirklichkeitsnähe testen Marktbedingungen in lokalen, regionalen oder nationalen Gebieten zur Festlegung von Absatzhöhen und Preisen für Güter und Dienstleistungen sowie zur Beurteilung des Marktpotenzials und künftiger Trends und zur Entwicklung von Geschäftsstrategien erforschen wirtschaftliche Daten zur Beurteilung der Effektivität und Beratung hinsichtlich der Eignung von geld- und steuerpolitischen Maßnahmen zusammenstellen und interpretieren Produktion und Verbrauch spezifischer Produkte und Dienstleistungen auf der Grundlage von Aufzeichnungen über die vergangene Produktion und den Verbrauch und über allgemeine wirtschaftliche und branchenspezifische Bedingungen prognostizieren Prognosen über Einnahmen und Ausgaben, Zinssätze und Wechselkurse erstellen Faktoren analysieren, die für Erwerbsbeteiligung, Beschäftigung, Löhne und Gehälter, Arbeitslosigkeit und andere Arbeitsmarktergebnisse bestimmend sind Empfehlungen, Richtlinien und Pläne für die Wirtschaft und Unternehmensstrategien aufstellen statistische Daten als Kurven, Diagramme oder theoretische Modelle visualisieren und Konjunkturberichte für unterschiedliche Adressaten erstellen an Forschungsprojekten teilnehmen, Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse, z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen"@de ;
@@ -6374,7 +6374,7 @@
 	skos:inScheme <> .
 
 <9230> a skos:Concept ;
-	skos:prefLabel "Verlags- und Medienkaufleute (o.S.)"@de ;
+	skos:prefLabel "Verlags- und Medienkaufleute"@de ;
 	skos:altLabel "Verlags- und Medienkaufleute (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe organisieren und koordinieren die Gestaltung und Herstellung von Print- und elektronischen Medien und nehmen kaufmännische Aufgaben wahr. Darüber hinaus entwickeln sie Marketingstrategien für einzelne Medienerzeugnisse oder eine ganze Produktsparte der Verlags- und Medienwirtschaft."@de ;
 	skos:note "Märkte, Zielgruppen und Kundenwünsche eines Unternehmens der Medienbranche ermitteln und analysieren, zielgruppengerechte Marketingaktionen entwickeln und umsetzen aktuelle und zukünftige Konsumtrends im Bereich der Mediennutzung interpretieren und prognostizieren Medien wie Bücher, Zeitschriften, Ton- und Bildproduktionen, Videos, Filme, Computergrafiken und -animationen sowie Multimediaprodukte planen, kalkulieren, gestalten und produzieren lassen Verlagsverträge entwerfen, Rechte und Lizenzen, z. B. Buch- oder Filmrechte, erwerben und verwerten Beratungen hinsichtlich aller Marketingelemente, wie Produktmix, Preise, Werbung und Verkaufsförderung, Verkaufs- und Vertriebskanäle, durchführen"@de ;
@@ -6382,7 +6382,7 @@
 	skos:inScheme <> .
 
 <9238> a skos:Concept ;
-	skos:prefLabel "Verlags- und Medienkaufleute (s.s.T.)"@de ;
+	skos:prefLabel "Verlags- und Medienkaufleute"@de ;
 	skos:altLabel "Verlags- und Medienkaufleute (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Verlags- und Medienkaufleute, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „923 Verlags- und Medienwirtschaft“ nicht anderweitig erfasst sind. Angehörige dieser Berufe verkaufen z. B. Anzeigen, recherchieren und verkaufen Adressen, betreuen Autoren und Autorinnen oder wählen die künstlerischen Auftragnehmer für Werbeproduktionen aus."@de ;
 	skos:note "für Print- und elektronische Medien Anzeigenflächen verkaufen, den bestehenden Kundenstamm pflegen und das Neukundengeschäft auf- und ausbauen mögliche Sponsoren oder Förderstellen für Filmproduktionen recherchieren und der Produktionsleitung vorschlagen Manuskripte hinsichtlich Qualität und Marktchancen prüfen Autoren/Autorinnen von Sachbüchern oder belletristischen Werken betreuen in Verlagsagenturen den Handel mit Buchrechten abwickeln"@de ;
@@ -6466,7 +6466,7 @@
 	skos:inScheme <> .
 
 <9330> a skos:Concept ;
-	skos:prefLabel "Berufe Kunsthandwerk, bildend.Kunst (oS)"@de ;
+	skos:prefLabel "Berufe Kunsthandwerk, bildend.Kunst"@de ;
 	skos:altLabel "Berufe in Kunsthandwerk und bildender Kunst (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe fertigen kunsthandwerkliche Gegenstände an, setzen künstlerische Ideen malerisch, zeichnerisch, grafisch bzw. mithilfe der neuen Medien um oder restaurieren historische Kunstobjekte bzw. kunsthandwerkliche Erzeugnisse."@de ;
 	skos:note "Kunstwerke und -objekte in unterschiedlichen Bereichen, wie z. B. Malerei, Grafik, Skulptur, erschaffen künstlerische und handwerkliche Fertigkeiten miteinander verbinden Kunstwerke manuell oder mithilfe von handbetriebenen und sonstigen Werkzeugen bearbeiten den Zustand der zu restaurierenden Objekte untersuchen, Schadensaufnahme erstellen, Alter und Herstellungsgeschichte bestimmen Restaurierungsarbeiten je nach Erfordernis durchführen, z. B. beschädigte Teile austauschen, Fehlendes ergänzen, Oberflächen konservieren"@de ;
@@ -6511,7 +6511,7 @@
 	skos:inScheme <> .
 
 <9338> a skos:Concept ;
-	skos:prefLabel "Berufe Kunsthandwerk, bild. Kunst (ssT)"@de ;
+	skos:prefLabel "Berufe Kunsthandwerk, bild. Kunst"@de ;
 	skos:altLabel "Berufe in Kunsthandwerk und bildender Kunst (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in Kunsthandwerk und bildender Kunst, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „933 Kunsthandwerk und bildende Kunst“ nicht anderweitig erfasst ist. Angehörige dieser Berufe stellen z. B. Kunstblumen manuell her oder führen Restaurierungsarbeiten durch."@de ;
 	skos:note "Kunstblumen, textile Fest- oder Dekorationsartikel von Hand herstellen Textilien, Papier oder Kunststoff mithilfe von Schablonen ausstanzen, Materialien ggf. einfärben, appretieren, durch Wickeln, Kleben, Binden zusammensetzen Textilien kunstvoll einfärben zu restaurierende Objekte untersuchen, zeitlich und stilistisch einordnen, ihren Erhaltungszustand sowie alle durchgeführten Restaurierungsarbeiten dokumentieren Objekte vorsichtig reinigen, zerbrochene Objekte zusammensetzen, ggf. beschädigte Stellen ausbessern sowie fehlende Teile eines Objekts bzw. Wandgemäldes ergänzen"@de ;
@@ -6598,7 +6598,7 @@
 	skos:inScheme <> .
 
 <9360> a skos:Concept ;
-	skos:prefLabel "Berufe im Musikinstrumentenbau (o.S.)"@de ;
+	skos:prefLabel "Berufe im Musikinstrumentenbau"@de ;
 	skos:altLabel "Berufe im Musikinstrumentenbau (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe stellen Musikinstrumente her, reparieren und restaurieren sie sowie prüfen und justieren die Klangqualität."@de ;
 	skos:note "Musikinstrumente bauen, reparieren und justieren Werkstoffe wie Metall, Holz oder Kunststoff nach klang- und instrumentenspezifischen Gesichtspunkten auswählen Instrumententeile anfertigen und zu ganzen Musikinstrumenten zusammensetzen Instrumente reparieren und stimmen, historische Instrumente restaurieren Kunden und Kundinnen beraten, z. B. über die fachgerechte Aufbewahrung eines Instruments, über Schutzmaßnahmen und den Umgang mit einem historischen Instrument Herstellungsprozesse von Musikinstrumenten analysieren, zu technischen Aspekten der Herstellung beraten"@de ;
@@ -6642,7 +6642,7 @@
 	skos:inScheme <> .
 
 <9368> a skos:Concept ;
-	skos:prefLabel "Berufe im Musikinstrumentenbau (s.s.T.)"@de ;
+	skos:prefLabel "Berufe im Musikinstrumentenbau"@de ;
 	skos:altLabel "Berufe im Musikinstrumentenbau (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe im Musikinstrumentenbau, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „936 Musikinstrumentenbau“ nicht anderweitig erfasst sind. Angehörige dieser Berufe stellen z. B. Akkordeons oder Schlagzeuge her, reparieren, restaurieren und stimmen sie sowie prüfen und justieren die Klangqualität."@de ;
 	skos:note "Instrumente entwerfen, dabei von Hand Skizzen und mithilfe von Grafikprogrammen Entwurfszeichnungen erstellen Werkstoffe wie Metall, Holz oder Kunststoff nach klang- und instrumentenspezifischen Gesichtspunkten auswählen für den Bau von Trommeln, Congas, Bongos, Pauken z. B. Leder und Felle nähen oder kleben, Trommelfelle aufziehen Bälge aus Pappe fertigen, z. B. Pappe falten, pressen, zuschneiden und heften, Lederecken einsetzen und Zierschicht aufbringen, Balgecken abrunden Knöpfe, Tasten, Register, Stimmstöcke, Dichtungen sowie filz- und lederbelegte Klappen mit Rückholfedern in Gehäuseteile montieren Musikinstrumente stimmen, pflegen und reparieren, Verschleißteile ersetzen Kunden und Kundinnen beraten, z. B. über die fachgerechte Aufbewahrung eines Instruments, über Schutzmaßnahmen und den Umgang mit einem historischen Instrument"@de ;
@@ -6686,7 +6686,7 @@
 	skos:inScheme <> .
 
 <9418> a skos:Concept ;
-	skos:prefLabel "Musik-,Gesangs-, Dirigententätigk. (ssT)"@de ;
+	skos:prefLabel "Musik-,Gesangs-, Dirigententätigk."@de ;
 	skos:altLabel "Musik-, Gesangs- und Dirigententätigkeiten (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Musik-, Gesangs- und Dirigententätigkeiten, die sich auf einen bestimmten Bereich spezialisiert haben und die in der übergeordneten Systematikposition „941 Musik-, Gesangs- und Dirigententätigkeiten“ nicht anderweitig erfasst sind. Zum Beispiel korrepetieren Angehörige dieser Berufe oder entwickeln Sounds, komponieren Musik für Werbung, Film, Multimedia-Anwendungen."@de ;
 	skos:note "Songs, Klänge, musikalische Spezialeffekte aller Art, Geräusche und Sprache am Computer und im Tonstudio arrangieren, neue Sounds erfinden ggf. Musiker/innen oder Sänger/innen auswählen, engagieren und mit ihnen zusammenarbeiten Sounds und Songs zur akustischen Markenführung entwickeln, dabei Zielgruppen berücksichtigen Musik für Veranstaltungen, Filmmusik, Klingeltöne oder Warteschleifenmusik komponieren, Videospiele, CD-ROMs und DVDs vertonen Sänger/innen, Tänzer/innen oder Instrumentalisten und Instrumentalistinnen in der Regel am Klavier bei den Probenarbeiten begleiten szenische Proben für Tanz, Ballett, Operette und Oper auf der Bühne begleiten, Regieanweisungen umsetzen, Proben organisieren und ggf. selbst leiten"@de ;
@@ -6733,7 +6733,7 @@
 	skos:inScheme <> .
 
 <9428> a skos:Concept ;
-	skos:prefLabel "BerufeSchauspielTanz,Bewegungskunst(ssT)"@de ;
+	skos:prefLabel "BerufeSchauspielTanz,Bewegungskunst"@de ;
 	skos:altLabel "Berufe in Schauspiel, Tanz und Bewegungskunst (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle darstellenden Künstler/innen im Bereich Schauspiel, Tanz und Bewegungskunst, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „942 Schauspiel, Tanz und Bewegungskunst“ nicht anderweitig erfasst sind. Angehörige dieser Berufe wirken z. B. in artistischen bzw. akrobatischen Darbietungen sowie Tierdressurnummern vor Publikum mit oder sind als Puppenspieler/innen tätig."@de ;
 	skos:note "Film- und Fernsehdarsteller/innen bei gefährlichen oder akrobatischen Szenen vertreten, Stunteinsätze in Film- und Fernsehproduktionen durchführen ggf. in Stuntshows, Actionshows, bei Open-Air-Vorstellungen oder Veranstaltungen wie Western- oder Ritterspielen auftreten bei Massenszenen im Hintergrund oder in kurzen Szenen gemeinsam mit den Hauptdarstellern bzw. Hauptdarstellerinnen auftreten, dabei teilweise kurze Texte sprechen Fertigkeiten in artistischen Disziplinen, z. B. Luftakrobatik, Vertikalseil, Schleuderbrett, Temposprünge oder Jonglage, trainieren und weiterentwickeln artistische Programme vor Publikum vorführen Dressurnummern, z. B. mit Hunden, Pferden, Raubkatzen oder Seelöwen, einüben, in der Filmtierdressur Hunde, Papageien oder auch Raubtiere auf Dreharbeiten vorbereiten Dressurnummern zusammenstellen, gemeinsam mit den Tieren vor Publikum auftreten"@de ;
@@ -6741,7 +6741,7 @@
 	skos:inScheme <> .
 
 <9430> a skos:Concept ;
-	skos:prefLabel "Berufe in Moderation, Unterhaltung (oS)"@de ;
+	skos:prefLabel "Berufe in Moderation, Unterhaltung"@de ;
 	skos:altLabel "Berufe in Moderation und Unterhaltung (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe geben unterschiedliche künstlerische Darbietungen und sorgen für die gute Unterhaltung eines Publikums."@de ;
 	skos:note "das Publikum durch künstlerische Darbietungen jeglicher Art unterhalten und amüsieren das Publikum in die einzelnen Programmpunkte einführen, die auftretenden Künstler/innen vorstellen und die Ansagen mit den einzelnen Darbietungen verknüpfen Anekdoten erzählen, amüsante Gedichte oder Chansons vortragen unterschiedliche Rollen mit Gesang, Sprache und körperlichem Ausdruck interpretieren, moderieren, parodieren und improvisieren Gestik, Mimik, Ausdrucksweise und Bewegungen proben und vor Publikum präsentieren"@de ;
@@ -6780,7 +6780,7 @@
 	skos:inScheme <> .
 
 <9438> a skos:Concept ;
-	skos:prefLabel "Berufe in Moderation, Unterhaltung (ssT)"@de ;
+	skos:prefLabel "Berufe in Moderation, Unterhaltung"@de ;
 	skos:altLabel "Berufe in Moderation und Unterhaltung (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Moderation und Unterhaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „943 Moderation und Unterhaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe versuchen das Publikum auf unterschiedliche Weise zu unterhalten. Sie sind z. B. als Travestie-Künstler/in, Weihnachtsmann/-frau, Wahrsager/in oder als Bauchredner/in tätig, legen Musik auf oder beschäftigen sich mit Astrologie."@de ;
 	skos:note "als Weihnachtsmann/-frau verkleidet in Kindergärten, auf Feiern oder Veranstaltungen auftreten, weihnachtliche Programme vorbereiten oder in Kaufhäusern kleine Geschenke verteilen die Kunst des Bauchredens beherrschen und vorführen nach individueller Auswahl und Folge Audiodateien oder Schallplatten abspielen, dabei Geräte, wie Plattenspieler und Mischpulte, bedienen auf Travestie-Bühnen als männlicher Schauspieler Frauenrollen verkörpern und die Zuschauer mit Songs, Tanz sowie durch humoristische Texte unterhalten Astrologie ausüben, Horoskope von Einzelpersonen zum Zeitpunkt der Geburt oder später erstellen, um vergangene Ereignisse zu berichten und zukünftige Ereignisse und Lebensbedingungen vorherzusagen"@de ;
@@ -6788,7 +6788,7 @@
 	skos:inScheme <> .
 
 <9440> a skos:Concept ;
-	skos:prefLabel "Berufe Theater-,Film-,Fernsehproduk.(oS)"@de ;
+	skos:prefLabel "Berufe Theater-,Film-,Fernsehproduk."@de ;
 	skos:altLabel "Berufe in der Theater-, Film- und Fernsehproduktion (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe übernehmen kreative und organisatorische Aufgaben in der Theater-, Film- und Fernsehproduktion (außerhalb der Schauspielerei, Veranstaltungs-, Kamera- und Tontechnik). Sie wählen zu bearbeitende Stücke, Texte oder Drehbücher aus, bereiten Produktionen vor und begleiten und steuern deren Durchführung."@de ;
 	skos:note "interessante Texte, Stoffe und Vorlagen in Spielvorlagen für das Theater bzw. Drehbücher für Film, Fernsehen, Hörfunk recherchieren und umsetzen kreativ-künstlerische, betriebswirtschaftliche und technische Anforderungen von Film- und Fernsehproduktionen sicherstellen am Set Einzelheiten wie Kostüme, Frisuren, Make-up, Requisiten, Bewegungsrichtungen der Darsteller/innen, Lichtstimmung und Kamerapositionen dokumentieren zwischen Produktionsleitung und künstlerischer Leitung Kontakt halten die Programmleitung in Film-, Hörfunk-, Fernsehanstalten beim Einkauf von Spielfilmpaketen, Serien, Shows, bei der Planung von Eigenproduktionen sowie der Rollenbesetzung beraten"@de ;
@@ -6803,7 +6803,7 @@
 	skos:inScheme <> .
 
 <9448> a skos:Concept ;
-	skos:prefLabel "Berufe Theater-,Film-, Fernsehprod.(ssT)"@de ;
+	skos:prefLabel "Berufe Theater-,Film-, Fernsehprod."@de ;
 	skos:altLabel "Berufe in der Theater-, Film- und Fernsehproduktion (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Theater-, Film- und Fernsehproduktion, die sich auf einen Tätigkeitsbereich (außerhalb der Schauspielerei, Veranstaltungs-, Kamera- und Tontechnik) spezialisiert haben und die in der übergeordneten Systematikposition „944 Theater-, Film- und Fernsehproduktion“ nicht anderweitig erfasst sind. Angehörige dieser Berufe soufflieren, suchen geeignete Darsteller/innen und gestalten Fernseh- und Hörfunkprogramme."@de ;
 	skos:note "vom Souffleurkasten aus den Text eines Theaterstückes oder einer Oper durch Mitlesen verfolgen die Texte bei Aufführungen im Flüsterton mitsprechen und ggf. durch Zuflüstern eines Stichworts den Darstellern/Darstellerinnen weiterhelfen der Regie Besetzungsvorschläge unterbreiten, Vorsprechtermine oder Probeaufnahmen für Künstler/innen vereinbaren, Vorverhandlungen führen Künstlerkarteien führen, Künstleragenturen oder Talentbüros kontaktieren in Zusammenarbeit mit Programmleitung, Intendanz, Redaktionen an der Gestaltung des Programms einer Fernseh- oder Hörfunkanstalt mitwirken"@de ;
@@ -6841,7 +6841,7 @@
 	skos:inScheme <> .
 
 <9458> a skos:Concept ;
-	skos:prefLabel "Berufe Veranstalt.-Kamera-,Tontech.(ssT)"@de ;
+	skos:prefLabel "Berufe Veranstalt.-Kamera-,Tontech."@de ;
 	skos:altLabel "Berufe in der Veranstaltungs-, Kamera- und Tontechnik (sonstige spezifische Tätigkeitsangabe)"@de ;
 	skos:definition "Diese Systematikposition umfasst alle Berufe in der Veranstaltungs-, Kamera- und Tontechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „945 Veranstaltungs-, Kamera- und Tontechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe planen und realisieren z. B. Feuerwerke und sonstige pyrotechnische Effekte."@de ;
 	skos:note "Aufträge mit Kunden und Kundinnen besprechen, Ortsbesichtigungen durchführen, Abbrennplätze unter Beachtung der Sicherheitsvorschriften bestimmen detaillierte Programmabläufe und Abbrennpläne erstellen, pyrotechnische Effekte auswählen und dramaturgisch zusammenstellen pyrotechnische Spezialeffekte für Film- und Fernsehproduktionen mit der Regie, der Requisite, den Kamera- und Stunt-Teams sowie Darstellern und Darstellerinnen absprechen Materialien für pyrotechnische Spezialeffekte bzw. Innenfeuerwerke in Mehrzweckhallen, auf Konzert- oder Theaterbühnen installieren Abschussgeräte aufbauen, Zündkabel verlegen, Zündanlagen und Steuergeräte anschließen und programmieren, Musikeinspielungen und Lichteffekte zeitgenau kombinieren die Einhaltung der umfangreichen Sicherheitsregeln gewährleisten, Gefahrenbereiche absichern und Brandschutzbestimmungen beachten"@de ;
@@ -6880,7 +6880,7 @@
 	skos:inScheme <> .
 
 <9470> a skos:Concept ;
-	skos:prefLabel "Museumsberufe (o.S.)"@de ;
+	skos:prefLabel "Museumsberufe"@de ;
 	skos:altLabel "Museumsberufe (ohne Spezialisierung)"@de ;
 	skos:definition "Angehörige dieser Berufe sammeln, beurteilen und verwalten Objekte von künstlerischer bzw. (kunst-)historischer Bedeutung. Sie untersuchen Erhaltungszustände, erforschen Entstehungsgeschichten und erstellen Ausstellungskonzepte"@de ;
 	skos:note "Sammlungen künstlerischer, kultureller, wissenschaftlicher oder historisch bedeutender Gegenstände organisieren, entwickeln und pflegen Ursprung, Verteilung und Verwendung von Materialien und Objekten von kulturellem und historischem Interesse erforschen historisch bedeutsame und wertvolle Dokumente, wie staatliche und private Dokumente, Fotografien, Karten, Manuskripte und audiovisuelle Materialien, erforschen und ihren Wert schätzen Ausstellungen in Museen und Kunstgalerien planen, organisieren und betreuen, Führungen für unterschiedliche Zielgruppen konzipieren und durchführen, die Öffentlichkeitsarbeit für Ausstellungen organisieren die Klassifikation und Katalogisierung von Museums- und Kunstgaleriesammlungen beauftragen die Museumsleitung bei Ankaufentscheidungen beraten wissenschaftliche Arbeiten und Berichte verfassen"@de ;
