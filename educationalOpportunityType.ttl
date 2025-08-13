@@ -1,0 +1,425 @@
+@base <http://w3id.org/openeduhub/vocabs/educationalOffering/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Bildungsangebote - Typen und Formate"@de ;
+    dct:title "Educational Offerings - Types and Formats"@en ;
+    dct:creator <https://wirlernenonline.de> ;
+    dct:created "2025-08-13"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <career-qualifying>, <professional-development>, <personal-education>, <youth-education> .
+
+<career-qualifying> a skos:Concept ;
+    skos:prefLabel "Berufsqualifizierende Angebote"@de ;
+    skos:prefLabel "Career-Qualifying Offerings"@en ;
+    skos:definition "Angebote, die direkt zu einem anerkannten Berufsabschluss oder zur Berufsausübung befähigen."@de ;
+    skos:definition "Offerings that directly lead to a recognized professional qualification or enable professional practice."@en ;
+    skos:narrower <school-education>, <vocational-training>, <degree-program> .
+
+<school-education> a skos:Concept ;
+    skos:prefLabel "Schulausbildung"@de ;
+    skos:prefLabel "School Education"@en ;
+    skos:definition "Allgemeinbildende und berufsorientierte Schulformen des formalen Bildungssystems."@de ;
+    skos:definition "General and vocationally oriented school forms of the formal education system."@en ;
+    skos:broader <career-qualifying> ;
+    skos:narrower <general-school>, <secondary-school>, <career-prep-education> ;
+    skos:inScheme <> .
+
+<general-school> a skos:Concept ;
+    skos:prefLabel "Grundschulbildung"@de ;
+    skos:prefLabel "Primary Education"@en ;
+    skos:definition "Grundlegende Schulbildung in den ersten Schuljahren."@de ;
+    skos:definition "Basic school education in the first school years."@en ;
+    skos:broader <school-education> ;
+    skos:inScheme <> .
+
+<secondary-school> a skos:Concept ;
+    skos:prefLabel "Weiterführende Schule"@de ;
+    skos:prefLabel "Secondary Education"@en ;
+    skos:definition "Sekundarbildung einschließlich Hauptschule, Realschule, Gymnasium und Gesamtschule."@de ;
+    skos:definition "Secondary education including various school types leading to different qualifications."@en ;
+    skos:broader <school-education> ;
+    skos:inScheme <> .
+
+<career-prep-education> a skos:Concept ;
+    skos:prefLabel "Berufsvorbereitende Bildung"@de ;
+    skos:prefLabel "Career Preparation Education"@en ;
+    skos:definition "Schulische Angebote zur Vorbereitung auf eine Berufsausbildung oder den Arbeitsmarkt."@de ;
+    skos:definition "School-based offerings to prepare for vocational training or the job market."@en ;
+    skos:broader <school-education> ;
+    skos:inScheme <> .
+
+<vocational-training> a skos:Concept ;
+    skos:prefLabel "Berufsausbildung"@de ;
+    skos:prefLabel "Vocational Training"@en ;
+    skos:definition "Duale und schulische Berufsausbildung sowie Umschulung zu anerkannten Berufen."@de ;
+    skos:definition "Dual and school-based vocational training as well as retraining for recognized professions."@en ;
+    skos:broader <career-qualifying> ;
+    skos:narrower <dual-training>, <school-based-training>, <vocational-school>, <retraining> ;
+    skos:inScheme <> .
+
+<dual-training> a skos:Concept ;
+    skos:prefLabel "Duale Ausbildung"@de ;
+    skos:prefLabel "Dual Training"@en ;
+    skos:definition "Berufsausbildung mit praktischer Ausbildung im Betrieb und theoretischer Ausbildung in der Berufsschule."@de ;
+    skos:definition "Vocational training with practical training in companies and theoretical training in vocational schools."@en ;
+    skos:broader <vocational-training> ;
+    skos:inScheme <> .
+
+<school-based-training> a skos:Concept ;
+    skos:prefLabel "Schulische Berufsausbildung"@de ;
+    skos:prefLabel "School-based Vocational Training"@en ;
+    skos:definition "Vollschulische Berufsausbildung ohne betrieblichen Anteil."@de ;
+    skos:definition "Full-time school-based vocational training without company-based component."@en ;
+    skos:broader <vocational-training> ;
+    skos:inScheme <> .
+
+<vocational-school> a skos:Concept ;
+    skos:prefLabel "Berufsfachschule"@de ;
+    skos:prefLabel "Vocational School"@en ;
+    skos:definition "Berufsfachschule, Fachoberschule und ähnliche beruflich qualifizierende Schulformen."@de ;
+    skos:definition "Vocational schools and technical colleges providing professional qualifications."@en ;
+    skos:broader <vocational-training> ;
+    skos:inScheme <> .
+
+<retraining> a skos:Concept ;
+    skos:prefLabel "Umschulung"@de ;
+    skos:prefLabel "Retraining"@en ;
+    skos:definition "Berufliche Umschulung für einen Wechsel in einen anderen anerkannten Beruf."@de ;
+    skos:definition "Professional retraining for a career change to another recognized profession."@en ;
+    skos:broader <vocational-training> ;
+    skos:inScheme <> .
+
+<degree-program> a skos:Concept ;
+    skos:prefLabel "Studiengang"@de ;
+    skos:prefLabel "Degree Program"@en ;
+    skos:definition "Hochschulische Bildungsprogramme, die zu einem akademischen Grad führen."@de ;
+    skos:definition "Higher education programs leading to an academic degree."@en ;
+    skos:broader <career-qualifying> ;
+    skos:narrower <bachelor-program>, <master-program>, <state-exam-program>, <diploma-program> ;
+    skos:inScheme <> .
+
+<bachelor-program> a skos:Concept ;
+    skos:prefLabel "Bachelor-Studiengang"@de ;
+    skos:prefLabel "Bachelor Program"@en ;
+    skos:definition "Grundständiger Hochschulabschluss im gestuften Studiensystem."@de ;
+    skos:definition "Undergraduate degree program in the tiered study system."@en ;
+    skos:broader <degree-program> ;
+    skos:inScheme <> .
+
+<master-program> a skos:Concept ;
+    skos:prefLabel "Master-Studiengang"@de ;
+    skos:prefLabel "Master Program"@en ;
+    skos:definition "Weiterführender Hochschulabschluss im gestuften Studiensystem."@de ;
+    skos:definition "Graduate degree program in the tiered study system."@en ;
+    skos:broader <degree-program> ;
+    skos:inScheme <> .
+
+<state-exam-program> a skos:Concept ;
+    skos:prefLabel "Staatsexamen-Studiengang"@de ;
+    skos:prefLabel "State Examination Program"@en ;
+    skos:definition "Studiengänge mit staatlicher Prüfung wie Lehramt, Medizin oder Jura."@de ;
+    skos:definition "Degree programs with state examinations such as teaching, medicine or law."@en ;
+    skos:broader <degree-program> ;
+    skos:inScheme <> .
+
+<diploma-program> a skos:Concept ;
+    skos:prefLabel "Diplom-/Magister-Studiengang"@de ;
+    skos:prefLabel "Diploma/Magister Program"@en ;
+    skos:definition "Traditionelle Studiengänge mit Diplom- oder Magisterabschluss (größtenteils auslaufend)."@de ;
+    skos:definition "Traditional degree programs with diploma or magister qualification (mostly phased out)."@en ;
+    skos:broader <degree-program> ;
+    skos:inScheme <> .
+
+<professional-development> a skos:Concept ;
+    skos:prefLabel "Berufliche Weiterentwicklung"@de ;
+    skos:prefLabel "Professional Development"@en ;
+    skos:definition "Angebote für bereits Berufstätige zur Kompetenzerweiterung, Aufstieg oder Anpassung."@de ;
+    skos:definition "Offerings for working professionals for competence expansion, advancement or adaptation."@en ;
+    skos:narrower <continuing-education>, <professional-course> .
+
+<continuing-education> a skos:Concept ;
+    skos:prefLabel "Fortbildungsangebot"@de ;
+    skos:prefLabel "Continuing Education Offering"@en ;
+    skos:definition "Strukturierte Weiterbildung mit anerkannten Abschlüssen oder Zertifikaten für berufliche Qualifikation."@de ;
+    skos:definition "Structured continuing education with recognized certificates or qualifications for professional advancement."@en ;
+    skos:broader <professional-development> ;
+    skos:narrower <advancement-training>, <adaptation-training>, <certificate-course>, <compliance-training> ;
+    skos:inScheme <> .
+
+<advancement-training> a skos:Concept ;
+    skos:prefLabel "Aufstiegsfortbildung"@de ;
+    skos:prefLabel "Advancement Training"@en ;
+    skos:definition "Fortbildungen für beruflichen Aufstieg wie Meister, Fachwirt oder Techniker."@de ;
+    skos:definition "Training for professional advancement such as master craftsman, specialist or technician qualifications."@en ;
+    skos:broader <continuing-education> ;
+    skos:inScheme <> .
+
+<adaptation-training> a skos:Concept ;
+    skos:prefLabel "Anpassungsfortbildung"@de ;
+    skos:prefLabel "Adaptation Training"@en ;
+    skos:definition "Fortbildungen zur Anpassung an veränderte Arbeitsanforderungen und neue Technologien."@de ;
+    skos:definition "Training to adapt to changing work requirements and new technologies."@en ;
+    skos:broader <continuing-education> ;
+    skos:inScheme <> .
+
+<certificate-course> a skos:Concept ;
+    skos:prefLabel "Zertifikatslehrgang"@de ;
+    skos:prefLabel "Certificate Course"@en ;
+    skos:definition "Strukturierte Lehrgänge mit anerkannten Zertifikaten von Kammern, Verbänden oder Branchenorganisationen."@de ;
+    skos:definition "Structured courses with recognized certificates from chambers, associations or industry organizations."@en ;
+    skos:broader <continuing-education> ;
+    skos:inScheme <> .
+
+<compliance-training> a skos:Concept ;
+    skos:prefLabel "Compliance-Schulung"@de ;
+    skos:prefLabel "Compliance Training"@en ;
+    skos:definition "Pflichtschulungen zu rechtlichen, sicherheitsrelevanten oder branchenspezifischen Vorgaben."@de ;
+    skos:definition "Mandatory training on legal, safety-related or industry-specific requirements."@en ;
+    skos:broader <continuing-education> ;
+    skos:inScheme <> .
+
+<professional-course> a skos:Concept ;
+    skos:prefLabel "Kurs (berufsbezogen)"@de ;
+    skos:prefLabel "Course (Professional)"@en ;
+    skos:definition "Einzelne Bildungsangebote zur Entwicklung spezifischer beruflicher Kompetenzen und Fertigkeiten."@de ;
+    skos:definition "Individual educational offerings for developing specific professional competencies and skills."@en ;
+    skos:broader <professional-development> ;
+    skos:narrower <specialist-course>, <it-training>, <soft-skills-training>, <project-management-course>, <professional-language-course> ;
+    skos:inScheme <> .
+
+<specialist-course> a skos:Concept ;
+    skos:prefLabel "Fachkurs/Spezialisierung"@de ;
+    skos:prefLabel "Specialist Course"@en ;
+    skos:definition "Kurse zur Vertiefung fachspezifischer Kompetenzen und Spezialisierung in bestimmten Bereichen."@de ;
+    skos:definition "Courses for deepening domain-specific competencies and specialization in certain areas."@en ;
+    skos:broader <professional-course> ;
+    skos:inScheme <> .
+
+<it-training> a skos:Concept ;
+    skos:prefLabel "IT-Schulung"@de ;
+    skos:prefLabel "IT Training"@en ;
+    skos:definition "Schulungen zu Informationstechnologie, Software, digitalen Tools und technischen Fertigkeiten."@de ;
+    skos:definition "Training on information technology, software, digital tools and technical skills."@en ;
+    skos:broader <professional-course> ;
+    skos:inScheme <> .
+
+<soft-skills-training> a skos:Concept ;
+    skos:prefLabel "Soft-Skills-Training"@de ;
+    skos:prefLabel "Soft Skills Training"@en ;
+    skos:definition "Training zu sozialen, kommunikativen und persönlichen Kompetenzen im beruflichen Kontext."@de ;
+    skos:definition "Training on social, communicative and personal competencies in professional contexts."@en ;
+    skos:broader <professional-course> ;
+    skos:inScheme <> .
+
+<project-management-course> a skos:Concept ;
+    skos:prefLabel "Projektmanagement-Kurs"@de ;
+    skos:prefLabel "Project Management Course"@en ;
+    skos:definition "Kurse zu Projektmanagement-Methoden, -Tools und -Zertifizierungen."@de ;
+    skos:definition "Courses on project management methods, tools and certifications."@en ;
+    skos:broader <professional-course> ;
+    skos:inScheme <> .
+
+<professional-language-course> a skos:Concept ;
+    skos:prefLabel "Sprachen für den Beruf"@de ;
+    skos:prefLabel "Professional Language Course"@en ;
+    skos:definition "Sprachkurse mit beruflichem Fokus für internationale Geschäftstätigkeit."@de ;
+    skos:definition "Language courses with professional focus for international business activities."@en ;
+    skos:broader <professional-course> ;
+    skos:inScheme <> .
+
+<personal-education> a skos:Concept ;
+    skos:prefLabel "Persönliche Bildung und Entwicklung"@de ;
+    skos:prefLabel "Personal Education and Development"@en ;
+    skos:definition "Angebote zur persönlichen Entfaltung, Allgemeinbildung oder Interessensverfolgung."@de ;
+    skos:definition "Offerings for personal development, general education or pursuit of interests."@en ;
+    skos:narrower <general-course>, <cultural-political-education> .
+
+<general-course> a skos:Concept ;
+    skos:prefLabel "Kurs (allgemeinbildend)"@de ;
+    skos:prefLabel "Course (General Education)"@en ;
+    skos:definition "Bildungsangebote zur persönlichen Weiterentwicklung, Hobby- und Interessensverfolgung oder Allgemeinbildung."@de ;
+    skos:definition "Educational offerings for personal development, hobby and interest pursuit or general education."@en ;
+    skos:broader <personal-education> ;
+    skos:narrower <language-course>, <creative-course>, <health-fitness-course>, <hobby-leisure-course>, <basic-education> ;
+    skos:inScheme <> .
+
+<language-course> a skos:Concept ;
+    skos:prefLabel "Sprachkurs (privat)"@de ;
+    skos:prefLabel "Language Course (Private)"@en ;
+    skos:definition "Sprachkurse für persönliche Zwecke, Reisen oder allgemeine Kommunikation."@de ;
+    skos:definition "Language courses for personal purposes, travel or general communication."@en ;
+    skos:broader <general-course> ;
+    skos:inScheme <> .
+
+<creative-course> a skos:Concept ;
+    skos:prefLabel "Kreativkurs"@de ;
+    skos:prefLabel "Creative Course"@en ;
+    skos:definition "Kurse zu Kunst, Handwerk, Musik und anderen kreativen Tätigkeiten."@de ;
+    skos:definition "Courses on art, crafts, music and other creative activities."@en ;
+    skos:broader <general-course> ;
+    skos:inScheme <> .
+
+<health-fitness-course> a skos:Concept ;
+    skos:prefLabel "Gesundheits-/Fitnesskurs"@de ;
+    skos:prefLabel "Health/Fitness Course"@en ;
+    skos:definition "Kurse zu körperlicher Fitness, Gesundheitsvorsorge und Wohlbefinden."@de ;
+    skos:definition "Courses on physical fitness, health prevention and well-being."@en ;
+    skos:broader <general-course> ;
+    skos:inScheme <> .
+
+<hobby-leisure-course> a skos:Concept ;
+    skos:prefLabel "Hobby-/Freizeitkurs"@de ;
+    skos:prefLabel "Hobby/Leisure Course"@en ;
+    skos:definition "Kurse zu Freizeitaktivitäten, Hobbys und persönlichen Interessen."@de ;
+    skos:definition "Courses on leisure activities, hobbies and personal interests."@en ;
+    skos:broader <general-course> ;
+    skos:inScheme <> .
+
+<basic-education> a skos:Concept ;
+    skos:prefLabel "Grundbildung/Alphabetisierung"@de ;
+    skos:prefLabel "Basic Education/Literacy"@en ;
+    skos:definition "Grundlegende Bildungsangebote wie Lesen, Schreiben, Rechnen für Erwachsene."@de ;
+    skos:definition "Basic educational offerings such as reading, writing, arithmetic for adults."@en ;
+    skos:broader <general-course> ;
+    skos:inScheme <> .
+
+<cultural-political-education> a skos:Concept ;
+    skos:prefLabel "Kulturelle und politische Bildung"@de ;
+    skos:prefLabel "Cultural and Political Education"@en ;
+    skos:definition "Bildungsangebote zur gesellschaftlichen Teilhabe, kulturellen Bildung und politischen Meinungsbildung."@de ;
+    skos:definition "Educational offerings for social participation, cultural education and political opinion formation."@en ;
+    skos:broader <personal-education> ;
+    skos:narrower <educational-lecture>, <study-trip>, <discussion-forum>, <democracy-education> ;
+    skos:inScheme <> .
+
+<educational-lecture> a skos:Concept ;
+    skos:prefLabel "Vortrag mit Bildungscharakter"@de ;
+    skos:prefLabel "Educational Lecture"@en ;
+    skos:definition "Informative Vorträge zu gesellschaftlichen, kulturellen oder wissenschaftlichen Themen."@de ;
+    skos:definition "Informative lectures on social, cultural or scientific topics."@en ;
+    skos:broader <cultural-political-education> ;
+    skos:inScheme <> .
+
+<study-trip> a skos:Concept ;
+    skos:prefLabel "Studienreise"@de ;
+    skos:prefLabel "Study Trip"@en ;
+    skos:definition "Bildungsreisen zu kulturellen, historischen oder gesellschaftlich relevanten Orten."@de ;
+    skos:definition "Educational trips to cultural, historical or socially relevant places."@en ;
+    skos:broader <cultural-political-education> ;
+    skos:inScheme <> .
+
+<discussion-forum> a skos:Concept ;
+    skos:prefLabel "Diskussionsforum"@de ;
+    skos:prefLabel "Discussion Forum"@en ;
+    skos:definition "Strukturierte Diskussionsveranstaltungen zu gesellschaftlich relevanten Themen."@de ;
+    skos:definition "Structured discussion events on socially relevant topics."@en ;
+    skos:broader <cultural-political-education> ;
+    skos:inScheme <> .
+
+<democracy-education> a skos:Concept ;
+    skos:prefLabel "Demokratiebildung"@de ;
+    skos:prefLabel "Democracy Education"@en ;
+    skos:definition "Bildungsangebote zur Förderung demokratischer Teilhabe und politischer Mündigkeit."@de ;
+    skos:definition "Educational offerings to promote democratic participation and political maturity."@en ;
+    skos:broader <cultural-political-education> ;
+    skos:inScheme <> .
+
+<youth-education> a skos:Concept ;
+    skos:prefLabel "Kinder- und Jugendbildung (außerschulisch)"@de ;
+    skos:prefLabel "Youth Education (Extracurricular)"@en ;
+    skos:definition "Ergänzende Bildungsangebote für Minderjährige außerhalb der Schulpflicht."@de ;
+    skos:definition "Supplementary educational offerings for minors outside compulsory schooling."@en ;
+    skos:narrower <early-childhood-offering>, <extracurricular-offering> .
+
+<early-childhood-offering> a skos:Concept ;
+    skos:prefLabel "Frühkindliches Angebot"@de ;
+    skos:prefLabel "Early Childhood Offering"@en ;
+    skos:definition "Bildungs- und Betreuungsangebote für Kinder im Vorschulalter zur frühen Förderung und Entwicklung."@de ;
+    skos:definition "Educational and care offerings for preschool children for early support and development."@en ;
+    skos:broader <youth-education> ;
+    skos:narrower <early-support>, <parent-child-course>, <playgroup>, <preschool-program> ;
+    skos:inScheme <> .
+
+<early-support> a skos:Concept ;
+    skos:prefLabel "Frühförderung"@de ;
+    skos:prefLabel "Early Support"@en ;
+    skos:definition "Gezielte Förderung der Entwicklung von Kindern in den ersten Lebensjahren."@de ;
+    skos:definition "Targeted support for child development in the first years of life."@en ;
+    skos:broader <early-childhood-offering> ;
+    skos:inScheme <> .
+
+<parent-child-course> a skos:Concept ;
+    skos:prefLabel "Eltern-Kind-Kurs"@de ;
+    skos:prefLabel "Parent-Child Course"@en ;
+    skos:definition "Gemeinsame Bildungs- und Spielangebote für Eltern und Kleinkinder."@de ;
+    skos:definition "Joint educational and play offerings for parents and toddlers."@en ;
+    skos:broader <early-childhood-offering> ;
+    skos:inScheme <> .
+
+<playgroup> a skos:Concept ;
+    skos:prefLabel "Spielgruppe mit Bildungscharakter"@de ;
+    skos:prefLabel "Educational Playgroup"@en ;
+    skos:definition "Strukturierte Spielgruppen mit pädagogischen Elementen für Kleinkinder."@de ;
+    skos:definition "Structured playgroups with educational elements for toddlers."@en ;
+    skos:broader <early-childhood-offering> ;
+    skos:inScheme <> .
+
+<preschool-program> a skos:Concept ;
+    skos:prefLabel "Vorschulprogramm"@de ;
+    skos:prefLabel "Preschool Program"@en ;
+    skos:definition "Spezielle Programme zur Vorbereitung auf die Einschulung."@de ;
+    skos:definition "Special programs to prepare children for school enrollment."@en ;
+    skos:broader <early-childhood-offering> ;
+    skos:inScheme <> .
+
+<extracurricular-offering> a skos:Concept ;
+    skos:prefLabel "Außerschulisches Angebot"@de ;
+    skos:prefLabel "Extracurricular Offering"@en ;
+    skos:definition "Bildungsangebote für Kinder und Jugendliche außerhalb des regulären Schulunterrichts zur Interessensförderung und Talententwicklung."@de ;
+    skos:definition "Educational offerings for children and youth outside regular school instruction for promoting interests and developing talents."@en ;
+    skos:broader <youth-education> ;
+    skos:narrower <music-education>, <sports-education>, <tutoring>, <vacation-academy>, <youth-organization> ;
+    skos:inScheme <> .
+
+<music-education> a skos:Concept ;
+    skos:prefLabel "Musikunterricht/Musikschule"@de ;
+    skos:prefLabel "Music Education/Music School"@en ;
+    skos:definition "Instrumentalunterricht, Gesang und musikalische Bildung für Kinder und Jugendliche."@de ;
+    skos:definition "Instrumental lessons, singing and musical education for children and youth."@en ;
+    skos:broader <extracurricular-offering> ;
+    skos:inScheme <> .
+
+<sports-education> a skos:Concept ;
+    skos:prefLabel "Sportverein (mit Bildungsaspekt)"@de ;
+    skos:prefLabel "Sports Club (Educational)"@en ;
+    skos:definition "Sportliche Aktivitäten mit pädagogischen und sozialen Lernzielen."@de ;
+    skos:definition "Sports activities with educational and social learning objectives."@en ;
+    skos:broader <extracurricular-offering> ;
+    skos:inScheme <> .
+
+<tutoring> a skos:Concept ;
+    skos:prefLabel "Nachhilfe/Lernförderung"@de ;
+    skos:prefLabel "Tutoring/Learning Support"@en ;
+    skos:definition "Individuelle oder gruppenbezogene Lernunterstützung zur Verbesserung schulischer Leistungen."@de ;
+    skos:definition "Individual or group-based learning support to improve academic performance."@en ;
+    skos:broader <extracurricular-offering> ;
+    skos:inScheme <> .
+
+<vacation-academy> a skos:Concept ;
+    skos:prefLabel "Ferienakademie"@de ;
+    skos:prefLabel "Vacation Academy"@en ;
+    skos:definition "Intensive Bildungsprogramme in den Schulferien zu speziellen Themen oder Fähigkeiten."@de ;
+    skos:definition "Intensive educational programs during school holidays on special topics or skills."@en ;
+    skos:broader <extracurricular-offering> ;
+    skos:inScheme <> .
+
+<youth-organization> a skos:Concept ;
+    skos:prefLabel "Jugendbildung/Jugendverbände"@de ;
+    skos:prefLabel "Youth Education/Youth Organizations"@en ;
+    skos:definition "Bildungsangebote von Jugendverbänden und -organisationen zur sozialen und persönlichen Entwicklung."@de ;
+    skos:definition "Educational offerings from youth associations and organizations for social and personal development."@en ;
+    skos:broader <extracurricular-offering> ;
+    skos:inScheme <> .
