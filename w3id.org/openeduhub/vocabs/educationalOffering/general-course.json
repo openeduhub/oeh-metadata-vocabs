@@ -1,0 +1,186 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/general-course",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Kurs (allgemeinbildend)",
+    "en": "Course (General Education)"
+  },
+  "definition": {
+    "de": "Bildungsangebote zur persönlichen Weiterentwicklung, Hobby- und Interessensverfolgung oder Allgemeinbildung.",
+    "en": "Educational offerings for personal development, hobby and interest pursuit or general education."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/language-course",
+      "prefLabel": {
+        "de": "Sprachkurs (privat)",
+        "en": "Language Course (Private)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/creative-course",
+      "prefLabel": {
+        "de": "Kreativkurs",
+        "en": "Creative Course"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/health-fitness-course",
+      "prefLabel": {
+        "de": "Gesundheits-/Fitnesskurs",
+        "en": "Health/Fitness Course"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/hobby-leisure-course",
+      "prefLabel": {
+        "de": "Hobby-/Freizeitkurs",
+        "en": "Hobby/Leisure Course"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/basic-education",
+      "prefLabel": {
+        "de": "Grundbildung/Alphabetisierung",
+        "en": "Basic Education/Literacy"
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/personal-education",
+    "prefLabel": {
+      "de": "Persönliche Bildung und Entwicklung",
+      "en": "Personal Education and Development"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/",
+      "title": {
+        "de": "Bildungsangebote - Typen und Formate",
+        "en": "Educational Offerings - Types and Formats"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}
