@@ -1,0 +1,308 @@
+@base <http://w3id.org/openeduhub/vocabs/eventType/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Veranstaltungstypen im Bildungskontext"@de ;
+    dct:title "Event Types in Educational Context"@en ;
+    dct:creator <https://wirlernenonline.de> ;
+    dct:created "2025-01-15"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <formal-education-events>, <scientific-events>, <discourse-exchange-formats>, <information-orientation-events>, <performance-competition-events>, <ceremonial-social-education-events>, <extended-education-formats>, <modern-hybrid-formats> .
+
+<formal-education-events> a skos:Concept ;
+    skos:prefLabel "Formale Bildungsveranstaltungen"@de ;
+    skos:prefLabel "Formal Educational Events"@en ;
+    skos:definition "Strukturierte Lehrveranstaltungen im institutionellen Bildungskontext mit definierten Lernzielen und meist curricularer Einbindung."@de ;
+    skos:definition "Structured teaching events in institutional educational contexts with defined learning objectives and usually curricular integration."@en ;
+    skos:narrower <lecture>, <seminar>, <workshop>, <tutorial> .
+
+<lecture> a skos:Concept ;
+    skos:prefLabel "Vorlesung"@de ;
+    skos:prefLabel "Lecture"@en ;
+    skos:definition "Traditionelle Form der Wissensvermittlung durch einen Lehrenden an eine größere Gruppe, meist unidirektional strukturiert."@de ;
+    skos:definition "Traditional form of knowledge transmission by an instructor to a larger group, usually structured unidirectionally."@en ;
+    skos:broader <formal-education-events> ;
+    skos:inScheme <> .
+
+<seminar> a skos:Concept ;
+    skos:prefLabel "Seminar"@de ;
+    skos:prefLabel "Seminar"@en ;
+    skos:definition "Kleine, interaktive Lehrveranstaltung (10-20 Teilnehmer) mit Diskussion, Gruppenarbeit und aktiver Teilnahme aller Beteiligten."@de ;
+    skos:definition "Small, interactive teaching event (10-20 participants) with discussion, group work and active participation of all involved."@en ;
+    skos:broader <formal-education-events> ;
+    skos:inScheme <> .
+
+<workshop> a skos:Concept ;
+    skos:prefLabel "Workshop"@de ;
+    skos:prefLabel "Workshop"@en ;
+    skos:definition "Handlungsorientierte Veranstaltung zur praktischen Kompetenzentwicklung mit direkter Anwendung und Übung neuer Fertigkeiten."@de ;
+    skos:definition "Action-oriented event for practical competence development with direct application and practice of new skills."@en ;
+    skos:broader <formal-education-events> ;
+    skos:inScheme <> .
+
+<tutorial> a skos:Concept ;
+    skos:prefLabel "Übung/Tutorial"@de ;
+    skos:prefLabel "Tutorial/Exercise"@en ;
+    skos:definition "Begleitende Lehrveranstaltung zur Anwendung und Vertiefung von Lehrinhalten durch praktische Aufgaben und Übungen."@de ;
+    skos:definition "Accompanying teaching event for applying and deepening learning content through practical tasks and exercises."@en ;
+    skos:broader <formal-education-events> ;
+    skos:inScheme <> .
+
+<scientific-events> a skos:Concept ;
+    skos:prefLabel "Wissenschaftliche Veranstaltungen"@de ;
+    skos:prefLabel "Scientific Events"@en ;
+    skos:definition "Veranstaltungen zum wissenschaftlichen Austausch, zur Präsentation von Forschungsergebnissen und zur fachlichen Weiterbildung."@de ;
+    skos:definition "Events for scientific exchange, presentation of research results and professional development."@en ;
+    skos:narrower <conference>, <specialist-conference>, <symposium>, <colloquium>, <poster-session> .
+
+<conference> a skos:Concept ;
+    skos:prefLabel "Konferenz/Kongress"@de ;
+    skos:prefLabel "Conference/Congress"@en ;
+    skos:definition "Große, mehrtägige wissenschaftliche Veranstaltung mit breiter Thematik, Keynotes und parallelen Sessions (50+ Teilnehmer)."@de ;
+    skos:definition "Large, multi-day scientific event with broad topics, keynotes and parallel sessions (50+ participants)."@en ;
+    skos:broader <scientific-events> ;
+    skos:inScheme <> .
+
+<specialist-conference> a skos:Concept ;
+    skos:prefLabel "Fachtagung"@de ;
+    skos:prefLabel "Specialist Conference"@en ;
+    skos:definition "Spezifische berufliche oder fachliche Weiterbildungsveranstaltung mit Fokus auf praktische Anwendung und Erfahrungsaustausch."@de ;
+    skos:definition "Specific professional or technical continuing education event focused on practical application and exchange of experience."@en ;
+    skos:broader <scientific-events> ;
+    skos:inScheme <> .
+
+<symposium> a skos:Concept ;
+    skos:prefLabel "Symposium"@de ;
+    skos:prefLabel "Symposium"@en ;
+    skos:definition "Kleine, spezialisierte Expertenversammlung zu einem spezifischen Forschungsthema, meist eintägig und prestigeträchtig."@de ;
+    skos:definition "Small, specialized expert gathering on a specific research topic, usually one-day and prestigious."@en ;
+    skos:broader <scientific-events> ;
+    skos:inScheme <> .
+
+<colloquium> a skos:Concept ;
+    skos:prefLabel "Kolloquium"@de ;
+    skos:prefLabel "Colloquium"@en ;
+    skos:definition "Wissenschaftlicher Austausch in kleinerem Kreis, oft institutsintern zur Präsentation laufender Forschungsarbeiten."@de ;
+    skos:definition "Scientific exchange in a smaller circle, often internal to institutions for presenting ongoing research work."@en ;
+    skos:broader <scientific-events> ;
+    skos:inScheme <> .
+
+<poster-session> a skos:Concept ;
+    skos:prefLabel "Poster-Session"@de ;
+    skos:prefLabel "Poster Session"@en ;
+    skos:definition "Visuelle Forschungspräsentation mit direkter Diskussion zwischen Forschern und Besuchern, oft Teil größerer Konferenzen."@de ;
+    skos:definition "Visual research presentation with direct discussion between researchers and visitors, often part of larger conferences."@en ;
+    skos:broader <scientific-events> ;
+    skos:inScheme <> .
+
+<discourse-exchange-formats> a skos:Concept ;
+    skos:prefLabel "Diskurs- und Austauschformate"@de ;
+    skos:prefLabel "Discourse and Exchange Formats"@en ;
+    skos:definition "Veranstaltungsformate zur strukturierten Diskussion, Meinungsbildung und zum gleichberechtigten Gedankenaustausch."@de ;
+    skos:definition "Event formats for structured discussion, opinion formation and equal exchange of ideas."@en ;
+    skos:narrower <roundtable>, <panel>, <forum>, <debate> .
+
+<roundtable> a skos:Concept ;
+    skos:prefLabel "Roundtable/Diskussionsrunde"@de ;
+    skos:prefLabel "Roundtable/Discussion Round"@en ;
+    skos:definition "Gleichberechtigter Expertenaustausch zu kontroversen Themen mit aktiver Publikumsbeteiligung und moderierter Diskussion."@de ;
+    skos:definition "Equal expert exchange on controversial topics with active audience participation and moderated discussion."@en ;
+    skos:broader <discourse-exchange-formats> ;
+    skos:inScheme <> .
+
+<panel> a skos:Concept ;
+    skos:prefLabel "Panel"@de ;
+    skos:prefLabel "Panel"@en ;
+    skos:definition "Expertendiskussion vor Publikum, das hauptsächlich zuhört, oft mit anschließender Fragerunde."@de ;
+    skos:definition "Expert discussion in front of an audience that mainly listens, often with subsequent Q&A session."@en ;
+    skos:broader <discourse-exchange-formats> ;
+    skos:inScheme <> .
+
+<forum> a skos:Concept ;
+    skos:prefLabel "Forum"@de ;
+    skos:prefLabel "Forum"@en ;
+    skos:definition "Veranstaltung mit Schwerpunkt auf Publikumsbeteiligung und freier Diskussion zu einem bestimmten Thema."@de ;
+    skos:definition "Event focused on audience participation and free discussion on a specific topic."@en ;
+    skos:broader <discourse-exchange-formats> ;
+    skos:inScheme <> .
+
+<debate> a skos:Concept ;
+    skos:prefLabel "Debatte"@de ;
+    skos:prefLabel "Debate"@en ;
+    skos:definition "Strukturierte Meinungsauseinandersetzung mit festen Regeln, Pro- und Contra-Positionen zu einem strittigen Thema."@de ;
+    skos:definition "Structured exchange of opinions with fixed rules, pro and con positions on a controversial topic."@en ;
+    skos:broader <discourse-exchange-formats> ;
+    skos:inScheme <> .
+
+<information-orientation-events> a skos:Concept ;
+    skos:prefLabel "Informations- und Orientierungsveranstaltungen"@de ;
+    skos:prefLabel "Information and Orientation Events"@en ;
+    skos:definition "Veranstaltungen zur Vermittlung von Überblickswissen, Orientierungshilfe und Entscheidungsunterstützung."@de ;
+    skos:definition "Events for providing overview knowledge, orientation assistance and decision support."@en ;
+    skos:narrower <fair>, <info-event>, <open-house> .
+
+<fair> a skos:Concept ;
+    skos:prefLabel "Messe"@de ;
+    skos:prefLabel "Fair/Expo"@en ;
+    skos:definition "Große Informations- und Orientierungsveranstaltung mit Ausstellern (Bildungs-, Hochschul-, Berufsmessen)."@de ;
+    skos:definition "Large information and orientation event with exhibitors (education, university, career fairs)."@en ;
+    skos:broader <information-orientation-events> ;
+    skos:inScheme <> .
+
+<info-event> a skos:Concept ;
+    skos:prefLabel "Infoveranstaltung"@de ;
+    skos:prefLabel "Information Event"@en ;
+    skos:definition "Spezifische Veranstaltung zur gezielten Informationsvermittlung über Programme, Angebote oder Verfahren."@de ;
+    skos:definition "Specific event for targeted information provision about programs, offerings or procedures."@en ;
+    skos:broader <information-orientation-events> ;
+    skos:inScheme <> .
+
+<open-house> a skos:Concept ;
+    skos:prefLabel "Tag der offenen Tür"@de ;
+    skos:prefLabel "Open House"@en ;
+    skos:definition "Institutionelle Präsentations- und Orientierungsveranstaltung zum Kennenlernen von Einrichtungen und deren Angeboten."@de ;
+    skos:definition "Institutional presentation and orientation event for getting to know facilities and their offerings."@en ;
+    skos:broader <information-orientation-events> ;
+    skos:inScheme <> .
+
+<performance-competition-events> a skos:Concept ;
+    skos:prefLabel "Leistungs- und Wettbewerbsveranstaltungen"@de ;
+    skos:prefLabel "Performance and Competition Events"@en ;
+    skos:definition "Veranstaltungen zur Leistungsmessung, -bewertung und -anerkennung im Bildungskontext."@de ;
+    skos:definition "Events for performance measurement, evaluation and recognition in educational contexts."@en ;
+    skos:narrower <competition>, <examination>, <presentation> .
+
+<competition> a skos:Concept ;
+    skos:prefLabel "Wettbewerb"@de ;
+    skos:prefLabel "Competition"@en ;
+    skos:definition "Kompetitive Bildungsveranstaltung zur Leistungsmessung (Wissenschaftsolympiaden, Debattierwettbewerbe, etc.)."@de ;
+    skos:definition "Competitive educational event for performance measurement (science olympiads, debate competitions, etc.)."@en ;
+    skos:broader <performance-competition-events> ;
+    skos:inScheme <> .
+
+<examination> a skos:Concept ;
+    skos:prefLabel "Prüfung/Examen"@de ;
+    skos:prefLabel "Examination/Exam"@en ;
+    skos:definition "Formelle Leistungsbewertung und Zertifizierung von erworbenen Kenntnissen und Kompetenzen."@de ;
+    skos:definition "Formal performance evaluation and certification of acquired knowledge and competencies."@en ;
+    skos:broader <performance-competition-events> ;
+    skos:inScheme <> .
+
+<presentation> a skos:Concept ;
+    skos:prefLabel "Präsentation"@de ;
+    skos:prefLabel "Presentation"@en ;
+    skos:definition "Studentische oder wissenschaftliche Ergebnispräsentation vor Publikum zur Darstellung von Arbeiten oder Projekten."@de ;
+    skos:definition "Student or scientific result presentation to an audience for displaying work or projects."@en ;
+    skos:broader <performance-competition-events> ;
+    skos:inScheme <> .
+
+<ceremonial-social-education-events> a skos:Concept ;
+    skos:prefLabel "Zeremonielle und soziale Bildungsveranstaltungen"@de ;
+    skos:prefLabel "Ceremonial and Social Educational Events"@en ;
+    skos:definition "Feierliche und gemeinschaftsbildende Veranstaltungen im Bildungskontext zur Würdigung und sozialen Integration."@de ;
+    skos:definition "Ceremonial and community-building events in educational contexts for recognition and social integration."@en ;
+    skos:narrower <graduation-ceremony>, <award-ceremony>, <orientation-event> .
+
+<graduation-ceremony> a skos:Concept ;
+    skos:prefLabel "Abschlussfeier/Graduation"@de ;
+    skos:prefLabel "Graduation Ceremony"@en ;
+    skos:definition "Feierliche Zeremonie zur Würdigung und offiziellen Anerkennung von Bildungsabschlüssen."@de ;
+    skos:definition "Ceremonial event for honoring and official recognition of educational achievements."@en ;
+    skos:broader <ceremonial-social-education-events> ;
+    skos:inScheme <> .
+
+<award-ceremony> a skos:Concept ;
+    skos:prefLabel "Ehrung/Preisverleihung"@de ;
+    skos:prefLabel "Award Ceremony"@en ;
+    skos:definition "Feierliche Anerkennung und Auszeichnung herausragender Bildungsleistungen oder -verdienste."@de ;
+    skos:definition "Ceremonial recognition and honoring of outstanding educational achievements or merits."@en ;
+    skos:broader <ceremonial-social-education-events> ;
+    skos:inScheme <> .
+
+<orientation-event> a skos:Concept ;
+    skos:prefLabel "Einführungsveranstaltung"@de ;
+    skos:prefLabel "Orientation Event"@en ;
+    skos:definition "Begrüßungs- und Orientierungsveranstaltung für neue Lernende zur sozialen Integration und Information."@de ;
+    skos:definition "Welcome and orientation event for new learners for social integration and information."@en ;
+    skos:broader <ceremonial-social-education-events> ;
+    skos:inScheme <> .
+
+<extended-education-formats> a skos:Concept ;
+    skos:prefLabel "Erweiterte Bildungsformate"@de ;
+    skos:prefLabel "Extended Educational Formats"@en ;
+    skos:definition "Innovative und erweiterte Lernformate jenseits traditioneller Veranstaltungsformen im Bildungskontext."@de ;
+    skos:definition "Innovative and extended learning formats beyond traditional event forms in educational contexts."@en ;
+    skos:narrower <excursion>, <internship>, <extracurricular-offering>, <summer-school> .
+
+<excursion> a skos:Concept ;
+    skos:prefLabel "Exkursion/Studienreise"@de ;
+    skos:prefLabel "Excursion/Study Trip"@en ;
+    skos:definition "Ortsgebundenes, experientielles Lernen außerhalb der Institution zur praktischen Anschauung und Erfahrung."@de ;
+    skos:definition "Location-based, experiential learning outside the institution for practical observation and experience."@en ;
+    skos:broader <extended-education-formats> ;
+    skos:inScheme <> .
+
+<internship> a skos:Concept ;
+    skos:prefLabel "Praktikum"@de ;
+    skos:prefLabel "Internship"@en ;
+    skos:definition "Arbeitsplatzbasiertes Lernen in realen Berufskontexten zur praktischen Kompetenzentwicklung."@de ;
+    skos:definition "Workplace-based learning in real professional contexts for practical competence development."@en ;
+    skos:broader <extended-education-formats> ;
+    skos:inScheme <> .
+
+<extracurricular-offering> a skos:Concept ;
+    skos:prefLabel "Außerschulisches Angebot"@de ;
+    skos:prefLabel "Extracurricular Offering"@en ;
+    skos:definition "Non-formale Bildungsveranstaltungen außerhalb des regulären Curriculums zur Interessenförderung und Talententwicklung."@de ;
+    skos:definition "Non-formal educational events outside the regular curriculum for promoting interests and developing talents."@en ;
+    skos:broader <extended-education-formats> ;
+    skos:inScheme <> .
+
+<summer-school> a skos:Concept ;
+    skos:prefLabel "Summer School/Winter School"@de ;
+    skos:prefLabel "Summer School/Winter School"@en ;
+    skos:definition "Intensive, zeitlich begrenzte Bildungsprogramme oft mit internationaler Ausrichtung und speziellem Fokus."@de ;
+    skos:definition "Intensive, time-limited educational programs often with international orientation and special focus."@en ;
+    skos:broader <extended-education-formats> ;
+    skos:inScheme <> .
+
+<modern-hybrid-formats> a skos:Concept ;
+    skos:prefLabel "Moderne/Hybride Formate"@de ;
+    skos:prefLabel "Modern/Hybrid Formats"@en ;
+    skos:definition "Zeitgemäße, oft technologiegestützte und partizipative Veranstaltungsformate im digitalen Zeitalter."@de ;
+    skos:definition "Contemporary, often technology-supported and participatory event formats in the digital age."@en ;
+    skos:narrower <unconference>, <webinar>, <hackathon>, <barcamp> .
+
+<unconference> a skos:Concept ;
+    skos:prefLabel "Unconference"@de ;
+    skos:prefLabel "Unconference"@en ;
+    skos:definition "Partizipative, selbstorganisierte Veranstaltung ohne feste Agenda, bei der Teilnehmer Inhalte und Struktur bestimmen."@de ;
+    skos:definition "Participatory, self-organized event without fixed agenda, where participants determine content and structure."@en ;
+    skos:broader <modern-hybrid-formats> ;
+    skos:inScheme <> .
+
+<webinar> a skos:Concept ;
+    skos:prefLabel "Webinar"@de ;
+    skos:prefLabel "Webinar"@en ;
+    skos:definition "Online-Seminarformat über das Internet mit digitaler Übertragung von Präsentationen und Interaktionsmöglichkeiten."@de ;
+    skos:definition "Online seminar format via internet with digital transmission of presentations and interaction possibilities."@en ;
+    skos:broader <modern-hybrid-formats> ;
+    skos:inScheme <> .
+
+<hackathon> a skos:Concept ;
+    skos:prefLabel "Hackathon"@de ;
+    skos:prefLabel "Hackathon"@en ;
+    skos:definition "Intensive, problemlösungsorientierte Veranstaltung zur kollaborativen Entwicklung innovativer Lösungen in kurzer Zeit."@de ;
+    skos:definition "Intensive, problem-solving oriented event for collaborative development of innovative solutions in a short time."@en ;
+    skos:broader <modern-hybrid-formats> ;
+    skos:inScheme <> .
+
+<barcamp> a skos:Concept ;
+    skos:prefLabel "Barcamp"@de ;
+    skos:prefLabel "Barcamp"@en ;
+    skos:definition "Offenes, partizipatives Konferenzformat ohne feste Agenda, bei dem Teilnehmer spontan Sessions vorschlagen und gestalten."@de ;
+    skos:definition "Open, participatory conference format without fixed agenda, where participants spontaneously propose and design sessions."@en ;
+    skos:broader <modern-hybrid-formats> ;
+    skos:inScheme <> .
