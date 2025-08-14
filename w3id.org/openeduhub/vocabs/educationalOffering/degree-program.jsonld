@@ -37,13 +37,20 @@
         "de": "Diplom-/Magister-Studiengang",
         "en": "Diploma/Magister Program"
       }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/doctoral-program",
+      "prefLabel": {
+        "de": "Promotionsstudium",
+        "en": "Doctoral Program"
+      }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/career-qualifying",
+    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/educational-program",
     "prefLabel": {
-      "de": "Berufsqualifizierende Angebote",
-      "en": "Career-Qualifying Offerings"
+      "de": "Bildungsgang",
+      "en": "Educational Program"
     }
   },
   "inScheme": [

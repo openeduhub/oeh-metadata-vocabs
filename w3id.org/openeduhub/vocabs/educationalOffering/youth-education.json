@@ -2,12 +2,12 @@
   "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/youth-education",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kinder- und Jugendbildung (außerschulisch)",
-    "en": "Youth Education (Extracurricular)"
+    "de": "Kinder-/Jugendbildung",
+    "en": "Youth Education"
   },
   "definition": {
-    "de": "Ergänzende Bildungsangebote für Minderjährige außerhalb der Schulpflicht.",
-    "en": "Supplementary educational offerings for minors outside compulsory schooling."
+    "de": "Bildungsangebote für Minderjährige außerhalb der regulären Schulpflicht zur Förderung und Entwicklung.",
+    "en": "Educational offerings for minors outside regular compulsory schooling for support and development."
   },
   "narrower": [
     {
@@ -22,6 +22,20 @@
       "prefLabel": {
         "de": "Außerschulisches Angebot",
         "en": "Extracurricular Offering"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/supplementary-school-education",
+      "prefLabel": {
+        "de": "Ergänzende Schulbildung",
+        "en": "Supplementary School Education"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/youth-organization",
+      "prefLabel": {
+        "de": "Jugendbildung",
+        "en": "Youth Organization Education"
       }
     }
   ],

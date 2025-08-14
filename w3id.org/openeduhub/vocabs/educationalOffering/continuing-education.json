@@ -2,12 +2,12 @@
   "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/continuing-education",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fortbildungsangebot",
-    "en": "Continuing Education Offering"
+    "de": "Fortbildung/Aufstiegsqualifikation",
+    "en": "Continuing Education/Advancement Qualification"
   },
   "definition": {
-    "de": "Strukturierte Weiterbildung mit anerkannten Abschlüssen oder Zertifikaten für berufliche Qualifikation.",
-    "en": "Structured continuing education with recognized certificates or qualifications for professional advancement."
+    "de": "Strukturierte Weiterbildung mit anerkannten Abschlüssen für berufliche Qualifikation.",
+    "en": "Structured continuing education with recognized qualifications for professional advancement."
   },
   "narrower": [
     {
@@ -25,25 +25,18 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/certificate-course",
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/chamber-certificate",
       "prefLabel": {
-        "de": "Zertifikatslehrgang",
-        "en": "Certificate Course"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/compliance-training",
-      "prefLabel": {
-        "de": "Compliance-Schulung",
-        "en": "Compliance Training"
+        "de": "Kammer-Zertifikat",
+        "en": "Chamber Certificate"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/professional-development",
+    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/education-program",
     "prefLabel": {
-      "de": "Berufliche Weiterentwicklung",
-      "en": "Professional Development"
+      "de": "Bildungsprogramm",
+      "en": "Education Program"
     }
   },
   "inScheme": [

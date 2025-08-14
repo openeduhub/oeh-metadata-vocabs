@@ -2,18 +2,48 @@
   "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/youth-organization",
   "type": "Concept",
   "prefLabel": {
-    "de": "Jugendbildung/Jugendverbände",
-    "en": "Youth Education/Youth Organizations"
+    "de": "Jugendbildung",
+    "en": "Youth Organization Education"
   },
   "definition": {
     "de": "Bildungsangebote von Jugendverbänden und -organisationen zur sozialen und persönlichen Entwicklung.",
     "en": "Educational offerings from youth associations and organizations for social and personal development."
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/youth-association-work",
+      "prefLabel": {
+        "de": "Jugendverbandsarbeit",
+        "en": "Youth Association Work"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/democracy-education",
+      "prefLabel": {
+        "de": "Demokratiebildung",
+        "en": "Democracy Education"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/international-exchange",
+      "prefLabel": {
+        "de": "Internationale Begegnungen",
+        "en": "International Exchange"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/adventure-education",
+      "prefLabel": {
+        "de": "Erlebnispädagogik",
+        "en": "Adventure Education"
+      }
+    }
+  ],
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/extracurricular-offering",
+    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/youth-education",
     "prefLabel": {
-      "de": "Außerschulisches Angebot",
-      "en": "Extracurricular Offering"
+      "de": "Kinder-/Jugendbildung",
+      "en": "Youth Education"
     }
   },
   "inScheme": [

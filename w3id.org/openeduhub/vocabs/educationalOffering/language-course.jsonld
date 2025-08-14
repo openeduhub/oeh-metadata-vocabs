@@ -2,18 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/language-course",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sprachkurs (privat)",
-    "en": "Language Course (Private)"
+    "de": "Sprachkurs",
+    "en": "Language Course"
   },
   "definition": {
-    "de": "Sprachkurse für persönliche Zwecke, Reisen oder allgemeine Kommunikation.",
-    "en": "Language courses for personal purposes, travel or general communication."
+    "de": "Kurse zum Erlernen oder Vertiefen von Fremdsprachen oder Kommunikationsfertigkeiten.",
+    "en": "Courses for learning or improving foreign languages or communication skills."
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/general-course",
+    "id": "http://w3id.org/openeduhub/vocabs/educationalOffering/course-seminar",
     "prefLabel": {
-      "de": "Kurs (allgemeinbildend)",
-      "en": "Course (General Education)"
+      "de": "Kurs/Seminar",
+      "en": "Course/Seminar"
     }
   },
   "inScheme": [
