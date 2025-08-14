@@ -2,18 +2,18 @@
   "id": "http://w3id.org/openeduhub/vocabs/eventType/excursion",
   "type": "Concept",
   "prefLabel": {
-    "de": "Exkursion/Studienreise",
-    "en": "Excursion/Study Trip"
+    "de": "Exkursion",
+    "en": "Excursion"
   },
   "definition": {
-    "de": "Ortsgebundenes, experientielles Lernen außerhalb der Institution zur praktischen Anschauung und Erfahrung.",
-    "en": "Location-based, experiential learning outside the institution for practical observation and experience."
+    "de": "Lehrveranstaltung außerhalb der Institution zur praktischen Anschauung und Erfahrung.",
+    "en": "Teaching event outside the institution for practical observation and experience."
   },
   "broader": {
-    "id": "http://w3id.org/openeduhub/vocabs/eventType/extended-education-formats",
+    "id": "http://w3id.org/openeduhub/vocabs/eventType/practical-application",
     "prefLabel": {
-      "de": "Erweiterte Bildungsformate",
-      "en": "Extended Educational Formats"
+      "de": "Praktische Anwendung",
+      "en": "Practical Application"
     }
   },
   "inScheme": [
