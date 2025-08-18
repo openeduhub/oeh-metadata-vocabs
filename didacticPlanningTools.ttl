@@ -15,29 +15,25 @@
 	skos:prefLabel "Methoden & Techniken"@de ;
 	skos:altLabel "Unterrichtsmethoden"@de, "Lehr-Lern-Methoden"@de ;
 	skos:definition "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es?) - Konkrete methodische Verfahren und Techniken für den Unterricht"@de ;
-	skos:narrower <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>, <110>, <111>, <112>, <113> ;
-	skos:topConceptOf <> .
-
+	skos:narrower <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>, <110>, <111>, <112>, <113> .
+	
 <2> a skos:Concept ;
 	skos:prefLabel "Didaktische Entwurfsmuster"@de ;
 	skos:altLabel "Gestaltungsprobleme & -familien"@de ;
 	skos:definition "Unterrichts- und Gestaltungsmuster (Warum/wann wirkt es?) - Bewährte Lösungsansätze für wiederkehrende didaktische Herausforderungen"@de ;
-	skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28> ;
-	skos:topConceptOf <> .
-
+	skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28> .
+	
 <3> a skos:Concept ;
 	skos:prefLabel "Ablauf- & Planungsgerüste"@de ;
 	skos:altLabel "Ablauf- & Sequenzgerüste"@de, "Sequenzmodelle"@de, "Planungsrahmen"@de, "Ablaufmuster"@de ;
 	skos:definition "Ablauf- und Sequenzmodelle (Das Skelett zum Ausfüllen) - Strukturierte Rahmen für die zeitliche und inhaltliche Organisation von Lernprozessen"@de ;
-	skos:narrower <31>, <32>, <33>, <34>, <35>, <36>, <37>, <38>, <39>, <310>, <311>, <312>, <313>, <314>, <315>, <316>, <317>, <318> ;
-	skos:topConceptOf <> .
+	skos:narrower <31>, <32>, <33>, <34>, <35>, <36>, <37>, <38>, <39>, <310>, <311>, <312>, <313>, <314>, <315>, <316>, <317>, <318> .
 
 <4> a skos:Concept ;
 	skos:prefLabel "Konkrete Unterrichtspläne"@de ;
 	skos:altLabel "Ausgearbeitete Pläne & Materialien"@de ;
 	skos:definition "Ausgearbeitete Pläne, Bausteine & Entwürfe (Fertig zum Einsatz) - Vollständig ausgearbeitete Unterrichtsmaterialien und -pläne für den direkten Einsatz"@de ;
-	skos:narrower <41>, <42>, <43>, <44>, <45> ;
-	skos:topConceptOf <> .
+	skos:narrower <41>, <42>, <43>, <44>, <45> .
 
 
 # Ebene 2 - Methoden & Techniken
