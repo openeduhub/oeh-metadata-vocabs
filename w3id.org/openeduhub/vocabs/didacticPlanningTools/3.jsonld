@@ -1,0 +1,256 @@
+{
+  "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Ablauf- & Planungsgerüste"
+  },
+  "altLabel": {
+    "de": [
+      "Ablauf- & Sequenzgerüste",
+      "Sequenzmodelle",
+      "Planungsrahmen",
+      "Ablaufmuster"
+    ]
+  },
+  "definition": {
+    "de": "Ablauf- und Sequenzmodelle (Das Skelett zum Ausfüllen) - Strukturierte Rahmen für die zeitliche und inhaltliche Organisation von Lernprozessen"
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31",
+      "prefLabel": {
+        "de": "Einführendes/Motivierendes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32",
+      "prefLabel": {
+        "de": "Erarbeitendes/Exploratives Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33",
+      "prefLabel": {
+        "de": "Soziales & Kooperatives Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34",
+      "prefLabel": {
+        "de": "Produkte erstellen & Projekte durchführen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35",
+      "prefLabel": {
+        "de": "Üben, Festigen & Anwenden"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36",
+      "prefLabel": {
+        "de": "Verständlichkeit & Abstraktion sichern"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37",
+      "prefLabel": {
+        "de": "Zeit-/Ort-Orchestrierung (Blended/Hybrid-Lernen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38",
+      "prefLabel": {
+        "de": "Anpassen & Verzweigen (Adaptives/personalisiertes Lernen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/39",
+      "prefLabel": {
+        "de": "Rückwärts planen & prüfen (Outcome/Assessment-integriertes Lernen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310",
+      "prefLabel": {
+        "de": "Fallbasiertes/Anwendungsnahes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/312"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/313"
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/314",
+      "prefLabel": {
+        "de": "Simulationsbasiertes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/315",
+      "prefLabel": {
+        "de": "Studio-/Atelierbasiertes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/316",
+      "prefLabel": {
+        "de": "Selbstgesteuertes/Selbstorganisiertes Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/317",
+      "prefLabel": {
+        "de": "Reflexionsorientiertes/Metakognitives Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/318",
+      "prefLabel": {
+        "de": "Mediengestütztes/Multimodales Lernen"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",
+      "title": {
+        "de": "Didaktische Planungsinstrumente für Openeduhub"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",
+      "title": {
+        "de": "Didaktische Planungsinstrumente für Openeduhub"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@container": "@set"
+    }
+  }
+}
