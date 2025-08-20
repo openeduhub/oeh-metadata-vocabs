@@ -4,2118 +4,1784 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme ;
-	dct:title "Didaktische Planungsinstrumente für Openeduhub"@de ;
-	dct:description "Hierarchische Klassifikation didaktischer Planungsinstrumente mit Methoden & Techniken, Entwurfsmustern, Ablaufgerüsten und konkreten Unterrichtsplänen"@de ;
-	dct:created "2025-08-15"^^xsd:date ;
-	skos:hasTopConcept <1>, <2>, <3>, <4> .
+    dct:title "Didaktische Planungsinstrumente für Openeduhub"@de ;
+    dct:description "Hierarchische Klassifikation didaktischer Planungsinstrumente mit Methoden & Techniken, Entwurfsmustern, Ablaufgerüsten und konkreten Unterrichtsplänen"@de ;
+    dct:created "2025-08-15"^^xsd:date ;
+    skos:hasTopConcept <1>, <2>, <3>, <4> .
 
-
-# Ebene 1 - Hauptklassen
 <1> a skos:Concept ;
-	skos:prefLabel "Methoden & Techniken"@de ;
-	skos:altLabel "Unterrichtsmethoden"@de, "Lehr-Lern-Methoden"@de ;
-	skos:definition "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es?) - Konkrete methodische Verfahren und Techniken für den Unterricht"@de ;
-	skos:narrower <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>, <110>, <111>, <112>, <113> .
-	
+    skos:prefLabel "Methoden & Techniken"@de ;
+    skos:altLabel "Unterrichtsmethoden"@de ;
+    skos:definition "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es? ) - Konkrete methodische Verfahren und Techniken für den Unterricht"@de ;
+    skos:narrower <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>, <110>, <111>, <112>, <113> ;
+    skos:topConceptOf <> .
+
 <2> a skos:Concept ;
-	skos:prefLabel "Didaktische Entwurfsmuster"@de ;
-	skos:altLabel "Gestaltungsprobleme & -familien"@de ;
-	skos:definition "Unterrichts- und Gestaltungsmuster (Warum/wann wirkt es?) - Bewährte Lösungsansätze für wiederkehrende didaktische Herausforderungen"@de ;
-	skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28> .
-	
+    skos:prefLabel "Didaktische Entwurfsmuster"@de ;
+    skos:altLabel "Gestaltungsprobleme & -familien"@de ;
+    skos:definition "Unterrichts- und Gestaltungsmuster (Warum/wann wirkt es? ) - Bewährte Lösungsansätze für wiederkehrende didaktische Herausforderungen"@de ;
+    skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28> ;
+    skos:topConceptOf <> .
+
 <3> a skos:Concept ;
-	skos:prefLabel "Ablauf- & Planungsgerüste"@de ;
-	skos:altLabel "Ablauf- & Sequenzgerüste"@de, "Sequenzmodelle"@de, "Planungsrahmen"@de, "Ablaufmuster"@de ;
-	skos:definition "Ablauf- und Sequenzmodelle (Das Skelett zum Ausfüllen) - Strukturierte Rahmen für die zeitliche und inhaltliche Organisation von Lernprozessen"@de ;
-	skos:narrower <31>, <32>, <33>, <34>, <35>, <36>, <37>, <38>, <39>, <310>, <311>, <312>, <313>, <314>, <315>, <316>, <317>, <318> .
+    skos:prefLabel "Ablauf- & Planungsgerüste"@de ;
+    skos:altLabel "Ablauf- & Sequenzgerüste"@de ;
+    skos:definition "Ablauf- und Sequenzmodelle (Das Skelett zum Ausfüllen) - Strukturierte Rahmen für die zeitliche und inhaltliche Organisation von Lernprozessen"@de ;
+    skos:narrower <31>, <32>, <33>, <34>, <35>, <36>, <37>, <38>, <39>, <310>, <311> ;
+    skos:topConceptOf <> .
 
 <4> a skos:Concept ;
-	skos:prefLabel "Konkrete Unterrichtspläne"@de ;
-	skos:altLabel "Ausgearbeitete Pläne & Materialien"@de ;
-	skos:definition "Ausgearbeitete Pläne, Bausteine & Entwürfe (Fertig zum Einsatz) - Vollständig ausgearbeitete Unterrichtsmaterialien und -pläne für den direkten Einsatz"@de ;
-	skos:narrower <41>, <42>, <43>, <44>, <45> .
+    skos:prefLabel "Konkrete Unterrichtspläne"@de ;
+    skos:altLabel "Ausgearbeitete Pläne & Materialien"@de ;
+    skos:altLabel "Unterrichtspläne"@de ;
+    skos:altLabel "Lesson Plans"@en ;
+    skos:definition "Ausgearbeitete Pläne, Bausteine & Entwürfe (Fertig zum Einsatz) - Vollständig ausgearbeitete Unterrichtsmaterialien und -pläne für den direkten Einsatz"@de ;
+    skos:narrower <41>, <42>, <43>, <44> ;
+    skos:topConceptOf <> .
 
-
-# Ebene 2 - Methoden & Techniken
 <11> a skos:Concept ;
-	skos:prefLabel "Einstieg & Aktivierung"@de ;
-	skos:altLabel "Einführung"@de, "Aktivierung"@de, "Einstieg"@de ;
-	skos:definition "Interesse wecken & Energie erzeugen - Methoden zum motivierenden Unterrichtsbeginn und zur Aktivierung der Lernenden"@de ;
-	skos:broader <1> ;
-	skos:narrower <111>, <112>, <113>, <114> ;
-	skos:inScheme <> .
+    skos:prefLabel "Einstieg & Aktivierung"@de ;
+    skos:altLabel "Einführung"@de ;
+    skos:altLabel "Interesse wecken"@de ;
+    skos:altLabel "Energie erzeugen"@de ;
+    skos:definition "Interesse wecken, Aufmerksamkeit fokussieren und ein positives Lernklima erzeugen"@de ;
+    skos:broader <1> ;
+    skos:narrower <11-1>, <11-2>, <11-3>, <11-4> ;
+    skos:inScheme <> .
+
+<11-1> a skos:Concept ;
+    skos:prefLabel "Aufmerksamkeitsfokus"@de ;
+    skos:altLabel "Energizer"@en ;
+    skos:altLabel "Hook"@en ;
+    skos:altLabel "Attention-Grabber"@en ;
+    skos:definition "Aufmerksamkeit bündeln und Interesse wecken"@de ;
+    skos:broader <11> ;
+    skos:inScheme <> .
+
+<11-2> a skos:Concept ;
+    skos:prefLabel "Vorwissensaktivierung"@de ;
+    skos:altLabel "Anknüpfen"@de ;
+    skos:altLabel "Prior Knowledge"@en ;
+    skos:definition "Vorwissen aktivieren und Lernanknüpfungspunkte sichtbar machen"@de ;
+    skos:broader <11> ;
+    skos:inScheme <> .
+
+<11-3> a skos:Concept ;
+    skos:prefLabel "Ziel-/Nutzenklärung"@de ;
+    skos:altLabel "Zieltransparenz"@de ;
+    skos:altLabel "Lebensweltbezug"@de ;
+    skos:altLabel "Wozu-Bezug"@de ;
+    skos:definition "Lernziele und Nutzen transparent machen; Relevanz klären"@de ;
+    skos:broader <11> ;
+    skos:inScheme <> .
+
+<11-4> a skos:Concept ;
+    skos:prefLabel "Lernklima aufbauen"@de ;
+    skos:altLabel "Icebreaker"@en ;
+    skos:altLabel "Warm-up"@en ;
+    skos:altLabel "Teambuilding"@de ;
+    skos:definition "Positives Lernklima und soziale Verbundenheit herstellen"@de ;
+    skos:broader <11> ;
+    skos:inScheme <> .
 
 <12> a skos:Concept ;
-	skos:prefLabel "Orientierung"@de ;
-	skos:altLabel "Orientierungshilfe"@de, "Vorstrukturierung"@de ;
-	skos:definition "Vorstrukturierung & Anknüpfen - Methoden zur inhaltlichen Orientierung und strukturellen Vorbereitung des Lernens"@de ;
-	skos:broader <1> ;
-	skos:narrower <121>, <122>, <123> ;
-	skos:inScheme <> .
+    skos:prefLabel "Orientierung & Vorstrukturierung"@de ;
+    skos:altLabel "Orientierungshilfe"@de ;
+    skos:altLabel "Thema verorten"@de ;
+    skos:altLabel "Struktur anbieten"@de ;
+    skos:definition "Thema verorten und Struktur anbieten"@de ;
+    skos:broader <1> ;
+    skos:narrower <12-1>, <12-2>, <12-3>, <12-4> ;
+    skos:inScheme <> .
+
+<12-1> a skos:Concept ;
+    skos:prefLabel "Struktur-/Graphic-Organizer"@de ;
+    skos:altLabel "Advance Organizer"@en ;
+    skos:altLabel "Gliederung"@de ;
+    skos:definition "Inhalte vorstrukturieren und visuell ordnen"@de ;
+    skos:broader <12> ;
+    skos:inScheme <> .
+
+<12-2> a skos:Concept ;
+    skos:prefLabel "Problempräsentation"@de ;
+    skos:altLabel "Leitfrage"@de ;
+    skos:altLabel "Anomalie"@de ;
+    skos:altLabel "Widerspruch"@de ;
+    skos:definition "Probleme/Fragen präsentieren, um Lernprozesse zu initiieren"@de ;
+    skos:broader <12> ;
+    skos:inScheme <> .
+
+<12-3> a skos:Concept ;
+    skos:prefLabel "Rezeption mit Medien"@de ;
+    skos:altLabel "Lektüre"@de ;
+    skos:altLabel "Viewing"@en ;
+    skos:altLabel "Materialinput"@de ;
+    skos:definition "Strukturierte Rezeption von Texten und Medien"@de ;
+    skos:broader <12> ;
+    skos:inScheme <> .
+
+<12-4> a skos:Concept ;
+    skos:prefLabel "Notiz-/Annotationstechniken"@de ;
+    skos:altLabel "Markieren"@de ;
+    skos:altLabel "Kommentieren"@de ;
+    skos:altLabel "Annotation"@en ;
+    skos:definition "Informationen markieren, annotieren und kommentieren"@de ;
+    skos:broader <12> ;
+    skos:inScheme <> .
 
 <13> a skos:Concept ;
-	skos:prefLabel "Wissensvermittlung & -strukturierung"@de ;
-	skos:altLabel "Vermittlung"@de, "Input"@de, "Instruktion"@de ;
-	skos:definition "Inhalte darstellen & erklären - Methoden zur systematischen Wissensvermittlung und -strukturierung"@de ;
-	skos:broader <1> ;
-	skos:narrower <131>, <132>, <133> ;
-	skos:inScheme <> .
+    skos:prefLabel "Darstellung & Instruktion"@de ;
+    skos:altLabel "Vermittlung"@de ;
+    skos:altLabel "Inhalte darstellen & erklären"@de ;
+    skos:definition "Inhalte darstellen und erklären"@de ;
+    skos:broader <1> ;
+    skos:narrower <13-1>, <13-2>, <13-3>, <13-4> ;
+    skos:inScheme <> .
+
+<13-1> a skos:Concept ;
+    skos:prefLabel "Impuls/Mini-Lecture"@de ;
+    skos:altLabel "Inputbeitrag"@de ;
+    skos:altLabel "Erklärung"@de ;
+    skos:definition "Kurze, fokussierte Instruktionsphasen zur Einführung/Erklärung"@de ;
+    skos:broader <13> ;
+    skos:inScheme <> .
+
+<13-2> a skos:Concept ;
+    skos:prefLabel "Demonstration/Modellieren"@de ;
+    skos:altLabel "Show-and-Tell"@en ;
+    skos:altLabel "Anschauung"@de ;
+    skos:definition "Vormachen, modellieren und anschaulich demonstrieren"@de ;
+    skos:broader <13> ;
+    skos:inScheme <> .
+
+<13-3> a skos:Concept ;
+    skos:prefLabel "Worked/Model Examples"@de ;
+    skos:altLabel "Beispielgeleitet"@de ;
+    skos:altLabel "Musterlösungen"@de ;
+    skos:definition "Schrittweise ausgearbeitete Beispiele zur Veranschaulichung"@de ;
+    skos:broader <13> ;
+    skos:inScheme <> .
+
+<13-4> a skos:Concept ;
+    skos:prefLabel "Strukturierende Zusammenfassung"@de ;
+    skos:altLabel "Recap"@en ;
+    skos:altLabel "Synthesis"@en ;
+    skos:altLabel "Tafelbild"@de ;
+    skos:definition "Inhalte strukturierend zusammenfassen und sichern"@de ;
+    skos:broader <13> ;
+    skos:inScheme <> .
 
 <14> a skos:Concept ;
-	skos:prefLabel "Erarbeitung & Konstruktion"@de ;
-	skos:altLabel "Wissenskonstruktion"@de, "Erschließung"@de ;
-	skos:definition "Inhalte erschließen - Methoden zur aktiven Wissenskonstruktion und eigenständigen Erarbeitung"@de ;
-	skos:broader <1> ;
-	skos:narrower <141>, <142>, <143>, <144> ;
-	skos:inScheme <> .
+    skos:prefLabel "Erarbeitung & Konstruktion"@de ;
+    skos:altLabel "Wissenskonstruktion"@de ;
+    skos:altLabel "Inhalte erschließen"@de ;
+    skos:definition "Inhalte aktiv erschließen"@de ;
+    skos:broader <1> ;
+    skos:narrower <14-1>, <14-2>, <14-3>, <14-4> ;
+    skos:inScheme <> .
+
+<14-1> a skos:Concept ;
+    skos:prefLabel "Angeleitete Erarbeitung"@de ;
+    skos:altLabel "Guided Discovery"@en ;
+    skos:altLabel "Scaffolding"@en ;
+    skos:definition "Erarbeitung mit unterstützter Strukturierung"@de ;
+    skos:broader <14> ;
+    skos:inScheme <> .
+
+<14-2> a skos:Concept ;
+    skos:prefLabel "Offene Erkundung/Entdeckung"@de ;
+    skos:altLabel "Inquiry"@en ;
+    skos:altLabel "Exploratives Lernen"@de ;
+    skos:definition "Eigenständiges, forschendes Entdecken"@de ;
+    skos:broader <14> ;
+    skos:inScheme <> .
+
+<14-3> a skos:Concept ;
+    skos:prefLabel "Begriffs-/Konzeptbildung"@de ;
+    skos:altLabel "Concept Formation"@en ;
+    skos:definition "Begriffe und Konzepte systematisch aufbauen"@de ;
+    skos:broader <14> ;
+    skos:inScheme <> .
+
+<14-4> a skos:Concept ;
+    skos:prefLabel "Analyse & Interpretation"@de ;
+    skos:altLabel "Text-/Daten-/Quellenanalyse"@de ;
+    skos:definition "Texte, Daten und Quellen analysieren und interpretieren"@de ;
+    skos:broader <14> ;
+    skos:inScheme <> .
 
 <15> a skos:Concept ;
-	skos:prefLabel "Übung & Festigung"@de ;
-	skos:altLabel "Üben"@de, "Training"@de, "Konsolidierung"@de ;
-	skos:definition "Fertigkeiten einüben - Methoden zur Übung, Wiederholung und Festigung von Lerninhalten"@de ;
-	skos:broader <1> ;
-	skos:narrower <151>, <152>, <153>, <154> ;
-	skos:inScheme <> .
+    skos:prefLabel "Übung & Festigung"@de ;
+    skos:altLabel "Üben"@de ;
+    skos:altLabel "Fertigkeiten einüben"@de ;
+    skos:definition "Fertigkeiten einüben und festigen"@de ;
+    skos:broader <1> ;
+    skos:narrower <15-1>, <15-2>, <15-3>, <15-4> ;
+    skos:inScheme <> .
+
+<15-1> a skos:Concept ;
+    skos:prefLabel "Wiederholen & Abrufen"@de ;
+    skos:altLabel "Retrieval Practice"@en ;
+    skos:definition "Wissen gezielt wiederholen und abrufen"@de ;
+    skos:broader <15> ;
+    skos:inScheme <> .
+
+<15-2> a skos:Concept ;
+    skos:prefLabel "Anwendung am Beispiel"@de ;
+    skos:altLabel "Musteraufgaben"@de ;
+    skos:altLabel "Near Transfer"@en ;
+    skos:definition "Anwendung an Beispielen und Aufgabenformaten"@de ;
+    skos:broader <15> ;
+    skos:inScheme <> .
+
+<15-3> a skos:Concept ;
+    skos:prefLabel "Automatisierung/Routine"@de ;
+    skos:altLabel "Drill"@en ;
+    skos:altLabel "Fluency Building"@en ;
+    skos:definition "Automatisieren durch wiederholte Übung"@de ;
+    skos:broader <15> ;
+    skos:inScheme <> .
+
+<15-4> a skos:Concept ;
+    skos:prefLabel "Fehleranalyse & Korrektur"@de ;
+    skos:altLabel "Error Analysis"@en ;
+    skos:altLabel "Diagnose"@de ;
+    skos:definition "Fehler erkennen, analysieren und gezielt korrigieren"@de ;
+    skos:broader <15> ;
+    skos:inScheme <> .
 
 <16> a skos:Concept ;
-	skos:prefLabel "Anwendung & Problemlösen"@de ;
-	skos:altLabel "Transfer"@de, "Problemlösen"@de, "Aufgabenorientierung"@de ;
-	skos:definition "Wissen übertragen & lösen - Methoden zur praktischen Anwendung und zum Transfer von Wissen"@de ;
-	skos:broader <1> ;
-	skos:narrower <161>, <162>, <163>, <164> ;
-	skos:inScheme <> .
+    skos:prefLabel "Anwendung & Problemlösen"@de ;
+    skos:altLabel "Transfer"@de ;
+    skos:altLabel "Wissen übertragen"@de ;
+    skos:definition "Wissen in neuen Situationen anwenden und Probleme lösen"@de ;
+    skos:broader <1> ;
+    skos:narrower <16-1>, <16-2>, <16-3>, <16-4> ;
+    skos:inScheme <> .
+
+<16-1> a skos:Concept ;
+    skos:prefLabel "Fallbearbeitung/Szenarien"@de ;
+    skos:altLabel "Case"@en ;
+    skos:altLabel "Szenarioarbeit"@de ;
+    skos:definition "Anwendungsorientierte Aufgaben anhand von Fällen/Szenarien"@de ;
+    skos:broader <16> ;
+    skos:inScheme <> .
+
+<16-2> a skos:Concept ;
+    skos:prefLabel "Projekt-/Produktaufgaben"@de ;
+    skos:altLabel "Projektarbeit"@de ;
+    skos:altLabel "Outcome-Aufgaben"@de ;
+    skos:definition "Komplexe Aufgaben mit konkreten Produkten/Ergebnissen"@de ;
+    skos:broader <16> ;
+    skos:inScheme <> .
+
+<16-3> a skos:Concept ;
+    skos:prefLabel "Design-/Konstruktionsaufgaben"@de ;
+    skos:altLabel "Engineering Challenge"@en ;
+    skos:definition "Gestalterische und konstruktive Problemlöseaufgaben"@de ;
+    skos:broader <16> ;
+    skos:inScheme <> .
+
+<16-4> a skos:Concept ;
+    skos:prefLabel "Transferaufgaben"@de ;
+    skos:altLabel "Near/Far Transfer"@en ;
+    skos:altLabel "Anwendungsübertrag"@de ;
+    skos:definition "Wissen gezielt auf neue Kontexte übertragen (Near/Far Transfer)"@de ;
+    skos:broader <16> ;
+    skos:inScheme <> .
 
 <17> a skos:Concept ;
-	skos:prefLabel "Kommunikation & Diskurs"@de ;
-	skos:altLabel "Diskussion"@de, "Dialogkultur"@de, "Barcamp"@de ;
-	skos:definition "Standpunkte austauschen - Methoden zur Förderung von Kommunikation und diskursivem Lernen"@de ;
-	skos:broader <1> ;
-	skos:narrower <171>, <172>, <173>, <174> ;
-	skos:inScheme <> .
+    skos:prefLabel "Kommunikation & Diskurs"@de ;
+    skos:altLabel "Diskussion"@de ;
+    skos:altLabel "Standpunkte austauschen"@de ;
+    skos:definition "Standpunkte austauschen und argumentativ klären"@de ;
+    skos:broader <1> ;
+    skos:narrower <17-1>, <17-2>, <17-3>, <17-4> ;
+    skos:inScheme <> .
+
+<17-1> a skos:Concept ;
+    skos:prefLabel "Strukturierte Diskussion/Debatte"@de ;
+    skos:altLabel "Pro–Contra"@de ;
+    skos:altLabel "Debatte"@de ;
+    skos:definition "Strukturiert debattieren und Positionen abwägen"@de ;
+    skos:broader <17> ;
+    skos:inScheme <> .
+
+<17-2> a skos:Concept ;
+    skos:prefLabel "Argumentation/Begründung"@de ;
+    skos:altLabel "Evidence-based Reasoning"@en ;
+    skos:definition "Begründet argumentieren und Evidenz anführen"@de ;
+    skos:broader <17> ;
+    skos:inScheme <> .
+
+<17-3> a skos:Concept ;
+    skos:prefLabel "Fragend-entwickelnd"@de ;
+    skos:altLabel "Sokratisch"@de ;
+    skos:altLabel "Maieutisch"@de ;
+    skos:definition "Erkenntnisse im Dialog fragend entwickeln"@de ;
+    skos:broader <17> ;
+    skos:inScheme <> .
+
+<17-4> a skos:Concept ;
+    skos:prefLabel "Perspektivenwechsel/Kontroverse"@de ;
+    skos:altLabel "Rollenwechsel"@de ;
+    skos:definition "Perspektiven wechseln und kontrovers diskutieren"@de ;
+    skos:broader <17> ;
+    skos:inScheme <> .
 
 <18> a skos:Concept ;
-	skos:prefLabel "Kooperation & Kollaboration"@de ;
-	skos:altLabel "Zusammenarbeit"@de, "Teamarbeit"@de ;
-	skos:definition "Gemeinsam arbeiten - Methoden zur Förderung kooperativen und kollaborativen Lernens"@de ;
-	skos:broader <1> ;
-	skos:narrower <181>, <182>, <183>, <184> ;
-	skos:inScheme <> .
+    skos:prefLabel "Kooperation & Kollaboration"@de ;
+    skos:altLabel "Zusammenarbeit"@de ;
+    skos:altLabel "Gemeinsam arbeiten"@de ;
+    skos:definition "Gemeinsam arbeiten und kooperativ lernen"@de ;
+    skos:broader <1> ;
+    skos:narrower <18-1>, <18-2>, <18-3>, <18-4> ;
+    skos:inScheme <> .
+
+<18-1> a skos:Concept ;
+    skos:prefLabel "Think–Pair–Share"@de ;
+    skos:altLabel "TPS"@en ;
+    skos:definition "Nachdenken – austauschen – teilen in strukturierter Folge"@de ;
+    skos:broader <18> ;
+    skos:inScheme <> .
+
+<18-2> a skos:Concept ;
+    skos:prefLabel "Jigsaw/Expertengruppen"@de ;
+    skos:altLabel "Gruppenpuzzle"@de ;
+    skos:definition "In Expertengruppen Wissen erarbeiten und im Team zusammensetzen"@de ;
+    skos:broader <18> ;
+    skos:inScheme <> .
+
+<18-3> a skos:Concept ;
+    skos:prefLabel "Cooperative Script"@de ;
+    skos:altLabel "gegenseitiges Erklären"@de ;
+    skos:definition "Im Wechsel erklären, zuhören und zusammenfassen"@de ;
+    skos:broader <18> ;
+    skos:inScheme <> .
+
+<18-4> a skos:Concept ;
+    skos:prefLabel "Rollen- & Aufgabenkoordination"@de ;
+    skos:altLabel "Verantwortungsmatrix"@de ;
+    skos:definition "Rollen klären und Aufgaben koordiniert verteilen"@de ;
+    skos:broader <18> ;
+    skos:inScheme <> .
 
 <19> a skos:Concept ;
-	skos:prefLabel "Erfahrungs- & Handlungsorientierung"@de ;
-	skos:altLabel "Learning by Doing"@de, "praxisorientiert"@de ;
-	skos:definition "Durch Tun lernen - Methoden des erfahrungs- und handlungsorientierten Lernens"@de ;
-	skos:broader <1> ;
-	skos:narrower <191>, <192>, <193>, <194> ;
-	skos:inScheme <> .
+    skos:prefLabel "Erfahrungs- & Handlungsorientierung"@de ;
+    skos:altLabel "Learning by Doing"@de ;
+    skos:altLabel "Durch Tun lernen"@de ;
+    skos:definition "Durch Tun lernen und Erfahrungen machen"@de ;
+    skos:broader <1> ;
+    skos:narrower <19-1>, <19-2>, <19-3>, <19-4> ;
+    skos:inScheme <> .
+
+<19-1> a skos:Concept ;
+    skos:prefLabel "Simulation/Planszenario"@de ;
+    skos:altLabel "Prozesssimulation"@de ;
+    skos:altLabel "Modellsimulation"@de ;
+    skos:definition "Komplexe Prozesse und Situationen simulativ erfahrbar machen"@de ;
+    skos:broader <19> ;
+    skos:inScheme <> .
+
+<19-2> a skos:Concept ;
+    skos:prefLabel "Rollen-/Szenisches Spiel"@de ;
+    skos:altLabel "Rollenspiel"@de ;
+    skos:definition "Rollen übernehmen und Szenarien szenisch gestalten"@de ;
+    skos:broader <19> ;
+    skos:inScheme <> .
+
+<19-3> a skos:Concept ;
+    skos:prefLabel "Praktische Experimente/Übungen"@de ;
+    skos:altLabel "Labor"@de ;
+    skos:altLabel "Werkstatt"@de ;
+    skos:definition "Handlungsorientierte Praxisphasen mit Experimenten/Übungen"@de ;
+    skos:broader <19> ;
+    skos:inScheme <> .
+
+<19-4> a skos:Concept ;
+    skos:prefLabel "Exkursion/Feldstudie"@de ;
+    skos:altLabel "Lernort außerhalb"@de ;
+    skos:definition "Lernen an authentischen Orten außerhalb des Klassenzimmers"@de ;
+    skos:broader <19> ;
+    skos:inScheme <> .
 
 <110> a skos:Concept ;
-	skos:prefLabel "Kreative Produktion & Gestaltung"@de ;
-	skos:altLabel "kreative Arbeit"@de, "Gestaltungsaufgabe"@de ;
-	skos:definition "Neues entwickeln - Methoden zur Förderung kreativer Prozesse und gestalterischer Aktivitäten"@de ;
-	skos:broader <1> ;
-	skos:narrower <1101>, <1102>, <1103>, <1104> ;
-	skos:inScheme <> .
+    skos:prefLabel "Kreative Produktion & Gestaltung"@de ;
+    skos:altLabel "kreative Arbeit"@de ;
+    skos:altLabel "Neues entwickeln"@de ;
+    skos:definition "Neues entwickeln und gestalten"@de ;
+    skos:broader <1> ;
+    skos:narrower <110-1>, <110-2>, <110-3>, <110-4> ;
+    skos:inScheme <> .
+
+<110-1> a skos:Concept ;
+    skos:prefLabel "Ideenfindung/Konzept"@de ;
+    skos:altLabel "Brainstorming-Familie"@de ;
+    skos:definition "Ideen generieren und konzeptuell verdichten"@de ;
+    skos:broader <110> ;
+    skos:inScheme <> .
+
+<110-2> a skos:Concept ;
+    skos:prefLabel "Prototyping/Gestaltung"@de ;
+    skos:altLabel "Making"@de ;
+    skos:altLabel "Konstruktion"@de ;
+    skos:definition "Ideen in Prototypen/Artefakte überführen"@de ;
+    skos:broader <110> ;
+    skos:inScheme <> .
+
+<110-3> a skos:Concept ;
+    skos:prefLabel "Storytelling/Inszenierung"@de ;
+    skos:altLabel "erzählerisch/szenisch"@de ;
+    skos:definition "Inhalte erzählerisch oder szenisch gestalten"@de ;
+    skos:broader <110> ;
+    skos:inScheme <> .
+
+<110-4> a skos:Concept ;
+    skos:prefLabel "Medienproduktion & Remix"@de ;
+    skos:altLabel "Audio/Video"@de ;
+    skos:altLabel "Multimodal"@de ;
+    skos:altLabel "Adaptation"@en ;
+    skos:definition "Analoge/digitale Medienprodukte erstellen und remixen"@de ;
+    skos:broader <110> ;
+    skos:inScheme <> .
 
 <111> a skos:Concept ;
-	skos:prefLabel "Reflexion & Metakognition"@de ;
-	skos:altLabel "Reflexion"@de, "Selbstregulation"@de ;
-	skos:definition "Lernen steuern - Methoden zur Förderung von Reflexion und metakognitivem Bewusstsein"@de ;
-	skos:broader <1> ;
-	skos:narrower <1111>, <1112>, <1113>, <1114> ;
-	skos:inScheme <> .
+    skos:prefLabel "Reflexion & Metakognition"@de ;
+    skos:altLabel "Reflexion"@de ;
+    skos:altLabel "Lernen steuern"@de ;
+    skos:definition "Lernen steuern und reflektieren"@de ;
+    skos:broader <1> ;
+    skos:narrower <111-1>, <111-2>, <111-3>, <111-4> ;
+    skos:inScheme <> .
+
+<111-1> a skos:Concept ;
+    skos:prefLabel "Lerntagebuch/Selbstreflexion"@de ;
+    skos:altLabel "Journal"@de ;
+    skos:definition "Eigenes Lernen dokumentieren und reflektieren"@de ;
+    skos:broader <111> ;
+    skos:inScheme <> .
+
+<111-2> a skos:Concept ;
+    skos:prefLabel "Peer-/Fremdfeedback"@de ;
+    skos:altLabel "kollegiale Rückmeldung"@de ;
+    skos:definition "Strukturiertes Feedback geben und annehmen"@de ;
+    skos:broader <111> ;
+    skos:inScheme <> .
+
+<111-3> a skos:Concept ;
+    skos:prefLabel "Lernbilanz/Retrospektive"@de ;
+    skos:altLabel "Was-habe-ich-gelernt"@de ;
+    skos:definition "Lernergebnisse bilanzieren und Schlüsse ziehen"@de ;
+    skos:broader <111> ;
+    skos:inScheme <> .
+
+<111-4> a skos:Concept ;
+    skos:prefLabel "Strategie-Reflexion"@de ;
+    skos:altLabel "Metakognition"@de ;
+    skos:altLabel "Plan–Do–Review"@en ;
+    skos:definition "Eigene Lernstrategien prüfen und anpassen"@de ;
+    skos:broader <111> ;
+    skos:inScheme <> .
 
 <112> a skos:Concept ;
-	skos:prefLabel "Diagnose, Bewertung & Prüfung"@de ;
-	skos:altLabel "Assessment"@de, "Prüfung"@de, "Evaluation"@de ;
-	skos:definition "Lernstände sichtbar machen - Methoden zur Diagnose, Bewertung und Prüfung von Lernfortschritten"@de ;
-	skos:broader <1> ;
-	skos:narrower <1121>, <1122>, <1123>, <1124> ;
-	skos:inScheme <> .
+    skos:prefLabel "Assessment & Prüfung"@de ;
+    skos:altLabel "Assessment"@de ;
+    skos:altLabel "Lernstände sichtbar machen"@de ;
+    skos:definition "Lernstände sichtbar machen und bewerten"@de ;
+    skos:broader <1> ;
+    skos:narrower <112-1>, <112-2>, <112-3>, <112-4> ;
+    skos:inScheme <> .
+
+<112-1> a skos:Concept ;
+    skos:prefLabel "Exit Ticket/Formativer Kurz-Check"@de ;
+    skos:altLabel "Monitoring"@de ;
+    skos:definition "Kurzformate zur formativen Überprüfung"@de ;
+    skos:broader <112> ;
+    skos:inScheme <> .
+
+<112-2> a skos:Concept ;
+    skos:prefLabel "Kriterienraster/Rubrics"@de ;
+    skos:altLabel "Single-Point"@de ;
+    skos:altLabel "analytisch"@de ;
+    skos:definition "Beurteilungsraster zur transparenten Bewertung"@de ;
+    skos:broader <112> ;
+    skos:inScheme <> .
+
+<112-3> a skos:Concept ;
+    skos:prefLabel "Selbst- & Peer-Assessment"@de ;
+    skos:altLabel "Mitbeurteilung"@de ;
+    skos:definition "Bewertung durch Lernende selbst und in Peers"@de ;
+    skos:broader <112> ;
+    skos:inScheme <> .
+
+<112-4> a skos:Concept ;
+    skos:prefLabel "Authentische Leistungsaufgabe"@de ;
+    skos:altLabel "Performance Task"@en ;
+    skos:altLabel "Produktbewertung"@de ;
+    skos:definition "Komplexe, authentische Aufgabenformate mit Produkt-/Prozessbewertung"@de ;
+    skos:broader <112> ;
+    skos:inScheme <> .
 
 <113> a skos:Concept ;
-	skos:prefLabel "Lernorganisation & Steuerung"@de ;
-	skos:altLabel "Lernorganisation"@de, "Planung & Steuerung"@de ;
-	skos:definition "Rahmen & Ablauf koordinieren - Methoden zur Organisation und Steuerung von Lernprozessen"@de ;
-	skos:broader <1> ;
-	skos:narrower <1131>, <1132>, <1133>, <1134> ;
-	skos:inScheme <> .
+    skos:prefLabel "Lernorganisation & Steuerung"@de ;
+    skos:altLabel "Lernorganisation"@de ;
+    skos:altLabel "Rahmen & Ablauf koordinieren"@de ;
+    skos:definition "Rahmen und Ablauf koordinieren"@de ;
+    skos:broader <1> ;
+    skos:narrower <113-1>, <113-2>, <113-3>, <113-4> ;
+    skos:inScheme <> .
 
+<113-1> a skos:Concept ;
+    skos:prefLabel "Zielsetzung & Lernplanung"@de ;
+    skos:altLabel "Zieltransparenz"@de ;
+    skos:definition "Gemeinsame Zielsetzung und Lernplanung"@de ;
+    skos:broader <113> ;
+    skos:inScheme <> .
 
-# Ebene 2 - Didaktische Entwurfsmuster
+<113-2> a skos:Concept ;
+    skos:prefLabel "Lernpfade/Wahlmöglichkeiten"@de ;
+    skos:altLabel "Choice-Boards"@en ;
+    skos:altLabel "Stationenlernen"@de ;
+    skos:definition "Auswahlmöglichkeiten und differenzierte Lernwege bereitstellen"@de ;
+    skos:broader <113> ;
+    skos:inScheme <> .
+
+<113-3> a skos:Concept ;
+    skos:prefLabel "Lernverträge/Vereinbarungen"@de ;
+    skos:altLabel "Learning Contract"@en ;
+    skos:definition "Absprachen zu Zielen, Aufgaben und Bedingungen treffen"@de ;
+    skos:broader <113> ;
+    skos:inScheme <> .
+
+<113-4> a skos:Concept ;
+    skos:prefLabel "Routinen & Klassenmanagement"@de ;
+    skos:altLabel "Regeln"@de ;
+    skos:altLabel "Übergänge"@de ;
+    skos:altLabel "Zeit-/Ressourcenplanung"@de ;
+    skos:definition "Klassenroutinen, Regeln und Übergänge gestalten; Zeit/Ressourcen koordinieren"@de ;
+    skos:broader <113> ;
+    skos:inScheme <> .
+
 <21> a skos:Concept ;
-	skos:prefLabel "Lehr-Lern-Prozess"@de ;
-	skos:definition "Entwurfsmuster für die Gestaltung kognitiver und motivationaler Aspekte des Lehr-Lern-Prozesses"@de ;
-	skos:broader <2> ;
-	skos:narrower <211>, <212>, <213>, <214>, <215>, <216>, <217> ;
-	skos:inScheme <> .
+    skos:prefLabel "Lehr-Lern-Prozess"@de ;
+    skos:definition "Muster, die kognitive, motivationale und konstruktive Lernprozesse strukturieren"@de ;
+    skos:broader <2> ;
+    skos:narrower <21-1>, <21-2>, <21-3>, <21-4>, <21-5>, <21-6>, <21-7>, <21-8> ;
+    skos:inScheme <> .
+
+<21-1> a skos:Concept ;
+    skos:prefLabel "Kognitive Prozesse & Belastung"@de ;
+    skos:altLabel "kognitive Überlastung"@de ;
+    skos:definition "Kognitive Last steuern, Verarbeitungstiefe und Aufmerksamkeit ausbalancieren"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-2> a skos:Concept ;
+    skos:prefLabel "Motivation & Engagement"@de ;
+    skos:altLabel "Aktivierung"@de ;
+    skos:definition "Motivation fördern und lernwirksames Engagement aufbauen"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-3> a skos:Concept ;
+    skos:prefLabel "Verstehen & Konstruktion"@de ;
+    skos:altLabel "tieferes Verständnis"@de ;
+    skos:definition "Bedeutung aushandeln und tragfähige Wissensstrukturen konstruieren"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-4> a skos:Concept ;
+    skos:prefLabel "Problemlösung"@de ;
+    skos:altLabel "Lösungswege strukturieren"@de ;
+    skos:definition "Probleme analysieren, Lösungswege entwickeln und bewerten"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-5> a skos:Concept ;
+    skos:prefLabel "Mustererkennung/Struktur"@de ;
+    skos:altLabel "Strukturwahrnehmung"@de ;
+    skos:definition "Zusammenhänge erkennen und Wissensstrukturen explizit machen"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-6> a skos:Concept ;
+    skos:prefLabel "Lernziele & Outcomes"@de ;
+    skos:altLabel "Outcome-Definition"@de ;
+    skos:definition "Lernziele und erwartete Ergebnisse klar definieren und kommunizieren"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-7> a skos:Concept ;
+    skos:prefLabel "Metakognition & Selbststeuerung"@de ;
+    skos:altLabel "Metakognition"@de ;
+    skos:altLabel "Selbstregulation"@de ;
+    skos:definition "Lernprozesse planen, überwachen und reflektieren"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
+
+<21-8> a skos:Concept ;
+    skos:prefLabel "Individualisierung & Differenzierung"@de ;
+    skos:altLabel "Personalisierung"@de ;
+    skos:altLabel "adaptive Anforderung"@de ;
+    skos:definition "Lernwege und Anforderungen an individuelle Voraussetzungen anpassen"@de ;
+    skos:broader <21> ;
+    skos:inScheme <> .
 
 <22> a skos:Concept ;
-	skos:prefLabel "Lernumgebung / Raumgestaltung"@de ;
-	skos:definition "Entwurfsmuster für die physische und räumliche Gestaltung von Lernumgebungen"@de ;
-	skos:broader <2> ;
-	skos:narrower <221>, <222>, <223>, <224>, <225>, <226>, <227> ;
-	skos:inScheme <> .
+    skos:prefLabel "Lernumgebung & Raumgestaltung"@de ;
+    skos:definition "Räumliche Bedingungen und Gestaltung der Lernumgebung lernwirksam nutzen"@de ;
+    skos:broader <2> ;
+    skos:narrower <22-1>, <22-2>, <22-3>, <22-4>, <22-5>, <22-6>, <22-7> ;
+    skos:inScheme <> .
+
+<22-1> a skos:Concept ;
+    skos:prefLabel "Physische Lernumgebung"@de ;
+    skos:altLabel "Umgebungsqualität"@de ;
+    skos:definition "Physische Rahmenbedingungen lernförderlich gestalten"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-2> a skos:Concept ;
+    skos:prefLabel "Raumkonfiguration"@de ;
+    skos:altLabel "Möblierung"@de ;
+    skos:altLabel "Setting"@de ;
+    skos:definition "Möblierung und Sitzordnung auf Lernziele abstimmen"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-3> a skos:Concept ;
+    skos:prefLabel "Licht & Akustik"@de ;
+    skos:altLabel "Hör-/Sichtbedingungen"@de ;
+    skos:definition "Licht- und Schallbedingungen für Konzentration und Verständlichkeit optimieren"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-4> a skos:Concept ;
+    skos:prefLabel "Flexibilität"@de ;
+    skos:altLabel "variable Raumnutzung"@de ;
+    skos:definition "Räume an wechselnde Lernformate und Gruppengrößen anpassen"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-5> a skos:Concept ;
+    skos:prefLabel "Natürliche Elemente"@de ;
+    skos:altLabel "biophile Elemente"@de ;
+    skos:definition "Naturbezug und Materialien zur Wohlbefindens- und Aufmerksamkeitsförderung"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-6> a skos:Concept ;
+    skos:prefLabel "Sicherheit & Orientierung"@de ;
+    skos:altLabel "Wayfinding"@en ;
+    skos:altLabel "Sicherheit"@de ;
+    skos:definition "Sichere Wegeführung, Orientierung und Schutz gewährleisten"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
+
+<22-7> a skos:Concept ;
+    skos:prefLabel "Maßstab & Proportionen"@de ;
+    skos:altLabel "Raummaß"@de ;
+    skos:definition "Größenverhältnisse und Proportionen lernförderlich gestalten"@de ;
+    skos:broader <22> ;
+    skos:inScheme <> .
 
 <23> a skos:Concept ;
-	skos:prefLabel "Soziale Interaktion"@de ;
-	skos:definition "Entwurfsmuster für die Gestaltung sozialer Interaktionen und Lerngemeinschaften"@de ;
-	skos:broader <2> ;
-	skos:narrower <231>, <232>, <233>, <234>, <235>, <236>, <237> ;
-	skos:inScheme <> .
+    skos:prefLabel "Soziale Interaktion"@de ;
+    skos:definition "Muster der Zusammenarbeit, Kommunikation und Beteiligung in Lerngruppen"@de ;
+    skos:broader <2> ;
+    skos:narrower <23-1>, <23-2>, <23-3>, <23-4>, <23-5>, <23-6>, <23-7> ;
+    skos:inScheme <> .
+
+<23-1> a skos:Concept ;
+    skos:prefLabel "Kollaboration"@de ;
+    skos:altLabel "Teamarbeit"@de ;
+    skos:definition "Gemeinsam Probleme bearbeiten und Ergebnisse ko-kreieren"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-2> a skos:Concept ;
+    skos:prefLabel "Peer Learning"@de ;
+    skos:altLabel "Peer-Unterstützung"@de ;
+    skos:definition "Wechselseitiges Lernen und Unterstützung unter Lernenden"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-3> a skos:Concept ;
+    skos:prefLabel "Kommunikation"@de ;
+    skos:altLabel "Gesprächskultur"@de ;
+    skos:definition "Konstruktiver Austausch und Dialogregeln für Lernprozesse"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-4> a skos:Concept ;
+    skos:prefLabel "Beteiligung/Equity of Voice"@de ;
+    skos:altLabel "Beteiligungsausgleich"@de ;
+    skos:altLabel "Gruppenarbeit"@de ;
+    skos:definition "Ausgewogene Beteiligung und faire Redeanteile sichern"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-5> a skos:Concept ;
+    skos:prefLabel "Partizipation Lernender"@de ;
+    skos:altLabel "studentische Beteiligung"@de ;
+    skos:definition "Lernende an Planung, Entscheidungen und Evaluation beteiligen"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-6> a skos:Concept ;
+    skos:prefLabel "Community Building"@de ;
+    skos:altLabel "Lerngemeinschaft"@de ;
+    skos:definition "Zugehörigkeit, Vertrauen und gemeinsames Lernen stärken"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
+
+<23-7> a skos:Concept ;
+    skos:prefLabel "Lernnetzwerke"@de ;
+    skos:altLabel "Netzwerkbildung"@de ;
+    skos:definition "Vernetzung innerhalb und außerhalb der Lerngruppe fördern"@de ;
+    skos:broader <23> ;
+    skos:inScheme <> .
 
 <24> a skos:Concept ;
-	skos:prefLabel "Methodische Ausrichtung"@de ;
-	skos:definition "Entwurfsmuster für methodische und didaktische Grundausrichtungen des Unterrichts"@de ;
-	skos:broader <2> ;
-	skos:narrower <241>, <242>, <243>, <244>, <245>, <246>, <247>, <248>, <249> ;
-	skos:inScheme <> .
+    skos:prefLabel "Methodische Ausrichtung"@de ;
+    skos:definition "Grundausrichtung und Sequenzierung methodischer Gestaltung"@de ;
+    skos:broader <2> ;
+    skos:narrower <24-1>, <24-2>, <24-3>, <24-4>, <24-5>, <24-6>, <24-7>, <24-8>, <24-9>, <24-10> ;
+    skos:inScheme <> .
+
+<24-1> a skos:Concept ;
+    skos:prefLabel "Instruktionsdesign/Sequenzierung"@de ;
+    skos:altLabel "Lehrsequenzierung"@de ;
+    skos:definition "Abfolge und Struktur von Lehr-/Lernschritten gestalten"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-2> a skos:Concept ;
+    skos:prefLabel "Instruktion ↔ Konstruktion"@de ;
+    skos:altLabel "Lehrendengeleitet ↔ lernendengesteuert"@de ;
+    skos:definition "Balance zwischen Anleitung und eigenständiger Konstruktion finden"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-3> a skos:Concept ;
+    skos:prefLabel "Konstruktive Aktivierung"@de ;
+    skos:altLabel "Lernaktivierung"@de ;
+    skos:definition "Aktive, sinnstiftende Lernhandlungen anregen"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-4> a skos:Concept ;
+    skos:prefLabel "Anwendungs- & Problemorientierung"@de ;
+    skos:altLabel "Lebenswelt-/Praxisanknüpfung"@de ;
+    skos:definition "Lernen an authentischen Problemen und Anwendungssituationen ausrichten"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-5> a skos:Concept ;
+    skos:prefLabel "Differenzierung"@de ;
+    skos:altLabel "adaptive Anforderung"@de ;
+    skos:definition "Lernwege, Materialien und Anforderungen differenzieren"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-6> a skos:Concept ;
+    skos:prefLabel "Interdisziplinarität"@de ;
+    skos:altLabel "Fächervernetzung"@de ;
+    skos:definition "Inhalte und Perspektiven mehrerer Fächer verbinden"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-7> a skos:Concept ;
+    skos:prefLabel "Überfachliche Kompetenzen"@de ;
+    skos:altLabel "Schlüsselkompetenzen"@de ;
+    skos:definition "Kommunikative, soziale und methodische Kompetenzen fördern"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-8> a skos:Concept ;
+    skos:prefLabel "Theorie–Praxis-Verzahnung"@de ;
+    skos:altLabel "Brückenbildung"@de ;
+    skos:definition "Theoretische Grundlagen mit Anwendungspraxis verbinden"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-9> a skos:Concept ;
+    skos:prefLabel "Kontinuität/Progression"@de ;
+    skos:altLabel "Progression"@de ;
+    skos:definition "Lernentwicklung schrittweise aufbauen und sichern"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
+
+<24-10> a skos:Concept ;
+    skos:prefLabel "Großgruppen-Begleitung/Skalierung"@de ;
+    skos:altLabel "Skalierung"@de ;
+    skos:definition "Lernsettings für große Gruppen wirksam gestalten"@de ;
+    skos:broader <24> ;
+    skos:inScheme <> .
 
 <25> a skos:Concept ;
-	skos:prefLabel "Technologische Integration"@de ;
-	skos:definition "Entwurfsmuster für die Integration digitaler Technologien in Lehr-Lern-Prozesse"@de ;
-	skos:broader <2> ;
-	skos:narrower <251>, <252>, <253>, <254>, <255>, <256>, <257>, <258> ;
-	skos:inScheme <> .
+    skos:prefLabel "Technologische Integration"@de ;
+    skos:definition "Technologie didaktisch sinnvoll auswählen, einbetten und unterstützen"@de ;
+    skos:broader <2> ;
+    skos:narrower <25-1>, <25-2>, <25-3>, <25-4>, <25-5>, <25-6>, <25-7>, <25-8> ;
+    skos:inScheme <> .
+
+<25-1> a skos:Concept ;
+    skos:prefLabel "Digitale Kompetenzen/E-Learning"@de ;
+    skos:altLabel "Digital Literacy"@en ;
+    skos:definition "Digitale Teilhabe- und Lernkompetenzen entwickeln"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-2> a skos:Concept ;
+    skos:prefLabel "Medienauswahl & Passung"@de ;
+    skos:altLabel "Medienfit"@de ;
+    skos:altLabel "TPACK"@en ;
+    skos:definition "Medien passend zu Zielen, Inhalten und Lernenden auswählen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-3> a skos:Concept ;
+    skos:prefLabel "Blended-Integration"@de ;
+    skos:altLabel "Kohärenz Hybrid"@de ;
+    skos:altLabel "Blended Learning"@en ;
+    skos:definition "Präsenz- und Online-Lernen kohärent verzahnen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-4> a skos:Concept ;
+    skos:prefLabel "Infrastruktur"@de ;
+    skos:altLabel "Netz"@de ;
+    skos:altLabel "Geräte"@de ;
+    skos:definition "Technische Infrastruktur verlässlich bereitstellen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-5> a skos:Concept ;
+    skos:prefLabel "Interaktivität/Rückkanal"@de ;
+    skos:altLabel "Response-/Feedback-Tools"@de ;
+    skos:definition "Rückmeldeschleifen und Interaktion mit digitalen Werkzeugen ermöglichen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-6> a skos:Concept ;
+    skos:prefLabel "Einsatzleitlinien & Workflows"@de ;
+    skos:altLabel "Medienkonzept"@de ;
+    skos:altLabel "Digital Workflows"@de ;
+    skos:definition "Absprachen, Standards und Abläufe für den Medieneinsatz klären"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-7> a skos:Concept ;
+    skos:prefLabel "Support/Schulung"@de ;
+    skos:altLabel "technisch-didaktischer Support"@de ;
+    skos:altLabel "Hybrider Support"@de ;
+    skos:definition "Technischen und didaktischen Support sowie Schulungen sicherstellen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
+
+<25-8> a skos:Concept ;
+    skos:prefLabel "Werkzeugtauglichkeit"@de ;
+    skos:altLabel "Tool-Fit"@en ;
+    skos:definition "Werkzeuge hinsichtlich Eignung und Nutzbarkeit prüfen"@de ;
+    skos:broader <25> ;
+    skos:inScheme <> .
 
 <26> a skos:Concept ;
-	skos:prefLabel "Assessment & Feedback"@de ;
-	skos:definition "Entwurfsmuster für Bewertung, Rückmeldung und Leistungsbeurteilung"@de ;
-	skos:broader <2> ;
-	skos:narrower <261>, <262>, <263>, <264>, <265> ;
-	skos:inScheme <> .
+    skos:prefLabel "Assessment & Feedback"@de ;
+    skos:definition "Bewerten, Rückmelden und Lernprozesse formatv/prozessbezogen begleiten"@de ;
+    skos:broader <2> ;
+    skos:narrower <26-1>, <26-2>, <26-3>, <26-4>, <26-5> ;
+    skos:inScheme <> .
+
+<26-1> a skos:Concept ;
+    skos:prefLabel "Bewertungsmethoden & Kriterienklarheit"@de ;
+    skos:altLabel "Kriterienklarheit"@de ;
+    skos:definition "Kriterien transparent machen und passende Bewertungsverfahren wählen"@de ;
+    skos:broader <26> ;
+    skos:inScheme <> .
+
+<26-2> a skos:Concept ;
+    skos:prefLabel "Formative Rückmeldung"@de ;
+    skos:altLabel "laufendes Feedback"@de ;
+    skos:definition "Regelmäßiges, lernförderliches Feedback in den Prozess integrieren"@de ;
+    skos:broader <26> ;
+    skos:inScheme <> .
+
+<26-3> a skos:Concept ;
+    skos:prefLabel "Peer-Bewertung"@de ;
+    skos:altLabel "Peer Assessment"@en ;
+    skos:definition "Gegenseitige Bewertung durch Lernende strukturieren"@de ;
+    skos:broader <26> ;
+    skos:inScheme <> .
+
+<26-4> a skos:Concept ;
+    skos:prefLabel "Selbsteinschätzung"@de ;
+    skos:altLabel "Selbstbewertung"@de ;
+    skos:definition "Eigene Leistung kriteriengeleitet einschätzen"@de ;
+    skos:broader <26> ;
+    skos:inScheme <> .
+
+<26-5> a skos:Concept ;
+    skos:prefLabel "Prozessbezogene Prüfungsformate"@de ;
+    skos:altLabel "Lernwegbezug"@de ;
+    skos:altLabel "Prüfungsformate"@de ;
+    skos:definition "Leistungsnachweise mit Bezug zum Lernprozess gestalten"@de ;
+    skos:broader <26> ;
+    skos:inScheme <> .
 
 <27> a skos:Concept ;
-	skos:prefLabel "Curriculare Organisation"@de ;
-	skos:definition "Entwurfsmuster für die curriculare und inhaltliche Organisation von Lernprozessen"@de ;
-	skos:broader <2> ;
-	skos:narrower <271>, <272>, <273>, <274> ;
-	skos:inScheme <> .
+    skos:prefLabel "Curriculare Organisation"@de ;
+    skos:definition "Inhalte und Kompetenzen über Zeit und Fächer hinweg strukturieren"@de ;
+    skos:broader <2> ;
+    skos:narrower <27-1>, <27-2>, <27-3>, <27-4> ;
+    skos:inScheme <> .
+
+<27-1> a skos:Concept ;
+    skos:prefLabel "Sequenzierung"@de ;
+    skos:altLabel "Stoffabfolge"@de ;
+    skos:definition "Reihenfolge und Aufbau von Inhalten planen"@de ;
+    skos:broader <27> ;
+    skos:inScheme <> .
+
+<27-2> a skos:Concept ;
+    skos:prefLabel "Wissensdimensionen"@de ;
+    skos:altLabel "Wissensarten"@de ;
+    skos:definition "Fakten-, Konzept-, Prozedural- und metakognitives Wissen berücksichtigen"@de ;
+    skos:broader <27> ;
+    skos:inScheme <> .
+
+<27-3> a skos:Concept ;
+    skos:prefLabel "Kompetenzniveaus"@de ;
+    skos:altLabel "Niveaustufen"@de ;
+    skos:definition "Kompetenzstufen und Anspruchsniveaus ausweisen"@de ;
+    skos:broader <27> ;
+    skos:inScheme <> .
+
+<27-4> a skos:Concept ;
+    skos:prefLabel "Fächerintegration"@de ;
+    skos:altLabel "Inter-/Transdisziplinarität"@de ;
+    skos:definition "Fachgrenzen überschreiten und Verbindungen herstellen"@de ;
+    skos:broader <27> ;
+    skos:inScheme <> .
 
 <28> a skos:Concept ;
-	skos:prefLabel "Individuelle Förderung"@de ;
-	skos:definition "Entwurfsmuster für individualisierte und differenzierte Förderansätze"@de ;
-	skos:broader <2> ;
-	skos:narrower <281>, <282>, <283> ;
-	skos:inScheme <> .
+    skos:prefLabel "Individuelle Förderung & Inklusion"@de ;
+    skos:definition "Lernende mit unterschiedlichen Voraussetzungen unterstützen und einbeziehen"@de ;
+    skos:broader <2> ;
+    skos:narrower <28-1>, <28-2>, <28-3>, <28-4>, <28-5> ;
+    skos:inScheme <> .
 
+<28-1> a skos:Concept ;
+    skos:prefLabel "Heterogene Lernstände"@de ;
+    skos:altLabel "Leistungsstreuung"@de ;
+    skos:definition "Unterschiedliche Lernvoraussetzungen diagnostizieren und adressieren"@de ;
+    skos:broader <28> ;
+    skos:inScheme <> .
 
-# Ebene 2 - Ablauf- & Planungsgerüste
+<28-2> a skos:Concept ;
+    skos:prefLabel "Lernstrategien & Selbstregulation"@de ;
+    skos:altLabel "Lernkompetenz"@de ;
+    skos:definition "Strategien für selbstreguliertes Lernen fördern"@de ;
+    skos:broader <28> ;
+    skos:inScheme <> .
+
+<28-3> a skos:Concept ;
+    skos:prefLabel "UDL – Universelles Design für Lernen"@de ;
+    skos:altLabel "Universal Design for Learning"@en ;
+    skos:definition "Barrierearme, flexible Lernzugänge entlang der UDL-Prinzipien gestalten"@de ;
+    skos:broader <28> ;
+    skos:inScheme <> .
+
+<28-4> a skos:Concept ;
+    skos:prefLabel "Adaptive/Personalisierte Wege"@de ;
+    skos:altLabel "Adaptive Learning Systems"@en ;
+    skos:definition "Lernpfade und Anforderungen adaptiv personalisieren"@de ;
+    skos:broader <28> ;
+    skos:inScheme <> .
+
+<28-5> a skos:Concept ;
+    skos:prefLabel "Unterstützung bei Leistungsrisiko"@de ;
+    skos:altLabel "Remediation"@en ;
+    skos:altLabel "RTI"@en ;
+    skos:definition "Gefährdete Lernverläufe frühzeitig erkennen und unterstützen"@de ;
+    skos:broader <28> ;
+    skos:inScheme <> .
+
 <31> a skos:Concept ;
-	skos:prefLabel "Einführendes/Motivierendes Lernen"@de ;
-	skos:altLabel "aktivierendes Lernen"@de, "motivationale Einstiege"@de ;
-	skos:definition "Ablaufgerüste für motivierende Einführungen und aktivierende Lernphasen"@de ;
-	skos:broader <3> ;
-	skos:narrower <311>, <312>, <313> ;
-	skos:inScheme <> .
+    skos:prefLabel "Angeleitet & strukturiert"@de ;
+    skos:altLabel "instruktionsgeleitet"@de ;
+    skos:altLabel "explizit anleiten"@de ;
+    skos:altLabel "direkte Instruktion"@de ;
+    skos:altLabel "Ich–Wir–Du"@de ;
+    skos:altLabel "Direct Instruction"@en ;
+    skos:definition "Sequenzmodelle mit starker Anleitung und klarer Struktur"@de ;
+    skos:broader <3> ;
+    skos:narrower <31-1>, <31-2>, <31-3>, <31-4>, <31-5> ;
+    skos:inScheme <> .
+
+<31-1> a skos:Concept ;
+    skos:prefLabel "Gagnés 9 Events"@de ;
+    skos:altLabel "Nine Events of Instruction"@en ;
+    skos:broader <31> ;
+    skos:inScheme <> .
+
+<31-2> a skos:Concept ;
+    skos:prefLabel "Madeline Hunter Lesson Design"@de ;
+    skos:altLabel "Hunter Model"@en ;
+    skos:altLabel "Seven-Step Lesson Plan"@en ;
+    skos:broader <31> ;
+    skos:inScheme <> .
+
+<31-3> a skos:Concept ;
+    skos:prefLabel "BOPPPS"@de ;
+    skos:altLabel "Bridge-in–Objectives–Pre-assessment–Participatory Learning–Post-assessment–Summary"@en ;
+    skos:altLabel "BOPPPS-Modell"@de ;
+    skos:broader <31> ;
+    skos:inScheme <> .
+
+<31-4> a skos:Concept ;
+    skos:prefLabel "Direkte Instruktion / GRR (I–We–You)"@de ;
+    skos:altLabel "GRR"@en ;
+    skos:altLabel "I–We–You"@en ;
+    skos:broader <31> ;
+    skos:inScheme <> .
+
+<31-5> a skos:Concept ;
+    skos:prefLabel "Rosenshine-Abfolge (Review→Input→Guided→Check→Independent→Review)"@de ;
+    skos:altLabel "Rosenshine's Principles"@en ;
+    skos:broader <31> ;
+    skos:inScheme <> .
 
 <32> a skos:Concept ;
-	skos:prefLabel "Erarbeitendes/Exploratives Lernen"@de ;
-	skos:altLabel "entdeckendes Lernen"@de, "exploratives Lernen"@de, "inquiry-basiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für entdeckendes und exploratives Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <321>, <322>, <323> ;
-	skos:inScheme <> .
+    skos:prefLabel "Entdeckend & forschend"@de ;
+    skos:altLabel "entdeckendes Lernen"@de ;
+    skos:altLabel "forschendes Lernen"@de ;
+    skos:altLabel "inquiry-basiert"@de ;
+    skos:altLabel "phänomenbasiertes Lernen"@de ;
+    skos:definition "Sequenzen für exploratives, forschendes Lernen"@de ;
+    skos:broader <3> ;
+    skos:narrower <32-1>, <32-2>, <32-3>, <32-4>, <32-5>, <32-6> ;
+    skos:inScheme <> .
+
+<32-1> a skos:Concept ;
+    skos:prefLabel "BSCS 5E (Engage–Explore–Explain–Elaborate–Evaluate)"@de ;
+    skos:altLabel "5E"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
+
+<32-2> a skos:Concept ;
+    skos:prefLabel "Karplus 3E"@de ;
+    skos:altLabel "3E"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
+
+<32-3> a skos:Concept ;
+    skos:prefLabel "Scientific Method"@de ;
+    skos:altLabel "Wissenschaftliche Methode"@de ;
+    skos:altLabel "Scientific Method"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
+
+<32-4> a skos:Concept ;
+    skos:prefLabel "POE (Predict–Observe–Explain)"@de ;
+    skos:altLabel "Predict–Observe–Explain"@en ;
+    skos:altLabel "POE"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
+
+<32-5> a skos:Concept ;
+    skos:prefLabel "K–W–L"@de ;
+    skos:altLabel "Know–Want–Learned"@en ;
+    skos:altLabel "KWL"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
+
+<32-6> a skos:Concept ;
+    skos:prefLabel "CER (Claim–Evidence–Reasoning)"@de ;
+    skos:altLabel "Claim–Evidence–Reasoning"@en ;
+    skos:altLabel "CER"@en ;
+    skos:broader <32> ;
+    skos:inScheme <> .
 
 <33> a skos:Concept ;
-	skos:prefLabel "Soziales & Kooperatives Lernen"@de ;
-	skos:altLabel "kooperatives Lernen"@de, "kollaboratives Lernen"@de, "diskursives Lernen"@de ;
-	skos:definition "Ablaufgerüste für soziales und kooperatives Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <331>, <332>, <333> ;
-	skos:inScheme <> .
+    skos:prefLabel "Problemlösend & fallorientiert"@de ;
+    skos:altLabel "problembasiert"@de ;
+    skos:altLabel "problemorientiert"@de ;
+    skos:altLabel "fallbasiert"@de ;
+    skos:definition "Sequenzen zur systematischen Problembearbeitung und Fallanalyse"@de ;
+    skos:broader <3> ;
+    skos:narrower <33-1>, <33-2>, <33-3>, <33-4>, <33-5> ;
+    skos:inScheme <> .
+
+<33-1> a skos:Concept ;
+    skos:prefLabel "PBL 7-Step (Maastricht)"@de ;
+    skos:altLabel "Problem-Based Learning"@en ;
+    skos:altLabel "Maastricht Seven-Step"@en ;
+    skos:broader <33> ;
+    skos:inScheme <> .
+
+<33-2> a skos:Concept ;
+    skos:prefLabel "Polya 4-Schritte"@de ;
+    skos:altLabel "Polya's Four Steps"@en ;
+    skos:broader <33> ;
+    skos:inScheme <> .
+
+<33-3> a skos:Concept ;
+    skos:prefLabel "IDEAL-Modell"@de ;
+    skos:altLabel "IDEAL"@en ;
+    skos:broader <33> ;
+    skos:inScheme <> .
+
+<33-4> a skos:Concept ;
+    skos:prefLabel "Case-Cycle (Analyse→Optionen→Begründung→Transfer)"@de ;
+    skos:altLabel "Case Method Cycle"@en ;
+    skos:broader <33> ;
+    skos:inScheme <> .
+
+<33-5> a skos:Concept ;
+    skos:prefLabel "Clinical Reasoning Loop"@de ;
+    skos:altLabel "Clinical Reasoning Cycle"@en ;
+    skos:broader <33> ;
+    skos:inScheme <> .
 
 <34> a skos:Concept ;
-	skos:prefLabel "Produkte erstellen & Projekte durchführen"@de ;
-	skos:altLabel "projektbasiertes Lernen"@de, "produktorientiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für projekt- und produktorientiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <341>, <342> ;
-	skos:inScheme <> .
+    skos:prefLabel "Diskursiv & gemeinsam weiterdenken"@de ;
+    skos:altLabel "kooperativ"@de ;
+    skos:altLabel "kollaborativ"@de ;
+    skos:altLabel "dialogisch"@de ;
+    skos:altLabel "debattenbasiert"@de ;
+    skos:definition "Sequenzen für diskursives, gemeinsames Weiterdenken"@de ;
+    skos:broader <3> ;
+    skos:narrower <34-1>, <34-2>, <34-3>, <34-4>, <34-5>, <34-6>, <34-7> ;
+    skos:inScheme <> .
+
+<34-1> a skos:Concept ;
+    skos:prefLabel "Socratic Seminar"@de ;
+    skos:altLabel "Sokratisches Seminar"@de ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-2> a skos:Concept ;
+    skos:prefLabel "Harkness"@de ;
+    skos:altLabel "Harkness Table"@en ;
+    skos:altLabel "Harkness-Methode"@de ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-3> a skos:Concept ;
+    skos:prefLabel "Structured Academic Controversy (SAC)"@de ;
+    skos:altLabel "SAC"@en ;
+    skos:altLabel "strukturierte akademische Kontroverse"@de ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-4> a skos:Concept ;
+    skos:prefLabel "Debattenformate (Oxford, Karl-Popper, Lincoln-Douglas, Public Forum)"@de ;
+    skos:altLabel "Debattenformate"@de ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-5> a skos:Concept ;
+    skos:prefLabel "Fishbowl"@de ;
+    skos:altLabel "Innen-/Außenkreis"@de ;
+    skos:altLabel "Fishbowl Discussion"@en ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-6> a skos:Concept ;
+    skos:prefLabel "Jigsaw / Expertengruppen"@de ;
+    skos:altLabel "Gruppenpuzzle"@de ;
+    skos:broader <34> ;
+    skos:inScheme <> .
+
+<34-7> a skos:Concept ;
+    skos:prefLabel "Think–Pair–Share-Loop"@de ;
+    skos:altLabel "TPS"@en ;
+    skos:broader <34> ;
+    skos:inScheme <> .
 
 <35> a skos:Concept ;
-	skos:prefLabel "Üben, Festigen & Anwenden"@de ;
-	skos:altLabel "kompetenzorientiertes Lernen"@de, "mastery-basiertes Lernen"@de, "anwendungsorientiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für Übung, Festigung und Anwendung"@de ;
-	skos:broader <3> ;
-	skos:narrower <351>, <352> ;
-	skos:inScheme <> .
+    skos:prefLabel "Projektbasiert & gestaltend"@de ;
+    skos:altLabel "projektbasiert"@de ;
+    skos:altLabel "designbasiert"@de ;
+    skos:altLabel "produktorientiert"@de ;
+    skos:altLabel "Service Learning"@de ;
+    skos:definition "Sequenzen für projekt- und designorientiertes Arbeiten"@de ;
+    skos:broader <3> ;
+    skos:narrower <35-1>, <35-2>, <35-3>, <35-4>, <35-5>, <35-6> ;
+    skos:inScheme <> .
+
+<35-1> a skos:Concept ;
+    skos:prefLabel "Design Thinking (Double Diamond / Stanford)"@de ;
+    skos:altLabel "Double Diamond"@en ;
+    skos:broader <35> ;
+    skos:inScheme <> .
+
+<35-2> a skos:Concept ;
+    skos:prefLabel "Engineering Design Process"@de ;
+    skos:altLabel "EDP"@en ;
+    skos:broader <35> ;
+    skos:inScheme <> .
+
+<35-3> a skos:Concept ;
+    skos:prefLabel "PjBL-Fahrplan (BIE / Gold Standard)"@de ;
+    skos:altLabel "Project-based Learning"@en ;
+    skos:altLabel "PBL"@en ;
+    skos:broader <35> ;
+    skos:inScheme <> .
+
+<35-4> a skos:Concept ;
+    skos:prefLabel "Agile Sprint (Plan–Build–Review–Retro)"@de ;
+    skos:altLabel "Scrum Sprint"@en ;
+    skos:broader <35> ;
+    skos:inScheme <> .
+
+<35-5> a skos:Concept ;
+    skos:prefLabel "Studio-Critique-Zyklus (Entwurf–Feedback–Revision–Exponat)"@de ;
+    skos:altLabel "Crit"@en ;
+    skos:altLabel "Atelierkritik"@de ;
+    skos:broader <35> ;
+    skos:inScheme <> .
+
+<35-6> a skos:Concept ;
+    skos:prefLabel "Service-Learning-Zyklus (Investigate–Plan–Act–Reflect–Demonstrate)"@de ;
+    skos:altLabel "Service Learning"@en ;
+    skos:broader <35> ;
+    skos:inScheme <> .
 
 <36> a skos:Concept ;
-	skos:prefLabel "Verständlichkeit & Abstraktion sichern"@de ;
-	skos:altLabel "repräsentationsorientiertes Lernen"@de, "konzeptuelles Lernen"@de ;
-	skos:definition "Ablaufgerüste zur Sicherung von Verständlichkeit und Abstraktion"@de ;
-	skos:broader <3> ;
-	skos:narrower <361>, <362> ;
-	skos:inScheme <> .
+    skos:prefLabel "Erfahrungsorientiert & praktisch"@de ;
+    skos:altLabel "handlungsorientiert"@de ;
+    skos:altLabel "erfahrungsbasiert"@de ;
+    skos:altLabel "simulationsbasiert"@de ;
+    skos:altLabel "situiert"@de ;
+    skos:altLabel "learning by doing"@de ;
+    skos:definition "Sequenzen für erfahrungsbasierte, praktische Lernzyklen"@de ;
+    skos:broader <3> ;
+    skos:narrower <36-1>, <36-2>, <36-3>, <36-4>, <36-5> ;
+    skos:inScheme <> .
+
+<36-1> a skos:Concept ;
+    skos:prefLabel "Kolbs Erfahrungslernzyklus (CE–RO–AC–AE)"@de ;
+    skos:altLabel "Kolb Cycle"@en ;
+    skos:broader <36> ;
+    skos:inScheme <> .
+
+<36-2> a skos:Concept ;
+    skos:prefLabel "PDSA / PDCA"@de ;
+    skos:altLabel "Plan-Do-Study-Act"@en ;
+    skos:altLabel "Plan-Do-Check-Act"@en ;
+    skos:altLabel "Deming Cycle"@en ;
+    skos:broader <36> ;
+    skos:inScheme <> .
+
+<36-3> a skos:Concept ;
+    skos:prefLabel "Brief–Experience–Debrief–Transfer"@de ;
+    skos:altLabel "Debriefing Cycle"@en ;
+    skos:broader <36> ;
+    skos:inScheme <> .
+
+<36-4> a skos:Concept ;
+    skos:prefLabel "Feldforschungs-Zyklus (Plan–Erheben–Auswerten–Berichten)"@de ;
+    skos:altLabel "Field Study Cycle"@en ;
+    skos:broader <36> ;
+    skos:inScheme <> .
+
+<36-5> a skos:Concept ;
+    skos:prefLabel "Missions-/Level-Fortschritt (Gamification)"@de ;
+    skos:altLabel "Gamification"@en ;
+    skos:altLabel "Quest-Based Learning"@en ;
+    skos:broader <36> ;
+    skos:inScheme <> .
 
 <37> a skos:Concept ;
-	skos:prefLabel "Zeit-/Ort-Orchestrierung (Blended/Hybrid-Lernen)"@de ;
-	skos:altLabel "blended learning"@de, "hybrid-basiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für Blended- und Hybrid-Learning-Szenarien"@de ;
-	skos:broader <3> ;
-	skos:narrower <371>, <372> ;
-	skos:inScheme <> .
+    skos:prefLabel "Übend & festigend"@de ;
+    skos:altLabel "beherrschungsorientiert"@de ;
+    skos:altLabel "Mastery Learning"@de ;
+    skos:altLabel "Training"@de ;
+    skos:altLabel "gezieltes Üben"@de ;
+    skos:definition "Sequenzen für Übung, Festigung und Aufbau von Routinen"@de ;
+    skos:broader <3> ;
+    skos:narrower <37-1>, <37-2>, <37-3>, <37-4>, <37-5> ;
+    skos:inScheme <> .
+
+<37-1> a skos:Concept ;
+    skos:prefLabel "Mastery Learning Cycle (Diagnose→Instruktion→Formatives Assessment→Korrektur→Re-Test)"@de ;
+    skos:broader <37> ;
+    skos:inScheme <> .
+
+<37-2> a skos:Concept ;
+    skos:prefLabel "Deliberate Practice Loop"@de ;
+    skos:broader <37> ;
+    skos:inScheme <> .
+
+<37-3> a skos:Concept ;
+    skos:prefLabel "Workshop-Modell (Mini-Lesson–Work Time–Share)"@de ;
+    skos:broader <37> ;
+    skos:inScheme <> .
+
+<37-4> a skos:Concept ;
+    skos:prefLabel "Interleaving-Sequenz"@de ;
+    skos:altLabel "Interleaving"@en ;
+    skos:broader <37> ;
+    skos:inScheme <> .
+
+<37-5> a skos:Concept ;
+    skos:prefLabel "Spaced-Practice-Plan"@de ;
+    skos:altLabel "Verteiltes Üben"@de ;
+    skos:altLabel "Spacing"@en ;
+    skos:broader <37> ;
+    skos:inScheme <> .
 
 <38> a skos:Concept ;
-	skos:prefLabel "Anpassen & Verzweigen (Adaptives/personalisiertes Lernen)"@de ;
-	skos:altLabel "differenziertes Lernen"@de, "personalisiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für adaptives und personalisiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <381>, <382> ;
-	skos:inScheme <> .
+    skos:prefLabel "Ergebnis- & rückwärtsorientiert"@de ;
+    skos:altLabel "rückwärts planen"@de ;
+    skos:altLabel "kompetenzorientiert"@de ;
+    skos:altLabel "evidenzorientiert"@de ;
+    skos:altLabel "Constructive Alignment"@de ;
+    skos:altLabel "Assessment for Learning"@de ;
+    skos:definition "Sequenzen mit klarem Outcome-Fokus und Alignment"@de ;
+    skos:broader <3> ;
+    skos:narrower <38-1>, <38-2>, <38-3>, <38-4>, <38-5> ;
+    skos:inScheme <> .
+
+<38-1> a skos:Concept ;
+    skos:prefLabel "Backward Design / UbD"@de ;
+    skos:altLabel "Understanding by Design"@en ;
+    skos:altLabel "UbD"@en ;
+    skos:broader <38> ;
+    skos:inScheme <> .
+
+<38-2> a skos:Concept ;
+    skos:prefLabel "Constructive Alignment (Biggs)"@de ;
+    skos:broader <38> ;
+    skos:inScheme <> .
+
+<38-3> a skos:Concept ;
+    skos:prefLabel "Formative Assessment Cycle (Elicit–Interpret–Act)"@de ;
+    skos:altLabel "Elicit–Interpret–Act"@en ;
+    skos:broader <38> ;
+    skos:inScheme <> .
+
+<38-4> a skos:Concept ;
+    skos:prefLabel "Diagnose–Intervention–Re-Assessment"@de ;
+    skos:broader <38> ;
+    skos:inScheme <> .
+
+<38-5> a skos:Concept ;
+    skos:prefLabel "Portfolio-Evidenz-Zyklus (Sammeln–Auswählen–Reflektieren–Präsentieren)"@de ;
+    skos:broader <38> ;
+    skos:inScheme <> .
 
 <39> a skos:Concept ;
-	skos:prefLabel "Rückwärts planen & prüfen (Outcome/Assessment-integriertes Lernen)"@de ;
-	skos:altLabel "outcome-orientiertes Lernen"@de, "assessment-as-learning"@de ;
-	skos:definition "Ablaufgerüste für outcome-orientierte Planung und Assessment-Integration"@de ;
-	skos:broader <3> ;
-	skos:narrower <391>, <392> ;
-	skos:inScheme <> .
+    skos:prefLabel "Selbstreguliert & reflektierend"@de ;
+    skos:altLabel "selbstreguliertes Lernen"@de ;
+    skos:altLabel "metakognitiv"@de ;
+    skos:altLabel "selbstgesteuert"@de ;
+    skos:definition "Sequenzen zur Planung, Steuerung und Reflexion des eigenen Lernens"@de ;
+    skos:broader <3> ;
+    skos:narrower <39-1>, <39-2>, <39-3> ;
+    skos:inScheme <> .
+
+<39-1> a skos:Concept ;
+    skos:prefLabel "SRL-Zyklus nach Zimmerman (Forethought–Performance–Self-Reflection)"@de ;
+    skos:altLabel "Self-Regulated Learning"@en ;
+    skos:broader <39> ;
+    skos:inScheme <> .
+
+<39-2> a skos:Concept ;
+    skos:prefLabel "Goal–Plan–Do–Review"@de ;
+    skos:altLabel "GPDR"@en ;
+    skos:broader <39> ;
+    skos:inScheme <> .
+
+<39-3> a skos:Concept ;
+    skos:prefLabel "Lernjournal-Zyklus (Plan–Durchführung–Reflexion–Next Steps)"@de ;
+    skos:altLabel "Learning Journal Cycle"@en ;
+    skos:broader <39> ;
+    skos:inScheme <> .
 
 <310> a skos:Concept ;
-	skos:prefLabel "Fallbasiertes/Anwendungsnahes Lernen"@de ;
-	skos:altLabel "case-basiertes Lernen"@de, "szenariobasiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für fallbasiertes und anwendungsnahes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3101>, <3102> ;
-	skos:inScheme <> .
+    skos:prefLabel "Wahl-/pfadgesteuert & personalisiert"@de ;
+    skos:altLabel "personalisiert"@de ;
+    skos:altLabel "differenziert"@de ;
+    skos:altLabel "adaptive Pfade"@de ;
+    skos:altLabel "Choice / Playlist / Lernmenüs"@de ;
+    skos:definition "Sequenzen mit Wahlpfaden und personalisierten Lernwegen"@de ;
+    skos:broader <3> ;
+    skos:narrower <310-1>, <310-2>, <310-3>, <310-4>, <310-5> ;
+    skos:inScheme <> .
+
+<310-1> a skos:Concept ;
+    skos:prefLabel "Choice Boards"@de ;
+    skos:altLabel "Choice Board"@en ;
+    skos:altLabel "Auswahltafeln"@de ;
+    skos:broader <310> ;
+    skos:inScheme <> .
+
+<310-2> a skos:Concept ;
+    skos:prefLabel "Learning Menus / Tic-Tac-Toe"@de ;
+    skos:altLabel "Tic-Tac-Toe Boards"@en ;
+    skos:broader <310> ;
+    skos:inScheme <> .
+
+<310-3> a skos:Concept ;
+    skos:prefLabel "Playlists / Pathways"@de ;
+    skos:altLabel "Lernpfade"@de ;
+    skos:altLabel "Playlists"@en ;
+    skos:broader <310> ;
+    skos:inScheme <> .
+
+<310-4> a skos:Concept ;
+    skos:prefLabel "HyperDocs-Flows"@de ;
+    skos:altLabel "HyperDocs"@en ;
+    skos:broader <310> ;
+    skos:inScheme <> .
+
+<310-5> a skos:Concept ;
+    skos:prefLabel "Mastery Paths (Adaptive Release)"@de ;
+    skos:altLabel "Adaptive Release"@en ;
+    skos:altLabel "Mastery Paths"@en ;
+    skos:broader <310> ;
+    skos:inScheme <> .
 
 <311> a skos:Concept ;
-	skos:prefLabel "Service-/Gemeinwohlorientiertes Lernen"@de ;
-	skos:altLabel "service learning"@de, "community-basiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für service- und gemeinwohlorientiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3111>, <3112> ;
-	skos:inScheme <> .
+    skos:prefLabel "Zeitlich/örtlich flexibel"@de ;
+    skos:altLabel "Blended Learning"@de ;
+    skos:altLabel "Hybrid"@de ;
+    skos:altLabel "Flipped"@de ;
+    skos:altLabel "HyFlex"@de ;
+    skos:altLabel "Rotationsmodelle"@de ;
+    skos:altLabel "Blended/Hybrid"@en ;
+    skos:definition "Sequenzen mit flexibler Zeit-/Ort-Gestaltung und Blended-Formaten"@de ;
+    skos:broader <3> ;
+    skos:narrower <311-1>, <311-2>, <311-3>, <311-4>, <311-5>, <311-6>, <311-7> ;
+    skos:inScheme <> .
 
-<312> a skos:Concept ;
-	skos:prefLabel "Erfahrungsbasiertes Lernen"@de ;
-	skos:altLabel "erfahrungsorientiertes Lernen"@de, "experiential learning"@de ;
-	skos:definition "Ablaufgerüste für erfahrungsbasiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3121>, <3122> ;
-	skos:inScheme <> .
+<311-1> a skos:Concept ;
+    skos:prefLabel "Flipped Classroom"@de ;
+    skos:altLabel "Inverted Classroom"@en ;
+    skos:altLabel "invertierter Unterricht"@de ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<313> a skos:Concept ;
-	skos:prefLabel "Spielbasiertes Lernen"@de ;
-	skos:altLabel "game-basiertes Lernen"@de, "ludisches Lernen"@de ;
-	skos:definition "Ablaufgerüste für spielbasiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3131>, <3132> ;
-	skos:inScheme <> .
+<311-2> a skos:Concept ;
+    skos:prefLabel "HyFlex"@de ;
+    skos:altLabel "Hybrid-Flexible"@en ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<314> a skos:Concept ;
-	skos:prefLabel "Simulationsbasiertes Lernen"@de ;
-	skos:altLabel "simulationsgestütztes Lernen"@de, "planspielbasiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für simulationsbasiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3141>, <3142> ;
-	skos:inScheme <> .
+<311-3> a skos:Concept ;
+    skos:prefLabel "Präsenz–Online–Wechselrhythmus"@de ;
+    skos:altLabel "Wechselunterricht"@de ;
+    skos:altLabel "Blended Schedule"@en ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<315> a skos:Concept ;
-	skos:prefLabel "Studio-/Atelierbasiertes Lernen"@de ;
-	skos:altLabel "studio-based learning"@de, "atelier-basiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für studio- und atelierbasiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3151>, <3152> ;
-	skos:inScheme <> .
+<311-4> a skos:Concept ;
+    skos:prefLabel "Station Rotation"@de ;
+    skos:altLabel "Stationsrotation"@de ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<316> a skos:Concept ;
-	skos:prefLabel "Selbstgesteuertes/Selbstorganisiertes Lernen"@de ;
-	skos:altLabel "selbstbestimmtes Lernen"@de, "SOL"@de, "SRL-orientiertes Lernen"@de ;
-	skos:definition "Ablaufgerüste für selbstgesteuertes und selbstorganisiertes Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3161>, <3162> ;
-	skos:inScheme <> .
+<311-5> a skos:Concept ;
+    skos:prefLabel "Lab Rotation"@de ;
+    skos:altLabel "Lab Rotation"@en ;
+    skos:altLabel "Laborrotation"@de ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<317> a skos:Concept ;
-	skos:prefLabel "Reflexionsorientiertes/Metakognitives Lernen"@de ;
-	skos:altLabel "reflektierendes Lernen"@de, "metakognitives Lernen"@de ;
-	skos:definition "Ablaufgerüste für reflexionsorientiertes und metakognitives Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3171>, <3172> ;
-	skos:inScheme <> .
+<311-6> a skos:Concept ;
+    skos:prefLabel "Flex-Modell"@de ;
+    skos:altLabel "Flex Model"@en ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-<318> a skos:Concept ;
-	skos:prefLabel "Mediengestütztes/Multimodales Lernen"@de ;
-	skos:altLabel "medienintegriertes Lernen"@de, "multimodales Lernen"@de ;
-	skos:definition "Ablaufgerüste für mediengestütztes und multimodales Lernen"@de ;
-	skos:broader <3> ;
-	skos:narrower <3181>, <3182> ;
-	skos:inScheme <> .
+<311-7> a skos:Concept ;
+    skos:prefLabel "A-La-Carte / Enriched Virtual"@de ;
+    skos:altLabel "A La Carte"@en ;
+    skos:altLabel "Enriched Virtual"@en ;
+    skos:broader <311> ;
+    skos:inScheme <> .
 
-
-# Ebene 2 - Konkrete Unterrichtspläne
 <41> a skos:Concept ;
-	skos:prefLabel "Unterrichtsbaustein"@de ;
-	skos:altLabel "Didaktischer Baustein"@de ;
-	skos:definition "Einzelne, abgeschlossene didaktische Bausteine für spezifische Unterrichtssituationen"@de ;
-	skos:broader <4> ;
-	skos:narrower <411>, <412>, <413>, <414>, <415>, <416>, <417>, <418>, <419> ;
-	skos:inScheme <> .
+    skos:prefLabel "Baustein (10–40 min)"@de ;
+    skos:altLabel "Starter"@de ;
+    skos:altLabel "Impuls"@de ;
+    skos:definition "Kurzbausteine (10–40 Minuten) für fokussierte Lernphasen"@de ;
+    skos:broader <4> ;
+    skos:narrower <41-1>, <41-2>, <41-3>, <41-4>, <41-5>, <41-6>, <41-7>, <41-8>, <41-9>, <41-10>, <41-11> ;
+    skos:inScheme <> .
+
+<41-1> a skos:Concept ;
+    skos:prefLabel "Pro–Contra-Diskurs"@de ;
+    skos:altLabel "Argumentationsimpuls"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-2> a skos:Concept ;
+    skos:prefLabel "Dilemma-Diskussion"@de ;
+    skos:altLabel "Ethikimpuls"@de ;
+    skos:altLabel "Entscheidungsimpuls"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-3> a skos:Concept ;
+    skos:prefLabel "Rollen-/Szenario-Baustein"@de ;
+    skos:altLabel "Rollenspiel"@de ;
+    skos:altLabel "Szenario"@de ;
+    skos:altLabel "Perspektivenwechsel"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-4> a skos:Concept ;
+    skos:prefLabel "Expertengruppen-Baustein"@de ;
+    skos:altLabel "Jigsaw"@en ;
+    skos:altLabel "Expertengruppen"@de ;
+    skos:altLabel "Jigsaw-Aufteilung"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-5> a skos:Concept ;
+    skos:prefLabel "Fallstudien-Baustein"@de ;
+    skos:altLabel "Case-Mini"@de ;
+    skos:altLabel "Mini Case"@en ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-6> a skos:Concept ;
+    skos:prefLabel "Experimentier-Baustein"@de ;
+    skos:altLabel "Versuch"@de ;
+    skos:altLabel "Praktikums-Snippet"@de ;
+    skos:altLabel "Lab Snippet"@en ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-7> a skos:Concept ;
+    skos:prefLabel "Recherche-/Erkundungs-Baustein"@de ;
+    skos:altLabel "Informationserschließung"@de ;
+    skos:altLabel "Recherche"@de ;
+    skos:altLabel "Erkundung"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-8> a skos:Concept ;
+    skos:prefLabel "Begriffsnetz-Baustein"@de ;
+    skos:altLabel "Concept Map"@en ;
+    skos:altLabel "Begriffsnetz"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-9> a skos:Concept ;
+    skos:prefLabel "Gestaltungs-Baustein"@de ;
+    skos:altLabel "Prototyp"@de ;
+    skos:altLabel "Artefakt"@de ;
+    skos:altLabel "Prototype"@en ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-10> a skos:Concept ;
+    skos:prefLabel "Kurzreflexion"@de ;
+    skos:altLabel "Exit Ticket"@en ;
+    skos:altLabel "Journal-Impuls"@de ;
+    skos:broader <41> ;
+    skos:inScheme <> .
+
+<41-11> a skos:Concept ;
+    skos:prefLabel "Kurzassessment"@de ;
+    skos:altLabel "Zwischencheck"@de ;
+    skos:altLabel "Mini-Quiz"@de ;
+    skos:altLabel "Diagnose"@de ;
+    skos:altLabel "Quick Check"@en ;
+    skos:broader <41> ;
+    skos:inScheme <> .
 
 <42> a skos:Concept ;
-	skos:prefLabel "Stundenpaket"@de ;
-	skos:altLabel "Vollständige Unterrichtsstunde"@de ;
-	skos:definition "Vollständig ausgearbeitete Unterrichtsstunden mit allen Materialien und Ablaufplänen"@de ;
-	skos:broader <4> ;
-	skos:narrower <421>, <422>, <423>, <424>, <425> ;
-	skos:inScheme <> .
+    skos:prefLabel "Stunde / Block (45–180 min)"@de ;
+    skos:altLabel "Lektion"@de ;
+    skos:altLabel "Doppelstunde"@de ;
+    skos:altLabel "Workshop"@de ;
+    skos:definition "Ausgearbeitete Unterrichtsstunden oder -blöcke (45–180 Minuten)"@de ;
+    skos:broader <4> ;
+    skos:narrower <42-1>, <42-2>, <42-3>, <42-4>, <42-5>, <42-6>, <42-7>, <42-8>, <42-9>, <42-10>, <42-11>, <42-12>, <42-13>, <42-14> ;
+    skos:inScheme <> .
+
+<42-1> a skos:Concept ;
+    skos:prefLabel "Diskussionsstunde (Positionieren→Begründen→Synthese)"@de ;
+    skos:altLabel "Positionieren–Begründen–Synthese"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-2> a skos:Concept ;
+    skos:prefLabel "Fallarbeit-Stunde (Analyse→Optionen→Transfer)"@de ;
+    skos:altLabel "Analyse–Optionen–Transfer"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-3> a skos:Concept ;
+    skos:prefLabel "Experimentierstunde (Versuch→Auswertung→Sicherung)"@de ;
+    skos:altLabel "Versuch–Auswertung–Sicherung"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-4> a skos:Concept ;
+    skos:prefLabel "Erarbeitungsstunde (kurzer Input→Erarbeitung→Sicherung)"@de ;
+    skos:altLabel "Input–Erarbeitung–Sicherung"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-5> a skos:Concept ;
+    skos:prefLabel "Projekt-Kickoff (Ziele→Rollen→Planung)"@de ;
+    skos:altLabel "Ziele–Rollen–Planung"@de ;
+    skos:altLabel "Kickoff"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-6> a skos:Concept ;
+    skos:prefLabel "Formative-Check-Stunde (Lernstand→Feedback→Next Steps)"@de ;
+    skos:altLabel "Lernstand–Feedback–Next Steps"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-7> a skos:Concept ;
+    skos:prefLabel "Förder-/Aufholstunde (Diagnose→Üben→Re-Test)"@de ;
+    skos:altLabel "Diagnose–Üben–Re-Test"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-8> a skos:Concept ;
+    skos:prefLabel "Vertretungsstunde (Plug & Teach)"@de ;
+    skos:altLabel "Plug & Teach"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-9> a skos:Concept ;
+    skos:prefLabel "Simulation/Planspiel-Sitzung (Brief→Experience→Debrief)"@de ;
+    skos:altLabel "Brief–Experience–Debrief"@en ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-10> a skos:Concept ;
+    skos:prefLabel "Werkstatt-/Stations-Sitzung (Rotationen)"@de ;
+    skos:altLabel "Rotationen"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-11> a skos:Concept ;
+    skos:prefLabel "Hybrid-Sitzung (asynchroner Input→Präsenz-Coaching)"@de ;
+    skos:altLabel "Hybrid"@de ;
+    skos:altLabel "asynchroner Input→Präsenz-Coaching"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-12> a skos:Concept ;
+    skos:prefLabel "Online-Livesitzung (synchron)"@de ;
+    skos:altLabel "synchron online"@de ;
+    skos:altLabel "Live-Online"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-13> a skos:Concept ;
+    skos:prefLabel "Asynchrones Selbstlernmodul"@de ;
+    skos:altLabel "Selbstlernmodul"@de ;
+    skos:altLabel "asynchron"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
+
+<42-14> a skos:Concept ;
+    skos:prefLabel "Exkursion / Lernort extern (Halb-/Ganztag)"@de ;
+    skos:altLabel "Exkursion"@de ;
+    skos:altLabel "Lernort extern"@de ;
+    skos:altLabel "Halb-/Ganztag"@de ;
+    skos:broader <42> ;
+    skos:inScheme <> .
 
 <43> a skos:Concept ;
-	skos:prefLabel "Einheitenpaket"@de ;
-	skos:altLabel "Unterrichtssequenz/-reihe"@de ;
-	skos:definition "Zusammenhängende Unterrichtssequenzen und -reihen mit mehreren aufeinander aufbauenden Stunden"@de ;
-	skos:broader <4> ;
-	skos:narrower <431>, <432>, <433>, <434> ;
-	skos:inScheme <> .
+    skos:prefLabel "Einheit (2–8 Wochen)"@de ;
+    skos:altLabel "Reihe"@de ;
+    skos:altLabel "Unit"@en ;
+    skos:definition "Unterrichtseinheiten über mehrere Wochen mit zusammenhängenden Zielen"@de ;
+    skos:broader <4> ;
+    skos:narrower <43-1>, <43-2>, <43-3>, <43-4>, <43-5>, <43-6> ;
+    skos:inScheme <> .
+
+<43-1> a skos:Concept ;
+    skos:prefLabel "Einheitenplan (Ziele; Meilensteine; Nachweise)"@de ;
+    skos:altLabel "Ziele–Meilensteine–Nachweise"@de ;
+    skos:broader <43> ;
+    skos:inScheme <> .
+
+<43-2> a skos:Concept ;
+    skos:prefLabel "Projektfahrplan / Service-Learning-Plan"@de ;
+    skos:altLabel "Projektfahrplan"@de ;
+    skos:altLabel "Service-Learning-Plan"@de ;
+    skos:altLabel "Service Learning Plan"@en ;
+    skos:broader <43> ;
+    skos:inScheme <> .
+
+<43-3> a skos:Concept ;
+    skos:prefLabel "Lernpfad (sequenziert mit Wahloptionen)"@de ;
+    skos:altLabel "Lernpfad"@de ;
+    skos:altLabel "Pathway"@en ;
+    skos:broader <43> ;
+    skos:inScheme <> .
+
+<43-4> a skos:Concept ;
+    skos:prefLabel "Kompetenzraster-Einheit (Stufen/Outcomes)"@de ;
+    skos:altLabel "Kompetenzraster"@de ;
+    skos:altLabel "Outcomes"@en ;
+    skos:broader <43> ;
+    skos:inScheme <> .
+
+<43-5> a skos:Concept ;
+    skos:prefLabel "Förder-/Aufholreihe (Intensiv-Üben; Re-Assessment)"@de ;
+    skos:altLabel "Förderreihe"@de ;
+    skos:altLabel "Re-Assessment"@en ;
+    skos:broader <43> ;
+    skos:inScheme <> .
+
+<43-6> a skos:Concept ;
+    skos:prefLabel "Assessment-Zyklus Einheit (Prüf-/Feedbackabfolge)"@de ;
+    skos:altLabel "Prüf-/Feedbackabfolge"@de ;
+    skos:altLabel "Assessment Cycle"@en ;
+    skos:broader <43> ;
+    skos:inScheme <> .
 
 <44> a skos:Concept ;
-	skos:prefLabel "Modulpaket"@de ;
-	skos:altLabel "Kurs/Modul komplett"@de ;
-	skos:definition "Vollständige Kurs- oder Modulpakete mit allen erforderlichen Materialien und Planungen"@de ;
-	skos:broader <4> ;
-	skos:narrower <441>, <442>, <443>, <444> ;
-	skos:inScheme <> .
-
-<45> a skos:Concept ;
-	skos:prefLabel "Unterstützendes Material"@de ;
-	skos:definition "Ergänzende Materialien und Hilfsmittel zur Unterstützung von Unterricht und Lernprozessen"@de ;
-	skos:broader <4> ;
-	skos:narrower <451>, <452>, <453>, <454>, <455>, <456>, <457>, <458>, <459>, <4510>, <4511> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Einstieg & Aktivierung
-<111> a skos:Concept ;
-	skos:prefLabel "Aufmerksamkeitsfokus"@de ;
-	skos:altLabel "Aufmerksamkeitsstarter"@de, "Aktivierungsimpuls"@de, "Hook"@de, "Attention-Grabber"@de, "Energizer"@de, "Auflockerungsübung"@de ;
-	skos:definition "Methoden zur gezielten Lenkung der Aufmerksamkeit und Aktivierung der Lernenden zu Unterrichtsbeginn"@de ;
-	skos:broader <11> ;
-	skos:inScheme <> .
-
-<112> a skos:Concept ;
-	skos:prefLabel "Vorwissen aktivieren"@de ;
-	skos:altLabel "Vorkenntnisaktivierung"@de, "Anknüpfen"@de, "Prior Knowledge"@de ;
-	skos:definition "Methoden zur Aktivierung und Bewusstmachung bereits vorhandenen Wissens der Lernenden"@de ;
-	skos:broader <11> ;
-	skos:inScheme <> .
-
-<113> a skos:Concept ;
-	skos:prefLabel "Ziele klären & Relevanz herstellen"@de ;
-	skos:altLabel "Zieltransparenz"@de, "Nutzen klarmachen"@de, "Wozu-Bezug"@de, "Lebensweltbezug"@de ;
-	skos:definition "Methoden zur Klärung von Lernzielen und Herstellung von Relevanz für die Lernenden"@de ;
-	skos:broader <11> ;
-	skos:inScheme <> .
-
-<114> a skos:Concept ;
-	skos:prefLabel "Lernklima aufbauen"@de ;
-	skos:altLabel "Icebreaker"@de, "Warm-up"@de, "Kennenlernen"@de, "Teambuilding"@de, "Ankommensformat"@de ;
-	skos:definition "Methoden zum Aufbau einer positiven Lernatmosphäre und sozialen Verbindung"@de ;
-	skos:broader <11> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Orientierung
-<121> a skos:Concept ;
-	skos:prefLabel "Strukturierung / Organizer"@de ;
-	skos:altLabel "Advance Organizer"@de, "Strukturvorgabe"@de, "Graphic Organizer"@de, "Gliederung"@de ;
-	skos:definition "Methoden zur Vorstrukturierung und Organisation von Lerninhalten"@de ;
-	skos:broader <12> ;
-	skos:inScheme <> .
-
-<122> a skos:Concept ;
-	skos:prefLabel "Problempräsentation"@de ;
-	skos:altLabel "Problemstellung"@de, "Leitfrage"@de, "Widerspruch"@de, "Anomalie"@de ;
-	skos:definition "Methoden zur Präsentation von Problemen und Fragestellungen als Lernausgangspunkt"@de ;
-	skos:broader <12> ;
-	skos:inScheme <> .
-
-<123> a skos:Concept ;
-	skos:prefLabel "Rezeption mit Medien"@de ;
-	skos:altLabel "Medieninput"@de, "Lektüre/Viewing"@de, "Materialrezeption"@de ;
-	skos:definition "Methoden zur strukturierten Rezeption von Medien und Materialien"@de ;
-	skos:broader <12> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Wissensvermittlung & -strukturierung
-<131> a skos:Concept ;
-	skos:prefLabel "Darstellung / Erklärung"@de ;
-	skos:altLabel "Inputbeitrag"@de, "Erklärung"@de, "Mini-Lecture"@de, "Impuls"@de ;
-	skos:definition "Methoden zur direkten Darstellung und Erklärung von Lerninhalten"@de ;
-	skos:broader <13> ;
-	skos:inScheme <> .
-
-<132> a skos:Concept ;
-	skos:prefLabel "Demonstration & Anschauung"@de ;
-	skos:altLabel "Vorführung"@de, "Modellieren"@de, "Show-and-Tell"@de, "Anschauungsunterricht"@de ;
-	skos:definition "Methoden zur anschaulichen Demonstration und Veranschaulichung von Lerninhalten"@de ;
-	skos:broader <13> ;
-	skos:inScheme <> .
-
-<133> a skos:Concept ;
-	skos:prefLabel "Strukturierende Zusammenfassung"@de ;
-	skos:altLabel "Recap"@de, "Zusammenfassung"@de, "Synthesis"@de, "Tafelbild"@de ;
-	skos:definition "Methoden zur strukturierenden Zusammenfassung und Synthese von Lerninhalten"@de ;
-	skos:broader <13> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Erarbeitung & Konstruktion
-<141> a skos:Concept ;
-	skos:prefLabel "Angeleitete Erarbeitung"@de ;
-	skos:altLabel "Guided Discovery"@de, "geleitete Erkundung"@de, "Scaffolding-gestützt"@de ;
-	skos:definition "Methoden zur angeleiteten Erarbeitung mit strukturierter Unterstützung"@de ;
-	skos:broader <14> ;
-	skos:inScheme <> .
-
-<142> a skos:Concept ;
-	skos:prefLabel "Offene Erkundung / Entdeckung"@de ;
-	skos:altLabel "Exploratives Lernen"@de, "entdeckendes Lernen"@de, "Inquiry-orientiert"@de ;
-	skos:definition "Methoden zur offenen Erkundung und eigenständigen Entdeckung"@de ;
-	skos:broader <14> ;
-	skos:inScheme <> .
-
-<143> a skos:Concept ;
-	skos:prefLabel "Begriffsbildung / Konzeptaufbau"@de ;
-	skos:altLabel "Konzeptualisierung"@de, "Kategorienbildung"@de, "Concept Formation"@de ;
-	skos:definition "Methoden zur systematischen Begriffsbildung und zum Konzeptaufbau"@de ;
-	skos:broader <14> ;
-	skos:inScheme <> .
-
-<144> a skos:Concept ;
-	skos:prefLabel "Recherche & Quellenarbeit"@de ;
-	skos:altLabel "Informationsrecherche"@de, "Quellenkritik"@de, "Literatur-/Datenrecherche"@de ;
-	skos:definition "Methoden zur systematischen Recherche und kritischen Quellenarbeit"@de ;
-	skos:broader <14> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Übung & Festigung
-<151> a skos:Concept ;
-	skos:prefLabel "Wiederholen & Einprägen"@de ;
-	skos:altLabel "Wiederholung"@de, "Retrieval Practice"@de, "Wiederaufbereitung"@de ;
-	skos:definition "Methoden zur systematischen Wiederholung und Einprägung von Lerninhalten"@de ;
-	skos:broader <15> ;
-	skos:inScheme <> .
-
-<152> a skos:Concept ;
-	skos:prefLabel "Anwendung nah am Beispiel"@de ;
-	skos:altLabel "Musteraufgaben"@de, "Beispielanwendung"@de, "angelehnte Anwendung"@de ;
-	skos:definition "Methoden zur beispielnahen Anwendung und Übung von Lerninhalten"@de ;
-	skos:broader <15> ;
-	skos:inScheme <> .
-
-<153> a skos:Concept ;
-	skos:prefLabel "Automatisierung / Routine"@de ;
-	skos:altLabel "Einüben"@de, "Drill"@de, "Fluency-Building"@de ;
-	skos:definition "Methoden zur Automatisierung und Routinebildung von Fertigkeiten"@de ;
-	skos:broader <15> ;
-	skos:inScheme <> .
-
-<154> a skos:Concept ;
-	skos:prefLabel "Fehleranalyse & Korrektur"@de ;
-	skos:altLabel "Fehlersuche"@de, "Diagnose & Korrektur"@de, "Error Analysis"@de ;
-	skos:definition "Methoden zur systematischen Fehleranalyse und -korrektur"@de ;
-	skos:broader <15> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Anwendung & Problemlösen
-<161> a skos:Concept ;
-	skos:prefLabel "Fallbearbeitung / Szenarien"@de ;
-	skos:altLabel "Fallarbeit"@de, "Case"@de, "Szenarioarbeit"@de ;
-	skos:definition "Methoden zur Bearbeitung von Fällen und Szenarien als Anwendungskontext"@de ;
-	skos:broader <16> ;
-	skos:inScheme <> .
-
-<162> a skos:Concept ;
-	skos:prefLabel "Projekt- bzw. Produktaufgaben"@de ;
-	skos:altLabel "Projekt"@de, "Projektarbeit"@de, "Produktorientierung"@de, "Outcome-Aufgabe"@de ;
-	skos:definition "Methoden zur projekt- und produktorientierten Anwendung von Wissen"@de ;
-	skos:broader <16> ;
-	skos:inScheme <> .
-
-<163> a skos:Concept ;
-	skos:prefLabel "Design- / Konstruktionsaufgaben"@de ;
-	skos:altLabel "Entwurfsaufgabe"@de, "Engineering Challenge"@de, "Gestaltungslösung"@de ;
-	skos:definition "Methoden zur gestalterischen und konstruktiven Anwendung von Wissen"@de ;
-	skos:broader <16> ;
-	skos:inScheme <> .
-
-<164> a skos:Concept ;
-	skos:prefLabel "Reale Aufgaben / Service Learning"@de ;
-	skos:altLabel "authentische Aufgabe"@de, "Praxisauftrag"@de, "Community-Bezug"@de ;
-	skos:definition "Methoden zur Anwendung von Wissen in realen, gesellschaftlich relevanten Kontexten"@de ;
-	skos:broader <16> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Kommunikation & Diskurs
-<171> a skos:Concept ;
-	skos:prefLabel "Strukturierte Diskussion / Debatte"@de ;
-	skos:altLabel "strukturierter Diskurs"@de, "Pro–Contra"@de, "Streitgespräch"@de ;
-	skos:definition "Methoden zur strukturierten Diskussion und Debatte unterschiedlicher Standpunkte"@de ;
-	skos:broader <17> ;
-	skos:inScheme <> .
-
-<172> a skos:Concept ;
-	skos:prefLabel "Argumentation / Begründung"@de ;
-	skos:altLabel "Begründungsstruktur"@de, "evidenzgestütztes Argumentieren"@de ;
-	skos:definition "Methoden zur systematischen Argumentation und Begründung von Standpunkten"@de ;
-	skos:broader <17> ;
-	skos:inScheme <> .
-
-<173> a skos:Concept ;
-	skos:prefLabel "Fragend-entwickelnde Gesprächsführung"@de ;
-	skos:altLabel "geleiteter Fragen-Dialog"@de, "maieutisch"@de, "entwickelndes Gespräch"@de ;
-	skos:definition "Methoden zur fragend-entwickelnden Gesprächsführung und Erkenntnisgewinnung"@de ;
-	skos:broader <17> ;
-	skos:inScheme <> .
-
-<174> a skos:Concept ;
-	skos:prefLabel "Perspektivenwechsel / Kontroverse"@de ;
-	skos:altLabel "Standpunktwechsel"@de, "Rollenwechsel"@de, "kontroverse Erörterung"@de ;
-	skos:definition "Methoden zum Perspektivenwechsel und zur kontroversen Auseinandersetzung"@de ;
-	skos:broader <17> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Kooperation & Kollaboration
-<181> a skos:Concept ;
-	skos:prefLabel "Partner- / Gruppenarbeit-Settings"@de ;
-	skos:altLabel "Partnerarbeit"@de, "Gruppenarbeit"@de, "Tandemarbeit"@de, "Kleingruppenarbeit"@de, "Teamsetting"@de ;
-	skos:definition "Methoden zur Organisation verschiedener kooperativer Arbeitsformen"@de ;
-	skos:broader <18> ;
-	skos:inScheme <> .
-
-<182> a skos:Concept ;
-	skos:prefLabel "Rollen- & Aufgabenverteilung"@de ;
-	skos:altLabel "Rollenklärung"@de, "Verantwortungsmatrix"@de, "Teamrollen"@de ;
-	skos:definition "Methoden zur systematischen Rollen- und Aufgabenverteilung in Gruppen"@de ;
-	skos:broader <18> ;
-	skos:inScheme <> .
-
-<183> a skos:Concept ;
-	skos:prefLabel "Peer-Erklärung & Peer-Feedback"@de ;
-	skos:altLabel "Peer Teaching"@de, "kollegiales Feedback"@de, "Peer-Review"@de ;
-	skos:definition "Methoden zum gegenseitigen Erklären und Feedback geben zwischen Lernenden"@de ;
-	skos:broader <18> ;
-	skos:inScheme <> .
-
-<184> a skos:Concept ;
-	skos:prefLabel "Gemeinsame Artefaktproduktion"@de ;
-	skos:altLabel "Co-Creation"@de, "kollaborative Produktarbeit"@de, "gemeinsames Erstellen"@de ;
-	skos:definition "Methoden zur gemeinsamen Erstellung von Produkten und Artefakten"@de ;
-	skos:broader <18> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Erfahrungs- & Handlungsorientierung
-<191> a skos:Concept ;
-	skos:prefLabel "Simulation / Planszenario"@de ;
-	skos:altLabel "Planszenario"@de, "Modellspiel"@de, "Prozesssimulation"@de ;
-	skos:definition "Methoden zur simulativen Erfahrung komplexer Prozesse und Situationen"@de ;
-	skos:broader <19> ;
-	skos:inScheme <> .
-
-<192> a skos:Concept ;
-	skos:prefLabel "Rollen- & Perspektivenspiel"@de ;
-	skos:altLabel "Rollenspiel"@de, "Perspektivspiel"@de, "szenisches Spiel"@de ;
-	skos:definition "Methoden zum erfahrungsorientierten Lernen durch Rollen- und Perspektivenübernahme"@de ;
-	skos:broader <19> ;
-	skos:inScheme <> .
-
-<193> a skos:Concept ;
-	skos:prefLabel "Praktische Experimente / Übungen"@de ;
-	skos:altLabel "Experiment"@de, "Laborübung"@de, "Werkstattübung"@de, "Praxisübung"@de ;
-	skos:definition "Methoden zum handlungsorientierten Lernen durch praktische Experimente und Übungen"@de ;
-	skos:broader <19> ;
-	skos:inScheme <> .
-
-<194> a skos:Concept ;
-	skos:prefLabel "Exkursion / Feldstudie"@de ;
-	skos:altLabel "Lernort außerhalb"@de, "Erkundung"@de, "Feldforschung"@de ;
-	skos:definition "Methoden zum erfahrungsorientierten Lernen an authentischen Orten außerhalb des Klassenzimmers"@de ;
-	skos:broader <19> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Kreative Produktion & Gestaltung
-<1101> a skos:Concept ;
-	skos:prefLabel "Ideenfindung / Konzeptentwicklung"@de ;
-	skos:altLabel "Ideengenerierung"@de, "Brainstorming-Familie"@de, "Konzeptentwicklung"@de ;
-	skos:definition "Methoden zur kreativen Ideenfindung und Konzeptentwicklung"@de ;
-	skos:broader <110> ;
-	skos:inScheme <> .
-
-<1102> a skos:Concept ;
-	skos:prefLabel "Prototyping / Artefaktgestaltung"@de ;
-	skos:altLabel "Prototyperstellung"@de, "Making"@de, "Konstruktion"@de ;
-	skos:definition "Methoden zur praktischen Umsetzung von Ideen in Prototypen und Artefakte"@de ;
-	skos:broader <110> ;
-	skos:inScheme <> .
-
-<1103> a skos:Concept ;
-	skos:prefLabel "Storytelling / Inszenierung"@de ;
-	skos:altLabel "erzählendes Gestalten"@de, "szenische Inszenierung"@de, "Story-basiert"@de ;
-	skos:definition "Methoden zur kreativen Gestaltung durch Storytelling und Inszenierung"@de ;
-	skos:broader <110> ;
-	skos:inScheme <> .
-
-<1104> a skos:Concept ;
-	skos:prefLabel "Medienproduktion"@de ;
-	skos:altLabel "Audio-/Video-Produktion"@de, "Multimedia"@de, "Content-Erstellung"@de ;
-	skos:definition "Methoden zur kreativen Produktion digitaler und analoger Medien"@de ;
-	skos:broader <110> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Reflexion & Metakognition
-<1111> a skos:Concept ;
-	skos:prefLabel "Selbstreflexion / Lerntagebuch"@de ;
-	skos:altLabel "Lernjournal"@de, "Reflexionsnotiz"@de, "Selbstreflexion"@de ;
-	skos:definition "Methoden zur strukturierten Selbstreflexion und Dokumentation des Lernprozesses"@de ;
-	skos:broader <111> ;
-	skos:inScheme <> .
-
-<1112> a skos:Concept ;
-	skos:prefLabel "Peer- / Fremdfeedback"@de ;
-	skos:altLabel "Rückmeldung durch andere"@de, "Peer-Feedback"@de, "kollegiale Rückmeldung"@de ;
-	skos:definition "Methoden zur strukturierten Rückmeldung und Reflexion durch andere Lernende oder Lehrende"@de ;
-	skos:broader <111> ;
-	skos:inScheme <> .
-
-<1113> a skos:Concept ;
-	skos:prefLabel "Rückblick / Lernbilanz"@de ;
-	skos:altLabel "Zusammenfassung des Lernens"@de, "Lernrückblick"@de, "Was-habe-ich-gelernt"@de ;
-	skos:definition "Methoden zur systematischen Bilanzierung und Zusammenfassung von Lernergebnissen"@de ;
-	skos:broader <111> ;
-	skos:inScheme <> .
-
-<1114> a skos:Concept ;
-	skos:prefLabel "Strategie-Reflexion"@de ;
-	skos:altLabel "Lernstrategien prüfen"@de, "metakognitive Selbstbewertung"@de, "Monitoring"@de ;
-	skos:definition "Methoden zur Reflexion und Bewertung der eigenen Lernstrategien und -prozesse"@de ;
-	skos:broader <111> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Diagnose, Bewertung & Prüfung
-<1121> a skos:Concept ;
-	skos:prefLabel "Formative Lernstandsdiagnostik"@de ;
-	skos:altLabel "diagnostischer Check"@de, "Zwischenstand"@de, "Lernstandsmonitoring"@de ;
-	skos:definition "Methoden zur laufenden Diagnose und Überprüfung von Lernständen während des Lernprozesses"@de ;
-	skos:broader <112> ;
-	skos:inScheme <> .
-
-<1122> a skos:Concept ;
-	skos:prefLabel "Summative Leistungsbewertung"@de ;
-	skos:altLabel "Abschlussbewertung"@de, "summative Prüfung"@de, "Leistungsnachweis"@de ;
-	skos:definition "Methoden zur abschließenden Bewertung und Beurteilung von Lernergebnissen"@de ;
-	skos:broader <112> ;
-	skos:inScheme <> .
-
-<1123> a skos:Concept ;
-	skos:prefLabel "Kompetenzorientierte Beurteilung / Rubriken"@de ;
-	skos:altLabel "Kriterienraster"@de, "Bewertungsraster"@de, "Rubric"@de ;
-	skos:definition "Methoden zur kriteriengeleiteten und kompetenzorientierten Beurteilung mit Hilfe von Rubriken"@de ;
-	skos:broader <112> ;
-	skos:inScheme <> .
-
-<1124> a skos:Concept ;
-	skos:prefLabel "Selbst- und Peer-Bewertung"@de ;
-	skos:altLabel "Selbstbeurteilung"@de, "Peer Assessment"@de, "Mitbeurteilung"@de ;
-	skos:definition "Methoden zur Einbeziehung der Lernenden in Bewertungs- und Beurteilungsprozesse"@de ;
-	skos:broader <112> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Lernorganisation & Steuerung
-<1131> a skos:Concept ;
-	skos:prefLabel "Zielsetzung & Lernplanung"@de ;
-	skos:altLabel "Zielklärung"@de, "Lernzieltransparenz"@de, "Lernplanung"@de ;
-	skos:definition "Methoden zur gemeinsamen Zielsetzung und Planung von Lernprozessen"@de ;
-	skos:broader <113> ;
-	skos:inScheme <> .
-
-<1132> a skos:Concept ;
-	skos:prefLabel "Lernpfade / Wahlmöglichkeiten"@de ;
-	skos:altLabel "Wahlaufgaben"@de, "Choice"@de, "Lernpfadgestaltung"@de, "Stationenlernen"@de ;
-	skos:definition "Methoden zur Bereitstellung verschiedener Lernwege und Wahlmöglichkeiten für Lernende"@de ;
-	skos:broader <113> ;
-	skos:inScheme <> .
-
-<1133> a skos:Concept ;
-	skos:prefLabel "Lernverträge / Vereinbarungen"@de ;
-	skos:altLabel "Learning Contract"@de, "Lernvereinbarung"@de, "Absprachen"@de ;
-	skos:definition "Methoden zur Vereinbarung und Dokumentation von Lernzielen und -bedingungen"@de ;
-	skos:broader <113> ;
-	skos:inScheme <> .
-
-<1134> a skos:Concept ;
-	skos:prefLabel "Zeit- & Ressourcenmanagement"@de ;
-	skos:altLabel "Zeitplanung"@de, "Material-/Raumplanung"@de, "Organisation"@de ;
-	skos:definition "Methoden zur effizienten Organisation von Zeit, Materialien und Ressourcen im Lernprozess"@de ;
-	skos:broader <113> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Lehr-Lern-Prozess
-<211> a skos:Concept ;
-	skos:prefLabel "Kognitive Prozesse"@de ;
-	skos:altLabel "kognitive Überlastung"@de ;
-	skos:definition "Entwurfsmuster zur Gestaltung kognitiver Verarbeitungsprozesse und Vermeidung von Überlastung"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<212> a skos:Concept ;
-	skos:prefLabel "Motivation & Engagement"@de ;
-	skos:altLabel "Aktivierung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung von Motivation und aktivem Engagement der Lernenden"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<213> a skos:Concept ;
-	skos:prefLabel "Verstehen & Konstruktion"@de ;
-	skos:altLabel "tieferes Verständnis"@de ;
-	skos:definition "Entwurfsmuster zur Förderung von Verständnis und aktiver Wissenskonstruktion"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<214> a skos:Concept ;
-	skos:prefLabel "Problemlösung"@de ;
-	skos:altLabel "Lösungswege strukturieren"@de ;
-	skos:definition "Entwurfsmuster zur systematischen Strukturierung von Problemlöseprozessen"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<215> a skos:Concept ;
-	skos:prefLabel "Mustererkennung"@de ;
-	skos:altLabel "Strukturwahrnehmung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung der Erkennung von Mustern und Strukturen"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<216> a skos:Concept ;
-	skos:prefLabel "Lernziele & -ergebnisse"@de ;
-	skos:altLabel "Outcome-Definition"@de ;
-	skos:definition "Entwurfsmuster zur klaren Definition und Kommunikation von Lernzielen und -ergebnissen"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<217> a skos:Concept ;
-	skos:prefLabel "Individualisierung"@de ;
-	skos:altLabel "Personalisierung"@de ;
-	skos:definition "Entwurfsmuster zur individuellen Anpassung von Lernprozessen an Lernende"@de ;
-	skos:broader <21> ;
-	skos:inScheme <> .
-
-<22> a skos:Concept ;
-	skos:prefLabel "Lernumgebung / Raumgestaltung"@de ;
-	skos:altLabel "Raumgestaltung"@de, "Lernraum"@de ;
-	skos:definition "Entwurfsmuster zur Gestaltung physischer und virtueller Lernumgebungen"@de ;
-	skos:broader <2> ;
-	skos:narrower <221>, <222>, <223>, <224>, <225>, <226>, <227> ;
-	skos:inScheme <> .
-
-<23> a skos:Concept ;
-	skos:prefLabel "Soziale Interaktion"@de ;
-	skos:altLabel "Interaktionsgestaltung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung sozialer Interaktion und Zusammenarbeit"@de ;
-	skos:broader <2> ;
-	skos:narrower <231>, <232>, <233>, <234>, <235>, <236>, <237> ;
-	skos:inScheme <> .
-
-<24> a skos:Concept ;
-	skos:prefLabel "Methodische Ausrichtung"@de ;
-	skos:altLabel "Methodenorientierung"@de ;
-	skos:definition "Entwurfsmuster zur methodischen Ausrichtung und didaktischen Gestaltung"@de ;
-	skos:broader <2> ;
-	skos:narrower <241>, <242>, <243>, <244>, <245>, <246>, <247>, <248>, <249> ;
-	skos:inScheme <> .
-
-<25> a skos:Concept ;
-	skos:prefLabel "Technologische Integration"@de ;
-	skos:altLabel "Digitale Integration"@de ;
-	skos:definition "Entwurfsmuster zur Integration digitaler Technologien in Lernprozesse"@de ;
-	skos:broader <2> ;
-	skos:narrower <251>, <252>, <253>, <254>, <255>, <256>, <257>, <258> ;
-	skos:inScheme <> .
-
-<26> a skos:Concept ;
-	skos:prefLabel "Assessment & Feedback"@de ;
-	skos:altLabel "Bewertung & Rückmeldung"@de ;
-	skos:definition "Entwurfsmuster zur Gestaltung von Bewertung und Feedback-Prozessen"@de ;
-	skos:broader <2> ;
-	skos:narrower <261>, <262>, <263>, <264>, <265> ;
-	skos:inScheme <> .
-
-<27> a skos:Concept ;
-	skos:prefLabel "Curriculare Organisation"@de ;
-	skos:altLabel "Curriculumgestaltung"@de ;
-	skos:definition "Entwurfsmuster zur Organisation und Strukturierung von Curricula"@de ;
-	skos:broader <2> ;
-	skos:narrower <271>, <272>, <273>, <274> ;
-	skos:inScheme <> .
-
-<28> a skos:Concept ;
-	skos:prefLabel "Individuelle Förderung"@de ;
-	skos:altLabel "Individualisierung"@de ;
-	skos:definition "Entwurfsmuster zur individuellen Förderung und Unterstützung von Lernenden"@de ;
-	skos:broader <2> ;
-	skos:narrower <281>, <282>, <283> ;
-	skos:inScheme <> .
-
-<221> a skos:Concept ;
-	skos:prefLabel "Physische Lernumgebung"@de ;
-	skos:altLabel "Umgebungsqualität"@de ;
-	skos:definition "Entwurfsmuster zur Gestaltung der physischen Qualität von Lernräumen"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<222> a skos:Concept ;
-	skos:prefLabel "Raumkonfiguration"@de ;
-	skos:altLabel "Möblierung"@de, "Setting"@de ;
-	skos:definition "Entwurfsmuster zur funktionalen Konfiguration und Möblierung von Lernräumen"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<223> a skos:Concept ;
-	skos:prefLabel "Licht & Akustik"@de ;
-	skos:altLabel "Hör-/Sichtbedingungen"@de ;
-	skos:definition "Entwurfsmuster zur Optimierung von Beleuchtung und akustischen Bedingungen"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<224> a skos:Concept ;
-	skos:prefLabel "Flexibilität"@de ;
-	skos:altLabel "variable Raumnutzung"@de ;
-	skos:definition "Entwurfsmuster zur flexiblen und variablen Nutzung von Lernräumen"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<225> a skos:Concept ;
-	skos:prefLabel "Natürliche Elemente"@de ;
-	skos:altLabel "Biophile Elemente"@de ;
-	skos:definition "Entwurfsmuster zur Integration natürlicher und biophiler Elemente in Lernräume"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<226> a skos:Concept ;
-	skos:prefLabel "Sicherheit & Orientierung"@de ;
-	skos:altLabel "Wayfinding"@de, "Sicherheit"@de ;
-	skos:definition "Entwurfsmuster zur Gewährleistung von Sicherheit und räumlicher Orientierung"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<227> a skos:Concept ;
-	skos:prefLabel "Maßstab & Proportionen"@de ;
-	skos:altLabel "Raummaß"@de ;
-	skos:definition "Entwurfsmuster zur angemessenen Dimensionierung und Proportionierung von Lernräumen"@de ;
-	skos:broader <22> ;
-	skos:inScheme <> .
-
-<231> a skos:Concept ;
-	skos:prefLabel "Kollaboration"@de ;
-	skos:altLabel "Teamarbeit"@de ;
-	skos:definition "Entwurfsmuster zur Förderung kollaborativer Zusammenarbeit zwischen Lernenden"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<232> a skos:Concept ;
-	skos:prefLabel "Peer Learning"@de ;
-	skos:altLabel "Peer-Unterstützung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung des gegenseitigen Lernens zwischen Gleichgestellten"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<233> a skos:Concept ;
-	skos:prefLabel "Kommunikation"@de ;
-	skos:altLabel "Gesprächskultur"@de ;
-	skos:definition "Entwurfsmuster zur Entwicklung einer konstruktiven Kommunikations- und Gesprächskultur"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<234> a skos:Concept ;
-	skos:prefLabel "Gruppenarbeit"@de ;
-	skos:altLabel "Beteiligungsausgleich"@de ;
-	skos:definition "Entwurfsmuster zur effektiven Gestaltung von Gruppenarbeit mit ausgewogener Beteiligung"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<235> a skos:Concept ;
-	skos:prefLabel "Community Building"@de ;
-	skos:altLabel "Lerngemeinschaft"@de ;
-	skos:definition "Entwurfsmuster zum Aufbau und zur Pflege von Lerngemeinschaften"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<236> a skos:Concept ;
-	skos:prefLabel "Partizipation Lernender"@de ;
-	skos:altLabel "Studentische Beteiligung"@de ;
-	skos:definition "Entwurfsmuster zur aktiven Einbeziehung und Partizipation der Lernenden"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-<237> a skos:Concept ;
-	skos:prefLabel "Lernnetzwerke"@de ;
-	skos:altLabel "Netzwerkbildung"@de ;
-	skos:definition "Entwurfsmuster zur Bildung und Pflege von Lernnetzwerken und -verbindungen"@de ;
-	skos:broader <23> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Methodische Ausrichtung
-<241> a skos:Concept ;
-	skos:prefLabel "Instruktionsdesign"@de ;
-	skos:altLabel "Lehrsequenzierung"@de ;
-	skos:definition "Entwurfsmuster zur systematischen Gestaltung und Sequenzierung von Lehrprozessen"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<242> a skos:Concept ;
-	skos:prefLabel "Konstruktive Aktivierung"@de ;
-	skos:altLabel "Lernaktivierung"@de ;
-	skos:definition "Entwurfsmuster zur aktiven Einbeziehung und konstruktiven Aktivierung der Lernenden"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<243> a skos:Concept ;
-	skos:prefLabel "Anwendungs- & Problemorientierung"@de ;
-	skos:altLabel "Lebenswelt-/Praxisanknüpfung"@de ;
-	skos:definition "Entwurfsmuster zur Verknüpfung von Lerninhalten mit realen Anwendungen und Problemen"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<244> a skos:Concept ;
-	skos:prefLabel "Differenzierung"@de ;
-	skos:altLabel "adaptive Anforderung"@de ;
-	skos:definition "Entwurfsmuster zur adaptiven Anpassung von Anforderungen an unterschiedliche Lernende"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<245> a skos:Concept ;
-	skos:prefLabel "Interdisziplinarität"@de ;
-	skos:altLabel "Fächervernetzung"@de ;
-	skos:definition "Entwurfsmuster zur Vernetzung und Integration verschiedener Fachbereiche"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<246> a skos:Concept ;
-	skos:prefLabel "Überfachliche Kompetenzen"@de ;
-	skos:altLabel "Schlüsselkompetenzen"@de ;
-	skos:definition "Entwurfsmuster zur Förderung überfachlicher und transversaler Kompetenzen"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<247> a skos:Concept ;
-	skos:prefLabel "Theorie–Praxis-Verzahnung"@de ;
-	skos:altLabel "Brückenbildung"@de ;
-	skos:definition "Entwurfsmuster zur Verbindung von theoretischen Inhalten mit praktischer Anwendung"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<248> a skos:Concept ;
-	skos:prefLabel "Kontinuität des Lernens"@de ;
-	skos:altLabel "Progression"@de ;
-	skos:definition "Entwurfsmuster zur Gewährleistung kontinuierlicher Lernprogression und -entwicklung"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-<249> a skos:Concept ;
-	skos:prefLabel "Großgruppen-Begleitung"@de ;
-	skos:altLabel "Skalierung"@de ;
-	skos:definition "Entwurfsmuster zur effektiven Begleitung und Betreuung großer Lerngruppen"@de ;
-	skos:broader <24> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Technologische Integration
-<251> a skos:Concept ;
-	skos:prefLabel "E-Learning-Kompetenzen"@de ;
-	skos:altLabel "Digital Literacy"@de ;
-	skos:definition "Entwurfsmuster zur Entwicklung digitaler Lern- und Medienkompetenzen"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<252> a skos:Concept ;
-	skos:prefLabel "Medienauswahl & Passung"@de ;
-	skos:altLabel "Medienfit"@de ;
-	skos:definition "Entwurfsmuster zur zielgerichteten Auswahl und Passung von Medien und Tools"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<253> a skos:Concept ;
-	skos:prefLabel "Blended-Integration"@de ;
-	skos:altLabel "Kohärenz Hybrid"@de ;
-	skos:definition "Entwurfsmuster zur kohärenten Integration von Präsenz- und Online-Lernen"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<254> a skos:Concept ;
-	skos:prefLabel "Infrastruktur"@de ;
-	skos:altLabel "Netz"@de, "Geräte"@de ;
-	skos:definition "Entwurfsmuster zur Bereitstellung und Nutzung technischer Infrastruktur"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<255> a skos:Concept ;
-	skos:prefLabel "Interaktive Rückmeldewerkzeuge"@de ;
-	skos:altLabel "Response-/Feedback-Tools"@de ;
-	skos:definition "Entwurfsmuster für den Einsatz interaktiver Feedback- und Response-Systeme"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<256> a skos:Concept ;
-	skos:prefLabel "Einsatzleitlinien"@de ;
-	skos:altLabel "Medienkonzept"@de ;
-	skos:definition "Entwurfsmuster zur Entwicklung von Leitlinien und Konzepten für Medieneinsatz"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<257> a skos:Concept ;
-	skos:prefLabel "Hybrider Support"@de ;
-	skos:altLabel "technisch-didaktischer Support"@de ;
-	skos:definition "Entwurfsmuster für technischen und didaktischen Support in hybriden Lernumgebungen"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-<258> a skos:Concept ;
-	skos:prefLabel "Werkzeugtauglichkeit"@de ;
-	skos:altLabel "Tool-Fit"@de ;
-	skos:definition "Entwurfsmuster zur Bewertung und Sicherstellung der Eignung digitaler Werkzeuge"@de ;
-	skos:broader <25> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Assessment & Feedback
-<261> a skos:Concept ;
-	skos:prefLabel "Bewertungsmethoden"@de ;
-	skos:altLabel "Kriterienklarheit"@de ;
-	skos:definition "Entwurfsmuster zur Entwicklung klarer und transparenter Bewertungsmethoden und -kriterien"@de ;
-	skos:broader <26> ;
-	skos:inScheme <> .
-
-<262> a skos:Concept ;
-	skos:prefLabel "Peer-Bewertung"@de ;
-	skos:altLabel "Peer Assessment"@de ;
-	skos:definition "Entwurfsmuster zur Implementierung von Peer-Assessment und gegenseitiger Bewertung"@de ;
-	skos:broader <26> ;
-	skos:inScheme <> .
-
-<263> a skos:Concept ;
-	skos:prefLabel "Formative Rückmeldung"@de ;
-	skos:altLabel "laufendes Feedback"@de ;
-	skos:definition "Entwurfsmuster für kontinuierliche formative Rückmeldung während des Lernprozesses"@de ;
-	skos:broader <26> ;
-	skos:inScheme <> .
-
-<264> a skos:Concept ;
-	skos:prefLabel "Prozessbezogene Prüfungsformate"@de ;
-	skos:altLabel "Lernwegbezug"@de ;
-	skos:definition "Entwurfsmuster für Prüfungsformate, die den Lernprozess und -weg berücksichtigen"@de ;
-	skos:broader <26> ;
-	skos:inScheme <> .
-
-<265> a skos:Concept ;
-	skos:prefLabel "Selbsteinschätzung"@de ;
-	skos:altLabel "Selbstbewertung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung reflektierter Selbsteinschätzung und -bewertung"@de ;
-	skos:broader <26> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Curriculare Organisation
-<271> a skos:Concept ;
-	skos:prefLabel "Sequenzierung"@de ;
-	skos:altLabel "Stoffabfolge"@de ;
-	skos:definition "Entwurfsmuster zur logischen und didaktischen Sequenzierung von Lerninhalten"@de ;
-	skos:broader <27> ;
-	skos:inScheme <> .
-
-<272> a skos:Concept ;
-	skos:prefLabel "Wissensdimensionen"@de ;
-	skos:altLabel "Wissensarten"@de ;
-	skos:definition "Entwurfsmuster zur Berücksichtigung verschiedener Wissensdimensionen und -arten"@de ;
-	skos:broader <27> ;
-	skos:inScheme <> .
-
-<273> a skos:Concept ;
-	skos:prefLabel "Kompetenzniveaus"@de ;
-	skos:altLabel "Niveaustufen"@de ;
-	skos:definition "Entwurfsmuster zur Strukturierung und Progression von Kompetenzniveaus"@de ;
-	skos:broader <27> ;
-	skos:inScheme <> .
-
-<274> a skos:Concept ;
-	skos:prefLabel "Fächerintegration"@de ;
-	skos:altLabel "Inter-/Transdisziplinarität"@de ;
-	skos:definition "Entwurfsmuster zur Integration und Vernetzung verschiedener Fachbereiche"@de ;
-	skos:broader <27> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Individuelle Förderung
-<281> a skos:Concept ;
-	skos:prefLabel "Heterogene Lernstände"@de ;
-	skos:altLabel "Leistungsstreuung"@de ;
-	skos:definition "Entwurfsmuster zum Umgang mit heterogenen Lernständen und Leistungsstreuung"@de ;
-	skos:broader <28> ;
-	skos:inScheme <> .
-
-<282> a skos:Concept ;
-	skos:prefLabel "Lernstrategien & Selbstregulation"@de ;
-	skos:altLabel "Lernkompetenz"@de ;
-	skos:definition "Entwurfsmuster zur Förderung von Lernstrategien und selbstreguliertem Lernen"@de ;
-	skos:broader <28> ;
-	skos:inScheme <> .
-
-<283> a skos:Concept ;
-	skos:prefLabel "Unterstützung bei Leistungsrisiko"@de ;
-	skos:altLabel "Remediation"@de ;
-	skos:definition "Entwurfsmuster zur gezielten Unterstützung von Lernenden mit Leistungsrisiko"@de ;
-	skos:broader <28> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Einführendes/Motivierendes Lernen
-<311> a skos:Concept ;
-	skos:prefLabel "Dreiphasige Stundenfolge"@de ;
-	skos:altLabel "Klassische Stundenfolge"@de, "Einstieg–Erarbeitung–Sicherung"@de, "EES"@de, "3-Phasen-Modell"@de ;
-	skos:definition "Klassisches Ablaufgerüst mit drei aufeinander aufbauenden Unterrichtsphasen"@de ;
-	skos:broader <31> ;
-	skos:inScheme <> .
-
-<312> a skos:Concept ;
-	skos:prefLabel "Ereignisgeleitete Instruktion"@de ;
-	skos:altLabel "Gagné 9 Events"@de, "Neun Instruktionsereignisse"@de, "9-Punkte-Leitfaden"@de ;
-	skos:definition "Systematisches Ablaufgerüst basierend auf neun aufeinander folgenden Instruktionsereignissen"@de ;
-	skos:broader <31> ;
-	skos:inScheme <> .
-
-<313> a skos:Concept ;
-	skos:prefLabel "Ausgelagerter Input, Präsenz als Coaching"@de ;
-	skos:altLabel "Flipped Classroom"@de, "Inverted Classroom"@de, "Flip & Coach"@de ;
-	skos:definition "Ablaufgerüst mit vorverlagerter Inhaltsvermittlung und präsenzbasierter Anwendungsbetreuung"@de ;
-	skos:broader <31> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Erarbeitendes/Exploratives Lernen
-<321> a skos:Concept ;
-	skos:prefLabel "Erkundungszyklus in fünf Schritten"@de ;
-	skos:altLabel "5E"@de, "Engage–Explore–Explain–Elaborate–Evaluate"@de, "Entdeckerzyklus"@de ;
-	skos:definition "Fünfphasiges Ablaufgerüst für entdeckendes und exploratives Lernen"@de ;
-	skos:broader <32> ;
-	skos:inScheme <> .
-
-<322> a skos:Concept ;
-	skos:prefLabel "Problemlösezyklus"@de ;
-	skos:altLabel "Problem-Solving Cycle"@de, "Hypothese–Arbeit–Auswertung"@de, "PBL-Ablauf"@de ;
-	skos:definition "Zyklisches Ablaufgerüst für problembasiertes Lernen mit Hypothesenbildung und -prüfung"@de ;
-	skos:broader <32> ;
-	skos:inScheme <> .
-
-<323> a skos:Concept ;
-	skos:prefLabel "Forschungsrunde"@de ;
-	skos:altLabel "Experimentierzyklus"@de, "Inquiry-Minizyklus"@de, "Untersuchungsrunde"@de ;
-	skos:definition "Kompaktes Ablaufgerüst für forschende und experimentelle Lernphasen"@de ;
-	skos:broader <32> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Soziales & Kooperatives Lernen
-<331> a skos:Concept ;
-	skos:prefLabel "Rotationsablauf"@de ;
-	skos:altLabel "Station Rotation"@de, "Zonenrotation"@de, "Lernstations-Flow"@de ;
-	skos:definition "Ablaufgerüst für systematische Rotation zwischen verschiedenen Lernstationen"@de ;
-	skos:broader <33> ;
-	skos:inScheme <> .
-
-<332> a skos:Concept ;
-	skos:prefLabel "Werkstattablauf"@de ;
-	skos:altLabel "Werkstattmodell"@de, "Öffnen–Arbeiten–Sichern"@de, "Lernwerkstatt-Flow"@de ;
-	skos:definition "Ablaufgerüst für offene Werkstattarbeit mit strukturierten Phasen"@de ;
-	skos:broader <33> ;
-	skos:inScheme <> .
-
-<333> a skos:Concept ;
-	skos:prefLabel "Diskussions-Choreografie"@de ;
-	skos:altLabel "Debattenfolge"@de, "Positionieren–Begründen–Synthese"@de, "Diskursablauf"@de ;
-	skos:definition "Strukturiertes Ablaufgerüst für Diskussionen und Meinungsaustausch"@de ;
-	skos:broader <33> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Produkte erstellen & Projekte durchführen
-<341> a skos:Concept ;
-	skos:prefLabel "Projektfahrplan"@de ;
-	skos:altLabel "Projektzyklus"@de, "Projektphasenmodell"@de, "PjBL-Sequenz"@de ;
-	skos:definition "Strukturiertes Ablaufgerüst für projektbasiertes Lernen mit definierten Projektphasen"@de ;
-	skos:broader <34> ;
-	skos:inScheme <> .
-
-<342> a skos:Concept ;
-	skos:prefLabel "Entwurfs-/Prototypenzyklus"@de ;
-	skos:altLabel "designbasiertes Lernen"@de, "Design Thinking"@de, "DT-Zyklus"@de ;
-	skos:definition "Iteratives Ablaufgerüst für designbasiertes Lernen mit Prototyping-Phasen"@de ;
-	skos:broader <34> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Üben, Festigen & Anwenden
-<351> a skos:Concept ;
-	skos:prefLabel "Beherrschungsorientierte Übungsschleife"@de ;
-	skos:altLabel "Mastery Learning"@de, "Mastery Cycle"@de, "Wiederholte Kurzchecks"@de ;
-	skos:definition "Zyklisches Ablaufgerüst für beherrschungsorientiertes Lernen mit wiederholten Überprüfungen"@de ;
-	skos:broader <35> ;
-	skos:inScheme <> .
-
-<352> a skos:Concept ;
-	skos:prefLabel "Üben–Anwenden–Transfer"@de ;
-	skos:altLabel "ÜAT"@de, "Practice–Apply–Transfer"@de, "Festigung–Anwendung–Transfer"@de ;
-	skos:definition "Dreiphasiges Ablaufgerüst für systematische Kompetenzentwicklung vom Üben zum Transfer"@de ;
-	skos:broader <35> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Verständlichkeit & Abstraktion sichern
-<361> a skos:Concept ;
-	skos:prefLabel "Konkret–Bildlich–Abstrakt"@de ;
-	skos:altLabel "EIS"@de, "CRA"@de, "Enaktiv–Ikonisch–Symbolisch"@de, "Concrete–Representational–Abstract"@de ;
-	skos:definition "Dreistufiges Ablaufgerüst für den Übergang von konkreten zu abstrakten Darstellungen"@de ;
-	skos:broader <36> ;
-	skos:inScheme <> .
-
-<362> a skos:Concept ;
-	skos:prefLabel "Beispielgeleitete Abstraktion"@de ;
-	skos:altLabel "Beispiel→Regel"@de, "induktives Lernen"@de, "Beispiel-zu-Prinzip"@de ;
-	skos:definition "Ablaufgerüst für induktive Begriffsbildung vom Beispiel zur allgemeinen Regel"@de ;
-	skos:broader <36> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Zeit-/Ort-Orchestrierung (Blended/Hybrid-Lernen)
-<371> a skos:Concept ;
-	skos:prefLabel "Ausgelagerter Input, Präsenz als Coaching"@de ;
-	skos:altLabel "Flipped"@de, "Inverted Classroom"@de, "Flip & Coach"@de ;
-	skos:definition "Blended-Learning-Gerüst mit vorverlagerter Inhaltsvermittlung und präsenzbasierter Betreuung"@de ;
-	skos:broader <37> ;
-	skos:inScheme <> .
-
-<372> a skos:Concept ;
-	skos:prefLabel "Präsenz–Online-Wechselrhythmus"@de ;
-	skos:altLabel "Blended-Rhythmus"@de, "Mode-Switch-Plan"@de, "Synchron–Asynchron-Takt"@de ;
-	skos:definition "Rhythmisches Ablaufgerüst für den systematischen Wechsel zwischen Präsenz- und Online-Phasen"@de ;
-	skos:broader <37> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Anpassen & Verzweigen (Adaptives/personalisiertes Lernen)
-<381> a skos:Concept ;
-	skos:prefLabel "Verzweigter Lernpfad"@de ;
-	skos:altLabel "Branching Pathways"@de, "Adaptive Sequenz"@de, "Choice-Pfad"@de ;
-	skos:definition "Adaptives Ablaufgerüst mit verzweigten Lernwegen je nach Lernstand und Präferenzen"@de ;
-	skos:broader <38> ;
-	skos:inScheme <> .
-
-<382> a skos:Concept ;
-	skos:prefLabel "Lernspirale"@de ;
-	skos:altLabel "Spiralcurriculum"@de, "Spiralprogression"@de, "Wiederkehrende Vertiefung"@de ;
-	skos:definition "Spiralförmiges Ablaufgerüst mit wiederkehrender Vertiefung von Lerninhalten"@de ;
-	skos:broader <38> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Rückwärts planen & prüfen (Outcome/Assessment-integriertes Lernen)
-<391> a skos:Concept ;
-	skos:prefLabel "Outcome-zuerst-Planung"@de ;
-	skos:altLabel "Backward Design"@de, "UbD"@de, "Understanding by Design"@de ;
-	skos:definition "Rückwärts gerichtetes Planungsgerüst ausgehend von gewünschten Lernergebnissen"@de ;
-	skos:broader <39> ;
-	skos:inScheme <> .
-
-<392> a skos:Concept ;
-	skos:prefLabel "Formative Feedback-Schleife"@de ;
-	skos:altLabel "Feedback Loop"@de, "formative Bewertungszyklen"@de, "AfL-Zyklus"@de ;
-	skos:definition "Zyklisches Ablaufgerüst mit kontinuierlichen formativen Rückmeldeschleifen"@de ;
-	skos:broader <39> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Fallbasiertes/Anwendungsnahes Lernen
-<3101> a skos:Concept ;
-	skos:prefLabel "Fallbearbeitungszyklus"@de ;
-	skos:altLabel "Case Cycle"@de, "Fallanalyse→Optionen→Begründung→Transfer"@de ;
-	skos:definition "Strukturiertes Ablaufgerüst für systematische Fallbearbeitung und -analyse"@de ;
-	skos:broader <310> ;
-	skos:inScheme <> .
-
-<3102> a skos:Concept ;
-	skos:prefLabel "Szenario-Transferpfad"@de ;
-	skos:altLabel "Near/Far-Transfer-Pfad"@de, "Anwendungskette"@de ;
-	skos:definition "Ablaufgerüst für schrittweisen Transfer von nahen zu fernen Anwendungsszenarien"@de ;
-	skos:broader <310> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Service-/Gemeinwohlorientiertes Lernen
-<3111> a skos:Concept ;
-	skos:prefLabel "Service-Lernpfad"@de ;
-	skos:altLabel "Bedarf→Plan→Umsetzung→Reflexion→Sharing"@de, "Impact-Zyklus"@de ;
-	skos:definition "Fünfphasiges Ablaufgerüst für gemeinwohlorientiertes Service Learning"@de ;
-	skos:broader <311> ;
-	skos:inScheme <> .
-
-<3112> a skos:Concept ;
-	skos:prefLabel "Community-Projektzyklus"@de ;
-	skos:altLabel "Partnerschaftszyklus"@de, "Kooperationszyklus"@de ;
-	skos:definition "Ablaufgerüst für langfristige Kooperationsprojekte mit Gemeinschaftspartnern"@de ;
-	skos:broader <311> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Erfahrungsbasiertes Lernen
-<3121> a skos:Concept ;
-	skos:prefLabel "Erfahrungslernzyklus"@de ;
-	skos:altLabel "Kolb-Zyklus"@de, "Experience→Reflect→Conceptualize→Experiment"@de ;
-	skos:definition "Vierphasiger Zyklus für erfahrungsbasiertes Lernen nach Kolb"@de ;
-	skos:broader <312> ;
-	skos:inScheme <> .
-
-<3122> a skos:Concept ;
-	skos:prefLabel "Feld-/Praxiszyklus"@de ;
-	skos:altLabel "Exkursion→Erhebung→Auswertung→Rückkopplung"@de ;
-	skos:definition "Ablaufgerüst für praxisorientierte Feld- und Exkursionsarbeit"@de ;
-	skos:broader <312> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Spielbasiertes Lernen
-<3131> a skos:Concept ;
-	skos:prefLabel "Spielrunde mit Debrief"@de ;
-	skos:altLabel "Briefing→Play→Debrief→Transfer"@de, "Serious-Game-Loop"@de ;
-	skos:definition "Vierphasiges Ablaufgerüst für spielbasiertes Lernen mit Reflexionsphase"@de ;
-	skos:broader <313> ;
-	skos:inScheme <> .
-
-<3132> a skos:Concept ;
-	skos:prefLabel "Quest-/Level-Progression"@de ;
-	skos:altLabel "Missionsfolge"@de, "Stufenpfad"@de ;
-	skos:definition "Progressives Ablaufgerüst mit aufeinander aufbauenden Spielmissionen"@de ;
-	skos:broader <313> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Simulationsbasiertes Lernen
-<3141> a skos:Concept ;
-	skos:prefLabel "Simulations-Debrief-Zyklus"@de ;
-	skos:altLabel "Simulieren→Auswerten→Ableiten→Erneut-Erproben"@de ;
-	skos:definition "Zyklisches Ablaufgerüst für Simulation mit systematischer Auswertung"@de ;
-	skos:broader <314> ;
-	skos:inScheme <> .
-
-<3142> a skos:Concept ;
-	skos:prefLabel "Planspiel-Entscheidungsschleife"@de ;
-	skos:altLabel "Entscheidung→Konsequenz→Reflexion→Regelableitung"@de ;
-	skos:definition "Iteratives Ablaufgerüst für planspielbasierte Entscheidungsfindung"@de ;
-	skos:broader <314> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Studio-/Atelierbasiertes Lernen
-<3151> a skos:Concept ;
-	skos:prefLabel "Kritik-/Feedback-Iterationen"@de ;
-	skos:altLabel "Crit→Iterate→Present"@de, "Studio-Crit-Zyklus"@de ;
-	skos:definition "Iteratives Ablaufgerüst mit regelmäßigen Kritik- und Feedback-Runden"@de ;
-	skos:broader <315> ;
-	skos:inScheme <> .
-
-<3152> a skos:Concept ;
-	skos:prefLabel "Studio-Sprint-Plan"@de ;
-	skos:altLabel "Arbeitsblock→Zwischenreview→Iteration"@de ;
-	skos:definition "Sprint-basiertes Ablaufgerüst für intensive Arbeits- und Reviewphasen"@de ;
-	skos:broader <315> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Selbstgesteuertes/Selbstorganisiertes Lernen
-<3161> a skos:Concept ;
-	skos:prefLabel "Plan–Arbeits–Review-Zyklus"@de ;
-	skos:altLabel "Zielsetzen→Arbeiten→Reflektieren"@de, "Wochenplan-Zyklus"@de ;
-	skos:definition "Dreiphasiger Zyklus für selbstgesteuerte Lernplanung und -reflexion"@de ;
-	skos:broader <316> ;
-	skos:inScheme <> .
-
-<3162> a skos:Concept ;
-	skos:prefLabel "Lernvertrags-Pfad"@de ;
-	skos:altLabel "Vereinbaren→Durchführen→Belegen→Reflektieren"@de ;
-	skos:definition "Vierphasiges Ablaufgerüst für vertragsbasiertes selbstorganisiertes Lernen"@de ;
-	skos:broader <316> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Reflexionsorientiertes/Metakognitives Lernen
-<3171> a skos:Concept ;
-	skos:prefLabel "Reflexionszyklus"@de ;
-	skos:altLabel "Ereignis→Deuten→Ableiten→Planen"@de, "Gibbs-artiger Zyklus"@de ;
-	skos:definition "Vierphasiger Reflexionszyklus für systematische Erfahrungsauswertung"@de ;
-	skos:broader <317> ;
-	skos:inScheme <> .
-
-<3172> a skos:Concept ;
-	skos:prefLabel "Portfolio-Zyklus"@de ;
-	skos:altLabel "Sammeln→Auswählen→Reflektieren→Vorzeigen"@de ;
-	skos:definition "Vierphasiges Ablaufgerüst für portfoliobasierte Lernreflexion"@de ;
-	skos:broader <317> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Mediengestütztes/Multimodales Lernen
-<3181> a skos:Concept ;
-	skos:prefLabel "Medienwechsel-Storyboard"@de ;
-	skos:altLabel "Input→Aktivität→Medienwechsel→Sicherung"@de ;
-	skos:definition "Vierphasiges Ablaufgerüst für systematischen Medienwechsel im Unterricht"@de ;
-	skos:broader <318> ;
-	skos:inScheme <> .
-
-<3182> a skos:Concept ;
-	skos:prefLabel "Annotation-/Produktion-Sequenz"@de ;
-	skos:altLabel "Rezeption→Annotation→Remix→Publikation"@de ;
-	skos:definition "Vierphasiges Ablaufgerüst für medienproduktive Lernprozesse"@de ;
-	skos:broader <318> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Kooperative / diskursive Verfahren
-<4111> a skos:Concept ;
-	skos:prefLabel "Pro-Contra-Diskurs"@de ;
-	skos:altLabel "Argumentationsbaustein"@de ;
-	skos:definition "Ausgearbeiteter Baustein für strukturierte Pro-Contra-Diskussionen und Argumentationstraining"@de ;
-	skos:broader <411> ;
-	skos:inScheme <> .
-
-<4112> a skos:Concept ;
-	skos:prefLabel "Rollen-/Szenariospiel"@de ;
-	skos:altLabel "Perspektivenbaustein"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Rollenspiele und Perspektivenwechsel-Übungen"@de ;
-	skos:broader <411> ;
-	skos:inScheme <> .
-
-<4113> a skos:Concept ;
-	skos:prefLabel "Expertengruppen-Puzzle"@de ;
-	skos:altLabel "arbeitsteilige Wissensvernetzung"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Jigsaw-Methode und arbeitsteilige Gruppenarbeit"@de ;
-	skos:broader <411> ;
-	skos:inScheme <> .
-
-<4114> a skos:Concept ;
-	skos:prefLabel "Moderationsleitfaden"@de ;
-	skos:altLabel "Facilitation-Guide"@de ;
-	skos:definition "Ausgearbeiteter Leitfaden für die Moderation von Gruppenprozessen"@de ;
-	skos:broader <411> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Fall- und Problembasiert
-<4121> a skos:Concept ;
-	skos:prefLabel "Fallstudie"@de ;
-	skos:altLabel "Fallbasiertes Arbeiten"@de ;
-	skos:definition "Ausgearbeitete Fallstudie mit Materialien und Bearbeitungsanleitung"@de ;
-	skos:broader <412> ;
-	skos:inScheme <> .
-
-<4122> a skos:Concept ;
-	skos:prefLabel "Dilemma-Diskussion"@de ;
-	skos:altLabel "Entscheidungs-/Ethikbaustein"@de ;
-	skos:definition "Ausgearbeiteter Baustein für ethische Dilemma-Diskussionen und Entscheidungsfindung"@de ;
-	skos:broader <412> ;
-	skos:inScheme <> .
-
-<4123> a skos:Concept ;
-	skos:prefLabel "Fehlvorstellungs-Check"@de ;
-	skos:altLabel "Konzeptdiagnose"@de ;
-	skos:definition "Ausgearbeiteter Baustein zur Diagnose und Bearbeitung von Fehlvorstellungen"@de ;
-	skos:broader <412> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Experimentell / erkundend
-<4131> a skos:Concept ;
-	skos:prefLabel "Experimentierbaustein"@de ;
-	skos:altLabel "Praktikums-/Versuchsbaustein"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Experimente mit Anleitung und Materialien"@de ;
-	skos:broader <413> ;
-	skos:inScheme <> .
-
-<4132> a skos:Concept ;
-	skos:prefLabel "Recherche-/Erkundungsbaustein"@de ;
-	skos:altLabel "Informationserschließung"@de ;
-	skos:definition "Ausgearbeiteter Baustein für systematische Recherche und Informationserschließung"@de ;
-	skos:broader <413> ;
-	skos:inScheme <> .
-
-<4133> a skos:Concept ;
-	skos:prefLabel "Praktikumsanleitung"@de ;
-	skos:altLabel "Versuchsanleitung/Safety-Hinweise"@de ;
-	skos:definition "Ausgearbeitete Anleitung für Praktika mit Sicherheitshinweisen und Durchführung"@de ;
-	skos:broader <413> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Strukturierend / konzeptualisierend
-<4141> a skos:Concept ;
-	skos:prefLabel "Begriffsnetz-Baustein"@de ;
-	skos:altLabel "Konzeptkarten-/Strukturierungsbaustein"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Begriffsnetze und Konzeptkarten-Erstellung"@de ;
-	skos:broader <414> ;
-	skos:inScheme <> .
-
-<4142> a skos:Concept ;
-	skos:prefLabel "Ziele–Aktivitäten–Prüfung-Matrix"@de ;
-	skos:altLabel "Alignment-Raster"@de ;
-	skos:definition "Ausgearbeitete Matrix zur Abstimmung von Lernzielen, Aktivitäten und Prüfungen"@de ;
-	skos:broader <414> ;
-	skos:inScheme <> .
-
-<4143> a skos:Concept ;
-	skos:prefLabel "Sequenz-Canvas"@de ;
-	skos:altLabel "Planfläche für Reihen/Einheiten"@de ;
-	skos:definition "Ausgearbeitetes Canvas zur visuellen Planung von Unterrichtssequenzen"@de ;
-	skos:broader <414> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Kreativ-produktiv
-<4151> a skos:Concept ;
-	skos:prefLabel "Gestaltungsaufgabe"@de ;
-	skos:altLabel "Design-/Produktionsbaustein"@de ;
-	skos:definition "Ausgearbeitete Gestaltungsaufgabe mit Materialien und Bewertungskriterien"@de ;
-	skos:broader <415> ;
-	skos:inScheme <> .
-
-<4152> a skos:Concept ;
-	skos:prefLabel "Plakat-/Designarbeit"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Plakat- und Designprojekte mit Anleitungen"@de ;
-	skos:broader <415> ;
-	skos:inScheme <> .
-
-<4153> a skos:Concept ;
-	skos:prefLabel "Video-/Podcast-Produktion"@de ;
-	skos:definition "Ausgearbeiteter Baustein für Video- und Podcast-Produktionsprojekte"@de ;
-	skos:broader <415> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Medien- / technologiegestützt
-<4161> a skos:Concept ;
-	skos:prefLabel "Foliensatz"@de ;
-	skos:altLabel "Impuls-/Vortragsfolien"@de ;
-	skos:definition "Ausgearbeiteter Foliensatz für Impulse und Präsentationen"@de ;
-	skos:broader <416> ;
-	skos:inScheme <> .
-
-<4162> a skos:Concept ;
-	skos:prefLabel "Erklärvideo"@de ;
-	skos:altLabel "Screencast/Lehrvideo"@de ;
-	skos:definition "Ausgearbeitetes Erklärvideo mit Begleitmaterialien und Einsatzhinweisen"@de ;
-	skos:broader <416> ;
-	skos:inScheme <> .
-
-<4163> a skos:Concept ;
-	skos:prefLabel "Digitale Quiztools / interaktive Apps"@de ;
-	skos:definition "Ausgearbeitete digitale Quiz- und Interaktionstools für den Unterrichtseinsatz"@de ;
-	skos:broader <416> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Reflexiv / metakognitiv
-<4171> a skos:Concept ;
-	skos:prefLabel "Kurzreflexionsvorlage"@de ;
-	skos:altLabel "kurze Rückschau"@de ;
-	skos:definition "Ausgearbeitete Vorlage für kurze Reflexionsphasen und Rückschau"@de ;
-	skos:broader <417> ;
-	skos:inScheme <> .
-
-<4172> a skos:Concept ;
-	skos:prefLabel "Reflexionsleitfaden"@de ;
-	skos:altLabel "strukturierte Nachbereitung"@de ;
-	skos:definition "Ausgearbeiteter Leitfaden für strukturierte Reflexion und Nachbereitung"@de ;
-	skos:broader <417> ;
-	skos:inScheme <> .
-
-<4173> a skos:Concept ;
-	skos:prefLabel "Lerntagebuchvorlage"@de ;
-	skos:altLabel "Journal/Portfolio-Einstieg"@de ;
-	skos:definition "Ausgearbeitete Vorlage für Lerntagebücher und Portfolio-Arbeit"@de ;
-	skos:broader <417> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Assessment / Diagnostik
-<4181> a skos:Concept ;
-	skos:prefLabel "Kurzassessment"@de ;
-	skos:altLabel "Abschluss-/Zwischencheck"@de ;
-	skos:definition "Ausgearbeitetes Kurzassessment für Zwischen- und Abschlussüberprüfungen"@de ;
-	skos:broader <418> ;
-	skos:inScheme <> .
-
-<4182> a skos:Concept ;
-	skos:prefLabel "Kompetenzdiagnosebogen"@de ;
-	skos:altLabel "Niveaustufen-Erfassung"@de ;
-	skos:definition "Ausgearbeiteter Diagnosebogen zur Erfassung von Kompetenzniveaus"@de ;
-	skos:broader <418> ;
-	skos:inScheme <> .
-
-<4183> a skos:Concept ;
-	skos:prefLabel "Bewertungsschema"@de ;
-	skos:altLabel "Kriterienmatrix; Rubric"@de ;
-	skos:definition "Ausgearbeitetes Bewertungsschema mit Kriterien und Bewertungsraster"@de ;
-	skos:broader <418> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterrichtsbaustein: Differenzierend / inklusiv
-<4191> a skos:Concept ;
-	skos:prefLabel "Wahlmenü"@de ;
-	skos:altLabel "Aufgabenwahl-Board; Choice-Struktur"@de ;
-	skos:definition "Ausgearbeitetes Wahlmenü mit differenzierten Aufgabenoptionen"@de ;
-	skos:broader <419> ;
-	skos:inScheme <> .
-
-<4192> a skos:Concept ;
-	skos:prefLabel "Gestufte Aufgaben"@de ;
-	skos:altLabel "Niveaudifferenzierte Sets"@de ;
-	skos:definition "Ausgearbeitete Aufgabensets mit verschiedenen Schwierigkeitsniveaus"@de ;
-	skos:broader <419> ;
-	skos:inScheme <> .
-
-<4193> a skos:Concept ;
-	skos:prefLabel "Alternative Darstellungsvarianten"@de ;
-	skos:altLabel "Mehrkanal-/Leichte-Sprache-Sets"@de ;
-	skos:definition "Ausgearbeitete alternative Darstellungen für barrierefreie Zugänglichkeit"@de ;
-	skos:broader <419> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Stundenpaket: Kooperative / diskursive Verfahren
-<4211> a skos:Concept ;
-	skos:prefLabel "Pro-Contra-Diskurs"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für Pro-Contra-Diskussionen mit allen Materialien"@de ;
-	skos:broader <421> ;
-	skos:inScheme <> .
-
-<4212> a skos:Concept ;
-	skos:prefLabel "Rollen-/Szenariospiel"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für Rollenspiele mit Materialien und Ablaufplan"@de ;
-	skos:broader <421> ;
-	skos:inScheme <> .
-
-<4213> a skos:Concept ;
-	skos:prefLabel "Expertengruppen-Puzzle"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für Jigsaw-Methode mit allen Materialien"@de ;
-	skos:broader <421> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Stundenpaket: Experimentell / erkundend
-<4221> a skos:Concept ;
-	skos:prefLabel "Experimentierbaustein"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für Experimente mit Materialien und Anleitung"@de ;
-	skos:broader <422> ;
-	skos:inScheme <> .
-
-<4222> a skos:Concept ;
-	skos:prefLabel "Recherche-/Erkundungsbaustein"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für Recherche mit Leitfäden und Materialien"@de ;
-	skos:broader <422> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Stundenpaket: Strukturierend / konzeptualisierend
-<4231> a skos:Concept ;
-	skos:prefLabel "Ablaufskript"@de ;
-	skos:altLabel "Didaktisches Drehbuch"@de ;
-	skos:definition "Vollständiges didaktisches Drehbuch für strukturierte Unterrichtsstunden"@de ;
-	skos:broader <423> ;
-	skos:inScheme <> .
-
-<4232> a skos:Concept ;
-	skos:prefLabel "Materialset Stunde"@de ;
-	skos:altLabel "Input-/Arbeits-/Check-Pakete"@de ;
-	skos:definition "Vollständiges Materialset für eine Unterrichtsstunde mit allen Komponenten"@de ;
-	skos:broader <423> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Stundenpaket: Kreativ-produktiv
-<4241> a skos:Concept ;
-	skos:prefLabel "Gestaltungsaufgabe"@de ;
-	skos:definition "Vollständige Unterrichtsstunde für kreative Gestaltungsaufgaben"@de ;
-	skos:broader <424> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Stundenpaket: Medien- / technologiegestützt
-<4251> a skos:Concept ;
-	skos:prefLabel "Hybridsitzungsplan"@de ;
-	skos:altLabel "synchron-/asynchron-Kopplung"@de ;
-	skos:definition "Vollständiger Plan für hybride Unterrichtsstunden mit synchronen und asynchronen Elementen"@de ;
-	skos:broader <425> ;
-	skos:inScheme <> .
-
-<4252> a skos:Concept ;
-	skos:prefLabel "Digitale Quiztools"@de ;
-	skos:definition "Vollständige Unterrichtsstunde mit digitalen Quiz- und Interaktionstools"@de ;
-	skos:broader <425> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Einheitenpaket: Strukturierend / konzeptualisierend
-<4311> a skos:Concept ;
-	skos:prefLabel "Einheitenplan"@de ;
-	skos:altLabel "Sequenzplan mit Meilensteinen"@de ;
-	skos:definition "Vollständiger Plan für Unterrichtssequenzen mit Meilensteinen und Zielen"@de ;
-	skos:broader <431> ;
-	skos:inScheme <> .
-
-<4312> a skos:Concept ;
-	skos:prefLabel "Lernpfad"@de ;
-	skos:altLabel "Sequenzierter Lernweg"@de ;
-	skos:definition "Ausgearbeiteter sequenzierter Lernpfad für Unterrichtseinheiten"@de ;
-	skos:broader <431> ;
-	skos:inScheme <> .
-
-<4313> a skos:Concept ;
-	skos:prefLabel "Kompetenzraster Einheit"@de ;
-	skos:altLabel "Ziel-/Stufenübersicht"@de ;
-	skos:definition "Kompetenzraster mit Zielen und Niveaustufen für Unterrichtseinheiten"@de ;
-	skos:broader <431> ;
-	skos:inScheme <> .
-
-<4314> a skos:Concept ;
-	skos:prefLabel "Assessment-Zyklus Einheit"@de ;
-	skos:altLabel "Prüf-/Feedbackabfolge"@de ;
-	skos:definition "Systematischer Assessment-Zyklus für Unterrichtseinheiten mit Feedback-Schleifen"@de ;
-	skos:broader <431> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Modulpaket: Strukturierend / konzeptualisierend
-<4411> a skos:Concept ;
-	skos:prefLabel "Modulskizze"@de ;
-	skos:altLabel "Outcomes–Einheiten–Prüfungen"@de ;
-	skos:definition "Vollständige Modulskizze mit Lernergebnissen, Einheiten und Prüfungen"@de ;
-	skos:broader <441> ;
-	skos:inScheme <> .
-
-<4412> a skos:Concept ;
-	skos:prefLabel "Modulbeschreibung"@de ;
-	skos:altLabel "Modulhandbuch-Ausschnitt"@de ;
-	skos:definition "Vollständige Modulbeschreibung für Modulhandbücher mit allen Details"@de ;
-	skos:broader <441> ;
-	skos:inScheme <> .
-
-<4413> a skos:Concept ;
-	skos:prefLabel "Prüf-/Feedbackplan Modul"@de ;
-	skos:altLabel "Bewertungslandkarte"@de ;
-	skos:definition "Umfassender Prüfungs- und Feedbackplan für Module mit Bewertungsübersicht"@de ;
-	skos:broader <441> ;
-	skos:inScheme <> .
-
-<4414> a skos:Concept ;
-	skos:prefLabel "Kurs-Komplettset"@de ;
-	skos:altLabel "Kursmaterial-Sammlung"@de ;
-	skos:definition "Vollständiges Materialset für Kurse mit allen Komponenten und Ressourcen"@de ;
-	skos:broader <441> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Inputmaterial
-<4511> a skos:Concept ;
-	skos:prefLabel "Foliensatz"@de ;
-	skos:altLabel "Impuls-/Vortragsfolien"@de ;
-	skos:definition "Ausgearbeitete Foliensätze für Impulse und Präsentationen"@de ;
-	skos:broader <451> ;
-	skos:inScheme <> .
-
-<4512> a skos:Concept ;
-	skos:prefLabel "Input-Dossier"@de ;
-	skos:altLabel "Text-/Materialzusammenstellung"@de ;
-	skos:definition "Zusammengestellte Text- und Materialdossiers für Inputphasen"@de ;
-	skos:broader <451> ;
-	skos:inScheme <> .
-
-<4513> a skos:Concept ;
-	skos:prefLabel "Erklärvideo"@de ;
-	skos:altLabel "Screencast/Lehrvideo"@de ;
-	skos:definition "Ausgearbeitete Erklärvideos und Screencasts für Lehrphasen"@de ;
-	skos:broader <451> ;
-	skos:inScheme <> .
-
-<4514> a skos:Concept ;
-	skos:prefLabel "Demonstrationsanleitung"@de ;
-	skos:altLabel "Vorführskript"@de ;
-	skos:definition "Ausgearbeitete Anleitungen für Demonstrationen und Vorführungen"@de ;
-	skos:broader <451> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Übungsmaterial
-<4521> a skos:Concept ;
-	skos:prefLabel "Arbeitsblatt"@de ;
-	skos:altLabel "Aufgabenblatt mit Lösungen"@de ;
-	skos:definition "Ausgearbeitete Arbeitsblätter mit Aufgaben und Lösungen"@de ;
-	skos:broader <452> ;
-	skos:inScheme <> .
-
-<4522> a skos:Concept ;
-	skos:prefLabel "Aufgabenpool"@de ;
-	skos:altLabel "Itembank/Übungsset"@de ;
-	skos:definition "Umfangreiche Aufgabenpools und Itembanks für Übungsphasen"@de ;
-	skos:broader <452> ;
-	skos:inScheme <> .
-
-<4523> a skos:Concept ;
-	skos:prefLabel "Aufgabenkarte"@de ;
-	skos:altLabel "Prompt/Task-Card"@de ;
-	skos:definition "Einzelne Aufgabenkarten und Task-Cards für flexible Nutzung"@de ;
-	skos:broader <452> ;
-	skos:inScheme <> .
-
-<4524> a skos:Concept ;
-	skos:prefLabel "Praktikumsanleitung"@de ;
-	skos:definition "Ausgearbeitete Anleitungen für Praktika und praktische Übungen"@de ;
-	skos:broader <452> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Reflexionsmaterial
-<4531> a skos:Concept ;
-	skos:prefLabel "Kurzreflexionsvorlage"@de ;
-	skos:definition "Vorlagen für kurze Reflexionsphasen und Rückschau"@de ;
-	skos:broader <453> ;
-	skos:inScheme <> .
-
-<4532> a skos:Concept ;
-	skos:prefLabel "Reflexionsleitfaden"@de ;
-	skos:definition "Strukturierte Leitfäden für umfassende Reflexionsprozesse"@de ;
-	skos:broader <453> ;
-	skos:inScheme <> .
-
-<4533> a skos:Concept ;
-	skos:prefLabel "Lerntagebuchvorlage"@de ;
-	skos:definition "Vorlagen für Lerntagebücher und kontinuierliche Reflexion"@de ;
-	skos:broader <453> ;
-	skos:inScheme <> .
-
-<4534> a skos:Concept ;
-	skos:prefLabel "Peer-Reflexionsbogen"@de ;
-	skos:definition "Bögen für gegenseitige Reflexion und Peer-Feedback"@de ;
-	skos:broader <453> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Assessment
-<4541> a skos:Concept ;
-	skos:prefLabel "Kurzassessment"@de ;
-	skos:definition "Kurze Assessments für schnelle Lernstandsüberprüfungen"@de ;
-	skos:broader <454> ;
-	skos:inScheme <> .
-
-<4542> a skos:Concept ;
-	skos:prefLabel "Leistungsaufgabe summativ"@de ;
-	skos:definition "Summative Leistungsaufgaben für abschließende Bewertungen"@de ;
-	skos:broader <454> ;
-	skos:inScheme <> .
-
-<4543> a skos:Concept ;
-	skos:prefLabel "Bewertungsschema"@de ;
-	skos:definition "Bewertungsschemata und Kriterienraster für objektive Beurteilung"@de ;
-	skos:broader <454> ;
-	skos:inScheme <> .
-
-<4544> a skos:Concept ;
-	skos:prefLabel "Beobachtungs-/Bewertungsbogen"@de ;
-	skos:definition "Strukturierte Bögen für Beobachtung und Bewertung von Lernprozessen"@de ;
-	skos:broader <454> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Diagnostikmaterial
-<4551> a skos:Concept ;
-	skos:prefLabel "Einstiegs-Screening"@de ;
-	skos:definition "Screening-Instrumente für die Eingangsdiagnostik"@de ;
-	skos:broader <455> ;
-	skos:inScheme <> .
-
-<4552> a skos:Concept ;
-	skos:prefLabel "Fehlvorstellungs-Check"@de ;
-	skos:definition "Instrumente zur Diagnose von Fehlvorstellungen und Misskonzepten"@de ;
-	skos:broader <455> ;
-	skos:inScheme <> .
-
-<4553> a skos:Concept ;
-	skos:prefLabel "Kompetenzdiagnosebogen"@de ;
-	skos:definition "Bögen zur systematischen Kompetenzdiagnostik"@de ;
-	skos:broader <455> ;
-	skos:inScheme <> .
-
-<4554> a skos:Concept ;
-	skos:prefLabel "Lernstandsprofil"@de ;
-	skos:definition "Profile zur Dokumentation individueller Lernstände"@de ;
-	skos:broader <455> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Differenzierungsmaterial
-<4561> a skos:Concept ;
-	skos:prefLabel "Wahlmenü"@de ;
-	skos:definition "Wahlmenüs mit differenzierten Aufgaben- und Lernoptionen"@de ;
-	skos:broader <456> ;
-	skos:inScheme <> .
-
-<4562> a skos:Concept ;
-	skos:prefLabel "Gestufte Aufgaben"@de ;
-	skos:definition "Aufgabensets mit verschiedenen Schwierigkeits- und Komplexitätsniveaus"@de ;
-	skos:broader <456> ;
-	skos:inScheme <> .
-
-<4563> a skos:Concept ;
-	skos:prefLabel "Lernvertrag"@de ;
-	skos:definition "Individuelle Lernverträge für selbstgesteuerte Lernprozesse"@de ;
-	skos:broader <456> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Barrierefreiheit & Inklusion
-<4571> a skos:Concept ;
-	skos:prefLabel "Zugänglichkeits-Checkliste"@de ;
-	skos:definition "Checklisten zur Überprüfung der Barrierefreiheit von Lernmaterialien"@de ;
-	skos:broader <457> ;
-	skos:inScheme <> .
-
-<4572> a skos:Concept ;
-	skos:prefLabel "Alternative Darstellungsvarianten"@de ;
-	skos:definition "Alternative Darstellungsformen für barrierefreie Zugänglichkeit"@de ;
-	skos:broader <457> ;
-	skos:inScheme <> .
-
-<4573> a skos:Concept ;
-	skos:prefLabel "Unterstützungsplan"@de ;
-	skos:definition "Individuelle Unterstützungspläne für Lernende mit besonderen Bedürfnissen"@de ;
-	skos:broader <457> ;
-	skos:inScheme <> .
-
-<4574> a skos:Concept ;
-	skos:prefLabel "Anpassungsleitfaden"@de ;
-	skos:definition "Leitfäden für die Anpassung von Materialien an individuelle Bedürfnisse"@de ;
-	skos:broader <457> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Kooperation & Rollen
-<4581> a skos:Concept ;
-	skos:prefLabel "Team-/Rollenvereinbarung"@de ;
-	skos:definition "Vereinbarungen für Teamarbeit und Rollenverteilung in Gruppen"@de ;
-	skos:broader <458> ;
-	skos:inScheme <> .
-
-<4582> a skos:Concept ;
-	skos:prefLabel "Gruppenregeln"@de ;
-	skos:definition "Regelsets für effektive Gruppenarbeit und Zusammenarbeit"@de ;
-	skos:broader <458> ;
-	skos:inScheme <> .
-
-<4583> a skos:Concept ;
-	skos:prefLabel "Moderationsleitfaden"@de ;
-	skos:definition "Leitfäden für die Moderation von Gruppenprozessen und Diskussionen"@de ;
-	skos:broader <458> ;
-	skos:inScheme <> .
-
-<4584> a skos:Concept ;
-	skos:prefLabel "Kommunikationsregeln"@de ;
-	skos:definition "Regeln und Leitlinien für konstruktive Kommunikation in Lerngruppen"@de ;
-	skos:broader <458> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Dokumentation & Sicherung
-<4591> a skos:Concept ;
-	skos:prefLabel "Protokollbogen"@de ;
-	skos:definition "Strukturierte Bögen für die Protokollierung von Lernprozessen"@de ;
-	skos:broader <459> ;
-	skos:inScheme <> .
-
-<4592> a skos:Concept ;
-	skos:prefLabel "Ergebnissicherungsvorlage"@de ;
-	skos:definition "Vorlagen zur systematischen Sicherung von Lernergebnissen"@de ;
-	skos:broader <459> ;
-	skos:inScheme <> .
-
-<4593> a skos:Concept ;
-	skos:prefLabel "Prozesslogbuch"@de ;
-	skos:definition "Logbücher zur Dokumentation von Lern- und Arbeitsprozessen"@de ;
-	skos:broader <459> ;
-	skos:inScheme <> .
-
-<4594> a skos:Concept ;
-	skos:prefLabel "Portfolio-Aufbauplan"@de ;
-	skos:definition "Strukturierte Pläne für den systematischen Aufbau von Lernportfolios"@de ;
-	skos:broader <459> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Planungs-Canvas & Vorlagen
-<45101> a skos:Concept ;
-	skos:prefLabel "Stunden-Canvas"@de ;
-	skos:definition "Canvas-Vorlagen für die visuelle Planung einzelner Unterrichtsstunden"@de ;
-	skos:broader <4510> ;
-	skos:inScheme <> .
-
-<45102> a skos:Concept ;
-	skos:prefLabel "Sequenz-Canvas"@de ;
-	skos:definition "Canvas-Vorlagen für die Planung von Unterrichtssequenzen und -reihen"@de ;
-	skos:broader <4510> ;
-	skos:inScheme <> .
-
-<45103> a skos:Concept ;
-	skos:prefLabel "Ziele–Aktivitäten–Prüfung-Matrix"@de ;
-	skos:definition "Matrix-Vorlagen zur Abstimmung von Lernzielen, Aktivitäten und Prüfungen"@de ;
-	skos:broader <4510> ;
-	skos:inScheme <> .
-
-<45104> a skos:Concept ;
-	skos:prefLabel "Ressourcenplan"@de ;
-	skos:definition "Planungsvorlagen für die systematische Ressourcenplanung"@de ;
-	skos:broader <4510> ;
-	skos:inScheme <> .
-
-
-# Ebene 3 - Unterstützendes Material: Kommunikation & Stakeholder
-<45111> a skos:Concept ;
-	skos:prefLabel "Lernübersicht"@de ;
-	skos:definition "Übersichten über Lerninhalte und -ziele für Lernende und Stakeholder"@de ;
-	skos:broader <4511> ;
-	skos:inScheme <> .
-
-<45112> a skos:Concept ;
-	skos:prefLabel "Info-Vorlage extern"@de ;
-	skos:definition "Informationsvorlagen für externe Stakeholder und Partner"@de ;
-	skos:broader <4511> ;
-	skos:inScheme <> .
-
-<45113> a skos:Concept ;
-	skos:prefLabel "Teilnahme-/Einwilligungsvorlage"@de ;
-	skos:definition "Vorlagen für Teilnahme- und Einwilligungserklärungen"@de ;
-	skos:broader <4511> ;
-	skos:inScheme <> .
-
-<45114> a skos:Concept ;
-	skos:prefLabel "Feedbackkanal-Vorlage"@de ;
-	skos:definition "Vorlagen für die Einrichtung von Feedback- und Kommunikationskanälen"@de ;
-	skos:broader <4511> ;
-	skos:inScheme <> .
+    skos:prefLabel "Modul / Kurs (8–16+ Wochen)"@de ;
+    skos:altLabel "Lehrveranstaltung"@de ;
+    skos:altLabel "Modul"@de ;
+    skos:altLabel "Kurs"@de ;
+    skos:definition "Module und Kurse über längere Zeiträume mit strukturiertem Plan"@de ;
+    skos:broader <4> ;
+    skos:narrower <44-1>, <44-2>, <44-3>, <44-4> ;
+    skos:inScheme <> .
+
+<44-1> a skos:Concept ;
+    skos:prefLabel "Modulskizze (Outcomes→Einheiten→Prüfungen)"@de ;
+    skos:altLabel "Outcomes–Einheiten–Prüfungen"@de ;
+    skos:altLabel "Module Outline"@en ;
+    skos:broader <44> ;
+    skos:inScheme <> .
+
+<44-2> a skos:Concept ;
+    skos:prefLabel "Modulbeschreibung (Syllabus/Handbuch-Ausschnitt)"@de ;
+    skos:altLabel "Syllabus"@en ;
+    skos:altLabel "Modulbeschreibung"@de ;
+    skos:broader <44> ;
+    skos:inScheme <> .
+
+<44-3> a skos:Concept ;
+    skos:prefLabel "Prüf-/Feedbackplan Modul (Bewertungslandkarte)"@de ;
+    skos:altLabel "Bewertungslandkarte"@de ;
+    skos:altLabel "Assessment Map"@en ;
+    skos:broader <44> ;
+    skos:inScheme <> .
+
+<44-4> a skos:Concept ;
+    skos:prefLabel "Kurs-Blueprint (Planstruktur mit Material-Referenzen)"@de ;
+    skos:altLabel "Blueprint"@en ;
+    skos:altLabel "Kurs-Blueprint"@de ;
+    skos:broader <44> ;
+    skos:inScheme <> .
