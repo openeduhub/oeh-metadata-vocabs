@@ -6,12 +6,11 @@
   },
   "altLabel": {
     "de": [
-      "Unterrichtsmethoden",
-      "Lehr-Lern-Methoden"
+      "Unterrichtsmethoden"
     ]
   },
   "definition": {
-    "de": "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es?) - Konkrete methodische Verfahren und Techniken für den Unterricht"
+    "de": "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es? ) - Konkrete methodische Verfahren und Techniken für den Unterricht"
   },
   "narrower": [
     {
@@ -23,13 +22,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12",
       "prefLabel": {
-        "de": "Orientierung"
+        "de": "Orientierung & Vorstrukturierung"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13",
       "prefLabel": {
-        "de": "Wissensvermittlung & -strukturierung"
+        "de": "Darstellung & Instruktion"
       }
     },
     {
@@ -75,13 +74,22 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111",
+      "prefLabel": {
+        "de": "Reflexion & Metakognition"
+      }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112",
+      "prefLabel": {
+        "de": "Assessment & Prüfung"
+      }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113",
+      "prefLabel": {
+        "de": "Lernorganisation & Steuerung"
+      }
     }
   ],
   "inScheme": [

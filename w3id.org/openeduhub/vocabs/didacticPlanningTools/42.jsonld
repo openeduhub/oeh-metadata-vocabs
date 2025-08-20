@@ -2,16 +2,104 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42",
   "type": "Concept",
   "prefLabel": {
-    "de": "Stundenpaket"
+    "de": "Stunde / Block (45–180 min)"
   },
   "altLabel": {
     "de": [
-      "Vollständige Unterrichtsstunde"
+      "Lektion",
+      "Doppelstunde",
+      "Workshop"
     ]
   },
   "definition": {
-    "de": "Vollständig ausgearbeitete Unterrichtsstunden mit allen Materialien und Ablaufplänen"
+    "de": "Ausgearbeitete Unterrichtsstunden oder -blöcke (45–180 Minuten)"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-1",
+      "prefLabel": {
+        "de": "Diskussionsstunde (Positionieren→Begründen→Synthese)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-2",
+      "prefLabel": {
+        "de": "Fallarbeit-Stunde (Analyse→Optionen→Transfer)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-3",
+      "prefLabel": {
+        "de": "Experimentierstunde (Versuch→Auswertung→Sicherung)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-4",
+      "prefLabel": {
+        "de": "Erarbeitungsstunde (kurzer Input→Erarbeitung→Sicherung)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-5",
+      "prefLabel": {
+        "de": "Projekt-Kickoff (Ziele→Rollen→Planung)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-6",
+      "prefLabel": {
+        "de": "Formative-Check-Stunde (Lernstand→Feedback→Next Steps)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-7",
+      "prefLabel": {
+        "de": "Förder-/Aufholstunde (Diagnose→Üben→Re-Test)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-8",
+      "prefLabel": {
+        "de": "Vertretungsstunde (Plug & Teach)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-9",
+      "prefLabel": {
+        "de": "Simulation/Planspiel-Sitzung (Brief→Experience→Debrief)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-10",
+      "prefLabel": {
+        "de": "Werkstatt-/Stations-Sitzung (Rotationen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-11",
+      "prefLabel": {
+        "de": "Hybrid-Sitzung (asynchroner Input→Präsenz-Coaching)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-12",
+      "prefLabel": {
+        "de": "Online-Livesitzung (synchron)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-13",
+      "prefLabel": {
+        "de": "Asynchrones Selbstlernmodul"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42-14",
+      "prefLabel": {
+        "de": "Exkursion / Lernort extern (Halb-/Ganztag)"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/4",
     "prefLabel": {

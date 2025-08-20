@@ -2,28 +2,35 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/39",
   "type": "Concept",
   "prefLabel": {
-    "de": "Rückwärts planen & prüfen (Outcome/Assessment-integriertes Lernen)"
+    "de": "Selbstreguliert & reflektierend"
   },
   "altLabel": {
     "de": [
-      "outcome-orientiertes Lernen",
-      "assessment-as-learning"
+      "selbstreguliertes Lernen",
+      "metakognitiv",
+      "selbstgesteuert"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für outcome-orientierte Planung und Assessment-Integration"
+    "de": "Sequenzen zur Planung, Steuerung und Reflexion des eigenen Lernens"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/391",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/39-1",
       "prefLabel": {
-        "de": "Outcome-zuerst-Planung"
+        "de": "SRL-Zyklus nach Zimmerman (Forethought–Performance–Self-Reflection)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/392",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/39-2",
       "prefLabel": {
-        "de": "Formative Feedback-Schleife"
+        "de": "Goal–Plan–Do–Review"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/39-3",
+      "prefLabel": {
+        "de": "Lernjournal-Zyklus (Plan–Durchführung–Reflexion–Next Steps)"
       }
     }
   ],

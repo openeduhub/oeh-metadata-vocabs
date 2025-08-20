@@ -2,28 +2,49 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36",
   "type": "Concept",
   "prefLabel": {
-    "de": "Verständlichkeit & Abstraktion sichern"
+    "de": "Erfahrungsorientiert & praktisch"
   },
   "altLabel": {
     "de": [
-      "repräsentationsorientiertes Lernen",
-      "konzeptuelles Lernen"
+      "handlungsorientiert",
+      "erfahrungsbasiert",
+      "simulationsbasiert",
+      "situiert",
+      "learning by doing"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste zur Sicherung von Verständlichkeit und Abstraktion"
+    "de": "Sequenzen für erfahrungsbasierte, praktische Lernzyklen"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/361",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36-1",
       "prefLabel": {
-        "de": "Konkret–Bildlich–Abstrakt"
+        "de": "Kolbs Erfahrungslernzyklus (CE–RO–AC–AE)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/362",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36-2",
       "prefLabel": {
-        "de": "Beispielgeleitete Abstraktion"
+        "de": "PDSA / PDCA"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36-3",
+      "prefLabel": {
+        "de": "Brief–Experience–Debrief–Transfer"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36-4",
+      "prefLabel": {
+        "de": "Feldforschungs-Zyklus (Plan–Erheben–Auswerten–Berichten)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/36-5",
+      "prefLabel": {
+        "de": "Missions-/Level-Fortschritt (Gamification)"
       }
     }
   ],

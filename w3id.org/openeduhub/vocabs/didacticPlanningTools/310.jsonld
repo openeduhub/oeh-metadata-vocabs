@@ -2,28 +2,48 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fallbasiertes/Anwendungsnahes Lernen"
+    "de": "Wahl-/pfadgesteuert & personalisiert"
   },
   "altLabel": {
     "de": [
-      "case-basiertes Lernen",
-      "szenariobasiertes Lernen"
+      "personalisiert",
+      "differenziert",
+      "adaptive Pfade",
+      "Choice / Playlist / Lernmenüs"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für fallbasiertes und anwendungsnahes Lernen"
+    "de": "Sequenzen mit Wahlpfaden und personalisierten Lernwegen"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3101",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310-1",
       "prefLabel": {
-        "de": "Fallbearbeitungszyklus"
+        "de": "Choice Boards"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3102",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310-2",
       "prefLabel": {
-        "de": "Szenario-Transferpfad"
+        "de": "Learning Menus / Tic-Tac-Toe"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310-3",
+      "prefLabel": {
+        "de": "Playlists / Pathways"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310-4",
+      "prefLabel": {
+        "de": "HyperDocs-Flows"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/310-5",
+      "prefLabel": {
+        "de": "Mastery Paths (Adaptive Release)"
       }
     }
   ],

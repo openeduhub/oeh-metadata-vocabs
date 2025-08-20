@@ -2,28 +2,49 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38",
   "type": "Concept",
   "prefLabel": {
-    "de": "Anpassen & Verzweigen (Adaptives/personalisiertes Lernen)"
+    "de": "Ergebnis- & rückwärtsorientiert"
   },
   "altLabel": {
     "de": [
-      "differenziertes Lernen",
-      "personalisiertes Lernen"
+      "rückwärts planen",
+      "kompetenzorientiert",
+      "evidenzorientiert",
+      "Constructive Alignment",
+      "Assessment for Learning"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für adaptives und personalisiertes Lernen"
+    "de": "Sequenzen mit klarem Outcome-Fokus und Alignment"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/381",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38-1",
       "prefLabel": {
-        "de": "Verzweigter Lernpfad"
+        "de": "Backward Design / UbD"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/382",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38-2",
       "prefLabel": {
-        "de": "Lernspirale"
+        "de": "Constructive Alignment (Biggs)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38-3",
+      "prefLabel": {
+        "de": "Formative Assessment Cycle (Elicit–Interpret–Act)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38-4",
+      "prefLabel": {
+        "de": "Diagnose–Intervention–Re-Assessment"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/38-5",
+      "prefLabel": {
+        "de": "Portfolio-Evidenz-Zyklus (Sammeln–Auswählen–Reflektieren–Präsentieren)"
       }
     }
   ],

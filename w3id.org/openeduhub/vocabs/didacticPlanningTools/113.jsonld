@@ -1,42 +1,50 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113",
   "type": "Concept",
+  "prefLabel": {
+    "de": "Lernorganisation & Steuerung"
+  },
   "altLabel": {
     "de": [
       "Lernorganisation",
-      "Planung & Steuerung",
-      "Zieltransparenz",
-      "Nutzen klarmachen",
-      "Wozu-Bezug",
-      "Lebensweltbezug"
+      "Rahmen & Ablauf koordinieren"
     ]
+  },
+  "definition": {
+    "de": "Rahmen und Ablauf koordinieren"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1131",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113-1",
       "prefLabel": {
         "de": "Zielsetzung & Lernplanung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1132",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113-2",
       "prefLabel": {
-        "de": "Lernpfade / Wahlmöglichkeiten"
+        "de": "Lernpfade/Wahlmöglichkeiten"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1133",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113-3",
       "prefLabel": {
-        "de": "Lernverträge / Vereinbarungen"
+        "de": "Lernverträge/Vereinbarungen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1134",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/113-4",
       "prefLabel": {
-        "de": "Zeit- & Ressourcenmanagement"
+        "de": "Routinen & Klassenmanagement"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1",
+    "prefLabel": {
+      "de": "Methoden & Techniken"
+    }
+  },
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",

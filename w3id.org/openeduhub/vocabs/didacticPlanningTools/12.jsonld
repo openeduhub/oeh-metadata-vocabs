@@ -2,34 +2,41 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12",
   "type": "Concept",
   "prefLabel": {
-    "de": "Orientierung"
+    "de": "Orientierung & Vorstrukturierung"
   },
   "altLabel": {
     "de": [
       "Orientierungshilfe",
-      "Vorstrukturierung"
+      "Thema verorten",
+      "Struktur anbieten"
     ]
   },
   "definition": {
-    "de": "Vorstrukturierung & Anknüpfen - Methoden zur inhaltlichen Orientierung und strukturellen Vorbereitung des Lernens"
+    "de": "Thema verorten und Struktur anbieten"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/121",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12-1",
       "prefLabel": {
-        "de": "Strukturierung / Organizer"
+        "de": "Struktur-/Graphic-Organizer"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/122",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12-2",
       "prefLabel": {
         "de": "Problempräsentation"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/123",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12-3",
       "prefLabel": {
         "de": "Rezeption mit Medien"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/12-4",
+      "prefLabel": {
+        "de": "Notiz-/Annotationstechniken"
       }
     }
   ],

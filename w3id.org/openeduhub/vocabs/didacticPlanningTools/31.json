@@ -2,26 +2,52 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einführendes/Motivierendes Lernen"
+    "de": "Angeleitet & strukturiert"
   },
   "altLabel": {
     "de": [
-      "aktivierendes Lernen",
-      "motivationale Einstiege"
+      "instruktionsgeleitet",
+      "explizit anleiten",
+      "direkte Instruktion",
+      "Ich–Wir–Du"
+    ],
+    "en": [
+      "Direct Instruction"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für motivierende Einführungen und aktivierende Lernphasen"
+    "de": "Sequenzmodelle mit starker Anleitung und klarer Struktur"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31-1",
+      "prefLabel": {
+        "de": "Gagnés 9 Events"
+      }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/312"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31-2",
+      "prefLabel": {
+        "de": "Madeline Hunter Lesson Design"
+      }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/313"
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31-3",
+      "prefLabel": {
+        "de": "BOPPPS"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31-4",
+      "prefLabel": {
+        "de": "Direkte Instruktion / GRR (I–We–You)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/31-5",
+      "prefLabel": {
+        "de": "Rosenshine-Abfolge (Review→Input→Guided→Check→Independent→Review)"
+      }
     }
   ],
   "broader": {

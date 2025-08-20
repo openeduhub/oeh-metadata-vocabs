@@ -2,35 +2,47 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33",
   "type": "Concept",
   "prefLabel": {
-    "de": "Soziales & Kooperatives Lernen"
+    "de": "Problemlösend & fallorientiert"
   },
   "altLabel": {
     "de": [
-      "kooperatives Lernen",
-      "kollaboratives Lernen",
-      "diskursives Lernen"
+      "problembasiert",
+      "problemorientiert",
+      "fallbasiert"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für soziales und kooperatives Lernen"
+    "de": "Sequenzen zur systematischen Problembearbeitung und Fallanalyse"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/331",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33-1",
       "prefLabel": {
-        "de": "Rotationsablauf"
+        "de": "PBL 7-Step (Maastricht)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/332",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33-2",
       "prefLabel": {
-        "de": "Werkstattablauf"
+        "de": "Polya 4-Schritte"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/333",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33-3",
       "prefLabel": {
-        "de": "Diskussions-Choreografie"
+        "de": "IDEAL-Modell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33-4",
+      "prefLabel": {
+        "de": "Case-Cycle (Analyse→Optionen→Begründung→Transfer)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/33-5",
+      "prefLabel": {
+        "de": "Clinical Reasoning Loop"
       }
     }
   ],

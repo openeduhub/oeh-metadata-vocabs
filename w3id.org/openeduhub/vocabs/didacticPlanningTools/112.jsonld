@@ -1,42 +1,50 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112",
   "type": "Concept",
+  "prefLabel": {
+    "de": "Assessment & Prüfung"
+  },
   "altLabel": {
     "de": [
       "Assessment",
-      "Prüfung",
-      "Evaluation",
-      "Vorkenntnisaktivierung",
-      "Anknüpfen",
-      "Prior Knowledge"
+      "Lernstände sichtbar machen"
     ]
+  },
+  "definition": {
+    "de": "Lernstände sichtbar machen und bewerten"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1121",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112-1",
       "prefLabel": {
-        "de": "Formative Lernstandsdiagnostik"
+        "de": "Exit Ticket/Formativer Kurz-Check"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1122",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112-2",
       "prefLabel": {
-        "de": "Summative Leistungsbewertung"
+        "de": "Kriterienraster/Rubrics"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1123",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112-3",
       "prefLabel": {
-        "de": "Kompetenzorientierte Beurteilung / Rubriken"
+        "de": "Selbst- & Peer-Assessment"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1124",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/112-4",
       "prefLabel": {
-        "de": "Selbst- und Peer-Bewertung"
+        "de": "Authentische Leistungsaufgabe"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1",
+    "prefLabel": {
+      "de": "Methoden & Techniken"
+    }
+  },
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",

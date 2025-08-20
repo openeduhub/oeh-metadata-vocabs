@@ -6,7 +6,11 @@
   },
   "altLabel": {
     "de": [
-      "Ausgearbeitete Pläne & Materialien"
+      "Ausgearbeitete Pläne & Materialien",
+      "Unterrichtspläne"
+    ],
+    "en": [
+      "Lesson Plans"
     ]
   },
   "definition": {
@@ -16,31 +20,25 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41",
       "prefLabel": {
-        "de": "Unterrichtsbaustein"
+        "de": "Baustein (10–40 min)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/42",
       "prefLabel": {
-        "de": "Stundenpaket"
+        "de": "Stunde / Block (45–180 min)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43",
       "prefLabel": {
-        "de": "Einheitenpaket"
+        "de": "Einheit (2–8 Wochen)"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44",
       "prefLabel": {
-        "de": "Modulpaket"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/45",
-      "prefLabel": {
-        "de": "Unterstützendes Material"
+        "de": "Modul / Kurs (8–16+ Wochen)"
       }
     }
   ],

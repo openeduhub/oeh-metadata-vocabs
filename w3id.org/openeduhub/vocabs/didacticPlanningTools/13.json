@@ -2,33 +2,38 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13",
   "type": "Concept",
   "prefLabel": {
-    "de": "Wissensvermittlung & -strukturierung"
+    "de": "Darstellung & Instruktion"
   },
   "altLabel": {
     "de": [
       "Vermittlung",
-      "Input",
-      "Instruktion"
+      "Inhalte darstellen & erklären"
     ]
   },
   "definition": {
-    "de": "Inhalte darstellen & erklären - Methoden zur systematischen Wissensvermittlung und -strukturierung"
+    "de": "Inhalte darstellen und erklären"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/131",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13-1",
       "prefLabel": {
-        "de": "Darstellung / Erklärung"
+        "de": "Impuls/Mini-Lecture"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/132",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13-2",
       "prefLabel": {
-        "de": "Demonstration & Anschauung"
+        "de": "Demonstration/Modellieren"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/133",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13-3",
+      "prefLabel": {
+        "de": "Worked/Model Examples"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/13-4",
       "prefLabel": {
         "de": "Strukturierende Zusammenfassung"
       }

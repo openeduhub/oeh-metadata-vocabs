@@ -2,16 +2,57 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43",
   "type": "Concept",
   "prefLabel": {
-    "de": "Einheitenpaket"
+    "de": "Einheit (2–8 Wochen)"
   },
   "altLabel": {
     "de": [
-      "Unterrichtssequenz/-reihe"
+      "Reihe"
+    ],
+    "en": [
+      "Unit"
     ]
   },
   "definition": {
-    "de": "Zusammenhängende Unterrichtssequenzen und -reihen mit mehreren aufeinander aufbauenden Stunden"
+    "de": "Unterrichtseinheiten über mehrere Wochen mit zusammenhängenden Zielen"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-1",
+      "prefLabel": {
+        "de": "Einheitenplan (Ziele; Meilensteine; Nachweise)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-2",
+      "prefLabel": {
+        "de": "Projektfahrplan / Service-Learning-Plan"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-3",
+      "prefLabel": {
+        "de": "Lernpfad (sequenziert mit Wahloptionen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-4",
+      "prefLabel": {
+        "de": "Kompetenzraster-Einheit (Stufen/Outcomes)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-5",
+      "prefLabel": {
+        "de": "Förder-/Aufholreihe (Intensiv-Üben; Re-Assessment)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/43-6",
+      "prefLabel": {
+        "de": "Assessment-Zyklus Einheit (Prüf-/Feedbackabfolge)"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/4",
     "prefLabel": {

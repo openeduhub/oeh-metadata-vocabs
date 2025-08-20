@@ -2,16 +2,85 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41",
   "type": "Concept",
   "prefLabel": {
-    "de": "Unterrichtsbaustein"
+    "de": "Baustein (10–40 min)"
   },
   "altLabel": {
     "de": [
-      "Didaktischer Baustein"
+      "Starter",
+      "Impuls"
     ]
   },
   "definition": {
-    "de": "Einzelne, abgeschlossene didaktische Bausteine für spezifische Unterrichtssituationen"
+    "de": "Kurzbausteine (10–40 Minuten) für fokussierte Lernphasen"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-1",
+      "prefLabel": {
+        "de": "Pro–Contra-Diskurs"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-2",
+      "prefLabel": {
+        "de": "Dilemma-Diskussion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-3",
+      "prefLabel": {
+        "de": "Rollen-/Szenario-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-4",
+      "prefLabel": {
+        "de": "Expertengruppen-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-5",
+      "prefLabel": {
+        "de": "Fallstudien-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-6",
+      "prefLabel": {
+        "de": "Experimentier-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-7",
+      "prefLabel": {
+        "de": "Recherche-/Erkundungs-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-8",
+      "prefLabel": {
+        "de": "Begriffsnetz-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-9",
+      "prefLabel": {
+        "de": "Gestaltungs-Baustein"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-10",
+      "prefLabel": {
+        "de": "Kurzreflexion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/41-11",
+      "prefLabel": {
+        "de": "Kurzassessment"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/4",
     "prefLabel": {

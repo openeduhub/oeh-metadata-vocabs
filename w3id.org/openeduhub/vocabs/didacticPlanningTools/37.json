@@ -2,28 +2,48 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37",
   "type": "Concept",
   "prefLabel": {
-    "de": "Zeit-/Ort-Orchestrierung (Blended/Hybrid-Lernen)"
+    "de": "Übend & festigend"
   },
   "altLabel": {
     "de": [
-      "blended learning",
-      "hybrid-basiertes Lernen"
+      "beherrschungsorientiert",
+      "Mastery Learning",
+      "Training",
+      "gezieltes Üben"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für Blended- und Hybrid-Learning-Szenarien"
+    "de": "Sequenzen für Übung, Festigung und Aufbau von Routinen"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/371",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37-1",
       "prefLabel": {
-        "de": "Ausgelagerter Input, Präsenz als Coaching"
+        "de": "Mastery Learning Cycle (Diagnose→Instruktion→Formatives Assessment→Korrektur→Re-Test)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/372",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37-2",
       "prefLabel": {
-        "de": "Präsenz–Online-Wechselrhythmus"
+        "de": "Deliberate Practice Loop"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37-3",
+      "prefLabel": {
+        "de": "Workshop-Modell (Mini-Lesson–Work Time–Share)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37-4",
+      "prefLabel": {
+        "de": "Interleaving-Sequenz"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/37-5",
+      "prefLabel": {
+        "de": "Spaced-Practice-Plan"
       }
     }
   ],

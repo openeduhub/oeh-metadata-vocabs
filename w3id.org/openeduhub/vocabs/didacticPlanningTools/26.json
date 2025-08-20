@@ -4,40 +4,38 @@
   "prefLabel": {
     "de": "Assessment & Feedback"
   },
-  "altLabel": {
-    "de": [
-      "Bewertung & Rückmeldung"
-    ]
+  "definition": {
+    "de": "Bewerten, Rückmelden und Lernprozesse formatv/prozessbezogen begleiten"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/261",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26-1",
       "prefLabel": {
-        "de": "Bewertungsmethoden"
+        "de": "Bewertungsmethoden & Kriterienklarheit"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/262",
-      "prefLabel": {
-        "de": "Peer-Bewertung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/263",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26-2",
       "prefLabel": {
         "de": "Formative Rückmeldung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/264",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26-3",
       "prefLabel": {
-        "de": "Prozessbezogene Prüfungsformate"
+        "de": "Peer-Bewertung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/265",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26-4",
       "prefLabel": {
         "de": "Selbsteinschätzung"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/26-5",
+      "prefLabel": {
+        "de": "Prozessbezogene Prüfungsformate"
       }
     }
   ],

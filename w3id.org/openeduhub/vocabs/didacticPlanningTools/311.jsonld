@@ -1,30 +1,74 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311",
   "type": "Concept",
+  "prefLabel": {
+    "de": "Zeitlich/örtlich flexibel"
+  },
   "altLabel": {
     "de": [
-      "service learning",
-      "community-basiertes Lernen",
-      "Klassische Stundenfolge",
-      "Einstieg–Erarbeitung–Sicherung",
-      "EES",
-      "3-Phasen-Modell"
+      "Blended Learning",
+      "Hybrid",
+      "Flipped",
+      "HyFlex",
+      "Rotationsmodelle"
+    ],
+    "en": [
+      "Blended/Hybrid"
     ]
+  },
+  "definition": {
+    "de": "Sequenzen mit flexibler Zeit-/Ort-Gestaltung und Blended-Formaten"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3111",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-1",
       "prefLabel": {
-        "de": "Service-Lernpfad"
+        "de": "Flipped Classroom"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3112",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-2",
       "prefLabel": {
-        "de": "Community-Projektzyklus"
+        "de": "HyFlex"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-3",
+      "prefLabel": {
+        "de": "Präsenz–Online–Wechselrhythmus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-4",
+      "prefLabel": {
+        "de": "Station Rotation"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-5",
+      "prefLabel": {
+        "de": "Lab Rotation"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-6",
+      "prefLabel": {
+        "de": "Flex-Modell"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/311-7",
+      "prefLabel": {
+        "de": "A-La-Carte / Enriched Virtual"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/3",
+    "prefLabel": {
+      "de": "Ablauf- & Planungsgerüste"
+    }
+  },
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",

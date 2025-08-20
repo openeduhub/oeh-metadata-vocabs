@@ -2,29 +2,54 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35",
   "type": "Concept",
   "prefLabel": {
-    "de": "Üben, Festigen & Anwenden"
+    "de": "Projektbasiert & gestaltend"
   },
   "altLabel": {
     "de": [
-      "kompetenzorientiertes Lernen",
-      "mastery-basiertes Lernen",
-      "anwendungsorientiertes Lernen"
+      "projektbasiert",
+      "designbasiert",
+      "produktorientiert",
+      "Service Learning"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für Übung, Festigung und Anwendung"
+    "de": "Sequenzen für projekt- und designorientiertes Arbeiten"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/351",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-1",
       "prefLabel": {
-        "de": "Beherrschungsorientierte Übungsschleife"
+        "de": "Design Thinking (Double Diamond / Stanford)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/352",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-2",
       "prefLabel": {
-        "de": "Üben–Anwenden–Transfer"
+        "de": "Engineering Design Process"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-3",
+      "prefLabel": {
+        "de": "PjBL-Fahrplan (BIE / Gold Standard)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-4",
+      "prefLabel": {
+        "de": "Agile Sprint (Plan–Build–Review–Retro)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-5",
+      "prefLabel": {
+        "de": "Studio-Critique-Zyklus (Entwurf–Feedback–Revision–Exponat)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/35-6",
+      "prefLabel": {
+        "de": "Service-Learning-Zyklus (Investigate–Plan–Act–Reflect–Demonstrate)"
       }
     }
   ],

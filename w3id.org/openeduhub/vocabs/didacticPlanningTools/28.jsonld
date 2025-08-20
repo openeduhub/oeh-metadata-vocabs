@@ -2,28 +2,38 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28",
   "type": "Concept",
   "prefLabel": {
-    "de": "Individuelle Förderung"
+    "de": "Individuelle Förderung & Inklusion"
   },
-  "altLabel": {
-    "de": [
-      "Individualisierung"
-    ]
+  "definition": {
+    "de": "Lernende mit unterschiedlichen Voraussetzungen unterstützen und einbeziehen"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/281",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28-1",
       "prefLabel": {
         "de": "Heterogene Lernstände"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/282",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28-2",
       "prefLabel": {
         "de": "Lernstrategien & Selbstregulation"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/283",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28-3",
+      "prefLabel": {
+        "de": "UDL – Universelles Design für Lernen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28-4",
+      "prefLabel": {
+        "de": "Adaptive/Personalisierte Wege"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/28-5",
       "prefLabel": {
         "de": "Unterstützung bei Leistungsrisiko"
       }

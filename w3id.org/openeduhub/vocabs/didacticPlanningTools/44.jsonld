@@ -2,16 +2,44 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44",
   "type": "Concept",
   "prefLabel": {
-    "de": "Modulpaket"
+    "de": "Modul / Kurs (8–16+ Wochen)"
   },
   "altLabel": {
     "de": [
-      "Kurs/Modul komplett"
+      "Lehrveranstaltung",
+      "Modul",
+      "Kurs"
     ]
   },
   "definition": {
-    "de": "Vollständige Kurs- oder Modulpakete mit allen erforderlichen Materialien und Planungen"
+    "de": "Module und Kurse über längere Zeiträume mit strukturiertem Plan"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44-1",
+      "prefLabel": {
+        "de": "Modulskizze (Outcomes→Einheiten→Prüfungen)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44-2",
+      "prefLabel": {
+        "de": "Modulbeschreibung (Syllabus/Handbuch-Ausschnitt)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44-3",
+      "prefLabel": {
+        "de": "Prüf-/Feedbackplan Modul (Bewertungslandkarte)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/44-4",
+      "prefLabel": {
+        "de": "Kurs-Blueprint (Planstruktur mit Material-Referenzen)"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/4",
     "prefLabel": {

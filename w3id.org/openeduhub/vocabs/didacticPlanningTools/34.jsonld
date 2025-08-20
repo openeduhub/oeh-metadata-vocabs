@@ -2,28 +2,60 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34",
   "type": "Concept",
   "prefLabel": {
-    "de": "Produkte erstellen & Projekte durchführen"
+    "de": "Diskursiv & gemeinsam weiterdenken"
   },
   "altLabel": {
     "de": [
-      "projektbasiertes Lernen",
-      "produktorientiertes Lernen"
+      "kooperativ",
+      "kollaborativ",
+      "dialogisch",
+      "debattenbasiert"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für projekt- und produktorientiertes Lernen"
+    "de": "Sequenzen für diskursives, gemeinsames Weiterdenken"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/341",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-1",
       "prefLabel": {
-        "de": "Projektfahrplan"
+        "de": "Socratic Seminar"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/342",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-2",
       "prefLabel": {
-        "de": "Entwurfs-/Prototypenzyklus"
+        "de": "Harkness"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-3",
+      "prefLabel": {
+        "de": "Structured Academic Controversy (SAC)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-4",
+      "prefLabel": {
+        "de": "Debattenformate (Oxford, Karl-Popper, Lincoln-Douglas, Public Forum)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-5",
+      "prefLabel": {
+        "de": "Fishbowl"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-6",
+      "prefLabel": {
+        "de": "Jigsaw / Expertengruppen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/34-7",
+      "prefLabel": {
+        "de": "Think–Pair–Share-Loop"
       }
     }
   ],

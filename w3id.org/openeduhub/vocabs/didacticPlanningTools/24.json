@@ -4,64 +4,68 @@
   "prefLabel": {
     "de": "Methodische Ausrichtung"
   },
-  "altLabel": {
-    "de": [
-      "Methodenorientierung"
-    ]
+  "definition": {
+    "de": "Grundausrichtung und Sequenzierung methodischer Gestaltung"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/241",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-1",
       "prefLabel": {
-        "de": "Instruktionsdesign"
+        "de": "Instruktionsdesign/Sequenzierung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/242",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-2",
+      "prefLabel": {
+        "de": "Instruktion ↔ Konstruktion"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-3",
       "prefLabel": {
         "de": "Konstruktive Aktivierung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/243",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-4",
       "prefLabel": {
         "de": "Anwendungs- & Problemorientierung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/244",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-5",
       "prefLabel": {
         "de": "Differenzierung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/245",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-6",
       "prefLabel": {
         "de": "Interdisziplinarität"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/246",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-7",
       "prefLabel": {
         "de": "Überfachliche Kompetenzen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/247",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-8",
       "prefLabel": {
         "de": "Theorie–Praxis-Verzahnung"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/248",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-9",
       "prefLabel": {
-        "de": "Kontinuität des Lernens"
+        "de": "Kontinuität/Progression"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/249",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/24-10",
       "prefLabel": {
-        "de": "Großgruppen-Begleitung"
+        "de": "Großgruppen-Begleitung/Skalierung"
       }
     }
   ],

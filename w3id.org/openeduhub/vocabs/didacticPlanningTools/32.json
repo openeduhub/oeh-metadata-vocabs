@@ -2,35 +2,54 @@
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32",
   "type": "Concept",
   "prefLabel": {
-    "de": "Erarbeitendes/Exploratives Lernen"
+    "de": "Entdeckend & forschend"
   },
   "altLabel": {
     "de": [
       "entdeckendes Lernen",
-      "exploratives Lernen",
-      "inquiry-basiertes Lernen"
+      "forschendes Lernen",
+      "inquiry-basiert",
+      "phänomenbasiertes Lernen"
     ]
   },
   "definition": {
-    "de": "Ablaufgerüste für entdeckendes und exploratives Lernen"
+    "de": "Sequenzen für exploratives, forschendes Lernen"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/321",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-1",
       "prefLabel": {
-        "de": "Erkundungszyklus in fünf Schritten"
+        "de": "BSCS 5E (Engage–Explore–Explain–Elaborate–Evaluate)"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/322",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-2",
       "prefLabel": {
-        "de": "Problemlösezyklus"
+        "de": "Karplus 3E"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/323",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-3",
       "prefLabel": {
-        "de": "Forschungsrunde"
+        "de": "Scientific Method"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-4",
+      "prefLabel": {
+        "de": "POE (Predict–Observe–Explain)"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-5",
+      "prefLabel": {
+        "de": "K–W–L"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/32-6",
+      "prefLabel": {
+        "de": "CER (Claim–Evidence–Reasoning)"
       }
     }
   ],

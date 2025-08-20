@@ -1,44 +1,50 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111",
   "type": "Concept",
+  "prefLabel": {
+    "de": "Reflexion & Metakognition"
+  },
   "altLabel": {
     "de": [
       "Reflexion",
-      "Selbstregulation",
-      "Aufmerksamkeitsstarter",
-      "Aktivierungsimpuls",
-      "Hook",
-      "Attention-Grabber",
-      "Energizer",
-      "Auflockerungsübung"
+      "Lernen steuern"
     ]
+  },
+  "definition": {
+    "de": "Lernen steuern und reflektieren"
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1111",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111-1",
       "prefLabel": {
-        "de": "Selbstreflexion / Lerntagebuch"
+        "de": "Lerntagebuch/Selbstreflexion"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1112",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111-2",
       "prefLabel": {
-        "de": "Peer- / Fremdfeedback"
+        "de": "Peer-/Fremdfeedback"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1113",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111-3",
       "prefLabel": {
-        "de": "Rückblick / Lernbilanz"
+        "de": "Lernbilanz/Retrospektive"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1114",
+      "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/111-4",
       "prefLabel": {
         "de": "Strategie-Reflexion"
       }
     }
   ],
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/1",
+    "prefLabel": {
+      "de": "Methoden & Techniken"
+    }
+  },
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/didacticPlanningTools/",
