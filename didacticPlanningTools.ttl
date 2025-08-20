@@ -813,14 +813,6 @@
 	skos:broader <21> ;
 	skos:inScheme <> .
 
-<21> a skos:Concept ;
-	skos:prefLabel "Lehr-Lern-Prozess"@de ;
-	skos:altLabel "Lernprozessgestaltung"@de ;
-	skos:definition "Entwurfsmuster zur Gestaltung und Optimierung von Lehr-Lern-Prozessen"@de ;
-	skos:broader <2> ;
-	skos:narrower <211>, <212>, <213>, <214>, <215>, <216>, <217> ;
-	skos:inScheme <> .
-
 <22> a skos:Concept ;
 	skos:prefLabel "Lernumgebung / Raumgestaltung"@de ;
 	skos:altLabel "Raumgestaltung"@de, "Lernraum"@de ;
@@ -875,13 +867,6 @@
 	skos:definition "Entwurfsmuster zur individuellen Förderung und Unterstützung von Lernenden"@de ;
 	skos:broader <2> ;
 	skos:narrower <281>, <282>, <283> ;
-	skos:inScheme <> .
-
-<232> a skos:Concept ;
-	skos:prefLabel "Peer Learning"@de ;
-	skos:altLabel "Peer-Unterstützung"@de ;
-	skos:definition "Entwurfsmuster zur Förderung des gegenseitigen Lernens zwischen Gleichgestellten"@de ;
-	skos:broader <23> ;
 	skos:inScheme <> .
 
 <221> a skos:Concept ;
