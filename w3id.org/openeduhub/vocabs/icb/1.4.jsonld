@@ -4,6 +4,26 @@
   "prefLabel": {
     "de": "Kultur und Werte"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/1.4.0",
+      "prefLabel": {
+        "de": "Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/1.4.1",
+      "prefLabel": {
+        "de": "Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/1.4.2",
+      "prefLabel": {
+        "de": "Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/icb/1",
     "prefLabel": {

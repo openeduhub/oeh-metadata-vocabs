@@ -4,6 +4,32 @@
   "prefLabel": {
     "de": "Beschaffung"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/3.8.0",
+      "prefLabel": {
+        "de": "Beschaffungsbedarf, Optionen und Prozesse vereinbaren"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/3.8.1",
+      "prefLabel": {
+        "de": "Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/3.8.2",
+      "prefLabel": {
+        "de": "Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/icb/3.8.3",
+      "prefLabel": {
+        "de": "Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen"
+      }
+    }
+  ],
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/icb/3",
     "prefLabel": {
