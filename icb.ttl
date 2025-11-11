@@ -1,0 +1,448 @@
+@base <http://w3id.org/openeduhub/vocabs/icb/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+	dct:title "Individual Competence Baseline für Projektmanagement"@de ;
+	dct:description "Die IPMA® Individual Competence Baseline (IPMA ICB®) ist der weltweite Standard für individuelle Kompetenzen im Projekt-, Programm- und Portfoliomanagement"@de ;
+	dct:created "2025-11-11"^^xsd:date ;
+	skos:hasTopConcept <1>, <2>, <3> .
+
+<1> a skos:Concept ;
+	skos:prefLabel "Kontext-Kompetenzen (Perspective)"@de ;
+	skos:narrower <1.0>, <1.1>, <1.2>, <1.3>, <1.4> ;
+	skos:topConceptOf <> .
+
+<1.0> a skos:Concept ;
+	skos:prefLabel "Strategie"@de ;
+	skos:narrower <1.0.0>, <1.0.1>, <1.0.2>, <1.0.3>, <1.0.4> ;
+	skos:broader <1> ;
+	skos:inScheme <> .
+
+<1.0.0> a skos:Concept ;
+	skos:prefLabel "Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen"@de ;
+	skos:broader <1.0> ;
+	skos:inScheme <> .
+
+<1.0.1> a skos:Concept ;
+	skos:prefLabel "Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen"@de ;
+	skos:broader <1.0> ;
+	skos:inScheme <> .
+
+<1.0.2> a skos:Concept ;
+	skos:prefLabel "Rechtfertigung für das Projekt entwickeln und sicherstellen, dass die betriebswirtschaftlichen und/oder organisationalen Gründe weiterhin bestehen"@de ;
+	skos:broader <1.0> ;
+	skos:inScheme <> .
+
+<1.0.3> a skos:Concept ;
+	skos:prefLabel "Kritische Erfolgsfaktoren bestimmen, beurteilen und überprüfen"@de ;
+	skos:broader <1.0> ;
+	skos:inScheme <> .
+
+<1.0.4> a skos:Concept ;
+	skos:prefLabel "Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen"@de ;
+	skos:broader <1.0> ;
+	skos:inScheme <> .
+
+<1.1> a skos:Concept ;
+	skos:prefLabel "Governance, Strukturen und Prozesse"@de ;
+	skos:narrower <1.1.0>, <1.1.1>, <1.1.2>, <1.1.3>, <1.1.4>, <1.1.5>, <1.1.6> ;
+	skos:broader <1> ;
+	skos:inScheme <> .
+
+<1.1.0> a skos:Concept ;
+	skos:prefLabel "Die Grundlagen des Projektmanagements und deren Einführung kennen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.1> a skos:Concept ;
+	skos:prefLabel "Die Grundlagen des Programmmanagements und deren Einführung kennen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.2> a skos:Concept ;
+	skos:prefLabel "Die Grundlagen des Portfoliomanagements und deren Einführung kennen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.3> a skos:Concept ;
+	skos:prefLabel "Das Projekt mit den Supportfunktionen in Einklang bringen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.4> a skos:Concept ;
+	skos:prefLabel "Das Projekt mit den Entscheidungs- und Berichterstattungsstrukturen sowie den Qualitätsanforderungen in Einklang bringen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.5> a skos:Concept ;
+	skos:prefLabel "Das Projekt mit den Human-Resource-Prozessen und -funktionen in Einklang bringen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.1.6> a skos:Concept ;
+	skos:prefLabel "Das Projekt mit Finance und Controlling in Einklang bringen"@de ;
+	skos:broader <1.1> ;
+	skos:inScheme <> .
+
+<1.2> a skos:Concept ;
+	skos:prefLabel "Compliance, Standards und Regularien"@de ;
+	skos:broader <1> ;
+	skos:inScheme <> .
+
+<1.3> a skos:Concept ;
+	skos:prefLabel "Macht und Interessen"@de ;
+	skos:broader <1> ;
+	skos:inScheme <> .
+
+<1.4> a skos:Concept ;
+	skos:prefLabel "Kultur und Werte"@de ;
+	skos:broader <1> ;
+	skos:inScheme <> .
+
+<2> a skos:Concept ;
+	skos:prefLabel "Persönliche und Soziale Kompetenzen (People)"@de ;
+	skos:narrower <2.0>, <2.1>, <2.2>, <2.3>, <2.4>, <2.5>, <2.6>, <2.7>, <2.8>, <2.9> ;
+	skos:topConceptOf <> .
+
+<2.0> a skos:Concept ;
+	skos:prefLabel "Selbstreflexion und Selbstmanagement"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.1> a skos:Concept ;
+	skos:prefLabel "Persönliche Integrität und Verlässlichkeit"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.2> a skos:Concept ;
+	skos:prefLabel "Persönliche Kommunikation"@de ;
+	skos:narrower <2.2.0>, <2.2.1>, <2.2.2>, <2.2.3>, <2.2.4> ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.2.0> a skos:Concept ;
+	skos:prefLabel "Klare und strukturierte Informationen bereitstellen und Verständnis überprüfen"@de ;
+	skos:broader <2.2> ;
+	skos:inScheme <> .
+
+<2.2.1> a skos:Concept ;
+	skos:prefLabel "Offene Kommunikation fördern"@de ;
+	skos:broader <2.2> ;
+	skos:inScheme <> .
+
+<2.2.2> a skos:Concept ;
+	skos:prefLabel "Kommunikationsstile und Kanäle wählen, um den Bedürfnissen gerecht zu werden"@de ;
+	skos:broader <2.2> ;
+	skos:inScheme <> .
+
+<2.2.3> a skos:Concept ;
+	skos:prefLabel "Effektiv mit virtuellen Teams kommunizieren"@de ;
+	skos:broader <2.2> ;
+	skos:inScheme <> .
+
+<2.2.4> a skos:Concept ;
+	skos:prefLabel "Humor und Perspektivenwechsel angemessen einsetzen"@de ;
+	skos:broader <2.2> ;
+	skos:inScheme <> .
+
+<2.3> a skos:Concept ;
+	skos:prefLabel "Beziehungen und Engagement"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.4> a skos:Concept ;
+	skos:prefLabel "Führung"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.5> a skos:Concept ;
+	skos:prefLabel "Teamarbeit"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.6> a skos:Concept ;
+	skos:prefLabel "Konflikte und Krisen"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.7> a skos:Concept ;
+	skos:prefLabel "Vielseitigkeit"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.8> a skos:Concept ;
+	skos:prefLabel "Verhandlungen"@de ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.9> a skos:Concept ;
+	skos:prefLabel "Ergebnisorientierung"@de ;
+	skos:narrower <2.9.0>, <2.9.1> ;
+	skos:broader <2> ;
+	skos:inScheme <> .
+
+<2.9.0> a skos:Concept ;
+	skos:prefLabel "Projekt, seine Prozesse und seine Ergebnisse promoten und 'verkaufen'"@de ;
+	skos:broader <2.9> ;
+	skos:inScheme <> .
+
+<2.9.1> a skos:Concept ;
+	skos:prefLabel "Ergebnisse liefern und Akzeptanz erhalten"@de ;
+	skos:broader <2.9> ;
+	skos:inScheme <> .
+
+<3> a skos:Concept ;
+	skos:prefLabel "Technische Kompetenzen (Practice)"@de ;
+	skos:narrower <3.0>, <3.1>, <3.2>, <3.3>, <3.4>, <3.5>, <3.6>, <3.7>, <3.8>, <3.9>, <3.10>, <3.11>, <3.12> ;
+	skos:topConceptOf <> .
+
+<3.0> a skos:Concept ;
+	skos:prefLabel "Projektdesign"@de ;
+	skos:narrower <3.0.0>, <3.0.1>, <3.0.2>, <3.0.3>, <3.0.4> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.0.0> a skos:Concept ;
+	skos:prefLabel "Erfolgskriterien anerkennen, priorisieren und überprüfen"@de ;
+	skos:broader <3.0> ;
+	skos:inScheme <> .
+
+<3.0.1> a skos:Concept ;
+	skos:prefLabel "Lektionen aus anderen Projekten überprüfen, anwenden und austauschen"@de ;
+	skos:broader <3.0> ;
+	skos:inScheme <> .
+
+<3.0.2> a skos:Concept ;
+	skos:prefLabel "Komplexität bestimmen und Konsequenzen für den Ansatz ableiten"@de ;
+	skos:broader <3.0> ;
+	skos:inScheme <> .
+
+<3.0.3> a skos:Concept ;
+	skos:prefLabel "Den übergreifenden Projektmanagement-Ansatz auswählen und überprüfen"@de ;
+	skos:broader <3.0> ;
+	skos:inScheme <> .
+
+<3.0.4> a skos:Concept ;
+	skos:prefLabel "Die Projekt-Exekutionsarchitektur entwerfen"@de ;
+	skos:broader <3.0> ;
+	skos:inScheme <> .
+
+<3.1> a skos:Concept ;
+	skos:prefLabel "Anforderungen und Ziele"@de ;
+	skos:narrower <3.1.0>, <3.1.1>, <3.1.2> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.1.0> a skos:Concept ;
+	skos:prefLabel "Die Projektzielhierarchie definieren und entwickeln"@de ;
+	skos:broader <3.1> ;
+	skos:inScheme <> .
+
+<3.1.1> a skos:Concept ;
+	skos:prefLabel "Die Bedürfnisse und Anforderungen der Stakeholder identifizieren und analysieren"@de ;
+	skos:broader <3.1> ;
+	skos:inScheme <> .
+
+<3.1.2> a skos:Concept ;
+	skos:prefLabel "Anforderungen und Abnahmekriterien priorisieren und entscheiden"@de ;
+	skos:broader <3.1> ;
+	skos:inScheme <> .
+
+<3.2> a skos:Concept ;
+	skos:prefLabel "Leistungsumfang und Lieferobjekte"@de ;
+	skos:narrower <3.2.0>, <3.2.1>, <3.2.2>, <3.2.3> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.2.0> a skos:Concept ;
+	skos:prefLabel "Die Projektergebnisse (Deliverables) definieren"@de ;
+	skos:broader <3.2> ;
+	skos:inScheme <> .
+
+<3.2.1> a skos:Concept ;
+	skos:prefLabel "Den Projektumfang strukturieren"@de ;
+	skos:broader <3.2> ;
+	skos:inScheme <> .
+
+<3.2.2> a skos:Concept ;
+	skos:prefLabel "Die Arbeitspakete des Projekts definieren"@de ;
+	skos:broader <3.2> ;
+	skos:inScheme <> .
+
+<3.2.3> a skos:Concept ;
+	skos:prefLabel "Die Scope-Konfiguration erstellen und aufrechterhalten"@de ;
+	skos:broader <3.2> ;
+	skos:inScheme <> .
+
+<3.3> a skos:Concept ;
+	skos:prefLabel "Ablauf und Termine"@de ;
+	skos:narrower <3.3.0>, <3.3.1>, <3.3.2>, <3.3.3> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.3.0> a skos:Concept ;
+	skos:prefLabel "Die zur Lieferung erforderlichen Aktivitäten definieren/etablieren"@de ;
+	skos:broader <3.3> ;
+	skos:inScheme <> .
+
+<3.3.1> a skos:Concept ;
+	skos:prefLabel "Arbeitsaufwand und Dauer der Aktivitäten bestimmen"@de ;
+	skos:broader <3.3> ;
+	skos:inScheme <> .
+
+<3.3.2> a skos:Concept ;
+	skos:prefLabel "Über Termin- und Phasenansatz entscheiden"@de ;
+	skos:broader <3.3> ;
+	skos:inScheme <> .
+
+<3.3.3> a skos:Concept ;
+	skos:prefLabel "Projektaktivitäten sequenzieren und den Terminplan erstellen"@de ;
+	skos:broader <3.3> ;
+	skos:inScheme <> .
+
+<3.4> a skos:Concept ;
+	skos:prefLabel "Organisation, Information und Dokumentation"@de ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.5> a skos:Concept ;
+	skos:prefLabel "Qualität"@de ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.6> a skos:Concept ;
+	skos:prefLabel "Kosten und Finanzierung"@de ;
+	skos:narrower <3.6.0>, <3.6.1> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.6.0> a skos:Concept ;
+	skos:prefLabel "Ein Finanzmanagement- und Berichtswesen für das Projekt entwickeln, einführen und pflegen"@de ;
+	skos:broader <3.6> ;
+	skos:inScheme <> .
+
+<3.6.1> a skos:Concept ;
+	skos:prefLabel "Projektfinanzen überwachen, um Abweichungen zu identifizieren und zu korrigieren"@de ;
+	skos:broader <3.6> ;
+	skos:inScheme <> .
+
+<3.7> a skos:Concept ;
+	skos:prefLabel "Ressourcen"@de ;
+	skos:narrower <3.7.0>, <3.7.1>, <3.7.2>, <3.7.3> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.7.0> a skos:Concept ;
+	skos:prefLabel "Strategischen Ressourcenplan zur Projektdurchführung entwickeln"@de ;
+	skos:broader <3.7> ;
+	skos:inScheme <> .
+
+<3.7.1> a skos:Concept ;
+	skos:prefLabel "Qualität und Quantität der benötigten Ressourcen definieren"@de ;
+	skos:broader <3.7> ;
+	skos:inScheme <> .
+
+<3.7.2> a skos:Concept ;
+	skos:prefLabel "Mögliche Ressourcenquellen identifizieren und deren Beschaffung verhandeln"@de ;
+	skos:broader <3.7> ;
+	skos:inScheme <> .
+
+<3.7.3> a skos:Concept ;
+	skos:prefLabel "Ressourcen gemäß Plan zuordnen und verteilen"@de ;
+	skos:broader <3.7> ;
+	skos:inScheme <> .
+
+<3.8> a skos:Concept ;
+	skos:prefLabel "Beschaffung"@de ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.9> a skos:Concept ;
+	skos:prefLabel "Planung und Steuerung"@de ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.10> a skos:Concept ;
+	skos:prefLabel "Chancen und Risiken"@de ;
+	skos:narrower <3.10.0>, <3.10.1>, <3.10.2>, <3.10.3> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.10.0> a skos:Concept ;
+	skos:prefLabel "Risiken und Chancen identifizieren"@de ;
+	skos:broader <3.10> ;
+	skos:inScheme <> .
+
+<3.10.1> a skos:Concept ;
+	skos:prefLabel "Wahrscheinlichkeit und Auswirkung von Risiken und Chancen beurteilen"@de ;
+	skos:broader <3.10> ;
+	skos:inScheme <> .
+
+<3.10.2> a skos:Concept ;
+	skos:prefLabel "Strategien auswählen und Reaktionspläne umsetzen"@de ;
+	skos:broader <3.10> ;
+	skos:inScheme <> .
+
+<3.10.3> a skos:Concept ;
+	skos:prefLabel "Risiken, Chancen und Maßnahmen bewerten und überwachen"@de ;
+	skos:broader <3.10> ;
+	skos:inScheme <> .
+
+<3.11> a skos:Concept ;
+	skos:prefLabel "Stakeholder"@de ;
+	skos:narrower <3.11.0>, <3.11.1>, <3.11.2>, <3.11.3>, <3.11.4> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.11.0> a skos:Concept ;
+	skos:prefLabel "Stakeholder identifizieren und deren Interessen und Einfluss analysieren"@de ;
+	skos:broader <3.11> ;
+	skos:inScheme <> .
+
+<3.11.1> a skos:Concept ;
+	skos:prefLabel "Eine Stakeholder-Strategie und Kommunikationsplan entwickeln und pflegen"@de ;
+	skos:broader <3.11> ;
+	skos:inScheme <> .
+
+<3.11.2> a skos:Concept ;
+	skos:prefLabel "Mit Geschäftsführung, Sponsor und höherem Management zusammenarbeiten, um Commitment zu gewinnen und Erwartungen zu managen"@de ;
+	skos:broader <3.11> ;
+	skos:inScheme <> .
+
+<3.11.3> a skos:Concept ;
+	skos:prefLabel "Mit Anwendern, Partnern, Lieferanten und anderen Stakeholdern zusammenarbeiten, um deren Kooperation und Commitment zu gewinnen"@de ;
+	skos:broader <3.11> ;
+	skos:inScheme <> .
+
+<3.11.4> a skos:Concept ;
+	skos:prefLabel "Netzwerke und Allianzen organisieren und pflegen"@de ;
+	skos:broader <3.11> ;
+	skos:inScheme <> .
+
+<3.12> a skos:Concept ;
+	skos:prefLabel "Change und Transformation"@de ;
+	skos:narrower <3.12.0>, <3.12.1>, <3.12.2>, <3.12.3> ;
+	skos:broader <3> ;
+	skos:inScheme <> .
+
+<3.12.0> a skos:Concept ;
+	skos:prefLabel "Die Anpassungsfähigkeit der Organisation(en) an Veränderungen beurteilen"@de ;
+	skos:broader <3.12> ;
+	skos:inScheme <> .
+
+<3.12.1> a skos:Concept ;
+	skos:prefLabel "Change-Anforderungen und Transformationsmöglichkeiten identifizieren"@de ;
+	skos:broader <3.12> ;
+	skos:inScheme <> .
+
+<3.12.2> a skos:Concept ;
+	skos:prefLabel "Change- oder Transformationsstrategie entwickeln"@de ;
+	skos:broader <3.12> ;
+	skos:inScheme <> .
+
+<3.12.3> a skos:Concept ;
+	skos:prefLabel "Change- oder Transformationsmanagement-Strategie implementieren"@de ;
+	skos:broader <3.12> ;
+	skos:inScheme <> .
