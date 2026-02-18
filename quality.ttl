@@ -11,18 +11,39 @@
     dct:created "2026-02-13"^^xsd:date ;
     dct:modified "2026-02-13"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <findings>, <no_findings> .
+    skos:hasTopConcept <human_findings>, <no_human_findings>, <auto_findings>, <no_auto_findings>, <unchecked> .
 
-<findings> a skos:Concept ;
-    skos:prefLabel "findings detected"@en ;
-    skos:prefLabel "Auffälligkeiten gefunden"@de ;
-    skos:definition "Gibt an, dass Auffälligkeiten oder Verstöße bei einer Compliance-Überprüfung festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen."@de ;
-    skos:definition "Indicates that findings or violations were identified during a compliance check. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."@en ;
+<unchecked> a skos:Concept ;
+    skos:prefLabel "unchecked"@en ;
+    skos:prefLabel "Ungeprüft"@de ;
+    skos:definition "Gibt an, dass die Qualität bisher weder von Menschen noch automatisiert geprüft wurde."@de ;
+    skos:definition "Indicates that the quality has not yet been checked by humans or machines."@en ;
     skos:topConceptOf <> .
 
-<no_findings> a skos:Concept ;
-    skos:prefLabel "no findings detected"@en ;
-    skos:prefLabel "keine Auffälligkeiten gefunden"@de ;
-    skos:definition "Gibt an, dass bei einer Compliance-Überprüfung keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
-    skos:definition "Indicates that no findings or violations were identified during a compliance check. The subject passed the review without detected issues or concerns."@en ;
+<human_findings> a skos:Concept ;
+    skos:prefLabel "findings detected (human)"@en ;
+    skos:prefLabel "Auffälligkeiten gefunden (Mensch)"@de ;
+    skos:definition "Gibt an, dass Auffälligkeiten oder Verstöße bei einer Compliance-Überprüfung durch einen Menschen festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen."@de ;
+    skos:definition "Indicates that findings or violations were identified during a compliance check by a human. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."@en ;
+    skos:topConceptOf <> .
+
+<no_human_findings> a skos:Concept ;
+    skos:prefLabel "no findings detected (human)"@en ;
+    skos:prefLabel "keine Auffälligkeiten gefunden (Mensch)"@de ;
+    skos:definition "Gibt an, dass bei einer Compliance-Überprüfung durch einen Menschen keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
+    skos:definition "Indicates that no findings or violations were identified during a compliance check by a human. The subject passed the review without detected issues or concerns."@en ;
+    skos:topConceptOf <> .
+
+<auto_findings> a skos:Concept ;
+    skos:prefLabel "findings detected (automated)"@en ;
+    skos:prefLabel "Auffälligkeiten gefunden (Maschine)"@de ;
+    skos:definition "Gibt an, dass Auffälligkeiten oder Verstöße bei einer maschinellen Compliance-Überprüfung festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen."@de ;
+    skos:definition "Indicates that findings or violations were identified during an automated compliance check. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."@en ;
+    skos:topConceptOf <> .
+
+<no_auto_findings> a skos:Concept ;
+    skos:prefLabel "no findings detected (automated)"@en ;
+    skos:prefLabel "keine Auffälligkeiten gefunden (Maschine)"@de ;
+    skos:definition "Gibt an, dass bei einer maschinellen Compliance-Überprüfung keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
+    skos:definition "Indicates that no findings or violations were identified during an automated compliance check. The subject passed the review without detected issues or concerns."@en ;
     skos:topConceptOf <> .
