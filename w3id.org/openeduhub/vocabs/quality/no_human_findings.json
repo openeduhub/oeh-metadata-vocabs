@@ -1,13 +1,13 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/quality/findings",
+  "id": "http://w3id.org/openeduhub/vocabs/quality/no_human_findings",
   "type": "Concept",
   "prefLabel": {
-    "de": "Auffälligkeiten gefunden",
-    "en": "findings detected"
+    "de": "keine Auffälligkeiten gefunden (Mensch)",
+    "en": "no findings detected (human)"
   },
   "definition": {
-    "de": "Gibt an, dass Auffälligkeiten oder Verstöße bei einer Compliance-Überprüfung festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen.",
-    "en": "Indicates that findings or violations were identified during a compliance check. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."
+    "de": "Gibt an, dass bei einer Compliance-Überprüfung durch einen Menschen keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden.",
+    "en": "Indicates that no findings or violations were identified during a compliance check by a human. The subject passed the review without detected issues or concerns."
   },
   "inScheme": [
     {
