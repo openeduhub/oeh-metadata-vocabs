@@ -2,6 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Veranstaltungstypen im Bildungskontext"@de ;
@@ -16,6 +17,7 @@
     skos:prefLabel "Knowledge & Competence Development"@en ;
     skos:definition "Veranstaltungen zum Erwerb neuen Wissens, zur Entwicklung praktischer Fertigkeiten und zum Aufbau von Kompetenzen."@de ;
     skos:definition "Events for acquiring new knowledge, developing practical skills and building competencies."@en ;
+    skos:broader ct:event ;
     skos:narrower <basic-knowledge-transfer>, <deepening-specialization>, <practical-application>, <research-innovation> .
 
 <basic-knowledge-transfer> a skos:Concept ;
@@ -251,6 +253,7 @@
     skos:prefLabel "Information & Orientation"@en ;
     skos:definition "Veranstaltungen zur Informationsbeschaffung, Orientierungshilfe und Entscheidungsunterstützung."@de ;
     skos:definition "Events for information gathering, orientation assistance and decision support."@en ;
+    skos:broader ct:event ;
     skos:narrower <overview-introduction>, <counseling-decision-support>, <market-overview-offerings> .
 
 <overview-introduction> a skos:Concept ;
@@ -413,6 +416,7 @@
     skos:prefLabel "Exchange & Networking"@en ;
     skos:definition "Veranstaltungen zum fachlichen Gedankenaustausch, zur Diskussion und zum Aufbau professioneller Netzwerke."@de ;
     skos:definition "Events for professional exchange of ideas, discussion and building professional networks."@en ;
+    skos:broader ct:event ;
     skos:narrower <professional-exchange>, <peer-learning-collaboration>, <professional-networking> .
 
 <professional-exchange> a skos:Concept ;
@@ -615,6 +619,7 @@
     skos:prefLabel "Performance & Assessment"@en ;
     skos:definition "Veranstaltungen zur Demonstration und Bewertung von Kompetenzen, Wissen und Leistungen."@de ;
     skos:definition "Events for demonstrating and evaluating competencies, knowledge and performance."@en ;
+    skos:broader ct:event ;
     skos:narrower <formal-examination-certification>, <presentation-demonstration>, <competition-performance-comparison> .
 
 <formal-examination-certification> a skos:Concept ;
@@ -793,6 +798,7 @@
     skos:prefLabel "Community & Belonging"@en ;
     skos:definition "Veranstaltungen zur Stärkung des Gemeinschaftsgefühls, sozialen Integration und Identitätsbildung."@de ;
     skos:definition "Events for strengthening community feeling, social integration and identity formation."@en ;
+    skos:broader ct:event ;
     skos:narrower <ceremonial-occasions>, <integration-welcome>, <tradition-community> .
 
 <ceremonial-occasions> a skos:Concept ;
