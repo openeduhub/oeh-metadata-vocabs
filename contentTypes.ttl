@@ -7,6 +7,7 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix lrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
 @prefix et: <http://w3id.org/openeduhub/vocabs/eventType/> .
+@prefix lt: <http://w3id.org/openeduhub/vocabs/locationType/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Inhaltetypen"@de ;
@@ -37,6 +38,9 @@
     gndo:gndIdentifier "4043774-7" ;
     skos:exactMatch gnd:4043774-7 ;
     skos:exactMatch wd:Q43229 ;
+    skos:narrower
+        lt:B9908ee6-9b97-4b88-bc6e-abb17b47b61f,
+        lt:bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe ;
     skos:topConceptOf <> .
 
 <event> a skos:Concept ;
