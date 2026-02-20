@@ -2,6 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Bildungsangebote - Typen und Formate"@de ;
@@ -16,6 +17,7 @@
     skos:prefLabel "Educational Program"@en ;
     skos:definition "Mehrjährige, strukturierte Programme mit staatlich anerkanntem Abschluss."@de ;
     skos:definition "Multi-year, structured programs with state-recognized qualifications."@en ;
+    skos:broader ct:education_offer ;
     skos:narrower <school-program>, <vocational-program>, <degree-program> .
 
 <school-program> a skos:Concept ;
@@ -146,6 +148,7 @@
     skos:prefLabel "Education Program"@en ;
     skos:definition "Strukturierte, meist mehrmonatige Programme mit anerkanntem Zertifikat."@de ;
     skos:definition "Structured, usually multi-month programs with recognized certificates."@en ;
+    skos:broader ct:education_offer ;
     skos:narrower <continuing-education>, <course-series>, <rehabilitation-program> .
 
 <continuing-education> a skos:Concept ;
@@ -244,6 +247,7 @@
     skos:prefLabel "Individual Offering"@en ;
     skos:definition "Spezifische, meist kürzere Bildungsaktivitäten zu konkreten Themen."@de ;
     skos:definition "Specific, usually shorter educational activities on concrete topics."@en ;
+    skos:broader ct:education_offer ;
     skos:narrower <course-seminar>, <workshop-training>, <license-qualification> .
 
 <course-seminar> a skos:Concept ;
@@ -374,6 +378,7 @@
     skos:prefLabel "Supplementary Offering"@en ;
     skos:definition "Unterstützende und flexible Bildungsformate zur Ergänzung regulärer Bildungswege."@de ;
     skos:definition "Supporting and flexible educational formats to complement regular educational pathways."@en ;
+    skos:broader ct:education_offer ;
     skos:narrower <tutoring-support>, <counseling-coaching>, <self-learning> .
 
 <tutoring-support> a skos:Concept ;
@@ -480,6 +485,7 @@
     skos:prefLabel "Youth Education"@en ;
     skos:definition "Bildungsangebote für Minderjährige außerhalb der regulären Schulpflicht zur Förderung und Entwicklung."@de ;
     skos:definition "Educational offerings for minors outside regular compulsory schooling for support and development."@en ;
+    skos:broader ct:education_offer ;
     skos:narrower <early-childhood-offering>, <extracurricular-offering>, <supplementary-school-education>, <youth-organization> .
 
 <early-childhood-offering> a skos:Concept ;

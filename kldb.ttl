@@ -2,6 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
 	dct:title "Klassifikation der Berufe - KldB 4-stellig (vollständig)"@de ;
@@ -14,59 +15,69 @@
 <0> a skos:Concept ;
 	skos:prefLabel "Militär"@de ;
 	skos:narrower <01> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <1> a skos:Concept ;
 	skos:prefLabel "Land-, Forst-, Tierwirtschaft, Gartenbau"@de ;
 	skos:altLabel "Land-, Forst- und Tierwirtschaft und Gartenbau"@de ;
 	skos:narrower <11>, <12> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <2> a skos:Concept ;
 	skos:prefLabel "Rohstoffgewinnung, Produktion, Fertigung"@de ;
 	skos:altLabel "Rohstoffgewinnung, Produktion und Fertigung"@de ;
 	skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28>, <29> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <3> a skos:Concept ;
 	skos:prefLabel "Bau,Architektur,Vermessung,Gebäudetechn."@de ;
 	skos:altLabel "Bau, Architektur, Vermessung und Gebäudetechnik"@de ;
 	skos:narrower <31>, <32>, <33>, <34> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <4> a skos:Concept ;
 	skos:prefLabel "Naturwissenschaft, Geografie, Informatik"@de ;
 	skos:altLabel "Naturwissenschaft, Geografie und Informatik"@de ;
 	skos:narrower <41>, <42>, <43> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <5> a skos:Concept ;
 	skos:prefLabel "Verkehr, Logistik, Schutz und Sicherheit"@de ;
 	skos:narrower <51>, <52>, <53>, <54> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <6> a skos:Concept ;
 	skos:prefLabel "Kaufm.Dienstl.,Handel,Vertrieb,Tourismus"@de ;
 	skos:altLabel "Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus"@de ;
 	skos:narrower <61>, <62>, <63> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <7> a skos:Concept ;
 	skos:prefLabel "Unternehmensorga,Buchhalt,Recht,Verwalt."@de ;
 	skos:altLabel "Unternehmensorganisation, Buchhaltung, Recht und Verwaltung"@de ;
 	skos:narrower <71>, <72>, <73> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <8> a skos:Concept ;
 	skos:prefLabel "Gesundheit, Soziales, Lehre u. Erziehung"@de ;
 	skos:altLabel "Gesundheit, Soziales, Lehre und Erziehung"@de ;
 	skos:narrower <81>, <82>, <83>, <84> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 <9> a skos:Concept ;
 	skos:prefLabel "Geisteswissenschaften, Kultur,Gestaltung"@de ;
 	skos:altLabel "Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung"@de ;
 	skos:narrower <91>, <92>, <93>, <94> ;
+	skos:broader ct:profession ;
 	skos:topConceptOf <> .
 
 

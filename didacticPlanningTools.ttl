@@ -2,6 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Didaktische Planungsinstrumente für Openeduhub"@de ;
@@ -14,6 +15,7 @@
     skos:altLabel "Unterrichtsmethoden"@de ;
     skos:definition "Unterrichtsmethoden & Vorgehensweisen (Wie mache ich es? ) - Konkrete methodische Verfahren und Techniken für den Unterricht"@de ;
     skos:narrower <11>, <12>, <13>, <14>, <15>, <16>, <17>, <18>, <19>, <110>, <111>, <112>, <113> ;
+    skos:broader ct:didactic_concepts ;
     skos:topConceptOf <> .
 
 <2> a skos:Concept ;
@@ -21,6 +23,7 @@
     skos:altLabel "Gestaltungsprobleme & -familien"@de ;
     skos:definition "Unterrichts- und Gestaltungsmuster (Warum/wann wirkt es? ) - Bewährte Lösungsansätze für wiederkehrende didaktische Herausforderungen"@de ;
     skos:narrower <21>, <22>, <23>, <24>, <25>, <26>, <27>, <28> ;
+    skos:broader ct:didactic_concepts ;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
@@ -28,6 +31,7 @@
     skos:altLabel "Ablauf- & Sequenzgerüste"@de ;
     skos:definition "Ablauf- und Sequenzmodelle (Das Skelett zum Ausfüllen) - Strukturierte Rahmen für die zeitliche und inhaltliche Organisation von Lernprozessen"@de ;
     skos:narrower <31>, <32>, <33>, <34>, <35>, <36>, <37>, <38>, <39>, <310>, <311> ;
+    skos:broader ct:didactic_concepts ;
     skos:topConceptOf <> .
 
 <4> a skos:Concept ;
@@ -37,6 +41,7 @@
     skos:altLabel "Lesson Plans"@en ;
     skos:definition "Ausgearbeitete Pläne, Bausteine & Entwürfe (Fertig zum Einsatz) - Vollständig ausgearbeitete Unterrichtsmaterialien und -pläne für den direkten Einsatz"@de ;
     skos:narrower <41>, <42>, <43>, <44> ;
+    skos:broader ct:didactic_concepts ;
     skos:topConceptOf <> .
 
 <11> a skos:Concept ;
