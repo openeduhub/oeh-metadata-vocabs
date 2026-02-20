@@ -8,6 +8,9 @@
 @prefix agg: <http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/> .
 @prefix elm: <http://data.europa.eu/snb/learning-opportunity/> .
 @prefix lom: <http://w3id.org/openeduhub/vocabs/lom_learning_resource_type/> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
+@prefix et: <http://w3id.org/openeduhub/vocabs/eventType/> .
+@prefix dpt: <http://w3id.org/openeduhub/vocabs/didacticPlanningTools/> .
 
 <01551356-a6a3-44fc-9662-7d366d7af0ac> a skos:Concept ;
     skos:broader <0cef3ce9-e106-47ae-836a-48f9ed04384e> ;
@@ -45,6 +48,7 @@
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:11-4 ;
     skos:prefLabel "Icebreaker"@de .
 
 <0877626e-0cce-481a-b0ed-c64988ed5989> a skos:Concept ;
@@ -348,6 +352,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:11-1 ;
     skos:prefLabel "Energizer und Auflockerungsübung"@de .
 
 <44439cda-f3a8-4603-937b-71be3a64cfa4> a skos:Concept ;
@@ -521,6 +526,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:closeMatch lrt:exploration ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:32 ;
     skos:prefLabel "Entdeckendes Lernen"@de .
 
 <58bb5be8-301d-488d-a0b1-b74ac9435209> a skos:Concept ;
@@ -535,6 +541,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:23-4 ;
     skos:prefLabel "Gruppenarbeit"@de .
 
 <5ab897b3-76f4-46f3-8f08-1256629fdc4c> a skos:Concept ;
@@ -689,6 +696,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:broader <477115fd-5042-4174-ac39-7c05f8a24766> ;
     skos:inScheme <> ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:113-2 ;
     skos:prefLabel "Stationenlernen"@de .
 
 <776652a6-de35-4d2f-817e-6130dd2fa248> a skos:Concept ;
@@ -1030,6 +1038,7 @@ Beispiele:, Motivbild, Muster, Ornament, Icon, Muster"""@de ;
     skos:inScheme <> ;
     skos:closeMatch lrt:role_play ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:exactMatch dpt:41-3 ;
     skos:prefLabel "Rollenspiel"@de .
 
 <ac0ad1e8-d1a2-42f2-961e-5aa9b8157fa5> a skos:Concept ;
@@ -1464,12 +1473,14 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
     skos:inScheme <> ;
     skos:closeMatch lrt:experiment ;
     skos:broadMatch agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
+    skos:closeMatch dpt:41-6 ;
     skos:prefLabel "Experiment"@de .
 
 <ffff857b-e450-49b2-882b-5820bada2a42> a skos:Concept ;
     skos:broader <955590ae-5f06-4513-98e9-91dfa8d5a05e> ;
     skos:inScheme <> ;
     skos:broadMatch agg:b06c5816-60c7-4f1b-bcd7-95d70aaa4740 ;
+    skos:exactMatch et:professional-conference ;
     skos:prefLabel "Fachtagung"@de .
 
 <68a43516-889e-4ce9-8e03-248307bd99ff> a skos:Concept ;
@@ -1491,6 +1502,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         agg:101c0c66-5202-4eba-9ebf-79f4903752b9 ;
     skos:relatedMatch elm:8b965da2d4 ;
     skos:prefLabel "Methode"@de ;
+    skos:exactMatch ct:didactic_concepts ;
     skos:topConceptOf <> .
 
 <4277f19c-35ce-45c6-bb95-0463a6f4526b> a skos:Concept ;
@@ -1619,6 +1631,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         agg:6b6786df-9ce9-44bf-8a04-caebd4456fcf ;
     skos:relatedMatch elm:79343569f3 ;
     skos:prefLabel "Bildungsangebot"@de ;
+    skos:exactMatch ct:education_offer ;
     skos:topConceptOf <> .
 
 <213ed49d-f4b2-49b6-8a32-7e9261901ec5> a skos:Concept ;
@@ -1642,6 +1655,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <e9dc6f6b-5e9d-44da-8701-74212b75eb31>,
         <ffff857b-e450-49b2-882b-5820bada2a42> ;
     skos:exactMatch widgets:events ;
+    skos:exactMatch ct:event ;
     skos:relatedMatch agg:b06c5816-60c7-4f1b-bcd7-95d70aaa4740 ;
     skos:prefLabel "Termin, Event und Veranstaltung"@de ;
     skos:topConceptOf <> .
@@ -1716,7 +1730,8 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <fd0b97e1-25ba-4477-b769-b41e9623cf65> ;
     skos:prefLabel "Tool"@de ;
     skos:exactMatch lrt:application,
-        lrt:tool ;
+        lrt:tool,
+        ct:tool_service ;
     skos:relatedMatch sct:005,
         widgets:tools,
         agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
@@ -1840,6 +1855,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         <cd625d33-5d7b-4a86-a54a-9a897ded729f>,
         <ec2682af-08a9-4ab1-a324-9dca5151e99f> ;
     skos:exactMatch: widgets:materialien ;
+    skos:exactMatch: ct:learning_material ;
     skos:prefLabel "Material"@de ;
     skos:topConceptOf <> .
 
@@ -1864,6 +1880,7 @@ Beispiele: geographische Karte, Wissenslandkarte"""@de ;
         sct:010,
         agg:2e678af3-1026-4171-b88e-3b3a915d1673 ;
     skos:prefLabel "Quelle"@de ;
+    skos:exactMatch ct:source ;
     skos:topConceptOf <> .
 
 <0cef3ce9-e106-47ae-836a-48f9ed04384e> a skos:Concept ;

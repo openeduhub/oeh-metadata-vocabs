@@ -5,7 +5,6 @@
 @prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix gnd: <https://d-nb.info/gnd/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix lrt: <http://w3id.org/openeduhub/vocabs/new_lrt/> .
 @prefix et: <http://w3id.org/openeduhub/vocabs/eventType/> .
 @prefix lt: <http://w3id.org/openeduhub/vocabs/locationType/> .
 
@@ -48,7 +47,6 @@
     gndo:gndIdentifier "4125453-3" ;
     skos:exactMatch gnd:4125453-3 ;
     skos:exactMatch wd:Q1656682 ;
-    skos:exactMatch lrt:955590ae-5f06-4513-98e9-91dfa8d5a05e ;
     skos:topConceptOf <> .
 
 <education_offer> a skos:Concept ;
@@ -58,7 +56,6 @@
     skos:definition "A structured educational path within an education system that prepares students for a specific qualification. This includes structured educational programs such as school education, vocational training, and university courses, as well as individual educational offerings such as workshops, seminars, and courses."@en ;
     gndo:gndIdentifier "4121028-1" ;
     skos:exactMatch gnd:4121028-1 ;
-    skos:exactMatch lrt:03ab835b-c39c-48d1-b5af-7611de2f6464 ;
     skos:topConceptOf <> .
 
 <learning_material> a skos:Concept ;
@@ -66,7 +63,6 @@
     skos:prefLabel "Bildungsmaterial"@de ;
     skos:definition "Physische und digitale Informations- und Bildungsmaterialien."@de ;
     skos:definition "Physical and digital information and educational materials."@en ;
-    skos:closeMatch lrt:1846d876-d8fd-476a-b540-b8ffd713fedb ;
     skos:topConceptOf <> .
 
 <source> a skos:Concept ;
@@ -74,7 +70,6 @@
     skos:prefLabel "Quelle"@de ;
     skos:definition "Eine Quelle ist ein Angebot eines Anbieters mehrerer fachbezogener Inhalte, für die der Anbieter ein bestimmtes Renommee hat (z.B. ein Youtube-Kanal)."@de ;
     skos:definition "A source is an offering from a provider of multiple specialized content for which the provider has a certain reputation (e.g., a YouTube channel)."@en ;
-    skos:exactMatch lrt:3869b453-d3c1-4b34-8f25-9127e9d68766 ;
     skos:topConceptOf <> .
 
 <tool_service> a skos:Concept ;
@@ -83,7 +78,6 @@
     skos:definition "Umfasst Lernwerkzeuge, Plattformen und Dienstleistungen, die Lehr- und Lernprozesse unterstützen. Charakteristisch für diese Ressourcen ist, dass sie nicht den eigentlichen Lerninhalt darstellen, sondern als unterstützende Mittel zur Bereitstellung, Verwaltung oder Verbesserung von Bildungsangeboten dienen."@de ;
     skos:definition "Includes learning tools, platforms, and services that support teaching and learning processes. These resources are characterized by the fact that they do not represent the actual learning content, but rather serve as supporting tools for providing, managing, or improving educational offerings."@en ;
     skos:closeMatch gnd:4354267-0 ;
-    skos:closeMatch lrt:cefccf75-cba3-427d-9a0f-35b4fedcbba1 ;
     skos:topConceptOf <> .
 
 <didactic_concepts> a skos:Concept ;
@@ -91,7 +85,6 @@
     skos:prefLabel "Didaktische Konzepte"@de ;
     skos:definition "Systematische und theoretisch fundierte Ansätze zur Planung, Durchführung und Evaluation von Lehr-Lern-Prozessen."@de ;
     skos:definition "Systematic and theoretically sound approaches to planning, implementing, and evaluating teaching and learning processes."@en ;
-    skos:exactMatch lrt:0a79a1d0-583b-47ce-86a7-517ab352d796 ;
     skos:topConceptOf <> .
 
 <ai_prompt> a skos:Concept ;
