@@ -1,0 +1,38 @@
+@base <http://w3id.org/openeduhub/vocabs/accessibility/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Barrierefreiheit"@de ;
+    dct:title "Accessibility"@en ;
+    dct:description "Stufen der Barrierefreiheits-Checks"@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-02-27"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <unchecked>, <barriers_detected>, <limited_accessibility>, <manually_reviewed>, <fully_accessible> .
+
+<unchecked> a skos:Concept ;
+    skos:prefLabel "Nicht geprüft"@de ;
+    skos:prefLabel "Not tested"@en ;
+    skos:topConceptOf <> .
+
+<barriers_detected> a skos:Concept ;
+    skos:prefLabel "Barrieren bekannt"@de ;
+    skos:prefLabel "Barriers detected"@en ;
+    skos:topConceptOf <> .
+
+<limited_accessibility> a skos:Concept ;
+    skos:prefLabel "Eingeschränkt nutzbar"@de ;
+    skos:prefLabel "Limited accessibility"@en ;
+    skos:topConceptOf <> .
+
+<manually_reviewed> a skos:Concept ;
+    skos:prefLabel "Menschlich geprüft"@de ;
+    skos:prefLabel "Manually reviewed"@en ;
+    skos:topConceptOf <> .
+
+<fully_accessible> a skos:Concept ;
+    skos:prefLabel "Vollständig barrierefrei"@de ;
+    skos:prefLabel "Fully accessible"@en ;
+    skos:topConceptOf <> .
