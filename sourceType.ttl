@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Art der Quelle"@de ;
@@ -16,34 +17,41 @@
 <collection> a skos:Concept ;
     skos:definition "Webseite mit einer Sammlung bzw. Zusammenstellung von diversen Materialien zu einem Thema/Fachgebiet oder mit Inhalten und Materialien eines spezifischen Formates (z.B. YouTube-Videos auf einem YouTube-Kanal, Podcast-Folgen eines Podcasts) ohne wesentliche inhaltliche Rahmung"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Kollektion, Sammlung oder Kanal"@de .
 
 <portal> a skos:Concept ;
     skos:definition "Eine Webseite, die zu einem Thema im Sachzusammenhang informiert und passende Inhalte (z.B. Arbeitsblätter, Erklärvideos, Grafiken, etc.) dafür bereitstellt"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Portal"@de .
 
 <stream> a skos:Concept ;
     skos:definition "Ein Strom von Inhalten, auf denen zu einem Thema oder einem Inhaltetyp stetig neue Inhalte versendet / angeboten werden"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Stream, Podcast, RSS"@de .
 
 <encyclopaedia> a skos:Concept ;
     skos:definition "Lexika oder Enzyklopädien, die Erklärungen zu Begriffen bereitstellen (z. B.: Wikipedia, Klexikon, …)"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Lexikon, Enzyklopädie, Wiki"@de .
 
 <database> a skos:Concept ;
     skos:definition "Eine Quelle, in der Daten(sätze) verwaltet / angeboten werden, z.B.: Forschungsdaten, OpenData"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Datenbank"@de .
 
 <blog> a skos:Concept ;
     skos:definition "Webblog, der mehrere Artikel (Blogbeiträge) bereitstellt"@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Blog"@de .
 
 <other> a skos:Concept ;
     skos:definition "Eine Quelle, die nicht zu einem der anderen Typen passt."@de ;
     skos:inScheme <> ;
+    skos:broader ct:source ;
     skos:prefLabel "Sonstige Quelle"@de .
