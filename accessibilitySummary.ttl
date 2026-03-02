@@ -5,8 +5,8 @@
 @prefix acc: <http://w3id.org/openeduhub/vocabs/accessibility/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Barrierefreiheit"@de ;
-    dct:title "Accessibility"@en ;
+    dct:title "Stufen der Barrierefreiheit"@de ;
+    dct:title "Levels of Accessibility"@en ;
     dct:description "Accessibility features of an item."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-11-16"^^xsd:date ;

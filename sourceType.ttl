@@ -5,8 +5,8 @@
 @prefix ct: <http://w3id.org/openeduhub/vocabs/contentTypes/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Art der Quelle"@de ;
-    dct:title "Source Content Type"@en ;
+    dct:title "Quellenart"@de ;
+    dct:title "Type of Source"@en ;
     dct:description "Source Content Type."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2020-04-08"^^xsd:date ;
