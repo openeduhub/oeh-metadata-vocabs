@@ -1,0 +1,516 @@
+@base <http://w3id.org/openeduhub/vocabs/toolType/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix widgets: <http://w3id.org/openeduhub/vocabs/widgets/> .
+@prefix agg: <http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/> .
+@prefix elm: <http://data.europa.eu/snb/learning-opportunity/> .
+@prefix lom: <http://w3id.org/openeduhub/vocabs/lom_learning_resource_type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    skos:title "Arten von Werkzeugen"@de ;
+    skos:description "Zweck (Editieren, Voten, Lehren, Lernen)"@de ;
+    dct:created "2026-03-02"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <collaboration>,
+        <presentation>,
+        <contentManagement>,
+        <editors>,
+        <learning>,
+        <classroomManagement>,
+        <communication> .
+
+<presentation> a skos:Concept ;
+    skos:narrower <presentationSoftware>,
+        <visualizationSoftware> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Präsentation (Tool)"@de ;
+    skos:topConceptOf <> .
+
+<presentationSoftware> a skos:Concept ;
+    skos:broader <presentation> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Präsentations-Software"@de .
+
+<visualizationSoftware> a skos:Concept ;
+    skos:broader <presentation> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Visualisierungs-Software"@de .
+
+<collaboration> a skos:Concept ;
+    skos:narrower <conceptBoard>,
+        <mindmap>,
+        <fileSharing>,
+        <collaborativeEditing> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kooperation, Kollaboration und Kreatives"@de ;
+    skos:topConceptOf <> .
+
+<conceptBoard> a skos:Concept ;
+    skos:broader <collaboration> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Interaktives Concept Board"@de .
+
+<mindmap> a skos:Concept ;
+    skos:broader <collaboration> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Mindmap"@de .
+
+<fileSharing> a skos:Concept ;
+    skos:broader <collaboration> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "File-Sharing"@de .
+
+<collaborativeEditing> a skos:Concept ;
+    skos:broader <collaboration> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kollaboratives Editieren, Gestalten und Sammeln"@de .
+
+<editors> a skos:Concept ;
+    skos:narrower <mediaEditor>,
+        <formatEditor>,
+        <officeEditor>,
+        <contentEditor> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:exactMatch widgets:editors ;
+    skos:prefLabel "Editoren"@de ;
+    skos:topConceptOf <> .
+
+<officeEditor> a skos:Concept ;
+    skos:broader <editors> ;
+    skos:inScheme <> ;
+    skos:narrower <slideEditor>,
+        <spreadsheet>,
+        <textEditor> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Editor Officedateiformate"@de .
+
+<slideEditor> a skos:Concept ;
+    skos:broader <officeEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Folieneditor"@de .
+
+<spreadsheet> a skos:Concept ;
+    skos:broader <officeEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Tabellenkalkulation"@de .
+
+<textEditor> a skos:Concept ;
+    skos:broader <officeEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Texteditor"@de .
+
+<contentEditor> a skos:Concept ;
+    skos:broader <editors> ;
+    skos:inScheme <> ;
+    skos:narrower <assessmentEditor>,
+        <surveyEditor>,
+        <lessonPlanEditor>,
+        <quizEditor>,
+        <courseEditor>,
+        <scenarioEditor> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Bildungsinhalte-Formate (Editor)"@de .
+
+<assessmentEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "E-Prüfungs-Editor (z.B. QTI-Editor)"@de .
+
+<surveyEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Umfragen, Evaluationen (Editor für)"@de .
+
+<lessonPlanEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kompetenz-, Lehrplan- und Lernzieleditor"@de .
+
+<quizEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Quiz-, Voting- und Selbsttest-Editor"@de .
+
+<courseEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:definition "z.B. Moodle"@de ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kurseditor und Lernplattform"@de .
+
+<scenarioEditor> a skos:Concept ;
+    skos:broader <contentEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Lernabläufe und Lernszenarien (z.B. H5P)"@de .
+
+<formatEditor> a skos:Concept ;
+    skos:broader <editors> ;
+    skos:inScheme <> ;
+    skos:narrower <mapEditor>,
+        <conceptMapEditor>,
+        <websiteEditor>,
+        <mindmapEditor>,
+        <formulaEditor>,
+        <markupEditor>,
+        <musicEditor> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "für weitere Formate"@de .
+
+<mapEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Landkarten Editor (geographisch)"@de .
+
+<conceptMapEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Concept Map Editor und Wissenslandkarten"@de .
+
+<websiteEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Webseiten-Editor, Web CMS"@de .
+
+<mindmapEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Mindmap-Editor"@de .
+
+<formulaEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Formeleditor"@de .
+
+<markupEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Markdown- oder HTML-Editor"@de .
+
+<musicEditor> a skos:Concept ;
+    skos:broader <formatEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Noteneditor (Musikeditor)"@de .
+
+<mediaEditor> a skos:Concept ;
+    skos:broader <editors> ;
+    skos:inScheme <> ;
+    skos:narrower <simulator>,
+        <audioEditor>,
+        <animator>,
+        <imageEditor>,
+        <vectorEditor>,
+        <arEditor>,
+        <videoEditor>,
+        <interactiveEditor>,
+        <vrEditor> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Medienbearbeitung"@de .
+
+<simulator> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Simulationen (Editor für)"@de .
+
+<audioEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Audio-Editor (Tonschnitt-Software, Ton-Editor, Musik-Editor)"@de .
+
+<animator> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Animationen (Editor für)"@de .
+
+<imageEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Fotos und Rastergrafiken (Editor für)"@de .
+
+<vectorEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Vektorgrafiken (Editor für)"@de .
+
+<arEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Augmented Reality Editor"@de .
+
+<videoEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Video-Editor (Videoschnitt)"@de .
+
+<interactiveEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "interaktive Medien, Mixed Media z.B. H5P"@de .
+
+<vrEditor> a skos:Concept ;
+    skos:broader <mediaEditor> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Virtual Reality Editor"@de .
+
+<classroomManagement> a skos:Concept ;
+    skos:narrower <calendar>,
+        <classApp>,
+        <learningPlatform>,
+        <scheduleSoftware>,
+        <adminSoftware> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Unterrichtsorganisation und Verwaltung Bildungsorganisation"@de ;
+    skos:topConceptOf <> .
+
+<calendar> a skos:Concept ;
+    skos:broader <classroomManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kalender"@de .
+
+<classApp> a skos:Concept ;
+    skos:broader <classroomManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Klassenverwaltungs-App"@de .
+
+<learningPlatform> a skos:Concept ;
+    skos:broader <classroomManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:relatedMatch widgets:platform ;
+    skos:prefLabel "Lernplattform und Kursorganisation"@de .
+
+<scheduleSoftware> a skos:Concept ;
+    skos:broader <classroomManagement> ;
+    skos:definition "Vorlesungs-/Veranstaltungsverzeichnis,"@de ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Stundenplan-Software"@de .
+
+<adminSoftware> a skos:Concept ;
+    skos:broader <classroomManagement> ;
+    skos:definition "Einschreibung Bildungsgänge, Nutzerdaten-Verwaltung, Prüfungsverwaltung, etc."@de ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Bildungsverwaltungssoftware"@de .
+
+<contentManagement> a skos:Concept ;
+    skos:narrower <webCMS>,
+        <searchEngine>,
+        <mediaManager>,
+        <fileStorage>,
+        <repository>,
+        <reference>,
+        <database> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Inhalteverwaltung, Suche"@de ;
+    skos:topConceptOf <> .
+
+<webCMS> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Web-Content-Managment"@de .
+
+<searchEngine> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Suchmaschine"@de .
+
+<mediaManager> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Medien-Management"@de .
+
+<fileStorage> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Dateiablage"@de .
+
+<repository> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:definition "Software in der Bildungsinhalte verwaltet werden, entweder als Referatorium wo nur Metadaten und Links zum Inhalt redaktionell gepflegt werden, oder als Repositorium wo zusätzlich die Dokumente selbst gespeichert sind"@de ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Lerninhalte-Management, Repositorien und Referatorien"@de .
+
+<reference> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch lom:index,
+        agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:relatedMatch widgets:dictionaries ;
+    skos:prefLabel "Nachschlagewerk"@de .
+
+<database> a skos:Concept ;
+    skos:broader <contentManagement> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Datenbank-System"@de .
+
+<communication> a skos:Concept ;
+    skos:narrower <messenger>,
+        <forum>,
+        <poll>,
+        <debatePlatform>,
+        <surveyPlatform>,
+        <videoCall>,
+        <email>,
+        <audioCall> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Kommunikation und Feedback"@de ;
+    skos:topConceptOf <> .
+
+<messenger> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Messenger"@de .
+
+<forum> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Diskussionsforen"@de .
+
+<poll> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Live-Umfrage"@de .
+
+<debatePlatform> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:definition "Tools oder Plattformen für strukturierte Diskussionen, Pro- und Contra-Listen, Argumentationsketten"@de ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Argumentation, Plattformen für strukturierte Diskussion"@de .
+
+<surveyPlatform> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Umfrage und Evaluations-Plattform"@de .
+
+<videoCall> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Videokonferenzen"@de .
+
+<email> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Mail"@de .
+
+<audioCall> a skos:Concept ;
+    skos:broader <communication> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Audiokonferenz"@de .
+
+<learning> a skos:Concept ;
+    skos:narrower <portfolio>,
+        <mathTool>,
+        <quiz>,
+        <assessmentTools>,
+        <assessmentSoftware>,
+        <gameEnvironment>,
+        <vocabTrainer>,
+        <learningApp>,
+        <languageTool> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Lernen, Quiz und Spiel"@de ;
+    skos:topConceptOf <> .
+
+<portfolio> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "E-Portfolio, Personal Learning Environment (PLE)"@de .
+
+<mathTool> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Mathematik-Tool"@de .
+
+<quiz> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Quiz"@de .
+
+<assessmentTools> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "E-Tests und Selbsttest-Tools"@de .
+
+<assessmentSoftware> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "E-Prüfungs-Software"@de .
+
+<gameEnvironment> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:relatedMatch: widgets:educational_games ;
+    skos:prefLabel "Lernspiel-Umgebung"@de .
+
+<vocabTrainer> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Vokabel-Trainer und Karteikarten-Lernen"@de .
+
+<learningApp> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:relatedMatch widgets:methodical_tools,
+        widgets:learning_tools ;
+    skos:prefLabel "Lern-App"@de .
+
+<languageTool> a skos:Concept ;
+    skos:broader <learning> ;
+    skos:inScheme <> ;
+    skos:broadMatch agg:37a3ad9c-727f-4b74-bbab-27d59015c695 ;
+    skos:prefLabel "Sprachlern-Tool und -App"@de .
