@@ -9,9 +9,9 @@
 @prefix lt: <http://w3id.org/openeduhub/vocabs/locationType/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Inhaltetypen"@de ;
+    dct:title "Inhaltearten"@de ;
     dct:title "Content types"@en ;
-    dct:description "Alle im OpenEduHub verwaltbaren Inhaltetypen."@de ;
+    dct:description "Alle im OpenEduHub verwaltbaren Inhaltearten."@de ;
     dct:description "All content types that can be managed in OpenEduHub."@en ;
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2026-02-19"^^xsd:date ;
