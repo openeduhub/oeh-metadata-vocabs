@@ -28,8 +28,7 @@
     gndo:gndIdentifier "4134819-9" ;
     skos:exactMatch gnd:4134819-9 ;
     skos:exactMatch wd:Q215627 ;
-    oeh:iconName "person" ;
-    skos:scopeNote "icon:person"^^xsd:string ;
+    skos:notation "person"^^xsd:string ;
     skos:topConceptOf <> .
 
 <organization> a skos:Concept ;
@@ -40,8 +39,7 @@
     gndo:gndIdentifier "4043774-7" ;
     skos:exactMatch gnd:4043774-7 ;
     skos:exactMatch wd:Q43229 ;
-    oeh:iconName "domain" ;
-    skos:scopeNote "icon:domain"^^xsd:string ;
+    skos:notation "domain"^^xsd:string ;
     skos:topConceptOf <> .
 
 <event> a skos:Concept ;
@@ -52,8 +50,7 @@
     gndo:gndIdentifier "4125453-3" ;
     skos:exactMatch gnd:4125453-3 ;
     skos:exactMatch wd:Q1656682 ;
-    oeh:iconName "calendar_month" ;
-    skos:scopeNote "icon:calendar_month"^^xsd:string ;
+    skos:notation "calendar_month"^^xsd:string ;
     skos:topConceptOf <> .
 
 <education_offer> a skos:Concept ;
@@ -63,8 +60,7 @@
     skos:definition "A structured educational path within an education system that prepares students for a specific qualification. This includes structured educational programs such as school education, vocational training, and university courses, as well as individual educational offerings such as workshops, seminars, and courses."@en ;
     gndo:gndIdentifier "4121028-1" ;
     skos:exactMatch gnd:4121028-1 ;
-    oeh:iconName "local_library" ;
-    skos:scopeNote "icon:local_library"^^xsd:string ;
+    skos:notation "local_library"^^xsd:string ;
     skos:topConceptOf <> .
 
 <learning_material> a skos:Concept ;
@@ -79,8 +75,7 @@
     skos:prefLabel "Quelle"@de ;
     skos:definition "Eine Quelle ist ein Angebot eines Anbieters mehrerer fachbezogener Inhalte, für die der Anbieter ein bestimmtes Renommee hat (z.B. ein Youtube-Kanal)."@de ;
     skos:definition "A source is an offering from a provider of multiple specialized content for which the provider has a certain reputation (e.g., a YouTube channel)."@en ;
-    oeh:iconName "language" ;
-    skos:scopeNote "icon:language"^^xsd:string ;
+    skos:notation "language"^^xsd:string ;
     skos:topConceptOf <> .
 
 <tool_service> a skos:Concept ;
@@ -89,8 +84,7 @@
     skos:definition "Umfasst Lernwerkzeuge, Plattformen und Dienstleistungen, die Lehr- und Lernprozesse unterstützen. Charakteristisch für diese Ressourcen ist, dass sie nicht den eigentlichen Lerninhalt darstellen, sondern als unterstützende Mittel zur Bereitstellung, Verwaltung oder Verbesserung von Bildungsangeboten dienen."@de ;
     skos:definition "Includes learning tools, platforms, and services that support teaching and learning processes. These resources are characterized by the fact that they do not represent the actual learning content, but rather serve as supporting tools for providing, managing, or improving educational offerings."@en ;
     skos:closeMatch gnd:4354267-0 ;
-    oeh:iconName "deployed_code" ;
-    skos:scopeNote "icon:deployed_code"^^xsd:string ;
+    skos:notation "deployed_code"^^xsd:string ;
     skos:topConceptOf <> .
 
 <didactic_concepts> a skos:Concept ;
@@ -98,8 +92,7 @@
     skos:prefLabel "Didaktische Konzepte"@de ;
     skos:definition "Systematische und theoretisch fundierte Ansätze zur Planung, Durchführung und Evaluation von Lehr-Lern-Prozessen."@de ;
     skos:definition "Systematic and theoretically sound approaches to planning, implementing, and evaluating teaching and learning processes."@en ;
-    oeh:iconName "psychology" ;
-    skos:scopeNote "icon:psychology"^^xsd:string ;
+    skos:notation "psychology"^^xsd:string ;
     skos:topConceptOf <> .
 
 <ai_prompt> a skos:Concept ;
@@ -109,8 +102,7 @@
     skos:definition "An AI prompt is a work instruction (input prompt) that guides generative AI systems (e.g., ChatGPT, Midjourney) to generate specific content for learning purposes, perform creative tasks, and take on analytical and adaptive functions. Educational prompts can be used in knowledge transfer, metadata improvement, exercises, and creative tasks."@en ;
     skos:related gnd:1322633797 ;
     skos:exactMatch wd:Q117217619 ;
-    oeh:iconName "chat" ;
-    skos:scopeNote "icon:chat"^^xsd:string ;
+    skos:notation "chat"^^xsd:string ;
     skos:topConceptOf <> .
 
 <profession> a skos:Concept ;
@@ -121,6 +113,5 @@
     gndo:gndIdentifier "4005857-8" ;
     skos:exactMatch gnd:4005857-8 ;
     skos:exactMatch wd:Q28640 ;
-    oeh:iconName "business_center" ;
-    skos:scopeNote "icon:business_center"^^xsd:string ;
+    skos:notation "business_center"^^xsd:string ;
     skos:topConceptOf <> .
