@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe säubern Maschinen, Anlagen und Geräte sowie Behälter aller Art."
   },
   "note": {
-    "de": "Maschinen, Anlagen, Geräte und Behälter, z. B. mithilfe von Hochdruckreinigern oder Sandstrahlgeräten, reinigen Wasch- oder Behälterreinigungsanlagen bedienen, Spezialfahrzeuge wie Hochdruck- und Spülfahrzeuge führen Maschinen und technische Einrichtungen, wie Krananlagen oder Laufbänder, mit speziellen Reinigungs- und Schmiermitteln pflegen und Verschmutzungen entfernen korrosionshemmende oder desinfizierende Mittel sowie Schutzfilme gegen witterungsbedingte Einflüsse auftragen die Leitungen von Schankanlagen, einschließlich Zapfhähnen und Zapfköpfen, mit chemischen oder chemisch-mechanischen Verfahren reinigen"
+    "de": [
+      "Maschinen, Anlagen, Geräte und Behälter, z. B. mithilfe von Hochdruckreinigern oder Sandstrahlgeräten, reinigen Wasch- oder Behälterreinigungsanlagen bedienen, Spezialfahrzeuge wie Hochdruck- und Spülfahrzeuge führen Maschinen und technische Einrichtungen, wie Krananlagen oder Laufbänder, mit speziellen Reinigungs- und Schmiermitteln pflegen und Verschmutzungen entfernen korrosionshemmende oder desinfizierende Mittel sowie Schutzfilme gegen witterungsbedingte Einflüsse auftragen die Leitungen von Schankanlagen, einschließlich Zapfhähnen und Zapfköpfen, mit chemischen oder chemisch-mechanischen Verfahren reinigen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/541",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

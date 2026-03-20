@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind vorwiegend im analytischen und überwachenden Umweltschutz tätig. Sie untersuchen die Umweltauswirkungen u.a. von Chemikalien und entwickeln und erproben leistungsfähige Verfahren, Technologien, Geräte und Anlagen für einen wirksamen Umweltschutz."
   },
   "note": {
-    "de": "Proben nehmen und mithilfe unterschiedlicher Analyse- und Messverfahren untersuchen, Ergebnisse protokollieren und auswerten Maßnahmen zur Reinhaltung der Luft, wie z. B. Luftgütemessungen, planen und durchführen, in der Planung, Konstruktion und Fertigung von Filteranlangen mitarbeiten bei Umweltschutzmaßnahmen im Bereich Abfallentsorgung mitwirken, z. B. Abfallproben aus Mülldeponien entnehmen, Deponieverhalten beurteilen, in der Abfallwirtschaft beraten umwelttechnische Expertisen und Gutachten für Geräte, Anlagen und Verfahren unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes erstellen umwelttechnische Anlagen projektieren, z. B. Deponien, Verbrennungsanlagen oder Anlagen zur Energiegewinnung aus erneuerbaren Rohstoffen, wie Biogasanlagen Unternehmen und Regierungsbehörden zur Bereinigung von Altlasten zum Schutz von Mensch und Umwelt beraten"
+    "de": [
+      "Proben nehmen und mithilfe unterschiedlicher Analyse- und Messverfahren untersuchen, Ergebnisse protokollieren und auswerten Maßnahmen zur Reinhaltung der Luft, wie z. B. Luftgütemessungen, planen und durchführen, in der Planung, Konstruktion und Fertigung von Filteranlangen mitarbeiten bei Umweltschutzmaßnahmen im Bereich Abfallentsorgung mitwirken, z. B. Abfallproben aus Mülldeponien entnehmen, Deponieverhalten beurteilen, in der Abfallwirtschaft beraten umwelttechnische Expertisen und Gutachten für Geräte, Anlagen und Verfahren unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes erstellen umwelttechnische Anlagen projektieren, z. B. Deponien, Verbrennungsanlagen oder Anlagen zur Energiegewinnung aus erneuerbaren Rohstoffen, wie Biogasanlagen Unternehmen und Regierungsbehörden zur Bereinigung von Altlasten zum Schutz von Mensch und Umwelt beraten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/422",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

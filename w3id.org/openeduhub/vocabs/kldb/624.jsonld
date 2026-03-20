@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben im Verkauf von Drogerie- und Apothekenwaren sowie von Sanitäts- und Medizinbedarf. Sie präsentieren die zum Verkauf stehenden Waren und beraten Kunden und Kundinnen über ihre Anwendung."
   },
   "note": {
-    "de": "Kunden und Kundinnen beim Kauf von Drogerie- und Apothekenwaren bzw. von Sanitäts- und Medizinbedarf beraten Waren mit Preisen auszeichnen, die Waren im Verkaufsraum oder im Schaufenster präsentieren und dekorieren Waren verkaufen und Zahlungen für die verkauften Produkte entgegennehmen den Warenbedarf ermitteln und Waren bestellen, Bestell-, Einkaufs- und Lagerlisten verwalten Produkte fachgerecht lagern und z. B. auf die Lagerungstemperatur oder Verfallzeiten von Arzneimitteln achten"
+    "de": [
+      "Kunden und Kundinnen beim Kauf von Drogerie- und Apothekenwaren bzw. von Sanitäts- und Medizinbedarf beraten Waren mit Preisen auszeichnen, die Waren im Verkaufsraum oder im Schaufenster präsentieren und dekorieren Waren verkaufen und Zahlungen für die verkauften Produkte entgegennehmen den Warenbedarf ermitteln und Waren bestellen, Bestell-, Einkaufs- und Lagerlisten verwalten Produkte fachgerecht lagern und z. B. auf die Lagerungstemperatur oder Verfallzeiten von Arzneimitteln achten"
+    ]
   },
   "narrower": [
     {
@@ -55,6 +57,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -63,8 +66,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -103,11 +118,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

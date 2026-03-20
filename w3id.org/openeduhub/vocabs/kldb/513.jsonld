@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Lagerwirtschaft, bei Post- und Zustelldiensten sowie im Güterumschlag."
   },
   "note": {
-    "de": "die Waren- und Materialannahme oder -ausgabe durchführen, Waren und Güter einlagern und stapeln Waren kommissionieren, sortieren, etikettieren und verpacken Kurier-, Express- und Postsendungen abholen, sortieren und befördern sowie die Zustellung zu Firmen- und Privatkunden und -kundinnen zu Fuß, per Fahrrad, Pkw oder Lkw durchführen Entgelte berechnen und Zahlungen entgegennehmen, Lieferscheine, Belege, Frachtpapiere und andere Unterlagen bearbeiten und weiterleiten Strategien zu Lagerhaltung, Güterumschlag sowie Zustellung von Express-, Kurier- und Postsendungen festlegen, implementieren und überwachen"
+    "de": [
+      "die Waren- und Materialannahme oder -ausgabe durchführen, Waren und Güter einlagern und stapeln Waren kommissionieren, sortieren, etikettieren und verpacken Kurier-, Express- und Postsendungen abholen, sortieren und befördern sowie die Zustellung zu Firmen- und Privatkunden und -kundinnen zu Fuß, per Fahrrad, Pkw oder Lkw durchführen Entgelte berechnen und Zahlungen entgegennehmen, Lieferscheine, Belege, Frachtpapiere und andere Unterlagen bearbeiten und weiterleiten Strategien zu Lagerhaltung, Güterumschlag sowie Zustellung von Express-, Kurier- und Postsendungen festlegen, implementieren und überwachen"
+    ]
   },
   "narrower": [
     {
@@ -67,6 +69,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -75,8 +78,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -115,11 +130,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

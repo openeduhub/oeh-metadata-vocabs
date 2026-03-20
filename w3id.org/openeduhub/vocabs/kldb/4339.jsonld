@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Führungsaufgaben in der IT-Koordination, -Administration und -Organisation. Sie koordinieren und organisieren eigenverantwortlich IT-Projekte und steuern die IT-Systeme bzw. IT-Abteilungen von Unternehmen, wie z. B. das Rechenzentrum, die Netzwerkadministration oder die Anwendungs- und Systementwicklung."
   },
   "note": {
-    "de": "IT-Projekte organisieren, z. B. Mitarbeiterressourcen prüfen, Projektteams zusammenstellen, Standards und Konventionen festlegen den Projektablauf unter Berücksichtigung definierter Prioritäten überwachen und steuern, Arbeitspakete beauftragen, verfolgen und abnehmen Qualitätssicherung durchführen, Risiken erkennen, bewerten und begrenzen die Berücksichtigung der Datensicherheit gewährleisten, die Einführung von Sicherheitssystemen im IT-Bereich veranlassen IT-Projekte abschließen und auflösen, z. B. Projektnachkalkulationen durchführen, Abschlussberichte verfassen, Akzeptanz des Projektes bzw. seiner Ergebnisse sichern Mitarbeiter/innen im IT-Bereich führen und motivieren, z. B. Kooperation und Kommunikation fördern, an Entscheidungsprozessen beteiligen, Konfliktlösungsstrategien anwenden für Qualifizierung und Ausbildung sorgen, z. B. Qualifizierungsbedarf der Mitarbeiter/innen feststellen, Qualifizierungsmaßnahmen einleiten, betriebliche Ausbildung planen"
+    "de": [
+      "IT-Projekte organisieren, z. B. Mitarbeiterressourcen prüfen, Projektteams zusammenstellen, Standards und Konventionen festlegen den Projektablauf unter Berücksichtigung definierter Prioritäten überwachen und steuern, Arbeitspakete beauftragen, verfolgen und abnehmen Qualitätssicherung durchführen, Risiken erkennen, bewerten und begrenzen die Berücksichtigung der Datensicherheit gewährleisten, die Einführung von Sicherheitssystemen im IT-Bereich veranlassen IT-Projekte abschließen und auflösen, z. B. Projektnachkalkulationen durchführen, Abschlussberichte verfassen, Akzeptanz des Projektes bzw. seiner Ergebnisse sichern Mitarbeiter/innen im IT-Bereich führen und motivieren, z. B. Kooperation und Kommunikation fördern, an Entscheidungsprozessen beteiligen, Konfliktlösungsstrategien anwenden für Qualifizierung und Ausbildung sorgen, z. B. Qualifizierungsbedarf der Mitarbeiter/innen feststellen, Qualifizierungsmaßnahmen einleiten, betriebliche Ausbildung planen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/433",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

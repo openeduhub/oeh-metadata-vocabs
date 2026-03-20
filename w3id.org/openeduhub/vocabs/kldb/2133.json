@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten vorgefertigte Glashalbfabrikate zu unterschiedlichen Glaserzeugnissen, wie z. B. Thermometerrohlingen sowie Buchstaben, Schriftzügen und Figuren für Lichtreklame- und Beleuchtungsanlagen."
   },
   "note": {
-    "de": "benötigtes Material und Halbzeug auswählen und vorbereiten in Serienproduktion Glasröhren und Kapillare zuschneiden und in der Flamme reinigen Maschinen zum Zuschneiden, Erhitzen, Formen und Verbinden der Glasröhren justieren Glasröhren über der Flamme von Tisch- und Handbrennern erhitzen bis das Glas zäh und biegbar wird erhitzte Glasröhren durch Blasen, Biegen, Ausziehen und Anschmelzen zu Buchstaben, Schriftzügen oder Zeichen verformen, Glasröhren mit Kapillaren verbinden Rohthermometergefäße evakuieren, Füllflüssigkeiten, wie z. B. Quecksilber von Hand oder an Vakuumfüllanlagen, einbringen Leuchtstoffschichten an Innenwänden von Glasröhren einbringen, Elektroden an Beleuchtungsglasröhren schmelzen Endprodukt durch Evakuieren, Füllen des Behälters mit Flüssigkeit oder Gasen, Beschichtungen sowie Verschließen des Glaskörpers fertigstellen Beleuchtungsglasröhren maschinell auspumpen und Verunreinigungen absaugen, Röhren mit Edelgas füllen, Leuchtstoffschichten einbringen"
+    "de": [
+      "benötigtes Material und Halbzeug auswählen und vorbereiten in Serienproduktion Glasröhren und Kapillare zuschneiden und in der Flamme reinigen Maschinen zum Zuschneiden, Erhitzen, Formen und Verbinden der Glasröhren justieren Glasröhren über der Flamme von Tisch- und Handbrennern erhitzen bis das Glas zäh und biegbar wird erhitzte Glasröhren durch Blasen, Biegen, Ausziehen und Anschmelzen zu Buchstaben, Schriftzügen oder Zeichen verformen, Glasröhren mit Kapillaren verbinden Rohthermometergefäße evakuieren, Füllflüssigkeiten, wie z. B. Quecksilber von Hand oder an Vakuumfüllanlagen, einbringen Leuchtstoffschichten an Innenwänden von Glasröhren einbringen, Elektroden an Beleuchtungsglasröhren schmelzen Endprodukt durch Evakuieren, Füllen des Behälters mit Flüssigkeit oder Gasen, Beschichtungen sowie Verschließen des Glaskörpers fertigstellen Beleuchtungsglasröhren maschinell auspumpen und Verunreinigungen absaugen, Röhren mit Edelgas füllen, Leuchtstoffschichten einbringen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/213",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

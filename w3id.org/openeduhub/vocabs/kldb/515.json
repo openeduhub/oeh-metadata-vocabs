@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe überwachen und steuern den Verkehrsbetrieb bzw. logistische Prozesse. Sie planen und bemessen Verkehrsanlagen und -systeme, um eine bestmögliche Gestaltung der Verkehrsprozesse zu erreichen."
   },
   "note": {
-    "de": "Verkehrssysteme auswerten, bemessen, planen und gestalten, z. B. spezielle Techniken zur Verkehrssicherung oder -kommunikation konzipieren bei der Aufrechterhaltung des technischen Betriebes im Schienenverkehr mitwirken, z. B. rechnergestützte Zugüberwachung durchführen oder elektronische Stellwerke bedienen die Arbeitsabläufe in Schiffsverkehrsbetrieben planen, z. B. den Einsatz von Kränen, Schleppern und Schuten koordinieren den Flugbetrieb überwachen, Arbeiten am Boden koordinieren, z. B. das Be- und Entladen sowie Betanken von Flugzeugen, Flughafenbetriebe überwachen, Flugunfälle untersuchen Qualitätsstandards festlegen und überprüfen, die Einhaltung von Vorschriften und Weisungen kontrollieren, z. B. die Einhaltung internationaler Richtlinien der Schifffahrt überwachen"
+    "de": [
+      "Verkehrssysteme auswerten, bemessen, planen und gestalten, z. B. spezielle Techniken zur Verkehrssicherung oder -kommunikation konzipieren bei der Aufrechterhaltung des technischen Betriebes im Schienenverkehr mitwirken, z. B. rechnergestützte Zugüberwachung durchführen oder elektronische Stellwerke bedienen die Arbeitsabläufe in Schiffsverkehrsbetrieben planen, z. B. den Einsatz von Kränen, Schleppern und Schuten koordinieren den Flugbetrieb überwachen, Arbeiten am Boden koordinieren, z. B. das Be- und Entladen sowie Betanken von Flugzeugen, Flughafenbetriebe überwachen, Flugunfälle untersuchen Qualitätsstandards festlegen und überprüfen, die Einhaltung von Vorschriften und Weisungen kontrollieren, z. B. die Einhaltung internationaler Richtlinien der Schifffahrt überwachen"
+    ]
   },
   "narrower": [
     {
@@ -85,6 +87,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -93,8 +96,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -133,11 +148,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

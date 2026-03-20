@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der technischen Gestaltung von Medien. Sie erstellen und bearbeiten Layouts, Bilddaten, Websites, Spiele oder Videomaterial für Informationsmedien und die Werbung."
   },
   "note": {
-    "de": "Layouts, Druck- und Werbevorlagen erstellen, Kommunikationsmittel, wie z. B. Anzeigen, Firmenlogos oder Broschüren, entwerfen Werbe-, Mode- oder Sachfotografien sowie Werbespots oder Industriefilme konzipieren und realisieren, mithilfe von Software dreidimensionale Ansichten und Animationen gestalten grafische Konzepte für den Print-Bereich anfertigen, Designs von Multimedia-Auftritten entwerfen, Illustrationen und Zeichnungen erstellen statistische, quantitative und qualitative Untersuchungen der Markt- und Meinungsforschung zur Zielgruppenbestimmung und -berechnung berücksichtigen Personal-, Sachmittel-, Termin- und Kostenplanung im Rahmen von Medienprojekten übernehmen, Kreativteams leiten, Medienproduktion planen, steuern und überwachen die Einhaltung von Bestimmungen zu Presse- und Medienrecht, Urheber- und Lizenzrecht und Datenschutz sicherstellen, Mitarbeiter/innen anleiten und schulen"
+    "de": [
+      "Layouts, Druck- und Werbevorlagen erstellen, Kommunikationsmittel, wie z. B. Anzeigen, Firmenlogos oder Broschüren, entwerfen Werbe-, Mode- oder Sachfotografien sowie Werbespots oder Industriefilme konzipieren und realisieren, mithilfe von Software dreidimensionale Ansichten und Animationen gestalten grafische Konzepte für den Print-Bereich anfertigen, Designs von Multimedia-Auftritten entwerfen, Illustrationen und Zeichnungen erstellen statistische, quantitative und qualitative Untersuchungen der Markt- und Meinungsforschung zur Zielgruppenbestimmung und -berechnung berücksichtigen Personal-, Sachmittel-, Termin- und Kostenplanung im Rahmen von Medienprojekten übernehmen, Kreativteams leiten, Medienproduktion planen, steuern und überwachen die Einhaltung von Bestimmungen zu Presse- und Medienrecht, Urheber- und Lizenzrecht und Datenschutz sicherstellen, Mitarbeiter/innen anleiten und schulen"
+    ]
   },
   "narrower": [
     {
@@ -62,6 +64,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -70,8 +73,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -110,11 +125,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichts- und Führungsaufgaben in der Unternehmensorganisation und -strategie. Sie beaufsichtigen kaufmännische Bürofachkräfte-Teams oder planen, koordinieren und steuern den Betrieb von Unternehmen."
   },
   "note": {
-    "de": "die Marktsituation beobachten und analysieren, um daraus Konzepte für die strategische Unternehmensplanung sowie die Geschäftsfeldentwicklung abzuleiten politische Richtlinien, Programme, Prozesse, Systeme und Verfahren zur Erreichung von lang- und kurzfristigen Zielen und Arbeitsstandards, z. B. agile Methoden im Projektmanagement, entwickeln, implementieren und überwachen Projekte vom Konzept bis zur Umsetzung planen, z. B. Ziele, Kosten, Termine und Qualität festlegen, Teams und Gruppen organisieren und koordinieren Material- und Arbeitsmittelbedarf, z. B. Bauteil-, Werkstoff- und Maschinenbedarf, sowie Arbeitszeit und Mitarbeiterbedarf planen Qualitätskontrollen durchführen, z. B. die Einhaltung von Terminen und Anforderungen überwachen Budget festlegen und verwalten, Ausgaben kontrollieren und einen effizienten Ressourceneinsatz sicherstellen gegenüber der Geschäftsleitung Verantwortung für die Einhaltung der Unternehmensrichtlinien und das Erreichen der Umsatzziele übernehmen Mitarbeiter/innen im Zusammenhang mit Arbeitsaufgaben, Sicherheitsverfahren und Unternehmensrichtlinien schulen und anleiten oder die Durchführung entsprechender Schulungen veranlassen"
+    "de": [
+      "die Marktsituation beobachten und analysieren, um daraus Konzepte für die strategische Unternehmensplanung sowie die Geschäftsfeldentwicklung abzuleiten politische Richtlinien, Programme, Prozesse, Systeme und Verfahren zur Erreichung von lang- und kurzfristigen Zielen und Arbeitsstandards, z. B. agile Methoden im Projektmanagement, entwickeln, implementieren und überwachen Projekte vom Konzept bis zur Umsetzung planen, z. B. Ziele, Kosten, Termine und Qualität festlegen, Teams und Gruppen organisieren und koordinieren Material- und Arbeitsmittelbedarf, z. B. Bauteil-, Werkstoff- und Maschinenbedarf, sowie Arbeitszeit und Mitarbeiterbedarf planen Qualitätskontrollen durchführen, z. B. die Einhaltung von Terminen und Anforderungen überwachen Budget festlegen und verwalten, Ausgaben kontrollieren und einen effizienten Ressourceneinsatz sicherstellen gegenüber der Geschäftsleitung Verantwortung für die Einhaltung der Unternehmensrichtlinien und das Erreichen der Umsatzziele übernehmen Mitarbeiter/innen im Zusammenhang mit Arbeitsaufgaben, Sicherheitsverfahren und Unternehmensrichtlinien schulen und anleiten oder die Durchführung entsprechender Schulungen veranlassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/713",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

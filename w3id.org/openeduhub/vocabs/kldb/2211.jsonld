@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen Gummireifen her, wuchten sie aus, montieren sie und reparieren schadhafte Reifen. Darüber hinaus führen sie Wartungsarbeiten an anderen Fahrzeugkomponenten und an Transportbändern durch."
   },
   "note": {
-    "de": "Gießpressen von vulkanisiertem Gummi oder Maschinen zur Extrusion von Gummiverbindungen bedienen und überwachen schadhafte Stellen bei defekten Reifen prüfen, Reifen austauschen oder z. B. mit Nagelloch- und Deckenpflastern sowie mit speziellen Gummilösungen ausbessern Rundlauf von Rädern mit Wuchtmaschinen messen, zum Auswuchten Gewichte an Felgen anbringen, Reifen auf der Felge versetzen bei Runderneuerungen alte Laufflächen mithilfe von Raumaschinen entfernen, Bindematerial und vorgefertigte Gummi-Laufstreifen aufbringen, Reifen vulkanisieren Zustand von Fahrwerken prüfen und Einstellungsfehler korrigieren Reifen demontieren bzw. montieren, schadhafte Stellen bei defekten Reifen prüfen und reparieren, z. B. mit Nagelloch- und Deckenpflastern sowie mit speziellen Gummilösungen Kunden über unterschiedliche Reifen- und Felgenarten sowie Reifenzubehör beraten Reifen mittels Vulkanisationsverfahren herstellen und anschließend mit Profilen versehen"
+    "de": [
+      "Gießpressen von vulkanisiertem Gummi oder Maschinen zur Extrusion von Gummiverbindungen bedienen und überwachen schadhafte Stellen bei defekten Reifen prüfen, Reifen austauschen oder z. B. mit Nagelloch- und Deckenpflastern sowie mit speziellen Gummilösungen ausbessern Rundlauf von Rädern mit Wuchtmaschinen messen, zum Auswuchten Gewichte an Felgen anbringen, Reifen auf der Felge versetzen bei Runderneuerungen alte Laufflächen mithilfe von Raumaschinen entfernen, Bindematerial und vorgefertigte Gummi-Laufstreifen aufbringen, Reifen vulkanisieren Zustand von Fahrwerken prüfen und Einstellungsfehler korrigieren Reifen demontieren bzw. montieren, schadhafte Stellen bei defekten Reifen prüfen und reparieren, z. B. mit Nagelloch- und Deckenpflastern sowie mit speziellen Gummilösungen Kunden über unterschiedliche Reifen- und Felgenarten sowie Reifenzubehör beraten Reifen mittels Vulkanisationsverfahren herstellen und anschließend mit Profilen versehen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/221",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

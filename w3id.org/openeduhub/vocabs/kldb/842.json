@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe erteilen Unterricht an berufsbildenden Schulen und sind für die Planung, Organisation und Durchführung der betrieblichen Ausbildung sowie beruflicher Bildungsprozesse zuständig."
   },
   "note": {
-    "de": "theoretische Kenntnisse und berufspraktische Fertigkeiten vermitteln, dabei vor allem Lernziele an die Entwicklungen und Anforderungen im Berufsfeld anpassen Unterrichtsinhalte mit der praktischen Ausbildung abstimmen und mit betrieblichen Ausbildern und Ausbilderinnen kooperieren den betrieblichen Teil der Ausbildung unter Beachtung der rechtlichen, pädagogischen, psychologischen Grundlagen und der fachlichen Erfordernisse durchführen die Arbeit der Schüler/innen bzw. Auszubildenden beobachten und evaluieren, um den Fortschritt feststellen und ein Feedback geben bzw. Verbesserungsvorschläge unterbereiten zu können Leistungsnachweise und Prüfungen vorbereiten, durchführen und korrigieren Lehr- und Verwaltungspersonal sowie Schüler und Schülerinnen leiten und unterstützen"
+    "de": [
+      "theoretische Kenntnisse und berufspraktische Fertigkeiten vermitteln, dabei vor allem Lernziele an die Entwicklungen und Anforderungen im Berufsfeld anpassen Unterrichtsinhalte mit der praktischen Ausbildung abstimmen und mit betrieblichen Ausbildern und Ausbilderinnen kooperieren den betrieblichen Teil der Ausbildung unter Beachtung der rechtlichen, pädagogischen, psychologischen Grundlagen und der fachlichen Erfordernisse durchführen die Arbeit der Schüler/innen bzw. Auszubildenden beobachten und evaluieren, um den Fortschritt feststellen und ein Feedback geben bzw. Verbesserungsvorschläge unterbereiten zu können Leistungsnachweise und Prüfungen vorbereiten, durchführen und korrigieren Lehr- und Verwaltungspersonal sowie Schüler und Schülerinnen leiten und unterstützen"
+    ]
   },
   "narrower": [
     {
@@ -61,6 +63,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -69,8 +72,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -109,11 +124,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe erforschen und analysieren historische und gegenwärtige Aspekte von Film, Theater, Medien sowie anderen Kommunikationsformen im kulturellen und kommunikativen Kontext."
   },
   "note": {
-    "de": "Kommunikationsprozesse erforschen, analysieren und ihre jeweiligen Eigenschaften sowie Auswirkungen auf die soziale Welt beschreiben kulturpolitische, künstlerische und wissenschaftliche Aspekte der Film-, Theater- und Medienlandschaft analysieren Geschichte und Gegenwart des Mediums Film sowohl gesondert als auch im Kontext zu anderen Kulturphänomenen erschließen Entwicklung, Tendenzen und Abläufe in der Medienwirtschaft beobachten und beschreiben, neue technische Entwicklungen im Bereich Film, Medien und Theater analysieren Produkt-, Markt- und Zielgruppenanalysen erstellen und aufgrund der Ergebnisse Konzeptionen für Medienprodukte bzw. -programme entwickeln Kommunikationsprobleme, z. B. in und zwischen Unternehmen, identifizieren und vermittelnd tätig werden wissenschaftliche Arbeiten und Berichte erstellen und veröffentlichen"
+    "de": [
+      "Kommunikationsprozesse erforschen, analysieren und ihre jeweiligen Eigenschaften sowie Auswirkungen auf die soziale Welt beschreiben kulturpolitische, künstlerische und wissenschaftliche Aspekte der Film-, Theater- und Medienlandschaft analysieren Geschichte und Gegenwart des Mediums Film sowohl gesondert als auch im Kontext zu anderen Kulturphänomenen erschließen Entwicklung, Tendenzen und Abläufe in der Medienwirtschaft beobachten und beschreiben, neue technische Entwicklungen im Bereich Film, Medien und Theater analysieren Produkt-, Markt- und Zielgruppenanalysen erstellen und aufgrund der Ergebnisse Konzeptionen für Medienprodukte bzw. -programme entwickeln Kommunikationsprobleme, z. B. in und zwischen Unternehmen, identifizieren und vermittelnd tätig werden wissenschaftliche Arbeiten und Berichte erstellen und veröffentlichen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/912",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

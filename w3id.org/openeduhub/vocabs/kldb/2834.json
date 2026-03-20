@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten Rohfelle zu Pelzen oder Pelze zu Kleidungsstücken und Accessoires, planen und organisieren Arbeitsabläufe in der Pelzbe- und verarbeitung und entwickeln Produkte, Materialien und Verarbeitungsverfahren weiter."
   },
   "note": {
-    "de": "Arbeitsabläufe planen, organisieren sowie mit anderen Abteilungen bzw. Produktionsbereichen abstimmen, Produktionsgruppen einzelner Abteilungen koordinieren Rohfelle annehmen und fachgerecht lagern, z. B. Felle in Hinblick auf Qualität und Weiterverarbeitungsmöglichkeiten beurteilen Lederseite gerben, z. B. chemische Bäder, Beizen und Pickel ansetzen, Rohfelle darin einweichen, Gerbprozesse überwachen und technisch weiterentwickeln Haarkleid veredeln, z. B. entfetten und säubern, färben oder bleichen, Langfelle stutzen Pelzbekleidung entwerfen, Schnitte anfertigen, Fellaufteilung planen und berechnen, Felle sortieren und nach Bedarf auswählen, Beschädigungen im Fell ausbessern Felle, Leder und Stoffe zuschneiden, Felle in Form ziehen, maschinell oder von Hand zusammenfügen Qualität von Roh-, Hilfsstoffen und fertigen Produkten kontrollieren, Proben in allen Stadien der Fertigung entnehmen und analysieren, bei Abweichungen Fehlerursachen feststellen Arbeitsgeräte, Maschinen und Anlagen, z. B. Gerb-, Walk-, Trockeneinrichtungen, Fell- oder Ledernähmaschinen, bedienen warten und pflegen Kunden und Kundinnen beraten, z. B. über Trageeigenschaften, Haltbarkeit, Aufbewahrung oder die Pflege bestimmter Pelze bei Entwicklung neuer Produktionsverfahren bzw. Herstellungs- oder Veredlungsprozessen, z. B. zur Verbesserung von Tragekomfort, mitwirken"
+    "de": [
+      "Arbeitsabläufe planen, organisieren sowie mit anderen Abteilungen bzw. Produktionsbereichen abstimmen, Produktionsgruppen einzelner Abteilungen koordinieren Rohfelle annehmen und fachgerecht lagern, z. B. Felle in Hinblick auf Qualität und Weiterverarbeitungsmöglichkeiten beurteilen Lederseite gerben, z. B. chemische Bäder, Beizen und Pickel ansetzen, Rohfelle darin einweichen, Gerbprozesse überwachen und technisch weiterentwickeln Haarkleid veredeln, z. B. entfetten und säubern, färben oder bleichen, Langfelle stutzen Pelzbekleidung entwerfen, Schnitte anfertigen, Fellaufteilung planen und berechnen, Felle sortieren und nach Bedarf auswählen, Beschädigungen im Fell ausbessern Felle, Leder und Stoffe zuschneiden, Felle in Form ziehen, maschinell oder von Hand zusammenfügen Qualität von Roh-, Hilfsstoffen und fertigen Produkten kontrollieren, Proben in allen Stadien der Fertigung entnehmen und analysieren, bei Abweichungen Fehlerursachen feststellen Arbeitsgeräte, Maschinen und Anlagen, z. B. Gerb-, Walk-, Trockeneinrichtungen, Fell- oder Ledernähmaschinen, bedienen warten und pflegen Kunden und Kundinnen beraten, z. B. über Trageeigenschaften, Haltbarkeit, Aufbewahrung oder die Pflege bestimmter Pelze bei Entwicklung neuer Produktionsverfahren bzw. Herstellungs- oder Veredlungsprozessen, z. B. zur Verbesserung von Tragekomfort, mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/283",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

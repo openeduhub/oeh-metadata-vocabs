@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe erforschen den Aufbau, die Entstehung und Entwicklung der Erde als Gesamtsystem oder von Teilsystemen wie Gesteinen oder Gewässern sowie die Auswirkungen des Einflusses menschlicher Eingriffe."
   },
   "note": {
-    "de": "Forschungsstudien durchführen und Konzepte, Theorien und Betriebsmethoden im Zusammenhang mit Geologie und Geophysik entwickeln und verbessern Entstehung und Zusammensetzung von Gesteinen untersuchen, Möglichkeiten einer künstlichen Herstellung sowie die Nutzung von Gesteinen als Werkstoffe erforschen über die Analyse der Gesteinshülle und von Fossilien chemische und physikalische Vorgänge im Laufe der Erdgeschichte erfassen physikalische Abläufe im Meer und die Abläufe des Wasserkreislaufs erforschen sowie Grundwasservorräte für die Trinkwasserversorgung erkunden und erschließen Gewicht, Größe und Masse der Erde schätzen, die Aktivität und Vorhersagbarkeit von Vulkanen, Gletschern und Erdbeben erforschen Konzepte für die Altlastensanierung entwickeln, Flächen oder Gewässer sanieren und renaturieren sowie für den Deponiebau geeignete Standorte suchen und bewerten Forschungsdaten interpretieren und geologische Berichte, Karten, Tabellen und Diagramme und wissenschaftliche Arbeiten erstellen Behörden, Dienststellen und Beteiligte in wasser- und bodenrechtlichen Fragen beraten, Gutachten und Stellungnahmen verfassen"
+    "de": [
+      "Forschungsstudien durchführen und Konzepte, Theorien und Betriebsmethoden im Zusammenhang mit Geologie und Geophysik entwickeln und verbessern Entstehung und Zusammensetzung von Gesteinen untersuchen, Möglichkeiten einer künstlichen Herstellung sowie die Nutzung von Gesteinen als Werkstoffe erforschen über die Analyse der Gesteinshülle und von Fossilien chemische und physikalische Vorgänge im Laufe der Erdgeschichte erfassen physikalische Abläufe im Meer und die Abläufe des Wasserkreislaufs erforschen sowie Grundwasservorräte für die Trinkwasserversorgung erkunden und erschließen Gewicht, Größe und Masse der Erde schätzen, die Aktivität und Vorhersagbarkeit von Vulkanen, Gletschern und Erdbeben erforschen Konzepte für die Altlastensanierung entwickeln, Flächen oder Gewässer sanieren und renaturieren sowie für den Deponiebau geeignete Standorte suchen und bewerten Forschungsdaten interpretieren und geologische Berichte, Karten, Tabellen und Diagramme und wissenschaftliche Arbeiten erstellen Behörden, Dienststellen und Beteiligte in wasser- und bodenrechtlichen Fragen beraten, Gutachten und Stellungnahmen verfassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/421",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

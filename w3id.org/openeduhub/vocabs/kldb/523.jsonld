@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe steuern Luftfahrzeuge und übernehmen Aufgaben in der Organisation des Flugbetriebs."
   },
   "note": {
-    "de": "in der Flugvorbereitung Informationen zur Flugroute einholen, die vorgeschriebenen Checks durchführen, die Instrumente überprüfen und das Fluggerät auf Betriebssicherheit prüfen Flugzeuge und Hubschrauber steuern, dabei die Systeme ordnungsgemäß und sachgerecht bedienen und präzise navigieren den Sprechfunkverkehr mit der Flugsicherung durchführen, die Anweisungen der Flugsicherung befolgen Anweisungen an die Besatzung geben, Arbeitsabläufe koordinieren an der Leitung des Flugbetriebs sowie an der technischen Verbesserung und Weiterentwicklung der Flugzeugflotte mitwirken, den Flugzeug- und Personaleinsatz planen bei der Ausbildung von Flugzeugführern/-führerinnen mitwirken, neu aufgenommene Flugbesatzungsmitglieder über das jeweilige Flugzeugmuster unterrichten"
+    "de": [
+      "in der Flugvorbereitung Informationen zur Flugroute einholen, die vorgeschriebenen Checks durchführen, die Instrumente überprüfen und das Fluggerät auf Betriebssicherheit prüfen Flugzeuge und Hubschrauber steuern, dabei die Systeme ordnungsgemäß und sachgerecht bedienen und präzise navigieren den Sprechfunkverkehr mit der Flugsicherung durchführen, die Anweisungen der Flugsicherung befolgen Anweisungen an die Besatzung geben, Arbeitsabläufe koordinieren an der Leitung des Flugbetriebs sowie an der technischen Verbesserung und Weiterentwicklung der Flugzeugflotte mitwirken, den Flugzeug- und Personaleinsatz planen bei der Ausbildung von Flugzeugführern/-führerinnen mitwirken, neu aufgenommene Flugbesatzungsmitglieder über das jeweilige Flugzeugmuster unterrichten"
+    ]
   },
   "narrower": [
     {
@@ -50,6 +52,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -58,8 +61,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -98,11 +113,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

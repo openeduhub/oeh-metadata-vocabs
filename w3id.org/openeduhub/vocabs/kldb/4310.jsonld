@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe konzipieren, installieren und betreuen Hard- und Softwarelösungen, richten Betriebs- und Informationssysteme ein und entwickeln oder modifizieren Softwareanwendungen. Sie nehmen Aufgaben in der Anwenderbetreuung, Datenverwaltung oder der Systemadministration wahr und forschen auf dem Gebiet der Informatik."
   },
   "note": {
-    "de": "Betriebs- und Informationssysteme installieren und konfigurieren Software entwickeln und programmtechnisch realisieren, marktgängige Standardsoftware an Bedürfnisse einzelner Benutzer/innen und Organisationen anpassen und abändern Problemanalyse in der Informations- sowie Datenverarbeitung, der Kommunikation und Organisation durchführen sowie Algorithmen, Datenstrukturen, Formen und Modelle auffinden Anwender-Support durchführen theoretische und angewandte Forschung zu Fragen der Informatik und ihren Anwendungen betreiben"
+    "de": [
+      "Betriebs- und Informationssysteme installieren und konfigurieren Software entwickeln und programmtechnisch realisieren, marktgängige Standardsoftware an Bedürfnisse einzelner Benutzer/innen und Organisationen anpassen und abändern Problemanalyse in der Informations- sowie Datenverarbeitung, der Kommunikation und Organisation durchführen sowie Algorithmen, Datenstrukturen, Formen und Modelle auffinden Anwender-Support durchführen theoretische und angewandte Forschung zu Fragen der Informatik und ihren Anwendungen betreiben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/431",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

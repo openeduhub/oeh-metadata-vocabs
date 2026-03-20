@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen Lebensmittel aus tierischen und pflanzlichen Rohstoffen her, organisieren und überwachen Arbeitsabläufe in der Lebensmittelherstellung, sichern die Qualität und entwickeln neue Produkte."
   },
   "note": {
-    "de": "Rohwaren, Halbfertigprodukte und Fertigerzeugnisse annehmen, dabei Waren auf Menge und Qualität prüfen Lebensmittel produzieren, z. B. Roh- und Zusatzstoffe sowie Halbfabrikate nach vorgegebener Rezeptur bearbeiten, Endprodukte konservieren und abfüllen lebensmitteltechnische Produktionsanlagen bedienen und überwachen, Prozessabläufe steuern und kontrollieren, bei Störungen eingreifen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Rezepturen erarbeiten, zielgruppenorientierte Produktreihen entwickeln, Produkte auf Messen präsentieren Qualitätsnormen erstellen und überwachen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen vornehmen Mithilfe von Marktbeobachtung und -analysen Lebensmittelproduktion planen und überwachen, Lebensmittel und Fertigprodukte bzw. Lebensmittelverpackungen anpassen"
+    "de": [
+      "Rohwaren, Halbfertigprodukte und Fertigerzeugnisse annehmen, dabei Waren auf Menge und Qualität prüfen Lebensmittel produzieren, z. B. Roh- und Zusatzstoffe sowie Halbfabrikate nach vorgegebener Rezeptur bearbeiten, Endprodukte konservieren und abfüllen lebensmitteltechnische Produktionsanlagen bedienen und überwachen, Prozessabläufe steuern und kontrollieren, bei Störungen eingreifen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Rezepturen erarbeiten, zielgruppenorientierte Produktreihen entwickeln, Produkte auf Messen präsentieren Qualitätsnormen erstellen und überwachen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen vornehmen Mithilfe von Marktbeobachtung und -analysen Lebensmittelproduktion planen und überwachen, Lebensmittel und Fertigprodukte bzw. Lebensmittelverpackungen anpassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

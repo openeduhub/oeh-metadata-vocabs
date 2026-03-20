@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Lehrkräfte an allgemeinbildenden Schulen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „841 Lehrtätigkeit an allgemeinbildenden Schulen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe unterstützen Lehrkräfte und üben Aufgaben abseits des Unterrichts aus oder übernehmen spezifische Funktionen an Schulen."
   },
   "note": {
-    "de": "Tätigkeiten zur Verbesserung der körperlichen sozialen, emotionalen und intellektuellen Entwicklung von Kindern in Schulen und Vorschulen vorführen und beaufsichtigen Kinder mit geistigen, körperlichen, verhaltensbedingten und sonstigen Lernschwierigkeiten unterstützen Lehrkräfte und die Schulleitung über fachwissenschaftliche und fachdidaktische Neuheiten und Weiterbildungsmöglichkeiten informieren einheitliche Leistungsanforderungen definieren, Prüfungsaufgaben im jeweiligen Fach erstellen als Beratungslehrer/in bei Schulschwierigkeiten, bei Lernproblemen sowie bei Verhaltensauffälligkeiten, Hilfestellungen geben und individuelle Lösungsmöglichkeiten aufzeigen"
+    "de": [
+      "Tätigkeiten zur Verbesserung der körperlichen sozialen, emotionalen und intellektuellen Entwicklung von Kindern in Schulen und Vorschulen vorführen und beaufsichtigen Kinder mit geistigen, körperlichen, verhaltensbedingten und sonstigen Lernschwierigkeiten unterstützen Lehrkräfte und die Schulleitung über fachwissenschaftliche und fachdidaktische Neuheiten und Weiterbildungsmöglichkeiten informieren einheitliche Leistungsanforderungen definieren, Prüfungsaufgaben im jeweiligen Fach erstellen als Beratungslehrer/in bei Schulschwierigkeiten, bei Lernproblemen sowie bei Verhaltensauffälligkeiten, Hilfestellungen geben und individuelle Lösungsmöglichkeiten aufzeigen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/841",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

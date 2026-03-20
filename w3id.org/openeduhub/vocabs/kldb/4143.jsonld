@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe untersuchen Böden, Bauprodukte, Baurohstoffe und Bindemittel, Altlasten und Recyclingmaterialien auf ihre Bestandteile, Eigenschaften und mögliche Schadstoffbelastungen. Sie entnehmen Proben, führen Messungen und Prüfungen durch und dokumentieren die Ergebnisse."
   },
   "note": {
-    "de": "Pläne für die Probenahme und die späteren Untersuchungen im Labor aufstellen Geräte für die Probeentnahmen und -transporte im Gelände bedienen, Bohrungen an Böden durchführen Probe- oder Prüfkörper herstellen, vor allem Baustoffen und Böden entnommene Teile zum experimentellen Austesten von Belastbarkeit und Stabilität in kleinerem Format nachbauen physikalische und chemische Prüfungen durchführen, z. B. auf Korngrößenverteilung, Dichte, Härte, Porosität, Feuchtigkeitsgehalt, pH-Wert, Leitfähigkeit und Durchlässigkeit Biegezug-, Spaltungs-, Haftungs- und Druckfestigkeit sowie Konsistenz, Luftporengehalt und Rohdichte von Betonen und Mörtel ermitteln Wasseraufnahmevermögen und die Wasserdurchlässigkeit von Böden sowie Besonderheiten an Geländeoberflächen bestimmen gesetzliche Vorschriften und Regelwerke, wie Sollwerte, Gütevorschriften und Baustoffnormen, in die Expertise einbringen Prüfergebnisse in Tabellen, Grafiken und Datenbanken darstellen"
+    "de": [
+      "Pläne für die Probenahme und die späteren Untersuchungen im Labor aufstellen Geräte für die Probeentnahmen und -transporte im Gelände bedienen, Bohrungen an Böden durchführen Probe- oder Prüfkörper herstellen, vor allem Baustoffen und Böden entnommene Teile zum experimentellen Austesten von Belastbarkeit und Stabilität in kleinerem Format nachbauen physikalische und chemische Prüfungen durchführen, z. B. auf Korngrößenverteilung, Dichte, Härte, Porosität, Feuchtigkeitsgehalt, pH-Wert, Leitfähigkeit und Durchlässigkeit Biegezug-, Spaltungs-, Haftungs- und Druckfestigkeit sowie Konsistenz, Luftporengehalt und Rohdichte von Betonen und Mörtel ermitteln Wasseraufnahmevermögen und die Wasserdurchlässigkeit von Böden sowie Besonderheiten an Geländeoberflächen bestimmen gesetzliche Vorschriften und Regelwerke, wie Sollwerte, Gütevorschriften und Baustoffnormen, in die Expertise einbringen Prüfergebnisse in Tabellen, Grafiken und Datenbanken darstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/414",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe sind im Dialogmarketing tätig. Sie führen telefonische Verkaufsgespräche, beantworten Kundenanfragen und dokumentieren die Ereignisse und erzielten Erfolge."
   },
   "note": {
-    "de": "telefonische Gespräche, Nachrichten oder Bestellungen entgegennehmen und bearbeiten, Anforderungen feststellen, Auskünfte erteilen oder Termine vereinbaren Waren und Dienstleistungen per Telefon oder über E-Mail unter Einhaltung formaler Abläufe (Scripts) und nach Kontaktlisten bewerben Interesse an Waren und Dienstleistungen wecken und nach einem Verkaufsabschluss oder einer Terminvereinbarung mit Handelsvertretern und Handelsvertreterinnen streben computergestützte Aufzeichnungen zu den getätigten Telefongesprächen, E-Mail-Kontakten und den erzielten Erfolgen führen und den Vorgesetzten vorlegen die Arbeit der Bürokräfte im Dialogmarketing koordinieren, um die Arbeitseffektivität und somit die Kundenzufriedenheit und Anzahl der Geschäftsabschlüsse zu erhöhen"
+    "de": [
+      "telefonische Gespräche, Nachrichten oder Bestellungen entgegennehmen und bearbeiten, Anforderungen feststellen, Auskünfte erteilen oder Termine vereinbaren Waren und Dienstleistungen per Telefon oder über E-Mail unter Einhaltung formaler Abläufe (Scripts) und nach Kontaktlisten bewerben Interesse an Waren und Dienstleistungen wecken und nach einem Verkaufsabschluss oder einer Terminvereinbarung mit Handelsvertretern und Handelsvertreterinnen streben computergestützte Aufzeichnungen zu den getätigten Telefongesprächen, E-Mail-Kontakten und den erzielten Erfolgen führen und den Vorgesetzten vorlegen die Arbeit der Bürokräfte im Dialogmarketing koordinieren, um die Arbeitseffektivität und somit die Kundenzufriedenheit und Anzahl der Geschäftsabschlüsse zu erhöhen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/921",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

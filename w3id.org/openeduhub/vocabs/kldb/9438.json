@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Moderation und Unterhaltung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „943 Moderation und Unterhaltung“ nicht anderweitig erfasst sind. Angehörige dieser Berufe versuchen das Publikum auf unterschiedliche Weise zu unterhalten. Sie sind z. B. als Travestie-Künstler/in, Weihnachtsmann/-frau, Wahrsager/in oder als Bauchredner/in tätig, legen Musik auf oder beschäftigen sich mit Astrologie."
   },
   "note": {
-    "de": "als Weihnachtsmann/-frau verkleidet in Kindergärten, auf Feiern oder Veranstaltungen auftreten, weihnachtliche Programme vorbereiten oder in Kaufhäusern kleine Geschenke verteilen die Kunst des Bauchredens beherrschen und vorführen nach individueller Auswahl und Folge Audiodateien oder Schallplatten abspielen, dabei Geräte, wie Plattenspieler und Mischpulte, bedienen auf Travestie-Bühnen als männlicher Schauspieler Frauenrollen verkörpern und die Zuschauer mit Songs, Tanz sowie durch humoristische Texte unterhalten Astrologie ausüben, Horoskope von Einzelpersonen zum Zeitpunkt der Geburt oder später erstellen, um vergangene Ereignisse zu berichten und zukünftige Ereignisse und Lebensbedingungen vorherzusagen"
+    "de": [
+      "als Weihnachtsmann/-frau verkleidet in Kindergärten, auf Feiern oder Veranstaltungen auftreten, weihnachtliche Programme vorbereiten oder in Kaufhäusern kleine Geschenke verteilen die Kunst des Bauchredens beherrschen und vorführen nach individueller Auswahl und Folge Audiodateien oder Schallplatten abspielen, dabei Geräte, wie Plattenspieler und Mischpulte, bedienen auf Travestie-Bühnen als männlicher Schauspieler Frauenrollen verkörpern und die Zuschauer mit Songs, Tanz sowie durch humoristische Texte unterhalten Astrologie ausüben, Horoskope von Einzelpersonen zum Zeitpunkt der Geburt oder später erstellen, um vergangene Ereignisse zu berichten und zukünftige Ereignisse und Lebensbedingungen vorherzusagen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/943",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

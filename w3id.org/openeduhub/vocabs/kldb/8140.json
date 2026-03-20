@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der Humanmedizin, insbesondere im Fachgebiet der Allgemeinmedizin, tätig. Sie diagnostizieren Krankheiten, legen Therapiemaßnahmen fest und führen medizinische Behandlungen sowie Vorsorgeuntersuchungen durch."
   },
   "note": {
-    "de": "Patienten und Patientinnen untersuchen, behandeln und medizinisch betreuen Krankheitsbild ermitteln, Diagnose stellen, z. B. Anamnese erheben, pathologische Veränderungen des Körpers ermitteln Labor-, Röntgenuntersuchungen und andere Diagnoseverfahren veranlassen Patienten und Patientinnen und Angehörige über Diagnose, Therapiemöglichkeiten und Kosten informieren Medikamente und andere Behandlungsmaßnahmen, z. B. Physiotherapie oder Bestrahlungen, verschreiben oder veranlassen medizinische Informationen über den Patienten/die Patientin und ihre Anamnesen aufzeichnen und diese mit Fachärzten/-ärztinnen und anderen Gesundheitsexperten austauschen, um eine kontinuierliche medizinische Betreuung zu ermöglichen in Prävention und Rehabilitation mitwirken, z. B. über gesunde Lebensweise sowie Früherkennungs- und Vorsorgeuntersuchungen informieren und beraten Verwaltungs- und Organisationsaufgaben erledigen, z. B. ärztliche Gutachten anfertigen auf dem Gebiet der Humanmedizin an medizinischen Forschungsvorhaben mitwirken, Forschungsberichte verfassen"
+    "de": [
+      "Patienten und Patientinnen untersuchen, behandeln und medizinisch betreuen Krankheitsbild ermitteln, Diagnose stellen, z. B. Anamnese erheben, pathologische Veränderungen des Körpers ermitteln Labor-, Röntgenuntersuchungen und andere Diagnoseverfahren veranlassen Patienten und Patientinnen und Angehörige über Diagnose, Therapiemöglichkeiten und Kosten informieren Medikamente und andere Behandlungsmaßnahmen, z. B. Physiotherapie oder Bestrahlungen, verschreiben oder veranlassen medizinische Informationen über den Patienten/die Patientin und ihre Anamnesen aufzeichnen und diese mit Fachärzten/-ärztinnen und anderen Gesundheitsexperten austauschen, um eine kontinuierliche medizinische Betreuung zu ermöglichen in Prävention und Rehabilitation mitwirken, z. B. über gesunde Lebensweise sowie Früherkennungs- und Vorsorgeuntersuchungen informieren und beraten Verwaltungs- und Organisationsaufgaben erledigen, z. B. ärztliche Gutachten anfertigen auf dem Gebiet der Humanmedizin an medizinischen Forschungsvorhaben mitwirken, Forschungsberichte verfassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/814",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

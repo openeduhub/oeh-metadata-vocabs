@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe planen Gleisbaumaßnahmen und errichten, erneuern und unterhalten Gleisanlagen. Sie führen an Gleisen Kontrollen auf Verschleiß und Risse durch, verlegen und erneuern Gleise und bauen Bahndämme und Entwässerungsanlagen. Außerdem führen sie technische Untersuchungen und Messungen zur Stabilität, Haltbarkeit und Verwendung von Gleisanlagen durch."
   },
   "note": {
-    "de": "Bauvorhaben von Gleisanlagen entwickeln und entwerfen Grob- und Detailplanung zur Ausführung erstellen, dabei verkehrsrechtliche Vorgaben und Bestimmungen sowie Aspekte des Arbeitsschutzes berücksichtigen Material- und Maschineneinsatz kalkulieren und koordinieren Baumaßnahme durchführen, dafür z. B. Baumaschinen und -geräte für die Ausführung von Gleisbauarbeiten bedienen und führen Entwässerungsanlagen und Bahndämme herstellen, profilieren und instand halten Untergrund für den Gleisbau vorbereiten, Gleisbett durch Einbringen von Schotter herstellen Schienen und Weichen auf Risse und Verschleiß prüfen und ggf. austauschen Qualität der ausgeführten Arbeiten durch Sichtkontrolle und mittels Messungen prüfen, Messfahrzeuge und Messgeräte einsetzen, z. B. zur Kontrolle der Spurweite neue Mess- und Kontrollmethoden erarbeiten"
+    "de": [
+      "Bauvorhaben von Gleisanlagen entwickeln und entwerfen Grob- und Detailplanung zur Ausführung erstellen, dabei verkehrsrechtliche Vorgaben und Bestimmungen sowie Aspekte des Arbeitsschutzes berücksichtigen Material- und Maschineneinsatz kalkulieren und koordinieren Baumaßnahme durchführen, dafür z. B. Baumaschinen und -geräte für die Ausführung von Gleisbauarbeiten bedienen und führen Entwässerungsanlagen und Bahndämme herstellen, profilieren und instand halten Untergrund für den Gleisbau vorbereiten, Gleisbett durch Einbringen von Schotter herstellen Schienen und Weichen auf Risse und Verschleiß prüfen und ggf. austauschen Qualität der ausgeführten Arbeiten durch Sichtkontrolle und mittels Messungen prüfen, Messfahrzeuge und Messgeräte einsetzen, z. B. zur Kontrolle der Spurweite neue Mess- und Kontrollmethoden erarbeiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Unternehmensorganisation und -strategie, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „713 Unternehmensorganisation und -strategie“ nicht anderweitig erfasst sind."
   },
   "note": {
-    "de": "Mengen, Qualitäten und Arten von Material berechnen, das für das Produktionsprogramm benötigt wird Produktionsbedarfspläne erstellen und sicherstellen, dass das Material bei Bedarf verfügbar ist, entsprechende Aufzeichnungen dazu führen Arbeitsgänge festlegen, Arbeitspläne erstellen und die Produktion terminlich überwachen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen die Geschäftsleitung bei der Unternehmensführung unterstützen, z. B. in rechtlichen, betriebswirtschaftlichen und unternehmenskulturellen Fragen beraten die zukünftige Entwicklung des Betriebes mit planen, z. B. Strategien für die digitale Transformation entwickeln und deren Umsetzung begleiten, und geschäftspolitische Vorgaben umsetzen Unternehmensaktivitäten beschreiben, analysieren und bewerten, laufend überprüfen und an veränderte Gegebenheiten anpassen"
+    "de": [
+      "Mengen, Qualitäten und Arten von Material berechnen, das für das Produktionsprogramm benötigt wird Produktionsbedarfspläne erstellen und sicherstellen, dass das Material bei Bedarf verfügbar ist, entsprechende Aufzeichnungen dazu führen Arbeitsgänge festlegen, Arbeitspläne erstellen und die Produktion terminlich überwachen den Schriftverkehr, z. B. mit Kunden und Kundinnen, Lieferanten, Behörden und Verbänden, abwickeln und Protokolle erstellen bei der Erstellung von Budgets unterstützen, Kosten überwachen, Verträge und Kauf- oder Beschaffungsaufträge entwerfen die Geschäftsleitung bei der Unternehmensführung unterstützen, z. B. in rechtlichen, betriebswirtschaftlichen und unternehmenskulturellen Fragen beraten die zukünftige Entwicklung des Betriebes mit planen, z. B. Strategien für die digitale Transformation entwickeln und deren Umsetzung begleiten, und geschäftspolitische Vorgaben umsetzen Unternehmensaktivitäten beschreiben, analysieren und bewerten, laufend überprüfen und an veränderte Gegebenheiten anpassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/713",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

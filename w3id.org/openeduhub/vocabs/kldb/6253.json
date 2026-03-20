@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verkaufen Musikinstrumente, Noten, musikpädagogische Literatur und Tonträger und beraten Kunden und Kundinnen über die zum Verkauf stehenden Produkte."
   },
   "note": {
-    "de": "Musikinstrumente, Notenbücher, CDs, Schallplatten, Musikanlagen, DVDs, MP3s und Musikfachzeitschriften verkaufen Kunden und Kundinnen über Musikinstrumente, Musikalien, Musiktrends beraten, ggf. Musikinstrumente vorführen Waren verkaufen und Zahlungen für die verkauften Waren entgegennehmen Reklamationen entgegennehmen und Ware umtauschen den Warenbedarf ermitteln, Angebote einholen, Liefer- und Zahlungsbedingungen prüfen, Ware bestellen, Warenbestände kontrollieren und bei Inventuren mitwirken"
+    "de": [
+      "Musikinstrumente, Notenbücher, CDs, Schallplatten, Musikanlagen, DVDs, MP3s und Musikfachzeitschriften verkaufen Kunden und Kundinnen über Musikinstrumente, Musikalien, Musiktrends beraten, ggf. Musikinstrumente vorführen Waren verkaufen und Zahlungen für die verkauften Waren entgegennehmen Reklamationen entgegennehmen und Ware umtauschen den Warenbedarf ermitteln, Angebote einholen, Liefer- und Zahlungsbedingungen prüfen, Ware bestellen, Warenbestände kontrollieren und bei Inventuren mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/625",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

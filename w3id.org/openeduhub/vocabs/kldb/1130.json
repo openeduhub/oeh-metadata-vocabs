@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe versorgen, füttern und pflegen Pferde, organisieren die Stall- und Weidehaltung und bewegen die Tiere. Zudem beraten sie Kunden hinsichtlich der Pferdehaltung."
   },
   "note": {
-    "de": "Pferde versorgen und pflegen, z. B. füttern, tränken, reinigen, Hufe und Fell pflegen, Pferde zäumen, satteln, anschirren und anspannen, Krankheiten erkennen und behandeln Pferde täglich bewegen, trainieren und die Kondition von ausgebildeten Pferden erhalten Futtermittel beschaffen und vorbereiten, z. B. Qualität von Futterproben beurteilen, Futter einlagern, Futterrationen berechnen und anmischen Stallarbeiten und Weidepflege durchführen, z. B. Stallanlagen reinigen und ausbessern, Koppelauslauf schaffen und Zäune überprüfen, Tränken reinigen Kunden hinsichtlich der Pferdehaltung beraten, z. B. bei der Auswahl von Pferden und Ausrüstung, über Fütterung und Haltung, über Trainingsmöglichkeiten Pferdetransporte vorbereiten und durchführen"
+    "de": [
+      "Pferde versorgen und pflegen, z. B. füttern, tränken, reinigen, Hufe und Fell pflegen, Pferde zäumen, satteln, anschirren und anspannen, Krankheiten erkennen und behandeln Pferde täglich bewegen, trainieren und die Kondition von ausgebildeten Pferden erhalten Futtermittel beschaffen und vorbereiten, z. B. Qualität von Futterproben beurteilen, Futter einlagern, Futterrationen berechnen und anmischen Stallarbeiten und Weidepflege durchführen, z. B. Stallanlagen reinigen und ausbessern, Koppelauslauf schaffen und Zäune überprüfen, Tränken reinigen Kunden hinsichtlich der Pferdehaltung beraten, z. B. bei der Auswahl von Pferden und Ausrüstung, über Fütterung und Haltung, über Trainingsmöglichkeiten Pferdetransporte vorbereiten und durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/113",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben im Aus- und Trockenbau, in der Isolierung, Zimmerei, Glaserei sowie im Rollladen- und Jalousiebau."
   },
   "note": {
-    "de": "Pläne, Skizzen, Aufrisse per Hand oder mit CAD-Anwendungen anfertigen, dabei Kundenwünsche berücksichtigen Materialbedarf und Maschineneinsatz berechnen und für die rechtzeitige Bereitstellung sorgen, ggf. Mitarbeiter/innen anleiten Fertigungs- und Montagearbeiten durchführen, dabei Maschinen und Werkzeuge bedienen im Trockenbau z. B. Untergründe vorbereiten, Unterkonstruktionen herstellen, Leichtbauwände, z. B. aus Holz- und Gipsplatten, herstellen in der Isolierung z. B. Gebäude bzw. Gebäudeteile vor Feuchtigkeit isolieren und für den Wärme-, Kälte- und Schallschutz dämmen, Maschinen und Behälter ummanteln in der Zimmerei z. B. Holztreppen entwerfen, konstruieren und einbauen, Holzschutzarbeiten durchführen, Holzkonstruktionen restaurieren in der Glaserei z. B. Fenster-, Tür- und Fassadenkonstruktionen sowie Wintergärten anfertigen und montieren, beschädigte Gläser austauschen im Rollladen- und Jalousiebau z. B. Markisen, Sonnensegel und Verdunklungsanlagen fertigen und montieren, Antriebe und Automatiksteuerungen einbauen"
+    "de": [
+      "Pläne, Skizzen, Aufrisse per Hand oder mit CAD-Anwendungen anfertigen, dabei Kundenwünsche berücksichtigen Materialbedarf und Maschineneinsatz berechnen und für die rechtzeitige Bereitstellung sorgen, ggf. Mitarbeiter/innen anleiten Fertigungs- und Montagearbeiten durchführen, dabei Maschinen und Werkzeuge bedienen im Trockenbau z. B. Untergründe vorbereiten, Unterkonstruktionen herstellen, Leichtbauwände, z. B. aus Holz- und Gipsplatten, herstellen in der Isolierung z. B. Gebäude bzw. Gebäudeteile vor Feuchtigkeit isolieren und für den Wärme-, Kälte- und Schallschutz dämmen, Maschinen und Behälter ummanteln in der Zimmerei z. B. Holztreppen entwerfen, konstruieren und einbauen, Holzschutzarbeiten durchführen, Holzkonstruktionen restaurieren in der Glaserei z. B. Fenster-, Tür- und Fassadenkonstruktionen sowie Wintergärten anfertigen und montieren, beschädigte Gläser austauschen im Rollladen- und Jalousiebau z. B. Markisen, Sonnensegel und Verdunklungsanlagen fertigen und montieren, Antriebe und Automatiksteuerungen einbauen"
+    ]
   },
   "narrower": [
     {
@@ -85,6 +87,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -93,8 +96,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -133,11 +148,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

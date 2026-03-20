@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Tierpflege. Sie halten, füttern und versorgen Tiere, richten Tierunterkünfte ein und reinigen diese, bilden Tiere aus oder organisieren die Arbeit z. B. in Tierheimen oder Zoos."
   },
   "note": {
-    "de": "Nutz-, Haus-, Zoo- und Versuchstiere versorgen und betreuen, z. B. füttern und tränken, pflegen, die Gesundheit der Tiere überwachen, Tierunterkünfte säubern Maschinen und Anlagen wie Futterautomaten bedienen, warten und instand halten die Tierpflege und Tierhaltung organisieren, Zucht und Aufzucht von Tieren überwachen, Arbeitsabläufe organisieren und Arbeitskräfte einteilen kaufmännisch-verwaltende Aufgaben wahrnehmen, z. B. Kostenkalkulationen, den Zahlungsverkehr und die Qualitätssicherung durchführen Tiere dressieren oder trainieren, z. B. Tiere für die Unterhaltung, Film und Fernsehen oder für den Einsatz bei Polizei oder Bergrettung trainieren die Einrichtung, z. B. ein Tierheim oder einen Zoo, in der Öffentlichkeit repräsentieren, Haustiere vermitteln, Mitglieder oder Sponsoren gewinnen"
+    "de": [
+      "Nutz-, Haus-, Zoo- und Versuchstiere versorgen und betreuen, z. B. füttern und tränken, pflegen, die Gesundheit der Tiere überwachen, Tierunterkünfte säubern Maschinen und Anlagen wie Futterautomaten bedienen, warten und instand halten die Tierpflege und Tierhaltung organisieren, Zucht und Aufzucht von Tieren überwachen, Arbeitsabläufe organisieren und Arbeitskräfte einteilen kaufmännisch-verwaltende Aufgaben wahrnehmen, z. B. Kostenkalkulationen, den Zahlungsverkehr und die Qualitätssicherung durchführen Tiere dressieren oder trainieren, z. B. Tiere für die Unterhaltung, Film und Fernsehen oder für den Einsatz bei Polizei oder Bergrettung trainieren die Einrichtung, z. B. ein Tierheim oder einen Zoo, in der Öffentlichkeit repräsentieren, Haustiere vermitteln, Mitglieder oder Sponsoren gewinnen"
+    ]
   },
   "narrower": [
     {
@@ -68,6 +70,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -76,8 +79,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -116,11 +131,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

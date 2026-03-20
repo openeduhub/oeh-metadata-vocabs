@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe analysieren die Erscheinungs- und Entwicklungsformen gesellschaftlicher Strukturen und deren Auswirkungen auf das Individuum empirisch und systematisch. Dazu wählen sie qualitative oder quantitative Erhebungsverfahren aus und wenden sie an."
   },
   "note": {
-    "de": "die Strukturen der menschlichen Gesellschaft oder soziale Phänomene, wie z. B. Arbeitslosigkeit, Ausländerfeindlichkeit oder Genderunterschiede, erforschen die Strukturen sozialer Gebilde und Institutionen, wie z. B. Betriebe, Familien oder Vereine untersuchen empirische Methoden der Sozialforschung anwenden, Fragebögen erstellen und Interviewleitfäden erarbeiten, Stichproben konstruieren, soziologische Daten erheben und auswerten wissenschaftliche Arbeiten und Berichte zu soziologischen Themen verfassen Beratungen durchführen, Entscheidungsgrundlagen und Planungsunterlagen für sozial-, bildungs- oder städteplanerische Entscheidungen anfertigen"
+    "de": [
+      "die Strukturen der menschlichen Gesellschaft oder soziale Phänomene, wie z. B. Arbeitslosigkeit, Ausländerfeindlichkeit oder Genderunterschiede, erforschen die Strukturen sozialer Gebilde und Institutionen, wie z. B. Betriebe, Familien oder Vereine untersuchen empirische Methoden der Sozialforschung anwenden, Fragebögen erstellen und Interviewleitfäden erarbeiten, Stichproben konstruieren, soziologische Daten erheben und auswerten wissenschaftliche Arbeiten und Berichte zu soziologischen Themen verfassen Beratungen durchführen, Entscheidungsgrundlagen und Planungsunterlagen für sozial-, bildungs- oder städteplanerische Entscheidungen anfertigen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/913",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe führen Angebots- und Preisvergleiche durch, sind im Controlling und in der Abrechnung von Bauprojekten tätig und planen, organisieren und überwachen die Geschäftsaktivitäten bei bauwirtschaftlichen Vorhaben."
   },
   "note": {
-    "de": "Kalkulationen anhand von Entwürfen, Plänen und statischen Berechnungen erstellen, Leistungsverzeichnisse bearbeiten und Angebots- und Preisvergleiche durchführen Leistungen und Rechnungen, z. B. von Lieferanten und Subunternehmen, prüfen, Rechnungslegung, Rechnungskontrolle und Forderungsmanagement durchführen Gebäudestandorte und Gebäudegestaltungsmöglichkeiten analysieren und bewerten Umsetzungsmöglichkeiten von Bauvorhaben bewerten, Kosten-Nutzen-Analysen durchführen Bauvorhaben oder Baubewirtschaftung organisieren, Zwischenziele überwachen, z. B. in Baukalkulation, Controlling, Organisation oder Personalwirtschaft an Forschungsprojekten z. B. zu bauwirtschaftlichen Fragestellungen mitwirken"
+    "de": [
+      "Kalkulationen anhand von Entwürfen, Plänen und statischen Berechnungen erstellen, Leistungsverzeichnisse bearbeiten und Angebots- und Preisvergleiche durchführen Leistungen und Rechnungen, z. B. von Lieferanten und Subunternehmen, prüfen, Rechnungslegung, Rechnungskontrolle und Forderungsmanagement durchführen Gebäudestandorte und Gebäudegestaltungsmöglichkeiten analysieren und bewerten Umsetzungsmöglichkeiten von Bauvorhaben bewerten, Kosten-Nutzen-Analysen durchführen Bauvorhaben oder Baubewirtschaftung organisieren, Zwischenziele überwachen, z. B. in Baukalkulation, Controlling, Organisation oder Personalwirtschaft an Forschungsprojekten z. B. zu bauwirtschaftlichen Fragestellungen mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/311",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

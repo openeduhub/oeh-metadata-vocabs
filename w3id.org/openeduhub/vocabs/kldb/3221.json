@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe pflastern Verkehrsflächen aller Art. Sie bereiten die Untergründe vor und verlegen unterschiedliche Pflaster- und Plattenbeläge wie Groß-, Klein-, Mosaik- oder Verbundpflaster."
   },
   "note": {
-    "de": "Bautechniker bei Vermessungsarbeiten der Baustelle unterstützen, Frostschutzschichten einbauen, Untergrund vorbereiten, z. B. planieren und verdichten Platten oder Steine aus Beton- oder Naturstein passgenau zuschneiden oder behauen, auf dem Untergrund anbringen und mit Pflasterhammer fixieren Muster aus Kleinpflaster- oder Mosaiksteinen legen, z. B. Bögen oder Ornamente, dafür Richtschnüre spannen und Steine nach Verlegeplan anordnen Restflächen auspflastern, z. B. mit Kleinpflastersteinen, Beläge mit dem Flächenrüttler einrütteln, Fugen mit Sand oder Zementschlamm ausfüllen Randbefestigungen zur seitlichen Begrenzung von Straßen und Wegen anbringen, z. B. Begrenzungs-, Bord- und Einfasssteine verlegen und mit Mörtel verfugen Ausbesserungs- und Instandhaltungsmaßnahmen, z. B. bei historischen Pflasterungen in der Altstadtsanierung, durchführen"
+    "de": [
+      "Bautechniker bei Vermessungsarbeiten der Baustelle unterstützen, Frostschutzschichten einbauen, Untergrund vorbereiten, z. B. planieren und verdichten Platten oder Steine aus Beton- oder Naturstein passgenau zuschneiden oder behauen, auf dem Untergrund anbringen und mit Pflasterhammer fixieren Muster aus Kleinpflaster- oder Mosaiksteinen legen, z. B. Bögen oder Ornamente, dafür Richtschnüre spannen und Steine nach Verlegeplan anordnen Restflächen auspflastern, z. B. mit Kleinpflastersteinen, Beläge mit dem Flächenrüttler einrütteln, Fugen mit Sand oder Zementschlamm ausfüllen Randbefestigungen zur seitlichen Begrenzung von Straßen und Wegen anbringen, z. B. Begrenzungs-, Bord- und Einfasssteine verlegen und mit Mörtel verfugen Ausbesserungs- und Instandhaltungsmaßnahmen, z. B. bei historischen Pflasterungen in der Altstadtsanierung, durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

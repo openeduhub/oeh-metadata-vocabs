@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Chemie, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „413 Chemie“ nicht anderweitig erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit Fragestellungen in der Arzneimittel-, Lebensmittel-, Polymer- oder Wirtschaftschemie."
   },
   "note": {
-    "de": "Stoffinhalte und -eigenschaften durch chemische Analysemethoden nachweisen, z. B. die Gewässergüte überprüfen oder Nährstoff- und Schadstoffanalysen durchführen Konzepte zur vorklinischen und klinischen Erprobung von Medikamenten entwickeln die Eigenschaften komplexer chemischer, biochemischer und mikrobiologischer Systeme, z. B. in Kunststoffen, Autoreifen, Hightech-Materialien oder Beschichtungen, untersuchen Polymere und Synthesewege, z. B. für Kunststoffe, Lacke, Farben, Hightech-Materialien, Chemiefasern, Textilhilfsstoffe, Arzneimittel, Kosmetika oder Waschmittel, entwickeln im Labor entwickelte Produktions- und Aufarbeitungsverfahren auf den großtechnischen Maßstab übertragen und anpassen vorhandene Produkte verbessern und neue entwickeln, bei der Qualitätskontrolle mitwirken und nach neuen Anwendungen für Produkte suchen toxikologische Risiken von Arzneimitteln im Rahmen des vorgeschriebenen Zulassungsverfahrens bewerten"
+    "de": [
+      "Stoffinhalte und -eigenschaften durch chemische Analysemethoden nachweisen, z. B. die Gewässergüte überprüfen oder Nährstoff- und Schadstoffanalysen durchführen Konzepte zur vorklinischen und klinischen Erprobung von Medikamenten entwickeln die Eigenschaften komplexer chemischer, biochemischer und mikrobiologischer Systeme, z. B. in Kunststoffen, Autoreifen, Hightech-Materialien oder Beschichtungen, untersuchen Polymere und Synthesewege, z. B. für Kunststoffe, Lacke, Farben, Hightech-Materialien, Chemiefasern, Textilhilfsstoffe, Arzneimittel, Kosmetika oder Waschmittel, entwickeln im Labor entwickelte Produktions- und Aufarbeitungsverfahren auf den großtechnischen Maßstab übertragen und anpassen vorhandene Produkte verbessern und neue entwickeln, bei der Qualitätskontrolle mitwirken und nach neuen Anwendungen für Produkte suchen toxikologische Risiken von Arzneimitteln im Rahmen des vorgeschriebenen Zulassungsverfahrens bewerten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/413",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

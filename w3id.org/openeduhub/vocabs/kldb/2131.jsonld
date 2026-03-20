@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe stellen Rohstoffgemische für die Fertigung von Glas her, planen die Produktion von Glaserzeugnissen und stellen mithilfe von weitgehend automatisierten Maschinen und Anlagen z. B. Flaschen, Vasen, Glasröhren sowie Flach-, Kristall- und Beleuchtungsglas her."
   },
   "note": {
-    "de": "Rohstoffe, wie z. B. Quarzsand, Soda, Kalk und Dolomit, rechtzeitig bereitstellen, nach bestimmten Rezepturen zu Gemengen mischen und in Öfen oder Wannen schmelzen geschmolzenes Glasgemenge durch Pressen, Blasen, Spinnen oder Walzen in die gewünschte Form bringen Glasabschneidemaschinen, Glaspressen, Schleifmaschinen sowie Misch-, Reinigungs- und Verpackungsanlagen einrichten, bedienen und warten Qualität der Produkte mithilfe von Temperaturmessgeräten und optischen Spannungsprüfern kontrollieren, Gewicht und Dichte von Glasartikeln prüfen fertige Werkstücke, z. B. Schalen, Flaschen, Dekorationsartikel oder Flachglas, sortieren, verpacken und lagern personellen, maschinellen und materiellen Einsatz für die Fertigung von Glaserzeugnissen unter wirtschaftlichen Gesichtspunkten planen Einhaltung von Arbeitsschutz- und Unfallverhütungsvorschriften bei der Glasherstellung überwachen Glasformen sowie deren Oberflächengestaltung in Hinblick auf die fertigungstechnischen Möglichkeiten für Serienfertigung auswählen Angebote zu Glasprodukten erstellen, Kosten im jeweiligen Verantwortungsbereich kalkulieren"
+    "de": [
+      "Rohstoffe, wie z. B. Quarzsand, Soda, Kalk und Dolomit, rechtzeitig bereitstellen, nach bestimmten Rezepturen zu Gemengen mischen und in Öfen oder Wannen schmelzen geschmolzenes Glasgemenge durch Pressen, Blasen, Spinnen oder Walzen in die gewünschte Form bringen Glasabschneidemaschinen, Glaspressen, Schleifmaschinen sowie Misch-, Reinigungs- und Verpackungsanlagen einrichten, bedienen und warten Qualität der Produkte mithilfe von Temperaturmessgeräten und optischen Spannungsprüfern kontrollieren, Gewicht und Dichte von Glasartikeln prüfen fertige Werkstücke, z. B. Schalen, Flaschen, Dekorationsartikel oder Flachglas, sortieren, verpacken und lagern personellen, maschinellen und materiellen Einsatz für die Fertigung von Glaserzeugnissen unter wirtschaftlichen Gesichtspunkten planen Einhaltung von Arbeitsschutz- und Unfallverhütungsvorschriften bei der Glasherstellung überwachen Glasformen sowie deren Oberflächengestaltung in Hinblick auf die fertigungstechnischen Möglichkeiten für Serienfertigung auswählen Angebote zu Glasprodukten erstellen, Kosten im jeweiligen Verantwortungsbereich kalkulieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/213",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

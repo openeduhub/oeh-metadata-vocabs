@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Elektrotechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „263 Elektrotechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe befassen sich z. B. mit optoelektronischen oder technisch-kybernetischen Fragen."
   },
   "note": {
-    "de": "optoelektronische Anwendungen, unter Berücksichtigung der Entwicklungen moderner Optik, Halbleiter- und Computertechnik, entwickeln, konstruieren und fertigen Geräte und Verfahren der optischen Nachrichtentechnik, z. B. Strahlenemitter, Lichtwellenleiter, Koppel- und Empfangselemente, entwickeln neue Verfahren zur Automatisierung von Prozessen, Baugruppen, Geräten, Anlagen und Systemen der technischen Kybernetik und Automatisierungstechnik entwickeln Prüfvorschriften und -verfahren erstellen, Qualitätsstandards und Prüfmethoden vorgeben, Qualitätssicherung durchführen Steuer- und Regelanlagen mithilfe von spezifischen Überwachungssystemen verantwortlich kontrollieren, Betriebsbereitschaft der technischen Einrichtungen sicherstellen elektrische Anlagen für spezielle Gebäude planen, spezifische Modelle und Prototypen, z. B. für elektronische Steuergeräte, bauen und testen, bei Störungen Fehler suchen und beheben Hardware planen, z. B. für Steuerungen der technischen Anlagen in Produktionsbetrieben oder für Schalt- oder Energieversorgungsanlagen Hard- und Softwarekomponenten installieren bzw. deren Installation überwachen und in Betrieb nehmen, Einrichtungen warten, Störungsursachen finden und Störungen beheben"
+    "de": [
+      "optoelektronische Anwendungen, unter Berücksichtigung der Entwicklungen moderner Optik, Halbleiter- und Computertechnik, entwickeln, konstruieren und fertigen Geräte und Verfahren der optischen Nachrichtentechnik, z. B. Strahlenemitter, Lichtwellenleiter, Koppel- und Empfangselemente, entwickeln neue Verfahren zur Automatisierung von Prozessen, Baugruppen, Geräten, Anlagen und Systemen der technischen Kybernetik und Automatisierungstechnik entwickeln Prüfvorschriften und -verfahren erstellen, Qualitätsstandards und Prüfmethoden vorgeben, Qualitätssicherung durchführen Steuer- und Regelanlagen mithilfe von spezifischen Überwachungssystemen verantwortlich kontrollieren, Betriebsbereitschaft der technischen Einrichtungen sicherstellen elektrische Anlagen für spezielle Gebäude planen, spezifische Modelle und Prototypen, z. B. für elektronische Steuergeräte, bauen und testen, bei Störungen Fehler suchen und beheben Hardware planen, z. B. für Steuerungen der technischen Anlagen in Produktionsbetrieben oder für Schalt- oder Energieversorgungsanlagen Hard- und Softwarekomponenten installieren bzw. deren Installation überwachen und in Betrieb nehmen, Einrichtungen warten, Störungsursachen finden und Störungen beheben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/263",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

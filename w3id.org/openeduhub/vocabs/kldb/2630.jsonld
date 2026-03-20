@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe entwickeln elektrotechnische Schaltungen, Geräte und Systeme, stellen diese her, installieren sie und überprüfen deren Funktionstüchtigkeit. Sie begleiten Fertigungsprozesse etwa in der Elektroindustrie, programmieren elektronische Anlagen, erledigen Servicetätigkeiten und forschen auf dem Gebiet der Elektrotechnik."
   },
   "note": {
-    "de": "analoge und digitale elektronische Schaltungen, Schaltkreise, Baugruppen, Geräte, Anlagen und Systeme entwickeln oder weiterentwickeln, Funktionen simulieren Geräte, Systeme und Anlagen der Elektrotechnik herstellen, anschließen und in Betrieb nehmen Fertigungsanlagen und Prüfsysteme einrichten, programmieren und warten, Betriebssysteme und Programme installieren und konfigurieren, Geräte und Komponenten prüfen elektrotechnische bzw. elektronische Schaltungen aufbauen und prüfen Komponenten, Geräte und elektrotechnische Systeme sowie Systeme der Mess-, Steuerungs- und Regelungstechnik auswählen und konfigurieren Schaltpläne in Leiterplattenlayouts umsetzen und entflechten, Leiterplatten und Multilayer mithilfe von CAD-Systemen konstruieren Servicetätigkeiten durchführen, z. B. Inbetriebsetzung, vorbeugende Wartung oder Entstörung an elektrotechnischen Geräten, Anlagen und Systemen Vertrieb von elektrotechnischen Erzeugnissen und dazugehörige Dienstleistungen nach umsatz- und gewinnorientierten Aspekten planen, organisieren und durchführen technische Inhalte in Dokumentationen für Anlagen, Geräte und Baugruppen der Elektrotechnik unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes prüfen Kunden und Kundinnen bei der Anschaffung von Produkten der Elektrotechnik und deren Zubehör sowie bei der Einführung neuer Systeme beraten und betreuen Grundlagen- und Anwendungsforschung planen, organisieren und durchführen"
+    "de": [
+      "analoge und digitale elektronische Schaltungen, Schaltkreise, Baugruppen, Geräte, Anlagen und Systeme entwickeln oder weiterentwickeln, Funktionen simulieren Geräte, Systeme und Anlagen der Elektrotechnik herstellen, anschließen und in Betrieb nehmen Fertigungsanlagen und Prüfsysteme einrichten, programmieren und warten, Betriebssysteme und Programme installieren und konfigurieren, Geräte und Komponenten prüfen elektrotechnische bzw. elektronische Schaltungen aufbauen und prüfen Komponenten, Geräte und elektrotechnische Systeme sowie Systeme der Mess-, Steuerungs- und Regelungstechnik auswählen und konfigurieren Schaltpläne in Leiterplattenlayouts umsetzen und entflechten, Leiterplatten und Multilayer mithilfe von CAD-Systemen konstruieren Servicetätigkeiten durchführen, z. B. Inbetriebsetzung, vorbeugende Wartung oder Entstörung an elektrotechnischen Geräten, Anlagen und Systemen Vertrieb von elektrotechnischen Erzeugnissen und dazugehörige Dienstleistungen nach umsatz- und gewinnorientierten Aspekten planen, organisieren und durchführen technische Inhalte in Dokumentationen für Anlagen, Geräte und Baugruppen der Elektrotechnik unter Berücksichtigung der EU-Richtlinien und des Produkthaftungsgesetzes prüfen Kunden und Kundinnen bei der Anschaffung von Produkten der Elektrotechnik und deren Zubehör sowie bei der Einführung neuer Systeme beraten und betreuen Grundlagen- und Anwendungsforschung planen, organisieren und durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/263",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

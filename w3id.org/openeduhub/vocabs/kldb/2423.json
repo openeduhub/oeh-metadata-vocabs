@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe fertigen Werkstücke aus Metallteilen mittels spanender Verfahren an. Sie führen unter anderem Dreh-, Fräs- und Schleifarbeiten mit automatisierten Maschinen oder manuell mithilfe von Handwerkzeugen aus."
   },
   "note": {
-    "de": "Vorgaben aus technischen Zeichnungen in werkstoff- und fertigungsgerechte Funktionsfolgen für Werkzeugmaschinen umsetzen metallische Werkstücke mittels spanender Verfahren wie Drehen, Fräsen, Schleifen, Hobeln, Bohren oder Erodieren bearbeiten konventionelle Maschinen zur spanenden Metallbearbeitung einrichten, in Betrieb nehmen und überwachen CNC-Bearbeitungsprogramme erstellen, Programme installieren bzw. vorhandene Programme abrufen und ggf. modifizieren CNC-gesteuerte Werkzeugmaschinen für den Fertigungsprozess einrichten und beschicken, Probestücke anfertigen und Qualität beurteilen, Fehler erkennen und analysieren Qualitätskontrollen, z. B. mittels Messschieber, Messschrauben oder mit Hilfe elektronischer Messgeräte, durchführen bei der Arbeitsprozessplanung und -vorbereitung mitwirken, Fertigungsverfahren optimieren Maschinen, wie z. B. Werkzeugmaschinen, warten, reinigen und kleinere Reparaturen ausführen Maschinenbedienkräfte einweisen, bei der Anschaffung von notwendigen Werkzeugen und Maschinen beraten"
+    "de": [
+      "Vorgaben aus technischen Zeichnungen in werkstoff- und fertigungsgerechte Funktionsfolgen für Werkzeugmaschinen umsetzen metallische Werkstücke mittels spanender Verfahren wie Drehen, Fräsen, Schleifen, Hobeln, Bohren oder Erodieren bearbeiten konventionelle Maschinen zur spanenden Metallbearbeitung einrichten, in Betrieb nehmen und überwachen CNC-Bearbeitungsprogramme erstellen, Programme installieren bzw. vorhandene Programme abrufen und ggf. modifizieren CNC-gesteuerte Werkzeugmaschinen für den Fertigungsprozess einrichten und beschicken, Probestücke anfertigen und Qualität beurteilen, Fehler erkennen und analysieren Qualitätskontrollen, z. B. mittels Messschieber, Messschrauben oder mit Hilfe elektronischer Messgeräte, durchführen bei der Arbeitsprozessplanung und -vorbereitung mitwirken, Fertigungsverfahren optimieren Maschinen, wie z. B. Werkzeugmaschinen, warten, reinigen und kleinere Reparaturen ausführen Maschinenbedienkräfte einweisen, bei der Anschaffung von notwendigen Werkzeugen und Maschinen beraten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/242",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

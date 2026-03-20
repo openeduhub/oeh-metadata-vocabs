@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe sind hauptsächlich mit der Verfolgung von Straftaten betraut. Sie leiten die Ermittlungen für Verfahren und erheben, falls eine Straftat vorliegt, Anklage vor Gericht. Dort fungieren sie als Vertreter/in der Anklage."
   },
   "note": {
-    "de": "Strafanzeigen und Strafanträge entgegennehmen sämtliche belastende und entlastende Umstände beim Verdacht einer strafbaren Handlung ermitteln Ermittlungsverfahren einleiten und führen, z. B. die Kriminalpolizei mit der Durchführung der eigentlichen Ermittlungsarbeit beauftragen gegebenenfalls eigene Ermittlungen, z. B. bei Kapitalverbrechen durchführen, Beschuldigte und Zeugen bzw. Zeuginnen vernehmen Gutachten, z. B. zur Schuldfähigkeit oder Verkehrstüchtigkeit, beauftragen über die Einstellung des Ermittlungsverfahrens oder Anklageerhebung entscheiden Strafbefehlsanträge bei Gericht einreichen die Anklage in der Hauptverhandlung vertreten, das Schlussplädoyer mit Beantragung der Verurteilung oder Freisprechung des/der Angeklagten halten gerichtliche Entscheidungen bzw. rechtskräftige Urteile vollstrecken, z. B. schriftliche Ladungen zum Strafantritt veranlassen oder den Aufschub anordnen Verurteilungen an das vom Bundesamt der Justiz geführte Bundeszentralregister und das vom Kraftfahrtbundesamt geführte Verkehrszentralregister weiterleiten"
+    "de": [
+      "Strafanzeigen und Strafanträge entgegennehmen sämtliche belastende und entlastende Umstände beim Verdacht einer strafbaren Handlung ermitteln Ermittlungsverfahren einleiten und führen, z. B. die Kriminalpolizei mit der Durchführung der eigentlichen Ermittlungsarbeit beauftragen gegebenenfalls eigene Ermittlungen, z. B. bei Kapitalverbrechen durchführen, Beschuldigte und Zeugen bzw. Zeuginnen vernehmen Gutachten, z. B. zur Schuldfähigkeit oder Verkehrstüchtigkeit, beauftragen über die Einstellung des Ermittlungsverfahrens oder Anklageerhebung entscheiden Strafbefehlsanträge bei Gericht einreichen die Anklage in der Hauptverhandlung vertreten, das Schlussplädoyer mit Beantragung der Verurteilung oder Freisprechung des/der Angeklagten halten gerichtliche Entscheidungen bzw. rechtskräftige Urteile vollstrecken, z. B. schriftliche Ladungen zum Strafantritt veranlassen oder den Aufschub anordnen Verurteilungen an das vom Bundesamt der Justiz geführte Bundeszentralregister und das vom Kraftfahrtbundesamt geführte Verkehrszentralregister weiterleiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/731",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

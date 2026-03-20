@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten Rohhäute zu Leder, entwickeln neue Produkte und Materialien aus Leder, wirken bei der Entwicklung von Gerbereihilfsstoffen mit oder bei der Optimierung von Herstellungsverfahren in der Lederproduktion."
   },
   "note": {
-    "de": "konservierte Häute im Rohwarenlager nach Art, Beschaffenheit, Qualität und Gewicht sortieren und auf Fehlerhaftigkeit prüfen einzelne Rohwarenpartien für die Weiterverarbeitung, z. B. zu Schuhleder, Lederriemen, Leder für die Bekleidungsherstellung, zusammenstellen Rohhäute in der Wasserwerkstatt zu Blößen verarbeiten und in weiterer Folge zu Leder gerben, Leder zurichten, d. h. durch Färben, Fetten, Prägen, Nachgerben veredeln Arbeitsabläufe planen, organisieren sowie mit anderen Abteilungen bzw. Produktionsbereichen abstimmen, Produktionsgruppen einzelner Abteilungen koordinieren Maschinen, Anlagen und Werkzeuge einrichten, bedienen, reinigen und warten, Lederherstellungsprozesse überwachen und ggf. korrigieren Bereitstellung von Fertigungsmitteln und Betriebsbereitschaft der Betriebsmittel sicherstellen Qualität von Roh-, Hilfsstoffen und fertigen Produkten kontrollieren, Proben in allen Stadien der Fertigung entnehmen und analysieren, bei Abweichungen Fehlerursachen feststellen Gerbmittel, Lederfarben und Finishmittel sowie neue Gerbtechniken und Produkte aus Leder und Lederaustauschstoffen erproben Rezepturen für die Gerberei und Vorgaben erarbeiten und auf Betriebsbedingungen übertragen, Gerbereichemikalien nach Rezepturen zusammensetzen bei Entwicklung neuer Produktionsverfahren bzw. Herstellungs- oder Veredlungsprozessen, z. B. zur Verbesserung von Tragekomfort u.a. Ledereigenschaften, mitwirken"
+    "de": [
+      "konservierte Häute im Rohwarenlager nach Art, Beschaffenheit, Qualität und Gewicht sortieren und auf Fehlerhaftigkeit prüfen einzelne Rohwarenpartien für die Weiterverarbeitung, z. B. zu Schuhleder, Lederriemen, Leder für die Bekleidungsherstellung, zusammenstellen Rohhäute in der Wasserwerkstatt zu Blößen verarbeiten und in weiterer Folge zu Leder gerben, Leder zurichten, d. h. durch Färben, Fetten, Prägen, Nachgerben veredeln Arbeitsabläufe planen, organisieren sowie mit anderen Abteilungen bzw. Produktionsbereichen abstimmen, Produktionsgruppen einzelner Abteilungen koordinieren Maschinen, Anlagen und Werkzeuge einrichten, bedienen, reinigen und warten, Lederherstellungsprozesse überwachen und ggf. korrigieren Bereitstellung von Fertigungsmitteln und Betriebsbereitschaft der Betriebsmittel sicherstellen Qualität von Roh-, Hilfsstoffen und fertigen Produkten kontrollieren, Proben in allen Stadien der Fertigung entnehmen und analysieren, bei Abweichungen Fehlerursachen feststellen Gerbmittel, Lederfarben und Finishmittel sowie neue Gerbtechniken und Produkte aus Leder und Lederaustauschstoffen erproben Rezepturen für die Gerberei und Vorgaben erarbeiten und auf Betriebsbedingungen übertragen, Gerbereichemikalien nach Rezepturen zusammensetzen bei Entwicklung neuer Produktionsverfahren bzw. Herstellungs- oder Veredlungsprozessen, z. B. zur Verbesserung von Tragekomfort u.a. Ledereigenschaften, mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/283",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

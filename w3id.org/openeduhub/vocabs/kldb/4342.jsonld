@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe haben sich in der Programmierung spezialisiert. Sie nutzen Programmiersprachen und Entwicklungsumgebungen, um Systemkomponenten, Dienst- und Organisationssoftware sowie Anwendungen zu erstellen oder an neue Anforderungen anzupassen. Darüber hinaus suchen sie Fehler in Programmcodes und beschreiben die Funktionsweise von Programmen für Anwender/innen."
   },
   "note": {
-    "de": "auf der Basis ausführlicher und detaillierter Vorgaben Computerprogramme, z. B. für technische, wissenschaftliche, kaufmännische oder unterhaltende Anwendungen, erstellen Betriebssysteme, Systemsoftware-Komponenten und Dienst- und Organisationsprogramme erstellen, modifizieren und warten Programmiersprachen und Entwicklungsumgebungen, wie Code-Generatoren, Testhilfen, Dokumentationstools und Editiersysteme, einsetzen Aspekte der Benutzerfreundlichkeit und Software-Ergonomie berücksichtigen Testläufe durchführen, Fehler eingrenzen und beheben bereits eingeführte Softwareprodukte optimieren, Funktionsumfang von Software erweitern oder an veränderte Hardwarevoraussetzungen anpassen Arbeitsschritte dokumentieren, Beschreibungen oder Arbeitsanweisungen zur Bedienung eines Programms erstellen"
+    "de": [
+      "auf der Basis ausführlicher und detaillierter Vorgaben Computerprogramme, z. B. für technische, wissenschaftliche, kaufmännische oder unterhaltende Anwendungen, erstellen Betriebssysteme, Systemsoftware-Komponenten und Dienst- und Organisationsprogramme erstellen, modifizieren und warten Programmiersprachen und Entwicklungsumgebungen, wie Code-Generatoren, Testhilfen, Dokumentationstools und Editiersysteme, einsetzen Aspekte der Benutzerfreundlichkeit und Software-Ergonomie berücksichtigen Testläufe durchführen, Fehler eingrenzen und beheben bereits eingeführte Softwareprodukte optimieren, Funktionsumfang von Software erweitern oder an veränderte Hardwarevoraussetzungen anpassen Arbeitsschritte dokumentieren, Beschreibungen oder Arbeitsanweisungen zur Bedienung eines Programms erstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/434",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

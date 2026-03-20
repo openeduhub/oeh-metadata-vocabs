@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten Tabakblätter teils maschinell, teils manuell zu Zigaretten, Zigarren, Zigarillos und anderen Tabakwaren. Sie organisieren und überwachen Arbeitsabläufe in der Herstellung von Tabakwaren und entwickeln die Produktpalette weiter."
   },
   "note": {
-    "de": "Zigarettenmaschinen einstellen und bedienen Schnitttabak zu einem Tabakstrang ausbreiten, mit Zigarettenpapier umhüllen, Rollen in Stücke schneiden, mit Filtermundstücken und Belagpapier verbinden Endprüfung der Produkte übernehmen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen durchführen fertige Zigaretten in einem Zigarettenspeicher lagern, maschinell verpacken und Steuerzeichen anbringen für Zigarren und Zigarillos Einlagetabak in Umblatt und Deckblatt rollen, z. T. manuell, häufiger maschinell Zigarren und Zigarillos nach Farben und Güteklassen sortieren, pressen und verpacken Produktionsabläufe planen, organisieren und überwachen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Mischungen erarbeiten, zielgruppenorientierte Produktreihen entwickeln"
+    "de": [
+      "Zigarettenmaschinen einstellen und bedienen Schnitttabak zu einem Tabakstrang ausbreiten, mit Zigarettenpapier umhüllen, Rollen in Stücke schneiden, mit Filtermundstücken und Belagpapier verbinden Endprüfung der Produkte übernehmen, Maßnahmen zur Qualitätssicherung einleiten und durchführen, z. B. mikrobiologische und chemische Untersuchungen durchführen fertige Zigaretten in einem Zigarettenspeicher lagern, maschinell verpacken und Steuerzeichen anbringen für Zigarren und Zigarillos Einlagetabak in Umblatt und Deckblatt rollen, z. T. manuell, häufiger maschinell Zigarren und Zigarillos nach Farben und Güteklassen sortieren, pressen und verpacken Produktionsabläufe planen, organisieren und überwachen an der Produktentwicklung und -verbesserung mitwirken, z. B. neue Mischungen erarbeiten, zielgruppenorientierte Produktreihen entwickeln"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

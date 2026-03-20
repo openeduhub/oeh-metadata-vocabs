@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe analysieren, konzipieren und warten Netzwerke und Netzwerkdaten. Sie richten beispielsweise PC-Netzwerke oder digital vernetzte Maschinen und Anlagen ein und stellen den Betrieb von Netzwerken sicher."
   },
   "note": {
-    "de": "PC-Arbeitsplätze und -Netzwerke aufbauen und einrichten, z. B. Betriebssysteme sowie Netzwerkkomponenten installieren und konfigurieren, Netzwerke planen und warten Anbindung von Computern an Telekommunikationsanlagen herstellen Changemanagement von Netzwerken betreiben, z. B. Änderungsbedarf aus technischer Sicht prüfen, Evaluierungen, Variantenvergleiche und Wirtschaftlichkeitsanalysen durchführen bestehende Netzwerkinfrastrukturen analysieren, aktuellen und zukünftigen Bedarf berechnen neue komplexe IT-Netze sowie die Erweiterung und Modernisierung bestehender Netze und Teilnetze planen und konzipieren, bestehende Netzwerke optimieren technische Dokumentationen und Netzpläne, inklusive deren grafischer Darstellung, erstellen manuelle und automatisierte Tests auf den Ebenen Unit-, Funktions-, System- und Akzeptanztest für Soft- und Hardwarekomponenten durchführen"
+    "de": [
+      "PC-Arbeitsplätze und -Netzwerke aufbauen und einrichten, z. B. Betriebssysteme sowie Netzwerkkomponenten installieren und konfigurieren, Netzwerke planen und warten Anbindung von Computern an Telekommunikationsanlagen herstellen Changemanagement von Netzwerken betreiben, z. B. Änderungsbedarf aus technischer Sicht prüfen, Evaluierungen, Variantenvergleiche und Wirtschaftlichkeitsanalysen durchführen bestehende Netzwerkinfrastrukturen analysieren, aktuellen und zukünftigen Bedarf berechnen neue komplexe IT-Netze sowie die Erweiterung und Modernisierung bestehender Netze und Teilnetze planen und konzipieren, bestehende Netzwerke optimieren technische Dokumentationen und Netzpläne, inklusive deren grafischer Darstellung, erstellen manuelle und automatisierte Tests auf den Ebenen Unit-, Funktions-, System- und Akzeptanztest für Soft- und Hardwarekomponenten durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/433",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

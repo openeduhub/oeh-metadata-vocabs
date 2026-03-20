@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen Nutz- und Sonderfahrzeuge für die Bau-, Land- oder Forstwirtschaft her, nehmen sie in Betrieb, halten sie instand, montieren Baukräne oder warten Motorgeräte. Zudem konstruieren und erproben sie erforderliche Maschinen bzw. Maschinenteile."
   },
   "note": {
-    "de": "Land- und Baumaschinen und -geräte warten, montieren, in Betrieb nehmen und für den jeweiligen Einsatz einrichten Schmier- und Kühlmittel sowie Verschleißteile austauschen, defekte Bauteile und Systeme ausbauen und reparieren, ggf. Ersatzteile einbauen Bauteile abmessen, durch Brennschneiden, Trennschleifen, mit Metallsägen zuschneiden, Bauteile durch spanende und nichtspanende Verfahren in die erforderliche Form bringen Bauteile, Normteile und fertige Einzel- und Zubehörteile für Sonderfahrzeuge, land- und forstwirtschaftliche Fahrzeuge einschließlich Sondereinrichtungen zusammenbauen Einzelteile für Kräne aller Art anfertigen und zu Baugruppen oder vollständigen Bau-, Industrie- oder Hafenkränen montieren Land- und Baumaschinen bzw. Maschinenteile entwickeln und konstruieren, dabei funktionelle, fertigungs- und umwelt-technische sowie wirtschaftliche Aspekte beachten Konstruktionszeichnungen für die Fertigung anfertigen, dabei rechnergestützte Zeichenanlagen einsetzen, Funktions- und Belastungsprüfungen durchführen, Qualitätsnormen festlegen Wartung, Instandsetzung und Reparatur von Land- und Baumaschinen organisieren und ausführen Kunden und Kundinnen beraten, z. B. in die Bedienung der Land- und Baumaschinen oder Wartung einweisen die Einhaltung der umwelt- und sicherheitstechnischen Vorschriften von landwirtschaftlichen Fahrzeugen und Baumaschinen kontrollieren, Fahrzeuge begutachten, TÜV-Abnahmen durchführen"
+    "de": [
+      "Land- und Baumaschinen und -geräte warten, montieren, in Betrieb nehmen und für den jeweiligen Einsatz einrichten Schmier- und Kühlmittel sowie Verschleißteile austauschen, defekte Bauteile und Systeme ausbauen und reparieren, ggf. Ersatzteile einbauen Bauteile abmessen, durch Brennschneiden, Trennschleifen, mit Metallsägen zuschneiden, Bauteile durch spanende und nichtspanende Verfahren in die erforderliche Form bringen Bauteile, Normteile und fertige Einzel- und Zubehörteile für Sonderfahrzeuge, land- und forstwirtschaftliche Fahrzeuge einschließlich Sondereinrichtungen zusammenbauen Einzelteile für Kräne aller Art anfertigen und zu Baugruppen oder vollständigen Bau-, Industrie- oder Hafenkränen montieren Land- und Baumaschinen bzw. Maschinenteile entwickeln und konstruieren, dabei funktionelle, fertigungs- und umwelt-technische sowie wirtschaftliche Aspekte beachten Konstruktionszeichnungen für die Fertigung anfertigen, dabei rechnergestützte Zeichenanlagen einsetzen, Funktions- und Belastungsprüfungen durchführen, Qualitätsnormen festlegen Wartung, Instandsetzung und Reparatur von Land- und Baumaschinen organisieren und ausführen Kunden und Kundinnen beraten, z. B. in die Bedienung der Land- und Baumaschinen oder Wartung einweisen die Einhaltung der umwelt- und sicherheitstechnischen Vorschriften von landwirtschaftlichen Fahrzeugen und Baumaschinen kontrollieren, Fahrzeuge begutachten, TÜV-Abnahmen durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/252",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

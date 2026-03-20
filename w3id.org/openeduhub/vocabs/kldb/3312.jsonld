@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe legen Estrich- und Terrazzoböden, bauen Wärme- und Schalldämmungen ein und verlegen dauerhafte Bahnen- und Plattenbeläge."
   },
   "note": {
-    "de": "für die Herstellung von Nassestrich bzw. Fließestrich Unterboden prüfen und vorbereiten, Dämmstoffe anbringen, den Estrichmörtel aufbringen und verteilen die Oberfläche mit Glättkelle oder -maschine glätten, Estrichfläche durch Beschichten, Imprägnieren und Versiegeln nachbehandeln Fertigteil-Estrichplatten bzw. Trockenestrich verlegen und verkleben, Winkelschienen als Abschluss einbauen besonders beanspruchbare Estriche, z. B. Hartstoffestriche oder kunstharzgebundene Estriche, herstellen und verlegen, z. B. als Industrieboden fugenlose Terrazzoböden herstellen, dazu Estrichmasse auf den Unterboden aufbringen und die Oberfläche mit farbiger Natursteinkörnung versehen Estriche und andere Bodenbeläge sanieren, dazu z. B. Risse im Estrich schließen"
+    "de": [
+      "für die Herstellung von Nassestrich bzw. Fließestrich Unterboden prüfen und vorbereiten, Dämmstoffe anbringen, den Estrichmörtel aufbringen und verteilen die Oberfläche mit Glättkelle oder -maschine glätten, Estrichfläche durch Beschichten, Imprägnieren und Versiegeln nachbehandeln Fertigteil-Estrichplatten bzw. Trockenestrich verlegen und verkleben, Winkelschienen als Abschluss einbauen besonders beanspruchbare Estriche, z. B. Hartstoffestriche oder kunstharzgebundene Estriche, herstellen und verlegen, z. B. als Industrieboden fugenlose Terrazzoböden herstellen, dazu Estrichmasse auf den Unterboden aufbringen und die Oberfläche mit farbiger Natursteinkörnung versehen Estriche und andere Bodenbeläge sanieren, dazu z. B. Risse im Estrich schließen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/331",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

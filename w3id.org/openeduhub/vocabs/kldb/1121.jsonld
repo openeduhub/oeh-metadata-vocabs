@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Zucht, Haltung und Versorgung von Nutztieren zur Erzeugung von Tierprodukten wie Milch oder Fleisch und vermarkten Tiere und Tierprodukte. Zum Teil übernehmen sie spezialisierte Aufgaben wie Qualitätsprüfung der Produkte oder Klauenpflege."
   },
   "note": {
-    "de": "Nutztiere versorgen und füttern, Ställe und Käfige reinigen und instand halten Gesundheit der Tiere überwachen, kranke Tiere pflegen Sonderaufgaben wie Klauenpflege durchführen Abfälle, wie Mist oder Gülle, fachgerecht entsorgen technische Geräte und Anlagen bedienen und warten, z. B. Melk- und Kühlgeräte, Selbsttränken, Fütterungseinrichtungen, Beleuchtungsanlagen, Entmistungsanlagen Nutztiere verkaufen, Tierprodukte wie Milch, Fleisch, Wolle herstellen und vermarkten Aufgaben in der Betriebsführung und Dokumentation übernehmen, z. B. Stallbuch oder Zuchtbuch führen, Futtermittel- und Verbrauchsnachweise erstellen"
+    "de": [
+      "Nutztiere versorgen und füttern, Ställe und Käfige reinigen und instand halten Gesundheit der Tiere überwachen, kranke Tiere pflegen Sonderaufgaben wie Klauenpflege durchführen Abfälle, wie Mist oder Gülle, fachgerecht entsorgen technische Geräte und Anlagen bedienen und warten, z. B. Melk- und Kühlgeräte, Selbsttränken, Fütterungseinrichtungen, Beleuchtungsanlagen, Entmistungsanlagen Nutztiere verkaufen, Tierprodukte wie Milch, Fleisch, Wolle herstellen und vermarkten Aufgaben in der Betriebsführung und Dokumentation übernehmen, z. B. Stallbuch oder Zuchtbuch führen, Futtermittel- und Verbrauchsnachweise erstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/112",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

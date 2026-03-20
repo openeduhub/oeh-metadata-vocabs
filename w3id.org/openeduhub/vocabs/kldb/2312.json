@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind mit der Weiterverarbeitung von Papiererzeugnissen u.a. zu Verpackungen aller Art befasst. Sie bedienen Papierverarbeitungs- und Verpackungsanlagen, steuern Arbeitsprozesse und entwickeln bzw. optimieren Verpackungen und Verpackungsprozesse."
   },
   "note": {
-    "de": "Papiererzeugnisse kaschieren, kleben, falzen, heften, kuvertieren, verpacken und palettieren, beschichten, binden, prägen und perforieren automatische Maschinen und Anlagen einrichten und bedienen, Herstellungsprozesse überwachen, Verpackungsmaschinen warten und instand setzen Verpackungsmittel wie Well- und Vollpappekartonagen, Faltschachteln, Hülsen oder Briefumschläge und Versandtaschen herstellen technische Produktionsabläufe für die Herstellung von Verpackungen und Packmitteln planen, analysieren und weiterentwickeln mithilfe chemischer und technischer Verfahren neue Verpackungen entwickeln sowie Verpackungen optimieren, dabei z. B. Belastungsanforderungen, optische Gestaltung und fertigungstechnische Aspekte beachten Qualitätsnormen erstellen und Qualitätskontrollen durchführen, bei der Optimierung von Fertigungsabläufen mitwirken bei Planung, Entwicklung und Konstruktion von Produktionsanlagen mitarbeiten, fertigungstechnische und kostentechnische Aspekte berücksichtigen Beratungsleistungen erbringen, z. B. über verschiedene Möglichkeiten der Verpackung oder die Anwendung von Verpackungsmaschinen Umweltschutzmaßnahmen und Unfallverhütungsvorschriften einhalten bzw. die Einhaltung überwachen"
+    "de": [
+      "Papiererzeugnisse kaschieren, kleben, falzen, heften, kuvertieren, verpacken und palettieren, beschichten, binden, prägen und perforieren automatische Maschinen und Anlagen einrichten und bedienen, Herstellungsprozesse überwachen, Verpackungsmaschinen warten und instand setzen Verpackungsmittel wie Well- und Vollpappekartonagen, Faltschachteln, Hülsen oder Briefumschläge und Versandtaschen herstellen technische Produktionsabläufe für die Herstellung von Verpackungen und Packmitteln planen, analysieren und weiterentwickeln mithilfe chemischer und technischer Verfahren neue Verpackungen entwickeln sowie Verpackungen optimieren, dabei z. B. Belastungsanforderungen, optische Gestaltung und fertigungstechnische Aspekte beachten Qualitätsnormen erstellen und Qualitätskontrollen durchführen, bei der Optimierung von Fertigungsabläufen mitwirken bei Planung, Entwicklung und Konstruktion von Produktionsanlagen mitarbeiten, fertigungstechnische und kostentechnische Aspekte berücksichtigen Beratungsleistungen erbringen, z. B. über verschiedene Möglichkeiten der Verpackung oder die Anwendung von Verpackungsmaschinen Umweltschutzmaßnahmen und Unfallverhütungsvorschriften einhalten bzw. die Einhaltung überwachen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/231",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichtsaufgaben in der Glasherstellung und -verarbeitung. Sie sind in Betrieben der Glasherstellung, des Glasapparatebaus und der optischen Industrie tätig und tragen Verantwortung für die Produktionsprozesse."
   },
   "note": {
-    "de": "Produktionsziele festlegen, bestmögliche Fertigungsschritte für die Glasproduktion, -verarbeitung und -veredelung analysieren, Arbeitsabläufe und -aufteilung bestimmen Materialbedarf berechnen und für Materialnachschub, z. B. von Rohglas, sorgen, Einhaltung von Kosten und Terminen überwachen Muster, Entwurfsskizzen und technische Zeichnungen beispielsweise von Mikroskopen erstellen oder kontrollieren Einstellungen von Maschinen und Geräten, wie z. B. von CNC-gesteuerten Fräs-, Schleif- und Poliermaschinen, kontrollieren die Herstellung von optischen Bauteilen wie Prismen oder Spiegeln unter Anwendung von Probegläsern und Feinmesszeugen prüfen Werkstücke in Bezug auf Funktion, Sauberkeit, Passung und Genauigkeit kontrollieren, Fehler erkennen und beseitigen Einhaltung von Vorschriften und Bestimmungen zu Arbeitssicherheit und Umweltschutz sicherstellen Kunden und Kundinnen beraten, Angebote für Glasprodukte erstellen, Verhandlungen mit Lieferanten von Rohmaterialien oder Hilfsstoffen führen Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    "de": [
+      "Produktionsziele festlegen, bestmögliche Fertigungsschritte für die Glasproduktion, -verarbeitung und -veredelung analysieren, Arbeitsabläufe und -aufteilung bestimmen Materialbedarf berechnen und für Materialnachschub, z. B. von Rohglas, sorgen, Einhaltung von Kosten und Terminen überwachen Muster, Entwurfsskizzen und technische Zeichnungen beispielsweise von Mikroskopen erstellen oder kontrollieren Einstellungen von Maschinen und Geräten, wie z. B. von CNC-gesteuerten Fräs-, Schleif- und Poliermaschinen, kontrollieren die Herstellung von optischen Bauteilen wie Prismen oder Spiegeln unter Anwendung von Probegläsern und Feinmesszeugen prüfen Werkstücke in Bezug auf Funktion, Sauberkeit, Passung und Genauigkeit kontrollieren, Fehler erkennen und beseitigen Einhaltung von Vorschriften und Bestimmungen zu Arbeitssicherheit und Umweltschutz sicherstellen Kunden und Kundinnen beraten, Angebote für Glasprodukte erstellen, Verhandlungen mit Lieferanten von Rohmaterialien oder Hilfsstoffen führen Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/213",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

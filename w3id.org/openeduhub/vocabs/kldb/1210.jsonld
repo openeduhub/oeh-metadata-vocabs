@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der Produktion und Pflege von Pflanzen und in der Anlage und Pflege von Grünflächen tätig. Sie übernehmen dabei planende, kaufmännische, organisatorische oder praktische Aufgaben."
   },
   "note": {
-    "de": "Produktionsflächen anlegen, Pflanzen anbauen, vermehren, ziehen, ernten, lagern, vermarkten und versenden Einkauf und Annahme, z. B. von Jungpflanzen oder Düngemitteln, organisieren und überwachen, Qualitätskontrollen durchführen Bepflanzungen auf Grünflächen und Außenanlagen im öffentlichen und privaten Raum planen, anlegen und pflegen Maschinen und Geräte der Gartenbautechnik bedienen, warten und instand halten Kundschaft zu Tätigkeiten im Gartenbau beraten und betreuen, Angebot an Kundenwünsche anpassen Aufgaben in Organisation und Verwaltung von Gartenbaubetrieben übernehmen, z. B. Buchführung, Kostenrechnung, Steuerung von Personen- und Betriebsmitteleinsatz Bestimmungen des Arbeits- und Umweltschutzes beachten bzw. die Einhaltung überwachen neue Verfahren und Methoden für die Pflanzenzucht, Anbau und Ernte optimieren"
+    "de": [
+      "Produktionsflächen anlegen, Pflanzen anbauen, vermehren, ziehen, ernten, lagern, vermarkten und versenden Einkauf und Annahme, z. B. von Jungpflanzen oder Düngemitteln, organisieren und überwachen, Qualitätskontrollen durchführen Bepflanzungen auf Grünflächen und Außenanlagen im öffentlichen und privaten Raum planen, anlegen und pflegen Maschinen und Geräte der Gartenbautechnik bedienen, warten und instand halten Kundschaft zu Tätigkeiten im Gartenbau beraten und betreuen, Angebot an Kundenwünsche anpassen Aufgaben in Organisation und Verwaltung von Gartenbaubetrieben übernehmen, z. B. Buchführung, Kostenrechnung, Steuerung von Personen- und Betriebsmitteleinsatz Bestimmungen des Arbeits- und Umweltschutzes beachten bzw. die Einhaltung überwachen neue Verfahren und Methoden für die Pflanzenzucht, Anbau und Ernte optimieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/121",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

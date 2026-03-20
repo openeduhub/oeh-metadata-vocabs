@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe koordinieren IT-Projekte, begleiten, gestalten und verbessern die Entwicklung von Software und IT-Netzwerken, optimieren Produktkonzepte und setzen Qualitätsvorgaben um."
   },
   "note": {
-    "de": "qualitätssichernde Maßnahmen in IT-Produktentwicklungsprozessen und für ausgewählte Geschäftsprozesse in IT-Unternehmen planen, umsetzen und kontrollieren Testrichtlinien, -verfahren und -skripte für Software- und Informationssysteme entwickeln, implementieren und dokumentieren als Vorbereitung auf Tests Soft- und Hardware installieren und Betriebssystemsoftware konfigurieren Reifegradanalysen durchführen, Vorgehensmodelle und Verfahrensanweisungen erstellen und aktualisieren sowie Qualitätsmanagement-Handbücher erstellen Audits im IT-Bereich vorbereiten und betreuen, insbesondere für externe Zertifizierungen überprüfen, ob Programme gemäß den Benutzeranforderungen und festgelegten Richtlinien funktionieren als Schnittstelle zwischen Entwicklung und Administration fungieren, um eine schnellere Auslieferung von qualitativ hochwertigen Softwareprodukten zu erreichen, routinemäßige Aufgaben und Prozesse automatisieren die nachhaltige Stabilität und Störsicherheit des täglichen Betriebs von informationstechnischen Systemen und Anwendungen gewährleisten sowie auftretende Vorfälle durch Automatisierungslösungen beheben"
+    "de": [
+      "qualitätssichernde Maßnahmen in IT-Produktentwicklungsprozessen und für ausgewählte Geschäftsprozesse in IT-Unternehmen planen, umsetzen und kontrollieren Testrichtlinien, -verfahren und -skripte für Software- und Informationssysteme entwickeln, implementieren und dokumentieren als Vorbereitung auf Tests Soft- und Hardware installieren und Betriebssystemsoftware konfigurieren Reifegradanalysen durchführen, Vorgehensmodelle und Verfahrensanweisungen erstellen und aktualisieren sowie Qualitätsmanagement-Handbücher erstellen Audits im IT-Bereich vorbereiten und betreuen, insbesondere für externe Zertifizierungen überprüfen, ob Programme gemäß den Benutzeranforderungen und festgelegten Richtlinien funktionieren als Schnittstelle zwischen Entwicklung und Administration fungieren, um eine schnellere Auslieferung von qualitativ hochwertigen Softwareprodukten zu erreichen, routinemäßige Aufgaben und Prozesse automatisieren die nachhaltige Stabilität und Störsicherheit des täglichen Betriebs von informationstechnischen Systemen und Anwendungen gewährleisten sowie auftretende Vorfälle durch Automatisierungslösungen beheben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/433",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

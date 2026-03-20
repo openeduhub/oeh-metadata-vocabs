@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der technischen Forschung und Entwicklung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die an anderer Stelle der Klassifikation nicht bereits erfasst sind. Angehörige dieser Berufe beschäftigen sich z. B. mit der Entwicklung von wehrtechnischem Gerät oder mit der Prüfung und Begutachtung von Neuentwicklungen."
   },
   "note": {
-    "de": "spezifische Produktpaletten, z. B. wehrtechnisches Gerät, entwickeln bzw. die Entwicklung sicherstellen, z. B. technische Anforderungen erheben, Forschungsergebnisse bewerten Realisierbarkeit der technischen Anforderungen untersuchen, Anforderungen in ein Konzept umsetzen, Entwicklungsauftrag an die Industrie vergeben Entwicklung von Prototypen koordinieren, Versuchsart nach den spezifischen Erfordernissen des Gegenstands festlegen, sinnvolle Messmethoden bestimmen, Prototypen testen, Messungen durchführen mit der Industrie Beschaffungsverträge über Serienlieferung abschließen, Qualität der Gerätefertigung überwachen, Gerät abnehmen Kostenvoranschläge auf inhaltliche Richtigkeit prüfen, z. B. über Neuanfertigung oder Instandsetzung von technischem Gerät mögliche Erfindungen erkennen und die rechtliche Schutzwürdigkeit darstellen, Schutzansprüche anmelden, Schutzrechte technisch begutachten technische Unterstützung von Schutzrechten durchführen, in Zusammenarbeit mit Jurist/innen Rechtsansprüche von Arbeitnehmer/innen sowie Unternehmen vertreten eingehende Patentanträge in Zusammenarbeit mit Jurist/innen nach formalen und inhaltlichen Kriterien prüfen und bei der Erstellung von Prüfungsbescheiden beraten"
+    "de": [
+      "spezifische Produktpaletten, z. B. wehrtechnisches Gerät, entwickeln bzw. die Entwicklung sicherstellen, z. B. technische Anforderungen erheben, Forschungsergebnisse bewerten Realisierbarkeit der technischen Anforderungen untersuchen, Anforderungen in ein Konzept umsetzen, Entwicklungsauftrag an die Industrie vergeben Entwicklung von Prototypen koordinieren, Versuchsart nach den spezifischen Erfordernissen des Gegenstands festlegen, sinnvolle Messmethoden bestimmen, Prototypen testen, Messungen durchführen mit der Industrie Beschaffungsverträge über Serienlieferung abschließen, Qualität der Gerätefertigung überwachen, Gerät abnehmen Kostenvoranschläge auf inhaltliche Richtigkeit prüfen, z. B. über Neuanfertigung oder Instandsetzung von technischem Gerät mögliche Erfindungen erkennen und die rechtliche Schutzwürdigkeit darstellen, Schutzansprüche anmelden, Schutzrechte technisch begutachten technische Unterstützung von Schutzrechten durchführen, in Zusammenarbeit mit Jurist/innen Rechtsansprüche von Arbeitnehmer/innen sowie Unternehmen vertreten eingehende Patentanträge in Zusammenarbeit mit Jurist/innen nach formalen und inhaltlichen Kriterien prüfen und bei der Erstellung von Prüfungsbescheiden beraten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/271",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

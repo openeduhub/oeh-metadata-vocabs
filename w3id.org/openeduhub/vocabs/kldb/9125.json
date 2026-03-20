@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe untersuchen und beschreiben Kultur, Religion, Sprache, Gesellschaft und Politik einer bestimmten Region und führen Beratungen über die praktische Anwendung ihrer Erkenntnisse bei der Formulierung von wirtschafts- und sozialpolitischen Maßnahmen durch."
   },
   "note": {
-    "de": "Geschichte und Kultur bestimmter Weltregionen erforschen, analysieren und wissenschaftliche Abhandlungen sowie Expertisen verfassen fachrelevante Daten, Dokumente, Literatur ermitteln, sammeln, sichten, ordnen, dokumentieren und nutzbar machen gesellschaftliche, kulturelle Zustände und Entwicklungen sowie Umweltfaktoren der jeweiligen Region dokumentieren und auswerten Behörden, Institutionen vor Ort und im Heimatland sowie Touristikunternehmen beraten, z. B. zu möglichen Investitionsstrategien oder passenden Standorten Konzepte für die Verbesserung von Lebensbedingungen in der Region erarbeiten Informationen aus der jeweiligen Region, z. B. zu geplanten Betriebsstandorten, zu Verkehrsanbindung oder Rohstoffversorgung beschaffen und aufbereiten wissenschaftliche Arbeiten und Berichte zu der untersuchten Region verfassen und veröffentlichen"
+    "de": [
+      "Geschichte und Kultur bestimmter Weltregionen erforschen, analysieren und wissenschaftliche Abhandlungen sowie Expertisen verfassen fachrelevante Daten, Dokumente, Literatur ermitteln, sammeln, sichten, ordnen, dokumentieren und nutzbar machen gesellschaftliche, kulturelle Zustände und Entwicklungen sowie Umweltfaktoren der jeweiligen Region dokumentieren und auswerten Behörden, Institutionen vor Ort und im Heimatland sowie Touristikunternehmen beraten, z. B. zu möglichen Investitionsstrategien oder passenden Standorten Konzepte für die Verbesserung von Lebensbedingungen in der Region erarbeiten Informationen aus der jeweiligen Region, z. B. zu geplanten Betriebsstandorten, zu Verkehrsanbindung oder Rohstoffversorgung beschaffen und aufbereiten wissenschaftliche Arbeiten und Berichte zu der untersuchten Region verfassen und veröffentlichen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/912",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

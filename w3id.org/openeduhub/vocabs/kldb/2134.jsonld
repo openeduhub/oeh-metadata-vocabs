@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten und veredeln unter anderem durch Schleifen, Gravieren, Sandstrahlen und Ätzen vorgefertigte Flachglastafeln und stellen z. B. Gläser für Fenster, Spiegel, Solaranlagen, Wintergärten und Schutzverglasungen her."
   },
   "note": {
-    "de": "Flachglas aus Glastafeln auf Zuschneidetischen von Hand oder mit computergesteuerten Koordinatenschneidemaschinen winkel- und maßgenau sowie formgetreu zuschneiden Entwürfe und Schablonen anfertigen, Ornamente und Dekore sowie Schriften und Monogramme gestalten Glasbearbeitungswerkzeuge, wie z. B. Schleifbänder und Gravierrädchen sowie Ätzlösungen, Strahlsand und Farben, auswählen verschiedenfarbige Glasstücke und andere Werkstoffe, wie z. B. Blei und Messing verschmelzen Keil- und Scharfschnitte sowie Kugel-, Oliv-, Ecken-, Flächen- und Facettenschliffe ausführen Glasoberflächen meist für die Serienproduktion, z. B. durch Sandstrahlen, Ätzen, Bedrucken und Gravieren, veredeln und verzieren Werkstücke polieren, Farben, Silberschichten und Schutzbeläge auftragen und einbrennen"
+    "de": [
+      "Flachglas aus Glastafeln auf Zuschneidetischen von Hand oder mit computergesteuerten Koordinatenschneidemaschinen winkel- und maßgenau sowie formgetreu zuschneiden Entwürfe und Schablonen anfertigen, Ornamente und Dekore sowie Schriften und Monogramme gestalten Glasbearbeitungswerkzeuge, wie z. B. Schleifbänder und Gravierrädchen sowie Ätzlösungen, Strahlsand und Farben, auswählen verschiedenfarbige Glasstücke und andere Werkstoffe, wie z. B. Blei und Messing verschmelzen Keil- und Scharfschnitte sowie Kugel-, Oliv-, Ecken-, Flächen- und Facettenschliffe ausführen Glasoberflächen meist für die Serienproduktion, z. B. durch Sandstrahlen, Ätzen, Bedrucken und Gravieren, veredeln und verzieren Werkstücke polieren, Farben, Silberschichten und Schutzbeläge auftragen und einbrennen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/213",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

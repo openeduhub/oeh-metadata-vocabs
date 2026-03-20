@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der IT, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „433 IT-Netzwerktechnik, IT-Koordination, IT-Administration und IT-Organisation“ nicht anderweitig erfasst sind. Angehörige dieser Berufe erarbeiten unter anderem Sicherheitskonzepte und spüren unberechtigten Zugriffen auf Sprach- und Datennetze nach."
   },
   "note": {
-    "de": "bei der Konkretisierung von Sicherheitszielen und dem Entwurf von Sicherheitsleitlinien beraten, bei der Vertragsgestaltung im IT-Umfeld mitwirken Ist-Analysen durchführen (räumliche, technische und organisatorische Bestandsaufnahme), Schwachstellen bzw. Sicherheitslücken im IT-Betrieb, z. B. mithilfe von Penetrationstests, sowie Schutzbedarf ermitteln Kosten und Aufwand schätzen, ggf. am Markt angebotene Sicherheitsprodukte analysieren, bewerten und auswählen Richtlinien und Vorschriften zur Informationssicherheit erarbeiten, Grundschutzmodell als Prüf- oder Entwicklungsplan aufstellen Maßnahmenpläne erstellen und sie hinsichtlich Notwendigkeit, Anpassungsbedarf und Durchsetzungsmöglichkeiten überprüfen Sicherheitskonzepte zusammen mit den Auftraggebern unter Berücksichtigung der vorangegangenen Analysen erarbeiten, Vorgaben durch Gesetzgeber, Verbände und Versicherer beachten das Sicherheitssystem in die IT-Infrastruktur und das IT-Systemmanagement sowie in bestehende Sicherheitssysteme integrieren, Maßnahmen für die Sicherstellung eines störungsfreien IT-Betriebs entwickeln Pilotbetrieb durchführen, die mit dem Betrieb und der Instandhaltung beauftragten Personen einweisen und schulen Gesamttests durchführen, Systeme sowie vollständige Dokumentation an die Kunden übergeben Betrugs- und Täuschungsdelikte in Sprach- und Datennetzen aufspüren und Gegenstrategien entwickeln, Betrugsprävention betreiben"
+    "de": [
+      "bei der Konkretisierung von Sicherheitszielen und dem Entwurf von Sicherheitsleitlinien beraten, bei der Vertragsgestaltung im IT-Umfeld mitwirken Ist-Analysen durchführen (räumliche, technische und organisatorische Bestandsaufnahme), Schwachstellen bzw. Sicherheitslücken im IT-Betrieb, z. B. mithilfe von Penetrationstests, sowie Schutzbedarf ermitteln Kosten und Aufwand schätzen, ggf. am Markt angebotene Sicherheitsprodukte analysieren, bewerten und auswählen Richtlinien und Vorschriften zur Informationssicherheit erarbeiten, Grundschutzmodell als Prüf- oder Entwicklungsplan aufstellen Maßnahmenpläne erstellen und sie hinsichtlich Notwendigkeit, Anpassungsbedarf und Durchsetzungsmöglichkeiten überprüfen Sicherheitskonzepte zusammen mit den Auftraggebern unter Berücksichtigung der vorangegangenen Analysen erarbeiten, Vorgaben durch Gesetzgeber, Verbände und Versicherer beachten das Sicherheitssystem in die IT-Infrastruktur und das IT-Systemmanagement sowie in bestehende Sicherheitssysteme integrieren, Maßnahmen für die Sicherstellung eines störungsfreien IT-Betriebs entwickeln Pilotbetrieb durchführen, die mit dem Betrieb und der Instandhaltung beauftragten Personen einweisen und schulen Gesamttests durchführen, Systeme sowie vollständige Dokumentation an die Kunden übergeben Betrugs- und Täuschungsdelikte in Sprach- und Datennetzen aufspüren und Gegenstrategien entwickeln, Betrugsprävention betreiben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/433",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

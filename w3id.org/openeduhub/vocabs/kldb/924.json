@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe beschaffen Informationen, werten sie aus und bereiten sie mediengerecht für Printprodukte, Hörfunk, Fernsehen und Onlinemedien auf. Sie verfassen auch Drehbücher, Reden, Romane, Erzählungen, Hörspiele, Gedichte oder Dramen."
   },
   "note": {
-    "de": "Beiträge für Print- und Onlinemedien, für Hörfunk und Fernsehen recherchieren, erstellen, prüfen und redigieren Romane, Erzählungen und Kurzgeschichten, Gedichte, Dramen oder Hörspiele verfassen Drehbücher für Film- und Fernsehproduktionen verfassen, dabei Drehbuchfiguren schaffen, Handlungsverläufe entwickeln und Szenen entwerfen Redemanuskripte für betriebliche Anlässe oder private Ereignisse anfertigen Manuskripte hinsichtlich Qualität und Marktpotenzial beurteilen und aufbereiten, d. h. inhaltliche und sprachliche Änderungen vorschlagen und Fehler korrigieren"
+    "de": [
+      "Beiträge für Print- und Onlinemedien, für Hörfunk und Fernsehen recherchieren, erstellen, prüfen und redigieren Romane, Erzählungen und Kurzgeschichten, Gedichte, Dramen oder Hörspiele verfassen Drehbücher für Film- und Fernsehproduktionen verfassen, dabei Drehbuchfiguren schaffen, Handlungsverläufe entwickeln und Szenen entwerfen Redemanuskripte für betriebliche Anlässe oder private Ereignisse anfertigen Manuskripte hinsichtlich Qualität und Marktpotenzial beurteilen und aufbereiten, d. h. inhaltliche und sprachliche Änderungen vorschlagen und Fehler korrigieren"
+    ]
   },
   "narrower": [
     {
@@ -62,6 +64,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -70,8 +73,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -110,11 +125,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

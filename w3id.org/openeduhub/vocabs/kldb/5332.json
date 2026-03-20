@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe führen Hygienekontrollen, insbesondere in den Bereichen Infektionsschutz, Seuchenabwehr, Umwelt- und Verkehrshygiene, durch und nehmen beratende Aufgaben wahr."
   },
   "note": {
-    "de": "die hygienischen Verhältnisse und die Durchführung angeordneter Maßnahmen, z. B. in Lebensmittelbetrieben, Kliniken oder Schulen, überwachen bzw. kontrollieren Ermittlungen im Rahmen der allgemeinen Ortshygiene durchführen Beratungen durchführen, z. B. örtlich zuständige Organe oder die Bevölkerung in Fragen der Seuchenhygiene und der Umweltmedizin beraten und aufklären die Untersuchungs- und Überwachungsergebnisse dokumentieren, bei epidemiologischen Erhebungen und Auswertungen mitwirken Daten bezüglich Krankenhausinfektionen, z. B. Häufigkeit und Art der Erkrankungen, aufzeichnen und bei deren Bekämpfung mithelfen medizinisch-technische Geräte und Instrumente auf Krankheitskeime untersuchen"
+    "de": [
+      "die hygienischen Verhältnisse und die Durchführung angeordneter Maßnahmen, z. B. in Lebensmittelbetrieben, Kliniken oder Schulen, überwachen bzw. kontrollieren Ermittlungen im Rahmen der allgemeinen Ortshygiene durchführen Beratungen durchführen, z. B. örtlich zuständige Organe oder die Bevölkerung in Fragen der Seuchenhygiene und der Umweltmedizin beraten und aufklären die Untersuchungs- und Überwachungsergebnisse dokumentieren, bei epidemiologischen Erhebungen und Auswertungen mitwirken Daten bezüglich Krankenhausinfektionen, z. B. Häufigkeit und Art der Erkrankungen, aufzeichnen und bei deren Bekämpfung mithelfen medizinisch-technische Geräte und Instrumente auf Krankheitskeime untersuchen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/533",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

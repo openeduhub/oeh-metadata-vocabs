@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe stellen Holzbauteile, z. B. für Fenster und Türen, her, behandeln Holzoberflächen und sanieren Holzbauteile von Altbauten. Darüber hinaus fertigen sie Innenausbauten, z. B. für Ausstellungen, und führen vor Ort die Montage durch."
   },
   "note": {
-    "de": "je nach Anforderungen Hölzer auswählen und deren Qualität beurteilen Werkstücke und Holzbauteile, z. B. Fenster, Türen und Treppen, nach Plänen und Zeichnungen anfertigen Werkstoffe mit unterschiedlichen Techniken verarbeiten, z. B. sägen, fräsen, hobeln und schleifen Holzbauteile im Verbund mit Metall- und Kunststoffbauteilen verarbeiten Montage von Holzbauteilen vor Ort durchführen und diese, z. B. durch Schrauben oder Leimen, miteinander verbinden Sanierungs-, Änderungs- und Reparaturarbeiten, z. B. bei beschädigten Holzbauteilen, durchführen Messe- und Ausstellungsstände bzw. Komponenten aus Holz fertigen und errichten, Stände vor Ort aufbauen Maschinen bedienen und warten, Werkzeuge pflegen"
+    "de": [
+      "je nach Anforderungen Hölzer auswählen und deren Qualität beurteilen Werkstücke und Holzbauteile, z. B. Fenster, Türen und Treppen, nach Plänen und Zeichnungen anfertigen Werkstoffe mit unterschiedlichen Techniken verarbeiten, z. B. sägen, fräsen, hobeln und schleifen Holzbauteile im Verbund mit Metall- und Kunststoffbauteilen verarbeiten Montage von Holzbauteilen vor Ort durchführen und diese, z. B. durch Schrauben oder Leimen, miteinander verbinden Sanierungs-, Änderungs- und Reparaturarbeiten, z. B. bei beschädigten Holzbauteilen, durchführen Messe- und Ausstellungsstände bzw. Komponenten aus Holz fertigen und errichten, Stände vor Ort aufbauen Maschinen bedienen und warten, Werkzeuge pflegen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/333",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

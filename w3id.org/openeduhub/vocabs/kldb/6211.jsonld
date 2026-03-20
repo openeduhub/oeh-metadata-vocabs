@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe bedienen Registrierkassen, optische Preisscanner, Computer oder sonstige Geräte zur Aufzeichnung und Annahme von Zahlungen für den Kauf von Waren, Dienstleistungen und Eintritte in Einrichtungen wie Handelsgeschäften, Restaurants und Kartenbüros."
   },
   "note": {
-    "de": "Zahlungen in bar, mittels Scheck, Kreditkarte oder Bankkarte in Handelsgeschäften, Kartenbüros oder ähnlichen Einrichtungen annehmen und überprüfen Wechselgeld herausgeben und Quittungen ausstellen Karten für die Teilnahme an Sport- und Kulturveranstaltungen ausstellen Aufzeichnungen über eingenommene oder ausbezahlte Gelder und Saldierung mit den Aufzeichnungen der Registrierkasse zählen und führen Einnahme von Bargeld, Überprüfung desselben anhand von Verkaufsquittungen und sonstigen Dokumenten sowie Vorbereitung desselben für die Einlage bei der Bank Registrierkassen bedienen zur Berechnung des von den Kunden oder an die Kunden zu bezahlenden Gesamtbetrages Scannen, Abwiegen und Erfassen von Warenpreisen Ware in Einkaufstaschen ein- und verpacken"
+    "de": [
+      "Zahlungen in bar, mittels Scheck, Kreditkarte oder Bankkarte in Handelsgeschäften, Kartenbüros oder ähnlichen Einrichtungen annehmen und überprüfen Wechselgeld herausgeben und Quittungen ausstellen Karten für die Teilnahme an Sport- und Kulturveranstaltungen ausstellen Aufzeichnungen über eingenommene oder ausbezahlte Gelder und Saldierung mit den Aufzeichnungen der Registrierkasse zählen und führen Einnahme von Bargeld, Überprüfung desselben anhand von Verkaufsquittungen und sonstigen Dokumenten sowie Vorbereitung desselben für die Einlage bei der Bank Registrierkassen bedienen zur Berechnung des von den Kunden oder an die Kunden zu bezahlenden Gesamtbetrages Scannen, Abwiegen und Erfassen von Warenpreisen Ware in Einkaufstaschen ein- und verpacken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/621",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

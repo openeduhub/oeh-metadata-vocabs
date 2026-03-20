@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe planen und errichten Tiefbauanlagen. Sie übernehmen dabei auch überwachende und organisatorische Aufgaben. Sie sind sowohl bei Bauunternehmen und Ingenieurbüros als auch im öffentlichen Bereich tätig."
   },
   "note": {
-    "de": "Tiefbauanlagen entwerfen, Pläne per Hand oder mithilfe von CAD-Anwendungen anfertigen Ausschreibungen und Leistungsbeschreibungen bearbeiten und durchführen sowie Kosten kalkulieren und die Einhaltung der Kosten kontrollieren Erdaushub- und Schachtarbeiten durchführen, Wasserhaltungsmaßnahmen durchführen, z. B. Sickerwasser mittels Pumpen aus Baugruben entfernen Gründungselemente für Fundamente einbringen, Verankerungssysteme einbauen, Bauteile wie Stahlträger durch Ramm-, Rüttel- und Vibrationsarbeiten einbringen Unterfangungen an bestehenden Gebäuden für Gebäudeabstützungen errichten Geräte, Anlagen und Maschinen führen, bedienen und instand halten Proben von verwendeten Materialien und dem Boden nehmen und analysieren Material und Baugeräte disponieren, z. B. die Bereitstellung an den Baustellen sicherstellen Qualität der ausgeführten Arbeiten prüfen, sicherstellen und dokumentieren"
+    "de": [
+      "Tiefbauanlagen entwerfen, Pläne per Hand oder mithilfe von CAD-Anwendungen anfertigen Ausschreibungen und Leistungsbeschreibungen bearbeiten und durchführen sowie Kosten kalkulieren und die Einhaltung der Kosten kontrollieren Erdaushub- und Schachtarbeiten durchführen, Wasserhaltungsmaßnahmen durchführen, z. B. Sickerwasser mittels Pumpen aus Baugruben entfernen Gründungselemente für Fundamente einbringen, Verankerungssysteme einbauen, Bauteile wie Stahlträger durch Ramm-, Rüttel- und Vibrationsarbeiten einbringen Unterfangungen an bestehenden Gebäuden für Gebäudeabstützungen errichten Geräte, Anlagen und Maschinen führen, bedienen und instand halten Proben von verwendeten Materialien und dem Boden nehmen und analysieren Material und Baugeräte disponieren, z. B. die Bereitstellung an den Baustellen sicherstellen Qualität der ausgeführten Arbeiten prüfen, sicherstellen und dokumentieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

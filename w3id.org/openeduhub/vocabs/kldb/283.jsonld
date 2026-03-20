@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Herstellung von Leder und Pelzen oder von Leder- und Pelzerzeugnissen, wie z. B. Schuhe, Taschen, Sättel, Leder- oder Pelzkleidung."
   },
   "note": {
-    "de": "Rohhäute und -felle zu Leder bzw. Pelz verarbeiten Lederwaren, wie z. B. Koffer, Pelz- und Lederbekleidung, Sättel und Geschirre für Pferde, Bezüge für Autositze, herstellen Schuhteile und Schuhe entwerfen, in manueller oder industrieller Produktion fertigen Kleidungsstücke aus Leder und Pelzen fertigen Produktion und Fertigung in der Leder-, Pelzherstellung und -verarbeitung planen, organisieren und überwachen Qualitätssicherungsmaßnahmen durchsetzen, Qualitätskontrollen durchführen Mitarbeiter/innen anleiten, in der Aus- und Weiterbildung von Mitarbeiter/innen mitwirken"
+    "de": [
+      "Rohhäute und -felle zu Leder bzw. Pelz verarbeiten Lederwaren, wie z. B. Koffer, Pelz- und Lederbekleidung, Sättel und Geschirre für Pferde, Bezüge für Autositze, herstellen Schuhteile und Schuhe entwerfen, in manueller oder industrieller Produktion fertigen Kleidungsstücke aus Leder und Pelzen fertigen Produktion und Fertigung in der Leder-, Pelzherstellung und -verarbeitung planen, organisieren und überwachen Qualitätssicherungsmaßnahmen durchsetzen, Qualitätskontrollen durchführen Mitarbeiter/innen anleiten, in der Aus- und Weiterbildung von Mitarbeiter/innen mitwirken"
+    ]
   },
   "narrower": [
     {
@@ -79,6 +81,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -87,8 +90,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -127,11 +142,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

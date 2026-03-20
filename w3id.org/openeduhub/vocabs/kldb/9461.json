@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe entwerfen und planen Kostüme, Bühnenbilder und Set-Designs und überwachen deren Anfertigung oder setzen die Entwürfe in die Praxis um und bemalen z. B. Kulissen bzw. Dekorationen oder fertigen plastische Dekorationsteile an, z. B. Geländer oder Statuen."
   },
   "note": {
-    "de": "Bühnenbilder und Kostüme entwerfen und skizzieren Ziele, Anforderungen und Beschränkungen für die Gestaltungskonzepte ermitteln und mit den Beteiligten festlegen Entwürfe bzw. Vorgaben der Bühnenbildner/innen durch malerische oder plastische Gestaltung von Dekorationen umsetzen, Farben mischen und auf die Beleuchtung abstimmen in Absprache mit dem Kostümbildner/der Kostümbildnerin über das Material, die Schnittführung und eventuelle Besonderheiten eines Kostüms entscheiden die Herstellung von Kulissen, Dekorationen, plastischen Gegenständen überwachen"
+    "de": [
+      "Bühnenbilder und Kostüme entwerfen und skizzieren Ziele, Anforderungen und Beschränkungen für die Gestaltungskonzepte ermitteln und mit den Beteiligten festlegen Entwürfe bzw. Vorgaben der Bühnenbildner/innen durch malerische oder plastische Gestaltung von Dekorationen umsetzen, Farben mischen und auf die Beleuchtung abstimmen in Absprache mit dem Kostümbildner/der Kostümbildnerin über das Material, die Schnittführung und eventuelle Besonderheiten eines Kostüms entscheiden die Herstellung von Kulissen, Dekorationen, plastischen Gegenständen überwachen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/946",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

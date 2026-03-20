@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Reinigung, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „541 Reinigung“ nicht anderweitig erfasst sind."
   },
   "note": {
-    "de": "zu reinigendes Objekt, z. B. Leuchtstoffröhren, auf Verunreinigungen hin untersuchen spezielle Reinigungsmittel und -verfahren bestimmen Gegenstände im Innen- und Außenbereich reinigen Teppiche und Möbelstücke mit Bezügen mithilfe von Reinigungsmaschinen und deren Zubehör reinigen Reinigungswirkstoffe, um Flecken von Teppichen zu entfernen, auswählen und verwenden Teppiche mit schmutzabweisenden und geruchstilgenden Chemikalien sowie gegen Ungeziefer behandeln"
+    "de": [
+      "zu reinigendes Objekt, z. B. Leuchtstoffröhren, auf Verunreinigungen hin untersuchen spezielle Reinigungsmittel und -verfahren bestimmen Gegenstände im Innen- und Außenbereich reinigen Teppiche und Möbelstücke mit Bezügen mithilfe von Reinigungsmaschinen und deren Zubehör reinigen Reinigungswirkstoffe, um Flecken von Teppichen zu entfernen, auswählen und verwenden Teppiche mit schmutzabweisenden und geruchstilgenden Chemikalien sowie gegen Ungeziefer behandeln"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/541",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

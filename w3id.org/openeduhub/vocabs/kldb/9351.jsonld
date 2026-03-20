@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe entwerfen und fertigen Metallobjekte, wie z. B. Gartenzäune und -tore, Metallskulpturen und sonstige Dekorationsartikel, entwickeln Produktkollektionen oder restaurieren historische Objekte."
   },
   "note": {
-    "de": "Nutz-, Zier- und Kunstgegenstände aus Metall als handwerkliche oder künstlerische Einzelstücke oder als Kleinserienerzeugnisse entwerfen und herstellen Metallbearbeitungstechniken, wie Stanzen, Schneiden, Sägen, Hämmern, Drücken, Treiben, Biegen, Pressen, Prägen, Schmieden, Feilen, Meißeln, Drehen oder Fräsen, anwenden Form- und Gussteile, Halbzeuge und Konstruktionsteile durch Schweißen, Löten, Kleben, Nieten oder Schrauben verbinden und montieren Muster und Prototypen für die Serienfertigung anfertigen und diese mit dem Auftraggeber und anderen an der Herstellung beteiligten Fachleuten abstimmen das gewählte Design für die Herstellung der kunsthandwerklichen Metallprodukte detailliert dokumentieren, den Herstellungsprozess begleiten, Ergebnisse überprüfen Gefäße, (Zier-)Beschläge, Schmuckgegenstände oder sakrale Kunstobjekte wie Bronzefiguren und Altarkreuze konservieren, restaurieren und rekonstruieren"
+    "de": [
+      "Nutz-, Zier- und Kunstgegenstände aus Metall als handwerkliche oder künstlerische Einzelstücke oder als Kleinserienerzeugnisse entwerfen und herstellen Metallbearbeitungstechniken, wie Stanzen, Schneiden, Sägen, Hämmern, Drücken, Treiben, Biegen, Pressen, Prägen, Schmieden, Feilen, Meißeln, Drehen oder Fräsen, anwenden Form- und Gussteile, Halbzeuge und Konstruktionsteile durch Schweißen, Löten, Kleben, Nieten oder Schrauben verbinden und montieren Muster und Prototypen für die Serienfertigung anfertigen und diese mit dem Auftraggeber und anderen an der Herstellung beteiligten Fachleuten abstimmen das gewählte Design für die Herstellung der kunsthandwerklichen Metallprodukte detailliert dokumentieren, den Herstellungsprozess begleiten, Ergebnisse überprüfen Gefäße, (Zier-)Beschläge, Schmuckgegenstände oder sakrale Kunstobjekte wie Bronzefiguren und Altarkreuze konservieren, restaurieren und rekonstruieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/935",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

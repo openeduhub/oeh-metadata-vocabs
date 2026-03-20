@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe beschichten und gestalten die Oberflächen von Fahrzeugen und Aufbauten mit Lacken, Beschriftungen, Design- und Effektlackierungen. Darüber hinaus schützen sie die Oberflächen durch Konservierungsmaßnahmen, z. B. gegen Korrosion."
   },
   "note": {
-    "de": "Untergründe prüfen und bewerten, kleine Dellen an Fahrzeugen zur Vorbereitung ausbeulen, ausspachteln und entrosten, Altlackierungen anschleifen, zu bearbeitende Partien entfetten und reinigen Fahrzeuginnenverkleidungen, -verglasungen, Dichtungen, Türschlösser und Stoßstangen demontieren und montieren Farbtöne an Farbmischstationen herstellen Lackschichten in Spritzkabinen, z. B. mit Spritzgeräten und -pistolen sowie mit Pinseln und Rollen, auftragen, nicht zu lackierende Fahrzeugteile abkleben und abdecken Trocknen und Aushärten von Lackschichten in Trockenkabinen überwachen, lackierte Teile von Hand oder maschinell polieren Beschriftungen sowie Design- und Effektlackierungen entwerfen und herstellen Hohlräume versiegeln, Oberflächen mit Pflegemitteln, wie z. B. Hochglanzpolituren und Hartwachsen, konservieren, Unterböden mit Schutzbeschichtungen versehen"
+    "de": [
+      "Untergründe prüfen und bewerten, kleine Dellen an Fahrzeugen zur Vorbereitung ausbeulen, ausspachteln und entrosten, Altlackierungen anschleifen, zu bearbeitende Partien entfetten und reinigen Fahrzeuginnenverkleidungen, -verglasungen, Dichtungen, Türschlösser und Stoßstangen demontieren und montieren Farbtöne an Farbmischstationen herstellen Lackschichten in Spritzkabinen, z. B. mit Spritzgeräten und -pistolen sowie mit Pinseln und Rollen, auftragen, nicht zu lackierende Fahrzeugteile abkleben und abdecken Trocknen und Aushärten von Lackschichten in Trockenkabinen überwachen, lackierte Teile von Hand oder maschinell polieren Beschriftungen sowie Design- und Effektlackierungen entwerfen und herstellen Hohlräume versiegeln, Oberflächen mit Pflegemitteln, wie z. B. Hochglanzpolituren und Hartwachsen, konservieren, Unterböden mit Schutzbeschichtungen versehen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/222",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

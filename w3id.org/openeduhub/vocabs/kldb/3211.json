@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe planen und steuern Baumaßnahmen im Beton- und Stahlbetonbau und fertigen Bauwerke und Bauteile aus Beton- und Stahlbeton an. Sie stellen Schalungen und Bewehrungen her und montieren Betonbauteile."
   },
   "note": {
-    "de": "Berechnungen für die Herstellung von Bauteilen durchführen, z. B. Belastbarkeits- und Stabilitätsberechnungen Zeichnungen und Pläne, z. B. Detail- und Ausführungspläne, per Hand oder mithilfe von CAD-Anwendungen, anfertigen Schalungen konstruieren und herstellen Bewehrungen, z. B. aus Bewehrungsstahl, herstellen und als Betoneinlage einlegen Beton in der jeweils benötigten Qualität mischen und Betonierarbeiten durchführen, ggf. auch Betonschäden an Bauwerken beheben Qualität der ausgeführten Arbeiten kontrollieren Fertigbetonbauteile herstellen, transportieren und montieren Baumaschinen zur Herstellung von Beton bzw. Stahlbeton, z. B. Betonmischer oder Vibrationsstampfer, bedienen, pflegen und warten Baustellen leiten, kontrollieren und steuern, z. B. die Einhaltung der Termine überwachen"
+    "de": [
+      "Berechnungen für die Herstellung von Bauteilen durchführen, z. B. Belastbarkeits- und Stabilitätsberechnungen Zeichnungen und Pläne, z. B. Detail- und Ausführungspläne, per Hand oder mithilfe von CAD-Anwendungen, anfertigen Schalungen konstruieren und herstellen Bewehrungen, z. B. aus Bewehrungsstahl, herstellen und als Betoneinlage einlegen Beton in der jeweils benötigten Qualität mischen und Betonierarbeiten durchführen, ggf. auch Betonschäden an Bauwerken beheben Qualität der ausgeführten Arbeiten kontrollieren Fertigbetonbauteile herstellen, transportieren und montieren Baumaschinen zur Herstellung von Beton bzw. Stahlbeton, z. B. Betonmischer oder Vibrationsstampfer, bedienen, pflegen und warten Baustellen leiten, kontrollieren und steuern, z. B. die Einhaltung der Termine überwachen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/321",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

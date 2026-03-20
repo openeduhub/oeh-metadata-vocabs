@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der Produktion von Textilien oder von Garnen und Seilen tätig. Sie verrichten zuarbeitende, ausführende oder planende Tätigkeiten, erforschen neue Materialien und Produkte oder analysieren den Textilmarkt."
   },
   "note": {
-    "de": "Produktionsmaschinen beschicken, einstellen, umrüsten, bestücken, bedienen und pflegen, Maschinenabläufe kontrollieren, Maschinen instand halten Arbeitsabläufe planen und koordinieren, z. B. Arbeitsschritte und Materialfluss je nach Auftrag und unter Berücksichtigung der vorhandenen Maschinen und Anlagen individuell planen, koordinieren und kontrollieren Qualitätsrichtlinien in der Textiltechnik erarbeiten, Maßnahmen zur Qualitätsprüfung und -sicherung erarbeiten oder durchführen Bestimmungen zu Unfallverhütung, Arbeitsschutz und Umweltschutz umsetzen und kontrollieren textile Produkte entwickeln und konstruieren, in der Forschung zu neuen Textilien oder bei der Weiterentwicklung von Textilmaschinen mitarbeiten neue Maschinen und Anlagen in der eigenen Anlage und bei Kunden in Betrieb nehmen"
+    "de": [
+      "Produktionsmaschinen beschicken, einstellen, umrüsten, bestücken, bedienen und pflegen, Maschinenabläufe kontrollieren, Maschinen instand halten Arbeitsabläufe planen und koordinieren, z. B. Arbeitsschritte und Materialfluss je nach Auftrag und unter Berücksichtigung der vorhandenen Maschinen und Anlagen individuell planen, koordinieren und kontrollieren Qualitätsrichtlinien in der Textiltechnik erarbeiten, Maßnahmen zur Qualitätsprüfung und -sicherung erarbeiten oder durchführen Bestimmungen zu Unfallverhütung, Arbeitsschutz und Umweltschutz umsetzen und kontrollieren textile Produkte entwickeln und konstruieren, in der Forschung zu neuen Textilien oder bei der Weiterentwicklung von Textilmaschinen mitarbeiten neue Maschinen und Anlagen in der eigenen Anlage und bei Kunden in Betrieb nehmen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/281",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

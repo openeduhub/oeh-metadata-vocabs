@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe wirken bei der Planung, Vorbereitung, Durchführung und Abnahme von Bauleistungen mit oder organisieren und überwachen Bauvorhaben und kontrollieren deren Ausführung."
   },
   "note": {
-    "de": "Bauvorhaben und Baukonstruktionen entwerfen, planen und berechnen, Unterlagen für die Ausschreibung von Bauvorhaben erarbeiten, Detailpläne und Baumodelle anfertigen Kontakt halten mit externen Unternehmen und deren Arbeit koordinieren und kontrollieren Auftraggeber in allen mit der Bauplanung und Bauausführung in Zusammenhang stehenden Aspekten beraten, betreuen und vertreten die Einhaltung von behördlichen Vorschriften im Rahmen von Bauprojekten überwachen die Bauausführung überwachen und dabei auf die qualitäts- und zeitgerechte Ausführung achten"
+    "de": [
+      "Bauvorhaben und Baukonstruktionen entwerfen, planen und berechnen, Unterlagen für die Ausschreibung von Bauvorhaben erarbeiten, Detailpläne und Baumodelle anfertigen Kontakt halten mit externen Unternehmen und deren Arbeit koordinieren und kontrollieren Auftraggeber in allen mit der Bauplanung und Bauausführung in Zusammenhang stehenden Aspekten beraten, betreuen und vertreten die Einhaltung von behördlichen Vorschriften im Rahmen von Bauprojekten überwachen die Bauausführung überwachen und dabei auf die qualitäts- und zeitgerechte Ausführung achten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/311",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

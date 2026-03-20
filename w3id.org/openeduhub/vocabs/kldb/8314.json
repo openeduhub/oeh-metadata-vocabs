@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe versorgen und betreuen Familien und Einzelpersonen in Notsituationen und pflegen kranke oder hilfsbedürftige Menschen in privaten Haushalten und unterstützen sie bei den täglich anfallenden Arbeiten."
   },
   "note": {
-    "de": "haushaltsführende Personen bei vorübergehender Arbeitsunfähigkeit und/oder Abwesenheit entlasten oder vertreten Familienangehörige, insbesondere Kinder, betreuen Kranke oder hilfsbedürftige Personen pflegen und betreuen, z. B. bei der Durchführung einfacher ärztlicher Verordnungen mithelfen, bei der Körperpflege oder Nahrungsaufnahme assistieren Wöchnerinnen sowie Säuglinge und Kleinkinder betreuen und pflegen hauswirtschaftliche Tätigkeiten ausführen, z. B. Lebensmittel und Verbrauchsgüter einkaufen, Räume und Einrichtungsgegenstände sachgemäß reinigen und pflegen Aufzeichnungen über die Pflege und Betreuung führen, dabei Änderungen des Zustandes und Reaktion auf Pflege und Behandlung festhalten sowie Probleme an Fachkräfte des Gesundheits- und Sozialwesens melden"
+    "de": [
+      "haushaltsführende Personen bei vorübergehender Arbeitsunfähigkeit und/oder Abwesenheit entlasten oder vertreten Familienangehörige, insbesondere Kinder, betreuen Kranke oder hilfsbedürftige Personen pflegen und betreuen, z. B. bei der Durchführung einfacher ärztlicher Verordnungen mithelfen, bei der Körperpflege oder Nahrungsaufnahme assistieren Wöchnerinnen sowie Säuglinge und Kleinkinder betreuen und pflegen hauswirtschaftliche Tätigkeiten ausführen, z. B. Lebensmittel und Verbrauchsgüter einkaufen, Räume und Einrichtungsgegenstände sachgemäß reinigen und pflegen Aufzeichnungen über die Pflege und Betreuung führen, dabei Änderungen des Zustandes und Reaktion auf Pflege und Behandlung festhalten sowie Probleme an Fachkräfte des Gesundheits- und Sozialwesens melden"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/831",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichtsaufgaben in der Metallbearbeitung. Sie sind in verantwortungsvollen Positionen in der Metallindustrie, vor allem in den Bereichen der Produktion, Fertigung, Montage und Organisation, tätig."
   },
   "note": {
-    "de": "Kraft- und Arbeitsmaschinen und dazu gehörende Aggregate sowie Hebe-, Transport- und Fördermittel auswählen und funktionserhaltende Maßnahmen treffen neue Maschinen, Fertigungsanlagen, Materialien, Arbeitsverfahren und Hilfsmittel einführen, aufstellen und in Betrieb nehmen Informationen aus der verknüpften, rechnergestützten Verfahrensentwicklung, Fertigung und Qualitätssicherung in rationelle Prozessorganisation umsetzen Fertigungs- und Veredelungsprozesse planen, einleiten, steuern, überwachen und optimieren Wartungs- und Instandhaltungsmaßnahmen an Werkzeugmaschinen, Transport- und Förderanlagen sowie Mess- und Prüfeinrichtungen veranlassen und durchführen Betriebseinheiten in der Metallindustrie leiten sowie koordinierende Aufgaben mit vor- und nachgelagerten Abteilungen übernehmen Einhaltung von Vorschriften des Arbeits-, Umwelt- und Gesundheitsschutzes überwachen Kosten erfassen, analysieren und bewerten, zugeteilte Budgets einhalten, Systeme zur Überwachung von Planungszielen und Prozessen v.a. bei der Fertigung anwenden Mitarbeiter/innen anleiten, Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren"
+    "de": [
+      "Kraft- und Arbeitsmaschinen und dazu gehörende Aggregate sowie Hebe-, Transport- und Fördermittel auswählen und funktionserhaltende Maßnahmen treffen neue Maschinen, Fertigungsanlagen, Materialien, Arbeitsverfahren und Hilfsmittel einführen, aufstellen und in Betrieb nehmen Informationen aus der verknüpften, rechnergestützten Verfahrensentwicklung, Fertigung und Qualitätssicherung in rationelle Prozessorganisation umsetzen Fertigungs- und Veredelungsprozesse planen, einleiten, steuern, überwachen und optimieren Wartungs- und Instandhaltungsmaßnahmen an Werkzeugmaschinen, Transport- und Förderanlagen sowie Mess- und Prüfeinrichtungen veranlassen und durchführen Betriebseinheiten in der Metallindustrie leiten sowie koordinierende Aufgaben mit vor- und nachgelagerten Abteilungen übernehmen Einhaltung von Vorschriften des Arbeits-, Umwelt- und Gesundheitsschutzes überwachen Kosten erfassen, analysieren und bewerten, zugeteilte Budgets einhalten, Systeme zur Überwachung von Planungszielen und Prozessen v.a. bei der Fertigung anwenden Mitarbeiter/innen anleiten, Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/242",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

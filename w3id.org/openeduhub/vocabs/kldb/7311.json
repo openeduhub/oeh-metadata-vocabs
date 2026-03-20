@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen organisatorische, kaufmännische oder betriebswirtschaftliche Aufgaben in Rechtsanwaltskanzleien sowie Notariatskanzleien und unterstützen Rechtsanwälte und Rechtsanwältinnen sowie Notare und Notarinnen bei der Erfüllung ihrer Aufgaben."
   },
   "note": {
-    "de": "Mandanten und Mandantinnen betreuen, z. B. Besprechungstermine vereinbaren den Arbeitsablauf im Rechtsanwalts- bzw. Notariatsbüro organisieren und optimieren Schriftstücke, wie z. B. Vollmachten oder letztwillige Verfügungen, selbstständig entwerfen und aufsetzen sowie fertige Schriftstücke zur Unterschrift vorlegen die Anwendung von Rechtsmitteln oder Rechtsbehelfen, z. B. Einsprüche oder Berufungen, vorbereiten den Zahlungsverkehr in den Kanzleien erledigen, z. B. Gebühren und Forderungen berechnen, einfordern und die Zahlung überwachen Sachbearbeitungsaufgaben selbstständig ausführen, z. B. Unterlagen und Dokumente für Beurkundungen anfordern oder Grundbuchangelegenheiten durchführen, Akten anlegen und führen Korrespondenz, z. B. mit Mandanten und Mandantinnen oder dem Gericht, führen"
+    "de": [
+      "Mandanten und Mandantinnen betreuen, z. B. Besprechungstermine vereinbaren den Arbeitsablauf im Rechtsanwalts- bzw. Notariatsbüro organisieren und optimieren Schriftstücke, wie z. B. Vollmachten oder letztwillige Verfügungen, selbstständig entwerfen und aufsetzen sowie fertige Schriftstücke zur Unterschrift vorlegen die Anwendung von Rechtsmitteln oder Rechtsbehelfen, z. B. Einsprüche oder Berufungen, vorbereiten den Zahlungsverkehr in den Kanzleien erledigen, z. B. Gebühren und Forderungen berechnen, einfordern und die Zahlung überwachen Sachbearbeitungsaufgaben selbstständig ausführen, z. B. Unterlagen und Dokumente für Beurkundungen anfordern oder Grundbuchangelegenheiten durchführen, Akten anlegen und führen Korrespondenz, z. B. mit Mandanten und Mandantinnen oder dem Gericht, führen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/731",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

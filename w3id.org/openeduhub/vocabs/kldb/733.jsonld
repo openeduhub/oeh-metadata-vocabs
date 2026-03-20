@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe erledigen Aufgaben im Archivwesen, Bibliothekswesen, bei Dokumentations- und Informationsdiensten und in der medizinischen Dokumentation."
   },
   "note": {
-    "de": "in Archiven Archivgut annehmen, bewerten, verzeichnen, digitalisieren, sachgerecht lagern und der Öffentlichkeit zugänglich machen Bestände einer Bibliothek aufbauen, Neuzugänge bibliothekarisch aufbereiten und für die Ausleihe vorbereiten Informationsbedarfe ermitteln, Informationen sammeln und dokumentieren, dazu z. B. Quellen recherchieren und Informationen aufbereiten medizinische Patientenaufzeichnungen, Aufnahme- und Entlassungsdokumente und andere medizinische Berichte in Aufzeichnungssysteme transkribieren, zusammenstellen und verarbeiten Kunden und Kundinnen beraten und informieren, z. B. über den Bestand eines Archivs, einer Bibliothek oder Strategien der Informationsgewinnung Ausstellungen organisieren, Präsentationen vorbereiten sowie Führungen anbieten"
+    "de": [
+      "in Archiven Archivgut annehmen, bewerten, verzeichnen, digitalisieren, sachgerecht lagern und der Öffentlichkeit zugänglich machen Bestände einer Bibliothek aufbauen, Neuzugänge bibliothekarisch aufbereiten und für die Ausleihe vorbereiten Informationsbedarfe ermitteln, Informationen sammeln und dokumentieren, dazu z. B. Quellen recherchieren und Informationen aufbereiten medizinische Patientenaufzeichnungen, Aufnahme- und Entlassungsdokumente und andere medizinische Berichte in Aufzeichnungssysteme transkribieren, zusammenstellen und verarbeiten Kunden und Kundinnen beraten und informieren, z. B. über den Bestand eines Archivs, einer Bibliothek oder Strategien der Informationsgewinnung Ausstellungen organisieren, Präsentationen vorbereiten sowie Führungen anbieten"
+    ]
   },
   "narrower": [
     {
@@ -73,6 +75,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -81,8 +84,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -121,11 +136,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

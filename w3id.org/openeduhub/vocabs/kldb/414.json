@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Erforschung unbelebter Natur, untersuchen Eigenschaften von Materialien und Werkstoffen, entwickeln und betreuen technische Anwendungen auf der Basis physikalischen Wissens."
   },
   "note": {
-    "de": "physikalische Experimente durchführen und diese auswerten, Gesetzmäßigkeiten der unbelebten Natur erkennen und in mathematische Formeln und Modelle fassen physikalisch-technische Verfahren und Geräte, z. B. Computertomografen, Röntgengeräte, Beschleuniger und Lasersysteme für die medizinische Diagnose und Therapie, entwickeln Werkstoffe auf ihre Bestandteile, Eigenschaften und mögliche Schadstoffbelastungen untersuchen physikalische Forschungsergebnisse in technische Anwendungen und Produkte umsetzen, Forschungsprojekte planen, konzipieren und durchführen, Forschungsaufträge akquirieren leitende Aufgaben in Produktions- oder Forschungseinrichtungen übernehmen, Gutachter- und Sachverständigenaufgaben für physikalische Fragestellungen wahrnehmen"
+    "de": [
+      "physikalische Experimente durchführen und diese auswerten, Gesetzmäßigkeiten der unbelebten Natur erkennen und in mathematische Formeln und Modelle fassen physikalisch-technische Verfahren und Geräte, z. B. Computertomografen, Röntgengeräte, Beschleuniger und Lasersysteme für die medizinische Diagnose und Therapie, entwickeln Werkstoffe auf ihre Bestandteile, Eigenschaften und mögliche Schadstoffbelastungen untersuchen physikalische Forschungsergebnisse in technische Anwendungen und Produkte umsetzen, Forschungsprojekte planen, konzipieren und durchführen, Forschungsaufträge akquirieren leitende Aufgaben in Produktions- oder Forschungseinrichtungen übernehmen, Gutachter- und Sachverständigenaufgaben für physikalische Fragestellungen wahrnehmen"
+    ]
   },
   "narrower": [
     {
@@ -74,6 +76,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -82,8 +85,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -122,11 +137,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

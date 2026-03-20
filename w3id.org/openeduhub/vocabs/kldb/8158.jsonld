@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Tiermedizin und Tierheilkunde, die sich auf einen Tätigkeitsbereich spezialisiert haben und in der übergeordneten Systematikposition „815 Tiermedizin und Tierheilkunde“ nicht anderweitig erfasst sind. Dies sind z. B. Berufe im Bereich der Tierpsychologie."
   },
   "note": {
-    "de": "in Gesprächen mit dem Tierhalter/der Tierhalterin ein genaues Bild der jeweiligen Problematik des Tieres ermitteln Diagnose stellen und eine entsprechende Verhaltenstherapie vorschlagen bei Vorliegen medizinischer Erkrankungen dafür sorgen, dass eine tierärztliche Behandlung erfolgt verhaltensauffällige Hunde, Katzen oder andere Tiere schulen Gutachten erstellen, z. B. über das Aggressionspotenzial von Hunden"
+    "de": [
+      "in Gesprächen mit dem Tierhalter/der Tierhalterin ein genaues Bild der jeweiligen Problematik des Tieres ermitteln Diagnose stellen und eine entsprechende Verhaltenstherapie vorschlagen bei Vorliegen medizinischer Erkrankungen dafür sorgen, dass eine tierärztliche Behandlung erfolgt verhaltensauffällige Hunde, Katzen oder andere Tiere schulen Gutachten erstellen, z. B. über das Aggressionspotenzial von Hunden"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/815",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

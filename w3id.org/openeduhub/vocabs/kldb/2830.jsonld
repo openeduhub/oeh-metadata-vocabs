@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der Herstellung von Leder und Pelzen sowie Leder- und Pelzprodukten aller Art tätig."
   },
   "note": {
-    "de": "Ausgangsmaterialien wie Leder, Stoffe oder Kunststoffe nach Vorgabe ausschneiden oder ausstanzen, Teile sortieren und zu Partien zusammenstellen in der Weiterverarbeitung mitarbeiten, z. B. Kanten von Schaft- und anderen Lederteilen schärfen Maschinen vorbereiten, z. B. Messer in Schneidmaschinen auswechseln, Nähgarn in Steppmaschinen einfädeln, rechtzeitig Material nachlegen Fachkräfte beim Einrichten, Pflegen und Reinigen der Produktionsanlagen unterstützen Maschinenlauf überwachen, bei Störungen Fachkräfte informieren in Gerbereien beim Reinigen von Rohhäuten und -fellen, beim Beschicken von Gerbmaschinen oder Zurichten und Färben von Leder helfen in Handwerksbetrieben Materialien bereitstellen, einfache Kleb-, Kunststoff- und Näharbeiten ausführen, bei Änderungen oder Reparaturen mitarbeiten Sortier- und Reinigungsarbeiten in den Produktionsräumen und im Lager übernehmen, Produkte lagern oder verpacken, Waren auszeichnen, Verkaufsregale einräumen"
+    "de": [
+      "Ausgangsmaterialien wie Leder, Stoffe oder Kunststoffe nach Vorgabe ausschneiden oder ausstanzen, Teile sortieren und zu Partien zusammenstellen in der Weiterverarbeitung mitarbeiten, z. B. Kanten von Schaft- und anderen Lederteilen schärfen Maschinen vorbereiten, z. B. Messer in Schneidmaschinen auswechseln, Nähgarn in Steppmaschinen einfädeln, rechtzeitig Material nachlegen Fachkräfte beim Einrichten, Pflegen und Reinigen der Produktionsanlagen unterstützen Maschinenlauf überwachen, bei Störungen Fachkräfte informieren in Gerbereien beim Reinigen von Rohhäuten und -fellen, beim Beschicken von Gerbmaschinen oder Zurichten und Färben von Leder helfen in Handwerksbetrieben Materialien bereitstellen, einfache Kleb-, Kunststoff- und Näharbeiten ausführen, bei Änderungen oder Reparaturen mitarbeiten Sortier- und Reinigungsarbeiten in den Produktionsräumen und im Lager übernehmen, Produkte lagern oder verpacken, Waren auszeichnen, Verkaufsregale einräumen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/283",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

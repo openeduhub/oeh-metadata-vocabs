@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe stellen die Kostüme für einzelne Darsteller/innen und Darstellergruppen nach dem Vorstellungs- oder Drehplan zusammen und legen sie in der Garderobe bereit. Sie verwalten den Bestand an Kostümen und sorgen dafür, dass alle Ausstattungsgegenstände bereitstehen."
   },
   "note": {
-    "de": "Requisiten und Dekorationsteile entwerfen, zeichnen und modellieren, Entwürfe besprechen und herstellen Auf- und Umbaupläne ausarbeiten, persönliche Requisiten an die Darsteller/innen verteilen Kostüme für einzelne Darsteller/innen zusammenstellen und bereitlegen den Künstlern/Künstlerinnen beim Ankleiden helfen, den passenden Sitz und die Chronologie der Garderobe gewährleisten"
+    "de": [
+      "Requisiten und Dekorationsteile entwerfen, zeichnen und modellieren, Entwürfe besprechen und herstellen Auf- und Umbaupläne ausarbeiten, persönliche Requisiten an die Darsteller/innen verteilen Kostüme für einzelne Darsteller/innen zusammenstellen und bereitlegen den Künstlern/Künstlerinnen beim Ankleiden helfen, den passenden Sitz und die Chronologie der Garderobe gewährleisten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/946",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

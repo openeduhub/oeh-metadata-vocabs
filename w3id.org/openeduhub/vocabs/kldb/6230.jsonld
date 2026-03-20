@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe verkaufen Lebensmittel, bereiten kleine Gerichte zu und beraten Kunden und Kundinnen über die zum Verkauf stehenden Lebensmittel."
   },
   "note": {
-    "de": "Waren für den Verkauf vorbereiten, portionieren, garnieren, dekorieren, appetitlich präsentieren Kunden und Kundinnen bedienen und beispielsweise über Inhaltsstoffe und Zubereitungsart der Lebensmittel informieren Waren abwiegen, zuschneiden, verpacken und verkaufen kleine Imbisse, wie belegte Brötchen oder Pizzastücke, zubereiten und servieren, Lebensmittel, z. B. für Geschenkkörbe oder kalte Buffets, vorbereiten und zusammenstellen Zahlungen für die gekauften Speisen und Lebensmittel entgegennehmen die Vorratshaltung überwachen und auf genügend frische Ware achten, den rechtzeitigen Warennachschub sicherstellen bei der Warenlieferung die Ware annehmen, kontrollieren und im Verkaufsraum platzieren oder in das Lager räumen Lebensmittel sachgerecht lagern, Qualität und Haltbarkeit überprüfen und Hygiene- und Sicherheitsvorschriften beachten Sauberkeit und Ordnung im Verkaufsraum gewährleisten"
+    "de": [
+      "Waren für den Verkauf vorbereiten, portionieren, garnieren, dekorieren, appetitlich präsentieren Kunden und Kundinnen bedienen und beispielsweise über Inhaltsstoffe und Zubereitungsart der Lebensmittel informieren Waren abwiegen, zuschneiden, verpacken und verkaufen kleine Imbisse, wie belegte Brötchen oder Pizzastücke, zubereiten und servieren, Lebensmittel, z. B. für Geschenkkörbe oder kalte Buffets, vorbereiten und zusammenstellen Zahlungen für die gekauften Speisen und Lebensmittel entgegennehmen die Vorratshaltung überwachen und auf genügend frische Ware achten, den rechtzeitigen Warennachschub sicherstellen bei der Warenlieferung die Ware annehmen, kontrollieren und im Verkaufsraum platzieren oder in das Lager räumen Lebensmittel sachgerecht lagern, Qualität und Haltbarkeit überprüfen und Hygiene- und Sicherheitsvorschriften beachten Sauberkeit und Ordnung im Verkaufsraum gewährleisten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/623",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

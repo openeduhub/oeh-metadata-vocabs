@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind für die Überwachung der Einhaltung von behördlichen Vorschriften im Rahmen von Bauprojekten verantwortlich. Außerdem beurteilen und bewerten sie den Zustand von Bauwerken und verfassen Gutachten darüber."
   },
   "note": {
-    "de": "Bauobjekte unter anderem auf Einhaltung des genehmigten Bauantrages und der vorgegebenen Bauvorschriften überprüfen Einhaltung der Unfallverhütungs-, Arbeitsschutz-, Brandschutzvorschriften auf Baustellen überwachen Bauabnahmen durchführen, wie z. B. Rohbau- und Schlussabnahmen, und diese dokumentieren Materialien auf fachgerechte Verwendung und Bauleistungen auf fachgerechte Ausführung beurteilen Gebäude auf Schadstoffbelastung untersuchen, z. B. auf Schimmelpilzbefall, elektromagnetische Felder, giftige Holzschutzmittel oder Innenraumallergene Gutachten, wie z. B. Gerichts-, Schieds- und Privatgutachten, bauphysikalische oder baubiologische Gutachten erstellen technische Erkenntnisse, z. B. bei Gerichtsprozessen, erläutern, bauphysikalische Erkenntnisse in technische Anwendungen umsetzen Behörden, Hausbesitzer/innen, Bauherren und Architekten beraten, z. B. über optimalen Energieeinsatz oder Wohnraumgesundheit"
+    "de": [
+      "Bauobjekte unter anderem auf Einhaltung des genehmigten Bauantrages und der vorgegebenen Bauvorschriften überprüfen Einhaltung der Unfallverhütungs-, Arbeitsschutz-, Brandschutzvorschriften auf Baustellen überwachen Bauabnahmen durchführen, wie z. B. Rohbau- und Schlussabnahmen, und diese dokumentieren Materialien auf fachgerechte Verwendung und Bauleistungen auf fachgerechte Ausführung beurteilen Gebäude auf Schadstoffbelastung untersuchen, z. B. auf Schimmelpilzbefall, elektromagnetische Felder, giftige Holzschutzmittel oder Innenraumallergene Gutachten, wie z. B. Gerichts-, Schieds- und Privatgutachten, bauphysikalische oder baubiologische Gutachten erstellen technische Erkenntnisse, z. B. bei Gerichtsprozessen, erläutern, bauphysikalische Erkenntnisse in technische Anwendungen umsetzen Behörden, Hausbesitzer/innen, Bauherren und Architekten beraten, z. B. über optimalen Energieeinsatz oder Wohnraumgesundheit"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/311",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

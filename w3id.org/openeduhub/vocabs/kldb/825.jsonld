@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in den Bereichen Medizin-, Orthopädie- und Rehatechnik, Augenoptik, Hörgeräteakustik und Zahntechnik."
   },
   "note": {
-    "de": "medizintechnische Geräte, orthopädische Hilfsmittel, Sehhilfen, Hörgeräte und Zubehör sowie Zahnprothesen und ähnliche Produkte entwickeln, konstruieren, fertigen, reparieren und warten Funktions- und Sicherheitsprüfungen an medizintechnischen Geräten einschließlich der gesetzlichen Dokumentation durchführen Kunden und Kundinnen bzw. Patienten und Patientinnen im Umgang mit medizintechnischen Geräten einweisen die Arbeitsausführung und -qualität sowie Einhaltung von Kosten, Terminen, Hygienevorschriften und anderen geltenden Vorschriften kontrollieren und überwachen"
+    "de": [
+      "medizintechnische Geräte, orthopädische Hilfsmittel, Sehhilfen, Hörgeräte und Zubehör sowie Zahnprothesen und ähnliche Produkte entwickeln, konstruieren, fertigen, reparieren und warten Funktions- und Sicherheitsprüfungen an medizintechnischen Geräten einschließlich der gesetzlichen Dokumentation durchführen Kunden und Kundinnen bzw. Patienten und Patientinnen im Umgang mit medizintechnischen Geräten einweisen die Arbeitsausführung und -qualität sowie Einhaltung von Kosten, Terminen, Hygienevorschriften und anderen geltenden Vorschriften kontrollieren und überwachen"
+    ]
   },
   "narrower": [
     {
@@ -74,6 +76,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -82,8 +85,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -122,11 +137,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

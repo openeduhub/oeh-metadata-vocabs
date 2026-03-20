@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichts- und Führungsaufgaben in der Tierpflege. Sie organisieren und überwachen die Haltung und Pflege von Tieren unter anderem in zoologischen Gärten, Tierheimen oder in der Versuchstierhaltung, übernehmen administrative Aufgaben oder leiten Einrichtungen und sind ggf. für die Öffentlichkeitsarbeit zuständig."
   },
   "note": {
-    "de": "Tierpflege und Tierhaltung steuern und überwachen, z. B. Futterrationen der Tiere planen, Reinigung der Ställe, Käfige und Gehege veranlassen und kontrollieren, Tiertransporte durchführen Muttertiere betreuen, verhaltensgerechte Betreuung der Jungtiere veranlassen und durchführen, und Tiere ggf. an Interessenten vermitteln organisatorische und administrative Aufgaben in der Tierpflege übernehmen, z. B. Kosten kalkulieren, Investitionen planen bzw. entscheiden, Futtermittellieferanten auswählen die Einrichtung, z. B. das Tierheim oder den Zoo, in der Öffentlichkeit repräsentieren, über die Arbeit informieren, Mitglieder bzw. Sponsoren gewinnen Einsatz der Mitarbeiter/innen planen, Mitarbeiter/innen anleiten, den betrieblichen Teil der Ausbildung organisieren und durchführen Einhaltung der rechtlichen Bestimmungen z. B. in den Bereichen Unfallverhütung, Arbeitsschutz, Tierschutz sicherstellen"
+    "de": [
+      "Tierpflege und Tierhaltung steuern und überwachen, z. B. Futterrationen der Tiere planen, Reinigung der Ställe, Käfige und Gehege veranlassen und kontrollieren, Tiertransporte durchführen Muttertiere betreuen, verhaltensgerechte Betreuung der Jungtiere veranlassen und durchführen, und Tiere ggf. an Interessenten vermitteln organisatorische und administrative Aufgaben in der Tierpflege übernehmen, z. B. Kosten kalkulieren, Investitionen planen bzw. entscheiden, Futtermittellieferanten auswählen die Einrichtung, z. B. das Tierheim oder den Zoo, in der Öffentlichkeit repräsentieren, über die Arbeit informieren, Mitglieder bzw. Sponsoren gewinnen Einsatz der Mitarbeiter/innen planen, Mitarbeiter/innen anleiten, den betrieblichen Teil der Ausbildung organisieren und durchführen Einhaltung der rechtlichen Bestimmungen z. B. in den Bereichen Unfallverhütung, Arbeitsschutz, Tierschutz sicherstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/115",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe züchten Fische und andere Wassertiere und ziehen sie in natürlichen oder künstlichen Teichanlagen auf, sie fangen Fische und Schalentiere in Flüssen und Seen oder im Meer, verarbeiten und verkaufen sie."
   },
   "note": {
-    "de": "Fische züchten und vermehren, die Fischbrut pflegen, Jungfische in künstliche oder natürliche Teiche einsetzen und aufziehen bzw. Fachkräfte dabei unterstützen Teiche und Becken instand halten, Teichränder pflegen, Teichanlagen abfischen Wasserqualität überwachen, z. B. pH-Wert kontrollieren, Wasser ggf. physikalisch, chemisch oder biologisch aufbereiten bzw. dabei mithelfen Fanggeräte, wie Zugnetze, Reusen oder Stellnetze, vorbereiten und ausbringen, Fische durch stille oder bewegte Fischerei fangen Schleppfahrten zum Krabbenfang durchführen, Fanggeschirr bedienen und Meeresgrund mit Echolot beobachten seemännische Arbeiten ausführen, z. B. das Boot vorbereiten und handhaben, Ankermanöver ausführen, Schiff trimmen, Leckagen abdichten den Fang einholen und sortieren, im Hafen den Fang entladen Boote, Netze, Reusen und technische Geräte kontrollieren, reinigen oder reparieren Fische zur Vermarktung vorbereiten, z. B. Fische ausnehmen, einsalzen, kühlen"
+    "de": [
+      "Fische züchten und vermehren, die Fischbrut pflegen, Jungfische in künstliche oder natürliche Teiche einsetzen und aufziehen bzw. Fachkräfte dabei unterstützen Teiche und Becken instand halten, Teichränder pflegen, Teichanlagen abfischen Wasserqualität überwachen, z. B. pH-Wert kontrollieren, Wasser ggf. physikalisch, chemisch oder biologisch aufbereiten bzw. dabei mithelfen Fanggeräte, wie Zugnetze, Reusen oder Stellnetze, vorbereiten und ausbringen, Fische durch stille oder bewegte Fischerei fangen Schleppfahrten zum Krabbenfang durchführen, Fanggeschirr bedienen und Meeresgrund mit Echolot beobachten seemännische Arbeiten ausführen, z. B. das Boot vorbereiten und handhaben, Ankermanöver ausführen, Schiff trimmen, Leckagen abdichten den Fang einholen und sortieren, im Hafen den Fang entladen Boote, Netze, Reusen und technische Geräte kontrollieren, reinigen oder reparieren Fische zur Vermarktung vorbereiten, z. B. Fische ausnehmen, einsalzen, kühlen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/114",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

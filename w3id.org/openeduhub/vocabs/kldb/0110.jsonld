@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe nehmen bei der Bundeswehr Führungsaufgaben im Offiziersrang wahr. Sie leiten und verwalten Organisationseinheiten (Verbände und Truppenteile) und/oder verrichten ähnliche Tätigkeiten wie Angehörige verschiedener ziviler Berufe außerhalb des Militärs."
   },
   "note": {
-    "de": "Führungsaufgaben in allen militärischen Organisationsbereichen, z. B. Heer, Luftwaffe, Marine, Zentraler Sanitätsdienst oder Streitkräftebasis, wahrnehmen im jeweiligen Verantwortungsbereich die unterstellten Soldaten und Soldatinnen ausbilden und erziehen, z. B. in die Praxis des Truppenalltags und die Waffensysteme einweisen Fachaufgaben im militärfachlichen Dienst in der Planungsarbeit, Ausbildung und Organisation ausführen, z. B. als Betriebswirt/in, Informatiker/in oder in der Elektrotechnik militärische Führungsaufgaben im Truppendienst wahrnehmen, z. B. eine (Teil-)Einheit oder einen Verband in Heer, Luftwaffe oder Marine führen geowissenschaftliche und geotechnische Aufgaben in allen Uniformträgerbereichen, z. B. im Amt für Geoinformationswesen, im Wetterdienst oder in der Flugwetterberatung, übernehmen je nach Qualifikation und Verwendung ärztliche, zahnärztliche, tierärztliche, pharmazeutische oder lebensmittelchemische Aufgaben wahrnehmen, medizinische Versorgung sicherstellen Repertoire des jeweiligen Musikkorps konzipieren und einstudieren, Konzerte im Rahmen der Öffentlichkeitsarbeit der Bundeswehr sowie bei Veranstaltungen im In- und Ausland dirigieren ggf. an Auslandseinsätzen teilnehmen"
+    "de": [
+      "Führungsaufgaben in allen militärischen Organisationsbereichen, z. B. Heer, Luftwaffe, Marine, Zentraler Sanitätsdienst oder Streitkräftebasis, wahrnehmen im jeweiligen Verantwortungsbereich die unterstellten Soldaten und Soldatinnen ausbilden und erziehen, z. B. in die Praxis des Truppenalltags und die Waffensysteme einweisen Fachaufgaben im militärfachlichen Dienst in der Planungsarbeit, Ausbildung und Organisation ausführen, z. B. als Betriebswirt/in, Informatiker/in oder in der Elektrotechnik militärische Führungsaufgaben im Truppendienst wahrnehmen, z. B. eine (Teil-)Einheit oder einen Verband in Heer, Luftwaffe oder Marine führen geowissenschaftliche und geotechnische Aufgaben in allen Uniformträgerbereichen, z. B. im Amt für Geoinformationswesen, im Wetterdienst oder in der Flugwetterberatung, übernehmen je nach Qualifikation und Verwendung ärztliche, zahnärztliche, tierärztliche, pharmazeutische oder lebensmittelchemische Aufgaben wahrnehmen, medizinische Versorgung sicherstellen Repertoire des jeweiligen Musikkorps konzipieren und einstudieren, Konzerte im Rahmen der Öffentlichkeitsarbeit der Bundeswehr sowie bei Veranstaltungen im In- und Ausland dirigieren ggf. an Auslandseinsätzen teilnehmen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/011",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

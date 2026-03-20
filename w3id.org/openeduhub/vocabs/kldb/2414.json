@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe fertigen technische und künstlerische Gussartikel und gießen Gebrauchsartikel. Dazu stellen sie Gussformen und -kerne her, bedienen Gussmaschinen und behandeln die gegossenen Werkstücke nach. Darüber hinaus entwickeln, planen und überwachen sie die Gießereiprozesse unter Berücksichtigung wirtschaftlicher und prozesstechnischer Aspekte."
   },
   "note": {
-    "de": "Metallmodelle sowie Feingussmodelle aus Wachs oder Kunststoff für Gusserzeugnisse herstellen Kerne aus Formstoff herstellen, dazu Einzelformmaschinen oder Formanlagen bedienen Gussformen aus Eisen-, Stahl- oder Nichteisen-Metallen entwerfen, herstellen, Kerne einlegen oder abformen, Formen prüfen und gegebenenfalls kleine Fehler ausbessern Metalle legieren, schmelzen und abgießen, dazu Schmelzöfen vorbereiten und in Gang setzen, bedienen und überwachen, Legierungen auswählen, Metalle verschmelzen Metall unter Beachtung der richtigen Schlackeführung von Hand oder maschinell in die Form gießen, dabei Gießeinrichtungen einstellen und überwachen Werkstücke putzen und nachbehandeln, z. B. Werkstücke entgraten, schleifen, färben, polieren die Qualität von Gusserzeugnissen überprüfen, z. B. Gusserzeugnisse visuell untersuchen oder Durchstrahlungsprüfungen durchführen gegossene Gegenstände aller Art reparieren und restaurieren"
+    "de": [
+      "Metallmodelle sowie Feingussmodelle aus Wachs oder Kunststoff für Gusserzeugnisse herstellen Kerne aus Formstoff herstellen, dazu Einzelformmaschinen oder Formanlagen bedienen Gussformen aus Eisen-, Stahl- oder Nichteisen-Metallen entwerfen, herstellen, Kerne einlegen oder abformen, Formen prüfen und gegebenenfalls kleine Fehler ausbessern Metalle legieren, schmelzen und abgießen, dazu Schmelzöfen vorbereiten und in Gang setzen, bedienen und überwachen, Legierungen auswählen, Metalle verschmelzen Metall unter Beachtung der richtigen Schlackeführung von Hand oder maschinell in die Form gießen, dabei Gießeinrichtungen einstellen und überwachen Werkstücke putzen und nachbehandeln, z. B. Werkstücke entgraten, schleifen, färben, polieren die Qualität von Gusserzeugnissen überprüfen, z. B. Gusserzeugnisse visuell untersuchen oder Durchstrahlungsprüfungen durchführen gegossene Gegenstände aller Art reparieren und restaurieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/241",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

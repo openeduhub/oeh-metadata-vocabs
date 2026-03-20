@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe arbeiten in Verbraucherzentralen und anderen gemeinnützigen Organisationen. Sie informieren, beraten und unterstützen Verbraucher/innen und treten für ihre Interessen ein."
   },
   "note": {
-    "de": "Verbraucher/innen z. B. über Rechtsfragen, Produkte und Dienstleistungen informieren, bei Problemen Lösungen vorschlagen sachspezifische Informationen etwa zu Verbraucherfragen aus den Bereichen Bauen und Wohnen oder Produktsicherheit und Normung recherchieren und weitergeben für Personengruppen, Verbände oder Organisationen Informationsveranstaltungen zu aktuellen Themen abhalten, z. B. zum Thema Datenschutz oder Kennzeichnung von Lebensmitteln wettbewerbswidrige oder verbraucherfeindliche Praktiken verfolgen, Verbraucher/innen aufklären, Gesetzgeber informieren die Verbraucherinteressen in Anhörungen, Gesprächen und Verhandlungen mit Anbietern, Gesetzgebern und Verwaltung vertreten Berichte zum Thema Verbraucherschutz verfassen und veröffentlichen"
+    "de": [
+      "Verbraucher/innen z. B. über Rechtsfragen, Produkte und Dienstleistungen informieren, bei Problemen Lösungen vorschlagen sachspezifische Informationen etwa zu Verbraucherfragen aus den Bereichen Bauen und Wohnen oder Produktsicherheit und Normung recherchieren und weitergeben für Personengruppen, Verbände oder Organisationen Informationsveranstaltungen zu aktuellen Themen abhalten, z. B. zum Thema Datenschutz oder Kennzeichnung von Lebensmitteln wettbewerbswidrige oder verbraucherfeindliche Praktiken verfolgen, Verbraucher/innen aufklären, Gesetzgeber informieren die Verbraucherinteressen in Anhörungen, Gesprächen und Verhandlungen mit Anbietern, Gesetzgebern und Verwaltung vertreten Berichte zum Thema Verbraucherschutz verfassen und veröffentlichen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/832",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

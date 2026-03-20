@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe assistieren Ärzten und Ärztinnen bei der Untersuchung, Behandlung, Betreuung und Beratung von Patienten und Patientinnen und führen organisatorische Tätigkeiten und Verwaltungsarbeiten durch."
   },
   "note": {
-    "de": "Termine vergeben und Patienten und Patientinnen empfangen den Praxisablauf organisieren, Verwaltungsarbeiten erledigen, für die Abrechnung der erbrachten Leistungen sorgen Urin-, Stuhl- und Blutproben für Laboruntersuchungen abnehmen medizinische Instrumente, Geräte und Apparate einsetzen, pflegen und warten bei Untersuchungen, Behandlungen und kleineren Eingriffen durch die Ärzte und Ärztinnen assistieren Patienten und Patientinnen über Möglichkeiten der Vor- und Nachsorge informieren Behandlungsabläufe dokumentieren"
+    "de": [
+      "Termine vergeben und Patienten und Patientinnen empfangen den Praxisablauf organisieren, Verwaltungsarbeiten erledigen, für die Abrechnung der erbrachten Leistungen sorgen Urin-, Stuhl- und Blutproben für Laboruntersuchungen abnehmen medizinische Instrumente, Geräte und Apparate einsetzen, pflegen und warten bei Untersuchungen, Behandlungen und kleineren Eingriffen durch die Ärzte und Ärztinnen assistieren Patienten und Patientinnen über Möglichkeiten der Vor- und Nachsorge informieren Behandlungsabläufe dokumentieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/811",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

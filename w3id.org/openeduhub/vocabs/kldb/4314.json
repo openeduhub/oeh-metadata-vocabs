@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe analysieren geowissenschaftliche Daten mittels Informationstechnologie. Sie entwickeln Modelle zu Prozessen in der Geosphäre und Systeme zur Verwaltung, Nutzung und Präsentation von Geoinformationen."
   },
   "note": {
-    "de": "Geodaten im Gelände digital erfassen sowie Luft-, Infrarot-, Satelliten- und Radarbilder verarbeiten und digitale Karten erstellen Geoinformationssysteme (GIS) entwickeln, realisieren, modifizieren und betreuen, dreidimensionale Modelle von Geoobjekten erstellen geostatistische Methoden entwickeln und anwenden sowie regionale und globale Geodateninfrastrukturen aufbauen dynamische Geoprozesse nummerisch modellieren, IT-gestützt Hochwasserschutzzonen ermitteln, mögliche Auswirkungen von Vulkanausbrüchen oder Erdbeben errechnen IT-Lösungen in Teildisziplinen der Geowissenschaften, z. B. Geologie, Geophysik, Geografie, Geoökologie, Geodäsie und Vermessungswesen, entwickeln für den Einsatz bei Umwelt- und Naturkatastrophen an der Gestaltung möglicher Vorgehensweisen und an der Entwicklung von Einsatzplänen mitarbeiten neue Methoden und Verfahren für die Entwicklung von Datenbanksystemen für Geoinformationen erforschen"
+    "de": [
+      "Geodaten im Gelände digital erfassen sowie Luft-, Infrarot-, Satelliten- und Radarbilder verarbeiten und digitale Karten erstellen Geoinformationssysteme (GIS) entwickeln, realisieren, modifizieren und betreuen, dreidimensionale Modelle von Geoobjekten erstellen geostatistische Methoden entwickeln und anwenden sowie regionale und globale Geodateninfrastrukturen aufbauen dynamische Geoprozesse nummerisch modellieren, IT-gestützt Hochwasserschutzzonen ermitteln, mögliche Auswirkungen von Vulkanausbrüchen oder Erdbeben errechnen IT-Lösungen in Teildisziplinen der Geowissenschaften, z. B. Geologie, Geophysik, Geografie, Geoökologie, Geodäsie und Vermessungswesen, entwickeln für den Einsatz bei Umwelt- und Naturkatastrophen an der Gestaltung möglicher Vorgehensweisen und an der Entwicklung von Einsatzplänen mitarbeiten neue Methoden und Verfahren für die Entwicklung von Datenbanksystemen für Geoinformationen erforschen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/431",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

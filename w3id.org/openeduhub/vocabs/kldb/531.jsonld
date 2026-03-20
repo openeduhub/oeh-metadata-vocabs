@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in den Bereichen Objekt-, Werte- und Personenschutz, Arbeitssicherheit und Sicherheitsmanagement, Brandschutz, Badeaufsicht und Detektivwesen."
   },
   "note": {
-    "de": "die Sicherheit von Gebäuden und Veranstaltungen überwachen, potenziell gefährdete Personen schützen die Betriebsleitung hinsichtlich Arbeitsschutz und Unfallverhütung unterstützen, Sicherheitssysteme entwickeln und in Betrieben implementieren Maßnahmen zur Brandbekämpfung und medizinischen Notversorgung durchführen, Menschen retten und Sachgüter bergen, technische Hilfe leisten den Badebetrieb in Frei- oder Hallenbädern beaufsichtigen bzw. leiten, die technischen Anlagen überwachen Informationen für Auftraggeber/innen einholen, Beweise beschaffen, Sachverhalte recherchieren Einsätze leiten und koordinieren, z. B. bei Bränden, Unfällen oder Umweltkatastrophen"
+    "de": [
+      "die Sicherheit von Gebäuden und Veranstaltungen überwachen, potenziell gefährdete Personen schützen die Betriebsleitung hinsichtlich Arbeitsschutz und Unfallverhütung unterstützen, Sicherheitssysteme entwickeln und in Betrieben implementieren Maßnahmen zur Brandbekämpfung und medizinischen Notversorgung durchführen, Menschen retten und Sachgüter bergen, technische Hilfe leisten den Badebetrieb in Frei- oder Hallenbädern beaufsichtigen bzw. leiten, die technischen Anlagen überwachen Informationen für Auftraggeber/innen einholen, Beweise beschaffen, Sachverhalte recherchieren Einsätze leiten und koordinieren, z. B. bei Bränden, Unfällen oder Umweltkatastrophen"
+    ]
   },
   "narrower": [
     {
@@ -91,6 +93,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -99,8 +102,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -139,11 +154,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe bereiten Vorspeisen, kalte Speisen sowie Süßspeisen zu und richten diese an."
   },
   "note": {
-    "de": "je nach Speisekarte bzw. -plan Menge und Art der benötigten Lebensmittel ermitteln, Waren einkaufen und einlagern Speisenvorschläge erarbeiten, Gerichte kreieren Speisen wie Pasteten, Terrinen, Salate, belegte Brötchen, kalte Soßen rechtzeitig vorbereiten, kalte Platten, Vor- und Süßspeisen anrichten und garnieren besondere Platten (Schaustücke) und kalte Büffets anrichten, dabei besonders auf dekorative Wirkung und künstlerische Gestaltung achten bei der Speisenzubereitung ernährungswissenschaftliche Erkenntnisse berücksichtigen Arbeitsabläufe im jeweiligen Verantwortungsbereich (Posten) planen, rechtzeitige Vor- und Zubereitung der Speisen organisieren im Veranstaltungsservice Kundenwünsche ermitteln, Speisen zubereiten und an den Veranstaltungsort liefern"
+    "de": [
+      "je nach Speisekarte bzw. -plan Menge und Art der benötigten Lebensmittel ermitteln, Waren einkaufen und einlagern Speisenvorschläge erarbeiten, Gerichte kreieren Speisen wie Pasteten, Terrinen, Salate, belegte Brötchen, kalte Soßen rechtzeitig vorbereiten, kalte Platten, Vor- und Süßspeisen anrichten und garnieren besondere Platten (Schaustücke) und kalte Büffets anrichten, dabei besonders auf dekorative Wirkung und künstlerische Gestaltung achten bei der Speisenzubereitung ernährungswissenschaftliche Erkenntnisse berücksichtigen Arbeitsabläufe im jeweiligen Verantwortungsbereich (Posten) planen, rechtzeitige Vor- und Zubereitung der Speisen organisieren im Veranstaltungsservice Kundenwünsche ermitteln, Speisen zubereiten und an den Veranstaltungsort liefern"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/293",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

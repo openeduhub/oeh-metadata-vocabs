@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in Versicherungs- und Finanzdienstleistungen, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „721 Versicherungs- und Finanzdienstleistungen“ nicht anderweitig erfasst sind. Angehörige dieser Berufe arbeiten z. B. im Leasinggeschäft oder im Bankdienst bei der Deutschen Bundesbank."
   },
   "note": {
-    "de": "Einzahlungen entgegennehmen, Geldscheine und Münzen mit Maschinen und Automaten sortieren, nicht umlauffähiges Geld oder Falschgeld aussortieren Risiken berechnen und die Bonität von Kunden und Kundinnen prüfen, um dadurch individuelle Leasing- und Finanzierungsmodelle zu entwickeln und anzubieten Leasingobjekte beschaffen, Leasingverträge verfassen, kalkulieren und abschließen Leasingvermögen bilanzieren, bewerten und Abschreibungen durchführen Kreditgeschäfte überwachen und abwickeln sowie zum jeweiligen Bereich gehörende Kreditinstitute, z. B. im Hinblick auf ihre Mindestreservehaltung, prüfen Wertpapiere an- und verkaufen sowie z. B. bei der Emission von Wertpapieren von Bund und Ländern mitwirken bei der Durchführung des gesetzlichen Auftrages der Deutschen Bundesbank mitarbeiten, z. B. bei der Gewährleistung der Preisstabilität im Euro-Raum mitwirken"
+    "de": [
+      "Einzahlungen entgegennehmen, Geldscheine und Münzen mit Maschinen und Automaten sortieren, nicht umlauffähiges Geld oder Falschgeld aussortieren Risiken berechnen und die Bonität von Kunden und Kundinnen prüfen, um dadurch individuelle Leasing- und Finanzierungsmodelle zu entwickeln und anzubieten Leasingobjekte beschaffen, Leasingverträge verfassen, kalkulieren und abschließen Leasingvermögen bilanzieren, bewerten und Abschreibungen durchführen Kreditgeschäfte überwachen und abwickeln sowie zum jeweiligen Bereich gehörende Kreditinstitute, z. B. im Hinblick auf ihre Mindestreservehaltung, prüfen Wertpapiere an- und verkaufen sowie z. B. bei der Emission von Wertpapieren von Bund und Ländern mitwirken bei der Durchführung des gesetzlichen Auftrages der Deutschen Bundesbank mitarbeiten, z. B. bei der Gewährleistung der Preisstabilität im Euro-Raum mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/721",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

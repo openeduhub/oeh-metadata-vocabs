@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichts- und Führungsaufgaben im Bereich der Planung und Organisation des Verkaufsgeschehens und des Kassenbereichs in Einrichtungen des Einzelhandels."
   },
   "note": {
-    "de": "die Sortimentsgestaltung planen, steuern und überwachen, Waren unter verkaufspsychologischen Aspekten präsentieren und verkaufsfördernde Maßnahmen erarbeiten die Verfügbarkeit von Waren, Geldmitteln und Werbemitteln planen und sicherstellen, Lagerbestände inventarisieren, die zum Verkauf bestimmten Waren bestellen und einkaufen Preise gestalten, Verkaufsaktivitäten organisieren und leiten sowie Richtlinien für die Gewährung von Rabatten und Krediten aufstellen die Kassenaufsicht im Handel planen, organisieren und den Ablauf im Kassenbereich überwachen, Kassenbestände mit Einnahmen vergleichen, Fehlbeträge verantworten Kunden und Kundinnen fachgerecht beraten und den reibungslosen Ablauf des Verkaufsbetriebs organisieren Betriebsabrechnungen erstellen, das Budget planen, die Budgeteinhaltung überwachen Personal führen und anleiten, den Personaleinsatz planen, Aus- und Weiterbildung des Personals steuern und überwachen, Schulungen durchführen"
+    "de": [
+      "die Sortimentsgestaltung planen, steuern und überwachen, Waren unter verkaufspsychologischen Aspekten präsentieren und verkaufsfördernde Maßnahmen erarbeiten die Verfügbarkeit von Waren, Geldmitteln und Werbemitteln planen und sicherstellen, Lagerbestände inventarisieren, die zum Verkauf bestimmten Waren bestellen und einkaufen Preise gestalten, Verkaufsaktivitäten organisieren und leiten sowie Richtlinien für die Gewährung von Rabatten und Krediten aufstellen die Kassenaufsicht im Handel planen, organisieren und den Ablauf im Kassenbereich überwachen, Kassenbestände mit Einnahmen vergleichen, Fehlbeträge verantworten Kunden und Kundinnen fachgerecht beraten und den reibungslosen Ablauf des Verkaufsbetriebs organisieren Betriebsabrechnungen erstellen, das Budget planen, die Budgeteinhaltung überwachen Personal führen und anleiten, den Personaleinsatz planen, Aus- und Weiterbildung des Personals steuern und überwachen, Schulungen durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/621",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

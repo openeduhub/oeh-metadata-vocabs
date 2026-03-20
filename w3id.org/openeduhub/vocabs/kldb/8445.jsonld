@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe arbeiten an außerschulischen Bildungseinrichtungen und unterrichten Erwachsene und Kinder in einer Sprache, die nicht ihre Muttersprache ist, und vermitteln ebenfalls Wissen zu Literatur und Kultur des entsprechenden Sprachraums."
   },
   "note": {
-    "de": "Unterrichtseinheiten vorbereiten, dabei Lernziele und Sprachstand der Lehrgangsteilnehmer berücksichtigen je nach Kursziel, z. B. mündliche oder schriftliche Übungen durchführen, Filme vorführen, Konversationsübungen oder Lektürekurse abhalten, deren Inhalt und Fortschrittstempo auf die Fähigkeiten und Bedürfnisse der Lernenden abgestimmt ist Unterrichtsmaterialien und -medien wie Folien und Arbeitsblätter erstellen, vorhandene Unterrichtsmaterialien aktualisieren Übungs- und Hausaufgaben erteilen, besprechen und korrigieren sowie Prüfungen vorbereiten und benoten die Fortschritte von Lernenden beurteilen und aufzeichnen sowie den Lernenden Feedbacks erteilen und Verbesserungsmöglichkeiten aufzeigen Unterrichtsplanung überprüfen, Lernziele und Lernerfolg vergleichen"
+    "de": [
+      "Unterrichtseinheiten vorbereiten, dabei Lernziele und Sprachstand der Lehrgangsteilnehmer berücksichtigen je nach Kursziel, z. B. mündliche oder schriftliche Übungen durchführen, Filme vorführen, Konversationsübungen oder Lektürekurse abhalten, deren Inhalt und Fortschrittstempo auf die Fähigkeiten und Bedürfnisse der Lernenden abgestimmt ist Unterrichtsmaterialien und -medien wie Folien und Arbeitsblätter erstellen, vorhandene Unterrichtsmaterialien aktualisieren Übungs- und Hausaufgaben erteilen, besprechen und korrigieren sowie Prüfungen vorbereiten und benoten die Fortschritte von Lernenden beurteilen und aufzeichnen sowie den Lernenden Feedbacks erteilen und Verbesserungsmöglichkeiten aufzeigen Unterrichtsplanung überprüfen, Lernziele und Lernerfolg vergleichen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/844",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

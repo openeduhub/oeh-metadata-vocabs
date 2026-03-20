@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe sind in der Erzeugung von Stahl oder Nichteisenmetallen tätig. Dazu bedienen sie Hochofenanlagen, überwachen den Ablauf, planen den Einsatz von Roh- und Hilfsstoffen, organisieren den Einsatz der Mitarbeiter/innen und wirken an der Forschung und Entwicklung hüttentechnischer Prozesse mit."
   },
   "note": {
-    "de": "Roherze, Zuschlagstoffe und Hilfsstoffe aufbereiten, um eine Hochofenmischung aus verschiedenen Erzsorten zusammenzustellen Hoch- oder Schmelzöfen einrichten, einstellen, bedienen und kontrollieren, Anlagen zum Transport der Ausgangsmaterialien bzw. des flüssigen Rohmetalls bedienen und überwachen Prozessparameter wie Energie-, Luftzufuhr, Kühlsysteme und Füllmenge vom Leitstand aus regeln Stahl aus Roheisen erzeugen, spezielle Stahlarten herstellen, Nichteisenmetalle wie Kupfer, Blei oder Silber erschmelzen und veredeln Wartungs- und Reparaturarbeiten an Maschinen und Anlagen der Hüttentechnik durchführen Produktionsprozesse von Hüttenbetrieben, Teilanlagen oder Teilbereichen in der metallurgischen Verfahrenstechnik bzw. im Korrosionsschutz leiten die Einhaltung von Qualitätsvorschriften sowie Maßnahmen des Umweltschutzes und der Arbeitssicherheit sicherstellen Vertriebsmitarbeiter/innen technisch beraten, bei der Kalkulation von Kosten mitwirken, den optimalen Einsatz der Einrichtungen regeln an Planung, Forschung, Entwicklung und Versuch auf dem Gebiet hüttentechnischer Prozesse mitwirken"
+    "de": [
+      "Roherze, Zuschlagstoffe und Hilfsstoffe aufbereiten, um eine Hochofenmischung aus verschiedenen Erzsorten zusammenzustellen Hoch- oder Schmelzöfen einrichten, einstellen, bedienen und kontrollieren, Anlagen zum Transport der Ausgangsmaterialien bzw. des flüssigen Rohmetalls bedienen und überwachen Prozessparameter wie Energie-, Luftzufuhr, Kühlsysteme und Füllmenge vom Leitstand aus regeln Stahl aus Roheisen erzeugen, spezielle Stahlarten herstellen, Nichteisenmetalle wie Kupfer, Blei oder Silber erschmelzen und veredeln Wartungs- und Reparaturarbeiten an Maschinen und Anlagen der Hüttentechnik durchführen Produktionsprozesse von Hüttenbetrieben, Teilanlagen oder Teilbereichen in der metallurgischen Verfahrenstechnik bzw. im Korrosionsschutz leiten die Einhaltung von Qualitätsvorschriften sowie Maßnahmen des Umweltschutzes und der Arbeitssicherheit sicherstellen Vertriebsmitarbeiter/innen technisch beraten, bei der Kalkulation von Kosten mitwirken, den optimalen Einsatz der Einrichtungen regeln an Planung, Forschung, Entwicklung und Versuch auf dem Gebiet hüttentechnischer Prozesse mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/241",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

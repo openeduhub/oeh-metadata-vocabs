@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Veranstaltungs-, Kamera- und Tontechnik, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „945 Veranstaltungs-, Kamera- und Tontechnik“ nicht anderweitig erfasst sind. Angehörige dieser Berufe planen und realisieren z. B. Feuerwerke und sonstige pyrotechnische Effekte."
   },
   "note": {
-    "de": "Aufträge mit Kunden und Kundinnen besprechen, Ortsbesichtigungen durchführen, Abbrennplätze unter Beachtung der Sicherheitsvorschriften bestimmen detaillierte Programmabläufe und Abbrennpläne erstellen, pyrotechnische Effekte auswählen und dramaturgisch zusammenstellen pyrotechnische Spezialeffekte für Film- und Fernsehproduktionen mit der Regie, der Requisite, den Kamera- und Stunt-Teams sowie Darstellern und Darstellerinnen absprechen Materialien für pyrotechnische Spezialeffekte bzw. Innenfeuerwerke in Mehrzweckhallen, auf Konzert- oder Theaterbühnen installieren Abschussgeräte aufbauen, Zündkabel verlegen, Zündanlagen und Steuergeräte anschließen und programmieren, Musikeinspielungen und Lichteffekte zeitgenau kombinieren die Einhaltung der umfangreichen Sicherheitsregeln gewährleisten, Gefahrenbereiche absichern und Brandschutzbestimmungen beachten"
+    "de": [
+      "Aufträge mit Kunden und Kundinnen besprechen, Ortsbesichtigungen durchführen, Abbrennplätze unter Beachtung der Sicherheitsvorschriften bestimmen detaillierte Programmabläufe und Abbrennpläne erstellen, pyrotechnische Effekte auswählen und dramaturgisch zusammenstellen pyrotechnische Spezialeffekte für Film- und Fernsehproduktionen mit der Regie, der Requisite, den Kamera- und Stunt-Teams sowie Darstellern und Darstellerinnen absprechen Materialien für pyrotechnische Spezialeffekte bzw. Innenfeuerwerke in Mehrzweckhallen, auf Konzert- oder Theaterbühnen installieren Abschussgeräte aufbauen, Zündkabel verlegen, Zündanlagen und Steuergeräte anschließen und programmieren, Musikeinspielungen und Lichteffekte zeitgenau kombinieren die Einhaltung der umfangreichen Sicherheitsregeln gewährleisten, Gefahrenbereiche absichern und Brandschutzbestimmungen beachten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/945",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

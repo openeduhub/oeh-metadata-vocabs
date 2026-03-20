@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen einzelne Zier- und Gebrauchsgegenstände aus Keramik und Glas manuell oder unter Zuhilfenahme von Handwerkzeugen und handbetriebenen Maschinen her, entwickeln Formen und Prototypen für die industrielle Serienfertigung und organisieren Arbeitsabläufe in kunsthandwerklichen Betrieben, die Glas- und Keramikprodukte herstellen."
   },
   "note": {
-    "de": "keramische oder Glaserzeugnisse entwerfen, Produktkollektionen entwickeln, Einzelstücke und Prototypen anfertigen, Produkte in (Klein-)Serien herstellen Glas nach Erhitzen durch Blasen oder Modellieren zu den gewünschten Objekten formen Porzellan oder Keramik nach vorgegebenen oder selbst entworfenen Vorlagen bemalen, lasieren, staffieren, rändern, bändern oder linieren Glaserzeugnisse bemalen sowie historische Glasmalereien, z. B. an Kirchenfenstern, restaurieren organisatorische, kaufmännische sowie qualifizierte fachliche Aufgaben in Betrieben der kunsthandwerklichen Keramik- und Glasgestaltung übernehmen, Mitarbeiter/innen anleiten"
+    "de": [
+      "keramische oder Glaserzeugnisse entwerfen, Produktkollektionen entwickeln, Einzelstücke und Prototypen anfertigen, Produkte in (Klein-)Serien herstellen Glas nach Erhitzen durch Blasen oder Modellieren zu den gewünschten Objekten formen Porzellan oder Keramik nach vorgegebenen oder selbst entworfenen Vorlagen bemalen, lasieren, staffieren, rändern, bändern oder linieren Glaserzeugnisse bemalen sowie historische Glasmalereien, z. B. an Kirchenfenstern, restaurieren organisatorische, kaufmännische sowie qualifizierte fachliche Aufgaben in Betrieben der kunsthandwerklichen Keramik- und Glasgestaltung übernehmen, Mitarbeiter/innen anleiten"
+    ]
   },
   "narrower": [
     {
@@ -67,6 +69,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -75,8 +78,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -115,11 +130,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

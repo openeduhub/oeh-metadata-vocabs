@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Tätigkeiten in der Organisation von Beisetzungen, Bestattungen und Trauerfeiern, sie halten Trauerreden, beraten und betreuen Angehörige oder leiten ein Bestattungsunternehmen."
   },
   "note": {
-    "de": "Bestattungsaufträge entgegennehmen und bearbeiten Hinterbliebene betreuen und über Ausgestaltungsmöglichkeiten einer Bestattung und Gestaltung einer Traueranzeige beraten Bestattungen, Beisetzungen und Trauerfeiern organisieren und durchführen Särge, Gräber und Räume für Trauerfeierlichkeiten vorbereiten und bei der Dekoration mitwirken Verstorbene hygienisch und kosmetisch versorgen, überführen, aufbewahren und aufbahren Gesundheits- und Hygienevorschriften einhalten und gewährleisten, dass die rechtlichen Vorschriften für das Einbalsamieren eingehalten werden den Betrieb von Bestattungsunternehmen planen, organisieren und leiten"
+    "de": [
+      "Bestattungsaufträge entgegennehmen und bearbeiten Hinterbliebene betreuen und über Ausgestaltungsmöglichkeiten einer Bestattung und Gestaltung einer Traueranzeige beraten Bestattungen, Beisetzungen und Trauerfeiern organisieren und durchführen Särge, Gräber und Räume für Trauerfeierlichkeiten vorbereiten und bei der Dekoration mitwirken Verstorbene hygienisch und kosmetisch versorgen, überführen, aufbewahren und aufbahren Gesundheits- und Hygienevorschriften einhalten und gewährleisten, dass die rechtlichen Vorschriften für das Einbalsamieren eingehalten werden den Betrieb von Bestattungsunternehmen planen, organisieren und leiten"
+    ]
   },
   "narrower": [
     {
@@ -50,6 +52,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -58,8 +61,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -98,11 +113,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

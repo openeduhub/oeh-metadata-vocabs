@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe beraten Anwender/innen zu IT-Projekten und -Produkten. Sie leisten technischen Support und bieten Hilfe und Unterstützung beim Einsatz, der Installation und Wartung von Systemen an."
   },
   "note": {
-    "de": "Kunden und Kundinnen bei der Auswahl von IT-Services, Hard- und Software beraten und individuelle Lösungen entwickeln Kunden-, Mitbewerber- und eigene IT-Systeme unter technischen, wirtschaftlichen und ökologischen Gesichtspunkten bewerten, Durchführbarkeitsstudien (Feasibility Studies) erstellen Anwender/innen von IT-Lösungen beraten und schulen, technische Unterlagen des IT-Bereichs benutzergerecht aufbereiten Reklamationen von Kunden und Kundinnen sachgerecht und wirtschaftlich vertretbar abklären, technische Fehler lokalisieren und beheben Konzepte, Techniken, Werkzeuge und Methoden für die Beratungstätigkeit entwickeln, Hilfsdokumentationen verfassen ERP-Anwendungen oder deren Teile konfigurieren, betreiben und pflegen"
+    "de": [
+      "Kunden und Kundinnen bei der Auswahl von IT-Services, Hard- und Software beraten und individuelle Lösungen entwickeln Kunden-, Mitbewerber- und eigene IT-Systeme unter technischen, wirtschaftlichen und ökologischen Gesichtspunkten bewerten, Durchführbarkeitsstudien (Feasibility Studies) erstellen Anwender/innen von IT-Lösungen beraten und schulen, technische Unterlagen des IT-Bereichs benutzergerecht aufbereiten Reklamationen von Kunden und Kundinnen sachgerecht und wirtschaftlich vertretbar abklären, technische Fehler lokalisieren und beheben Konzepte, Techniken, Werkzeuge und Methoden für die Beratungstätigkeit entwickeln, Hilfsdokumentationen verfassen ERP-Anwendungen oder deren Teile konfigurieren, betreiben und pflegen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/432",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

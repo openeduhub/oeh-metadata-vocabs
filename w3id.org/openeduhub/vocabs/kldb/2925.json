@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe verarbeiten Rohmilch zu Milchprodukten, verpacken und lagern diese, organisieren und überwachen Arbeitsabläufe in der Herstellung von Milchprodukten, sichern die Qualität der Produkte und beraten Milch erzeugende bzw. verarbeitende Betriebe."
   },
   "note": {
-    "de": "Milch annehmen, Qualität von Milchlieferungen prüfen, Rohmilch im Labor überprüfen Milch reinigen und zu Joghurt, Quark, Butter, Käse oder Speiseeis verarbeiten, Produkte verpacken und lagern Maschinen und Anlagen, wie z. B. Rührmaschinen, Eismaschinen, Mischmaschinen, Abfüll- und Verpackungsanlagen, bedienen und überwachen Maschinen, Anlagen, Behälter und Rohre reinigen und desinfizieren, warten und pflegen Produktionsabläufe planen, organisieren und überwachen Qualitätskontrollen durchführen, Produkte chemisch, physikalisch und mikrobiologisch untersuchen, sensorische Prüfungen durchführen, z. B. Geschmack, Geruch, Aussehen prüfen bei der Entwicklung neuer Produkte mitwirken, z. B. neue Joghurt- und Speiseeissorten entwickeln Betriebe der Milcherzeugung oder -produktion beraten, z. B. über gesetzliche Bestimmungen, Qualität und Hygiene, Betriebsabläufe, verfahrenstechnische Neuerungen"
+    "de": [
+      "Milch annehmen, Qualität von Milchlieferungen prüfen, Rohmilch im Labor überprüfen Milch reinigen und zu Joghurt, Quark, Butter, Käse oder Speiseeis verarbeiten, Produkte verpacken und lagern Maschinen und Anlagen, wie z. B. Rührmaschinen, Eismaschinen, Mischmaschinen, Abfüll- und Verpackungsanlagen, bedienen und überwachen Maschinen, Anlagen, Behälter und Rohre reinigen und desinfizieren, warten und pflegen Produktionsabläufe planen, organisieren und überwachen Qualitätskontrollen durchführen, Produkte chemisch, physikalisch und mikrobiologisch untersuchen, sensorische Prüfungen durchführen, z. B. Geschmack, Geruch, Aussehen prüfen bei der Entwicklung neuer Produkte mitwirken, z. B. neue Joghurt- und Speiseeissorten entwickeln Betriebe der Milcherzeugung oder -produktion beraten, z. B. über gesetzliche Bestimmungen, Qualität und Hygiene, Betriebsabläufe, verfahrenstechnische Neuerungen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe leiten und präsentieren Sendungen in Radio und Fernsehen, führen Recherchen durch und erstellen Moderationstexte."
   },
   "note": {
-    "de": "aktuelle Ereignisse, Trends und Themen in den Medien verfolgen und daraus Themenvorschläge erarbeiten, Hintergrundinformationen recherchieren Gesprächsgäste bzw. Interviewpartner oder -partnerinnen einladen, Texte für die Moderation verfassen und Interviews vorbereiten im Hörfunk im Selbstfahrerstudio Mischpult, Abspiel-, Aufnahmegeräte bedienen, im Fernsehen Sendungen frei und mit Teleprompter moderieren verschiedene Sendeformate, z. B. Musik-, Sport-, Nachrichtensendungen, moderieren, dabei die spezifischen Merkmale des Sendeformats berücksichtigen in Interviews oder Talkshows in jeder Gesprächssituation angemessen reagieren, mit schwierigen Themen sensibel umgehen und professionell durch die Sendung führen Programme ankündigen, dabei als Vermittler/in zwischen Fernsehen bzw. Hörfunk und Zuschauern sowie Zuschauerinnen bzw. Hörern und Hörerinnen auftreten"
+    "de": [
+      "aktuelle Ereignisse, Trends und Themen in den Medien verfolgen und daraus Themenvorschläge erarbeiten, Hintergrundinformationen recherchieren Gesprächsgäste bzw. Interviewpartner oder -partnerinnen einladen, Texte für die Moderation verfassen und Interviews vorbereiten im Hörfunk im Selbstfahrerstudio Mischpult, Abspiel-, Aufnahmegeräte bedienen, im Fernsehen Sendungen frei und mit Teleprompter moderieren verschiedene Sendeformate, z. B. Musik-, Sport-, Nachrichtensendungen, moderieren, dabei die spezifischen Merkmale des Sendeformats berücksichtigen in Interviews oder Talkshows in jeder Gesprächssituation angemessen reagieren, mit schwierigen Themen sensibel umgehen und professionell durch die Sendung führen Programme ankündigen, dabei als Vermittler/in zwischen Fernsehen bzw. Hörfunk und Zuschauern sowie Zuschauerinnen bzw. Hörern und Hörerinnen auftreten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/943",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

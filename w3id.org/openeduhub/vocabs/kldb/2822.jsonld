@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen in Handwerks- oder Industriebetrieben Kleidung bzw. Bekleidungsteile, Hüte und Mützen her oder planen, organisieren und optimieren die Arbeitsabläufe in der industriellen Bekleidungsherstellung."
   },
   "note": {
-    "de": "Bekleidungsartikel und sonstige Textilwaren nähen, Textilien bügeln bzw. mangeln, Kleidungsstücke ändern und reparieren Kunden und Kundinnen betreuen und beraten, z. B. Maß nehmen, über Preise und Schnitte beraten, Termine für Anproben und Abholung festlegen Schnitte und Kollektionen zusammen mit Modedesignern planen, dabei aktuelle Markt- und Trendanalysen berücksichtigen Einsatz von Arbeitsabläufen planen, z. B. Arbeitsplätze vorbereiten, Fertigungsweise festlegen, Fertigstellungstermine abschätzen und Einhaltung überwachen Arbeitsgruppen, Fertigungsabteilungen, Lohnbetriebe, Fertigungsbetriebe der Bekleidungs-, Hut- und Mützenherstellung koordinieren, für optimale Produktionsergebnisse sorgen neue Arbeitsmethoden und Verfahren zur Herstellung und Weiterverarbeitung von Textilien entwickeln Verarbeitungsmöglichkeiten neuer faserbasierter Werkstoffe im Bereich der technischen Textilien konzipieren, Prototypen für Kleidung oder Textilprodukte entwickeln bei der Planung neuer Produktionsstätten mitarbeiten, in der Entwicklung neuer Werkstoffe, Maschinen und Anlagen mitwirken in Zusammenarbeit mit der Marketingabteilung Produkte auf Messen, Trendshows oder in Kundenbetrieben präsentieren, fachliche Beratung erbringen"
+    "de": [
+      "Bekleidungsartikel und sonstige Textilwaren nähen, Textilien bügeln bzw. mangeln, Kleidungsstücke ändern und reparieren Kunden und Kundinnen betreuen und beraten, z. B. Maß nehmen, über Preise und Schnitte beraten, Termine für Anproben und Abholung festlegen Schnitte und Kollektionen zusammen mit Modedesignern planen, dabei aktuelle Markt- und Trendanalysen berücksichtigen Einsatz von Arbeitsabläufen planen, z. B. Arbeitsplätze vorbereiten, Fertigungsweise festlegen, Fertigstellungstermine abschätzen und Einhaltung überwachen Arbeitsgruppen, Fertigungsabteilungen, Lohnbetriebe, Fertigungsbetriebe der Bekleidungs-, Hut- und Mützenherstellung koordinieren, für optimale Produktionsergebnisse sorgen neue Arbeitsmethoden und Verfahren zur Herstellung und Weiterverarbeitung von Textilien entwickeln Verarbeitungsmöglichkeiten neuer faserbasierter Werkstoffe im Bereich der technischen Textilien konzipieren, Prototypen für Kleidung oder Textilprodukte entwickeln bei der Planung neuer Produktionsstätten mitarbeiten, in der Entwicklung neuer Werkstoffe, Maschinen und Anlagen mitwirken in Zusammenarbeit mit der Marketingabteilung Produkte auf Messen, Trendshows oder in Kundenbetrieben präsentieren, fachliche Beratung erbringen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/282",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

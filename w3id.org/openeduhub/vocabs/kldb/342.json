@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der Klempnerei, Sanitär-, Heizungs- und Klimatechnik sowie im Ofen- und Luftheizungsbau und in der Kältetechnik."
   },
   "note": {
-    "de": "Blechbauteile, z. B. Bleche, Profile und Platten, herstellen und reparieren, Bauteile in die gewünschte Form bringen und verbinden, Endmontage vor Ort durchführen Anlagen und Geräte der Sanitär-, Heizungs-, Klima- und Kältetechnik konzipieren, herstellen, installieren, in Betrieb nehmen, warten und reparieren Fachkräfte bei Bau und Montage, z. B. von Blechdächern und Fassadenbekleidungen, unterstützen Anlagen und Systeme nach Kundenwünschen planen, Leistungsverzeichnisse und Kostenvoranschläge erstellen, Beratungsleistungen erbringen, Ausschreibungsverfahren durchführen Konstruktions- und Ausführungszeichnungen per Hand oder mittels CAD-Anwendungen anfertigen Bauabläufe planen und überwachen sowie die Arbeitsausführung und die Einhaltung von Terminen kontrollieren, Schulung und Weiterbildung für Mitarbeiter/innen organisieren"
+    "de": [
+      "Blechbauteile, z. B. Bleche, Profile und Platten, herstellen und reparieren, Bauteile in die gewünschte Form bringen und verbinden, Endmontage vor Ort durchführen Anlagen und Geräte der Sanitär-, Heizungs-, Klima- und Kältetechnik konzipieren, herstellen, installieren, in Betrieb nehmen, warten und reparieren Fachkräfte bei Bau und Montage, z. B. von Blechdächern und Fassadenbekleidungen, unterstützen Anlagen und Systeme nach Kundenwünschen planen, Leistungsverzeichnisse und Kostenvoranschläge erstellen, Beratungsleistungen erbringen, Ausschreibungsverfahren durchführen Konstruktions- und Ausführungszeichnungen per Hand oder mittels CAD-Anwendungen anfertigen Bauabläufe planen und überwachen sowie die Arbeitsausführung und die Einhaltung von Terminen kontrollieren, Schulung und Weiterbildung für Mitarbeiter/innen organisieren"
+    ]
   },
   "narrower": [
     {
@@ -73,6 +75,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -81,8 +84,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -121,11 +136,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

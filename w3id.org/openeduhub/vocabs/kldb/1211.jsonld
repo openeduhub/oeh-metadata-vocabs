@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe bauen Obst, Gemüse, Kräuter und Pilze mit gärtnerischen Produktionsmethoden an und ernten, lagern und verkaufen die Erzeugnisse. Sie entwickeln neue Züchtungen, kontrollieren Ernteergebnisse und beraten Konsumenten, z. B. bei genossenschaftlichen Einrichtungen oder Vermarktungsstellen."
   },
   "note": {
-    "de": "Anbau von Obst bzw. gärtnerischen Anbau von Gemüse planen, Sorten auswählen, Pflanz- bzw. Saatgut auswählen und lagern Boden bearbeiten und pflegen, Gemüse aussäen und Jungpflanzen anziehen, Obst- bzw. Gemüsepflanzungen pflegen, z. B. schneiden, ausdünnen in der Pilzzucht z. B. Komposte mit Brut spicken und mit Torf abdecken, Wachstum der Pilze überwachen den sortenspezifischen Erntezeitpunkt bestimmen, Obst bzw. Gemüse ernten und lagern, Spezialmaschinen und Geräte einsetzen bei der Neuzüchtung von Obst und Gemüse sowie bei der Saatgewinnung bereits anerkannter Sorten mitarbeiten Obst bzw. Gemüse marktgerecht aufbereiten, z. B. sortieren, verpacken und kennzeichnen, zur Vermarktung transportieren, präsentieren und verkaufen Kunden und Kundinnen informieren und beraten"
+    "de": [
+      "Anbau von Obst bzw. gärtnerischen Anbau von Gemüse planen, Sorten auswählen, Pflanz- bzw. Saatgut auswählen und lagern Boden bearbeiten und pflegen, Gemüse aussäen und Jungpflanzen anziehen, Obst- bzw. Gemüsepflanzungen pflegen, z. B. schneiden, ausdünnen in der Pilzzucht z. B. Komposte mit Brut spicken und mit Torf abdecken, Wachstum der Pilze überwachen den sortenspezifischen Erntezeitpunkt bestimmen, Obst bzw. Gemüse ernten und lagern, Spezialmaschinen und Geräte einsetzen bei der Neuzüchtung von Obst und Gemüse sowie bei der Saatgewinnung bereits anerkannter Sorten mitarbeiten Obst bzw. Gemüse marktgerecht aufbereiten, z. B. sortieren, verpacken und kennzeichnen, zur Vermarktung transportieren, präsentieren und verkaufen Kunden und Kundinnen informieren und beraten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/121",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

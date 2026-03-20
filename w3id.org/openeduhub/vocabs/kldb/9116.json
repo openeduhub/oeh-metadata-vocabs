@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe untersuchen, vermitteln und dokumentieren Sprachen, Literatur und Kultur des asiatischen Kulturkreises."
   },
   "note": {
-    "de": "poetische und nichtpoetische Texte der Vergangenheit und Gegenwart sowie gesprochene Sprache aus dem asiatischen Kulturraum analysieren, interpretieren und beschreiben Sprachlaute in der Phonetik und Phonologie, Wortformen und -strukturen in der Morphologie, Fragen der Wortbedeutung in der Semantik und Satzstrukturen in der Syntax untersuchen Kultur und Sprache aus einer interdisziplinären und international vergleichenden Perspektive untersuchen, dabei Erkenntnisse anderer Geistes- und Sozialwissenschaften einbeziehen fachrelevante Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen an Forschungsprojekten, z. B. zur Analyse der logischen Struktur chinesischer Texte, teilnehmen"
+    "de": [
+      "poetische und nichtpoetische Texte der Vergangenheit und Gegenwart sowie gesprochene Sprache aus dem asiatischen Kulturraum analysieren, interpretieren und beschreiben Sprachlaute in der Phonetik und Phonologie, Wortformen und -strukturen in der Morphologie, Fragen der Wortbedeutung in der Semantik und Satzstrukturen in der Syntax untersuchen Kultur und Sprache aus einer interdisziplinären und international vergleichenden Perspektive untersuchen, dabei Erkenntnisse anderer Geistes- und Sozialwissenschaften einbeziehen fachrelevante Daten, Dokumente, Literatur ermitteln, sichten, sammeln, Ergebnisse z. B. in Vorträgen, Aufsätzen oder Büchern veröffentlichen an Forschungsprojekten, z. B. zur Analyse der logischen Struktur chinesischer Texte, teilnehmen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/911",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

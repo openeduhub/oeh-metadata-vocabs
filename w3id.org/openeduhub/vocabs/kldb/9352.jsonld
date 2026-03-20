@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe be- und verarbeiten Edel- und Schmucksteine, entwerfen und gestalten Schmuck sowie Zier- und Gebrauchsgegenstände aus Edelmetallen, führen Restaurierungsarbeiten aus und entwickeln Produktkollektionen."
   },
   "note": {
-    "de": "Schmuck und andere Zier- und Gebrauchsgegenstände aus Edelmetallen entwerfen, herstellen und gestalten Schleifarbeiten ausführen, dabei verschieden Schliffarten, wie Tafel-, Mugel-, Facettenschliff, abhängig von Größe, Form, Farbe, Einschlüssen und deren Platzierung im Schmuckstück, ausführen Edelsteine schneiden und polieren und in Schmuckgegenstände einsetzen zu restaurierende Objekte prüfen, schadhafte Stellen feststellen, Schmuck, Zier- und Gebrauchsgegenstände aus Edelmetallen restaurieren Unikate bzw. Modelle für die industrielle Serienproduktion aus Edelsteinen sowie Edelmetallen, wie Gold, Silber, Platin, herstellen bei Serienherstellung die erforderlichen Arbeitsunterlagen für die Fertigung anfertigen, die Produktion der Basisprodukte, Prototypen und Testserien betreuen, die Ergebnisse prüfen"
+    "de": [
+      "Schmuck und andere Zier- und Gebrauchsgegenstände aus Edelmetallen entwerfen, herstellen und gestalten Schleifarbeiten ausführen, dabei verschieden Schliffarten, wie Tafel-, Mugel-, Facettenschliff, abhängig von Größe, Form, Farbe, Einschlüssen und deren Platzierung im Schmuckstück, ausführen Edelsteine schneiden und polieren und in Schmuckgegenstände einsetzen zu restaurierende Objekte prüfen, schadhafte Stellen feststellen, Schmuck, Zier- und Gebrauchsgegenstände aus Edelmetallen restaurieren Unikate bzw. Modelle für die industrielle Serienproduktion aus Edelsteinen sowie Edelmetallen, wie Gold, Silber, Platin, herstellen bei Serienherstellung die erforderlichen Arbeitsunterlagen für die Fertigung anfertigen, die Produktion der Basisprodukte, Prototypen und Testserien betreuen, die Ergebnisse prüfen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/935",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

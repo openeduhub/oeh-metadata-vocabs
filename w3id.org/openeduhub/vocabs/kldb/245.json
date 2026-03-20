@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben im Bereich der Feinwerk- und Werkzeugtechnik. Sie stellen Werkzeuge sowie Präzisionsbauteile her und montieren diese zu funktionalen Einheiten."
   },
   "note": {
-    "de": "feinwerktechnische Geräte, Systeme oder Systemteile, z. B. in der Mess-, Sensor-, Datenverarbeitungs- oder Audio- und Videotechnik, entwerfen, berechnen und konstruieren verschiedenste Werkzeugtypen entwickeln und dimensionieren, Produktionsmaschinen und Maschinensysteme konstruieren, herstellen, einrichten und überprüfen Uhren, chirurgische Instrumente und Schneidwerkzeuge herstellen und reparieren bzw. restaurieren Präzisionsbauteile aus Metall und Kunststoff fertigen und montieren, Werkzeugmaschinen und Fertigungssysteme bedienen, Programme für nummerisch gesteuerte Maschinen erstellen Qualitätskontrollen durchführen, z. B. Produktteile auf die geforderte Maßgenauigkeit, Festigkeit, Oberflächenbeschaffenheit und auf elektrische Eigenschaften prüfen"
+    "de": [
+      "feinwerktechnische Geräte, Systeme oder Systemteile, z. B. in der Mess-, Sensor-, Datenverarbeitungs- oder Audio- und Videotechnik, entwerfen, berechnen und konstruieren verschiedenste Werkzeugtypen entwickeln und dimensionieren, Produktionsmaschinen und Maschinensysteme konstruieren, herstellen, einrichten und überprüfen Uhren, chirurgische Instrumente und Schneidwerkzeuge herstellen und reparieren bzw. restaurieren Präzisionsbauteile aus Metall und Kunststoff fertigen und montieren, Werkzeugmaschinen und Fertigungssysteme bedienen, Programme für nummerisch gesteuerte Maschinen erstellen Qualitätskontrollen durchführen, z. B. Produktteile auf die geforderte Maßgenauigkeit, Festigkeit, Oberflächenbeschaffenheit und auf elektrische Eigenschaften prüfen"
+    ]
   },
   "narrower": [
     {
@@ -62,6 +64,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -70,8 +73,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -110,11 +125,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

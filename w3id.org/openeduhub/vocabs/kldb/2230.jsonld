@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der industriellen und handwerklichen Herstellung von Holzerzeugnissen tätig. Sie verarbeiten den Rohstoff Holz mithilfe von Sägen, Fräsen und anderen Maschinen und Werkzeugen zu Baustoffen, Halbwaren und fertigen Produkten."
   },
   "note": {
-    "de": "Rohmaterial auswählen und auf Eignung für die Weiterverarbeitung prüfen, Rohmaterial vermessen, sortieren, trocknen und lagern kundenspezifische Lösungen entwickeln, technische Unterlagen für spezifische Anforderungen am Computer erstellen die Arbeitsschritte für die Produktion, den Holz- und den Innenausbau festlegen bzw. optimieren Bearbeitungsmaschinen, wie z. B. Fräsen, Sägen, Hobel-, Beleimungs- und Pressmaschinen, einrichten und damit Holz in die gewünschte Form bringen Rundholz z. B. zu Balken und Leisten, Faserholz z. B. zu Türelementen verarbeiten, Schnittholz z. B. für Wand- und Deckenverkleidung bearbeiten Holzoberflächen bearbeiten, z. B. spezielle Holzschutzmittel aufbringen Abmessungen und Qualität der Holzprodukte kontrollieren, Holzprodukte verpacken, lagern und für den Versand vorbereiten Werkstoffe aus Holz entwickeln, Eigenschaften von bestehenden Holzwerkstoffen verbessern, neue Verwendungsmöglichkeiten erkunden"
+    "de": [
+      "Rohmaterial auswählen und auf Eignung für die Weiterverarbeitung prüfen, Rohmaterial vermessen, sortieren, trocknen und lagern kundenspezifische Lösungen entwickeln, technische Unterlagen für spezifische Anforderungen am Computer erstellen die Arbeitsschritte für die Produktion, den Holz- und den Innenausbau festlegen bzw. optimieren Bearbeitungsmaschinen, wie z. B. Fräsen, Sägen, Hobel-, Beleimungs- und Pressmaschinen, einrichten und damit Holz in die gewünschte Form bringen Rundholz z. B. zu Balken und Leisten, Faserholz z. B. zu Türelementen verarbeiten, Schnittholz z. B. für Wand- und Deckenverkleidung bearbeiten Holzoberflächen bearbeiten, z. B. spezielle Holzschutzmittel aufbringen Abmessungen und Qualität der Holzprodukte kontrollieren, Holzprodukte verpacken, lagern und für den Versand vorbereiten Werkstoffe aus Holz entwickeln, Eigenschaften von bestehenden Holzwerkstoffen verbessern, neue Verwendungsmöglichkeiten erkunden"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/223",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

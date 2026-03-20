@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe befassen sich mit der Biologie des Menschen. Sie erforschen Strukturen und Funktionen des menschlichen Organismus, dessen Wechselwirkungen mit der Umwelt, die Verbreitung und den Verlauf von Krankheiten sowie die Grundlagen von Funktionsstörungen und Krankheiten."
   },
   "note": {
-    "de": "den menschlichen Organismus, seine Zellen, Gewebe, Organe und Strukturen im gesunden und kranken Zustand beschreiben Stoffwechselleistungen im gesunden und kranken Zustand analysieren die Verbreitung und den Verlauf von Krankheiten in Bevölkerungsgruppen untersuchen Studien planen, durchführen und auswerten, z. B. Risikofaktoren wie äußere und innere Einflüsse bestimmen, Studienteilnehmer und -teilnehmerinnen auswählen, Daten erfassen, auswerten, aufbereiten sowie interpretieren und Risikomodelle aufstellen aus den gewonnenen Daten Möglichkeiten zur Prävention und Gesundheitsförderung ableiten Experimente mit Versuchstieren durchführen und auswerten molekulare und genetische Diagnostik sowie Untersuchungen im Bereich der Labormedizin entwickeln, optimieren und durchführen Methoden zur Therapie und Prophylaxe von Erkrankungen entwickeln Entwicklung von Medikamenten, Impfstoffen und Diagnostika durch biologische Expertise unterstützen humanbiologische Fachtexte erstellen und publizieren"
+    "de": [
+      "den menschlichen Organismus, seine Zellen, Gewebe, Organe und Strukturen im gesunden und kranken Zustand beschreiben Stoffwechselleistungen im gesunden und kranken Zustand analysieren die Verbreitung und den Verlauf von Krankheiten in Bevölkerungsgruppen untersuchen Studien planen, durchführen und auswerten, z. B. Risikofaktoren wie äußere und innere Einflüsse bestimmen, Studienteilnehmer und -teilnehmerinnen auswählen, Daten erfassen, auswerten, aufbereiten sowie interpretieren und Risikomodelle aufstellen aus den gewonnenen Daten Möglichkeiten zur Prävention und Gesundheitsförderung ableiten Experimente mit Versuchstieren durchführen und auswerten molekulare und genetische Diagnostik sowie Untersuchungen im Bereich der Labormedizin entwickeln, optimieren und durchführen Methoden zur Therapie und Prophylaxe von Erkrankungen entwickeln Entwicklung von Medikamenten, Impfstoffen und Diagnostika durch biologische Expertise unterstützen humanbiologische Fachtexte erstellen und publizieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/412",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

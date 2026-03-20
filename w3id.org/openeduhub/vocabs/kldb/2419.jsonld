@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichtsaufgaben in der Metallerzeugung. Sie bereiten Fertigungsschritte vor, kontrollieren die sachgemäße Beschickung der Anlagen und überprüfen die Qualität der Erzeugnisse."
   },
   "note": {
-    "de": "Formstoffe, Gießwerkstoffe und andere Arbeitsmaterialien beschaffen optimale Fertigungsschritte analysieren und auswählen, Daten für die Fertigung und den Produktionsablauf aus Zeichnungen, Handbüchern und technischer Fachliteratur ermitteln Maschinen und Anlagen einrichten, Schmelzanlagen vorbereiten, Gewichts- und Mengenanteile unterschiedlicher Metalle in der Legierung berechnen den reibungslosen Betriebsablauf überwachen Rohstoffe, Vor- und Endprodukte im Rahmen der Qualitätssicherung auf ihre Übereinstimmung mit den geforderten Qualitäts- und Sicherheitsnormen prüfen bei der Einführung neuer Maschinen, Fertigungsanlagen, Materialien, Arbeitsverfahren und Hilfsmittel mitarbeiten Arbeitssicherheitsbestimmungen überwachen, z. B. Mitarbeiter/innen zum Tragen von Sicherheitskleidung anhalten, auf Anbringung von Schutzvorrichtungen an Maschinen achten Mitarbeiterschulung und -weiterbildung sowie den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    "de": [
+      "Formstoffe, Gießwerkstoffe und andere Arbeitsmaterialien beschaffen optimale Fertigungsschritte analysieren und auswählen, Daten für die Fertigung und den Produktionsablauf aus Zeichnungen, Handbüchern und technischer Fachliteratur ermitteln Maschinen und Anlagen einrichten, Schmelzanlagen vorbereiten, Gewichts- und Mengenanteile unterschiedlicher Metalle in der Legierung berechnen den reibungslosen Betriebsablauf überwachen Rohstoffe, Vor- und Endprodukte im Rahmen der Qualitätssicherung auf ihre Übereinstimmung mit den geforderten Qualitäts- und Sicherheitsnormen prüfen bei der Einführung neuer Maschinen, Fertigungsanlagen, Materialien, Arbeitsverfahren und Hilfsmittel mitarbeiten Arbeitssicherheitsbestimmungen überwachen, z. B. Mitarbeiter/innen zum Tragen von Sicherheitskleidung anhalten, auf Anbringung von Schutzvorrichtungen an Maschinen achten Mitarbeiterschulung und -weiterbildung sowie den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/241",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

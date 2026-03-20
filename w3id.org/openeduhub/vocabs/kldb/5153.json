@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe überwachen den Flug- bzw. den Flughafenbetrieb. Zudem koordinieren sie während der Standzeiten alle Service- bzw. Dienstleistungen wie Betanken und Catering oder sie analysieren Unfälle und Störungen beim Betrieb von Luftfahrzeugen."
   },
   "note": {
-    "de": "die Versorgung von Flugzeugen mit z. B. Treibstoff, Wasser oder Lebensmitteln organisieren und überwachen Be- und Entladen von Flugzeugen mit Frachtgütern oder Reisegepäck organisieren und überwachen Flugrouten festlegen sowie Flugdurchführungspläne erstellen den Luftverkehr nach Instrumentenflug- und Sichtflugregeln kontrollieren und regeln, Radar-, Navigations- und Informationsübertragungsanlagen bedienen bei Gefahrenlagen und Notfällen, z. B. bei einem Ausfall der Boden-Bord-Verbindung oder bei Störungen an Triebwerken, die erforderlichen Maßnahmen einleiten mit dem Flugwetterdienst zusammenarbeiten, die Flugzeugführer/innen beraten und über die meteorologische Situation informieren das Flug- und Bodenpersonal überprüfen, Sicherheitsmaßnahmen, technische Einrichtungen sowie den Zustand von Gebäuden, Rollfeld, Start- und Landebahnen überwachen Ursachen von Unfällen bzw. Störungen beim Betrieb von Luftfahrzeugen oder im Luftverkehr feststellen, dabei z. B. Flugschreiber (Blackbox) oder Radaraufzeichnungen analysieren"
+    "de": [
+      "die Versorgung von Flugzeugen mit z. B. Treibstoff, Wasser oder Lebensmitteln organisieren und überwachen Be- und Entladen von Flugzeugen mit Frachtgütern oder Reisegepäck organisieren und überwachen Flugrouten festlegen sowie Flugdurchführungspläne erstellen den Luftverkehr nach Instrumentenflug- und Sichtflugregeln kontrollieren und regeln, Radar-, Navigations- und Informationsübertragungsanlagen bedienen bei Gefahrenlagen und Notfällen, z. B. bei einem Ausfall der Boden-Bord-Verbindung oder bei Störungen an Triebwerken, die erforderlichen Maßnahmen einleiten mit dem Flugwetterdienst zusammenarbeiten, die Flugzeugführer/innen beraten und über die meteorologische Situation informieren das Flug- und Bodenpersonal überprüfen, Sicherheitsmaßnahmen, technische Einrichtungen sowie den Zustand von Gebäuden, Rollfeld, Start- und Landebahnen überwachen Ursachen von Unfällen bzw. Störungen beim Betrieb von Luftfahrzeugen oder im Luftverkehr feststellen, dabei z. B. Flugschreiber (Blackbox) oder Radaraufzeichnungen analysieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/515",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

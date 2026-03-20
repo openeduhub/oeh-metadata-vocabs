@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe errichten und sanieren Brunnen, bauen technische Anlagen ein und bedienen und warten Bohrgeräte und andere Maschinen. Darüber hinaus übernehmen sie koordinierende und planende Aufgaben und führen technische Untersuchungen und Messungen im Brunnenbau durch."
   },
   "note": {
-    "de": "Bohrgeräte und -werkzeuge auswählen, einrichten, führen bzw. bedienen sowie reinigen, warten und instand halten Material- und Personeneinsatz planen, Spezifikationen für die Steuerung der Maschinen und Anlagen bei Bohrungen festlegen und deren Einhaltung überprüfen vertikale und horizontale Bohrarbeiten durchführen bauphysikalische Berechnungen, z. B. Massenberechnungen, statische Berechnungen und Belastbarkeitsberechnungen, durchführen Brunnen ausbauen, z. B. Rohrstrang einbauen, Brunnen klarpumpen und entsanden, Leitungspumpversuche ausführen Brunnenschächte herstellen, Schachtabdeckungen und Brunnenköpfe einbauen, Abdichtungsarbeiten ausführen Einhaltung der Bauplanung sicherstellen, auch unter Berücksichtigung von gesetzlichen Bestimmungen der Arbeitssicherheit und des Umweltschutzes Qualität der Bauleistungen prüfen und sicherstellen, Dokumentation der Baumaßnahmen anfertigen"
+    "de": [
+      "Bohrgeräte und -werkzeuge auswählen, einrichten, führen bzw. bedienen sowie reinigen, warten und instand halten Material- und Personeneinsatz planen, Spezifikationen für die Steuerung der Maschinen und Anlagen bei Bohrungen festlegen und deren Einhaltung überprüfen vertikale und horizontale Bohrarbeiten durchführen bauphysikalische Berechnungen, z. B. Massenberechnungen, statische Berechnungen und Belastbarkeitsberechnungen, durchführen Brunnen ausbauen, z. B. Rohrstrang einbauen, Brunnen klarpumpen und entsanden, Leitungspumpversuche ausführen Brunnenschächte herstellen, Schachtabdeckungen und Brunnenköpfe einbauen, Abdichtungsarbeiten ausführen Einhaltung der Bauplanung sicherstellen, auch unter Berücksichtigung von gesetzlichen Bestimmungen der Arbeitssicherheit und des Umweltschutzes Qualität der Bauleistungen prüfen und sicherstellen, Dokumentation der Baumaßnahmen anfertigen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

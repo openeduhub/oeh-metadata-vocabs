@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe beraten und unterstützen die Betriebsleitung hinsichtlich Arbeitsschutz und Unfallverhütung. Sie sorgen für Brandschutzmaßnahmen, die Erste Hilfe bei Notfällen, entwickeln und implementieren zudem Sicherheitssysteme, verfassen Stellungnahmen und Gutachten über sicherheitstechnische Fragen oder koordinieren Rettungseinsätze."
   },
   "note": {
-    "de": "Arbeitsplätze, Arbeitsstätten und Arbeitsabläufe hinsichtlich des Arbeitsschutzes und der Unfallverhütung untersuchen sowie Risiken analysieren und minimieren sicherheitstechnische Prüfungen von Betriebsanlagen, Arbeitsmitteln und sicherheitstechnischen Anlagen, z. B. Absaug- und Sprinkleranlagen, durchführen die Einhaltung der gesetzlichen Vorschriften im Bereich Arbeitsschutz, Unfallverhütung, Gerätesicherheitsgesetz und Chemikaliengesetz überwachen Arbeitsunfälle erfassen, auswerten und protokollieren, Vorschläge zur Beseitigung von Gefahren und für Verbesserungsmaßnahmen der Arbeitsbedingungen erarbeiten die Betriebsleitung beraten, das sicherheitsbewusste Verhalten der Beschäftigten fördern, mit Behörden, wie der Gewerbeaufsicht, zusammenarbeiten Stellungnahmen und Gutachten für Betriebe, Behörden, Gerichte und private Verbraucher/innen erstellen Sicherheitskonzepte erarbeiten und erproben, Methoden und Verfahren für das Sicherheitsmanagement weiterentwickeln"
+    "de": [
+      "Arbeitsplätze, Arbeitsstätten und Arbeitsabläufe hinsichtlich des Arbeitsschutzes und der Unfallverhütung untersuchen sowie Risiken analysieren und minimieren sicherheitstechnische Prüfungen von Betriebsanlagen, Arbeitsmitteln und sicherheitstechnischen Anlagen, z. B. Absaug- und Sprinkleranlagen, durchführen die Einhaltung der gesetzlichen Vorschriften im Bereich Arbeitsschutz, Unfallverhütung, Gerätesicherheitsgesetz und Chemikaliengesetz überwachen Arbeitsunfälle erfassen, auswerten und protokollieren, Vorschläge zur Beseitigung von Gefahren und für Verbesserungsmaßnahmen der Arbeitsbedingungen erarbeiten die Betriebsleitung beraten, das sicherheitsbewusste Verhalten der Beschäftigten fördern, mit Behörden, wie der Gewerbeaufsicht, zusammenarbeiten Stellungnahmen und Gutachten für Betriebe, Behörden, Gerichte und private Verbraucher/innen erstellen Sicherheitskonzepte erarbeiten und erproben, Methoden und Verfahren für das Sicherheitsmanagement weiterentwickeln"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/531",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe untersuchen die Zusammensetzung von Werkstoffen sowie deren physikalische und chemische Eigenschaften. Sie entwickeln und optimieren Werkstoffe und sichern deren Qualität."
   },
   "note": {
-    "de": "Werkstoffeigenschaften, z. B. Zugfestigkeit, Zähigkeit, Elastizität oder Härte, bestimmen und Materialproben zur Klärung von Alter, Herkunft und Echtheit untersuchen chemische und physikalische Analysen durchführen, z. B. um den Edelmetallgehalt in Legierungen zu ermitteln Abbildungs- und Analysegeräte, z. B. Transmissions- und Raster-Elektronenmikroskop, bedienen in der Produktion die Qualität der Einsatz- und Ausgangsmaterialien, der Zwischen- und Endprodukte und den gesamten Stofffluss überwachen Werkstoffeigenschaften optimieren, Verfahren der Formgebung, Fügetechnik und Oberflächenbehandlung von Werkstoffen entwickeln und anwenden Gutachten zu Fragen der Werkstofftechnik verfassen, Unternehmen, Behörden und Verbände beraten, leitende Aufgaben in Forschungs- und Produktionsbetrieben wahrnehmen"
+    "de": [
+      "Werkstoffeigenschaften, z. B. Zugfestigkeit, Zähigkeit, Elastizität oder Härte, bestimmen und Materialproben zur Klärung von Alter, Herkunft und Echtheit untersuchen chemische und physikalische Analysen durchführen, z. B. um den Edelmetallgehalt in Legierungen zu ermitteln Abbildungs- und Analysegeräte, z. B. Transmissions- und Raster-Elektronenmikroskop, bedienen in der Produktion die Qualität der Einsatz- und Ausgangsmaterialien, der Zwischen- und Endprodukte und den gesamten Stofffluss überwachen Werkstoffeigenschaften optimieren, Verfahren der Formgebung, Fügetechnik und Oberflächenbehandlung von Werkstoffen entwickeln und anwenden Gutachten zu Fragen der Werkstofftechnik verfassen, Unternehmen, Behörden und Verbände beraten, leitende Aufgaben in Forschungs- und Produktionsbetrieben wahrnehmen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/414",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

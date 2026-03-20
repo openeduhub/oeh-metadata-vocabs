@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe analysieren Geschäftsprozesse oder vorhandene Systeme und konzipieren in enger Abstimmung mit den Auftraggebern optimale IT-Lösungen für die jeweiligen Anwenderbedürfnisse."
   },
   "note": {
-    "de": "Kunden und Kundinnen und Anwender/innen zu Einsatzmöglichkeiten von IT-Systemen, vor allem im betrieblichen Umfeld, beraten Programme, IT-Systeme und IT-Technologien analysieren, um diese in Hinblick auf die Anwenderbedürfnisse optimal einzusetzen bzw. anzupassen Machbarkeitsstudien und Prototypen erstellen, um die Leistungsfähigkeit und Einsatzmöglichkeit der vorgeschlagenen IT-Systeme zu überprüfen Rahmenbedingungen für IT-Projekte bestimmen, Standards für Realisierungsverfahren entwickeln, Zielvereinbarungen und Prioritäten festlegen Geschäftsprozesse von Unternehmen analysieren und modellieren, Geschäftsprozesse gegebenenfalls umstrukturieren, um diese mithilfe von IT-Systemen abwickeln zu können auf Basis der Geschäftsprozessanalyse Anforderungen an IT-Systeme analysieren, definieren und z. B. mit Komponentendiagrammen und Ablaufszenarien beschreiben die Einführung von IT-Systemen begleiten, Enterprise Resource Planning (ERP)-Anwendungen konfigurieren, betreiben und pflegen IT-Systeme nach den jeweiligen Kundenanforderungen und -wünschen entwickeln und modifizieren bedarfsgerechtes und wirtschaftliches Systemdesign sicherstellen"
+    "de": [
+      "Kunden und Kundinnen und Anwender/innen zu Einsatzmöglichkeiten von IT-Systemen, vor allem im betrieblichen Umfeld, beraten Programme, IT-Systeme und IT-Technologien analysieren, um diese in Hinblick auf die Anwenderbedürfnisse optimal einzusetzen bzw. anzupassen Machbarkeitsstudien und Prototypen erstellen, um die Leistungsfähigkeit und Einsatzmöglichkeit der vorgeschlagenen IT-Systeme zu überprüfen Rahmenbedingungen für IT-Projekte bestimmen, Standards für Realisierungsverfahren entwickeln, Zielvereinbarungen und Prioritäten festlegen Geschäftsprozesse von Unternehmen analysieren und modellieren, Geschäftsprozesse gegebenenfalls umstrukturieren, um diese mithilfe von IT-Systemen abwickeln zu können auf Basis der Geschäftsprozessanalyse Anforderungen an IT-Systeme analysieren, definieren und z. B. mit Komponentendiagrammen und Ablaufszenarien beschreiben die Einführung von IT-Systemen begleiten, Enterprise Resource Planning (ERP)-Anwendungen konfigurieren, betreiben und pflegen IT-Systeme nach den jeweiligen Kundenanforderungen und -wünschen entwickeln und modifizieren bedarfsgerechtes und wirtschaftliches Systemdesign sicherstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/432",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

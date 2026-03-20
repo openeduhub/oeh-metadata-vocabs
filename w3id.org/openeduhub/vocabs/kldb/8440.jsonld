@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe unterrichten Erwachsene in außerschulischen Bildungseinrichtungen, wie z. B. Volkshochschulen, und vermitteln berufs- oder arbeitsplatzorientierte Fachkenntnisse, z. B. Rhetorik, Management- oder Präsentationstechniken."
   },
   "note": {
-    "de": "Interessenten und Interessentinnen hinsichtlich der jeweiligen Bildungsmöglichkeiten beraten und Hilfestellung bei Lern- und Leistungsschwächen anbieten bedarfsgerechte Bildungskonzepte und Weiterbildungsprogramme planen und organisieren Seminare vorbereiten, Lernmaterialien erstellen und die Einsatzmöglichkeiten von neuen Medien und Lehrmethoden im Unterricht testen in Kursen berufs- oder arbeitsplatzbezogene Fachkenntnisse unterschiedlichster Art vermitteln, z. B. Management- oder Präsentationstechniken berufs- oder arbeitsplatzorientierte Trainings durchführen, z. B. Kommunikations- und Rhetorikseminare abhalten die Arbeit der Kursteilnehmer/innen zur Feststellung des Fortschritts beobachten und evaluieren, Feedback geben und Verbesserungsvorschläge unterbreiten"
+    "de": [
+      "Interessenten und Interessentinnen hinsichtlich der jeweiligen Bildungsmöglichkeiten beraten und Hilfestellung bei Lern- und Leistungsschwächen anbieten bedarfsgerechte Bildungskonzepte und Weiterbildungsprogramme planen und organisieren Seminare vorbereiten, Lernmaterialien erstellen und die Einsatzmöglichkeiten von neuen Medien und Lehrmethoden im Unterricht testen in Kursen berufs- oder arbeitsplatzbezogene Fachkenntnisse unterschiedlichster Art vermitteln, z. B. Management- oder Präsentationstechniken berufs- oder arbeitsplatzorientierte Trainings durchführen, z. B. Kommunikations- und Rhetorikseminare abhalten die Arbeit der Kursteilnehmer/innen zur Feststellung des Fortschritts beobachten und evaluieren, Feedback geben und Verbesserungsvorschläge unterbreiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/844",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben im Personalwesen und der Personaldienstleistung. Sie sind in der Personalplanung, -beschaffung, -verwaltung und -entwicklung tätig, vermitteln Personal an Unternehmen oder nehmen Beratungsaufgaben wahr."
   },
   "note": {
-    "de": "Bewerbungsverfahren abwickeln, z. B. Stellen ausschreiben, Bewerber/innen selektieren, Bewerbungsgespräche führen und geeignetes Personal einstellen bei der Personalentwicklung mitwirken, z. B. Weiterbildungsbedarf erheben, Personalentwicklungskonzepte erstellen Personalunterlagen führen und verwalten im Kundenauftrag nach geeignetem Personal suchen oder für Arbeitnehmer/innen geeignete Stellen finden Ausbildungs- und Arbeitsuchende bei der Stellensuche unterstützen und sie dabei umfassend beraten Jugendliche und Erwachsene bezüglich der Berufswahl bzw. der beruflichen Umorientierung beraten, Chancen am Arbeitsmarkt aufzeigen und bewerten arbeitsmarktpolitische Instrumente und Maßnahmen evaluieren, weiterentwickeln oder erarbeiten sowie neue Lösungen implementieren"
+    "de": [
+      "Bewerbungsverfahren abwickeln, z. B. Stellen ausschreiben, Bewerber/innen selektieren, Bewerbungsgespräche führen und geeignetes Personal einstellen bei der Personalentwicklung mitwirken, z. B. Weiterbildungsbedarf erheben, Personalentwicklungskonzepte erstellen Personalunterlagen führen und verwalten im Kundenauftrag nach geeignetem Personal suchen oder für Arbeitnehmer/innen geeignete Stellen finden Ausbildungs- und Arbeitsuchende bei der Stellensuche unterstützen und sie dabei umfassend beraten Jugendliche und Erwachsene bezüglich der Berufswahl bzw. der beruflichen Umorientierung beraten, Chancen am Arbeitsmarkt aufzeigen und bewerten arbeitsmarktpolitische Instrumente und Maßnahmen evaluieren, weiterentwickeln oder erarbeiten sowie neue Lösungen implementieren"
+    ]
   },
   "narrower": [
     {
@@ -56,6 +58,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -64,8 +67,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -104,11 +119,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe planen und entwerfen Anlagen der Kältetechnik, fertigen diese in Werkstätten an, montieren sie vor Ort, nehmen sie in Betrieb und führen regelmäßig Wartungsarbeiten durch. Zudem erarbeiten sie Forschungsstudien zur Optimierung kältetechnischer Anlagen unter Berücksichtigung umwelttechnischer und wirtschaftlicher Aspekte."
   },
   "note": {
-    "de": "Anlagen der Kälte- und Klimatechnik, z. B. auf Grundlage von Kältebedarfsrechnungen, planen und dimensionieren Spezifikationen, Skizzen und Pläne, z. B. Schalt- und Stromlaufpläne, anfertigen und interpretieren Bauteile und Anlagen fertigen, Komponenten zusammenbauen, elektrische bzw. elektronische Steuer-, Regel- und Überwachungseinrichtungen einbauen und einstellen Anlagen auf die fachgerechte Ausführung überprüfen, z. B. Dichtheitsprüfungen durchführen sowie die einzelnen Funktionen kontrollieren regelmäßige Wartungsarbeiten durchführen, Reparaturen veranlassen bzw. durchführen Kältemittel sachgerecht handhaben und Altstoffe nach Vorschrift entsorgen Kunden und Kundinnen beraten, z. B. über Produkte der Kältetechnik, technische Neuerungen und Möglichkeiten des Energiesparens informieren Richtlinien und Standards für die Konstruktion von kältetechnischen Anlagen entwerfen und durchsetzen Kontrollsysteme festlegen zur Sicherstellung störungsfreier Anlagen der Kältetechnik unter Beachtung von Sicherheit und Umweltschutz"
+    "de": [
+      "Anlagen der Kälte- und Klimatechnik, z. B. auf Grundlage von Kältebedarfsrechnungen, planen und dimensionieren Spezifikationen, Skizzen und Pläne, z. B. Schalt- und Stromlaufpläne, anfertigen und interpretieren Bauteile und Anlagen fertigen, Komponenten zusammenbauen, elektrische bzw. elektronische Steuer-, Regel- und Überwachungseinrichtungen einbauen und einstellen Anlagen auf die fachgerechte Ausführung überprüfen, z. B. Dichtheitsprüfungen durchführen sowie die einzelnen Funktionen kontrollieren regelmäßige Wartungsarbeiten durchführen, Reparaturen veranlassen bzw. durchführen Kältemittel sachgerecht handhaben und Altstoffe nach Vorschrift entsorgen Kunden und Kundinnen beraten, z. B. über Produkte der Kältetechnik, technische Neuerungen und Möglichkeiten des Energiesparens informieren Richtlinien und Standards für die Konstruktion von kältetechnischen Anlagen entwerfen und durchsetzen Kontrollsysteme festlegen zur Sicherstellung störungsfreier Anlagen der Kältetechnik unter Beachtung von Sicherheit und Umweltschutz"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/342",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

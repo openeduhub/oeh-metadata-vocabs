@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe erstellen Pläne und technische Unterlagen nach Vorgaben von Konstrukteuren und Konstrukteurinnen oder Architekten und Architektinnen. Sie zeichnen z. B. Schalt- oder Baupläne, fertigen Zeichnungen von Bauteilen aus Holz bzw. Metall oder Maschinen anhand von Skizzen, Maßen und anderen Daten an."
   },
   "note": {
-    "de": "Skizzen und Entwürfe nach Modell, Daten oder Vorlage anfertigen, z. B. Bauzeichnungen, Produktions- und Montageskizzen, die für Techniker und Planer für die Herstellung, Installation und den Bau von Maschinen, Gebäuden, Straßen oder Anlagen benötigt werden Ingenieure und Ingenieurinnen bei der Entwicklung von Einzelteilen und Baugruppen von technischen Produkten vor allem mit 3-D-CAD-Systemen unterstützen manuell und überwiegend rechnergestützt zeichnen, am Computer erstellte Zeichnungen und Berechnungen prüfen, Zeichnungsänderungen durchführen technische Zeichnungen bemaßen und kennzeichnen, z. B. technische Angaben eintragen, nach funktions- und fertigungsgerechten Gesichtspunkten bemaßen fachbezogene Berechnungen durchführen technische Begleitunterlagen erstellen, z. B. Bauteil-, Maschinen-, Geräte- und Stücklisten, Übersichtspläne, Diagramme, Tabellen und Handbücher erstellen Vermessungsarbeiten durchführen, z. B. vorhandene und zu erstellende Bauten oder Bauteile auf- und einmessen"
+    "de": [
+      "Skizzen und Entwürfe nach Modell, Daten oder Vorlage anfertigen, z. B. Bauzeichnungen, Produktions- und Montageskizzen, die für Techniker und Planer für die Herstellung, Installation und den Bau von Maschinen, Gebäuden, Straßen oder Anlagen benötigt werden Ingenieure und Ingenieurinnen bei der Entwicklung von Einzelteilen und Baugruppen von technischen Produkten vor allem mit 3-D-CAD-Systemen unterstützen manuell und überwiegend rechnergestützt zeichnen, am Computer erstellte Zeichnungen und Berechnungen prüfen, Zeichnungsänderungen durchführen technische Zeichnungen bemaßen und kennzeichnen, z. B. technische Angaben eintragen, nach funktions- und fertigungsgerechten Gesichtspunkten bemaßen fachbezogene Berechnungen durchführen technische Begleitunterlagen erstellen, z. B. Bauteil-, Maschinen-, Geräte- und Stücklisten, Übersichtspläne, Diagramme, Tabellen und Handbücher erstellen Vermessungsarbeiten durchführen, z. B. vorhandene und zu erstellende Bauten oder Bauteile auf- und einmessen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/272",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

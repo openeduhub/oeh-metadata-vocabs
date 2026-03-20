@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe entwickeln Produkte, technische Verfahren und Technologien (soweit sie nicht bereits an anderer Stelle der Klassifikation genannt sind) oder wirken dabei mit. Sie erarbeiten Konzepte für die Weiterentwicklung von Produkten. Zum Teil sind sie in der Grundlagenforschung tätig."
   },
   "note": {
-    "de": "bestehende Produktionsprozesse, Produkte oder Dienstleistungen analysieren innovative und marktgerechte Lösungen finden, Produktideen und Konzepte zur Weiterentwicklung erarbeiten und bewerten Problemlösungen in Hinblick auf Realisierungsmöglichkeiten und Auswirkungen, wie Technik- und Umweltfolgen, überprüfen Skizzen und Zeichnungen, z. B. für Anlagen oder andere Güter aus Materialien wie Glas, Textilien Holz etc., anfertigen Simulationen von Struktur, Funktion oder Verhalten durchführen, um Erkenntnisse über ein reales System zu gewinnen Berechnungen, Versuche, Materialtests durchführen Ergebnisse von Messungen und Simulationen auswerten, dokumentieren, interpretieren, in Tabellen und Schaubildern darstellen die Herstellung von Prototypen oder serien überwachen Dokumentationen für Konstruktion und Fertigung, Marketing und Vertrieb erstellen theoretische Arbeit in der Grundlagenforschung leisten oder unterstützen"
+    "de": [
+      "bestehende Produktionsprozesse, Produkte oder Dienstleistungen analysieren innovative und marktgerechte Lösungen finden, Produktideen und Konzepte zur Weiterentwicklung erarbeiten und bewerten Problemlösungen in Hinblick auf Realisierungsmöglichkeiten und Auswirkungen, wie Technik- und Umweltfolgen, überprüfen Skizzen und Zeichnungen, z. B. für Anlagen oder andere Güter aus Materialien wie Glas, Textilien Holz etc., anfertigen Simulationen von Struktur, Funktion oder Verhalten durchführen, um Erkenntnisse über ein reales System zu gewinnen Berechnungen, Versuche, Materialtests durchführen Ergebnisse von Messungen und Simulationen auswerten, dokumentieren, interpretieren, in Tabellen und Schaubildern darstellen die Herstellung von Prototypen oder serien überwachen Dokumentationen für Konstruktion und Fertigung, Marketing und Vertrieb erstellen theoretische Arbeit in der Grundlagenforschung leisten oder unterstützen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/271",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

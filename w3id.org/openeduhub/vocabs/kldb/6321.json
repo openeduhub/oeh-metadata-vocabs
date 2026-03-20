@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen kaufmännische Organisations- und Verwaltungsaufgaben, betreuen Gäste, koordinieren die Abläufe in Hotels und konzipieren spezielle Angebote sowie planen und überwachen den Personaleinsatz."
   },
   "note": {
-    "de": "die Zusammenarbeit zwischen Direktion, Food-and-Beverage-Abteilung und den Bereichen Küche, Einkauf, Magazin, Stewarding oder Büfett koordinieren den Bedarf an Waren und Material entsprechend den Bestellungen der Fachabteilungen und den noch vorhandenen Lagerbeständen ermitteln, den Wareneinkauf organisieren und mit Lieferanten verhandeln, die Warenannahme und -kontrolle durchführen oder sicherstellen die Korrespondenz, z. B. mit Gästen, Lieferanten und sonstigen Geschäftspartnern erledigen, den Posteingang erledigen oder weiterleiten Übernachtungspreise und spezielle Hotelangebote, wie Packages oder Bankette, kalkulieren, den Zahlungsverkehr abwickeln, Kosten überprüfen, Jahresabschluss vorbereiten und der Geschäftsleitung vorlegen"
+    "de": [
+      "die Zusammenarbeit zwischen Direktion, Food-and-Beverage-Abteilung und den Bereichen Küche, Einkauf, Magazin, Stewarding oder Büfett koordinieren den Bedarf an Waren und Material entsprechend den Bestellungen der Fachabteilungen und den noch vorhandenen Lagerbeständen ermitteln, den Wareneinkauf organisieren und mit Lieferanten verhandeln, die Warenannahme und -kontrolle durchführen oder sicherstellen die Korrespondenz, z. B. mit Gästen, Lieferanten und sonstigen Geschäftspartnern erledigen, den Posteingang erledigen oder weiterleiten Übernachtungspreise und spezielle Hotelangebote, wie Packages oder Bankette, kalkulieren, den Zahlungsverkehr abwickeln, Kosten überprüfen, Jahresabschluss vorbereiten und der Geschäftsleitung vorlegen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/632",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

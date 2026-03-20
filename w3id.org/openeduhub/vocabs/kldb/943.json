@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe sorgen für die gute Unterhaltung eines Publikums. Sie führen verschiedene künstlerische Darbietungen auf, wie z. B. Kabarett, Komik oder Zauberei, sind als Moderatoren und Moderatorinnen beim Hörfunk und Fernsehen tätig oder übernehmen die Spielleitung bei Glücksspielen."
   },
   "note": {
-    "de": "das Publikum durch künstlerische Darbietungen, wie z. B. Komik, Zauberei oder Illusion unterhalten Spielszenen konzipieren, z. B. unter Einbeziehung von Musikstücken oder artistischen Elementen, Aufführungen einstudieren und präsentieren verschiedene Sendeformate, z. B. Musik-, Sport-, Nachrichtensendungen, moderieren, dabei die spezifischen Merkmale des Sendeformats berücksichtigen Wetten, Lotterien und ähnliche Glücksspiele anbieten und betreuen"
+    "de": [
+      "das Publikum durch künstlerische Darbietungen, wie z. B. Komik, Zauberei oder Illusion unterhalten Spielszenen konzipieren, z. B. unter Einbeziehung von Musikstücken oder artistischen Elementen, Aufführungen einstudieren und präsentieren verschiedene Sendeformate, z. B. Musik-, Sport-, Nachrichtensendungen, moderieren, dabei die spezifischen Merkmale des Sendeformats berücksichtigen Wetten, Lotterien und ähnliche Glücksspiele anbieten und betreuen"
+    ]
   },
   "narrower": [
     {
@@ -74,6 +76,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -82,8 +85,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -122,11 +137,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe arbeiten in Einrichtungen des Sozial- und Gesundheitswesens, z. B. in Pflegeeinrichtungen oder Arztpraxen, wo sie verwaltende und organisatorische Aufgaben übernehmen."
   },
   "note": {
-    "de": "Termine mit Patienten und Patientinnen vereinbaren, Patienten und Patientinnen empfangen, Daten aufnehmen, Aufnahmegespräche führen Korrespondenz, z. B. mit Patienten und Patientinnen oder Versicherungsträgern, erledigen Leistungen mit Krankenkassen und sonstigen Kostenträgern abrechnen Schriftstücke und medizinische Dokumente, z. B. Befunde oder Krankenberichte, nach Anweisungen anfertigen koordinierende Tätigkeiten ausführen, z. B. stationäre und ambulante Pflegedienste sowie ggf. weitere Dienste aufeinander abstimmen Gutachten, z. B. zur Einschätzung der Pflegequalität einer Einrichtung oder bei juristischen Verfahren, erstellen Fragestellungen zu Themen wie Pflegemodelle, Pflegetheorie, Umsetzung des Pflegeprozesses und Pflegecurricula wissenschaftlich bearbeiten"
+    "de": [
+      "Termine mit Patienten und Patientinnen vereinbaren, Patienten und Patientinnen empfangen, Daten aufnehmen, Aufnahmegespräche führen Korrespondenz, z. B. mit Patienten und Patientinnen oder Versicherungsträgern, erledigen Leistungen mit Krankenkassen und sonstigen Kostenträgern abrechnen Schriftstücke und medizinische Dokumente, z. B. Befunde oder Krankenberichte, nach Anweisungen anfertigen koordinierende Tätigkeiten ausführen, z. B. stationäre und ambulante Pflegedienste sowie ggf. weitere Dienste aufeinander abstimmen Gutachten, z. B. zur Einschätzung der Pflegequalität einer Einrichtung oder bei juristischen Verfahren, erstellen Fragestellungen zu Themen wie Pflegemodelle, Pflegetheorie, Umsetzung des Pflegeprozesses und Pflegecurricula wissenschaftlich bearbeiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/732",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

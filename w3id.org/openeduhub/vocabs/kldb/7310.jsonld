@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe befassen sich mit Rechtsnormen und Gesetzen, die der Steuerung und Kontrolle des Miteinanders in der Gesellschaft dienen. Sie sorgen durch die Anwendung von Rechtsvorschriften dafür, dass z. B. gegensätzliche Interessen zwischen zwei Konfliktparteien ausgeglichen werden."
   },
   "note": {
-    "de": "Konflikte, die zwischen zwei oder mehreren Parteien entstanden sind, durch Entscheidung oder Vermittlung zwischen den Parteien regeln für die Entscheidungsfindung juristische Arbeitsmittel, z. B. Gesetze, Kommentare oder höchstrichterliche Urteile, nutzen und dementsprechend aufbereiten Akten und Tatbestände studieren sowie Fakten analysieren und einschlägige Gesetze einbeziehen, um Entscheidungen zu treffen Mandanten/Mandantinnen bei Rechtsangelegenheiten beraten und betreuen sowie z. B. bei Verhandlungen mit Behörden oder Unternehmen begleiten oder vertreten Sachverhalte feststellen, ggf. durch Beweisaufnahme klären vorsorgende Rechtspflege durchführen, z. B. Immobilienkauf und -schenkungen oder Vorsorgevollmachten betreuen in Rechtsabteilungen von Unternehmen z. B. rechtliche Beziehungen absichern oder ökonomische Sachverhalte aus rechtlicher Sicht beurteilen"
+    "de": [
+      "Konflikte, die zwischen zwei oder mehreren Parteien entstanden sind, durch Entscheidung oder Vermittlung zwischen den Parteien regeln für die Entscheidungsfindung juristische Arbeitsmittel, z. B. Gesetze, Kommentare oder höchstrichterliche Urteile, nutzen und dementsprechend aufbereiten Akten und Tatbestände studieren sowie Fakten analysieren und einschlägige Gesetze einbeziehen, um Entscheidungen zu treffen Mandanten/Mandantinnen bei Rechtsangelegenheiten beraten und betreuen sowie z. B. bei Verhandlungen mit Behörden oder Unternehmen begleiten oder vertreten Sachverhalte feststellen, ggf. durch Beweisaufnahme klären vorsorgende Rechtspflege durchführen, z. B. Immobilienkauf und -schenkungen oder Vorsorgevollmachten betreuen in Rechtsabteilungen von Unternehmen z. B. rechtliche Beziehungen absichern oder ökonomische Sachverhalte aus rechtlicher Sicht beurteilen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/731",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

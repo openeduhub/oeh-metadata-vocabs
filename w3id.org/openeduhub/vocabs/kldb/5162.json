@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe disponieren Güter und Transporte und organisieren, optimieren und dokumentieren sämtliche Logistikprozesse im Transport-, Verkehrs- und Lagerwesen."
   },
   "note": {
-    "de": "ein- und ausgehende Güter sowie Transporte disponieren, z. B. Transportmittel bereitstellen, die geeignete Transporttechnik für den jeweiligen Auftrag auswählen und organisieren Transportaufträge bearbeiten, z. B. Frachtdokumente ausfertigen, ausgehende Fracht abrufen, Fahrzeuge disponieren, Fahrtrouten planen, eingegangene Sendungen prüfen Warenein- und -ausgang in Abgleich mit Produktion oder Verkauf terminieren, den reibungslosen Warenfluss vom Lager zu den Unternehmensbereichen gewährleisten Import-/Export-Dokumentation zur Feststellung von Frachtinhalten überprüfen und Güter in verschiedene Gebühren- und Tarifgruppen mithilfe eines Codierungssystems klassifizieren bestehende Verfahren, Abläufe und Logistikprozesse eines Unternehmens analysieren und optimieren"
+    "de": [
+      "ein- und ausgehende Güter sowie Transporte disponieren, z. B. Transportmittel bereitstellen, die geeignete Transporttechnik für den jeweiligen Auftrag auswählen und organisieren Transportaufträge bearbeiten, z. B. Frachtdokumente ausfertigen, ausgehende Fracht abrufen, Fahrzeuge disponieren, Fahrtrouten planen, eingegangene Sendungen prüfen Warenein- und -ausgang in Abgleich mit Produktion oder Verkauf terminieren, den reibungslosen Warenfluss vom Lager zu den Unternehmensbereichen gewährleisten Import-/Export-Dokumentation zur Feststellung von Frachtinhalten überprüfen und Güter in verschiedene Gebühren- und Tarifgruppen mithilfe eines Codierungssystems klassifizieren bestehende Verfahren, Abläufe und Logistikprozesse eines Unternehmens analysieren und optimieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/516",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe arbeiten in der gesetzlichen Sozialversorgung, z. B. der gesetzlichen Renten- und Unfallversicherung. Sie beraten Kunden und Kundinnen, nehmen Anträge entgegen und entscheiden z. B. über Leistungsansprüche oder überwachen die Einhaltung von Sicherheitsnormen in Betrieben und öffentlichen Einrichtungen.?????"
   },
   "note": {
-    "de": "Kunden und Kundinnen, z. B. Arbeitgeber oder Beschäftigte, beraten, Auskünfte erteilen, Anträge entgegennehmen und Entscheidungen vorbereiten bzw. treffen Versicherungsverhältnisse und Beitragsfragen klären sowie An- und Abmeldungen von Versicherten und Arbeitgebern bearbeiten und durchführen Beitragsfragen klären, Beiträge berechnen und buchen, den Beitragseinzug überwachen, ggf. Beitragserstattungen durchführen Leistungsfälle prüfen, Leistungsansprüche entscheiden, die Höhe des Leistungsanspruches berechnen und Auszahlungen durchführen Einzelpersonen und Organisationen im Zusammenhang mit Gesetzen, Bestimmungen und Regelungen betreffend staatliche Leistungsprogramme beraten Berichte erstellen, z. B. über Entscheidungen betreffend Anspruchsberechtigung, Verweisungsentscheidungen, Festlegung von Leistungen, Missbrauch oder Betrug"
+    "de": [
+      "Kunden und Kundinnen, z. B. Arbeitgeber oder Beschäftigte, beraten, Auskünfte erteilen, Anträge entgegennehmen und Entscheidungen vorbereiten bzw. treffen Versicherungsverhältnisse und Beitragsfragen klären sowie An- und Abmeldungen von Versicherten und Arbeitgebern bearbeiten und durchführen Beitragsfragen klären, Beiträge berechnen und buchen, den Beitragseinzug überwachen, ggf. Beitragserstattungen durchführen Leistungsfälle prüfen, Leistungsansprüche entscheiden, die Höhe des Leistungsanspruches berechnen und Auszahlungen durchführen Einzelpersonen und Organisationen im Zusammenhang mit Gesetzen, Bestimmungen und Regelungen betreffend staatliche Leistungsprogramme beraten Berichte erstellen, z. B. über Entscheidungen betreffend Anspruchsberechtigung, Verweisungsentscheidungen, Festlegung von Leistungen, Missbrauch oder Betrug"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/732",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

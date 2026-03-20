@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe bedienen, überwachen und warten Maschinen und Anlagen zur Herstellung von Mahl- und Schälerzeugnissen, Futtermitteln und Spezialprodukten wie Gewürzpulver."
   },
   "note": {
-    "de": "Produktionsaufträge absprechen und annehmen, verfahrenstechnologische Umsetzbarkeit prüfen, Arbeitsprozesse festlegen, umsetzen und überwachen Rohstoffe annehmen und, z. B. Gewicht, Menge und Qualität prüfen und auf Verunreinigungen und Schädlinge untersuchen, Warenbegleitpapiere kontrollieren Rohstoffe reinigen, lagern und zur Verarbeitung vorbereiten, z. B. Produktfeuchtigkeit messen, Protein- und Mineralstoffbestimmungen durchführen, Schälgetreide schälen und klassieren gereinigte Rohstoffe, z. B. mit Förderanlagen oder Transportfahrzeugen in Silos, Kühlhäuser oder Flachlager verbringen, beizen, trocknen, ggf. Mischungen herstellen, Rohstoffe versandfertig verpacken, abgeben und verladen Rohstoffe z. B. mit Walzenstühlen zerkleinern, mit Plansichtern Mahlgut von gröberen Körnerteilchen trennen, die gröberen Teile erneut den Walzenstühlen zuführen Rohstoffe, Zwischen- und Endprodukte trennen und mischen Mehl, Mischfutter, Spezialprodukte und andere Mahlprodukte an Verpackungsstraßen maschinell verpacken oder in Silofahrzeuge abfüllen Erzeugnisse lagern, kennzeichnen, nach betrieblichen Vorgaben verpacken Mahl-, Schäl-, Sieb-, Mischmaschinen einstellen und überwachen, Funktionsfähigkeit durch regelmäßige Reinigungs- und Wartungsarbeiten sicherstellen"
+    "de": [
+      "Produktionsaufträge absprechen und annehmen, verfahrenstechnologische Umsetzbarkeit prüfen, Arbeitsprozesse festlegen, umsetzen und überwachen Rohstoffe annehmen und, z. B. Gewicht, Menge und Qualität prüfen und auf Verunreinigungen und Schädlinge untersuchen, Warenbegleitpapiere kontrollieren Rohstoffe reinigen, lagern und zur Verarbeitung vorbereiten, z. B. Produktfeuchtigkeit messen, Protein- und Mineralstoffbestimmungen durchführen, Schälgetreide schälen und klassieren gereinigte Rohstoffe, z. B. mit Förderanlagen oder Transportfahrzeugen in Silos, Kühlhäuser oder Flachlager verbringen, beizen, trocknen, ggf. Mischungen herstellen, Rohstoffe versandfertig verpacken, abgeben und verladen Rohstoffe z. B. mit Walzenstühlen zerkleinern, mit Plansichtern Mahlgut von gröberen Körnerteilchen trennen, die gröberen Teile erneut den Walzenstühlen zuführen Rohstoffe, Zwischen- und Endprodukte trennen und mischen Mehl, Mischfutter, Spezialprodukte und andere Mahlprodukte an Verpackungsstraßen maschinell verpacken oder in Silofahrzeuge abfüllen Erzeugnisse lagern, kennzeichnen, nach betrieblichen Vorgaben verpacken Mahl-, Schäl-, Sieb-, Mischmaschinen einstellen und überwachen, Funktionsfähigkeit durch regelmäßige Reinigungs- und Wartungsarbeiten sicherstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/292",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

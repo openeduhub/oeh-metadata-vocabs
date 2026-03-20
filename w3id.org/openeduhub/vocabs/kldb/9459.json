@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichtsaufgaben in der Veranstaltungs-, Kamera- und Tontechnik. Sie planen, organisieren und beaufsichtigen die technische Umsetzung von Veranstaltungskonzepten, organisieren und überwachen den Einsatz technischer Anlagen und der Bühnenaufbauten und sind für die Einhaltung der Sicherheitsbestimmungen verantwortlich."
   },
   "note": {
-    "de": "die Ausstattung von Veranstaltungsstätten und Bühnen planen, Betriebsmittel, wie z. B. Projektions- und Beleuchtungsanlagen, beschaffen Arbeitsabläufe planen, Mitarbeiter/innen einteilen und einweisen, bedarfs- und termingerechten sowie wirtschaftlichen Einsatz von Betriebsmitteln sicherstellen Montagearbeiten, z. B. von Hebe- und Drehbühnen, Versenkungen oder Hydraulikanlagen überwachen, Netzanschlüsse herstellen und überwachen Auf-, Um- und Abbauarbeiten während Aufführung und Probe mithilfe von Bühnenwägen, Schiebebühnen, hydraulischer Versenkungen oder Zügen organisieren und überwachen Beleuchtungsanlagen einrichten, Bühnenräume in Zusammenarbeit mit Regie und Bühnenbildner/in ausleuchten, lichttechnische Einrichtungen warten und instand halten Anlagen und Betriebsmittel in Hinblick auf Qualitäts- und Sicherheitsanforderungen überprüfen, Wartungs-, und Instandhaltungsarbeiten veranlassen und beaufsichtigen Kunden und Kundinnen und Veranstalter/innen zu Fragen der Veranstaltungstechnik beraten Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    "de": [
+      "die Ausstattung von Veranstaltungsstätten und Bühnen planen, Betriebsmittel, wie z. B. Projektions- und Beleuchtungsanlagen, beschaffen Arbeitsabläufe planen, Mitarbeiter/innen einteilen und einweisen, bedarfs- und termingerechten sowie wirtschaftlichen Einsatz von Betriebsmitteln sicherstellen Montagearbeiten, z. B. von Hebe- und Drehbühnen, Versenkungen oder Hydraulikanlagen überwachen, Netzanschlüsse herstellen und überwachen Auf-, Um- und Abbauarbeiten während Aufführung und Probe mithilfe von Bühnenwägen, Schiebebühnen, hydraulischer Versenkungen oder Zügen organisieren und überwachen Beleuchtungsanlagen einrichten, Bühnenräume in Zusammenarbeit mit Regie und Bühnenbildner/in ausleuchten, lichttechnische Einrichtungen warten und instand halten Anlagen und Betriebsmittel in Hinblick auf Qualitäts- und Sicherheitsanforderungen überprüfen, Wartungs-, und Instandhaltungsarbeiten veranlassen und beaufsichtigen Kunden und Kundinnen und Veranstalter/innen zu Fragen der Veranstaltungstechnik beraten Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/945",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen Bauteile und -gruppen aus Kupfer und anderen Metallen für Behälter, Apparate und Systeme der Anlagen- und Versorgungstechnik her. Zudem analysieren sie Bedarf und Funktion und übernehmen Aufgaben in der Entwicklung, Montage und Wartung der Bauteile."
   },
   "note": {
-    "de": "Bauteile für Behälter, Apparate und Systeme der Anlagen- und Versorgungstechnik entwickeln, berechnen und konstruieren, dazu Skizzen sowie Entwurfs- und Konstruktionszeichnungen anfertigen auf Grundlage technischer Dokumente im Anlagen-, Behälter- und Apparatebau, z. B. Fertigungs-, Schweiß- und Montagepläne, Maße übernehmen und anzeichnen unterschiedliche Metallbearbeitungs- und -verbindungstechniken anwenden und Metallbearbeitungsmaschinen bedienen um Blechbauteile herzustellen, z. B. Bleche, Profile und Rohre für die Funktionalität und Bereitstellung der für die geplanten Produktionsschritte erforderlichen Anlagen und Maschinen sorgen, technischen Betrieb optimieren Bedarf an Roh-, Hilfs- und Betriebsstoffen, Halberzeugnissen, Maschinen, Zubehör- und Ersatzteilen abschätzen und Bereitstellung sicherstellen Bauteile zu transportablen Baugruppen vormontieren und Transport zum Montageort veranlassen Bauteile und Baugruppen vor Ort, z. B. durch Dichtschweißen, zu technischen Systemen der Anlagen- und Versorgungstechnik zusammenbauen Apparate regelmäßig warten und instand halten, z. B. Dichtheitsprüfungen durchführen, ggf. Austauschteile herstellen und einpassen Validierungsmaßstäbe entwickeln, um das Einhalten betrieblicher und gesetzlicher Qualitätsnormen kontrollieren zu können, Qualitätssicherungsmaßnahmen umsetzen"
+    "de": [
+      "Bauteile für Behälter, Apparate und Systeme der Anlagen- und Versorgungstechnik entwickeln, berechnen und konstruieren, dazu Skizzen sowie Entwurfs- und Konstruktionszeichnungen anfertigen auf Grundlage technischer Dokumente im Anlagen-, Behälter- und Apparatebau, z. B. Fertigungs-, Schweiß- und Montagepläne, Maße übernehmen und anzeichnen unterschiedliche Metallbearbeitungs- und -verbindungstechniken anwenden und Metallbearbeitungsmaschinen bedienen um Blechbauteile herzustellen, z. B. Bleche, Profile und Rohre für die Funktionalität und Bereitstellung der für die geplanten Produktionsschritte erforderlichen Anlagen und Maschinen sorgen, technischen Betrieb optimieren Bedarf an Roh-, Hilfs- und Betriebsstoffen, Halberzeugnissen, Maschinen, Zubehör- und Ersatzteilen abschätzen und Bereitstellung sicherstellen Bauteile zu transportablen Baugruppen vormontieren und Transport zum Montageort veranlassen Bauteile und Baugruppen vor Ort, z. B. durch Dichtschweißen, zu technischen Systemen der Anlagen- und Versorgungstechnik zusammenbauen Apparate regelmäßig warten und instand halten, z. B. Dichtheitsprüfungen durchführen, ggf. Austauschteile herstellen und einpassen Validierungsmaßstäbe entwickeln, um das Einhalten betrieblicher und gesetzlicher Qualitätsnormen kontrollieren zu können, Qualitätssicherungsmaßnahmen umsetzen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/343",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -13,7 +13,9 @@
     "de": "Diese Systematikposition umfasst alle Berufe in der Gesundheits- und Krankenpflege, die sich auf einen Tätigkeitsbereich spezialisiert haben und die in der übergeordneten Systematikposition „813 Gesundheits- und Krankenpflege, Rettungsdienst und Geburtshilfe“ nicht anderweitig erfasst sind. Angehörige dieser Berufe führen spezielle Maßnahmen der Behandlungspflege durch."
   },
   "note": {
-    "de": "kranke und pflegebedürftige Menschen, z. B. in Gemeindehäusern oder in ihrer häuslichen Umgebung, betreuen und versorgen Stomapatienten und -patientinnen vor und nach einer Operation betreuen und versorgen arbeits- und notfallmedizinische Erstversorgung, z. B. von Arbeitsunfällen in Betrieben, übernehmen Patienten und Patientinnen und ihre Angehörigen über den Umgang mit und die Pflege von Stomata, insbesondere eines künstlichen Blasen- oder Darmausgangs beraten akute oder chronische Wunden versorgen, Patienten und Patientinnen hinsichtlich der Wundversorgung in allen Phasen der Wundheilung betreuen, Hautempfindlichkeitstests durchführen den Patienten und Patientinnen Ratschläge zu Hautpflege und Diät geben den Fortgang der Therapie in Verlaufsberichten dokumentieren arbeitsmedizinische Voruntersuchungen, wie z. B. Seh-, Hörtests und Blutentnahmen, durchführen"
+    "de": [
+      "kranke und pflegebedürftige Menschen, z. B. in Gemeindehäusern oder in ihrer häuslichen Umgebung, betreuen und versorgen Stomapatienten und -patientinnen vor und nach einer Operation betreuen und versorgen arbeits- und notfallmedizinische Erstversorgung, z. B. von Arbeitsunfällen in Betrieben, übernehmen Patienten und Patientinnen und ihre Angehörigen über den Umgang mit und die Pflege von Stomata, insbesondere eines künstlichen Blasen- oder Darmausgangs beraten akute oder chronische Wunden versorgen, Patienten und Patientinnen hinsichtlich der Wundversorgung in allen Phasen der Wundheilung betreuen, Hautempfindlichkeitstests durchführen den Patienten und Patientinnen Ratschläge zu Hautpflege und Diät geben den Fortgang der Therapie in Verlaufsberichten dokumentieren arbeitsmedizinische Voruntersuchungen, wie z. B. Seh-, Hörtests und Blutentnahmen, durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/813",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

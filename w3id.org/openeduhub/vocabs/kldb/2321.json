@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe gestalten digitale und Printmedien. Sie setzen die Vorgaben von Kunden und Kundinnen technisch um, entwickeln Konzepte und erstellen Layouts. Zudem steuern und überwachen sie die Produktion von Medienprodukten."
   },
   "note": {
-    "de": "anhand der Aufgabenstellung und Kundenanforderung Auftragsziele ableiten Kunden und Kundinnen über die verschiedenen Umsetzungsmöglichkeiten von Medienprojekten und die technischen Details beraten Konzeptionen für konventionelle und digitale Medienprodukte entwickeln und dem Auftraggeber präsentieren Computeranwendungen nutzen, um Bilder, Texte, Layouts und Umbrüche für den Druck und die Darstellung auf anderen visuellen Medien zu generieren Gestaltungsvarianten entwickeln, fachspezifische Software einsetzen, z. B. Layout- oder Bildbearbeitungsprogramme mit externen Dienstleistern zusammenarbeiten, z. B. mit Mediendesignagenturen, Druckereien oder mit spezialisierten holz-, kunststoff- oder metallverarbeitenden Betrieben"
+    "de": [
+      "anhand der Aufgabenstellung und Kundenanforderung Auftragsziele ableiten Kunden und Kundinnen über die verschiedenen Umsetzungsmöglichkeiten von Medienprojekten und die technischen Details beraten Konzeptionen für konventionelle und digitale Medienprodukte entwickeln und dem Auftraggeber präsentieren Computeranwendungen nutzen, um Bilder, Texte, Layouts und Umbrüche für den Druck und die Darstellung auf anderen visuellen Medien zu generieren Gestaltungsvarianten entwickeln, fachspezifische Software einsetzen, z. B. Layout- oder Bildbearbeitungsprogramme mit externen Dienstleistern zusammenarbeiten, z. B. mit Mediendesignagenturen, Druckereien oder mit spezialisierten holz-, kunststoff- oder metallverarbeitenden Betrieben"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/232",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

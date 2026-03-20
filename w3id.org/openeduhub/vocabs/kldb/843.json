@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe lehren und forschen an Hochschulen, betreuen Studierende und übernehmen Aufgaben in der Hochschulverwaltung bzw. -leitung."
   },
   "note": {
-    "de": "Vorlesungen, Seminare oder Übungen durchführen, den Studierenden wissenschaftliches Grundlagen- und Spezialwissen vermitteln die Studierenden beraten und betreuen, z. B. Studienfachberatungen durchführen, Examens- und Promotionskandidaten und -kandidatinnen betreuen administrative Tätigkeiten durchführen, z. B. über Erwerb und Verteilung von möglichen Drittmitteln sowie über die Berufung von Kollegen und Kolleginnen mitentscheiden Forschungs- und Entwicklungsaufgaben wahrnehmen, Forschungsergebnisse in Fachzeitschriften und -büchern oder auf Fachkongressen präsentieren Stellungnahmen oder Gutachten, z. B. zu den Ergebnissen der wissenschaftlichen Arbeit von Kollegen und Kolleginnen, verfassen die laufenden Geschäfte an Hochschulen und Akademien führen, die Hochschule nach außen repräsentieren"
+    "de": [
+      "Vorlesungen, Seminare oder Übungen durchführen, den Studierenden wissenschaftliches Grundlagen- und Spezialwissen vermitteln die Studierenden beraten und betreuen, z. B. Studienfachberatungen durchführen, Examens- und Promotionskandidaten und -kandidatinnen betreuen administrative Tätigkeiten durchführen, z. B. über Erwerb und Verteilung von möglichen Drittmitteln sowie über die Berufung von Kollegen und Kolleginnen mitentscheiden Forschungs- und Entwicklungsaufgaben wahrnehmen, Forschungsergebnisse in Fachzeitschriften und -büchern oder auf Fachkongressen präsentieren Stellungnahmen oder Gutachten, z. B. zu den Ergebnissen der wissenschaftlichen Arbeit von Kollegen und Kolleginnen, verfassen die laufenden Geschäfte an Hochschulen und Akademien führen, die Hochschule nach außen repräsentieren"
+    ]
   },
   "narrower": [
     {
@@ -55,6 +57,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -63,8 +66,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -103,11 +118,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

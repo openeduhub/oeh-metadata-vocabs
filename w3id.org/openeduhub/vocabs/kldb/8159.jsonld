@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Führungsaufgaben im Bereich Tiermedizin und Tierheilkunde. Sie verwalten und leiten Tierkliniken oder andere tiermedizinischen Einrichtungen."
   },
   "note": {
-    "de": "die medizinischen und strukturellen Abläufe einer Tierklinik bzw. der Fachabteilungen organisieren und fachlich leiten neue diagnostische und therapeutische Untersuchungs- und Behandlungsmethoden einführen tierärztliche Zeugnisse und Gutachten erstellen bei der Auswahl der Tierärzte und -ärztinnen mitwirken, Mitarbeitergespräche führen Operationen und Belegungen koordinieren, für die Aufstellung und Einhaltung des Budgets sorgen, die gesamte Dokumentation überwachen die interne und externe Qualitätssicherung gewährleisten"
+    "de": [
+      "die medizinischen und strukturellen Abläufe einer Tierklinik bzw. der Fachabteilungen organisieren und fachlich leiten neue diagnostische und therapeutische Untersuchungs- und Behandlungsmethoden einführen tierärztliche Zeugnisse und Gutachten erstellen bei der Auswahl der Tierärzte und -ärztinnen mitwirken, Mitarbeitergespräche führen Operationen und Belegungen koordinieren, für die Aufstellung und Einhaltung des Budgets sorgen, die gesamte Dokumentation überwachen die interne und externe Qualitätssicherung gewährleisten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/815",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

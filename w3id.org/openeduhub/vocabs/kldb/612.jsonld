@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben im Groß- und Außenhandel. Sie kaufen Waren aus den unterschiedlichsten Produktbereichen und verkaufen sie an Einzelhandel, Handwerk und Industrie weiter."
   },
   "note": {
-    "de": "Verkaufskonzepte für den Handel entwickeln und optimieren den Materialbedarf ermitteln, Waren annehmen und kontrollieren, etwaige Mängel reklamieren, Waren einlagern und das Lager verwalten Marktanalysen durchführen, Marktforschungsergebnisse auswerten und dementsprechende Maßnahmen einleiten, z. B. Werbe- und Verkaufsförderungsaktionen durchführen Kontakte zu Kunden und Kundinnen bzw. Händlern und Händlerinnen im In- und Ausland pflegen, diese beraten und betreuen sowie neue Kunden und Kundinnen akquirieren Vertragsverhandlungen führen, Kaufverträge ausfertigen sowie Aufträge bearbeiten, prüfen und Garantieleistungen abwickeln, Reklamationen bearbeiten"
+    "de": [
+      "Verkaufskonzepte für den Handel entwickeln und optimieren den Materialbedarf ermitteln, Waren annehmen und kontrollieren, etwaige Mängel reklamieren, Waren einlagern und das Lager verwalten Marktanalysen durchführen, Marktforschungsergebnisse auswerten und dementsprechende Maßnahmen einleiten, z. B. Werbe- und Verkaufsförderungsaktionen durchführen Kontakte zu Kunden und Kundinnen bzw. Händlern und Händlerinnen im In- und Ausland pflegen, diese beraten und betreuen sowie neue Kunden und Kundinnen akquirieren Vertragsverhandlungen führen, Kaufverträge ausfertigen sowie Aufträge bearbeiten, prüfen und Garantieleistungen abwickeln, Reklamationen bearbeiten"
+    ]
   },
   "narrower": [
     {
@@ -62,6 +64,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -70,8 +73,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -110,11 +125,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

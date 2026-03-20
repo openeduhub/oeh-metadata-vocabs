@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe planen Arzneimittelstudien, führen sie durch und werten sie aus. Zudem diagnostizieren und behandeln sie Vergiftungen und führen klinisch-toxikologische Beratungen durch."
   },
   "note": {
-    "de": "an medizinischen Forschungsvorhaben mitwirken und Forschungsberichte verfassen, z. B. die Wirkung von Arzneimitteln auf Organismen erforschen Untersuchungen durchführen und Patienten und Patientinnen behandeln, z. B. bei Vergiftungen Sofortmaßnahmen ergreifen im Rahmen des Giftnotrufs Privatpersonen, Kliniken, niedergelassene Ärzte und Ärztinnen und Apotheken zu Giften und Maßnahmen bei Vergiftungen beraten die Einhaltung ethischer und rechtlicher Grundlagen für klinische Arzneimittelprüfungen gewährleisten Arzneimittelbehörden, Ethikkommissionen, nationale und internationale Gremien für Arzneimittel- und Chemiesicherheit beraten wissenschaftliche Berichte und Arbeiten mit detaillierten Forschungsergebnissen und neuen Erkenntnissen verfassen"
+    "de": [
+      "an medizinischen Forschungsvorhaben mitwirken und Forschungsberichte verfassen, z. B. die Wirkung von Arzneimitteln auf Organismen erforschen Untersuchungen durchführen und Patienten und Patientinnen behandeln, z. B. bei Vergiftungen Sofortmaßnahmen ergreifen im Rahmen des Giftnotrufs Privatpersonen, Kliniken, niedergelassene Ärzte und Ärztinnen und Apotheken zu Giften und Maßnahmen bei Vergiftungen beraten die Einhaltung ethischer und rechtlicher Grundlagen für klinische Arzneimittelprüfungen gewährleisten Arzneimittelbehörden, Ethikkommissionen, nationale und internationale Gremien für Arzneimittel- und Chemiesicherheit beraten wissenschaftliche Berichte und Arbeiten mit detaillierten Forschungsergebnissen und neuen Erkenntnissen verfassen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/818",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

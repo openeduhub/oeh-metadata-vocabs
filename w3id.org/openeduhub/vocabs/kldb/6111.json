@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe beschaffen Waren oder Dienstleistungen, die dann verwendet, verarbeitet oder weiterverkauft werden."
   },
   "note": {
-    "de": "bei Fachabteilungen des eigenen Unternehmens den Bedarf an Waren und Dienstleistungen abfragen Lagerbestandslisten führen und die Korrektheit der Einträge überprüfen Beschaffungs- und Absatzmärkte beobachten, analysieren und Entwicklungen prognostizieren Einkaufsstrategien entwickeln und umsetzen Vertragsbedingungen und -bestimmungen festlegen und aushandeln, Lieferantenverträge vergeben Ausschreibungen durchführen, Detailinformationen sowie Angebote einholen und diese bewerten Waren für die eigene Organisation oder zum Weiterverkauf durch Handels- oder Großhandelsbetriebe kaufen, dabei die Waren oder Produkte auswählen, die den Anforderungen der Einrichtung am besten entsprechen Preise, Diskonten, Kreditbedingungen und Transportvereinbarungen mit Lieferanten aushandeln"
+    "de": [
+      "bei Fachabteilungen des eigenen Unternehmens den Bedarf an Waren und Dienstleistungen abfragen Lagerbestandslisten führen und die Korrektheit der Einträge überprüfen Beschaffungs- und Absatzmärkte beobachten, analysieren und Entwicklungen prognostizieren Einkaufsstrategien entwickeln und umsetzen Vertragsbedingungen und -bestimmungen festlegen und aushandeln, Lieferantenverträge vergeben Ausschreibungen durchführen, Detailinformationen sowie Angebote einholen und diese bewerten Waren für die eigene Organisation oder zum Weiterverkauf durch Handels- oder Großhandelsbetriebe kaufen, dabei die Waren oder Produkte auswählen, die den Anforderungen der Einrichtung am besten entsprechen Preise, Diskonten, Kreditbedingungen und Transportvereinbarungen mit Lieferanten aushandeln"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/611",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

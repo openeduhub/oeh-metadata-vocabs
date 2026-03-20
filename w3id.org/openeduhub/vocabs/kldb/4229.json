@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufsichtsaufgaben in der Umweltschutztechnik. Sie planen und steuern alle durch die Kehr- und Überprüfungsordnung vorgeschriebenen Arbeiten, z. B. die Überprüfung sämtlicher Schornsteine, Feuerungsstätten und Lüftungsanlagen, und beaufsichtigen die Tätigkeiten ihrer Mitarbeiter/innen."
   },
   "note": {
-    "de": "durch die Kehr- und Überprüfungsordnung vorgeschriebenen Arbeiten im Kehrbezirk planen und steuern und das Kehrbuch führen Schornsteine und Feuerstätten, Lüftungsanlagen und ähnliche Einrichtungen kehren und reinigen Anlagen auf Betriebs- und Feuersicherheit prüfen, Emissionsmessungen an Feuerungsanlagen durchführen und deren Wirkungsgrad und Wirtschaftlichkeit überprüfen bei Erstellung von Emissionskatastern (Verzeichnissen) mitwirken bei Rohbau- und Gebrauchsabnahme von Kaminen und Feuerungsanlagen mitwirken, heizungstechnische Anlagen auf Entsprechung der Energieeinsparverordnung prüfen Kunden und Kundinnen über feuerungstechnische und baurechtliche Fragen beraten, Gebäudeenergieausweise für Hauseigentümer/innen ausstellen Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen gesetzliche Regelungen anwenden, z. B. in den Bereichen Immissionsschutz, Zivilschutz und Baurecht"
+    "de": [
+      "durch die Kehr- und Überprüfungsordnung vorgeschriebenen Arbeiten im Kehrbezirk planen und steuern und das Kehrbuch führen Schornsteine und Feuerstätten, Lüftungsanlagen und ähnliche Einrichtungen kehren und reinigen Anlagen auf Betriebs- und Feuersicherheit prüfen, Emissionsmessungen an Feuerungsanlagen durchführen und deren Wirkungsgrad und Wirtschaftlichkeit überprüfen bei Erstellung von Emissionskatastern (Verzeichnissen) mitwirken bei Rohbau- und Gebrauchsabnahme von Kaminen und Feuerungsanlagen mitwirken, heizungstechnische Anlagen auf Entsprechung der Energieeinsparverordnung prüfen Kunden und Kundinnen über feuerungstechnische und baurechtliche Fragen beraten, Gebäudeenergieausweise für Hauseigentümer/innen ausstellen Schulung und Weiterbildung für Mitarbeiter/innen und den betrieblichen Teil der Ausbildung organisieren und durchführen gesetzliche Regelungen anwenden, z. B. in den Bereichen Immissionsschutz, Zivilschutz und Baurecht"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/422",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

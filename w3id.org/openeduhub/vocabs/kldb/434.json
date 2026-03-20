@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe entwickeln Software und befassen sich mit der Programmierung von Systemkomponenten und Anwendungen"
   },
   "note": {
-    "de": "komplexe Softwarelösungen für Kunden und Kundinnen entwickeln Systemanalysen durchführen, Problemstellungen und -lösungen methodisch aufgliedern, Sollkonzepte, Leistungsbeschreibungen, Spezifikationen und Lösungsmethoden entwickeln Betriebssysteme, Systemsoftware-Komponenten, Dienst- und Organisationsprogramme sowie Anwendungssoftware erstellen, modifizieren und warten Methoden des Softwareengineering sowie moderne Softwareentwicklungstools und Programmiersprachen fachgerecht und problemadäquat auswählen und anwenden Programmiersprachen und Entwicklungsumgebungen, wie Code-Generatoren, Test-Hilfen, Dokumentationstools und Editiersysteme, einsetzen Algorithmen und Datenstrukturen definieren, Programme erstellen, Software implementieren und testen"
+    "de": [
+      "komplexe Softwarelösungen für Kunden und Kundinnen entwickeln Systemanalysen durchführen, Problemstellungen und -lösungen methodisch aufgliedern, Sollkonzepte, Leistungsbeschreibungen, Spezifikationen und Lösungsmethoden entwickeln Betriebssysteme, Systemsoftware-Komponenten, Dienst- und Organisationsprogramme sowie Anwendungssoftware erstellen, modifizieren und warten Methoden des Softwareengineering sowie moderne Softwareentwicklungstools und Programmiersprachen fachgerecht und problemadäquat auswählen und anwenden Programmiersprachen und Entwicklungsumgebungen, wie Code-Generatoren, Test-Hilfen, Dokumentationstools und Editiersysteme, einsetzen Algorithmen und Datenstrukturen definieren, Programme erstellen, Software implementieren und testen"
+    ]
   },
   "narrower": [
     {
@@ -56,6 +58,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -64,8 +67,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -104,11 +119,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

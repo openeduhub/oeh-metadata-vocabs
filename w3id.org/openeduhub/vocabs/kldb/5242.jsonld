@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe führen Güter- oder Fahrgastschiffe auf Binnengewässern bzw. in Häfen, steuern bzw. navigieren Binnenschiffe oder organisieren und überwachen deren sicheren Betrieb."
   },
   "note": {
-    "de": "Reiserouten festlegen, die Einhaltung von Fahrplänen und Terminen gewährleisten das Schiff bzw. Wasserfahrzeug unter Beachtung der Wasserstands- und Wetterverhältnisse und der Verkehrsregeln führen das Schiff verholen, festmachen, ankern beim Laden und Löschen von Gütern mitwirken, den Ladevorgang überwachen, für die ordnungsgemäße Verstauung sorgen Schlepp- und Schubverbände zusammenstellen und begleiten technische Anlagen, Maschinen und Bordsysteme bedienen, überwachen, warten und instand halten den Schiffskörper und Ausrüstungsgegenstände reinigen, pflegen, warten und instand halten den Arbeitseinsatz im Schiffsbetrieb und die Ausbildung an Bord planen und koordinieren"
+    "de": [
+      "Reiserouten festlegen, die Einhaltung von Fahrplänen und Terminen gewährleisten das Schiff bzw. Wasserfahrzeug unter Beachtung der Wasserstands- und Wetterverhältnisse und der Verkehrsregeln führen das Schiff verholen, festmachen, ankern beim Laden und Löschen von Gütern mitwirken, den Ladevorgang überwachen, für die ordnungsgemäße Verstauung sorgen Schlepp- und Schubverbände zusammenstellen und begleiten technische Anlagen, Maschinen und Bordsysteme bedienen, überwachen, warten und instand halten den Schiffskörper und Ausrüstungsgegenstände reinigen, pflegen, warten und instand halten den Arbeitseinsatz im Schiffsbetrieb und die Ausbildung an Bord planen und koordinieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/524",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

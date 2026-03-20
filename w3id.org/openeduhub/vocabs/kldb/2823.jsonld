@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe stellen aus einer Vielzahl an Materialien und Zubehör vor allem Schutz- und Wetterkleidung, Zelte, Lkw-Planen, Marktschirme, Markisen oder Segel her."
   },
   "note": {
-    "de": "Material zuschneiden, Zuschneide- oder Stanzvorrichtungen einstellen, Schablonen erstellen, Materialbedarf ermitteln, ausgeschnittene Teile kennzeichnen Flächen verbinden, Nähmaschinen einstellen, Nähmaterial auswählen, Näharbeiten ausführen, Kanten beschichteter Gewebe schweißen oder kleben in der Fertigstellung Zubehör wie Druckknöpfe oder Ösen anbringen, Gurte, Schlaufen, Verstärkungen annähen Produkte montieren, z. B. Planen an Lkw anbringen, Zelte aufbauen, Segel anschlagen Qualitätskontrollen durchführen, z. B. fertiggestellte Artikel auf Fehler, Beschädigungen kontrollieren, Fehler ausbessern Erzeugnisse reparieren, z. B. Teile beurteilen, dünne oder durchgescheuerte Stellen verstärken, Reißverschlüsse, fehlende Ösen oder Schlaufen ersetzen Werkzeuge, Maschinen und Anlagen warten und instand halten in der Segelherstellung z. B. Segel berechnen, Teile zuschneiden und zusammennähen, Liektaue annähen, Taklings aufsetzen, Ringe, Ösen, Beschläge anbringen"
+    "de": [
+      "Material zuschneiden, Zuschneide- oder Stanzvorrichtungen einstellen, Schablonen erstellen, Materialbedarf ermitteln, ausgeschnittene Teile kennzeichnen Flächen verbinden, Nähmaschinen einstellen, Nähmaterial auswählen, Näharbeiten ausführen, Kanten beschichteter Gewebe schweißen oder kleben in der Fertigstellung Zubehör wie Druckknöpfe oder Ösen anbringen, Gurte, Schlaufen, Verstärkungen annähen Produkte montieren, z. B. Planen an Lkw anbringen, Zelte aufbauen, Segel anschlagen Qualitätskontrollen durchführen, z. B. fertiggestellte Artikel auf Fehler, Beschädigungen kontrollieren, Fehler ausbessern Erzeugnisse reparieren, z. B. Teile beurteilen, dünne oder durchgescheuerte Stellen verstärken, Reißverschlüsse, fehlende Ösen oder Schlaufen ersetzen Werkzeuge, Maschinen und Anlagen warten und instand halten in der Segelherstellung z. B. Segel berechnen, Teile zuschneiden und zusammennähen, Liektaue annähen, Taklings aufsetzen, Ringe, Ösen, Beschläge anbringen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/282",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

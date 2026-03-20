@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe planen und bauen Straßen, Wege und Plätze und halten diese instand. Dazu bereiten sie den jeweiligen Untergrund fachgerecht vor und verlegen die Beläge z. B. aus Asphalt oder Beton. Darüber hinaus übernehmen sie organisatorische und überwachende Aufgaben unter Berücksichtigung wirtschaftlicher, rechtlicher, sicherheits- und umwelttechnischer Aspekte."
   },
   "note": {
-    "de": "Bauvorhaben von Straßen, Wegen und Plätzen entwickeln und entwerfen, Grob- und Detailplanung zur Ausführung erstellen Material- und Maschineneinsatz kalkulieren und koordinieren Erdbewegungen, z. B. zur Ebnung und Glättung geplanter Straßenverläufe, in Vorbereitung der Baumaß-nahmen planen und ausführen Unterbau herstellen, Deckschicht auftragen, Entwässerungsmöglichkeiten und Randbefestigung von Straßen und Wegen anlegen Straßen, Wege und Plätze prüfen und instand halten, z. B. beschädigte Beläge ausbessern die Qualität der Bauausführung kontrollieren und überwachen Materialien und Techniken im Straßen- und Asphaltbau weiterentwickeln, dabei Sicherheits- und Umweltaspekte sowie veränderte Verkehrsaufkommen beachten"
+    "de": [
+      "Bauvorhaben von Straßen, Wegen und Plätzen entwickeln und entwerfen, Grob- und Detailplanung zur Ausführung erstellen Material- und Maschineneinsatz kalkulieren und koordinieren Erdbewegungen, z. B. zur Ebnung und Glättung geplanter Straßenverläufe, in Vorbereitung der Baumaß-nahmen planen und ausführen Unterbau herstellen, Deckschicht auftragen, Entwässerungsmöglichkeiten und Randbefestigung von Straßen und Wegen anlegen Straßen, Wege und Plätze prüfen und instand halten, z. B. beschädigte Beläge ausbessern die Qualität der Bauausführung kontrollieren und überwachen Materialien und Techniken im Straßen- und Asphaltbau weiterentwickeln, dabei Sicherheits- und Umweltaspekte sowie veränderte Verkehrsaufkommen beachten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

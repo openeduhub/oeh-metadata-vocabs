@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind in der System- und Geschäftsprozessanalyse sowie im Vertrieb von IT-Produkten und -Lösungen tätig. Sie beraten, betreuen und unterstützen Kunden und Kundinnen bzw. Anwender/innen von IT-Systemen und Softwareprodukten."
   },
   "note": {
-    "de": "Geschäftsprozesse von Unternehmen analysieren, Anforderungen an IT-Systeme definieren und nach Kundenwünschen und -anforderungen entwickeln und modifizieren Businesspläne und Wirtschaftlichkeitsbetrachtungen von IT-Projekten durchführen, z. B. Zeitpläne, notwendige Budgets und erwartete Ziele einschätzen Anwender/innen von IT-Lösungen beraten, technische Unterlagen des IT-Bereichs benutzergerecht aufbereiten, Lehr-/Lernarrangements, z. B. E-Learning-Angebote, konzipieren und implementieren Projekte zur Planung, Einführung und Anpassung von IT-Systemen koordinieren, Reklamationen von Kunden und Kundinnen sachgerecht und wirtschaftlich vertretbar abklären"
+    "de": [
+      "Geschäftsprozesse von Unternehmen analysieren, Anforderungen an IT-Systeme definieren und nach Kundenwünschen und -anforderungen entwickeln und modifizieren Businesspläne und Wirtschaftlichkeitsbetrachtungen von IT-Projekten durchführen, z. B. Zeitpläne, notwendige Budgets und erwartete Ziele einschätzen Anwender/innen von IT-Lösungen beraten, technische Unterlagen des IT-Bereichs benutzergerecht aufbereiten, Lehr-/Lernarrangements, z. B. E-Learning-Angebote, konzipieren und implementieren Projekte zur Planung, Einführung und Anpassung von IT-Systemen koordinieren, Reklamationen von Kunden und Kundinnen sachgerecht und wirtschaftlich vertretbar abklären"
+    ]
   },
   "narrower": [
     {
@@ -67,6 +69,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -75,8 +78,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -115,11 +130,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

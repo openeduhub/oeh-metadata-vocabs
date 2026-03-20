@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe recherchieren, sammeln, selektieren und verdichten Informationen. Die Informationen bereiten sie nutzergerecht auf und stellen sie, z. B. in Form von Berichten, Dokumentationen oder über Informationssysteme, zur Verfügung."
   },
   "note": {
-    "de": "Daten und recherchierte Informationen in konventionelle oder elektronische Informationsspeicher eingeben, dabei z. B. nach Systematiken und Klassifikationen vorgehen Informationsprozesse planen, Informationen beschaffen, formal und inhaltlich erschließen sowie selektieren Rechercheergebnisse aufbereiten und sie kundengerecht, z. B. in Form von Endberichten samt dazugehörigen Grafiken und Bildern oder mit Informationsträgern, präsentieren Informationssysteme z. B. nach betrieblichen Vorgaben planen und konzipieren sowie nutzerfreundlich und übersichtlich implementieren den Informationsbedarf ermitteln, z. B. Kunden und Kundinnen befragen, Statistiken auswerten oder Zielgruppenbefragungen durchführen"
+    "de": [
+      "Daten und recherchierte Informationen in konventionelle oder elektronische Informationsspeicher eingeben, dabei z. B. nach Systematiken und Klassifikationen vorgehen Informationsprozesse planen, Informationen beschaffen, formal und inhaltlich erschließen sowie selektieren Rechercheergebnisse aufbereiten und sie kundengerecht, z. B. in Form von Endberichten samt dazugehörigen Grafiken und Bildern oder mit Informationsträgern, präsentieren Informationssysteme z. B. nach betrieblichen Vorgaben planen und konzipieren sowie nutzerfreundlich und übersichtlich implementieren den Informationsbedarf ermitteln, z. B. Kunden und Kundinnen befragen, Statistiken auswerten oder Zielgruppenbefragungen durchführen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/733",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

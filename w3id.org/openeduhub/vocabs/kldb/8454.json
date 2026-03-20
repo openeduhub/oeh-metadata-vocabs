@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe trainieren Einzelsportler/innen oder Mannschaften im Fußball, Tennis, Volleyball oder in anderen Ballsportarten und bereiten sie auf Wettkämpfe und Turniere vor."
   },
   "note": {
-    "de": "Stärken und Schwächen von Sportler/innen oder Mannschaften identifizieren Trainings- und Übungseinheiten im Ballsport planen, entwickeln und implementieren Sportler/innen oder Teams auf Wettkämpfe und Spiele vorbereiten und motivieren Spielstrategien formulieren, Spielpläne entwickeln und Sportler/innen bei Spielen oder Sportveranstaltungen, wie z. B. Fußball- oder Tennisturnieren, anleiten die Leistungen von Sportler/innen oder Teams überwachen, analysieren und evaluieren, bei Bedarf Trainingsprogramme entsprechend abändern"
+    "de": [
+      "Stärken und Schwächen von Sportler/innen oder Mannschaften identifizieren Trainings- und Übungseinheiten im Ballsport planen, entwickeln und implementieren Sportler/innen oder Teams auf Wettkämpfe und Spiele vorbereiten und motivieren Spielstrategien formulieren, Spielpläne entwickeln und Sportler/innen bei Spielen oder Sportveranstaltungen, wie z. B. Fußball- oder Tennisturnieren, anleiten die Leistungen von Sportler/innen oder Teams überwachen, analysieren und evaluieren, bei Bedarf Trainingsprogramme entsprechend abändern"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/845",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe stellen Uhren, andere Zeitmessgeräte und deren Einzelteile her, warten, reparieren und restaurieren sie. Darüber hinaus begutachten sie Uhren, erstellen Kostenvoranschläge für Reparaturen und beraten Kunden und Kundinnen über technische Aspekte bei Kauf und Instandsetzung."
   },
   "note": {
-    "de": "Einzelteile mittels nummerisch gesteuerter Maschinen fertigen und zu ganzen Uhren montieren mit Uhrmacherdrehmaschinen, Zeitwaagen und Oszillografen arbeiten Uhren reparieren, Ursachen von Funktions- und Gangstörungen ermitteln und dokumentieren Zeitmessgeräte warten, z. B. elektronische Teile mit Mess- und Prüfgeräten prüfen, defekte Module austauschen Uhren und andere Zeitmessgeräte konservieren, restaurieren und rekonstruieren, dabei historische und zeitgemäße Werk- und Hilfsstoffe bearbeiten und einsetzen erforderliche Reparatur- und Restaurierungsarbeiten zeitlich und organisatorisch planen, Kosten berechnen Uhren und Zeitmessgeräte begutachten und Kostenvoranschläge für Reparaturen erstellen Zustandsdiagnosen von Uhren sowie zugehörige Bild- und Textdokumentationen erstellen, gegebenenfalls wissenschaftliche Gutachten hinzuziehen Kunden und Kundinnen über technische Aspekte bei Kauf, Wartung, Reparatur und Restaurierung von Uhren beraten"
+    "de": [
+      "Einzelteile mittels nummerisch gesteuerter Maschinen fertigen und zu ganzen Uhren montieren mit Uhrmacherdrehmaschinen, Zeitwaagen und Oszillografen arbeiten Uhren reparieren, Ursachen von Funktions- und Gangstörungen ermitteln und dokumentieren Zeitmessgeräte warten, z. B. elektronische Teile mit Mess- und Prüfgeräten prüfen, defekte Module austauschen Uhren und andere Zeitmessgeräte konservieren, restaurieren und rekonstruieren, dabei historische und zeitgemäße Werk- und Hilfsstoffe bearbeiten und einsetzen erforderliche Reparatur- und Restaurierungsarbeiten zeitlich und organisatorisch planen, Kosten berechnen Uhren und Zeitmessgeräte begutachten und Kostenvoranschläge für Reparaturen erstellen Zustandsdiagnosen von Uhren sowie zugehörige Bild- und Textdokumentationen erstellen, gegebenenfalls wissenschaftliche Gutachten hinzuziehen Kunden und Kundinnen über technische Aspekte bei Kauf, Wartung, Reparatur und Restaurierung von Uhren beraten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/245",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

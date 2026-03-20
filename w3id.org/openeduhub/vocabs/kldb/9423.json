@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe präsentieren Kleidung, Frisuren, Accessoires und Produkte aller Art auf dem Laufsteg, bei Werbeveranstaltungen und nehmen an Fotoshootings teil."
   },
   "note": {
-    "de": "nach Wunsch des Auftraggebers Bekleidung in neuem oder aktuellen Stil anziehen Kleidung, Make-up, Frisuren, Accessoires und Produkte aller Art vorführen Gehen, Drehen und Posieren, um Stil und Merkmale von Bekleidungsstücken, Mode-Accessoires und sonstigen Waren möglichst vorteilhaft zur Geltung zu bringen alleine oder in Gruppen zu Musik und Lichtshows über den Laufsteg laufen bei Fotoshootings für Kataloge, Modezeitschriften und sonstige Werbemedien vor der Kamera stehen und die gewünschten Haltungen einnehmen als Modell für Bildhauerei, Malerei und sonstige bildende Künste posieren"
+    "de": [
+      "nach Wunsch des Auftraggebers Bekleidung in neuem oder aktuellen Stil anziehen Kleidung, Make-up, Frisuren, Accessoires und Produkte aller Art vorführen Gehen, Drehen und Posieren, um Stil und Merkmale von Bekleidungsstücken, Mode-Accessoires und sonstigen Waren möglichst vorteilhaft zur Geltung zu bringen alleine oder in Gruppen zu Musik und Lichtshows über den Laufsteg laufen bei Fotoshootings für Kataloge, Modezeitschriften und sonstige Werbemedien vor der Kamera stehen und die gewünschten Haltungen einnehmen als Modell für Bildhauerei, Malerei und sonstige bildende Künste posieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/942",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

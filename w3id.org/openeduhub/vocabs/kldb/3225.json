@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe bauen, erweitern und sanieren Abwasserleitungen und Abwassersysteme sowie Verkehrs- und Versorgungstunnel. Darüber hinaus übernehmen sie planende und koordinierende Aufgaben unter Berücksichtigung wirtschaftlicher, rechtlicher, sicherheits- und umwelttechnischer Aspekte und führen technische Untersuchungen im Kanal- und Tunnelbau durch."
   },
   "note": {
-    "de": "Bauvorhaben planen und entwerfen, z. B. Arbeitsstrecke im Gelände nach Bau- und Verlegeplänen mit optischem Vermessungsgerät einmessen Gesteinsschichten und Erdreich für Tunnelbauten abtragen, dabei z. B. Tunnelbohrmaschinen, Vortriebsmaschinen und Hydraulikbagger einsetzen Erd- und Gesteinsproben aus dem Baugelände entnehmen und auf ihre Beschaffenheit analysieren nach Plan Schächte und Stollen unter Berücksichtigung von geologischen und hydrologischen Geländebeschaffenheiten ausführen Gräben und Baugruben herstellen, Kanalwände und Baugruben für Kanalschächte ausschachten Kanäle und Schächte absichern, auskleiden und abdichten Tunnelbauten reinigen, warten und ggf. Reparaturmaßnahmen vornehmen Kanalisationsbauten auf Dichtheit und Stabilität prüfen, warten und sanieren, Korrosionsschutzmaßnahmen durchführen Qualitätsprüfung und -sicherung durchführen, Ergebnisse und ggf. ausgeführte Baumaßnahmen dokumentieren Einhaltung der Bauplanung sicherstellen, auch unter Berücksichtigung von gesetzlichen Bestimmungen der Arbeitssicherheit und des Umweltschutzes"
+    "de": [
+      "Bauvorhaben planen und entwerfen, z. B. Arbeitsstrecke im Gelände nach Bau- und Verlegeplänen mit optischem Vermessungsgerät einmessen Gesteinsschichten und Erdreich für Tunnelbauten abtragen, dabei z. B. Tunnelbohrmaschinen, Vortriebsmaschinen und Hydraulikbagger einsetzen Erd- und Gesteinsproben aus dem Baugelände entnehmen und auf ihre Beschaffenheit analysieren nach Plan Schächte und Stollen unter Berücksichtigung von geologischen und hydrologischen Geländebeschaffenheiten ausführen Gräben und Baugruben herstellen, Kanalwände und Baugruben für Kanalschächte ausschachten Kanäle und Schächte absichern, auskleiden und abdichten Tunnelbauten reinigen, warten und ggf. Reparaturmaßnahmen vornehmen Kanalisationsbauten auf Dichtheit und Stabilität prüfen, warten und sanieren, Korrosionsschutzmaßnahmen durchführen Qualitätsprüfung und -sicherung durchführen, Ergebnisse und ggf. ausgeführte Baumaßnahmen dokumentieren Einhaltung der Bauplanung sicherstellen, auch unter Berücksichtigung von gesetzlichen Bestimmungen der Arbeitssicherheit und des Umweltschutzes"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/322",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

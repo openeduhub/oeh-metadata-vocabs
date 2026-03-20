@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe befassen sich mit der Verwaltung von Steuern. Sie veranlagen steuerpflichtige Bürger/innen und Unternehmen, berechnen die Höhe der Steuern und überprüfen die Angaben der Steuerpflichtigen."
   },
   "note": {
-    "de": "Steuererklärungen prüfen, die Höhe der Steuern berechnen und Steuerbescheide ausstellen Auskünfte an Steuerpflichtige zur Erstellung von Steuererklärungen oder zu den Steuerbescheiden erteilen, Anträge von Steuerpflichtigen entgegennehmen Zahlungseingänge bearbeiten sowie Auszahlungen vornehmen Steuerrückstände einziehen, z. B. Pfändungsverfügungen ausstellen und nicht bewegliche Sachen pfänden Steuerangaben prüfen, z. B. im Außendienst die Buchführungsunterlagen von Unternehmen einsehen und die Angaben auf den Steuererklärungen überprüfen Einheitswerte, z. B. von unbebauten oder bebauten Grundstücken, ermitteln, den Erwerb von Wohnungseigentum oder Grundstücken steuerlich auswerten die Steuern von Erbschaften und Schenkungen ermitteln gegen Steuerstraftaten oder Steuerordnungswidrigkeiten vorgehen, diese rechtlich würdigen sowie den Vorgang an die Staatsanwaltschaft weiterleiten Botengänge zwischen verschiedenen Abteilungen, Dienststellen oder Ämtern erledigen Besucher/innen anmelden, Besucherausweise ausstellen"
+    "de": [
+      "Steuererklärungen prüfen, die Höhe der Steuern berechnen und Steuerbescheide ausstellen Auskünfte an Steuerpflichtige zur Erstellung von Steuererklärungen oder zu den Steuerbescheiden erteilen, Anträge von Steuerpflichtigen entgegennehmen Zahlungseingänge bearbeiten sowie Auszahlungen vornehmen Steuerrückstände einziehen, z. B. Pfändungsverfügungen ausstellen und nicht bewegliche Sachen pfänden Steuerangaben prüfen, z. B. im Außendienst die Buchführungsunterlagen von Unternehmen einsehen und die Angaben auf den Steuererklärungen überprüfen Einheitswerte, z. B. von unbebauten oder bebauten Grundstücken, ermitteln, den Erwerb von Wohnungseigentum oder Grundstücken steuerlich auswerten die Steuern von Erbschaften und Schenkungen ermitteln gegen Steuerstraftaten oder Steuerordnungswidrigkeiten vorgehen, diese rechtlich würdigen sowie den Vorgang an die Staatsanwaltschaft weiterleiten Botengänge zwischen verschiedenen Abteilungen, Dienststellen oder Ämtern erledigen Besucher/innen anmelden, Besucherausweise ausstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/732",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

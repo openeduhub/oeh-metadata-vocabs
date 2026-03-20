@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe sind bei der Denkmalpflege, im Bau- und im Restaurierungswesen tätig. Sie planen Instandsetzungsarbeiten zur Bauwerkserhaltung und Baudenkmalpflege, überwachen deren Ausführung und dokumentieren sie."
   },
   "note": {
-    "de": "Beratungen zur Denkmalpflege oder zu Instandsetzungsarbeiten durchführen Baugeschichte erforschen, Bauwerke und Bauteile stilistisch einordnen Schäden an Baudenkmälern analysieren, bauphysikalische und bauchemische Untersuchungen durchführen, unter anderem hinsichtlich Mauerfeuchte oder Statik Maßnahmen zur Denkmalpflege erarbeiten, bei der Erstellung von Konzepten zur Bauwerkssicherung sowie bei der Material- und Verfahrensauswahl mitwirken statische und bauphysikalische Gegebenheiten prüfen und bei der Planung und Ausführung der Instandsetzungsarbeiten berücksichtigen Zeichnungen, wie z. B. Planskizzen und Baueingabepläne sowie Baumodelle anfertigen Praktisch-ausführende Arbeiten übernehmen, unter anderem Bauteile trockenlegen, abdichten und z. B. Einzelsteine und Einzelbauteile auswechseln Leistungsverzeichnisse erstellen und bei den Ausschreibungen mitwirken Maßnahmen zur Denkmalpflege dokumentieren und Berichte zu den durchgeführten Arbeiten erstellen bei der Erstellung von Denkmallisten und bei Verzeichnissen von zu schützenden Objekten mitwirken"
+    "de": [
+      "Beratungen zur Denkmalpflege oder zu Instandsetzungsarbeiten durchführen Baugeschichte erforschen, Bauwerke und Bauteile stilistisch einordnen Schäden an Baudenkmälern analysieren, bauphysikalische und bauchemische Untersuchungen durchführen, unter anderem hinsichtlich Mauerfeuchte oder Statik Maßnahmen zur Denkmalpflege erarbeiten, bei der Erstellung von Konzepten zur Bauwerkssicherung sowie bei der Material- und Verfahrensauswahl mitwirken statische und bauphysikalische Gegebenheiten prüfen und bei der Planung und Ausführung der Instandsetzungsarbeiten berücksichtigen Zeichnungen, wie z. B. Planskizzen und Baueingabepläne sowie Baumodelle anfertigen Praktisch-ausführende Arbeiten übernehmen, unter anderem Bauteile trockenlegen, abdichten und z. B. Einzelsteine und Einzelbauteile auswechseln Leistungsverzeichnisse erstellen und bei den Ausschreibungen mitwirken Maßnahmen zur Denkmalpflege dokumentieren und Berichte zu den durchgeführten Arbeiten erstellen bei der Erstellung von Denkmallisten und bei Verzeichnissen von zu schützenden Objekten mitwirken"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/311",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe sind in der klinischen Psychologie tätig und untersuchen Gesetzmäßigkeiten im System menschlichen Wahrnehmens und Denkens, beraten und behandeln Menschen mit seelischen Störungen oder unterstützen Psychologen und Psychologinnen bei der Durchführung wissenschaftlicher und praktischer Aufgaben."
   },
   "note": {
-    "de": "bei therapeutischen Gesprächen und psychologischen Beratungen assistieren Patienten und Patientinnen nach vorgegebenen Richtlinien über ihren Gesundheitszustand befragen, dabei ggf. quantitative Tests und strukturierte Interviews nach Leitfaden durchführen psychodiagnostische Maßnahmen zur Analyse von Ursachen für Verhaltensauffälligkeiten, Störungen und Krankheiten durchführen Beratungen und therapeutische Gespräche durchführen, entwicklungsfördernde Maßnahmen im Rahmen der Prävention von Erkrankungen und Verhaltensstörungen durchführen in der forensischen Psychologie mitwirken, z. B. den psychischen Entwicklungsstand, die Verantwortlichkeit sowie Tatmotivation von Angeklagten begutachten in der Notfallpsychologie mitwirken, z. B. posttraumatischen Belastungsstörungen vorbeugen und diese bewältigen, Supervisionen leiten"
+    "de": [
+      "bei therapeutischen Gesprächen und psychologischen Beratungen assistieren Patienten und Patientinnen nach vorgegebenen Richtlinien über ihren Gesundheitszustand befragen, dabei ggf. quantitative Tests und strukturierte Interviews nach Leitfaden durchführen psychodiagnostische Maßnahmen zur Analyse von Ursachen für Verhaltensauffälligkeiten, Störungen und Krankheiten durchführen Beratungen und therapeutische Gespräche durchführen, entwicklungsfördernde Maßnahmen im Rahmen der Prävention von Erkrankungen und Verhaltensstörungen durchführen in der forensischen Psychologie mitwirken, z. B. den psychischen Entwicklungsstand, die Verantwortlichkeit sowie Tatmotivation von Angeklagten begutachten in der Notfallpsychologie mitwirken, z. B. posttraumatischen Belastungsstörungen vorbeugen und diese bewältigen, Supervisionen leiten"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/816",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe analysieren Abläufe und Strukturen eines Unternehmens, um Vorschläge auszuarbeiten, welche die Wirtschaftlichkeit und den wirtschaftlichen Erfolg des Unternehmens erhöhen. Sie führen auch Beratungen rund um den Kauf, Verkauf oder die Fusion von Unternehmen durch."
   },
   "note": {
-    "de": "Umsatz- und Verbesserungspotenziale identifizieren, Vorschläge zur Geschäftsentwicklung entwickeln und den Auftraggebern unterbreiten die Markt- und Kundenausrichtung von Unternehmen analysieren und beurteilen Finanzierungs- und Förderungsmöglichkeiten aufzeigen Sanierungspläne erstellen und Konzepte zur Neustrukturierung des Betriebes entwickeln und so zahlungsunfähige Unternehmen vor dem Konkurs bewahren Unternehmensverkauf, -fusion oder -übergabe vorbereiten und durchführen, z. B. Nachfolgeregelungen umsetzen, Konzerntöchter verkaufen, Akquisitionsmöglichkeiten prüfen strategische Unternehmensplanung vorantreiben und neue Ideen für Geschäftsfelder entwickeln"
+    "de": [
+      "Umsatz- und Verbesserungspotenziale identifizieren, Vorschläge zur Geschäftsentwicklung entwickeln und den Auftraggebern unterbreiten die Markt- und Kundenausrichtung von Unternehmen analysieren und beurteilen Finanzierungs- und Förderungsmöglichkeiten aufzeigen Sanierungspläne erstellen und Konzepte zur Neustrukturierung des Betriebes entwickeln und so zahlungsunfähige Unternehmen vor dem Konkurs bewahren Unternehmensverkauf, -fusion oder -übergabe vorbereiten und durchführen, z. B. Nachfolgeregelungen umsetzen, Konzerntöchter verkaufen, Akquisitionsmöglichkeiten prüfen strategische Unternehmensplanung vorantreiben und neue Ideen für Geschäftsfelder entwickeln"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/713",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

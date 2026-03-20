@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe übernehmen Aufgaben in der industriellen und handwerklichen Produktion von Holzwerkstoffen und -bauteilen sowie von Fertigprodukten aus Holz, im Holz-, Möbel- und Innenausbau, in der Flechtwerkgestaltung und in der Holztrocknung und -konservierung."
   },
   "note": {
-    "de": "technische Unterlagen und Skizzen erstellen Holzerzeugnisse, wie z. B. Span- und Furnierplatten, Türen, Holzverkleidungen und Möbel, unter anderem mit Hilfe von Fräsen, Sägen, Beleimungs- und Pressmaschinen fertigen Holzoberflächen gestalten, spezielle Holzschutzmittel aufbringen alte und antike Holzmöbel sowie Bilder- und Spiegelrahmen restaurieren Bürsten, Besen und Pinsel fertigen, Korbwaren, Flechtmöbel und andere Flechtobjekte entwerfen, gestalten und fertigen, Holz konservieren, Kork verarbeiten neue Werkstoffe aus Holz entwickeln und Eigenschaften von bestehenden Holzwerkstoffen verbessern"
+    "de": [
+      "technische Unterlagen und Skizzen erstellen Holzerzeugnisse, wie z. B. Span- und Furnierplatten, Türen, Holzverkleidungen und Möbel, unter anderem mit Hilfe von Fräsen, Sägen, Beleimungs- und Pressmaschinen fertigen Holzoberflächen gestalten, spezielle Holzschutzmittel aufbringen alte und antike Holzmöbel sowie Bilder- und Spiegelrahmen restaurieren Bürsten, Besen und Pinsel fertigen, Korbwaren, Flechtmöbel und andere Flechtobjekte entwerfen, gestalten und fertigen, Holz konservieren, Kork verarbeiten neue Werkstoffe aus Holz entwickeln und Eigenschaften von bestehenden Holzwerkstoffen verbessern"
+    ]
   },
   "narrower": [
     {
@@ -86,6 +88,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -94,8 +97,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -134,11 +149,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

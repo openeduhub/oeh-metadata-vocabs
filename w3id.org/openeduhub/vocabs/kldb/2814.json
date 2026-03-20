@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe bedienen und überwachen Maschinen und Einrichtungen für das Färben, Bedrucken, Beflocken, Beschichten, Appretieren bzw. Imprägnieren von Textilien oder sie planen, organisieren und überwachen die Fertigungsabläufe."
   },
   "note": {
-    "de": "Produktionsmaschinen bzw. Werkzeuge warten und instand halten, z. B. schadhafte Teile auswechseln, Arbeitselemente schmieren und reinigen, kleinere Störungen beheben Veredlungsmittel bereitstellen und ansetzen, Textilveredlungsmaschinen programmieren, einstellen und umrüsten, bedienen und überwachen Maschinen- und Prüfdaten auswerten Arbeitsabläufe planen und organisieren, Betriebsbereitschaft der Textilveredlungsmaschinen gewährleisten, Wartungs-, Instandhaltungsmaßnahmen veranlassen bei der Festlegung von Qualitätsrichtlinien mitwirken, qualitätssichernde Maßnahmen durchsetzen, Qualitätskontrollen in allen Stadien der Veredlung durchführen bei der Entwicklung bzw. Verbesserung von Veredlungsverfahren bzw. Verfahren der Textilausrüstung, z. B. von Outdoor- oder technischen Textilien, mitwirken Umsetzung von Sicherheits-, Arbeitsschutz- und Umweltschutzbestimmungen sicherstellen"
+    "de": [
+      "Produktionsmaschinen bzw. Werkzeuge warten und instand halten, z. B. schadhafte Teile auswechseln, Arbeitselemente schmieren und reinigen, kleinere Störungen beheben Veredlungsmittel bereitstellen und ansetzen, Textilveredlungsmaschinen programmieren, einstellen und umrüsten, bedienen und überwachen Maschinen- und Prüfdaten auswerten Arbeitsabläufe planen und organisieren, Betriebsbereitschaft der Textilveredlungsmaschinen gewährleisten, Wartungs-, Instandhaltungsmaßnahmen veranlassen bei der Festlegung von Qualitätsrichtlinien mitwirken, qualitätssichernde Maßnahmen durchsetzen, Qualitätskontrollen in allen Stadien der Veredlung durchführen bei der Entwicklung bzw. Verbesserung von Veredlungsverfahren bzw. Verfahren der Textilausrüstung, z. B. von Outdoor- oder technischen Textilien, mitwirken Umsetzung von Sicherheits-, Arbeitsschutz- und Umweltschutzbestimmungen sicherstellen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/281",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

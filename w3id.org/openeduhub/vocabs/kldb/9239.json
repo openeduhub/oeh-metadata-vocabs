@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Führungsaufgaben in der Verlags- und Medienwirtschaft. Sie planen, leiten, koordinieren und evaluieren die Bereitstellung von Medienprodukten, z. B. von Zeitschriften, Büchern, Ton- und Bildproduktionen, Videos, Filmen oder Internetportalen."
   },
   "note": {
-    "de": "die strategische Zielplanung und kaufmännische Gesamtleitung eines Verlages übernehmen, sich mit dem Lektorat und der Redaktion hinsichtlich der vorausschauenden Programmplanung abstimmen die Bereitstellung unterschiedlicher Medien planen, leiten und koordinieren die regelmäßige Anpassung bestehender Produktlinien an neue Kundenbedürfnisse gewährleisten, etwa hinsichtlich Social Media oder Hör-, Seh- und Lesegewohnheiten Mitarbeiter/innen anleiten und führen sowie ihre Leistung evaluieren die administrativen Abläufe wie Budgetplanung, Berichterstellung, Ausgaben für Betriebsgüter, Ausrüstung und Dienstleistungen kontrollieren das Budget festlegen und verwalten, die Ausgaben kontrollieren und einen effizienten Ressourceneinsatz sicherstellen die Auswahl und Schulung der Mitarbeiter/innen überwachen das Unternehmen nach außen vertreten, Kooperationen mit anderen Unternehmen vereinbaren, die an Produktion und Verkauf beteiligt werden sollen"
+    "de": [
+      "die strategische Zielplanung und kaufmännische Gesamtleitung eines Verlages übernehmen, sich mit dem Lektorat und der Redaktion hinsichtlich der vorausschauenden Programmplanung abstimmen die Bereitstellung unterschiedlicher Medien planen, leiten und koordinieren die regelmäßige Anpassung bestehender Produktlinien an neue Kundenbedürfnisse gewährleisten, etwa hinsichtlich Social Media oder Hör-, Seh- und Lesegewohnheiten Mitarbeiter/innen anleiten und führen sowie ihre Leistung evaluieren die administrativen Abläufe wie Budgetplanung, Berichterstellung, Ausgaben für Betriebsgüter, Ausrüstung und Dienstleistungen kontrollieren das Budget festlegen und verwalten, die Ausgaben kontrollieren und einen effizienten Ressourceneinsatz sicherstellen die Auswahl und Schulung der Mitarbeiter/innen überwachen das Unternehmen nach außen vertreten, Kooperationen mit anderen Unternehmen vereinbaren, die an Produktion und Verkauf beteiligt werden sollen"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/923",
@@ -41,6 +43,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -49,8 +52,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -89,11 +104,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

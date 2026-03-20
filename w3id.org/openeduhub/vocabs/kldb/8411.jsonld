@@ -8,7 +8,9 @@
     "de": "Angehörige dieser Berufe erfüllen fachliche und erzieherische Aufgaben in Grundschulen bzw. in der Primarstufe und lehren verschiedene Fächer."
   },
   "note": {
-    "de": "anhand der Lehrpläne für die einzelnen Klassen oder Arbeitsgemeinschaften die Jahres- bzw. Halbjahresarbeitsplanung erstellen Unterrichtsstunden unter Berücksichtigung der Lehrplanrichtlinien und des bisherigen Unterrichtsfortschrittes vor- und nachbereiten geeignete Lernzielkontrollen vorbereiten und durchführen, z. B. mündliche Abfragen, Klassenarbeiten oder benotete Tests den Unterricht mithilfe verschiedener Lehrmethoden und -materialien gestalten, z. B. Gruppen- und Stillarbeiten, Spiele u.Ä. organisieren und leiten Kinder während des Unterrichts und in den Pausen beaufsichtigen die Leistung und das Verhalten von Kindern beobachten und evaluieren Klassenfahrten, sportliche Aktivitäten und Exkursionen, wie z. B. Museums-, Theater- und Konzertbesuche, mit den Kindern planen und durchführen an Lehrerkonferenzen und anderen Sitzungen teilnehmen und Konferenzen über Bildungsfragen mit anderen Lehrer/innen abhalten Elternabende und Elternsprechtage vorbereiten und durchführen, um die Fortschritte und Probleme der Kinder zu diskutieren"
+    "de": [
+      "anhand der Lehrpläne für die einzelnen Klassen oder Arbeitsgemeinschaften die Jahres- bzw. Halbjahresarbeitsplanung erstellen Unterrichtsstunden unter Berücksichtigung der Lehrplanrichtlinien und des bisherigen Unterrichtsfortschrittes vor- und nachbereiten geeignete Lernzielkontrollen vorbereiten und durchführen, z. B. mündliche Abfragen, Klassenarbeiten oder benotete Tests den Unterricht mithilfe verschiedener Lehrmethoden und -materialien gestalten, z. B. Gruppen- und Stillarbeiten, Spiele u.Ä. organisieren und leiten Kinder während des Unterrichts und in den Pausen beaufsichtigen die Leistung und das Verhalten von Kindern beobachten und evaluieren Klassenfahrten, sportliche Aktivitäten und Exkursionen, wie z. B. Museums-, Theater- und Konzertbesuche, mit den Kindern planen und durchführen an Lehrerkonferenzen und anderen Sitzungen teilnehmen und Konferenzen über Bildungsfragen mit anderen Lehrer/innen abhalten Elternabende und Elternsprechtage vorbereiten und durchführen, um die Fortschritte und Probleme der Kinder zu diskutieren"
+    ]
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/kldb/841",
@@ -36,6 +38,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -44,8 +47,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -84,11 +99,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"

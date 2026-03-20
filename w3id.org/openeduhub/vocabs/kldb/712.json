@@ -13,7 +13,9 @@
     "de": "Angehörige dieser Berufe übernehmen Führungsaufgaben bei gesetzgebenden Körperschaften sowie bei Interessenorganisationen und üben betriebsinterne Wahlämter aus."
   },
   "note": {
-    "de": "den Vorsitz übernehmen oder an den Verfahren gesetzgebender Körperschaften und von Verwaltungsräten von nationalen, staatlichen, regionalen oder lokalen Regierungen oder gesetzgebenden Versammlungen teilnehmen die Politik nationaler, staatlicher, regionaler oder lokaler Regierungen bestimmen, formulieren und leiten Gesetze, öffentliche Regelungen und Bestimmungen formulieren, ratifizieren, ändern oder aufheben Interessenorganisationen, Städte oder Gemeinden leiten, vertreten und in ihrem Namen handeln, Mitarbeiter/innen anweisen und die termin-, fach- und sachgerechte Erledigung der Aufgaben verantworten Verhandlungen mit anderen Gesetzgebern und Vertretern von Interessengruppen zwecks Ausgleich verschiedener Interessen führen, politische Richtlinien formulieren Aktivitäten, Politiken und Praktiken eines Unternehmens oder einer Organisation in den Bereichen Personal- und Arbeitgeber-/Arbeitnehmerbeziehungen planen, leiten und koordinieren"
+    "de": [
+      "den Vorsitz übernehmen oder an den Verfahren gesetzgebender Körperschaften und von Verwaltungsräten von nationalen, staatlichen, regionalen oder lokalen Regierungen oder gesetzgebenden Versammlungen teilnehmen die Politik nationaler, staatlicher, regionaler oder lokaler Regierungen bestimmen, formulieren und leiten Gesetze, öffentliche Regelungen und Bestimmungen formulieren, ratifizieren, ändern oder aufheben Interessenorganisationen, Städte oder Gemeinden leiten, vertreten und in ihrem Namen handeln, Mitarbeiter/innen anweisen und die termin-, fach- und sachgerechte Erledigung der Aufgaben verantworten Verhandlungen mit anderen Gesetzgebern und Vertretern von Interessengruppen zwecks Ausgleich verschiedener Interessen führen, politische Richtlinien formulieren Aktivitäten, Politiken und Praktiken eines Unternehmens oder einer Organisation in den Bereichen Personal- und Arbeitgeber-/Arbeitnehmerbeziehungen planen, leiten und koordinieren"
+    ]
   },
   "narrower": [
     {
@@ -61,6 +63,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -69,8 +72,20 @@
       "@id": "dct:title",
       "@container": "@language"
     },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
@@ -109,11 +124,35 @@
     "definition": {
       "@container": "@language"
     },
-    "scopeNote": {
-      "@container": "@language"
-    },
     "note": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "notation": {
       "@container": "@set"
