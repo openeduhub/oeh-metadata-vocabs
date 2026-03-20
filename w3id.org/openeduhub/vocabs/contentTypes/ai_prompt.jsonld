@@ -9,6 +9,11 @@
     "de": "Ein KI-Prompt ist eine Arbeitsanweisung (Eingabeaufforderung), die generative KI-Systeme (z.B. ChatGPT, Midjourney) anleitet, spezifische Inhalte für Lernzwecke zu generieren, kreative Aufgaben, analytische und adaptive Funktionen zu übernehmen. Bildungs-Prompts können in der Wissensvermittlung, der Verbesserung von Metadaten sowie für Übungen oder kreative Aufgaben eingesetzt werden.",
     "en": "An AI prompt is a work instruction (input prompt) that guides generative AI systems (e.g., ChatGPT, Midjourney) to generate specific content for learning purposes, perform creative tasks, and take on analytical and adaptive functions. Educational prompts can be used in knowledge transfer, metadata improvement, exercises, and creative tasks."
   },
+  "relatedMatch": [
+    {
+      "id": "https://d-nb.info/gnd/1322633797"
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://www.wikidata.org/entity/Q117217619"
@@ -37,6 +42,7 @@
       }
     }
   ],
+  "iconName": "chat",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -45,6 +51,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
     "dc": "http://purl.org/dc/elements/1.1/",
+    "oeh": "http://w3id.org/openeduhub/vocab#",
     "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
@@ -188,6 +195,7 @@
     "url": {
       "@id": "schema:url",
       "@container": "@set"
-    }
+    },
+    "iconName": "oeh:iconName"
   }
 }
