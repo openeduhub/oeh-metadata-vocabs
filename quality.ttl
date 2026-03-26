@@ -25,13 +25,7 @@
     skos:prefLabel "Auffälligkeiten gefunden (Mensch)"@de ;
     skos:definition "Gibt an, dass Auffälligkeiten oder Verstöße bei einer Compliance-Überprüfung durch einen Menschen festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen."@de ;
     skos:definition "Indicates that findings or violations were identified during a compliance check by a human. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."@en ;
-    skos:topConceptOf <> .
-
-<no_human_findings> a skos:Concept ;
-    skos:prefLabel "no findings detected (human)"@en ;
-    skos:prefLabel "keine Auffälligkeiten gefunden (Mensch)"@de ;
-    skos:definition "Gibt an, dass bei einer Compliance-Überprüfung durch einen Menschen keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
-    skos:definition "Indicates that no findings or violations were identified during a compliance check by a human. The subject passed the review without detected issues or concerns."@en ;
+    skos:notation "0" ;
     skos:topConceptOf <> .
 
 <auto_findings> a skos:Concept ;
@@ -39,6 +33,7 @@
     skos:prefLabel "Auffälligkeiten gefunden (Maschine)"@de ;
     skos:definition "Gibt an, dass Auffälligkeiten oder Verstöße bei einer maschinellen Compliance-Überprüfung festgestellt wurden. Dies kann behördliche Bedenken, rechtliche Probleme oder andere Nichtkonformitäten umfassen, die weiterer Aufmerksamkeit oder Maßnahmen bedürfen."@de ;
     skos:definition "Indicates that findings or violations were identified during an automated compliance check. This may include regulatory concerns, legal issues, or other non-conformities that require further attention or action."@en ;
+    skos:notation "1" ;
     skos:topConceptOf <> .
 
 <no_auto_findings> a skos:Concept ;
@@ -46,4 +41,13 @@
     skos:prefLabel "keine Auffälligkeiten gefunden (Maschine)"@de ;
     skos:definition "Gibt an, dass bei einer maschinellen Compliance-Überprüfung keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
     skos:definition "Indicates that no findings or violations were identified during an automated compliance check. The subject passed the review without detected issues or concerns."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<no_human_findings> a skos:Concept ;
+    skos:prefLabel "no findings detected (human)"@en ;
+    skos:prefLabel "keine Auffälligkeiten gefunden (Mensch)"@de ;
+    skos:definition "Gibt an, dass bei einer Compliance-Überprüfung durch einen Menschen keine Auffälligkeiten oder Verstöße festgestellt wurden. Das Dokument/Objekt hat die Überprüfung ohne erkannte Probleme bestanden."@de ;
+    skos:definition "Indicates that no findings or violations were identified during a compliance check by a human. The subject passed the review without detected issues or concerns."@en ;
+    skos:notation "3" ;
     skos:topConceptOf <> .
