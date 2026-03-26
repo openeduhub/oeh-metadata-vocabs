@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/accessibility_openness/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Offenheit und Zugänglichkeit"@de ;
+    dct:title "Accessibility and Openness"@en ;
+    dct:description "Bewertung der Offenheit und freien Nutzbarkeit einer Lernressource auf einer Skala von 0 (nicht frei nutzbar) bis 5 (komplett offen und frei)."@de ;
+    dct:description "Assessment of the openness and free usability of a learning resource on a scale from 0 (not freely usable) to 5 (completely open and free)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "nicht frei nutzbar"@de ;
+    skos:prefLabel "not freely usable"@en ;
+    skos:definition "Die Ressource ist nicht frei nutzbar und unterliegt restriktiven Nutzungsbedingungen."@de ;
+    skos:definition "The resource is not freely usable and is subject to restrictive terms of use."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ vervielfältigbar, kopierbar"@de ;
+    skos:prefLabel "✰ reproducible, copyable"@en ;
+    skos:definition "Die Ressource darf vervielfältigt und kopiert werden, weitere Nutzungsrechte sind eingeschränkt."@de ;
+    skos:definition "The resource may be reproduced and copied; further usage rights are restricted."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ frei nutzbar, nicht änderbar"@de ;
+    skos:prefLabel "✰✰ freely usable, not modifiable"@en ;
+    skos:definition "Die Ressource ist frei nutzbar, darf jedoch nicht verändert werden."@de ;
+    skos:definition "The resource is freely usable but may not be modified."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ frei nutz- und änderbar (kein Remix)"@de ;
+    skos:prefLabel "✰✰✰ freely usable and modifiable (no remix)"@en ;
+    skos:definition "Die Ressource ist frei nutzbar und änderbar, darf jedoch nicht in einem Remix verwendet werden."@de ;
+    skos:definition "The resource is freely usable and modifiable but may not be used in a remix."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ frei nutz- und änderbar (inkl. Remix)"@de ;
+    skos:prefLabel "✰✰✰✰ freely usable and modifiable (incl. remix)"@en ;
+    skos:definition "Die Ressource ist frei nutzbar, änderbar und darf auch in Remixes verwendet werden."@de ;
+    skos:definition "The resource is freely usable, modifiable, and may also be used in remixes."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ komplett offen & frei"@de ;
+    skos:prefLabel "✰✰✰✰✰ completely open & free"@en ;
+    skos:definition "Die Ressource ist vollständig offen und frei nutzbar, ohne jegliche Einschränkungen."@de ;
+    skos:definition "The resource is completely open and freely usable without any restrictions."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

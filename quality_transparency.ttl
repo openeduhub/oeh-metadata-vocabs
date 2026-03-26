@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_transparency/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Transparenzqualität"@de ;
+    dct:title "Transparency Quality"@en ;
+    dct:description "Bewertung der Transparenz eines Anbieters auf einer Skala von 0 (keine Angabe oder unseriös) bis 5 (renommierter Anbieter, korrekte Kontaktangaben)."@de ;
+    dct:description "Assessment of provider transparency on a scale from 0 (no information or dubious) to 5 (reputable provider, correct contact details)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "keine Angabe oder unseriös"@de ;
+    skos:prefLabel "no information or dubious"@en ;
+    skos:definition "Der Anbieter macht keine Angaben zu seiner Identität oder wirkt unseriös."@de ;
+    skos:definition "The provider gives no information about their identity or appears dubious."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ Anbieter benannt, keine Kontaktangaben"@de ;
+    skos:prefLabel "✰ provider named, no contact details"@en ;
+    skos:definition "Der Anbieter ist namentlich bekannt, stellt jedoch keine Kontaktangaben bereit."@de ;
+    skos:definition "The provider is named but provides no contact details."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ Anbieter benannt, Kontaktangaben vorhanden"@de ;
+    skos:prefLabel "✰✰ provider named, contact details available"@en ;
+    skos:definition "Der Anbieter ist benannt und stellt grundlegende Kontaktangaben bereit."@de ;
+    skos:definition "The provider is named and provides basic contact details."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ Anbieter benannt, umfangreiche Kontaktangaben"@de ;
+    skos:prefLabel "✰✰✰ provider named, comprehensive contact details"@en ;
+    skos:definition "Der Anbieter ist benannt und stellt umfangreiche Kontaktangaben bereit."@de ;
+    skos:definition "The provider is named and provides comprehensive contact details."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ Anbieter bekannt, umfangreiche Kontaktangaben"@de ;
+    skos:prefLabel "✰✰✰✰ provider well known, comprehensive contact details"@en ;
+    skos:definition "Der Anbieter ist bekannt und stellt umfangreiche Kontaktangaben bereit."@de ;
+    skos:definition "The provider is well known and provides comprehensive contact details."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ renommierter Anbieter, korrekte Kontaktangaben"@de ;
+    skos:prefLabel "✰✰✰✰✰ reputable provider, correct contact details"@en ;
+    skos:definition "Der Anbieter ist renommiert und stellt vollständige, korrekte Kontaktangaben bereit."@de ;
+    skos:definition "The provider is reputable and provides complete, correct contact details."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

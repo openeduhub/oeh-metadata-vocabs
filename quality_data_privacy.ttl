@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_data_privacy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Datenschutzqualität"@de ;
+    dct:title "Data Privacy Quality"@en ;
+    dct:description "Bewertung des Datenschutzverhaltens einer Anwendung oder eines Dienstes auf einer Skala von 0 (heimlich datensaugend) bis 5 (keinerlei Datenweitergabe)."@de ;
+    dct:description "Assessment of the data privacy behaviour of an application or service on a scale from 0 (covertly data-hungry) to 5 (no data sharing whatsoever)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "heimlich unangemessen datensaugend"@de ;
+    skos:prefLabel "covertly and excessively data-hungry"@en ;
+    skos:definition "Der Dienst sammelt heimlich und ohne Wissen der Nutzenden unangemessen viele Daten."@de ;
+    skos:definition "The service covertly collects an excessive amount of data without the users' knowledge."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ intransparent unangemessen viel datensaugend"@de ;
+    skos:prefLabel "✰ intransparent and excessively data-hungry"@en ;
+    skos:definition "Der Dienst sammelt unangemessen viele Daten auf intransparente Weise, ohne die Nutzenden ausreichend zu informieren."@de ;
+    skos:definition "The service collects an excessive amount of data in an intransparent manner without sufficiently informing users."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ intransparent Daten saugend"@de ;
+    skos:prefLabel "✰✰ intransparently data-hungry"@en ;
+    skos:definition "Der Dienst sammelt Daten, informiert die Nutzenden jedoch nicht transparent darüber."@de ;
+    skos:definition "The service collects data but does not inform users about it transparently."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ transparent unangemessen viel datensaugend"@de ;
+    skos:prefLabel "✰✰✰ transparently but excessively data-hungry"@en ;
+    skos:definition "Der Dienst informiert transparent über seine Datenerhebung, sammelt jedoch unangemessen viele Daten."@de ;
+    skos:definition "The service is transparent about its data collection, but collects an excessive amount of data."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ angemessen viele Daten mit Einverständis"@de ;
+    skos:prefLabel "✰✰✰✰ appropriate data collection with consent"@en ;
+    skos:definition "Der Dienst erhebt angemessen viele Daten und holt dafür das Einverständnis der Nutzenden ein."@de ;
+    skos:definition "The service collects an appropriate amount of data and obtains the users' consent to do so."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ keinerlei Datenweitergabe"@de ;
+    skos:prefLabel "✰✰✰✰✰ no data sharing whatsoever"@en ;
+    skos:definition "Der Dienst gibt keinerlei Daten weiter und bietet damit den höchsten Datenschutzstandard."@de ;
+    skos:definition "The service shares no data whatsoever, offering the highest level of data privacy."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

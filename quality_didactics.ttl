@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_didactics/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Didaktische Qualität"@de ;
+    dct:title "Didactic Quality"@en ;
+    dct:description "Bewertung der didaktischen und methodischen Qualität einer Lernressource auf einer Skala von 0 (Methodik unangemessen) bis 5 (moderne, sehr gute Methodik)."@de ;
+    dct:description "Assessment of the didactic and methodological quality of a learning resource on a scale from 0 (inappropriate methodology) to 5 (modern, very good methodology)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "Methodik unangemessen"@de ;
+    skos:prefLabel "inappropriate methodology"@en ;
+    skos:definition "Die eingesetzte Methodik ist unangemessen und unterstützt den Lernprozess nicht."@de ;
+    skos:definition "The methodology used is inappropriate and does not support the learning process."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ Methodik ausreichend"@de ;
+    skos:prefLabel "✰ sufficient methodology"@en ;
+    skos:definition "Die Methodik ist ausreichend, weist jedoch erhebliche Schwächen auf."@de ;
+    skos:definition "The methodology is sufficient but shows significant weaknesses."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ angemessene Methodik"@de ;
+    skos:prefLabel "✰✰ appropriate methodology"@en ;
+    skos:definition "Die Methodik ist angemessen und unterstützt den Lernprozess in ausreichendem Maße."@de ;
+    skos:definition "The methodology is appropriate and sufficiently supports the learning process."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ gute Methodik"@de ;
+    skos:prefLabel "✰✰✰ good methodology"@en ;
+    skos:definition "Die Methodik ist gut und fördert den Lernprozess effektiv."@de ;
+    skos:definition "The methodology is good and effectively promotes the learning process."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ moderne, gute Methodik"@de ;
+    skos:prefLabel "✰✰✰✰ modern, good methodology"@en ;
+    skos:definition "Die Methodik ist modern und gut, setzt aktuelle didaktische Ansätze sinnvoll ein."@de ;
+    skos:definition "The methodology is modern and good, making meaningful use of current didactic approaches."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ moderne, sehr gute Methodik"@de ;
+    skos:prefLabel "✰✰✰✰✰ modern, very good methodology"@en ;
+    skos:definition "Die Methodik ist modern und hervorragend, setzt aktuelle didaktische Ansätze optimal ein und fördert nachhaltiges Lernen."@de ;
+    skos:definition "The methodology is modern and outstanding, optimally applying current didactic approaches and fostering sustainable learning."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

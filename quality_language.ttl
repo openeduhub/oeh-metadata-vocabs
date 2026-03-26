@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_language/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Sprachqualität"@de ;
+    dct:title "Language Quality"@en ;
+    dct:description "Bewertung der sprachlichen Qualität einer Lernressource auf einer Skala von 0 (unangemessen) bis 5 (zielgruppengerechte Sprache)."@de ;
+    dct:description "Assessment of the language quality of a learning resource on a scale from 0 (inappropriate) to 5 (target-group-appropriate language)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "unangemessen"@de ;
+    skos:prefLabel "inappropriate"@en ;
+    skos:definition "Die Sprache ist unangemessen und für die Zielgruppe nicht geeignet."@de ;
+    skos:definition "The language is inappropriate and unsuitable for the target group."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ schwierige Sprache"@de ;
+    skos:prefLabel "✰ difficult language"@en ;
+    skos:definition "Die Sprache ist schwierig und für die Zielgruppe nur schwer verständlich."@de ;
+    skos:definition "The language is difficult and hard to understand for the target group."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ ausreichend verständlich"@de ;
+    skos:prefLabel "✰✰ sufficiently understandable"@en ;
+    skos:definition "Die Sprache ist ausreichend verständlich, lässt jedoch Verbesserungspotenzial."@de ;
+    skos:definition "The language is sufficiently understandable but leaves room for improvement."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ angemessen"@de ;
+    skos:prefLabel "✰✰✰ appropriate"@en ;
+    skos:definition "Die Sprache ist angemessen und für die Zielgruppe gut verständlich."@de ;
+    skos:definition "The language is appropriate and well understandable for the target group."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ leicht verständlich, sprachlich korrekt"@de ;
+    skos:prefLabel "✰✰✰✰ easily understandable, linguistically correct"@en ;
+    skos:definition "Die Sprache ist leicht verständlich und sprachlich korrekt."@de ;
+    skos:definition "The language is easily understandable and linguistically correct."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ Zielgruppengerechte Sprache"@de ;
+    skos:prefLabel "✰✰✰✰✰ target-group-appropriate language"@en ;
+    skos:definition "Die Sprache ist vollständig auf die Zielgruppe abgestimmt, leicht verständlich und sprachlich einwandfrei."@de ;
+    skos:definition "The language is fully adapted to the target group, easily understandable, and linguistically impeccable."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

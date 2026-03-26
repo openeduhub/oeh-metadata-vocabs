@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_media/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Mediale Qualität"@de ;
+    dct:title "Media Quality"@en ;
+    dct:description "Bewertung der medialen Qualität einer Lernressource auf einer Skala von 0 (medial unpassend) bis 5 (medial hervorragend)."@de ;
+    dct:description "Assessment of the media quality of a learning resource on a scale from 0 (medially unsuitable) to 5 (medially outstanding)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "Medial unpassend"@de ;
+    skos:prefLabel "medially unsuitable"@en ;
+    skos:definition "Die Aufbereitung des Inhalts ist medial unpassend und unterstützt das Lernen nicht."@de ;
+    skos:definition "The media presentation of the content is unsuitable and does not support learning."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ Medial schwierig"@de ;
+    skos:prefLabel "✰ medially difficult"@en ;
+    skos:definition "Die mediale Aufbereitung ist schwierig und erschwert die Nutzung der Lernressource."@de ;
+    skos:definition "The media presentation is difficult and hinders the use of the learning resource."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ Medial ausreichend, aber suboptimal"@de ;
+    skos:prefLabel "✰✰ medially sufficient but suboptimal"@en ;
+    skos:definition "Die mediale Aufbereitung ist ausreichend, weist aber deutliche Verbesserungspotenziale auf."@de ;
+    skos:definition "The media presentation is sufficient but shows clear potential for improvement."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ Medial passend"@de ;
+    skos:prefLabel "✰✰✰ medially suitable"@en ;
+    skos:definition "Die mediale Aufbereitung ist passend und unterstützt das Lernen angemessen."@de ;
+    skos:definition "The media presentation is suitable and adequately supports learning."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ Medial gut"@de ;
+    skos:prefLabel "✰✰✰✰ medially good"@en ;
+    skos:definition "Die mediale Aufbereitung ist gut und fördert das Lernen effektiv."@de ;
+    skos:definition "The media presentation is good and effectively promotes learning."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ Medial hervorragend"@de ;
+    skos:prefLabel "✰✰✰✰✰ medially outstanding"@en ;
+    skos:definition "Die mediale Aufbereitung ist hervorragend und unterstützt das Lernen optimal."@de ;
+    skos:definition "The media presentation is outstanding and optimally supports learning."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

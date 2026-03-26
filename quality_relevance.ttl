@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_relevance/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Aktualitätsqualität"@de ;
+    dct:title "Content Relevance Quality"@en ;
+    dct:description "Bewertung der inhaltlichen Aktualität einer Lernressource auf einer Skala von 0 (veralteter Inhalt) bis 5 (hochaktuell/neuester Wissensstand)."@de ;
+    dct:description "Assessment of the content currency of a learning resource on a scale from 0 (outdated content) to 5 (highly current / latest state of knowledge)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "eralteter Inhalt"@de ;
+    skos:prefLabel "outdated content"@en ;
+    skos:definition "Der Inhalt ist veraltet und nicht mehr relevant oder zutreffend."@de ;
+    skos:definition "The content is outdated and no longer relevant or accurate."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ veraltet, aber teils noch relevant"@de ;
+    skos:prefLabel "✰ outdated but partly still relevant"@en ;
+    skos:definition "Der Inhalt ist weitgehend veraltet, enthält aber noch Teile, die weiterhin relevant sind."@de ;
+    skos:definition "The content is largely outdated but still contains parts that remain relevant."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ veraltete Darstellung, inhaltlich noch aktuell"@de ;
+    skos:prefLabel "✰✰ outdated presentation, content still current"@en ;
+    skos:definition "Die Darstellungsform ist veraltet, die inhaltlichen Aussagen sind jedoch noch aktuell und zutreffend."@de ;
+    skos:definition "The presentation is outdated, but the content itself is still current and accurate."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ zeitlos aktuell"@de ;
+    skos:prefLabel "✰✰✰ timelessly current"@en ;
+    skos:definition "Der Inhalt ist zeitlos und bleibt dauerhaft aktuell, unabhängig vom Erscheinungsdatum."@de ;
+    skos:definition "The content is timeless and remains permanently current regardless of its publication date."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ aktueller Wissensstand"@de ;
+    skos:prefLabel "✰✰✰✰ current state of knowledge"@en ;
+    skos:definition "Der Inhalt entspricht dem aktuellen Wissensstand und ist auf dem neueren Stand der Forschung oder Praxis."@de ;
+    skos:definition "The content reflects the current state of knowledge and is aligned with recent research or practice."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ hochaktuell/neuester Wissensstand"@de ;
+    skos:prefLabel "✰✰✰✰✰ highly current / latest state of knowledge"@en ;
+    skos:definition "Der Inhalt ist hochaktuell und entspricht dem neuesten Stand von Forschung, Wissenschaft oder Praxis."@de ;
+    skos:definition "The content is highly current and reflects the very latest state of research, science, or practice."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .

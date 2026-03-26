@@ -1,0 +1,63 @@
+@base <http://w3id.org/openeduhub/vocabs/quality_advertisement/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Werbequalität"@de ;
+    dct:title "Advertisement Quality"@en ;
+    dct:description "Bewertung des Werbeanteils und der Werbeeignung einer Lernressource auf einer Skala von 0 (Inhalt kaum von Werbung unterscheidbar) bis 5 (ohne Werbung)."@de ;
+    dct:description "Assessment of the advertising content and suitability of a learning resource on a scale from 0 (content barely distinguishable from advertising) to 5 (no advertising)."@en ;
+    dct:creator "<https://wirlernenonline.de>" ;
+    dct:created "2026-03-26"^^xsd:date ;
+    dct:modified "2026-03-26"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <0>, <1>, <2>, <3>, <4>, <5> .
+
+<0> a skos:Concept ;
+    skos:prefLabel "Inhalt ist kaum von Werbung unterscheidbar"@de ;
+    skos:prefLabel "content barely distinguishable from advertising"@en ;
+    skos:definition "Der Inhalt ist so stark werblich geprägt, dass er kaum von Werbung zu unterscheiden ist."@de ;
+    skos:definition "The content is so heavily promotional that it is barely distinguishable from advertising."@en ;
+    skos:notation "0" ;
+    skos:topConceptOf <> .
+
+<1> a skos:Concept ;
+    skos:prefLabel "✰ enthält unangemessene störende Werbung"@de ;
+    skos:prefLabel "✰ contains inappropriate and disruptive advertising"@en ;
+    skos:definition "Der Inhalt enthält unangemessene und störende Werbung, die das Lernen beeinträchtigt."@de ;
+    skos:definition "The content contains inappropriate and disruptive advertising that impairs learning."@en ;
+    skos:notation "1" ;
+    skos:topConceptOf <> .
+
+<2> a skos:Concept ;
+    skos:prefLabel "✰✰ enthält störende Werbung"@de ;
+    skos:prefLabel "✰✰ contains disruptive advertising"@en ;
+    skos:definition "Der Inhalt enthält störende Werbung, die das Lernerlebnis negativ beeinflusst."@de ;
+    skos:definition "The content contains disruptive advertising that negatively affects the learning experience."@en ;
+    skos:notation "2" ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:prefLabel "✰✰✰ enthält zurückhaltend Werbung"@de ;
+    skos:prefLabel "✰✰✰ contains restrained advertising"@en ;
+    skos:definition "Der Inhalt enthält Werbung, die jedoch zurückhaltend eingesetzt wird und das Lernen kaum stört."@de ;
+    skos:definition "The content contains advertising, but it is used restrainedly and barely disrupts learning."@en ;
+    skos:notation "3" ;
+    skos:topConceptOf <> .
+
+<4> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰ zurückhaltende für Zielgruppe geeignete Werbung"@de ;
+    skos:prefLabel "✰✰✰✰ restrained advertising suitable for the target group"@en ;
+    skos:definition "Der Inhalt enthält zurückhaltende Werbung, die für die Zielgruppe geeignet ist."@de ;
+    skos:definition "The content contains restrained advertising that is suitable for the target group."@en ;
+    skos:notation "4" ;
+    skos:topConceptOf <> .
+
+<5> a skos:Concept ;
+    skos:prefLabel "✰✰✰✰✰ ohne Werbung"@de ;
+    skos:prefLabel "✰✰✰✰✰ without advertising"@en ;
+    skos:definition "Der Inhalt enthält keinerlei Werbung."@de ;
+    skos:definition "The content contains no advertising whatsoever."@en ;
+    skos:notation "5" ;
+    skos:topConceptOf <> .
