@@ -18,7 +18,7 @@
     dct:created "2026-02-19"^^xsd:date ;
     dct:modified "2026-02-19"^^xsd:date ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <person>, <organization>, <event>, <education_offer>, <learning_material>, <source>, <tool_service>, <didactic_concepts>, <ai_prompt>, <profession> .
+    skos:hasTopConcept <person>, <organization>, <event>, <education_offer>, <learning_material>, <tool_service>, <didactic_concepts>, <ai_prompt>, <profession> .
 
 <person> a skos:Concept ;
     skos:prefLabel "Person"@en ;
@@ -68,14 +68,6 @@
     skos:prefLabel "Bildungsmaterial"@de ;
     skos:definition "Physische und digitale Informations- und Bildungsmaterialien."@de ;
     skos:definition "Physical and digital information and educational materials."@en ;
-    skos:topConceptOf <> .
-
-<source> a skos:Concept ;
-    skos:prefLabel "Source"@en ;
-    skos:prefLabel "Quelle"@de ;
-    skos:definition "Eine Quelle ist ein Angebot eines Anbieters mehrerer fachbezogener Inhalte, für die der Anbieter ein bestimmtes Renommee hat (z.B. ein Youtube-Kanal)."@de ;
-    skos:definition "A source is an offering from a provider of multiple specialized content for which the provider has a certain reputation (e.g., a YouTube channel)."@en ;
-    oeh:iconName "language" ;
     skos:topConceptOf <> .
 
 <tool_service> a skos:Concept ;
