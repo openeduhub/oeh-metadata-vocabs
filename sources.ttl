@@ -363,6 +363,12 @@
     skos:prefLabel "Kunst + Unterricht"@de ;
     sdo:url <https://www.youtube.com/channel/UCPxqEoyZI89LDAB5nQ5Cg3Q/featured> .
 
+<451a67b2-894e-4a19-846b-3e341615f030> a skos:Concept ;
+    skos:notation "oer_berlin_spider"^^xsd:string ;
+    skos:prefLabel "OER Berlin"@de ;
+    skos:topConceptOf <> ;
+    sdo:url <https://repository.oer-berlin.de> .
+
 <452af93f-e392-48db-86b3-8938746f2a35> a skos:Concept ;
     skos:prefLabel "Planet Wissen "@de ;
     skos:topConceptOf <> ;
