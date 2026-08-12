@@ -97,6 +97,14 @@
     oeh:iconName "chat" ;
     skos:topConceptOf <> .
 
+<ai_skill> a skos:Concept ;
+    skos:prefLabel "AI skill"@en ;
+    skos:prefLabel "KI-Skill"@de ;
+    skos:definition "Ein KI-Skill kann zur Steuerung eines LLM-Modells verwendet werden."@de ;
+    skos:definition "An ai skill can be used to control the behaviour of a llm model."@en ;
+    oeh:iconName "chat" ;
+    skos:topConceptOf <> .
+
 <profession> a skos:Concept ;
     skos:prefLabel "Profession"@en ;
     skos:prefLabel "Beruf"@de ;
